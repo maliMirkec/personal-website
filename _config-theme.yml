@@ -1,0 +1,55 @@
+nav:
+  Home: /
+  Blog: /archives/
+  About: /about-me/
+
+projects_url: http://github.com/gabithume
+
+customize:
+    gravatar:
+        email: malimirkeccita@gmail.com
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /gfx/logo.png
+        gravatar: false
+    favicon:
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: 
+        gravatar: true
+      android:
+        url: 
+        gravator: true
+      apple:
+        url: 
+        gravator: true
+    social_links:
+        envelope: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+        twitter: https://twitter.com/malimirkeccita
+        linkedin: https://www.linkedin.com/in/starbist/
+        facebook: https://www.facebook.com/silvestarbistrovic.from.hr/
+        medium: https://medium.com/@malimirkeccita
+        github: https://github.com/maliMirkec
+        codepen: https://codepen.io/CiTA/
+        lastfm: https://www.last.fm/user/maliMirkec
+    show_all_posts: true
+    post_count: 10
+    highlight: monokai
+
+# RSS
+rss: false
+
+# Plugins
+plugins:
+    disqus_shortname: starbist
+    google_analytics: UA-37881833-5 # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id: silvestarbistrovic.from.hr
+        fb_admins: malimirkeccita
+        twitter_id: malimirkeccita
+        google_plus:
