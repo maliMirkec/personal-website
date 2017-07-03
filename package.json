@@ -1,13 +1,12 @@
 {
   "name": "hexo-site",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "hexo": {
     "version": "3.3.7"
   },
   "scripts":{
-    "copy_theme_config": "cp _config-theme.yml themes/cactus-light/_config.yml",
-    "deploy" : "hexo generate && npm run copy_theme_config"
+    "deploy" : "hexo generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",
