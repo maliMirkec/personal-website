@@ -1,12 +1,13 @@
 {
   "name": "hexo-site",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": true,
   "hexo": {
     "version": "3.3.7"
   },
   "scripts": {
-    "deploy": "hexo generate"
+    "cp_redirects": "cp source/_redirects public/_redirects",
+    "deploy": "hexo generate && npm run cp_redirects"
   },
   "dependencies": {
     "hexo": "^3.2.0",
