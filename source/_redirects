@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
 
-/en/articles/css-tabs-part-ii-accessibility/ /articles/css-tabs-part-ii-accessibility/ 301
+/en/* /:splat 301
+/hr/* /:splat 301
