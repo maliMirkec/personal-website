@@ -1,0 +1,8 @@
+<% if(page.posts) { %>
+  <div class="article-list">
+    <% page.posts.each(function(item){ %>
+      <%- partial('article/list', {item: item}) %>
+    <% }); %>
+    <%- partial('article/pagination') %>
+  </div>
+<% } %>

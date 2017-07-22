@@ -7,9 +7,13 @@ id: 5
 categories:
   - Blog
 date: 2016-10-02 07:14:39
+comments: true
+thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509314/How-to-lint-inside-Atom_mmlauz.png
 ---
 
 Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
+
+<!-- more -->
 
 ## What is linter?
 

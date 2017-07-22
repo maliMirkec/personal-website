@@ -1,0 +1,196 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul:not([class]),
+ol:not([class]),
+iframe,
+code,
+figure,
+table {
+  line-height: 1.5;
+  margin-bottom: 0.88889em; }
+h1 {
+  font-size: 2.02729em; }
+h2 {
+  font-size: 1.80203em; }
+h3 {
+  font-size: 1.60181em; }
+h4 {
+  font-size: 1.42383em; }
+h5 {
+  font-size: 1.26562em; }
+h6 {
+  font-size: 1.125em; }
+p,
+ul:not([class]),
+ol:not([class]),
+iframe {
+  font-size: 1em; }
+code,
+figure,
+table {
+  font-size: 0.88889em; }
+body {
+  font-size: 13px;
+  color: #232323;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto auto;
+  overflow-x: hidden; }
+.main {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+.header {
+  padding: 6px;
+  background-image: radial-gradient(circle at center bottom, rgba(236, 50, 17, 0.67), rgba(224, 18, 88, 0.67)); }
+.header__list {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(auto, 0.5fr)); }
+.header__item--logo {
+  z-index: 1;
+  grid-area: 1 / 1 / 2 / 3; }
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.header__link {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding-bottom: 3px;
+  text-shadow: 0 1px 0 #e01258;
+  position: relative;
+  overflow: hidden; }
+.header__link--logo {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 6px; }
+.header__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.banner {
+  font-size: 0.88889em; }
+.banner--top {
+  background-image: radial-gradient(circle at center top, rgba(236, 50, 17, 0.56), rgba(224, 18, 88, 0.56)); }
+.banner__content {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: grid; }
+.banner__info {
+  padding: 6px 0;
+  margin-bottom: 0;
+  color: #fff;
+  text-shadow: 0 1px 0 #ec3211; }
+.banner__link {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 3px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background-color: rgba(224, 18, 88, 0.5);
+  color: #fff;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: background-color .18s ease-in-out, color .18s ease-in-out; }
+.archive__title {
+  font-size: 1.60181em;
+  color: #e01258; }
+  .article__item:not(:last-of-type) {
+    margin-bottom: 36px; }
+.article__content,
+.article__footer {
+  margin-top: 18px; }
+.article__title {
+  font-size: 1.60181em;
+  color: #ec3211;
+  transition: color .15s ease-in-out; }
+.article__title--list {
+  margin-bottom: 18px; }
+.article__title--post {
+  margin-bottom: 24px; }
+.article__title-link {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit; }
+.article__details {
+  display: grid; }
+.article__meta {
+  font-size: 0.79012em; }
+.article__meta-item {
+  display: inline-block;
+  background-image: radial-gradient(circle at top left, rgba(224, 18, 88, 0.9), rgba(236, 50, 17, 0.9));
+  padding: 1px;
+  border-radius: 3px; }
+.article__meta-inner {
+  display: block;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #e01258; }
+.article__link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.88889em;
+  background-image: radial-gradient(circle at center left, rgba(224, 18, 88, 0.67), rgba(236, 50, 17, 0.67));
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 3px;
+  transition: background-color .15s ease-in-out; }
+.article__details,
+.article__title--post { }
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.88889em; }
+a:not([class]) {
+  text-decoration: none;
+  display: inline;
+  padding: 1px;
+  color: #ec3211;
+  border-radius: 2px;
+  transition: background-color .18s ease-in-out, color .18s ease-in-out; }
+a[href*=".gif"],
+a[href*=".png"],
+a[href*=".jpg"],
+a[href*=".jpeg"] {
+  display: block;
+  text-align: center;
+  padding: 0; }
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+.font-awesome {
+  height: 15px;
+  width: 15px;
+  margin-left: auto; }

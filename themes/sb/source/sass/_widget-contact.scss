@@ -1,0 +1,44 @@
+.widget-contact {
+  @include wrapper;
+  @include list-reset;
+  padding: 3px;
+  display: grid;
+
+  @include mq($from: mobile) {
+    grid-template-columns: repeat(4, minmax(25%, 1fr));
+  }
+}
+
+.widget-contact__link {
+  @include link-reset(block);
+  font-size: ms(-2);
+  padding: 9px 3px;
+  color: $white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 6px;
+  transition: background-color .15s ease-in-out .03s;
+}
+
+.font-awesome {
+  critical: this;
+  height: 15px;
+  width: 15px;
+  margin-left: auto;
+
+  path {
+    fill: $white;
+  }
+}
+
+@each $social-name, $social-color in $social-icons {
+  .widget-contact__link--#{$social-name} {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $social-color;
+    }
+  }
+}

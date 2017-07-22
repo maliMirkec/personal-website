@@ -1,0 +1,119 @@
+.archive__title {
+  critical: this;
+  @include border-bottom;
+  font-size: ms(4);
+  color: $color1;
+}
+
+.article__item {
+  padding-left: 6px;
+  padding-right: 6px;
+
+  &:not(:last-of-type) {
+    critical: this;
+    @include border-bottom(36px);
+    margin-bottom: 36px;
+  }
+}
+
+.article__content,
+.article__footer {
+  critical: this;
+  margin-top: 18px;
+}
+
+.article__title {
+  critical: this;
+  font-size: ms(4);
+  color: $color2;
+  transition: color .15s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color1;
+  }
+}
+
+.article__title--list {
+  critical: this;
+  margin-bottom: 18px;
+}
+
+.article__title--post {
+  critical: this;
+  margin-bottom: 24px;
+}
+
+.article__title-link {
+  critical: this;
+  @include link-reset;
+  color: inherit;
+}
+
+.article__details {
+  critical: this;
+  display: grid;
+
+  @include mq($from: mobile) {
+    grid-template-columns: auto auto;
+    grid-column-gap: 6px;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+.article__meta {
+  critical: this;
+  font-size: ms(-2);
+
+  @include mq($until: mobile) {
+    margin-bottom: 6px;
+  }
+}
+
+.article__meta-item {
+  critical: this;
+  display: inline-block;
+  background-image: radial-gradient(circle at top left, transparentize($color1, .1), transparentize($color2, .1));
+  padding: 1px;
+  border-radius: 3px;
+}
+
+.article__meta-inner {
+  critical: this;
+  display: block;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: $white;
+  color: $color1;
+}
+
+.article__link {
+  critical: this;
+  @include link-reset;
+  font-size: ms(-1);
+  background-image: radial-gradient(circle at center left, transparentize($color1, .33), transparentize($color2, .33));
+  color: $white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  transition: background-color .15s ease-in-out;
+
+  &::after {
+    content: "⇢";
+    margin-left: 3px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: $color1;
+  }
+}
+
+.article__details,
+.article__title--post {
+  critical: this;
+  @include border-bottom;
+}

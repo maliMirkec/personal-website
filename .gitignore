@@ -3,5 +3,6 @@ Thumbs.db
 db.json
 *.log
 node_modules/
+themes/sb/node_modules/
 public/
 .deploy*/

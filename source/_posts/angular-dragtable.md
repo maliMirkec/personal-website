@@ -6,6 +6,8 @@ id: 11
 categories:
   - Blog
 date: 2017-02-03 12:41:54
+comment: true
+thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509175/Angular-dragtable_zfatnn.png
 ---
 
 **Angular dragtable** is an Angular directive that allows table column reorder.
@@ -14,6 +16,8 @@ I've been searching for a similar solution, including JavaScript libraries, j
 
 The package is available [here](https://github.com/maliMirkec/angular-dragtable).
 And the demo is available [here.](https://frontend-developer.xyz/angular-dragtable/)
+
+<!-- more -->
 
 ## Angular dragtable events
 
