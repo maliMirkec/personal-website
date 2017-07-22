@@ -8,11 +8,15 @@ id: 8
 categories:
   - Blog
 date: 2016-11-01 08:39:30
+comments: true
+thumbnail: http://res.cloudinary.com/starbist/image/upload/v1500706307/CSS-Tabs-part-II-Accessibility_hyc6zh.png
 ---
 
 Recently I've been writing about [CSS tabs](https://silvestarbistrovic.from.hr/en/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.
 
 What was even more surprising were comments about accessibility. Although my initial idea was to present just a CSS technique for tabs, I decided to investigate a little bit more and add accessibility to my solution.
+
+<!-- more -->
 
 ## Existing solutions
 

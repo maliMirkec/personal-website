@@ -1,0 +1,12 @@
+<% if (theme.site.logo) { %>
+  <li class="header__item header__item--logo">
+    <a class="header__link header__link--logo" href="/" title="Home">
+      <%- image_tag(theme.site.logo, {
+        alt: 'Logo',
+        class: 'header__image',
+        width: '50px',
+        height: '50px'
+      }) %>
+    </a>
+  </li>
+<% } %>

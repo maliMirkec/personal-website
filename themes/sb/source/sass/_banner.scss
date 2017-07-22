@@ -1,0 +1,58 @@
+.banner {
+  critical: this;
+  font-size: ms(-1);
+}
+
+.banner--top {
+  critical: this;
+  background-image: radial-gradient(circle at center top, transparentize($color2, .44), transparentize($color1, .44));
+}
+
+.banner--bottom {
+  background-image: radial-gradient(circle at center bottom, transparentize($color1, .44), transparentize($color2, .44));
+}
+
+.banner__content {
+  critical: this;
+  @include wrapper;
+  display: grid;
+
+  @include mq($from: mobile) {
+    grid-gap: 72px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include mq($until: mobile) {
+    text-align: center;
+  }
+}
+
+.banner__info {
+  critical: this;
+  padding: 6px 0;
+  margin-bottom: 0;
+  color: $white;
+  text-shadow: 0 1px 0 $color2;
+}
+
+.banner__link {
+  critical: this;
+  @include link-reset(inline-block);
+  margin-top: 3px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background-color: transparentize($color1, .5);
+  color: $white;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: background-color .18s ease-in-out, color .18s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    color: $color1;
+  }
+}

@@ -7,6 +7,8 @@ id: 2
 categories:
   - Blog
 date: 2016-08-22 20:21:37
+comments: true
+thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509322/Github-Atom-Git-packages_dxonzr.png
 ---
 
 Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
@@ -17,6 +19,8 @@ Atom community provides us with plenty of [Git packages](https://atom.io/packag
 *   **[tree-view-git-status](https://atom.io/packages/tree-view-git-status)**
 *   **[git-history](https://atom.io/packages/git-history)**
 *   **[git-log](https://atom.io/packages/git-log)**
+
+<!-- more -->
 
 ## git-plus
 

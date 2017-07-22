@@ -6,11 +6,15 @@ id: 9
 categories:
   - Blog
 date: 2016-11-30 20:33:06
+comments: true
+thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509214/How-to-automate-development-with-Atom_ycu82l.png
 ---
 
 We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
 
 In this post I'll show you how to automate development process using only Atom packages.
+
+<!-- more -->
 
 ## Manual tasks
 

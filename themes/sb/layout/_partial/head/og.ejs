@@ -1,0 +1,11 @@
+<%
+var ogUrl = theme.open_graph.pretty_url ? url.replace('/index.html', '') : url;
+%>
+<%- open_graph({
+  url: ogUrl,
+  image: theme.open_graph.image,
+  fb_app_id: theme.open_graph.fb_app_id,
+  fb_admins: theme.open_graph.fb_admins,
+  twitter_id: theme.open_graph.twitter_id,
+  google_plus: theme.open_graph.google_plus
+}) %>

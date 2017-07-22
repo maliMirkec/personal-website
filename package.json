@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "private": true,
   "hexo": {
-    "version": "3.3.7"
+    "version": "3.3.8"
   },
   "scripts": {
     "cp_redirects": "cp source/_redirects public/_redirects",
@@ -16,6 +16,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-helper-inline-svg": "^1.1.1",
     "hexo-migrator-wordpress": "^0.1.2",
     "hexo-pagination": "^0.1.0",
     "hexo-renderer-ejs": "^0.2.0",

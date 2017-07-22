@@ -1,0 +1,83 @@
+@import "./node_modules/sass-mq/mq";
+@import "./node_modules/modularscale-sass/stylesheets/modularscale";
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value) {
+
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
+
+  @media screen and (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(#{em($min-value)} + #{strip-unit($max-value - $min-value)} * (100vw - #{em($min-vw)}) / #{strip-unit($max-vw - $min-vw)});
+    }
+  }
+
+  @media screen and (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
+}
+
+@mixin wrapper($w: 652px) {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+  @include mq($from: desktop) {
+    width: $w;
+  }
+
+  @include mq($until: desktop) {
+    overflow: hidden;
+  }
+}
+
+@mixin list-reset {
+  list-style: none;
+}
+
+@mixin link-reset($d: inline-block) {
+  text-decoration: none;
+  display: $d;
+}
+
+@mixin border-bottom($mt: 24px, $w: 100px) {
+  &::after {
+    content: "";
+    display: block;
+    max-width: 100%;
+    width: $w;
+    height: 2px;
+    margin-top: $mt;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+  }
+}
+
+@mixin border-left($pl: 24px) {
+  padding-left: $pl;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    width: 2px;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+  }
+}

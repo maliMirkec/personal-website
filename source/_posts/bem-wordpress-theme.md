@@ -8,6 +8,7 @@ categories:
   - Blog
 date: 2017-05-27 07:39:05
 comments: true
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1500724346/bem-Wordpress-theme-with-BEM-methodology_myadk9.png
 ---
 
 **[BEM](https://en.bem.info/)** is great. It is simple, yet powerful. If you're not familiar with it, I highly recommend reading [this article](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts.
@@ -17,6 +18,8 @@ In short, it is a `CSS` naming convention methodology. It stands for: _block, el
 [Wordpress](https://wordpress.org/) is great, too. It is an open source blog tool and a publishing platform and content management system.
 
 This is a post about building custom Wordpress theme with BEM naming methodology. [Check it out](https://github.com/maliMirkec/_bem)!
+
+<!-- more -->
 
 ## Starter template
 
@@ -76,10 +79,11 @@ Another example of how difficult it is to add classes to post navigation links.
   *
   * @package _bem
   */
-
 add_filter( 'next_post_link', '_bem_next_post_link' );
 add_filter( 'previous_post_link', '_bem_previous_post_link' );
+{% endcodeblock %}
 
+{% codeblock lang:php %}
 /**
   * Custom next post link
   *
@@ -88,7 +92,9 @@ add_filter( 'previous_post_link', '_bem_previous_post_link' );
 function _bem_next_post_link( $format ) {
   return str_replace( 'href=', 'class="**_post-navigation__link _post-navigation__link--next**" href=', $format );
 }
+{% endcodeblock %}
 
+{% codeblock lang:php %}
 /**
   * Custom previous post link
   *
