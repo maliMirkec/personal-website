@@ -1,8 +1,8 @@
 ---
 title: Portfolio
 id: 1163
-comment: false
 date: 2017-06-01 14:26:41
+comments: false
 ---
 
 If you like my work, want to hire me or need help on a project, please feel free to [contact me](mailto:me@silvestarbistrovic.from.hr?subject=Hello)!
