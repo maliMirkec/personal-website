@@ -1,32 +1,64 @@
 .widget-contact {
   @include wrapper;
   @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   padding: 3px;
-  display: grid;
 
   @include mq($from: mobile) {
-    grid-template-columns: repeat(4, minmax(25%, 1fr));
+    flex-direction: row;
+  }
+
+  @supports (display: grid) {
+    display: grid;
+
+    @include mq($from: mobile) {
+      grid-template-columns: repeat(4, minmax(25%, 1fr));
+    }
+  }
+}
+
+.widget-contact__item {
+  flex: 0 0 auto;
+  width: 100%;
+
+  @include mq($from: mobile) {
+    width: 25%;
   }
 }
 
 .widget-contact__link {
   @include link-reset(block);
+  width: 100%;
   font-size: ms(-2);
   padding: 9px 3px;
   color: $white;
-  display: grid;
+  transition: background-color .15s ease-in-out .03s;
+  display: flex;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 6px;
-  transition: background-color .15s ease-in-out .03s;
+
+  @supports (display: grid) {
+    @include mq($from: mobile) {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 6px;
+    }
+  }
 }
 
 .font-awesome {
   critical: this;
   height: 15px;
   width: 15px;
-  margin-left: auto;
+  margin-right: 6px;
+
+  @supports (display: grid) {
+    @include mq($from: mobile) {
+      margin-left: auto;
+    }
+  }
 
   path {
     fill: $white;

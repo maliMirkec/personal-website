@@ -53,13 +53,20 @@
 
 .article__details {
   critical: this;
-  display: grid;
+  align-items: baseline;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 
-  @include mq($from: mobile) {
-    grid-template-columns: auto auto;
-    grid-column-gap: 6px;
-    align-items: baseline;
-    justify-content: space-between;
+  @supports (display: grid) {
+    critical: this;
+    display: grid;
+
+    @include mq($from: mobile) {
+      critical: this;
+      grid-template-columns: auto auto;
+      grid-column-gap: 6px;
+    }
   }
 }
 
@@ -112,7 +119,7 @@
   }
 }
 
-.article__details,
+.article__header--post,
 .article__title--post {
   critical: this;
   @include border-bottom;

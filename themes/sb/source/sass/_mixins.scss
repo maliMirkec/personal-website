@@ -9,19 +9,30 @@
   @return #{$pixels/$context}em;
 }
 
-@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value) {
+@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value, $critical: 'false') {
+  @if $critical == 'true' {
+    critical: this;
+  }
 
   @each $property in $properties {
     #{$property}: $min-value;
   }
 
   @media screen and (min-width: $min-vw) {
+    @if $critical == 'true' {
+      critical: this;
+    }
+
     @each $property in $properties {
       #{$property}: calc(#{em($min-value)} + #{strip-unit($max-value - $min-value)} * (100vw - #{em($min-vw)}) / #{strip-unit($max-vw - $min-vw)});
     }
   }
 
   @media screen and (min-width: $max-vw) {
+    @if $critical == 'true' {
+      critical: this;
+    }
+
     @each $property in $properties {
       #{$property}: $max-value;
     }
@@ -29,6 +40,7 @@
 }
 
 @mixin wrapper($w: 652px) {
+  display: block;
   padding-left: 6px;
   padding-right: 6px;
   margin-left: auto;

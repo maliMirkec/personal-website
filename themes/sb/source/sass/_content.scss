@@ -24,10 +24,12 @@ a:not([class]) {
   }
 
   &#more {
+    critical: this;
     display: none;
   }
 
   @include mq($until: mobile) {
+    critical: this;
     word-break: break-all;
   }
 }
@@ -120,5 +122,3 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
-// rwd
