@@ -15,17 +15,31 @@
 .banner__content {
   critical: this;
   @include wrapper;
-  display: grid;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
   @include mq($from: mobile) {
-    grid-gap: 72px;
-    grid-template-columns: auto auto;
+    critical: this;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
 
   @include mq($until: mobile) {
+    critical: this;
     text-align: center;
+  }
+
+  @supports (display: grid) {
+    critical: this;
+    display: grid;
+
+    @include mq($from: mobile) {
+      critical: this;
+      grid-gap: 72px;
+      grid-template-columns: auto auto;
+    }
   }
 }
 
@@ -35,12 +49,19 @@
   margin-bottom: 0;
   color: $white;
   text-shadow: 0 1px 0 $color2;
+
+  @include mq($until: mobile) {
+    critical: this;
+    flex: 1 1 auto;
+    width: 100%;
+  }
 }
 
 .banner__link {
   critical: this;
   @include link-reset(inline-block);
   margin-top: 3px;
+  margin-bottom: 3px;
   padding: 3px 6px;
   border-radius: 2px;
   background-color: transparentize($color1, .5);
