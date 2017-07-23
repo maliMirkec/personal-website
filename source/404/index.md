@@ -1,6 +1,7 @@
 ---
 title: 404
 date: 2017-07-03 11:26:17
+comments: false
 ---
 
 # Oops! That page can’t be found.
