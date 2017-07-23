@@ -40,6 +40,7 @@
 }
 
 @mixin wrapper($w: 652px) {
+  critical: this;
   display: block;
   padding-left: 6px;
   padding-right: 6px;
@@ -48,10 +49,12 @@
   max-width: 100%;
 
   @include mq($from: desktop) {
+    critical: this;
     width: $w;
   }
 
   @include mq($until: desktop) {
+    critical: this;
     overflow: hidden;
   }
 }
@@ -67,6 +70,7 @@
 
 @mixin border-bottom($mt: 24px, $w: 100px) {
   &::after {
+    critical: this;
     content: "";
     display: block;
     max-width: 100%;
