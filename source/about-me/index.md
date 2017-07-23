@@ -1,7 +1,7 @@
 ---
 title: About me
 id: 79
-comment: false
+comments: false
 date: 2016-08-14 08:17:36
 ---
 

@@ -7,7 +7,7 @@ categories:
   - Blog
 date: 2017-01-07 21:54:57
 comments: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509178/Recursively-includible-Angular-directive_wu42od.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509178/Recursively-includible-Angular-directive_wu42od.png
 ---
 
 I've been working on a complex Angular [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)-ish project recently and one of the requirements was to create a form based on an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) model. This model was not definite and could vary depending on many parameters in the application. As a result, I've created a directive that could generate a form for every complex model. Final code is available on [Github repository](https://github.com/maliMirkec/angular-repeater) and it's called **angular-repeater**. Demo is available [here](https://frontend-developer.xyz/angular-repeater/).
@@ -22,11 +22,11 @@ Sometimes the amount of new frontend technologies feels really [overwhelming to 
 
 Let's go back to the code. Even better, let's consider model examples for this task:
 
-[![First model for angular repeater](http://res.cloudinary.com/starbist/image/upload/v1497509186/first-model-for-angular-repeater_hziwff.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy.json)
+[![First model for angular repeater](//res.cloudinary.com/starbist/image/upload/v1497509186/first-model-for-angular-repeater_hziwff.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy.json)
 
-[![Second model for angular repeater](http://res.cloudinary.com/starbist/image/upload/v1497509185/second-model-for-angular-repeater_n1ivwv.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy2.json)
+[![Second model for angular repeater](//res.cloudinary.com/starbist/image/upload/v1497509185/second-model-for-angular-repeater_n1ivwv.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy2.json)
 
-[![Third model for angular repeater](http://res.cloudinary.com/starbist/image/upload/v1497509183/third-model-for-angular-repeater_oydtsp.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy3.json)
+[![Third model for angular repeater](//res.cloudinary.com/starbist/image/upload/v1497509183/third-model-for-angular-repeater_oydtsp.png)](https://github.com/maliMirkec/angular-repeater/blob/master/demo/data/dummy3.json)
 
 These models contain typical types of data:
 
@@ -42,7 +42,7 @@ Since we need to iterate through these models to display labels and inputs, we s
 
 The solution lies in **recursion**. It is a programming principle when a function calls itself. In our case, we'll use a **recursive-repeater** directive that will call itself.
 
-[![Template for angular repeater](http://res.cloudinary.com/starbist/image/upload/v1497509180/angular-repeater-template_yijyc6.png)](https://github.com/maliMirkec/angular-repeater/blob/master/templates/repeater.html)
+[![Template for angular repeater](//res.cloudinary.com/starbist/image/upload/v1497509180/angular-repeater-template_yijyc6.png)](https://github.com/maliMirkec/angular-repeater/blob/master/templates/repeater.html)
 
 _For now, ignore IsObject() and IsNumber() functions._
 
@@ -54,7 +54,7 @@ The solution is [Mark Lagendijk's RecursionHelper service](https://github.com/ma
 
 I've already included this awesome service in **recursive-repeater** directive, like this:
 
-[![Angular repeater directive](http://res.cloudinary.com/starbist/image/upload/v1497509178/angular-repeater-directive_btoj5w.png)](https://github.com/maliMirkec/angular-repeater/blob/master/angular-repeater.js)
+[![Angular repeater directive](//res.cloudinary.com/starbist/image/upload/v1497509178/angular-repeater-directive_btoj5w.png)](https://github.com/maliMirkec/angular-repeater/blob/master/angular-repeater.js)
 
 As you could see, we're not using **link** property when defining directive, we are using **compile** instead.
 

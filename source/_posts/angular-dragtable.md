@@ -7,7 +7,7 @@ categories:
   - Blog
 date: 2017-02-03 12:41:54
 comment: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509175/Angular-dragtable_zfatnn.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509175/Angular-dragtable_zfatnn.png
 ---
 
 **Angular dragtable** is an Angular directive that allows table column reorder.

@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-10-02 07:14:39
 comments: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509314/How-to-lint-inside-Atom_mmlauz.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509314/How-to-lint-inside-Atom_mmlauz.png
 ---
 
 Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
@@ -43,7 +43,7 @@ This settings should turn on **linter** errors in Atom, so you could fix the pro
 
 You can see full configuration of my **linter** package here:
 
-[![linter settings](http://res.cloudinary.com/starbist/image/upload/v1497509500/linter-settings-full_nbolhs.png)](http://res.cloudinary.com/starbist/image/upload/v1497509500/linter-settings-full_nbolhs.png)
+[![linter settings](//res.cloudinary.com/starbist/image/upload/v1497509500/linter-settings-full_nbolhs.png)](//res.cloudinary.com/starbist/image/upload/v1497509500/linter-settings-full_nbolhs.png)
 
 Basic **linter** is installed and configured, now we need actual linter plugins for specific programming languages. There are many plugins available, full list is available [here](http://atomlinter.github.io/). Because I'm a frontend developer, I'll show you how to install linters for `CSS` and `JavaScript`.
 
@@ -51,23 +51,23 @@ Basic **linter** is installed and configured, now we need actual linter plugins 
 
 One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https://atom.io/packages/linter-jshint)**. It is an interface for [JSHint](http://jshint.com/), a tool that helps to detect errors and potential problems in your `JavaScript` code. Installation could be done via Atom package manager. There are few configuration options. The most important is to provide of executable `jshint` node script. Here are my settings:
 
-[![linter-jshint settings](http://res.cloudinary.com/starbist/image/upload/v1497509331/linter-jshint-settings_h5zv2y.png)](http://res.cloudinary.com/starbist/image/upload/v1497509331/linter-jshint-settings_h5zv2y.png)
+[![linter-jshint settings](//res.cloudinary.com/starbist/image/upload/v1497509331/linter-jshint-settings_h5zv2y.png)](//res.cloudinary.com/starbist/image/upload/v1497509331/linter-jshint-settings_h5zv2y.png)
 
 ### CSS linter
 
 [**linter-stylelint**](https://atom.io/packages/linter-stylelint) is an interface for [stylelint](http://stylelint.io/), CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets. It is available on Atom package manager and it has only 3 configuration options. Here you can see my** linter-stylelint** configuration:
 
-[![linter-stylelint settings](http://res.cloudinary.com/starbist/image/upload/v1497509329/linter-stylelint-settings_dnig5o.png)](http://res.cloudinary.com/starbist/image/upload/v1497509329/linter-stylelint-settings_dnig5o.png)
+[![linter-stylelint settings](//res.cloudinary.com/starbist/image/upload/v1497509329/linter-stylelint-settings_dnig5o.png)](//res.cloudinary.com/starbist/image/upload/v1497509329/linter-stylelint-settings_dnig5o.png)
 
 ## How to use it?
 
 To see **linter-jshint** in action, open any `JavaScript` file and see if any errors exists. You could see errors in different places, depending on your main **linter** package configuration.
 
-[![linter-jshint in action](http://res.cloudinary.com/starbist/image/upload/v1497509498/linter-jshint_zhwy7k.png)](http://res.cloudinary.com/starbist/image/upload/v1497509498/linter-jshint_zhwy7k.png)
+[![linter-jshint in action](//res.cloudinary.com/starbist/image/upload/v1497509498/linter-jshint_zhwy7k.png)](//res.cloudinary.com/starbist/image/upload/v1497509498/linter-jshint_zhwy7k.png)
 
 You could see `CSS` lint errors by opening and `CSS` file.
 
-[![linter-stylelint in action](http://res.cloudinary.com/starbist/image/upload/v1497509328/linter-stylelint_uzvqwj.png)](http://res.cloudinary.com/starbist/image/upload/v1497509328/linter-stylelint_uzvqwj.png)
+[![linter-stylelint in action](//res.cloudinary.com/starbist/image/upload/v1497509328/linter-stylelint_uzvqwj.png)](//res.cloudinary.com/starbist/image/upload/v1497509328/linter-stylelint_uzvqwj.png)
 
 In the examples above you could see that errors are displayed on 4 different places:
 

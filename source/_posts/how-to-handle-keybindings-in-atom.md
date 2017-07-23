@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-10-15 16:41:54
 comments: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509310/How-to-handle-keybindings-in-Atom_qj3djx.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509310/How-to-handle-keybindings-in-Atom_qj3djx.png
 ---
 
 In [recent articles about Atom](https://silvestarbistrovic.from.hr/en/tag/atom/), I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
@@ -34,7 +34,7 @@ We need to fix this. First step is to find out which command is currently used. 
 
 Go on and search `ctrl-up` to see all related commands.
 
-[![Keybindings settings](http://res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)](http://res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)
+[![Keybindings settings](//res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)](//res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)
 
 Let say we couldn't determine which command should we remove or update. What to do then?
 
@@ -42,7 +42,7 @@ In this case you should use [keybinding-resolver](https://atom.io/packages/keybi
 
 Now try to press `ctrl-up` and see what happens. **keybinding-resolver** shows us which command is used in what order. In our case, we could see that `editor:move-line-up` command is the first in line. We'll should remove it.
 
-[![keybindings-resolver in action](http://res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)](http://res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)
+[![keybindings-resolver in action](//res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)](//res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)
 
 ## How to remove keybindings?
 
@@ -50,17 +50,17 @@ When multiple commands for the same keybinding exist, we need to remove ones tha
 
 Paste the copied keybinding command. You should see the command selector and keybinding command.
 
-[![Keybindings keymap copy command](http://res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)](http://res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)
+[![Keybindings keymap copy command](//res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)](//res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)
 
 To remove the keybinding, use "unset!" command.
 
-[![Keybindings keymap unset command](http://res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)](http://res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)
+[![Keybindings keymap unset command](//res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)](//res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)
 
 ## How to use custom keybindings?
 
 So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:
 
-[![Keybindings keymap replace command](http://res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)](http://res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)
+[![Keybindings keymap replace command](//res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)](//res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)
 
 Now we could use `ctrl-up` to increment number by 1.
 

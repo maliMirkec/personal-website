@@ -7,7 +7,7 @@ categories:
   - Blog
 date: 2016-11-30 20:33:06
 comments: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509214/How-to-automate-development-with-Atom_ycu82l.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509214/How-to-automate-development-with-Atom_ycu82l.png
 ---
 
 We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
@@ -80,7 +80,7 @@ We should see a new dock with 3 main sections:
 
 If we want to run a task, we could click it from task list. On the right side we could see a console output for these task. It is very useful when debugging invalid or failed task. Alternatively, we could write the name of the task inside input field and then press _Enter_.
 
-[![gulp-manager in action](http://res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)](http://res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)
+[![gulp-manager in action](//res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)](//res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)
 
 Our files are now compressed and tasks are run from Atom. We don't need a console anymore.
 

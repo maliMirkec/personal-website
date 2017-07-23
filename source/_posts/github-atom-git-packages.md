@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-08-22 20:21:37
 comments: true
-thumbnail: http://res.cloudinary.com/starbist/image/upload/v1497509322/Github-Atom-Git-packages_dxonzr.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509322/Github-Atom-Git-packages_dxonzr.png
 ---
 
 Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
@@ -24,7 +24,7 @@ Atom community provides us with plenty of [Git packages](https://atom.io/packag
 
 ## git-plus
 
-[![git-plus in action](http://res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png "git-plus in action")](http://res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png)
+[![git-plus in action](//res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png "git-plus in action")](//res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png)
 
 When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
@@ -48,7 +48,7 @@ Installation could be done via package manager. Configuration is straightforward
 
 ## git-history
 
-[![git-history in action](http://res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png "git-history in action")](http://res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png)
+[![git-history in action](//res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png "git-history in action")](//res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png)
 
 This package allows you to view history of the file.
 
@@ -58,7 +58,7 @@ To view file history, open command palette and type in "git history" and select 
 
 ## git-log
 
-[![git-log in action](http://res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png "git-log in action")](http://res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png)
+[![git-log in action](//res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png "git-log in action")](//res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png)
 
 **git-log** helps you see pretty Git log directly from Atom.
 
