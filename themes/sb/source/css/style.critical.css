@@ -246,17 +246,17 @@ body {
     margin-top: 24px;
     border-radius: 1px;
     background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
-  .article__item:not(:last-of-type) {
-    margin-bottom: 36px; }
-    .article__item:not(:last-of-type)::after {
-      content: "";
-      display: block;
-      max-width: 100%;
-      width: 100px;
-      height: 2px;
-      margin-top: 36px;
-      border-radius: 1px;
-      background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
+.article__item:not(:last-of-type) {
+  margin-bottom: 36px; }
+  .article__item:not(:last-of-type)::after {
+    content: "";
+    display: block;
+    max-width: 100%;
+    width: 100px;
+    height: 2px;
+    margin-top: 36px;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
 .article__content,
 .article__footer {
   margin-top: 18px; }

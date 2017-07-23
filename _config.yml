@@ -77,3 +77,13 @@ deploy:
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
+
+# optimization
+hfc_useref:
+  enable: true
+  concat: true
+  
+hfc_css:
+  enable: true
+  exclude: 
+    - '*.min.css'

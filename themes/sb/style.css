@@ -76,9 +76,6 @@ code * {
   .breadcrumb__link:hover, .breadcrumb__link:focus, .breadcrumb__link:active {
     background-color: #f57da6;
     color: #fff; }
-.article__item {
-  padding-left: 6px;
-  padding-right: 6px; }
   .article__title:hover, .article__title:focus, .article__title:active {
     color: #e01258; }
   @supports (display: grid) {

@@ -6,9 +6,6 @@
 }
 
 .article__item {
-  padding-left: 6px;
-  padding-right: 6px;
-
   &:not(:last-of-type) {
     critical: this;
     @include border-bottom(36px);
