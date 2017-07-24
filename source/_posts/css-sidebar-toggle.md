@@ -76,6 +76,8 @@ $total: 3;
 
 For this demo, I've decided to use a new [`CSS` variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) feature. Beware of the [support](http://caniuse.com/#feat=css-variables).
 
+{% caniuse css-grid current %}
+
 Using `CSS` variables we could define menu icon size, the number of lines, top offset, left offset and background color.
 
 _Note: I didn't find an efficient way how to _convert a _`CSS`_ variable into a _`SASS`_ variable_. If you know how to do this, please let me know._

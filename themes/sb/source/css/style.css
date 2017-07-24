@@ -264,3 +264,7 @@ figure {
       margin-top: -30px; } }
   @media (min-width: 40.75em) { }
   @media (max-width: 40.74em) { }
+.ciu_embed {
+  margin-bottom: 0; }
+  .ciu_embed iframe {
+    margin-bottom: -0.79012em; }
