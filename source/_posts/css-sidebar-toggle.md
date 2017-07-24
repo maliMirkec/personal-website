@@ -74,9 +74,9 @@ Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`
 $total: 3;
 {% endcodeblock %}
 
-For this demo, I've decided to use a new [`CSS` variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) feature. Beware of the [support](http://caniuse.com/#feat=css-variables).
+For this demo, I've decided to use a new [`CSS` variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) feature. Beware of the support:
 
-{% caniuse css-grid current %}
+{% caniuse css-variables current %}
 
 Using `CSS` variables we could define menu icon size, the number of lines, top offset, left offset and background color.
 
