@@ -1605,6 +1605,10 @@ hexo-cli@^1.0.2:
     object-assign "^4.1.0"
     tildify "^1.2.0"
 
+hexo-codepen@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-codepen/-/hexo-codepen-0.1.0.tgz#1ad8bbd4799f09ee993872566576d67f00c81644"
+
 hexo-filter-cleanup@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/hexo-filter-cleanup/-/hexo-filter-cleanup-1.0.7.tgz#cc951aca855152bcb8218ca76e7d5c69ade4274c"
@@ -1755,10 +1759,6 @@ hexo-server@^0.2.0:
     object-assign "^4.0.1"
     opn "^4.0.0"
     serve-static "^1.10.0"
-
-hexo-tag-codepen@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/hexo-tag-codepen/-/hexo-tag-codepen-0.2.2.tgz#cf797f2643ebbff65cde030e5c75157692a1039e"
 
 hexo-util@^0.6.0:
   version "0.6.0"
