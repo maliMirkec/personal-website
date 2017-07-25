@@ -142,7 +142,8 @@ figure {
   overflow: auto; }
   figure table {
     margin-bottom: 0;
-    max-width: 100%; }
+    max-width: 100%;
+    width: auto; }
   figure th,
   figure td {
     border: 0;
