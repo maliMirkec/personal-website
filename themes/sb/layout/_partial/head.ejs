@@ -12,6 +12,7 @@
   <% } %>
   <%- partial('head/critical.ejs') %>
   <% if (theme.site.full_name) { %>
-    <title><%= theme.site.full_name %></title>
+    <% var title = page.title ? page.title + ' | ' + theme.site.full_name : theme.site.full_name %>
+    <title><%= title  %></title>
   <% } %>
 </head>
