@@ -10,7 +10,6 @@ thumbnail: //res.cloudinary.com/starbist/image/upload/v1500993339/How_to_create_
 date: 2017-07-25 16:10:31
 ---
 
-
 Recently I was working on a very interesting and challenging project. I was told to use CSS wherever possible. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border. I know it doesn't sound either glamorous or complicated, but it kinda is.
 
 <!-- more -->
@@ -111,3 +110,11 @@ And here's the final solution:
 I really enjoyed solving this problem and I'm quite happy with the solution. And it is a fully responsive solution, which is great. 
 
 If you like this article or you have a different solution, let me know in the comments or on [twitter](//twitter.com/malimirkeccita).  
+
+## Update
+
+After I posted the article on reddit, Martijn Hermans came up with alternative and perhaps even more elegant solution using `skew` and a single pseudo element:
+
+{% codepen doxick oegrwM dark result 340 %}
+
+The border and the shadow look sharper now.

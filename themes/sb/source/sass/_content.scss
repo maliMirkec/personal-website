@@ -54,7 +54,11 @@ ol:not([class]) {
 
 code,
 figure {
-  background-image: radial-gradient(circle at center right, transparentize($color1, .84), transparentize($color2, .9));
+  background-image: radial-gradient(
+    circle at center right,
+    transparentize($color1, .84),
+    transparentize($color2, .9)
+  );
 }
 
 code {

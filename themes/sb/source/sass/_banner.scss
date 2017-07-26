@@ -5,11 +5,19 @@
 
 .banner--top {
   critical: this;
-  background-image: radial-gradient(circle at center top, transparentize($color2, .44), transparentize($color1, .44));
+  background-image: radial-gradient(
+    circle at center top,
+    transparentize($color2, .44),
+    transparentize($color1, .44)
+  );
 }
 
 .banner--bottom {
-  background-image: radial-gradient(circle at center bottom, transparentize($color1, .44), transparentize($color2, .44));
+  background-image: radial-gradient(
+    circle at center bottom,
+    transparentize($color1, .44),
+    transparentize($color2, .44)
+  );
 }
 
 .banner__content {
