@@ -6,11 +6,11 @@
 }
 
 @function em($pixels, $context: $browser-context) {
-  @return #{$pixels/$context}em;
+  @return #{$pixels / $context}em;
 }
 
-@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value, $critical: 'false') {
-  @if $critical == 'true' {
+@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value, $critical: "false") {
+  @if $critical == "true" {
     critical: this;
   }
 
@@ -19,17 +19,22 @@
   }
 
   @media screen and (min-width: $min-vw) {
-    @if $critical == 'true' {
+    @if $critical == "true" {
       critical: this;
     }
 
     @each $property in $properties {
-      #{$property}: calc(#{em($min-value)} + #{strip-unit($max-value - $min-value)} * (100vw - #{em($min-vw)}) / #{strip-unit($max-vw - $min-vw)});
+      #{$property}: calc(
+        #{em($min-value)} + #{strip-unit($max-value - $min-value)} *
+          (
+            100vw - #{em($min-vw)}
+          ) / #{strip-unit($max-vw - $min-vw)}
+      );
     }
   }
 
   @media screen and (min-width: $max-vw) {
-    @if $critical == 'true' {
+    @if $critical == "true" {
       critical: this;
     }
 
@@ -78,7 +83,11 @@
     height: 2px;
     margin-top: $mt;
     border-radius: 1px;
-    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+    background-image: radial-gradient(
+      circle at center,
+      transparentize($color1, .85),
+      transparentize($color2, .85)
+    );
   }
 }
 
@@ -94,6 +103,10 @@
     bottom: 0;
     width: 2px;
     border-radius: 1px;
-    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+    background-image: radial-gradient(
+      circle at center,
+      transparentize($color1, .85),
+      transparentize($color2, .85)
+    );
   }
 }

@@ -5,7 +5,11 @@
 .tags__link {
   @include link-reset;
   font-size: ms(-1);
-  background-image: radial-gradient(circle at center left, transparentize($color1, .33), transparentize($color2, .33));
+  background-image: radial-gradient(
+    circle at center left,
+    transparentize($color1, .33),
+    transparentize($color2, .33)
+  );
   color: $white;
   padding: 3px 6px;
   border-radius: 3px;

@@ -10,7 +10,11 @@
 
 .pagination__item {
   display: inline-block;
-  background-image: radial-gradient(circle at top left, transparentize($color2, .1), transparentize($color1, .1));
+  background-image: radial-gradient(
+    circle at top left,
+    transparentize($color2, .1),
+    transparentize($color1, .1)
+  );
   padding: 1px;
   border-radius: 3px;
   position: relative;
