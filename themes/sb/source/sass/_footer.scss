@@ -1,6 +1,10 @@
 .footer {
   padding: 6px;
-  background-image: radial-gradient(circle at center bottom, transparentize($color1, .25), transparentize($color2, .25));
+  background-image: radial-gradient(
+    circle at center bottom,
+    transparentize($color1, .25),
+    transparentize($color2, .25)
+  );
 }
 
 .footer-logo__image {

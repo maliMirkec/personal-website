@@ -31,16 +31,10 @@ $social-icons: (
 $mq-mobile: 332px;
 $mq-desktop: 652px;
 
-$mq-breakpoints: (
-  mobile: $mq-mobile,
-  desktop: $mq-desktop
-);
+$mq-breakpoints: (mobile: $mq-mobile, desktop: $mq-desktop);
 
 // default font-size
 $browser-context: 16px; // Default
 
 // modular scale
-$modularscale: (
-  base: 1em,
-  ratio: 1.125
-);
+$modularscale: (base: 1em, ratio: 1.125);

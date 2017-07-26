@@ -1,7 +1,11 @@
 .header {
   critical: this;
   padding: 6px;
-  background-image: radial-gradient(circle at center bottom, transparentize($color2, .33), transparentize($color1, .33));
+  background-image: radial-gradient(
+    circle at center bottom,
+    transparentize($color2, .33),
+    transparentize($color1, .33)
+  );
 }
 
 .header__list {
@@ -96,7 +100,11 @@
       margin-top: 3px;
       border-radius: 1px;
       transform-origin: center center;
-      background-image: radial-gradient(circle at center, transparentize($white, .25), transparentize($white, .33));
+      background-image: radial-gradient(
+        circle at center,
+        transparentize($white, .25),
+        transparentize($white, .33)
+      );
       transform: scale(0);
       transition: transform .15s ease-out;
     }
