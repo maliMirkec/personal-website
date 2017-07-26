@@ -113,7 +113,7 @@ If you like this article or you have a different solution, let me know in the co
 
 ## Update
 
-After I posted the article on reddit, Martijn Hermans came up with alternative and perhaps even more elegant solution using `skew` and a single pseudo element:
+After I posted the article on [Reddit](https://www.reddit.com/r/Frontend/comments/6pihl9/how_to_create_crooked_shadow/), Martijn Hermans provided alternative and perhaps even more elegant solution using `skew` and a single pseudo element:
 
 {% codepen doxick oegrwM dark result 340 %}
 
