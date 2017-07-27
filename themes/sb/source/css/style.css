@@ -24,13 +24,16 @@ code * {
   @media (min-width: 40.75em) { }
   @media (max-width: 40.74em) { }
   @media (min-width: 20.75em) { }
-  @supports (display: grid) {
-      @media (min-width: 20.75em) { } }
-  @media (min-width: 20.75em) { }
-  @supports (display: grid) {
-      @media (min-width: 20.75em) { } }
   @media (min-width: 20.75em) { }
   @media (min-width: 20.75em) { }
+  @media (max-width: 20.74em) {
+    .header__item {
+      padding: 6px;
+      width: 50%; } }
+  @media (min-width: 20.75em) { }
+  @media (max-width: 20.74em) {
+    .header__item--logo {
+      width: 100%; } }
   .header__link:not(.header__link--logo)::after {
     content: "";
     position: absolute;
@@ -53,9 +56,11 @@ code * {
   @media (max-width: 40.74em) { }
   @media (min-width: 20.75em) { }
   @media (max-width: 20.74em) { }
-  @supports (display: grid) {
-      @media (min-width: 20.75em) { } }
   @media (max-width: 20.74em) { }
+  @media (min-width: 20.75em) {
+    .banner__info {
+      flex: 0 0 auto;
+      width: calc(50% - 32px); } }
   .banner__link:hover, .banner__link:focus, .banner__link:active {
     background-color: #fff;
     color: #e01258; }
@@ -64,8 +69,6 @@ code * {
     color: #fff; }
   .article__title:hover, .article__title:focus, .article__title:active {
     color: #e01258; }
-  @supports (display: grid) {
-      @media (min-width: 20.75em) { } }
   @media (max-width: 20.74em) {
     .article__meta {
       margin-bottom: 6px; } }
@@ -194,12 +197,6 @@ figure {
   @media (min-width: 20.75em) {
     .widget-contact {
       flex-direction: row; } }
-  @supports (display: grid) {
-    .widget-contact {
-      display: grid; }
-      @media (min-width: 20.75em) {
-        .widget-contact {
-          grid-template-columns: repeat(4, minmax(25%, 1fr)); } } }
 .widget-contact__item {
   flex: 0 0 auto;
   width: 100%; }
@@ -217,16 +214,6 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center; }
-  @supports (display: grid) {
-    @media (min-width: 20.75em) {
-      .widget-contact__link {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-gap: 6px; } } }
-  @supports (display: grid) {
-    @media (min-width: 20.75em) {
-      .font-awesome {
-        margin-left: auto; } } }
   .font-awesome path {
     fill: #fff; }
 .widget-contact__link--mail:hover, .widget-contact__link--mail:focus, .widget-contact__link--mail:active {

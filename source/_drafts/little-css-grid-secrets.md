@@ -1,4 +1,8 @@
 ---
-title: little-css-grid-secrets
+title: CSS Grid secrets
 tags:
+- css
+- grid
 ---
+
+In June this 

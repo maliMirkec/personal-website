@@ -38,17 +38,6 @@
     critical: this;
     text-align: center;
   }
-
-  @supports (display: grid) {
-    critical: this;
-    display: grid;
-
-    @include mq($from: mobile) {
-      critical: this;
-      grid-gap: 72px;
-      grid-template-columns: auto auto;
-    }
-  }
 }
 
 .banner__info {
@@ -62,6 +51,11 @@
     critical: this;
     flex: 1 1 auto;
     width: 100%;
+  }
+
+  @include mq($from: mobile) {
+    flex: 0 0 auto;
+    width: calc(50% - 32px);
   }
 }
 

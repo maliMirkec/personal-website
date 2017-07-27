@@ -9,14 +9,6 @@
   @include mq($from: mobile) {
     flex-direction: row;
   }
-
-  @supports (display: grid) {
-    display: grid;
-
-    @include mq($from: mobile) {
-      grid-template-columns: repeat(4, minmax(25%, 1fr));
-    }
-  }
 }
 
 .widget-contact__item {
@@ -38,14 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  @supports (display: grid) {
-    @include mq($from: mobile) {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-gap: 6px;
-    }
-  }
 }
 
 .font-awesome {
@@ -53,12 +37,6 @@
   height: 15px;
   width: 15px;
   margin-right: 6px;
-
-  @supports (display: grid) {
-    @include mq($from: mobile) {
-      margin-left: auto;
-    }
-  }
 
   path {
     fill: $white;
