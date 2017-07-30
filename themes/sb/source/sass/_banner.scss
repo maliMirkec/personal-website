@@ -5,6 +5,7 @@
 
 .banner--top {
   critical: this;
+  @include appear;
   background-image: radial-gradient(
     circle at center top,
     transparentize($color2, .44),
@@ -38,17 +39,6 @@
     critical: this;
     text-align: center;
   }
-
-  @supports (display: grid) {
-    critical: this;
-    display: grid;
-
-    @include mq($from: mobile) {
-      critical: this;
-      grid-gap: 72px;
-      grid-template-columns: auto auto;
-    }
-  }
 }
 
 .banner__info {
@@ -58,10 +48,29 @@
   color: $white;
   text-shadow: 0 1px 0 $color2;
 
+  .banner--top & {
+    &:nth-child(1) {
+      @include grow;
+    }
+
+    &:nth-child(2) {
+      @include grow(.33s, 1.5s);
+    }
+  }
+
   @include mq($until: mobile) {
     critical: this;
     flex: 1 1 auto;
     width: 100%;
+  }
+
+  @include mq($from: mobile) {
+    flex: 0 0 auto;
+    width: calc(50% - 32px);
+
+    &:nth-child(2) {
+      text-align: right;
+    }
   }
 }
 

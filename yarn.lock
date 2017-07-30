@@ -1590,9 +1590,9 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-hexo-caniuse@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/hexo-caniuse/-/hexo-caniuse-0.1.3.tgz#04687741a12ffe3df90aabd2f5b96221236c2923"
+hexo-caniuse@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/hexo-caniuse/-/hexo-caniuse-0.1.4.tgz#1994fd32c1333d5ea0dc42e4a8c5b4718846df75"
 
 hexo-cli@^1.0.2:
   version "1.0.3"
