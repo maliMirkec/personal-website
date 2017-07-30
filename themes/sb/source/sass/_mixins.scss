@@ -112,21 +112,25 @@
 }
 
 @mixin grow($dur: .33s, $delay: 1.23s, $critical: "true") {
-  @if $critical=="true" {
-    critical: this;
-  }
+  @supports (display: grid) {
+    @if $critical=="true" {
+      critical: this;
+    }
 
-  transform-origin: center center;
-  transform: scale(.5);
-  opacity: 0;
-  animation: grow $dur cubic-bezier(0, 1.23, .45, 1.23) $delay forwards;
+    transform-origin: center center;
+    transform: scale(.5);
+    opacity: 0;
+    animation: grow $dur cubic-bezier(0, 1.23, .45, 1.23) $delay forwards;
+  }
 }
 
 @mixin appear($dur: 1.23s, $delay: .33s, $critical: "true") {
-  @if $critical=="true" {
-    critical: this;
-  }
+  @supports (display: grid) {
+    @if $critical=="true" {
+      critical: this;
+    }
 
-  opacity: 0;
-  animation: appear $dur cubic-bezier(0.3, .6, .5, .81) $delay forwards;
+    opacity: 0;
+    animation: appear $dur cubic-bezier(0.3, .6, .5, .81) $delay forwards;
+  }
 }

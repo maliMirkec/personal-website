@@ -28,7 +28,7 @@ h3 {
 h4 {
   font-size: 1.42383em; }
 h5 {
-  font-size: 1.26562em; }
+  font-size: 1.26563em; }
 h6 {
   font-size: 1.125em; }
 p,
@@ -41,7 +41,7 @@ figure,
 table {
   font-size: 0.88889em; }
 html {
-  font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 body {
   font-size: 13px;
   color: #232323;
@@ -188,12 +188,14 @@ body {
 .banner {
   font-size: 0.88889em; }
 .banner--top {
-  opacity: 0;
-  -webkit-animation: appear 1.23s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards;
-  animation: appear 1.23s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards;
   background-image: -webkit-radial-gradient(center top, circle, rgba(236, 50, 17, 0.56), rgba(224, 18, 88, 0.56));
   background-image: -o-radial-gradient(center top, circle, rgba(236, 50, 17, 0.56), rgba(224, 18, 88, 0.56));
   background-image: radial-gradient(circle at center top, rgba(236, 50, 17, 0.56), rgba(224, 18, 88, 0.56)); }
+  @supports (display: grid) {
+    .banner--top {
+      opacity: 0;
+      -webkit-animation: appear 1.23s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards;
+      animation: appear 1.23s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards; } }
 .banner__content {
   display: block;
   padding-left: 6px;
@@ -242,26 +244,28 @@ body {
   margin-bottom: 0;
   color: #fff;
   text-shadow: 0 1px 0 #ec3211; }
-  .banner--top .banner__info:nth-child(1) {
-    -webkit-transform-origin: center center;
-    -ms-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
-    opacity: 0;
-    -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards;
-    animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards; }
-  .banner--top .banner__info:nth-child(2) {
-    -webkit-transform-origin: center center;
-    -ms-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
-    opacity: 0;
-    -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards;
-    animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards; }
+  @supports (display: grid) {
+    .banner--top .banner__info:nth-child(1) {
+      -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+      transform-origin: center center;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      opacity: 0;
+      -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards;
+      animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards; } }
+  @supports (display: grid) {
+    .banner--top .banner__info:nth-child(2) {
+      -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+      transform-origin: center center;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      opacity: 0;
+      -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards;
+      animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards; } }
   @media (max-width: 20.74em) {
     .banner__info {
       -webkit-box-flex: 1;

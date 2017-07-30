@@ -76,6 +76,7 @@ code * {
     -ms-transform: scale(1);
     transform: scale(1); }
   @media (min-width: 20.75em) { }
+  @supports (display: grid) { }
 .banner--bottom {
   background-image: -webkit-radial-gradient(center bottom, circle, rgba(224, 18, 88, 0.56), rgba(236, 50, 17, 0.56));
   background-image: -o-radial-gradient(center bottom, circle, rgba(224, 18, 88, 0.56), rgba(236, 50, 17, 0.56));
@@ -84,6 +85,8 @@ code * {
   @media (max-width: 40.74em) { }
   @media (min-width: 20.75em) { }
   @media (max-width: 20.74em) { }
+  @supports (display: grid) { }
+  @supports (display: grid) { }
   @media (max-width: 20.74em) { }
   @media (min-width: 20.75em) {
     .banner__info {
@@ -123,8 +126,8 @@ blockquote {
   padding-left: 24px;
   position: relative;
   font-size: 1em;
-  margin-top: 1.26562em;
-  margin-bottom: 1.26562em;
+  margin-top: 1.26563em;
+  margin-bottom: 1.26563em;
   font-weight: 500;
   font-style: italic;
   padding-top: 6px;
