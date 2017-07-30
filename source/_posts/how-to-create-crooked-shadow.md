@@ -6,7 +6,7 @@ tags:
 comment: true
 categories:
   - Blog
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1500993339/How_to_create_crooked_shadow_bn2afp.jpg
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1501440282/How_to_create_crooked_shadow_kqx9vr.png
 date: 2017-07-25 16:10:31
 ---
 

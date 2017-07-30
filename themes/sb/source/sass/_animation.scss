@@ -1,0 +1,12 @@
+@keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes grow {
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
