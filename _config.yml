@@ -7,12 +7,12 @@ title: Silvestar Bistrović
 subtitle: This is not pyramid selling.
 description: Silvestar's personal website.
 author: Silvestar Bistrović
-language: en
+language: en_US
 timezone: Europe/Zagreb
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://silvestarbistrovic.from.hr
+url: https://www.silvestarbistrovic.from.hr
 root: /
 permalink: :category/:title/
 permalink_defaults:
@@ -42,8 +42,8 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: true
 
 # Category & Tag
 default_category: 
@@ -77,3 +77,13 @@ deploy:
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
+
+# optimization
+hfc_useref:
+  enable: true
+  concat: true
+  
+hfc_css:
+  enable: true
+  exclude: 
+    - '*.min.css'

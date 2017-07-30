@@ -43,8 +43,18 @@ hr {
 
 blockquote {
   @include border-left;
-  font-size: ms(1);
+  font-size: ms(0);
+  margin-top: ms(2);
+  margin-bottom: ms(2);
+  font-weight: 500;
+  font-style: italic;
+  padding-top: 6px;
+  padding-bottom: 6px;
   color: lighten($black, 25%);
+
+  p {
+    margin: 0;
+  }
 }
 
 ul:not([class]),
@@ -54,7 +64,11 @@ ol:not([class]) {
 
 code,
 figure {
-  background-image: radial-gradient(circle at center right, transparentize($color1, .84), transparentize($color2, .9));
+  background-image: radial-gradient(
+    circle at center right,
+    transparentize($color1, .84),
+    transparentize($color2, .9)
+  );
 }
 
 code {
@@ -90,6 +104,7 @@ figure {
   table {
     margin-bottom: 0;
     max-width: 100%;
+    width: auto;
   }
 
   th,

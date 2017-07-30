@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%- partial('head/favicon.ejs') %>
   <%- partial('head/og.ejs') %>
+  <%- partial('head/pinterest.ejs') %>
   <% if (theme.site.author) { %>
     <meta name="author" content="<%= theme.site.author %>">
   <% } %>
@@ -12,6 +13,7 @@
   <% } %>
   <%- partial('head/critical.ejs') %>
   <% if (theme.site.full_name) { %>
-    <title><%= theme.site.full_name %></title>
+    <% var title = page.title ? page.title + ' | ' + theme.site.full_name : theme.site.full_name %>
+    <title><%= title  %></title>
   <% } %>
 </head>

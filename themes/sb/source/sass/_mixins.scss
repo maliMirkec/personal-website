@@ -6,11 +6,11 @@
 }
 
 @function em($pixels, $context: $browser-context) {
-  @return #{$pixels/$context}em;
+  @return #{$pixels / $context}em;
 }
 
-@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value, $critical: 'false') {
-  @if $critical == 'true' {
+@mixin css-locks($properties, $min-vw, $max-vw, $min-value, $max-value, $critical: "false") {
+  @if $critical == "true" {
     critical: this;
   }
 
@@ -19,17 +19,22 @@
   }
 
   @media screen and (min-width: $min-vw) {
-    @if $critical == 'true' {
+    @if $critical == "true" {
       critical: this;
     }
 
     @each $property in $properties {
-      #{$property}: calc(#{em($min-value)} + #{strip-unit($max-value - $min-value)} * (100vw - #{em($min-vw)}) / #{strip-unit($max-vw - $min-vw)});
+      #{$property}: calc(
+        #{em($min-value)} + #{strip-unit($max-value - $min-value)} *
+          (
+            100vw - #{em($min-vw)}
+          ) / #{strip-unit($max-vw - $min-vw)}
+      );
     }
   }
 
   @media screen and (min-width: $max-vw) {
-    @if $critical == 'true' {
+    @if $critical == "true" {
       critical: this;
     }
 
@@ -40,6 +45,7 @@
 }
 
 @mixin wrapper($w: 652px) {
+  critical: this;
   display: block;
   padding-left: 6px;
   padding-right: 6px;
@@ -48,10 +54,12 @@
   max-width: 100%;
 
   @include mq($from: desktop) {
+    critical: this;
     width: $w;
   }
 
   @include mq($until: desktop) {
+    critical: this;
     overflow: hidden;
   }
 }
@@ -67,6 +75,7 @@
 
 @mixin border-bottom($mt: 24px, $w: 100px) {
   &::after {
+    critical: this;
     content: "";
     display: block;
     max-width: 100%;
@@ -74,7 +83,11 @@
     height: 2px;
     margin-top: $mt;
     border-radius: 1px;
-    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+    background-image: radial-gradient(
+      circle at center,
+      transparentize($color1, .85),
+      transparentize($color2, .85)
+    );
   }
 }
 
@@ -90,6 +103,34 @@
     bottom: 0;
     width: 2px;
     border-radius: 1px;
-    background-image: radial-gradient(circle at center, transparentize($color1, .85), transparentize($color2, .85));
+    background-image: radial-gradient(
+      circle at center,
+      transparentize($color1, .85),
+      transparentize($color2, .85)
+    );
+  }
+}
+
+@mixin grow($dur: .33s, $delay: 1.23s, $critical: "true") {
+  @supports (display: grid) {
+    @if $critical=="true" {
+      critical: this;
+    }
+
+    transform-origin: center center;
+    transform: scale(.5);
+    opacity: 0;
+    animation: grow $dur cubic-bezier(0, 1.23, .45, 1.23) $delay forwards;
+  }
+}
+
+@mixin appear($dur: 1.23s, $delay: .33s, $critical: "true") {
+  @supports (display: grid) {
+    @if $critical=="true" {
+      critical: this;
+    }
+
+    opacity: 0;
+    animation: appear $dur cubic-bezier(0.3, .6, .5, .81) $delay forwards;
   }
 }
