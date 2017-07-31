@@ -12,6 +12,8 @@ date: 2017-07-30 22:17:48
 
 Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and actually use it. Here's what I learned.
 
+<!-- more -->
+
 ## Using CSS Grid
 
 Every time I'm doing a new (re)design, I usually start with the header. The first component in a header is navigation. My website architecture is not complicated, just a few pages, blog category and posts.
