@@ -5,7 +5,7 @@
   color: $color1;
 }
 
-.article__item {
+.article__item--list {
   &:not(:last-of-type) {
     critical: this;
     @include border-bottom(36px);
@@ -16,7 +16,7 @@
 .article__content,
 .article__footer {
   critical: this;
-  margin-top: 18px;
+  margin-top: 24px;
 }
 
 .article__title {
@@ -118,4 +118,16 @@
 .article__title--post {
   critical: this;
   @include border-bottom;
+}
+
+.article__content--post,
+.article__item--post {
+  @include border-bottom(18px);
+}
+
+.article__footer--post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }

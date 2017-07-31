@@ -1,4 +1,4 @@
-<article class="article__item">
+<article class="article__item article__item--post">
   <header class="article__header article__header--post">
     <% if(item.thumbnail) { %>
       <% var img_big = item.thumbnail.replace('upload/', 'upload/c_scale,q_auto:good,w_640/'); %>
@@ -29,8 +29,9 @@
     <%- item.content %>
   </div>
 
-  <footer class="article__footer">
+  <footer class="article__footer article__footer--post">
     <%- partial('tags', {item: item}) %>
+    <%- partial('social', {item: item}) %>
   </footer>
 
 </article>
