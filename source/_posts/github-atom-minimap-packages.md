@@ -19,7 +19,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **[minimap](https://atom.io/packages/minimap)** is a basic package for code preview and it's available on Atom's package manager. Settings let's you configure the **minimap** and here's my settings:
 
-[![minimap settings](//res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png "minimap settings")](//res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Minimap settings" %}
 
 ## useful minimap extensions
 
@@ -48,9 +48,9 @@ There's even a package that highlights search result occurrences in the **minima
 
 ** minimap-pigments** is Atom plugin to display **[pigments](https://atom.io/packages/pigments)** colors in the **minimap**. In the earlier releases, this package caused my Atom to crash so I had to disable it. Use carefully.
 
-This is my **minimap **in action:
+This is my **minimap** in action:
 
-[![minimap in action](//res.cloudinary.com/starbist/image/upload/v1497509508/minimap-in-action_pu5zus.png "minimap in action")](//res.cloudinary.com/starbist/image/upload/v1497509508/minimap-in-action_pu5zus.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509509/minimap-in-action_jopeok.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Minimap settings" %}
 
 ## Final thoughts
 

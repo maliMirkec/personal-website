@@ -17,8 +17,7 @@ In this tutorial I'll show you how you could fix this.
 
 <!-- more -->
 
-**_Windows based shortcuts will be used but the same analogy could be applied for other operating systems.
-_**
+**_Windows based shortcuts will be used but the same analogy could be applied for other operating systems._**
 
 ## What are keybindings?
 
@@ -34,7 +33,7 @@ We need to fix this. First step is to find out which command is currently used. 
 
 Go on and search `ctrl-up` to see all related commands.
 
-[![Keybindings settings](//res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)](//res.cloudinary.com/starbist/image/upload/v1497509229/keybindings-settings-1_baehme.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509309/keybindings-settings-1_lq79lw.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Keybindings settings" %}
 
 Let say we couldn't determine which command should we remove or update. What to do then?
 
@@ -42,7 +41,7 @@ In this case you should use [keybinding-resolver](https://atom.io/packages/keybi
 
 Now try to press `ctrl-up` and see what happens. **keybinding-resolver** shows us which command is used in what order. In our case, we could see that `editor:move-line-up` command is the first in line. We'll should remove it.
 
-[![keybindings-resolver in action](//res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)](//res.cloudinary.com/starbist/image/upload/v1497509224/keybindings-resolver_ldpetc.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509225/keybindings-resolver_xuy5tk.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Keybindings resolver in action" %}
 
 ## How to remove keybindings?
 
@@ -50,17 +49,17 @@ When multiple commands for the same keybinding exist, we need to remove ones tha
 
 Paste the copied keybinding command. You should see the command selector and keybinding command.
 
-[![Keybindings keymap copy command](//res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)](//res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Keybindings keymap copy command" %}
 
 To remove the keybinding, use "unset!" command.
 
-[![Keybindings keymap unset command](//res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)](//res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Keybindings keymap unset command" %}
 
 ## How to use custom keybindings?
 
 So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:
 
-[![Keybindings keymap replace command](//res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)](//res.cloudinary.com/starbist/image/upload/v1497509222/keybindings-keymap-replace_abp7uy.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509223/keybindings-keymap-replace_dmqrfn.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Keybindings keymap replace command" %}
 
 Now we could use `ctrl-up` to increment number by 1.
 
