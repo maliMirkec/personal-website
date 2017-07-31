@@ -325,9 +325,9 @@ body {
     background-image: -webkit-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
     background-image: -o-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
     background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
-.article__item:not(:last-of-type) {
+.article__item--list:not(:last-of-type) {
   margin-bottom: 36px; }
-  .article__item:not(:last-of-type)::after {
+  .article__item--list:not(:last-of-type)::after {
     content: "";
     display: block;
     max-width: 100%;
@@ -340,7 +340,7 @@ body {
     background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
 .article__content,
 .article__footer {
-  margin-top: 18px; }
+  margin-top: 24px; }
 .article__title {
   font-size: 1.60181em;
   color: #ec3211;
@@ -414,6 +414,18 @@ body {
     background-image: -webkit-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
     background-image: -o-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
     background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
+.article__content--post::after,
+.article__item--post::after {
+  content: "";
+  display: block;
+  max-width: 100%;
+  width: 100px;
+  height: 2px;
+  margin-top: 18px;
+  border-radius: 1px;
+  background-image: -webkit-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
+  background-image: -o-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
+  background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
 * + h1,
 * + h2,
 * + h3,
@@ -458,17 +470,6 @@ img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-.tags::after {
-  content: "";
-  display: block;
-  max-width: 100%;
-  width: 100px;
-  height: 2px;
-  margin-top: 24px;
-  border-radius: 1px;
-  background-image: -webkit-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
-  background-image: -o-radial-gradient(center, circle, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15));
-  background-image: radial-gradient(circle at center, rgba(224, 18, 88, 0.15), rgba(236, 50, 17, 0.15)); }
 .widget-contact {
   display: block;
   padding-left: 6px;

@@ -25,6 +25,9 @@ menu:
   Portfolio: /portfolio
   About: /about-me
 
+sharing:
+  twitter: malimirkeccita
+  facebook: silvestarbistrovic.from.hr
 widgets:
   contact:
     mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
