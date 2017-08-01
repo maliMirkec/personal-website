@@ -32,7 +32,7 @@ First, open Atom settings. I'm a Windows user and default shortcut for Windows i
 
 To install **sync-settings**, find package in a list (should be first on the list) and then click _Install_ button.
 
-[![sync-settings installation](//res.cloudinary.com/starbist/image/upload/v1497509517/sync-settings-1_fdwmpf.png "sync-settings installation")](//res.cloudinary.com/starbist/image/upload/v1497509517/sync-settings-1_fdwmpf.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509517/sync-settings-1_fdwmpf.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Sync-settings installation" %}
 
 ### sync-settings configuration
 
@@ -40,7 +40,7 @@ _To configure **sync-settings**, you should have [Github account](https://github
 
 After you've installed **sync-settings** package, click on _Settings_. In order to make your first backup, you should fill _Personal Access Token_ and _Gist Id_. If you're not familiar with this terms, please refer to [**sync-settings** Setup section](https://atom.io/packages/sync-settings).
 
-[![sync-settings configuration](//res.cloudinary.com/starbist/image/upload/v1497509513/sync-settings-2_ojflpu.png "sync-settings configuration")](//res.cloudinary.com/starbist/image/upload/v1497509513/sync-settings-2_ojflpu.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509513/sync-settings-2_ojflpu.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Sync-settings configuration" %}
 
 ### sync-settings usage
 
@@ -48,7 +48,7 @@ Now, you should make your first backup.
 
 Open [command palette](https://atom.io/packages/command-palette) by pressing `ctrl-shift-p`, enter "sync-settings", select _Sync Settings: Backup_ and press _Enter_.
 
-[![sync-settings in action](//res.cloudinary.com/starbist/image/upload/v1497509514/sync-settings-3_pzezsi.png "sync-settings in action")](//res.cloudinary.com/starbist/image/upload/v1497509514/sync-settings-3_pzezsi.png) 
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509514/sync-settings-3_pzezsi.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Sync-settings in action" %} 
 
 You've successfully created your first Atom settings backup.
 

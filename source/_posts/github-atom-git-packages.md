@@ -24,7 +24,7 @@ Atom community provides us with plenty of [Git packages](https://atom.io/packag
 
 ## git-plus
 
-[![git-plus in action](//res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png "git-plus in action")](//res.cloudinary.com/starbist/image/upload/v1497509531/git-plus_yde1os.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509533/git-plus_hi3gmm.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Git-plus in action" %}
 
 When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
@@ -48,7 +48,7 @@ Installation could be done via package manager. Configuration is straightforward
 
 ## git-history
 
-[![git-history in action](//res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png "git-history in action")](//res.cloudinary.com/starbist/image/upload/v1497509537/git-history_kc6f8e.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509538/git-history_whbavd.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Git-history in action" %}
 
 This package allows you to view history of the file.
 
@@ -58,7 +58,7 @@ To view file history, open command palette and type in "git history" and select 
 
 ## git-log
 
-[![git-log in action](//res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png "git-log in action")](//res.cloudinary.com/starbist/image/upload/v1497509534/git-log_vf13fq.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509535/git-log_npntsy.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Git-log in action" %}
 
 **git-log** helps you see pretty Git log directly from Atom.
 

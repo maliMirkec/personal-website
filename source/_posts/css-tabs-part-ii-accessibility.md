@@ -36,7 +36,7 @@ We need to find a tool to test our tabs for accessibility. Web Accessibility Ini
 
 Since I was developing [locally](https://silvestarbistrovic.from.hr/en/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
 
-[![ngrok in action](//res.cloudinary.com/starbist/image/upload/v1497509216/ngrok-in-action_gbecgx.png)](//res.cloudinary.com/starbist/image/upload/v1497509216/ngrok-in-action_gbecgx.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/ngrok-in-action_u2lpmo.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "ngrok in action" %}
 
 ### Contrast
 

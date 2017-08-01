@@ -50,7 +50,7 @@ Now our `CSS` files are beautiful, too.
 
 ### pretty-json
 
-We should publish our plugin on package manager, like [bower](https://bower.io/) or [npm](https://www.npmjs.com/). That means we should create and configure `JSON` files: `[bower.json](https://bower.io/docs/creating-packages/)` and `[package.json](https://docs.npmjs.com/files/package.json)`. `JSON` files should be pretty, too. That's where [**pretty-json**](https://atom.io/packages/pretty-json) package steps in.
+We should publish our plugin on package manager, like [bower](https://bower.io/) or [npm](https://www.npmjs.com/). That means we should create and configure `JSON` files: [`bower.json`](https://bower.io/docs/creating-packages/) and [`package.json`](https://docs.npmjs.com/files/package.json). `JSON` files should be pretty, too. That's where [**pretty-json**](https://atom.io/packages/pretty-json) package steps in.
 
 This very popular plugin formats `JSON` files on command. As a bonus, this plugin could warn us if our `JSON` files are not properly formatted.
 
@@ -80,7 +80,7 @@ We should see a new dock with 3 main sections:
 
 If we want to run a task, we could click it from task list. On the right side we could see a console output for these task. It is very useful when debugging invalid or failed task. Alternatively, we could write the name of the task inside input field and then press _Enter_.
 
-[![gulp-manager in action](//res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)](//res.cloudinary.com/starbist/image/upload/v1497509210/gulp-manager-in-action_taqasy.png)
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509211/gulp-manager-in-action_np6g5y.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Gulp manager in action" %}
 
 Our files are now compressed and tasks are run from Atom. We don't need a console anymore.
 

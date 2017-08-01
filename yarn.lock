@@ -1594,6 +1594,10 @@ hexo-cli@^1.0.2:
     object-assign "^4.1.0"
     tildify "^1.2.0"
 
+hexo-cloudinary@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/hexo-cloudinary/-/hexo-cloudinary-0.1.2.tgz#c10802e391d4e9d821e565155d7c600c405b8605"
+
 hexo-codepen@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/hexo-codepen/-/hexo-codepen-0.1.1.tgz#249be13d54d35daa1eeb596f49ea1bb4919438d3"
