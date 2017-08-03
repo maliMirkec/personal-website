@@ -5,7 +5,7 @@ date: 2017-06-01 14:26:41
 comments: false
 ---
 
-If you like my work, want to hire me or need help on a project, please feel free to [contact me](mailto:me@silvestarbistrovic.from.hr?subject=Hello)!
+If you like my work, want to [hire me](/hire-me) or need help on a project, please feel free to [contact me](mailto:me@silvestarbistrovic.from.hr?subject=Hello)!
 
 And here's my recent work:
 
@@ -17,6 +17,7 @@ A web development agency website.
 - Netlify
 - Responsive Web Design
 - Sass
+- BEM
 - Webpack
 - SVG
 - JavaScript
@@ -28,6 +29,7 @@ A web development agency website.
 - Netlify
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Webpack
 - SVG
@@ -40,6 +42,7 @@ A wedding photographer website.
 - custom Theme (built using [_bem - custom Wordpress starter theme](/articles/bem-wordpress-theme/))
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Bower
 - Cloudflare
@@ -52,6 +55,7 @@ A carpentry website.
 - custom Theme (built using [_bem - custom Wordpress starter theme](/articles/bem-wordpress-theme/))
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Bower
 - Cloudflare

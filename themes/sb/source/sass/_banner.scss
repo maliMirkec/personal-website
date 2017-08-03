@@ -5,12 +5,16 @@
 
 .banner--top {
   critical: this;
-  @include appear;
+  opacity: 0;
   background-image: radial-gradient(
-    circle at center top,
+    circle at top center,
     transparentize($color2, .44),
     transparentize($color1, .44)
   );
+}
+
+.banner--top {
+  @include appear(1.33s, .33s, "false");
 }
 
 .banner--bottom {
@@ -48,16 +52,6 @@
   color: $white;
   text-shadow: 0 1px 0 $color2;
 
-  .banner--top & {
-    &:nth-child(1) {
-      @include grow;
-    }
-
-    &:nth-child(2) {
-      @include grow(.33s, 1.5s);
-    }
-  }
-
   @include mq($until: mobile) {
     critical: this;
     flex: 1 1 auto;
@@ -65,11 +59,28 @@
   }
 
   @include mq($from: mobile) {
+    critical: this;
     flex: 0 0 auto;
     width: calc(50% - 32px);
 
     &:nth-child(2) {
       text-align: right;
+    }
+  }
+}
+
+.banner__info {
+  .banner--top & {
+    transform-origin: center center;
+    transform: scale(.5);
+    opacity: 0;
+
+    &:nth-child(1) {
+      @include grow(.33s, 1.23s, "false");
+    }
+
+    &:nth-child(2) {
+      @include grow(.33s, 1.5s, "false");
     }
   }
 }

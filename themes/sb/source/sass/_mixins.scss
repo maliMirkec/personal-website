@@ -73,9 +73,12 @@
   display: $d;
 }
 
-@mixin border-bottom($mt: 24px, $w: 100px) {
+@mixin border-bottom($mt: 24px, $w: 100px, $critical: "true") {
   &::after {
-    critical: this;
+    @if $critical == "true" {
+      critical: this;
+    }
+
     content: "";
     display: block;
     max-width: 100%;
@@ -117,9 +120,6 @@
       critical: this;
     }
 
-    transform-origin: center center;
-    transform: scale(.5);
-    opacity: 0;
     animation: grow $dur cubic-bezier(0, 1.23, .45, 1.23) $delay forwards;
   }
 }
@@ -130,7 +130,6 @@
       critical: this;
     }
 
-    opacity: 0;
     animation: appear $dur cubic-bezier(0.3, .6, .5, .81) $delay forwards;
   }
 }

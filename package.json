@@ -1,13 +1,25 @@
 {
-  "name": "hexo-site",
+  "name": "silvestarbistrovic.from.hr",
   "version": "1.1.30",
-  "private": true,
-  "hexo": {
-    "version": "3.3.8"
+  "description": "Silvestar's personal website.",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/maliMirkec/sb-hexo/"
+  },
+  "keywords": ["hexo", "website", "maliMirkec"],
+  "author": "maliMirkec <malimirkeccita@gmail.com> (https://www.silvestarbistrovic.from.hr)",
+  "license": "MIT",
+  "homepage": "https://www.silvestarbistrovic.from.hr",
+  "bugs": {
+    "url": "https://bitbucket.org/maliMirkec/sb-hexo/issues"
   },
   "scripts": {
     "cp_redirects": "cp source/_redirects public/_redirects",
     "deploy": "hexo generate && npm run cp_redirects"
+  },
+  "hexo": {
+    "version": "3.3.8"
   },
   "dependencies": {
     "hexo": "^3.2.0",
