@@ -5,11 +5,7 @@ date: 2017-06-01 14:26:41
 comments: false
 ---
 
-If you like my work or you want me on your team, you should [hire me](/hire-me)!
-
-If you want to know more how this website is built, you can [read about it here](/skills#A-proof-of-all-forementioned).
-
-And here's my recent work:
+[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, [contact me](/contact-me/) or [hire me](/hire-me/)
 
 ## [contiamo.com](//www.contiamo.com)
 
