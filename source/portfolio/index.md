@@ -5,9 +5,7 @@ date: 2017-06-01 14:26:41
 comments: false
 ---
 
-If you like my work, want to hire me or need help on a project, please feel free to [contact me](mailto:me@silvestarbistrovic.from.hr?subject=Hello)!
-
-And here's my recent work:
+[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, [contact me](/contact-me/) or [hire me](/hire-me/)
 
 ## [contiamo.com](//www.contiamo.com)
 
@@ -17,6 +15,7 @@ A web development agency website.
 - Netlify
 - Responsive Web Design
 - Sass
+- BEM
 - Webpack
 - SVG
 - JavaScript
@@ -28,6 +27,7 @@ A web development agency website.
 - Netlify
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Webpack
 - SVG
@@ -40,6 +40,7 @@ A wedding photographer website.
 - custom Theme (built using [_bem - custom Wordpress starter theme](/articles/bem-wordpress-theme/))
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Bower
 - Cloudflare
@@ -52,6 +53,7 @@ A carpentry website.
 - custom Theme (built using [_bem - custom Wordpress starter theme](/articles/bem-wordpress-theme/))
 - Responsive Web Design
 - Sass
+- BEM
 - Gulp
 - Bower
 - Cloudflare

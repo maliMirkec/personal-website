@@ -115,12 +115,12 @@
 }
 
 .article__header--post,
-.article__title--post {
+.article__title--post:not(:last-child) {
   critical: this;
   @include border-bottom;
 }
 
-.article__content--post,
+.article__content--post:not(:last-child),
 .article__item--post {
   @include border-bottom(18px);
 }

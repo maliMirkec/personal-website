@@ -10,28 +10,36 @@
     <h2 class="article__title article__title--post">
       <%- item.title %>
     </h2>
-    <div class="article__details">
-      <div class="article__meta">
-        <span class="article__meta-item">
-          <span class="article__meta-inner">On: <%= item.date.format(config.date_format) %></span>
-        </span>
-        <% if(item.author) { %>
+    <% if(item.layout == 'post') { %>
+      <div class="article__details">
+        <div class="article__meta">
           <span class="article__meta-item">
-            <span class="article__meta-inner">By: <%- item.author %></span>
+            <span class="article__meta-inner">On: <%= item.date.format(config.date_format) %></span>
           </span>
-        <% } %>
+          <% if(item.author) { %>
+            <span class="article__meta-item">
+              <span class="article__meta-inner">By: <%- item.author %></span>
+            </span>
+          <% } %>
+        </div>
+        <%- partial('breadcrumbs') %>
       </div>
-      <%- partial('breadcrumbs') %>
-    </div>
+    <% } %>
   </header>
 
   <div class="article__content article__content--post">
     <%- item.content %>
   </div>
 
-  <footer class="article__footer article__footer--post">
-    <%- partial('tags', {item: item}) %>
-    <%- partial('social', {item: item}) %>
-  </footer>
+  <% if(item.layout == 'post') { %>
+    <footer class="article__footer article__footer--post">
+      <%- partial('tags', {item: item}) %>
+      <%- partial('social', {item: item}) %>
+    </footer>
+  <% } %>
 
 </article>
+
+<% if(item.layout == 'post') { %>
+  <%- partial('contact') %>
+<% } %>
