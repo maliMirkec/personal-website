@@ -1,2 +1,4 @@
 <%- partial('article/content') %>
-<%- partial('article/comments') %>
+<% if(item.layout == 'post') { %>
+  <%- partial('article/comments') %>
+<% } %>
