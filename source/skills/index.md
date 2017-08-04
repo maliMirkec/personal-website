@@ -36,7 +36,7 @@ I've been working with web technologies since 2011. That's more than 5 years of 
 - Use collaboration tools like Trello, Asana or Jira to keep track of the project progress
 - Use Skype of Slack for interaction
 
-I'm currently looking for a new gig, [contact me](/hire-me) if you need help on your project.
+> I'm currently looking for a new gig, [contact me](/hire-me) if you need help on your project.
 If you want to know which devices and tools I use in my everyday tasks, [read it here](/setup).
 
 #### A proof of all forementioned
@@ -51,4 +51,4 @@ The website is super fast. Check the [PageSpeed Insights](https://developers.goo
 
 Articles about [CSS tabs](http://css-weekly.com/issue-237/) and [CSS sidebar toggle](http://css-weekly.com/issue-258/) are featured in [CSS Weekly newsletter](http://css-weekly.com/) curated by [Zoran Jambor](https://twitter.com/ZoranJambor).
 
-If you are convinced, contact me and I'll make your website as awesome as mine.
+If you are convinced, [contact me](mailto:me@silvestarbistrovic.from.hr?Subject=Hello) and I'll make your website as awesome as mine.
