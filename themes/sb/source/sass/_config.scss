@@ -38,3 +38,8 @@ $browser-context: 16px; // Default
 
 // modular scale
 $modularscale: (base: 1em, ratio: 1.125);
+
+// animation and transition
+$timing--default: cubic-bezier(0.3, .6, .5, .81);
+$timing--jump: cubic-bezier(0, 1.23, .45, 1.23);
+$timing--hop: cubic-bezier(0, 1.11, .6, 1.11);

@@ -114,22 +114,12 @@
   }
 }
 
-@mixin grow($dur: .33s, $delay: 1.23s, $critical: "true") {
+@mixin appear($dur: 1.23s, $delay: .33s, $timing: $timing--default, $critical: "true") {
   @supports (display: grid) {
     @if $critical=="true" {
       critical: this;
     }
 
-    animation: grow $dur cubic-bezier(0, 1.23, .45, 1.23) $delay forwards;
-  }
-}
-
-@mixin appear($dur: 1.23s, $delay: .33s, $critical: "true") {
-  @supports (display: grid) {
-    @if $critical=="true" {
-      critical: this;
-    }
-
-    animation: appear $dur cubic-bezier(0.3, .6, .5, .81) $delay forwards;
+    animation: appear $dur $timing $delay forwards;
   }
 }

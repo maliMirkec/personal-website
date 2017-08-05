@@ -5,16 +5,13 @@
 
 .banner--top {
   critical: this;
+  @include appear(1.33s, .33s, $timing--default, "false");
   opacity: 0;
   background-image: radial-gradient(
     circle at top center,
     transparentize($color2, .44),
     transparentize($color1, .44)
   );
-}
-
-.banner--top {
-  @include appear(1.33s, .33s, "false");
 }
 
 .banner--bottom {
@@ -76,11 +73,11 @@
     opacity: 0;
 
     &:nth-child(1) {
-      @include grow(.33s, 1.23s, "false");
+      @include appear(.33s, 1.23s, $timing--jump, "false");
     }
 
     &:nth-child(2) {
-      @include grow(.33s, 1.5s, "false");
+      @include appear(.33s, 1.5s, $timing--jump, "false");
     }
   }
 }
