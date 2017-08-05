@@ -1,19 +1,13 @@
 @charset "UTF-8";
 @-webkit-keyframes appear {
   100% {
+    -webkit-transform: none;
+    transform: none;
     opacity: 1; } }
 @keyframes appear {
   100% {
-    opacity: 1; } }
-@-webkit-keyframes grow {
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1; } }
-@keyframes grow {
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: none;
+    transform: none;
     opacity: 1; } }
 * {
   font-weight: 300; }
@@ -76,10 +70,10 @@ code * {
     -ms-transform: scale(1);
     transform: scale(1); }
   @media (min-width: 20.75em) { }
-@supports (display: grid) {
-  .banner--top {
-    -webkit-animation: appear 1.33s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards;
-    animation: appear 1.33s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards; } }
+  @supports (display: grid) {
+    .banner--top {
+      -webkit-animation: appear 1.33s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards;
+      animation: appear 1.33s cubic-bezier(0.3, 0.6, 0.5, 0.81) 0.33s forwards; } }
 .banner--bottom {
   background-image: -webkit-radial-gradient(center bottom, circle, rgba(224, 18, 88, 0.56), rgba(236, 50, 17, 0.56));
   background-image: -o-radial-gradient(center bottom, circle, rgba(224, 18, 88, 0.56), rgba(236, 50, 17, 0.56));
@@ -102,12 +96,12 @@ code * {
   opacity: 0; }
   @supports (display: grid) {
     .banner--top .banner__info:nth-child(1) {
-      -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards;
-      animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards; } }
+      -webkit-animation: appear 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards;
+      animation: appear 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.23s forwards; } }
   @supports (display: grid) {
     .banner--top .banner__info:nth-child(2) {
-      -webkit-animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards;
-      animation: grow 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards; } }
+      -webkit-animation: appear 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards;
+      animation: appear 0.33s cubic-bezier(0, 1.23, 0.45, 1.23) 1.5s forwards; } }
   .banner__link:hover, .banner__link:focus, .banner__link:active {
     background-color: #fff;
     color: #e01258; }
@@ -418,28 +412,6 @@ figure {
       margin-top: -30px; } }
   @media (min-width: 40.75em) { }
   @media (max-width: 40.74em) { }
-.doodle--horsy {
-  height: 4em;
-  width: 5em;
-  position: absolute;
-  left: 6px;
-  top: 6px;
-  -webkit-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  transform: scaleX(-1); }
-  @supports (display: grid) {
-    .doodle--horsy {
-      -webkit-animation: appear 3s cubic-bezier(0.3, 0.6, 0.5, 0.81) 1s forwards;
-      animation: appear 3s cubic-bezier(0.3, 0.6, 0.5, 0.81) 1s forwards; } }
-.doodle__group {
-  stroke: #e01258;
-  -webkit-transition: stroke .33s ease-in-out;
-  -o-transition: stroke .33s ease-in-out;
-  transition: stroke .33s ease-in-out; }
-  .doodle--horsy:hover .doodle__group,
-  .doodle--horsy:focus .doodle__group,
-  .doodle--horsy:active .doodle__group {
-    stroke: #ec3211; }
 .ciu_embed {
   margin-bottom: 0; }
   .ciu_embed iframe {

@@ -145,7 +145,8 @@ body {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  width: 20%; }
   @media (min-width: 20.75em) {
     .header__item:nth-child(2), .header__item:nth-child(3) {
       -webkit-box-ordinal-group: 1;
@@ -499,5 +500,3 @@ img {
   @media (max-width: 40.74em) {
     .copyright {
       overflow: hidden; } }
-.doodle--horsy {
-  opacity: 0; }

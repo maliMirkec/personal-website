@@ -4,7 +4,7 @@
 }
 
 .doodle--horsy {
-  @include appear(3s, 1s, "false");
+  @include appear(3s, 1s, $timing--default, "false");
   height: 4em;
   width: 5em;
   position: absolute;
