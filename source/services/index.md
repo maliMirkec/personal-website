@@ -37,6 +37,6 @@ I've been working with web technologies since 2011. That's more than 5 years of 
 - Use Skype of Slack for interaction
 
 I'm currently looking for a new gig, [contact me](/hire-me/) if you need help on your project.
-If you want to know which devices and tools I use in my everyday tasks, [read about it here](/setup/).
+If you want to know which devices and tools I use in my everyday tasks, [read about it here](/uses/).
 
 Many of the aforementioned services are used when I was building this website. I wrote an article about it: ["How I built this website"](/how/).
