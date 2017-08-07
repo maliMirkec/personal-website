@@ -5,7 +5,7 @@ date: 2017-06-01 14:26:41
 comments: false
 ---
 
-[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, [contact me](/contact-me/) or [hire me](/hire-me/)
+[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, [contact me](/about-me/) or [hire me](/hire-me/)
 
 ## [contiamo.com](//www.contiamo.com)
 
