@@ -41,6 +41,7 @@ figure,
 table {
   font-size: 0.88889em; }
 html {
+  font-display: swap;
   font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 body {
   font-size: 13px;
