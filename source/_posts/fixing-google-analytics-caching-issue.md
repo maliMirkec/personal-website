@@ -1,7 +1,6 @@
 ---
 title: Fixing Google Analytics caching issue
 date: 2017-09-07 16:20:04
-id: 8
 categories:
   - Blog
 comments: true
@@ -29,7 +28,7 @@ Once when your website is added to CloudFlare, you will be notified, and you cou
 The first step is to remove the currently installed Google Analytics tracking code. To install the Google Analytics app, go to Apps tab and search for it. Click "Preview", add the tracking code and choose the pages on which to install the Google Analytics. Don't forget to click on "Install" button to finish the installation. Now go to [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and test your website if it's working.
 
 ## Final thoughts
-This issue has haunted me for months, and now I have [the perfect score]().
+This issue has haunted me for months, and now I have [the perfect score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.silvestarbistrovic.from.hr).
 
 Do you have the perfect score? Do you have an alternative solution?
 
