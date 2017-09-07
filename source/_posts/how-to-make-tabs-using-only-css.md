@@ -15,6 +15,8 @@ I know there are more than a few articles about this topic. And there are 2 basi
 
 I prefer the second approach, but without list or nested div structure.
 
+_CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-accessibility/)._
+
 <!-- more -->
 
 ## HTML structure

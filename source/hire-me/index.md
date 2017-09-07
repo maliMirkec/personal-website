@@ -4,7 +4,7 @@ comments: false
 date: 2017-08-02 11:37:55
 ---
 
-I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Hello). You will benefit from my experience and [services](/services/) that I could provide.
+I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Hello). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic), [Upwork](https://www.upwork.com/fl/silvestarb) and [Codementor](https://www.codementor.io/malimirkeccita). You will benefit from my experience and [services](/services/) that I could provide.
 
 ## Why me
 
@@ -26,7 +26,7 @@ In 2016 I wanted to start my own blog. It was my great desire for a long time bu
 > Fear is a compass-a signal that you might be on the verge of doing something worthwhile.
 > **Source: http://weekjuice.com/#/16**
 
-And it happened, I started a blog. I used Wordpress as a blogging engine. I always work with performance on my mind so I tried to make my blog as fast as possible. I managed to create a pretty fast website using [_bem - Wordpress theme with BEM methodology](/articles/bem-wordpress-theme/). As icing on the cake, the content from my website got recognized and even featured on [CSS](http://css-weekly.com/issue-237/) [Weekly](http://css-weekly.com/issue-258/).
+And it happened, I started a blog. I used Wordpress as a blogging engine. I always work with performance on my mind so I tried to make my blog as fast as possible. I managed to create a pretty fast website using [_bem - Wordpress theme with BEM methodology](/articles/bem-wordpress-theme/). As icing on the cake, the content from my website got recognized and even featured on CSS Weekly: [Issue #237](http://css-weekly.com/issue-237/), [Issue #258](http://css-weekly.com/issue-258/), and [Issue #277](http://css-weekly.com/issue-277/).
 
 My Wordpress project was successful and I wanted to create the same experience for my photographer friends. We switched to Wordpress and I created a beautiful new theme from scratch. The performance of the site was good enough. More importantly, now friends could publish the content by themselves.
 
@@ -34,8 +34,8 @@ In 2017 I was still working on my regular job. And then in February, the company
 
 My first job on Toptal was to build static pages for a [German based company](https://www.contiamo.com/). I really enjoyed working on that gig. The team was fantastic and we built several pages using SVG, Sass, Webpack, and Yarn, to list the most important ones. And we built a style guide. I think it is important to have a styleguide both for designers and developers. It was a great challenge to build this kind of website because it looks so simple, yet it is not simple at all.
 
-I've worked on all sorts of projects and I'm still learning new technologies and techniques every day. I love my job and I like to think that I'm good at it. At least I'm trying to be. 
+I've worked on all sorts of projects and I'm still learning new technologies and techniques every day. I love my job and I like to think that I'm good at it. At least I'm trying to be.
 
-Until this day I've learned to deal with many different problems and tasks. You should check which [services](/services/) I could provide. 
+Until this day I've learned to deal with many different problems and tasks. You should check which [services](/services/) I could provide.
 
 If you want me on your team or project, send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Hello).
