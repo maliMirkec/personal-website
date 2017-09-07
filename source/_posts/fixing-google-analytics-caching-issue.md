@@ -1,7 +1,6 @@
 ---
 title: Fixing Google Analytics caching issue
 date: 2017-09-07 16:20:04
-id: 8
 categories:
   - Blog
 comments: true
