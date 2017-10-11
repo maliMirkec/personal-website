@@ -16,8 +16,9 @@
   },
   "scripts": {
     "cp_redirects": "cp source/_redirects public/_redirects",
-    "cp_verify": "cp source/.well-known public/",
-    "deploy": "hexo generate && npm run cp_redirects && npm run cp_verify"
+    "cp_verify": "cp source/well-known public/",
+    "cp_rename": "cp public/well-known public/.well-known",
+    "deploy": "hexo generate && npm run cp_redirects && npm run cp_verify && npm run cp_rename"
   },
   "hexo": {
     "version": "3.3.8"
