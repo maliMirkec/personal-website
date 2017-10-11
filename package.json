@@ -1,6 +1,6 @@
 {
   "name": "silvestarbistrovic.from.hr",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Silvestar's personal website.",
   "main": "index",
   "repository": {
@@ -16,7 +16,8 @@
   },
   "scripts": {
     "cp_redirects": "cp source/_redirects public/_redirects",
-    "deploy": "hexo generate && npm run cp_redirects"
+    "cp_verify": "cp source/.well-known public/",
+    "deploy": "hexo generate && npm run cp_redirects && cp_verify"
   },
   "hexo": {
     "version": "3.3.8"
