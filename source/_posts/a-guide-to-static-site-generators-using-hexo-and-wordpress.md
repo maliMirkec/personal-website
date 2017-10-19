@@ -29,13 +29,10 @@ I knew I wanted to share some tips about Atom, as I was using this great editor 
 
 At first, I wasn’t paying that much attention to performance because I was too focused on the content. After a while, I noticed some performance issues. The score on Google PageSpeed Insights was lousy, so I worked hard to fix and optimize my website, attaining an almost perfect score of 99/100:
 
-I switched from Nginx+Apache to Nginx+PHP-FPM.
-
-I used CloudFlare for speed and protection.
-
-I used Cloudinary to host images.
-
-I tweaked my theme and used Critical CSS.
+  - I switched from Nginx+Apache to Nginx+PHP-FPM.
+  - I used CloudFlare for speed and protection.
+  - I used Cloudinary to host images.
+  - I tweaked my theme and used Critical CSS.
 
 The only warning was for a Google Analytics caching issue which I didn’t know how to fix at the time.
 
