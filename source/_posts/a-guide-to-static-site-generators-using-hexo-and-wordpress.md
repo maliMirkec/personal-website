@@ -7,7 +7,7 @@ tags:
   - hexo
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1508398026/From_WordPress_to_Hexo_xgibru.png
 comments: true
-cannonical: //www.toptal.com/front-end/wordpress-to-html-with-hexo-blog
+canonical: //www.toptal.com/front-end/wordpress-to-html-with-hexo-blog
 date: 2017-10-19 08:53:11
 ---
 
