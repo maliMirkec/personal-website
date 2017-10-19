@@ -16,4 +16,7 @@
     <% var title = page.title ? page.title + ' | ' + theme.site.full_name : theme.site.full_name %>
     <title><%= title  %></title>
   <% } %>
+  <% if(page.cannonical) { %>
+    <link rel="cannonical" href="<%= page.cannonical %>">
+  <% } %>
 </head>
