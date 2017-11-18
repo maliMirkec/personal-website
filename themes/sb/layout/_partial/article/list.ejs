@@ -1,8 +1,8 @@
 <article class="article__item article__item--list">
   <header class="article__header">
     <% if(item.thumbnail) { %>
-      <% var img_big = item.thumbnail.replace('upload/', 'upload/c_scale,q_auto:good,w_640/'); %>
-      <% var img_small = item.thumbnail.replace('upload/', 'upload/c_scale,q_auto:good,w_320/'); %>
+      <% var img_big = item.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_640/'); %>
+      <% var img_small = item.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_320/'); %>
       <a class="article__thumbnail" href="/<%= item.path %>" alt="<%= item.title %>">
         <img src="<%= img_big %>" class="article__thumbnail-image" alt="<%= item.title %>" srcset="<%= img_small %> 320w, <%= img_big %> 640w" sizes="(max-width: 340px) 320px, 640px">
       </a>

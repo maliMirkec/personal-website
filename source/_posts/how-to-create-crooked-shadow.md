@@ -18,7 +18,7 @@ Recently I was working on a very interesting and challenging project. I was told
 
 Here's the desired design for the hero section with crooked border (notice the crooked shadow at the bottom):
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1500989561/crooked-shadow_rozyr7.jpg 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Crooked background example" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1500989561/crooked-shadow_rozyr7.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Crooked background example" %}
 
 Let's break this into smaller modules:
 - hero block
@@ -107,9 +107,9 @@ And here's the final solution:
 
 ## Final thoughts
 
-I really enjoyed solving this problem and I'm quite happy with the solution. And it is a fully responsive solution, which is great. 
+I really enjoyed solving this problem and I'm quite happy with the solution. And it is a fully responsive solution, which is great.
 
-If you like this article or you have a different solution, let me know in the comments or on [twitter](//twitter.com/malimirkeccita).  
+If you like this article or you have a different solution, let me know in the comments or on [twitter](//twitter.com/malimirkeccita).
 
 ## Update
 

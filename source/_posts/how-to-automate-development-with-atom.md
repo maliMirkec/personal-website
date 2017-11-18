@@ -80,7 +80,7 @@ We should see a new dock with 3 main sections:
 
 If we want to run a task, we could click it from task list. On the right side we could see a console output for these task. It is very useful when debugging invalid or failed task. Alternatively, we could write the name of the task inside input field and then press _Enter_.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509211/gulp-manager-in-action_np6g5y.png 320px=c_scale,q_auto:good,w_320;640px=c_scale,q_auto:good,w_640 "Gulp manager in action" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509211/gulp-manager-in-action_np6g5y.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Gulp manager in action" %}
 
 Our files are now compressed and tasks are run from Atom. We don't need a console anymore.
 
