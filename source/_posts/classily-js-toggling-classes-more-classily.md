@@ -7,7 +7,7 @@ tags:
   - plugin
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1511821846/Classily_ebid2n.png
 comments: true
-date: 2017-11-23 22:28:28
+date: 2017-11-28 10:28:28
 ---
 
 I created a `JavaScript` plugin for toggling classes more __classily__, and I called it **[Classily.js](https://github.com/maliMirkec/Classily.js)**. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.
@@ -108,9 +108,9 @@ To trigger class toggle action, you should add the following code:
 ```
 
 where
-- `class="js-class"` is used as a selector for plugin initialization (see _How to initialize Classily.js_);
+- `class="js-classily"` is used as a selector for plugin initialization (see _[How to initialize Classily.js](How-to-initialize-Classily-js)_);
 - `data-target=".my-class"` is used to target the element or elements that will toggle class;
-- `data-class="blue"` is used to provide a class or classed that will be toggled;
+- `data-class="blue"` is used to provide a class or classes that will be toggled.
 
 As you see, Classily.js is not complicated to use. In fact, it looks like it cannot do much, but I want to reassure you that is not the case. Stay with me; I will guide you through examples.
 
@@ -120,7 +120,23 @@ If you click on the "Toggle button" in the example below, you should see that bo
 
 {% codepen CiTA POaNEj dark result 350 %}
 
-We do that by adding the same class `.my-class` on both headings. There is another way how we could achieve the same effect - we could provide a comma-separated list of selectors.
+Here's the code:
+
+```html
+<button class="js-classily"
+  type="button"
+  data-target=".my-class"
+  data-class="blue">
+  Toggle class
+</button>
+...
+<h1 class="my-class">...</h1>
+<h1 class="my-class">...</h1>
+```
+
+By adding the same class `.my-class` on target elements we are targeting both headings at the same time. That is because Classily.js uses `querySelectorAll()` function.
+
+There is another way how we could achieve the same effect - we could provide a comma-separated list of selectors.
 
 ## How to toggle multiple classes on multiple elements?
 
@@ -128,7 +144,7 @@ In the example below, we are toggling two different classes on two separate elem
 
 {% codepen CiTA VrdaGK dark result 430 %}
 
-The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes - we could provide more that one class by using space as separator.
+The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, `hidden` and `blue` - we could provide more that one class by using space as separator.
 
 ```html
 <button type="button"
@@ -137,6 +153,9 @@ The number of comma-separated selectors must match the number of comma-separated
   data-class="blue, hidden blue">
   Toggle classes
 </button>
+...
+<h1 class="my-first-target">...</h1>
+<h1 class="my-second-target">...</h1>
 ```
 
 Pretty awesome, right. Are you ready for more advanced examples?
@@ -153,34 +172,44 @@ Once we activate "blue", "red" or "gold" state, the heading could never go back 
 
 {% codepen CiTA pdKbzY dark result 250 %}
 
-To create the same effect, think how many lines of code you should write. And now let's look how we achieve this effect using Classily.js:
+To create the same effect, think how many lines of `JavaScript` code you should write. And now let's look how we could achieve this effect using Classily.js:
 
-```
+```html
 <button type="button"
   class="js-classily"
   data-target=".my-class.red, .my-class.gold, .my-class:not(.blue)"
   data-class="red, gold, blue">
   Toggle Blue
 </button>
+...
+<h1 class="my-class">...</h1>
 ```
 
-First, we are targeting `.my-class` element with `.red` class. If there is no such element, Classily.js will skip this step. If the element exists, then we remove `.red` class. Repeat the same for the `.gold` class. Then, we are targeting `.my-class` element that doesn't contain `.blue` class. If the element exists, then add `.blue` class. The heading is now in "blue" state. The same is for "red" and "gold" state.
+First, we are targeting `.my-class` element with `.red` class. If there is no such element, Classily.js will skip this step. If the element exists, then we remove `.red` class. Repeat the same for the `.gold` class. Then, we are targeting `.my-class` element that doesn't contain `.blue` class. If the element exists, then add `.blue` class. The heading is now in "blue" state. The same is for "red" and "gold" states.
 
 The method above could be applied to create tab section, feature seen on many websites, for example. When the user clicks on a tab, different content appears.
 
-## What are special features of Classily.js?
+## Does Classily.js have special features?
 
-Often there is a need to switch the state of the element itself. To avoid usage of complicated selectors, we could use the keyword `this`.
-
-```
-data-selector="this"
-```
+Often there is a need to switch the state of the element itself, like the button in this example.
 
 {% codepen CiTA JOZKEb dark result 180 %}
 
-In this example, we used anchor tag as a button. There is another feature that is useful - we could prevent default behavior, like opening a link. To do that, we should use `data-prevent="default"` on our trigger element.
+To avoid usage of complicated selectors, we could use the keyword `this`.
 
-For more examples, check this [Codepen collection](https://codepen.io/collection/nJZLYz/).
+```html
+<a href="https://github.com/maliMirkec/Classily.js"
+  class="button-switch js-classily"
+  data-target="this"
+  data-class="button-switch--off"
+  data-prevent="default">
+  ...
+</a>
+```
+
+In this example, we used anchor tag as a button. There is another feature that is useful - we could prevent default behavior, like opening a link. To do that, we should use `data-prevent="default"` option.
+
+For more Classily.js examples, check this [Codepen collection](https://codepen.io/collection/nJZLYz/).
 
 ## Conclusion
 
@@ -188,10 +217,12 @@ Classily.js is helping me with my everyday job. I no longer have to jump from te
 
 [Share it](https://facebook.com/sharer.php?u=https://www.silvestarbistrovic.from.hr/articles/classily-js-toggling-classes-more-classily/), [like it](https://www.npmjs.com/package/classily.js), [star it](https://github.com/maliMirkec/Classily.js), [tweet it](https://twitter.com/intent/tweet?url=https://www.silvestarbistrovic.from.hr/articles/classily-js-toggling-classes-more-classily/&text=Classily.js%20-%20Toggling%20classes%20more%20classily&via=malimirkeccita)!
 
-Also, don't hesitate to report an issue, if you find any, and if you know how to make tests for this plugin, let me know how.
+Also, don't hesitate [to report an issue](https://github.com/maliMirkec/Classily.js/issues/new), if you find any. And if you know how to make tests for this plugin, let me know how.
 
 # Links
 
 Github: https://github.com/maliMirkec/Classily.js
 Npm: https://www.npmjs.com/package/classily.js
 Codepen: https://codepen.io/collection/nJZLYz/
+
+🤘
