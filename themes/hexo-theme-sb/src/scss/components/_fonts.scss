@@ -1,0 +1,51 @@
+body {
+  font-family: serif;
+  color: $black;
+}
+
+.fonts-stage-1 body {
+  font-family: $font-family1-subset;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fonts-stage-1 h1,
+.fonts-stage-1 h2,
+.fonts-stage-1 h3,
+.fonts-stage-1 h4,
+.fonts-stage-1 h5,
+.fonts-stage-1 h6 {
+  font-family: $font-family2-subset;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include ls(75);
+}
+
+.fonts-stage-2 body {
+  font-family: $font-family1;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fonts-stage-1 h1,
+.fonts-stage-1 h2,
+.fonts-stage-1 h3,
+.fonts-stage-1 h4,
+.fonts-stage-1 h5,
+.fonts-stage-1 h6 {
+  font-family: $font-family2;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include ls(75);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+code {
+  font-family: $font-family-code;
+}

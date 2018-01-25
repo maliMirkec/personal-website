@@ -1,0 +1,106 @@
+.header {
+  background-image: bg-v();
+
+  @include mq($from: desktop) {
+    background-image: bg-h();
+  }
+}
+
+.nav__checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.nav__toggle {
+  display: block;
+  position: absolute;
+  top: rem(30px);
+  right: rem(20px);
+  height: rem(40px);
+  width: rem(40px);
+  border-radius: rem(5px);
+  background-image: linear-gradient(to bottom, $color1 20%, transparent 20%, transparent 40%, $color1 40%, $color1 60%, transparent 60%, transparent 80%, $color1 80%);
+  text-indent: -9999px;
+  cursor: pointer;
+  z-index: 1;
+  @include tra;
+
+  .nav__checkbox:checked + & {
+    background-image: linear-gradient(45deg, transparent 40%, $color1 40%, $color1 60%, transparent 60%), linear-gradient(-45deg, transparent 40%, $color1 40%, $color1 60%, transparent 60%);
+  }
+
+  @include mq($from: desktop) {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  @include zero-box;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
+
+.nav__item {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  @include tra;
+
+  &:hover {
+    background-color: $color1;
+  }
+
+  @include mq($until: desktop) {
+    &:not(:nth-child(1)) {
+      display: none;
+
+      .nav__checkbox:checked ~ .nav__list & {
+        display: flex;
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    &:nth-child(-n + 3) {
+      order: 0;
+    }
+
+    &:nth-child(n + 4) {
+      order: 2;
+    }
+
+    &:nth-child(1) {
+      order: 1;
+    }
+  }
+}
+
+.nav__link {
+  font-size: ms(-4);
+  padding: rem(15px) rem(30px);
+  position: relative;
+  color: $white;
+  text-decoration: none;
+  text-transform: uppercase;
+  @include tsh;
+  @include ls(100);
+
+  svg {
+    display: block;
+    height: rem(50px);
+    width: rem(50px);
+    border-radius: rem(35px);
+    background-color: $white;
+    border: rem(10px) solid $white;
+  }
+}

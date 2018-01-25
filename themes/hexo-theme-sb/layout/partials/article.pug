@@ -1,0 +1,66 @@
+.article
+  if (page && page.title)
+    h1.article__title= page.title
+  if (page && page.thumbnail)
+    - var img_big = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_640/');
+    - var img_small = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_320/');
+    - var img_srcset = img_small + " 320w, " + img_big + " 640w";
+    .article__thumb
+      img(src=img_big, alt=page.title, srcset=img_srcset, sizes="(max-width: 340px) 320px, 640px")
+  if (page && page.layout == "post")
+    .details
+      if (page && page.date)
+        ul.details__list
+          li.details__item
+            span.text On:
+          li.details__item
+            span.tally= page.date.format(config.date_format)
+          if (page && page.author)
+            li.details__item
+              span.text By:
+            li.details__item
+              span.tally= page.author
+      if (theme && theme.widgets.breadcrumbs)
+        ul.details__list
+          li.details__item
+            span.text Location:
+          li.details__item
+            a.tally(href="/") Home
+          if (page && page.categories)
+            each kcat, vcat in page.categories
+              if (vcat.permalink && vcat.name)
+                li.details__item
+                  a.tally(href=vcat.permalink)= vcat.name
+          if (page && page.title)
+            li.details__item
+              a.tally(href=url_for(page.path))= page.title
+  if (page && page.content)
+    .content!= page.content
+  if (page && (page.prev || page.next))
+    nav.pagination
+      p More articles:
+      ul.pagination__list
+        if (page && page.prev)
+          li.pagination__item
+            a.pagination__link.pagination__link--prev(href=url_for(page.prev.path))= page.prev.title
+        if (page && page.next)
+          li.pagination__item
+            a.pagination__link.pagination__link--next(href=url_for(page.next.path))= page.next.title
+  if (page && page.layout == 'post')
+    .details
+      if (page && page.tags)
+        ul.tags
+          each ktag, vtag in page.tags
+            if (ktag && vtag)
+              li.details__item
+                a.tally(href=url_for(vtag.path))= vtag.name
+      if (theme && theme.widgets.sharing)
+        .social
+          if (theme.widgets.sharing.twitter)
+            - var twitterLink = "https://twitter.com/intent/tweet?url=" + page.permalink + "&text=" + page.title + "&via=" + theme.widgets.sharing.twitter;
+            a.tally(href=twitterLink, target="_blank") Share on Twitter
+          if (theme.widgets.sharing.facebook)
+            - var facebookLink = "https://facebook.com/sharer.php?u=" + page.permalink;
+            a.tally(href=facebookLink, target="_blank") Share on Facebook
+  if (page && page.layout == "post" && theme && theme.widgets.disqus)
+    include widgets/comments
