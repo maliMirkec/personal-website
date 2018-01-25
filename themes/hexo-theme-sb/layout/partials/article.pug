@@ -27,10 +27,10 @@
           li.details__item
             a.tally(href="/") Home
           if (page && page.categories)
-            each kcat, vcat in page.categories
-              if (vcat.permalink && vcat.name)
-                li.details__item
-                  a.tally(href=vcat.permalink)= vcat.name
+            - page.categories.each(function(cat){
+              li.details__item
+                a.tally(href=url_for(cat.path))= cat.name
+            - });
           if (page && page.title)
             li.details__item
               a.tally(href=url_for(page.path))= page.title
@@ -49,11 +49,11 @@
   if (page && page.layout == 'post')
     .details
       if (page && page.tags)
-        ul.tags
-          each ktag, vtag in page.tags
-            if (ktag && vtag)
-              li.details__item
-                a.tally(href=url_for(vtag.path))= vtag.name
+        ul.details__list
+          - page.tags.each(function(tag){
+            li.details__item
+              a.tally(href=url_for(tag.path))= tag.name
+          - });
       if (theme && theme.widgets.sharing)
         .social
           if (theme.widgets.sharing.twitter)

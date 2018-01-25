@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Documentation Module: Deferred Styles</title>
+	<title>Documentation Module: CriticalFOFT</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,14 +33,14 @@
 			<li class="dropdown">
 				<a href="modules.list.html" class="dropdown-toggle" data-toggle="dropdown">Modules<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="module-Critical%2520FOFT.html">Critical FOFT</a></li><li><a href="module-Deferred%2520Styles.html">Deferred Styles</a></li>
+					<li><a href="module-CriticalFOFT.html">CriticalFOFT</a></li><li><a href="module-DeferredStyles.html">DeferredStyles</a></li>
 				</ul>
 			</li>
 			
 			<li class="dropdown">
 				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="module-Critical%2520FOFT-FontFaceObserver.html">Critical FOFT~FontFaceObserver</a></li>
+					<li><a href="module-CriticalFOFT-FontFaceObserver.html">CriticalFOFT~FontFaceObserver</a></li>
 				</ul>
 			</li>
 			
@@ -72,7 +72,7 @@
 		<div id="main">
 			
 
-	<h1 class="page-title">Module: Deferred Styles</h1>
+	<h1 class="page-title">Module: CriticalFOFT</h1>
 <section>
 
 <header>
@@ -84,7 +84,7 @@
     <div class="container-overview">
     
         
-            <div class="description"><p>A better CSS Loading.</p></div>
+            <div class="description"><p>A better font loading using FontFaceObserver.</p></div>
         
 
         
@@ -111,7 +111,7 @@
 	<dt class="tag-author method-doc-label method-doc-details-label">Author:</dt>
 	<dd class="tag-author">
 		<ul>
-			<li>Google Developers</li>
+			<li>Zach Leatherman</li>
 			</ul>
 	</dd>
 	
@@ -132,7 +132,7 @@
 	<dt class="tag-see method-doc-label method-doc-details-label">See:</dt>
 	<dd class="tag-see">
 		<ul>
-			<li><a href="https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery">https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery</a></li>
+			<li><a href="https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft">https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft</a></li>
 			</ul>
 	</dd>
 	
@@ -150,6 +150,13 @@
     
 
     
+        <h3 class="subsection-title">Classes</h3>
+
+        <dl>
+            <dt><a href="module-CriticalFOFT-FontFaceObserver.html">FontFaceObserver</a></dt>
+            <dd></dd>
+        </dl>
+    
 
     
 
@@ -161,15 +168,15 @@
         <dl>
             
 <hr>
-<dt class="name" id="~addStylesNode">
-    <h4 id="~addStylesNode"><span class="type-signature">&lt;inner, constant> </span>addStylesNode<span class="type-signature"> :HTMLElement</span></h4>
+<dt class="name" id="~fontA">
+    <h4 id="~fontA"><span class="type-signature">&lt;inner, constant> </span>fontA<span class="type-signature"> :Object</span></h4>
 
     
 </dt>
 <dd>
     
     <div class="description">
-        <p>HTML element #deferredStyles;</p>
+        <p>Default font type.</p>
     </div>
     
 
@@ -178,7 +185,7 @@
         <ul>
             <li>
                 
-<span class="param-type">HTMLElement</span>
+<span class="param-type">Object</span>
 
 
 
@@ -232,16 +239,15 @@
         
             
 <hr>
-<dt class="name" id="~replacement">
-    <h4 id="~replacement"><span class="type-signature">&lt;inner, constant> </span>replacement<span class="type-signature"> :HTMLElement</span></h4>
+<dt class="name" id="~fontA">
+    <h4 id="~fontA"><span class="type-signature">&lt;inner, constant> </span>fontA<span class="type-signature"> :Object</span></h4>
 
     
 </dt>
 <dd>
     
     <div class="description">
-        <p>New empty div that will be appended at the end
-of the body. In it we will load our styles.</p>
+        <p>Default font type.</p>
     </div>
     
 
@@ -250,7 +256,149 @@ of the body. In it we will load our styles.</p>
         <ul>
             <li>
                 
-<span class="param-type">HTMLElement</span>
+<span class="param-type">Object</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="~fontASubset">
+    <h4 id="~fontASubset"><span class="type-signature">&lt;inner, constant> </span>fontASubset<span class="type-signature"> :Object</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>A subset of default font type.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="~fontASubset">
+    <h4 id="~fontASubset"><span class="type-signature">&lt;inner, constant> </span>fontASubset<span class="type-signature"> :Object</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>A subset of default font type.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
 
 
 
@@ -311,7 +459,7 @@ of the body. In it we will load our styles.</p>
             
 <hr>
 <dt>
-    <h4 class="name" id="~loadDeferredStyles"><span class="type-signature">&lt;inner> </span>loadDeferredStyles()</h4>
+    <h4 class="name" id="~Anonymousself-invokedfunction"><span class="type-signature">&lt;inner> </span>Anonymous self-invoked function()</h4>
     
     
 </dt>
@@ -319,7 +467,168 @@ of the body. In it we will load our styles.</p>
 
     
     <div class="description">
-        <p>Loads CSS files by deferring them to the end.</p>
+        <p>Adds classes to document when each font loads successfully.
+If fonts are already loaded, then skip loading.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="~Promise"><span class="type-signature">&lt;inner> </span>Promise()</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>A promise that adds 'fonts-stage-2' if
+<code>fontA</code>
+are loaded successfully.
+Also, set Critical FOFT session variable to true.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="~Promise"><span class="type-signature">&lt;inner> </span>Promise()</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>A promise that adds 'fonts-stage-1' if <code>fontASubset</code>
+is loaded successfully.</p>
     </div>
     
 
@@ -435,7 +744,7 @@ of the body. In it we will load our styles.</p>
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on January 25th 2018, 4:59:33 pm
+		on January 26th 2018, 12:05:52 am
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
