@@ -5,10 +5,10 @@
   background-image: bg-h();
   color: $white;
   font-size: ms(-4);
-  padding: rem(5px) rem(10px) rem(2px);
+  padding: rem(5px) rem(15px) rem(2px);
   margin-top: rem(5px);
   margin-bottom: rem(5px);
-  border-radius: rem(5px);
+  border-radius: rem(4px);
   text-decoration: none;
   @include ls(50);
   @include bsh(transparentize($black, .4));
@@ -25,9 +25,9 @@
       @include tsh($social-color);
 
       @if $social-name == 'twitter' {
-        background-image: bg-h(darken($social-color, 20%), $social-color);
+        background-image: bg-h(darken($social-color, 10%));
       } @else {
-        background-image: bg-h(darken($social-color, 10%), lighten($social-color, 10%));
+        background-image: bg-h($social-color);
       }
     }
   }
@@ -57,7 +57,7 @@
   }
 
   span {
-    margin-left: rem(24px);
+    margin-left: rem(18px);
   }
 }
 

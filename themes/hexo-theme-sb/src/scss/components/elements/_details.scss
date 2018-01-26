@@ -1,32 +1,17 @@
 .details {
   font-size: ms(-2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
+  border-top: 1px solid lighten($color1, 40%);
+  border-bottom: 1px solid lighten($color1, 40%);
   background-color: $white;
-  background-clip: padding-box;
-  position: relative;
   padding: rem(5px) 0;
   margin-top: rem(7px);
 
-  &:before {
-    content: "";
-    position: absolute;
-    top: -1px;
-    right: 0;
-    bottom: -1px;
-    left: 0;
-    background-image: bg-v(lighten($color1, 40%), lighten($color2, 40%));
-    z-index: -1;
-  }
-
   @include mq($from: desktop) {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
+    justify-content: space-between;
   }
 }
 
@@ -34,7 +19,7 @@
   @include zero-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   list-style: none;
 
   @include mq($from: desktop) {
@@ -44,7 +29,17 @@
 }
 
 .details__item {
+  flex: 1 1 auto;
+
+  .text,
+  .tally {
+    display: block;
+    text-align: center;
+  }
+
   @include mq($from: desktop) {
+    flex: 0 0 auto;
+
     & + & {
       margin-left: rem(10px);
     }

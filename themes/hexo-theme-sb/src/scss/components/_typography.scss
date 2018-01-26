@@ -76,7 +76,12 @@ body {
 @for $i from 1 through 6 {
   h#{$i} {
     font-size: ms(5 - $i);
+    margin-top: ms(10 - $i);
   }
+}
+
+p {
+  margin-top: ms(1);
 }
 
 // Code Block
@@ -95,4 +100,7 @@ code {
   line-height: 1;
 }
 
+::selection {
+  background-color: lighten($color1, 44%);
+}
 

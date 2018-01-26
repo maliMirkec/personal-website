@@ -1,11 +1,15 @@
 .footer {
   font-family: sans-serif;
-  background-image: bg-h(lighten($color1, 30%), lighten($color2, 30%));
+  background-image: bg-h(lighten($color1, 40%));
   color: $color1;
   font-size: ms(-5);
   padding: rem(5px);
   margin-top: rem(50px);
   text-align: center;
+
+  p {
+    margin: rem(10px) 0;
+  }
 }
 
 // .footer {

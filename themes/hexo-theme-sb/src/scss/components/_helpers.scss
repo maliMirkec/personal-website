@@ -44,26 +44,26 @@
   transition: all $transition-duration $transition-animation;
 }
 
-@function bg-v($first-color: $color1, $second-color: $color2) {
-  @return linear-gradient(
-    to right,
-    transparent 50%,
-    transparentize($first-color, .85) 50%
-  ), radial-gradient(
+@function bg-v($main-color: $color1) {
+  @return radial-gradient(
     circle at center bottom,
-    transparentize($second-color, .3),
-    transparentize($first-color, .3)
+    transparentize(adjust-hue($main-color, 5deg), .6),
+    transparentize($main-color, .4)
+  ), linear-gradient(
+    to right,
+    transparentize($main-color, .5) 50%,
+    transparentize($main-color, .6) 50%
   );
 }
 
-@function bg-h($first-color: $color1, $second-color: $color2) {
-  @return linear-gradient(
-    to bottom,
-    transparent 48%,
-    transparentize($first-color, .85) 48%
-  ), radial-gradient(
+@function bg-h($main-color: $color1) {
+  @return radial-gradient(
     circle at center bottom,
-    transparentize($second-color, .3),
-    transparentize($first-color, .3)
+    transparentize(adjust-hue($main-color, 5deg), .4),
+    transparentize($main-color, .6)
+  ), linear-gradient(
+    to bottom,
+    transparentize($main-color, .6) 48%,
+    transparentize($main-color, .3) 48%
   );
 }

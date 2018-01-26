@@ -10,8 +10,15 @@
         left: rem(-10px);
         right: rem(-10px);
         bottom: rem(-10px);
-        background-image: radial-gradient(circle at center, transparent, transparentize($black, 0.95));
         z-index: -1;
+      }
+
+      &:nth-child(even):after {
+        background-image: radial-gradient(circle at center, transparentize($color1, 0.95) 60%, transparent);
+      }
+
+      &:nth-child(odd):after {
+        background-image: radial-gradient(circle at center, transparentize($black, 0.95) 60%, transparent);
       }
     }
   }
@@ -26,7 +33,7 @@
     }
 
     @include mq($from: desktop) {
-      &:after {
+      .articles &:after {
         top: rem(73px);
       }
     }
@@ -41,8 +48,8 @@
 }
 
 .article__title {
-  background-image: bg-v;
   color: $color1;
+  @include tsh($white);
 }
 
 .article__thumb {
@@ -58,18 +65,24 @@
     bottom: 0;
     left: 0;
     margin: rem(7px);
-    border: 1px solid lighten($color2, 30%);
+    border: 1px solid lighten($color1, 30%);
     z-index: 1;
   }
 }
 
 .content {
+  h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    color: $color2;
+    color: lighten($color1, 22%);
+    @include tsh($white);
+  }
+
+  p {
+    @include tsh($white);
   }
 
   code {
@@ -79,8 +92,9 @@
 
   li a,
   p a {
-    color: $color2;
+    color: $color1;
     @include tra;
+    white-space: pre-wrap;
 
     &:hover,
     &:focus {
@@ -126,7 +140,7 @@
 .highlight {
   font-size: ms(-2);
   @include zero-box();
-  background-image: bg-v(darken($black, 20%), $black);
+  background-image: bg-v(darken($black, 25%));
   color: $white;
   padding: rem(10px);
   position: relative;

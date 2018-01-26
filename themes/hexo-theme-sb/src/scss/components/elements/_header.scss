@@ -57,7 +57,7 @@
   @include tra;
 
   &:hover {
-    background-color: $color1;
+    background-color: transparentize($white, .85);
   }
 
   @include mq($until: desktop) {
