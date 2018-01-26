@@ -31,6 +31,7 @@
     "hexo-caniuse": "^0.1.4",
     "hexo-cloudinary": "^0.1.2",
     "hexo-codepen": "^0.1.0",
+    "hexo-filter-asset-inline": "^1.1.1",
     "hexo-filter-cleanup": "^1.0.7",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",

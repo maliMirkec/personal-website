@@ -276,4 +276,3 @@ var FontFaceObserver = void 0;
     });
   });
 })();
-//# sourceMappingURL=foftFontLoading.js.map

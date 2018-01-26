@@ -258,6 +258,7 @@
   "html": {
     "run": true,
     "src": "layout/",
+    "dest": "",
     "renameConfig": {
       "extname": ".html"
     },
@@ -272,10 +273,10 @@
   },
   "penthouse": {
     "run": true,
-    "src": "src/style.css",
+    "src": "style.css",
     "criticalCssConfig": {
       "out": "./source/css/style.critical.css",
-      "url": "http://localhost:3000",
+      "url": "http://localhost:4000",
       "width": 1366,
       "height": 768,
       "keepLargerMediaQueries": true,
@@ -310,6 +311,12 @@
     "renameConfig": {
       "suffix": ".min"
     }
+  },
+  "gzip": {
+    "run": false,
+    "src": "",
+    "dest": "",
+    "gzipConfig": {}
   },
   "sassdoc": {
     "run": true,

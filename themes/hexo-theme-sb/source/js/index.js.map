@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;AAAAA,QAAQC,GAAR,CAAY,6EAAZ","file":"index.js","sourcesContent":["console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')\n"]}
