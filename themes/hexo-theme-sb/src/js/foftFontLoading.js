@@ -34,7 +34,10 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontASubset = new FontFaceObserver('VollkornSubset')
+  const fontASubset = new FontFaceObserver('VollkornSubset', {
+    weight: 'normal',
+    style: 'normal'
+  })
 
   /**
    * A subset of default font type.
@@ -43,7 +46,10 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset')
+  const fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset', {
+    weight: 'bold',
+    style: 'normal'
+  })
 
   /**
    * A promise that adds 'fonts-stage-1' if {@link fontASubset}
@@ -62,7 +68,10 @@ let FontFaceObserver;
      * @name fontA
      * @type {Object}
      */
-    const fontA = new FontFaceObserver('Vollkorn')
+    const fontA = new FontFaceObserver('Vollkorn', {
+      weight: 'normal',
+      style: 'normal'
+    })
 
     /**
      * Default font type.
@@ -71,7 +80,10 @@ let FontFaceObserver;
      * @name fontA
      * @type {Object}
      */
-    const fontB = new FontFaceObserver('Playfair Display Bold')
+    const fontB = new FontFaceObserver('Playfair Display Bold', {
+      weight: 'bold',
+      style: 'normal'
+    })
 
     /**
      * A promise that adds 'fonts-stage-2' if
