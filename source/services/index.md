@@ -3,7 +3,7 @@ title: Services
 date: 2017-08-03 09:34:48
 ---
 
-I've been working with web technologies since 2011. That's more than 5 years of experience in this fast-paced Internet world. I've learned a lot in this period and here's what I could offer you.
+I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 
 - Organize project architecture for frontend
 - **Create style guide for your project**

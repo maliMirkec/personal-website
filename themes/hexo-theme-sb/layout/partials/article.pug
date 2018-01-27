@@ -36,16 +36,6 @@
               a.tally(href=url_for(page.path))= page.title
   if (page && page.content)
     .content!= page.content
-  if (page && (page.prev || page.next))
-    nav.pagination
-      p More articles:
-      ul.pagination__list
-        if (page && page.prev)
-          li.pagination__item
-            a.pagination__link.pagination__link--prev(href=url_for(page.prev.path))= page.prev.title
-        if (page && page.next)
-          li.pagination__item
-            a.pagination__link.pagination__link--next(href=url_for(page.next.path))= page.next.title
   if (page && page.layout == 'post')
     .details
       if (page && page.tags)
@@ -62,5 +52,15 @@
           if (theme.widgets.sharing.facebook)
             - var facebookLink = "https://facebook.com/sharer.php?u=" + page.permalink;
             a.tally(href=facebookLink, target="_blank") Share on Facebook
+  if (page && (page.prev || page.next))
+    nav.pagination
+      p More articles:
+      ul.pagination__list
+        if (page && page.prev)
+          li.pagination__item
+            a.pagination__link.pagination__link--prev(href=url_for(page.prev.path))= page.prev.title
+        if (page && page.next)
+          li.pagination__item
+            a.pagination__link.pagination__link--next(href=url_for(page.next.path))= page.next.title
   if (page && page.layout == "post" && theme && theme.widgets.disqus)
     include widgets/comments

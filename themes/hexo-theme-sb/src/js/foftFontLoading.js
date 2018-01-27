@@ -22,6 +22,7 @@ let FontFaceObserver;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
+  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded)
   if (window.sessionStorage.criticalFoftDataUriFontsLoaded) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2'
     return
@@ -43,7 +44,7 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontBSubset = new FontFaceObserver('PlayfairDisplaySubset')
+  const fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset')
 
   /**
    * A promise that adds 'fonts-stage-1' if {@link fontASubset}
@@ -71,7 +72,7 @@ let FontFaceObserver;
      * @name fontA
      * @type {Object}
      */
-    const fontB = new FontFaceObserver('Playfair Display')
+    const fontB = new FontFaceObserver('Playfair Display Bold')
 
     /**
      * A promise that adds 'fonts-stage-2' if
@@ -87,6 +88,10 @@ let FontFaceObserver;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded = true
+    }, () => {
+      console.log(`Main fonts not loaded.`)
     })
+  }, () => {
+    console.log(`Subset fonts not loaded.`)
   })
 })()

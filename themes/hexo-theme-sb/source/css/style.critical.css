@@ -111,6 +111,11 @@ h1 {
   margin-top: 1.78755rem;
 }
 
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
 p {
   margin-top: 1.06667rem;
 }
@@ -131,30 +136,25 @@ body {
 }
 
 .fonts-stage-1 h1 {
-  font-family: PlayfairDisplaySubset, serif;
+  font-family: "PlayfairDisplayBoldSubset", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: calc(75 / 1000 * 1em);
+  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 .fonts-stage-2 body {
-  font-family: Vollkorn, serif;
+  font-family: "Vollkorn", serif;
   font-style: normal;
   font-weight: 400;
 }
 
-.fonts-stage-1 h1 {
-  font-family: "Playfair Display", serif;
+.fonts-stage-2 h1 {
+  font-family: "Playfair Display Bold", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: calc(75 / 1000 * 1em);
-}
-
-.fonts-stage-1 h1 a {
-  color: inherit;
-  text-decoration: none;
+  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 code {
@@ -181,10 +181,10 @@ code {
 .nav__toggle {
   display: block;
   position: absolute;
-  top: calc(1.66667 * 1rem);
+  top: calc(1.94444 * 1rem);
   right: calc(1.11111 * 1rem);
-  height: calc(2.22222 * 1rem);
-  width: calc(2.22222 * 1rem);
+  height: calc(1.66667 * 1rem);
+  width: calc(1.66667 * 1rem);
   border-radius: calc(0.27778 * 1rem);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #e01258), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, #e01258), color-stop(60%, #e01258), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, #e01258));
   background-image: linear-gradient(to bottom, #e01258 20%, transparent 20%, transparent 40%, #e01258 40%, #e01258 60%, transparent 60%, transparent 80%, #e01258 80%);
@@ -312,13 +312,13 @@ body {
 
 @media (min-width: 41.25em) {
   .wrapper {
-    max-width: 640px;
+    width: 640px;
     padding: calc(0.55556 * 1rem) 0;
   }
 }
 
 .tally {
-  font-family: Vollkorn, serif;
+  font-family: "Vollkorn", serif;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -349,10 +349,10 @@ body {
   .articles .article:after {
     content: "";
     position: absolute;
-    top: calc(-0.38889 * 1rem);
-    left: calc(-0.55556 * 1rem);
+    top: calc(-0.55556 * 1rem);
     right: calc(-0.55556 * 1rem);
     bottom: calc(-0.55556 * 1rem);
+    left: calc(-0.55556 * 1rem);
     z-index: -1;
   }
 
@@ -375,7 +375,7 @@ body {
 
 @media (min-width: 41.25em) {
   .articles .article + .article:after {
-    top: calc(4.05556 * 1rem);
+    top: calc(3.88889 * 1rem);
   }
 }
 
@@ -387,7 +387,7 @@ body {
 }
 
 .article__title {
-  color: #e01258;
+  color: #ef3675;
   text-shadow: 0 1px 1px #fff;
 }
 
@@ -420,7 +420,12 @@ body {
 
 .content p a {
   color: #e01258;
-  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.content strong {
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 body {

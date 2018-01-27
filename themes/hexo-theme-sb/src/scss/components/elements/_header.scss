@@ -14,10 +14,10 @@
 .nav__toggle {
   display: block;
   position: absolute;
-  top: rem(30px);
+  top: rem(35px);
   right: rem(20px);
-  height: rem(40px);
-  width: rem(40px);
+  height: rem(30px);
+  width: rem(30px);
   border-radius: rem(5px);
   background-image: linear-gradient(to bottom, $color1 20%, transparent 20%, transparent 40%, $color1 40%, $color1 60%, transparent 60%, transparent 80%, $color1 80%);
   text-indent: -9999px;

@@ -21,7 +21,8 @@
   }
 
   @each $social-name, $social-color in $social-icons {
-    &[href*="#{$social-name}"] {
+    &[href*="//www.#{$social-name}"],
+    &[href*="//#{$social-name}"] {
       @include tsh($social-color);
 
       @if $social-name == 'twitter' {

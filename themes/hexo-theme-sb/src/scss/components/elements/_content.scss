@@ -11,7 +11,7 @@ body {
   max-width: calc(100% - #{rem(20px)});
 
   @include mq($from: desktop) {
-    max-width: $wrapper;
+    width: $wrapper;
     padding: rem(10px) 0;
   }
 }

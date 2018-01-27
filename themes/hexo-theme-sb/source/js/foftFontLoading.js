@@ -208,6 +208,7 @@ var FontFaceObserver = void 0;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
+  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded);
   if (window.sessionStorage.criticalFoftDataUriFontsLoaded) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2';
     return;
@@ -229,7 +230,7 @@ var FontFaceObserver = void 0;
    * @name fontASubset
    * @type {Object}
    */
-  var fontBSubset = new FontFaceObserver('PlayfairDisplaySubset');
+  var fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset');
 
   /**
    * A promise that adds 'fonts-stage-1' if {@link fontASubset}
@@ -257,7 +258,7 @@ var FontFaceObserver = void 0;
      * @name fontA
      * @type {Object}
      */
-    var fontB = new FontFaceObserver('Playfair Display');
+    var fontB = new FontFaceObserver('Playfair Display Bold');
 
     /**
      * A promise that adds 'fonts-stage-2' if
@@ -273,6 +274,10 @@ var FontFaceObserver = void 0;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded = true;
+    }, function () {
+      console.log("Main fonts not loaded.");
     });
+  }, function () {
+    console.log("Subset fonts not loaded.");
   });
 })();
