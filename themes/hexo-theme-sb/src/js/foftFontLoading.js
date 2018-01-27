@@ -22,7 +22,8 @@ let FontFaceObserver;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
-  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded)
+  window.sessionStorage.criticalFoftDataUriFontsLoaded = false
+
   if (window.sessionStorage.criticalFoftDataUriFontsLoaded) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2'
     return
