@@ -461,12 +461,12 @@ body {
   font-style: normal;
   font-weight: 400; }
 
-.fonts-stage-1 h1,
-.fonts-stage-1 h2,
-.fonts-stage-1 h3,
-.fonts-stage-1 h4,
-.fonts-stage-1 h5,
-.fonts-stage-1 h6 {
+.fonts-stage-3 h1,
+.fonts-stage-3 h2,
+.fonts-stage-3 h3,
+.fonts-stage-3 h4,
+.fonts-stage-3 h5,
+.fonts-stage-3 h6 {
   font-family: "PlayfairDisplayBoldSubset", serif;
   font-style: normal;
   font-weight: bold;
@@ -478,12 +478,12 @@ body {
   font-style: normal;
   font-weight: 400; }
 
-.fonts-stage-2 h1,
-.fonts-stage-2 h2,
-.fonts-stage-2 h3,
-.fonts-stage-2 h4,
-.fonts-stage-2 h5,
-.fonts-stage-2 h6 {
+.fonts-stage-4 h1,
+.fonts-stage-4 h2,
+.fonts-stage-4 h3,
+.fonts-stage-4 h4,
+.fonts-stage-4 h5,
+.fonts-stage-4 h6 {
   font-family: "Playfair Display Bold", serif;
   font-style: normal;
   font-weight: bold;
