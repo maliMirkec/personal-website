@@ -13,7 +13,6 @@ body {
   margin: 0;
 }
 
-footer,
 header,
 nav {
   display: block;
@@ -229,21 +228,6 @@ body {
   border-radius: calc(1.94444 * 1rem);
   background-color: #fff;
   border: calc(0.55556 * 1rem) solid #fff;
-}
-
-.footer {
-  font-family: sans-serif;
-  background-image: radial-gradient(circle at center bottom, rgba(250, 196, 210, 0.6), rgba(250, 196, 214, 0.4)), -webkit-gradient(linear, left top, left bottom, color-stop(48%, rgba(250, 196, 214, 0.4)), color-stop(48%, rgba(250, 196, 214, 0.7)));
-  background-image: radial-gradient(circle at center bottom, rgba(250, 196, 210, 0.6), rgba(250, 196, 214, 0.4)), linear-gradient(to bottom, rgba(250, 196, 214, 0.4) 48%, rgba(250, 196, 214, 0.7) 48%);
-  color: #e01258;
-  font-size: 0.7242rem;
-  padding: calc(0.27778 * 1rem);
-  margin-top: calc(1.66667 * 1rem);
-  text-align: center;
-}
-
-.footer p {
-  margin: calc(0.55556 * 1rem) 0;
 }
 
 body {

@@ -34,7 +34,7 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontASubset = new FontFaceObserver('VollkornSubset', {
+  const fontASubset = new FontFaceObserver('Vollkorn Subset', {
     weight: 'normal',
     style: 'normal'
   })
@@ -61,6 +61,8 @@ let FontFaceObserver;
       style: 'normal'
     })
 
+    console.log(`Subset font1 loaded.`)
+
     /**
      * A promise that adds 'fonts-stage-2' if
      * {@link fontA}
@@ -75,11 +77,12 @@ let FontFaceObserver;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded1 = true
+
+      console.log(`Main font1 loaded.`)
     }, () => {
       console.log(`Main font1 not loaded.`)
     })
-  }, (e) => {
-    console.log(e)
+  }, () => {
     console.log(`Subset font1 not loaded.`)
   })
 })();
@@ -97,7 +100,7 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset', {
+  const fontBSubset = new FontFaceObserver('Playfair Display Bold Subset', {
     weight: 700,
     style: 'normal'
   })
@@ -124,6 +127,8 @@ let FontFaceObserver;
       style: 'normal'
     })
 
+    console.log(`Subset font2 loaded.`)
+
     /**
      * A promise that adds 'fonts-stage-2' if
      * {@link fontA}
@@ -138,11 +143,12 @@ let FontFaceObserver;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded2 = true
+
+      console.log(`Main font2 loaded.`)
     }, () => {
       console.log(`Main font2 not loaded.`)
     })
-  }, (a, b, c) => {
-    console.log(a, b, c)
+  }, () => {
     console.log(`Subset font2 not loaded.`)
   })
 })()

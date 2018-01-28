@@ -220,7 +220,7 @@ var FontFaceObserver = void 0;
    * @name fontASubset
    * @type {Object}
    */
-  var fontASubset = new FontFaceObserver('VollkornSubset', {
+  var fontASubset = new FontFaceObserver('Vollkorn Subset', {
     weight: 'normal',
     style: 'normal'
   });
@@ -247,6 +247,8 @@ var FontFaceObserver = void 0;
       style: 'normal'
     });
 
+    console.log("Subset font1 loaded.");
+
     /**
      * A promise that adds 'fonts-stage-2' if
      * {@link fontA}
@@ -261,11 +263,12 @@ var FontFaceObserver = void 0;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded1 = true;
+
+      console.log("Main font1 loaded.");
     }, function () {
       console.log("Main font1 not loaded.");
     });
-  }, function (e) {
-    console.log(e);
+  }, function () {
     console.log("Subset font1 not loaded.");
   });
 })();
@@ -283,7 +286,7 @@ var FontFaceObserver = void 0;
    * @name fontASubset
    * @type {Object}
    */
-  var fontBSubset = new FontFaceObserver('PlayfairDisplayBoldSubset', {
+  var fontBSubset = new FontFaceObserver('Playfair Display Bold Subset', {
     weight: 700,
     style: 'normal'
   });
@@ -310,6 +313,8 @@ var FontFaceObserver = void 0;
       style: 'normal'
     });
 
+    console.log("Subset font2 loaded.");
+
     /**
      * A promise that adds 'fonts-stage-2' if
      * {@link fontA}
@@ -324,11 +329,12 @@ var FontFaceObserver = void 0;
 
       // Optimization for Repeat Views
       window.sessionStorage.criticalFoftDataUriFontsLoaded2 = true;
+
+      console.log("Main font2 loaded.");
     }, function () {
       console.log("Main font2 not loaded.");
     });
-  }, function (e) {
-    console.log(e);
+  }, function () {
     console.log("Subset font2 not loaded.");
   });
 })();

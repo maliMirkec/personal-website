@@ -457,7 +457,7 @@ body {
   color: #232323; }
 
 .fonts-stage-1 body {
-  font-family: VollkornSubset, serif;
+  font-family: "Vollkorn Subset", serif;
   font-style: normal;
   font-weight: 400; }
 
@@ -467,7 +467,7 @@ body {
 .fonts-stage-3 h4,
 .fonts-stage-3 h5,
 .fonts-stage-3 h6 {
-  font-family: "PlayfairDisplayBoldSubset", serif;
+  font-family: "Playfair Display Bold Subset", serif;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
