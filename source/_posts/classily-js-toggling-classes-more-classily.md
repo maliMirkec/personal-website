@@ -1,10 +1,10 @@
 ---
 title: Classily.js - Toggling classes more classily
 categories:
-  - Blog
+- Blog
 tags:
-  - javascript
-  - plugin
+- javascript
+- plugin
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1511821846/Classily_ebid2n.png
 comments: true
 date: 2017-11-28 10:28:28
@@ -48,20 +48,13 @@ bower install classily.js
 
 ## How to initialize Classily.js?
 
-To initialize Classily.js, add `script` tag to your `HTML` document:
+To initialize Classily.js, add `script` tag to your `HTML` document with path to Classily.js.
+Next, make new Classily instance and you are good to go!
 
-```html
-<script src="/path/to/Classily.min.js"></script>
-```
-
-and then add the following code:
-
-```html
-<script>
-  new Classily({
-    selector: ".my-classily-element"
-  });
-</script>
+```javascript
+new Classily ({
+  selector: '.my-selector'
+})
 ```
 
 where `selector: ".my-classily-element"` is a trigger selector - an element which will trigger class toggle action - usually an anchor or a button. Default selector is `.js-classily`.
@@ -224,5 +217,3 @@ Also, don't hesitate [to report an issue](https://github.com/maliMirkec/Classily
 Github: https://github.com/maliMirkec/Classily.js
 Npm: https://www.npmjs.com/package/classily.js
 Codepen: https://codepen.io/collection/nJZLYz/
-
-🤘

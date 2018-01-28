@@ -20,19 +20,18 @@ A web development agency website.
 - JavaScript
 - Webpack
 
-## [cita.hr](//www.cita.hr)
+## [irinaandmatej.com](//irinaandmatej.com)
 
-A web development agency website.
+A wedding photographer website.
 
-- Netlify
+- Wordpress
+- [Custom WP Theme](/articles/bem-wordpress-theme/)
 - Responsive Web Design
 - Sass
-- SVG
 - BEM
 - Gulp
-- Webpack
+- Bower
 - Cloudflare
-- [PageSpeed Insights: 100/100](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.cita.hr%2F)
 
 ## [atika-interijeri.hr](//atika-interijeri.hr)
 
@@ -49,15 +48,16 @@ A carpentry website.
 - Cloudflare
 - [PageSpeed Insights: 100/100](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fatika-interijeri.hr&tab=desktop)
 
-## [irinaandmatej.com](//irinaandmatej.com)
+## [cita.hr](//www.cita.hr)
 
-A wedding photographer website.
+A web development agency website.
 
-- Wordpress
-- [Custom WP Theme](/articles/bem-wordpress-theme/)
+- Netlify
 - Responsive Web Design
 - Sass
+- SVG
 - BEM
 - Gulp
-- Bower
+- Webpack
 - Cloudflare
+- [PageSpeed Insights: 100/100](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.cita.hr%2F)
