@@ -141,8 +141,8 @@ let FontFaceObserver;
     }, () => {
       console.log(`Main font2 not loaded.`)
     })
-  }, (e) => {
-    console.log(e)
+  }, (a, b, c) => {
+    console.log(a, b, c)
     console.log(`Subset font2 not loaded.`)
   })
 })()
