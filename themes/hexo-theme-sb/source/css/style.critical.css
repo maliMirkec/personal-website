@@ -305,11 +305,6 @@ body {
   }
 }
 
-.home a {
-  color: inherit;
-  word-break: break-word;
-}
-
 .home__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,10 +368,6 @@ body {
   .home__box:nth-of-type(3) {
     grid-row: 3;
   }
-
-  .home__box:nth-of-type(4) {
-    grid-row: 4;
-  }
 }
 
 .home__box h1 {
@@ -387,10 +378,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   letter-spacing: calc(50 / 1000 * 1em);
-}
-
-.home__box ul {
-  margin: 0;
 }
 
 body {
