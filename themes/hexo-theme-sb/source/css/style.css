@@ -457,7 +457,7 @@ body {
   color: #232323; }
 
 .fonts-stage-1 body {
-  font-family: "Vollkorn Subset", serif;
+  font-family: "Vollkorn Subset";
   font-style: normal;
   font-weight: 400; }
 
@@ -467,14 +467,14 @@ body {
 .fonts-stage-3 h4,
 .fonts-stage-3 h5,
 .fonts-stage-3 h6 {
-  font-family: "Playfair Display Bold Subset", serif;
+  font-family: "Playfair Display Bold Subset";
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: calc(50 / 1000 * 1em); }
 
 .fonts-stage-2 body {
-  font-family: "Vollkorn", serif;
+  font-family: "Vollkorn";
   font-style: normal;
   font-weight: 400; }
 
@@ -484,7 +484,7 @@ body {
 .fonts-stage-4 h4,
 .fonts-stage-4 h5,
 .fonts-stage-4 h6 {
-  font-family: "Playfair Display Bold", serif;
+  font-family: "Playfair Display Bold";
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
@@ -746,7 +746,7 @@ body {
     color: #232323; }
 
 .tally {
-  font-family: "Vollkorn", serif;
+  font-family: "Vollkorn";
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -936,7 +936,7 @@ body {
     position: absolute;
     font-size: 13.21749rem;
     color: #f4f4f4;
-    font-family: "Playfair Display Bold", serif;
+    font-family: "Playfair Display Bold";
     z-index: -1;
     -webkit-transform-origin: center;
             transform-origin: center;
