@@ -322,15 +322,20 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem);
+  min-height: 200px;
 }
 
-@supports not (display: grid) {
+.home__box:not(:last-of-type) {
+  margin-bottom: calc(1.66667 * 1rem);
+}
+
+@supports (display: grid) {
   .home__box {
-    min-height: 200px;
+    min-height: unset;
   }
 
   .home__box:not(:last-of-type) {
-    margin-bottom: calc(1.66667 * 1rem);
+    margin-bottom: unset;
   }
 }
 

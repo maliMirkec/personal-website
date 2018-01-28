@@ -23,12 +23,17 @@
   flex-direction: column;
   justify-content: flex-end;
   padding: rem(40px) rem(20px) rem(20px);
+  min-height: 200px;
 
-  @supports not (display: grid) {
-    min-height: 200px;
+  &:not(:last-of-type) {
+    margin-bottom: rem(30px);
+  }
+
+  @supports (display: grid) {
+    min-height: unset;
 
     &:not(:last-of-type) {
-      margin-bottom: rem(30px);
+      margin-bottom: unset;
     }
   }
 

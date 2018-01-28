@@ -815,9 +815,10 @@ body {
             box-shadow: 0 1px 4px -1px rgba(35, 35, 35, 0); }
   .tally svg {
     position: absolute;
-    left: calc(0.22222 * 1rem);
+    left: calc(0.16667 * 1rem);
     top: calc(0.11111 * 1rem);
-    height: calc(1.33333 * 1rem);
+    height: calc(1.38889 * 1rem);
+    width: calc(1.38889 * 1rem);
     fill: #fff;
     margin-right: calc(0.27778 * 1rem); }
   .tally span {
@@ -1015,12 +1016,15 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem); }
-  @supports not (display: grid) {
+  padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem);
+  min-height: 200px; }
+  .home__box:not(:last-of-type) {
+    margin-bottom: calc(1.66667 * 1rem); }
+  @supports (display: grid) {
     .home__box {
-      min-height: 200px; }
+      min-height: unset; }
       .home__box:not(:last-of-type) {
-        margin-bottom: calc(1.66667 * 1rem); } }
+        margin-bottom: unset; } }
   .home__box:nth-of-type(odd) {
     background-image: radial-gradient(circle at center bottom, rgba(224, 18, 71, 0.4), rgba(224, 18, 88, 0.6)), -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(224, 18, 88, 0.5)), color-stop(50%, rgba(224, 18, 88, 0.4)));
     background-image: radial-gradient(circle at center bottom, rgba(224, 18, 71, 0.4), rgba(224, 18, 88, 0.6)), linear-gradient(to right, rgba(224, 18, 88, 0.5) 50%, rgba(224, 18, 88, 0.4) 50%); }

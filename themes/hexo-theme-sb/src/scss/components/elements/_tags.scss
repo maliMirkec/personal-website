@@ -50,9 +50,10 @@
 
   svg {
     position: absolute;
-    left: rem(4px);
+    left: rem(3px);
     top: rem(2px);
-    height: rem(24px);
+    height: rem(25px);
+    width: rem(25px);
     fill: $white;
     margin-right: rem(5px);
   }
