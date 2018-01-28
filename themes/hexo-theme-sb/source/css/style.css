@@ -1006,6 +1006,9 @@ body {
     word-break: break-word; }
 
 .home__box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1016,8 +1019,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem);
-  min-height: 200px; }
+  padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem); }
   .home__box:not(:last-of-type) {
     margin-bottom: calc(1.66667 * 1rem); }
   @supports (display: grid) {

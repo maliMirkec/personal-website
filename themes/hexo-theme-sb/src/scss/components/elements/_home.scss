@@ -19,11 +19,12 @@
 }
 
 .home__box {
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: rem(40px) rem(20px) rem(20px);
-  min-height: 200px;
+  // min-height: 200px;
 
   &:not(:last-of-type) {
     margin-bottom: rem(30px);

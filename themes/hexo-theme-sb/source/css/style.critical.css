@@ -306,6 +306,9 @@ body {
 }
 
 .home__box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,7 +320,6 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   padding: calc(2.22222 * 1rem) calc(1.11111 * 1rem) calc(1.11111 * 1rem);
-  min-height: 200px;
 }
 
 .home__box:not(:last-of-type) {
