@@ -1,5 +1,6 @@
 {
-    "name": "",
+    "name": "Silvestar Bistrovi\u0107 Blog",
+    "short_name": "Silvestar Bistrovi\u0107 Blog",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
@@ -13,5 +14,6 @@
         }
     ],
     "theme_color": "#e01258",
-    "background_color": "#e01258"
+    "background_color": "#e01258",
+    "display": "standalone"
 }

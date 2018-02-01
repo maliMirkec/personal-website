@@ -1,6 +1,20 @@
 body {
   font-family: serif;
   color: $black;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  @include ls(50);
 }
 
 .fonts-stage-1 body {
@@ -16,16 +30,10 @@ body {
 .fonts-stage-3 h5,
 .fonts-stage-3 h6 {
   font-family: $font-family2-subset;
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  @include ls(50);
 }
 
 .fonts-stage-2 body {
   font-family: $font-family1;
-  font-style: normal;
-  font-weight: 400;
 }
 
 .fonts-stage-4 h1,
@@ -35,10 +43,6 @@ body {
 .fonts-stage-4 h5,
 .fonts-stage-4 h6 {
   font-family: $font-family2;
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  @include ls(50);
 }
 
 code {

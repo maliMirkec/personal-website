@@ -6,7 +6,7 @@
   "author": "Silvestar Bistrović <malimirkeccita@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "starter-project": "1.1.34",
+    "starter-project": "^1.1.47",
     "yarn": "^0.27.5"
   }
 }
