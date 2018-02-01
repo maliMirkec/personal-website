@@ -274,15 +274,15 @@
   "penthouse": {
     "run": true,
     "src": "style.css",
-    "criticalCssConfig": {
+    "criticalCssConfigs": [{
       "out": "./source/css/style.critical.css",
       "url": "https://feature-starter-project--silvestarbistrovic.netlify.com",
-      "width": 1366,
-      "height": 768,
+      "width": 1920,
+      "height": 1200,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": false
-    }
+    }]
   },
   "js": {
     "run": true,
@@ -318,6 +318,21 @@
     "dest": "",
     "gzipConfig": {}
   },
+  "kill": {
+    "dev": {
+      "run": false
+    },
+    "docs": {
+      "run": false
+    },
+    "dist": {
+      "run": false
+    },
+    "deploy": {
+      "run": true
+    },
+    "timeout": 20000
+  },
   "sassdoc": {
     "run": true,
     "sassdocConfig": {
@@ -325,7 +340,7 @@
       "package": {
         "title": "Starter project",
         "name": "starter-project",
-        "description": "Gulp; .editorconfig; .jshintrc; .gitignore; SCSS: reset, locks, system fonts;",
+        "description": "A set of gulp tasks that helps you develop high performant websites using latest best practices.",
         "license": "MIT",
         "homepage": "https://github.com/maliMirkec/starter-project"
       },
@@ -386,6 +401,6 @@
     }
   },
   "gulp": {
-    "src": "node_modules/starter-project/gulp/"
+    "src": "_gulp/"
   }
 }

@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: $font-family1;
-  src: url('/fonts/Vollkorn/Vollkorn-Regular.woff2') format('woff2'), url('/fonts/Vollkorn/Vollkorn-Regular.woff') format('woff');
+  src: url('/fonts/Vollkorn/Vollkorn-Regular.woff') format('woff');
   font-style: normal;
   font-weight: normal;
 }
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: $font-family2;
-  src: url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff2') format('woff2'), url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff') format('woff');
+  src: url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff') format('woff');
   font-style: normal;
   font-weight: bold;
 }
