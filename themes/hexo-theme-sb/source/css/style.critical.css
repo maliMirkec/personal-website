@@ -99,6 +99,15 @@ p {
 body {
   font-family: serif;
   color: #232323;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 .fonts-stage-1 body {
@@ -109,24 +118,14 @@ body {
 
 .fonts-stage-3 h1 {
   font-family: "Playfair Display Bold Subset";
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 .fonts-stage-2 body {
   font-family: "Vollkorn";
-  font-style: normal;
-  font-weight: 400;
 }
 
 .fonts-stage-4 h1 {
   font-family: "Playfair Display Bold";
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 .header {

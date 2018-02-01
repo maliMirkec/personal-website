@@ -454,7 +454,20 @@ code {
 
 body {
   font-family: serif;
-  color: #232323; }
+  color: #232323;
+  font-style: normal;
+  font-weight: 400; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: calc(50 / 1000 * 1em); }
 
 .fonts-stage-1 body {
   font-family: "Vollkorn Subset";
@@ -467,16 +480,10 @@ body {
 .fonts-stage-3 h4,
 .fonts-stage-3 h5,
 .fonts-stage-3 h6 {
-  font-family: "Playfair Display Bold Subset";
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: calc(50 / 1000 * 1em); }
+  font-family: "Playfair Display Bold Subset"; }
 
 .fonts-stage-2 body {
-  font-family: "Vollkorn";
-  font-style: normal;
-  font-weight: 400; }
+  font-family: "Vollkorn"; }
 
 .fonts-stage-4 h1,
 .fonts-stage-4 h2,
@@ -484,11 +491,7 @@ body {
 .fonts-stage-4 h4,
 .fonts-stage-4 h5,
 .fonts-stage-4 h6 {
-  font-family: "Playfair Display Bold";
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: calc(50 / 1000 * 1em); }
+  font-family: "Playfair Display Bold"; }
 
 code {
   font-family: "Courier New", Courier, monospace; }
