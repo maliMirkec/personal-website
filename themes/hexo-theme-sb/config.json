@@ -232,7 +232,8 @@
           "backgroundColor": "#e01258",
           "themeColor": "#e01258",
           "manifest": {
-            "display": "browser",
+            "name": "Silvestar Bistrović Blog",
+            "display": "standalone",
             "orientation": "notSet",
             "onConflict": "override",
             "declared": true
