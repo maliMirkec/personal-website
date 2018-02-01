@@ -1,0 +1,14 @@
+if (theme && theme.menu)
+  header.header
+    nav.nav
+      input.nav__checkbox(type="checkbox", id="NavToggle")
+      label.nav__toggle(for="NavToggle") Toggle navigation
+      ul.nav__list
+        if (theme && theme.site.logo)
+          li.nav__item
+            a.nav__link(href="/")
+              !=inline_svg(theme.site.logo)
+        each knav, vnav in theme.menu
+          li.nav__item
+            a.nav__link(href=url_for(knav))= vnav
+

@@ -46,7 +46,7 @@ highlight:
   tab_replace: true
 
 # Category & Tag
-default_category: 
+default_category:
 category_map:
   Blog: articles
 tag_map:
@@ -66,7 +66,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: sb
+theme: hexo-theme-sb
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -78,12 +78,7 @@ sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
 
-# optimization
-hfc_useref:
-  enable: true
-  concat: true
-  
-hfc_css:
-  enable: true
-  exclude: 
-    - '*.min.css'
+# Inline assets
+inline_assets:
+  enabled: true
+  limit: 100000
