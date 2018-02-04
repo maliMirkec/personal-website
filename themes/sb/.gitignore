@@ -1,6 +1,0 @@
-.DS_Store
-/.vscode/
-/node_modules/
-npm-debug.log
-.yarnclean
-yarn.lock

@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+.pagination__list--inline {
+  display: flex;
+  justify-content: space-between;
+}
+
 .pagination__item {
   margin-bottom: rem(20px);
 }

@@ -67,6 +67,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-sb
+ignore:
+  - '**/themes/**/*(node_modules|lib)' # improve performance while `hexo server` is running
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -12,35 +12,3 @@
     margin-left: rem(10px);
   }
 }
-
-
-// .widget-contact {
-//   display: flex;
-//   flex-wrap: wrap;
-//   flex-direction: column;
-//   padding: 3px;
-
-//   @include mq($from: mobile) {
-//     flex-direction: row;
-//   }
-// }
-
-// .widget-contact__item {
-//   flex: 0 0 auto;
-//   width: 100%;
-
-//   @include mq($from: mobile) {
-//     width: 25%;
-//   }
-// }
-
-// .widget-contact__link {
-//   width: 100%;
-//   font-size: ms(-2);
-//   padding: 9px 3px;
-//   color: $white;
-//   transition: background-color .15s ease-in-out .03s;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
