@@ -36,6 +36,7 @@
 
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   list-style: none;
   justify-content: center;
@@ -54,6 +55,7 @@
   align-items: center;
   justify-content: center;
   width: 120px;
+  font-size: ms(-4);
   @include tra;
 
   &:hover {
@@ -70,15 +72,61 @@
     }
   }
 
-  @include mq($from: desktop) {
-    &:nth-child(-n + 3) {
-      order: 0;
-    }
+  .nav__list--2 & {
+    @include mq($from: desktop) {
+      &:nth-child(-n + 2) {
+        order: 0;
+      }
 
-    &:nth-child(n + 4) {
-      order: 2;
+      &:nth-child(n + 3) {
+        order: 2;
+      }
     }
+  }
 
+  .nav__list--4 & {
+    @include mq($from: desktop) {
+      &:nth-child(-n + 3) {
+        order: 0;
+      }
+
+      &:nth-child(n + 4) {
+        order: 2;
+      }
+    }
+  }
+
+  .nav__list--6 & {
+    width: 96px;
+    font-size: ms(-6);
+
+    @include mq($from: desktop) {
+      &:nth-child(-n + 4) {
+        order: 0;
+      }
+
+      &:nth-child(n + 5) {
+        order: 2;
+      }
+    }
+  }
+
+  .nav__list--8 & {
+    width: 73px;
+    font-size: ms(-8);
+
+    @include mq($from: desktop) {
+      &:nth-child(-n + 5) {
+        order: 0;
+      }
+
+      &:nth-child(n + 6) {
+        order: 2;
+      }
+    }
+  }
+
+  [class*="nav__list--"] & {
     &:nth-child(1) {
       order: 1;
     }
@@ -86,8 +134,7 @@
 }
 
 .nav__link {
-  font-size: ms(-4);
-  padding: rem(15px) rem(30px);
+  padding: rem(15px) 0;
   position: relative;
   color: $white;
   text-decoration: none;

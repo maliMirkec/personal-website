@@ -59,6 +59,10 @@
   }
 
   span {
+    text-transform: capitalize;
+  }
+
+  svg + span {
     margin-left: rem(18px);
   }
 }

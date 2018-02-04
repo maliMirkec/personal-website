@@ -40,7 +40,8 @@
     "hexo-migrator-wordpress": "^0.1.2",
     "hexo-pagination": "^0.1.0",
     "hexo-render-pug": "^1.2.0",
-    "hexo-renderer-marked": "^0.2.10",
-    "hexo-server": "^0.2.0"
+    "hexo-renderer-marked": "^0.3.2",
+    "hexo-server": "^0.2.0",
+    "hexo-theme-sb": "^1.0.6"
   }
 }

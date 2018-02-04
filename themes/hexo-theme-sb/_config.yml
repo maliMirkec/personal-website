@@ -2,8 +2,8 @@ site:
   full_name: SB - Silvestar's personal website
   short_name: SB
   description: Silvestar is a fearless web developer eager to prove his worth
-  author: Silvestar Bistrović
   logo: /gfx/svg/logo.svg
+  language: en
 
 home_page:
   - section:
@@ -11,24 +11,25 @@ home_page:
     paragraphs:
      - Fearless web developer
   - section:
+    title: Specializations
     paragraphs:
-      - Frontend Developer
-      - UI Specialist
-      - Osijek, Croatia
+      - Frontend
+      - User Interface
+      - Wordpress
+      - Web Optimization
   - section:
     title: Projects
     links:
-      Starter Project: //www.npmjs.com/package/starter-project
-      Contiamo: /portfolio#contiamo-com
-      Irina and Matej: /portfolio#irinaandmatej-com
-      Atika Interijeri: /portfolio#atika-interijeri-hr
+      Starter Project: //starter.silvestarbistrovic.from.hr
+      Contiamo: //www.contiamo.com
+      Irina and Matej: //irinaandmatej.com
+      Atika Interijeri: //atika-interijeri.hr
   - section:
-    title: Contact
+    title: Links
     links:
-      Blog: /categories/articles
-      Portfolio: /portfolio
-      About me: /about-me
-      me@silvestarbistrovic.from.hr: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Twitter: //twitter.com/malimirkeccita
+      Github: //github.com/maliMirkec
 
 open_graph:
   pretty_url: true
@@ -42,13 +43,15 @@ open_graph:
     google_plus_id: +SilvestarbistrovicFromHr
 
 menu:
-  Home: /
-  Blog: /categories/articles
-  Portfolio: /portfolio
-  About: /about-me
+  centered: true
+  display_logo: true
+  items:
+    Home: /
+    Blog: /categories/articles
+    Portfolio: /portfolio
+    About: /about-me
 
 widgets:
-  breadcrumbs: true
   contact:
     mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
     twitter: //twitter.com/malimirkeccita

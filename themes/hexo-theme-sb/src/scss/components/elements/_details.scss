@@ -3,7 +3,6 @@
   border-top: 1px solid lighten($color1, 40%);
   border-bottom: 1px solid lighten($color1, 40%);
   background-color: $white;
-  padding: rem(5px) 0;
   margin-top: rem(7px);
 
   @include mq($from: desktop) {
@@ -22,6 +21,10 @@
   align-items: stretch;
   list-style: none;
 
+  &:not(:empty) {
+    padding: rem(5px) 0;
+  }
+
   @include mq($from: desktop) {
     flex-direction: row;
     align-items: baseline;
@@ -38,7 +41,7 @@
   }
 
   @include mq($from: desktop) {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 
     & + & {
       margin-left: rem(10px);

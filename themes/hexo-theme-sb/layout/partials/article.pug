@@ -20,7 +20,7 @@
               span.text By:
             li.details__item
               span.tally= page.author
-      if (theme && theme.widgets.breadcrumbs)
+      if (page && page.categories)
         ul.details__list
           li.details__item
             span.text Location:
@@ -29,22 +29,29 @@
           if (page && page.categories)
             - page.categories.each(function(cat){
               li.details__item
-                a.tally(href=url_for(cat.path))= cat.name
+                - var categoryName = cat.name.length < 30 ? cat.name : cat.name.substring(0, 29) + '...';
+                a.tally(href=urlFor(cat.path))= categoryName
             - });
           if (page && page.title)
             li.details__item
-              a.tally(href=url_for(page.path))= page.title
+              - var pageTitle = page.title.length < 30 ? page.title : page.title.substring(0, 29) + '...';
+              a.tally(href=urlFor(page.path))= pageTitle
   if (page && page.content)
     .content!= page.content
+  if (page && page.photos)
+    .gallery
+      each photo in page.photos
+        p
+          img.gallery__item(src=photo, alt=page.title)
   if (page && page.layout == 'post')
     .details
       if (page && page.tags)
         ul.details__list
           - page.tags.each(function(tag){
             li.details__item
-              a.tally(href=url_for(tag.path))= tag.name
+              a.tally(href=urlFor(tag.path))= tag.name
           - });
-      if (theme && theme.widgets.sharing)
+      if (theme && theme.widgets && theme.widgets.sharing)
         .social
           if (theme.widgets.sharing.twitter)
             - var twitterLink = "https://twitter.com/intent/tweet?url=" + page.permalink + "&text=" + page.title + "&via=" + theme.widgets.sharing.twitter;
@@ -58,9 +65,11 @@
       ul.pagination__list
         if (page && page.prev)
           li.pagination__item
-            a.pagination__link.pagination__link--prev(href=url_for(page.prev.path))= page.prev.title
+            - var prevTitle = page.prev.title ? page.prev.title: "Previous";
+            a.pagination__link.pagination__link--prev(href=urlFor(page.prev.path))= prevTitle
         if (page && page.next)
           li.pagination__item
-            a.pagination__link.pagination__link--next(href=url_for(page.next.path))= page.next.title
-  if (page && page.layout == "post" && theme && theme.widgets.disqus)
+            - var nextTitle = page.next.title ? page.next.title: "Next";
+            a.pagination__link.pagination__link--next(href=urlFor(page.next.path))= nextTitle
+  if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
     include widgets/comments
