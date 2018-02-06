@@ -33,7 +33,7 @@ home_page:
 
 open_graph:
   pretty_url: true
-  image: /gfx/SB-big.png
+  image: /gfx/png/SB-big.png
   fb:
     fb_id: 340933169673372
     fb_admins: malimirkeccita
@@ -61,9 +61,7 @@ widgets:
     github: //github.com/maliMirkec
     codepen: //codepen.io/CiTA/
     lastfm: //www.last.fm/user/maliMirkec
-  google_analytics:
-    tracking_id: UA-37881833-5
-  disqus:
+  disqus1:
     shortname: silvestarbistrovic
   sharing:
     twitter: malimirkeccita

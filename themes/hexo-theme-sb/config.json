@@ -192,7 +192,7 @@
     }
   },
   "favicon": {
-    "run": true,
+    "run": false,
     "src": "./layout/partial/assets/favicon.pug",
     "dest": "./layout/partial/assets/",
     "realFaviconConfig": {
@@ -359,6 +359,30 @@
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": false
+    }, {
+      "out": "./source/css/style.critical2.css",
+      "url": "http://localhost:4000/categories/articles/page/2/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false
+    }, {
+      "out": "./source/css/style.critical3.css",
+      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false
+    }, {
+      "out": "./source/css/style.critical4.css",
+      "url": "http://localhost:4000/about-me/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false
     }]
   },
   "js": {
@@ -408,7 +432,7 @@
     "deploy": {
       "run": true
     },
-    "timeout": 20000
+    "timeout": 59000
   },
   "sassdoc": {
     "run": true,
