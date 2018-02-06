@@ -1,3 +1,11 @@
+//- include ../../../source/css/foft.min.css
 | <style>
-include ../../../source/css/style.critical.min.css
+if (isHome())
+  include ../../../source/css/style.critical.min.css
+else if (isCategory())
+  include ../../../source/css/style.critical2.min.css
+else if (isPost())
+  include ../../../source/css/style.critical3.min.css
+else
+  include ../../../source/css/style.critical4.min.css
 | </style>

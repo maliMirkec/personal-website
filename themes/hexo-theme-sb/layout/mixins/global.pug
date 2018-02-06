@@ -6,3 +6,9 @@ mixin inlineSvg(file)
     img(src=file, alt="Inline image")
 
 - var urlFor = (link) => (url_for) ? url_for(link) : link
+
+- var isHome = () => (is_home) ? is_home() : false
+
+- var isCategory = () => (is_category) ? is_category() : false
+
+- var isPost = () => (is_post) ? is_post() : false
