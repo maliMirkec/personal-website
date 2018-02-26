@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-sb",
-  "version": "1.0.6",
-  "description": "Beautiful and clean theme for Hexo blog framework",
+  "version": "1.0.17",
+  "description": "Clean and simple theme for Hexo blog framework",
   "author": "Silvestar Bistrović <malimirkeccita@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -25,16 +25,14 @@
   "bugs": {
     "url": "https://github.com/maliMirkec/hexo-theme-sb/issues"
   },
-  "homepage": "https://github.com/maliMirkec/hexo-theme-sb",
+  "homepage": "https://sbtheme.silvestarbistrovic.from.hr",
   "dependencies": {
     "hexo-helper-inline-svg": "^1.1.1",
-    "hexo-render-pug": "^1.2.0",
-    "hexo-renderer-marked": "^0.3.2"
+    "hexo-render-pug": "^2.0.0",
+    "ncp": "^2.0.0",
+    "yarn": "^0.27.5"
   },
   "devDependencies": {
-    "ncp": "^2.0.0",
-    "path-exists": "^3.0.0",
-    "starter-project": "^1.1.49",
-    "yarn": "^0.27.5"
+    "starter-project": "^1.1.53"
   }
 }

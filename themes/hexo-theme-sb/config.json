@@ -22,6 +22,7 @@
     "run": true,
     "src": "src/scss/",
     "dest": "css/",
+    "clean": "css/",
     "styleLintConfig": {
       "reporters": [{
         "formatter": "string",
@@ -42,12 +43,14 @@
   "fonts": {
     "run": true,
     "src": "src/fonts/",
-    "dest": "fonts/"
+    "dest": "fonts/",
+    "clean": "fonts/"
   },
   "gfx": {
     "run": true,
     "src": "src/gfx/",
     "dest": "gfx/",
+    "clean": "gfx/",
     "gifsicleConfig": {
       "interlaced": true
     },
@@ -192,9 +195,10 @@
     }
   },
   "favicon": {
-    "run": false,
+    "run": true,
     "src": "./layout/partial/assets/favicon.pug",
     "dest": "./layout/partial/assets/",
+    "clean": "favicon/",
     "realFaviconConfig": {
       "masterPicture": "./src/gfx/svg/sb-flat.svg",
       "dest": "./source/favicon/",
@@ -260,6 +264,7 @@
     "run": true,
     "src": "layout/",
     "dest": "",
+    "clean": "*.html",
     "renameConfig": {
       "extname": ".html"
     },
@@ -389,6 +394,7 @@
     "run": true,
     "src": "src/js/",
     "dest": "js/",
+    "clean": "js/",
     "eslintConfig": {
       "configFile": "./.eslintrc.json",
       "fix": true,
@@ -436,6 +442,7 @@
   },
   "sassdoc": {
     "run": true,
+    "clean": "docs/sass/",
     "sassdocConfig": {
       "dest": "./source/docs/sass/",
       "package": {
@@ -460,7 +467,8 @@
   },
   "kss": {
     "run": true,
-    "dest": "styleguide/",
+    "dest": "docs/styleguide/",
+    "clean": "docs/styleguide/",
     "kssConfig": {
       "title": "Starter Project",
       "source": "./src/scss/",
@@ -476,6 +484,7 @@
   },
   "jsdoc": {
     "run": true,
+    "clean": "docs/js/",
     "src": ["./src/js/homepage.md", "./src/js/"],
     "jsdocConfig": {
       "tags": {
