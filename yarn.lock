@@ -1461,6 +1461,12 @@ hexo-render-pug@^1.2.0:
   dependencies:
     pug "^2.0.0-beta6"
 
+hexo-render-pug@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-render-pug/-/hexo-render-pug-2.0.0.tgz#e9c84a7afe0cbb391112d02e95090535081217bf"
+  dependencies:
+    pug "^2.0.0-rc.4"
+
 hexo-renderer-marked@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-0.3.2.tgz#d6a37af9ff195e30f9ef6ede1a06ea1fe4322966"
@@ -1484,12 +1490,12 @@ hexo-server@^0.2.0:
     opn "^4.0.0"
     serve-static "^1.10.0"
 
-hexo-theme-sb@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/hexo-theme-sb/-/hexo-theme-sb-1.0.10.tgz#f793aed997a554244731cebf284cd0386295d784"
+hexo-theme-sb@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/hexo-theme-sb/-/hexo-theme-sb-1.0.17.tgz#d512b46c42c163934cc6e07a6aa33b965f37ade2"
   dependencies:
     hexo-helper-inline-svg "^1.1.1"
-    hexo-render-pug "^1.2.0"
+    hexo-render-pug "^2.0.0"
     ncp "^2.0.0"
     yarn "^0.27.5"
 
@@ -2566,7 +2572,7 @@ pug-walk@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.1.5.tgz#90e943acbcf7021e6454cf1b32245891cba6f851"
 
-pug@^2.0.0-beta6:
+pug@^2.0.0-beta6, pug@^2.0.0-rc.4:
   version "2.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-rc.4.tgz#b7b08f6599bd5302568042b7436984fb28c80a13"
   dependencies:

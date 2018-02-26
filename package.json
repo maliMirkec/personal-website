@@ -1,6 +1,6 @@
 {
   "name": "silvestarbistrovic.from.hr",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Silvestar's personal website.",
   "main": "index",
   "repository": {
@@ -42,6 +42,6 @@
     "hexo-render-pug": "^1.2.0",
     "hexo-renderer-marked": "^0.3.2",
     "hexo-server": "^0.2.0",
-    "hexo-theme-sb": "^1.0.10"
+    "hexo-theme-sb": "^1.0.17"
   }
 }
