@@ -5,7 +5,7 @@ comments: false
 
 [This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/about-me/).
 
-## [hanhanxue.com](//www.hanhanxue.com)
+## [hanhanxue.com](/portfolio/hanhanxue/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/hanhanxue_2x1-cover_cf40pg.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Han Han Xue cover" cover-img /portfolio/hanhanxue/ cover %}
 
@@ -15,7 +15,7 @@ Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The w
 
 ---
 
-## [contiamo.com](//www.contiamo.com)
+## [contiamo.com](/portfolio/contiamo/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/contiamo_2x1-cover_qsblet.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Contiamo cover" cover-img /portfolio/contiamo/ cover %}
 
@@ -25,7 +25,7 @@ Contiamo is a company that uses machine learning and AI to drive better decision
 
 ---
 
-## [irinaandmatej.com](//irinaandmatej.com)
+## [irinaandmatej.com](/portfolio/irinaandmatej/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/irinaandmatej_2x1-cover_xgycsh.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Irina and Matej cover" cover-img /portfolio/irinaandmatej/ cover %}
 
@@ -35,7 +35,7 @@ Irina and Matej are wedding and portrait photographers based in Croatia and trav
 
 ---
 
-## [franciscanchildrens.org](//franciscanchildrens.org)
+## [franciscanchildrens.org](/portfolio/franciscanchildrens/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/franciscanchildrens_2x1-cover_khg47f.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Franciscan Children's cover" cover-img /portfolio/franciscanchildrens/ cover %}
 
@@ -45,7 +45,7 @@ Franciscan Children’s is an integral part of Boston’s pediatric medical ecos
 
 ---
 
-## [atika-interijeri.hr](//atika-interijeri.hr)
+## [atika-interijeri.hr](/portfolio/atika-interijeri/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/atika-interijeri_2x1-cover_jqjwgy.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Atika Interijeri cover" cover-img /portfolio/atika-interijeri/ cover %}
 
@@ -55,7 +55,7 @@ Atika Interijeri is a carpentry company specialized for creating all kinds of cu
 
 ---
 
-## [marcijusweddings.com](//marcijusweddings.com)
+## [marcijusweddings.com](/portfolio/marcijusweddings/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/marcijusweddings_2x1-cover_uag9wl.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Marcijus Weddings cover" cover-img /portfolio/marcijusweddings/ cover %}
 
@@ -65,7 +65,7 @@ Marcijuš weddings are wedding photographers who love spontaneity, creative focu
 
 ---
 
-## [borninjune.net](//borninjune.net)
+## [borninjune.net](/portfolio/borninjune/)
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/borninjune_2x1-cover_mbjbon.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Born In June cover" cover-img /portfolio/borninjune/ cover %}
 
