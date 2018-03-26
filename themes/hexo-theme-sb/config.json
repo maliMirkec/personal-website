@@ -354,7 +354,7 @@
     "inlineSourcePath": "source"
   },
   "penthouse": {
-    "run": false,
+    "run": true,
     "src": "style.css",
     "criticalCssConfigs": [{
       "out": "./source/css/style.critical.css",
