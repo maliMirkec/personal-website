@@ -1,5 +1,10 @@
 .pagination {
   margin-top: rem(40px);
+  font-size: ms(0);
+
+  p {
+    font-weight: bold;
+  }
 }
 
 .pagination__list {
@@ -19,7 +24,6 @@
 .pagination__link {
   @include tra;
   color: lighten($color-gamma, 22%);
-  font-size: ms(2);
 
   &:hover,
   &:focus {

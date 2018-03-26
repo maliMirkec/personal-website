@@ -1,55 +1,56 @@
 .article {
+  display: block;
+  font-size: ms(0);
+  padding: rem(10px);
+
   .articles & {
     @include mq($from: desktop) {
+      background-color: darken($color-beta, 3%);
+      background-image: url('/gfx/png/sb-flat.png');
+      background-position: bottom right 5px;
+      background-repeat: no-repeat;
+      background-size: 60px;
+      box-shadow: 0 0 2px 0 darken($color-beta, 10%);
       position: relative;
 
       &:after {
-        bottom: rem(-10px);
+        background-color: adjust-hue($color-alpha, -5%);
+        box-shadow: 0 1px 2px -1px $color-gamma, 0 1px 4px -1px $color-gamma;
         content: '';
-        left: rem(-10px);
+        height: 5px;
+        left: rem(-4px);
         position: absolute;
-        right: rem(-10px);
-        top: rem(-10px);
-        z-index: -1;
-      }
-
-      &:nth-child(even):after {
-        background-image: radial-gradient(circle at center, transparentize($color-alpha, 0.95) 60%, transparent);
-      }
-
-      &:nth-child(odd):after {
-        background-image: radial-gradient(circle at center, transparentize($color-gamma, 0.95) 60%, transparent);
+        right: rem(-4px);
+        top: 100%;
       }
     }
+  }
+
+  &:first-child {
+    margin-top: rem(20px);
   }
 
   & + & {
-    @include mq($from: desktop) {
-      .articles &:after {
-        top: rem(70px);
-      }
-    }
-
-    &:before {
-      color: $color-alpha;
-      content: '...';
-      display: block;
-      margin: rem(50px) 0;
-      text-align: center;
-    }
+    margin-top: rem(60px);
   }
 
   img {
+    background-color: $color-beta;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 
 .article__title {
   @include tsh($color-beta);
   color: lighten($color-alpha, 10%);
+  margin-top: 0;
 }
 
 .article__thumb {
@@ -78,6 +79,15 @@
   h5,
   h6 {
     @include tsh($color-beta);
+
+    a {
+      @include tra;
+
+      &:hover,
+      &:focus {
+        color: adjust-hue($color-alpha, -5%);
+      }
+    }
   }
 
   p {
@@ -97,17 +107,17 @@
 
     &:hover,
     &:focus {
-      color: $color-alpha;
+      color: adjust-hue($color-alpha, -25%);
     }
   }
 
   blockquote {
     background-color: transparentize($color-gamma, 0.95);
     color: lighten($color-gamma, 25%);
-    font-size: ms(2);
+    font-style: italic;
     margin: 0;
     overflow: hidden;
-    padding: rem(10px) rem(50px);
+    padding: rem(30px) rem(50px);
     position: relative;
 
     &.right {
@@ -116,8 +126,7 @@
 
     &:before,
     &:after {
-      color: lighten($color-gamma, 82%);
-      content: '”';
+      color: darken($color-beta, 4%);
       font-family: $font-beta;
       font-size: ms(40);
       position: absolute;
@@ -127,15 +136,15 @@
     }
 
     &:before {
-      content: '”';
-      left: rem(-40px);
-      top: rem(-125px);
+      content: '“';
+      left: rem(-80px);
+      top: rem(-150px);
     }
 
     &:after {
-      bottom: rem(-205px);
-      content: '“';
-      right: rem(-10px);
+      bottom: rem(-215px);
+      content: '”';
+      right: rem(30px);
     }
 
     footer {
@@ -147,6 +156,10 @@
       padding: ms(1) 0;
     }
 
+    p {
+      margin-top: 0;
+    }
+
     a {
       color: inherit;
       text-decoration: none;
@@ -154,8 +167,15 @@
   }
 
   strong {
-    font-weight: normal;
-    text-decoration: underline;
+    @include ls(25);
+  }
+
+  hr {
+    background-color: transparentize($color-alpha, 0.95);
+    border: 0;
+    height: 1px;
+    margin-bottom: rem(40px);
+    margin-top: rem(40px);
   }
 
   @for $i from 1 through 6 {
@@ -163,6 +183,30 @@
 
     h#{$i} {
       color: lighten($color-alpha, $amount);
+    }
+  }
+}
+
+.cover {
+  display: block;
+  position: relative;
+
+  &:after {
+    @include tra;
+    background-color: adjust-hue($color-alpha, -5%);
+    box-shadow: 0 -1px 2px -1px $color-gamma, 0 1px 4px -1px $color-gamma;
+    content: '';
+    height: 5px;
+    left: rem(-4px);
+    position: absolute;
+    right: rem(-4px);
+    top: 100%;
+  }
+
+  &:hover,
+  &:focus {
+    &:after {
+      background-color: adjust-hue($color-alpha, -15%);
     }
   }
 }
@@ -215,118 +259,3 @@
     width: 100%;
   }
 }
-
-// .archive__title {
-//   font-size: ms(4);
-//   color: $color-alpha;
-// }
-
-// .article__item--list {
-//   &:not(:last-of-type) {
-//     margin-bottom: 36px;
-//   }
-// }
-
-// .article__content,
-// .article__footer {
-//   margin-top: 24px;
-// }
-
-// .article__title {
-//   font-size: ms(4);
-//   color: $color2;
-//   transition: color .15s ease-in-out;
-
-//   &:hover,
-//   &:focus,
-//   &:active {
-//     color: $color-alpha;
-//   }
-// }
-
-// .article__title--list {
-//   margin-bottom: 18px;
-// }
-
-// .article__title--post {
-//   margin-bottom: 24px;
-// }
-
-// .article__title-link {
-//   color: inherit;
-// }
-
-// .article__details {
-//   align-items: baseline;
-//   justify-content: space-between;
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-
-// .article__meta {
-//   font-size: ms(-2);
-//   margin-right: 6px;
-
-//   @include mq($until: mobile) {
-//     margin-bottom: 6px;
-//   }
-// }
-
-// .article__meta-item {
-//   display: inline-block;
-//   background-image: radial-gradient(
-//     circle at top left,
-//     transparentize($color-alpha, .1),
-//     transparentize($color2, .1)
-//   );
-//   padding: 1px;
-//   border-radius: 3px;
-// }
-
-// .article__meta-inner {
-//   display: block;
-//   padding: 2px 4px;
-//   border-radius: 2px;
-//   background-color: $color-beta;
-//   color: $color-alpha;
-// }
-
-// .article__link {
-//   font-size: ms(-1);
-//   background-image: radial-gradient(
-//     circle at center left,
-//     transparentize($color-alpha, .33),
-//     transparentize($color2, .33)
-//   );
-//   color: $color-beta;
-//   padding: 3px 6px;
-//   border-radius: 3px;
-//   transition: background-color .15s ease-in-out;
-
-//   &::after {
-//     content: "⇢";
-//     margin-left: 3px;
-//   }
-
-//   &:hover,
-//   &:focus,
-//   &:active {
-//     color: $color-beta;
-//     background-color: $color-alpha;
-//   }
-// }
-
-// .article__header--post,
-// .article__title--post:not(:last-child) {
-// }
-
-// .article__content--post:not(:last-child),
-// .article__item--post {
-// }
-
-// .article__footer--post {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-//   align-items: center;
-// }

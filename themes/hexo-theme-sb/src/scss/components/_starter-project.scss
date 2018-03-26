@@ -77,10 +77,10 @@ body {
   display: flex;
   justify-content: center;
   line-height: 1;
-  padding: rem(6px) rem(10px);
+  padding: 0 rem(10px) rem(6px);
 
   p {
-    font-size: ms(-1);
+    font-size: ms(-3);
     margin: 0;
   }
 }

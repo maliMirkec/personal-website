@@ -1,12 +1,13 @@
 footer.footer
+  p Silvestar is a fearless web developer, JAMstack enthusiast and Wordpress coder currently available for #[a(href="/about-me/") hire].
+  if (theme && theme.widgets && theme.widgets.contact)
+    include widgets/contact
   if (theme && theme.site && theme.site.short_name)
     .copyright
       p!= "&copy; " + theme.site.short_name + " " + new Date().getFullYear()
   else if (config && config.title)
     .copyright
       p!= "&copy; " + config.title + " " + new Date().getFullYear()
-  if (theme && theme.widgets && theme.widgets.contact)
-    include widgets/contact
 
 if (theme && theme.widgets && theme.widgets.google_analytics)
   include widgets/ga

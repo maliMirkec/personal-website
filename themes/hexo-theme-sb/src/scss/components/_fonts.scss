@@ -1,8 +1,10 @@
 body {
   color: $color-gamma;
   font-family: serif;
+  -webkit-font-smoothing: auto;
   font-style: normal;
   font-weight: 400;
+  -moz-osx-font-smoothing: auto;
 }
 
 h1,
@@ -45,6 +47,8 @@ h6 {
   font-family: $font-beta;
 }
 
-code {
+pre,
+code,
+.code {
   font-family: $font-gamma;
 }

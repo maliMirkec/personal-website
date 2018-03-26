@@ -6,5 +6,3 @@ node_modules/
 themes/sb/node_modules/
 public/
 .deploy*/
-_src
-_layout

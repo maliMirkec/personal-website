@@ -195,7 +195,7 @@
     }
   },
   "favicon": {
-    "run": true,
+    "run": false,
     "src": "./layout/partial/assets/favicon.pug",
     "dest": "./layout/partial/assets/",
     "clean": "favicon/",
@@ -354,7 +354,7 @@
     "inlineSourcePath": "source"
   },
   "penthouse": {
-    "run": true,
+    "run": false,
     "src": "style.css",
     "criticalCssConfigs": [{
       "out": "./source/css/style.critical.css",

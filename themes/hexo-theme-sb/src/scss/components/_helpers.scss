@@ -49,5 +49,5 @@
 }
 
 @function bg-h($main-color: $color-alpha) {
-  @return radial-gradient( circle at center bottom, transparentize(adjust-hue($main-color, 5deg), .4), transparentize($main-color, .6) ), linear-gradient( to bottom, transparentize($main-color, .6) 48%, transparentize($main-color, .3) 48% );
+  @return radial-gradient( circle at center bottom, transparentize(adjust-hue($main-color, 5deg), .4), transparentize($main-color, .6) ), linear-gradient( to bottom, transparentize($main-color, .6) 50%, transparentize($main-color, .3) 50% );
 }

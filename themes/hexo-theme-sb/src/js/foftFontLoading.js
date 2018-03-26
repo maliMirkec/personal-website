@@ -34,13 +34,28 @@ let FontFaceObserver;
    * @name fontASubset
    * @type {Object}
    */
-  const fontASubset = new FontFaceObserver('Vollkorn Subset', {
-    weight: 'normal',
+  const fontASubset1 = new FontFaceObserver('Barlow Subset', {
+    weight: 300,
     style: 'normal'
   })
 
-  const fontBSubset = new FontFaceObserver('Playfair Display Bold Subset', {
-    weight: 700,
+  const fontASubset2 = new FontFaceObserver('Barlow Subset', {
+    weight: 300,
+    style: 'italic'
+  })
+
+  const fontASubset3 = new FontFaceObserver('Barlow Subset', {
+    weight: 'bold',
+    style: 'normal'
+  })
+
+  const fontASubset4 = new FontFaceObserver('Barlow Subset', {
+    weight: 'bold',
+    style: 'italic'
+  })
+
+  const fontBSubset = new FontFaceObserver('Playfair Display Subset', {
+    weight: 'bold',
     style: 'normal'
   })
 
@@ -51,7 +66,13 @@ let FontFaceObserver;
    * @method
    * @name Promise
    */
-  Promise.all([fontASubset.load(), fontBSubset.load()]).then(() => {
+  Promise.all([
+    fontASubset1.load(),
+    fontASubset2.load(),
+    fontASubset3.load(),
+    fontASubset4.load(),
+    fontBSubset.load()
+  ]).then(() => {
     document.documentElement.className += ' fonts-stage-1'
 
     /**
@@ -61,13 +82,28 @@ let FontFaceObserver;
      * @name fontA
      * @type {Object}
      */
-    const fontA = new FontFaceObserver('Vollkorn', {
-      weight: 'normal',
+    const fontA1 = new FontFaceObserver('Barlow', {
+      weight: 300,
       style: 'normal'
     })
 
-    const fontB = new FontFaceObserver('Playfair Display Bold', {
-      weight: 700,
+    const fontA2 = new FontFaceObserver('Barlow', {
+      weight: 300,
+      style: 'italic'
+    })
+
+    const fontA3 = new FontFaceObserver('Barlow', {
+      weight: 'bold',
+      style: 'normal'
+    })
+
+    const fontA4 = new FontFaceObserver('Barlow', {
+      weight: 'bold',
+      style: 'italic'
+    })
+
+    const fontB = new FontFaceObserver('Playfair Display', {
+      weight: 'bold',
       style: 'normal'
     })
 
@@ -82,7 +118,13 @@ let FontFaceObserver;
      * @method
      * @name Promise
      */
-    Promise.all([fontA.load(), fontB.load()]).then(() => {
+    Promise.all([
+      fontA1.load(),
+      fontA2.load(),
+      fontA3.load(),
+      fontA4.load(),
+      fontB.load()
+    ]).then(() => {
       document.documentElement.className += ' fonts-stage-2'
 
       // Optimization for Repeat Views

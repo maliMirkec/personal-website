@@ -1,11 +1,25 @@
-.home {
-  color: $color-beta;
+.wrapper--home {
+  align-items: center;
   display: flex;
+
+  @include mq($from: desktop) {
+    width: 100%;
+  }
+
+  @include mq($from: wide) {
+    width: $mq--wide;
+  }
+}
+
+.home {
+  display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   margin-top: rem(20px);
 
   a {
     color: inherit;
+    text-decoration: none;
     word-break: break-word;
 
     &:after {
@@ -13,11 +27,13 @@
       content: '→';
       display: inline-block;
       margin-left: rem(10px);
-      transform: rotate(-270deg) scale(0);
+      transform: rotate(-180deg) scale(0);
     }
 
     &:hover,
     &:focus {
+      color: $color-alpha;
+
       &:after {
         transform: rotate(0deg) scale(1);
       }
@@ -26,43 +42,100 @@
 
   @supports (display: grid) {
     display: grid;
-    grid-row-gap: rem(30px);
-    grid-template-columns: repeat(3, minmax(auto, 1fr));
-    grid-template-rows: repeat(4, 1fr);
+    grid-gap: rem(30px);
+    grid-template-rows: repeat(5, 1fr);
+
+    @include mq($from: desktop) {
+      grid-template-columns: repeat(6, minmax(auto, 1fr));
+      grid-template-rows: repeat(3, 1fr);
+    }
   }
 }
 
 .home__box {
+  @include tsh($color-beta);
+  background-color: darken($color-beta, 3%);
+  background-image: url('/gfx/png/sb-flat.png');
+  background-position: top 5% right 5%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  border: 1px solid $color-alpha;
+  box-shadow: 0 0 2px 0 darken($color-beta, 10%);
+  color: $color-gamma;
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
   justify-content: flex-end;
-  padding: rem(40px) rem(20px) rem(20px);
-  // min-height: 200px;
+  padding: 15% rem(20px) rem(20px);
+  position: relative;
+
+  &:after {
+    background-color: adjust-hue($color-alpha, -5%);
+    box-shadow: 0 1px 2px -1px $color-gamma, 0 1px 4px -1px $color-gamma;
+    content: '';
+    height: 4px;
+    left: rem(-3px);
+    position: absolute;
+    right: rem(-3px);
+    top: 100%;
+  }
 
   &:not(:last-of-type) {
     margin-bottom: rem(30px);
   }
 
-  &:nth-of-type(odd) {
-    background-image: bg-v();
-
+  &:nth-of-type(1) {
     @supports (display: grid) {
-      grid-column: 1 / span 2;
+      @include mq($from: desktop) {
+        grid-area: 1 / 1 / span 1 / span 3;
+      }
     }
   }
 
-  &:nth-of-type(even) {
-    background-image: bg-v($color-gamma);
-
+  &:nth-of-type(2) {
     @supports (display: grid) {
-      grid-column: 2 / span 2;
+      @include mq($from: desktop) {
+        grid-area: 2 / 1 / span 1 / span 3;
+      }
+    }
+  }
+
+  &:nth-of-type(3) {
+    @supports (display: grid) {
+      @include mq($from: desktop) {
+        grid-area: 2 / 4 / span 1 / span 3;
+      }
+    }
+  }
+
+  &:nth-of-type(4) {
+    @supports (display: grid) {
+      @include mq($from: desktop) {
+        grid-area: 3 / 1 / span 1 / span 3;
+      }
+    }
+  }
+
+  &:nth-of-type(5) {
+    @supports (display: grid) {
+      @include mq($from: desktop) {
+        grid-area: 3 / 4 / span 1 / span 3;
+      }
+    }
+  }
+
+  &:nth-of-type(6) {
+    @supports (display: grid) {
+      @include mq($from: desktop) {
+        grid-area: 1 / 4 / span 1 / span 3;
+      }
     }
   }
 
   h1,
   h3 {
     @include ls(100);
+    color: $color-alpha;
   }
 
   p {
@@ -80,14 +153,6 @@
 
     &:not(:last-of-type) {
       margin-bottom: unset;
-    }
-  }
-
-  @supports (display: grid) {
-    @for $i from 1 through 6 {
-      &:nth-of-type(#{$i}) {
-        grid-row: #{$i};
-      }
     }
   }
 }
