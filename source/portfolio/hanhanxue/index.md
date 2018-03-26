@@ -19,6 +19,5 @@ Link: [hanhanxue.com](//www.hanhanxue.com)
 - Optimized assets delivery.
 - Used latest best practices to boost the page speed.
 - Hosted the website on Netlify.
-- Used Cloudflare to improve the security and performance.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).
