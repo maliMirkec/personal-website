@@ -14,28 +14,27 @@
           li.details__item
             span.text On:
           li.details__item
-            span.tally= page.date.format(config.date_format)
+            span.text= page.date.format(config.date_format)
           if (page && page.author)
             li.details__item
               span.text By:
             li.details__item
-              span.tally= page.author
+              span.text= page.author
       if (page && page.categories)
         ul.details__list
           li.details__item
             span.text Location:
-          li.details__item
-            a.tally(href="/") Home
+          li.details__item.details__item--separator
+            a.text(href="/") Home
           if (page && page.categories)
             - page.categories.each(function(cat){
-              li.details__item
+              li.details__item.details__item--separator
                 - var categoryName = cat.name.length < 30 ? cat.name : cat.name.substring(0, 29) + '...';
-                a.tally(href=urlFor(cat.path))= categoryName
+                a.text(href=urlFor(cat.path))= categoryName
             - });
           if (page && page.title)
             li.details__item
-              - var pageTitle = page.title.length < 30 ? page.title : page.title.substring(0, 29) + '...';
-              a.tally(href=urlFor(page.path))= pageTitle
+              a.text(href=urlFor(page.path))= page.title
   if (page && page.content)
     .content!= page.content
   if (page && page.photos)
@@ -44,21 +43,27 @@
         p
           img.gallery__item(src=photo, alt=page.title)
   if (page && page.layout == 'post')
-    .details
+    .details.details--footer
       if (page && page.tags)
         ul.details__list
+          li.details__item
+            span.text Tags:
           - page.tags.each(function(tag){
             li.details__item
               a.tally(href=urlFor(tag.path))= tag.name
           - });
       if (theme && theme.widgets && theme.widgets.sharing)
-        .social
+        ul.details__list
+          li.details__item
+            span.text Share:
           if (theme.widgets.sharing.twitter)
             - var twitterLink = "https://twitter.com/intent/tweet?url=" + page.permalink + "&text=" + page.title + "&via=" + theme.widgets.sharing.twitter;
-            a.tally(href=twitterLink, target="_blank") Share on Twitter
+            li.details__item
+              a.tally(href=twitterLink, target="_blank") Twitter
           if (theme.widgets.sharing.facebook)
             - var facebookLink = "https://facebook.com/sharer.php?u=" + page.permalink;
-            a.tally(href=facebookLink, target="_blank") Share on Facebook
+            li.details__item
+              a.tally(href=facebookLink, target="_blank") Facebook
   if (page && (page.prev || page.next))
     nav.pagination
       p More articles:
@@ -73,3 +78,4 @@
             a.pagination__link.pagination__link--next(href=urlFor(page.next.path))= nextTitle
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
     include widgets/comments
+

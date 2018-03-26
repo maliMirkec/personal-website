@@ -9,7 +9,5 @@ Object.keys(global.config).forEach((key) => {
   }
 })
 
-console.log(cleanSrc)
-
 gulp.task('clean', () => gulp.src(cleanSrc, { read: false })
   .pipe(clean()))

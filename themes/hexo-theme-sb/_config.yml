@@ -2,7 +2,7 @@ site:
   full_name: SB - Silvestar's personal website
   short_name: SB
   description: Silvestar is a fearless web developer eager to prove his worth
-  logo: /gfx/svg/logo.svg
+  logo: /gfx/svg/sb-white.svg
   language: en
 
 home_page:
@@ -10,26 +10,40 @@ home_page:
     title: Silvestar Bistrović
     paragraphs:
      - Fearless web developer
-  - section:
-    title: Specializations
-    paragraphs:
-      - Frontend
-      - User Interface
-      - Wordpress
-      - Web Optimization
+     - JAMstack enthusiast
+     - Wordpress coder
   - section:
     title: Projects
     links:
       Starter Project: //starter.silvestarbistrovic.from.hr
+      Han Han Xue: //hanhanxue.com
       Contiamo: //www.contiamo.com
       Irina and Matej: //irinaandmatej.com
-      Atika Interijeri: //atika-interijeri.hr
+  - section:
+    title: Specializations
+    paragraphs:
+      - Frontend Development
+      - JAMstack
+      - Wordpress
+      - Web Optimization
   - section:
     title: Links
     links:
-      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-      Twitter: //twitter.com/malimirkeccita
       Github: //github.com/maliMirkec
+      LinkedIn: //www.linkedin.com/in/starbist/
+      Twitter: //twitter.com/malimirkeccita
+  - section:
+    title: Highlights
+    links:
+      Portfolio: /portfolio/
+      Starter Project: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
+      From Wordpress to Hexo: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
+  - section:
+    title: Available for hire
+    links:
+      Via Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
+      Via Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      Via Upwork: //www.upwork.com/fl/silvestarb
 
 open_graph:
   pretty_url: true
@@ -54,12 +68,12 @@ menu:
 widgets:
   contact:
     mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    twitter: //twitter.com/malimirkeccita
     linkedin: //www.linkedin.com/in/starbist/
-    facebook: //www.facebook.com/silvestarbistrovic.from.hr/
-    medium: //medium.com/@malimirkeccita
     github: //github.com/maliMirkec
     codepen: //codepen.io/CiTA/
+    medium: //medium.com/@malimirkeccita
+    twitter: //twitter.com/malimirkeccita
+    facebook: //www.facebook.com/silvestarbistrovic.from.hr/
     lastfm: //www.last.fm/user/maliMirkec
   disqus1:
     shortname: silvestarbistrovic

@@ -13,7 +13,7 @@
 
 .nav__toggle {
   @include tra;
-  background-image: linear-gradient(to bottom, $color-alpha 20%, transparent 20%, transparent 40%, $color-alpha 40%, $color-alpha 60%, transparent 60%, transparent 80%, $color-alpha 80%);
+  background-image: linear-gradient(to bottom, $color-beta 20%, transparent 20%, transparent 40%, $color-beta 40%, $color-beta 60%, transparent 60%, transparent 80%, $color-beta 80%);
   border-radius: rem(5px);
   cursor: pointer;
   display: block;
@@ -30,7 +30,7 @@
   }
 
   .nav__checkbox:checked + & {
-    background-image: linear-gradient(45deg, transparent 40%, $color-alpha 40%, $color-alpha 60%, transparent 60%), linear-gradient(-45deg, transparent 40%, $color-alpha 40%, $color-alpha 60%, transparent 60%);
+    background-image: linear-gradient(45deg, transparent 40%, $color-beta 40%, $color-beta 60%, transparent 60%), linear-gradient(-45deg, transparent 40%, $color-beta 40%, $color-beta 60%, transparent 60%);
   }
 }
 
@@ -54,7 +54,7 @@
   align-items: stretch;
   display: flex;
   flex: 0 0 auto;
-  font-size: ms(-4);
+  font-size: ms(-6);
 
   @include mq($until: desktop) {
     width: 100%;
@@ -160,11 +160,9 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  user-select: none;
 
   svg {
-    background-color: $color-beta;
-    border: rem(10px) solid $color-beta;
-    border-radius: rem(35px);
     display: block;
     height: rem(50px);
     width: rem(50px);

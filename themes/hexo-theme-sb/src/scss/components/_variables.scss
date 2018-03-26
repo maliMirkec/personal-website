@@ -16,6 +16,15 @@ $mq--mobile: 332px;
 /// @since 1.0.0
 $mq--desktop: 660px;
 
+/// Media query definition for wide devices, used in css-locks.
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example @include css-locks(font-size, $mq--mobile, $mq--wide, $font-size--mobile, $font-size--wide);
+/// @group 1.1 Sizes
+/// @name mq--wide
+/// @since 1.0.0
+$mq--wide: 960px;
+
 /// Default font size on mobile devices, used in css-locks.
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
@@ -23,7 +32,7 @@ $mq--desktop: 660px;
 /// @group 1.1 Sizes
 /// @name font-size--mobile
 /// @since 1.0.0
-$font-size--mobile: 14px;
+$font-size--mobile: 17px;
 
 /// Default font size on desktop devices, used in css-locks.
 /// @access public
@@ -32,7 +41,7 @@ $font-size--mobile: 14px;
 /// @group 1.1 Sizes
 /// @name font-size--desktop
 /// @since 1.0.0
-$font-size--desktop: 18px;
+$font-size--desktop: 21px;
 
 /// Default line height applied on every element
 /// @access public
@@ -69,23 +78,15 @@ $modularscale: (
 /// @link https://www.npmjs.com/package/sass-mq
 $mq-breakpoints: (
   mobile:  $mq--mobile,
-  desktop: $mq--desktop
+  desktop: $mq--desktop,
+  wide: $mq--wide
 );
-
-/// Configuration for wrapper width
-/// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
-/// @example max-width: $wrapper;
-/// @group 1.1 Sizes
-/// @name wrapper
-/// @since 1.0.0
-$wrapper: 640px;
 
 /// Color from SB palette
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $color-alpha;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name color1
 /// @since 1.0.0
 $color-alpha: #e01258;
@@ -94,7 +95,7 @@ $color-alpha: #e01258;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $color-beta;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name white
 /// @since 1.0.0
 $color-beta: #fff;
@@ -103,16 +104,16 @@ $color-beta: #fff;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $color-gamma;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name black
 /// @since 1.0.0
-$color-gamma: #232323;
+$color-gamma: #131313;
 
 /// Color from SB palette
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $mail;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name mail
 /// @since 1.0.0
 $mail: $color-alpha;
@@ -121,7 +122,7 @@ $mail: $color-alpha;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $twitter;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name twitter
 /// @since 1.0.0
 $twitter: #55acee;
@@ -130,7 +131,7 @@ $twitter: #55acee;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $linkedin;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name linkedin
 /// @since 1.0.0
 $linkedin: #0077b5;
@@ -139,7 +140,7 @@ $linkedin: #0077b5;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $facebook;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name facebook
 /// @since 1.0.0
 $facebook: #3b5998;
@@ -148,7 +149,7 @@ $facebook: #3b5998;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $medium;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name medium
 /// @since 1.0.0
 $medium: #00ab6b;
@@ -157,7 +158,7 @@ $medium: #00ab6b;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $github;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name github
 /// @since 1.0.0
 $github: #2f2f2f;
@@ -166,7 +167,7 @@ $github: #2f2f2f;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $codepen;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name codepen
 /// @since 1.0.0
 $codepen: #212121;
@@ -175,7 +176,7 @@ $codepen: #212121;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $lastfm;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name lastfm
 /// @since 1.0.0
 $lastfm: #c3000d;
@@ -184,7 +185,7 @@ $lastfm: #c3000d;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $google-plus;
-/// @group 1.2 Colors
+/// @group 1.1 Colors
 /// @name google-plus
 /// @since 1.0.0
 $google-plus: #dc4e41;
@@ -205,7 +206,7 @@ $social-icons: (
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example transition-duration: $tra;
-/// @group 1.3 Transitions
+/// @group 1.2 Transitions
 /// @name trd
 /// @since 1.0.0
 $trd: 0.225s;
@@ -214,52 +215,61 @@ $trd: 0.225s;
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example transition-duration: $tra;
-/// @group 1.3 Transitions
+/// @group 1.2 Transitions
 /// @name tra
 /// @since 1.0.0
 $tra: cubic-bezier(0.3, 0.6, 0.5, 0.81);
 
-/// Vollkorn Subset
+/// Transition animation bounce
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example transition-duration: $tra2;
+/// @group 1.2 Transitions
+/// @name tra2
+/// @since 1.0.0
+$tra2: cubic-bezier(0.15, -0.15, 0.6, 1.2);
+
+/// Barlow Subset
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example font-family: $font-alpha-subset;
-/// @group 1.3 Transitions
+/// @group 1.3 Fonts
 /// @name font-alpha-subset
 /// @since 1.0.0
-$font-alpha-subset: 'Vollkorn Subset';
+$font-alpha-subset: 'Barlow Subset';
 
-/// Vollkorn
+/// Barlow
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example font-family: $font-alpha;
-/// @group 1.3 Transitions
+/// @group 1.3 Fonts
 /// @name font-alpha
 /// @since 1.0.0
-$font-alpha: 'Vollkorn';
+$font-alpha: 'Barlow';
 
-/// Playfair Display Bold Subset
+/// Playfair Display Subset
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example font-family: $font-beta-subset;
-/// @group 1.3 Transitions
+/// @group 1.3 Fonts
 /// @name font-beta-subset
 /// @since 1.0.0
-$font-beta-subset: 'Playfair Display Bold Subset';
+$font-beta-subset: 'Playfair Display Subset';
 
-/// Playfair Display Bold
+/// Playfair Display
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example font-family: $font-beta;
-/// @group 1.3 Transitions
+/// @group 1.3 Fonts
 /// @name font-beta
 /// @since 1.0.0
-$font-beta: 'Playfair Display Bold';
+$font-beta: 'Playfair Display';
 
 /// Courier New', Courier, monospac
 /// @access public
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example font-family: $font-gamma;
-/// @group 1.3 Transitions
+/// @group 1.3 Fonts
 /// @name font-gamma
 /// @since 1.0.0
 $font-gamma: 'Courier New', Courier, monospace;
