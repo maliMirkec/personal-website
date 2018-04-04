@@ -51,6 +51,12 @@ category_map:
   Blog: articles
 tag_map:
 
+# Feed
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 50
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
