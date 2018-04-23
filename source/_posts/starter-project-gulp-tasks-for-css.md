@@ -36,7 +36,7 @@ Starter Project uses [Sass] as a preprocessor for CSS. As it's official website 
 
 > CSS with superpowers.
 
-Starter Program uses [gulp-sass] plugin for compiling Sass to CSS.
+Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
 ## Imports
 
@@ -95,8 +95,6 @@ If your website looks inconsistent across different browsers, you probably want 
 [Modular Scale] helps with font size consistency. [modularscale-sass] is a list of values that are used to size type and create a sense of harmony in design.
 
 [sass-mq] is a Sass mixin that helps a developer in composing media queries in an elegant way.
-
-> Media Queries with superpowers
 
 ## Autoprefix
 
@@ -164,7 +162,7 @@ Stylelint also has its plugins. In Starter Project, [stylelint-scss] and [stylel
 
 ## Bonus
 
-For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Call command palette by pressing `cmd + shift + p`, then type `open workspace settings`.
+For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Then call command palette by pressing `cmd + shift + p`, and type `open workspace settings`.
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1524388057/open-workspace-settings_luw5ru.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "config.json file, CSS part" %}
 
