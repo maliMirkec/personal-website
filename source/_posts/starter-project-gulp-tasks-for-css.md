@@ -164,7 +164,7 @@ Stylelint also has its plugins. In Starter Project, [stylelint-scss] and [stylel
 
 For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Then call command palette by pressing `cmd + shift + p`, and type `open workspace settings`.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524388057/open-workspace-settings_luw5ru.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "config.json file, CSS part" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524388057/open-workspace-settings_luw5ru.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Open workspace settings example" %}
 
 When you open the workspace settings, add these settings.
 
@@ -200,7 +200,7 @@ Please share! 🙏
 [modularscale-sass]: https://www.npmjs.com/package/modularscale-sass
 [sass-mq]: https://www.npmjs.com/package/sass-mq
 [gulp-autoprefixer]: https://www.npmjs.com/package/gulp-autoprefixer
-[Autoprefixer options]: (https://github.com/postcss/autoprefixer#options)
+[Autoprefixer options]: https://github.com/postcss/autoprefixer#options
 [gulp-clean-css]: https://www.npmjs.com/package/gulp-clean-css
 [clean-css]: https://www.npmjs.com/package/clean-css
 [gulp-rename]: https://www.npmjs.com/package/gulp-rename
