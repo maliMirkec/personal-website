@@ -312,3 +312,4 @@ var FontFaceObserver = void 0;
     console.log("Subset fonts not loaded.");
   });
 })();
+//# sourceMappingURL=foftFontLoading.js.map

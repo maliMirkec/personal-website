@@ -121,6 +121,14 @@ h1 {
   font-family: "Playfair Display Subset";
 }
 
+.fonts-stage-2 body {
+  font-family: "Barlow";
+}
+
+.fonts-stage-2 h1 {
+  font-family: "Playfair Display";
+}
+
 .header {
   background-image: radial-gradient(circle at center bottom, rgba(224, 18, 71, 0.4), rgba(224, 18, 88, 0.6)), -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(224, 18, 88, 0.5)), color-stop(50%, rgba(224, 18, 88, 0.4)));
   background-image: radial-gradient(circle at center bottom, rgba(224, 18, 71, 0.4), rgba(224, 18, 88, 0.6)), linear-gradient(to right, rgba(224, 18, 88, 0.5) 50%, rgba(224, 18, 88, 0.4) 50%);
@@ -357,12 +365,13 @@ body {
   .home {
     display: grid;
     grid-gap: calc(1.42857 * 1rem);
+    grid-template-columns: repeat(1, minmax(auto, 1fr));
     grid-template-rows: repeat(5, 1fr);
   }
 
 @media (min-width: 41.25em) {
     .home {
-      grid-template-columns: repeat(6, minmax(auto, 1fr));
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
       grid-template-rows: repeat(3, 1fr);
     }
 }
@@ -410,30 +419,6 @@ body {
 
 .home__box:not(:last-of-type) {
   margin-bottom: calc(1.42857 * 1rem);
-}
-
-@supports (display: grid) {
-@media (min-width: 41.25em) {
-    .home__box:nth-of-type(1) {
-      grid-area: 1 / 1 / span 1 / span 3;
-    }
-}
-}
-
-@supports (display: grid) {
-@media (min-width: 41.25em) {
-    .home__box:nth-of-type(2) {
-      grid-area: 2 / 1 / span 1 / span 3;
-    }
-}
-}
-
-@supports (display: grid) {
-@media (min-width: 41.25em) {
-    .home__box:nth-of-type(3) {
-      grid-area: 2 / 4 / span 1 / span 3;
-    }
-}
 }
 
 .home__box h1 {

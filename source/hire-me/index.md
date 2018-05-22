@@ -2,6 +2,7 @@
 title: I'm available for hire
 comments: false
 date: 2017-08-02 11:37:55
+description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal and Upwork. You will benefit from my experience and services that I could provide.
 ---
 
 I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic) and [Upwork](https://www.upwork.com/fl/silvestarb). You will benefit from my experience and [services](/services/) that I could provide.

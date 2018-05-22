@@ -8,6 +8,7 @@ categories:
   - Blog
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
+description: This article is the very first article in a series about Starter Project, a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 ---
 
 This article is the very first article in a series about [Starter Project], a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.

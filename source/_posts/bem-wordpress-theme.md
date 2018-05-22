@@ -8,7 +8,8 @@ categories:
   - Blog
 date: 2017-05-27 07:39:05
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1500724346/bem-Wordpress-theme-with-BEM-methodology_myadk9.png
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1500724346/bem-Wordpress-theme-with-BEM-methodology_myadk9.png
+description: This is a post about building custom Wordpress theme with BEM naming methodology.
 ---
 
 **[BEM](https://en.bem.info/)** is great. It is simple, yet powerful. If you're not familiar with it, I highly recommend reading [this article](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts.

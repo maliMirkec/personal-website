@@ -8,6 +8,7 @@ tags:
 - PageSpeed
 - optimization
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1504795545/Fixing_Google_Analytics_caching_issue_mz9cm7.png
+description: Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. My friend, the solution is here.
 ---
 
 Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. What does that one point mean anyway? And you go to sleep every night knowing that one point is still missing. My friend, the solution is here.

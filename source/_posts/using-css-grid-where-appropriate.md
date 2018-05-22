@@ -8,6 +8,7 @@ tags:
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
 comments: true
 date: 2017-07-30 22:17:48
+description: Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about CSS Grid and actually use it. Here's what I learned.
 ---
 
 Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and actually use it. Here's what I learned.
@@ -49,7 +50,7 @@ I'll set this property to `column` and grid will be smart enough to add new colu
 .nav {
   display: grid;
   grid-auto-flow: row;
-}     
+}
 @media screen and (min-width: $mq-mobile) {
   .nav {
     grid-auto-flow: column;
@@ -116,20 +117,20 @@ I've defined 4 columns and 2 rows and the result looks the same.
 
 ## Using flexbox as fallback
 
-CSS Grid isn't fully supported yet. 
+CSS Grid isn't fully supported yet.
 
 {% caniuse css-grid current %}
 
-I needed a decent fallback for CSS grid. Because I'm a huge fan of Flexbox and because the support for Flexbox is pretty good, it was natural to create a fallback to Flexbox. 
+I needed a decent fallback for CSS grid. Because I'm a huge fan of Flexbox and because the support for Flexbox is pretty good, it was natural to create a fallback to Flexbox.
 
 {% caniuse flexbox current %}
 
-I first heard about this method when [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) from [Smashing Magazine](https://www.smashingmagazine.com/) had a workshop in Osijek earlier this year. The principle is that we should first define Flexbox and than add CSS Grid using `@supports` rule. 
+I first heard about this method when [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) from [Smashing Magazine](https://www.smashingmagazine.com/) had a workshop in Osijek earlier this year. The principle is that we should first define Flexbox and than add CSS Grid using `@supports` rule.
 
 ```css
 .nav {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 .nav__item {
   flex: 0 0 auto;

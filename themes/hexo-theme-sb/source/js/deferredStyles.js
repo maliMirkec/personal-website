@@ -45,3 +45,4 @@ if (window.requestAnimationFrame) {
 } else {
   window.addEventListener('load', loadDeferredStyles);
 }
+//# sourceMappingURL=deferredStyles.js.map

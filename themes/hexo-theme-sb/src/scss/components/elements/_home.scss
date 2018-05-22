@@ -43,10 +43,11 @@
   @supports (display: grid) {
     display: grid;
     grid-gap: rem(30px);
+    grid-template-columns: repeat(1, minmax(auto, 1fr));
     grid-template-rows: repeat(5, 1fr);
 
     @include mq($from: desktop) {
-      grid-template-columns: repeat(6, minmax(auto, 1fr));
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
       grid-template-rows: repeat(3, 1fr);
     }
   }
@@ -82,54 +83,6 @@
 
   &:not(:last-of-type) {
     margin-bottom: rem(30px);
-  }
-
-  &:nth-of-type(1) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 1 / 1 / span 1 / span 3;
-      }
-    }
-  }
-
-  &:nth-of-type(2) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 2 / 1 / span 1 / span 3;
-      }
-    }
-  }
-
-  &:nth-of-type(3) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 2 / 4 / span 1 / span 3;
-      }
-    }
-  }
-
-  &:nth-of-type(4) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 3 / 1 / span 1 / span 3;
-      }
-    }
-  }
-
-  &:nth-of-type(5) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 3 / 4 / span 1 / span 3;
-      }
-    }
-  }
-
-  &:nth-of-type(6) {
-    @supports (display: grid) {
-      @include mq($from: desktop) {
-        grid-area: 1 / 4 / span 1 / span 3;
-      }
-    }
   }
 
   h1,

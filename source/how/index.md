@@ -1,6 +1,7 @@
 ---
 title: How I built this website
 date: 2017-08-04 16:16:05
+description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack as an example.
 ---
 
 This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It's featured on [JAMStack as an example](https://jamstack.org/examples/). I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate banner. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.

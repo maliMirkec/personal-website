@@ -9,6 +9,7 @@ categories:
 date: 2016-08-30 18:00:19
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1500736006/Github_Atom_minimap_packages_asknpo.png
+description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
 ---
 
 One of the most popular features for Atom out there is a **minimap**. It's a code preview in a small sidebar window.

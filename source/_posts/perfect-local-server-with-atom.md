@@ -9,6 +9,7 @@ categories:
 date: 2016-09-05 17:11:14
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509317/Perfect-local-server-with-Atom_xplcj6.png
+description: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
 ---
 
 I've been using all kind of local server solutions back in a day, from [WampServer](http://www.wampserver.com/en/) to [Vagrant](https://www.vagrantup.com/). I noticed that I had to spend large amount of time on learning and configuration. That was, not only time consuming, but also very frustrating, especially when you're a newby and you don't understand half of the instructions and problems.

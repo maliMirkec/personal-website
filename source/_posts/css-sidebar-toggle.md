@@ -10,6 +10,7 @@ categories:
 date: 2017-02-20 11:43:48
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509172/CSS-sidebar-toggle_cnrish.png
+description: CSS sidebar toggle presented in this post is made with CSS only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without JavaScript, I've added a small snippet for this feature.
 ---
 
 CSS sidebar toggle presented in this post is made with `CSS` only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without `JavaScript`, I've added a small snippet for this feature.
@@ -169,7 +170,7 @@ let menuItems = document.getElementsByClassName('menu__link');
 menuToggler.addEventListener('change', function() {
   if(menuToggler.checked) {
     menuTogglerLabel.setAttribute('aria-pressed', 'true');
-    sidebar.setAttribute('aria-hidden', 'false'); 
+    sidebar.setAttribute('aria-hidden', 'false');
   } else {
     menuTogglerLabel.setAttribute('aria-pressed', 'false');
     sidebar.setAttribute('aria-hidden', 'true');
@@ -181,7 +182,7 @@ menuToggler.addEventListener('change', function() {
     } else {
       menuItem.setAttribute('tabindex', '-1');
     }
-  } 
+  }
 });
 {% endcodeblock %}
 

@@ -9,6 +9,7 @@ categories:
 date: 2016-08-22 20:21:37
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509322/Github-Atom-Git-packages_dxonzr.png
+description: Developers often rely on a version control system and one of the most popular is Git.
 ---
 
 Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).

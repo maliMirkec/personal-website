@@ -3,19 +3,18 @@ title: Han Han Xue
 comments: false
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/hanhanxue_3x2-cover_fs1ds7.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Han Han Xue cover" cover-img //www.hanhanxue.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/hhx_tlzk76.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img //www.hanhanxue.com cover %}
 
-Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website is running on Middleman.
+Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 
 Link: [hanhanxue.com](//www.hanhanxue.com)
 
 ## Project
 
-- Installed a new Hexo instance.
+- Installed a new Middleman instance.
 - Set up project architecture.
-- Created Hexo plugins for adding Can
-- Use and Cloudinary content.
-- Designed the whole site, and created all pages from designs.
+- Created all pages from designs.
+- Used Cloudinary for delivering images.
 - Optimized assets delivery.
 - Used latest best practices to boost the page speed.
 - Hosted the website on Netlify.
