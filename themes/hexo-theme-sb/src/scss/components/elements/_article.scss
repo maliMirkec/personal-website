@@ -191,22 +191,13 @@
   display: block;
   position: relative;
 
-  &:after {
-    @include tra;
-    background-color: adjust-hue($color-alpha, -5%);
-    box-shadow: 0 -1px 2px -1px $color-gamma, 0 1px 4px -1px $color-gamma;
-    content: '';
-    height: 5px;
-    left: rem(-4px);
-    position: absolute;
-    right: rem(-4px);
-    top: 100%;
-  }
+  @include mq($from: wide) {
+    background-color: #cff;
+    margin-left: -160px;
+    margin-right: -160px;
 
-  &:hover,
-  &:focus {
-    &:after {
-      background-color: adjust-hue($color-alpha, -15%);
+    img {
+      width: 100%;
     }
   }
 }
