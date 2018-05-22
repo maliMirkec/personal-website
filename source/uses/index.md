@@ -1,6 +1,7 @@
 ---
 title: Setup
 date: 2017-08-02 20:08:06
+description: This is my setup. Inspired by Harry Robertson's setup and Wes Bos's setup.
 ---
 
 This is my setup. Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes Bos's setup](http://wesbos.com/uses/).

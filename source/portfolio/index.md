@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 comments: false
+description: This website is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to contact me.
 ---
 
 [This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/about-me/).

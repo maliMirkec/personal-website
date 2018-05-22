@@ -1,7 +1,7 @@
 site:
   full_name: SB - Silvestar's personal website
   short_name: SB
-  description: Silvestar is a fearless web developer eager to prove his worth
+  description: Silvestar Bistrovi?, fearless web developer and consultant, JAMstack enthusiast and Wordpress coder.
   logo: /gfx/svg/sb-white.svg
   language: en
 
@@ -9,35 +9,38 @@ home_page:
   - section:
     title: Silvestar Bistrović
     paragraphs:
-     - Fearless web developer
+     - Fearless web developer and consultant
      - JAMstack enthusiast
      - Wordpress coder
-  - section:
-    title: Projects
-    links:
-      Starter Project: //starter.silvestarbistrovic.from.hr
-      Han Han Xue: //hanhanxue.com
-      Contiamo: //www.contiamo.com
-      Irina and Matej: //irinaandmatej.com
   - section:
     title: Specializations
     paragraphs:
       - Frontend Development
       - JAMstack
       - Wordpress
-      - Web Optimization
+      - Page Speed Optimization
   - section:
     title: Links
     links:
       Github: //github.com/maliMirkec
       LinkedIn: //www.linkedin.com/in/starbist/
       Twitter: //twitter.com/malimirkeccita
+      Codepen: //codepen.io/CiTA/
   - section:
-    title: Highlights
+    title: Projects
     links:
-      Portfolio: /portfolio/
-      Starter Project: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
+      Starter Project: //starter.silvestarbistrovic.from.hr
+      Netki: /portfolio/netki/
+      Han Han Xue: /portfolio/hanhanxue/
+      Contiamo: /portfolio/contiamo/
+      Irina and Matej: /portfolio/irinaandmatej/
+  - section:
+    title: Writing
+    links:
+      Gulp tasks for CSS: /articles/starter-project-gulp-tasks-for-css/
+      A set of latest best practices packed in Gulp tasks: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
       From Wordpress to Hexo: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
+      Using CSS Grid Where Appropriate: /articles/using-css-grid-where-appropriate/
   - section:
     title: Available for hire
     links:
@@ -75,7 +78,7 @@ widgets:
     twitter: //twitter.com/malimirkeccita
     facebook: //www.facebook.com/silvestarbistrovic.from.hr/
     lastfm: //www.last.fm/user/maliMirkec
-  disqus1:
+  disqus:
     shortname: silvestarbistrovic
   sharing:
     twitter: malimirkeccita

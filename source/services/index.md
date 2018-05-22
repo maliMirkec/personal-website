@@ -1,6 +1,7 @@
 ---
 title: Services
 date: 2017-08-03 09:34:48
+description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 ---
 
 I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.

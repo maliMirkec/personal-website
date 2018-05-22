@@ -8,6 +8,7 @@ tags:
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1511821846/Classily_ebid2n.png
 comments: true
 date: 2017-11-28 10:28:28
+description: I created a JavaScript plugin for toggling classes more classily, and I called it Classily.js. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.
 ---
 
 I created a `JavaScript` plugin for toggling classes more __classily__, and I called it **[Classily.js](https://github.com/maliMirkec/Classily.js)**. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.

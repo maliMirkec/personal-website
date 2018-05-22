@@ -8,6 +8,7 @@ categories:
   - Blog
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1501440282/How_to_create_crooked_shadow_kqx9vr.png
 date: 2017-07-25 16:10:31
+description: Recently I was working on a very interesting and challenging project. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border.
 ---
 
 Recently I was working on a very interesting and challenging project. I was told to use CSS wherever possible. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border. I know it doesn't sound either glamorous or complicated, but it kinda is.

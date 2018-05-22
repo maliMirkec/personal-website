@@ -8,6 +8,7 @@ categories:
 date: 2016-08-19 16:14:04
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1497509325/First-steps-with-Github-Atom_t3pqwm.png
+description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
 ---
 
 This is the first article in a series about my [perfect Atom setup](/en/tag/atom/). First topic is installation and initial setup.

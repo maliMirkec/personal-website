@@ -5,10 +5,18 @@ if (theme && theme.site && theme.site.author)
   meta(name="author" content=theme.site.author)
 else if (config && config.author)
   meta(name="author" content=config.author)
-if (theme && theme.site && theme.site.description)
-  meta(name="description" content=theme.site.description)
+if (page && page.description)
+  meta(name="description" content=page.description)
+else if (page && page.posts)
+  if (page && page.category)
+    - var description = "Display all posts from category: " + page.category
+  else if (page && page.tag)
+    - var description = "Display all posts tagged: " + page.tag
+else if (theme && theme.site && theme.site.description)
+  - var description = theme.site.description
 else if (config && config.description)
-  meta(name="description" content=config.description)
+  - var description = config.description
+meta(name="description" content=description)
 if (theme && theme.site && theme.site.full_name)
   - var title = page && page.title ? page.title + " | " + theme.site.full_name : theme.site.full_name
   title= title
