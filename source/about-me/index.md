@@ -3,10 +3,10 @@ title: About me
 id: 79
 comments: false
 date: 2016-08-14 08:17:36
-description: I am Silvestar Bistrović, fearless web developer and consultant, JAMstack enthusiast and Wordpress coder.
+description: I am Silvestar Bistrović, fearless consultant developer, JAMstack enthusiast, Wordpress coder and blog writer.
 ---
 
-I am Silvestar Bistrović, fearless web developer and consultant, [JAMstack](https://jamstack.org/) enthusiast and Wordpress coder.
+I am Silvestar Bistrović, fearless consultant developer, [JAMstack](https://jamstack.org/) enthusiast, Wordpress coder and blog writer.
 
 [Hexo](https://hexo.io/), [Middleman](https://middlemanapp.com/), [Netlify](https://www.netlify.com/), [Cloudflare](https://www.cloudflare.com/), [Cloudinary](https://cloudinary.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/), and [Git](https://git-scm.com/) are just part of my JAMstack skill set.
 
