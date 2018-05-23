@@ -52,7 +52,7 @@ I have worked on web speed optimization:
 - on Wordpress-based projects, and
 - on [a Shopify project].
 
-In the spare time, I worked on open-source projects. I published [three] [different] [plugins] and [a theme] for the Hexo framework, [an Angular directive], [a JavaScript plugin], and [a boilerplate of Gulp tasks].
+In the spare time, I worked on open-source projects. I published [three] [simple] [plugins] and [a theme] for the Hexo framework, [an Angular directive], [a JavaScript plugin], and [a boilerplate of Gulp tasks].
 
 ## Problems
 Not everything is perfect. Freelancing comes with difficulties. Searching for a job is one of the biggest I came across.
@@ -94,7 +94,7 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [a personal website for a designer from Montreal]: /portfolio/hanhanxue/
 [a Shopify project]: /portfolio/moodings/
 [three]: https://www.npmjs.com/package/hexo-codepen
-[different]: https://www.npmjs.com/package/hexo-caniuse
+[simple]: https://www.npmjs.com/package/hexo-caniuse
 [plugins]: https://www.npmjs.com/package/hexo-cloudinary
 [a theme]: https://www.npmjs.com/package/hexo-theme-sb
 [an Angular directive]: https://www.npmjs.com/package/angular-dragtable
