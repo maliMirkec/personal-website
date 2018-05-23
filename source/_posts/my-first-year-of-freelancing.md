@@ -7,6 +7,7 @@ categories:
   - Blog
 comments: true
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
+description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 ---
 
 _I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, Wordpress, and page speed optimization._
