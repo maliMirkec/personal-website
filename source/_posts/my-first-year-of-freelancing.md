@@ -16,7 +16,9 @@ About a year ago, I started with a freelance career. This experience has changed
 <!-- more -->
 
 ## Clients
-I am a member of [Toptal] community, and most of my clients are part of this formidable networks as well. I worked with seven Toptal clients. I also worked with a couple of [Upwork] clients. Two of my clients engaged me via my website. I worked as a mentor on [Codementor]. I also worked on a couple of projects with my friends, pro bono.
+I am a member of [Toptal] talent network, and most of my clients are part of this [formidable networks] as well. I worked with seven Toptal clients. I also worked with a couple of [Upwork] clients. Two of my clients engaged me via my website. I worked as a mentor on [Codementor]. I also worked on a couple of projects with my friends, pro bono.
+
+> Toptal is a private, elite talent network with thousands of members across 100+ countries. Of the hundreds of thousands who apply each year, fewer than 3% gain admission to the network.
 
 In total, I worked with thirteen clients and seventeen mentees.
 
@@ -75,11 +77,12 @@ Working as a freelancer is hard, and it isn't for everyone. Many obstacles are o
 ## Summary
 I am happy to be able to share my experience as a freelance developer. Successful freelancing takes time and patience. Luckily that is something that could be learned along the way.
 
-If you have any question, find me on Twitter. 🙂
+If you like this article, share it with your friends. 👋
 
-If you like this article, share it with your friends. 👍
+If you want to become Toptal professional, use [this link] to join! 🔗
 
 [Toptal]: https://www.toptal.com/resume/silvestar-bistrovic
+[formidable networks]: https://www.toptal.com/
 [Upwork]: https://www.upwork.com/o/profiles/users/_~01c831478a40df279f/
 [Codementor]: https://www.codementor.io/malimirkeccita
 [a wedding photography website]: /portfolio/irinaandmatej/
@@ -97,3 +100,4 @@ If you like this article, share it with your friends. 👍
 [a JavaScript plugin]: https://www.npmjs.com/package/classily.js
 [a boilerplate of Gulp tasks]: https://www.npmjs.com/package/starter-project
 [Static Page Generators]: https://www.staticgen.com/
+[this link]: https://www.toptal.com/#trust-nothing-but-brilliant-freelancers
