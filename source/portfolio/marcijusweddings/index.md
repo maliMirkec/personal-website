@@ -1,6 +1,7 @@
 ---
 title: Marcijuš Weddings
 comments: false
+description: Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
 ---
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/mw_koa9c7.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Marcijus Weddings cover" cover-img //marcijusweddings.com cover %}

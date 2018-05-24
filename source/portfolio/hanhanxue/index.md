@@ -1,6 +1,7 @@
 ---
 title: Han Han Xue
 comments: false
+description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 ---
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/hhx_tlzk76.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img //www.hanhanxue.com cover %}
