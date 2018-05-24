@@ -34,7 +34,7 @@ Getting the job done is also important. Never promise what you cannot deliver. I
 ## Projects
 I worked on various projects last year, mostly on WordPress platform:
 - developed a custom theme for [a wedding photography website],
-- developed a custom theme for [a digital ID validation solution website],
+- developed a custom theme for a digital ID validation solution website,
 - installed a premium theme for [another wedding photography website],
 - installed a premium theme for [a travel journal website], and
 - helped a few clients to finish WordPress projects by applying style improvements and making websites responsive.
@@ -44,7 +44,7 @@ I created a couple of styleguides:
 - other for a website built using static site generator.
 
 I developed a few websites using static page generators:
-- a website for [an agency from Germany] using Middleman framework,
+- a website for an agency from Germany using Middleman framework,
 - [a personal website for a designer from Montreal] using Middleman, and
 - a personal website for myself using the Hexo framework.
 
@@ -87,17 +87,17 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [Upwork]: https://www.upwork.com/o/profiles/users/_~01c831478a40df279f/
 [Codementor]: https://www.codementor.io/malimirkeccita
 [a wedding photography website]: /portfolio/irinaandmatej/
-[a digital ID validation solution website]: /portfolio/netki/
+<!-- a digital ID validation solution website]: /portfolio/netki/ -->
 [another wedding photography website]: /portfolio/marcijusweddings/
 [a travel journal website]: /portfolio/borninjune/
-[an agency from Germany]: /portfolio/contiamo/
+<!-- [an agency from Germany]: /portfolio/contiamo/ -->
 [a personal website for a designer from Montreal]: /portfolio/hanhanxue/
 [a Shopify project]: /portfolio/moodings/
 [three]: https://www.npmjs.com/package/hexo-codepen
 [simple]: https://www.npmjs.com/package/hexo-caniuse
 [plugins]: https://www.npmjs.com/package/hexo-cloudinary
 [a theme]: https://www.npmjs.com/package/hexo-theme-sb
-[an Angular directive]: https://www.npmjs.com/package/angular-dragtable
+[an Angular directive]: http://www.npmjs.compackage/angular-dragtable
 [a JavaScript plugin]: https://www.npmjs.com/package/classily.js
 [a boilerplate of Gulp tasks]: https://www.npmjs.com/package/starter-project
 [Static Page Generators]: https://www.staticgen.com/
