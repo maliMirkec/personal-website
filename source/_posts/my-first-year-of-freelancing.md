@@ -10,7 +10,7 @@ thumbnail: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 ---
 
-_I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, Wordpress, and page speed optimization._
+_I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization._
 
 About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 
@@ -32,15 +32,15 @@ In my opinion, investing in the relationship with a client is the most critical 
 Getting the job done is also important. Never promise what you cannot deliver. It is okay to say that you need a couple of hours to do research. It is okay to say that you are not the right person for that task. It depends on a project type and the team.
 
 ## Projects
-I worked on various projects last year, mostly on Wordpress platform:
+I worked on various projects last year, mostly on WordPress platform:
 - developed a custom theme for [a wedding photography website],
 - developed a custom theme for [a digital ID validation solution website],
 - installed a premium theme for [another wedding photography website],
 - installed a premium theme for [a travel journal website], and
-- helped a few clients to finish Wordpress projects by applying style improvements and making websites responsive.
+- helped a few clients to finish WordPress projects by applying style improvements and making websites responsive.
 
 I created a couple of styleguides:
-- one for a Wordpress-based website for a large real-estate company, and
+- one for a WordPress-based website for a large real-estate company, and
 - other for a website built using static site generator.
 
 I developed a few websites using static page generators:
@@ -49,10 +49,10 @@ I developed a few websites using static page generators:
 - a personal website for myself using the Hexo framework.
 
 I have worked on web speed optimization:
-- on Wordpress-based projects, and
+- on WordPress-based projects, and
 - on [a Shopify project].
 
-In the spare time, I worked on open-source projects. I published [three] [simple] [plugins] and [a theme] for the Hexo framework, [an Angular directive], [a JavaScript plugin], and [a boilerplate of Gulp tasks].
+In the spare time, I worked on open-source projects. I published [three]&nbsp; [simple]&nbsp; [plugins] and [a theme] for the Hexo framework, [an Angular directive], [a JavaScript plugin], and [a boilerplate of Gulp tasks].
 
 ## Problems
 Not everything is perfect. Freelancing comes with difficulties. Searching for a job is one of the biggest I came across.
