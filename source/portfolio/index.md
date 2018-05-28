@@ -14,14 +14,6 @@ Netki is a provider of tools to foster the adoption of blockchain technology fro
 
 [Read more](/portfolio/netki/)
 
-## [moodings.com](/portfolio/moodings/)
-
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/m_aqkq3t.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Moodings cover" cover-img /portfolio/moodings/ cover %}
-
-Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market.
-
-[Read more](/portfolio/moodings/)
-
 
 ## [hanhanxue.com](/portfolio/hanhanxue/)
 
@@ -41,6 +33,14 @@ Contiamo is a company that uses machine learning and AI to drive better decision
 
 [Read more](/portfolio/contiamo/)
 
+## [moodings.com](/portfolio/moodings/)
+
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/m_aqkq3t.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Moodings cover" cover-img /portfolio/moodings/ cover %}
+
+Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market.
+
+[Read more](/portfolio/moodings/)
+
 ---
 
 ## [irinaandmatej.com](/portfolio/irinaandmatej/)
@@ -52,6 +52,15 @@ Irina and Matej are wedding and portrait photographers based in Croatia and trav
 [Read more](/portfolio/irinaandmatej/)
 
 ---
+
+## [empirical.net](/portfolio/empirical/)
+
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1527504202/ewm_aikxon.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Empirical Wealth Management cover" cover-img /portfolio/empirical/ cover %}
+
+Empirical Wealth Management is a comprehensive wealth management
+ team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning.
+
+[Read more](/portfolio/empirical/)
 
 ## [franciscanchildrens.org](/portfolio/franciscanchildrens/)
 
