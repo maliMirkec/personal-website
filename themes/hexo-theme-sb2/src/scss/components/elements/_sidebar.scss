@@ -1,0 +1,28 @@
+.sidebar {
+  grid-area: sidebar;
+
+  @include mq($from: tablet) {
+    margin-top: ms(7);
+  }
+}
+
+.sidebar__inner {
+  @include mq($from: tablet) {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: calc((100vw - 100%) / -2);
+      bottom: 0;
+      left: 0;
+      background-color: lighten($color-gamma, 8%);
+      border-left: 1px solid $color-alpha;
+      z-index: -1;
+    }
+  }
+}

@@ -2,15 +2,28 @@
 title: Netki
 comments: false
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on Wordpress and WPEngine.
+sidebar:
+  title: Projects
+  items:
+    Netki: /portfolio/netki/
+    Han Han Xue: /portfolio/hanhanxue/
+    Contiamo: /portfolio/contiamo/
+    Moodings: /portfolio/moodings/
+    Irina & Matej: /portfolio/irinaandmatej/
+    Empirical: /portfolio/empirical/
+    Franciscan Children's: /portfolio/franciscanchildrens/
+    Atika Interijeri: /portfolio/atika-interijeri/
+    Marcijuš Weddings: /portfolio/marcijusweddings/
+    Born in June: /portfolio/borninjune/
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983575/n_kga0ev.jpg 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Netki cover" cover-img //netki.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Netki cover" cover-img //netki.com cover %}
 
 Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on Wordpress and WPEngine.
 
 Link: [netki.com](//netki.com/)
 
-## Project
+## Responsibilities
 
 - Developed a new Wordpress theme from scratch.
 - Optimized assets delivery.

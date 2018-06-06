@@ -92,7 +92,7 @@ h1 {
 }
 
 h1 {
-  color: #f2f2f2;
+  color: #e2e2e2;
   letter-spacing: 0.1em;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 body {
-  color: #f2f2f2;
+  color: #e2e2e2;
   font-family: serif;
   -webkit-font-smoothing: auto;
   font-style: normal;
@@ -114,6 +114,24 @@ h1 {
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.fonts-stage-1 body {
+  font-family: "Barlow Subset";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fonts-stage-1 h1 {
+  font-family: "Playfair Display Subset";
+}
+
+.fonts-stage-2 body {
+  font-family: "Barlow";
+}
+
+.fonts-stage-2 h1 {
+  font-family: "Playfair Display";
 }
 
 body {
@@ -129,6 +147,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1f1f1f;
+  overflow-x: hidden;
 }
 
 .header {

@@ -1,0 +1,35 @@
+.article {
+  li,
+  p {
+    a {
+      color: $color-beta;
+    }
+  }
+
+  blockquote {
+    border-left: 1px solid $color-alpha;
+    margin: 3em 0;
+    padding: 10px 60px 30px;
+    position: relative;
+
+    h3 {
+      text-transform: none;
+      color: $color-beta;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: calc((100vw - 100%) / -2);
+      bottom: 0;
+      left: calc((100vw - 100%) / -2);
+      background-color: lighten($color-gamma, 8%);
+      z-index: -1;
+    }
+
+    .main--sidebar &:before {
+      right: 0;
+    }
+  }
+}

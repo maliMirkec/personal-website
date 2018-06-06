@@ -92,7 +92,7 @@ h1 {
 }
 
 h1 {
-  color: #f2f2f2;
+  color: #e2e2e2;
   letter-spacing: 0.1em;
 }
 
@@ -111,7 +111,7 @@ code {
 }
 
 body {
-  color: #f2f2f2;
+  color: #e2e2e2;
   font-family: serif;
   -webkit-font-smoothing: auto;
   font-style: normal;
@@ -143,6 +143,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1f1f1f;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
 }
 
 .header {
@@ -181,4 +187,8 @@ body {
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.article p a {
+  color: #e01258;
 }

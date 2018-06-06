@@ -100,12 +100,12 @@ h2 {
 }
 
 h1 {
-  color: #f2f2f2;
+  color: #e2e2e2;
   letter-spacing: 0.1em;
 }
 
 h2 {
-  color: #e0e0e0;
+  color: #c0c0c0;
   letter-spacing: 0.05em;
 }
 
@@ -120,7 +120,7 @@ p {
 }
 
 body {
-  color: #f2f2f2;
+  color: #e2e2e2;
   font-family: serif;
   -webkit-font-smoothing: auto;
   font-style: normal;
@@ -169,6 +169,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1f1f1f;
+  overflow-x: hidden;
 }
 
 .header {
@@ -263,6 +264,11 @@ body {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+}
+
+.article li a,
+.article p a {
+  color: #e01258;
 }
 
 .sig {

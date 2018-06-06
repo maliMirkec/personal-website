@@ -8,11 +8,6 @@
     "delta"
     "epsilon";
 
-  img {
-    max-width: 100%;
-    width: 100%;
-  }
-
   @include mq($from: mobile) {
     grid-template-areas: "alpha alpha"
       "beta beta"

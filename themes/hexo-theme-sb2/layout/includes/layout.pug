@@ -13,7 +13,18 @@ html(lang=lang)
   include ../partials/head
   body
     include ../partials/header
-    .main
+    if (isHome())
+      - var main_class = " main--home"
+    else if (isPost())
+      - var main_class = " main--post"
+    else if (isCategory())
+      - var main_class = " main--category"
+    else
+      - var main_class = " main--page"
+
+    - var main_sidebar = (page && page.sidebar) ? " main--sidebar" : "";
+
+    div(class="main" + main_class + main_sidebar)
       block content
     include ../partials/footer
     include ../partials/starter-project
