@@ -1,0 +1,49 @@
+// Main
+.home {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas: "alpha"
+    "beta"
+    "gamma"
+    "delta"
+    "epsilon";
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  @include mq($from: mobile) {
+    grid-template-areas: "alpha alpha"
+      "beta beta"
+      "gamma delta"
+      "epsilon epsilon";
+  }
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-template-areas: "alpha alpha alpha"
+      "beta beta beta"
+      "gamma delta epsilon";
+  }
+}
+
+.home__box--alpha {
+  grid-area: alpha;
+}
+
+.home__box--beta {
+  grid-area: beta;
+}
+
+.home__box--gamma {
+  grid-area: gamma;
+}
+
+.home__box--delta {
+  grid-area: delta;
+}
+
+.home__box--epsiolon {
+  grid-area: epsiolon;
+}

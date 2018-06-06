@@ -1,0 +1,59 @@
+// Lists
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $color-epsilon;
+  font-size: ms(0);
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.list--alpha {
+  display: grid;
+  grid-gap: 50px;
+  margin-top: 20px;
+  text-align: center;
+
+  a {
+    color: lighten($color-beta, 25%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  @include mq($from: tablet) {
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.list--beta {
+  a {
+    color: $color-beta;
+  }
+}
+
+.list--gamma {
+  li {
+    display: flex;
+  }
+
+  span {
+    width: 80px;
+    text_-align: right;
+    margin-right: 5px;
+    color: $color-delta;
+  }
+
+  a {
+    color: $color-alpha;
+  }
+}

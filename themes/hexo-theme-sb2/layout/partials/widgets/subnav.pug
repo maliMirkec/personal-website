@@ -1,0 +1,10 @@
+if (theme && theme.widgets && theme.widgets.subnav)
+  nav.subnav
+    ul.subnav__list
+      each kcontact, vcontact in theme.widgets.subnav
+        li.subnav__item
+          if (kcontact == "/" && theme && theme.site.logo_footer)
+            a.subnav__link(href=kcontact)
+              img(src=theme.site.logo_footer, alt=vcontact)
+          else
+            a.subnav__link(href=kcontact)= vcontact

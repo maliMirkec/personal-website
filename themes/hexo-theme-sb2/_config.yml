@@ -1,0 +1,110 @@
+site:
+  full_name: SB - Silvestar's personal website
+  short_name: Silvestar Bistrović
+  description: Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder and blog writer.
+  logo: /gfx/svg/logo.svg
+  logo_footer: /gfx/svg/logo-footer.svg
+  language: en
+
+home_page:
+  - section:
+    position: alpha
+    title: Silvestar Bistrović
+    paragraphs:
+     - Fearless web developer
+     - JAMstack enthusiast
+     - Wordpress coder
+     - Blog writer
+  - section:
+    position: beta
+    title: Projects
+    images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
+        title: Netki
+        href: /portfolio/netki/
+      - src: //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
+        title: Han Han Xue
+        href: /portfolio/hanhanxue/
+      - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
+        title: Contiamo
+        href: /portfolio/contiamo/
+      - src: //res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png
+        title: Moodings
+        href: /portfolio/moodings/
+  - section:
+    position: gamma
+    title: Writing
+    links:
+      My first year of freelancing: /articles/my-first-year-of-freelancing/
+      Gulp tasks for CSS: /articles/starter-project-gulp-tasks-for-css/
+      # A set of latest best practices packed in Gulp tasks: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
+      From Wordpress to Hexo: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
+      Using CSS Grid Where Appropriate: /articles/using-css-grid-where-appropriate/
+    list_class: beta
+  - section:
+    position: delta
+    title: Links
+    links:
+      Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      LinkedIn: //www.linkedin.com/in/starbist/
+      GitHub: //github.com/maliMirkec
+      CodePen: //codepen.io/CiTA/
+    list_class: gamma
+  - section:
+    position: epsilon
+    title: Hire me
+    links:
+      Via Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
+      Via Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      Via Upwork: //www.upwork.com/fl/silvestarb
+      Via Codementor: //www.codementor.io/malimirkeccita
+    list_class: beta
+
+open_graph:
+  pretty_url: true
+  image: /gfx/png/SB-big.png
+  fb:
+    fb_id: 340933169673372
+    fb_admins: malimirkeccita
+  twitter:
+    twitter_id: malimirkeccita
+  google_plus:
+    google_plus_id: +SilvestarbistrovicFromHr
+
+menu:
+  centered: true
+  display_logo: false
+  items:
+    Home: /
+    Blog: /categories/articles
+    Portfolio: /portfolio
+    About: /about-me
+    Starter Project: //starter.silvestarbistrovic.from.hr
+
+widgets:
+  info:
+    paragraphs:
+      - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
+      - I am currently considering new projects. Contact me!
+    cta:
+      Contact me!: mailto:me@silvestarbistrovic.from.hr?Subject=New%20;Project
+    contact:
+      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      LinkedIn: //www.linkedin.com/in/starbist/
+      GitHub: //github.com/maliMirkec
+      CodePen: //codepen.io/CiTA/
+      Twitter: //twitter.com/malimirkeccita
+  subnav:
+    Silvestar Bistrović: /
+    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    LinkedIn: //www.linkedin.com/in/starbist/
+    GitHub: //github.com/maliMirkec
+    CodePen: //codepen.io/CiTA/
+    Twitter: //twitter.com/malimirkeccita
+  disqus:
+    shortname: silvestarbistrovic
+  sharing:
+    twitter: malimirkeccita
+    facebook: silvestarbistrovic.from.hr
