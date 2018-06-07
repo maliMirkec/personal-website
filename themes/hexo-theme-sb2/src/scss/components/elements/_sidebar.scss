@@ -1,9 +1,5 @@
 .sidebar {
   grid-area: sidebar;
-
-  @include mq($from: tablet) {
-    margin-top: ms(7);
-  }
 }
 
 .sidebar__inner {

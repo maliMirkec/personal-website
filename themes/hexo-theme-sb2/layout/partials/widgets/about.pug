@@ -1,0 +1,10 @@
+if (theme && theme.widgets && theme.widgets.info)
+  h4 About
+  if (theme.widgets.info.paragraphs)
+    each p in theme.widgets.info.paragraphs
+      p= p
+    if (theme.widgets.info.contact)
+      ul.list.list--delta
+        each kcontact, vcontact in theme.widgets.info.contact
+          li.list__item.list__item--epsilon
+            a.list__link(href=kcontact)= vcontact

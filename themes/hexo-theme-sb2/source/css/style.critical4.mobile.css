@@ -28,34 +28,6 @@ a {
   /* 2 */
 }
 
-svg:not(:root) {
-  overflow: hidden;
-}
-
-input {
-  font-family: sans-serif;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
-
-input {
-  /* 1 */
-  overflow: visible;
-}
-
-[type="checkbox"] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -73,7 +45,7 @@ body {
 }
 
 h1 {
-  font-size: 3.99758rem;
+  font-size: 1.9994rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -138,6 +110,33 @@ body {
   overflow-x: hidden;
 }
 
+.main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 50px auto;
+  width: calc(100% - 50px);
+  position: relative;
+  display: grid;
+  grid-template-areas: "info" "title" "content";
+  grid-template-columns: 100%;
+  grid-gap: 25px;
+  font-size: 1rem;
+}
+
+.main a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main > div:first-of-type {
+  grid-area: content;
+}
+
+.main--sidebar {
+  grid-template-areas: "info" "title" "content" "sidebar";
+}
+
 .header {
   background-color: #12e09f;
   color: #fff;
@@ -176,6 +175,64 @@ body {
   background-position: center bottom;
 }
 
+.nav__list--about-me .nav__item:nth-child(4) .nav__link {
+  background-image: url(/gfx/svg/logo-header.svg);
+}
+
+.info a {
+  color: inherit;
+}
+
+.info__icon {
+  background-color: #e01258;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  width: 24px;
+  height: 24px;
+  -webkit-box-shadow: 1px 1px 4px -1px #adadad;
+  box-shadow: 1px 1px 4px -1px #adadad;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+  animation: highlight 1s linear alternate-reverse infinite;
+}
+
+@-webkit-keyframes highlight {
+  to {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+@keyframes highlight {
+  to {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
 .article p a {
   color: #e01258;
+}
+
+.article__title--gamma {
+  font-size: 2.82715rem;
+  margin-bottom: 0;
+  grid-area: title;
+}
+
+.content > *:first-child {
+  margin-top: 0;
 }

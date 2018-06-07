@@ -8,6 +8,22 @@
     "delta"
     "epsilon";
 
+  h1 {
+    font-size: ms(3);
+
+    @include mq($from: tablet) {
+      font-size: ms(4);
+    }
+  }
+
+  h2 {
+    font-size: ms(2);
+
+    @include mq($from: tablet) {
+      font-size: ms(3);
+    }
+  }
+
   @include mq($from: mobile) {
     grid-template-areas: "alpha alpha"
       "beta beta"

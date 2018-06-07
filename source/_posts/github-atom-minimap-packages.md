@@ -20,7 +20,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **[minimap](https://atom.io/packages/minimap)** is a basic package for code preview and it's available on Atom's package manager. Settings let's you configure the **minimap** and here's my settings:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Minimap settings" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Minimap settings" %}
 
 ## useful minimap extensions
 
@@ -51,7 +51,7 @@ There's even a package that highlights search result occurrences in the **minima
 
 This is my **minimap** in action:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509509/minimap-in-action_jopeok.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "Minimap settings" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509509/minimap-in-action_jopeok.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Minimap settings" %}
 
 ## Final thoughts
 

@@ -25,7 +25,6 @@
 .list--alpha {
   display: grid;
   grid-gap: 100px;
-  margin-top: 20px;
 
   img {
     filter: drop-shadow(0 0 10px $color-epsilon);
@@ -85,7 +84,6 @@
   }
 
   @include mq($from: tablet) {
-    margin-top: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -113,6 +111,60 @@
   }
 }
 
+.list--delta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list--epsilon {
+  justify-content: center;
+}
+
 .list__item {
   margin-bottom: 0.25em;
+}
+
+.list__item--alpha {
+  font-size: ms(-1);
+}
+
+.list__item--beta {
+  margin-right: auto;
+}
+
+.list__item--gamma {
+  margin-left: 2em;
+
+  .list__br + & {
+    margin-left: 0;
+  }
+
+  @include mq($from: mobile) {
+    margin-left: auto;
+  }
+}
+
+.list__item--delta {
+  margin-left: 2em;
+}
+
+.list__item--epsilon {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.list__br {
+  display: block;
+  flex: 1 1 100%;
+  width: 100%;
+  height: 10px;
+
+  @include mq($from: mobile) {
+    display: none;
+  }
 }

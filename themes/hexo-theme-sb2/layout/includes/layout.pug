@@ -19,6 +19,10 @@ html(lang=lang)
       - var main_class = " main--post"
     else if (isCategory())
       - var main_class = " main--category"
+    else if (isArchive())
+      - var main_class = " main--archive"
+    else if (isTag())
+      - var main_class = " main--tag"
     else
       - var main_class = " main--page"
 

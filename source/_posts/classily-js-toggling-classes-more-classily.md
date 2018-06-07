@@ -80,7 +80,7 @@ We can provide multiple targets and classes by separating them with comma charac
 
 When a number of selectors and classes are equal, then each selector could be toggled with a different set of classes. For example, if we pass two selectors separated with comma character and two classes separated with comma character, the first class will be toggled on elements targeted with the first selector, and the second class will be toggled on elements targeted with the second selector.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1511823292/Classily-example_a31spq.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640 "ngrok in action" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1511823292/Classily-example_a31spq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "ngrok in action" %}
 
 When a number of selectors and classes are not equal, then all provided classes will be toggled on every element targeted by every selector. For example, if we pass two selectors separated with comma character and three classes separated with comma character, all three classes will be toggled on every element targeted by two selectors.
 

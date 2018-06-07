@@ -17,7 +17,7 @@ sidebar:
     Born in June: /portfolio/borninjune/
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Netki cover" cover-img //netki.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Netki cover" cover-img //netki.com cover %}
 
 Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on Wordpress and WPEngine.
 

@@ -287,7 +287,7 @@
     "src": "style.css",
     "criticalCssConfigs": [{
       "out": "./source/css/style.critical.mobile.css",
-      "url": "https://www.silvestarbistrovic.from.hr",
+      "url": "http://localhost:4000",
       "width": 320,
       "height": 480,
       "keepLargerMediaQueries": false,
@@ -296,7 +296,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical2.mobile.css",
-      "url": "https://www.silvestarbistrovic.from.hr/categories/articles/page/2/",
+      "url": "http://localhost:4000/categories/articles/page/2/",
       "width": 320,
       "height": 480,
       "keepLargerMediaQueries": false,
@@ -305,7 +305,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical3.mobile.css",
-      "url": "https://www.silvestarbistrovic.from.hr/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
       "width": 320,
       "height": 480,
       "keepLargerMediaQueries": false,
@@ -314,7 +314,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical4.mobile.css",
-      "url": "https://www.silvestarbistrovic.from.hr/about-me/",
+      "url": "http://localhost:4000/about-me/",
       "width": 320,
       "height": 480,
       "keepLargerMediaQueries": false,
@@ -323,7 +323,7 @@
       "blockJSRequests": false
     },{
       "out": "./source/css/style.critical.css",
-      "url": "https://www.silvestarbistrovic.from.hr",
+      "url": "http://localhost:4000",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": false,
@@ -332,7 +332,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical2.css",
-      "url": "https://www.silvestarbistrovic.from.hr/categories/articles/page/2/",
+      "url": "http://localhost:4000/categories/articles/page/2/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": false,
@@ -341,7 +341,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical3.css",
-      "url": "https://www.silvestarbistrovic.from.hr/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": false,
@@ -350,7 +350,7 @@
       "blockJSRequests": false
     }, {
       "out": "./source/css/style.critical4.css",
-      "url": "https://www.silvestarbistrovic.from.hr/about-me/",
+      "url": "http://localhost:4000/about-me/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": false,

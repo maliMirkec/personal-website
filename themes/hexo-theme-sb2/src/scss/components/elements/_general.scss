@@ -13,6 +13,7 @@ body {
 img {
   max-width: 100%;
   width: 100%;
+  margin: 0 auto;
 }
 
 .main {
@@ -22,7 +23,10 @@ img {
   position: relative;
   display: grid;
   grid-template-areas: "info"
-  "content";
+    "title"
+    "content";
+  grid-template-columns: 100%;
+  grid-gap: 25px;
   font-size: ms(0);
 
   a {
@@ -45,7 +49,10 @@ img {
   @include mq($from: mobile) {
     padding: 0 0 50px;
     max-width: 1200px;
-    grid-template-areas: "content";
+    grid-template-areas: "title"
+      "content"
+      "meta";
+    grid-gap: 50px;
   }
 
   @include mq($from: desktop) {
@@ -55,17 +62,42 @@ img {
 
 .main--sidebar {
   grid-template-areas: "info"
+  "title"
   "content"
   "sidebar";
 
+  @include mq($from: mobile) {
+    grid-template-areas: "title"
+    "content"
+    "sidebar";
+  }
+
   @include mq($from: tablet) {
-    grid-template-areas: "content sidebar";
+    grid-template-areas: "title title"
+      "content sidebar";
     grid-template-columns: 1fr 33vw;
-    grid-gap: 20px;
   }
 
   @include mq($from: desktop) {
     grid-template-columns: 1fr 25vw;
-    grid-gap: 100px;
+    grid-row-gap: 50px;
   }
+}
+
+.main--category {
+  grid-template-areas: "info"
+  "content"
+  "meta";
+}
+
+.main--post {
+  max-width: 960px;
+}
+
+.main--archive,
+.main--tag {
+  grid-template-areas: "info"
+  "title"
+  "content"
+  "meta";
 }

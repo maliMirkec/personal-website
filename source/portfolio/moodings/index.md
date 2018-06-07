@@ -17,7 +17,7 @@ sidebar:
     Born in June: /portfolio/borninjune/
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png 320px=f_auto,q_auto,w_320;640px=f_auto,q_auto,w_640;960px=f_auto,q_auto,w_960 "Moodings cover" cover-img //moodings.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Moodings cover" cover-img //moodings.com cover %}
 
 Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
 

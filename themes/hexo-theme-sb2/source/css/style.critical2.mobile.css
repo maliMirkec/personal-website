@@ -11,60 +11,10 @@ body {
   margin: 0;
 }
 
-article,
-header,
-nav {
-  display: block;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-a {
-  background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */
-}
-
-code {
+pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
-
-img {
-  border-style: none;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-input {
-  font-family: sans-serif;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
-
-input {
-  /* 1 */
-  overflow: visible;
-}
-
-[type="checkbox"] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
   /* 2 */
 }
 
@@ -84,32 +34,6 @@ body {
   line-height: 1.5;
 }
 
-h1 {
-  font-size: 3.99758rem;
-  font-weight: 700;
-  word-break: break-word;
-  text-transform: uppercase;
-}
-
-h1 {
-  color: #e2e2e2;
-  letter-spacing: 0.1em;
-}
-
-h1 a {
-  color: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-p {
-  margin-top: 1.414rem;
-}
-
-code {
-  line-height: 1;
-}
-
 body {
   color: #e2e2e2;
   font-family: serif;
@@ -119,14 +43,7 @@ body {
   -moz-osx-font-smoothing: auto;
 }
 
-h1 {
-  letter-spacing: calc(50 / 1000 * 1em);
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-code {
+pre {
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -144,51 +61,4 @@ body {
   line-height: 1.5;
   color: #1f1f1f;
   overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  width: 100%;
-}
-
-.header {
-  background-color: #12e09f;
-  color: #fff;
-}
-
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 30px;
-  margin: 0;
-  padding: 10px 5px;
-  list-style: none;
-}
-
-.nav__item {
-  text-align: center;
-}
-
-.nav__link {
-  display: block;
-  color: inherit;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  background-size: 10px 10px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.article p a {
-  color: #e01258;
 }
