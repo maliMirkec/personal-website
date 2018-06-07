@@ -28,6 +28,10 @@ a {
   /* 2 */
 }
 
+img {
+  border-style: none;
+}
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -106,34 +110,11 @@ body {
 }
 
 h1,
-h2,
-h4 {
+h2 {
   letter-spacing: calc(50 / 1000 * 1em);
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.fonts-stage-1 body {
-  font-family: "Barlow Subset";
-  font-style: normal;
-  font-weight: 400;
-}
-
-.fonts-stage-1 h1,
-.fonts-stage-1 h2,
-.fonts-stage-1 h4 {
-  font-family: "Playfair Display Subset";
-}
-
-.fonts-stage-2 body {
-  font-family: "Barlow";
-}
-
-.fonts-stage-2 h1,
-.fonts-stage-2 h2,
-.fonts-stage-2 h4 {
-  font-family: "Playfair Display";
 }
 
 body {
@@ -150,6 +131,12 @@ body {
   line-height: 1.5;
   color: #1f1f1f;
   overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main {
@@ -451,6 +438,10 @@ body {
   text-decoration: none;
 }
 
+.list img[src*=".svg"] {
+  max-width: 50px;
+}
+
 .list:not(.list--bullets) {
   list-style: none;
 }
@@ -463,28 +454,19 @@ body {
   color: #e01258;
 }
 
-.list--delta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+.list--beta a.list__link--current {
+  color: #12e09f;
 }
 
 .list__item {
   margin-bottom: 0.25em;
 }
 
-.list__item--epsilon {
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
 }
 
-.article h4 {
-  color: #ef3675;
-}
-
-.article li a,
 .article p a {
   color: #e01258;
 }
@@ -498,46 +480,6 @@ body {
 @media (min-width: 48em) {
   .article__title--gamma {
     font-size: 3.99758rem;
-  }
-}
-
-.meta {
-  grid-area: meta;
-  margin: 2em 0 4em;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.meta h4,
-.meta p,
-.meta li {
-  line-height: 30px;
-}
-
-.meta h4,
-.meta p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.meta h4 {
-  color: #1f1f1f;
-  letter-spacing: 0.1em;
-}
-
-.meta li {
-  margin-bottom: 0;
-}
-
-.meta li,
-.meta p {
-  font-size: 0.825rem;
-}
-
-@media (min-width: 48em) {
-  .meta {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
   }
 }
 
