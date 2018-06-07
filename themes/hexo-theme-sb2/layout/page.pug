@@ -2,3 +2,12 @@ extends includes/layout
 
 block content
   include partials/article
+
+  if (page && page.sidebar)
+    include partials/sidebar
+
+  if (page && page.grid)
+    include partials/grid
+
+  if (theme && theme.widgets && theme.widgets.info)
+    include partials/widgets/info

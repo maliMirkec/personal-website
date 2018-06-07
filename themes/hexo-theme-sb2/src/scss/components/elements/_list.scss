@@ -2,7 +2,6 @@
 .list {
   margin: 0;
   padding: 0;
-  list-style: none;
   color: $color-epsilon;
   font-size: ms(0);
 
@@ -13,31 +12,92 @@
   a {
     text-decoration: none;
   }
+
+  img[src*=".svg"] {
+    max-width: 50px;
+  }
+}
+
+.list:not(.list--bullets) {
+  list-style: none;
 }
 
 .list--alpha {
   display: grid;
-  grid-gap: 50px;
-  margin-top: 20px;
-  text-align: center;
+  grid-gap: 100px;
+
+  img {
+    filter: drop-shadow(0 0 10px $color-epsilon);
+  }
 
   a {
-    color: lighten($color-beta, 25%);
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    display: block;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+
+      img {
+        filter: drop-shadow(0 0 10px $color-alpha);
+      }
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin-top: 1em;
+    color: $color-zeta;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  span {
+    color: $color-beta;
+  }
+
+  h4,
+  h5 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.025em;
+    text-transform: none;
+    color: $color-epsilon;
+  }
+
+  h4 {
+    font-size: ms(2);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  h5 {
+    color: lighten($color-beta, 20%);
+    margin-top: .5em;
+    margin-bottom: 0;
+    font-size: ms(1);
+    text-align: center;
   }
 
   @include mq($from: tablet) {
-    margin-top: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
 
 .list--beta {
+  color: $color-zeta;
+
   a {
     color: $color-beta;
+
+    &.list__link--current {
+      color: $color-alpha;
+    }
   }
 }
 
@@ -46,14 +106,65 @@
     display: flex;
   }
 
-  span {
-    width: 80px;
-    text_-align: right;
-    margin-right: 5px;
-    color: $color-delta;
-  }
-
   a {
     color: $color-alpha;
+  }
+}
+
+.list--delta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list--epsilon {
+  justify-content: center;
+}
+
+.list__item {
+  margin-bottom: 0.25em;
+}
+
+.list__item--alpha {
+  font-size: ms(-1);
+}
+
+.list__item--beta {
+  margin-right: auto;
+}
+
+.list__item--gamma {
+  margin-left: 2em;
+
+  .list__br + & {
+    margin-left: 0;
+  }
+
+  @include mq($from: mobile) {
+    margin-left: auto;
+  }
+}
+
+.list__item--delta {
+  margin-left: 2em;
+}
+
+.list__item--epsilon {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.list__br {
+  display: block;
+  flex: 1 1 100%;
+  width: 100%;
+  height: 10px;
+
+  @include mq($from: mobile) {
+    display: none;
   }
 }

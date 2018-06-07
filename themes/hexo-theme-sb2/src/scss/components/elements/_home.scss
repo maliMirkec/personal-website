@@ -8,9 +8,20 @@
     "delta"
     "epsilon";
 
-  img {
-    max-width: 100%;
-    width: 100%;
+  h1 {
+    font-size: ms(3);
+
+    @include mq($from: tablet) {
+      font-size: ms(4);
+    }
+  }
+
+  h2 {
+    font-size: ms(2);
+
+    @include mq($from: tablet) {
+      font-size: ms(3);
+    }
   }
 
   @include mq($from: mobile) {

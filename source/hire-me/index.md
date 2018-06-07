@@ -3,6 +3,20 @@ title: I'm available for hire
 comments: false
 date: 2017-08-02 11:37:55
 description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal and Upwork. You will benefit from my experience and services that I could provide.
+sidebar:
+  title: Links
+  items:
+    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    LinkedIn: //www.linkedin.com/in/starbist/
+    GitHub: //github.com/maliMirkec
+    CodePen: //codepen.io/CiTA/
+    Twitter: //twitter.com/malimirkeccita
+    Upwork: //www.upwork.com/fl/silvestarb
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
+    Silvestar Bistrovi?: /
 ---
 
 I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic) and [Upwork](https://www.upwork.com/fl/silvestarb). You will benefit from my experience and [services](/services/) that I could provide.
@@ -24,8 +38,9 @@ In 2015 friends asked me to build a website. They were starting with their [wedd
 
 In 2016 I wanted to start my own blog. It was my great desire for a long time but I was afraid. But fear isn't necessarily the bad thing.
 
-> Fear is a compass-a signal that you might be on the verge of doing something worthwhile.
-> **Source: http://weekjuice.com/#/16**
+> ### Fear is a compass-a signal that you might be on the verge of doing something worthwhile.
+>
+> _— Source: http://weekjuice.com/#/16_
 
 And it happened, I started a blog. I used Wordpress as a blogging engine. I always work with performance on my mind so I tried to make my blog as fast as possible. I managed to create a pretty fast website using [_bem - Wordpress theme with BEM methodology](/articles/bem-wordpress-theme/). As icing on the cake, the content from my website got recognized and even featured on CSS Weekly: [Issue #237](http://css-weekly.com/issue-237/), [Issue #258](http://css-weekly.com/issue-258/), and [Issue #277](http://css-weekly.com/issue-277/).
 

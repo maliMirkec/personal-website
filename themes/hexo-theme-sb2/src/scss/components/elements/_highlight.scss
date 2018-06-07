@@ -1,0 +1,19 @@
+.highlight {
+  margin: 2em 0;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0 1em;
+  background-color: lighten($color-gamma, 8%);
+
+  table {
+    color: lighten($color-beta, 5%);
+    font-size: 0.875rem;
+    line-height: 1.8;
+  }
+
+  .gutter {
+    padding-right: 1em;
+    color: $color-delta;
+  }
+}
+
