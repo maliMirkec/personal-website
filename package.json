@@ -20,7 +20,8 @@
   },
   "scripts": {
     "cp_redirects": "cp source/_redirects public/_redirects",
-    "deploy": "hexo generate && npm run cp_redirects"
+    "cp_headers": "cp source/_headers public/_headers",
+    "deploy": "hexo generate && npm run cp_redirects && npm run cp_headers"
   },
   "hexo": {
     "version": "3.5.0"
