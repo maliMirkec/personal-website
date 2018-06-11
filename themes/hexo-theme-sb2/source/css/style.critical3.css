@@ -1,19 +1,12 @@
 html {
   line-height: 1.15;
   /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
 
 body {
   margin: 0;
-}
-
-header,
-nav {
-  display: block;
 }
 
 h1 {
@@ -23,9 +16,6 @@ h1 {
 
 a {
   background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */
 }
 
 img {
@@ -107,32 +97,9 @@ p {
 }
 
 body {
-  color: #e2e2e2;
-  font-family: serif;
-  -webkit-font-smoothing: auto;
-  font-style: normal;
-  font-weight: 400;
-  -moz-osx-font-smoothing: auto;
-}
-
-h1,
-h2 {
-  letter-spacing: calc(50 / 1000 * 1em);
-  font-style: normal;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-body {
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  font-family: 'Barlow', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #1f1f1f;
@@ -146,8 +113,6 @@ img {
 }
 
 .main {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   margin: 50px auto;
   width: calc(100% - 50px);
@@ -193,13 +158,8 @@ img {
 }
 
 .nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   font-size: 16px;
   line-height: 30px;
@@ -211,8 +171,6 @@ img {
 @media (min-width: 48em) {
   .nav__list {
     padding: 0;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
   }
 }
@@ -275,16 +233,11 @@ img {
 }
 
 .list--delta {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .list--epsilon {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -316,8 +269,6 @@ img {
 
 .list__br {
   display: block;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 100%;
   flex: 1 1 100%;
   width: 100%;
   height: 10px;

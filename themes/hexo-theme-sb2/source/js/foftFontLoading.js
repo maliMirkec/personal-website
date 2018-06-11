@@ -208,6 +208,8 @@ var FontFaceObserver = void 0;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
+  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded1);
+
   if (window.sessionStorage.criticalFoftDataUriFontsLoaded1) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2';
     return;
@@ -312,4 +314,3 @@ var FontFaceObserver = void 0;
     console.log("Subset fonts not loaded.");
   });
 })();
-//# sourceMappingURL=foftFontLoading.js.map
