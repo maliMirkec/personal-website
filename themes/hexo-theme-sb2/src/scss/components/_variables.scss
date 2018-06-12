@@ -32,7 +32,7 @@ $mq--desktop: 1200px;
 /// @group 1.1 Sizes
 /// @name font-size--mobile
 /// @since 1.0.0
-$font-size--mobile: 16px;
+$font-size--mobile: 18px;
 
 /// Default font size on tablet devices, used in css-locks.
 /// @access public
@@ -105,27 +105,9 @@ $color-beta: #e01258;
 /// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
 /// @example color: $color-gamma;
 /// @group 1.1 Colors
-/// @name gamma
+/// @name white
 /// @since 1.0.0
-$color-gamma: #e2e2e2;
-
-/// Color from SB palette
-/// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
-/// @example color: $color-delta;
-/// @group 1.1 Colors
-/// @name delta
-/// @since 1.0.0
-$color-delta: #c0c0c0;
-
-/// Color from SB palette
-/// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
-/// @example color: $color-epsilon;
-/// @group 1.1 Colors
-/// @name epsilon
-/// @since 1.0.0
-$color-epsilon: #adadad;
+$color-gamma: #f5f5f5;
 
 /// Color from SB palette
 /// @access public
@@ -134,7 +116,7 @@ $color-epsilon: #adadad;
 /// @group 1.1 Colors
 /// @name zeta
 /// @since 1.0.0
-$color-zeta: #1f1f1f;
+$color-psi: #1f1f1f;
 
 /// Color from SB palette
 /// @access public

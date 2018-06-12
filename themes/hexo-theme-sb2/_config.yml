@@ -10,11 +10,12 @@ home_page:
   - section:
     position: alpha
     title: Silvestar Bistrović
-    paragraphs:
+    headings:
      - Fearless web developer
      - JAMstack enthusiast
      - Wordpress coder
      - Blog writer
+    list_class: beta
   - section:
     position: beta
     title: Projects
@@ -40,7 +41,7 @@ home_page:
       # A set of latest best practices packed in Gulp tasks: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
       From Wordpress to Hexo: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
       Using CSS Grid Where Appropriate: /articles/using-css-grid-where-appropriate/
-    list_class: beta
+    list_class: gamma
   - section:
     position: delta
     title: Links
@@ -58,7 +59,7 @@ home_page:
       Via Toptal: //www.toptal.com/resume/silvestar-bistrovic
       Via Upwork: //www.upwork.com/fl/silvestarb
       Via Codementor: //www.codementor.io/malimirkeccita
-    list_class: beta
+    list_class: gamma
 
 open_graph:
   pretty_url: true

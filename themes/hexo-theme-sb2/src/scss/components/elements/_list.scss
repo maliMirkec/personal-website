@@ -2,15 +2,41 @@
 .list {
   margin: 0;
   padding: 0;
-  color: $color-epsilon;
+  color: $color-psi;
   font-size: ms(0);
 
   p {
     margin: 0;
   }
 
+  h4,
+  h5 {
+    letter-spacing: 0.025em;
+    text-transform: none;
+    color: lighten($color-beta, 10%);
+  }
+
+  h4 {
+    color: lighten($color-beta, 15%);
+    font-size: ms(2);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  h5 {
+    font-family: $font-alpha, sans-serif;
+    font-size: ms(1);
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+
   a {
     text-decoration: none;
+  }
+
+  &:not([class*="list--"]) a {
+    color: $color-beta;
   }
 
   img[src*=".svg"] {
@@ -27,7 +53,7 @@
   grid-gap: 100px;
 
   img {
-    filter: drop-shadow(0 0 10px $color-epsilon);
+    filter: drop-shadow(0 0 10px lighten($color-psi, 50%));
   }
 
   a {
@@ -50,37 +76,20 @@
 
   p {
     margin-top: 1em;
-    color: $color-zeta;
+    color: $color-psi;
 
     &:last-child {
       margin-bottom: 0;
     }
   }
 
-  span {
-    color: $color-beta;
-  }
-
-  h4,
-  h5 {
-    font-family: "Playfair Display", serif;
-    letter-spacing: 0.025em;
-    text-transform: none;
-    color: $color-epsilon;
-  }
-
-  h4 {
-    font-size: ms(2);
-    margin-top: 0;
-    margin-bottom: 0.5em;
-  }
-
   h5 {
     color: lighten($color-beta, 20%);
-    margin-top: .5em;
-    margin-bottom: 0;
-    font-size: ms(1);
     text-align: center;
+  }
+
+  span {
+    color: $color-beta;
   }
 
   @include mq($from: tablet) {
@@ -90,25 +99,11 @@
 }
 
 .list--beta {
-  color: $color-zeta;
-
-  a {
-    color: $color-beta;
-
-    &.list__link--current {
-      color: $color-alpha;
-    }
-  }
+  color: darken($color-alpha, 7%);
 }
 
 .list--gamma {
-  li {
-    display: flex;
-  }
-
-  a {
-    color: $color-alpha;
-  }
+  color: $color-beta;
 }
 
 .list--delta {
@@ -156,6 +151,10 @@
 .list__link--logo {
   display: block;
   margin-top: 0.5em;
+}
+
+.list__link.list__link--current {
+  color: $color-beta;
 }
 
 .list__br {

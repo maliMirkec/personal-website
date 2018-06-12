@@ -8,6 +8,22 @@
     "delta"
     "epsilon";
 
+  h1,
+  h2 {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 15%;
+      max-width: 100px;
+      height: 10px;
+      background-color: lighten($color-alpha, 20%);
+    }
+  }
+
   h1 {
     font-size: ms(3);
 

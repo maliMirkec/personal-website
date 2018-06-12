@@ -38,8 +38,8 @@ if (page && page.title)
   if (page && page.content)
     .content!= page.content
   if (isPost())
-    .meta
-      .meta__content
+    .metadata
+      .metadata__content
         if (theme && theme.widgets && theme.widgets.sharing)
           h4 Share:
           ul.list
@@ -63,7 +63,7 @@ if (page && page.title)
                 li.list__item
                   - var prevTitle = page.prev.title ? page.prev.title: "Previous";
                   a.list__link.list__link--prev(href=urlFor(page.prev.path))= prevTitle
-      .meta__content
+      .metadata__content
         if (theme && theme.widgets && theme.widgets.info)
           include widgets/about
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)

@@ -73,32 +73,19 @@ body {
 // Weight: 101
 //
 // Styleguide: Typography.Headings
-@for $i from 1 through 3 {
+@for $i from 1 through 4 {
   h#{$i} {
     font-size: ms(3 - $i);
     font-weight: 700;
     word-break: break-word;
     text-transform: uppercase;
+    color: lighten($color-psi, 30%);
+    letter-spacing: calc(0.15em / #{$i});
 
     @include mq($from: tablet) {
       font-size: ms(4 - $i);
     }
   }
-}
-
-h1 {
-  color: $color-gamma;
-  letter-spacing: 0.1em;
-}
-
-h2 {
-  color: $color-delta;
-  letter-spacing: 0.05em;
-}
-
-h3 {
-  color: $color-epsilon;
-  letter-spacing: 0.025em;
 }
 
 h1,

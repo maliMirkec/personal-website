@@ -3,17 +3,17 @@
   max-width: 100%;
   overflow-x: auto;
   padding: 0 1em;
-  background-color: lighten($color-gamma, 8%);
+  background-color: $color-gamma;
 
   table {
-    color: lighten($color-beta, 5%);
+    color: $color-beta;
     font-size: 0.875rem;
     line-height: 1.8;
   }
 
   .gutter {
     padding-right: 1em;
-    color: $color-delta;
+    color: lighten($color-psi, 50%);
   }
 }
 

@@ -14,6 +14,12 @@
             each p in section.paragraphs
               li.list__item
                 p= p
+        if (section.headings)
+          - var list_class = (section.list_class) ? " list--" + section.list_class : "";
+          ul(class="list" + list_class)
+            each h5 in section.headings
+              li.list__item
+                h5= h5
         if (section.links)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";
           ul(class="list" + list_class)

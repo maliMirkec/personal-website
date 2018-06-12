@@ -5,6 +5,10 @@ description: Working effeciantly is often not that easy. In order to save time, 
 sidebar:
   title: Links
   items:
+    About: /about-me/
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
     Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
     Toptal: //www.toptal.com/resume/silvestar-bistrovic
     LinkedIn: //www.linkedin.com/in/starbist/
@@ -12,9 +16,6 @@ sidebar:
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
     Upwork: //www.upwork.com/fl/silvestarb
-    Hire me: /hire-me/
-    Services: /services/
-    Setup: /uses/
     Silvestar Bistrović: /
 ---
 

@@ -60,7 +60,7 @@
   src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"); }
 
 body {
-  color: #e2e2e2;
+  color: #1f1f1f;
   font-family: sans-serif;
   -webkit-font-smoothing: auto;
   font-style: normal;
@@ -73,7 +73,6 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: calc(strip-unit(50) / 1000 * 1em);
   font-family: serif;
   font-style: normal;
   font-weight: bold;
