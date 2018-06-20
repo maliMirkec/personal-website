@@ -50,7 +50,7 @@
 
 .list--alpha {
   display: grid;
-  grid-gap: 100px;
+  grid-gap: 20px;
 
   img {
     filter: drop-shadow(0 0 10px lighten($color-psi, 50%));
@@ -95,6 +95,7 @@
   @include mq($from: tablet) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
   }
 }
 
@@ -128,7 +129,7 @@
 }
 
 .list__item--gamma {
-  margin-left: 2em;
+  margin-left: .75em;
 
   .list__br + & {
     margin-left: 0;
@@ -140,7 +141,11 @@
 }
 
 .list__item--delta {
-  margin-left: 2em;
+  margin-left: .5em;
+
+  @include mq($from: mobile) {
+    margin-left: 2em;
+  }
 }
 
 .list__item--epsilon {

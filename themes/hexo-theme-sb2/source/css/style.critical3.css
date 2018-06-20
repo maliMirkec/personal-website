@@ -219,7 +219,7 @@ img {
 }
 
 .list__item--gamma {
-  margin-left: 2em;
+  margin-left: .75em;
 }
 
 .list__br + .list__item--gamma {
@@ -233,7 +233,13 @@ img {
 }
 
 .list__item--delta {
-  margin-left: 2em;
+  margin-left: .5em;
+}
+
+@media (min-width: 30em) {
+  .list__item--delta {
+    margin-left: 2em;
+  }
 }
 
 .list__br {
@@ -260,7 +266,7 @@ img {
 
 @media (max-width: 47.99em) {
   .article__title--beta {
-    font-size: 1.9994rem;
+    font-size: 1.414rem;
   }
 }
 

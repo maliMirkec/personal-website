@@ -318,8 +318,18 @@ img {
   font-size: 1rem;
 }
 
-.list p {
-  margin: 0;
+.list h5 {
+  letter-spacing: 0.025em;
+  text-transform: none;
+  color: #ef3675;
+}
+
+.list h5 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.414rem;
+  font-weight: 400;
+  margin-top: .5em;
+  margin-bottom: 0;
 }
 
 .list a {
@@ -332,7 +342,7 @@ img {
 
 .list--alpha {
   display: grid;
-  grid-gap: 100px;
+  grid-gap: 20px;
 }
 
 .list--alpha img {
@@ -348,7 +358,12 @@ img {
   .list--alpha {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
   }
+}
+
+.list--beta {
+  color: #0fbf88;
 }
 
 .list__item {
@@ -379,7 +394,7 @@ img {
 }
 
 .home h1 {
-  font-size: 2.82715rem;
+  font-size: 1.9994rem;
 }
 
 @media (min-width: 48em) {
@@ -389,7 +404,7 @@ img {
 }
 
 .home h2 {
-  font-size: 1.9994rem;
+  font-size: 1.414rem;
 }
 
 @media (min-width: 48em) {

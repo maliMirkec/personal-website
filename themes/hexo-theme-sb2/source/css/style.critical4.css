@@ -388,12 +388,16 @@ body {
   margin-bottom: 0.25em;
 }
 
+.list__link.list__link--current {
+  color: #e01258;
+}
+
 .article p a {
   color: #e01258;
 }
 
 .article__title--gamma {
-  font-size: 2.82715rem;
+  font-size: 1.9994rem;
   margin-bottom: 0;
   grid-area: title;
 }

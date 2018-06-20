@@ -334,7 +334,13 @@ img {
 }
 
 .list__item--delta {
-  margin-left: 2em;
+  margin-left: .5em;
+}
+
+@media (min-width: 30em) {
+  .list__item--delta {
+    margin-left: 2em;
+  }
 }
 
 .articles {

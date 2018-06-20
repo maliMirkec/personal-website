@@ -719,7 +719,7 @@ img {
 
 .list--alpha {
   display: grid;
-  grid-gap: 100px; }
+  grid-gap: 20px; }
   .list--alpha img {
     -webkit-filter: drop-shadow(0 0 10px #9f9f9f);
             filter: drop-shadow(0 0 10px #9f9f9f); }
@@ -745,7 +745,8 @@ img {
   @media (min-width: 48em) {
     .list--alpha {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr; } }
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 100px; } }
 
 .list--beta {
   color: #0fbf88; }
@@ -770,7 +771,7 @@ img {
   margin-right: auto; }
 
 .list__item--gamma {
-  margin-left: 2em; }
+  margin-left: .75em; }
   .list__br + .list__item--gamma {
     margin-left: 0; }
   @media (min-width: 30em) {
@@ -778,7 +779,10 @@ img {
       margin-left: auto; } }
 
 .list__item--delta {
-  margin-left: 2em; }
+  margin-left: .5em; }
+  @media (min-width: 30em) {
+    .list__item--delta {
+      margin-left: 2em; } }
 
 .list__item--epsilon {
   margin-right: 0.5em;
@@ -818,12 +822,12 @@ img {
       height: 10px;
       background-color: #65f3c6; }
   .home h1 {
-    font-size: 2.82715rem; }
+    font-size: 1.9994rem; }
     @media (min-width: 48em) {
       .home h1 {
         font-size: 3.99758rem; } }
   .home h2 {
-    font-size: 1.9994rem; }
+    font-size: 1.414rem; }
     @media (min-width: 48em) {
       .home h2 {
         font-size: 2.82715rem; } }
@@ -886,7 +890,7 @@ img {
 .article blockquote {
   border-left: 1px solid #12e09f;
   margin: 2em 0;
-  padding: 20px 60px 1.414rem;
+  padding: 5px 0 10px 20px;
   position: relative; }
   .article blockquote h3 {
     text-transform: none; }
@@ -904,6 +908,9 @@ img {
   @media (min-width: 48em) {
     .main--sidebar .article blockquote:before {
       right: 0; } }
+  @media (min-width: 48em) {
+    .article blockquote {
+      padding: 20px 60px 1.414rem; } }
 
 .article__title--alpha {
   font-size: 1.414rem;
@@ -920,7 +927,7 @@ img {
   margin-bottom: 0; }
   @media (max-width: 47.99em) {
     .article__title--beta {
-      font-size: 1.9994rem; } }
+      font-size: 1.414rem; } }
   @media (min-width: 48em) {
     .article__title--beta {
       margin-right: calc((100vw - 100%) / -2);
@@ -930,7 +937,7 @@ img {
       text-align: center; } }
 
 .article__title--gamma {
-  font-size: 2.82715rem;
+  font-size: 1.9994rem;
   margin-bottom: 0;
   grid-area: title; }
   @media (min-width: 48em) {
