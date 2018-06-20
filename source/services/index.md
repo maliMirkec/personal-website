@@ -2,6 +2,21 @@
 title: Services
 date: 2017-08-03 09:34:48
 description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
+sidebar:
+  title: Links
+  items:
+    About: /about-me/
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
+    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    LinkedIn: //www.linkedin.com/in/starbist/
+    GitHub: //github.com/maliMirkec
+    CodePen: //codepen.io/CiTA/
+    Twitter: //twitter.com/malimirkeccita
+    Upwork: //www.upwork.com/fl/silvestarb
+    Silvestar Bistrović: /
 ---
 
 I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
@@ -9,8 +24,8 @@ I've been working with web technologies since 2011. During this period, I've lea
 - Organize project architecture for frontend
 - **Create style guide for your project**
 - Implement coding standards for better code formatting
-- **Convert design to HTML**
-- Produce highly maintainable stylesheets using Sass or Less
+- **Convert design to HTML: PSD, Sketch, InVision, ...**
+- Produce highly maintainable stylesheets using CSS, Sass or Less
 - **Break CSS for Above the fold using Critical CSS**
 - Create layout using CSS Grid or Flexbox
 - Add custom animations
@@ -18,20 +33,19 @@ I've been working with web technologies since 2011. During this period, I've lea
 - Implement modular scale and fluid typography
 - Create interactive experience using JavaScript
 - Make your website accessible
+- Add cross browser compatibility
 - Create fluid development environment using Webpack, Gulp, and Grunt
 - Implement Yarn or npm for package management
-- Add cross browser compatibility
-- Optimize your website for PageSpeed Insights (and similar page scoring apps)
+- **Optimize your website for PageSpeed Insights (and similar page scoring apps)**
 - Improve performance of your website using CloudFlare
 - Add version control on your project using Git
 - Apply git-glow for branching model
 - Add semantic versioning for every project
-- Use SVG wherever possible
 - Create new Wordpress website from scratch
 - **Create new Wordpress theme from scratch**
-- Make adjustments on existing Wordpress website
 - **Create new website using static site generator**
 - **Create custom websites**
+- Make adjustments on existing Wordpress website
 - Use template engines to create HTML dynamically
 - Implement srcset or Picturefill for responsive images
 - Use collaboration tools like Trello, Asana or Jira to keep track of the project progress

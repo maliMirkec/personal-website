@@ -16,11 +16,11 @@ description: This is a post about building custom Wordpress theme with BEM nam
 
 In short, it is a `CSS` naming convention methodology. It stands for: _block, element, modifier_. _Blocks_ are parent components, _elements_ are child components and _modifiers_ are different states of components.
 
+<!-- more -->
+
 [Wordpress](https://wordpress.org/) is great, too. It is an open source blog tool and a publishing platform and content management system.
 
 This is a post about building custom Wordpress theme with BEM naming methodology. [Check it out](https://github.com/maliMirkec/_bem)!
-
-<!-- more -->
 
 ## Starter template
 

@@ -1,0 +1,174 @@
+// Lists
+.list {
+  margin: 0;
+  padding: 0;
+  color: $color-psi;
+  font-size: ms(0);
+
+  p {
+    margin: 0;
+  }
+
+  h4,
+  h5 {
+    letter-spacing: 0.025em;
+    text-transform: none;
+    color: lighten($color-beta, 10%);
+  }
+
+  h4 {
+    color: lighten($color-beta, 15%);
+    font-size: ms(2);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  h5 {
+    font-family: $font-alpha, sans-serif;
+    font-size: ms(1);
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  &:not([class*="list--"]) a {
+    color: $color-beta;
+  }
+
+  img[src*=".svg"] {
+    max-width: 50px;
+  }
+}
+
+.list:not(.list--bullets) {
+  list-style: none;
+}
+
+.list--alpha {
+  display: grid;
+  grid-gap: 20px;
+
+  img {
+    filter: drop-shadow(0 0 10px lighten($color-psi, 50%));
+  }
+
+  a {
+    display: block;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+
+      img {
+        filter: drop-shadow(0 0 10px $color-alpha);
+      }
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin-top: 1em;
+    color: $color-psi;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h5 {
+    color: lighten($color-beta, 20%);
+    text-align: center;
+  }
+
+  span {
+    color: $color-beta;
+  }
+
+  @include mq($from: tablet) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
+  }
+}
+
+.list--beta {
+  color: darken($color-alpha, 7%);
+}
+
+.list--gamma {
+  color: $color-beta;
+}
+
+.list--delta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list--epsilon {
+  justify-content: center;
+}
+
+.list__item {
+  margin-bottom: 0.25em;
+}
+
+.list__item--alpha {
+  font-size: ms(-1);
+}
+
+.list__item--beta {
+  margin-right: auto;
+}
+
+.list__item--gamma {
+  margin-left: .75em;
+
+  .list__br + & {
+    margin-left: 0;
+  }
+
+  @include mq($from: mobile) {
+    margin-left: auto;
+  }
+}
+
+.list__item--delta {
+  margin-left: .5em;
+
+  @include mq($from: mobile) {
+    margin-left: 2em;
+  }
+}
+
+.list__item--epsilon {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.list__link.list__link--current {
+  color: $color-beta;
+}
+
+.list__br {
+  display: block;
+  flex: 1 1 100%;
+  width: 100%;
+  height: 10px;
+
+  @include mq($from: mobile) {
+    display: none;
+  }
+}

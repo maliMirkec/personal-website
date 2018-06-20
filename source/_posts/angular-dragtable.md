@@ -15,10 +15,10 @@ description: Angular dragtable is an Angular directive that allows table column 
 
 I've been searching for a similar solution, including JavaScript libraries, jQuery plugins or Angular directives. I've tested various solutions, but nothing worked as expected. So I decided to create brand new directive.
 
+<!-- more -->
+
 The package is available [here](https://github.com/maliMirkec/angular-dragtable).
 And the demo is available [here.](https://frontend-developer.xyz/angular-dragtable/)
-
-<!-- more -->
 
 ## Angular dragtable events
 

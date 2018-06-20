@@ -1,0 +1,76 @@
+// Main
+.home {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas: "alpha"
+    "beta"
+    "gamma"
+    "delta"
+    "epsilon";
+
+  h1,
+  h2 {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 15%;
+      max-width: 100px;
+      height: 10px;
+      background-color: lighten($color-alpha, 20%);
+    }
+  }
+
+  h1 {
+    font-size: ms(2);
+
+    @include mq($from: tablet) {
+      font-size: ms(4);
+    }
+  }
+
+  h2 {
+    font-size: ms(1);
+
+    @include mq($from: tablet) {
+      font-size: ms(3);
+    }
+  }
+
+  @include mq($from: mobile) {
+    grid-template-areas: "alpha alpha"
+      "beta beta"
+      "gamma delta"
+      "epsilon epsilon";
+  }
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-template-areas: "alpha alpha alpha"
+      "beta beta beta"
+      "gamma delta epsilon";
+  }
+}
+
+.home__box--alpha {
+  grid-area: alpha;
+}
+
+.home__box--beta {
+  grid-area: beta;
+}
+
+.home__box--gamma {
+  grid-area: gamma;
+}
+
+.home__box--delta {
+  grid-area: delta;
+}
+
+.home__box--epsiolon {
+  grid-area: epsiolon;
+}

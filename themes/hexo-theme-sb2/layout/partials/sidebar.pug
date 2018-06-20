@@ -1,0 +1,20 @@
+if (page && page.sidebar)
+  .sidebar
+    .sidebar__inner
+      if (page && page.sidebar.title)
+        h2.sidebar__title= page.sidebar.title
+      if (page && page.sidebar.items)
+        ul.list.list--beta
+          each kitem, vitem in page.sidebar.items
+            li.list__item
+              - var link_class = (page.permalink.indexOf(kitem) !== -1) ? " list__link--current" : "";
+              if (kitem == "/" && theme && theme.site.logo)
+                a(href=kitem, class="list__link list__link--logo " + link_class)
+                  img(src=theme.site.logo, alt=vcontact)
+              else
+                a(href=kitem, class="list__link" + link_class)= vitem
+      if (page && page.sidebar.paragraphs)
+        ul.list.list--beta.list--bullets
+          each p in page.sidebar.paragraphs
+            li.list__item
+              p= p

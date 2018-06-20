@@ -1,0 +1,54 @@
+body {
+  color: $color-psi;
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  font-style: normal;
+  font-weight: 400;
+  -moz-osx-font-smoothing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fonts-stage-1 body {
+  font-family: $font-alpha-subset;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fonts-stage-1 h1,
+.fonts-stage-1 h2,
+.fonts-stage-1 h3,
+.fonts-stage-1 h4,
+.fonts-stage-1 h5,
+.fonts-stage-1 h6 {
+  font-family: $font-beta-subset;
+}
+
+.fonts-stage-2 body {
+  font-family: $font-alpha;
+}
+
+.fonts-stage-2 h1,
+.fonts-stage-2 h2,
+.fonts-stage-2 h3,
+.fonts-stage-2 h4,
+.fonts-stage-2 h5,
+.fonts-stage-2 h6 {
+  font-family: $font-beta;
+}
+
+pre,
+code,
+.code {
+  font-family: $font-gamma;
+}

@@ -1,0 +1,21 @@
+header.header
+  nav.nav
+    if (theme && theme.menu && theme.menu.items)
+      if (isHome())
+        - var current = " nav__list--home"
+      else if (isCategory())
+        - var current = " nav__list--blog"
+      else if (isPost())
+        - var current = " nav__list--blog"
+      else
+        - var current = " nav__list--" + getPage(page.path)
+      ul(class="nav__list" + current)
+        each knav, vnav in theme.menu.items
+          li.nav__item
+            a.nav__link(href=urlFor(knav))= vnav
+    else
+      ul.nav__list
+        li.nav__item
+          a.nav__link(href="/") Home
+        li.nav__item
+          a.nav__link(href="/archives") Archives

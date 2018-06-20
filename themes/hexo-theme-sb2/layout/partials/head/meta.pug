@@ -1,0 +1,25 @@
+meta(charset="UTF-8")
+meta(name="viewport" content="width=device-width, initial-scale=1.0")
+meta(http-equiv="X-UA-Compatible" content="ie=edge")
+meta(name="referrer" content="no-referrer")
+if (theme && theme.site && theme.site.author)
+  meta(name="author" content=theme.site.author)
+else if (config && config.author)
+  meta(name="author" content=config.author)
+if (page && page.description)
+  meta(name="description" content=page.description)
+else if (page && page.posts && !isHome())
+  if (page && page.category)
+    - var description = "Display all posts from category: " + page.category
+  else if (page && page.tag)
+    - var description = "Display all posts tagged: " + page.tag
+else if (theme && theme.site && theme.site.description)
+  - var description = theme.site.description
+else if (config && config.description)
+  - var description = config.description
+meta(name="description" content=description)
+if (theme && theme.site && theme.site.full_name)
+  - var title = page && page.title ? page.title + " | " + theme.site.full_name : theme.site.full_name
+  title= title
+else if (config && config.title)
+  title= config.title

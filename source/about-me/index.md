@@ -4,25 +4,29 @@ id: 79
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless consultant developer, JAMstack enthusiast, Wordpress coder and blog writer.
+sidebar:
+  title: Links
+  items:
+    About: /about-me/
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
+    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    LinkedIn: //www.linkedin.com/in/starbist/
+    GitHub: //github.com/maliMirkec
+    CodePen: //codepen.io/CiTA/
+    Twitter: //twitter.com/malimirkeccita
+    Upwork: //www.upwork.com/fl/silvestarb
+    Silvestar Bistrović: /
 ---
 
-I am Silvestar Bistrović, fearless consultant developer, [JAMstack](https://jamstack.org/) enthusiast, Wordpress coder and blog writer.
+I am Silvestar Bistrović, fearless web developer, [JAMstack](//jamstack.org/) enthusiast, Wordpress coder and blog writer.
 
-[Hexo](https://hexo.io/), [Middleman](https://middlemanapp.com/), [Netlify](https://www.netlify.com/), [Cloudflare](https://www.cloudflare.com/), [Cloudinary](https://cloudinary.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/), and [Git](https://git-scm.com/) are just part of my JAMstack skill set.
+[Hexo](//hexo.io/), [Middleman](//middlemanapp.com/), [Netlify](//www.netlify.com/), [Cloudflare](//www.cloudflare.com/), [Cloudinary](//cloudinary.com/), [Gulp](//gulpjs.com/), [Webpack](//webpack.js.org/), and [Git](//git-scm.com/) are just part of my JAMstack skill set.
 
 Besides pixel-perfect design, my focus is on performance. Projects I manage have high scores on page speed testing tools.
 
-I am working as a freelance web developer at [Toptal](https://www.toptal.com/resume/silvestar-bistrovic) and [Upwork](https://www.upwork.com/fl/silvestarb).
+I am working as a freelance web developer at [Toptal](//www.toptal.com/resume/silvestar-bistrovic) and [Upwork](//www.upwork.com/fl/silvestarb).
 
-If you want to get in touch, [tweet me](twitter.com/malimirkeccita) or [send me an email](mailto:me@silvestarbistrovic.from.hr?Subject=Hello).
-
-## Quick links
-
-- Mail: [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Hello)
-- LinkedIn: [www.linkedin.com/in/starbist/](https://www.linkedin.com/in/starbist/)
-- Twitter: [twitter.com/malimirkeccita](https://twitter.com/malimirkeccita)
-- Toptal: [https://www.toptal.com/resume/silvestar-bistrovic](https://www.toptal.com/resume/silvestar-bistrovic)
-- Upwork: [https://www.upwork.com/fl/silvestarb](https://www.upwork.com/fl/silvestarb)
-- Hire me: [www.silvestarbistrovic.from.hr/hire-me/](/hire-me/)
-- Services: [www.silvestarbistrovic.from.hr/services/](/services/)
-- Setup: [www.silvestarbistrovic.from.hr/uses/](/uses/)
+If you want to get in touch, send me [an email](mailto:me@silvestarbistrovic.from.hr?Subject=Hello) or [a tweet](twitter.com/malimirkeccita).

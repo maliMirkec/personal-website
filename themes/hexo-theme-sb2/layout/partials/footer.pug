@@ -1,0 +1,18 @@
+footer.footer
+  if (theme && theme.widgets && theme.widgets.subnav)
+    include widgets/subnav
+  if (theme && theme.site && theme.site.short_name)
+    p.copy!= "&copy; " + theme.site.short_name + ", " + new Date().getFullYear()
+  else if (config && config.title)
+    p.copy!= "&copy; " + config.title + ", " + new Date().getFullYear()
+
+
+if (theme && theme.widgets && theme.widgets.google_analytics)
+  include widgets/ga
+
+if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
+  include widgets/disqus
+
+include assets/style
+include assets/scripts
+include assets/foft-font-loading

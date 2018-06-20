@@ -14,11 +14,11 @@ description: I know there are more than a few articles about this topic. And the
 
 I know there are more than a few articles about this topic. And there are 2 basic approaches: [using `:target` pseudo selector](https://css-tricks.com/css3-tabs/) and [using list with `:checked` pseudo selector](https://css-tricks.com/functional-css-tabs-revisited/).
 
+<!-- more -->
+
 I prefer the second approach, but without list or nested div structure.
 
 _CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-accessibility/)._
-
-<!-- more -->
 
 ## HTML structure
 

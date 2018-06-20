@@ -1,0 +1,7 @@
+extends includes/layout
+
+block content
+  include partials/article-list
+
+  if (theme && theme.widgets && theme.widgets.info)
+    include partials/widgets/info

@@ -1,0 +1,39 @@
+.sidebar {
+  grid-area: sidebar;
+}
+
+.sidebar__inner {
+  @include mq($from: tablet) {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: calc((100vw - 100%) / -2);
+      bottom: 0;
+      left: 0;
+      background-color: $color-gamma;
+      border-left: 1px solid $color-alpha;
+      z-index: -1;
+    }
+  }
+}
+
+.sidebar__title {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15%;
+    max-width: 100px;
+    height: 10px;
+    background-color: lighten($color-beta, 30%);
+  }
+}
