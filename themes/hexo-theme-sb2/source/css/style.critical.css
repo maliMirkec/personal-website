@@ -30,28 +30,28 @@ img {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 480px) {
   html {
-    font-size: calc(18px + 2 * (100vw - 480px) / 720);
+    font-size: calc(20px + 2 * (100vw - 480px) / 720);
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 body {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 1.9994rem;
+  font-size: 1.77689rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -61,12 +61,12 @@ h1 {
 
 @media (min-width: 48em) {
   h1 {
-    font-size: 2.82715rem;
+    font-size: 2.36859rem;
   }
 }
 
 h2 {
-  font-size: 1.414rem;
+  font-size: 1.333rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -76,12 +76,12 @@ h2 {
 
 @media (min-width: 48em) {
   h2 {
-    font-size: 1.9994rem;
+    font-size: 1.77689rem;
   }
 }
 
 p {
-  margin-top: 1.414rem;
+  margin-top: 1.333rem;
 }
 
 body {
@@ -206,7 +206,7 @@ img {
   max-width: 100%;
   display: flex;
   justify-content: flex-end;
-  font-size: 0.70721rem;
+  font-size: 0.75019rem;
   order: 0;
   grid-area: info;
 }
@@ -326,7 +326,7 @@ img {
 
 .list h5 {
   font-family: "Barlow", sans-serif;
-  font-size: 1.414rem;
+  font-size: 1.333rem;
   font-weight: 400;
   margin-top: .5em;
   margin-bottom: 0;
@@ -343,6 +343,7 @@ img {
 .list--alpha {
   display: grid;
   grid-gap: 20px;
+  margin-top: 20px;
 }
 
 .list--alpha img {
@@ -359,6 +360,7 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 100px;
+    margin-top: 100px;
   }
 }
 
@@ -373,7 +375,7 @@ img {
 .home {
   display: grid;
   grid-gap: 50px;
-  grid-template-areas: "alpha" "beta" "gamma" "delta" "epsilon";
+  grid-template-areas: "alpha" "beta" "epsilon" "gamma" "delta";
 }
 
 .home h1,
@@ -394,35 +396,35 @@ img {
 }
 
 .home h1 {
-  font-size: 1.9994rem;
+  font-size: 1.77689rem;
 }
 
 @media (min-width: 48em) {
   .home h1 {
-    font-size: 3.99758rem;
+    font-size: 3.15733rem;
   }
 }
 
 .home h2 {
-  font-size: 1.414rem;
+  font-size: 1.333rem;
 }
 
 @media (min-width: 48em) {
   .home h2 {
-    font-size: 2.82715rem;
+    font-size: 2.36859rem;
   }
 }
 
 @media (min-width: 30em) {
   .home {
-    grid-template-areas: "alpha alpha" "beta beta" "gamma delta" "epsilon epsilon";
+    grid-template-areas: "alpha alpha" "beta beta" "delta epsilon" "gamma gamma";
   }
 }
 
 @media (min-width: 75em) {
   .home {
     grid-template-columns: repeat(3, minmax(30%, 1fr));
-    grid-template-areas: "alpha alpha alpha" "beta beta beta" "gamma delta epsilon";
+    grid-template-areas: "alpha alpha alpha" "beta beta beta" "delta epsilon x" "gamma gamma gamma";
   }
 }
 
@@ -430,6 +432,6 @@ img {
   grid-area: alpha;
 }
 
-.home__box--beta {
-  grid-area: beta;
+.home__box--gamma {
+  grid-area: gamma;
 }

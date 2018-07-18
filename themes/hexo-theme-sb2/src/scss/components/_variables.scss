@@ -32,7 +32,7 @@ $mq--desktop: 1200px;
 /// @group 1.1 Sizes
 /// @name font-size--mobile
 /// @since 1.0.0
-$font-size--mobile: 18px;
+$font-size--mobile: 20px;
 
 /// Default font size on tablet devices, used in css-locks.
 /// @access public
@@ -41,7 +41,7 @@ $font-size--mobile: 18px;
 /// @group 1.1 Sizes
 /// @name font-size--tablet
 /// @since 1.0.0
-$font-size--desktop: 20px;
+$font-size--desktop: 22px;
 
 /// Default line height applied on every element
 /// @access public
@@ -50,7 +50,7 @@ $font-size--desktop: 20px;
 /// @group 1.1 Sizes
 /// @name line-height
 /// @since 1.0.0
-$line-height: 1.5;
+$line-height: 1.6;
 
 /// Configuration for modular scale
 /// @access public
@@ -62,7 +62,7 @@ $line-height: 1.5;
 /// @link http://www.modularscale.com/
 $modularscale: (
   base: 1rem,
-  ratio: 1.414
+  ratio: 1.333
 );
 
 /// Configuration for media queries

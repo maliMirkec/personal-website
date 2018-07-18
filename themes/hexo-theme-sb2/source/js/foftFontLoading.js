@@ -208,8 +208,6 @@ var FontFaceObserver = void 0;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
-  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded1);
-
   if (window.sessionStorage.criticalFoftDataUriFontsLoaded1) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2';
     return;
@@ -227,21 +225,6 @@ var FontFaceObserver = void 0;
     style: 'normal'
   });
 
-  var fontASubset2 = new FontFaceObserver('Barlow Subset', {
-    weight: 300,
-    style: 'italic'
-  });
-
-  var fontASubset3 = new FontFaceObserver('Barlow Subset', {
-    weight: 'bold',
-    style: 'normal'
-  });
-
-  var fontASubset4 = new FontFaceObserver('Barlow Subset', {
-    weight: 'bold',
-    style: 'italic'
-  });
-
   var fontBSubset = new FontFaceObserver('Playfair Display Subset', {
     weight: 'bold',
     style: 'normal'
@@ -254,7 +237,7 @@ var FontFaceObserver = void 0;
    * @method
    * @name Promise
    */
-  Promise.all([fontASubset1.load(), fontASubset2.load(), fontASubset3.load(), fontASubset4.load(), fontBSubset.load()]).then(function () {
+  Promise.all([fontASubset1.load(), fontBSubset.load()]).then(function () {
     document.documentElement.className += ' fonts-stage-1';
 
     /**
