@@ -191,116 +191,6 @@ img {
   }
 }
 
-.info {
-  color: #fff;
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.75019rem;
-  order: 0;
-  grid-area: info;
-}
-
-.info p {
-  margin-top: 0;
-}
-
-.info a {
-  color: inherit;
-}
-
-@media (min-width: 30em) {
-  .info {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    grid-area: none;
-  }
-}
-
-.info__icon {
-  background-color: #e01258;
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  width: 24px;
-  height: 24px;
-  box-shadow: 1px 1px 4px -1px #1f1f1f;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-  -webkit-transform-origin: right top;
-  transform-origin: right top;
-  animation: highlight 1s linear alternate-reverse infinite;
-}
-
-@media (min-width: 30em) {
-  .info__icon {
-    display: flex;
-  }
-}
-
-.info__popup {
-  color: #e01258;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-}
-
-@media (min-width: 30em) {
-  .info__popup {
-    padding: 15px;
-    background-color: #e01258;
-    color: #fff;
-    box-shadow: 0 2px 3px -1px #1f1f1f;
-    display: none;
-    width: 380px;
-  }
-}
-
-.info__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.info__link {
-  display: block;
-  text-decoration: none;
-  padding: 5px;
-  text-align: center;
-  border: 1px solid #e01258;
-}
-
-@media (min-width: 30em) {
-  .info__link {
-    border: 1px solid #fff;
-  }
-}
-
-@-webkit-keyframes highlight {
-  to {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-    opacity: 0.8;
-  }
-}
-
-@keyframes highlight {
-  to {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-    opacity: 0.8;
-  }
-}
-
 .list {
   margin: 0;
   padding: 0;
@@ -380,7 +270,8 @@ img {
   z-index: -1;
 }
 
-.article li a {
+.article li a,
+.article p a {
   color: #e01258;
 }
 

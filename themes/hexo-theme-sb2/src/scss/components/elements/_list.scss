@@ -137,7 +137,7 @@
     margin-left: 0;
   }
 
-  @include mq($from: mobile) {
+  @include mq($from: tablet) {
     margin-left: auto;
   }
 }
@@ -170,7 +170,7 @@
   width: 100%;
   height: 10px;
 
-  @include mq($from: mobile) {
+  @include mq($from: tablet) {
     display: inline-block;
     flex: 0 0 auto;
     width: auto;
