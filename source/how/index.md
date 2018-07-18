@@ -10,7 +10,7 @@ sidebar:
     Services: /services/
     Setup: /uses/
     Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/

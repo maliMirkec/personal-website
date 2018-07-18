@@ -25,28 +25,28 @@ img {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 480px) {
   html {
-    font-size: calc(18px + 2 * (100vw - 480px) / 720);
+    font-size: calc(20px + 2 * (100vw - 480px) / 720);
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 body {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h2 {
-  font-size: 1.414rem;
+  font-size: 1.333rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ h2 {
 
 @media (min-width: 48em) {
   h2 {
-    font-size: 1.9994rem;
+    font-size: 1.77689rem;
   }
 }
 
@@ -67,7 +67,7 @@ h2 a {
 }
 
 p {
-  margin-top: 1.414rem;
+  margin-top: 1.333rem;
 }
 
 body {
@@ -196,7 +196,7 @@ img {
   max-width: 100%;
   display: flex;
   justify-content: flex-end;
-  font-size: 0.70721rem;
+  font-size: 0.75019rem;
   order: 0;
   grid-area: info;
 }
@@ -326,7 +326,7 @@ img {
 }
 
 .list__item--alpha {
-  font-size: 0.70721rem;
+  font-size: 0.75019rem;
 }
 
 .list__item--beta {
@@ -380,13 +380,12 @@ img {
   z-index: -1;
 }
 
-.article li a,
-.article p a {
+.article li a {
   color: #e01258;
 }
 
 .article__title--alpha {
-  font-size: 1.414rem;
+  font-size: 1.333rem;
   text-shadow: 0 1px 0 #fff;
 }
 

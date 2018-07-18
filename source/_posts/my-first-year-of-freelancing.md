@@ -82,8 +82,8 @@ If you like this article, share it with your friends. 👋
 
 If you want to become Toptal professional, use [this link] to join! 🔗
 
-[Toptal]: https://www.toptal.com/resume/silvestar-bistrovic
-[formidable networks]: https://www.toptal.com/
+[Toptal]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+[formidable networks]: https://www.toptal.com/#trust-nothing-but-brilliant-freelancers
 [Upwork]: https://www.upwork.com/o/profiles/users/_~01c831478a40df279f/
 [Codementor]: https://www.codementor.io/malimirkeccita
 [a wedding photography website]: /portfolio/irinaandmatej/
