@@ -15,7 +15,6 @@ sidebar:
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
-    Upwork: //www.upwork.com/fl/silvestarb
     Silvestar Bistrović: /
 ---
 

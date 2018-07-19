@@ -50,21 +50,21 @@ home_page:
         href: /articles/using-css-grid-where-appropriate/
   - section:
     position: delta
-    title: Links
+    title: Contact
+    links:
+      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
+      Skype: //join.skype.com/invite/jtWeft24StMV
+      LinkedIn: //www.linkedin.com/in/starbist/
+      Twitter: //twitter.com/malimirkeccita
+    list_class: gamma
+  - section:
+    position: epsilon
+    title: Profiles
     links:
       Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
       LinkedIn: //www.linkedin.com/in/starbist/
       GitHub: //github.com/maliMirkec
       CodePen: //codepen.io/CiTA/
-    list_class: gamma
-  - section:
-    position: epsilon
-    title: Hire me
-    links:
-      Via Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
-      Via Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-      Via Upwork: //www.upwork.com/fl/silvestarb
-      Via Codementor: //www.codementor.io/malimirkeccita
     list_class: gamma
 
 open_graph:

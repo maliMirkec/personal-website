@@ -17,7 +17,6 @@ sidebar:
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
-    Upwork: //www.upwork.com/fl/silvestarb
     Silvestar Bistrović: /
 ---
 
@@ -27,6 +26,6 @@ I am Silvestar Bistrović, fearless web developer, [JAMstack](//jamstack.org/) e
 
 Besides pixel-perfect design, my focus is on performance. Projects I manage have high scores on page speed testing tools.
 
-I am working as a freelance web developer at [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers) and [Upwork](//www.upwork.com/fl/silvestarb).
+I am working as a freelance web developer at [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers).
 
 If you want to get in touch, send me [an email](mailto:me@silvestarbistrovic.from.hr?Subject=Hello) or [a tweet](twitter.com/malimirkeccita).
