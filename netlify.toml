@@ -1,13 +1,11 @@
 [Settings]
 ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
-[context.production]
-  command = "make production"
-[context.branch-deploy]
-  command = "make deploy_preview"
-
 [build]
   publish = "/public/"
+  command = "yarn deploy"
+
+[context.production]
   command = "yarn deploy"
 
 [context.deploy-preview]
@@ -16,5 +14,5 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 [context.branch-deploy]
   command = "yarn dev"
 
-[context.develop] # 'staging' is a branch name
+[context.develop]
   command = "yarn dev"
