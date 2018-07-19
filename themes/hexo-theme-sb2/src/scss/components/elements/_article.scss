@@ -162,6 +162,9 @@
 
     @include mq($from: mobile) {
       margin-top: 1em;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

@@ -4,9 +4,9 @@
   grid-gap: 50px;
   grid-template-areas: "alpha"
     "beta"
+    "epsilon"
     "gamma"
-    "delta"
-    "epsilon";
+    "delta";
 
   h1,
   h2 {
@@ -43,15 +43,16 @@
   @include mq($from: mobile) {
     grid-template-areas: "alpha alpha"
       "beta beta"
-      "gamma delta"
-      "epsilon epsilon";
+      "delta epsilon"
+      "gamma gamma";
   }
 
   @include mq($from: desktop) {
     grid-template-columns: repeat(3, minmax(30%, 1fr));
     grid-template-areas: "alpha alpha alpha"
       "beta beta beta"
-      "gamma delta epsilon";
+      "delta epsilon x"
+      "gamma gamma gamma";
   }
 }
 

@@ -7,12 +7,12 @@ tags:
   - hexo
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1508398026/From_WordPress_to_Hexo_xgibru.png
 comments: true
-canonical: //www.toptal.com/front-end/wordpress-to-html-with-hexo-blog
+canonical: //www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11
 description: Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight.
 ---
 
-_This article was originally published on [Toptal Blog](https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog)._
+_This article was originally published on [Toptal Blog](https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers)._
 
 Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight, saving you and your users precious time and bandwidth. This increased efficiency is reflected in lower costs and, potentially, higher revenues.
 
@@ -22,7 +22,7 @@ Static site generators are systems that compile templates into static HTML pages
 
 Speaking of efficient revenue generators, WordPress comes to mind. It powers 28 percent of the internet and is a potent platform with lots of great features, including extensive user and content management backed by an array of plugins, themes, APIs, etc.
 
-Even big players in our industry use [WordPress](https://www.toptal.com/wordpress). Websites like [Smashing Magazine](https://www.smashingmagazine.com/) and [CSS-Tricks](https://css-tricks.com/) use WordPress, albeit significantly customized instances in both cases. However, working with WordPress can be a tedious task, especially when customizing and optimizing for performance.
+Even big players in our industry use [WordPress](https://www.toptal.com/wordpress#trust-nothing-but-brilliant-freelancers). Websites like [Smashing Magazine](https://www.smashingmagazine.com/) and [CSS-Tricks](https://css-tricks.com/) use WordPress, albeit significantly customized instances in both cases. However, working with WordPress can be a tedious task, especially when customizing and optimizing for performance.
 
 I started a small blog back in 2015. My first instinct was to use WordPress. It gave me a jumpstart, as I was working with WordPress already. I created a new droplet on [DigitalOcean](https://www.digitalocean.com/) as a server, established [Vesta](https://vestacp.com/) as Hosting Control Panel, and installed WordPress as a blog platform. Ultimately, I designed and developed a brand new WordPress theme. The only thing missing was the content.
 
@@ -75,7 +75,7 @@ hexo server
 ```
 
 ## Markdown and Its Limitations
-Hexo supports Markdown out of the box. [Markdown is a markup language](https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers) that many use to format README files, comments, and posts. But it could be used for writing your article as well. Its syntax is intuitive and easy to learn.
+Hexo supports Markdown out of the box. [Markdown is a markup language](https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers#trust-nothing-but-brilliant-freelancers) that many use to format README files, comments, and posts. But it could be used for writing your article as well. Its syntax is intuitive and easy to learn.
 
 Another advantage for Markdown is that it generates clean and valid HTML. That allows developers to create clean and maintainable CSS rules for styling blog articles and pages.
 

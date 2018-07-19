@@ -2,7 +2,7 @@
 title: I'm available for hire
 comments: false
 date: 2017-08-02 11:37:55
-description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal and Upwork. You will benefit from my experience and services that I could provide.
+description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar:
   title: Links
   items:
@@ -11,16 +11,15 @@ sidebar:
     Services: /services/
     Setup: /uses/
     Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
-    Upwork: //www.upwork.com/fl/silvestarb
     Silvestar Bistrovi?: /
 ---
 
-I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic) and [Upwork](https://www.upwork.com/fl/silvestarb). You will benefit from my experience and [services](/services/) that I could provide.
+I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
 
 ## Why me
 
@@ -47,7 +46,7 @@ And it happened, I started a blog. I used Wordpress as a blogging engine. I alwa
 
 My Wordpress project was successful and I wanted to create the same experience for my photographer friends. We switched to Wordpress and I created a beautiful new theme from scratch. The performance of the site was good enough. More importantly, now friends could publish the content by themselves.
 
-In 2017 I was still working on my regular job. And then in February, the company was shut down. That was a huge shock. After the notice period expired, I've applied for [Toptal](https://www.toptal.com/) and became a [Toptaler](https://www.toptal.com/resume/silvestar-bistrovic). In May I founded a new company, [Cita d.o.o](https://www.cita.hr). During this period I was learning about [static page generators](https://www.staticgen.com/). I decided it was time to switch my blog to [Hexo](https://hexo.io). I wrote an article about [how I built this website](/how/).
+In 2017 I was still working on my regular job. And then in February, the company was shut down. That was a huge shock. After the notice period expired, I've applied for [Toptal](https://www.toptal.com/#trust-nothing-but-brilliant-freelancers) and became a [Toptaler](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). In May I founded a new company, [Cita d.o.o](https://www.cita.hr). During this period I was learning about [static page generators](https://www.staticgen.com/). I decided it was time to switch my blog to [Hexo](https://hexo.io). I wrote an article about [how I built this website](/how/).
 
 My first job on Toptal was to build static pages for a [German based company](https://www.contiamo.com/). I really enjoyed working on that gig. The team was fantastic and we built several pages using SVG, Sass, Webpack, and Yarn, to list the most important ones. And we built a style guide. I think it is important to have a styleguide both for designers and developers. It was a great challenge to build this kind of website because it looks so simple, yet it is not simple at all.
 

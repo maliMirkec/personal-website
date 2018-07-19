@@ -17,7 +17,7 @@ home_page:
      - Blog writer
     list_class: beta
   - section:
-    position: beta
+    position: gamma
     title: Projects
     images:
       - src: //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
@@ -33,32 +33,38 @@ home_page:
         title: Moodings
         href: /portfolio/moodings/
   - section:
-    position: gamma
-    title: Writing
-    links:
-      My first year of freelancing: /articles/my-first-year-of-freelancing/
-      Gulp tasks for CSS: /articles/starter-project-gulp-tasks-for-css/
-      # A set of latest best practices packed in Gulp tasks: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
-      From Wordpress to Hexo: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
-      Using CSS Grid Where Appropriate: /articles/using-css-grid-where-appropriate/
-    list_class: gamma
+    position: beta
+    title: Featured Articles
+    images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1531903322/The_Essential_Skill_Of_A_Developer_csb5dm.jpg
+        title: The Essential Skill Of A Developer
+        href: /articles/modern-frontend-developer-skills-and-tools/
+      - src: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
+        title: My first year of freelancing
+        href: /articles/my-first-year-of-freelancing/
+      - src: //res.cloudinary.com/starbist/image/upload/v1508398026/From_WordPress_to_Hexo_xgibru.png
+        title: From Wordpress to Hexo
+        href: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
+      - src: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
+        title: Using CSS Grid Where Appropriate
+        href: /articles/using-css-grid-where-appropriate/
   - section:
     position: delta
-    title: Links
+    title: Contact
     links:
-      Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
+      Skype: //join.skype.com/invite/jtWeft24StMV
       LinkedIn: //www.linkedin.com/in/starbist/
-      GitHub: //github.com/maliMirkec
-      CodePen: //codepen.io/CiTA/
+      Twitter: //twitter.com/malimirkeccita
     list_class: gamma
   - section:
     position: epsilon
-    title: Hire me
+    title: Profiles
     links:
-      Via Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
-      Via Toptal: //www.toptal.com/resume/silvestar-bistrovic
-      Via Upwork: //www.upwork.com/fl/silvestarb
-      Via Codementor: //www.codementor.io/malimirkeccita
+      Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+      LinkedIn: //www.linkedin.com/in/starbist/
+      GitHub: //github.com/maliMirkec
+      CodePen: //codepen.io/CiTA/
     list_class: gamma
 
 open_graph:
@@ -91,7 +97,7 @@ widgets:
       Contact me!: mailto:me@silvestarbistrovic.from.hr?Subject=New%20;Project
     contact:
       Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-      Toptal: //www.toptal.com/resume/silvestar-bistrovic
+      Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
       LinkedIn: //www.linkedin.com/in/starbist/
       GitHub: //github.com/maliMirkec
       CodePen: //codepen.io/CiTA/
@@ -99,7 +105,7 @@ widgets:
   subnav:
     Silvestar Bistrović: /
     Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
@@ -109,3 +115,4 @@ widgets:
   sharing:
     twitter: malimirkeccita
     facebook: silvestarbistrovic.from.hr
+    reddit: true

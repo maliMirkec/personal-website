@@ -30,28 +30,28 @@ img {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 480px) {
   html {
-    font-size: calc(18px + 2 * (100vw - 480px) / 720);
+    font-size: calc(20px + 2 * (100vw - 480px) / 720);
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 body {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 1.9994rem;
+  font-size: 1.77689rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -61,7 +61,7 @@ h1 {
 
 @media (min-width: 48em) {
   h1 {
-    font-size: 2.82715rem;
+    font-size: 2.36859rem;
   }
 }
 
@@ -215,21 +215,7 @@ img {
 }
 
 .list__item--alpha {
-  font-size: 0.70721rem;
-}
-
-.list__item--gamma {
-  margin-left: .75em;
-}
-
-.list__br + .list__item--gamma {
-  margin-left: 0;
-}
-
-@media (min-width: 30em) {
-  .list__item--gamma {
-    margin-left: auto;
-  }
+  font-size: 0.75019rem;
 }
 
 .list__item--delta {
@@ -239,19 +225,6 @@ img {
 @media (min-width: 30em) {
   .list__item--delta {
     margin-left: 2em;
-  }
-}
-
-.list__br {
-  display: block;
-  flex: 1 1 100%;
-  width: 100%;
-  height: 10px;
-}
-
-@media (min-width: 30em) {
-  .list__br {
-    display: none;
   }
 }
 
@@ -266,7 +239,7 @@ img {
 
 @media (max-width: 47.99em) {
   .article__title--beta {
-    font-size: 1.414rem;
+    font-size: 1.333rem;
   }
 }
 
@@ -321,5 +294,8 @@ img {
 @media (min-width: 30em) {
   .main--post .details {
     margin-top: 1em;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

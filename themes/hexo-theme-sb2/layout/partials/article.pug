@@ -34,6 +34,10 @@ if (page && page.title)
               - var facebookLink = "https://facebook.com/sharer.php?u=" + page.permalink;
               li.list__item.list__item--alpha.list__item--delta
                 a.list__link(href=facebookLink, target="_blank") Facebook
+            if (theme.widgets.sharing.reddit)
+              - var redditLink = "https://www.reddit.com/submit?url=" + page.permalink + "&title=" + page.title;
+              li.list__item.list__item--alpha.list__item--delta
+                a.list__link(href=redditLink, target="_blank") Reddit
 
   if (page && page.content)
     .content!= page.content
@@ -44,13 +48,14 @@ if (page && page.title)
           h4 Share:
           ul.list
             if (theme.widgets.sharing.twitter)
-              - var twitterLink = "https://twitter.com/intent/tweet?url=" + page.permalink + "&text=" + page.title + "&via=" + theme.widgets.sharing.twitter;
               li.list__item
                 a.list__link(href=twitterLink, target="_blank") Share on Twitter
             if (theme.widgets.sharing.facebook)
-              - var facebookLink = "https://facebook.com/sharer.php?u=" + page.permalink;
               li.list__item
-                a.list__link(href=facebookLink, target="_blank") Share Facebook
+                a.list__link(href=facebookLink, target="_blank") Share on Facebook
+            if (theme.widgets.sharing.reddit)
+              li.list__item
+                a.list__link(href=redditLink, target="_blank") Share on Reddit
         if (page && (page.prev || page.next))
           nav.pagination
             h4 More articles:

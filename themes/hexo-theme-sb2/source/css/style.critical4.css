@@ -26,28 +26,28 @@ a {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 480px) {
   html {
-    font-size: calc(18px + 2 * (100vw - 480px) / 720);
+    font-size: calc(20px + 2 * (100vw - 480px) / 720);
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 body {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 1.9994rem;
+  font-size: 1.77689rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -57,12 +57,12 @@ h1 {
 
 @media (min-width: 48em) {
   h1 {
-    font-size: 2.82715rem;
+    font-size: 2.36859rem;
   }
 }
 
 h2 {
-  font-size: 1.414rem;
+  font-size: 1.333rem;
   font-weight: 700;
   word-break: break-word;
   text-transform: uppercase;
@@ -72,12 +72,12 @@ h2 {
 
 @media (min-width: 48em) {
   h2 {
-    font-size: 1.9994rem;
+    font-size: 1.77689rem;
   }
 }
 
 p {
-  margin-top: 1.414rem;
+  margin-top: 1.333rem;
 }
 
 body {
@@ -220,7 +220,7 @@ body {
   max-width: 100%;
   display: flex;
   justify-content: flex-end;
-  font-size: 0.70721rem;
+  font-size: 0.75019rem;
   order: 0;
   grid-area: info;
 }
@@ -397,14 +397,14 @@ body {
 }
 
 .article__title--gamma {
-  font-size: 1.9994rem;
+  font-size: 1.77689rem;
   margin-bottom: 0;
   grid-area: title;
 }
 
 @media (min-width: 48em) {
   .article__title--gamma {
-    font-size: 3.99758rem;
+    font-size: 3.15733rem;
   }
 }
 

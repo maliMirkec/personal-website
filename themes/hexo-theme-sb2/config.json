@@ -200,62 +200,70 @@
     "dest": "./layout/partial/assets/",
     "clean": "favicon/",
     "realFaviconConfig": {
-      "masterPicture": "./src/gfx/svg/sb-flat.svg",
+      "masterPicture": "./src/gfx/svg/logo.svg",
       "dest": "./source/favicon/",
       "iconsPath": "/favicon/",
       "design": {
         "ios": {
           "pictureAspect": "backgroundAndMargin",
-          "backgroundColor": "#e01258",
-          "margin": "35%",
+          "backgroundColor": "#ffffff",
+          "margin": "42%",
           "assets": {
             "ios6AndPriorIcons": true,
             "ios7AndLaterIcons": true,
             "precomposedIcons": true,
             "declareOnlyDefaultIcon": true
-          }
+          },
+          "appName": "Silvestar Bistrovi?"
         },
         "desktopBrowser": {},
         "windows": {
           "pictureAspect": "noChange",
-          "backgroundColor": "#e01258",
+          "backgroundColor": "#2b5797",
           "onConflict": "override",
           "assets": {
-            "windows80Ie10Tile": false,
+            "windows80Ie10Tile": true,
             "windows10Ie11EdgeTiles": {
-              "small": false,
+              "small": true,
               "medium": true,
-              "big": false,
-              "rectangle": false
+              "big": true,
+              "rectangle": true
             }
-          }
+          },
+          "appName": "Silvestar Bistrovi?"
         },
         "androidChrome": {
-          "pictureAspect": "backgroundAndMargin",
-          "margin": "21%",
-          "backgroundColor": "#e01258",
-          "themeColor": "#e01258",
+          "pictureAspect": "noChange",
+          "themeColor": "#ffffff",
           "manifest": {
-            "name": "Silvestar Bistrović Blog",
-            "display": "standalone",
+            "name": "Silvestar Bistrovi?",
+            "display": "browser",
             "orientation": "notSet",
             "onConflict": "override",
             "declared": true
           },
           "assets": {
             "legacyIcon": false,
-            "lowResolutionIcons": false
+            "lowResolutionIcons": true
           }
         },
         "safariPinnedTab": {
-          "pictureAspect": "silhouette",
+          "pictureAspect": "blackAndWhite",
+          "threshold": 93.28125,
           "themeColor": "#e01258"
         }
       },
       "settings": {
         "compression": 2,
-        "scalingAlgorithm": "Cubic",
-        "errorOnImageTooSmall": false
+        "scalingAlgorithm": "Mitchell",
+        "errorOnImageTooSmall": false,
+        "readmeFile": false,
+        "htmlCodeFile": false,
+        "usePathAsIs": false
+      },
+      "versioning": {
+        "paramName": "v",
+        "paramValue": "starbist"
       },
       "markupFile": "./faviconData.json"
     }
@@ -287,40 +295,44 @@
     "src": "style.css",
     "criticalCssConfigs": [{
       "out": "./source/css/style.critical.css",
-      "url": "https://develop--silvestarbistrovic.netlify.com/",
+      "url": "http://localhost:4000/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
-      "blockJSRequests": false
+      "blockJSRequests": true,
+      "timeout": 60000
     }, {
       "out": "./source/css/style.critical2.css",
-      "url": "https://develop--silvestarbistrovic.netlify.com/categories/articles/",
+      "url": "http://localhost:4000/categories/articles/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
-      "blockJSRequests": false
+      "blockJSRequests": true,
+      "timeout": 60000
     }, {
       "out": "./source/css/style.critical3.css",
-      "url": "https://develop--silvestarbistrovic.netlify.com/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
-      "blockJSRequests": false
+      "blockJSRequests": true,
+      "timeout": 60000
     }, {
       "out": "./source/css/style.critical4.css",
-      "url": "https://develop--silvestarbistrovic.netlify.com/about-me/",
+      "url": "http://localhost:4000/about-me/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
-      "blockJSRequests": false
+      "blockJSRequests": true,
+      "timeout": 60000
     }]
   },
   "js": {
