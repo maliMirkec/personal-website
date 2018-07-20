@@ -4,7 +4,7 @@ site:
   description: Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder and blog writer.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
-  language: en
+  language: en-US
 
 home_page:
   - section:

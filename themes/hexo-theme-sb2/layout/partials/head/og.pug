@@ -7,10 +7,8 @@ if (theme && theme.open_graph)
   if (desc)
     meta(property="og:description" content=desc)
 
-  if (theme && theme.open_graph.pretty_url)
-    meta(property="og:url" content=theme.open_graph.pretty_url)
-  else if (url)
-    meta(property="og:url" content=url)
+  if (page && page.permalink)
+    meta(property="og:url" content=page.permalink)
 
   if (theme && theme.site.full_name)
     meta(property="og:site_name" content=theme.site.full_name)
@@ -22,12 +20,20 @@ if (theme && theme.open_graph)
 
   if (theme && theme.open_graph.twitter)
     meta(name="twitter:card" content="summary")
+    if (theme.open_graph.twitter.twitter_id)
+      meta(name="twitter:site" content=`@${theme.open_graph.twitter.twitter_id}`)
+    if (theme.open_graph.twitter.twitter_id)
+      meta(name="twitter:creator" content=`@${theme.open_graph.twitter.twitter_id}`)
+    if (page && page.permalink)
+      meta(property="twitter:url" content=page.permalink)
     if (title)
       meta(name="twitter:title" content=title)
     if (desc)
       meta(name="twitter:description" content=desc)
-    if (theme.open_graph.twitter.twitter_id)
-      meta(name="twitter:creator" content=theme.open_graph.twitter.twitter_id)
+    if (page && page.thumbnail)
+      meta(property="twitter:image" content=page.thumbnail)
+    else if (theme && theme.open_graph.image)
+      meta(property="twitter:image" content=theme.open_graph.image)
 
   if (theme && theme.open_graph.fb)
     if (theme.open_graph.fb.fb_id)
@@ -38,3 +44,19 @@ if (theme && theme.open_graph)
   if (theme && theme.open_graph.google_plus)
     if (theme.open_graph.google_plus.google_plus_id)
       meta(rel="publisher" content=theme.open_graph.google_plus.google_plus_id)
+
+  if (isPost())
+    if (theme && theme.site && theme.site.author)
+      meta(property="article:author" content=theme.site.author)
+    else if (config && config.author)
+      meta(property="article:author" content=config.author)
+
+
+  if (theme && theme.site && theme.site.language)
+    - var lang = theme.site.language
+  else if (config && config.language)
+    - var lang = config.language
+  else
+    - var lang = "en"
+
+  meta(property="og:locale" content=lang.toLowerCase().replace('-', '_'))
