@@ -61,7 +61,7 @@ Being able to adapt to the new environment is vital for me. I am not ashamed to 
 
 ## Conclusion
 
-There is [a quote] from an old Croatian movie that could be applied here:
+There is [a quote] from an old movie that could be applied here:
 
 > Every day in every way I'm getting more and more progressive.
 
