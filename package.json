@@ -1,7 +1,7 @@
 {
   "name": "silvestarbistrovic.from.hr",
-  "version": "3.0.1",
-  "description": "Silvestar's personal website.",
+  "version": "3.0.2",
+  "description": "Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder, and blog writer.",
   "main": "index",
   "repository": {
     "type": "git",

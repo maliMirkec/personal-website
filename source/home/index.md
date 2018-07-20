@@ -1,7 +1,7 @@
 ---
-title: Silvestar's personal website!
+title: Welcome
 id: 2
 comment: false
 date: 2016-05-15 11:57:04
-description: Silvestar Bistrović is fearless consultant developer, JAMstack enthusiast, Wordpress coder and blog writer.
+description: Silvestar Bistrović is fearless consultant developer, JAMstack enthusiast, Wordpress coder, and blog writer.
 ---
