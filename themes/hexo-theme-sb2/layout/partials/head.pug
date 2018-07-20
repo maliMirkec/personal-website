@@ -1,10 +1,8 @@
 head
   include head/meta
   include head/og
+  include head/link
   include assets/favicon
   include assets/critical
   if(page && page.canonical)
     link(rel="canonical", href=page.canonical)
-
-  link(rel="preload", href="/css/style.min.css", as="style")
-  link(rel="preload", href="/js/index.min.js", as="script")

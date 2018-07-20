@@ -1,10 +1,10 @@
 site:
-  full_name: SB - Silvestar's personal website
+  full_name: Silvestar Bistrović — fearless web developer, JAMstack enthusiast, Wordpress coder, and blog writer.
   short_name: Silvestar Bistrović
-  description: Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder and blog writer.
+  description: Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder, and blog writer.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
-  language: en
+  language: en-US
 
 home_page:
   - section:
