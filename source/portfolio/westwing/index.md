@@ -27,9 +27,6 @@ Link: [westwing.com](//www.westwing.com)
 
 ## Responsibilities
 
-- Set up a new Hugo instance.
-- Set up project architecture.
-- Created all pages from designs.
-- Configured Netlify CMS.
+- Biult a static part of the corporate website.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).
