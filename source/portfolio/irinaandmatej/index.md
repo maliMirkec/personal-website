@@ -5,6 +5,8 @@ description: Irina and Matej are wedding and portrait photographers based in Cro
 sidebar:
   title: Projects
   items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
     Netki: /portfolio/netki/
     Han Han Xue: /portfolio/hanhanxue/
     Contiamo: /portfolio/contiamo/

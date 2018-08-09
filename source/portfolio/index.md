@@ -4,6 +4,16 @@ comments: false
 description: This website is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to contact me.
 grid:
   - item:
+    title: Westwing
+    href: /portfolio/westwing/
+    src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+    description: Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living.
+  - item:
+    title: Bozzuto
+    href: /portfolio/bozzuto/
+    src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+    description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
+  - item:
     title: Netki
     href: /portfolio/netki/
     src: //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png

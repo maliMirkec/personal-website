@@ -20,6 +20,12 @@ home_page:
     position: gamma
     title: Projects
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+        title: Westwing
+        href: /portfolio/westwing/
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+        title: Bozzuto
+        href: /portfolio/bozzuto/
       - src: //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
         title: Netki
         href: /portfolio/netki/

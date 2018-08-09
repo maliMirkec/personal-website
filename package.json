@@ -26,7 +26,7 @@
     "dev": "hexo generate && npm run cp_redirects && npm run cp_headers && npm run cp_robots"
   },
   "hexo": {
-    "version": "3.5.0"
+    "version": "3.7.1"
   },
   "dependencies": {
     "hexo": "^3.5.0",
