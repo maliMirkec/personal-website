@@ -3,20 +3,7 @@ title: I'm available for hire
 comments: false
 date: 2017-08-02 11:37:55
 description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
-sidebar:
-  title: Links
-  items:
-    About: /about-me/
-    Hire me: /hire-me/
-    Services: /services/
-    Setup: /uses/
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
-    Silvestar Bistrovi?: /
+sidebar: true
 ---
 
 I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.

@@ -26,7 +26,7 @@ html(lang=lang)
     else
       - var main_class = " main--page"
 
-    - var main_sidebar = (page && page.sidebar) ? " main--sidebar" : "";
+    - var main_sidebar = (page && (page.sidebar || page.portfolio)) ? " main--sidebar" : "";
 
     div(class="main" + main_class + main_sidebar)
       block content

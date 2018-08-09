@@ -1,10 +1,10 @@
-if (theme && theme.sidebar && theme.sidebar.items)
+if (theme && theme.portfolio && theme.portfolio.items)
   .sidebar
     .sidebar__inner
-      if (theme.sidebar.title)
-        h2.sidebar__title= theme.sidebar.title
+      if (theme.portfolio.title)
+        h2.sidebar__title= theme.portfolio.title
         ul.list.list--beta
-          each kitem, vitem in theme.sidebar.items
+          each kitem, vitem in theme.portfolio.items
             li.list__item
               - var link_class = (page.permalink.indexOf(kitem) !== -1) ? " list__link--current" : "";
               if (kitem == "/" && theme && theme.site.logo)
@@ -12,8 +12,3 @@ if (theme && theme.sidebar && theme.sidebar.items)
                   img(src=theme.site.logo, alt=vcontact)
               else
                 a(href=kitem, class="list__link" + link_class)= vitem
-      if (page && page.sidebar.paragraphs)
-        ul.list.list--beta.list--bullets
-          each p in page.sidebar.paragraphs
-            li.list__item
-              p= p

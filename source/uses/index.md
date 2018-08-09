@@ -2,20 +2,7 @@
 title: Setup
 date: 2017-08-02 20:08:06
 description: Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
-sidebar:
-  title: Links
-  items:
-    About: /about-me/
-    Hire me: /hire-me/
-    Services: /services/
-    Setup: /uses/
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
-    Silvestar Bistrović: /
+sidebar: true
 ---
 
 Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
