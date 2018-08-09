@@ -5,6 +5,8 @@ description: Contiamo is a company that uses machine learning and AI to drive be
 sidebar:
   title: Projects
   items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
     Netki: /portfolio/netki/
     Han Han Xue: /portfolio/hanhanxue/
     Contiamo: /portfolio/contiamo/

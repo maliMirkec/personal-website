@@ -5,6 +5,8 @@ description: Empirical Wealth Management is a comprehensive wealth management te
 sidebar:
   title: Projects
   items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
     Netki: /portfolio/netki/
     Han Han Xue: /portfolio/hanhanxue/
     Contiamo: /portfolio/contiamo/

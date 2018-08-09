@@ -1,5 +1,5 @@
 ---
-title: Han Han Xue
+title: Westwing
 comments: false
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 sidebar:
@@ -19,20 +19,14 @@ sidebar:
     Born in June: /portfolio/borninjune/
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img //www.hanhanxue.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Westwing cover" cover-img //www.westwing.com cover %}
 
-Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
+Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
 
-Link: [hanhanxue.com](//www.hanhanxue.com)
+Link: [westwing.com](//www.westwing.com)
 
 ## Responsibilities
 
-- Installed a new Middleman instance.
-- Set up project architecture.
-- Created all pages from designs.
-- Used Cloudinary for delivering images.
-- Optimized assets delivery.
-- Used latest best practices to boost the page speed.
-- Hosted the website on Netlify.
+- Biult a static part of the corporate website.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

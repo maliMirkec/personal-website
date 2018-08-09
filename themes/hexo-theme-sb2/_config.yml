@@ -20,18 +20,20 @@ home_page:
     position: gamma
     title: Projects
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
-        title: Netki
-        href: /portfolio/netki/
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+        title: Westwing
+        href: /portfolio/westwing/
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+        title: Bozzuto
+        href: /portfolio/bozzuto/
       - src: //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
         title: Han Han Xue
         href: /portfolio/hanhanxue/
       - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
         title: Contiamo
         href: /portfolio/contiamo/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png
-        title: Moodings
-        href: /portfolio/moodings/
+    links:
+      See all projects →: /portfolio/
   - section:
     position: beta
     title: Featured Articles
@@ -48,6 +50,8 @@ home_page:
       - src: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
         title: Using CSS Grid Where Appropriate
         href: /articles/using-css-grid-where-appropriate/
+    links:
+      See all articles →: /categories/articles/
   - section:
     position: delta
     title: Contact

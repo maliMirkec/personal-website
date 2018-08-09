@@ -5,6 +5,8 @@ description: Franciscan Children’s is an integral part of Boston’s pediatric
 sidebar:
   title: Projects
   items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
     Netki: /portfolio/netki/
     Han Han Xue: /portfolio/hanhanxue/
     Contiamo: /portfolio/contiamo/

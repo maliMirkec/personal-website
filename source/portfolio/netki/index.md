@@ -5,6 +5,8 @@ description: Netki is a provider of tools to foster the adoption of blockchain t
 sidebar:
   title: Projects
   items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
     Netki: /portfolio/netki/
     Han Han Xue: /portfolio/hanhanxue/
     Contiamo: /portfolio/contiamo/
