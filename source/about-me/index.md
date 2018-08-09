@@ -4,20 +4,7 @@ id: 79
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless consultant developer, JAMstack enthusiast, Wordpress coder, and blog writer.
-sidebar:
-  title: Links
-  items:
-    About: /about-me/
-    Hire me: /hire-me/
-    Services: /services/
-    Setup: /uses/
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
-    Silvestar Bistrović: /
+sidebar: true
 ---
 
 I am Silvestar Bistrović, fearless web developer, [JAMstack](//jamstack.org/) enthusiast, Wordpress coder, and blog writer.

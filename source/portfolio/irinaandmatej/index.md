@@ -2,21 +2,7 @@
 title: Irina & Matej
 comments: false
 description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
-sidebar:
-  title: Projects
-  items:
-    Westwing: /portfolio/westwing/
-    Bozzuto: /portfolio/bozzuto/
-    Netki: /portfolio/netki/
-    Han Han Xue: /portfolio/hanhanxue/
-    Contiamo: /portfolio/contiamo/
-    Moodings: /portfolio/moodings/
-    Irina & Matej: /portfolio/irinaandmatej/
-    Empirical: /portfolio/empirical/
-    Franciscan Children's: /portfolio/franciscanchildrens/
-    Atika Interijeri: /portfolio/atika-interijeri/
-    Marcijuš Weddings: /portfolio/marcijusweddings/
-    Born in June: /portfolio/borninjune/
+portfolio: true
 ---
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/im_xnyy09.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Irina and Matej cover" cover-img //irinaandmatej.com cover %}

@@ -92,6 +92,39 @@ menu:
     About: /about-me
     Starter Project: //starter.silvestarbistrovic.from.hr
 
+portfolio:
+  title: Projects
+  items:
+    Westwing: /portfolio/westwing/
+    Bozzuto: /portfolio/bozzuto/
+    Trase Yearbook 2018: /portfolio/yearbook-trase/
+    Netki: /portfolio/netki/
+    Han Han Xue: /portfolio/hanhanxue/
+    Contiamo: /portfolio/contiamo/
+    Moodings: /portfolio/moodings/
+    Irina & Matej: /portfolio/irinaandmatej/
+    Empirical: /portfolio/empirical/
+    Franciscan Children's: /portfolio/franciscanchildrens/
+    Atika Interijeri: /portfolio/atika-interijeri/
+    Marcijuš Weddings: /portfolio/marcijusweddings/
+    Born in June: /portfolio/borninjune/
+
+sidebar:
+  title: Links
+  items:
+    About: /about-me/
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
+    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+    LinkedIn: //www.linkedin.com/in/starbist/
+    GitHub: //github.com/maliMirkec
+    CodePen: //codepen.io/CiTA/
+    Twitter: //twitter.com/malimirkeccita
+    Silvestar Bistrović: /
+
+
 widgets:
   info:
     paragraphs:

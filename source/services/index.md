@@ -2,24 +2,17 @@
 title: Services
 date: 2017-08-03 09:34:48
 description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
-sidebar:
-  title: Links
-  items:
-    About: /about-me/
-    Hire me: /hire-me/
-    Services: /services/
-    Setup: /uses/
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
-    Silvestar Bistrović: /
+sidebar: true
 ---
 
 I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 
+- **Build new website with Jekyll**
+- **Build new website with Middleman**
+- **Build new website with Hugo**
+- **Build new website with Hexo**
+- **Configure Netlify CMS**
+- **Configure Netlify**
 - Organize project architecture for frontend
 - **Create style guide for your project**
 - Implement coding standards for better code formatting

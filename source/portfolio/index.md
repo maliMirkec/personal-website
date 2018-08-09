@@ -12,7 +12,12 @@ grid:
     title: Bozzuto
     href: /portfolio/bozzuto/
     src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
-    description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
+    description: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding.
+  - item:
+    title: Trase Yearbook 2018
+    href: /portfolio/yearbook-trase/
+    src: //res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png
+    description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation.
   - item:
     title: Netki
     href: /portfolio/netki/
