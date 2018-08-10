@@ -13,6 +13,6 @@ Link: [westwing.com](//www.westwing.com)
 
 ## Responsibilities
 
-- Biult a static part of the corporate website.
+- Built a static part of the corporate website.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).
