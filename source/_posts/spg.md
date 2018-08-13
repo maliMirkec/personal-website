@@ -71,7 +71,7 @@ Configuration is usually stored in a single file. Each generator has its specifi
 If you have a Wordpress project already, you could migrate it to a static page generator. For Jekyll, you could [Jekyll Exporter] plugin. For Middleman, you could use a command line tool called [wp2middleman].
 You could use [Wordpress to Hugo Exporter] for Hugo migration. For Hexo, you could read [a guide on how to migrate from Wordpress to Hexo] that I wrote last year.
 
-The principle is the same — first export all content to a suitable format, and then include it in the right folder.
+The principle is the same â€” first export all content to a suitable format, and then include it in the right folder.
 
 ## Content
 
@@ -172,7 +172,7 @@ _It is a good practice to check if a variable exists to prevent a build process 
 
 ## Variables
 
-A static page generator provides global variables available for handing in templates. Different variable type holds different information. For example, a global variable `site` in Hexo holds information about posts, pages, categories, and tags of a site.
+A static page generator provides global variables available for handing in templates. Different variable type holds different information. For example, a global variable `site`Â in Hexo holds information about posts, pages, categories, and tags of a site.
 
 Knowing the available variables and how to use them could make a developer's life easier. Hugo uses Go's template libraries for templating. Working with variables in Hugo could be a problem if you are not familiar with [the context], or "the dot" how they call it.
 
@@ -315,7 +315,7 @@ If you don't want to spend too much time on configuring your project, you could 
 
 ## Conclusion
 
-Static Page Generators are a fast and reliable way to build a website. You could build a non-trivial and highly customized website with a generator nowadays. [Smashing Magazine] moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites, and they all share the same ideology — to produce static resources and deliver them over the Content Delivery Networks for faster loading and better user experience.
+Static Page Generators are a fast and reliable way to build a website. You could build a non-trivial and highly customized website with a generator nowadays. [Smashing Magazine] moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites, and they all share the same ideology â€” to produce static resources and deliver them over the Content Delivery Networks for faster loading and better user experience.
 
 There are so much more you could do with your static website: from using Wordpress REST API as a backend to using Lambda functions. There are excellent solutions even for simple websites, like using [HTTPS out of the box] or [handling form submissions].
 
