@@ -386,7 +386,7 @@
     "timeout": 59000
   },
   "sassdoc": {
-    "run": true,
+    "run": false,
     "clean": "docs/sass/",
     "sassdocConfig": {
       "dest": "./source/docs/sass/",
@@ -411,7 +411,7 @@
     }
   },
   "kss": {
-    "run": true,
+    "run": false,
     "dest": "docs/styleguide/",
     "clean": "docs/styleguide/",
     "kssConfig": {
@@ -428,7 +428,7 @@
     }
   },
   "jsdoc": {
-    "run": true,
+    "run": false,
     "clean": "docs/js/",
     "src": ["./src/js/homepage.md", "./src/js/"],
     "jsdocConfig": {
