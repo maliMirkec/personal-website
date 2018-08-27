@@ -294,24 +294,14 @@
     "run": true,
     "src": "style.css",
     "criticalCssConfigs": [{
-      "out": "./source/css/style.critical.css",
-      "url": "http://localhost:4000/",
+      "out": "./source/css/style.critical4.css",
+      "url": "http://localhost:4000/about-me/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
       "blockJSRequests": true,
-      "timeout": 60000
-    }, {
-      "out": "./source/css/style.critical2.css",
-      "url": "http://localhost:4000/categories/articles/",
-      "width": 1920,
-      "height": 1200,
-      "keepLargerMediaQueries": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
-      "strict": false,
-      "blockJSRequests": true,
+      "renderWaitTime": 3000,
       "timeout": 60000
     }, {
       "out": "./source/css/style.critical3.css",
@@ -319,19 +309,29 @@
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
       "blockJSRequests": true,
+      "renderWaitTime": 3000,
       "timeout": 60000
     }, {
-      "out": "./source/css/style.critical4.css",
-      "url": "http://localhost:4000/about-me/",
+      "out": "./source/css/style.critical2.css",
+      "url": "http://localhost:4000/categories/articles/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
       "strict": false,
       "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000
+    }, {
+      "out": "./source/css/style.critical.css",
+      "url": "http://localhost:4000/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
       "timeout": 60000
     }]
   },
