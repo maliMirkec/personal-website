@@ -5,6 +5,7 @@ categories:
 tags:
   - wordpress
   - hexo
+  - spg
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1508398026/From_WordPress_to_Hexo_xgibru.png
 comments: true
 canonical: //www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers

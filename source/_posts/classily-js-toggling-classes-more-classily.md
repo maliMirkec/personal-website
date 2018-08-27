@@ -1,10 +1,10 @@
 ---
 title: Classily.js - Toggling classes more classily
 categories:
-- Blog
+  - Blog
 tags:
-- javascript
-- plugin
+  - javascript
+  - plugin
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1511821846/Classily_ebid2n.png
 comments: true
 date: 2017-11-28 10:28:28

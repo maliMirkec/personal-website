@@ -38,15 +38,15 @@ home_page:
     position: beta
     title: Featured Articles
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
+        title: Overview of Popular Static Site Generators
+        href: /articles/overviev-of-popular-static-site-generators/
       - src: //res.cloudinary.com/starbist/image/upload/v1531903322/The_Essential_Skill_Of_A_Developer_csb5dm.jpg
         title: The Essential Skill Of A Developer
         href: /articles/modern-frontend-developer-skills-and-tools/
       - src: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
         title: My first year of freelancing
         href: /articles/my-first-year-of-freelancing/
-      - src: //res.cloudinary.com/starbist/image/upload/v1508398026/From_WordPress_to_Hexo_xgibru.png
-        title: From Wordpress to Hexo
-        href: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
       - src: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
         title: Using CSS Grid Where Appropriate
         href: /articles/using-css-grid-where-appropriate/
