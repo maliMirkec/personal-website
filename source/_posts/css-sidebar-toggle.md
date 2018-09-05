@@ -54,7 +54,7 @@ For a menu toggle indicator, we could use well know hamburger menu. There are [m
 </label>
 {% endcodeblock %}
 
-Inside the label, we should place `span` elements - each one will represent one hamburger line.
+Inside the label, we should place `span` elements—each one will represent one hamburger line.
 
 Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`** attribute on a `label` element.
 
@@ -157,7 +157,7 @@ The first step is adding [wai-aria attributes](https://www.w3.org/TR/wai-aria/).
 
 Next, we should add wai-aria attributes on [navigation](https://www.w3.org/TR/wai-aria/roles#navigation). On `nav` element we should add these attributes: `role="navigation"`, `aria-labelledby="menuTogglerLabel"` and `aria-hidden="true"`. The role is navigation, an element is labeled by navigation button and it is hidden by default.
 
-The final element is a [menubar](https://www.w3.org/TR/wai-aria/roles#menubar) with 2 wai-aria attributes: `role="menubar"` and `aria-orientation="vertical"`. First attribute defines the role this element has and the second attribute describes how the element is oriented - in our case vertically. Every menubar should have [menu items](https://www.w3.org/TR/wai-aria/roles#menuitem). They are usually links and we define them as follows: `role="menuitem"`. Because the navigation is hidden by default, we're adding `tabindex="-1"` to skip tabbing through invisible elements.
+The final element is a [menubar](https://www.w3.org/TR/wai-aria/roles#menubar) with 2 wai-aria attributes: `role="menubar"` and `aria-orientation="vertical"`. First attribute defines the role this element has and the second attribute describes how the element is oriented—in our case vertically. Every menubar should have [menu items](https://www.w3.org/TR/wai-aria/roles#menuitem). They are usually links and we define them as follows: `role="menuitem"`. Because the navigation is hidden by default, we're adding `tabindex="-1"` to skip tabbing through invisible elements.
 
 Finally, we should add `JavaScript` snippet to change states of this elements:
 

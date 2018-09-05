@@ -18,7 +18,7 @@ Getting the perfect score from Google PageSpeed Insights could be a tedious task
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1504035691/Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Google Analytics browser caching issue" %}
 
 ## The solution
-The answer is pretty simple - use [CloudFlare Google Analytics app](https://www.cloudflare.com/apps/google-analytics). As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.
+The answer is pretty simple—use [CloudFlare Google Analytics app](https://www.cloudflare.com/apps/google-analytics). As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.
 
 ## The setup
 [CloudFlare](https://www.cloudflare.com) is awesome service that makes your project faster and safer. I'm using [the free plan](https://www.cloudflare.com/plans/) which provides you with plenty of options. The first step is to add the website to CloudFlare. You will have to scan the site, add DNS records, and update the nameservers. Don't worry; your domain will be available the whole time, no downtime during the transition.

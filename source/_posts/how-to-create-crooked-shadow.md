@@ -82,7 +82,7 @@ To create an inset shadow, we usually use a `box-shadow` property. Every box cou
 
 To solve this problem, I've even tried to rotate another pseudo element with a shadow and place it under an existing triangle. It worked, but not at every viewport size. I wasn't happy with that solution.
 
-Then it hit me - I should use a crooked transparent gradient on a box that is as tall as `:after` pseudo element. Wait, what? I'll try to explain this step by step.
+Then it hit me—I should use a crooked transparent gradient on a box that is as tall as `:after` pseudo element. Wait, what? I'll try to explain this step by step.
 
 First, we should create an element that is as tall as `:after` pseudo element. We could use `:before` pseudo element for this purpose. Then we should add linear gradient at the correct angle and percentage. In our case, linear gradient should go to the top left corner until 50%. Finally, we should scale and translate element to make it visible.
 

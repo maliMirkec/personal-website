@@ -17,7 +17,7 @@ I created a `JavaScript` plugin for toggling classes more __classily__, and I ca
 
 ## What is Classily.js?
 
-Classily.js is a `Javascript` plugin built to solve a single problem - toggle a `CSS` class on an `HTML` element. The current version of Classily.js has more features, including toggling multiple classes and targeting multiple elements.
+Classily.js is a `Javascript` plugin built to solve a single problem—toggle a `CSS` class on an `HTML` element. The current version of Classily.js has more features, including toggling multiple classes and targeting multiple elements.
 
 Before we see the plugin in action, let's see how to install it.
 
@@ -58,7 +58,7 @@ new Classily ({
 })
 ```
 
-where `selector: ".my-classily-element"` is a trigger selector - an element which will trigger class toggle action - usually an anchor or a button. Default selector is `.js-classily`.
+where `selector: ".my-classily-element"` is a trigger selector—an element which will trigger class toggle action—usually an anchor or a button. Default selector is `.js-classily`.
 
 Once you installed and initialized the plugin, you are ready to use the plugin and discover many new ways how the plugin could be helpful.
 
@@ -130,7 +130,7 @@ Here's the code:
 
 By adding the same class `.my-class` on target elements we are targeting both headings at the same time. That is because Classily.js uses `querySelectorAll()` function.
 
-There is another way how we could achieve the same effect - we could provide a comma-separated list of selectors.
+There is another way how we could achieve the same effect—we could provide a comma-separated list of selectors.
 
 ## How to toggle multiple classes on multiple elements?
 
@@ -138,7 +138,7 @@ In the example below, we are toggling two different classes on two separate elem
 
 {% codepen CiTA VrdaGK dark result 430 %}
 
-The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, `hidden` and `blue` - we could provide more that one class by using space as separator.
+The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, `hidden` and `blue`—we could provide more that one class by using space as separator.
 
 ```html
 <button type="button"
@@ -201,7 +201,7 @@ To avoid usage of complicated selectors, we could use the keyword `this`.
 </a>
 ```
 
-In this example, we used anchor tag as a button. There is another feature that is useful - we could prevent default behavior, like opening a link. To do that, we should use `data-prevent="default"` option.
+In this example, we used anchor tag as a button. There is another feature that is useful—we could prevent default behavior, like opening a link. To do that, we should use `data-prevent="default"` option.
 
 For more Classily.js examples, check this [Codepen collection](https://codepen.io/collection/nJZLYz/).
 

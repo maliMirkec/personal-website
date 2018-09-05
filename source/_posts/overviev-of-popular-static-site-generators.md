@@ -29,7 +29,7 @@ However, the purpose of this post is not to dive in and discuss the intricacies 
 
 ## Overview of Popular Static Page Frameworks
 
-In this post, we will take a closer look the following static page frameworks: Jekyll, Middleman, Hugo, and Hexo. These are by no means the only generators out there, but they are the most commonly used ones, backed by large communities and lots of useful resources.
+In this post, we will take a closer look at the following static page frameworks: Jekyll, Middleman, Hugo, and Hexo. These are by no means the only generators out there, but they are the most commonly used ones, backed by large communities and lots of useful resources.
 
 Let's take a closer look at each of them and compare their basic features:
 
@@ -99,7 +99,7 @@ If you already have a Wordpress project ready to go, you can migrate it to a sta
 
 For Jekyll, you could [Jekyll Exporter] plugin. For Middleman, you could use a command line tool called [wp2middleman]. You can use Wordpress to Hugo Exporter for Hugo migration, and for Hexo, you could read a [guide on how to migrate from Wordpress to Hexo] that I wrote last year.
 
-The principle is nearly identical and quite straightforward — first export all content to a suitable format, and then include it in the right folder.
+The principle is nearly identical and quite straightforward—first export all content to a suitable format, and then include it in the right folder.
 
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
@@ -361,7 +361,7 @@ You could also learn a lot by examining the code. Try to install a template, com
 
 Static page generators are a fast and reliable way to build a website. You can even build non-trivial and highly customized websites with a generator nowadays.
 
-For example, [Smashing Magazine] moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites and they all share the same principle — to produce static resources and deliver them over Content Delivery Networks for faster loading and a superior user experience.
+For example, [Smashing Magazine] moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites and they all share the same principle—to produce static resources and deliver them over Content Delivery Networks for faster loading and a superior user experience.
 
 There is much more you could do with your static website: from using Wordpress REST API as a backend to using Lambda functions. There are excellent solutions even for simple websites, like using [HTTPS out of the box] or [handling form submissions].
 
