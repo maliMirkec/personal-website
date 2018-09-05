@@ -38,6 +38,9 @@ home_page:
     position: beta
     title: Featured Articles
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
+        title: 'Using CSS Grid where appropriate (revisited)'
+        href: /articles/using-css-grid-where-appropriate-revisited/
       - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
         title: Overview of Popular Static Site Generators
         href: /articles/overviev-of-popular-static-site-generators/
@@ -47,9 +50,6 @@ home_page:
       - src: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
         title: My first year of freelancing
         href: /articles/my-first-year-of-freelancing/
-      - src: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
-        title: Using CSS Grid Where Appropriate
-        href: /articles/using-css-grid-where-appropriate/
     links:
       See all articles →: /categories/articles/
   - section:
