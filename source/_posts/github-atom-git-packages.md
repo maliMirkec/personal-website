@@ -35,7 +35,7 @@ _I don't recommend using **git-plus** package for complicated Git structures. Th
 
 To configure **git-plus** package, Git path should be provided. Make sure to enter the path with actual Git file executable, like this `C:Program FilesGitbingit.exe`. You could configure other options as per your preferences.
 
-To use **git-plus**, press `ctrl + shift + p` to open command-palette and type "git plus" — **git-plus** commands should appear. To open **git-plus** menu directly, use `ctrl + shift + h` shortcut.
+To use **git-plus**, press `ctrl + shift + p` to open command-palette and type "git plus"—**git-plus** commands should appear. To open **git-plus** menu directly, use `ctrl + shift + h` shortcut.
 
 To see Git log in action, click on the little pin icon in a status bar.
 

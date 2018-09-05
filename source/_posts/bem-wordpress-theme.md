@@ -48,7 +48,7 @@ Not only that. If used with SASS or any other preprocessing tool, you could real
 
 ## Starter template with BEM methodology
 
-An idea was born - why don't I build a Wordpress starter template with BEM methodology?
+An idea was born—why don't I build a Wordpress starter template with BEM methodology?
 
 Great! I should fork Underscores starter template and start customizing it. Like everything else in life, it was easier said than done.
 
@@ -125,7 +125,7 @@ BEM is big deal, but there is more stuff that I've implemented in this starter 
 
 ### System fonts
 
-Using [system fonts](https://css-tricks.com/snippets/css/system-font-stack/) are awesome and beautiful. And they don't cost a dime - they are part of an operating system on your device. There is no extra request. Yaay!
+Using [system fonts](https://css-tricks.com/snippets/css/system-font-stack/) are awesome and beautiful. And they don't cost a dime—they are part of an operating system on your device. There is no extra request. Yaay!
 
 ### Gutenberg
 

@@ -65,7 +65,7 @@ There is [a quote] from an old movie that could be applied here:
 
 > Every day in every way I'm getting more and more progressive.
 
-I learned a valuable lesson that learning was part of the job â€” a developer could never know it all, it is impossible. Never stop learning and improving yourself. ðŸ“š
+I learned a valuable lesson that learning was part of the job—” a developer could never know it all, it is impossible. Never stop learning and improving yourself. ðŸ“š
 
 [mindmap]: https://coggle.it/diagram/Wy9XDVsxfi3TaCnK/t/silvestar-bistrovi%C4%87-web-developer%2C-coder-toptal-freelancer
 [Toptal profile]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers

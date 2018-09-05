@@ -294,8 +294,8 @@
     "run": true,
     "src": "style.css",
     "criticalCssConfigs": [{
-      "out": "./source/css/style.critical4.css",
-      "url": "http://localhost:4000/about-me/",
+      "out": "./source/css/style.critical3.css",
+      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,
@@ -304,8 +304,8 @@
       "renderWaitTime": 3000,
       "timeout": 60000
     }, {
-      "out": "./source/css/style.critical3.css",
-      "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+      "out": "./source/css/style.critical4.css",
+      "url": "http://localhost:4000/about-me/",
       "width": 1920,
       "height": 1200,
       "keepLargerMediaQueries": true,

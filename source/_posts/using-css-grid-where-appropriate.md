@@ -171,3 +171,5 @@ I've learned a lot by building a navigation using CSS Grid. The biggest lesson h
 I really enjoyed building a navigation component using many different techniques. There are many ways how components could be built and there is no correct or wrong solution, as long as it works. That's why I love CSS.
 
 Are you using CSS Grid? In what situations? Leave a comment below or [ping me on Twitter](https://twitter.com/malimirkeccita).
+
+> I wrote a newer article on the same subject, "[Using CSS Grid where appropriate (revisited)](/articles/using-css-grid-where-appropriate-revisited/)"
