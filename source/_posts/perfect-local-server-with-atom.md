@@ -20,7 +20,7 @@ Even now, that I'm experienced developer, I don't need complicated solutions for
 
 ## Bitnami WAMP Stack
 
-First things first - you'll need an actual local server. I've tried more than few solutions and finally decided to go with **Bitnami WAMP Stack** for Windows. Installation is pretty straightforward, but let's go through step by step.
+First things first—you'll need an actual local server. I've tried more than few solutions and finally decided to go with **Bitnami WAMP Stack** for Windows. Installation is pretty straightforward, but let's go through step by step.
 
 First go to [**Bitnami WAMP Stack** page](https://bitnami.com/stack/wamp) and download installer and start the installation process.
 
@@ -32,7 +32,7 @@ Next steps are to select Apache web server port, SSL port and MySQL Server port.
 
 _If any port is available, Setup will automatically assign standard port and skip steps._
 
-That's it, proceed with a installation, wait for process to finish and violà - you got yourself a local web server.
+That's it, proceed with a installation, wait for process to finish and violà—you got yourself a local web server.
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509507/bitnami-wamp-installation_p0sgui.gif false "Bitnami WAMP installation" %}
 
@@ -83,6 +83,6 @@ _Pro tip: if you're using [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.
 
 ## Final thought
 
-There you have it - a perfect local server. It may not be adequate for complicated architectures, but it's perfect for quick and simple development. All you need to do is turn on your Atom, start **php-server** and **livereload** and start digging in. Isn't that just prefect?
+There you have it—a perfect local server. It may not be adequate for complicated architectures, but it's perfect for quick and simple development. All you need to do is turn on your Atom, start **php-server** and **livereload** and start digging in. Isn't that just prefect?
 
 Stay tuned, follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).

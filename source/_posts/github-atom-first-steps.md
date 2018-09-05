@@ -23,7 +23,7 @@ To install Github Atom, go to [https://atom.io/](https://atom.io/) and download 
 
 ## First package
 
-After you've installed Atom, you should install your first package - **[sync-settings](https://atom.io/packages/sync-settings)**.
+After you've installed Atom, you should install your first package—**[sync-settings](https://atom.io/packages/sync-settings)**.
 
 **sync-settings** is used to synchronize almost all of your editor's settings. It is a very good starting point when you're reinstalling Atom or installing Atom on a different device. It saved me plenty of time back in the day.
 
