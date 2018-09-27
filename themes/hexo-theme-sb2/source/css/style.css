@@ -811,10 +811,67 @@ img {
       width: auto;
       margin-left: auto; } }
 
+.list--omega {
+  display: grid;
+  grid-gap: 20px;
+  margin-top: 20px; }
+  .list--omega blockquote {
+    margin: 0;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    -webkit-transform: skewX(-1deg);
+            transform: skewX(-1deg);
+    position: relative; }
+    .list--omega blockquote:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top: 10px solid #fff;
+      border-left: 10px solid #fff;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent; }
+    .list--omega blockquote:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-bottom: 10px solid #fff;
+      border-right: 10px solid #fff;
+      border-top: 10px solid transparent;
+      border-left: 10px solid transparent; }
+  .list--omega p {
+    font-size: 0.75019rem;
+    -webkit-transform: skewX(1deg);
+            transform: skewX(1deg); }
+  .list--omega h5 {
+    font-family: "Playfair Display";
+    font-size: 1rem;
+    font-style: italic;
+    -webkit-transform: skewX(1deg);
+            transform: skewX(1deg); }
+  .list--omega h6 {
+    font-family: "Playfair Display";
+    color: #e01258;
+    font-size: 0.56278rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    -webkit-transform: skewX(1deg);
+            transform: skewX(1deg); }
+    .list--omega h6 span + span {
+      color: #12e09f; }
+  .list--omega a {
+    color: #12e09f; }
+  @media (min-width: 48em) {
+    .list--omega {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 100px;
+      margin-top: 100px; } }
+
 .home {
   display: grid;
   grid-gap: 50px;
-  grid-template-areas: "alpha" "beta" "epsilon" "gamma" "delta"; }
+  grid-template-areas: "alpha" "beta" "epsilon" "gamma" "omega" "delta"; }
   .home h1,
   .home h2 {
     position: relative; }
@@ -840,11 +897,8 @@ img {
         font-size: 2.36859rem; } }
   @media (min-width: 30em) {
     .home {
-      grid-template-areas: "alpha alpha" "beta beta" "delta epsilon" "gamma gamma"; } }
-  @media (min-width: 75em) {
-    .home {
-      grid-template-columns: repeat(3, minmax(30%, 1fr));
-      grid-template-areas: "alpha alpha alpha" "beta beta beta" "delta epsilon x" "gamma gamma gamma"; } }
+      grid-template-columns: repeat(2, minmax(40%, 1fr));
+      grid-template-areas: "alpha alpha" "beta beta" "delta epsilon" "gamma gamma" "omega omega"; } }
 
 .home__box--alpha {
   grid-area: alpha; }
@@ -858,8 +912,11 @@ img {
 .home__box--delta {
   grid-area: delta; }
 
-.home__box--epsiolon {
-  grid-area: epsiolon; }
+.home__box--epsilon {
+  grid-area: epsilon; }
+
+.home__box--omega {
+  grid-area: omega; }
 
 .articles {
   display: grid;

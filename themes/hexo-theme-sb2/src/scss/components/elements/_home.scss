@@ -6,6 +6,7 @@
     "beta"
     "epsilon"
     "gamma"
+    "omega"
     "delta";
 
   h1,
@@ -41,18 +42,12 @@
   }
 
   @include mq($from: mobile) {
+    grid-template-columns: repeat(2, minmax(40%, 1fr));
     grid-template-areas: "alpha alpha"
       "beta beta"
       "delta epsilon"
-      "gamma gamma";
-  }
-
-  @include mq($from: desktop) {
-    grid-template-columns: repeat(3, minmax(30%, 1fr));
-    grid-template-areas: "alpha alpha alpha"
-      "beta beta beta"
-      "delta epsilon x"
-      "gamma gamma gamma";
+      "gamma gamma"
+      "omega omega";
   }
 }
 
@@ -72,6 +67,10 @@
   grid-area: delta;
 }
 
-.home__box--epsiolon {
-  grid-area: epsiolon;
+.home__box--epsilon {
+  grid-area: epsilon;
+}
+
+.home__box--omega {
+  grid-area: omega;
 }

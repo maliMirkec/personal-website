@@ -20,6 +20,18 @@
             each h5 in section.headings
               li.list__item
                 h5= h5
+        if (section.quotes)
+          - var list_class = (section.list_class) ? " list--" + section.list_class : "";
+          ul(class="list" + list_class)
+            each quote in section.quotes
+              li.list__item
+                blockquote
+                  p= quote.text
+                  h5= "➡ " + quote.person
+                  h6
+                    span= quote.position
+                    span= " @ "
+                    a.list__link(href=urlFor(quote.project.link))= quote.project.name
         if (section.images)
           ul.list.list--alpha
             each section_image in section.images

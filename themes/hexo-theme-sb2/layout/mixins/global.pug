@@ -11,6 +11,10 @@ mixin inlineSvg(file)
 
 - var isCategory = () => (is_category) ? is_category() : false
 
+- var isPortfolio = (page) => page.path.indexOf('portfolio') !== -1
+
+- var isPortfolioPost = (page) => page.portfolio === true
+
 - var isArchive = () => (is_archive) ? is_archive() : false
 
 - var isTag = () => (is_tag) ? is_tag() : false
