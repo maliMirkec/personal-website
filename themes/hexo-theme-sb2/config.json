@@ -294,10 +294,20 @@
     "run": true,
     "src": "style.css",
     "criticalCssConfigs": [{
-      "out": "./source/css/style.critical3.css",
+      "out": "./source/css/style.critical6.css",
+      "url": "http://localhost:4000/about-me/",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000
+    }, {
+      "out": "./source/css/style.critical5.css",
       "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
       "width": 1920,
-      "height": 1200,
+      "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": true,
@@ -305,9 +315,19 @@
       "timeout": 60000
     }, {
       "out": "./source/css/style.critical4.css",
-      "url": "http://localhost:4000/about-me/",
+      "url": "http://localhost:4000/categories/articles/",
       "width": 1920,
-      "height": 1200,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000
+    }, {
+      "out": "./source/css/style.critical3.css",
+      "url": "http://localhost:4000/portfolio/",
+      "width": 1920,
+      "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": true,
@@ -315,9 +335,9 @@
       "timeout": 60000
     }, {
       "out": "./source/css/style.critical2.css",
-      "url": "http://localhost:4000/categories/articles/",
+      "url": "http://localhost:4000/portfolio/westwing/",
       "width": 1920,
-      "height": 1200,
+      "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": true,
@@ -327,7 +347,7 @@
       "out": "./source/css/style.critical.css",
       "url": "http://localhost:4000/",
       "width": 1920,
-      "height": 1200,
+      "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": true,

@@ -70,6 +70,41 @@ home_page:
       GitHub: //github.com/maliMirkec
       CodePen: //codepen.io/CiTA/
     list_class: gamma
+  - section:
+    position: omega
+    title: Testimonials
+    quotes:
+      - person: Adam Maschek
+        position: CTO at Westwing Home & Living
+        project:
+          name: Westwing
+          link: /portfolio/westwing/
+        text: "It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him."
+      - person: Pablo Pareja Tobes
+        position: Project Manager at Vizzuality
+        project:
+          name: Trase Yearbook 2018
+          link: /portfolio/yearbook-trase/
+        text: "Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise."
+      - person: Karim Mansi
+        position: eCommerce Product Manager
+        project:
+          name: Westwing
+          link: /portfolio/westwing/
+        text: "While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects."
+      - person: Han Han Xue
+        position: Product Designer at Lyft
+        project:
+          name: Han Han Xue
+          link: /portfolio/hanhanxue/
+        text: "I collaborated closely with Silvestar on a project.
+
+        Throughout the span of the project, Silvestar was able to consistently meet if not exceed expectations. He has the impressive ability to not only readily undertake direct requests, but also intuitively distill ambiguous asks in order to execute solves in a self-sufficient manner.
+
+        Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions.
+
+        If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project."
+    list_class: omega
 
 open_graph:
   pretty_url: true
