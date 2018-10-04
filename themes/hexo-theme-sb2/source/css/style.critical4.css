@@ -92,9 +92,10 @@ img {
   width: calc(100% - 50px);
   position: relative;
   display: grid;
-  grid-template-areas: "info" "title" "content";
+  grid-template-areas: "title" "content";
   grid-template-columns: 100%;
   grid-gap: 25px;
+  align-items: flex-start;
   font-size: 1rem;
 }
 
@@ -123,7 +124,7 @@ img {
 }
 
 .main--category {
-  grid-template-areas: "info" "content" "meta";
+  grid-template-areas: "content" "meta";
 }
 
 .header {

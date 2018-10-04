@@ -56,7 +56,7 @@ home_page:
     position: delta
     title: Contact
     links:
-      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry
+      Contact: https://silvestar.typeform.com/to/p8HdMq
       Skype: //join.skype.com/invite/jtWeft24StMV
       LinkedIn: //www.linkedin.com/in/starbist/
       Twitter: //twitter.com/malimirkeccita
@@ -138,11 +138,6 @@ portfolio:
     Contiamo: /portfolio/contiamo/
     Moodings: /portfolio/moodings/
     Irina & Matej: /portfolio/irinaandmatej/
-    Empirical: /portfolio/empirical/
-    Franciscan Children's: /portfolio/franciscanchildrens/
-    Atika Interijeri: /portfolio/atika-interijeri/
-    Marcijuš Weddings: /portfolio/marcijusweddings/
-    Born in June: /portfolio/borninjune/
 
 sidebar:
   title: Links
@@ -151,7 +146,7 @@ sidebar:
     Hire me: /hire-me/
     Services: /services/
     Setup: /uses/
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Contact: https://silvestar.typeform.com/to/p8HdMq
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec
@@ -159,16 +154,24 @@ sidebar:
     Twitter: //twitter.com/malimirkeccita
     Silvestar Bistrović: /
 
+banner1:
+  span: "Do you need a new website? I am available for new projects."
+  btn1: "Hire me"
+  btn2: "Earliest This November"
+  href: https://silvestar.typeform.com/to/p8HdMq
+
+banner2:
+  span: "I would like to hear more about your new project. Let's start communication."
+  btn1: "Hire me"
+  btn2: "Earliest This November"
+  href: https://silvestar.typeform.com/to/p8HdMq
 
 widgets:
-  info:
+  about:
     paragraphs:
       - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
-      - I am currently considering new projects. Contact me!
-    cta:
-      Contact me!: mailto:me@silvestarbistrovic.from.hr?Subject=New%20;Project
     contact:
-      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Contact: https://silvestar.typeform.com/to/p8HdMq
       Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
       LinkedIn: //www.linkedin.com/in/starbist/
       GitHub: //github.com/maliMirkec
@@ -176,7 +179,7 @@ widgets:
       Twitter: //twitter.com/malimirkeccita
   subnav:
     Silvestar Bistrović: /
-    Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    Contact: https://silvestar.typeform.com/to/p8HdMq
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec

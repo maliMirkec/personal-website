@@ -1,12 +1,16 @@
 ---
 title: I'm available for hire
 comments: false
+banner1:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 date: 2017-08-02 11:37:55
 description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true
 ---
 
-I'm currently seeking for a new gig. If you want me on your team, you should send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Inquiry). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
+I'm currently seeking for a new gig. If you want me on your team, you should [contact me](https://silvestar.typeform.com/to/p8HdMq). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
 
 ## Why me
 
@@ -39,6 +43,7 @@ My first job on Toptal was to build static pages for a [German based company](ht
 
 I've worked on all sorts of projects and I'm still learning new technologies and techniques every day. I love my job and I like to think that I'm good at it. At least I'm trying to be.
 
-Until this day I've learned to deal with many different problems and tasks. You should check which [services](/services/) I could provide.
+Until this day I've learned to deal with many different problems and tasks. You could check which [services](/services/) I could provide for you.
 
-If you want me on your team or project, send me an email at [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr?Subject=Hello).
+Best,
+Silvestar

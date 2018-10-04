@@ -4,9 +4,11 @@
   grid-gap: 50px;
   grid-template-areas: "alpha"
     "beta"
+    "banner1"
     "epsilon"
     "gamma"
     "omega"
+    "banner2"
     "delta";
 
   h1,
@@ -44,9 +46,11 @@
   @include mq($from: mobile) {
     grid-template-columns: repeat(2, minmax(40%, 1fr));
     grid-template-areas: "alpha alpha"
+      "banner1 banner1"
       "beta beta"
       "delta epsilon"
       "gamma gamma"
+      "banner2 banner2"
       "omega omega";
   }
 }
@@ -73,4 +77,12 @@
 
 .home__box--omega {
   grid-area: omega;
+}
+
+.home__box--banner1 {
+  grid-area: banner1;
+}
+
+.home__box--banner2 {
+  grid-area: banner2;
 }

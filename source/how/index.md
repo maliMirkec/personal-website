@@ -1,6 +1,11 @@
 ---
 title: How I built this website
 date: 2017-08-04 16:16:05
+comments: false
+banner2:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack as an example.
 sidebar: true
 ---

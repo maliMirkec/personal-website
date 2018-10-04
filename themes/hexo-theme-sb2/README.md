@@ -86,7 +86,7 @@ home_page:
   - section:
     title: Links
     links:
-      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Contact: https://silvestar.typeform.com/to/p8HdMq
       Twitter: //twitter.com/malimirkeccita
       Github: //github.com/maliMirkec
 
@@ -105,7 +105,7 @@ open_graph:
 # Widgets
 widgets:
   contact:
-    mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    contact: https://silvestar.typeform.com/to/p8HdMq
     twitter: //twitter.com/malimirkeccita
     linkedin: //www.linkedin.com/in/starbist/
     facebook: //www.facebook.com/silvestarbistrovic.from.hr/
@@ -141,5 +141,5 @@ If you need any help, please feel free to [contact me].
 If you're having issues, please [search for issues](https://github.com/maliMirkec/hexo-theme-sb/issues) or open [a new one](https://github.com/maliMirkec/hexo-theme-sb/issues/new).
 
 [Starter Project]: https://starter.silvestarbistrovic.from.hr
-[contact me]: mailto:me@silvestarbistrovic.from.hr?Subject=Help
+[contact me]: https://silvestar.typeform.com/to/p8HdMq
 

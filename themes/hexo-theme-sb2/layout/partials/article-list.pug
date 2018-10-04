@@ -12,6 +12,12 @@ if (page && page.posts)
     h1.articles__title= title
   .articles
     each vpost, kpost in page.posts.toArray()
+      if (kpost === 3)
+        .article.article--banner
+          include banner2
+      if (kpost % 3 === 0 && kpost >= page.posts.length - 3)
+        .article.article--banner
+          include banner1
       article.article
         if (vpost && vpost.path && vpost.title)
           h2.article__title.article__title--alpha

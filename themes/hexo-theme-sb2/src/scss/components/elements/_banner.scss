@@ -1,0 +1,114 @@
+.banner {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+
+  .post-banner & {
+    margin-top: 1em;
+  }
+
+  p {
+    font-size: ms(-1);
+    margin-top: 0;
+    margin-right: 0.5em;
+
+    // span {
+    //   color: $color-psi;
+    // }
+  }
+
+  span {
+    display: block;
+    color: inherit;
+  }
+
+  .btn {
+    border: none;
+    color: $color-omega;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: normal;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: inherit;
+      font-weight: inherit;
+    }
+
+    span:nth-child(1) {
+      @include ls(50);
+      font-family: $font-beta;
+    }
+
+    span:nth-child(2) {
+      font-family: $font-alpha;
+      @include ls(25);
+      font-size: ms(-2);
+      margin-top: 0.25rem;
+    }
+  }
+
+  @include mq($from: mobile) {
+    align-items: center;
+    flex-direction: row;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .btn {
+      padding: .75rem 1.5rem;
+      margin-left: auto;
+    }
+  }
+
+  @include mq($from: tablet) {
+    span {
+      display: inline;
+    }
+  }
+
+  @include mq($from: desktop) {
+    p {
+      font-size: ms(0);
+    }
+  }
+}
+
+.banner--alpha {
+  border: 1px solid $color-alpha;
+
+  .btn {
+    background-color: $color-beta;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: lighten($color-beta, 5%);
+    }
+  }
+}
+
+.banner--beta {
+  border: 1px solid $color-beta;
+
+  .btn {
+    background-color: $color-alpha;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: lighten($color-alpha, 5%);
+    }
+  }
+}

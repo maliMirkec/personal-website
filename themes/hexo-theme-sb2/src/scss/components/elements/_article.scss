@@ -19,6 +19,12 @@
     max-width: 640px;
     margin: 0 auto;
 
+    &.article--banner {
+      grid-column: 1 / -1;
+      max-width: none;
+      width: 100%;
+    }
+
     &:before {
       content: "";
       position: absolute;
@@ -171,7 +177,7 @@
 
 .metadata {
   grid-area: meta;
-  margin: 2em 0 4em;
+  margin: 2em 0;
   display: grid;
   grid-template-columns: 1fr;
 

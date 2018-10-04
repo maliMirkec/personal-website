@@ -3,6 +3,13 @@ extends includes/layout
 block content
   include partials/article
 
+  if (page && page.banner1)
+    .page-banner
+      include partials/banner1
+  else if (page && page.banner2)
+    .page-banner
+      include partials/banner2
+
   if (page && page.sidebar)
     include partials/sidebar
 
@@ -11,6 +18,3 @@ block content
 
   if (page && page.grid)
     include partials/grid
-
-  if (theme && theme.widgets && theme.widgets.info)
-    include partials/widgets/info

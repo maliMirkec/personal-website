@@ -1,0 +1,20 @@
+.banner.banner--alpha
+  p
+    if (page && page.banner1 && page.banner1.span)
+      span= page.banner1.span
+    else if (theme && theme.banner1 && theme.banner1.span)
+      span= theme.banner1.span
+    else
+      span= "Do you need a new website? I am available for new projects."
+  a.btn(href="https://silvestar.typeform.com/to/p8HdMq", target="_blank")
+    if (page && page.banner1 && page.banner1.btn1)
+      span= page.banner1.btn1
+      if (page && page.banner1 && page.banner1.btn2)
+        span= page.banner1.btn2
+    else if (theme && theme.banner1 && theme.banner1.btn1)
+      span= theme.banner1.btn1
+      if (theme && theme.banner1 && theme.banner1.btn2)
+        span= theme.banner1.btn2
+    else
+      span= "Hire me"
+      span= "Earlier January 2019"
