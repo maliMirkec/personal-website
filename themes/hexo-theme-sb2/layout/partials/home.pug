@@ -55,6 +55,9 @@
           ul(class="list" + list_class)
             each lhref, ltext in section.links
               li.list__item
-                a.list__link(href=urlFor(lhref))= ltext
+                if (lhref.indexOf('//') !== -1)
+                  a.list__link(href=urlFor(lhref), target="_blank")= ltext
+                else
+                  a.list__link(href=urlFor(lhref))= ltext
   else
     include article-list

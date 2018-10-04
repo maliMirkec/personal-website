@@ -10,6 +10,8 @@ if (theme && theme.sidebar && theme.sidebar.items)
               if (kitem == "/" && theme && theme.site.logo)
                 a(href=kitem, class="list__link list__link--logo " + link_class)
                   img(src=theme.site.logo, alt=vcontact)
+              else if (kitem.indexOf('//') !== -1)
+                a(href=kitem, class="list__link" + link_class, target="_blank")= vitem
               else
                 a(href=kitem, class="list__link" + link_class)= vitem
       if (page && page.sidebar.paragraphs)

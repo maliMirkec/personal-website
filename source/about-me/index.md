@@ -19,4 +19,4 @@ Besides pixel-perfect design, my focus is on performance. Projects I manage have
 
 I am working as a freelance web developer at [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers).
 
-If you want to get in touch, send me [an email](mailto:me@silvestarbistrovic.from.hr?Subject=Hello) or [a tweet](twitter.com/malimirkeccita).
+If you want to get in touch, [contact me](https://silvestar.typeform.com/to/p8HdMq) or [a tweet](twitter.com/malimirkeccita).
