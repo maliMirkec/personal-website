@@ -99,7 +99,7 @@
 
   @include mq($from: tablet) {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 100px;
     margin-top: 100px;
   }
@@ -157,6 +157,11 @@
 .list__item--epsilon {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.list__item--banner {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
 }
 
 .list__link--logo {

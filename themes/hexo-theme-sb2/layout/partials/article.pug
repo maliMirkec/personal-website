@@ -11,6 +11,10 @@ if (page && page.title)
     - var article_img_srcset = article_img_tamagochi + " 270w, " + article_img_mobile + " 717w, " + article_img_wide + " 960w";
     .article__thumb
       img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) 960px")
+    if (isPost())
+      .post-banner
+        include banner1
+
   if (page && page.layout == "post")
     .details
       if (page && (page.date || page.tags))
@@ -41,6 +45,7 @@ if (page && page.title)
 
   if (page && page.content)
     .content!= page.content
+
   if (isPost())
     .metadata
       .metadata__content
@@ -69,8 +74,13 @@ if (page && page.title)
                   - var prevTitle = page.prev.title ? page.prev.title: "Previous";
                   a.list__link.list__link--prev(href=urlFor(page.prev.path))= prevTitle
       .metadata__content
-        if (theme && theme.widgets && theme.widgets.info)
+        if (theme && theme.widgets && theme.widgets.about)
           include widgets/about
+
+  if (isPost())
+    .post-banner
+      include banner2
+
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
     include widgets/comments
 

@@ -1,6 +1,10 @@
 ---
 title: I'm available for hire
 comments: false
+banner1:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 date: 2017-08-02 11:37:55
 description: I'm currently seeking for a new gig. If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true

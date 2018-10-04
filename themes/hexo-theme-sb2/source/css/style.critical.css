@@ -80,6 +80,10 @@ h2 {
   }
 }
 
+p {
+  margin-top: 1.333rem;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -102,9 +106,10 @@ img {
   width: calc(100% - 50px);
   position: relative;
   display: grid;
-  grid-template-areas: "info" "title" "content";
+  grid-template-areas: "title" "content";
   grid-template-columns: 100%;
   grid-gap: 25px;
+  align-items: flex-start;
   font-size: 1rem;
 }
 
@@ -249,7 +254,7 @@ img {
 @media (min-width: 48em) {
   .list--alpha {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 100px;
     margin-top: 100px;
   }
@@ -266,7 +271,7 @@ img {
 .home {
   display: grid;
   grid-gap: 50px;
-  grid-template-areas: "alpha" "beta" "epsilon" "gamma" "omega" "delta";
+  grid-template-areas: "alpha" "beta" "banner1" "epsilon" "gamma" "omega" "banner2" "delta";
 }
 
 .home h1,
@@ -309,7 +314,7 @@ img {
 @media (min-width: 30em) {
   .home {
     grid-template-columns: repeat(2, minmax(40%, 1fr));
-    grid-template-areas: "alpha alpha" "beta beta" "delta epsilon" "gamma gamma" "omega omega";
+    grid-template-areas: "alpha alpha" "banner1 banner1" "beta beta" "delta epsilon" "gamma gamma" "banner2 banner2" "omega omega";
   }
 }
 
@@ -319,4 +324,91 @@ img {
 
 .home__box--gamma {
   grid-area: gamma;
+}
+
+.home__box--banner1 {
+  grid-area: banner1;
+}
+
+.banner {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner p {
+  font-size: 0.75019rem;
+  margin-top: 0;
+  margin-right: 0.5em;
+}
+
+.banner span {
+  display: block;
+  color: inherit;
+}
+
+.banner .btn {
+  border: none;
+  color: #fff;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.banner .btn span {
+  text-transform: uppercase;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.banner .btn span:nth-child(1) {
+  letter-spacing: calc(50 / 1000 * 1em);
+  font-family: "Playfair Display";
+}
+
+.banner .btn span:nth-child(2) {
+  font-family: "Barlow";
+  letter-spacing: calc(25 / 1000 * 1em);
+  font-size: 0.56278rem;
+  margin-top: 0.25rem;
+}
+
+@media (min-width: 30em) {
+  .banner {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .banner p {
+    margin-bottom: 0;
+  }
+
+  .banner .btn {
+    padding: .75rem 1.5rem;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 48em) {
+  .banner span {
+    display: inline;
+  }
+}
+
+@media (min-width: 75em) {
+  .banner p {
+    font-size: 1rem;
+  }
+}
+
+.banner--alpha {
+  border: 1px solid #12e09f;
+}
+
+.banner--alpha .btn {
+  background-color: #e01258;
 }

@@ -1,6 +1,10 @@
 ---
 title: About me
 id: 79
+banner2:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless consultant developer, JAMstack enthusiast, Wordpress coder, and blog writer.

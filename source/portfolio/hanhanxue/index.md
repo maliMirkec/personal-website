@@ -1,6 +1,10 @@
 ---
 title: Han Han Xue
 comments: false
+banner2:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 portfolio: true
 ---

@@ -1,6 +1,12 @@
 .home
   if (theme && theme.home_page)
-    each section in theme.home_page
+    each section, i in theme.home_page
+      if (i === 1)
+        .home__box.home__box--banner1
+          include banner1
+      if (i === theme.home_page.length - 1)
+        .home__box.home__box--banner2
+          include banner2
       - var home_class = (section.position) ? " home__box--" + section.position : "";
       div(class="home__box" + home_class)
         if (section.title)

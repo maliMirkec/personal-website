@@ -1,6 +1,10 @@
 ---
 title: Trase Yearbook 2018
 comments: false
+banner2:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 portfolio: true
 ---

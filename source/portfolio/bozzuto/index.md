@@ -1,6 +1,10 @@
 ---
 title: Bozzuto
 comments: false
+banner1:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 description: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding. The website runs on Wordpress.
 portfolio: true
 ---

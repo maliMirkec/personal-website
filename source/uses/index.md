@@ -1,5 +1,10 @@
 ---
 title: Setup
+comments: false
+banner1:
+  span: "Do you like what I do? Do you think I could help you with your project?"
+  btn1: "Hire me"
+  btn2: "Earliest This November"
 date: 2017-08-02 20:08:06
 description: Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
 sidebar: true
