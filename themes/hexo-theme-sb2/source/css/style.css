@@ -1034,7 +1034,7 @@ img {
   .banner .btn {
     border: none;
     color: #fff;
-    padding: .5rem;
+    padding: .125rem .5rem .25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1053,8 +1053,7 @@ img {
     .banner .btn span:nth-child(2) {
       font-family: "Barlow";
       letter-spacing: calc(25 / 1000 * 1em);
-      font-size: 0.56278rem;
-      margin-top: 0.25rem; }
+      font-size: 0.56278rem; }
   @media (min-width: 30em) {
     .banner {
       align-items: center;
@@ -1063,7 +1062,9 @@ img {
         margin-bottom: 0; }
       .banner .btn {
         padding: .75rem 1.5rem;
-        margin-left: auto; } }
+        margin-left: auto; }
+        .banner .btn span:nth-child(2) {
+          margin-top: 0.25rem; } }
   @media (min-width: 48em) {
     .banner span {
       display: inline; } }
