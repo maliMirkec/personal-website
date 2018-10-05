@@ -297,6 +297,11 @@ img {
   margin-bottom: 0.25em;
 }
 
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
+}
+
 .list__link.list__link--current {
   color: #e01258;
 }
@@ -341,7 +346,7 @@ img {
 .banner .btn {
   border: none;
   color: #fff;
-  padding: .5rem;
+  padding: .125rem .5rem .25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -365,7 +370,6 @@ img {
   font-family: "Barlow";
   letter-spacing: calc(25 / 1000 * 1em);
   font-size: 0.56278rem;
-  margin-top: 0.25rem;
 }
 
 @media (min-width: 30em) {
@@ -381,6 +385,10 @@ img {
   .banner .btn {
     padding: .75rem 1.5rem;
     margin-left: auto;
+  }
+
+  .banner .btn span:nth-child(2) {
+    margin-top: 0.25rem;
   }
 }
 

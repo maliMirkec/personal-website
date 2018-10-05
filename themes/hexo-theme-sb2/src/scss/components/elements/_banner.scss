@@ -25,7 +25,7 @@
   .btn {
     border: none;
     color: $color-omega;
-    padding: .5rem;
+    padding: .125rem .5rem .25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +54,6 @@
       font-family: $font-alpha;
       @include ls(25);
       font-size: ms(-2);
-      margin-top: 0.25rem;
     }
   }
 
@@ -69,6 +68,10 @@
     .btn {
       padding: .75rem 1.5rem;
       margin-left: auto;
+
+      span:nth-child(2) {
+        margin-top: 0.25rem;
+      }
     }
   }
 
