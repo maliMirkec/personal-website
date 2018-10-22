@@ -3,8 +3,8 @@ title: Westwing
 comments: false
 banner2:
   span: "Do you like what I do? Do you think I could help you with your project?"
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
 description: Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
 portfolio: true
 ---

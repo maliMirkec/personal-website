@@ -3,8 +3,8 @@ title: Setup
 comments: false
 banner1:
   span: "Do you like what I do? Do you think I could help you with your project?"
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
 date: 2017-08-02 20:08:06
 description: Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
 sidebar: true
@@ -23,6 +23,7 @@ _Inspired by [Harry Robertson's setup](//csswizardry.com/uses/) and [Wes Bos's s
   - Magic Trackpad 2
   - Magic Mouse 2
   - Magic keyboard
+  - Logitech Wireless Trackball M570
 - [Asus Transformer Book T100TAF](//www.asus.com/us/2-in-1-PCs/ASUS_Transformer_Book_T100TAF/)
 - 2 x [Dell S2716DG 27''](//www.dell.com/en-us/shop/dell-27-gaming-monitor-s2716dg/apd/210-agjr/monitors-monitor-accessories)
 - [Anker SoundCore Boost](//www.anker.com/products/variant/SoundCore-Boost-Bluetooth-Speaker-/A3145011)

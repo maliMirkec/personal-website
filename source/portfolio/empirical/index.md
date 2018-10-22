@@ -3,8 +3,8 @@ title: Empirical Wealth Management
 comments: false
 banner2:
   span: "Do you like what I do? Do you think I could help you with your project?"
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
 description: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on Wordpress and WPEngine.
 portfolio: true
 ---
