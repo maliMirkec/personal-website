@@ -3,20 +3,20 @@ title: About me
 id: 79
 banner2:
   span: "Do you like what I do? Do you think I could help you with your project?"
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
 comments: false
 date: 2016-08-14 08:17:36
-description: I am Silvestar Bistrović, fearless consultant developer, JAMstack enthusiast, Wordpress coder, and blog writer.
+description: I am Silvestar Bistrović, fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
 sidebar: true
 ---
 
-I am Silvestar Bistrović, fearless web developer, [JAMstack](//jamstack.org/) enthusiast, Wordpress coder, and blog writer.
+I am Silvestar Bistrović, fearless web developer, CSS craftsman, [JAMstack](//jamstack.org/) enthusiast, and Wordpress theme specialist.
 
-[Hexo](//hexo.io/), [Middleman](//middlemanapp.com/), [Netlify](//www.netlify.com/), [Cloudflare](//www.cloudflare.com/), [Cloudinary](//cloudinary.com/), [Gulp](//gulpjs.com/), [Webpack](//webpack.js.org/), and [Git](//git-scm.com/) are just part of my JAMstack skill set.
+I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using Wordpress or Static Page Generators is my specialty.
 
-Besides pixel-perfect design, my focus is on performance. Projects I manage have high scores on page speed testing tools.
+When I am not coding, I like to write new articles on my blog.
 
-I am working as a freelance web developer at [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers).
+I am working as a freelance web developer, and I am working remotely from my office in Osijek, Croatia.
 
 If you want to get in touch, [contact me](https://silvestar.typeform.com/to/p8HdMq) or [a tweet](twitter.com/malimirkeccita).

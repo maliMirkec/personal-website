@@ -1,7 +1,7 @@
 site:
-  full_name: Silvestar Bistrović—fearless web developer, JAMstack enthusiast, Wordpress coder, and blog writer.
+  full_name: Silvestar Bistrović—fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
   short_name: Silvestar Bistrović
-  description: Silvestar Bistrović is fearless web developer, JAMstack enthusiast, Wordpress coder, and blog writer.
+  description: Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
@@ -12,9 +12,9 @@ home_page:
     title: Silvestar Bistrović
     headings:
      - Fearless web developer
+     - CSS craftsman
      - JAMstack enthusiast
-     - Wordpress coder
-     - Blog writer
+     - Wordpress theme specialist
     list_class: beta
   - section:
     position: gamma
@@ -125,6 +125,7 @@ menu:
     Blog: /categories/articles
     Portfolio: /portfolio
     About: /about-me
+    Links: /links
     Starter Project: //starter.silvestarbistrovic.from.hr
 
 portfolio:
@@ -143,8 +144,7 @@ sidebar:
   title: Links
   items:
     About: /about-me/
-    Hire me: /hire-me/
-    Services: /services/
+    Links: /links/
     Setup: /uses/
     Contact: https://silvestar.typeform.com/to/p8HdMq
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
@@ -156,14 +156,14 @@ sidebar:
 
 banner1:
   span: "Do you need a new website? I am available for new projects."
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
   href: https://silvestar.typeform.com/to/p8HdMq
 
 banner2:
   span: "I would like to hear more about your new project. Let's start communication."
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
   href: https://silvestar.typeform.com/to/p8HdMq
 
 widgets:

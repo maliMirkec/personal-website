@@ -3,8 +3,8 @@ title: Services
 comments: false
 banner2:
   span: "Do you like what I do? Do you think I could help you with your project?"
-  btn1: "Hire me"
-  btn2: "Earliest This November"
+  btn1: "Get in touch"
+  btn2: "Say hi or propose a topic"
 date: 2017-08-03 09:34:48
 description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 sidebar: true
