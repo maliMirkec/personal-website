@@ -126,7 +126,7 @@ menu:
     Portfolio: /portfolio
     About: /about-me
     Links: /links
-    Starter Project: //starter.silvestarbistrovic.from.hr
+    Learn Hugo: //skl.sh/2q88Ij7
 
 portfolio:
   title: Projects
@@ -155,13 +155,12 @@ sidebar:
     Silvestar Bistrović: /
 
 banner1:
-  span: "Do you need a new website? I am available for new projects."
-  btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
-  href: https://silvestar.typeform.com/to/p8HdMq
-
+  span: "Hugo is “the world’s fastest framework for building websites.”"
+  btn1: "Learn Hugo"
+  btn2: "Make a website within an hour"
+  link: //skl.sh/2q88Ij7
 banner2:
-  span: "I would like to hear more about your new project. Let's start communication."
+  span: "Do you need a new website? I am available for new projects."
   btn1: "Get in touch"
   btn2: "Say hi or propose a topic"
   href: https://silvestar.typeform.com/to/p8HdMq
