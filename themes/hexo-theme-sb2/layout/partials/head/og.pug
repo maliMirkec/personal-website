@@ -7,8 +7,8 @@ if (theme && theme.open_graph)
   if (desc)
     meta(property="og:description" content=desc)
 
-  if (page && page.permalink)
-    meta(property="og:url" content=page.permalink)
+  if (config && config.url && path)
+    meta(property="og:url" content=config.url+'/'+path.replace('index.html',''))
 
   if (theme && theme.site.full_name)
     meta(property="og:site_name" content=theme.site.full_name)
