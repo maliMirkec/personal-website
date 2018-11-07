@@ -46,6 +46,7 @@
   &:focus,
   &:active {
     background-color: lighten($color-beta, 5%);
+    background-image: none;
   }
 
   @include mq($from: tablet) {

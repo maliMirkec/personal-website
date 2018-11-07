@@ -494,7 +494,8 @@ img {
   .nav__list--about-me .nav__item:nth-child(4) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
   .nav__link:hover, .nav__link:focus, .nav__link:active {
-    background-color: #12e09f; }
+    background-color: #12e09f;
+    background-image: none; }
   @media (min-width: 48em) {
     .nav__link {
       background-size: 20px 20px;
@@ -542,7 +543,8 @@ img {
     display: block;
     max-width: 30px; }
   .subnav__link:hover, .subnav__link:focus, .subnav__link:active {
-    background-color: #ed1f65; }
+    background-color: #ed1f65;
+    background-image: none; }
   @media (min-width: 48em) {
     .subnav__link {
       padding: 17.5px 25px; } }

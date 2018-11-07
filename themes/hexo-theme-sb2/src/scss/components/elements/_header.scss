@@ -63,6 +63,7 @@
   &:focus,
   &:active {
     background-color: $color-alpha;
+    background-image: none;
   }
 
   @include mq($from: tablet) {
