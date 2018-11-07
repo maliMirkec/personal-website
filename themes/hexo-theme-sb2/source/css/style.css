@@ -450,8 +450,9 @@ img {
   grid-template-areas: "title" "pbanner" "content" "meta"; }
 
 .header {
-  background-color: #12e09f;
-  color: #fff; }
+  background-color: #15eca8;
+  background-image: linear-gradient(to bottom, #1fedac, #10c88e);
+  color: #1f1f1f; }
 
 .nav__list {
   display: flex;
@@ -493,7 +494,8 @@ img {
   .nav__list--about-me .nav__item:nth-child(4) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
   .nav__link:hover, .nav__link:focus, .nav__link:active {
-    background-color: #1fedac; }
+    background-color: #12e09f;
+    background-image: none; }
   @media (min-width: 48em) {
     .nav__link {
       background-size: 20px 20px;
@@ -506,6 +508,7 @@ img {
 
 .footer {
   background-color: #e01258;
+  background-image: linear-gradient(to bottom, #e01258, #c8104f);
   color: #fff;
   font-size: 16px;
   line-height: 30px;
@@ -540,7 +543,8 @@ img {
     display: block;
     max-width: 30px; }
   .subnav__link:hover, .subnav__link:focus, .subnav__link:active {
-    background-color: #ed1f65; }
+    background-color: #ed1f65;
+    background-image: none; }
   @media (min-width: 48em) {
     .subnav__link {
       padding: 17.5px 25px; } }
@@ -1075,16 +1079,21 @@ img {
 .banner--alpha {
   border: 1px solid #12e09f; }
   .banner--alpha .btn {
-    background-color: #e01258; }
+    background-color: #d21152;
+    background-image: linear-gradient(to bottom, #e01258, #c8104f); }
     .banner--alpha .btn:hover, .banner--alpha .btn:focus, .banner--alpha .btn:active {
-      background-color: #ed1f65; }
+      background-color: #e01258;
+      background-image: linear-gradient(to top, #e01258, #c8104f); }
 
 .banner--beta {
   border: 1px solid #e01258; }
   .banner--beta .btn {
-    background-color: #12e09f; }
+    background-color: #15eca8;
+    background-image: linear-gradient(to bottom, #1fedac, #10c88e);
+    color: #1f1f1f; }
     .banner--beta .btn:hover, .banner--beta .btn:focus, .banner--beta .btn:active {
-      background-color: #1fedac; }
+      background-color: #12e09f;
+      background-image: linear-gradient(to top, #1fedac, #10c88e); }
 
 .highlight {
   margin: 2em 0;

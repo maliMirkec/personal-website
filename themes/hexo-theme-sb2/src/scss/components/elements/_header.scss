@@ -1,7 +1,8 @@
 // Header
 .header {
-  background-color: $color-alpha;
-  color: $color-omega;
+  background-color: lighten($color-alpha, 3%);
+  background-image: linear-gradient(to bottom, lighten($color-alpha, 5%), darken($color-alpha, 5%));
+  color: $color-psi;
 }
 
 .nav__list {
@@ -61,7 +62,8 @@
   &:hover,
   &:focus,
   &:active {
-    background-color: lighten($color-alpha, 5%);
+    background-color: $color-alpha;
+    background-image: none;
   }
 
   @include mq($from: tablet) {

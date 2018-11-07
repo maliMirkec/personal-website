@@ -128,10 +128,6 @@ img {
   grid-area: content;
 }
 
-.main > div.page-banner {
-  grid-area: pbanner;
-}
-
 @media (min-width: 30em) {
   .main {
     padding: 0 0 50px;
@@ -172,8 +168,9 @@ img {
 }
 
 .header {
-  background-color: #12e09f;
-  color: #fff;
+  background-color: #15eca8;
+  background-image: linear-gradient(to bottom, #1fedac, #10c88e);
+  color: #1f1f1f;
 }
 
 .nav__list {
@@ -269,80 +266,4 @@ img {
 
 .content > *:first-child {
   margin-top: 0;
-}
-
-.banner {
-  padding: .5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.banner p {
-  font-size: 0.75019rem;
-  margin-top: 0;
-  margin-right: 0.5em;
-}
-
-.banner span {
-  display: block;
-  color: inherit;
-}
-
-.banner .btn {
-  border: none;
-  color: #fff;
-  padding: .125rem .5rem .25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  white-space: nowrap;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-.banner .btn span {
-  text-transform: uppercase;
-  color: inherit;
-  font-weight: inherit;
-}
-
-.banner .btn span:nth-child(1) {
-  letter-spacing: calc(50 / 1000 * 1em);
-  font-family: "Playfair Display";
-}
-
-@media (min-width: 30em) {
-  .banner {
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .banner p {
-    margin-bottom: 0;
-  }
-
-  .banner .btn {
-    padding: .75rem 1.5rem;
-    margin-left: auto;
-  }
-}
-
-@media (min-width: 48em) {
-  .banner span {
-    display: inline;
-  }
-}
-
-@media (min-width: 75em) {
-  .banner p {
-    font-size: 1rem;
-  }
-}
-
-.banner--beta {
-  border: 1px solid #e01258;
-}
-
-.banner--beta .btn {
-  background-color: #12e09f;
 }

@@ -1,11 +1,11 @@
 body {
   color: $color-psi;
   font-family: sans-serif;
-  -webkit-font-smoothing: auto;
   font-style: normal;
   font-weight: 400;
-  -moz-osx-font-smoothing: auto;
   font-display: optional;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1,
