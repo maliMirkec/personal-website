@@ -138,8 +138,9 @@ img {
 }
 
 .header {
-  background-color: #12e09f;
-  color: #fff;
+  background-color: #15eca8;
+  background-image: linear-gradient(to bottom, #1fedac, #10c88e);
+  color: #1f1f1f;
 }
 
 .nav__list {
@@ -408,5 +409,6 @@ img {
 }
 
 .banner--alpha .btn {
-  background-color: #e01258;
+  background-color: #d21152;
+  background-image: linear-gradient(to bottom, #e01258, #c8104f);
 }

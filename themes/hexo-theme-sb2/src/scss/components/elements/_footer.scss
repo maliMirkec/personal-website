@@ -1,6 +1,7 @@
 // Footer
 .footer {
   background-color: $color-beta;
+  background-image: linear-gradient(to bottom, $color-beta, darken($color-beta, 5%));
   color: $color-omega;
   font-size: 16px;
   line-height: 30px;
@@ -45,6 +46,7 @@
   &:focus,
   &:active {
     background-color: lighten($color-beta, 5%);
+    background-image: none;
   }
 
   @include mq($from: tablet) {
