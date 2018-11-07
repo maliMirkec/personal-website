@@ -92,12 +92,14 @@
   border: 1px solid $color-alpha;
 
   .btn {
-    background-color: $color-beta;
+    background-color: darken($color-beta, 3%);
+    background-image: linear-gradient(to bottom, $color-beta, darken($color-beta, 5%));
 
     &:hover,
     &:focus,
     &:active {
-      background-color: lighten($color-beta, 5%);
+      background-color: $color-beta;
+      background-image: linear-gradient(to top, $color-beta, darken($color-beta, 5%));
     }
   }
 }
@@ -106,12 +108,15 @@
   border: 1px solid $color-beta;
 
   .btn {
-    background-color: $color-alpha;
+    background-color: lighten($color-alpha, 3%);
+    background-image: linear-gradient(to bottom, lighten($color-alpha, 5%), darken($color-alpha, 5%));
+    color: $color-psi;
 
     &:hover,
     &:focus,
     &:active {
-      background-color: lighten($color-alpha, 5%);
+      background-color: $color-alpha;
+      background-image: linear-gradient(to top, lighten($color-alpha, 5%), darken($color-alpha, 5%));
     }
   }
 }

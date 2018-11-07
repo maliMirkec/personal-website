@@ -1,6 +1,7 @@
 // Footer
 .footer {
   background-color: $color-beta;
+  background-image: linear-gradient(to bottom, $color-beta, darken($color-beta, 5%));
   color: $color-omega;
   font-size: 16px;
   line-height: 30px;
