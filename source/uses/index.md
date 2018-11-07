@@ -2,9 +2,9 @@
 title: Setup
 comments: false
 banner1:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 date: 2017-08-02 20:08:06
 description: Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
 sidebar: true

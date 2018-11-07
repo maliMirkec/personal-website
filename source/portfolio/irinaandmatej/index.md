@@ -2,9 +2,9 @@
 title: Irina & Matej
 comments: false
 banner1:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
 portfolio: true
 ---

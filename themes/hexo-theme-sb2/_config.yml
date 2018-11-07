@@ -56,7 +56,7 @@ home_page:
     position: delta
     title: Contact
     links:
-      Contact: https://silvestar.typeform.com/to/p8HdMq
+      Contact: https://silvestar.typeform.com/to/jS4Qkz
       Skype: //join.skype.com/invite/jtWeft24StMV
       LinkedIn: //www.linkedin.com/in/starbist/
       Twitter: //twitter.com/malimirkeccita
@@ -125,7 +125,7 @@ menu:
     Blog: /categories/articles
     Portfolio: /portfolio
     About: /about-me
-    Links: /links
+    Contact: https://silvestar.typeform.com/to/p8HdMq
     Learn Hugo: //skl.sh/2q88Ij7
 
 portfolio:
@@ -155,22 +155,23 @@ sidebar:
     Silvestar Bistrović: /
 
 banner1:
-  span: "Hugo is “the world’s fastest framework for building websites.”"
-  btn1: "Learn Hugo"
-  btn2: "Make a website within an hour"
-  link: //skl.sh/2q88Ij7
+  span: "I am currently considering new projects for the next year. Contact me if you want me on your team."
+  btn1: "Get in touch"
+  btn2: "2019 Q1-Q1"
+  link: https://silvestar.typeform.com/to/jS4Qkz
+
 banner2:
-  span: "Do you need a new website? I am available for new projects."
+  span: "Contact me! I would be glad to start a fresh discussion with you. Or you could just say hi."
   btn1: "Get in touch"
   btn2: "Say hi or propose a topic"
-  href: https://silvestar.typeform.com/to/p8HdMq
+  link: https://silvestar.typeform.com/to/p8HdMq
 
 widgets:
   about:
     paragraphs:
       - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
     contact:
-      Contact: https://silvestar.typeform.com/to/p8HdMq
+      Contact: https://silvestar.typeform.com/to/jS4Qkz
       Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
       LinkedIn: //www.linkedin.com/in/starbist/
       GitHub: //github.com/maliMirkec
@@ -178,7 +179,7 @@ widgets:
       Twitter: //twitter.com/malimirkeccita
   subnav:
     Silvestar Bistrović: /
-    Contact: https://silvestar.typeform.com/to/p8HdMq
+    Contact: https://silvestar.typeform.com/to/jS4Qkz
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec

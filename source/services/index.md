@@ -2,9 +2,9 @@
 title: Services
 comments: false
 banner2:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 date: 2017-08-03 09:34:48
 description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 sidebar: true

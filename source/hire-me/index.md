@@ -2,9 +2,9 @@
 title: I'm available for hire
 comments: false
 banner1:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 date: 2017-08-02 11:37:55
 description: If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true

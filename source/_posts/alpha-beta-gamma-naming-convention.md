@@ -5,16 +5,7 @@ categories:
   - Blog
 tags:
   - css
-banner1:
-  span: "Hugo is “the world’s fastest framework for building websites.”"
-  btn1: "Learn Hugo"
-  btn2: "Make a website within an hour"
-  link: //skl.sh/2q88Ij7
-banner2:
-  span: "Hugo is “the world’s fastest framework for building websites.”"
-  btn1: "Learn Hugo"
-  btn2: "Make a website within an hour"
-  link: //skl.sh/2q88Ij7
+  - BEM
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1541583301/Alpha_Beta_Gamma_Naming_Convention_mp0vjf.jpg
 comments: true
 description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
