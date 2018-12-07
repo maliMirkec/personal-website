@@ -1027,7 +1027,8 @@ img {
   display: flex;
   flex-direction: column; }
   .post-banner .banner {
-    margin-top: 1em; }
+    margin-top: 1em;
+    margin-bottom: 1em; }
   .banner p {
     font-size: 0.75019rem;
     margin-top: 0;
