@@ -24,7 +24,7 @@ The task is to build a sticky header that appears when the user scrolls past the
 
 To make it easier to understand the specifications, see this pen that contains the full solution:
 
-{% codepen CiTA BGQPBz dark result 350 %}
+{% codepen CiTA BGQPBz dark result 550 %}
 
 # The breakdown
 
