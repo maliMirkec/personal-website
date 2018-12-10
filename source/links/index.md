@@ -1,9 +1,9 @@
 ---
 title: Links
 banner2:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 comments: false
 date: 2018-10-22 13:38:37
 description: Here you could find links to all my profiles and projects.

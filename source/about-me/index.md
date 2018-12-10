@@ -2,9 +2,9 @@
 title: About me
 id: 79
 banner2:
-  span: "Do you like what I do? Do you think I could help you with your project?"
+  span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "Say hi or propose a topic"
+  btn2: "2019 Q1-Q1"
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
@@ -19,4 +19,4 @@ When I am not coding, I like to write new articles on my blog.
 
 I am working as a freelance web developer, and I am working remotely from my office in Osijek, Croatia.
 
-If you want to get in touch, [contact me](https://silvestar.typeform.com/to/p8HdMq) or [a tweet](twitter.com/malimirkeccita).
+If you want to get in touch, [contact me](https://silvestar.typeform.com/to/jS4Qkz) or [a tweet](twitter.com/malimirkeccita).
