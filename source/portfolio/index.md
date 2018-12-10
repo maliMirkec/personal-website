@@ -4,9 +4,9 @@ comments: false
 description: This website is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to contact me.
 grid:
   banner1:
-    span: "Do you like what I do? Do you think I could help you with your project?"
+    span: "I am currently considering new projects for the next year."
     btn1: "Get in touch"
-    btn2: "Say hi or propose a topic"
+    btn2: "2019 Q1-Q1"
   list:
     - item:
       title: Westwing
