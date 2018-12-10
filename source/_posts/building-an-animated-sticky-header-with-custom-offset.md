@@ -9,7 +9,7 @@ tags:
 thumbnail: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
 retina: true
 comments: true
-description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
+description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.
