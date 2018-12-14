@@ -117,8 +117,6 @@ let FontFaceObserver;
       console.log(`Main fonts not loaded.`)
     })
   }, (e) => {
-    console.log(e)
-
     console.log(`Subset fonts not loaded.`)
   })
 })()
