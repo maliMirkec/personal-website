@@ -294,8 +294,6 @@ var FontFaceObserver = void 0;
       console.log("Main fonts not loaded.");
     });
   }, function (e) {
-    console.log(e);
-
     console.log("Subset fonts not loaded.");
   });
 })();
