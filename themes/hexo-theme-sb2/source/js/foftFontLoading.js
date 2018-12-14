@@ -221,7 +221,7 @@ var FontFaceObserver = void 0;
    * @type {Object}
    */
   var fontASubset1 = new FontFaceObserver('Barlow Subset', {
-    weight: 300,
+    weight: 'normal',
     style: 'normal'
   });
 
@@ -248,12 +248,12 @@ var FontFaceObserver = void 0;
      * @type {Object}
      */
     var fontA1 = new FontFaceObserver('Barlow', {
-      weight: 300,
+      weight: 'normal',
       style: 'normal'
     });
 
     var fontA2 = new FontFaceObserver('Barlow', {
-      weight: 300,
+      weight: 'normal',
       style: 'italic'
     });
 
@@ -293,7 +293,9 @@ var FontFaceObserver = void 0;
     }, function () {
       console.log("Main fonts not loaded.");
     });
-  }, function () {
+  }, function (e) {
+    console.log(e);
+
     console.log("Subset fonts not loaded.");
   });
 })();

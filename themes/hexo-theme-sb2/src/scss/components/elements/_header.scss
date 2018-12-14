@@ -1,8 +1,7 @@
 // Header
 .header {
-  background-color: lighten($color-alpha, 3%);
-  background-image: linear-gradient(to bottom, lighten($color-alpha, 5%), darken($color-alpha, 5%));
-  color: $color-psi;
+  background-color: darken($color-alpha, 8%);
+  color: $color-omega;
 }
 
 .nav__list {
@@ -37,7 +36,7 @@
   padding: 5px 10px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
@@ -59,11 +58,14 @@
     background-image: url(/gfx/svg/logo-header.svg);
   }
 
+  .nav__list--links .nav__item:nth-child(5) & {
+    background-image: url(/gfx/svg/logo-header.svg);
+  }
+
   &:hover,
   &:focus,
   &:active {
-    background-color: $color-alpha;
-    background-image: none;
+    background-color: darken($color-alpha, 4%);
   }
 
   @include mq($from: tablet) {
