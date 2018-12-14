@@ -225,30 +225,30 @@
   p {
     font-size: ms(-1);
     transform: skewX(1deg);
+    font-style: italic;
   }
 
   h5 {
     font-family: $font-beta;
     font-size: ms(0);
-    font-style: italic;
+    font-weight: bold;
     transform: skewX(1deg);
+    @include ls(40);
   }
 
   h6 {
     font-family: $font-beta;
-    color: $color-beta;
-    font-size: ms(-2);
+    color: darken($color-alpha, 10%);
+    font-weight: bold;
+    font-size: ms(-1);
     margin-top: 0.5rem;
     margin-bottom: 0;
-    transform: skewX(1deg);
-
-    span + span {
-      color: $color-alpha;
-    }
+    transform: skewX(2deg);
+    @include ls(20);
   }
 
   a {
-    color: $color-alpha;
+    color: darken($color-alpha, 10%);
   }
 
   @include mq($from: tablet) {

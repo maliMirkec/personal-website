@@ -161,7 +161,16 @@ $tra2: cubic-bezier(0.15, -0.15, 0.6, 1.2);
 /// @group 1.3 Fonts
 /// @name font-alpha-subset
 /// @since 1.0.0
-$font-alpha-subset: 'Barlow Subset';
+$font-alpha-subset-def: 'Barlow Subset';
+
+/// Barlow Subset Fallback
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example font-family: $font-alpha-subset;
+/// @group 1.3 Fonts
+/// @name font-alpha-subset
+/// @since 1.0.0
+$font-alpha-subset: 'Barlow Subset', sans-serif;
 
 /// Barlow
 /// @access public
@@ -170,7 +179,16 @@ $font-alpha-subset: 'Barlow Subset';
 /// @group 1.3 Fonts
 /// @name font-alpha
 /// @since 1.0.0
-$font-alpha: 'Barlow';
+$font-alpha-def: 'Barlow';
+
+/// Barlow Fallback
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example font-family: $font-alpha;
+/// @group 1.3 Fonts
+/// @name font-alpha
+/// @since 1.0.0
+$font-alpha: 'Barlow', sans-serif;
 
 /// Playfair Display Subset
 /// @access public
@@ -179,7 +197,16 @@ $font-alpha: 'Barlow';
 /// @group 1.3 Fonts
 /// @name font-beta-subset
 /// @since 1.0.0
-$font-beta-subset: 'Playfair Display Subset';
+$font-beta-subset-def: 'Playfair Display Subset';
+
+/// Playfair Display Subset Fallback
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example font-family: $font-beta-subset;
+/// @group 1.3 Fonts
+/// @name font-beta-subset
+/// @since 1.0.0
+$font-beta-subset: 'Playfair Display Subset', serif;
 
 /// Playfair Display
 /// @access public
@@ -188,7 +215,16 @@ $font-beta-subset: 'Playfair Display Subset';
 /// @group 1.3 Fonts
 /// @name font-beta
 /// @since 1.0.0
-$font-beta: 'Playfair Display';
+$font-beta-def: 'Playfair Display';
+
+/// Playfair Display Fallback
+/// @access public
+/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @example font-family: $font-beta;
+/// @group 1.3 Fonts
+/// @name font-beta
+/// @since 1.0.0
+$font-beta: 'Playfair Display', serif;
 
 /// Courier New', Courier, monospac
 /// @access public

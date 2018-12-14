@@ -401,7 +401,7 @@
       "run": false
     },
     "deploy": {
-      "run": true
+      "run": false
     },
     "timeout": 59000
   },

@@ -138,9 +138,8 @@ img {
 }
 
 .header {
-  background-color: #15eca8;
-  background-image: linear-gradient(to bottom, #1fedac, #10c88e);
-  color: #1f1f1f;
+  background-color: #0fba84;
+  color: #fff;
 }
 
 .nav__list {
@@ -177,7 +176,7 @@ img {
   padding: 5px 10px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
@@ -217,7 +216,7 @@ img {
 }
 
 .list h5 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif, sans-serif;
   font-size: 1.333rem;
   font-weight: 400;
   margin-top: .5em;
@@ -363,11 +362,12 @@ img {
 
 .banner .btn span:nth-child(1) {
   letter-spacing: calc(50 / 1000 * 1em);
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 .banner .btn span:nth-child(2) {
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   letter-spacing: calc(25 / 1000 * 1em);
   font-size: 0.56278rem;
 }
@@ -409,6 +409,5 @@ img {
 }
 
 .banner--alpha .btn {
-  background-color: #d21152;
-  background-image: linear-gradient(to bottom, #e01258, #c8104f);
+  background-color: #e01258;
 }

@@ -32,7 +32,7 @@
             each quote in section.quotes
               li.list__item
                 blockquote
-                  p= quote.text
+                  p= "“" + quote.text + "”"
                   h5= "➡ " + quote.person
                   h6
                     span= quote.position
