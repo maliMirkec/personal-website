@@ -165,6 +165,22 @@ img {
   }
 }
 
+.profile {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-image: linear-gradient(to right, transparent, #f5f5f5, transparent);
+}
+
+.article .profile {
+  margin-bottom: 2em;
+}
+
+.profile img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+}
+
 .header {
   background-color: #0fba84;
   color: #fff;
@@ -281,10 +297,6 @@ img {
   text-decoration: none;
 }
 
-.list img[src*=".svg"] {
-  max-width: 50px;
-}
-
 .list:not(.list--bullets) {
   list-style: none;
 }
@@ -295,11 +307,6 @@ img {
 
 .list__item {
   margin-bottom: 0.25em;
-}
-
-.list__link--logo {
-  display: block;
-  margin-top: 0.5em;
 }
 
 .list__link.list__link--current {

@@ -57,6 +57,30 @@
 
 .home__box--alpha {
   grid-area: alpha;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-areas: "heading"
+  "profile"
+  "list";
+
+  @include mq($from: tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-template-areas: "heading heading"
+      "profile list";
+  }
+
+  h1 {
+    grid-area: heading;
+  }
+
+  .list {
+    grid-area: list;
+  }
+
+  .profile {
+    grid-area: profile;
+  }
 }
 
 .home__box--beta {

@@ -105,3 +105,19 @@ img {
   "content"
   "meta";
 }
+
+.profile {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-image: linear-gradient(to right, transparent, $color-gamma, transparent);
+
+  .article & {
+    margin-bottom: 2em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+  }
+}
