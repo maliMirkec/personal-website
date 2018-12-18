@@ -10,7 +10,7 @@ description: Here you could find links to all my profiles and projects.
 sidebar: true
 ---
 
-Here you could find links to all my profiles and projects.
+Here you could find links to all my profiles and projects. My direct email is [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr).
 
 ### Social
 - [Twitter](//twitter.com/malimirkeccita)

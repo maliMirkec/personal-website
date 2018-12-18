@@ -10,6 +10,7 @@ home_page:
   - section:
     position: alpha
     title: Silvestar Bistrović
+    profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
     headings:
      - Fearless web developer
      - CSS craftsman
@@ -185,6 +186,7 @@ widgets:
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
+    Feed: //www.silvestarbistrovic.from.hr/rss2.xml
   disqus:
     shortname: silvestarbistrovic
   sharing:
