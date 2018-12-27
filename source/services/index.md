@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "2019 Q1-Q1"
+  btn2: "2019 Q2-Q3"
 date: 2017-08-03 09:34:48
 description: I've been working with web technologies since 2011. During this period, I've learned a lot. Here's the list of services that I could offer you.
 sidebar: true

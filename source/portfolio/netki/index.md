@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "2019 Q1-Q1"
+  btn2: "2019 Q2-Q3"
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on Wordpress and WPEngine.
 portfolio: true
 ---

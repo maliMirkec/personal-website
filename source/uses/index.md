@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "2019 Q1-Q1"
+  btn2: "2019 Q2-Q3"
 date: 2017-08-02 20:08:06
 description: Working effeciantly is often not that easy. In order to save time, you gotta spend time first. These devices, tools, and software are helping me in my everyday tasks.
 sidebar: true

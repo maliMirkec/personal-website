@@ -4,7 +4,7 @@ id: 79
 banner2:
   span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "2019 Q1-Q1"
+  btn2: "2019 Q2-Q3"
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.

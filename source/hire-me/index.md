@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "I am currently considering new projects for the next year."
   btn1: "Get in touch"
-  btn2: "2019 Q1-Q1"
+  btn2: "2019 Q2-Q3"
 date: 2017-08-02 11:37:55
 description: If you want me on your team, you should send me an email at me@silvestarbistrovic.from.hr. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true
