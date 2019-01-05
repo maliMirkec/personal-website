@@ -39,18 +39,18 @@ home_page:
     position: beta
     title: Featured Articles
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg
+        title: 2018 Lookback
+        href: /articles/2018-lookback/
+      - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
+        title: Building an animated sticky header with custom offset
+        href: /articles/building-an-animated-sticky-header-with-custom-offset/
       - src: //res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
         title: 'Using CSS Grid where appropriate (revisited)'
         href: /articles/using-css-grid-where-appropriate-revisited/
       - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
         title: Overview of Popular Static Site Generators
         href: /articles/overviev-of-popular-static-site-generators/
-      - src: //res.cloudinary.com/starbist/image/upload/v1531903322/The_Essential_Skill_Of_A_Developer_csb5dm.jpg
-        title: The Essential Skill Of A Developer
-        href: /articles/modern-frontend-developer-skills-and-tools/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
-        title: My first year of freelancing
-        href: /articles/my-first-year-of-freelancing/
     links:
       See all articles →: /categories/articles/
   - section:
