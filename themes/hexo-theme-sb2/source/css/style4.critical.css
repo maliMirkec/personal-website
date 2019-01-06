@@ -13,6 +13,13 @@ a {
   background-color: transparent;
 }
 
+code {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
 img {
   border-style: none;
 }
@@ -68,6 +75,10 @@ h2 a {
 
 p {
   margin-top: 1.333rem;
+}
+
+code {
+  line-height: 1;
 }
 
 body {

@@ -6,6 +6,7 @@
   "override2": true,
   "html": {
     "run": true,
+    "pug": true,
     "src": "../layout",
     "dist": "",
     "lint": true
@@ -50,12 +51,7 @@
   "jsdoc": {
     "run": false
   },
-  "favicons": {
-    "run": true,
-    "src": "favicons",
-    "dist": "favicons"
-  },
   "penthouse": {
-    "run": true
+    "run": false
   }
 }

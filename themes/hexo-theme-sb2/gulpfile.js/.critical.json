@@ -7,7 +7,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
@@ -23,7 +23,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
@@ -39,7 +39,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
@@ -55,7 +55,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
@@ -71,7 +71,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
@@ -87,7 +87,7 @@
     "height": 1800,
     "keepLargerMediaQueries": true,
     "strict": false,
-    "blockJSRequests": false,
+    "blockJSRequests": true,
     "renderWaitTime": 3000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
