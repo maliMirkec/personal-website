@@ -39,21 +39,16 @@
     "run": true
   },
   "gzip": {
-    "run": false
+    "run": true
   },
   "kss": {
-    "run": false
+    "run": true
   },
   "sassdoc": {
-    "run": false
+    "run": true
   },
   "jsdoc": {
-    "run": false
-  },
-  "favicons": {
-    "run": true,
-    "src": "favicons",
-    "dist": "favicons"
+    "run": true
   },
   "penthouse": {
     "run": true
