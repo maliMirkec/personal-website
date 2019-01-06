@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * A better CSS Loading.
@@ -22,7 +22,6 @@ var loadDeferredStyles = function loadDeferredStyles() {
    * @type {HTMLElement}
    */
   var addStylesNode = document.getElementById('deferredStyles');
-
   /**
    * New empty div that will be appended at the end
    * of the body. In it we will load our styles.
@@ -31,8 +30,8 @@ var loadDeferredStyles = function loadDeferredStyles() {
    * @name replacement
    * @type {HTMLElement}
    */
-  var replacement = document.createElement('div');
 
+  var replacement = document.createElement('div');
   replacement.innerHTML = addStylesNode.textContent;
   document.body.appendChild(replacement);
   addStylesNode.parentElement.removeChild(addStylesNode);

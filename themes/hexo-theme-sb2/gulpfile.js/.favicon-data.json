@@ -1,0 +1,69 @@
+{
+  "masterPicture": "helpers.source/gfx/svg/logo.svg",
+  "temp": "helpers.source/favicon/",
+  "dest": "helpers.dist/favicon/",
+  "iconsPath": "/favicon/",
+  "markupFile": "helpers.proot/gulpfile.js/.favicon-data-generated.json",
+  "design": {
+    "ios": {
+      "pictureAspect": "backgroundAndMargin",
+      "backgroundColor": "#ffffff",
+      "margin": "42%",
+      "assets": {
+        "ios6AndPriorIcons": true,
+        "ios7AndLaterIcons": true,
+        "precomposedIcons": true,
+        "declareOnlyDefaultIcon": true
+      },
+      "appName": "Silvestar Bistrović"
+    },
+    "desktopBrowser": {},
+    "windows": {
+      "pictureAspect": "noChange",
+      "backgroundColor": "#2b5797",
+      "onConflict": "override",
+      "assets": {
+        "windows80Ie10Tile": true,
+        "windows10Ie11EdgeTiles": {
+          "small": true,
+          "medium": true,
+          "big": true,
+          "rectangle": true
+        }
+      },
+      "appName": "Silvestar Bistrović"
+    },
+    "androidChrome": {
+      "pictureAspect": "noChange",
+      "themeColor": "#ffffff",
+      "manifest": {
+        "name": "Silvestar Bistrović",
+        "display": "browser",
+        "orientation": "notSet",
+        "onConflict": "override",
+        "declared": true
+      },
+      "assets": {
+        "legacyIcon": false,
+        "lowResolutionIcons": true
+      }
+    },
+    "safariPinnedTab": {
+      "pictureAspect": "blackAndWhite",
+      "threshold": 93.28125,
+      "themeColor": "#e01258"
+    }
+  },
+  "settings": {
+    "compression": 2,
+    "scalingAlgorithm": "Mitchell",
+    "errorOnImageTooSmall": false,
+    "readmeFile": false,
+    "htmlCodeFile": false,
+    "usePathAsIs": false
+  },
+  "versioning": {
+    "paramName": "v",
+    "paramValue": "starbist"
+  }
+}

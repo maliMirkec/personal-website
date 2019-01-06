@@ -1,20 +1,20 @@
 extends includes/layout
 
 block content
-  include partials/article
+  include _partials/article
 
   if (page && page.banner1)
     .page-banner
-      include partials/banner1
+      include _partials/banner1
   else if (page && page.banner2)
     .page-banner
-      include partials/banner2
+      include _partials/banner2
 
   if (page && page.sidebar)
-    include partials/sidebar
+    include _partials/sidebar
 
   if (page && page.portfolio)
-    include partials/portfolio
+    include _partials/portfolio
 
   if (page && page.grid)
-    include partials/grid
+    include _partials/grid

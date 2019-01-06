@@ -1,0 +1,16 @@
+style
+  include ../../../source/css/foft.min.css
+| <style>
+if (isHome())
+  include ../../../source/css/style.critical.min.css
+else if (page && isPortfolioPost(page))
+  include ../../../source/css/style2.critical.min.css
+else if (page && isPortfolio(page))
+  include ../../../source/css/style3.critical.min.css
+else if (isCategory())
+  include ../../../source/css/style4.critical.min.css
+else if (isPost())
+  include ../../../source/css/style5.critical.min.css
+else
+  include ../../../source/css/style6.critical.min.css
+| </style>
