@@ -1,0 +1,24 @@
+{
+  "pugConfig": {
+    "basedir": "",
+    "pretty": true,
+    "data": {
+      "config": {
+        "title": "Hexo Theme SB"
+      }
+    }
+  },
+  "htmllintConfig": {
+    "config": "",
+    "failOnError": false
+  },
+  "htmlminConfig": {
+    "collapseWhitespace": true
+  },
+  "renameConfig": {
+    "extname": ".html"
+  },
+  "inlineConfig": {
+    "rootpath": ""
+  }
+}

@@ -10,9 +10,9 @@ else
   - var lang = "en"
 
 html(lang=lang)
-  include ../partials/head
+  include ../_partials/head
   body
-    include ../partials/header
+    include ../_partials/header
     if (isHome())
       - var main_class = " main--home"
     else if (isPost())
@@ -30,5 +30,5 @@ html(lang=lang)
 
     div(class="main" + main_class + main_sidebar)
       block content
-    include ../partials/footer
-    include ../partials/starter-project
+    include ../_partials/footer
+    include ../_partials/starter-project

@@ -1,0 +1,97 @@
+[{
+  "src": "style.css",
+  "settings": {
+    "out": "style6.critical.css",
+    "url": "http://localhost:4000/about-me/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style5.critical.css",
+    "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style4.critical.css",
+    "url": "http://localhost:4000/categories/articles/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style3.critical.css",
+    "url": "http://localhost:4000/portfolio/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style2.critical.css",
+    "url": "http://localhost:4000/portfolio/westwing/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style.critical.css",
+    "url": "http://localhost:4000/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": false,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}]

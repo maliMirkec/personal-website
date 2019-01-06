@@ -1,6 +1,6 @@
 {
   "name": "silvestarbistrovic.from.hr",
-  "version": "3.0.29",
+  "version": "3.0.30",
   "description": "Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.",
   "main": "index",
   "repository": {
@@ -22,8 +22,8 @@
     "cp_redirects": "cp source/_redirects public/_redirects",
     "cp_headers": "cp source/_headers public/_headers",
     "cp_robots": "cp ./robots.txt public/robots.txt",
-    "deploy": "hexo generate && npm run cp_redirects && npm run cp_headers",
-    "dev": "hexo generate && npm run cp_redirects && npm run cp_headers && npm run cp_robots"
+    "deploy": "hexo generate --silent && npm run cp_redirects && npm run cp_headers",
+    "dev": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots"
   },
   "hexo": {
     "version": "3.7.1"

@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
 console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).');
