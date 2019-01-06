@@ -270,6 +270,10 @@ img {
   color: #1f1f1f;
 }
 
+.list--alpha p:last-child {
+  margin-bottom: 0;
+}
+
 .list--alpha span {
   color: #e01258;
 }

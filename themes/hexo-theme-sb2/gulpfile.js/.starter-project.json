@@ -6,6 +6,7 @@
   "override2": true,
   "html": {
     "run": true,
+    "pug": true,
     "src": "../layout",
     "dist": "",
     "lint": true
@@ -39,18 +40,18 @@
     "run": true
   },
   "gzip": {
-    "run": true
+    "run": false
   },
   "kss": {
-    "run": true
+    "run": false
   },
   "sassdoc": {
-    "run": true
+    "run": false
   },
   "jsdoc": {
-    "run": true
+    "run": false
   },
   "penthouse": {
-    "run": true
+    "run": false
   }
 }
