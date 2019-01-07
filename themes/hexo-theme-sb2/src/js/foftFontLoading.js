@@ -22,7 +22,9 @@ let FontFaceObserver;
  * If fonts are already loaded, then skip loading.
  */
 (function () {
-  if (window.sessionStorage.criticalFoftDataUriFontsLoaded1) {
+  console.log(window.sessionStorage.criticalFoftDataUriFontsLoaded1)
+
+  if (window.sessionStorage.criticalFoftDataUriFontsLoaded1 && true === false) {
     document.documentElement.className += ' fonts-stage-1 fonts-stage-2'
     return
   }
@@ -89,8 +91,6 @@ let FontFaceObserver;
       style: 'normal'
     })
 
-    console.log(`Subset fonts loaded.`)
-
     /**
      * A promise that adds 'fonts-stage-2' if
      * {@link fontA}
@@ -113,7 +113,9 @@ let FontFaceObserver;
       window.sessionStorage.criticalFoftDataUriFontsLoaded1 = true
 
       console.log(`Main fonts loaded.`)
-    }, () => {
+    }, (err) => {
+      console.log(err)
+
       console.log(`Main fonts not loaded.`)
     })
   }, (e) => {
