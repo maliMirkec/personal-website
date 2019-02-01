@@ -146,6 +146,7 @@ sidebar:
   items:
     About: /about-me/
     Links: /links/
+    Hire ME: /hire-me/
     Setup: /uses/
     Contact: https://silvestar.typeform.com/to/jS4Qkz
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
@@ -156,13 +157,13 @@ sidebar:
     Silvestar Bistrović: /
 
 banner1:
-  span: "I am currently considering new projects for the next year. Contact me if you want me on your team."
+  span: "I am currently considering new projects for this year. Contact me if you want me on your team."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
   link: https://silvestar.typeform.com/to/jS4Qkz
 
 banner2:
-  span: "I am currently considering new projects for the next year. Contact me."
+  span: "I am currently considering new projects for this year. Contact me."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
   href: https://silvestar.typeform.com/to/jS4Qkz

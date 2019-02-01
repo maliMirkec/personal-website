@@ -88,6 +88,23 @@
   }
 }
 
+code {
+  display: inline-block;
+  background-color: lighten($color-alpha, 45%);
+  border-color: lighten($color-alpha, 30%);
+  border-style: solid;
+  border-width: 1px 3px;
+  border-radius: .25rem;
+  padding-right: .125rem;
+  padding-left: .125rem;
+
+  &::selection {
+    background-color: lighten($color-alpha, 10%);
+    color: $color-psi;
+    text-shadow: 0 1px 0 $color-omega;
+  }
+}
+
 .article__title--alpha {
   font-size: ms(1);
   text-shadow: 0 1px 0 $color-omega;

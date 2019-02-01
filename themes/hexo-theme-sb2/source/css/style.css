@@ -390,6 +390,9 @@ code {
   text-shadow: 0 1px 0 #e01258;
   color: #fff; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -994,6 +997,24 @@ img {
   @media (min-width: 48em) {
     .article blockquote {
       padding: 20px 60px 1.414rem; } }
+
+code {
+  display: inline-block;
+  background-color: #dbfcf2;
+  border-color: #95f6d8;
+  border-style: solid;
+  border-width: 1px 3px;
+  border-radius: .25rem;
+  padding-right: .125rem;
+  padding-left: .125rem; }
+  code::-moz-selection {
+    background-color: #36efb5;
+    color: #1f1f1f;
+    text-shadow: 0 1px 0 #fff; }
+  code::selection {
+    background-color: #36efb5;
+    color: #1f1f1f;
+    text-shadow: 0 1px 0 #fff; }
 
 .article__title--alpha {
   font-size: 1.333rem;

@@ -84,6 +84,10 @@ p {
   margin-top: 1.333rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -262,108 +266,6 @@ img {
     padding: 35px 50px;
     background-size: 30px 30px;
     background-position: center bottom;
-  }
-}
-
-.footer {
-  background-color: #e01258;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e01258), to(#c8104f));
-  background-image: -webkit-linear-gradient(top, #e01258, #c8104f);
-  background-image: -o-linear-gradient(top, #e01258, #c8104f);
-  background-image: linear-gradient(to bottom, #e01258, #c8104f);
-  color: #fff;
-  font-size: 16px;
-  line-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media (min-width: 48em) {
-  .footer {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-}
-
-.subnav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0;
-  padding: 10px 5px;
-  list-style: none;
-}
-
-@media (min-width: 48em) {
-  .subnav__list {
-    padding: 0;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-}
-
-.subnav__link {
-  display: block;
-  color: inherit;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-}
-
-.subnav__link img {
-  display: block;
-  max-width: 30px;
-}
-
-@media (min-width: 48em) {
-  .subnav__link {
-    padding: 17.5px 25px;
-  }
-}
-
-@media (min-width: 75em) {
-  .subnav__link {
-    padding: 35px 25px;
-  }
-}
-
-.copy {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 5px 10px;
-  font-weight: 500;
-  line-height: 30px;
-  letter-spacing: 0.05em;
-}
-
-@media (min-width: 48em) {
-  .copy {
-    padding: 17.5px 25px;
-    margin-left: auto;
-  }
-}
-
-@media (min-width: 75em) {
-  .copy {
-    padding: 35px 25px;
   }
 }
 

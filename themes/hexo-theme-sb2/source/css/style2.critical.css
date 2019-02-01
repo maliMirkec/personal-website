@@ -90,6 +90,10 @@ p {
   margin-top: 1.333rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: -webkit-box;

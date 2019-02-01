@@ -2,7 +2,7 @@
 title: About me
 id: 79
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 comments: false
@@ -15,6 +15,8 @@ profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.p
 I am Silvestar Bistrović, fearless web developer, CSS craftsman, [JAMstack](//jamstack.org/) enthusiast, and Wordpress theme specialist.
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using Wordpress or Static Page Generators is my specialty.
+
+Improving HTML structure, creating styleguides or UI libraries, creating maintainable Sass mixin, variables and functions, creating static websites using Hugo, Jekyll, optimizing your build process, write well documented code, slice design to pixel-perfect responsive website, ...
 
 When I am not coding, I like to write new articles on my blog.
 

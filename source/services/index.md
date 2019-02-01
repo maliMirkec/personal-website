@@ -2,7 +2,7 @@
 title: Services
 comments: false
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 date: 2017-08-03 09:34:48
