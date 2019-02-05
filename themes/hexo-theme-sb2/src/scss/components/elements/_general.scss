@@ -11,6 +11,9 @@ body {
   line-height: 1.5;
   color: $color-psi;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 img {

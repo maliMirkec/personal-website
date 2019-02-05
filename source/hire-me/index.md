@@ -10,21 +10,43 @@ description:
 sidebar: true
 ---
 
-TODO
+If you got this far, that means you need help with your project. Since I am always happy to help, you should contact me if you want me on your team. But before you do, check the list of [services] I could offer you.
 
-[contact me](https://silvestar.typeform.com/to/jS4Qkz)
-[Toptal](https://www.toptal.com/resume/
-[services](/services/)
-[wedding photography business](https://irinaandmatej.com)
-[_bem - Wordpress theme with BEM methodology](/articles/bem-wordpress-theme/)
-[Issue #237](http://css-weekly.com/issue-237/)
-[Issue #258](http://css-weekly.com/issue-258/)
-[Issue #277](http://css-weekly.com/issue-277/)
-[Toptal](https://www.toptal.com/#trust-nothing-but-brilliant-freelancers)
-[Toptaler](https://www.toptal.com/resume/
-[Cita d.o.o](https://www.cita.hr)
-[static page generators](https://www.staticgen.com/)
-[Hexo](https://hexo.io)
-[how I built this website](/how/)
-[German based company](https://www.contiamo.com/)
-[services](/services/)
+When you hire me, you got a frontend developer that is most comfortable working with HTML, CSS, and JavaScript. You would benefit from experience gained by working for years on high-profile projects. See my [portfolio] to see some of the projects that I have been part of.
+
+If you are still interested in collaborating with me, [contact me].
+
+And here is what some nice people that were my clients said about working with me.
+
+> _“I collaborated closely with Silvestar on a project._
+> _Throughout the span of the project, Silvestar was able to consistently meet if not exceed expectations. He has the impressive ability to not only readily undertake direct requests, but also intuitively distill ambiguous asks in order to execute solves in a self-sufficient manner._
+> _Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions._
+> _If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project.”_
+>
+> — Han Han Xue, Product Designer at Lyft
+> Project: [Han Han Xue](/portfolio/hanhanxue/)
+
+<span></span>
+
+> _“It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him.”_
+>
+> — Adam Maschek, CTO at Westwing Home & Living
+> Project: [Westwing](/portfolio/westwing/)
+
+<span></span>
+
+> _“While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects.”_
+>
+> — Karim Mansi, eCommerce Product Manager at Westwing Home & Living
+> Project: [Westwing](/portfolio/westwing/)
+
+<span></span>
+
+> _“Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise.”_
+>
+> — Pablo Pareja Tobes, Project Manager at Vizzuality
+> Project: [Trase Yearbook 2018](/portfolio/yearbook-trase/)
+
+[contact me]: https://silvestar.typeform.com/to/jS4Qkz
+[portfolio]: /portfolio/
+[services]: /services/

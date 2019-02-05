@@ -17,6 +17,6 @@ Link: [yearbook2018.trase.earth/](//yearbook2018.trase.earth/)
 
 ## Responsibilities
 
-- Developed a new Wordpress theme from scratch based on a design.
+- Developed a new WordPress theme from scratch based on a design.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

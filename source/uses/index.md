@@ -23,12 +23,15 @@ _Inspired by [Harry Robertson's setup](//csswizardry.com/uses/) and [Wes Bos's s
   - Magic Trackpad 2
   - Magic Mouse 2
   - Magic keyboard
-  - Logitech Wireless Trackball M570
+  - [Logitech M570 Wireless Trackball](//www.logitech.com/en-us/product/wireless-trackball-m570)
 - [Asus Transformer Book T100TAF](//www.asus.com/us/2-in-1-PCs/ASUS_Transformer_Book_T100TAF/)
 - 2 x [Dell S2716DG 27''](//www.dell.com/en-us/shop/dell-27-gaming-monitor-s2716dg/apd/210-agjr/monitors-monitor-accessories)
-- [Anker SoundCore Boost](//www.anker.com/products/variant/SoundCore-Boost-Bluetooth-Speaker-/A3145011)
-- [Sennheiser HDR 120 II](//en-au.sennheiser.com/wireless-headphones-stereo-rf-rs-120-ii)
 - [Arctic Z2 Pro](//www.arctic.ac/eu_en/z-2-pro.html)
+- [Snowball microphone](//www.bluedesigns.com/products/snowball/)
+- [JBL T450 On-ear headphones](//www.jbl.com/JBL+T450.html)
+- [Anker SoundCore Boost](//www.anker.com/products/variant/SoundCore-Boost-Bluetooth-Speaker-/A3145011)
+- [Logitech C922 Pro Stream Webcam](//www.logitech.com/en-us/product/c922-pro-stream-webcaml)
+- [Desire2 Portable Riser Stand](//desire2.co.uk/product/WTT-AS02SI)
 - [Steelcase Reply Office Chair](//www.steelcase.com/products/office-chairs/reply/)
 - [Standing Desk Expander](//webshop.schachermayer.com/cat/hr-HR/product/podizno-postolje-stola-expander-elektricno-podesavanje-vis-680-1180mm-ral9006/103327003)
 
@@ -63,13 +66,13 @@ _Inspired by [Harry Robertson's setup](//csswizardry.com/uses/) and [Wes Bos's s
 
 ## Browser Extensions
 - [Buffer](//buffer.com/)
-- [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en)
-- [Codopen](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak?hl=en)
-- [DomFlags](https://chrome.google.com/webstore/detail/domflags/nindoglnpjcjoaheijieagogboabafkc)
-- [Funkify - disability simulator](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
-- [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
-- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
-- [Loom](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb)
-- [Screencastify](https://chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn?hl=en)
-- [Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab)
+- [Save to Pocket](//chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en)
+- [Codopen](//chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak?hl=en)
+- [DomFlags](//chrome.google.com/webstore/detail/domflags/nindoglnpjcjoaheijieagogboabafkc)
+- [Funkify - disability simulator](//chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
+- [LiveReload](//chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+- [Wappalyzer](//chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
+- [Loom](//chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb)
+- [Screencastify](//chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn?hl=en)
+- [Mindful](//chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab)
 - [Block Yourself from Analytics](//chrome.google.com/webstore/detail/block-yourself-from-analy/fadgflmigmogfionelcpalhohefbnehm?hl=en)

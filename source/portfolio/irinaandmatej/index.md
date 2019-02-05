@@ -17,8 +17,8 @@ Link: [irinaandmatej.com](//irinaandmatej.com)
 
 ## Responsibilities
 
-- Installed a new Wordpress instance.
-- Designed and developed a new Wordpress theme from scratch twice.
+- Installed a new WordPress instance.
+- Designed and developed a new WordPress theme from scratch twice.
 - Optimized assets delivery.
 - Used latest best practices to boost the page speed.
 - Hosted the website on DigitalOcean.

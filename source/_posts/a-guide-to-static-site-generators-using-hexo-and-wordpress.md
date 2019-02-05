@@ -63,7 +63,7 @@ cd <blog-name>
 npm install
 ```
 
-To make the migration, install the [hexo-migrator-wordpress plugin](https://github.com/hexojs/hexo-migrator-wordpress). This plugin expects XML files as a source. XML files could be exported via the WordPress export tool, which can be found in administration panel under Tools -> Export -> Wordpress. Finally, type the hexo migrate command to finish the import.
+To make the migration, install the [hexo-migrator-wordpress plugin](https://github.com/hexojs/hexo-migrator-wordpress). This plugin expects XML files as a source. XML files could be exported via the WordPress export tool, which can be found in administration panel under Tools -> Export -> WordPress. Finally, type the hexo migrate command to finish the import.
 
 ```
 hexo migrate wordpress <source>

@@ -31,7 +31,6 @@ Here you could find links to all my profiles and projects. My direct email is [m
 ### Freelance
 - [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers)
 - [Codementor](//www.codementor.io/malimirkeccita)
-- [Remote](//remote.com/silvestarbistrovic)
 - [About.me](//about.me/starbist)
 
 ### Projects

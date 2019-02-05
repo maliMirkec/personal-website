@@ -17,7 +17,7 @@ Link: [marcijusweddings.com](//marcijusweddings.com)
 
 ## Responsibilities
 
-- Managed and configured existing Wordpress project.
+- Managed and configured existing WordPress project.
 - Added new features to a premium Flotheme Mimal, and later Flotheme Kyoto.
 - Fixed issues and bugs along the way.
 - Hosted the website on DigitalOcean.

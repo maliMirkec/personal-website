@@ -1,15 +1,15 @@
 ---
-title: _bem - Wordpress theme with BEM methodology
+title: _bem - WordPress theme with BEM methodology
 tags:
-  - Wordpress
+  - WordPress
   - BEM
 id: 13
 categories:
   - Blog
 date: 2017-05-27 07:39:05
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1500724346/bem-Wordpress-theme-with-BEM-methodology_myadk9.png
-description: This is a post about building custom Wordpress theme with BEM naming methodology.
+thumbnail: //res.cloudinary.com/starbist/image/upload/v1500724346/bem-WordPress-theme-with-BEM-methodology_myadk9.png
+description: This is a post about building custom WordPress theme with BEM naming methodology.
 ---
 
 **[BEM](https://en.bem.info/)** is great. It is simple, yet powerful. If you're not familiar with it, I highly recommend reading [this article](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts.
@@ -18,13 +18,13 @@ In short, it is a `CSS` naming convention methodology. It stands for: _block, el
 
 <!-- more -->
 
-[Wordpress](https://wordpress.org/) is great, too. It is an open source blog tool and a publishing platform and content management system.
+[WordPress](https://wordpress.org/) is great, too. It is an open source blog tool and a publishing platform and content management system.
 
-This is a post about building custom Wordpress theme with BEM naming methodology. [Check it out](https://github.com/maliMirkec/_bem)!
+This is a post about building custom WordPress theme with BEM naming methodology. [Check it out](https://github.com/maliMirkec/_bem)!
 
 ## Starter template
 
-A few years ago, I was looking for a tool that could help me build Wordpress themes more easily. I've stumbled upon [Underscores](http://underscores.me/), a starter theme for Wordpress. I was amazed by the simplicity of it.
+A few years ago, I was looking for a tool that could help me build WordPress themes more easily. I've stumbled upon [Underscores](http://underscores.me/), a starter theme for WordPress. I was amazed by the simplicity of it.
 
 You enter a template name (and some other options, if you want) and you generate plain theme. It contains the following:
 
@@ -48,15 +48,15 @@ Not only that. If used with SASS or any other preprocessing tool, you could real
 
 ## Starter template with BEM methodology
 
-An idea was born—why don't I build a Wordpress starter template with BEM methodology?
+An idea was born—why don't I build a WordPress starter template with BEM methodology?
 
 Great! I should fork Underscores starter template and start customizing it. Like everything else in life, it was easier said than done.
 
 ### Problems
 
-I knew it will be a daunting project to deal with. Going through all the templates and SASS files was hard enough, for sure. But adding classes and styling on some parts of Wordpress was just impossible.
+I knew it will be a daunting project to deal with. Going through all the templates and SASS files was hard enough, for sure. But adding classes and styling on some parts of WordPress was just impossible.
 
-For example, comments. Wordpress provides you with a commenting system out of the box. It is a great feature used by many people out there. But adding custom classes to comment components could not be done easily. As I found out later, it should be done by using callback of [wp_list_comments](https://codex.wordpress.org/Function_Reference/wp_list_comments) function and writing custom callback function. Here is an example code:
+For example, comments. WordPress provides you with a commenting system out of the box. It is a great feature used by many people out there. But adding custom classes to comment components could not be done easily. As I found out later, it should be done by using callback of [wp_list_comments](https://codex.wordpress.org/Function_Reference/wp_list_comments) function and writing custom callback function. Here is an example code:
 
 {% codeblock lang:html %}
 <div class="comment-list _comments__list">
@@ -106,7 +106,7 @@ function _bem_previous_post_link( $format ) {
 }
 {% endcodeblock %}
 
-There are still some Wordpress parts where I couldn't find the solution how to add classes to `HTML` components, like Wordpress widgets. If you know how to do this, please let me know.
+There are still some WordPress parts where I couldn't find the solution how to add classes to `HTML` components, like WordPress widgets. If you know how to do this, please let me know.
 
 ## Fancy stuff
 
@@ -154,6 +154,6 @@ This is a tough one. And frankly, it needs more work.
 
 ## Final thoughts
 
-There you have it, a Wordpress starter theme. All you need to do is download [the project](https://github.com/maliMirkec/_bem) and start developing new shiny Wordpress theme.
+There you have it, a WordPress starter theme. All you need to do is download [the project](https://github.com/maliMirkec/_bem) and start developing new shiny WordPress theme.
 
 As always, any comments or [tweets](https://twitter.com/malimirkeccita) are appreciated.

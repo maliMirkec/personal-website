@@ -17,7 +17,7 @@ Link: [borninjune.net](//borninjune.net)
 
 ## Responsibilities
 
-- Installed a new Wordpress instance.
+- Installed a new WordPress instance.
 - Installed a premium Flotheme Mimal and configured it based on clients needs.
 - Hosted the website on DigitalOcean.
 - Used Cloudflare to improve site security and performance.

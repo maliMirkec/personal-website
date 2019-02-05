@@ -74,7 +74,7 @@ home_page:
     paragraphs:
       - Frontend
       - User Interface
-      - Wordpress
+      - WordPress
       - Web Optimization
   - section:
     title: Projects
