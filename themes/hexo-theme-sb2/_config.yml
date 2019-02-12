@@ -11,6 +11,7 @@ home_page:
     position: alpha
     title: Silvestar Bistrović
     profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
+    profilealt: Profile image
     headings:
      - Fearless web developer
      - CSS craftsman

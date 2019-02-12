@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+main {
+  display: block;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -240,6 +244,21 @@ img {
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.nav__link.skip {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
+  box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
 }
 
 .nav__list--portfolio .nav__item:nth-child(3) .nav__link {

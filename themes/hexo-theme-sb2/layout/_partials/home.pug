@@ -31,7 +31,7 @@
           - var article_img_mobile = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_120/');
           - var article_img_srcset = article_img_mobile + " 120w, " + article_img_wide + " 240w";
           .profile
-            img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 240px) 120px, (min-width: 321px) 240px")
+            img(src=article_img_wide, alt=section.profilealt, srcset=article_img_srcset sizes="(max-width: 240px) 120px, (min-width: 321px) 240px")
         if (section.quotes)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";
           ul(class="list" + list_class)

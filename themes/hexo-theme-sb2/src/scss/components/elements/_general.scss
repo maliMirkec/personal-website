@@ -16,6 +16,13 @@ body {
   hyphens: auto;
 }
 
+a {
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px $color-beta inset, 0 0 0 1px $color-alpha;
+  }
+}
+
 img {
   max-width: 100%;
   width: 100%;

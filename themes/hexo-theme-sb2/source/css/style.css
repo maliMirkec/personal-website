@@ -412,6 +412,11 @@ body {
   -ms-hyphens: auto;
   hyphens: auto; }
 
+a:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1px #e01258 inset, 0 0 0 1px #12e09f;
+  box-shadow: 0 0 0 1px #e01258 inset, 0 0 0 1px #12e09f; }
+
 img {
   max-width: 100%;
   width: 100%;
@@ -532,6 +537,24 @@ img {
   background-repeat: no-repeat;
   background-position: center bottom;
   cursor: pointer; }
+  .nav__link.skip {
+    display: block;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(1px);
+    clip-path: inset(1px);
+    white-space: nowrap;
+    position: absolute;
+    -webkit-box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
+    box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f; }
+    .nav__link.skip:focus {
+      background-color: #e01258;
+      clip: auto;
+      height: auto;
+      width: auto; }
   .nav__list--home .nav__item:first-child .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
   .nav__list--blog .nav__item:nth-child(2) .nav__link {
