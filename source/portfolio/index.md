@@ -9,6 +9,26 @@ grid:
     btn2: "2019 Q2-Q3"
   list:
     - item:
+      title: Machine Learning Libraries
+      href: /portfolio/machine-learning-libraries/
+      src: //res.cloudinary.com/starbist/image/upload/v1549951653/mll_uzqdan.png
+      description: Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python.
+    - item:
+      title: Domino Data Lab
+      href: /portfolio/dominodatalab/
+      src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+      description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
+    - item:
+      title: Domino Data Lab Rev
+      href: /portfolio/dominodatalab-rev/
+      src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddlr_rpy3cx.png
+      description: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
+    - item:
+      title: Domino Data Lab Pop-up
+      href: /portfolio/dominodatalab-pop-up/
+      src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddlp_mjllzg.png
+      description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
+    - item:
       title: Westwing
       href: /portfolio/westwing/
       src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png

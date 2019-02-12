@@ -101,6 +101,11 @@ body {
   line-height: 1.5;
   color: #1f1f1f;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 img {
@@ -295,11 +300,6 @@ img {
   margin-bottom: 0.25em;
 }
 
-.list__item--banner {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-}
-
 .article p a {
   color: #e01258;
 }
@@ -318,108 +318,4 @@ img {
 
 .content > *:first-child {
   margin-top: 0;
-}
-
-.banner {
-  padding: .5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.banner p {
-  font-size: 0.75019rem;
-  margin-top: 0;
-  margin-right: 0.5em;
-}
-
-.banner span {
-  display: block;
-  color: inherit;
-}
-
-.banner .btn {
-  border: none;
-  color: #fff;
-  padding: .125rem .5rem .25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  white-space: nowrap;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-.banner .btn span {
-  text-transform: uppercase;
-  color: inherit;
-  font-weight: inherit;
-}
-
-.banner .btn span:nth-child(1) {
-  letter-spacing: calc(50 / 1000 * 1em);
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-}
-
-.banner .btn span:nth-child(2) {
-  font-family: "Barlow", sans-serif;
-  letter-spacing: calc(25 / 1000 * 1em);
-  font-size: 0.56278rem;
-}
-
-@media (min-width: 30em) {
-  .banner {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .banner p {
-    margin-bottom: 0;
-  }
-
-  .banner .btn {
-    padding: .75rem 1.5rem;
-    margin-left: auto;
-  }
-
-  .banner .btn span:nth-child(2) {
-    margin-top: 0.25rem;
-  }
-}
-
-@media (min-width: 48em) {
-  .banner span {
-    display: inline;
-  }
-}
-
-@media (min-width: 75em) {
-  .banner p {
-    font-size: 1rem;
-  }
-}
-
-.banner--alpha {
-  border: 1px solid #12e09f;
-}
-
-.banner--alpha .btn {
-  background-color: #e01258;
 }

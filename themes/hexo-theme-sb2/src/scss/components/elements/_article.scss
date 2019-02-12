@@ -1,6 +1,7 @@
 .articles {
   display: grid;
   grid-template-columns: 1fr;
+  grid-auto-flow: dense;
   grid-gap: 50px;
   width: 100%;
 
@@ -23,6 +24,12 @@
       grid-column: 1 / -1;
       max-width: none;
       width: 100%;
+
+      // @include mq($from: tablet, $until: desktop) {
+      //   &:first-of-type {
+      //     grid-row: 2 / span 1;
+      //   }
+      // }
     }
 
     &:before {

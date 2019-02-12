@@ -21,15 +21,15 @@ home_page:
     position: gamma
     title: Projects
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+        title: Domino Data Lab
+        href: /portfolio/dominodatalab/
       - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
         title: Westwing
         href: /portfolio/westwing/
       - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
         title: Bozzuto
         href: /portfolio/bozzuto/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
-        title: Han Han Xue
-        href: /portfolio/hanhanxue/
       - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
         title: Contiamo
         href: /portfolio/contiamo/
@@ -132,6 +132,10 @@ menu:
 portfolio:
   title: Projects
   items:
+    Machine Learning Libraries: /portfolio/machine-learning-libraries/
+    Domino Data Lab: /portfolio/dominodatalab/
+    Domino Data Lab Rev: /portfolio/dominodatalab-rev/
+    Domino Data Lab Pop-up: /portfolio/dominodatalab-pop-up/
     Westwing: /portfolio/westwing/
     Bozzuto: /portfolio/bozzuto/
     Trase Yearbook 2018: /portfolio/yearbook-trase/

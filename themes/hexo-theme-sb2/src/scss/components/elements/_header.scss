@@ -41,6 +41,7 @@
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
+  cursor: pointer;
 
   .nav__list--home .nav__item:first-child & {
     background-image: url(/gfx/svg/logo-header.svg);
