@@ -2,7 +2,7 @@
 title: Han Han Xue
 comments: false
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.

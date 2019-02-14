@@ -2,7 +2,7 @@
 title: Atika Interijeri
 comments: false
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 description: Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture. The site runs on WordPress, DigitalOcean, and Cloudflare.
@@ -17,8 +17,8 @@ Link: [atika-interijeri.hr](//atika-interijeri.hr)
 
 ## Responsibilities
 
-- Installed a new Wordpress instance.
-- Designed and developed a new Wordpress theme from scratch.
+- Installed a new WordPress instance.
+- Designed and developed a new WordPress theme from scratch.
 - Hosted the website on DigitalOcean.
 - Used Cloudflare to improve the security and performance.
 

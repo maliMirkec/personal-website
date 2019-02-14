@@ -1,12 +1,12 @@
 if (page && page.grid && page.grid.list)
   ul.list.list--alpha
-    if (page && page.grid.banner1)
-      li.list__item.list__item--banner
-        include banner1
-    if (page && page.grid.banner2)
-      li.list__item.list__item--banner
-        include banner2
     each item, i in page.grid.list
+      if (i === 2)
+        li.list__item.list__item--banner
+          include banner1
+      if (i % 2 === 0 && i >= page.grid.list.length - 3)
+        li.list__item.list__item--banner
+          include banner2
       if (item && item.src)
         - var home_img_wide = item.src.replace('upload/', 'upload/f_auto,q_auto,w_575/');
         - var home_img_desktop = item.src.replace('upload/', 'upload/f_auto,q_auto,w_440/');

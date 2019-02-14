@@ -28,7 +28,7 @@ html(lang=lang)
 
     - var main_sidebar = (page && (page.sidebar || page.portfolio)) ? " main--sidebar" : "";
 
-    div(class="main" + main_class + main_sidebar)
+    main(class="main" + main_class + main_sidebar, id="main")
       block content
     include ../_partials/footer
     include ../_partials/starter-project

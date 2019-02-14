@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+main {
+  display: block;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -84,6 +88,10 @@ p {
   margin-top: 1.333rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -97,6 +105,11 @@ body {
   line-height: 1.5;
   color: #1f1f1f;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 img {
@@ -212,6 +225,21 @@ img {
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.nav__link.skip {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
+  box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
 }
 
 .nav__list--home .nav__item:first-child .nav__link {
@@ -459,12 +487,8 @@ img {
   }
 
   .banner .btn {
-    padding: .75rem 1.5rem;
+    padding: .25rem .5rem;
     margin-left: auto;
-  }
-
-  .banner .btn span:nth-child(2) {
-    margin-top: 0.25rem;
   }
 }
 
@@ -477,6 +501,15 @@ img {
 @media (min-width: 75em) {
   .banner p {
     font-size: 1rem;
+  }
+
+  .banner .btn {
+    padding: .75rem 1.5rem;
+    margin-left: auto;
+  }
+
+  .banner .btn span:nth-child(2) {
+    margin-top: 0.25rem;
   }
 }
 

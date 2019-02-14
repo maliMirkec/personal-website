@@ -41,6 +41,27 @@
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
+  cursor: pointer;
+
+  &.skip {
+    display: block;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(1px);
+    white-space: nowrap;
+    position: absolute;
+    box-shadow: 0 0 0 5px $color-alpha inset, 0 0 0 1px $color-alpha;
+
+    &:focus {
+      background-color: $color-beta;
+      clip: auto;
+      height: auto;
+      width: auto;
+    }
+  }
 
   .nav__list--home .nav__item:first-child & {
     background-image: url(/gfx/svg/logo-header.svg);

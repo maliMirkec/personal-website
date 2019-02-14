@@ -10,11 +10,15 @@ header.header
       else
         - var current = " nav__list--" + getPage(page.path)
       ul(class="nav__list" + current)
+        li.nav__item
+          a.nav__link.skip(href="#main") Skip to the main content
         each knav, vnav in theme.menu.items
           li.nav__item
             a.nav__link(href=urlFor(knav))= vnav
     else
       ul.nav__list
+        li.nav__item
+          a.nav__link.skip(href="#main") Skip to the main content
         li.nav__item
           a.nav__link(href="/") Home
         li.nav__item
