@@ -2,7 +2,7 @@
 title: Trase Yearbook 2018
 comments: false
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
@@ -17,6 +17,6 @@ Link: [yearbook2018.trase.earth/](//yearbook2018.trase.earth/)
 
 ## Responsibilities
 
-- Developed a new Wordpress theme from scratch based on a design.
+- Developed a new WordPress theme from scratch based on a design.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

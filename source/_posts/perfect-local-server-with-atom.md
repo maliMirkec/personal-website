@@ -39,7 +39,7 @@ That's it, proceed with a installation, wait for process to finish and violà�
 
 ## php-server for Atom
 
-If you managed to install **Bitnami WAMP Stack**, you could use it as your development environment. You could even install Wordpress or [any other module](https://bitnami.com/stack/wamp/modules) for **Bitnami WAMP Stack** for even quicker and simpler development environment. With a little knowledge of hosting, you could event add a local domains. I'll write about this topic in the future, so stay tuned.
+If you managed to install **Bitnami WAMP Stack**, you could use it as your development environment. You could even install WordPress or [any other module](https://bitnami.com/stack/wamp/modules) for **Bitnami WAMP Stack** for even quicker and simpler development environment. With a little knowledge of hosting, you could event add a local domains. I'll write about this topic in the future, so stay tuned.
 
 But often I find myself in a situation where I don't need the whole environment, I just need to develop and test a single feature. This is where **[php-server](https://atom.io/packages/php-server)** for Atom comes in.
 

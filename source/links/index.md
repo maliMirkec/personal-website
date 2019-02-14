@@ -1,7 +1,7 @@
 ---
 title: Links
 banner2:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 comments: false
@@ -31,7 +31,6 @@ Here you could find links to all my profiles and projects. My direct email is [m
 ### Freelance
 - [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers)
 - [Codementor](//www.codementor.io/malimirkeccita)
-- [Remote](//remote.com/silvestarbistrovic)
 - [About.me](//about.me/starbist)
 
 ### Projects

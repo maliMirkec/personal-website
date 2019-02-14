@@ -2,7 +2,7 @@
 title: Irina & Matej
 comments: false
 banner1:
-  span: "I am currently considering new projects for the next year."
+  span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
 description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
@@ -17,8 +17,8 @@ Link: [irinaandmatej.com](//irinaandmatej.com)
 
 ## Responsibilities
 
-- Installed a new Wordpress instance.
-- Designed and developed a new Wordpress theme from scratch twice.
+- Installed a new WordPress instance.
+- Designed and developed a new WordPress theme from scratch twice.
 - Optimized assets delivery.
 - Used latest best practices to boost the page speed.
 - Hosted the website on DigitalOcean.

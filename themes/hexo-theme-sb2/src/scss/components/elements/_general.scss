@@ -1,4 +1,8 @@
 // General
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -7,6 +11,16 @@ body {
   line-height: 1.5;
   color: $color-psi;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+a {
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px $color-beta inset, 0 0 0 1px $color-alpha;
+  }
 }
 
 img {

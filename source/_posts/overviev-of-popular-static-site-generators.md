@@ -95,9 +95,9 @@ You could specify where are source files stored or where to output built sources
 
 ## Migrating to a Static Generator
 
-If you already have a Wordpress project ready to go, you can migrate it to a static page generator with relative ease.
+If you already have a WordPress project ready to go, you can migrate it to a static page generator with relative ease.
 
-For Jekyll, you could [Jekyll Exporter] plugin. For Middleman, you could use a command line tool called [wp2middleman]. You can use Wordpress to Hugo Exporter for Hugo migration, and for Hexo, you could read a [guide on how to migrate from Wordpress to Hexo] that I wrote last year.
+For Jekyll, you could [Jekyll Exporter] plugin. For Middleman, you could use a command line tool called [wp2middleman]. You can use WordPress to Hugo Exporter for Hugo migration, and for Hexo, you could read a [guide on how to migrate from WordPress to Hexo] that I wrote last year.
 
 The principle is nearly identical and quite straightforward—first export all content to a suitable format, and then include it in the right folder.
 
@@ -363,7 +363,7 @@ Static page generators are a fast and reliable way to build a website. You can e
 
 For example, [Smashing Magazine] moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites and they all share the same principle—to produce static resources and deliver them over Content Delivery Networks for faster loading and a superior user experience.
 
-There is much more you could do with your static website: from using Wordpress REST API as a backend to using Lambda functions. There are excellent solutions even for simple websites, like using [HTTPS out of the box] or [handling form submissions].
+There is much more you could do with your static website: from using WordPress REST API as a backend to using Lambda functions. There are excellent solutions even for simple websites, like using [HTTPS out of the box] or [handling form submissions].
 
 I hope this overview of static page frameworks helped you realize their potential and consider using them next time you think of a new project.
 
@@ -373,7 +373,7 @@ I hope this overview of static page frameworks helped you realize their potentia
 [Hexo documentation]: //hexo.io/docs/
 [Jekyll Exporter]: //wordpress.org/plugins/jekyll-exporter/
 [wp2middleman]: //github.com/mdb/wp2middleman
-[guide on how to migrate from Wordpress to Hexo]: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
+[guide on how to migrate from WordPress to Hexo]: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
 [Markdown]: //daringfireball.net/projects/markdown/syntax
 [the context]: //gohugo.io/templates/introduction/#context-aka-the-dot
 [middleman-blog]: //middlemanapp.com/basics/blogging/

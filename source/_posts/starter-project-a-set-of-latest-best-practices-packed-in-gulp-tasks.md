@@ -21,7 +21,7 @@ Every project has its environment. Switching between projects means switching en
 
 ## Second Scenario
 
-Consider two different projects. First is custom Wordpress theme development, second is Middleman blog. Both projects use Gulp task runner to compile and optimize assets. Setting up Gulp tasks for either project is time-consuming work. And every project has its architecture which disables a developer to copy Gulp tasks from one project to another without spending the time to reconfigure every Gulp task individually.
+Consider two different projects. First is custom WordPress theme development, second is Middleman blog. Both projects use Gulp task runner to compile and optimize assets. Setting up Gulp tasks for either project is time-consuming work. And every project has its architecture which disables a developer to copy Gulp tasks from one project to another without spending the time to reconfigure every Gulp task individually.
 
 ## Third Scenario
 

@@ -1,7 +1,7 @@
 site:
-  full_name: Silvestar Bistrović—fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
+  full_name: Silvestar Bistrović—fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.
   short_name: Silvestar Bistrović
-  description: Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and Wordpress theme specialist.
+  description: Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
@@ -11,25 +11,26 @@ home_page:
     position: alpha
     title: Silvestar Bistrović
     profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
+    profilealt: Profile image
     headings:
      - Fearless web developer
      - CSS craftsman
      - JAMstack enthusiast
-     - Wordpress theme specialist
+     - WordPress theme specialist
     list_class: beta
   - section:
     position: gamma
     title: Projects
     images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+        title: Domino Data Lab
+        href: /portfolio/dominodatalab/
       - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
         title: Westwing
         href: /portfolio/westwing/
       - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
         title: Bozzuto
         href: /portfolio/bozzuto/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
-        title: Han Han Xue
-        href: /portfolio/hanhanxue/
       - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
         title: Contiamo
         href: /portfolio/contiamo/
@@ -39,9 +40,9 @@ home_page:
     position: beta
     title: Featured Articles
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg
-        title: 2018 Lookback
-        href: /articles/2018-lookback/
+      - src: //res.cloudinary.com/starbist/image/upload/v1550167953/Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
+        title: Just My Routine As A Remote Worker
+        href: /articles/remote-worker-routine/
       - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
         title: Building an animated sticky header with custom offset
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
@@ -88,7 +89,7 @@ home_page:
           link: /portfolio/yearbook-trase/
         text: "Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise."
       - person: Karim Mansi
-        position: eCommerce Product Manager
+        position: eCommerce Product Manager at Westwing Home & Living
         project:
           name: Westwing
           link: /portfolio/westwing/
@@ -132,6 +133,10 @@ menu:
 portfolio:
   title: Projects
   items:
+    Machine Learning Libraries: /portfolio/machine-learning-libraries/
+    Domino Data Lab: /portfolio/dominodatalab/
+    Domino Data Lab Rev: /portfolio/dominodatalab-rev/
+    Domino Data Lab Pop-up: /portfolio/dominodatalab-pop-up/
     Westwing: /portfolio/westwing/
     Bozzuto: /portfolio/bozzuto/
     Trase Yearbook 2018: /portfolio/yearbook-trase/
@@ -144,10 +149,12 @@ portfolio:
 sidebar:
   title: Links
   items:
-    About: /about-me/
-    Links: /links/
-    Setup: /uses/
     Contact: https://silvestar.typeform.com/to/jS4Qkz
+    About: /about-me/
+    Hire me: /hire-me/
+    Services: /services/
+    Setup: /uses/
+    Links: /links/
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec
@@ -156,13 +163,13 @@ sidebar:
     Silvestar Bistrović: /
 
 banner1:
-  span: "I am currently considering new projects for the next year. Contact me if you want me on your team."
+  span: "I am currently considering new projects for this year. Contact me if you want me on your team."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
   link: https://silvestar.typeform.com/to/jS4Qkz
 
 banner2:
-  span: "I am currently considering new projects for the next year. Contact me."
+  span: "I am currently considering new projects for this year. Contact me."
   btn1: "Get in touch"
   btn2: "2019 Q2-Q3"
   href: https://silvestar.typeform.com/to/jS4Qkz
