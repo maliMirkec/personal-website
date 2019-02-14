@@ -14,6 +14,8 @@ Working effeciantly is often not that easy. In order to save time, you gotta spe
 
 _Inspired by [Harry Robertson's setup](//csswizardry.com/uses/) and [Wes Bos's setup](//wesbos.com/uses/)._
 
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1550168136/IMG_20190214_123144_eqcdi5.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Workstation in my office" %}
+
 ## Hardware
 
 - [MacBook Pro 15" 2017](//support.apple.com/kb/SP756?locale=en_US)
