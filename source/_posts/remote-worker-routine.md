@@ -52,7 +52,7 @@ When I feel especially exhausted, I just leave my MacBook in the office. Actuall
 
 ## Health
 
-Health is an essential topic when working remotely. I like to ride a bike during warm days. I play recreational football for a couple of times per week. I am not in the best possible shape, but I do feel confortable in my body.
+Health is an essential topic when working remotely. I like to ride a bike during warm days. I play recreational football for a couple of times per week. I am not in the best possible shape, but I do feel comfortable in my body.
 
 Mental health is important, too, if not the most important. I think you couldn't produce the best work if you are having constant struggles. What keeps me sane is my wacky family, my super understanding wife, my hilarious daughter, and my friends.
 
@@ -74,7 +74,7 @@ Alternatively, you could walk, run, bike, hike, or climb, as long as you are awa
 
 ### Rest
 
-Getting enough sleep is common sense. I have scheduled my mobile device to turn off notifications from 10pm until 7am. I couldn't possibly imagine what could be so important that I have to respond to anything in the middle of the night. All of my clients are very aware of my working schedule, and they respect my time, the same as I appreciate theirs. It is imperative to bring this conversation at the beginning of the engagement to avoid unpleasant situations.
+Getting enough sleep is common sense. I have scheduled my mobile device to turn off notifications from 10 pm until 7 am. I couldn't possibly imagine what could be so important that I have to respond to anything in the middle of the night. All of my clients are very aware of my working schedule, and they respect my time, the same as I appreciate theirs. It is imperative to bring this conversation at the beginning of the engagement to avoid unpleasant situations.
 
 ## Tools
 
@@ -82,7 +82,7 @@ During my daily routine, I use several applications that help me get the job don
 
 ### Station
 
-The first one is the [Station] application. I use it mostly for my Google Mail, Google Drive, Google Calendar, Zoho Mail, Trello, Asana, and Slack. Jumping between applications is quite easy. Plus, I don't have a lot of opened browser tabs that clutter my browser. Another thing I noticed is that I spend way less time on Slack since I docket it inside the Station. Not seeing the “unread” dot makes me less stressed and I don't feel guilty for not reading the latest messages. If I want to get distracted, I just turn on the volume on my mobile device.
+The first one is the [Station] application. I use it mostly for my Google Mail, Google Drive, Google Calendar, Zoho Mail, Trello, Asana, and Slack. Jumping between applications is quite easy. Plus, I don't have a lot of open browser tabs that clutter my browser. Another thing I noticed is that I spend way less time on Slack since I docket it inside the Station. Not seeing the “unread” dot makes me less stressed and I don't feel guilty for not reading the latest messages. If I want to get distracted, I just turn on the volume on my mobile device.
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1550168055/station_ta36nu.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Screenshot of my Station application" %}
 
