@@ -43,7 +43,7 @@ Read more about the idea and possible problems that Starter Project package it i
 
 SPRO is conceived a bit differently. Instead of manually tweaking the configuration file, I have built a command that would start a questionary about the project structure.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1551270502/introducing-spro.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO questions in terminal" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289402/spro-questions_dcflmw.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO questions in terminal" %}
 
 When you answer all questions, SPRO will store information to the `.starter-project.json` file. It would also prepare a command to install all dependencies based on your answers.
 
@@ -75,7 +75,7 @@ Now you should be able to run the command from the terminal that would save you 
 
 To check if the command is available, try running the following commands: `spro --version` and `node_modules/.bin/spro --version` for global and local installation, respectively. You should see the version number in your terminal.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1548498930/starter-project-version_f5jcz1.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "dev.to stats" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289671/spro-version_bc2zt4.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "dev.to stats" %}
 
 The command that you want to run is `spro start`. You should be prompted to answer the questions about the project structure, as mentioned earlier.
 
