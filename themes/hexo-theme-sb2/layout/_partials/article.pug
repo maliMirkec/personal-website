@@ -6,15 +6,15 @@ if (page && page.title)
 .article
   if (page && page.thumbnail)
     if (page && page.retina)
-      - var article_img_wide2x = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_1920/');
-      - var article_img_wide = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_960/');
+      - var article_img_wide2x = page.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_1920/');
+      - var article_img_wide = page.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_960/');
       - var article_img_mobile = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_717/');
       - var article_img_tamagochi = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
       - var article_img_srcset = article_img_tamagochi + " 270w, " + article_img_mobile + " 717w, " + article_img_wide + " 960w, " + article_img_wide2x + " 1920w";
       .article__thumb
         img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) 960px")
     else
-      - var article_img_wide = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_960/');
+      - var article_img_wide = page.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_960/');
       - var article_img_mobile = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_717/');
       - var article_img_tamagochi = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
       - var article_img_srcset = article_img_tamagochi + " 270w, " + article_img_mobile + " 717w, " + article_img_wide + " 960w";
