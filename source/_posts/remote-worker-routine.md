@@ -14,6 +14,8 @@ As a remote worker, having a routine and self-discipline is critical. Keeping up
 
 The inspiration for writing this article comes from [an article about remote life] and from [a prominent discussion on Gun.io Slack channel].
 
+<!--more-->
+
 ## The Office
 
 Moving from the home office to an actual office changed my daily routine the most. Getting up, dressing, driving/cycling to work makes me feel like I have a regular job. Not to mention that working from actual office makes me more productive and focused. There are no distractions, just the working environment set up for delivering the best possible work.
