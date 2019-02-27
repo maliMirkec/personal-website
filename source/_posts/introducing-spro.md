@@ -75,7 +75,7 @@ Now you should be able to run the command from the terminal that would save you 
 
 To check if the command is available, try running the following commands: `spro --version` and `node_modules/.bin/spro --version` for global and local installation, respectively. You should see the version number in your terminal.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289671/spro-version_bc2zt4.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "dev.to stats" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289671/spro-version_bc2zt4.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO version" %}
 
 The command that you want to run is `spro start`. You should be prompted to answer the questions about the project structure, as mentioned earlier.
 
@@ -106,7 +106,7 @@ Each subtask has its own configuration file. CSS specific configuration could be
 
 I have created [a course] where you could learn more about SPRO.
 
-[{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551269861/cover-2x_zheg7w.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "dev.to stats" %}](https://skl.sh/2EcUlRt)
+[{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551269861/cover-2x_zheg7w.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO course: Setting up development environment with Gulp" %}](https://skl.sh/2EcUlRt)
 
 The course is free, but you need to have a [Skillshare] account to view all lessons. Be sure to complete the class project and to rate the course. 🆓
 
