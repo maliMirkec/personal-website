@@ -555,15 +555,15 @@ img {
       clip: auto;
       height: auto;
       width: auto; }
-  .nav__list--home .nav__item:first-child .nav__link {
+  .nav__list--home .nav__item:nth-child(2) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
-  .nav__list--blog .nav__item:nth-child(2) .nav__link {
+  .nav__list--blog .nav__item:nth-child(3) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
-  .nav__list--portfolio .nav__item:nth-child(3) .nav__link {
+  .nav__list--portfolio .nav__item:nth-child(4) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
-  .nav__list--about-me .nav__item:nth-child(4) .nav__link {
+  .nav__list--about-me .nav__item:nth-child(5) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
-  .nav__list--links .nav__item:nth-child(5) .nav__link {
+  .nav__list--links .nav__item:nth-child(6) .nav__link {
     background-image: url(/gfx/svg/logo-header.svg); }
   .nav__link:hover, .nav__link:focus, .nav__link:active {
     background-color: #10cd92; }

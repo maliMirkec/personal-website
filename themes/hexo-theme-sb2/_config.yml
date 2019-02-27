@@ -40,18 +40,18 @@ home_page:
     position: beta
     title: Featured Articles
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1550167953/Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
-        title: Just My Routine As A Remote Worker
-        href: /articles/remote-worker-routine/
+      - src: //res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
+        title: 'Introducing SPRO'
+        href: /articles/introducing-spro/
       - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
-        title: Building an animated sticky header with custom offset
+        title: 'Building an animated sticky header with custom offset'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
+      - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
+        title: 'Overview of Popular Static Site Generators'
+        href: /articles/overviev-of-popular-static-site-generators/
       - src: //res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
         title: 'Using CSS Grid where appropriate (revisited)'
         href: /articles/using-css-grid-where-appropriate-revisited/
-      - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
-        title: Overview of Popular Static Site Generators
-        href: /articles/overviev-of-popular-static-site-generators/
     links:
       See all articles →: /categories/articles/
   - section:

@@ -274,7 +274,7 @@ img {
   box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
 }
 
-.nav__list--about-me .nav__item:nth-child(4) .nav__link {
+.nav__list--about-me .nav__item:nth-child(5) .nav__link {
   background-image: url(/gfx/svg/logo-header.svg);
 }
 

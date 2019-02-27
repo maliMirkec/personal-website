@@ -47,9 +47,9 @@
         if (section.images)
           ul.list.list--alpha
             each section_image in section.images
-              - var home_img_wide = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_575/');
+              - var home_img_wide = section_image.src.replace('upload/', 'upload/f_auto,q_99,w_575/');
               - var home_img_desktop = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_525/');
-              - var home_img_mobile = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_717/');
+              - var home_img_mobile = section_image.src.replace('upload/', 'upload/f_auto,q_99,w_717/');
               - var home_img_tamagochi = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_270/');
               - var home_img_srcset = home_img_tamagochi + " 270w, " + home_img_mobile + " 717w, " + home_img_desktop + " 525w, " + home_img_wide + " 575w";
               li.list__item
