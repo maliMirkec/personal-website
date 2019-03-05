@@ -188,7 +188,7 @@ $critical = get_template_directory() . '/build/css/style.critical.css';
 if ( file_exists( $critical ) ) {
   echo '<style>';
   require_once $critical;
-  echo '<style>';
+  echo '</style>';
 }
 ?>
 ```
