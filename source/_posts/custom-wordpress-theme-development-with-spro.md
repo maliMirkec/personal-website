@@ -184,7 +184,7 @@ Next, let's inline Critical CSS in the head of the HTML document, in the `header
 
 ```
 <?php
-$critical = get_template_directory() . '/style.critical.css';
+$critical = get_template_directory() . '/build/css/style.critical.css';
 if ( file_exists( $critical ) ) {
   echo '<style>';
   require_once $critical;
