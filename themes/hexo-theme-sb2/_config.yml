@@ -40,9 +40,9 @@ home_page:
     position: beta
     title: Featured Articles
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
-        title: 'Introducing SPRO'
-        href: /articles/introducing-spro/
+      - src: //res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
+        title: 'Custom WordPress Theme Development with SPRO'
+        href: /articles/custom-wordpress-theme-development-with-spro/
       - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
         title: 'Building an animated sticky header with custom offset'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
