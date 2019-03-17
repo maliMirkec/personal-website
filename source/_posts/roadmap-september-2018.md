@@ -94,4 +94,4 @@ While I was creating the roadmap for myself, I felt like my career was moving in
 [C. Todd Lombardo]: https://twitter.com/iamctodd
 [Roadmaps are dead! Long live roadmaps!]: https://speakerdeck.com/iamctodd/roadmaps-are-dead-long-live-roadmaps-mtpcon-2018
 [a Trello board]: https://trello.com/b/wfVCNTic
-[Looking back at what you achieved]: https://www.silvestarbistrovic.from.hr/articles/my-first-year-of-freelancing/
+[Looking back at what you achieved]: https://www.silvestar.codes/articles/my-first-year-of-freelancing/

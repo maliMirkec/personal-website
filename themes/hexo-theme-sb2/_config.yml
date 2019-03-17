@@ -193,10 +193,10 @@ widgets:
     GitHub: //github.com/maliMirkec
     CodePen: //codepen.io/CiTA/
     Twitter: //twitter.com/malimirkeccita
-    Feed: //www.silvestarbistrovic.from.hr/rss2.xml
+    Feed: //www.silvestar.codes/rss2.xml
   disqus:
     shortname: silvestarbistrovic
   sharing:
     twitter: malimirkeccita
-    facebook: silvestarbistrovic.from.hr
+    facebook: silvestar.codes
     reddit: true

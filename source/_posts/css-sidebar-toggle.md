@@ -151,7 +151,7 @@ The idea is to hide a sidebar by translating it out of viewport using `translate
 
 ## CSS sidebar toggle accessibility
 
-Last time I've published [a post about pure CSS tabs solution](https://silvestarbistrovic.from.hr/en/articles/how-to-make-tabs-using-only-css/), I've received a lot of comments about missing accessibility. As a result, I've updated a demo with accessibility and published a [new article](https://silvestarbistrovic.from.hr/en/articles/css-tabs-part-ii-accessibility/). This time I've decided to implement accessibility right away.
+Last time I've published [a post about pure CSS tabs solution](https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/), I've received a lot of comments about missing accessibility. As a result, I've updated a demo with accessibility and published a [new article](https://silvestar.codes/en/articles/css-tabs-part-ii-accessibility/). This time I've decided to implement accessibility right away.
 
 The first step is adding [wai-aria attributes](https://www.w3.org/TR/wai-aria/). We want our label to act as a button. We should add `role="button"` attribute. [Button role](https://www.w3.org/TR/wai-aria/roles#button) supports 2 states, pressed and expanded. Let's add those too: `aria-pressed="false"` and `aria-expanded="false"`. Finally, we should add `aria-label="Navigation button"` because there is no text element inside the label.
 

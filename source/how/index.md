@@ -16,7 +16,7 @@ The development workflow is completely automated using [Gulp](https://gulpjs.com
 
 I've built logo using [SVG](https://www.w3.org/TR/SVG/) to add the more crisp look to the site. Template engine [ejs](http://www.embeddedjs.com/) is used to built HTML files. [Cloudinary](http://cloudinary.com/) is used to host images and [srcset](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) is used to add responsive images.
 
-The website is super fast. Check the scores on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsilvestarbistrovic.from.hr) and [Testmysite.io](https://testmysite.io/59832155a700c43c98b08b12/www.silvestarbistrovic.from.hr). Perfect! This is achieved by optimizing every asset. The most crucial optimization is [Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) implemented here as well.
+The website is super fast. Check the scores on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsilvestar.codes) and [Testmysite.io](https://testmysite.io/59832155a700c43c98b08b12/www.silvestar.codes). Perfect! This is achieved by optimizing every asset. The most crucial optimization is [Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) implemented here as well.
 
 Articles about [CSS tabs](http://css-weekly.com/issue-237/), [CSS sidebar toggle](http://css-weekly.com/issue-258/), and [Using CSS Grid where appropriate](http://css-weekly.com/issue-277/) are featured in [CSS Weekly newsletter](http://css-weekly.com/) curated by [Zoran Jambor](https://twitter.com/ZoranJambor).
 

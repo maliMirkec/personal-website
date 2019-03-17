@@ -31,7 +31,7 @@ Let's break this into smaller modules:
 First three are easy to create, especially if using flexbox to center the content.
 
 ```html
-<a class="hero" href="//www.silvestarbistrovic.from.hr" target="_blank">
+<a class="hero" href="//www.silvestar.codes" target="_blank">
   <div class="hero__content">
     <h1 class="hero__text">
       Star Bist

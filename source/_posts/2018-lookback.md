@@ -63,7 +63,7 @@ I am a user interface developer, and I know how to change the layout or how to s
 
 ## Static Page Generators
 
-I started to use Hexo for my website a couple of years ago. I learned how to use it, and I wrote [about it](https://www.silvestarbistrovic.from.hr/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/). This year I had the opportunity to work [with other](https://www.silvestarbistrovic.from.hr/articles/overviev-of-popular-static-site-generators/) static page generators. I have developed websites using Middleman, Jekyll, and Hugo.
+I started to use Hexo for my website a couple of years ago. I learned how to use it, and I wrote [about it](https://www.silvestar.codes/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/). This year I had the opportunity to work [with other](https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/) static page generators. I have developed websites using Middleman, Jekyll, and Hugo.
 
 Although Jekyll is the most popular, Hugo is my favorite. It is blazing fast, simple, yet powerful. You don't need any plugins to build a sophisticated solution in Hugo.
 

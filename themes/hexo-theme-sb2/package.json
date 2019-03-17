@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/maliMirkec/hexo-theme-sb/issues"
   },
-  "homepage": "https://sbtheme.silvestarbistrovic.from.hr",
+  "homepage": "https://sbtheme.silvestar.codes",
   "dependencies": {
     "fontfaceobserver": "^2.1.0",
     "hexo-helper-inline-svg": "^1.1.1",
