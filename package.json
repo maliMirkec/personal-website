@@ -1,6 +1,6 @@
 {
-  "name": "silvestarbistrovic.from.hr",
-  "version": "3.0.40",
+  "name": "silvestar.codes",
+  "version": "3.0.41",
   "description": "Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.",
   "main": "index",
   "repository": {
@@ -12,9 +12,9 @@
     "website",
     "maliMirkec"
   ],
-  "author": "maliMirkec <malimirkeccita@gmail.com> (https://www.silvestarbistrovic.from.hr)",
+  "author": "maliMirkec <malimirkeccita@gmail.com> (https://www.silvestar.codes)",
   "license": "MIT",
-  "homepage": "https://www.silvestarbistrovic.from.hr",
+  "homepage": "https://www.silvestar.codes",
   "bugs": {
     "url": "https://github.com/maliMirkec/hexo-sb/issues"
   },

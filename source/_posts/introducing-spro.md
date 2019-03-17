@@ -120,8 +120,8 @@ Please show your support by starring the project on [Github], or by sharing on [
 
 Or contribute to the project by creating [a new issue] or [a pull request].
 
-[Starter Project]: https://starter.silvestarbistrovic.from.hr/
-[in the introduction article]: https://www.silvestarbistrovic.from.hr/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
+[Starter Project]: https://starter.silvestar.codes/
+[in the introduction article]: https://www.silvestar.codes/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
 [Gulp.js 4 documentation]: https://gulpjs.com/docs/en/getting-started/javascript-and-gulpfiles#splitting-a-gulpfile
 [Discord]: https://discord.gg/aBx8dcu
 [Why npm scripts]: https://css-tricks.com/why-npm-scripts/

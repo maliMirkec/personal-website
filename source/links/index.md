@@ -18,7 +18,7 @@ Here you could find links to all my profiles and projects. My direct email is [m
 - [Hacker News](//news.ycombinator.com/user?id=starbist)
 - [Lobsters](//lobste.rs/u/starbist)
 - [Reddit](//www.reddit.com/user/starbist)
-- [Facebook](//www.facebook.com/silvestarbistrovic.from.hr/)
+- [Facebook](//www.facebook.com/silvestar.codes/)
 - [Google+](//plus.google.com/b/110569084982950212149/+SilvestarbistrovicFromHr)
 - [Last.fm](//last.fm/user/maliMirkec)
 
@@ -34,7 +34,7 @@ Here you could find links to all my profiles and projects. My direct email is [m
 - [About.me](//about.me/starbist)
 
 ### Projects
-- [Starter Project](//starter.silvestarbistrovic.from.hr/)
+- [Starter Project](//starter.silvestar.codes/)
 - [Making a website with Hugo](//skl.sh/2ILioJ8)
 - [_bem](//frontend-developer.xyz/_bem/)
 

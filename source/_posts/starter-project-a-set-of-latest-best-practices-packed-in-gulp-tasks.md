@@ -50,7 +50,7 @@ Starter project has three different Gulp commands for different environments:
 - `gulp docs` for documentation build, and
 -  `gulp` for a production build.
 
-To learn more about commands, see [official documentation](https://starter.silvestarbistrovic.from.hr/commands/).
+To learn more about commands, see [official documentation](https://starter.silvestar.codes/commands/).
 
 With Starter Project you get the architecture for:
 - HTML,
@@ -61,7 +61,7 @@ With Starter Project you get the architecture for:
 - fonts,
 - and more.
 
-You could find all assets in `new_src` folder. Once you run one of the build commands, `new_dist` folder will be created with compiled static contents. Learn more about structure [here](https://starter.silvestarbistrovic.from.hr/structure/).
+You could find all assets in `new_src` folder. Once you run one of the build commands, `new_dist` folder will be created with compiled static contents. Learn more about structure [here](https://starter.silvestar.codes/structure/).
 
 ## The Config file
 
@@ -69,7 +69,7 @@ Starter Project is configurable and should be able to run in every project, no m
 
 {% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "penthouse config" %}
 
-Read more about configuration [here](https://starter.silvestarbistrovic.from.hr/configuration/).
+Read more about configuration [here](https://starter.silvestar.codes/configuration/).
 
 ## Features
 
@@ -103,10 +103,10 @@ Starter Project is not conceived as a strict set of rules. This package should b
 
 Show your support: provide feedback, open [a new issue](https://github.com/maliMirkec/starter-project/issues/new), create [a new pull request](https://github.com/maliMirkec/starter-project/compare), or leave a comment.
 
-[Starter Project]: https://starter.silvestarbistrovic.from.hr/
+[Starter Project]: https://starter.silvestar.codes/
 [npm]: https://www.npmjs.com/package/starter-project
-[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestarbistrovic.from.hr%2F&tab=desktop
+[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestar.codes%2F&tab=desktop
 [WebPageTest]: https://www.webpagetest.org/result/180323_7F_8cd32d6a04d395ff01839c921d82047d/
-[Silvestar Bistrović website]: https://www.silvestarbistrovic.from.hr
+[Silvestar Bistrović website]: https://www.silvestar.codes
 [Han Han Xue website]: https://hanhanxue.com/
 [Irina & Matej website]: https://irinaandmatej.com/
