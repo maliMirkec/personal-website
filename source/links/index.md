@@ -34,7 +34,7 @@ Here you could find links to all my profiles and projects. My direct email is [m
 - [About.me](//about.me/starbist)
 
 ### Projects
-- [Starter Project](//starter.silvestar.codes/)
+- [Starter Project](//starter.silvestarbistrovic.from.hr/)
 - [Making a website with Hugo](//skl.sh/2ILioJ8)
 - [_bem](//frontend-developer.xyz/_bem/)
 

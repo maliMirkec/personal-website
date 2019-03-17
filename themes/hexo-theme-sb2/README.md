@@ -1,8 +1,8 @@
 # hexo-theme-sb
 
-[Hexo Theme SB](https://sbtheme.silvestar.codes) Clean and simple theme for Hexo blog framework.
+[Hexo Theme SB](https://sbtheme.silvestarbistrovic.from.hr) Clean and simple theme for Hexo blog framework.
 
-Official website: [https://sbtheme.silvestar.codes](https://sbtheme.silvestar.codes)
+Official website: [https://sbtheme.silvestarbistrovic.from.hr](https://sbtheme.silvestarbistrovic.from.hr)
 Used on: [https://www.silvestar.codes](https://www.silvestar.codes)
 
 ## Installation
@@ -80,7 +80,7 @@ home_page:
     title: Projects
     links:
       Starter Project: //starter-project.silvestar.codes
-      Hexo Theme SB: //sbtheme.silvestar.codes
+      Hexo Theme SB: //sbtheme.silvestarbistrovic.from.hr
       Contiamo: //www.contiamo.com
       Irina and Matej: //irinaandmatej.com
   - section:
@@ -140,6 +140,6 @@ If you need any help, please feel free to [contact me].
 
 If you're having issues, please [search for issues](https://github.com/maliMirkec/hexo-theme-sb/issues) or open [a new one](https://github.com/maliMirkec/hexo-theme-sb/issues/new).
 
-[Starter Project]: https://starter.silvestar.codes
+[Starter Project]: https://starter.silvestarbistrovic.from.hr
 [contact me]: https://silvestar.typeform.com/to/jS4Qkz
 

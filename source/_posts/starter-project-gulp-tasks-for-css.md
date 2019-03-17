@@ -191,7 +191,7 @@ This should run stylelint when you save `.scss` files. If it doesn't work, [cont
 Please share! 🙏
 
 [In the previous article]: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
-[Starter Project]: https://starter.silvestar.codes/
+[Starter Project]: https://starter.silvestarbistrovic.from.hr/
 [npm]: https://www.npmjs.com/package/starter-project
 [Sass]: https://sass-lang.com/
 [gulp-sass]: https://www.npmjs.com/package/gulp-sass
