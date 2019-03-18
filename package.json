@@ -23,8 +23,8 @@
     "cp_headers": "cp source/_headers public/_headers",
     "cp_robots-dev": "cp ./robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
-    "deploy": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots",
-    "dev": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots"
+    "deploy": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots-prod",
+    "dev": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots-dev"
   },
   "hexo": {
     "version": "3.7.1"
