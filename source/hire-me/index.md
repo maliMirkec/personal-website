@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
 date: 2010-01-26 10:17:15
 description:
 sidebar: true

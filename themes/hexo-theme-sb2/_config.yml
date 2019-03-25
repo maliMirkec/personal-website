@@ -133,6 +133,9 @@ menu:
 portfolio:
   title: Projects
   items:
+    Calvert: /portfolio/calvert/
+    Flexera: /portfolio/flexera/
+    Flexera Software: /portfolio/flexerasoftware/
     Machine Learning Libraries: /portfolio/machine-learning-libraries/
     Domino Data Lab: /portfolio/dominodatalab/
     Domino Data Lab Rev: /portfolio/dominodatalab-rev/
@@ -151,6 +154,7 @@ sidebar:
   items:
     Contact: https://silvestar.typeform.com/to/jS4Qkz
     About: /about-me/
+    CV: /portfolio/silvestar-bistrovic-cv.pdf
     Hire me: /hire-me/
     Services: /services/
     Setup: /uses/
@@ -165,16 +169,18 @@ sidebar:
 banner1:
   span: "I am currently considering new projects for this year. Contact me if you want me on your team."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
   link: https://silvestar.typeform.com/to/jS4Qkz
 
 banner2:
   span: "I am currently considering new projects for this year. Contact me."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
   href: https://silvestar.typeform.com/to/jS4Qkz
 
 widgets:
+  cookies:
+    paragraph: This site uses cookies to count visitors anonymously.
   about:
     paragraphs:
       - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.

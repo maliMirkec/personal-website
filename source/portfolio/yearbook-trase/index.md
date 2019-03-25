@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 portfolio: true
 ---

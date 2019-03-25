@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
 description: Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
 portfolio: true
 ---

@@ -6,8 +6,7 @@ footer.footer
   else if (config && config.title)
     p.copy!= "&copy; " + config.title + ", " + new Date().getFullYear()
 
-
-if (theme && theme.widgets && theme.widgets.google_analytics)
+if (theme && theme.widgets && theme.widgets.cookies)
   include widgets/ga
 
 if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)

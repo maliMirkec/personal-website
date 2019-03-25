@@ -6,8 +6,18 @@ grid:
   banner1:
     span: "I am currently considering new projects for this year."
     btn1: "Get in touch"
-    btn2: "2019 Q2-Q3"
+    btn2: "I am open for new projects"
   list:
+    # - item:
+    #   title: Calvert
+    #   href: /portfolio/calvert/
+    #   src: //res.cloudinary.com/starbist/image/upload/v1553496460/ev-c_vgm0ws.png
+    #   description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
+    # - item:
+    #   title: Flexera
+    #   href: /portfolio/flexera/
+    #   src: //res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
+    #   description: Flexera controls and manages software, and IT costs, to grow and protect your business.
     - item:
       title: Machine Learning Libraries
       href: /portfolio/machine-learning-libraries/
@@ -70,4 +80,4 @@ grid:
       description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world.
 ---
 
-[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/about-me/).
+[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/about-me/). Also, you could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).

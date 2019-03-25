@@ -1,7 +1,7 @@
 // General
-html {
-  scroll-behavior: smooth;
-}
+// html {
+//   scroll-behavior: smooth;
+// }
 
 body {
   min-height: 100vh;
@@ -17,9 +17,17 @@ body {
 }
 
 a {
+  cursor: pointer;
+
   &:focus {
     outline: none;
-    box-shadow: 0 0 0 1px $color-beta inset, 0 0 0 1px $color-alpha;
+  }
+
+  &:not(.btn),
+  a:not([class*="link"]) {
+    &:focus {
+      box-shadow: 0 0 0 1px $color-beta inset, 0 0 0 1px $color-beta;
+    }
   }
 }
 

@@ -1,7 +1,8 @@
 // Header
 .header {
-  background-color: darken($color-alpha, 8%);
-  color: $color-omega;
+  background-color: $color-psi;
+  color: lighten($color-alpha, 20%);
+  box-shadow: 0 -3px 0 0 $color-alpha inset;
 }
 
 .nav__list {
@@ -36,7 +37,7 @@
   padding: 5px 10px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
@@ -53,10 +54,11 @@
     clip-path: inset(1px);
     white-space: nowrap;
     position: absolute;
-    box-shadow: 0 0 0 5px $color-alpha inset, 0 0 0 1px $color-alpha;
 
     &:focus {
       background-color: $color-beta;
+      color: $color-omega;
+      border-color: $color-beta;
       clip: auto;
       height: auto;
       width: auto;
@@ -83,10 +85,14 @@
     background-image: url(/gfx/svg/logo-header.svg);
   }
 
+  .nav__item:last-of-type & {
+    color: lighten($color-beta, 10%);
+  }
+
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($color-alpha, 4%);
+    background-color: darken($color-psi, 10%);
   }
 
   @include mq($from: tablet) {
@@ -97,6 +103,6 @@
   @include mq($from: desktop) {
     padding: 35px 50px;
     background-size: 30px 30px;
-    background-position: center bottom;
+    background-position: center bottom 2px;
   }
 }

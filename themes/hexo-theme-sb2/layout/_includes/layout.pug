@@ -30,5 +30,7 @@ html(lang=lang)
 
     main(class="main" + main_class + main_sidebar, id="main")
       block content
+      if (theme && theme.widgets && theme.widgets.cookies)
+        include ../_partials/widgets/cookies
     include ../_partials/footer
     include ../_partials/starter-project
