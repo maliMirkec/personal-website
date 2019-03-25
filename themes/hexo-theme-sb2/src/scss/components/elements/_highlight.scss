@@ -1,19 +1,37 @@
 .highlight {
   margin: 2em 0;
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: auto;
   padding: 0 1em;
   background-color: $color-gamma;
+  margin-right: calc((100vw - 100%) / -2);
+  margin-left: calc((100vw - 100%) / -2);
 
   table {
     color: $color-beta;
-    font-size: 0.875rem;
-    line-height: 1.8;
+    font-size: 0.7rem;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
   }
 
   .gutter {
-    padding-right: 1em;
     color: lighten($color-psi, 50%);
+    width: 2.5em;
+  }
+
+  @include mq($from: tablet) {
+    table {
+      min-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @include mq($from: desktop) {
+    table {
+      font-size: 0.8rem;
+    }
   }
 }
-

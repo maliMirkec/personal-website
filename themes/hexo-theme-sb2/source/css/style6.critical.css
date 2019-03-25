@@ -88,10 +88,6 @@ p {
   margin-top: 1.333rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -111,6 +107,8 @@ body {
   -ms-hyphens: auto;
   hyphens: auto;
 }
+
+
 
 img {
   max-width: 100%;
@@ -207,8 +205,10 @@ img {
 }
 
 .header {
-  background-color: #0fba84;
-  color: #fff;
+  background-color: #1f1f1f;
+  color: #65f3c6;
+  -webkit-box-shadow: 0 -3px 0 0 #12e09f inset;
+  box-shadow: 0 -3px 0 0 #12e09f inset;
 }
 
 .nav__list {
@@ -252,7 +252,7 @@ img {
   padding: 5px 10px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
@@ -270,12 +270,14 @@ img {
   clip-path: inset(1px);
   white-space: nowrap;
   position: absolute;
-  -webkit-box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
-  box-shadow: 0 0 0 5px #12e09f inset, 0 0 0 1px #12e09f;
 }
 
 .nav__list--about-me .nav__item:nth-child(5) .nav__link {
   background-image: url(/gfx/svg/logo-header.svg);
+}
+
+.nav__item:last-of-type .nav__link {
+  color: #ef3675;
 }
 
 @media (min-width: 48em) {
@@ -289,7 +291,7 @@ img {
   .nav__link {
     padding: 35px 50px;
     background-size: 30px 30px;
-    background-position: center bottom;
+    background-position: center bottom 2px;
   }
 }
 
@@ -344,10 +346,6 @@ img {
   text-decoration: none;
 }
 
-.list img[src*=".svg"] {
-  max-width: 50px;
-}
-
 .list:not(.list--bullets) {
   list-style: none;
 }
@@ -358,11 +356,6 @@ img {
 
 .list__item {
   margin-bottom: 0.25em;
-}
-
-.list__link--logo {
-  display: block;
-  margin-top: 0.5em;
 }
 
 .list__link.list__link--current {
@@ -389,6 +382,10 @@ img {
   margin-top: 0;
 }
 
+.content p img {
+  width: auto;
+}
+
 .banner {
   padding: .5rem;
   display: -webkit-box;
@@ -412,7 +409,6 @@ img {
 }
 
 .banner .btn {
-  border: none;
   color: #fff;
   padding: .125rem .5rem .25rem;
   display: -webkit-box;
@@ -426,20 +422,20 @@ img {
   -ms-flex-align: center;
   align-items: center;
   white-space: nowrap;
-  font-weight: normal;
   text-decoration: none;
+  background-color: #1f1f1f;
+  border: 4px solid #060606;
 }
 
 .banner .btn span {
   text-transform: uppercase;
   color: inherit;
-  font-weight: inherit;
+  font-weight: bold;
 }
 
 .banner .btn span:nth-child(1) {
-  letter-spacing: calc(50 / 1000 * 1em);
   font-family: "Playfair Display", serif;
-  font-weight: bold;
+  letter-spacing: calc(50 / 1000 * 1em);
 }
 
 .banner .btn span:nth-child(2) {
@@ -495,5 +491,5 @@ img {
 }
 
 .banner--beta .btn {
-  background-color: #10c48b;
+  color: #fac4d6;
 }

@@ -1,0 +1,17 @@
+.cookies {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  z-index: 1;
+  padding: 0;
+  font-size: ms(-2);
+  display: flex;
+  line-height: 1;
+}
+
+.dismiss {
+  border: 0;
+  color: $color-beta;
+  font-size: ms(2);
+  line-height: 2rem;
+}

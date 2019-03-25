@@ -159,6 +159,7 @@ code {
 .article__thumb {
   margin-right: calc((100vw - 100%) / -2);
   margin-left: calc((100vw - 100%) / -2);
+  display: block;
 
   img {
     display: block;
@@ -261,6 +262,12 @@ code {
   .main--post & {
     max-width: 720px;
     margin: 0 auto;
+  }
+
+  p {
+    img {
+      width: auto;
+    }
   }
 }
 

@@ -3,14 +3,16 @@ title: Links
 banner2:
   span: "I am currently considering new projects for this year."
   btn1: "Get in touch"
-  btn2: "2019 Q2-Q3"
+  btn2: "I am open for new projects"
 comments: false
 date: 2018-10-22 13:38:37
 description: Here you could find links to all my profiles and projects.
 sidebar: true
 ---
 
-Here you could find links to all my profiles and projects. My direct email is [me@silvestarbistrovic.from.hr](mailto:me@silvestarbistrovic.from.hr).
+Here you could find links to all my profiles and projects.
+
+My direct email is [me@silvestar.codes](mailto:me@silvestar.codes). You could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).
 
 ### Social
 - [Twitter](//twitter.com/malimirkeccita)
