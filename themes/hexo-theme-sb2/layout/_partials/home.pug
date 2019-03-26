@@ -37,13 +37,13 @@
           ul(class="list" + list_class)
             each quote in section.quotes
               li.list__item
-                blockquote
-                  p= "“" + quote.text + "”"
-                  h5= "➡ " + quote.person
-                  h6
-                    span= quote.position
-                    span= " @ "
-                    a.list__link(href=urlFor(quote.project.link))= quote.project.name
+                a.list__link(href=urlFor(quote.project.link))
+                  blockquote
+                    each paragraph in quote.paragraphs
+                      p= paragraph
+                    h5= quote.person
+                    h5= quote.position + " @ " + quote.project.name
+                    span= " View project →"
         if (section.images)
           ul.list.list--alpha
             each section_image in section.images

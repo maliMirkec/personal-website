@@ -11,7 +11,7 @@
 
   h4,
   h5 {
-    letter-spacing: 0.025em;
+    @include ls(25);
     text-transform: none;
     color: lighten($color-beta, 10%);
   }
@@ -192,62 +192,79 @@
   margin-top: 20px;
 
   blockquote {
+    color: $color-psi;
     margin: 0;
     padding: 2rem;
-    background-color: $color-gamma;
-    transform: skewX(-1deg);
     position: relative;
+    font-family: $font-alpha;
+    border: 1px solid $color-alpha;
+    overflow: hidden;
 
     &:before {
-      content: "";
+      content: "”";
+      color: darken($color-omega, 3%);
+      font-family: $font-beta;
+      font-size: ms(9);
+      line-height: 1;
       position: absolute;
-      top: 0;
-      left: 0;
-      border-top: 10px solid $color-omega;
-      border-left: 10px solid $color-omega;
-      border-bottom: 10px solid transparent;
-      border-right: 10px solid transparent;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      border-bottom: 10px solid $color-omega;
-      border-right: 10px solid $color-omega;
-      border-top: 10px solid transparent;
-      border-left: 10px solid transparent;
+      bottom: -0.45em;
+      right: 0.05em;
+      z-index: 0;
     }
   }
 
   p {
     font-size: ms(-1);
     transform: skewX(1deg);
-    font-style: italic;
-  }
-
-  h5 {
-    font-family: $font-beta;
-    font-size: ms(0);
-    font-weight: bold;
-    transform: skewX(1deg);
-    @include ls(40);
-  }
-
-  h6 {
-    font-family: $font-beta;
-    color: darken($color-alpha, 10%);
-    font-weight: bold;
-    font-size: ms(-1);
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-    transform: skewX(2deg);
+    font-weight: normal;
     @include ls(20);
   }
 
+  p + p {
+    margin-top: 1em;
+  }
+
+  h5 {
+    margin-top: 1em;
+    color: inherit;
+    font-size: ms(-1);
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include ls(20);
+    position: relative;
+    z-index: 1;
+  }
+
+  h5 + h5 {
+    color: inherit;
+    font-size: ms(-2);
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+
+  span {
+    text-transform: uppercase;
+    color: $color-alpha;
+    font-size: ms(-2);
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+
   a {
-    color: darken($color-alpha, 10%);
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+
+      blockquote {
+        border-color: $color-beta;
+      }
+
+      span {
+        color: $color-beta;
+      }
+    }
   }
 
   @include mq($from: tablet) {

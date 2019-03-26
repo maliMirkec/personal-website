@@ -21,13 +21,13 @@ If you want to learn more about SPRO, [read the introduction article from the la
 
 If you prefer watching a video over reading an article, you could proceed to [the Skillshare lesson] that I recorded for this occasion.
 
-[{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551781922/cover-wp_w0q90l.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO Skillshare course" %}](https://skl.sh/2EcUlRt)
+[{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551781922/cover-wp_w0q90l.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "SPRO Skillshare course cover." %}](https://skl.sh/2EcUlRt)
 
 ## The project structure
 
 I am going to use a default WordPress installation as my starting point. I am using [Local by FlyWheel] as my WordPress development tool.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551781934/local_hu1z2y.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Local by FlyWheel" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551781934/local_hu1z2y.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Screenshot of Local by FlyWheel tool." %}
 
 The aim is to add Gulp tasks to TwentyNineteen default theme for Sass, JavaScript, BrowserSync, and Critical CSS.
 

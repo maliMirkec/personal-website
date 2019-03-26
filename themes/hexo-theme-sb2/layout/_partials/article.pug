@@ -82,12 +82,12 @@ if (page && page.title)
             ul.list
               if (page && page.next)
                 li.list__item
-                  - var nextTitle = page.next.title ? page.next.title: "Next";
-                  a.list__link.list__link--next(href=urlFor(page.next.path))= nextTitle
+                  - var nextTitle = page.next.title ? page.next.title: "Previous";
+                  a.list__link(href=urlFor(page.next.path), rel="prev")= nextTitle
               if (page && page.prev)
                 li.list__item
-                  - var prevTitle = page.prev.title ? page.prev.title: "Previous";
-                  a.list__link.list__link--prev(href=urlFor(page.prev.path))= prevTitle
+                  - var prevTitle = page.prev.title ? page.prev.title: "Next";
+                  a.list__link(href=urlFor(page.prev.path), rel="next")= prevTitle
       .metadata__content
         if (theme && theme.widgets && theme.widgets.about)
           include widgets/about

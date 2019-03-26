@@ -23,11 +23,11 @@ Sometimes the amount of new frontend technologies feels really [overwhelming to 
 
 Let's go back to the code. Even better, let's consider model examples for this task:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509209/first-model-for-angular-repeater_bmsaac.png false "First model for angular repeater" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509209/first-model-for-angular-repeater_bmsaac.png false "First model for angular repeater." %}
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509186/second-model-for-angular-repeater_lxgczj.png false "Second model for angular repeater" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509186/second-model-for-angular-repeater_lxgczj.png false "Second model for angular repeater." %}
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509184/third-model-for-angular-repeater_dsleyg.png false "Third model for angular repeater" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/f_auto,q_auto,w_320/v1497509184/third-model-for-angular-repeater_dsleyg.png false "Third model for angular repeater." %}
 
 These models contain typical types of data:
 
@@ -43,7 +43,7 @@ Since we need to iterate through these models to display labels and inputs, we s
 
 The solution lies in **recursion**. It is a programming principle when a function calls itself. In our case, we'll use a **recursive-repeater** directive that will call itself.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509181/angular-repeater-template_pzfvoq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Template for angular repeater" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509181/angular-repeater-template_pzfvoq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Template for angular repeater." %}
 
 _For now, ignore IsObject() and IsNumber() functions._
 
@@ -55,7 +55,7 @@ The solution is [Mark Lagendijk's RecursionHelper service](https://github.com/ma
 
 I've already included this awesome service in **recursive-repeater** directive, like this:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509179/angular-repeater-directive_rkx8sy.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Angular repeater directive" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509179/angular-repeater-directive_rkx8sy.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Angular repeater directive." %}
 
 As you could see, we're not using **link** property when defining directive, we are using **compile** instead.
 

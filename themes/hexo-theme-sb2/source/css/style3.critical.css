@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -260,7 +262,7 @@ img {
 }
 
 .list h4 {
-  letter-spacing: 0.025em;
+  letter-spacing: calc(25 / 1000 * 1em);
   text-transform: none;
   color: #ef3675;
 }
