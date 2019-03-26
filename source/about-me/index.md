@@ -22,6 +22,6 @@ I am working as a freelance web developer, and I am working remotely from my off
 
 If you want to get in touch, [fill the contact form](https://silvestar.typeform.com/to/jS4Qkz) or [send me the email](mailto:me@silvestar.codes).
 
-<div style="max-width:200px;">{% cloudinary //res.cloudinary.com/starbist/image/upload/v1553514359/potpis_lbhrff.png 320px=f_auto,q_auto,w_200;720px=f_auto,q_auto,w_200 "dev.to stats" %}</div>
+<div style="max-width:200px;">{% cloudinary //res.cloudinary.com/starbist/image/upload/v1553514359/potpis_lbhrff.png 320px=f_auto,q_auto,w_200;720px=f_auto,q_auto,w_200 "Signature in cursive saying S Bistrović." %}</div>
 
 P.S. You could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).

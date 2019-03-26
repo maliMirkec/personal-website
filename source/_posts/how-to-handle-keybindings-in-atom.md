@@ -34,7 +34,7 @@ We need to fix this. First step is to find out which command is currently used. 
 
 Go on and search `ctrl-up` to see all related commands.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509309/keybindings-settings-1_lq79lw.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings settings" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509309/keybindings-settings-1_lq79lw.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings settings." %}
 
 Let say we couldn't determine which command should we remove or update. What to do then?
 
@@ -42,7 +42,7 @@ In this case you should use [keybinding-resolver](https://atom.io/packages/keybi
 
 Now try to press `ctrl-up` and see what happens. **keybinding-resolver** shows us which command is used in what order. In our case, we could see that `editor:move-line-up` command is the first in line. We'll should remove it.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509225/keybindings-resolver_xuy5tk.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings resolver in action" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509225/keybindings-resolver_xuy5tk.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings resolver in action." %}
 
 ## How to remove keybindings?
 
@@ -50,17 +50,17 @@ When multiple commands for the same keybinding exist, we need to remove ones tha
 
 Paste the copied keybinding command. You should see the command selector and keybinding command.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap copy command" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509227/keybindings-keymap-copy_mqcnuz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap copy command." %}
 
 To remove the keybinding, use "unset!" command.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap unset command" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509228/keybindings-keymap-unset_xfhlkt.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap unset command." %}
 
 ## How to use custom keybindings?
 
 So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509223/keybindings-keymap-replace_dmqrfn.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap replace command" %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509223/keybindings-keymap-replace_dmqrfn.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Keybindings keymap replace command." %}
 
 Now we could use `ctrl-up` to increment number by 1.
 

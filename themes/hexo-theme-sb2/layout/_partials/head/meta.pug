@@ -12,16 +12,23 @@ if (page && page.description)
   meta(name="description" content=page.description)
 else if (page && page.posts && !isHome())
   if (page && page.category)
-    - var description = "Display all posts from category: " + page.category
+    - var description = "Blog posts about CSS, HTML, JavaScript browsers, static page generators, WordPress, frontend technologies, freelance life, remote working, and more."
   else if (page && page.tag)
-    - var description = "Display all posts tagged: " + page.tag
+    - var description = "A list of blog posts tagged " + page.tag + "."
 else if (theme && theme.site && theme.site.description)
   - var description = theme.site.description
 else if (config && config.description)
   - var description = config.description
 meta(name="description" content=description)
 if (theme && theme.site && theme.site.full_name)
-  - var title = page && page.title ? page.title + " | " + theme.site.full_name : theme.site.full_name
+  if (isHome())
+    - var title = "Home 🤘 " + theme.site.full_name
+  else if (page && page.category)
+    - var title = "Blog 🤘 " + theme.site.full_name
+  else if (page && page.tag)
+    - var title = "Tag: " + page.tag + " 🤘 " + theme.site.full_name
+  else
+    - var title = page && page.title ? page.title + " 🤘 " + theme.site.full_name : theme.site.full_name
   title= title
 else if (config && config.title)
   title= config.title
