@@ -78,7 +78,7 @@ home_page:
     title: Testimonials
     quotes:
       - person: Evan Lavidor
-        position: Partner & Executive Director, Technology
+        position: Partner & Executive Director
         project:
           name: BEAM Interactive
           link: /portfolio/flexera/
@@ -145,7 +145,7 @@ menu:
 portfolio:
   title: Projects
   items:
-    Calvert: /portfolio/calvert/
+    # Calvert: /portfolio/calvert/
     Flexera: /portfolio/flexera/
     Flexera Software: /portfolio/flexerasoftware/
     Machine Learning Libraries: /portfolio/machine-learning-libraries/
@@ -166,11 +166,11 @@ sidebar:
   items:
     Contact: https://silvestar.typeform.com/to/jS4Qkz
     About: /about-me/
-    CV: /portfolio/silvestar-bistrovic-cv.pdf
     Hire me: /hire-me/
     Services: /services/
     Setup: /uses/
     Links: /links/
+    CV: /portfolio/silvestar-bistrovic-cv.pdf
     Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: //www.linkedin.com/in/starbist/
     GitHub: //github.com/maliMirkec

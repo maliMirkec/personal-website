@@ -13,7 +13,7 @@ portfolio: true
 
 Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity. The website runs on a custom CMS solution.
 
-Link: [calvert.com](//www.calvert.com)
+<!-- Link: [calvert.com](#calvert) -->
 
 ## Responsibilities
 
