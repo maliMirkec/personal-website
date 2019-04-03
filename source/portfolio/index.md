@@ -13,11 +13,11 @@ grid:
     #   href: /portfolio/calvert/
     #   src: //res.cloudinary.com/starbist/image/upload/v1553496460/ev-c_vgm0ws.png
     #   description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
-    # - item:
-    #   title: Flexera
-    #   href: /portfolio/flexera/
-    #   src: //res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
-    #   description: Flexera controls and manages software, and IT costs, to grow and protect your business.
+    - item:
+      title: Flexera
+      href: /portfolio/flexera/
+      src: //res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
+      description: Flexera controls and manages software, and IT costs, to grow and protect your business.
     - item:
       title: Machine Learning Libraries
       href: /portfolio/machine-learning-libraries/
@@ -38,6 +38,11 @@ grid:
       href: /portfolio/dominodatalab-pop-up/
       src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddlp_mjllzg.png
       description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
+    - item:
+      title: TheGrio
+      href: /portfolio/thegrio/
+      src: //res.cloudinary.com/starbist/image/upload/v1554316889/tg_r1peey.png
+      description: TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives that appeal to them but are underrepresented in existing national news outlets.
     - item:
       title: Westwing
       href: /portfolio/westwing/
