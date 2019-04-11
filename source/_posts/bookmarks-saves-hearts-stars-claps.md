@@ -24,7 +24,7 @@ I like [to star GitHub projects], [save CodePens], [clap Medium stories], [like 
 
 Do you have a similar experience? Or is it just me? 🤔
 
-[download the file]: /bookmarks.zip
+[download the file]: /bookmarks/bookmarks.zip
 [to star GitHub projects]: //github.com/maliMirkec?tab=stars
 [save CodePens]: //codepen.io/CiTA/pens/loved/?grid_type=list
 [clap Medium stories]: //medium.com/@malimirkeccita/has-recommended
