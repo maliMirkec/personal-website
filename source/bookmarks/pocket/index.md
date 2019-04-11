@@ -9,6 +9,7 @@ date: 2017-08-02 20:08:06
 description: Pocket bookmarks export file
 sidebar: true
 ---
+
 [View Your Rollup – Unroll.Me](https://unroll.me/a/rollup/2018-08-02/email/12582677211)
 [Harry Roberts: FaCSSt—CSS and Performance - YouTube](https://www.youtube.com/watch?v=2Rn8an74khk&amp;feature=youtu.be)
 [Resilient, Declarative, Contextual](https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email)
