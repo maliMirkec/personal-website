@@ -9,7 +9,7 @@ description: The Trase Yearbook presents the latest insights on the sustainabili
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Trase Yearbook 2018 cover" cover-img //yearbook2018.trase.earth cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Trase Yearbook 2018 cover" cover-img //yearbook2018.trase.earth cover %}
 
 The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 

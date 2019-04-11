@@ -20,7 +20,7 @@ This article is part of a series about [Starter Project], and this time I will e
 
 The idea of Starter Project is to have a single config file for all Gulp tasks. If you open [`config.json`](https://github.com/maliMirkec/starter-project/blob/master/config.json) file, you could see a section for CSS.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524385137/config-json-css_ha2n75.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "config.json file, CSS part." %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524385137/config-json-css_ha2n75.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "config.json file, CSS part." %}
 
 The first option is `run`. If set to true, CSS Gulp tasks will be executed. There are three other mandatory options for CSS:
 - `src` - a path to a folder with Sass files,
@@ -165,7 +165,7 @@ Stylelint also has its plugins. In Starter Project, [stylelint-scss] and [stylel
 
 For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Then call command palette by pressing `cmd + shift + p`, and type `open workspace settings`.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524388057/open-workspace-settings_luw5ru.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720 "Open workspace settings example." %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1524388057/open-workspace-settings_luw5ru.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Open workspace settings example." %}
 
 When you open the workspace settings, add these settings.
 

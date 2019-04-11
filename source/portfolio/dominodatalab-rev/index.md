@@ -9,7 +9,7 @@ description: Rev is a summit hosted by Domino Data Lab company that gathers data
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1549951653/ddlr_rpy3cx.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Domino Data Lab Rev cover" cover-img //rev.dominodatalab.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1549951653/ddlr_rpy3cx.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Domino Data Lab Rev cover" cover-img //rev.dominodatalab.com cover %}
 
 Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place. The website runs on Jekyll.
 

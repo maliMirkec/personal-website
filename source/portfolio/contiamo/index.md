@@ -9,7 +9,7 @@ description: Contiamo is a company that uses machine learning and AI to drive be
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;960px=f_auto,q_auto,w_960 "Contiamo cover" cover-img //www.contiamo.com cover %}
+{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Contiamo cover" cover-img //www.contiamo.com cover %}
 
 Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization. The website runs on Middleman, Webpack, Netlify, and Github.
 
