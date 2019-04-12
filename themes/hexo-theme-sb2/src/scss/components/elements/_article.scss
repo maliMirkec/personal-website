@@ -269,6 +269,13 @@ code {
       width: auto;
     }
   }
+
+  a {
+    .main--sidebar & {
+      word-break: break-all;
+      hyphens: auto;
+    }
+  }
 }
 
 .comments {

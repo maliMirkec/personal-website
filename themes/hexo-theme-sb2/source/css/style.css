@@ -1166,6 +1166,12 @@ code {
 .content p img {
   width: auto; }
 
+.main--sidebar .content a {
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
 .main--post .comments {
   max-width: 720px;
   margin: 0 auto; }
