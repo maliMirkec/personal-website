@@ -136,10 +136,10 @@ menu:
   display_logo: false
   items:
     Home: /
-    Blog: /categories/articles
-    Portfolio: /portfolio
-    About: /about-me
-    Links: /links
+    Blog: /categories/articles/
+    Portfolio: /portfolio/
+    About: /about-me/
+    Links: /links/
     Contact: https://silvestar.typeform.com/to/jS4Qkz
 
 portfolio:

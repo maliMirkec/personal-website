@@ -388,6 +388,13 @@ img {
   width: auto;
 }
 
+.main--sidebar .content a {
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 .banner {
   padding: .5rem;
   display: -webkit-box;

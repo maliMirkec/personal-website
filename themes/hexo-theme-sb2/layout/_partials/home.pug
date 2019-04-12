@@ -27,9 +27,10 @@
               li.list__item
                 h5= h5
         if (section.profile)
+          - var article_img_retina = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_480/');
           - var article_img_wide = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_240/');
           - var article_img_mobile = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_120/');
-          - var article_img_srcset = article_img_mobile + " 120w, " + article_img_wide + " 240w";
+          - var article_img_srcset = article_img_mobile + " 120w, " + article_img_wide + " 240w, " + article_img_retina + " 480w";
           .profile
             img(src=article_img_wide, alt=section.profilealt, srcset=article_img_srcset sizes="(max-width: 240px) 120px, (min-width: 321px) 240px")
         if (section.quotes)
@@ -47,11 +48,12 @@
         if (section.images)
           ul.list.list--alpha
             each section_image in section.images
+              - var home_img_retina = section_image.src.replace('upload/', 'upload/f_auto,q_99,w_1050/');
               - var home_img_wide = section_image.src.replace('upload/', 'upload/f_auto,q_99,w_575/');
               - var home_img_desktop = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_525/');
               - var home_img_mobile = section_image.src.replace('upload/', 'upload/f_auto,q_99,w_717/');
               - var home_img_tamagochi = section_image.src.replace('upload/', 'upload/f_auto,q_auto,w_270/');
-              - var home_img_srcset = home_img_tamagochi + " 270w, " + home_img_mobile + " 717w, " + home_img_desktop + " 525w, " + home_img_wide + " 575w";
+              - var home_img_srcset = home_img_tamagochi + " 270w, " + home_img_mobile + " 717w, " + home_img_desktop + " 525w, " + home_img_wide + " 575w, " + home_img_retina + " 1050w";
               li.list__item
                 a.list__link(href=urlFor(section_image.href))
                   img(src=home_img_wide, alt=section_image.title, srcset=home_img_srcset, sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) and (max-width: 1199px) 525px, (min-width: 1200px) 575px")

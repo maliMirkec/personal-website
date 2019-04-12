@@ -1,6 +1,6 @@
 {
   "name": "silvestar.codes",
-  "version": "3.0.52",
+  "version": "3.0.53",
   "description": "Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.",
   "main": "index",
   "repository": {
@@ -27,10 +27,10 @@
     "dev": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots-dev"
   },
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {
-    "hexo": "^3.7.1",
+    "hexo": "^3.8.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-caniuse": "^0.1.4",
     "hexo-cloudinary": "^0.1.5",
@@ -42,11 +42,11 @@
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-helper-inline-svg": "^1.1.3",
-    "hexo-migrator-wordpress": "^0.1.2",
+    "hexo-migrator-wordpress": "^1.0.0",
     "hexo-pagination": "^0.1.0",
-    "hexo-render-pug": "^2.0.0",
+    "hexo-render-pug": "^2.1.0",
     "hexo-renderer-marked": "^0.3.2",
-    "hexo-server": "^0.3.2",
+    "hexo-server": "^0.3.3",
     "hexo-theme-sb": "^1.0.17"
   }
 }
