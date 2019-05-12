@@ -3,7 +3,7 @@ title: Franciscan Children's
 comments: false
 banner1:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
 portfolio: true

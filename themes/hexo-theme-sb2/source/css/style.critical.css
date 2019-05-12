@@ -302,7 +302,8 @@ img {
   margin-bottom: 0.5em;
 }
 
-.list h3 {
+.list h3,
+.list .list__headline {
   font-family: "Barlow", sans-serif, sans-serif;
   font-size: 1.333rem;
   font-weight: 400;
@@ -357,16 +358,17 @@ img {
 .home {
   display: grid;
   grid-gap: 50px;
-  grid-template-areas: "alpha" "beta" "banner1" "gamma" "delta" "epsilon" "banner2" "omega";
+  grid-template-columns: 100%;
+  grid-template-areas: "alpha" "beta" "banner1" "gamma" "epsilon" "banner2" "omega";
 }
 
 .home h1,
-.home h2 {
+.home h2:not(.list__headline) {
   position: relative;
 }
 
 .home h1:after,
-.home h2:after {
+.home h2:not(.list__headline):after {
   content: "";
   position: absolute;
   top: 100%;
@@ -399,8 +401,7 @@ img {
 
 @media (min-width: 30em) {
   .home {
-    grid-template-columns: repeat(2, minmax(40%, 1fr));
-    grid-template-areas: "alpha alpha" "banner1 banner1" "beta beta" "gamma delta" "epsilon epsilon" "banner2 banner2" "omega omega";
+    grid-template-areas: "alpha" "banner1" "beta" "gamma" "epsilon" "banner2" "omega";
   }
 }
 
@@ -421,14 +422,6 @@ img {
 
 .home__box--alpha h1 {
   grid-area: heading;
-}
-
-.home__box--alpha h2 {
-  font-family: "Barlow", sans-serif, sans-serif;
-  font-size: 1.333rem;
-  font-weight: 400;
-  margin-top: .5em;
-  margin-bottom: 0;
 }
 
 .home__box--alpha .list {

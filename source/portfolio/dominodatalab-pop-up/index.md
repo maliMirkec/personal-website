@@ -3,7 +3,7 @@ title: Domino Data Lab Pop-up
 comments: false
 banner2:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
 portfolio: true

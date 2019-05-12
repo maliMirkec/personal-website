@@ -3,7 +3,7 @@ title: Domino Data Lab
 comments: false
 banner2:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
 portfolio: true

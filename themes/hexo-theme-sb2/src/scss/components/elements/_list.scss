@@ -22,7 +22,8 @@
     margin-bottom: 0.5em;
   }
 
-  h3 {
+  h3,
+  .list__headline {
     font-family: $font-alpha, sans-serif;
     font-size: ms(1);
     font-weight: 400;

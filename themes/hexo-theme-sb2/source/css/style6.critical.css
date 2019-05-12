@@ -326,6 +326,7 @@ img {
 
 .sidebar__title {
   position: relative;
+  font-size: 1.333rem;
 }
 
 .sidebar__title:after {
@@ -350,6 +351,10 @@ img {
   text-decoration: none;
 }
 
+.list img[src*=".svg"] {
+  max-width: 50px;
+}
+
 .list:not(.list--bullets) {
   list-style: none;
 }
@@ -360,6 +365,11 @@ img {
 
 .list__item {
   margin-bottom: 0.25em;
+}
+
+.list__link--logo {
+  display: block;
+  margin-top: 0.5em;
 }
 
 .list__link.list__link--current {

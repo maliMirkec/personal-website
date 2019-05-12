@@ -25,7 +25,7 @@
           ul(class="list" + list_class)
             each h2 in section.headings
               li.list__item
-                h2= h2
+                h2.list__headline= h2
         if (section.profile)
           - var article_img_retina = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_480/');
           - var article_img_wide = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_240/');

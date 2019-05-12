@@ -313,6 +313,7 @@ img {
 
 .sidebar__title {
   position: relative;
+  font-size: 1.333rem;
 }
 
 .sidebar__title:after {
