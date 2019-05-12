@@ -9,7 +9,7 @@ description: Machine Learning Libraries is a website that outlines the most popu
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1549951653/mll_uzqdan.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Machine Learning Libraries cover" cover-img //www.mllibraries.com cover %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1549951653/mll_uzqdan.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Machine Learning Libraries cover" cover-img https://www.mllibraries.com cover %}
 
 Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python. The website runs on Hugo.
 

@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-08-30 18:00:19
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1500736006/Github_Atom_minimap_packages_asknpo.png
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1500736006/Github_Atom_minimap_packages_asknpo.png
 description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
 ---
 
@@ -20,7 +20,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **[minimap](https://atom.io/packages/minimap)** is a basic package for code preview and it's available on Atom's package manager. Settings let's you configure the **minimap** and here's my settings:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Atom General settings." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509512/minimap-settings_qurgyc.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Atom General settings." %}
 
 ## useful minimap extensions
 
@@ -51,7 +51,7 @@ There's even a package that highlights search result occurrences in the **minima
 
 This is my **minimap** in action:
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509509/minimap-in-action_jopeok.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Atom Minimap settings." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509509/minimap-in-action_jopeok.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Atom Minimap settings." %}
 
 ## Final thoughts
 

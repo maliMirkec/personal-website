@@ -5,7 +5,7 @@ categories:
 tags:
   - css
   - grid
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1501440293/Using_CSS_Grid_where_appropriate_aelnvq.png
 comments: true
 date: 2017-07-30 22:17:48
 description: Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about CSS Grid and actually use it. Here's what I learned.

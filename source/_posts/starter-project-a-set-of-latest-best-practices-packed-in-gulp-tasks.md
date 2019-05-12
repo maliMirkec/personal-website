@@ -7,7 +7,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
 description: This article is the very first article in a series about Starter Project, a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 ---
 
@@ -41,7 +41,7 @@ Starter Package is also a static page generator, a very rudimental one. The orig
 
 The package should be used as a development dependency. That will allow you to update the package and maintain your project more efficiently.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/code_g0esoz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "package.json file." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/code_g0esoz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "package.json file." %}
 
 ## The Usage
 
@@ -67,7 +67,7 @@ You could find all assets in `new_src` folder. Once you run one of the build com
 
 Starter Project is configurable and should be able to run in every project, no matter the architecture. The main configuration file could be found in the root of the project, `config.json`. For every task, there is an option `run`. If set to true, the task will run. For example, you could turn off [`penthouse`](https://www.npmjs.com/package/gulp-penthouse), a library for generating Critical CSS.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Penthouse plugin config example." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Penthouse plugin config example." %}
 
 Read more about configuration [here](https://starter.silvestarbistrovic.from.hr/configuration/).
 

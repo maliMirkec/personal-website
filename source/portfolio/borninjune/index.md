@@ -9,7 +9,7 @@ description: Lara is born in June, and she is a passionate traveler, biologist, 
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983573/bij_rb4lqa.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Born In June cover" cover-img //borninjune.net cover %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983573/bij_rb4lqa.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Born In June cover" cover-img https://borninjune.net cover %}
 
 Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
 

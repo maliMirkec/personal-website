@@ -10,7 +10,7 @@ home_page:
   - section:
     position: alpha
     title: Silvestar Bistrović
-    profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
+    profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
     profilealt: Headshot of myself, Silvestar Bistrović
     headings:
      - Fearless web developer
@@ -22,19 +22,19 @@ home_page:
     position: beta
     title: Featured Articles
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
+      - src: https://res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
         title: 'Custom WordPress Theme Development with SPRO'
         alt: 'Cover image with custom graphics for article Custom WordPress Theme Development with SPRO.'
         href: /articles/custom-wordpress-theme-development-with-spro/
-      - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
+      - src: https://res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
         title: 'Building an Animated Sticky Header With Custom Offset'
         alt: 'Cover image with custom graphics for article Building an Animated Sticky Header With Custom Offset.'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
-      - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
+      - src: https://res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
         title: 'Overview of Popular Static Site Generators'
         alt: 'Cover image with custom graphics for article Overview of Popular Static Site Generators.'
         href: /articles/overviev-of-popular-static-site-generators/
-      - src: //res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
+      - src: https://res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
         title: 'Using CSS Grid where appropriate (revisited)'
         alt: 'Cover image with custom graphics for article Using CSS Grid where appropriate (revisited).'
         href: /articles/using-css-grid-where-appropriate-revisited/
@@ -45,38 +45,38 @@ home_page:
     title: Contact
     links:
       Contact: https://silvestar.typeform.com/to/jS4Qkz
-      Skype: //join.skype.com/invite/jtWeft24StMV
-      LinkedIn: //www.linkedin.com/in/starbist/
-      Twitter: //twitter.com/malimirkeccita
+      Skype: https://join.skype.com/invite/jtWeft24StMV
+      LinkedIn: https://www.linkedin.com/in/starbist/
+      Twitter: https://twitter.com/malimirkeccita
     list_class: gamma
   - section:
     position: delta
     title: Profiles
     links:
-      Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-      LinkedIn: //www.linkedin.com/in/starbist/
-      GitHub: //github.com/maliMirkec
-      CodePen: //codepen.io/CiTA/
+      Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+      LinkedIn: https://www.linkedin.com/in/starbist/
+      GitHub: https://github.com/maliMirkec
+      CodePen: https://codepen.io/CiTA/
     list_class: gamma
   - section:
     position: epsilon
     title: Projects
     images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
         title: Domino Data Lab
-        alt: Domino Data Lab website displayed on laptop, tablet, and mobile device.
+        alt: Domino Data Lab website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/dominodatalab/
-      - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
         title: Westwing
-        alt: Westwing website displayed on laptop, tablet, and mobile device.
+        alt: Westwing website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/westwing/
-      - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
         title: Bozzuto
-        alt: Bozzuto website displayed on laptop, tablet, and mobile device.
+        alt: Bozzuto website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/bozzuto/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
         title: Contiamo
-        alt: Contiamo website displayed on laptop, tablet, and mobile device.
+        alt: Contiamo website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/contiamo/
     links:
       See all projects →: /portfolio/
@@ -180,11 +180,11 @@ sidebar:
     Setup: /uses/
     Links: /links/
     CV: /portfolio/silvestar-bistrovic-cv.pdf
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
+    Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+    LinkedIn: https://www.linkedin.com/in/starbist/
+    GitHub: https://github.com/maliMirkec
+    CodePen: https://codepen.io/CiTA/
+    Twitter: https://twitter.com/malimirkeccita
     Silvestar Bistrović: /
 
 banner1:
@@ -207,20 +207,20 @@ widgets:
       - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
     contact:
       Contact: https://silvestar.typeform.com/to/jS4Qkz
-      Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-      LinkedIn: //www.linkedin.com/in/starbist/
-      GitHub: //github.com/maliMirkec
-      CodePen: //codepen.io/CiTA/
-      Twitter: //twitter.com/malimirkeccita
+      Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+      LinkedIn: https://www.linkedin.com/in/starbist/
+      GitHub: https://github.com/maliMirkec
+      CodePen: https://codepen.io/CiTA/
+      Twitter: https://twitter.com/malimirkeccita
   subnav:
     Silvestar Bistrović: /
     Contact: https://silvestar.typeform.com/to/jS4Qkz
-    Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-    LinkedIn: //www.linkedin.com/in/starbist/
-    GitHub: //github.com/maliMirkec
-    CodePen: //codepen.io/CiTA/
-    Twitter: //twitter.com/malimirkeccita
-    Feed: //www.silvestar.codes/rss2.xml
+    Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
+    LinkedIn: https://www.linkedin.com/in/starbist/
+    GitHub: https://github.com/maliMirkec
+    CodePen: https://codepen.io/CiTA/
+    Twitter: https://twitter.com/malimirkeccita
+    Feed: https://www.silvestar.codes/rss2.xml
   disqus:
     shortname: silvestarbistrovic
   sharing:

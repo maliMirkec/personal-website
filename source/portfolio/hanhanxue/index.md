@@ -9,7 +9,7 @@ description: Han Han Xue is a Designer and FX Technical Director from Montreal, 
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img //www.hanhanxue.com cover %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img https://www.hanhanxue.com cover %}
 
 Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 

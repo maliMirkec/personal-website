@@ -9,7 +9,7 @@ categories:
   - Blog
 date: 2016-11-01 08:39:30
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1500706307/CSS-Tabs-part-II-Accessibility_hyc6zh.png
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1500706307/CSS-Tabs-part-II-Accessibility_hyc6zh.png
 description: Recently I've been writing about CSS tabs. Topic was surprisingly popular, gaining several thousand users to my page. What was even more surprising were comments about accessibility. I decided to investigate a little bit more and add accessibility to my solution.
 ---
 
@@ -37,7 +37,7 @@ We need to find a tool to test our tabs for accessibility. Web Accessibility Ini
 
 Since I was developing [locally](https://silvestar.codes/en/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/ngrok-in-action_u2lpmo.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "ngrok in action." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/ngrok-in-action_u2lpmo.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "ngrok in action." %}
 
 ### Contrast
 
