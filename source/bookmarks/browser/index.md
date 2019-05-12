@@ -155,7 +155,6 @@ sidebar: true
 - [link Design Inspiration - HTML &amp; CSS Snippets | Web Design Inspiration with Code Snippets](https://codemyui.com/tag/link/)
 - [Web Design Inspiration - CSS Snippets Ξ ℂ𝕠𝕕𝕖𝕄𝕪𝕌𝕀](https://codemyui.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly)
 - [UI Movement - The best UI design inspiration, every day](https://uimovement.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly)
-- [Magic Animations CSS3](https://minimamente.com/example/magic_animations/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly)
 - [Animate.css](https://daneden.github.io/animate.css/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly)
 - [Cool Backgrounds](https://coolbackgrounds.io/)
 - [Grid Menu | Demo 2 | Codrops](https://tympanus.net/Development/GridMenu/index2.html)

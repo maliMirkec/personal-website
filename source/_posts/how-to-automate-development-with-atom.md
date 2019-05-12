@@ -46,7 +46,7 @@ files based on configuration file `.csscomb`. There was an online
 tool, but just like Online JavaScript beautifer, there
 is unnecessary cope-paste back and forth again.
 
-To create our config file, we could refer to [all available options](https://github.com/csscomb/csscomb.js/blob/dev/doc/options.md) or to [online config builder](http://csscomb.com/config). We should put our config file in a root folder of a project.
+To create our config file, we could refer to [all available options](https://github.com/csscomb/csscomb.js/blob/dev/doc/options.md) or to online config builder. We should put our config file in a root folder of a project.
 
 This won't work unless we install Atom package for **csscomb**. There are several packages available, but my favorite is [atom-css-comb](https://atom.io/packages/atom-css-comb).
 

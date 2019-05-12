@@ -18,7 +18,7 @@ This article is part of a series about [Starter Project], and this time I will e
 
 ## Settings
 
-The idea of Starter Project is to have a single config file for all Gulp tasks. If you open [`config.json`](https://github.com/maliMirkec/starter-project/blob/master/config.json) file, you could see a section for CSS.
+The idea of Starter Project is to have a single config file for all Gulp tasks. If you open `config.json` file, you could see a section for CSS.
 
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1524385137/config-json-css_ha2n75.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "config.json file, CSS part." %}
 
