@@ -10,7 +10,7 @@
   }
 
   h4,
-  h5 {
+  h3 {
     @include ls(25);
     text-transform: none;
     color: lighten($color-beta, 10%);
@@ -23,7 +23,7 @@
     margin-bottom: 0.5em;
   }
 
-  h5 {
+  h3 {
     font-family: $font-alpha, sans-serif;
     font-size: ms(1);
     font-weight: 400;
@@ -88,8 +88,8 @@
     }
   }
 
-  h5 {
-    color: lighten($color-beta, 20%);
+  h3 {
+    color: $color-beta;
     text-align: center;
   }
 
@@ -106,7 +106,7 @@
 }
 
 .list--beta {
-  color: darken($color-alpha, 7%);
+  color: darken($color-alpha, 20%);
 }
 
 .list--gamma {
@@ -224,7 +224,7 @@
     margin-top: 1em;
   }
 
-  h5 {
+  h3 {
     margin-top: 1em;
     color: inherit;
     font-size: ms(-1);
@@ -236,7 +236,7 @@
     z-index: 1;
   }
 
-  h5 + h5 {
+  h3 + h3 {
     color: inherit;
     font-size: ms(-2);
     margin-top: 0.25rem;
@@ -245,7 +245,7 @@
 
   span {
     text-transform: uppercase;
-    color: $color-alpha;
+    color: lighten($color-psi, 30%);
     font-size: ms(-2);
     font-weight: bold;
     margin-top: 0.5rem;

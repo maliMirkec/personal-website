@@ -23,9 +23,9 @@
         if (section.headings)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";
           ul(class="list" + list_class)
-            each h5 in section.headings
+            each h3 in section.headings
               li.list__item
-                h5= h5
+                h3= h3
         if (section.profile)
           - var article_img_retina = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_480/');
           - var article_img_wide = section.profile.replace('upload/', 'upload/f_auto,q_auto,w_240/');
@@ -42,8 +42,8 @@
                   blockquote
                     each paragraph in quote.paragraphs
                       p= paragraph
-                    h5= quote.person
-                    h5= quote.position + " @ " + quote.project.name
+                    h3= quote.person
+                    h3= quote.position + " @ " + quote.project.name
                     span= " View project →"
         if (section.images)
           ul.list.list--alpha
@@ -57,7 +57,7 @@
               li.list__item
                 a.list__link(href=urlFor(section_image.href))
                   img(src=home_img_wide, alt=section_image.title, srcset=home_img_srcset, sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) and (max-width: 1199px) 525px, (min-width: 1200px) 575px")
-                  h5= section_image.title
+                  h3= section_image.title
         if (section.links)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";
           ul(class="list" + list_class)

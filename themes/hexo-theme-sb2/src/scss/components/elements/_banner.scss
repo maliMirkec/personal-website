@@ -24,7 +24,7 @@
   }
 
   .btn {
-    color: $color-omega;
+    color: $color-gamma;
     padding: .125rem .5rem .25rem;
     display: flex;
     flex-direction: column;
@@ -32,18 +32,23 @@
     white-space: nowrap;
     text-decoration: none;
     background-color: $color-psi;
-    border: 4px solid darken($color-psi, 10%);
+    border: 4px solid transparent;
 
     &:hover,
     &:focus,
     &:active {
       background-color: darken($color-psi, 10%);
+      color: $color-gamma;
     }
 
     &:hover,
     &:focus,
     &:active {
       text-decoration: none;
+    }
+
+    &:active {
+      border-color: $color-gamma;
     }
 
     span {
@@ -104,20 +109,15 @@
   border: 1px solid $color-alpha;
 
   .btn {
-    color: lighten($color-alpha, 25%);
+    border-color: lighten($color-alpha, 30%);
 
     &:hover,
-    &:focus,
-    &:active {
-      color: lighten($color-alpha, 30%);
-    }
-
     &:focus {
-      border-color: lighten($color-alpha, 30%);
+      border-color: $color-alpha;
     }
 
     &:active {
-      border-color: $color-omega;
+      border-color: $color-gamma;
     }
   }
 }
@@ -126,20 +126,15 @@
   border: 1px solid $color-beta;
 
   .btn {
-    color: lighten($color-beta, 40%);
+    border-color: lighten($color-beta, 30%);
 
     &:hover,
-    &:focus,
-    &:active {
-      color: lighten($color-beta, 30%);
-    }
-
     &:focus {
-      border-color: lighten($color-beta, 30%);
+      border-color: $color-beta;
     }
 
     &:active {
-      border-color: $color-omega;
+      border-color: $color-gamma;
     }
   }
 }
