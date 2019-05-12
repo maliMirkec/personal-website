@@ -24,19 +24,19 @@ home_page:
     images:
       - src: //res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
         title: 'Custom WordPress Theme Development with SPRO'
-        alt: 'Cover image with custom graphics and title text: Custom WordPress Theme Development with SPRO.'
+        alt: 'Cover image with custom graphics for article Custom WordPress Theme Development with SPRO.'
         href: /articles/custom-wordpress-theme-development-with-spro/
       - src: //res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
         title: 'Building an Animated Sticky Header With Custom Offset'
-        alt: 'Cover image with custom graphics and title text: Building an Animated Sticky Header With Custom Offset.'
+        alt: 'Cover image with custom graphics for article Building an Animated Sticky Header With Custom Offset.'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
       - src: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
         title: 'Overview of Popular Static Site Generators'
-        alt: 'Cover image with custom graphics and title text: Overview of Popular Static Site Generators.'
+        alt: 'Cover image with custom graphics for article Overview of Popular Static Site Generators.'
         href: /articles/overviev-of-popular-static-site-generators/
       - src: //res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
         title: 'Using CSS Grid where appropriate (revisited)'
-        alt: 'Cover image with custom graphics and title text: Using CSS Grid where appropriate (revisited).'
+        alt: 'Cover image with custom graphics for article Using CSS Grid where appropriate (revisited).'
         href: /articles/using-css-grid-where-appropriate-revisited/
     links:
       See all articles →: /categories/articles/
@@ -147,7 +147,7 @@ menu:
     Blog: /categories/articles/
     Portfolio: /portfolio/
     About: /about-me/
-    My Links: /links/
+    Connect: /links/
     Contact →: https://silvestar.typeform.com/to/jS4Qkz
 
 portfolio:
