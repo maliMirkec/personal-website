@@ -454,9 +454,6 @@ img {
       max-width: 1200px;
       grid-template-areas: "title" "content" "meta";
       grid-gap: 50px; } }
-  @media (min-width: 75em) {
-    .main {
-      max-width: 1200px; } }
 
 .main--sidebar {
   grid-template-areas: "title" "content" "pbanner" "sidebar"; }
@@ -1284,16 +1281,13 @@ code {
       border-color: #f5f5f5; }
 
 .cookies {
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  z-index: 1;
-  padding: 0;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   font-size: 0.56278rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   line-height: 1; }
+  .cookies p {
+    padding: 0 25px; }
 
 .dismiss {
   border: 0;

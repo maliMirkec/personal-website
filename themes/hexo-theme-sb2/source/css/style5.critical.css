@@ -159,12 +159,6 @@ img {
   }
 }
 
-@media (min-width: 75em) {
-  .main {
-    max-width: 1200px;
-  }
-}
-
 .main--post {
   max-width: 960px;
 }

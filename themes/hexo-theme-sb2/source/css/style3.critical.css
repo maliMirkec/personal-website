@@ -153,12 +153,6 @@ img {
   }
 }
 
-@media (min-width: 75em) {
-  .main {
-    max-width: 1200px;
-  }
-}
-
 .header {
   background-color: #1f1f1f;
   color: #65f3c6;

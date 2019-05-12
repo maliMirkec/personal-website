@@ -155,7 +155,7 @@ menu:
 portfolio:
   title: Projects
   items:
-    # Calvert: /portfolio/calvert/
+    Calvert: /portfolio/calvert/
     Flexera: /portfolio/flexera/
     Flexera Software: /portfolio/flexerasoftware/
     Machine Learning Libraries: /portfolio/machine-learning-libraries/

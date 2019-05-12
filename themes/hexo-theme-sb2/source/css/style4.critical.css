@@ -139,12 +139,6 @@ img {
   }
 }
 
-@media (min-width: 75em) {
-  .main {
-    max-width: 1200px;
-  }
-}
-
 .main--category {
   grid-template-areas: "content" "meta";
 }
