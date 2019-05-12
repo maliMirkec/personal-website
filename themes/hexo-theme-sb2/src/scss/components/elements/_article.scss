@@ -97,8 +97,8 @@
 
 code {
   display: inline-block;
-  background-color: lighten($color-alpha, 45%);
-  border-color: lighten($color-alpha, 30%);
+  background-color: lighten($color-alpha, 50%);
+  border-color: lighten($color-alpha, 40%);
   border-style: solid;
   border-width: 1px 3px;
   border-radius: .25rem;
@@ -119,13 +119,6 @@ code {
   a {
     color: $color-beta;
     display: block;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $color-alpha;
-      text-decoration: none;
-    }
   }
 }
 

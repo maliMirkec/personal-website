@@ -539,7 +539,7 @@ img {
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: top 4px center, bottom center;
   cursor: pointer; }
   .nav__link.skip {
     display: block;
@@ -560,15 +560,25 @@ img {
       height: auto;
       width: auto; }
   .nav__list--home .nav__item:nth-child(2) .nav__link {
-    background-image: url(/gfx/svg/logo-header.svg); }
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__list--blog .nav__item:nth-child(3) .nav__link {
-    background-image: url(/gfx/svg/logo-header.svg); }
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__list--portfolio .nav__item:nth-child(4) .nav__link {
-    background-image: url(/gfx/svg/logo-header.svg); }
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__list--about-me .nav__item:nth-child(5) .nav__link {
-    background-image: url(/gfx/svg/logo-header.svg); }
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__list--links .nav__item:nth-child(6) .nav__link {
-    background-image: url(/gfx/svg/logo-header.svg); }
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__item:last-of-type .nav__link {
     color: #f57da6; }
   .nav__link:hover, .nav__link:focus, .nav__link:active {
@@ -581,7 +591,7 @@ img {
     .nav__link {
       padding: 35px 50px;
       background-size: 30px 30px;
-      background-position: center bottom 2px; } }
+      background-position: top 15px center, bottom 2px center; } }
 
 .footer {
   background-color: #1f1f1f;
@@ -700,13 +710,12 @@ img {
   font-size: 1rem; }
   .list p {
     margin: 0; }
-  .list h4,
+  .list h2,
   .list h3 {
     letter-spacing: calc(25 / 1000 * 1em);
     text-transform: none;
-    color: #ef3675; }
-  .list h4 {
-    color: #f14e85;
+    color: #e01258; }
+  .list h2 {
     font-size: 1.77689rem;
     margin-top: 0;
     margin-bottom: 0.5em; }
@@ -750,7 +759,6 @@ img {
     .list--alpha p:last-child {
       margin-bottom: 0; }
   .list--alpha h3 {
-    color: #e01258;
     text-align: center; }
   .list--alpha span {
     color: #e01258; }
@@ -899,7 +907,7 @@ img {
 .home {
   display: grid;
   grid-gap: 50px;
-  grid-template-areas: "alpha" "beta" "banner1" "epsilon" "gamma" "omega" "banner2" "delta"; }
+  grid-template-areas: "alpha" "beta" "banner1" "gamma" "delta" "epsilon" "banner2" "omega"; }
   .home h1,
   .home h2 {
     position: relative; }
@@ -926,7 +934,7 @@ img {
   @media (min-width: 30em) {
     .home {
       grid-template-columns: repeat(2, minmax(40%, 1fr));
-      grid-template-areas: "alpha alpha" "banner1 banner1" "beta beta" "delta epsilon" "gamma gamma" "banner2 banner2" "omega omega"; } }
+      grid-template-areas: "alpha alpha" "banner1 banner1" "beta beta" "gamma delta" "epsilon epsilon" "banner2 banner2" "omega omega"; } }
 
 .home__box--alpha {
   grid-area: alpha;
@@ -1033,8 +1041,8 @@ img {
 
 code {
   display: inline-block;
-  background-color: #dbfcf2;
-  border-color: #95f6d8;
+  background-color: #f3fefb;
+  border-color: #c4fae9;
   border-style: solid;
   border-width: 1px 3px;
   border-radius: .25rem;
@@ -1055,9 +1063,6 @@ code {
   .article__title--alpha a {
     color: #e01258;
     display: block; }
-    .article__title--alpha a:hover, .article__title--alpha a:focus, .article__title--alpha a:active {
-      color: #12e09f;
-      text-decoration: none; }
 
 .article__title--beta {
   grid-area: title;
@@ -1301,7 +1306,7 @@ code {
   margin-right: calc((100vw - 100%) / -2);
   margin-left: calc((100vw - 100%) / -2); }
   .highlight table {
-    color: #e01258;
+    color: #d21152;
     font-size: 0.7rem;
     line-height: 1.6;
     margin-left: auto;

@@ -17,7 +17,7 @@ if (page && page.grid && page.grid.list)
         li.list__item
           a.list__link(href=urlFor(item.href))
             if (item && item.title)
-              h4= item.title
+              h2= item.title
             img(src=home_img_wide, alt=item.title, srcset=home_img_srcset, sizes="(max-width: 399px) 270px, (max-width: 400px) and (max-width: 767px) 717px, (min-width: 768px) and (max-width: 980px) 440px, 1200px")
             if (item && item.description)
               p= item.description

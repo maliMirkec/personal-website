@@ -56,7 +56,7 @@
               - var home_img_srcset = home_img_tamagochi + " 270w, " + home_img_mobile + " 717w, " + home_img_desktop + " 525w, " + home_img_wide + " 575w, " + home_img_retina + " 1050w";
               li.list__item
                 a.list__link(href=urlFor(section_image.href))
-                  img(src=home_img_wide, alt=section_image.title, srcset=home_img_srcset, sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) and (max-width: 1199px) 525px, (min-width: 1200px) 575px")
+                  img(src=home_img_wide, alt=section_image.alt, srcset=home_img_srcset, sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) and (max-width: 1199px) 525px, (min-width: 1200px) 575px")
                   h3= section_image.title
         if (section.links)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";

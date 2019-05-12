@@ -8,7 +8,7 @@
   margin-left: calc((100vw - 100%) / -2);
 
   table {
-    color: $color-beta;
+    color: darken($color-beta, 3%);
     font-size: 0.7rem;
     line-height: 1.6;
     margin-left: auto;

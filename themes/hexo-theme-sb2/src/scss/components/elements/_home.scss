@@ -5,11 +5,11 @@
   grid-template-areas: "alpha"
     "beta"
     "banner1"
-    "epsilon"
     "gamma"
-    "omega"
+    "delta"
+    "epsilon"
     "banner2"
-    "delta";
+    "omega";
 
   h1,
   h2 {
@@ -48,8 +48,8 @@
     grid-template-areas: "alpha alpha"
       "banner1 banner1"
       "beta beta"
-      "delta epsilon"
-      "gamma gamma"
+      "gamma delta"
+      "epsilon epsilon"
       "banner2 banner2"
       "omega omega";
   }

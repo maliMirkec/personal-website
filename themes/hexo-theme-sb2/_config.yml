@@ -11,31 +11,13 @@ home_page:
     position: alpha
     title: Silvestar Bistrović
     profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
-    profilealt: Profile image
+    profilealt: Headshot of myself, Silvestar Bistrović
     headings:
      - Fearless web developer
      - CSS craftsman
      - JAMstack enthusiast
      - WordPress theme specialist
     list_class: beta
-  - section:
-    position: gamma
-    title: Projects
-    images:
-      - src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
-        title: Domino Data Lab
-        href: /portfolio/dominodatalab/
-      - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
-        title: Westwing
-        href: /portfolio/westwing/
-      - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
-        title: Bozzuto
-        href: /portfolio/bozzuto/
-      - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
-        title: Contiamo
-        href: /portfolio/contiamo/
-    links:
-      See all projects →: /portfolio/
   - section:
     position: beta
     title: Featured Articles
@@ -55,7 +37,7 @@ home_page:
     links:
       See all articles →: /categories/articles/
   - section:
-    position: delta
+    position: gamma
     title: Contact
     links:
       Contact: https://silvestar.typeform.com/to/jS4Qkz
@@ -64,7 +46,7 @@ home_page:
       Twitter: //twitter.com/malimirkeccita
     list_class: gamma
   - section:
-    position: epsilon
+    position: delta
     title: Profiles
     links:
       Toptal: //www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
@@ -72,6 +54,28 @@ home_page:
       GitHub: //github.com/maliMirkec
       CodePen: //codepen.io/CiTA/
     list_class: gamma
+  - section:
+    position: epsilon
+    title: Projects
+    images:
+      - src: //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+        title: Domino Data Lab
+        alt: Domino Data Lab website displayed on laptop, tablet, and mobile device.
+        href: /portfolio/dominodatalab/
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+        title: Westwing
+        alt: Westwing website displayed on laptop, tablet, and mobile device.
+        href: /portfolio/westwing/
+      - src: //res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+        title: Bozzuto
+        alt: Bozzuto website displayed on laptop, tablet, and mobile device.
+        href: /portfolio/bozzuto/
+      - src: //res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
+        title: Contiamo
+        alt: Contiamo website displayed on laptop, tablet, and mobile device.
+        href: /portfolio/contiamo/
+    links:
+      See all projects →: /portfolio/
   - section:
     position: omega
     list_class: omega
@@ -139,8 +143,8 @@ menu:
     Blog: /categories/articles/
     Portfolio: /portfolio/
     About: /about-me/
-    Links: /links/
-    Contact: https://silvestar.typeform.com/to/jS4Qkz
+    My Links: /links/
+    Contact →: https://silvestar.typeform.com/to/jS4Qkz
 
 portfolio:
   title: Projects

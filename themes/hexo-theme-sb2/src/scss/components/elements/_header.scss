@@ -41,7 +41,7 @@
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: top 4px center, bottom center;
   cursor: pointer;
 
   &.skip {
@@ -66,23 +66,23 @@
   }
 
   .nav__list--home .nav__item:nth-child(2) & {
-    background-image: url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
   .nav__list--blog .nav__item:nth-child(3) & {
-    background-image: url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
   .nav__list--portfolio .nav__item:nth-child(4) & {
-    background-image: url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
   .nav__list--about-me .nav__item:nth-child(5) & {
-    background-image: url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
   .nav__list--links .nav__item:nth-child(6) & {
-    background-image: url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
   .nav__item:last-of-type & {
@@ -103,6 +103,6 @@
   @include mq($from: desktop) {
     padding: 35px 50px;
     background-size: 30px 30px;
-    background-position: center bottom 2px;
+    background-position: top 15px center, bottom 2px center;
   }
 }
