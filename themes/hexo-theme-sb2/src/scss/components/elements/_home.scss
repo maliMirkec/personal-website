@@ -74,6 +74,14 @@
     grid-area: heading;
   }
 
+  h2 {
+    font-family: $font-alpha, sans-serif;
+    font-size: ms(1);
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+
   .list {
     grid-area: list;
   }
