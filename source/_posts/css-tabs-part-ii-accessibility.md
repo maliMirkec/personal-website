@@ -53,7 +53,7 @@ We should test our tabs in some of the [assistive technology tools](https://dev
 
 ### aria roles
 
-Now we could add **aria attributes**. There are [specific aria roles for tabs](http://whatsoc∑k.com/training/matrices/#tablist):
+Now we could add **aria attributes**. There are [specific aria roles for tabs](https://whatsock.com/training/matrices/#tablist):
 
 *   _tablist_,
 *   _tab_ and

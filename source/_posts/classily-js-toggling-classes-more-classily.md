@@ -102,7 +102,7 @@ To trigger class toggle action, you should add the following code:
 ```
 
 where
-- `class="js-classily"` is used as a selector for plugin initialization (see _[How to initialize Classily.js](How-to-initialize-Classily-js)_);
+- `class="js-classily"` is used as a selector for plugin initialization;
 - `data-target=".my-class"` is used to target the element or elements that will toggle class;
 - `data-class="blue"` is used to provide a class or classes that will be toggled.
 

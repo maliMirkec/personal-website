@@ -41,7 +41,10 @@ Sure, we should use **editorconfig** here, too. But what if we want to sort `CS
 
 ### CSScomb
 
-[**csscomb** ](http://csscomb.com/)is a tool which formats `CSS` files based on configuration file `.csscomb`. There is [an online tool](http://csscomb.com/online), but just like Online JavaScript beautifer, there is unnecessary cope-paste back and forth again.
+[**csscomb** ](https://github.com/csscomb/csscomb)is a tool which formats `CSS`
+files based on configuration file `.csscomb`. There was an online
+tool, but just like Online JavaScript beautifer, there
+is unnecessary cope-paste back and forth again.
 
 To create our config file, we could refer to [all available options](https://github.com/csscomb/csscomb.js/blob/dev/doc/options.md) or to [online config builder](http://csscomb.com/config). We should put our config file in a root folder of a project.
 
