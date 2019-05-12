@@ -1131,16 +1131,18 @@ code {
   margin: 2em 0;
   display: grid;
   grid-template-columns: 1fr; }
-  .metadata h4,
+  .metadata h3,
   .metadata p,
   .metadata li {
     line-height: 30px; }
-  .metadata h4,
+  .metadata h3,
   .metadata p {
     margin-top: 1rem;
     margin-bottom: 1rem; }
-  .metadata h4 {
-    color: #1f1f1f; }
+  .metadata h3 {
+    color: #1f1f1f;
+    font-size: 1rem;
+    letter-spacing: calc(0.15em / 4); }
   .metadata li {
     margin-bottom: 0; }
   .metadata li,

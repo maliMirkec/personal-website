@@ -199,20 +199,22 @@ code {
   display: grid;
   grid-template-columns: 1fr;
 
-  h4,
+  h3,
   p,
   li {
     line-height: 30px;
   }
 
-  h4,
+  h3,
   p {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-  h4 {
+  h3 {
     color: $color-psi;
+    font-size: ms(0);
+    letter-spacing: calc(0.15em / 4);
   }
 
   li {

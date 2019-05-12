@@ -14,7 +14,7 @@ Here you could find links to all my profiles and projects.
 
 My direct email is [me@silvestar.codes](mailto:me@silvestar.codes). You could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).
 
-### Social
+## Social
 - [Twitter](//twitter.com/malimirkeccita)
 - [LinkedIn](//www.linkedin.com/in/starbist/)
 - [Hacker News](//news.ycombinator.com/user?id=starbist)
@@ -24,23 +24,23 @@ My direct email is [me@silvestar.codes](mailto:me@silvestar.codes). You could [d
 - [Google+](//plus.google.com/b/110569084982950212149/+SilvestarbistrovicFromHr)
 - [Last.fm](//last.fm/user/maliMirkec)
 
-### Development
+## Development
 - [GitHub](//github.com/maliMirkec)
 - [CodePen](//codepen.io/CiTA/)
 - [NPM](//www.npmjs.com/~starbist)
 - [Sourcerer](//sourcerer.io/malimirkec)
 
-### Freelance
+## Freelance
 - [Toptal](//www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers)
 - [Codementor](//www.codementor.io/malimirkeccita)
 - [About.me](//about.me/starbist)
 
-### Projects
+## Projects
 - [Starter Project](//starter.silvestarbistrovic.from.hr/)
 - [Making a website with Hugo](//skl.sh/2ILioJ8)
 - [_bem](//frontend-developer.xyz/_bem/)
 
-### Publications
+## Publications
 - [Practical Dev](//dev.to/starbist)
 - [Medium](//medium.com/@malimirkeccita)
 - [Hacker Noon](//hackernoon.com/@malimirkeccita)

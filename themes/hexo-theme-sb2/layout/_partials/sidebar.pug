@@ -9,7 +9,7 @@ if (theme && theme.sidebar && theme.sidebar.items)
               - var link_class = (page.permalink.indexOf(kitem) !== -1) ? " list__link--current" : "";
               if (kitem == "/" && theme && theme.site.logo)
                 a(href=kitem, class="list__link list__link--logo " + link_class)
-                  img(src=theme.site.logo, alt=vcontact)
+                  img(src=theme.site.logo, alt="Logo image with SB graphics.")
               else if (kitem.indexOf('//') !== -1)
                 a(href=kitem, class="list__link" + link_class, target="_blank")= vitem
               else
