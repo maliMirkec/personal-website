@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - productivity
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1554999635/Bookmarks_Saves_Hearts_Stars_Claps_ammz0s.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1554999635/Bookmarks_Saves_Hearts_Stars_Claps_ammz0s.jpg
 comments: true
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
 ---
@@ -14,7 +14,7 @@ I realized that I rarely use bookmarks, but I still bookmark interesting sites, 
 
 <!--more-->
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1554999690/search-bar-bookmarks_namh9b.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Search bar with bookmark suggestions." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1554999690/search-bar-bookmarks_namh9b.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Search bar with bookmark suggestions." %}
 
 Since I am using only dozens of bookmarked links, I thought I could share the exported bookmark file with the community, before I clean them up. There are many interesting, useful, and not-so-useful links here. You could [download the file] or <a href="/bookmarks/browser/" target="_blank">see it in your browser</a>.
 
@@ -25,9 +25,9 @@ I like [to star GitHub projects], [save CodePens], [clap Medium stories], [like 
 Do you have a similar experience? Or is it just me? 🤔
 
 [download the file]: /bookmarks/bookmarks.zip
-[to star GitHub projects]: //github.com/maliMirkec?tab=stars
-[save CodePens]: //codepen.io/CiTA/pens/loved/?grid_type=list
-[clap Medium stories]: //medium.com/@malimirkeccita/has-recommended
-[like Tweets]: //twitter.com/malimirkeccita
-[love tracks]: //www.last.fm/user/maliMirkec/loved
-[on Twitter]: //twitter.com/malimirkeccita
+[to star GitHub projects]: https://github.com/maliMirkec?tab=stars
+[save CodePens]: https://codepen.io/CiTA/pens/loved/?grid_type=list
+[clap Medium stories]: https://medium.com/@malimirkeccita/has-recommended
+[like Tweets]: https://twitter.com/malimirkeccita
+[love tracks]: https://www.last.fm/user/maliMirkec/loved
+[on Twitter]: https://twitter.com/malimirkeccita

@@ -97,8 +97,8 @@
 
 code {
   display: inline-block;
-  background-color: lighten($color-alpha, 45%);
-  border-color: lighten($color-alpha, 30%);
+  background-color: lighten($color-alpha, 50%);
+  border-color: lighten($color-alpha, 40%);
   border-style: solid;
   border-width: 1px 3px;
   border-radius: .25rem;
@@ -119,13 +119,6 @@ code {
   a {
     color: $color-beta;
     display: block;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $color-alpha;
-      text-decoration: none;
-    }
   }
 }
 
@@ -206,20 +199,22 @@ code {
   display: grid;
   grid-template-columns: 1fr;
 
-  h4,
+  h3,
   p,
   li {
     line-height: 30px;
   }
 
-  h4,
+  h3,
   p {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-  h4 {
+  h3 {
     color: $color-psi;
+    font-size: ms(0);
+    letter-spacing: calc(0.15em / 4);
   }
 
   li {

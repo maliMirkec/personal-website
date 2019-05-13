@@ -7,9 +7,11 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
 description: This article is the very first article in a series about Starter Project, a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 ---
+
+⚠️ The package is deprecated. See [SPRO](/articles/introducing-spro/) instead.
 
 This article is the very first article in a series about [Starter Project], a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 
@@ -41,7 +43,7 @@ Starter Package is also a static page generator, a very rudimental one. The orig
 
 The package should be used as a development dependency. That will allow you to update the package and maintain your project more efficiently.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/code_g0esoz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "package.json file." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/code_g0esoz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "package.json file." %}
 
 ## The Usage
 
@@ -49,8 +51,6 @@ Starter project has three different Gulp commands for different environments:
 - `gulp dev` and `gulp dist` for a development build,
 - `gulp docs` for documentation build, and
 -  `gulp` for a production build.
-
-To learn more about commands, see [official documentation](https://starter.silvestarbistrovic.from.hr/commands/).
 
 With Starter Project you get the architecture for:
 - HTML,
@@ -61,15 +61,15 @@ With Starter Project you get the architecture for:
 - fonts,
 - and more.
 
-You could find all assets in `new_src` folder. Once you run one of the build commands, `new_dist` folder will be created with compiled static contents. Learn more about structure [here](https://starter.silvestarbistrovic.from.hr/structure/).
+You could find all assets in `new_src` folder. Once you run one of the build commands, `new_dist` folder will be created with compiled static contents.
 
 ## The Config file
 
 Starter Project is configurable and should be able to run in every project, no matter the architecture. The main configuration file could be found in the root of the project, `config.json`. For every task, there is an option `run`. If set to true, the task will run. For example, you could turn off [`penthouse`](https://www.npmjs.com/package/gulp-penthouse), a library for generating Critical CSS.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Penthouse plugin config example." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Penthouse plugin config example." %}
 
-Read more about configuration [here](https://starter.silvestarbistrovic.from.hr/configuration/).
+Read more about configuration [here](https://starter.silvestarbistrovic.from.hr/).
 
 ## Features
 
@@ -84,7 +84,7 @@ Starter Project supports ES6 via babel plugin. You will find scripts for deferre
 If you are not using a third-party service for hosting images, then Starter Project could optimize your images. Starter Project supports
 `.gif`, `.png`, `.jpg`, and `.svg` files.
 
-Documentation is an integral part of every project. You can generate excellent documentation using Starter Project. [SassDoc](http://sassdoc.com/) will parse Sass comments and create Sass documentation. [JSDoc](http://usejsdoc.org/) will parse JavaScript comments and create JavaScript documentation. You could even create living styleguide. Starter Project uses [KSS](https://kss-node.github.io/kss-node/) to parse Sass comment for that purpose.
+Documentation is an integral part of every project. You can generate excellent documentation using Starter Project. [SassDoc](http://sassdoc.com/) will parse Sass comments and create Sass documentation. [JSDoc](https://jsdoc.app/) will parse JavaScript comments and create JavaScript documentation. You could even create living styleguide. Starter Project uses [KSS](https://kss-node.github.io/kss-node/) to parse Sass comment for that purpose.
 
 There are other goodies, like Browser-sync, Favicons, Sourcemaps, Gzip, Linters, Standards, editorconfig, and more. I will try to document everything and write new articles about these, too. Stay tuned!
 

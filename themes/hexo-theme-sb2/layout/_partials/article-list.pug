@@ -28,7 +28,7 @@ if (page && page.posts)
           - var articles_img_desktop = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_550/');
           - var articles_img_mobile = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_640/');
           - var articles_img_tamagochi = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
-          - var articles_img_srcset = articles_img_tamagochi + " 270w, " + articles_img_mobile + " 640w, " + articles_img_desktop + " 550w, " + articles_img_wide + " 608w, " + articles_img_retina + " 1216";
+          - var articles_img_srcset = articles_img_tamagochi + " 270w, " + articles_img_mobile + " 640w, " + articles_img_desktop + " 550w, " + articles_img_wide + " 608w, " + articles_img_retina + " 1216w";
           a.article__thumb(href=urlFor(vpost.path))
             img(src=articles_img_wide, alt=vpost.title, srcset=articles_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 640px, (min-width: 768px) and (max-width: 1199px) 550px, (min-width: 1200px) 608px")
         if (vpost && vpost.layout == "post")
@@ -49,7 +49,7 @@ if (page && page.posts)
 
         if (vpost && vpost.path)
           p
-            a(href=urlFor(vpost.path)) Read more
+            a(href=urlFor(vpost.path)) Read more →
 
 if (page && (page.prev || page.next))
   nav.metadata

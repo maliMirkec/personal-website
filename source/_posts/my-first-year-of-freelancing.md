@@ -6,7 +6,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526981223/My_first_year_of_freelancing_exsbxg.jpg
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 ---
 
@@ -97,7 +97,7 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [simple]: https://www.npmjs.com/package/hexo-caniuse
 [plugins]: https://www.npmjs.com/package/hexo-cloudinary
 [a theme]: https://www.npmjs.com/package/hexo-theme-sb
-[an Angular directive]: http://www.npmjs.compackage/angular-dragtable
+[an Angular directive]: http://www.npmjs.com/package/angular-dragtable
 [a JavaScript plugin]: https://www.npmjs.com/package/classily.js
 [a boilerplate of Gulp tasks]: https://www.npmjs.com/package/starter-project
 [Static Page Generators]: https://www.staticgen.com/

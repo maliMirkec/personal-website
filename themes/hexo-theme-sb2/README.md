@@ -79,16 +79,16 @@ home_page:
   - section:
     title: Projects
     links:
-      Starter Project: //starter-project.silvestar.codes
-      Hexo Theme SB: //sbtheme.silvestarbistrovic.from.hr
-      Contiamo: //www.contiamo.com
-      Irina and Matej: //irinaandmatej.com
+      Starter Project: https://starter-project.silvestar.codes
+      Hexo Theme SB: https://sbtheme.silvestarbistrovic.from.hr
+      Contiamo: https://www.contiamo.com
+      Irina and Matej: https://irinaandmatej.com
   - section:
     title: Links
     links:
       Contact: https://silvestar.typeform.com/to/jS4Qkz
-      Twitter: //twitter.com/malimirkeccita
-      Github: //github.com/maliMirkec
+      Twitter: https://twitter.com/malimirkeccita
+      Github: https://github.com/maliMirkec
 
 # Open Graph section
 open_graph:
@@ -106,13 +106,13 @@ open_graph:
 widgets:
   contact:
     contact: https://silvestar.typeform.com/to/jS4Qkz
-    twitter: //twitter.com/malimirkeccita
-    linkedin: //www.linkedin.com/in/starbist/
-    facebook: //www.facebook.com/silvestar.codes/
-    medium: //medium.com/@malimirkeccita
-    github: //github.com/maliMirkec
-    codepen: //codepen.io/CiTA/
-    lastfm: //www.last.fm/user/maliMirkec
+    twitter: https://twitter.com/malimirkeccita
+    linkedin: https://www.linkedin.com/in/starbist/
+    facebook: https://www.facebook.com/silvestar.codes/
+    medium: https://medium.com/@malimirkeccita
+    github: https://github.com/maliMirkec
+    codepen: https://codepen.io/CiTA/
+    lastfm: https://www.last.fm/user/maliMirkec
   google_analytics:
     tracking_id: UA-12345678-9
   disqus:

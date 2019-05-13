@@ -79,10 +79,6 @@ img {
       "meta";
     grid-gap: 50px;
   }
-
-  @include mq($from: desktop) {
-    max-width: 1200px;
-  }
 }
 
 .main--sidebar {

@@ -3,13 +3,13 @@ title: Domino Data Lab
 comments: false
 banner2:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
 portfolio: true
 ---
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Domino Data Lab cover" cover-img //www.dominodatalab.com cover %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Domino Data Lab cover" cover-img https://www.dominodatalab.com cover %}
 
 Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage. The website runs on Jekyll.
 

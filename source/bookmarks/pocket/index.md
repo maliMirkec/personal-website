@@ -3,7 +3,7 @@ title: Pocket Bookmarks
 comments: false
 banner1:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 date: 2017-08-02 20:08:06
 description: Pocket bookmarks export file
@@ -17,7 +17,6 @@ sidebar: true
 - [https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email](https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email)
 - [https://meyerweb.com/eric/thoughts/2018/06/05/specificity-in-not-has-and-matches/](https://meyerweb.com/eric/thoughts/2018/06/05/specificity-in-not-has-and-matches/)
 - [https://adactio.com/journal/14041](https://adactio.com/journal/14041)
-- [https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web#scznsWz](https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web#scznsWz)
 - [https://medium.com/@pasql/sculpting-software-animation-7d818ddcd40a](https://medium.com/@pasql/sculpting-software-animation-7d818ddcd40a)
 - [https://css-tricks.com/solving-lifes-problems-with-css/](https://css-tricks.com/solving-lifes-problems-with-css/)
 - [http://tobiasahlin.com/blog/curved-path-animations-in-css/?utm_campaign=Revue%20newsletter&amp;utm_medium=Newsletter&amp;utm_source=CSS%20Animation%20Weekly](http://tobiasahlin.com/blog/curved-path-animations-in-css/?utm_campaign=Revue%20newsletter&amp;utm_medium=Newsletter&amp;utm_source=CSS%20Animation%20Weekly)
@@ -229,7 +228,6 @@ sidebar: true
 - [https://dev.to/gonedark/writing-clean-code](https://dev.to/gonedark/writing-clean-code)
 - [https://dev.to/nelruk/how-i-chose-my-code-editor](https://dev.to/nelruk/how-i-chose-my-code-editor)
 - [https://blog.cloudflare.com/the-languages-which-almost-became-css/](https://blog.cloudflare.com/the-languages-which-almost-became-css/)
-- [http://localhost:3000/index.html](http://localhost:3000/index.html)
 - [https://medium.com/@clickpop/we-built-a-duotoner-c1f5aad2657](https://medium.com/@clickpop/we-built-a-duotoner-c1f5aad2657)
 - [https://bitsofco.de/pa11y/](https://bitsofco.de/pa11y/)
 - [https://csswizardry.com/2017/07/performance-and-resilience-stress-testing-third-parties/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-277&amp;utm_medium=email](https://csswizardry.com/2017/07/performance-and-resilience-stress-testing-third-parties/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-277&amp;utm_medium=email)

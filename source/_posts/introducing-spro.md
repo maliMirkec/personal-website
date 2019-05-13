@@ -7,7 +7,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
 description: "SPRO, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs."
 ---
 
@@ -43,7 +43,7 @@ Read more about the idea and possible problems that Starter Project package it i
 
 SPRO is conceived a bit differently. Instead of manually tweaking the configuration file, I have built a command that would start a questionary about the project structure.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289402/spro-questions_dcflmw.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "SPRO questions in terminal." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1551289402/spro-questions_dcflmw.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "SPRO questions in terminal." %}
 
 When you answer all questions, SPRO will store information to the `.starter-project.json` file. It would also prepare a command to install all dependencies based on your answers.
 
@@ -106,7 +106,7 @@ Each subtask has its own configuration file. CSS specific configuration could be
 
 I have created [a course] where you could learn more about SPRO.
 
-[{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551269861/cover-2x_zheg7w.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "SPRO course: Setting up development environment with Gulp" %}](https://skl.sh/2EcUlRt)
+[{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1551269861/cover-2x_zheg7w.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "SPRO course: Setting up development environment with Gulp" %}](https://skl.sh/2EcUlRt)
 
 The course is free, but you need to have a [Skillshare] account to view all lessons. Be sure to complete the class project and to rate the course. 🆓
 

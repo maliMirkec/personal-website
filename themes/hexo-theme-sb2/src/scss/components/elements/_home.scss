@@ -2,17 +2,17 @@
 .home {
   display: grid;
   grid-gap: 50px;
+  grid-template-columns: 100%;
   grid-template-areas: "alpha"
     "beta"
     "banner1"
-    "epsilon"
     "gamma"
-    "omega"
+    "epsilon"
     "banner2"
-    "delta";
+    "omega";
 
   h1,
-  h2 {
+  h2:not(.list__headline) {
     position: relative;
 
     &:after {
@@ -44,14 +44,13 @@
   }
 
   @include mq($from: mobile) {
-    grid-template-columns: repeat(2, minmax(40%, 1fr));
-    grid-template-areas: "alpha alpha"
-      "banner1 banner1"
-      "beta beta"
-      "delta epsilon"
-      "gamma gamma"
-      "banner2 banner2"
-      "omega omega";
+    grid-template-areas: "alpha"
+      "banner1"
+      "beta"
+      "gamma"
+      "epsilon"
+      "banner2"
+      "omega";
   }
 }
 

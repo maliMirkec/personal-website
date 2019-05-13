@@ -3,13 +3,13 @@ title: About me
 id: 79
 banner2:
   span: "I am currently considering new projects for this year."
-  btn1: "Get in touch"
+  btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.
 sidebar: true
-profile: //res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
+profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
 ---
 
 I am Silvestar Bistrović, fearless web developer, CSS craftsman, [JAMstack](//jamstack.org/) enthusiast, and WordPress theme specialist.
@@ -22,6 +22,6 @@ I am working as a freelance web developer, and I am working remotely from my off
 
 If you want to get in touch, [fill the contact form](https://silvestar.typeform.com/to/jS4Qkz) or [send me the email](mailto:me@silvestar.codes).
 
-<div style="max-width:200px;">{% cloudinary //res.cloudinary.com/starbist/image/upload/v1553514359/potpis_lbhrff.png 320px=f_auto,q_auto,w_200;720px=f_auto,q_auto,w_200 "Signature in cursive saying S Bistrović." %}</div>
+<div style="max-width:200px;">{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1553514359/potpis_lbhrff.png 320px=f_auto,q_auto,w_200;720px=f_auto,q_auto,w_200 "Signature in cursive saying S Bistrović." %}</div>
 
 P.S. You could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).

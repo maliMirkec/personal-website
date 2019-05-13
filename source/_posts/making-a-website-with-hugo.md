@@ -10,13 +10,13 @@ banner1:
   span: "Hugo is “the world’s fastest framework for building websites.”"
   btn1: "Learn Hugo"
   btn2: "Make a website within an hour"
-  link: //skl.sh/2q88Ij7
+  link: https://skl.sh/2q88Ij7
 banner2:
   span: "Hugo is “the world’s fastest framework for building websites.”"
   btn1: "Learn Hugo"
   btn2: "Make a website within an hour"
-  link: //skl.sh/2q88Ij7
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1540377692/making-a-website-with-hugo-cover_kpek9x.jpg
+  link: https://skl.sh/2q88Ij7
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1540377692/making-a-website-with-hugo-cover_kpek9x.jpg
 comments: true
 description: Other than it is “the world’s fastest framework for building websites,” Hugo is packed with powerful features that would make the website development process more pleasable.
 ---
@@ -61,9 +61,9 @@ If you are interested in making a website with Hugo by now, I encourage you to t
 
 > The fastest twenty users would get the course for free. 🙌
 
-[Making a website with Hugo]: //skl.sh/2q88Ij7
-[Hugo]: //gohugo.io
-[my Skillshare course]: //skl.sh/2q88Ij7
+[Making a website with Hugo]: https://skl.sh/2q88Ij7
+[Hugo]: https://gohugo.io
+[my Skillshare course]: https://skl.sh/2q88Ij7
 
 
 

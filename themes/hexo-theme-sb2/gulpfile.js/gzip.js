@@ -7,14 +7,14 @@ const gzipConfig = require('./.gzip.json')
 
 // Will gzip dist folder
 function gzipStart () {
-  return src([`${helpers.dist()}/**/*`, `!${helpers.dist()}/**/*.gz`])
+  return src([`${helpers.dist()}/favicon/*`, `!${helpers.dist()}/favicon/*.gz`])
     .pipe(gzip(gzipConfig))
-    .pipe(dest(helpers.dist()))
+    .pipe(dest(`${helpers.dist()}/favicon/`))
 }
 
 // When dist folder is changed, it will gzip dist folder, too
 function gzipListen () {
-  return watch([`${helpers.dist()}/**/*`, `!${helpers.dist()}/**/*.gz`], global.config.watchConfig, gzipStart)
+  return watch([`${helpers.dist()}/favicon/*`, `!${helpers.dist()}/favicon/*.gz`], global.config.watchConfig, gzipStart)
 }
 
 exports.gzip = {

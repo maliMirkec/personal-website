@@ -10,8 +10,8 @@ tags:
 categories:
   - Blog
 comments: true
-canonical: //www.toptal.com/front-end/static-site-generators-comparison-2018
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
+canonical: https://www.toptal.com/front-end/static-site-generators-comparison-2018
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
 description: There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.
 ---
 
@@ -23,7 +23,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1535356626/Static_site_generators_illustrated_echczp.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Static site generators illustrated." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Static_site_generators_illustrated_echczp.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Static site generators illustrated." %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -104,7 +104,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1535356626/Content_in_Static_page_generators_cnkviv.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Content in Static page generators." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Content_in_Static_page_generators_cnkviv.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Content in Static page generators." %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -312,7 +312,7 @@ Hexo has different syntax, but the result is the same.
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1535356626/Assets_of_Static_page_generator_i43ch9.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Assets of Static page generator." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Assets_of_Static_page_generator_i43ch9.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Assets of Static page generator." %}
 
 ## SASS
 
@@ -367,27 +367,27 @@ There is much more you could do with your static website: from using WordPress R
 
 I hope this overview of static page frameworks helped you realize their potential and consider using them next time you think of a new project.
 
-[Jekyll documentation]: //jekyllrb.com/docs/home/
-[Middleman documentation]: //middlemanapp.com/basics/install/
-[Hugo documentation]: //gohugo.io/documentation/
-[Hexo documentation]: //hexo.io/docs/
-[Jekyll Exporter]: //wordpress.org/plugins/jekyll-exporter/
-[wp2middleman]: //github.com/mdb/wp2middleman
+[Jekyll documentation]: https://jekyllrb.com/docs/home/
+[Middleman documentation]: https://middlemanapp.com/basics/install/
+[Hugo documentation]: https://gohugo.io/documentation/
+[Hexo documentation]: https://hexo.io/docs/
+[Jekyll Exporter]: https://wordpress.org/plugins/jekyll-exporter/
+[wp2middleman]: https://github.com/mdb/wp2middleman
 [guide on how to migrate from WordPress to Hexo]: /articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/
-[Markdown]: //daringfireball.net/projects/markdown/syntax
-[the context]: //gohugo.io/templates/introduction/#context-aka-the-dot
-[middleman-blog]: //middlemanapp.com/basics/blogging/
-[some rules]: //jekyllrb.com/docs/assets/
-[Hugo Pipes for Sass]: //gohugo.io/hugo-pipes/scss-sass/
-[plugin]: //github.com/knksmith57/hexo-renderer-sass
-[Cloudinary free plan]: //cloudinary.com/documentation/upload_images
-[cloudinary tag]: //www.npmjs.com/package/hexo-cloudinary
-[Jekyll plugin list]: //jekyllrb.com/docs/plugins/#available-plugins
-[Middleman extensions]: //directory.middlemanapp.com/#/extensions/all
-[Hexo plugins]: //hexo.io/plugins/
-[a new tag]: //www.npmjs.com/package/hexo-caniuse
-[Content Management System for JAMstack sites]: //headlesscms.org/
-[JAMstack templates]: //templates.netlify.com/
-[Smashing Magazine]: //www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/
-[HTTPS out of the box]: //www.netlify.com/docs/ssl/
-[handling form submissions]: //www.netlify.com/docs/form-handling/
+[Markdown]: https://daringfireball.net/projects/markdown/syntax
+[the context]: https://gohugo.io/templates/introduction/#context-aka-the-dot
+[middleman-blog]: https://middlemanapp.com/basics/blogging/
+[some rules]: https://jekyllrb.com/docs/assets/
+[Hugo Pipes for Sass]: https://gohugo.io/hugo-pipes/scss-sass/
+[plugin]: https://github.com/knksmith57/hexo-renderer-sass
+[Cloudinary free plan]: https://cloudinary.com/documentation/upload_images
+[cloudinary tag]: https://www.npmjs.com/package/hexo-cloudinary
+[Jekyll plugin list]: https://jekyllrb.com/docs/plugins/#available-plugins
+[Middleman extensions]: https://directory.middlemanapp.com/#/extensions/all
+[Hexo plugins]: https://hexo.io/plugins/
+[a new tag]: https://www.npmjs.com/package/hexo-caniuse
+[Content Management System for JAMstack sites]: https://headlesscms.org/
+[JAMstack templates]: https://templates.netlify.com/
+[Smashing Magazine]: https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/
+[HTTPS out of the box]: https://www.netlify.com/docs/ssl/
+[handling form submissions]: https://www.netlify.com/docs/form-handling/

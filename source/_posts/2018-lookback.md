@@ -7,7 +7,7 @@ tags:
   - spg
 categories:
   - Blog
-thumbnail: //res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg
 comments: true
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 ---
@@ -81,7 +81,7 @@ To have a broader audience for my blog, I reshare every post from my blog on [de
 
 I have reached almost 2,5k followers on the dev.to platform. I have more than 700 followers on Twitter. I have a modest reputation on Reddit, Hacker News, and Lobsters.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1546702044/devto-stats_zj90eq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "dev.to stats." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1546702044/devto-stats_zj90eq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "dev.to stats." %}
 
 Around 35,000 readers visited my blog with almost 50,000 pageviews. On dev.to, I have more than 17,000 post views, and nearly 700 reactions. On medium.com, I had around 10k post views, and on codementor.io, I had around 4,5k.
 

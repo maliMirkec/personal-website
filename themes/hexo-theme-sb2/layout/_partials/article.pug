@@ -57,7 +57,7 @@ if (page && page.title)
     .metadata
       .metadata__content
         if (theme && theme.widgets && theme.widgets.sharing)
-          h4 Share:
+          h3 Share:
           ul.list
             if (theme.widgets.sharing.twitter)
               li.list__item
@@ -70,7 +70,7 @@ if (page && page.title)
                 a.list__link(href=redditLink, target="_blank") Share on Reddit
         if (page && (page.prev || page.next))
           nav.pagination
-            h4 More articles:
+            h3 More articles:
             ul.list
               if (page && page.next)
                 li.list__item
