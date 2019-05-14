@@ -2,3 +2,6 @@
 
 /en/* /:splat 301
 /hr/* /:splat 301
+/tag/* /tags/:splat 301
+/articles/* /categories/articles/:splat 301
+/clanci/* /categories/articles/ 301
