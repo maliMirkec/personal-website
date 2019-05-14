@@ -8,8 +8,6 @@ const gfxConfig = require('./.gfx.json')
 
 // Will process image files
 function gfxStart () {
-  console.log(gfxConfig)
-
   return src(`${helpers.source()}/${helpers.trim(global.config.gfx.src)}/**/*`)
     .pipe(imagemin([
       imagemin.gifsicle(gfxConfig.gifConfig),
