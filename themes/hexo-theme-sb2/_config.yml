@@ -22,6 +22,14 @@ home_page:
     position: beta
     title: Featured Articles
     images:
+      - src: https://res.cloudinary.com/starbist/image/upload/v1557942398/Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
+        title: '💫 Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
+        alt: 'Cover image with custom graphics for article Oh, the Many Ways to Make Triangular Breadcrumb Ribbons.'
+        href: /articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1557942405/5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg
+        title: '💫 5 things to consider when creating your CSS style guide'
+        alt: 'Cover image with custom graphics for article 5 things to consider when creating your CSS style guide.'
+        href: /articles/5-things-to-consider-when-creating-your-css-style-guide/
       - src: https://res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
         title: '💫 Custom WordPress Theme Development with SPRO'
         alt: 'Cover image with custom graphics for article Custom WordPress Theme Development with SPRO.'
@@ -30,14 +38,6 @@ home_page:
         title: '💫 Building an Animated Sticky Header With Custom Offset'
         alt: 'Cover image with custom graphics for article Building an Animated Sticky Header With Custom Offset.'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
-        title: '💫 Overview of Popular Static Site Generators'
-        alt: 'Cover image with custom graphics for article Overview of Popular Static Site Generators.'
-        href: /articles/overviev-of-popular-static-site-generators/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
-        title: '💫 Using CSS Grid where appropriate (revisited)'
-        alt: 'Cover image with custom graphics for article Using CSS Grid where appropriate (revisited).'
-        href: /articles/using-css-grid-where-appropriate-revisited/
     links:
       See all articles →: /categories/articles/
   - section:
