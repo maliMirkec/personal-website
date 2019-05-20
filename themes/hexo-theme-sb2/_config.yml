@@ -10,6 +10,7 @@ home_page:
   - section:
     position: alpha
     title: Silvestar Bistrović
+    id: Profile
     profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
     profilealt: Headshot of myself, Silvestar Bistrović
     headings:
@@ -21,6 +22,7 @@ home_page:
   - section:
     position: beta
     title: Featured Articles
+    id: FeaturedArticles
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1557942398/Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
         title: '💫 Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
@@ -43,6 +45,7 @@ home_page:
   - section:
     position: gamma
     title: Publications
+    id: Publications
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/css-tricks-triangular-breadcrumb_wtapyn.jpg
         title: "⭐️ CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!"
@@ -63,6 +66,7 @@ home_page:
   - section:
     position: epsilon
     title: Projects
+    id: Projects
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
         title: 🌟 Domino Data Lab
@@ -86,6 +90,7 @@ home_page:
     position: omega
     list_class: omega
     title: Testimonials
+    id: Testimonials
     quotes:
       - person: Evan Lavidor
         position: Partner & Executive Director

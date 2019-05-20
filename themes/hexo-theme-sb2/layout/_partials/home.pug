@@ -11,9 +11,9 @@
       div(class="home__box" + home_class)
         if (section.title)
           if (section.position && section.position === "alpha")
-            h1= section.title
+            h1(id=section.id)= section.title
           else
-            h2= section.title
+            h2(id=section.id)= section.title
         if (section.paragraphs)
           - var list_class = (section.list_class) ? " list--" + section.list_class : "";
           ul(class="list" + list_class)
