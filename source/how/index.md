@@ -18,7 +18,7 @@ I've built logo using [SVG](https://www.w3.org/TR/SVG/) to add the more crisp lo
 
 The website is super fast. Check the scores on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsilvestar.codes) and [Testmysite.io](https://testmysite.io/59832155a700c43c98b08b12/www.silvestar.codes). Perfect! This is achieved by optimizing every asset. The most crucial optimization is [Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) implemented here as well.
 
-Articles about [CSS tabs](http://css-weekly.com/issue-237/), [CSS sidebar toggle](http://css-weekly.com/issue-258/), and [Using CSS Grid where appropriate](http://css-weekly.com/issue-277/) are featured in [CSS Weekly newsletter](http://css-weekly.com/) curated by [Zoran Jambor](https://twitter.com/ZoranJambor).
+Articles about [CSS tabs](http://css-weekly.com/issue-237/), [CSS sidebar toggle](http://css-weekly.com/issue-258/), [Using CSS Grid where appropriate](http://css-weekly.com/issue-277/), [writing styleguides](https://css-weekly.com/issue-361/) and [making CSS ribbons](https://css-weekly.com/issue-362/) are featured in [CSS Weekly newsletter](http://css-weekly.com/) curated by [Zoran Jambor](https://twitter.com/ZoranJambor).
 
 If you want a website that is as awesome as this one, [hire me](/hire-me/) or [contact me](/about-me/).
 

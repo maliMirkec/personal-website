@@ -76,6 +76,10 @@ p {
   margin-top: 1.333rem;
 }
 
+html {
+  max-width: 100vw;
+}
+
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -94,6 +98,10 @@ body {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  hyphenate-limit-chars: 6 3 2;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
 }
 
 

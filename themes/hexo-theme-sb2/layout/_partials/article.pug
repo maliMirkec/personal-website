@@ -53,6 +53,17 @@ if (page && page.title)
   if (page && page.content)
     .content!= page.content
 
+  if (page && page.quotes)
+    h2.article__testimonials= "Testimonials"
+    ul.list.list--omega
+      each quote in page.quotes
+        li.list__item
+          blockquote
+            each paragraph in quote.paragraphs
+              p= paragraph
+            h3= quote.person
+            h3= quote.position + " @ " + quote.project.name
+
   if (isPost())
     .metadata
       .metadata__content

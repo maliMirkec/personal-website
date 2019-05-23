@@ -10,6 +10,7 @@ home_page:
   - section:
     position: alpha
     title: Silvestar Bistrović
+    id: Profile
     profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
     profilealt: Headshot of myself, Silvestar Bistrović
     headings:
@@ -21,6 +22,7 @@ home_page:
   - section:
     position: beta
     title: Featured Articles
+    id: FeaturedArticles
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1557942398/Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
         title: '💫 Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
@@ -43,6 +45,7 @@ home_page:
   - section:
     position: gamma
     title: Publications
+    id: Publications
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/css-tricks-triangular-breadcrumb_wtapyn.jpg
         title: "⭐️ CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!"
@@ -63,6 +66,7 @@ home_page:
   - section:
     position: epsilon
     title: Projects
+    id: Projects
     images:
       - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
         title: 🌟 Domino Data Lab
@@ -86,6 +90,7 @@ home_page:
     position: omega
     list_class: omega
     title: Testimonials
+    id: Testimonials
     quotes:
       - person: Evan Lavidor
         position: Partner & Executive Director
@@ -108,13 +113,6 @@ home_page:
           - Throughout the span of the project, Silvestar was able to consistently meet if not exceed expectations. He has the impressive ability to not only readily undertake direct requests, but also intuitively distill ambiguous asks in order to execute solves in a self-sufficient manner.
           - Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions.
           - If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project."
-      - person: Adam Maschek
-        position: CTO at Westwing Home & Living
-        project:
-          name: Westwing
-          link: /portfolio/westwing/
-        paragraphs:
-          - It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him.
       - person: Karim Mansi
         position: eCommerce Product Manager at Westwing Home & Living
         project:

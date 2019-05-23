@@ -61,7 +61,7 @@
   blockquote {
     border-left: 1px solid $color-alpha;
     margin: 2em 0;
-    padding: 5px 0 10px 20px;
+    padding: 5px 20px 10px;
     position: relative;
 
     h3 {
@@ -83,14 +83,23 @@
       z-index: -1;
     }
 
+    @include mq($from: tablet) {
+      padding: 20px 60px 1.414rem;
+    }
+
+    .main--sidebar & {
+      @include mq($from: tablet) {
+        margin-top: 0;
+        margin-bottom: 3px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    }
+
     .main--sidebar &:before {
       @include mq($from: tablet) {
         right: 0;
       }
-    }
-
-    @include mq($from: tablet) {
-      padding: 20px 60px 1.414rem;
     }
   }
 }
@@ -146,6 +155,21 @@ code {
 
   @include mq($from: tablet) {
     font-size: ms(4);
+  }
+}
+
+.article__testimonials {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15%;
+    max-width: 100px;
+    height: 10px;
+    background-color: lighten($color-alpha, 20%);
   }
 }
 
