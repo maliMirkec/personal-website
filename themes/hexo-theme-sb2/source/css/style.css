@@ -391,6 +391,9 @@ code {
   text-shadow: 0 1px 0 #e01258;
   color: #fff; }
 
+html {
+  max-width: 100vw; }
+
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -408,7 +411,11 @@ body {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto; }
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 2;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%; }
 
 a {
   cursor: pointer; }
@@ -1020,7 +1027,7 @@ img {
 .article blockquote {
   border-left: 1px solid #12e09f;
   margin: 2em 0;
-  padding: 5px 0 10px 20px;
+  padding: 5px 20px 10px;
   position: relative; }
   .article blockquote h3 {
     text-transform: none; }
