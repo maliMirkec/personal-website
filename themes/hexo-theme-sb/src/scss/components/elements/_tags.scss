@@ -1,0 +1,75 @@
+.tally {
+  @include ls(50);
+  @include bsh(transparentize($color-gamma, .4));
+  @include tsh;
+  @include tra;
+  align-items: center;
+  background-image: bg-h();
+  border-radius: rem(4px);
+  color: $color-beta;
+  display: inline-flex;
+  font-family: $font-alpha;
+  font-size: ms(-4);
+  margin-bottom: rem(5px);
+  margin-top: rem(5px);
+  padding: rem(5px) rem(15px) rem(2px);
+  position: relative;
+  text-decoration: none;
+
+  & + & {
+    margin-left: rem(10px);
+  }
+
+  &[type="submit"],
+  &[type="button"],
+  &[href] {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparentize($color-gamma, 0.75);
+      color: $color-beta;
+    }
+
+    &:active {
+      @include bsh(transparentize($color-gamma, 1));
+    }
+  }
+
+  svg {
+    fill: $color-beta;
+    height: rem(25px);
+    left: rem(3px);
+    margin-right: rem(5px);
+    position: absolute;
+    top: rem(2px);
+    width: rem(28px);
+  }
+
+  span {
+    text-transform: capitalize;
+  }
+
+  svg + span {
+    margin-left: rem(18px);
+  }
+
+  @each $social-name, $social-color in $social-icons {
+    &[href*="//www.#{$social-name}"],
+    &[href*="//#{$social-name}"] {
+      @include tsh($social-color);
+
+      @if $social-name == 'twitter' {
+        background-image: bg-h(darken($social-color, 10%));
+      } @else {
+        background-image: bg-h($social-color);
+      }
+    }
+  }
+}
+
+.tally--hash {
+  &::before {
+    content: '#';
+    margin-right: rem(3px);
+  }
+}
