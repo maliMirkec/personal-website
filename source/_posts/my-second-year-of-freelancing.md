@@ -26,9 +26,8 @@ I am really pleased how [my portfolio] looks this year. Every single project was
 
 Last year I was building static pages and styleguides for:
 
-- [Flexera],
-- [Flexera Software],
-- [Calvert], and
+- [Calvert],
+- International, IT software & services client, and
 - Saudi VPS servers and cloud hosting company.
 
 I have been building and maintaining websites that are powered by static page generators like Jekyll and Hugo on:
@@ -101,8 +100,7 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [Domino Data Lab Rev]: /portfolio/dominodatalab-rev/
 [Machine Learning Libraries]: /portfolio/machine-learning-libraries/
 [Westwing]: /portfolio/westwing/
-[Flexera Software]: /portfolio/flexerasoftware/
-[Flexera]: /portfolio/flexera/
+[International, IT software & services client]: https://www.beamland.com/
 [Calvert]: /portfolio/calvert/
 [SPRO]: https://starter.silvestarbistrovic.from.hr/
 [Starter Project]: https://starter.silvestarbistrovic.from.hr/starter-project/
