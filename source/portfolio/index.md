@@ -15,12 +15,6 @@ grid:
       src: https://res.cloudinary.com/starbist/image/upload/v1553496460/ev-c_vgm0ws.png
       description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
     - item:
-      title: Flexera
-      alt: Flexera website screenshots displayed on laptop, tablet, and mobile device.
-      href: /portfolio/flexera/
-      src: https://res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
-      description: Flexera controls and manages software, and IT costs, to grow and protect your business.
-    - item:
       title: Machine Learning Libraries
       alt: Machine Learning Libraries website screenshots displayed on laptop, tablet, and mobile device.
       href: /portfolio/machine-learning-libraries/

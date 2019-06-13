@@ -29,7 +29,7 @@ And here is what some nice people that were my clients said about working with m
 > _I'd happily work with Silvestar again, and we'll definitely reach out to him in the future when we need help with additional projects.”_
 >
 > — Evan Lavidor Partner & Executive Director at BEAM Interactive
-> Projects: [Flexera](/portfolio/flexera/), [Flexera Software](/portfolio/flexerasoftware/), [Bozzuto](/portfolio/bozzuto/), [Calvert](/portfolio/calvert/)
+> Projects: [Bozzuto](/portfolio/bozzuto/), [Calvert](/portfolio/calvert/)
 
 <span></span>
 

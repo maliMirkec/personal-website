@@ -170,7 +170,6 @@ sidebar: true
 - [Learn Enough JavaScript to Be Dangerous | Learn Enough to Be Dangerous](https://www.learnenough.com/javascript-tutorial)
 - [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/)
 - [cssanimation/css-animation-101: Learn how to bring animation to your web projects](https://github.com/cssanimation/css-animation-101?utm_source=CSS-Weekly&utm_campaign=Issue-342&utm_medium=web)
-- [beamland / flexera-styleguide / commit / 3aa8a957afd8 — Bitbucket](https://bitbucket.org/beamland/flexera-styleguide/commits/3aa8a957afd816c28c6d29ffd876fe055becebda?at=develop)
 - [TopTracker - Time Tracking App. Free Forever.](https://www.toptal.com/tracker/)
 - [Toggl - Free Time Tracking Software](https://toggl.com/)
 - [Timing: the best automatic Mac time tracker for productive professionals and freelancers](https://timingapp.com/)

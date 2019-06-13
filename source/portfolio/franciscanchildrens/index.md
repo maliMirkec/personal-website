@@ -12,7 +12,7 @@ quotes:
     position: Partner & Executive Director
     project:
       name: BEAM Interactive
-      link: /portfolio/flexera/
+      link: /portfolio/bozzuto/
     paragraphs:
       - We've worked with Silvestar on several projects, and he's been a pleasure to work with on all of them. Recently, he handled primary front end development for two large web sites that were launched on Adobe Experience Manager. He's also worked on the front end development of a large WordPress project as well as some smaller campaign landing page and microsite work.
       - In all cases, Silvestar's been a breeze to work with. Communication is easy, and he's happy to be part of a larger team, attend regular standups, stay in close communication electronically, etc. (a key factor when working across countries/time zones).
