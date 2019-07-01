@@ -1360,10 +1360,15 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  form span,
+  form label,
+  form button {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    width: 100%; }
   form label {
     font-size: 1rem; }
     form label:not(:first-of-type) {
@@ -1400,6 +1405,22 @@ form {
     margin-top: calc(0.90909 * 1rem); }
     form button:hover, form button:focus, form button:active {
       background-color: #42f0b9; }
+
+.kwes-form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse; }
+
+.kwes-form * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.kwes-form form {
+  margin-bottom: 20px; }
 
 .sig {
   -webkit-box-align: baseline;
