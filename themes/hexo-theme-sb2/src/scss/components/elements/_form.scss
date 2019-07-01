@@ -1,4 +1,4 @@
-form {
+.form {
   margin-top: rem(40);
   display: flex;
   flex-wrap: wrap;
@@ -15,16 +15,17 @@ form {
     padding-bottom: 10px;
 
     .help {
+      color: $color-beta;
       font-size: ms(-2);
       position: absolute;
-      right: 0;
+      right: 8px;
 
       &:nth-of-type(1) {
-        bottom: 10px;
+        top: 0;
       }
 
       &:nth-of-type(2) {
-        bottom: 30px;
+        top: 16px;
       }
     }
   }

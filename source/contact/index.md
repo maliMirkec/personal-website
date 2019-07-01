@@ -12,7 +12,7 @@ Hi friend,
 Please fill out the form and I will get back to you as soon as possible.
 
 <div class="kwes-form">
-  <form method="POST" action="https://kwes.io/api/foreign/forms/ShfiSzjg5kszxStJ0zWd">
+  <form class="form" method="POST" action="https://kwes.io/api/foreign/forms/ShfiSzjg5kszxStJ0zWd">
     <label for="name">What is your name?</label>
     <input type="text" id="name" name="name" rules="required">
     <label for="email">Please tell me your email address <small>(I would use it only for direct communication)</small>.</label>
