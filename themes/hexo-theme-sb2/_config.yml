@@ -148,7 +148,7 @@ menu:
     Portfolio: /portfolio/
     About: /about-me/
     My links: /links/
-    Contact →: https://silvestar.typeform.com/to/jS4Qkz
+    Contact →: /contact/
 
 portfolio:
   title: Projects
@@ -171,7 +171,7 @@ portfolio:
 sidebar:
   title: Quick Links
   items:
-    Contact: https://silvestar.typeform.com/to/jS4Qkz
+    Contact: /contact/
     About: /about-me/
     Hire me: /hire-me/
     Services: /services/
@@ -190,13 +190,13 @@ banner1:
   you want me on your team."
   btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
-  link: https://silvestar.typeform.com/to/jS4Qkz
+  link: /contact/
 
 banner2:
   span: "I am currently considering new projects for this year. Contact me."
   btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
-  href: https://silvestar.typeform.com/to/jS4Qkz
+  href: /contact/
 
 widgets:
   cookies:
@@ -205,7 +205,7 @@ widgets:
     paragraphs:
       - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
     contact:
-      Contact: https://silvestar.typeform.com/to/jS4Qkz
+      Contact: /contact/
       # Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
       LinkedIn: https://www.linkedin.com/in/starbist/
       GitHub: https://github.com/maliMirkec
@@ -213,7 +213,7 @@ widgets:
       Twitter: https://twitter.com/malimirkeccita
   subnav:
     Silvestar Bistrović: /
-    Contact: https://silvestar.typeform.com/to/jS4Qkz
+    Contact: /contact/
     # Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
     LinkedIn: https://www.linkedin.com/in/starbist/
     GitHub: https://github.com/maliMirkec

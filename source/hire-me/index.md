@@ -65,6 +65,6 @@ And here is what some nice people that were my clients said about working with m
 > — Pablo Pareja Tobes, Project Manager at Vizzuality
 > Project: [Trase Yearbook 2018](/portfolio/yearbook-trase/)
 
-[contact me]: https://silvestar.typeform.com/to/jS4Qkz
+[contact me]: /contact/
 [portfolio]: /portfolio/
 [services]: /services/

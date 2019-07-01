@@ -583,6 +583,10 @@ img {
     background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
     background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
     background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
+  .nav__list--contact .nav__item:nth-child(7) .nav__link {
+    background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg); }
   .nav__item:last-of-type .nav__link {
     color: #f57da6; }
   .nav__link:hover, .nav__link:focus, .nav__link:active {
@@ -1350,6 +1354,53 @@ code {
   @media (min-width: 75em) {
     .highlight table {
       font-size: 0.8rem; } }
+
+.form {
+  margin-top: calc(1.81818 * 1rem); }
+  .form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .form label {
+    font-size: 1rem; }
+    .form label:not(:first-of-type) {
+      margin-top: calc(0.90909 * 1rem); }
+  .form small {
+    color: #3f3f3f; }
+  .form input,
+  .form button {
+    min-height: 44px; }
+  .form input,
+  .form textarea {
+    font-family: "Barlow", sans-serif;
+    background-color: #f3fefb; }
+  .form input,
+  .form textarea,
+  .form button {
+    font-size: 1rem;
+    line-height: 2;
+    padding: calc(0.45455 * 1rem) calc(0.90909 * 1rem);
+    border: calc(0.13636 * 1rem) solid #12e09f; }
+    .form input:hover, .form input:focus, .form input:active,
+    .form textarea:hover,
+    .form textarea:focus,
+    .form textarea:active,
+    .form button:hover,
+    .form button:focus,
+    .form button:active {
+      background-color: #fff; }
+  .form button {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    background-color: #7df5cf;
+    color: #1f1f1f;
+    margin-top: calc(0.90909 * 1rem); }
+    .form button:hover, .form button:focus, .form button:active {
+      background-color: #42f0b9; }
 
 .sig {
   -webkit-box-align: baseline;

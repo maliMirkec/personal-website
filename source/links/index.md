@@ -37,7 +37,7 @@ My direct email is [me@silvestar.codes](mailto:me@silvestar.codes). You could [d
 - [About.me](https://about.me/starbist) -->
 
 ## Projects
-- [Starter Project](https://starter.silvestarbistrovic.from.hr/)
+- [Starter Project](https://starter.silvestar.codes/)
 - [Making a website with Hugo](https://skl.sh/2ILioJ8)
 - [_bem](https://frontend-developer.xyz/_bem/)
 

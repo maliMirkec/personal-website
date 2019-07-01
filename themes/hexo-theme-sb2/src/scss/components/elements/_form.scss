@@ -1,0 +1,60 @@
+.form {
+  margin-top: rem(40);
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-size: ms(0);
+
+    &:not(:first-of-type) {
+      margin-top: rem(20);
+    }
+  }
+
+  small {
+    color: lighten($color-psi, 12.5%);
+  }
+
+  input,
+  button {
+    min-height: 44px;
+  }
+
+  input,
+  textarea {
+    font-family: $font-alpha;
+    background-color: lighten($color-alpha, 50%);
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: ms(0);
+    line-height: 2;
+    padding: rem(10) rem(20);
+    border: rem(3) solid $color-alpha;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color-omega;
+    }
+  }
+
+  button {
+    font-family: $font-beta;
+    font-size: ms(0);
+    background-color: lighten($color-alpha, 25%);
+    color: $color-psi;
+    margin-top: rem(20);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: lighten($color-alpha, 12.5%);
+    }
+  }
+}

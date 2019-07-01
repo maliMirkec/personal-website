@@ -1,3 +1,3 @@
 'use strict';
 
-console.log('Powered by Starter Project (https://starter.silvestarbistrovic.from.hr).');
+console.log('Powered by Starter Project (https://starter.silvestar.codes).');

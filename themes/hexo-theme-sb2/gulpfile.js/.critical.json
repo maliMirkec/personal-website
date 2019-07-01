@@ -1,8 +1,24 @@
 [{
   "src": "style.css",
   "settings": {
-    "out": "style6.critical.css",
+    "out": "style7.critical.css",
     "url": "http://localhost:4000/about-me/",
+    "width": 1920,
+    "height": 1800,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": true,
+    "renderWaitTime": 3000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style6.critical.css",
+    "url": "http://localhost:4000/contact/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,

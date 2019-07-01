@@ -1,9 +1,9 @@
 # hexo-theme-sb
 
-[Hexo Theme SB](https://sbtheme.silvestarbistrovic.from.hr) Clean and simple theme for Hexo blog framework.
+[Hexo Theme SB](https://sbtheme.silvestar.codes) Clean and simple theme for Hexo blog framework.
 
-Official website: [https://sbtheme.silvestarbistrovic.from.hr](https://sbtheme.silvestarbistrovic.from.hr)
-Used on: [https://www.silvestarbistrovic.from.hr](https://www.silvestarbistrovic.from.hr)
+Official website: [https://sbtheme.silvestar.codes](https://sbtheme.silvestar.codes)
+Used on: [https://www.silvestar.codes](https://www.silvestar.codes)
 
 ## Installation
 
@@ -79,14 +79,14 @@ home_page:
   - section:
     title: Projects
     links:
-      Starter Project: //starter-project.silvestarbistrovic.from.hr
-      Hexo Theme SB: //sbtheme.silvestarbistrovic.from.hr
+      Starter Project: //starter-project.silvestar.codes
+      Hexo Theme SB: //sbtheme.silvestar.codes
       Contiamo: //www.contiamo.com
       Irina and Matej: //irinaandmatej.com
   - section:
     title: Links
     links:
-      Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+      Mail: mailto:me@silvestar.codes?Subject=Hello
       Twitter: //twitter.com/malimirkeccita
       Github: //github.com/maliMirkec
 
@@ -105,10 +105,10 @@ open_graph:
 # Widgets
 widgets:
   contact:
-    mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+    mail: mailto:me@silvestar.codes?Subject=Hello
     twitter: //twitter.com/malimirkeccita
     linkedin: //www.linkedin.com/in/starbist/
-    facebook: //www.facebook.com/silvestarbistrovic.from.hr/
+    facebook: //www.facebook.com/silvestar.codes/
     medium: //medium.com/@malimirkeccita
     github: //github.com/maliMirkec
     codepen: //codepen.io/CiTA/
@@ -119,7 +119,7 @@ widgets:
     shortname: silvestarbistrovic
   sharing:
     twitter: malimirkeccita
-    facebook: silvestarbistrovic.from.hr
+    facebook: silvestar.codes
 ```
 
 
@@ -140,6 +140,6 @@ If you need any help, please feel free to [contact me].
 
 If you're having issues, please [search for issues](https://github.com/maliMirkec/hexo-theme-sb/issues) or open [a new one](https://github.com/maliMirkec/hexo-theme-sb/issues/new).
 
-[Starter Project]: https://starter.silvestarbistrovic.from.hr
-[contact me]: mailto:me@silvestarbistrovic.from.hr?Subject=Help
+[Starter Project]: https://starter.silvestar.codes
+[contact me]: mailto:me@silvestar.codes?Subject=Help
 
