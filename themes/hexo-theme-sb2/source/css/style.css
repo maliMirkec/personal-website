@@ -1355,70 +1355,71 @@ code {
     .highlight table {
       font-size: 0.8rem; } }
 
-form {
+.form {
   margin-top: calc(1.81818 * 1rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  form span,
-  form label,
-  form button {
+  .form span,
+  .form label,
+  .form button {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
     width: 100%; }
-  form span {
+  .form span {
     position: relative;
     padding-bottom: 10px; }
-    form span .help {
+    .form span .help {
+      color: #e01258;
       font-size: 0.56278rem;
       position: absolute;
-      right: 0; }
-      form span .help:nth-of-type(1) {
-        bottom: 10px; }
-      form span .help:nth-of-type(2) {
-        bottom: 30px; }
-  form label {
+      right: 8px; }
+      .form span .help:nth-of-type(1) {
+        top: 0; }
+      .form span .help:nth-of-type(2) {
+        top: 16px; }
+  .form label {
     font-size: 1rem; }
-    form label:not(:first-of-type) {
+    .form label:not(:first-of-type) {
       margin-top: calc(0.90909 * 1rem); }
-  form small {
+  .form small {
     color: #3f3f3f; }
-  form input,
-  form button {
+  .form input,
+  .form button {
     min-height: 44px; }
-  form input,
-  form textarea {
+  .form input,
+  .form textarea {
     font-family: "Barlow", sans-serif;
     background-color: #f3fefb;
     width: 100%; }
-    form input[class*="is-danger"],
-    form textarea[class*="is-danger"] {
+    .form input[class*="is-danger"],
+    .form textarea[class*="is-danger"] {
       border: calc(0.13636 * 1rem) solid #e01258; }
-  form input,
-  form textarea,
-  form button {
+  .form input,
+  .form textarea,
+  .form button {
     font-size: 1rem;
     line-height: 2;
     padding: calc(0.45455 * 1rem) calc(0.90909 * 1rem);
     border: calc(0.13636 * 1rem) solid #12e09f; }
-    form input:hover, form input:focus, form input:active,
-    form textarea:hover,
-    form textarea:focus,
-    form textarea:active,
-    form button:hover,
-    form button:focus,
-    form button:active {
+    .form input:hover, .form input:focus, .form input:active,
+    .form textarea:hover,
+    .form textarea:focus,
+    .form textarea:active,
+    .form button:hover,
+    .form button:focus,
+    .form button:active {
       background-color: #fff; }
-  form button {
+  .form button {
     font-family: "Playfair Display", serif;
     font-size: 1rem;
     background-color: #7df5cf;
     color: #1f1f1f;
     margin-top: calc(0.90909 * 1rem); }
-    form button:hover, form button:focus, form button:active {
+    .form button:hover, .form button:focus, .form button:active {
       background-color: #42f0b9; }
 
 .kwes-form > div {
