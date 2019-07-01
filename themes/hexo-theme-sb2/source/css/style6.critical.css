@@ -535,6 +535,11 @@ img {
   flex-wrap: wrap;
 }
 
+.form * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .form label,
 .form button {
   -webkit-box-flex: 1;

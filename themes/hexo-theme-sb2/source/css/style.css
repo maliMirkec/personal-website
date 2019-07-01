@@ -1362,6 +1362,26 @@ code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+  .form * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .form form {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 20px; }
+  .form [class*="kw-message"] {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
   .form span,
   .form label,
   .form button {
