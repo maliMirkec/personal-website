@@ -3,6 +3,23 @@
   display: flex;
   flex-wrap: wrap;
 
+  * {
+    box-sizing: border-box;
+  }
+
+  form {
+    flex: 0 0 100%;
+    width: 100%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  [class*="kw-message"] {
+    flex: 0 0 100%;
+    width: 100%;
+    order: 2;
+  }
+
   span,
   label,
   button {
