@@ -1355,51 +1355,50 @@ code {
     .highlight table {
       font-size: 0.8rem; } }
 
-.form {
-  margin-top: calc(1.81818 * 1rem); }
-  .form form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .form label {
+form {
+  margin-top: calc(1.81818 * 1rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  form label {
     font-size: 1rem; }
-    .form label:not(:first-of-type) {
+    form label:not(:first-of-type) {
       margin-top: calc(0.90909 * 1rem); }
-  .form small {
+  form small {
     color: #3f3f3f; }
-  .form input,
-  .form button {
+  form input,
+  form button {
     min-height: 44px; }
-  .form input,
-  .form textarea {
+  form input,
+  form textarea {
     font-family: "Barlow", sans-serif;
     background-color: #f3fefb; }
-  .form input,
-  .form textarea,
-  .form button {
+  form input,
+  form textarea,
+  form button {
     font-size: 1rem;
     line-height: 2;
     padding: calc(0.45455 * 1rem) calc(0.90909 * 1rem);
     border: calc(0.13636 * 1rem) solid #12e09f; }
-    .form input:hover, .form input:focus, .form input:active,
-    .form textarea:hover,
-    .form textarea:focus,
-    .form textarea:active,
-    .form button:hover,
-    .form button:focus,
-    .form button:active {
+    form input:hover, form input:focus, form input:active,
+    form textarea:hover,
+    form textarea:focus,
+    form textarea:active,
+    form button:hover,
+    form button:focus,
+    form button:active {
       background-color: #fff; }
-  .form button {
+  form button {
     font-family: "Playfair Display", serif;
     font-size: 1rem;
     background-color: #7df5cf;
     color: #1f1f1f;
     margin-top: calc(0.90909 * 1rem); }
-    .form button:hover, .form button:focus, .form button:active {
+    form button:hover, form button:focus, form button:active {
       background-color: #42f0b9; }
 
 .sig {
