@@ -1422,29 +1422,12 @@ code {
     margin-top: calc(0.90909 * 1rem); }
     .form button:hover, .form button:focus, .form button:active {
       background-color: #42f0b9; }
-
-.kwes-form > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse; }
-
-.kwes-form * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.kwes-form form {
-  margin-bottom: 20px; }
-
-.kwes-form .kw-message-error {
-  background-color: #fef3f7;
-  color: #e01258;
-  border-radius: 0; }
-  .kwes-form .kw-message-error span {
-    padding-bottom: 0; }
+  .form .kw-message-error {
+    background-color: #fef3f7;
+    color: #e01258;
+    border-radius: 0; }
+    .form .kw-message-error span {
+      padding-bottom: 0; }
 
 .sig {
   -webkit-box-align: baseline;

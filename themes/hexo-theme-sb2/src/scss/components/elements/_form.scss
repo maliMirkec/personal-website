@@ -87,21 +87,6 @@
       background-color: lighten($color-alpha, 12.5%);
     }
   }
-}
-
-.kwes-form {
-  > div {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  form {
-    margin-bottom: 20px;
-  }
 
   .kw-message-error {
     background-color: lighten($color-beta, 50%);
