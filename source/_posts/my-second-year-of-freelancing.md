@@ -102,8 +102,8 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [Westwing]: /portfolio/westwing/
 [International, IT software & services client]: https://www.beamland.com/
 [Calvert]: /portfolio/calvert/
-[SPRO]: https://starter.silvestarbistrovic.from.hr/
-[Starter Project]: https://starter.silvestarbistrovic.from.hr/starter-project/
+[SPRO]: https://starter.silvestar.codes/
+[Starter Project]: https://starter.silvestar.codes/starter-project/
 [about using SPRO package]: https://skl.sh/2EcUlRt
 [about making a website with Hugo]: https://skl.sh/2ILioJ8
 [ask for a little bit of help]: https://dev.to/starbist/lets-make-my-website-even-better-37a5

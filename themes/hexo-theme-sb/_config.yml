@@ -32,14 +32,14 @@
 #   - section:
 #     title: Projects
 #     links:
-#       Starter Project: //starter.silvestarbistrovic.from.hr
-#       Hexo Theme SB: //sbtheme.silvestarbistrovic.from.hr
+#       Starter Project: //starter.silvestar.codes
+#       Hexo Theme SB: //sbtheme.silvestar.codes
 #       Contiamo: //www.contiamo.com
 #       Irina and Matej: //irinaandmatej.com
 #   - section:
 #     title: Links
 #     links:
-#       Mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+#       Mail: mailto:me@silvestar.codes?Subject=Hello
 #       Twitter: //twitter.com/malimirkeccita
 #       Github: //github.com/maliMirkec
 
@@ -58,10 +58,10 @@
 # Widgets
 # widgets:
 #   contact:
-#     mail: mailto:me@silvestarbistrovic.from.hr?Subject=Hello
+#     mail: mailto:me@silvestar.codes?Subject=Hello
 #     twitter: //twitter.com/malimirkeccita
 #     linkedin: //www.linkedin.com/in/starbist/
-#     facebook: //www.facebook.com/silvestarbistrovic.from.hr/
+#     facebook: //www.facebook.com/silvestar.codes/
 #     medium: //medium.com/@malimirkeccita
 #     github: //github.com/maliMirkec
 #     codepen: //codepen.io/CiTA/
@@ -72,4 +72,4 @@
 #     shortname: silvestarbistrovic
 #   sharing:
 #     twitter: malimirkeccita
-#     facebook: silvestarbistrovic.from.hr
+#     facebook: silvestar.codes

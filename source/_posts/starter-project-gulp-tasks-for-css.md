@@ -180,18 +180,18 @@ When you open the workspace settings, add these settings.
 }
 ```
 
-This should run stylelint when you save `.scss` files. If it doesn't work, [contact me](mailto: admin@silvestarbistrovic.from.hr?Subject=VSCode) for help.
+This should run stylelint when you save `.scss` files. If it doesn't work, [contact me](mailto:admin@silvestar.codes?Subject=VSCode) for help.
 
 ## Conclusion
 
 [In the previous article], I was trying to explain the idea for this project. This article should help you understand how Gulp could be used to optimize, lint and deliver best possible CSS output.
 
-[Starter Project] is conceived as a boilerplate with latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto: admin@silvestarbistrovic.from.hr?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
+[Starter Project] is conceived as a boilerplate with latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto: admin@silvestar.codes?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
 
 Please share! 🙏
 
 [In the previous article]: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
-[Starter Project]: https://starter.silvestarbistrovic.from.hr/
+[Starter Project]: https://starter.silvestar.codes/
 [npm]: https://www.npmjs.com/package/starter-project
 [Sass]: https://sass-lang.com/
 [gulp-sass]: https://www.npmjs.com/package/gulp-sass

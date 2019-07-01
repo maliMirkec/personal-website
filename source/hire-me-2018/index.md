@@ -10,7 +10,7 @@ description: If you want me on your team, you should send me an email at me@silv
 sidebar: true
 ---
 
-If you want me on your team, you should [contact me](https://silvestar.typeform.com/to/jS4Qkz). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
+If you want me on your team, you should [contact me](/contact/). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
 
 ## Why me
 

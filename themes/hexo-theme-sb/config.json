@@ -308,14 +308,14 @@
           }, {
             "title": "Projects",
             "links": {
-              "Starter Project": "//starter.silvestarbistrovic.from.hr",
-              "Hexo Theme SB": "//sbtheme.silvestarbistrovic.from.hr",
-              "Personal Website": "//www.silvestarbistrovic.from.hr/portfolio"
+              "Starter Project": "//starter.silvestar.codes",
+              "Hexo Theme SB": "//sbtheme.silvestar.codes",
+              "Personal Website": "//www.silvestar.codes/portfolio"
             }
           }, {
             "title": "Links",
             "links": {
-              "Mail": "mailto:me@silvestarbistrovic.from.hr?Subject=Hello",
+              "Mail": "mailto:me@silvestar.codes?Subject=Hello",
               "Twitter": "//twitter.com/malimirkeccita",
               "Github": "//github.com/maliMirkec"
             }
@@ -332,13 +332,13 @@
           },
           "widgets": {
             "contact": {
-              "mail": "mailto:me@silvestarbistrovic.from.hr?Subject=Hello",
+              "mail": "mailto:me@silvestar.codes?Subject=Hello",
               "twitter": "//twitter.com/malimirkeccita",
               "github": "//github.com/maliMirkec"
             },
             "sharing": {
               "twitter": "malimirkeccita",
-              "facebook": "silvestarbistrovic.from.hr"
+              "facebook": "silvestar.codes"
             }
           }
         },

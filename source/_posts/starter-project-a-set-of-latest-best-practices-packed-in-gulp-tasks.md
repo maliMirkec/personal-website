@@ -69,7 +69,7 @@ Starter Project is configurable and should be able to run in every project, no m
 
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509218/code2_mxkqcq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Penthouse plugin config example." %}
 
-Read more about configuration [here](https://starter.silvestarbistrovic.from.hr/).
+Read more about configuration [here](https://starter.silvestar.codes/).
 
 ## Features
 
@@ -103,9 +103,9 @@ Starter Project is not conceived as a strict set of rules. This package should b
 
 Show your support: provide feedback, open [a new issue](https://github.com/maliMirkec/starter-project/issues/new), create [a new pull request](https://github.com/maliMirkec/starter-project/compare), or leave a comment.
 
-[Starter Project]: https://starter.silvestarbistrovic.from.hr/
+[Starter Project]: https://starter.silvestar.codes/
 [npm]: https://www.npmjs.com/package/starter-project
-[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestarbistrovic.from.hr%2F&tab=desktop
+[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestar.codes%2F&tab=desktop
 [WebPageTest]: https://www.webpagetest.org/result/180323_7F_8cd32d6a04d395ff01839c921d82047d/
 [Silvestar Bistrović website]: https://www.silvestar.codes
 [Han Han Xue website]: https://hanhanxue.com/

@@ -1,6 +1,6 @@
 /// Media query definition for mobile devices, used in css-locks.
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
 /// @group 1.1 Sizes
 /// @name mq--mobile
@@ -9,7 +9,7 @@ $mq--mobile: 332px;
 
 /// Media query definition for desktop devices, used in css-locks.
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
 /// @group 1.1 Sizes
 /// @name mq--desktop
@@ -18,7 +18,7 @@ $mq--desktop: 660px;
 
 /// Default font size on mobile devices, used in css-locks.
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
 /// @group 1.1 Sizes
 /// @name font-size--mobile
@@ -27,7 +27,7 @@ $font-size--mobile: 14px;
 
 /// Default font size on desktop devices, used in css-locks.
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
 /// @group 1.1 Sizes
 /// @name font-size--desktop
@@ -36,7 +36,7 @@ $font-size--desktop: 18px;
 
 /// Default line height applied on every element
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example line-height: $line-height;
 /// @group 1.1 Sizes
 /// @name line-height
@@ -45,7 +45,7 @@ $line-height: 1.6;
 
 /// Configuration for modular scale
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
 /// @group 1.1 Sizes
 /// @name modularscale
@@ -58,7 +58,7 @@ $modularscale: (
 
 /// Configuration for media queries
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example
 ///   @include mq($from: mobile, $until: desktop) {
 ///     color: $color-alpha;
@@ -74,7 +74,7 @@ $mq-breakpoints: (
 
 /// Configuration for wrapper width
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example max-width: $wrapper;
 /// @group 1.1 Sizes
 /// @name wrapper
@@ -83,7 +83,7 @@ $wrapper: 640px;
 
 /// Color from SB palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $color-alpha;
 /// @group 1.2 Colors
 /// @name color1
@@ -92,7 +92,7 @@ $color-alpha: #e01258;
 
 /// Color from SB palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $color-beta;
 /// @group 1.2 Colors
 /// @name white
@@ -101,7 +101,7 @@ $color-beta: #fff;
 
 /// Color from SB palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $color-gamma;
 /// @group 1.2 Colors
 /// @name black
@@ -110,7 +110,7 @@ $color-gamma: #232323;
 
 /// Color from SB palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $mail;
 /// @group 1.2 Colors
 /// @name mail
@@ -119,7 +119,7 @@ $mail: $color-alpha;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $twitter;
 /// @group 1.2 Colors
 /// @name twitter
@@ -128,7 +128,7 @@ $twitter: #55acee;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $linkedin;
 /// @group 1.2 Colors
 /// @name linkedin
@@ -137,7 +137,7 @@ $linkedin: #0077b5;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $facebook;
 /// @group 1.2 Colors
 /// @name facebook
@@ -146,7 +146,7 @@ $facebook: #3b5998;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $medium;
 /// @group 1.2 Colors
 /// @name medium
@@ -155,7 +155,7 @@ $medium: #00ab6b;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $github;
 /// @group 1.2 Colors
 /// @name github
@@ -164,7 +164,7 @@ $github: #2f2f2f;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $codepen;
 /// @group 1.2 Colors
 /// @name codepen
@@ -173,7 +173,7 @@ $codepen: #212121;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $lastfm;
 /// @group 1.2 Colors
 /// @name lastfm
@@ -182,7 +182,7 @@ $lastfm: #c3000d;
 
 /// Color from Social palette
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example color: $google-plus;
 /// @group 1.2 Colors
 /// @name google-plus
@@ -203,7 +203,7 @@ $social-icons: (
 
 /// Transition duration
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example transition-duration: $tra;
 /// @group 1.3 Transitions
 /// @name trd
@@ -212,7 +212,7 @@ $trd: 0.225s;
 
 /// Transition animation default
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example transition-duration: $tra;
 /// @group 1.3 Transitions
 /// @name tra
@@ -221,7 +221,7 @@ $tra: cubic-bezier(0.3, 0.6, 0.5, 0.81);
 
 /// Vollkorn Subset
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example font-family: $font-alpha-subset;
 /// @group 1.3 Transitions
 /// @name font-alpha-subset
@@ -230,7 +230,7 @@ $font-alpha-subset: 'Vollkorn Subset';
 
 /// Vollkorn
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example font-family: $font-alpha;
 /// @group 1.3 Transitions
 /// @name font-alpha
@@ -239,7 +239,7 @@ $font-alpha: 'Vollkorn';
 
 /// Playfair Display Bold Subset
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example font-family: $font-beta-subset;
 /// @group 1.3 Transitions
 /// @name font-beta-subset
@@ -248,7 +248,7 @@ $font-beta-subset: 'Playfair Display Bold Subset';
 
 /// Playfair Display Bold
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example font-family: $font-beta;
 /// @group 1.3 Transitions
 /// @name font-beta
@@ -257,7 +257,7 @@ $font-beta: 'Playfair Display Bold';
 
 /// Courier New', Courier, monospac
 /// @access public
-/// @author Silvestar Bistrović <me@silvestarbistrovic.from.hr>
+/// @author Silvestar Bistrović <me@silvestar.codes>
 /// @example font-family: $font-gamma;
 /// @group 1.3 Transitions
 /// @name font-gamma

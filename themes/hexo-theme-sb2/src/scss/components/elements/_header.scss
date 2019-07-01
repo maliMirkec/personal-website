@@ -85,6 +85,10 @@
     background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   }
 
+  .nav__list--contact .nav__item:nth-child(7) & {
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+  }
+
   .nav__item:last-of-type & {
     color: lighten($color-beta, 25%);
   }
