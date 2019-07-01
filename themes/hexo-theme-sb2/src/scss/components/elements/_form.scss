@@ -11,6 +11,7 @@
   }
 
   span {
+    display: block;
     position: relative;
     padding-bottom: 10px;
 
@@ -100,5 +101,15 @@
 
   form {
     margin-bottom: 20px;
+  }
+
+  .kw-message-error {
+    background-color: lighten($color-beta, 50%);
+    color: $color-beta;
+    border-radius: 0;
+
+    span {
+      padding-bottom: 0;
+    }
   }
 }
