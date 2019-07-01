@@ -1369,6 +1369,17 @@ form {
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
     width: 100%; }
+  form span {
+    position: relative;
+    padding-bottom: 10px; }
+    form span .help {
+      font-size: 0.56278rem;
+      position: absolute;
+      right: 0; }
+      form span .help:nth-of-type(1) {
+        bottom: 10px; }
+      form span .help:nth-of-type(2) {
+        bottom: 30px; }
   form label {
     font-size: 1rem; }
     form label:not(:first-of-type) {
@@ -1381,7 +1392,11 @@ form {
   form input,
   form textarea {
     font-family: "Barlow", sans-serif;
-    background-color: #f3fefb; }
+    background-color: #f3fefb;
+    width: 100%; }
+    form input[class*="is-danger"],
+    form textarea[class*="is-danger"] {
+      border: calc(0.13636 * 1rem) solid #e01258; }
   form input,
   form textarea,
   form button {
