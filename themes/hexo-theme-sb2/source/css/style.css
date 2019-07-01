@@ -1370,6 +1370,7 @@ code {
     flex: 1 1 100%;
     width: 100%; }
   .form span {
+    display: block;
     position: relative;
     padding-bottom: 10px; }
     .form span .help {
@@ -1437,6 +1438,13 @@ code {
 
 .kwes-form form {
   margin-bottom: 20px; }
+
+.kwes-form .kw-message-error {
+  background-color: #fef3f7;
+  color: #e01258;
+  border-radius: 0; }
+  .kwes-form .kw-message-error span {
+    padding-bottom: 0; }
 
 .sig {
   -webkit-box-align: baseline;
