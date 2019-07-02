@@ -118,18 +118,13 @@
     }
   }
 
-}
+  .kw-message-error {
+    background-color: lighten($color-beta, 50%) !important;
+    color: darken($color-beta, 10%) !important;
+    border-radius: 0;
 
-.kwes-form {
-  .form {
-    .kw-message-error {
-      background-color: lighten($color-beta, 50%);
-      color: $color-beta;
-      border-radius: 0;
-
-      span {
-        padding-bottom: 0;
-      }
+    span {
+      padding-bottom: 0;
     }
   }
 }

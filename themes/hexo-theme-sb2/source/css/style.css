@@ -1455,13 +1455,12 @@ code {
     cursor: pointer; }
     .form button:hover, .form button:focus, .form button:active {
       background-color: #42f0b9; }
-
-.kwes-form .form .kw-message-error {
-  background-color: #fef3f7;
-  color: #e01258;
-  border-radius: 0; }
-  .kwes-form .form .kw-message-error span {
-    padding-bottom: 0; }
+  .form .kw-message-error {
+    background-color: #fef3f7 !important;
+    color: #b10e45 !important;
+    border-radius: 0; }
+    .form .kw-message-error span {
+      padding-bottom: 0; }
 
 .sig {
   -webkit-box-align: baseline;
