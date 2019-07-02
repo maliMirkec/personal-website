@@ -1451,15 +1451,17 @@ code {
     font-size: 1rem;
     background-color: #7df5cf;
     color: #1f1f1f;
-    margin-top: calc(0.90909 * 1rem); }
+    margin-top: calc(0.90909 * 1rem);
+    cursor: pointer; }
     .form button:hover, .form button:focus, .form button:active {
       background-color: #42f0b9; }
-  .form .kw-message-error {
-    background-color: #fef3f7;
-    color: #e01258;
-    border-radius: 0; }
-    .form .kw-message-error span {
-      padding-bottom: 0; }
+
+.kwes-form .form .kw-message-error {
+  background-color: #fef3f7;
+  color: #e01258;
+  border-radius: 0; }
+  .kwes-form .form .kw-message-error span {
+    padding-bottom: 0; }
 
 .sig {
   -webkit-box-align: baseline;

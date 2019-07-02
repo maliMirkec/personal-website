@@ -109,6 +109,7 @@
     background-color: lighten($color-alpha, 25%);
     color: $color-psi;
     margin-top: rem(20);
+    cursor: pointer;
 
     &:hover,
     &:focus,
@@ -117,13 +118,18 @@
     }
   }
 
-  .kw-message-error {
-    background-color: lighten($color-beta, 50%);
-    color: $color-beta;
-    border-radius: 0;
+}
 
-    span {
-      padding-bottom: 0;
+.kwes-form {
+  .form {
+    .kw-message-error {
+      background-color: lighten($color-beta, 50%);
+      color: $color-beta;
+      border-radius: 0;
+
+      span {
+        padding-bottom: 0;
+      }
     }
   }
 }
