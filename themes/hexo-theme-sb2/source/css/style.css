@@ -1418,14 +1418,20 @@ code {
     width: 100%; }
     .form input[class*="is-danger"],
     .form textarea[class*="is-danger"] {
-      border: calc(0.13636 * 1rem) solid #e01258; }
+      border: calc(0.13636 * 1rem) solid #f14e85;
+      background-color: #fef3f7; }
+      .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form textarea[class*="is-danger"]:focus,
+      .form textarea[class*="is-danger"]:active {
+        border: calc(0.13636 * 1rem) solid #e01258;
+        outline: calc(0.13636 * 1rem) solid #e01258; }
   .form input,
   .form textarea,
   .form button {
     font-size: 1rem;
     line-height: 2;
     padding: calc(0.45455 * 1rem) calc(0.90909 * 1rem);
-    border: calc(0.13636 * 1rem) solid #12e09f; }
+    border: calc(0.13636 * 1rem) solid #4ef1bd; }
     .form input:hover, .form input:focus, .form input:active,
     .form textarea:hover,
     .form textarea:focus,
@@ -1433,7 +1439,13 @@ code {
     .form button:hover,
     .form button:focus,
     .form button:active {
-      background-color: #fff; }
+      border-color: #12e09f; }
+    .form input:focus, .form input:active,
+    .form textarea:focus,
+    .form textarea:active,
+    .form button:focus,
+    .form button:active {
+      outline: calc(0.13636 * 1rem) solid #12e09f; }
   .form button {
     font-family: "Playfair Display", serif;
     font-size: 1rem;

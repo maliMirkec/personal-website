@@ -72,7 +72,14 @@
     width: 100%;
 
     &[class*="is-danger"] {
-      border: rem(3) solid $color-beta;
+      border: rem(3) solid lighten($color-beta, 15%);
+      background-color: lighten($color-beta, 50%);
+
+      &:focus,
+      &:active {
+        border: rem(3) solid $color-beta;
+        outline: rem(3) solid $color-beta;
+      }
     }
   }
 
@@ -82,12 +89,17 @@
     font-size: ms(0);
     line-height: 2;
     padding: rem(10) rem(20);
-    border: rem(3) solid $color-alpha;
+    border: rem(3) solid lighten($color-alpha, 15%);
 
     &:hover,
     &:focus,
     &:active {
-      background-color: $color-omega;
+      border-color: $color-alpha;
+    }
+
+    &:focus,
+    &:active {
+      outline: rem(3) solid $color-alpha;
     }
   }
 
