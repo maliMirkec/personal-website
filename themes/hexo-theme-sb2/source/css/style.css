@@ -1462,6 +1462,13 @@ code {
     .form .kw-message-error span {
       padding-bottom: 0; }
 
+[v-cloak] input,
+[v-cloak] textarea {
+  cursor: no-drop; }
+
+[v-cloak] button {
+  pointer-events: none; }
+
 .sig {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
