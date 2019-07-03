@@ -19,7 +19,7 @@ Please fill out the form and I will get back to you as soon as possible.
     <input type="email" id="email" name="email" rules="required|email|max:255">
     <label for="note">What is your message?</label>
     <textarea id="note" name="note" rules="required" rows="6"></textarea>
-    <button type="submit" disabled="!fields.name && !fields.email && !fields.name">Send</button>
+    <button type="submit">Send</button>
   </form>
 </div>
 <script src="https://kwes.io/js/kwes.js"></script>
