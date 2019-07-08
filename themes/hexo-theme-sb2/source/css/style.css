@@ -1424,7 +1424,10 @@ code {
       .form textarea[class*="is-danger"]:hover,
       .form textarea[class*="is-danger"]:focus,
       .form textarea[class*="is-danger"]:active {
-        border: calc(0.13636 * 1rem) solid #e01258;
+        border: calc(0.13636 * 1rem) solid #e01258; }
+      .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form textarea[class*="is-danger"]:focus,
+      .form textarea[class*="is-danger"]:active {
         outline: calc(0.13636 * 1rem) solid #e01258; }
   .form input,
   .form textarea,

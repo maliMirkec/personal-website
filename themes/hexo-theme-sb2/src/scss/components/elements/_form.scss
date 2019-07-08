@@ -79,6 +79,10 @@
       &:focus,
       &:active {
         border: rem(3) solid $color-beta;
+      }
+
+      &:focus,
+      &:active {
         outline: rem(3) solid $color-beta;
       }
     }
