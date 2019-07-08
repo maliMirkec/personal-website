@@ -75,6 +75,7 @@
       border: rem(3) solid lighten($color-beta, 15%);
       background-color: lighten($color-beta, 50%);
 
+      &:hover,
       &:focus,
       &:active {
         border: rem(3) solid $color-beta;

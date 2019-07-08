@@ -1420,7 +1420,8 @@ code {
     .form textarea[class*="is-danger"] {
       border: calc(0.13636 * 1rem) solid #f14e85;
       background-color: #fef3f7; }
-      .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form input[class*="is-danger"]:hover, .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form textarea[class*="is-danger"]:hover,
       .form textarea[class*="is-danger"]:focus,
       .form textarea[class*="is-danger"]:active {
         border: calc(0.13636 * 1rem) solid #e01258;
