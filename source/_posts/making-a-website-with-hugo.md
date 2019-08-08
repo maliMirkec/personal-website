@@ -19,6 +19,9 @@ banner2:
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1540377692/making-a-website-with-hugo-cover_kpek9x.jpg
 comments: true
 description: Other than it is “the world’s fastest framework for building websites,” Hugo is packed with powerful features that would make the website development process more pleasable.
+project:
+  name: Hugo
+  href: https://hugo.silvestar.codes
 ---
 
 If you are starting a new website, consider using [Hugo]. Other than it is “the world’s fastest framework for building websites,” it is packed with powerful features that would make the website development process more pleasable.

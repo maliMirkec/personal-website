@@ -9,6 +9,9 @@ categories:
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
 description: "SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development."
+project:
+  name: Starter Project
+  href: https://starter.silvestar.codes
 ---
 
 [SPRO] is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development.

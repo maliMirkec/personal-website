@@ -217,6 +217,23 @@ code {
   }
 }
 
+.project {
+  font-size: ms(-1);
+  margin-top: rem(15px);
+  margin-bottom: 0;
+
+  a {
+    text-transform: uppercase;
+    font-weight: bold;
+    @include ls(40);
+    margin-right: rem(3px);
+  }
+
+  @include mq($until: tablet) {
+    text-align: center;
+  }
+}
+
 .metadata {
   grid-area: meta;
   margin: 2em 0;

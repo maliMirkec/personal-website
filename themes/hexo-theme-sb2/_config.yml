@@ -24,68 +24,93 @@ home_page:
     title: Featured Articles
     id: FeaturedArticles
     images:
-      - src: https://res.cloudinary.com/starbist/image/upload/v1557942398/Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
-        title: '💫 Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
-        alt: 'Cover image with custom graphics for article Oh, the Many Ways to Make Triangular Breadcrumb Ribbons.'
-        href: /articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1557942405/5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg
-        title: '💫 5 things to consider when creating your CSS style guide'
-        alt: 'Cover image with custom graphics for article 5 things to consider when creating your CSS style guide.'
-        href: /articles/5-things-to-consider-when-creating-your-css-style-guide/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1551783370/Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
-        title: '💫 Custom WordPress Theme Development with SPRO'
-        alt: 'Cover image with custom graphics for article Custom WordPress Theme Development with SPRO.'
-        href: /articles/custom-wordpress-theme-development-with-spro/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565248044/My_favorite_Netlify_features-2x_inepie.jpg
+        title: 'My favorite Netlify features'
+        alt: 'Cover image with custom graphics for article My favorite Netlify features.'
+        href: /articles/my-favorite-netlify-features/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
+        title: 'Introducing SPRO'
+        alt: 'Cover image with custom graphics for article Introducing SPRO.'
+        href: /articles/introducing-spro/
       - src: https://res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
-        title: '💫 Building an Animated Sticky Header With Custom Offset'
+        title: 'Building an Animated Sticky Header With Custom Offset'
         alt: 'Cover image with custom graphics for article Building an Animated Sticky Header With Custom Offset.'
         href: /articles/building-an-animated-sticky-header-with-custom-offset/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565249712/Alpha_Beta_Gamma_naming_convention-2x_jkluc6.jpg
+        title: 'Alpha, Beta, Gamma naming convention'
+        alt: 'Cover image with custom graphics for article Alpha, Beta, Gamma naming convention.'
+        href: /articles/alpha-beta-gamma-naming-convention/
     links:
       See all articles →: /categories/articles/
   - section:
     position: gamma
+    title: Portfolio
+    id: Portfolio
+    images:
+      - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
+        title: "Domino Data Lab: A data science platform"
+        alt: Domino Data Lab website screenshots displayed on laptop, tablet, and mobile device.
+        href: /portfolio/dominodatalab/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
+        title: "Westwing: Curated shoppable magazine"
+        alt: Westwing website screenshots displayed on laptop, tablet, and mobile device.
+        href: /portfolio/westwing/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
+        title: "Bozzuto: A diversified real estate company"
+        alt: Bozzuto website screenshots displayed on laptop, tablet, and mobile device.
+        href: /portfolio/bozzuto/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
+        title: "Contiamo: B2B tech company"
+        alt: Contiamo website screenshots displayed on laptop, tablet, and mobile device.
+        href: /portfolio/contiamo/
+    links:
+      See all projects →: /portfolio/
+  - section:
+    position: delta
     title: Publications
     id: Publications
     images:
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565248200/css-tricks.com_my-favorite-netlify-features_vtsz7u.png
+        title: "CSS Tricks: My favorite Netlify features"
+        alt: "Screenshot of an article from CSS Tricks"
+        href: https://css-tricks.com/my-favorite-netlify-features/
       - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/css-tricks-triangular-breadcrumb_wtapyn.jpg
-        title: "⭐️ CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!"
+        title: "CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!"
         alt: "Screenshot of an article from CSS Tricks"
         href: https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
       - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/logrocket-css-style-guide_ca7glk.jpg
-        title: "⭐️ LogRocket blog: 5 things to consider when creating your CSS style guide"
+        title: "LogRocket blog: 5 things to consider when creating your CSS style guide"
         alt: "Screenshot of an article from LogRocket"
         href: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
       - src: https://res.cloudinary.com/starbist/image/upload/v1557668110/toptal-ssg-overview_yo8dcs.jpg
-        title: "⭐️ Toptal blog: Overview of Popular Static Site Generators"
+        title: "Toptal blog: Overview of Popular Static Site Generators"
         alt: "Screenshot of an article from Toptal"
         href: https://www.toptal.com/front-end/static-site-generators-comparison-2018
-      - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/toptal-ssg-wordpress_ktajsm.jpg
-        title: "⭐️ Toptal blog: A Guide to Static Site Generators Using Hexo and WordPress"
-        alt: "Screenshot of an article from Toptal"
-        href: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog
+      # - src: https://res.cloudinary.com/starbist/image/upload/v1557668111/toptal-ssg-wordpress_ktajsm.jpg
+      #   title: "Toptal blog: A Guide to Static Site Generators Using Hexo and WordPress"
+      #   alt: "Screenshot of an article from Toptal"
+      #   href: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog
   - section:
     position: epsilon
     title: Projects
     id: Projects
     images:
-      - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
-        title: 🌟 Domino Data Lab
-        alt: Domino Data Lab website screenshots displayed on laptop, tablet, and mobile device.
-        href: /portfolio/dominodatalab/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
-        title: 🌟 Westwing
-        alt: Westwing website screenshots displayed on laptop, tablet, and mobile device.
-        href: /portfolio/westwing/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
-        title: 🌟 Bozzuto
-        alt: Bozzuto website screenshots displayed on laptop, tablet, and mobile device.
-        href: /portfolio/bozzuto/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
-        title: 🌟 Contiamo
-        alt: Contiamo website screenshots displayed on laptop, tablet, and mobile device.
-        href: /portfolio/contiamo/
-    links:
-      See all projects →: /portfolio/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565249845/cld.silvestar.codes_ihnrpb.png
+        title: "Code Line Daily: A line of code of the day"
+        alt: "Screenshot of Code Line Daily website"
+        href: /articles/announcing-code-line-daily/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565249850/starter.silvestar.codes_pvaz6d.png
+        title: "Starter Project: Gulp based boilerplate"
+        alt: "Screenshot of Starter Project website"
+        href: /articles/custom-wordpress-theme-development-with-spro/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565249849/hugo.silvestar.codes_zfjgrq.png
+        title: "Making a website with Hugo: A course"
+        alt: "Screenshot of Making a website with Hugo website"
+        href: /articles/making-a-website-with-hugo/
+      - src: https://res.cloudinary.com/starbist/image/upload/v1565249849/play.silvestar.codes_ribbon_wjxm9h.png
+        title: "Playground: UI demos"
+        alt: "Screenshot of Playground"
+        href: /articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
   - section:
     position: omega
     list_class: omega
