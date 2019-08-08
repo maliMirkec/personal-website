@@ -49,9 +49,14 @@ if (page && page.title)
               - var redditLink = "https://www.reddit.com/submit?url=" + page.permalink + "&title=" + page.title;
               li.list__item.list__item--alpha.list__item--delta
                 a.list__link(href=redditLink, target="_blank") Reddit
-
+      if (page && page.project)
+        p.project
+          span= "Project: "
+          a(href=page.project.href, target="_blank")= page.project.name
+          span= " 👀"
   if (page && page.content)
-    .content!= page.content
+    .content
+      div!= page.content
 
   if (page && page.quotes)
     h2.article__testimonials= "Testimonials"

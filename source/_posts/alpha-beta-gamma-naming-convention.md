@@ -6,7 +6,7 @@ categories:
 tags:
   - css
   - BEM
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1541583301/Alpha_Beta_Gamma_Naming_Convention_mp0vjf.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565249712/Alpha_Beta_Gamma_naming_convention-2x_jkluc6.jpg
 comments: true
 description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
 ---

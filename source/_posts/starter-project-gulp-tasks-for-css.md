@@ -10,6 +10,9 @@ categories:
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1524384850/starter-project-gulp-tasks-for-css_shybn0.png
 description: This article is part of a series about Starter Project, and this time I will explain all about Gulp tasks for CSS.
+project:
+  name: Starter Project
+  href: https://starter.silvestar.codes
 ---
 
 This article is part of a series about [Starter Project], and this time I will explain all about Gulp tasks for CSS.

@@ -31,18 +31,18 @@ img {
 }
 
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 480px) {
   html {
-    font-size: calc(20px + 2 * (100vw - 480px) / 720);
+    font-size: calc(16px + 3 * (100vw - 480px) / 720);
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -220,7 +220,6 @@ img {
 }
 
 .nav__list--blog .nav__item:nth-child(3) .nav__link {
-  background-image: -webkit-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   background-image: -o-radial-gradient(center, circle, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
   background-image: radial-gradient(circle at center, #12e09f 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
 }
@@ -322,7 +321,6 @@ img {
   right: -25px;
   bottom: -10px;
   left: -25px;
-  background-image: -webkit-radial-gradient(center, circle closest-side, #fff, #f5f5f5);
   background-image: -o-radial-gradient(center, circle closest-side, #fff, #f5f5f5);
   background-image: radial-gradient(circle closest-side at center, #fff, #f5f5f5);
   opacity: .1;

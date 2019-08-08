@@ -9,6 +9,9 @@ categories:
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1548013279/Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
 description: "SPRO, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs."
+project:
+  name: Starter Project
+  href: https://starter.silvestar.codes
 ---
 
 **SPRO** <small>(pronounces /es-pro/)</small>, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs.
