@@ -58,7 +58,7 @@ Here is the basic JSON structure—an array of object items. [gulp-data] plugin 
 
 _[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/_layout/variables.pug)._
 
-To display only current lines and not future ones, I have used `filter` function with a date condition. That way future lines won't be displayed. Also, I have set up Zapier to trigger new build every day in the morning.
+To display only current lines and not future ones, I have used `filter` function with a date condition. That way, future lines won't be displayed. Also, I have set up Zapier to trigger a new build every day in the morning.
 
 ```pug
 - thisItem = list.slice(-1).pop()
@@ -81,11 +81,13 @@ _[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/s
 
 To display the list of lines, I have reversed the array and then iterated over each item using `each` loop.
 
+The website is hosted on Netlify and powered by Netlify CMS to make my life easier by being able to publish new lines right from the browser.
+
 ##  Conclusion
 
 I have enjoyed building this project, and I have a few other ideas on how to reuse the code, but I would leave that for myself for now.
 
-I have learned that I don't need a classic page generator. I could use my Gulp-based generator. What is great about it is that it is packed with a lot of modern techniques and best practices, which saved me a tone of time to develop this project.
+I have learned that I don't need a classic page generator. I could use my Gulp-based generator. What is great about it is that it is packed with a lot of modern techniques and best practices, which saved me much time to develop this project.
 
 If you have an exciting line of code to share, feel free to [contribute] to the website. Code Line Daily is an open-source project.
 
