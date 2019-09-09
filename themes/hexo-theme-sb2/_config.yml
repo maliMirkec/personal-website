@@ -1,7 +1,7 @@
 site:
   full_name: SB
   short_name: Silvestar Bistrović
-  description: Silvestar Bistrović is fearless web developer, CSS craftsman, JAMstack enthusiast, and WordPress theme specialist.
+  description: Silvestar Bistrović is fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
@@ -14,8 +14,8 @@ home_page:
     profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_tsqb7d.png
     profilealt: Headshot of myself, Silvestar Bistrović
     headings:
-     - Fearless web developer
-     - CSS craftsman
+     - Fearless web engineer
+     - CSS developer
      - JAMstack enthusiast
      - WordPress theme specialist
     list_class: beta
@@ -95,19 +95,19 @@ home_page:
     title: Projects
     id: Projects
     images:
-      - src: https://res.cloudinary.com/starbist/image/upload/v1565249845/cld.silvestar.codes_ihnrpb.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1568017090/cld.silvestar.codes_skl3ax.png
         title: "Code Line Daily: A line of code of the day"
         alt: "Screenshot of Code Line Daily website"
         href: /articles/announcing-code-line-daily/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1565249850/starter.silvestar.codes_pvaz6d.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1568017094/starter.silvestar.codes_bu58p1.png
         title: "Starter Project: Gulp based boilerplate"
         alt: "Screenshot of Starter Project website"
         href: /articles/custom-wordpress-theme-development-with-spro/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1565249849/hugo.silvestar.codes_zfjgrq.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1568017091/hugo.silvestar.codes_xr8vrt.png
         title: "Making a website with Hugo: A course"
         alt: "Screenshot of Making a website with Hugo website"
         href: /articles/making-a-website-with-hugo/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1565249849/play.silvestar.codes_ribbon_wjxm9h.png
+      - src: https://res.cloudinary.com/starbist/image/upload/v1568017094/play.silvestar.codes_ribbon_mjt4yx.png
         title: "Playground: UI demos"
         alt: "Screenshot of Playground"
         href: /articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
@@ -228,7 +228,7 @@ widgets:
     paragraph: This site uses cookies to count visitors anonymously.
   about:
     paragraphs:
-      - I am Silvestar Bistrović, fearless web developer, JAMstack enthusiast and WordPress coder.
+      - I am Silvestar Bistrović, fearless web engineer, JAMstack enthusiast and WordPress coder.
     contact:
       Contact: /contact/
       # Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers

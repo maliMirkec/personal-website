@@ -49,7 +49,7 @@ Here is the file with every possible option:
 site:
   full_name: SB - Silvestar's personal website
   short_name: SB
-  description: Silvestar is a fearless web developer eager to prove his worth
+  description: Silvestar is a fearless web engineer eager to prove his worth
   logo: /gfx/svg/logo.svg
   language: en
 
@@ -68,7 +68,7 @@ home_page:
   - section:
     title: Silvestar Bistrović
     paragraphs:
-     - Fearless web developer
+     - Fearless web engineer
   - section:
     title: Specializations
     paragraphs:

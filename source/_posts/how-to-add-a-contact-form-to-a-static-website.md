@@ -35,7 +35,7 @@ Since we are going to add Kwes form to our site, we should sign up for free firs
 
 After signing up, add a new website, and a new form from Kwes dashboard.
 
-![Kwes Dashboard screenshot]()
+![Kwes Dashboard screenshot](https://res.cloudinary.com/starbist/image/upload/v1568016828/kwes-dashboard_nfctyx.png)
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 
@@ -53,7 +53,7 @@ Pro tip: Don't forget to add labels with for attributes with matching input's ID
 
 Then add the Kwes attributes. Start by adding the wrapper div with the kwes-from class. Next, add the action link to the form element, and then add rules to your input fields. The code should look something like this:
 
-...
+```
 <div class="kwes-form">
   <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
     <label for="name">Name</label>
@@ -65,7 +65,7 @@ Then add the Kwes attributes. Start by adding the wrapper div with the kwes-from
     <button type="submit">Submit</button>
   </form>
 </div>
-...
+```
 
 You could see all the rules options at the [Kwes official documentation].
 
@@ -93,7 +93,7 @@ If you want more control over your form and integrate it with other services lik
 
 Kwes comes with the cost, but you should think about saving yourself and your team hours of development time. I think it is worth to leave the validation to developers who specialize in this field of area and focus on other parts of your project or business.
 
-[Kwes form tool]: https://kwes.io
+[Kwes form builder]: https://kwes.io
 [Hexo]: https://hexo.io/
 [Hugo]: https://gohugo.io
 [Jekyll]: https://jekyllrb.com/
