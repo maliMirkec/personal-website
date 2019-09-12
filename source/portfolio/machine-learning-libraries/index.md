@@ -2,7 +2,7 @@
 title: Machine Learning Libraries
 comments: false
 banner2:
-  span: "I am currently considering new projects for this year."
+  span: "I am currently considering new projects for next year."
   btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python.
