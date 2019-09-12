@@ -4,7 +4,7 @@ comments: false
 description: This website is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to contact me.
 grid:
   banner1:
-    span: "I am currently considering new projects for this year."
+    span: "I am currently considering new projects for next year."
     btn1: "👉 Get in touch"
     btn2: "I am open for new projects"
   list:

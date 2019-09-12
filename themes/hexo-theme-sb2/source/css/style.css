@@ -392,6 +392,9 @@ code {
   color: #fff; }
 
 html {
+  scroll-behavior: smooth; }
+
+html {
   max-width: 100vw; }
 
 body {

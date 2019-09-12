@@ -2,7 +2,7 @@
 title: About me
 id: 79
 banner2:
-  span: "I am currently considering new projects for this year."
+  span: "I am currently considering new projects for next year."
   btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 comments: false

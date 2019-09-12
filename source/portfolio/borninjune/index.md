@@ -2,7 +2,7 @@
 title: Born In June
 comments: false
 banner2:
-  span: "I am currently considering new projects for this year."
+  span: "I am currently considering new projects for next year."
   btn1: "👉 Get in touch"
   btn2: "I am open for new projects"
 description: Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
