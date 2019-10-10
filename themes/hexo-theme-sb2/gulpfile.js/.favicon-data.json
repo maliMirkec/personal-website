@@ -1,5 +1,5 @@
 {
-  "masterPicture": "helpers.source/gfx/svg/logo.svg",
+  "masterPicture": "helpers.source/gfx/svg/logo-favicon.svg",
   "temp": "helpers.source/favicon/",
   "dest": "helpers.dist/favicon/",
   "iconsPath": "/favicon/",
