@@ -1054,6 +1054,26 @@ img {
     .main--sidebar .article blockquote:before {
       right: 0; } }
 
+.table-wrapper {
+  width: 100%;
+  overflow-y: auto; }
+
+table {
+  min-width: 100%;
+  border: 1px solid #95f6d8;
+  border-collapse: collapse;
+  font-size: 0.75019rem; }
+  table th,
+  table td {
+    text-align: left;
+    border: 1px solid #95f6d8;
+    padding: .5rem;
+    min-width: 80px; }
+  table th {
+    background-color: #c4fae9; }
+  table td {
+    background-color: #f3fefb; }
+
 code {
   display: inline-block;
   background-color: #f3fefb;

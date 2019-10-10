@@ -4,6 +4,7 @@ date: 2019-08-05 11:12:34
 categories:
   - Blog
 tags:
+  - spg
   - ssg
   - netlify
 canonical: https://css-tricks.com/my-favorite-netlify-features/

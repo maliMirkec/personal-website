@@ -17,7 +17,7 @@ A web browser is one of the essential tools for web development. Besides awesome
 
 - [Octotree](#Octotree)
 - [Wappalizer](#Wappalizer)
-- [CSS Feature Toggle Extension](#CSS-Feature-Toggle-Extension)
+- [CSS Feature Toggles](#CSS-Feature-Toggles-Extension)
 - [Workona](#Workona)
 - [LastPass](#LastPass)
 - [Code Line Daily](#Code-Line-Daily)
@@ -47,7 +47,7 @@ Wappalizer identifies technologies used in the current site. I find this extensi
 
 For example, you could see that my site uses Matomo for analytics, Netlify as a web server and CDN, and Hexo for generating a static website.
 
-## [CSS Feature Toggle Extension]
+## [CSS Feature Toggles]
 
 Testing websites in different devices could be a rather tedious but required task. Although the web is moving in the right direction, we should be aware of the unsupported CSS features like CSS Grid or CSS variables. Before you put the effort in testing your site in different browsers, you could save some time by toggling CSS features in Chrome first. CSS Feature Toggle extension enables you to do exactly that—switching off CSS features.
 
@@ -102,7 +102,7 @@ These extensions are installed on my Chrome, but I am not using it that often or
 
 [Octotree]: https://www.octotree.io/
 [Wappalizer]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
-[CSS Feature Toggle Extension]: https://github.com/keithclark/css-feature-toggle-devtools-extension
+[CSS Feature Toggles]: https://github.com/keithclark/css-feature-toggle-devtools-extension
 [Block Yourself from Analytics]: https://www.igorware.com/extensions/block-yourself-from-analytics
 [Workona]: https://chrome.google.com/webstore/detail/workona/ailcmbgekjpnablpdkmaaccecekgdhlh?hl=en
  [CSS Feature Toggle Extension]: https://github.com/keithclark/css-feature-toggle-devtools-extension

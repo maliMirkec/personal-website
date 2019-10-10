@@ -19,6 +19,13 @@ a {
   background-color: transparent;
 }
 
+code {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
 img {
   border-style: none;
 }
@@ -74,6 +81,10 @@ h2 a {
 
 p {
   margin-top: 1.333rem;
+}
+
+code {
+  line-height: 1;
 }
 
 html {
@@ -334,6 +345,17 @@ img {
 .article li a,
 .article p a {
   color: #e01258;
+}
+
+code {
+  display: inline-block;
+  background-color: #f3fefb;
+  border-color: #c4fae9;
+  border-style: solid;
+  border-width: 1px 3px;
+  border-radius: .25rem;
+  padding-right: .125rem;
+  padding-left: .125rem;
 }
 
 .article__title--alpha {
