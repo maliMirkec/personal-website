@@ -8,7 +8,7 @@ tags:
   - spg
   - ssg
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1570707192/A_Comparison_of_Static_Form_Providers-2x_mc1zfb.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1570778530/A_Comparison_of_Static_Form_Providers-2x_qjsrdd.jpg
 comments: true
 description: Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. Read the review of the most popular static form providers.
 ---
