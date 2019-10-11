@@ -4,4 +4,5 @@
 /hr/* /:splat 301
 /tag/* /tags/:splat 301
 /clanci/* /articles/ 301
+/articles/ /categories/articles/ 301
 /categories/articles/* /articles/:splat 301
