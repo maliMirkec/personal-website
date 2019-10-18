@@ -21,6 +21,7 @@ _This analysis doesn't include repositories from my clients._
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Contribution activity graph on my GitHub profile." %}
 
 Here are some facts from [my Contribution activity graph]:
+
 - I commit a lot.
 - I commit often.
 - I produced more than 7 commits per day in the last year.
@@ -36,6 +37,7 @@ Sourcerer is an open-source project that gives a visual overview of your GitHub 
 > Sourcerer is a visual profile for SWEs that analyzes and derives your abilities, preferences, and habits from your commits and source code.
 
 Here are some facts from [my Sourcerer profile]:
+
 - I produced more than 3k commits.
 - I wrote more than 1,8 million lines of code.
 - I wrote more than 1,5 million lines of CSS.
@@ -53,6 +55,7 @@ Here are some facts from [my Sourcerer profile]:
 ## Conclusions
 
 I came to a few conclusions based on facts from my GitHub profile:
+
 1. **I work too much**. I work on weekends. According to Sourcerer, I am most active on Sundays. 😱
 2. **More than 90% of my code is CSS**. I must be a *real* CSS developer. 💯
 3. **Coding is my hobby**. Although this analysis doesn't include my paid engagements, it says how much I like to spend my free time. I spend my free time writing code. 🤔
