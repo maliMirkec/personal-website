@@ -64,7 +64,7 @@
             each lhref, ltext in section.links
               li.list__item
                 if (lhref.indexOf('//') !== -1)
-                  a.list__link(href=urlFor(lhref), target="_blank")= ltext
+                  a.list__link(href=urlFor(lhref), target="_blank", rel="noreferrer")= ltext
                 else
                   a.list__link(href=urlFor(lhref))= ltext
   else
