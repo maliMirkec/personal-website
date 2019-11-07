@@ -36,7 +36,6 @@ In this article, we are going to review some of the most popular [static form pr
 
 Before moving forward, just a note that the information for these comparisons came from visiting the site for each product and learning about the included features. Once I got all the information, I sent an email to each provider to confirm the list of features. Some of them confirmed, some didn't. Special thanks to Kwes, FormKeep, Formspree, FormSubmit, formX, and Netlify Forms teams for confirming.
 
-
 ### Form building components and validation
 
 <div class="table-wrapper">
@@ -64,7 +63,6 @@ If you need custom components, like a date picker or card inputs, Kwes and FormK
 
 Kwes is the only provider with back-end validation, too. The rules you set in the front end are passed to the back end side. In case when front-end validation fails, you are safe, the backend validation would work. Other providers don't have this feature; they rely only on spam protection.
 
-
 ### Spam protection
 
 <div class="table-wrapper">
@@ -76,7 +74,7 @@ Kwes is the only provider with back-end validation, too. The rules you set in th
 |FieldGoal|Provided, but unable to confirm what powers it|
 |FormCarry|Akismet<br> reCAPTCHA|
 |FormKeep|Akismet<br> reCAPTCHA<br> Honeypot<br> Proprietary technology|
-|Formspree|reCaptcha<br> Profanity filter<br> Automated classification|
+|Formspree|Akismet<br> Profanity Filter<br> Authorized Domains<br> Custom reCAPTCHA<br> Custom Honeypot<br> Custom Spam Filtering|
 |FormSubmit|reCaptcha<br> Honeypot|
 |formX|reCAPTCHA<br> Honeypot|
 |Getform|Akismet<br> reCAPTCHA|
@@ -87,7 +85,6 @@ Kwes is the only provider with back-end validation, too. The rules you set in th
 > Kwes advertises a 99.6% spam block success rate with no setup required.
 
 Once your form is ready for submissions, you might find it hard to deal with spam. That’s why spam protection is essential, especially if you want to keep your sanity and serenity. All providers provide spam protection in this way or another. Some rely on [Google reCAPTCHA](https://www.google.com/recaptcha/intro/v3.html) or [Akismet](https://akismet.com/), some on Honeypot techniques, and some use artificial intelligence to get the job done. It is worth noting that adding an additional step to your form, like adding reCAPTCHA might affect the conversion rates on form submissions.
-
 
 ### Email notifications
 
@@ -114,7 +111,6 @@ All providers, except FieldGoal, have confirmation, notification, and email rout
 
 Some providers have other sorts of notifications besides email, like push notifications or Slack messages, which might be handy.
 
-
 ### White labeling
 
 <div class="table-wrapper">
@@ -135,7 +131,6 @@ Some providers have other sorts of notifications besides email, like push notifi
 </div>
 
 When communicating via email notifications with your clients, you might want to use your brand and style. It creates better awareness and that way you familiarize your clients with your product. All providers offer this feature, with the exception of FieldGoal, which I was unable to confirm (although it might be under paid plans).
-
 
 ### Custom redirects
 
@@ -158,7 +153,6 @@ When communicating via email notifications with your clients, you might want to 
 
 Once you have captured a response from your user, you may want to let the user continue using your site. Also, you might want to communicate to the user that the submission was received. This feature is called "custom redirect," and every provider has this feature (with another exception for FieldGoal because I was unable to confirm). Note that this feature might not be available in a free plan and require a paid or upgraded account.
 
-
 ### Upload storage
 
 <div class="table-wrapper">
@@ -179,7 +173,6 @@ Once you have captured a response from your user, you may want to let the user c
 </div>
 
 Not every static form provider provides file storage. For example, formX doesn't provide it at all. In most cases, this feature is available under paid plans. You might want to invest additional time to find out which provider offers the best service for you. Be sure to look specifically at single file size _and_ form submission size limitations.
-
 
 ### Data export
 
@@ -202,7 +195,6 @@ Not every static form provider provides file storage. For example, formX doesn't
 
 Data export is important feature if you want to use it for analysis or for import to third-party software. Most providers offer <abbr>CSV</abbr> and JSON exports, which are the most commonly used ones.
 
-
 ### <abbr>API</abbr> access
 
 <div class="table-wrapper">
@@ -223,7 +215,6 @@ Data export is important feature if you want to use it for analysis or for impor
 </div>
 
 If you want to control your data submissions by building a custom application or script, you might benefit from having API access. Most providers have this feature, except Getform. formX offers it, but only on demand.
-
 
 ### Webhooks/Zapier
 
@@ -246,7 +237,6 @@ If you want to control your data submissions by building a custom application or
 
 When building a custom application or a script is out of budget, you might want to use webhooks to integrate data submissions with third-party software. Zapier is one of the most commonly used services for this, and only FormSubmit doesn't support it (though it does support webhooks).
 
-
 ### Analytics
 
 <div class="table-wrapper">
@@ -268,7 +258,6 @@ When building a custom application or a script is out of budget, you might want 
 
 Analytics for static forms is a neat feature that could offer beneficial insight into how your form is performing. It may help you understand how your users interact with it, and you may spot ways to improve the form submission experience as a result. This feature is the least supported of all other features. Only Basin, FormKeep, and formX provide it.
 
-
 ### Plan comparison
 
 <div class="table-wrapper">
@@ -289,7 +278,6 @@ Analytics for static forms is a neat feature that could offer beneficial insight
 </div>
 
 Static form providers have different plans, from entirely free plans and trials, to enterprise plans for every business need. Depending on a plan, you might have different features enabled. For example, FormSubmit is the only provider that offers all of its features for free, though it doesn't support every feature we've covered here. You will want to invest some time to learn about which features are most important for you and your product or business. Then go ahead and decide on which provider is most suitable for your needs.
-
 
 ### Wrapping up
 
