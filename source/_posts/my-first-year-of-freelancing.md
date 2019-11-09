@@ -3,6 +3,7 @@ title: My first year of freelancing
 date: 2018-05-21 13:53:01
 tags:
   - freelance
+  - remote work
 categories:
   - Blog
 comments: true

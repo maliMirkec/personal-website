@@ -3,6 +3,7 @@ title: 'Roadmap, September 2018.'
 date: 2018-09-27 12:11:55
 tags:
   - freelance
+  - remote work
 categories:
   - Blog
 comments: true
