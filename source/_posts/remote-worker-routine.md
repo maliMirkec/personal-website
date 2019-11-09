@@ -3,6 +3,7 @@ title: Just My Routine As A Remote Worker
 date: 2019-02-14 18:32:42
 tags:
   - freelance
+  - remote work
 categories:
   - Blog
 comments: true

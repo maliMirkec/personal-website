@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - freelance
+  - remote work
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1571392025/What_I_learned_from_my_GitHub_profile-2x_rq4si5.jpg
 comments: true
 description: GitHub profile is often recognised as a developer's portfolio. It reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.

@@ -3,8 +3,7 @@ title: 2018 Lookback
 date: 2019-01-05 16:06:38
 tags:
   - freelance
-  - wordpress
-  - spg
+  - remote work
 categories:
   - Blog
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg

@@ -3,6 +3,7 @@ title: My second year of freelancing
 date: 2019-05-23 12:00:01
 tags:
   - freelance
+  - remote work
 categories:
   - Blog
 comments: true
