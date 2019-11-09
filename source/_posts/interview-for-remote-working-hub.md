@@ -34,7 +34,7 @@ When I am not coding, I like to write new articles on my blog.
 
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1573311437/dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Pedestrian bridge in Osijek by night." %}
 
-_Image credit: https://unsplash.com/photos/iM6Gm-cdBuw_
+_Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw]()https://unsplash.com/photos/iM6Gm-cdBuw_
 
 ## What motivated you to choose remote working?
 
