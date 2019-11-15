@@ -47,6 +47,7 @@
     "hexo-render-pug": "^2.1.4",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^1.0.0",
-    "hexo-theme-sb": "^1.0.17"
+    "hexo-theme-sb": "^1.0.17",
+    "sass-mq": "^5.0.1"
   }
 }
