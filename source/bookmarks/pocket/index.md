@@ -167,6 +167,7 @@ sidebar: true
 - [https://medium.com/@MichaelLoscalzo/animating-jeff-the-php-butler-720ad73ab215](https://medium.com/@MichaelLoscalzo/animating-jeff-the-php-butler-720ad73ab215)
 - [https://blog.toggl.com/world-created-programmer/](https://blog.toggl.com/world-created-programmer/)
 - [https://css-tricks.com/can-vs-code-emmet/?utm_source=dlvr.it&amp;utm_medium=facebook#article-header-id-1](https://css-tricks.com/can-vs-code-emmet/?utm_source=dlvr.it&amp;utm_medium=facebook#article-header-id-1)
+- [https://www.airtasker.com/](https://www.airtasker.com/)
 - [https://www.toptal.com/freelance-programmer/developer-resume-portfolios](https://www.toptal.com/freelance-programmer/developer-resume-portfolios)
 - [https://dev.to/nrobinson2000/why-you-need-terminal-bpd](https://dev.to/nrobinson2000/why-you-need-terminal-bpd)
 - [https://css-tricks.com/keeping-track-letter-spacing-guidelines/](https://css-tricks.com/keeping-track-letter-spacing-guidelines/)
@@ -2144,4 +2145,3 @@ sidebar: true
 - [https://developers.facebook.com/docs/](https://developers.facebook.com/docs/)
 - [http://www.biography.com/people/coco-chanel-9244165/videos/coco-chanel-mini-bio-17753871](http://www.biography.com/people/coco-chanel-9244165/videos/coco-chanel-mini-bio-17753871)
 - [http://flowplayer.org/tools/tooltip/slide.html](http://flowplayer.org/tools/tooltip/slide.html)
-- [https://www.airtasker.com/](https://www.airtasker.com/)
