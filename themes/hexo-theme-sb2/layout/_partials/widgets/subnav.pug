@@ -7,6 +7,6 @@ if (theme && theme.widgets && theme.widgets.subnav)
             a.subnav__link(href=kcontact)
               img(src=theme.site.logo_footer, alt=vcontact)
           else if (kcontact.indexOf("mailto") === -1)
-            a.subnav__link(href=kcontact, rel="me", rel="noopener" target="_blank")= vcontact
+            a.subnav__link(href=kcontact, rel="me noopener" target="_blank")= vcontact
           else
             a.subnav__link(href=kcontact)= vcontact
