@@ -424,7 +424,7 @@
       "package": {
         "title": "Starter project",
         "name": "starter-project",
-        "description": "A set of gulp tasks that helps you develop high performant websites using latest best practices.",
+        "description": "A set of gulp tasks that helps you develop high performant websites using the latest best practices.",
         "license": "MIT",
         "homepage": "https://github.com/maliMirkec/starter-project"
       },

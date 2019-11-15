@@ -18,7 +18,7 @@ Link: [moodings.com](//moodings.com/)
 ## Responsibilities
 
 - Improved Page Speed Insights score on mobile and desktop.
-- Used latest best practices to boost the page speed.
+- Used the latest best practices for boosting the site speed.
 - Optimized assets delivery.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

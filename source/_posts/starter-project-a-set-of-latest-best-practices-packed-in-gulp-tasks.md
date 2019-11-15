@@ -1,5 +1,5 @@
 ---
-title: Starter Project - A set of latest best practices packed in Gulp tasks
+title: Starter Project - A set of the latest best practices packed in Gulp tasks
 date: 2018-03-23 11:20:00
 tags:
   - gulp
@@ -8,7 +8,7 @@ categories:
   - Blog
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1521878764/starter-project_vr5fq4.png
-description: This article is the very first article in a series about Starter Project, a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
+description: This article is the very first article in a series about Starter Project, a set of the latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
@@ -16,7 +16,7 @@ project:
 
 ⚠️ The package is deprecated. See [SPRO](/articles/introducing-spro/) instead.
 
-This article is the very first article in a series about [Starter Project], a set of latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
+This article is the very first article in a series about [Starter Project], a set of the latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 
 <!-- more -->
 
