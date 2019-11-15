@@ -20,7 +20,7 @@ Link: [irinaandmatej.com](//irinaandmatej.com)
 - Installed a new WordPress instance.
 - Designed and developed a new WordPress theme from scratch twice.
 - Optimized assets delivery.
-- Used latest best practices to boost the page speed.
+- Used the latest best practices for boosting the site speed.
 - Hosted the website on DigitalOcean.
 - Used Cloudflare to improve the security and performance.
 

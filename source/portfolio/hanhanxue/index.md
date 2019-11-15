@@ -33,7 +33,7 @@ Link: [hanhanxue.com](//www.hanhanxue.com)
 - Created all pages from designs.
 - Used Cloudinary for delivering images.
 - Optimized assets delivery.
-- Used latest best practices to boost the page speed.
+- Used the latest best practices for boosting the site speed.
 - Hosted the website on Netlify.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

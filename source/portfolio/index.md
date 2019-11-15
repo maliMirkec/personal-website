@@ -9,6 +9,12 @@ grid:
     btn2: "I am open for new projects"
   list:
     - item:
+      title: Credit Card Insider
+      alt: Credit Card Insider website screenshots displayed on laptop, tablet, and mobile device.
+      href: /portfolio/creditcardinsider/
+      src: https://res.cloudinary.com/starbist/image/upload/v1573824300/cci_ohuha5.png
+      description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
+    - item:
       title: Calvert
       alt: Calvert website screenshots displayed on laptop, tablet, and mobile device.
       href: /portfolio/calvert/

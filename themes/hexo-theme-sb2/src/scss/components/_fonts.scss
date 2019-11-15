@@ -1,6 +1,6 @@
 body {
   color: $color-psi;
-  font-family: sans-serif;
+  font-family: $font-alpha;
   font-style: normal;
   font-weight: 400;
   font-display: optional;
@@ -14,38 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: $font-beta;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.fonts-stage-1 body {
-  font-family: $font-alpha-subset;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.fonts-stage-1 h1,
-.fonts-stage-1 h2,
-.fonts-stage-1 h3,
-.fonts-stage-1 h4,
-.fonts-stage-1 h5,
-.fonts-stage-1 h6 {
-  font-family: $font-beta-subset;
-}
-
-.fonts-stage-2 body {
-  font-family: $font-alpha;
-}
-
-.fonts-stage-2 h1,
-.fonts-stage-2 h2,
-.fonts-stage-2 h3,
-.fonts-stage-2 h4,
-.fonts-stage-2 h5,
-.fonts-stage-2 h6 {
-  font-family: $font-beta;
 }
 
 pre,

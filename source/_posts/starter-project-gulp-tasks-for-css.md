@@ -189,7 +189,7 @@ This should run stylelint when you save `.scss` files. If it doesn't work, [cont
 
 [In the previous article], I was trying to explain the idea for this project. This article should help you understand how Gulp could be used to optimize, lint and deliver best possible CSS output.
 
-[Starter Project] is conceived as a boilerplate with latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto: admin@silvestar.codes?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
+[Starter Project] is conceived as a boilerplate with the latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto: admin@silvestar.codes?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
 
 Please share! 🙏
 

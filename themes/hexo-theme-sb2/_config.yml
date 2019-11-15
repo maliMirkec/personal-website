@@ -47,22 +47,22 @@ home_page:
     title: Portfolio
     id: Portfolio
     images:
+      - src: https://res.cloudinary.com/starbist/image/upload/v1573824300/cci_ohuha5.png
+        title: "Credit Card Insider: A consumer education company"
+        alt: Credit Card Insider website screenshots displayed on laptop, tablet, and mobile device.
+        href: /portfolio/creditcardinsider/
       - src: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
         title: "Domino Data Lab: A data science platform"
         alt: Domino Data Lab website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/dominodatalab/
       - src: https://res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
-        title: "Westwing: Curated shoppable magazine"
+        title: "Westwing: A curated shoppable magazine"
         alt: Westwing website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/westwing/
       - src: https://res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
         title: "Bozzuto: A diversified real estate company"
         alt: Bozzuto website screenshots displayed on laptop, tablet, and mobile device.
         href: /portfolio/bozzuto/
-      - src: https://res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
-        title: "Contiamo: B2B tech company"
-        alt: Contiamo website screenshots displayed on laptop, tablet, and mobile device.
-        href: /portfolio/contiamo/
     links:
       See all projects →: /portfolio/
   - section:
@@ -178,6 +178,7 @@ menu:
 portfolio:
   title: Projects
   items:
+    Credit Card Insider: /portfolio/creditcardinsider/
     Calvert: /portfolio/calvert/
     Domino Data Lab: /portfolio/dominodatalab/
     Domino Data Lab Rev: /portfolio/dominodatalab-rev/

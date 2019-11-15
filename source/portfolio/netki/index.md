@@ -19,6 +19,6 @@ Link: [netki.com](//netki.com/)
 
 - Developed a new WordPress theme from scratch.
 - Optimized assets delivery.
-- Used latest best practices to boost the page speed.
+- Used the latest best practices for boosting the site speed.
 
 [View other projects](/portfolio/) or [contact me](/about-me/).

@@ -7,3 +7,4 @@ themes/sb/node_modules/
 public/
 .deploy*/
 .vscode/
+.netlify/
