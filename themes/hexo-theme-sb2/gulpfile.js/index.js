@@ -109,3 +109,5 @@ exports.default = series(
     global.config.jsdoc.run ? jsdoc.jsdocListen : helpers.skip
   )
 )
+
+exports.js = js.jsStart

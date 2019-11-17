@@ -1,8 +1,16 @@
 // constants
-const CACHE_NAME = 'sb-cache-v1.0'
+const CACHE_NAME = 'sb-cache-v1.2'
 
 const FILES_TO_CACHE = [
-  '/offline.html'
+  '/offline.html',
+  '/favicon/apple-touch-icon.png',
+  '/favicon/favicon-32x32.png',
+  '/favicon/favicon-16x16.png',
+  '/favicon/site.webmanifest',
+  '/favicon/safari-pinned-tab.svg',
+  '/favicon/favicon.ico',
+  '/favicon/mstile-144x144.png',
+  '/favicon/browserconfig.xml'
 ]
 
 self.addEventListener('install', (event) => {

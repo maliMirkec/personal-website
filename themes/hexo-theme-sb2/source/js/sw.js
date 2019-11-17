@@ -1,8 +1,8 @@
 "use strict";
 
 // constants
-var CACHE_NAME = 'sb-cache-v1.0';
-var FILES_TO_CACHE = ['/offline.html'];
+var CACHE_NAME = 'sb-cache-v1.2';
+var FILES_TO_CACHE = ['/offline.html', '/favicon/apple-touch-icon.png', '/favicon/favicon-32x32.png', '/favicon/favicon-16x16.png', '/favicon/site.webmanifest', '/favicon/safari-pinned-tab.svg', '/favicon/favicon.ico', '/favicon/mstile-144x144.png', '/favicon/browserconfig.xml'];
 self.addEventListener('install', function (event) {
   // CODELAB: Precache static resources here.
   event.waitUntil(caches.open(CACHE_NAME).then(function (cache) {

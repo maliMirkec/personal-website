@@ -5,7 +5,6 @@ const include = require('gulp-include')
 const sourcemaps = require('gulp-sourcemaps')
 const uglify = require('gulp-uglify')
 const rename = require('gulp-rename')
-const standard = require('gulp-standard')
 
 const { helpers } = require('./helpers')
 
@@ -25,8 +24,6 @@ function jsStart () {
 
   return src(`${helpers.source()}/${helpers.trim(global.config.js.src)}/*.js`)
     .pipe(sourcemaps.init())
-    .pipe(standard())
-    .pipe(standard.reporter('default', jsConfig.standardConfig))
     .pipe(eslint(thisEslintConfig))
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())

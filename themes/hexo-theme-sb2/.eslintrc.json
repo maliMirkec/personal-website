@@ -9,7 +9,8 @@
   },
   "globals": {
     "requestAnimationFrame": true,
-    "sessionStorage": true
+    "sessionStorage": true,
+    "self": true
   },
   "env": {
     "browser": true,

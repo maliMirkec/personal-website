@@ -23,12 +23,8 @@
   "standardConfig": {
     "breakOnError": false,
     "showRuleNames": true,
-    "standard": {
-      "globals": [
-        "requestAnimationFrame",
-        "sessionStorage"
-      ]
-    }
+    "quiet": true,
+    "showFilePath": true
   },
   "renameConfig": {
     "suffix": ".min"
