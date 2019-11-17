@@ -106,6 +106,9 @@
 
 .list--beta {
   color: darken($color-alpha, 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .list--gamma {
@@ -184,6 +187,22 @@
     margin-left: auto;
   }
 }
+
+.list__cover {
+  position: relative;
+
+  h4 {
+    color: $color-omega;
+    font-size: ms(1);
+    text-shadow: 0 1px 0 $color-beta;
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    left: 20px;
+    right: 20px;
+  }
+}
+
 
 .list--omega {
   display: grid;

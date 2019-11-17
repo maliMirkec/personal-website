@@ -1,4 +1,11 @@
 {
+  "swConfig": {
+    "src": [
+      "helpers.dist/config.js.src/sw.js",
+      "helpers.dist/config.js.src/sw.min.js"
+    ],
+    "dest": "helpers.dist/"
+  },
   "eslintConfig": {
     "configFile": "helpers.proot/.eslintrc.json",
     "fix": true,
@@ -16,12 +23,8 @@
   "standardConfig": {
     "breakOnError": false,
     "showRuleNames": true,
-    "standard": {
-      "globals": [
-        "requestAnimationFrame",
-        "sessionStorage"
-      ]
-    }
+    "quiet": true,
+    "showFilePath": true
   },
   "renameConfig": {
     "suffix": ".min"

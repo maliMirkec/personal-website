@@ -1,3 +1,4 @@
+**/sw.js
 **/*.min.js
 **/vendor/*
 **/dist/*

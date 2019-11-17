@@ -1,6 +1,6 @@
 {
-    "name": "Silvestar Bistrovi\u0107",
-    "short_name": "Silvestar Bistrovi\u0107",
+    "name": "SB site - Silvestar Bistrovi\u0107 website",
+    "short_name": "SB site - Silvestar Bistrovi\u0107 website",
     "icons": [
         {
             "src": "/favicon/android-chrome-36x36.png?v=starbist",
@@ -48,6 +48,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "theme_color": "#12e09f",
+    "background_color": "#fff",
+    "start_url": "/offline.html",
+    "display": "standalone"
 }

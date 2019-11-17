@@ -3,6 +3,8 @@ extends _includes/layout
 block content
   include _partials/article
 
+  if (page && page.offline)
+    include _partials/offline
   if (page && page.banner1)
     .page-banner
       include _partials/banner1
