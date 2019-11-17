@@ -4,7 +4,8 @@
     "ecmaVersion": 6
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "no-restricted-globals": "off"
   },
   "globals": {
     "requestAnimationFrame": true,
@@ -14,6 +15,7 @@
     "browser": true,
     "es6": true,
     "amd": true,
-    "commonjs": true
+    "commonjs": true,
+    "serviceworker": true
   }
 }

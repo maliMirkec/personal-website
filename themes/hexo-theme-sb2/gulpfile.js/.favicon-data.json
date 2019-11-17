@@ -7,7 +7,7 @@
   "design": {
     "ios": {
       "pictureAspect": "backgroundAndMargin",
-      "backgroundColor": "#ffffff",
+      "themeColor": "#12e09f",
       "margin": "42%",
       "assets": {
         "ios6AndPriorIcons": true,
@@ -20,7 +20,7 @@
     "desktopBrowser": {},
     "windows": {
       "pictureAspect": "noChange",
-      "backgroundColor": "#2b5797",
+      "themeColor": "#12e09f",
       "onConflict": "override",
       "assets": {
         "windows80Ie10Tile": true,
@@ -35,13 +35,15 @@
     },
     "androidChrome": {
       "pictureAspect": "noChange",
-      "themeColor": "#ffffff",
+      "themeColor": "#12e09f",
       "manifest": {
         "name": "Silvestar Bistrović",
-        "display": "browser",
         "orientation": "notSet",
         "onConflict": "override",
-        "declared": true
+        "declared": true,
+        "start_url": "/offline.html",
+        "display": "standalone",
+        "themeColor": "#12e09f"
       },
       "assets": {
         "legacyIcon": false,
@@ -51,7 +53,7 @@
     "safariPinnedTab": {
       "pictureAspect": "blackAndWhite",
       "threshold": 93.28125,
-      "themeColor": "#e01258"
+      "themeColor": "#12e09f"
     }
   },
   "settings": {

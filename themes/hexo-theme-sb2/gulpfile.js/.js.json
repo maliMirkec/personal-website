@@ -1,4 +1,11 @@
 {
+  "swConfig": {
+    "src": [
+      "helpers.dist/config.js.src/sw.js",
+      "helpers.dist/config.js.src/sw.min.js"
+    ],
+    "dest": "helpers.dist/"
+  },
   "eslintConfig": {
     "configFile": "helpers.proot/.eslintrc.json",
     "fix": true,

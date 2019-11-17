@@ -46,12 +46,31 @@ function jsStart () {
     .pipe(global.bs.stream())
 }
 
+// Will move SW file
+function swStart () {
+  const swSrc = jsConfig.swConfig.src.map(path => helpers.parse(path))
+  const swDest = helpers.parse(jsConfig.swConfig.dest)
+
+  return src(swSrc)
+    .pipe(dest(helpers.trim(swDest)))
+    .pipe(global.bs.stream())
+}
+
 // When JS file is changed, it will process JS file, too
 function jsListen () {
   return watch(`${helpers.source()}/${helpers.trim(global.config.js.src)}/*.js`, global.config.watchConfig, jsStart, global.bs.reload)
 }
 
+// When SW file is changed, it will process SW file, too
+function swListen () {
+  const swSrc = jsConfig.swConfig.src.map(path => helpers.parse(path))
+
+  return watch(swSrc, global.config.watchConfig, swStart, global.bs.reload)
+}
+
 exports.js = {
   jsStart,
-  jsListen
+  swStart,
+  jsListen,
+  swListen
 }

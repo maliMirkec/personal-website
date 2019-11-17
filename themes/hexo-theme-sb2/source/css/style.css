@@ -776,7 +776,17 @@ img {
       margin-top: 100px; } }
 
 .list--beta {
-  color: #0a825c; }
+  color: #0a825c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .list--gamma {
   color: #e01258; }
@@ -845,6 +855,18 @@ img {
       flex: 0 0 auto;
       width: auto;
       margin-left: auto; } }
+
+.list__cover {
+  position: relative; }
+  .list__cover h4 {
+    color: #fff;
+    font-size: 1.333rem;
+    text-shadow: 0 1px 0 #e01258;
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    left: 20px;
+    right: 20px; }
 
 .list--omega {
   display: grid;
