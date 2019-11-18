@@ -3,6 +3,8 @@ header.header
     if (theme && theme.menu && theme.menu.items)
       if (isHome())
         - var current = " nav__list--home"
+      else if (page && page.offline)
+        - var current = " nav__list--home"
       else if (isCategory())
         - var current = " nav__list--blog"
       else if (isPost())

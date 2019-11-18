@@ -1,5 +1,5 @@
 // constants
-const CACHE_NAME = 'sb-cache-v1.2'
+const CACHE_NAME = 'sb-cache-v1.3'
 
 const FILES_TO_CACHE = [
   '/offline.html',
