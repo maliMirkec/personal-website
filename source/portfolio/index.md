@@ -4,9 +4,9 @@ comments: false
 description: This website is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to contact me.
 grid:
   banner1:
-    span: "I am currently considering new projects for next year."
+    span: "Got questions? Or projects? I would like to learn more. Contact me today!"
     btn1: "👉 Get in touch"
-    btn2: "I am open for new projects"
+    btn2: "Response guaranteed ⭐️"
   list:
     - item:
       title: Credit Card Insider

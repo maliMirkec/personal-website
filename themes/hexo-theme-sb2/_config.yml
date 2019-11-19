@@ -212,16 +212,15 @@ sidebar:
     Silvestar Bistrović: /
 
 banner1:
-  span: "I am currently considering new projects for next year. Contact me if
-  you want me on your team."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
   link: /contact/
 
 banner2:
-  span: "I am currently considering new projects for next year. Contact me."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
   href: /contact/
 
 widgets:

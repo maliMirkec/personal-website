@@ -64,9 +64,9 @@
   a {
     display: block;
 
-    &:hover,
-    &:focus,
-    &:active {
+    &:not(.btn):hover,
+    &:not(.btn):focus,
+    &:not(.btn):active {
       text-decoration: none;
 
       img {
