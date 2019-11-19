@@ -378,9 +378,6 @@ h6 a {
 p {
   margin-top: 1.333rem; }
 
-code {
-  line-height: 1; }
-
 ::-moz-selection {
   background-color: #f36595;
   text-shadow: 0 1px 0 #e01258;
@@ -752,12 +749,12 @@ img {
     filter: drop-shadow(0 0 10px #9f9f9f); }
   .list--alpha a {
     display: block; }
-    .list--alpha a:hover, .list--alpha a:focus, .list--alpha a:active {
+    .list--alpha a:not(.btn):hover, .list--alpha a:not(.btn):focus, .list--alpha a:not(.btn):active {
       text-decoration: none; }
-      .list--alpha a:hover img, .list--alpha a:focus img, .list--alpha a:active img {
+      .list--alpha a:not(.btn):hover img, .list--alpha a:not(.btn):focus img, .list--alpha a:not(.btn):active img {
         -webkit-filter: drop-shadow(0 0 10px #12e09f);
         filter: drop-shadow(0 0 10px #12e09f); }
-      .list--alpha a:hover span, .list--alpha a:focus span, .list--alpha a:active span {
+      .list--alpha a:not(.btn):hover span, .list--alpha a:not(.btn):focus span, .list--alpha a:not(.btn):active span {
         text-decoration: underline; }
   .list--alpha p {
     margin-top: 1em;
@@ -1121,24 +1118,24 @@ img {
 .table-wrapper {
   width: 100%;
   overflow-y: auto; }
-
-table {
-  min-width: 100%;
-  border: 1px solid #95f6d8;
-  border-collapse: collapse;
-  font-size: 0.75019rem; }
-  table th,
-  table td {
-    text-align: left;
+  .table-wrapper table {
+    min-width: 100%;
     border: 1px solid #95f6d8;
-    padding: .5rem;
-    min-width: 80px; }
-  table th {
-    background-color: #c4fae9; }
-  table td {
-    background-color: #f3fefb; }
+    border-collapse: collapse;
+    font-size: 0.75019rem; }
+    .table-wrapper table th,
+    .table-wrapper table td {
+      text-align: left;
+      border: 1px solid #95f6d8;
+      padding: .5rem;
+      min-width: 80px; }
+    .table-wrapper table th {
+      background-color: #c4fae9; }
+    .table-wrapper table td {
+      background-color: #f3fefb; }
 
 code {
+  font-size: 0.75019rem;
   display: inline-block;
   background-color: #f3fefb;
   border-color: #c4fae9;

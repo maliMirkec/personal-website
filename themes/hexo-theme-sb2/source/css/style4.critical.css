@@ -372,3 +372,7 @@ img {
 .content > *:first-child {
   margin-top: 0;
 }
+
+.content p img {
+  width: auto;
+}

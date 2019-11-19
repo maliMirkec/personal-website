@@ -2,9 +2,9 @@
 title: Bozzuto
 comments: false
 banner1:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 description: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding. The website runs on WordPress.
 portfolio: true
 quotes:

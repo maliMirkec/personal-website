@@ -2,9 +2,9 @@
 title: Pocket Bookmarks
 comments: false
 banner1:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 date: 2017-08-02 20:08:06
 description: Pocket bookmarks export file
 sidebar: true

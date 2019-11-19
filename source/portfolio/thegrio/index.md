@@ -2,9 +2,9 @@
 title: TheGrio
 comments: false
 banner2:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 description: TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives that appeal to them but are underrepresented in existing national news outlets.
 portfolio: true
 ---

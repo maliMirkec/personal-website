@@ -1,9 +1,9 @@
 ---
 title: Marcijuš Weddings
 banner1:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 comments: false
 description: Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
 portfolio: true

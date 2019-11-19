@@ -2,9 +2,9 @@
 title: Domino Data Lab Rev
 comments: false
 banner2:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 description: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
 portfolio: true
 ---

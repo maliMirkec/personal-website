@@ -2,9 +2,9 @@
 title: Calvert
 comments: false
 banner1:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
 portfolio: true
 quotes:

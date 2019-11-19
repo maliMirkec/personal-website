@@ -2,9 +2,9 @@
 title: I'm available for hire
 comments: false
 banner1:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 date: 2017-08-02 11:37:55
 description: If you want me on your team, you should send me an email at me@silvestar.codes. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true

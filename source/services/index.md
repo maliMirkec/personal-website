@@ -2,9 +2,9 @@
 title: Services
 comments: false
 banner2:
-  span: "I am currently considering new projects for next year."
+  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "I am open for new projects"
+  btn2: "Response guaranteed ⭐️"
 date: 2017-08-03 09:34:48
 description: I have been working with web technologies since 2011. During this period, I acquired a certain set of skills for building better websites.
 sidebar: true
