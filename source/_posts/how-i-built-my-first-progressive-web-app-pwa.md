@@ -18,7 +18,7 @@ In this post, you would learn more about how and why I added this exciting featu
 
 <!--more-->
 
-## Why did I do it?
+## Why did I do it
 
 I like to think of myself as a very pedantic person, and I was trying to make my site better from the very first day. At the time when I was building my site, I didn’t understand all metrics from web performance tools like PageSpeed Insights or WebPageTest. But, as I was trying to make my site better, I was learning new techniques, and my website got better and better.
 
@@ -57,7 +57,7 @@ if ('serviceWorker' in navigator) {
         console.log('Service worker registered.', reg);
       });
   });
-  }
+}
 ```
 
 The content of the Service Worker file could vary, depending what you want to use achieve with your site. Since my site is quite straightforward, I decided to make use of basic offline experience only. That means I needed an `offline.html` file for offline experience. It would be a stripped version of my homepage. So I removed external images, and created a placeholder using CSS. I removed external CSS file and inlined it in `head` section. The only thing left to do was to add favicon files. I am not yet sure if this is need, but I decided to put it there, just in case. Those files aren’t big anyway.
@@ -90,7 +90,6 @@ const FILES_TO_CACHE = [
 Next, I created the `install` event which opens cache with given cache name and caches the files.
 
 ```js
-
 self.addEventListener('install', (event) => {
   // CODELAB: Precache static resources here.
   event.waitUntil(
@@ -121,7 +120,6 @@ self.addEventListener('activate', (event) => {
 Finally, I created the `fetch` event, which handles page navigations only when request `.mode` is `navigate`. If the request fails to fetch the item from the network, it tries to fetch the `offline.html` file.
 
 ```js
-
 self.addEventListener('fetch', (event) => {
   // CODELAB: Add fetch event handler here.
   if (event.request.mode === 'navigate') {
