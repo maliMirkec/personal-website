@@ -1,4 +1,8 @@
 {
+  "wbConfig": {
+    "src": "helpers.source/config.js.src/sw.wb",
+    "dest": "helpers.source/config.js.src/sw.js"
+  },
   "swConfig": {
     "src": [
       "helpers.dist/config.js.src/sw.js",

@@ -5,6 +5,7 @@ const include = require('gulp-include')
 const sourcemaps = require('gulp-sourcemaps')
 const uglify = require('gulp-uglify')
 const rename = require('gulp-rename')
+const workboxBuild = require('workbox-build')
 
 const { helpers } = require('./helpers')
 
@@ -53,6 +54,32 @@ function swStart () {
     .pipe(global.bs.stream())
 }
 
+// Will move SW file
+function wbStart1 (cb) {
+  const wbSrc = helpers.parse(jsConfig.wbConfig.src)
+  const wbDest = helpers.parse(jsConfig.wbConfig.dest)
+
+  console.log('Make sure to run `hexo generate` before creating the precached files list.')
+
+  console.log(wbSrc)
+  console.log(wbDest)
+
+  workboxBuild.injectManifest({
+    swSrc: wbSrc,
+    swDest: wbDest,
+    globDirectory: '../../public/',
+    globPatterns: [
+      '**/*.{html,xml,js,css,png,jpg,jpeg,svg,gif,ico,.webmanifest,woff,woff2}'
+    ]
+  }).then(({ count, size, warnings }) => {
+    // Optionally, log any warnings and details.
+    warnings.forEach(console.warn)
+    console.log(`${count} files will be precached, totaling ${size} bytes.`)
+  })
+
+  cb()
+}
+
 // When JS file is changed, it will process JS file, too
 function jsListen () {
   return watch(`${helpers.source()}/${helpers.trim(global.config.js.src)}/*.js`, global.config.watchConfig, jsStart, global.bs.reload)
@@ -68,6 +95,7 @@ function swListen () {
 exports.js = {
   jsStart,
   swStart,
+  wbStart1,
   jsListen,
   swListen
 }
