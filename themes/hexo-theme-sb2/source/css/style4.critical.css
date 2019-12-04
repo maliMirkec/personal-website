@@ -15,6 +15,11 @@ main {
   display: block;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 a {
   background-color: transparent;
 }
@@ -49,6 +54,21 @@ html {
 body {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+h1 {
+  font-size: 1.77689rem;
+  font-weight: 700;
+  word-break: break-word;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  letter-spacing: calc(0.15em / 1);
+}
+
+@media (min-width: 48em) {
+  h1 {
+    font-size: 2.36859rem;
+  }
 }
 
 h2 {
@@ -149,10 +169,6 @@ img {
     grid-template-areas: "title" "content" "meta";
     grid-gap: 50px;
   }
-}
-
-.main--category {
-  grid-template-areas: "content" "meta";
 }
 
 .header {
