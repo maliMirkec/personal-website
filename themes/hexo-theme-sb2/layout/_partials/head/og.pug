@@ -4,8 +4,8 @@ if (theme && theme.open_graph)
   if (title)
     meta(property="og:title" content=title)
 
-  if (desc)
-    meta(property="og:description" content=desc)
+  if (description)
+    meta(property="og:description" content=description)
 
   if (config && config.url && path)
     meta(property="og:url" content=`${config.url}/${path.replace('index.html','')}`)
