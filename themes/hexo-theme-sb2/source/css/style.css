@@ -476,15 +476,12 @@ img {
       grid-template-columns: 1fr 25vw;
       grid-row-gap: 50px; } }
 
-.main--category {
-  grid-template-areas: "content" "meta"; }
-
 .main--post {
   max-width: 960px; }
 
 .main--archive,
 .main--tag {
-  grid-template-areas: "title" "pbanner" "content" "meta"; }
+  grid-template-areas: "title" "content" "meta"; }
 
 .profile {
   padding-top: 1px;

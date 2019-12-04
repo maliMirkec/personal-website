@@ -117,6 +117,15 @@ home_page:
     title: Testimonials
     id: Testimonials
     quotes:
+      - person: John Ganotis
+        position: Entrepreneur
+        project:
+          name: Credit Card Insider
+          link: /portfolio/creditcardinsider/
+        paragraphs:
+          - Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers.
+          - In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls.
+          - When working with Silvestar, I know that the work will be done quickly and correctly, but that he'll also point out any areas where he thinks we can improve. He's always looking out for opportunities to improve performance, maintainability, and accessibility. I get the impression that he's constantly learning and reflecting on his work, always looking for ways that he can build his skillset even more and produce even higher quality work (if that's possible!).
       - person: Evan Lavidor
         position: Partner & Executive Director
         project:
@@ -145,13 +154,6 @@ home_page:
           link: /portfolio/westwing/
         paragraphs:
           - While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects.
-      - person: Pablo Pareja Tobes
-        position: Project Manager
-        project:
-          name: Vizzuality
-          link: /portfolio/yearbook-trase/
-        paragraphs:
-          - Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise.
 
 open_graph:
   pretty_url: true

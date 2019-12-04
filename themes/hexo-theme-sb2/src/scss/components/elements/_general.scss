@@ -115,11 +115,6 @@ img {
   }
 }
 
-.main--category {
-  grid-template-areas: "content"
-  "meta";
-}
-
 .main--post {
   max-width: 960px;
 }
@@ -127,7 +122,6 @@ img {
 .main--archive,
 .main--tag {
   grid-template-areas: "title"
-  "pbanner"
   "content"
   "meta";
 }

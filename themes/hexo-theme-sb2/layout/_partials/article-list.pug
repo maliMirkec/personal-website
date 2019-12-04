@@ -1,6 +1,6 @@
 if (page && page.posts)
   if (page && page.category)
-    - var title = "Category: " + page.category;
+    - var title = page.category;
   else if (page && isTag())
     - var title = "Tag: " + page.tag;
   else if (isArchive())
@@ -8,7 +8,7 @@ if (page && page.posts)
       - var title = page.year + (page.month ? '/' + page.month : '');
     else
       - var title = "Archives";
-  if (title && page && (isArchive() || isTag()))
+  if (title && page && (isArchive() || isTag() || isCategory()))
     h1.articles__title= title
   .articles
     each vpost, kpost in page.posts.toArray()
