@@ -1,12 +1,12 @@
 ---
-title: Hire me
+title: Hire me1
 comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
   btn2: "Response guaranteed ⭐️"
 date: 2010-01-26 10:17:15
-description:
+description: When you hire me, you got a frontend developer that is most comfortable working with HTML, CSS, and JavaScript. You would benefit from experience gained by working for years on high-profile projects.
 sidebar: true
 ---
 
