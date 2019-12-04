@@ -1,2 +1,3 @@
+Sitemap: https://wwwi.silvestar.codes/sitemap.xml
 User-agent: *
 Disallow:
