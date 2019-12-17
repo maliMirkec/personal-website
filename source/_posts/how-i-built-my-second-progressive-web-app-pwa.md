@@ -8,6 +8,9 @@ tags:
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1576584968/How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr.jpg
 comments: true
 description: "As of today, my side project Code Line Daily is available as a Progressive Web App. This post is a sequel to my previous PWA post."
+project:
+  name: Code Line Daily
+  href: https://cld.silvestar.codes
 ---
 
 As of today, my side project [Code Line Daily] is available as a Progressive Web App.
