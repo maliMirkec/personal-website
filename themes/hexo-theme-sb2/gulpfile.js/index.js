@@ -110,4 +110,4 @@ exports.default = series(
   )
 )
 
-exports.wb = js.wbStart1
+exports.sw = js.swStart

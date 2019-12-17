@@ -5,7 +5,7 @@ const include = require('gulp-include')
 const sourcemaps = require('gulp-sourcemaps')
 const uglify = require('gulp-uglify')
 const rename = require('gulp-rename')
-const workboxBuild = require('workbox-build')
+const { injectManifest } = require('workbox-build')
 
 const { helpers } = require('./helpers')
 
@@ -44,58 +44,41 @@ function jsStart () {
     .pipe(global.bs.stream())
 }
 
-// Will move SW file
+// Will process SW file
 function swStart () {
-  const swSrc = jsConfig.swConfig.src.map(path => helpers.parse(path))
-  const swDest = helpers.parse(jsConfig.swConfig.dest)
-
-  return src(swSrc)
-    .pipe(dest(helpers.trim(swDest)))
-    .pipe(global.bs.stream())
-}
-
-// Will move SW file
-function wbStart1 (cb) {
-  const wbSrc = helpers.parse(jsConfig.wbConfig.src)
-  const wbDest = helpers.parse(jsConfig.wbConfig.dest)
-
-  console.log('Make sure to run `hexo generate` before creating the precached files list.')
-
-  console.log(wbSrc)
-  console.log(wbDest)
-
-  workboxBuild.injectManifest({
-    swSrc: wbSrc,
-    swDest: wbDest,
-    globDirectory: '../../public/',
-    globPatterns: [
-      '**/*.{html,xml,js,css,png,jpg,jpeg,svg,gif,ico,.webmanifest,woff,woff2}'
-    ]
-  }).then(({ count, size, warnings }) => {
-    // Optionally, log any warnings and details.
-    warnings.forEach(console.warn)
-    console.log(`${count} files will be precached, totaling ${size} bytes.`)
+  console.log({
+    globDirectory: helpers.parse(jsConfig.swConfig.globDirectory),
+    globPatterns: jsConfig.swConfig.globPatterns,
+    swSrc: helpers.parse(jsConfig.swConfig.swSrc),
+    swDest: helpers.parse(jsConfig.swConfig.swDest)
+  });
+  return injectManifest({
+    globDirectory: helpers.parse(jsConfig.swConfig.globDirectory),
+    globPatterns: jsConfig.swConfig.globPatterns,
+    swSrc: helpers.parse(jsConfig.swConfig.swSrc),
+    swDest: helpers.parse(jsConfig.swConfig.swDest)
   })
-
-  cb()
+    .then(({ count, size }) => {
+      console.info('Service worker generation completed.')
+      console.log(`Generated ${helpers.parse(jsConfig.swConfig.swDest)}, which will precache ${count} files, totaling ${size} bytes.`)
+    }).catch((error) => {
+      console.warn('Service worker generation failed:', error)
+    })
 }
 
 // When JS file is changed, it will process JS file, too
 function jsListen () {
-  return watch(`${helpers.source()}/${helpers.trim(global.config.js.src)}/*.js`, global.config.watchConfig, jsStart, global.bs.reload)
+  return watch(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`), global.config.watchConfig, jsStart, global.bs.reload)
 }
 
-// When SW file is changed, it will process SW file, too
+// When JS file is changed, it will process JS file, too
 function swListen () {
-  const swSrc = jsConfig.swConfig.src.map(path => helpers.parse(path))
-
-  return watch(swSrc, global.config.watchConfig, swStart, global.bs.reload)
+  return watch(helpers.trim(`${helpers.source()}/${jsConfig.swConfig.swSrc}`), global.config.watchConfig, swStart, global.bs.reload)
 }
 
 exports.js = {
   jsStart,
   swStart,
-  wbStart1,
   jsListen,
   swListen
 }

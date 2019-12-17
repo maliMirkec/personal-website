@@ -146,6 +146,9 @@ I think fireworks deserve another appearance. 💯
 
 The next steps are to learn more about [Workbox]. And after that, I plan to add full offline experience for my side project [Code Line Daily].
 
+Edit: Continue reading [my second article about “How I built my second Progressive Web App (PWA)”].
+
 [“Your First Progressive Web App” tutorial]: https://codelabs.developers.google.com/codelabs/your-first-pwapp/#4
 [Workbox]: https://developers.google.com/web/tools/workbox/
 [Code Line Daily]: https://cld.silvestar.codes/
+[my second article about “How I built my second Progressive Web App (PWA)”]: /articles/how-i-built-my-second-progressive-web-app-pwa/
