@@ -10,7 +10,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.1',
+  suffix: 'v1.2',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -158,15 +158,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "archives/2019/12/index.html",
-    "revision": "1d11609b73ba56f6addc8e67d37b2018"
+    "revision": "24256fd0db1e7bc03ae5406962d01992"
   },
   {
     "url": "archives/2019/index.html",
-    "revision": "5fa5f429abeba6bc4e134d3710dbafec"
+    "revision": "b442256c5775d83b854b79b664de0171"
   },
   {
     "url": "archives/index.html",
-    "revision": "1d8c635ddaf9864661c1dd342c8cf1f9"
+    "revision": "fd035db8dbfff37e0c9879b2b9ae78a4"
   },
   {
     "url": "articles/2018-lookback/index.html",
@@ -174,7 +174,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/2019-lookback/index.html",
-    "revision": "1fef68821b0ac1e04c88bd659ba921fa"
+    "revision": "80cc1d5dddccf4eeb9fcf7f8a3f88d73"
   },
   {
     "url": "articles/5-things-to-consider-when-creating-your-css-style-guide/index.html",
@@ -362,7 +362,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "categories/articles/index.html",
-    "revision": "e879c83d741ed9a87284baed597f8183"
+    "revision": "53cbbdc9d1af56c6af29e84e665aac89"
   },
   {
     "url": "contact/index.html",
@@ -878,7 +878,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "tags/freelance/index.html",
-    "revision": "6079101355796424d9aa6f7867a3ebc9"
+    "revision": "aa15f4ca2c17bb479a64a6a61696e2f6"
   },
   {
     "url": "tags/frontend/index.html",
@@ -958,7 +958,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "tags/remote-work/index.html",
-    "revision": "f98d581852325dd1b845d17527fce441"
+    "revision": "8469d59b329376e6c08277daa43ed513"
   },
   {
     "url": "tags/ribbon/index.html",
