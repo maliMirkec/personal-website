@@ -10,7 +10,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2',
+  suffix: 'v1.2.1',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -18,7 +18,7 @@ workbox.core.setCacheNameDetails({
 workbox.precaching.precacheAndRoute([
   {
     "url": "404.html",
-    "revision": "9970db7bcd676a05201a50ad32e2c582"
+    "revision": "015691569f4303cfe5cdd5e78fa5f60f"
   },
   {
     "url": "about-me/index.html",
@@ -174,7 +174,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/2019-lookback/index.html",
-    "revision": "80cc1d5dddccf4eeb9fcf7f8a3f88d73"
+    "revision": "101784582d9b2b1c6025a541a4fc502a"
   },
   {
     "url": "articles/5-things-to-consider-when-creating-your-css-style-guide/index.html",
@@ -254,7 +254,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/how-to-add-a-contact-form-to-a-static-website/index.html",
-    "revision": "4b8276aca5a15d258c2a46fe53cdb922"
+    "revision": "be336616255e9249d6b347197527030b"
   },
   {
     "url": "articles/how-to-automate-development-with-atom/index.html",
@@ -282,7 +282,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/introducing-spro/index.html",
-    "revision": "b4bcf4fed19a32064337b73cf6fca5dc"
+    "revision": "147393a04e0d913fef8905ee22d7edbb"
   },
   {
     "url": "articles/making-a-website-with-hugo/index.html",
@@ -298,7 +298,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/my-favorite-netlify-features/index.html",
-    "revision": "265ad3c3cf987856ee597a4a3ed8fddb"
+    "revision": "46f21c5572f8cbe8d29cf53c9cb11910"
   },
   {
     "url": "articles/my-first-year-of-freelancing/index.html",

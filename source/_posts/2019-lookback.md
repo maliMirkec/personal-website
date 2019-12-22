@@ -19,7 +19,7 @@ _Note: this article is written from a technology perspective, meaning that I wro
 
 ## WordPress
 
-I still work on WordPress projects. WordPress is not going away: its users are loyal, and they are not losing trust in such wide-spread system. And they shouldn’t because it is still easy to use and it is familiar to most beginners and advanced users. One of the most significant advantages is the plugin library. There is a plugin for almost everything you might think of, and users really like that.
+I still work on WordPress projects. WordPress is not going away: its users are loyal, and they are not losing trust in such wide-spread system. And they shouldn’t because it is still easy to use and it is familiar to most beginners and advanced users. One of the most significant advantages is the plugin library. There is a plugin for almost everything you might think of, and users really like that. There is a large number of themes, too. The biggest downside is the performance, as most themes are not optimized.
 
 WordPress is not my favourite system. However, I am still motivated to find new ways to optimize and enhance WordPress websites. When given the control to override default settings and behaviour, one could achieve remarkable results, like getting green scores from PageSpeed Insights, Lighthouse and WebPageTest scoring tools. I had an opportunity to optimize such an instance. We were pushing to its limits and even introduced [native lazy-loading] and moving the whole media library to CDN service. The scores were sky-rocketing. 🚀
 
@@ -27,7 +27,11 @@ WordPress is not my favourite system. However, I am still motivated to find new 
 
 Static site generators, on the other hand, are so fast that rarely anybody concerns about the performance. The biggest challenge is to configure headless CMS and build systems. Luckily for us, we have services like [Netlify] and [Netlify CMS]. These two services are my go-to places when talking about SSGs.
 
-Netlify supports anything you could think of and a little bit more, from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favourite Netlify features].
+> Netlify supports anything you could think of and a little bit more.
+
+Netlify supports anything you could think of and a little bit more: from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favourite Netlify features].
+
+[{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1565248044/My_favorite_Netlify_features-2x_inepie.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Cover for My Favorite Netlify features article." %}](/articles/my-favorite-netlify-features/)
 
 I noticed a trend of moving sites to SSGs. Most enquiries I had this year were about Gatsby. Since I am not able to produce production-ready React code, I haven’t had the opportunity to work with Gatsby yet. I was using mostly Jekyll, Hugo, and Hexo this year. I am very interested to learn more about Gatsby and Eleventy, as I hear great things about it wherever I look.
 
@@ -35,11 +39,13 @@ I noticed a trend of moving sites to SSGs. Most enquiries I had this year were a
 
 From time to time, I have the opportunity to work with Shopify, and such opportunity emerged this year. I wanted to use this occasion to rant about Shopify. I cannot believe how hard it is to work with Shopify in 2019. We still cannot set the local environment or have access to the backend code. [Theme Kit] is not enough, we need Git support at least. It is frustrating to work on such an environment, and I am starting to understand why Shopify developers have higher rates.
 
-On the other hand, working with Liquid has its advantages. There is a high number of filters and tags which cover most of the requirements. But sometimes you have to be very skilled and inspired to come up with the solution. Nevertheless, I find it the only positive thing, besides native shop functionality, that is useful. Even plugins are complicated with separated dashboards and steep learning curve.
+On the other hand, working with the Liquid template engine has its advantages. There is a high number of filters and tags which cover most of the requirements. But sometimes you have to be very skilled and inspired to come up with the solution. Nevertheless, I find it the only positive thing, besides native shop functionality, that is useful. Even plugins are complicated with separated dashboards and steep learning curve.
 
 ## Styleguides
 
 Styleguides are the number one thing this year for me. All big projects that I have been part of were built using styleguides, usually on my proposal. Developing standalone components helps in creating a better product in terms of robustness and maintainability. It also helps with understanding templates and layouts by reusing the parts that are repeating. I wrote [an article about style guides], too.
+
+[{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557942405/5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Cover for 5 Things To Consider When Creating Your First CSS Style Guide article." %}](/articles/5-things-to-consider-when-creating-your-css-style-guide/)
 
 But the most notable advantage of a styleguide is the ability to see all definitions and components in one place. If this is hosted as a website or web app, then it is easily accessible from every device. That means every member of the team can be included in the testing or reviewing phase from the very beginning. It has been proven to be the most significant benefit on all my projects.
 
@@ -67,6 +73,8 @@ Although this has been the busiest year so far, I had some time to work on my si
 [Starter Project] is predefined Gulp based package that you could use as a starting point for your new project. I have improved it so much that it could be used as a static site generator. It has its limitations, like build speed. Still, I find it very useful in situations where I need to set up a new project very fast. This project keeps me updated with latest Gulp techniques. This year I switched to Gulp 4.
 
 [Code Line Daily] is a side project where I introduce a new line of code every day. It covers mostly HTML, CSS, JS and PHP one-liners. To my great surprise, it was launched on Product Hunt earlier this year. I have made it [available as a Progressive Web App recently], and it is available as [a Chrome extension], too. I learned how to build PWA and Chrome extension while developing this project. It runs on Starter Project.
+
+[{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1576584968/How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Cover for How I Built My Second Progressive Web App article." %}](/articles/how-i-built-my-second-progressive-web-app-pwa/)
 
 Finally, the most challenging side project this year was mentorship. Helping someone that comes from a non-IT job to become a developer is hard. For the past few months, I am working closely with my mentee, and I am very proud to say that everything is working well so far. I am teaching him not only how to code better, but how to use all modern tools. I believe every professional should know at least basics in project management tools and versioning control systems. As he is mastering some advanced stuff like BEM and Sass, I firmly believe he will be able to start his job hunt soon.
 

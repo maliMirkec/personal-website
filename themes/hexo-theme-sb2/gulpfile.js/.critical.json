@@ -2,7 +2,7 @@
   "src": "style.css",
   "settings": {
     "out": "style7.critical.css",
-    "url": "http://localhost:4000/about-me/",
+    "url": "http://localhost:4001/about-me/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -18,7 +18,7 @@
   "src": "style.css",
   "settings": {
     "out": "style6.critical.css",
-    "url": "http://localhost:4000/contact/",
+    "url": "http://localhost:4001/contact/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -34,7 +34,7 @@
   "src": "style.css",
   "settings": {
     "out": "style5.critical.css",
-    "url": "http://localhost:4000/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+    "url": "http://localhost:4001/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -50,7 +50,7 @@
   "src": "style.css",
   "settings": {
     "out": "style4.critical.css",
-    "url": "http://localhost:4000/categories/articles/",
+    "url": "http://localhost:4001/categories/articles/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -66,7 +66,7 @@
   "src": "style.css",
   "settings": {
     "out": "style3.critical.css",
-    "url": "http://localhost:4000/portfolio/",
+    "url": "http://localhost:4001/portfolio/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -82,7 +82,7 @@
   "src": "style.css",
   "settings": {
     "out": "style2.critical.css",
-    "url": "http://localhost:4000/portfolio/westwing/",
+    "url": "http://localhost:4001/portfolio/westwing/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -98,7 +98,7 @@
   "src": "style.css",
   "settings": {
     "out": "style.critical.css",
-    "url": "http://localhost:4000/",
+    "url": "http://localhost:4001/",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
