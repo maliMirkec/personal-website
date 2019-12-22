@@ -10,14 +10,14 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.1',
+  suffix: 'v1.2',
   precache: 'precache',
   runtime: 'runtime'
 })
 
 workbox.precaching.precacheAndRoute([])
 
-// Serve all html files with StaleWhileRevalidate strategy
+// Serve all html files with NetworkFirst strategy
 workbox.routing.registerRoute(
   /\.html$/,
   new workbox.strategies.NetworkFirst()
