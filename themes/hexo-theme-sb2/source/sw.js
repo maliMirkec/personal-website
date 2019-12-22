@@ -402,51 +402,51 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "css/style2.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "893eddab34fb0ad86b52f26eeb78f6e2"
   },
   {
     "url": "css/style2.critical.min.css",
-    "revision": "c82922f4b3b0ce94d2e4bbd6357aa7c9"
+    "revision": "17b054189b38307e94b72c715ef8afe2"
   },
   {
     "url": "css/style3.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "fdbbec677e9fb9d2a560683dd2adee9f"
   },
   {
     "url": "css/style3.critical.min.css",
-    "revision": "c950271c3a344268d3456d16a3af3c1d"
+    "revision": "334e456aa04ae21e4d2f252111612418"
   },
   {
     "url": "css/style4.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "eeaabae580358b6024169d6cbdd38305"
   },
   {
     "url": "css/style4.critical.min.css",
-    "revision": "50307291921540a65c859420375c72c5"
+    "revision": "644df97e7acec01a8c38572c8eaf778b"
   },
   {
     "url": "css/style5.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "c4225eba056e60ffa5778dc4001199b2"
   },
   {
     "url": "css/style5.critical.min.css",
-    "revision": "8cde7e581597e99a4d1bbc5cf0971c5f"
+    "revision": "a68e3dbef7cb1731ad265344aca84d10"
   },
   {
     "url": "css/style6.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "818f58a6caf2c76491bc09f336e91c58"
   },
   {
     "url": "css/style6.critical.min.css",
-    "revision": "1498d6dfe18ac2f1a589079eb15796da"
+    "revision": "bac5111f46d71eb464bb5c0fe45c33eb"
   },
   {
     "url": "css/style7.critical.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "249cbbe6095703e3450f51490214d039"
   },
   {
     "url": "css/style7.critical.min.css",
-    "revision": "99513dad07f452267ccf64d0a96a3c4c"
+    "revision": "26d1cdab749a3f2ec596e1b6a0fd393c"
   },
   {
     "url": "favicon/android-chrome-144x144.png",
@@ -1006,7 +1006,7 @@ workbox.precaching.precacheAndRoute([
   }
 ])
 
-// Serve all html files with StaleWhileRevalidate strategy
+// Serve all html files with NetworkFirst strategy
 workbox.routing.registerRoute(
   /\.html$/,
   new workbox.strategies.NetworkFirst()
