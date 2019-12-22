@@ -17,7 +17,7 @@ workbox.core.setCacheNameDetails({
 
 workbox.precaching.precacheAndRoute([])
 
-// Serve all html files with StaleWhileRevalidate strategy
+// Serve all html files with NetworkFirst strategy
 workbox.routing.registerRoute(
   /\.html$/,
   new workbox.strategies.NetworkFirst()
