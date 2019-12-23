@@ -13,7 +13,7 @@ comments: true
 description: Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.
 project:
   name: Playground
-  href: https://play.silvestar.codes/ribbons/
+  href: https://play.silvestar.codes/ribbon/
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)._

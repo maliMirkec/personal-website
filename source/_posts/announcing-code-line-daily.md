@@ -48,7 +48,7 @@ To build this project, I have used [Starter Project]. It is a Gulp based boilerp
 }
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/data/lines.json)._
+_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/api/lines.json)._
 
 Here is the basic JSON structure—an array of object items. [gulp-data] plugin is used to include, parse, and display the data on the homepage, archive, and author pages.
 
@@ -56,7 +56,7 @@ Here is the basic JSON structure—an array of object items. [gulp-data] plugin 
 - var list = locals.data.list ? locals.data.list.filter(item => new Date(item.date) < new Date()) : [];
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/_layout/variables.pug)._
+_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/mixins/variables.pug)._
 
 To display only current lines and not future ones, I have used `filter` function with a date condition. That way, future lines won't be displayed. Also, I have set up Zapier to trigger a new build every day in the morning.
 
@@ -92,6 +92,6 @@ I have learned that I don't need a classic page generator. I could use my Gulp-b
 If you have an exciting line of code to share, feel free to [contribute] to the website. Code Line Daily is an open-source project.
 
 [Code Line Daily]: https://cld.silvestar.codes
-[contribute]: https://cld.silvestar.codes/contribute
+[contribute]: https://cld.silvestar.codes/about
 [Starter Project]: https://starter.silvestar.codes
 [gulp-data]: https://www.npmjs.com/package/gulp-data
