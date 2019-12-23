@@ -69,7 +69,7 @@ As an icing on the <abbr>DNS</abbr> management cake, Netlify lets you create Let
 
 Snippet injection is another excellent feature. I am using it mostly for inserting analytics, but it could be done for so much more, like adding meta tags for responsive behavior, favicon tags, or [Webmention.io] tags.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1565245620/netlify-dashboard-inject-snippet_ruimjq.png/bubbles2_nybgxd.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Netlify snippet injection" %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1565245620/netlify-dashboard-inject-snippet_ruimjq.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Netlify snippet injection" %}
 
 When inserting snippets, you could choose to append the code fragment at the end of the `<head>` block, or at the end of the `<body>` block.
 
@@ -113,7 +113,7 @@ If you want to receive a notification when something happens with your Netlify p
 
 If you are using Gmail, you could notice "See the changes live" link for every successful build when hovering your message in Gmail inbox. That means you could open a preview link without opening the email. There are other links like "See full deploy logs" when your build have any issues or "Check usage details" when your plan is near its limits. How awesome is that?
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1565245621/netlify-notification-gmail_dyim14.pngd.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Netlify notifications in Gmail" %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1565245621/netlify-notification-gmail_dyim14.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Netlify notifications in Gmail" %}
 
 If you want to set up a hook for third-party services, all you need is a URL (JWS secret token is optional). Slack hooks are built-in with Netlify and could be set up within seconds if you know your Slack incoming webhook URL.
 
