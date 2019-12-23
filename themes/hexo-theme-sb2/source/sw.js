@@ -174,7 +174,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/2019-lookback/index.html",
-    "revision": "101784582d9b2b1c6025a541a4fc502a"
+    "revision": "31f5099da49a84d47cb2adbdd591b9f7"
   },
   {
     "url": "articles/5-things-to-consider-when-creating-your-css-style-guide/index.html",
@@ -198,7 +198,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/announcing-code-line-daily/index.html",
-    "revision": "bd6f5e6228733edd9eca548e14d2c037"
+    "revision": "001b7901f23f1f9b926e7b417e21cadb"
   },
   {
     "url": "articles/bem-wordpress-theme/index.html",
@@ -298,7 +298,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/my-favorite-netlify-features/index.html",
-    "revision": "46f21c5572f8cbe8d29cf53c9cb11910"
+    "revision": "91defc5a9c124fde4dc2ff2dfb2fc920"
   },
   {
     "url": "articles/my-first-year-of-freelancing/index.html",
@@ -310,7 +310,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/index.html",
-    "revision": "73a5e99684bb037be3bb7163d1b0bcd9"
+    "revision": "1fe704e5b589cf0cd677df77dc125daf"
   },
   {
     "url": "articles/overviev-of-popular-static-site-generators/index.html",
