@@ -1559,6 +1559,28 @@ code {
 [v-cloak] button {
   pointer-events: none; }
 
+.autograph {
+  max-width: 200px; }
+
+.autograph__path {
+  opacity: 0;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  .animated .autograph__path {
+    opacity: 1;
+    -webkit-animation-name: line;
+    animation-name: line; }
+
+@-webkit-keyframes line {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes line {
+  100% {
+    stroke-dashoffset: 0; } }
+
 .sig {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;

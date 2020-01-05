@@ -46,12 +46,6 @@ function jsStart () {
 
 // Will process SW file
 function swStart () {
-  console.log({
-    globDirectory: helpers.parse(jsConfig.swConfig.globDirectory),
-    globPatterns: jsConfig.swConfig.globPatterns,
-    swSrc: helpers.parse(jsConfig.swConfig.swSrc),
-    swDest: helpers.parse(jsConfig.swConfig.swDest)
-  });
   return injectManifest({
     globDirectory: helpers.parse(jsConfig.swConfig.globDirectory),
     globPatterns: jsConfig.swConfig.globPatterns,
