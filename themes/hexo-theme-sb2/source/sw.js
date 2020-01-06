@@ -10,7 +10,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.4',
+  suffix: 'v1.2.5',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -266,7 +266,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/how-to-animate-svg-signature/index.html",
-    "revision": "7b784f40f9063d7f59e8124dd6e84176"
+    "revision": "cb3f39307e41c2d6443e94d4b915de3b"
   },
   {
     "url": "articles/how-to-automate-development-with-atom/index.html",

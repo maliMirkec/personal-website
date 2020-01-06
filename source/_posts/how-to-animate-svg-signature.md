@@ -144,9 +144,9 @@ I have used `linear` for `animation-timing-function` and `forwards` for `animati
 }
 
 @keyframes line {
- 100% {
- stroke-dashoffset: 0;
- }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 ```
 
