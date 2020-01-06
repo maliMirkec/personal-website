@@ -1,4 +1,7 @@
 const calcPaths = (totalDur) => {
+  // unset 'animated' class to body which will reset the animation
+  document.body.classList.remove('animated')
+
   // get all SVG elements - lines and dots
   const paths = document.querySelectorAll('.autograph__path')
   // prepare path length variable
@@ -39,7 +42,7 @@ const calcPaths = (totalDur) => {
     delay += duration + 0.2
   })
 
-  // set animated class to body which will start the animation
+  // set 'animated' class to body which will start the animation
   document.body.classList.add('animated')
 
   return true
