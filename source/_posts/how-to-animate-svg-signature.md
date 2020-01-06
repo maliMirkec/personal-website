@@ -53,16 +53,17 @@ It is vital to make SVG with strokes, as we are going to animate strokes. Every 
 ## JavaScript calculation
 
 To calculate the length of a stroke, we could use a manual method of guessing approximate length. We should use two dash attributes in this case:
-`stroke-dasharray`, which makes the stroke dashed, and
-`stroke-dashoffset`, which pushes the stroke position out of the visible path.
+
+- `stroke-dasharray`, which makes the stroke dashed, and
+- `stroke-dashoffset`, which pushes the stroke position out of the visible path.
 
 These two properties should be equal to make it work. Now we could try to guess how long is the stroke. But we are programmers, and we don’t have to guess: we could do it programmatically. Here’s the concept of how it should work:
 
-First, we set the overall desirable animation duration,
-Next, we make use of `[getTotalLength()]` function to calculate overall path length combined,
-Next, we calculate animation durations and delays for each path by the ratio of the overall path length,
-Next, we set `stroke-dasharray` and `stroke-dashoffset` which would position the dashed stroke outside of the visible path, and
-Finally, we start the animation by adding the class `animated` to the document body.
+- First, we set the overall desirable animation duration.
+- Next, we make use of `[getTotalLength()]` function to calculate overall path length combined.
+- Next, we calculate animation durations and delays for each path by the ratio of the overall path length.
+- Next, we set `stroke-dasharray` and `stroke-dashoffset` which would position the dashed stroke outside of the visible path.
+- Finally, we start the animation by adding the class `animated` to the document body.
 
 Here's the whole JavaScript function (with comments for easier understanding):
 
