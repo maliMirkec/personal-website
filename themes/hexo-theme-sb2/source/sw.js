@@ -266,7 +266,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/how-to-animate-svg-signature/index.html",
-    "revision": "dce836ac29fdc86eec05ce277acd2e0b"
+    "revision": "7b784f40f9063d7f59e8124dd6e84176"
   },
   {
     "url": "articles/how-to-automate-development-with-atom/index.html",
