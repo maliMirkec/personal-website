@@ -510,10 +510,6 @@ img {
   margin-top: 0;
 }
 
-.content p img {
-  width: auto;
-}
-
 .main--sidebar .content a {
   word-break: break-all;
   -webkit-hyphens: auto;
@@ -639,4 +635,16 @@ img {
 
 .cookies p {
   padding: 0 25px;
+}
+
+.autograph {
+  max-width: 200px;
+}
+
+.autograph__path {
+  opacity: 0;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
