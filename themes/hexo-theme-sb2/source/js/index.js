@@ -1,43 +1,45 @@
+"use strict";
 
-const calcPaths = function calcPaths (totalDur) {
+var calcPaths = function calcPaths(totalDur) {
   // unset 'animated' class to body which will reset the animation
-  document.body.classList.remove('animated') // get all SVG elements - lines and dots
+  document.body.classList.remove('animated'); // get all SVG elements - lines and dots
 
-  const paths = document.querySelectorAll('.autograph__path') // prepare path length variable
+  var paths = document.querySelectorAll('.autograph__path'); // prepare path length variable
 
-  let len = 0 // prepare animation delay length variable
+  var len = 0; // prepare animation delay length variable
 
-  let delay = 0 // escape if no elements found
+  var delay = 0; // escape if no elements found
 
   if (!paths.length) {
-    return false
+    return false;
   } // set duration in seconds of animation to default if not set
 
-  const totalDuration = totalDur || 7 // calculate the full path length
 
-  paths.forEach((path) => {
-    const totalLen = path.getTotalLength()
-    len += totalLen
-  })
-  paths.forEach((path) => {
-    const pathElem = path // get current path length
+  var totalDuration = totalDur || 7; // calculate the full path length
 
-    const totalLen = path.getTotalLength() // calculate current animation duration
+  paths.forEach(function (path) {
+    var totalLen = path.getTotalLength();
+    len += totalLen;
+  });
+  paths.forEach(function (path) {
+    var pathElem = path; // get current path length
 
-    const duration = totalLen / len * totalDuration // set animation duration and delay
+    var totalLen = path.getTotalLength(); // calculate current animation duration
 
-    pathElem.style.animationDuration = ''.concat(duration < 0.2 ? 0.2 : duration, 's')
-    pathElem.style.animationDelay = ''.concat(delay, 's') // set dash array and offset to path length - this is how you hide the line
+    var duration = totalLen / len * totalDuration; // set animation duration and delay
 
-    pathElem.setAttribute('stroke-dasharray', totalLen)
-    pathElem.setAttribute('stroke-dashoffset', totalLen) // set delay for the next path - added .2 seconds to make it more realistic
+    pathElem.style.animationDuration = "".concat(duration < 0.2 ? 0.2 : duration, "s");
+    pathElem.style.animationDelay = "".concat(delay, "s"); // set dash array and offset to path length - this is how you hide the line
 
-    delay += duration + 0.2
-  }) // set 'animated' class to body which will start the animation
+    pathElem.setAttribute('stroke-dasharray', totalLen);
+    pathElem.setAttribute('stroke-dashoffset', totalLen); // set delay for the next path - added .2 seconds to make it more realistic
 
-  document.body.classList.add('animated')
-  return true
-}
+    delay += duration + 0.2;
+  }); // set 'animated' class to body which will start the animation
 
-calcPaths(5)
-console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')
+  document.body.classList.add('animated');
+  return true;
+};
+
+calcPaths(5);
+console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).');

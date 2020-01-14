@@ -532,18 +532,6 @@ img {
   margin-top: 0;
 }
 
-.cookies {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 0.56278rem;
-  line-height: 1;
-}
-
-.cookies p {
-  padding: 0 25px;
-}
-
 .form {
   margin-top: calc(2.10526 * 1rem);
   display: -webkit-box;

@@ -2,6 +2,8 @@ head
   include head/meta
   include head/og
   include head/link
+  if (theme && theme.widgets && theme.widgets.cookies)
+    include head/cookies
   include assets/favicon
   include assets/critical
   if(page && page.canonical)

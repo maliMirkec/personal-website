@@ -364,11 +364,6 @@ img {
   letter-spacing: 0.05em;
 }
 
-.subnav__link img {
-  display: block;
-  max-width: 30px;
-}
-
 @media (min-width: 48em) {
   .subnav__link {
     padding: 17.5px 25px;
@@ -623,18 +618,6 @@ img {
 
 .banner--beta .btn {
   border-color: #f695b6;
-}
-
-.cookies {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 0.56278rem;
-  line-height: 1;
-}
-
-.cookies p {
-  padding: 0 25px;
 }
 
 .autograph {

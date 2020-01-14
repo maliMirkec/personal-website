@@ -102,6 +102,7 @@ if (page && page.title)
 
   if (isPost())
     .post-banner
+      include widgets/coffee
       include banner2
 
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
