@@ -226,8 +226,7 @@ banner2:
   href: /contact/
 
 widgets:
-  cookies:
-    paragraph: This site uses cookies to count visitors anonymously.
+  cookies: true
   about:
     paragraphs:
       - I am Silvestar Bistrović, fearless web engineer, JAMstack enthusiast and WordPress coder.
