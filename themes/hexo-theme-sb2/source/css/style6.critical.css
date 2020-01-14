@@ -599,6 +599,19 @@ img {
 
 
 
+.cookies {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.75019rem;
+  line-height: 1;
+}
+
+.cookies a {
+  color: inherit;
+  padding: 5px 15px;
+}
+
 .sig {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
