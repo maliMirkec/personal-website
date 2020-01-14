@@ -2,17 +2,11 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  font-size: ms(-2);
+  font-size: ms(-1);
   line-height: 1;
 
-  p {
-    padding: 0 25px;
+  a {
+    color: inherit;
+    padding: 5px 15px;
   }
-}
-
-.dismiss {
-  border: 0;
-  color: $color-beta;
-  font-size: ms(2);
-  line-height: 2rem;
 }

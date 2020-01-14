@@ -364,6 +364,11 @@ img {
   letter-spacing: 0.05em;
 }
 
+.subnav__link img {
+  display: block;
+  max-width: 30px;
+}
+
 @media (min-width: 48em) {
   .subnav__link {
     padding: 17.5px 25px;
@@ -630,4 +635,17 @@ img {
   animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+
+.cookies {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.75019rem;
+  line-height: 1;
+}
+
+.cookies a {
+  color: inherit;
+  padding: 5px 15px;
 }
