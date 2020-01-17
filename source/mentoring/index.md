@@ -18,8 +18,8 @@ Get to know me by [checking the about page](/about-me/) or [hire me page](/hire-
     <form-step header="Step 1">
       <label class="radio">Are you interested in career mentoring or technical mentoring?</label>
       <div class="kw-radio-group" rules="required">
-        <input type="radio" name="mentoring" value="1" id="Career" label="Career" checked="checked">
-        <input type="radio" name="mentoring" value="2" id="Technical" label="Technical">
+        <input type="radio" name="mentoring" value="career" id="Career" label="Career" checked="checked">
+        <input type="radio" name="mentoring" value="technical" id="Technical" label="Technical">
       </div>
       <div class="desc">
         <p><small>Career mentoring means I help you make decisions regarding your career.</small></p>
@@ -33,9 +33,9 @@ Get to know me by [checking the about page](/about-me/) or [hire me page](/hire-
       <input type="email" id="email" name="email" rules="required|email|max:255">
       <label for="note">Tell me why I should mentor you?</label>
       <textarea id="note" name="note" rules="required" rows="6"></textarea>
-      <div kw-show="fields.mentoring == 2">
+      <div kw-show="fields.mentoring == 'technical'">
         <label for="note2">Tell me which skills do you want to aquire or approve?</label>
-        <textarea id="note2" name="note2" rules="required_if:mentoring,2" rows="6"></textarea>
+        <textarea id="note2" name="note2" rules="required_if:mentoring,technical" rows="6"></textarea>
       </div>
     </form-step>
   </form>
