@@ -184,12 +184,5 @@
 }
 
 [v-cloak] {
-  input,
-  textarea {
-    cursor: no-drop;
-  }
-
-  button {
-    pointer-events: none;
-  }
+  display: none;
 }

@@ -19,7 +19,7 @@ I look forward to talking to you about anything:
 - anything else really.
 
 <div class="kwes-form form" v-cloak>
-  <form method="POST" action="https://kwes.io/api/foreign/forms/ShfiSzjg5kszxStJ0zWd" multistep mode="test">
+  <form method="POST" action="https://kwes.io/api/foreign/forms/ShfiSzjg5kszxStJ0zWd" multistep>
     <form-step header="Step 1">
       <label class="radio">General or mentoring</label>
       <div class="kw-radio-group">

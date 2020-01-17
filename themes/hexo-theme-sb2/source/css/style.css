@@ -1575,12 +1575,8 @@ code {
   .desc p {
     margin: 0; }
 
-[v-cloak] input,
-[v-cloak] textarea {
-  cursor: no-drop; }
-
-[v-cloak] button {
-  pointer-events: none; }
+[v-cloak] {
+  display: none; }
 
 .autograph {
   max-width: 200px; }

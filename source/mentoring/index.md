@@ -14,7 +14,7 @@ I am here to offer you the same experience. I have been in the web development i
 Get to know me by [checking the about page](/about-me/) or [hire me page](/hire-me/).
 
 <div class="kwes-form form" v-cloak>
-  <form method="POST" action="https://kwes.io/api/foreign/forms/vbu1VyogUhgQ3qVf73L6" multistep mode="test">
+  <form method="POST" action="https://kwes.io/api/foreign/forms/vbu1VyogUhgQ3qVf73L6" multistep>
     <form-step header="Step 1">
       <label class="radio">Are you interested in career mentoring or technical mentoring?</label>
       <div class="kw-radio-group">

@@ -10,7 +10,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.8',
+  suffix: 'v1.2.9',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -374,11 +374,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "categories/articles/index.html",
-    "revision": "edf5afe04b100dea5b095346174c452f"
+    "revision": "a6333184f6fbb1796673b36c43376834"
   },
   {
     "url": "contact/index.html",
-    "revision": "39c3bff28ca71df621efa50705adc3cb"
+    "revision": "201ebd5e3f6f9c5766524ac05f20ee7d"
   },
   {
     "url": "css/foft.css",
@@ -430,11 +430,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "css/style4.critical.css",
-    "revision": "eeaabae580358b6024169d6cbdd38305"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "css/style4.critical.min.css",
-    "revision": "644df97e7acec01a8c38572c8eaf778b"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "css/style5.critical.css",
@@ -762,7 +762,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "mentoring/index.html",
-    "revision": "84d0e0afeb907b70ed5e428aaeb135ba"
+    "revision": "f5dda9112d85ddbe4cc56195f8d37317"
   },
   {
     "url": "offline.html",
