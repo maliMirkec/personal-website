@@ -35,7 +35,7 @@ Get to know me by [checking the about page](/about-me/) or [hire me page](/hire-
       <textarea id="note" name="note" rules="required" rows="6"></textarea>
       <div kw-show="fields.mentoring == 2">
         <label for="note2">Tell me which skills do you want to aquire or approve?</label>
-        <textarea id="note2" name="note2" rules="required" rows="6"></textarea>
+        <textarea id="note2" name="note2" rules="required_if:mentoring,2" rows="6"></textarea>
       </div>
     </form-step>
   </form>
