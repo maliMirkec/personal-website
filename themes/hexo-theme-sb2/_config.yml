@@ -199,10 +199,11 @@ portfolio:
 sidebar:
   title: Quick Links
   items:
-    Contact: /contact/
     About: /about-me/
     Hire me: /hire-me/
     Services: /services/
+    Contact: /contact/
+    Mentoring: /mentoring/
     Setup: /uses/
     My Links: /links/
     CV: /portfolio/silvestar-bistrovic-cv.pdf

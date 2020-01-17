@@ -5,6 +5,8 @@ const rename = require('gulp-rename')
 
 critical.DEBUG = true // process.env.NODE_ENV !== 'production'
 
+process.setMaxListeners(0)
+
 const { helpers } = require('./helpers')
 
 const criticalConfig = require('./.critical.json')

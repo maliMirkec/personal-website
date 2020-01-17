@@ -10,7 +10,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.7',
+  suffix: 'v1.2.8',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -23,16 +23,16 @@ workbox.routing.registerRoute(
   new workbox.strategies.NetworkFirst()
 )
 
-// Serve all css files with StaleWhileRevalidate strategy
+// Serve all css files with NetworkFirst strategy
 workbox.routing.registerRoute(
   /\.js$/,
-  new workbox.strategies.StaleWhileRevalidate()
+  new workbox.strategies.NetworkFirst()
 )
 
-// Serve all css files with StaleWhileRevalidate strategy
+// Serve all css files with NetworkFirst strategy
 workbox.routing.registerRoute(
   /\.css$/,
-  new workbox.strategies.StaleWhileRevalidate()
+  new workbox.strategies.NetworkFirst()
 )
 
 // Serve all other assets with CacheFirst strategy

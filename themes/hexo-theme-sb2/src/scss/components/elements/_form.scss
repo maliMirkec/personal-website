@@ -1,71 +1,34 @@
 .form {
   margin-top: rem(40);
-  display: flex;
-  flex-wrap: wrap;
 
   * {
     box-sizing: border-box;
   }
 
   form {
-    flex: 0 0 100%;
-    width: 100%;
-    order: 1;
-    margin-bottom: 20px;
-  }
-
-  [class*="kw-message"] {
-    flex: 0 0 100%;
-    width: 100%;
-    order: 2;
-  }
-
-  span,
-  label,
-  button {
-    flex: 1 1 100%;
-    width: 100%;
-  }
-
-  span {
-    display: block;
-    position: relative;
-    padding-bottom: 10px;
-
-    .help {
-      color: $color-beta;
-      font-size: ms(-2);
-      position: absolute;
-      right: 8px;
-
-      &:nth-of-type(1) {
-        top: 0;
-      }
-
-      &:nth-of-type(2) {
-        top: 16px;
-      }
-    }
+    margin-bottom: rem(20);
   }
 
   label {
+    display: block;
     font-size: ms(0);
 
     &:not(:first-of-type) {
-      margin-top: rem(20);
+      margin-top: rem(10);
     }
   }
+
 
   small {
     color: lighten($color-psi, 12.5%);
   }
 
-  input,
+  input:not([type="checkbox"]):not([type="radio"]),
   button {
-    min-height: 70px;
+    min-height: rem(70);
   }
 
-  input,
+  input:not([type="checkbox"]):not([type="radio"]),
   textarea {
     font-family: $font-alpha;
     background-color: lighten($color-alpha, 50%);
@@ -88,7 +51,7 @@
     }
   }
 
-  input,
+  input:not([type="checkbox"]):not([type="radio"]),
   textarea,
   button {
     font-size: ms(0);
@@ -108,6 +71,12 @@
     }
   }
 
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  button {
+    width: 100%;
+  }
+
   button {
     font-family: $font-beta;
     font-size: ms(0);
@@ -123,6 +92,37 @@
     }
   }
 
+  .kw-form-wrapper,
+  .has-panels {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .kw-field-wrapper:not(.kw-radio) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: rem(24);
+
+    .help {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+    }
+  }
+
+  .kw-radio {
+    display: flex;
+    align-items: center;
+    padding-top: rem(10);
+
+    input {
+      margin-right: .5em;
+    }
+  }
+
   .kw-message-error {
     background-color: lighten($color-beta, 50%) !important;
     color: darken($color-beta, 10%) !important;
@@ -131,6 +131,55 @@
     span {
       padding-bottom: 0;
     }
+  }
+
+  .kw-multistep-footer {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      float: none;
+      flex: 0 0 auto;
+      width: auto;
+      margin-top: 0;
+      padding: rem(10) rem(20);
+      min-height: rem(50);
+      min-width: rem(130);
+
+      &[disabled] {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .kw-multistep-button-previous,
+  .kw-multistep-button-next {
+    background-color: darken($color-gamma, 12.5%);
+    border-color: darken($color-gamma, 17.5%);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: lighten($color-alpha, 12.5%);
+    }
+  }
+
+  .kw-multistep-clearfix {
+    display: none;
+  }
+
+  .radio + .kw-field-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+
+.desc {
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  p {
+    margin: 0;
   }
 }
 
