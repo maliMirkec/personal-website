@@ -1427,87 +1427,48 @@ code {
       font-size: 0.8rem; } }
 
 .form {
-  margin-top: calc(2.10526 * 1rem);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  margin-top: calc(2.10526 * 1rem); }
   .form * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   .form form {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    width: 100%;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-    margin-bottom: 20px; }
-  .form [class*="kw-message"] {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    width: 100%;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2; }
-  .form span,
-  .form label,
-  .form button {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    width: 100%; }
-  .form span {
-    display: block;
-    position: relative;
-    padding-bottom: 10px; }
-    .form span .help {
-      color: #e01258;
-      font-size: 0.56278rem;
-      position: absolute;
-      right: 8px; }
-      .form span .help:nth-of-type(1) {
-        top: 0; }
-      .form span .help:nth-of-type(2) {
-        top: 16px; }
+    margin-bottom: calc(1.05263 * 1rem); }
   .form label {
+    display: block;
     font-size: 1rem; }
     .form label:not(:first-of-type) {
-      margin-top: calc(1.05263 * 1rem); }
+      margin-top: calc(0.52632 * 1rem); }
   .form small {
     color: #3f3f3f; }
-  .form input,
+  .form input:not([type="checkbox"]):not([type="radio"]),
   .form button {
-    min-height: 70px; }
-  .form input,
+    min-height: calc(3.68421 * 1rem); }
+  .form input:not([type="checkbox"]):not([type="radio"]),
   .form textarea {
     font-family: "Barlow", sans-serif;
     background-color: #f3fefb;
     width: 100%; }
-    .form input[class*="is-danger"],
+    .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"],
     .form textarea[class*="is-danger"] {
       border: calc(0.15789 * 1rem) solid #f14e85;
       background-color: #fef3f7; }
-      .form input[class*="is-danger"]:hover, .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"]:hover, .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"]:focus, .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"]:active,
       .form textarea[class*="is-danger"]:hover,
       .form textarea[class*="is-danger"]:focus,
       .form textarea[class*="is-danger"]:active {
         border: calc(0.15789 * 1rem) solid #e01258; }
-      .form input[class*="is-danger"]:focus, .form input[class*="is-danger"]:active,
+      .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"]:focus, .form input:not([type="checkbox"]):not([type="radio"])[class*="is-danger"]:active,
       .form textarea[class*="is-danger"]:focus,
       .form textarea[class*="is-danger"]:active {
         outline: calc(0.15789 * 1rem) solid #e01258; }
-  .form input,
+  .form input:not([type="checkbox"]):not([type="radio"]),
   .form textarea,
   .form button {
     font-size: 1rem;
     line-height: 2;
     padding: calc(0.52632 * 1rem) calc(1.05263 * 1rem);
     border: calc(0.15789 * 1rem) solid #4ef1bd; }
-    .form input:hover, .form input:focus, .form input:active,
+    .form input:not([type="checkbox"]):not([type="radio"]):hover, .form input:not([type="checkbox"]):not([type="radio"]):focus, .form input:not([type="checkbox"]):not([type="radio"]):active,
     .form textarea:hover,
     .form textarea:focus,
     .form textarea:active,
@@ -1515,12 +1476,16 @@ code {
     .form button:focus,
     .form button:active {
       border-color: #12e09f; }
-    .form input:focus, .form input:active,
+    .form input:not([type="checkbox"]):not([type="radio"]):focus, .form input:not([type="checkbox"]):not([type="radio"]):active,
     .form textarea:focus,
     .form textarea:active,
     .form button:focus,
     .form button:active {
       outline: calc(0.15789 * 1rem) solid #12e09f; }
+  .form input:not([type="checkbox"]):not([type="radio"]),
+  .form textarea,
+  .form button {
+    width: 100%; }
   .form button {
     font-family: "Playfair Display", serif;
     font-size: 1rem;
@@ -1530,19 +1495,88 @@ code {
     cursor: pointer; }
     .form button:hover, .form button:focus, .form button:active {
       background-color: #42f0b9; }
+  .form .kw-form-wrapper,
+  .form .has-panels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .form .kw-field-wrapper:not(.kw-radio) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: calc(1.26316 * 1rem); }
+    .form .kw-field-wrapper:not(.kw-radio) .help {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0; }
+  .form .kw-radio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: calc(0.52632 * 1rem); }
+    .form .kw-radio input {
+      margin-right: .5em; }
   .form .kw-message-error {
     background-color: #fef3f7 !important;
     color: #b10e45 !important;
     border-radius: 0; }
     .form .kw-message-error span {
       padding-bottom: 0; }
+  .form .kw-multistep-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .form .kw-multistep-footer button {
+      float: none;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      margin-top: 0;
+      padding: calc(0.52632 * 1rem) calc(1.05263 * 1rem);
+      min-height: calc(2.63158 * 1rem);
+      min-width: calc(6.84211 * 1rem); }
+      .form .kw-multistep-footer button[disabled] {
+        opacity: 0.6; }
+  .form .kw-multistep-button-previous,
+  .form .kw-multistep-button-next {
+    background-color: #d5d5d5;
+    border-color: #c8c8c8; }
+    .form .kw-multistep-button-previous:hover, .form .kw-multistep-button-previous:focus, .form .kw-multistep-button-previous:active,
+    .form .kw-multistep-button-next:hover,
+    .form .kw-multistep-button-next:focus,
+    .form .kw-multistep-button-next:active {
+      background-color: #42f0b9; }
+  .form .kw-multistep-clearfix {
+    display: none; }
+  .form .radio + .kw-field-wrapper {
+    padding-bottom: 0; }
 
-[v-cloak] input,
-[v-cloak] textarea {
-  cursor: no-drop; }
+.desc {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .desc p {
+    margin: 0; }
 
-[v-cloak] button {
-  pointer-events: none; }
+[v-cloak] {
+  display: none; }
 
 .autograph {
   max-width: 200px; }

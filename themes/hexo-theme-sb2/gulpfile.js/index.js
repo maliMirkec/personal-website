@@ -30,10 +30,7 @@ exports.dev = series(
   clean.cleanStart,
   parallel(
     global.config.css.run ? css.cssStart : helpers.skip,
-    series(
-      global.config.js.run ? js.jsStart : helpers.skip,
-      global.config.js.run ? js.swStart : helpers.skip
-    ),
+    global.config.js.run ? js.jsStart : helpers.skip,
     global.config.gfx.run ? gfx.gfxStart : helpers.skip,
     global.config.fonts.run ? fonts.fontsStart : helpers.skip
   ),
@@ -42,7 +39,6 @@ exports.dev = series(
     sync.syncStart,
     global.config.css.run ? css.cssListen : helpers.skip,
     global.config.js.run ? js.jsListen : helpers.skip,
-    global.config.js.run ? js.swListen : helpers.skip,
     global.config.gfx.run ? gfx.gfxListen : helpers.skip,
     global.config.fonts.run ? fonts.fontsListen : helpers.skip,
     global.config.html.run ? html.htmlListen : helpers.skip,
@@ -55,10 +51,7 @@ exports.build = series(
   parallel(
     global.config.favicon.run ? favicon.faviconStart : helpers.skip,
     global.config.css.run ? css.cssStart : helpers.skip,
-    series(
-      global.config.js.run ? js.jsStart : helpers.skip,
-      global.config.js.run ? js.swStart : helpers.skip
-    ),
+    global.config.js.run ? js.jsStart : helpers.skip,
     global.config.gfx.run ? gfx.gfxStart : helpers.skip,
     global.config.fonts.run ? fonts.fontsStart : helpers.skip
   ),
@@ -73,7 +66,8 @@ exports.build = series(
     global.config.html.run ? html.htmlListenCritical : helpers.skip,
     global.config.critical.run ? helpers.kill : helpers.skip
   ),
-  global.config.gzip.run ? gzip.gzipStart : helpers.skip
+  global.config.gzip.run ? gzip.gzipStart : helpers.skip,
+  global.config.js.run ? js.swStart : helpers.skip
 )
 
 exports.default = series(
@@ -82,8 +76,7 @@ exports.default = series(
     global.config.favicon.run ? favicon.faviconStart : helpers.skip,
     global.config.css.run ? css.cssStart : helpers.skip,
     series(
-      global.config.js.run ? js.jsStart : helpers.skip,
-      global.config.js.run ? js.swStart : helpers.skip
+      global.config.js.run ? js.jsStart : helpers.skip
     ),
     global.config.gfx.run ? gfx.gfxStart : helpers.skip,
     global.config.fonts.run ? fonts.fontsStart : helpers.skip
@@ -96,7 +89,6 @@ exports.default = series(
     sync.syncStart,
     global.config.css.run ? css.cssListen : helpers.skip,
     global.config.js.run ? js.jsListen : helpers.skip,
-    global.config.js.run ? js.swListen : helpers.skip,
     global.config.gfx.run ? gfx.gfxListen : helpers.skip,
     global.config.fonts.run ? fonts.fontsListen : helpers.skip,
     global.config.html.run ? html.htmlListen : helpers.skip,

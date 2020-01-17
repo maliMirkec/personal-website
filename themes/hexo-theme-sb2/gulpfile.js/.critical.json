@@ -1,7 +1,7 @@
 [{
   "src": "style.css",
   "settings": {
-    "out": "style7.critical.css",
+    "out": "style8.critical.css",
     "url": "http://localhost:4001/about-me/",
     "width": 1920,
     "height": 1800,
@@ -9,6 +9,24 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
+    "phantomJsOptions": {
+      "ssl-protocol": "any",
+      "ignore-ssl-errors": true
+    }
+  }
+}, {
+  "src": "style.css",
+  "settings": {
+    "out": "style7.critical.css",
+    "url": "http://localhost:4001/mentoring/",
+    "width": 1920,
+    "height": 2200,
+    "keepLargerMediaQueries": true,
+    "strict": false,
+    "blockJSRequests": true,
+    "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -20,11 +38,12 @@
     "out": "style6.critical.css",
     "url": "http://localhost:4001/contact/",
     "width": 1920,
-    "height": 1800,
+    "height": 2200,
     "keepLargerMediaQueries": true,
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -41,6 +60,7 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -57,6 +77,7 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -73,6 +94,7 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -89,6 +111,7 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true
@@ -105,6 +128,7 @@
     "strict": false,
     "blockJSRequests": true,
     "renderWaitTime": 3000,
+    "timeout": 60000,
     "phantomJsOptions": {
       "ssl-protocol": "any",
       "ignore-ssl-errors": true

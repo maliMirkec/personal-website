@@ -16,11 +16,12 @@ I am Silvestar Bistrović, fearless web engineer, CSS developer, [JAMstack](//ja
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.
 
+I started my career in a local web development company where I have been working as a backend PHP developer. My career took a turn when I started to work for a local startup as a frontend developer. In spring of 2017, I started to work remotely as a freelance web developer from my office in Osijek, Croatia.
+
 When I am not coding, I like to write new articles on my blog.
 
-I am working as a freelance web developer, and I am working remotely from my office in Osijek, Croatia.
-
-If you want to get in touch, [fill the contact form](/contact/) or [send me the email](mailto:me@silvestar.codes).
+If you want to get in touch, please [fill the contact form](/contact/), or [send me the email](mailto:me@silvestar.codes).
+For more information [check my porfolio](/portfolio/) or [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).
 
 <svg class="autograph" height="103" viewBox="0 0 424 103" width="424" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
@@ -40,5 +41,3 @@ If you want to get in touch, [fill the contact form](/contact/) or [send me the 
       d="m360.729905 31.3135042c1.786326-3.215388-4.287184-4.6444494-4.64445-1.4290614-.357265 2.1435921 2.858123 4.6444494 4.64445 1.4290614z" />
   </g>
 </svg>
-
-P.S. You could [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).

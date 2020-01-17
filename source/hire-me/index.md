@@ -18,6 +18,13 @@ If you are still interested in collaborating with me, [contact me].
 
 And here is what some nice people that were my clients said about working with me.
 
+> _“Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers._
+> _In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls._
+> _When working with Silvestar, I know that the work will be done quickly and correctly, but that he'll also point out any areas where he thinks we can improve. He's always looking out for opportunities to improve performance, maintainability, and accessibility. I get the impression that he's constantly learning and reflecting on his work, always looking for ways that he can build his skillset even more and produce even higher quality work (if that's possible!).”_
+>
+> — John Ganotis, Entrepreneur
+> Projects: [Credit Card Insider](/portfolio/creditcardinsider/)
+
 > _“We've worked with Silvestar on several projects, and he's been a pleasure to work with on all of them. Recently, he handled primary front end development for two large web sites that were launched on Adobe Experience Manager. He's also worked on the front end development of a large WordPress project as well as some smaller campaign landing page and microsite work._
 >
 > _In all cases, Silvestar's been a breeze to work with. Communication is easy, and he's happy to be part of a larger team, attend regular standups, stay in close communication electronically, etc. (a key factor when working across countries/time zones)._
@@ -28,7 +35,7 @@ And here is what some nice people that were my clients said about working with m
 >
 > _I'd happily work with Silvestar again, and we'll definitely reach out to him in the future when we need help with additional projects.”_
 >
-> — Evan Lavidor Partner & Executive Director at BEAM Interactive
+> — Evan Lavidor, Partner & Executive Director at BEAM Interactive
 > Projects: [Bozzuto](/portfolio/bozzuto/), [Calvert](/portfolio/calvert/)
 
 <span></span>
