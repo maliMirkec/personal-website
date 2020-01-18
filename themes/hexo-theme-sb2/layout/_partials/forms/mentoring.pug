@@ -1,0 +1,26 @@
+.kwes-form.form(v-cloak="true")
+  form(method="POST", action="https://kwes.io/api/foreign/forms/vbu1VyogUhgQ3qVf73L6", multistep="true")
+    form-step(header="Step 1")
+      label.radio Are you interested in career mentoring or technical mentoring?
+      .kw-radio-group
+        input#Career(type="radio", name="mentoring", value="Career", label="Career", checked="checked")
+        input#Technical(type="radio", name="mentoring", value="Technical", label="Technical")
+      .desc
+        p
+          small Career mentoring means I help you make decisions regarding your career.
+        p
+          small
+            | Technical mentoring means I help you gain new skills or improve the current skill level.
+    form-step(header="Step 2")
+      label(for="name") What is your name?
+      input#name(type="text", name="name", rules="required")
+      label(for="email")
+        | Please tell me your email address
+        small (I would use it only for direct communication)
+        | .
+      input#email(type="email", name="email", rules="required|email|max:255")
+      label(for="note") Tell me why I should mentor you?
+      textarea#note(name="note", rules="required", rows="6")
+      div(kw-show="fields.mentoring == 'Technical'")
+        label(for="note2") Tell me which skills do you want to aquire or approve?
+        textarea#note2(name="note2", rules="required_if:mentoring,Technical", rows="6")

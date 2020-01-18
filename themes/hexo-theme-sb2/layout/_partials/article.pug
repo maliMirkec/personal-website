@@ -57,6 +57,10 @@ if (page && page.title)
   if (page && page.content)
     .content
       div!= page.content
+      if (page && page.form && page.form == 'contact')
+        include forms/contact
+      if (page && page.form && page.form == 'mentoring')
+        include forms/mentoring
 
   if (page && page.quotes)
     h2.article__testimonials= "Testimonials"
