@@ -23,6 +23,8 @@ I had this idea for a while, and I have decided to give it a shot with mentoring
 
 Since I work remotely, I am talking about remote mentoring here. That means I would accept applications from all over the world.
 
+<!-- more -->
+
 > _Note that I am located in Croatia, and I speak only English and Croatian. 🇭🇷_
 
 ## Background
