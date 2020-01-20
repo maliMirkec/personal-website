@@ -166,15 +166,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "archives/2020/01/index.html",
-    "revision": "aab3e122fc51e19abe481a0f960c0114"
+    "revision": "0c5994d864cacc90b58557657a8df0ae"
   },
   {
     "url": "archives/2020/index.html",
-    "revision": "dbbf7b1e90c77006bd51481e12e790fe"
+    "revision": "13502ca89a9153a7edb83c21a6405061"
   },
   {
     "url": "archives/index.html",
-    "revision": "effd8e9a39ad30cc1c0464b3ad53f2c9"
+    "revision": "182dc817c1196f9471f484c53c4b8a5d"
   },
   {
     "url": "articles/2018-lookback/index.html",
@@ -354,7 +354,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/the-ui-development-mentoring-program/index.html",
-    "revision": "449ff53645c1bd6bd136cf3af831a075"
+    "revision": "3521c0d3e7c522bee8d968573f159d10"
   },
   {
     "url": "articles/using-css-grid-where-appropriate-revisited/index.html",
@@ -378,7 +378,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "categories/articles/index.html",
-    "revision": "fa28220186c9d023c69a4c2812175a68"
+    "revision": "6c08551003eae9fe418dbf9fad705038"
   },
   {
     "url": "contact/index.html",
@@ -954,7 +954,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "tags/mentoring/index.html",
-    "revision": "dc18f7d679d9208d3b1a1bb872da8eb1"
+    "revision": "3541eecbbcdacf3dc554b38f0361033f"
   },
   {
     "url": "tags/middleman/index.html",
@@ -1038,7 +1038,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "tags/ui/index.html",
-    "revision": "3fa1a24d461c0b41f672531ff330903c"
+    "revision": "466e22621fcd94a9a9a0872ff801ceb3"
   },
   {
     "url": "tags/wordpress/index.html",
