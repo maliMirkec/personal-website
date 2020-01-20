@@ -354,7 +354,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/the-ui-development-mentoring-program/index.html",
-    "revision": "97f7247b0615897b67981e983a0b0f97"
+    "revision": "449ff53645c1bd6bd136cf3af831a075"
   },
   {
     "url": "articles/using-css-grid-where-appropriate-revisited/index.html",
@@ -766,7 +766,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "mentoring/index.html",
-    "revision": "9a0cfdf49d17b904eb194adc8421204f"
+    "revision": "c3461bf40a156a71bfd1acb9f65bd3e7"
   },
   {
     "url": "offline.html",

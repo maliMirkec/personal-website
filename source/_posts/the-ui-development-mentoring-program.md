@@ -37,15 +37,15 @@ You could find more about my online presence by [visiting My links section] on m
 
 ## What is UI development
 
-UI development, or User Interface development, is part of the frontend web development that is focused on the user interface. The necessary skills needed for this role are HTML, CSS and JavaScript. Many other skills fall under this category like templating, naming conventions, best practices, optimizations, testing, cross-browser compatibility, and many more. UI development in 2020 is not clearly defined, and that is what makes it hard, but also fun.
+UI development, or User Interface development, is part of the frontend web development that is focused on the user interface. The necessary skills needed for this role are HTML, CSS and JavaScript. Many other skills fall under this category like templating, naming conventions, best practices, optimizations, testing, cross-browser compatibility, and more. UI development in 2020 is not clearly defined, and that is what makes it hard, but also fun.
 
 [{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1579532503/The_UI_Development_Mentoring_program-CTA-2x_nsjgnk.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Join the UI mentoring program." %}](/mentoring/)
 
 Your main task as a UI developer is to present and deliver the content to every user on every device in the most accessible and most performant way. Sometimes you will slice PSD designs into templates, sometimes you will develop unique components, sometimes you will fix style bugs and errors. Developing user interfaces is always challenging, especially now in 2020, with so many different screens and devices to be targeted.
 
-As a UI developer, you should be able to create modern, responsive and optimized websites. If you think about it, every website or web app need an interface. The user interface is the final layer presented to every user. It understands much more than HTML, CSS and JavaScript. It understands fonts, graphic assets, SVG, icons, animations, favicons, performance, painting, rendering, auditing, testing, and much more.
+As a UI developer, you should be able to create modern, responsive and optimized websites. If you think about it, every website or web app need an interface. The user interface is the final layer presented to every user. It understands much more than HTML, CSS and JavaScript. It understands fonts, graphic assets, SVG, icons, animations, favicons, performance, painting, rendering, auditing, testing, and more.
 
-UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a front-end or full-stack developer or even a UI designer–you are the one who decides.
+UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a frontend or full-stack developer or even a UI designer–you are the one who decides.
 
 <!-- ## Early applications
 
@@ -95,7 +95,7 @@ To be able to do this efficiently, we need to understand each other and respect 
 
 The only requirement for this program is your strong desire to become a UI developer. Your background or current skill level doesn't matter. But know that [a developer's job requires constant learning].
 
-There won't be “deadlines”. You should choose your own pace. We are all different. Maybe you decide to switch the profession or maybe you have other priorities. I don't mind as long as you have the determination to become a UI developer.
+There won't be “deadlines” because you should choose your own pace. We are all different. Maybe you decided to switch the profession, or you have other priorities. I don't mind as long as you have the determination to become a UI developer.
 
 ## Apply now
 
