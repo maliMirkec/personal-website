@@ -537,15 +537,20 @@ img {
   animation-fill-mode: forwards;
 }
 
-.cookies {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 0.75019rem;
-  line-height: 1;
+.animated .autograph__path {
+  opacity: 1;
+  -webkit-animation-name: line;
+  animation-name: line;
 }
 
-.cookies a {
-  color: inherit;
-  padding: 5px 15px;
+@-webkit-keyframes line {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes line {
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
