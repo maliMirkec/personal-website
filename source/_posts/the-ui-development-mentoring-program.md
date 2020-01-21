@@ -1,5 +1,5 @@
 ---
-title: The UI Development Mentoring program
+title: The UI Development Mentoring Program
 date: 2020-01-20 06:03:47
 tags:
   - ui
@@ -8,7 +8,7 @@ categories:
   - Blog
 banner1:
   span: "Wanna improve your UI coding skills?"
-  btn1: "Join the program"
+  btn1: "Join the Program"
   btn2: "Become an UI dev 💯"
   link: /mentoring/
 comments: true
@@ -53,7 +53,7 @@ UI skills are often overlooked, as I already [wrote about last year], but it is,
 
 At this point, I decided [to open applications] and wait to see if there will be any interest in this kind of service. Based on the number of applications, I would choose when the program would start, but right now, I am thinking about early March. You will be notified on time if you apply now. -->
 
-## The programs
+## The Programs
 
 There are two kinds of mentoring programs: one that is career-based and one that is skill-based.
 
