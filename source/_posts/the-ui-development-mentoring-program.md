@@ -33,7 +33,7 @@ You could read more about me on [my personal site], but here's the short version
 
 I am an experienced web engineer who has been working with web technologies since 2011. I have started my career as a PHP backend developer. I slowly progressed to becoming a frontend developer, and now I work as a UI developer. I have been working in a local company and later in a local startup until 2017 when I started working as a remote freelance developer. I am also part of the [Toptal talent network].
 
-Regarding my mentoring and teaching experience, I have organized coding school in a company where I used to work. Also, I am writing a blog for years where I try to share some technical tips and techniques and my freelance experience. Currently, I am mentoring my friend to become a UI developer.
+Regarding my mentoring and teaching experience, I have organized coding school in a company where I used to work. I am writing a blog for years where I try to share some technical tips and techniques and my freelance experience. I did some online mentoring via [Codementor] before. Currently, I am mentoring my friend to become a UI developer.
 
 You could find more about my online presence by [visiting My links section] on my site.
 
@@ -108,6 +108,7 @@ If you are interested, please [fill out the form]. Let's start this journey toge
 [asked a question about mentoring on dev.to]: https://dev.to/starbist/do-you-think-remote-mentoring-could-work-2p2e
 [my personal site]: https://www.silvestar.codes/
 [Toptal talent network]: https://www.toptal.com#trust-nothing-but-brilliant-freelancers
+[Codementor]: https://www.codementor.io/@malimirkeccita/
 [visiting My links section]: https://www.silvestar.codes/links/
 [wrote about last year]: https://www.toptal.com/css/why-you-need-a-css-developer
 [to open applications]: https://www.silvestar.codes/mentoring/
