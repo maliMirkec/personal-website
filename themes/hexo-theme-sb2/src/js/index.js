@@ -1,3 +1,4 @@
+// signature animation
 const calcPaths = (totalDur) => {
   // unset 'animated' class to body which will reset the animation
   document.body.classList.remove('animated')
@@ -49,5 +50,40 @@ const calcPaths = (totalDur) => {
 }
 
 calcPaths(5)
+
+// form progress steps
+document.addEventListener('click', function (e) {
+  // loop parent nodes from the target to the delegation node
+  for (let { target } = e; target && target !== this; target = target.parentNode) {
+    if (target.matches('.kw-multistep-button')) {
+      const $form = document.querySelector('.form')
+      if (target.classList.contains('kw-multistep-button-next')) {
+        $form.classList.remove('step1')
+        $form.classList.add('step2')
+      }
+      if (target.classList.contains('kw-multistep-button-previous')) {
+        $form.classList.remove('step2')
+        $form.classList.add('step1')
+      }
+      break
+    }
+  }
+}, false)
+
+// window.addEventListener('load', (event) => {
+//   const $kwButtons = document.querySelectorAll('.kw-multistep-button')
+//   const $kwStep = document.querySelector('.kw-form-step')
+
+//   console.log('page is fully loaded')
+//   console.log($kwButtons)
+
+//   $kwButtons.forEach(($kwButton) => {
+//     console.log($kwButton)
+
+//     $kwButton.addEventListener('click', () => {
+//       console.log($kwStep.style.display)
+//     })
+//   })
+// })
 
 console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')

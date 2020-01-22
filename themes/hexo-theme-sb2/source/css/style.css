@@ -1578,6 +1578,45 @@ code {
 [v-cloak] {
   display: none; }
 
+.steps {
+  display: block;
+  max-width: 80px;
+  margin: 20px auto; }
+
+.steps__path {
+  stroke-dasharray: 1640;
+  stroke-dashoffset: 1020; }
+  .step1 .steps__path {
+    -webkit-animation: step1 1s ease-in-out forwards;
+    animation: step1 1s ease-in-out forwards; }
+  .step2 .steps__path {
+    -webkit-animation: step2 1s ease-in-out forwards;
+    animation: step2 1s ease-in-out forwards; }
+
+@-webkit-keyframes step1 {
+  0% {
+    stroke-dashoffset: -1020; }
+  100% {
+    stroke-dashoffset: 1020; } }
+
+@keyframes step1 {
+  0% {
+    stroke-dashoffset: -1020; }
+  100% {
+    stroke-dashoffset: 1020; } }
+
+@-webkit-keyframes step2 {
+  0% {
+    stroke-dashoffset: 1020; }
+  100% {
+    stroke-dashoffset: -1020; } }
+
+@keyframes step2 {
+  0% {
+    stroke-dashoffset: 1020; }
+  100% {
+    stroke-dashoffset: -1020; } }
+
 .autograph {
   max-width: 200px; }
 
