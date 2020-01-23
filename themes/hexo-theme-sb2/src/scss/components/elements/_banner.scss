@@ -138,3 +138,23 @@
     }
   }
 }
+
+.banner--omega {
+  @include bsh($color-beta);
+  background-color: $color-omega;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq($from: desktop) {
+    max-width: 800px;
+
+    p {
+      font-size: ms(-1);
+    }
+  }
+}

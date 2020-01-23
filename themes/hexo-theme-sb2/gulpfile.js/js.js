@@ -49,6 +49,7 @@ function swStart () {
   return injectManifest({
     globDirectory: helpers.parse(jsConfig.swConfig.globDirectory),
     globPatterns: jsConfig.swConfig.globPatterns,
+    globIgnores: jsConfig.swConfig.globIgnores.map(ignore => helpers.parse(ignore)),
     swSrc: helpers.parse(jsConfig.swConfig.swSrc),
     swDest: helpers.parse(jsConfig.swConfig.swDest)
   })
