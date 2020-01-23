@@ -8,16 +8,22 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`)
 }
 
+// workbox.setConfig({ debug: true })
+
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.13',
+  suffix: 'v1.2.14',
   precache: 'precache',
   runtime: 'runtime'
 })
 
-workbox.precaching.precacheAndRoute([])
+workbox.core.skipWaiting()
+
+workbox.core.clientsClaim()
 
 workbox.precaching.cleanupOutdatedCaches()
+
+workbox.precaching.precacheAndRoute([])
 
 // Serve all html files with StaleWhileRevalidate strategy
 workbox.routing.registerRoute(
@@ -27,7 +33,10 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
-        maxAgeSeconds: 1// 24 * 60 * 60
+        maxAgeSeconds: 60 * 60
+      }),
+      new workbox.broadcastUpdate.Plugin({
+        channelName: 'html-updates'
       })
     ]
   })
@@ -41,7 +50,10 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
-        maxAgeSeconds: 1// 24 * 60 * 60
+        maxAgeSeconds: 24 * 60 * 60
+      }),
+      new workbox.broadcastUpdate.Plugin({
+        channelName: 'js-updates'
       })
     ]
   })
@@ -55,7 +67,10 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
-        maxAgeSeconds: 1// 24 * 60 * 60
+        maxAgeSeconds: 24 * 60 * 60
+      }),
+      new workbox.broadcastUpdate.Plugin({
+        channelName: 'css-updates'
       })
     ]
   })
@@ -69,7 +84,7 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 30,
-        maxAgeSeconds: 1// 30 * 24 * 60 * 60
+        maxAgeSeconds: 30 * 24 * 60 * 60
       })
     ]
   })
