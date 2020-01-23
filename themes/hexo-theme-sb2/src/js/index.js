@@ -1,7 +1,5 @@
+// signature animation
 const calcPaths = (totalDur) => {
-  // unset 'animated' class to body which will reset the animation
-  document.body.classList.remove('animated')
-
   // get all SVG elements - lines and dots
   const paths = document.querySelectorAll('.autograph__path')
   // prepare path length variable
@@ -48,6 +46,52 @@ const calcPaths = (totalDur) => {
   return true
 }
 
-calcPaths(5)
+// Source: https://codepen.io/jr-cologne/pen/zdYdmx?editors=1000
+const $autograph = document.querySelector('.autograph')
+
+function inView ($elem) {
+  const windowHeight = window.innerHeight
+  const scrollY = window.scrollY || window.pageYOffset
+  const scrollPosition = scrollY + windowHeight
+  const elementPosition = $elem.getBoundingClientRect().top + scrollY + $elem.clientHeight
+
+  if (scrollPosition > elementPosition) {
+    return true
+  }
+
+  return false
+}
+
+if ($autograph) {
+  const animate = () => {
+    console.log(1)
+
+    if (inView($autograph)) {
+      calcPaths(5)
+      document.removeEventListener('scroll', animate)
+    }
+  }
+
+  document.addEventListener('scroll', animate)
+}
+
+// form progress steps
+document.addEventListener('click', function (e) {
+  // loop parent nodes from the target to the delegation node
+  for (let { target } = e; target && target !== this; target = target.parentNode) {
+    if (target.matches('.kw-multistep-button')) {
+      const $form = document.querySelector('.form')
+      if (target.classList.contains('kw-multistep-button-next')) {
+        $form.classList.remove('step1')
+        $form.classList.add('step2')
+      }
+      if (target.classList.contains('kw-multistep-button-previous')) {
+        $form.classList.remove('step2')
+        $form.classList.add('step1')
+      }
+      break
+    }
+  }
+}, false)
 
 console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')

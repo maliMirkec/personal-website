@@ -2,7 +2,7 @@
   "src": "style.css",
   "settings": {
     "out": "style8.critical.css",
-    "url": "https://develop.silvestar.codes/about-me/",
+    "url": "http://localhost:4001/about-me/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -19,9 +19,9 @@
   "src": "style.css",
   "settings": {
     "out": "style7.critical.css",
-    "url": "https://develop.silvestar.codes/mentoring/",
+    "url": "http://localhost:4001/mentoring/?cache=1",
     "width": 1920,
-    "height": 2200,
+    "height": 2400,
     "keepLargerMediaQueries": true,
     "strict": false,
     "blockJSRequests": true,
@@ -36,9 +36,9 @@
   "src": "style.css",
   "settings": {
     "out": "style6.critical.css",
-    "url": "https://develop.silvestar.codes/contact/",
+    "url": "http://localhost:4001/contact/?cache=1",
     "width": 1920,
-    "height": 2200,
+    "height": 2000,
     "keepLargerMediaQueries": true,
     "strict": false,
     "blockJSRequests": true,
@@ -53,7 +53,7 @@
   "src": "style.css",
   "settings": {
     "out": "style5.critical.css",
-    "url": "https://develop.silvestar.codes/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/",
+    "url": "http://localhost:4001/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -70,7 +70,7 @@
   "src": "style.css",
   "settings": {
     "out": "style4.critical.css",
-    "url": "https://develop.silvestar.codes/categories/articles/",
+    "url": "http://localhost:4001/categories/articles/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -87,7 +87,7 @@
   "src": "style.css",
   "settings": {
     "out": "style3.critical.css",
-    "url": "https://develop.silvestar.codes/portfolio/",
+    "url": "http://localhost:4001/portfolio/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -104,7 +104,7 @@
   "src": "style.css",
   "settings": {
     "out": "style2.critical.css",
-    "url": "https://develop.silvestar.codes/portfolio/westwing/",
+    "url": "http://localhost:4001/portfolio/westwing/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,
@@ -121,7 +121,7 @@
   "src": "style.css",
   "settings": {
     "out": "style.critical.css",
-    "url": "https://develop.silvestar.codes/",
+    "url": "http://localhost:4001/?cache=1",
     "width": 1920,
     "height": 1800,
     "keepLargerMediaQueries": true,

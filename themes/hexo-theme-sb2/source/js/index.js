@@ -1,9 +1,8 @@
 "use strict";
 
+// signature animation
 var calcPaths = function calcPaths(totalDur) {
-  // unset 'animated' class to body which will reset the animation
-  document.body.classList.remove('animated'); // get all SVG elements - lines and dots
-
+  // get all SVG elements - lines and dots
   var paths = document.querySelectorAll('.autograph__path'); // prepare path length variable
 
   var len = 0; // prepare animation delay length variable
@@ -39,7 +38,56 @@ var calcPaths = function calcPaths(totalDur) {
 
   document.body.classList.add('animated');
   return true;
-};
+}; // Source: https://codepen.io/jr-cologne/pen/zdYdmx?editors=1000
 
-calcPaths(5);
+
+var $autograph = document.querySelector('.autograph');
+
+function inView($elem) {
+  var windowHeight = window.innerHeight;
+  var scrollY = window.scrollY || window.pageYOffset;
+  var scrollPosition = scrollY + windowHeight;
+  var elementPosition = $elem.getBoundingClientRect().top + scrollY + $elem.clientHeight;
+
+  if (scrollPosition > elementPosition) {
+    return true;
+  }
+
+  return false;
+}
+
+if ($autograph) {
+  var animate = function animate() {
+    console.log(1);
+
+    if (inView($autograph)) {
+      calcPaths(5);
+      document.removeEventListener('scroll', animate);
+    }
+  };
+
+  document.addEventListener('scroll', animate);
+} // form progress steps
+
+
+document.addEventListener('click', function (e) {
+  // loop parent nodes from the target to the delegation node
+  for (var target = e.target; target && target !== this; target = target.parentNode) {
+    if (target.matches('.kw-multistep-button')) {
+      var $form = document.querySelector('.form');
+
+      if (target.classList.contains('kw-multistep-button-next')) {
+        $form.classList.remove('step1');
+        $form.classList.add('step2');
+      }
+
+      if (target.classList.contains('kw-multistep-button-previous')) {
+        $form.classList.remove('step2');
+        $form.classList.add('step1');
+      }
+
+      break;
+    }
+  }
+}, false);
 console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).');

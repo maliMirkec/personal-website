@@ -12,7 +12,7 @@ banner1:
   btn2: "Become an UI dev 💯"
   link: /mentoring/
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1579499915/The_UI_Development_Mentoring_program-2x_us3gqn.jpg
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1579704350/The_UI_Development_Mentoring_program-2x_wohbeq.jpg
 description: I have decided to give it a shot with a brand new mentoring program for UI development. Fill out the form today!
 project:
   name: Mentoring
@@ -48,10 +48,6 @@ Your main task as a UI developer is to present and deliver the content to every 
 As a UI developer, you should be able to create modern, responsive and optimized websites. If you think about it, every website or web app need an interface. The user interface is the final layer presented to every user. It understands much more than HTML, CSS and JavaScript. It understands fonts, graphic assets, SVG, icons, animations, favicons, performance, painting, rendering, auditing, testing, and more.
 
 UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a frontend or full-stack developer or even a UI designer–you are the one who decides.
-
-<!-- ## Early applications
-
-At this point, I decided [to open applications] and wait to see if there will be any interest in this kind of service. Based on the number of applications, I would choose when the program would start, but right now, I am thinking about early March. You will be notified on time if you apply now. -->
 
 ## The Programs
 

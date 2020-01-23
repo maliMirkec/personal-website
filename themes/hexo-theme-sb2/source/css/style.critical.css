@@ -86,6 +86,21 @@ h2 {
   }
 }
 
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  word-break: break-word;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  letter-spacing: calc(0.15em / 3);
+}
+
+@media (min-width: 48em) {
+  h3 {
+    font-size: 1.333rem;
+  }
+}
+
 p {
   margin-top: 1.333rem;
 }
@@ -278,7 +293,8 @@ img {
   font-size: 1rem;
 }
 
-.list h2 {
+.list h2,
+.list h3 {
   letter-spacing: calc(25 / 1000 * 1em);
   text-transform: none;
   color: #e01258;
@@ -290,6 +306,7 @@ img {
   margin-bottom: 0.5em;
 }
 
+.list h3,
 .list .list__headline {
   font-family: "Barlow", sans-serif, sans-serif;
   font-size: 1.333rem;
@@ -319,6 +336,10 @@ img {
 
 .list--alpha a {
   display: block;
+}
+
+.list--alpha h3 {
+  text-align: center;
 }
 
 @media (min-width: 48em) {

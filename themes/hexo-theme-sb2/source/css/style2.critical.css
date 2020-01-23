@@ -177,6 +177,10 @@ img {
   grid-area: content;
 }
 
+.main > div.page-banner {
+  grid-area: pbanner;
+}
+
 @media (min-width: 30em) {
   .main {
     padding: 0 0 50px;
@@ -511,4 +515,112 @@ img {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.banner {
+  padding: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.banner p {
+  font-size: 0.75019rem;
+  margin-top: 0;
+  margin-right: 0.5em;
+}
+
+.banner span {
+  display: block;
+  color: inherit;
+}
+
+.banner .btn {
+  color: #f5f5f5;
+  padding: .125rem .5rem .25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: #1f1f1f;
+  border: 4px solid transparent;
+}
+
+.banner .btn span {
+  text-transform: uppercase;
+  color: inherit;
+  font-weight: bold;
+}
+
+.banner .btn span:nth-child(1) {
+  font-family: "Playfair Display", serif;
+  letter-spacing: calc(50 / 1000 * 1em);
+}
+
+.banner .btn span:nth-child(2) {
+  font-family: "Barlow", sans-serif;
+  letter-spacing: calc(25 / 1000 * 1em);
+  font-size: 0.56278rem;
+}
+
+@media (min-width: 30em) {
+  .banner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .banner p {
+    margin-bottom: 0;
+  }
+
+  .banner .btn {
+    padding: .25rem .5rem;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 48em) {
+  .banner span {
+    display: inline;
+  }
+}
+
+@media (min-width: 75em) {
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .banner .btn {
+    padding: .75rem 1.5rem;
+    margin-left: auto;
+  }
+
+  .banner .btn span:nth-child(2) {
+    margin-top: 0.25rem;
+  }
+}
+
+.banner--beta {
+  border: 1px solid #e01258;
+}
+
+.banner--beta .btn {
+  border-color: #f695b6;
 }
