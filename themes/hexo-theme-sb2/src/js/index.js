@@ -1,8 +1,5 @@
 // signature animation
 const calcPaths = (totalDur) => {
-  // unset 'animated' class to body which will reset the animation
-  document.body.classList.remove('animated')
-
   // get all SVG elements - lines and dots
   const paths = document.querySelectorAll('.autograph__path')
   // prepare path length variable
@@ -49,7 +46,34 @@ const calcPaths = (totalDur) => {
   return true
 }
 
-calcPaths(5)
+// Source: https://codepen.io/jr-cologne/pen/zdYdmx?editors=1000
+const $autograph = document.querySelector('.autograph')
+
+function inView ($elem) {
+  const windowHeight = window.innerHeight
+  const scrollY = window.scrollY || window.pageYOffset
+  const scrollPosition = scrollY + windowHeight
+  const elementPosition = $elem.getBoundingClientRect().top + scrollY + $elem.clientHeight
+
+  if (scrollPosition > elementPosition) {
+    return true
+  }
+
+  return false
+}
+
+if ($autograph) {
+  const animate = () => {
+    console.log(1)
+
+    if (inView($autograph)) {
+      calcPaths(5)
+      document.removeEventListener('scroll', animate)
+    }
+  }
+
+  document.addEventListener('scroll', animate)
+}
 
 // form progress steps
 document.addEventListener('click', function (e) {
@@ -69,21 +93,5 @@ document.addEventListener('click', function (e) {
     }
   }
 }, false)
-
-// window.addEventListener('load', (event) => {
-//   const $kwButtons = document.querySelectorAll('.kw-multistep-button')
-//   const $kwStep = document.querySelector('.kw-form-step')
-
-//   console.log('page is fully loaded')
-//   console.log($kwButtons)
-
-//   $kwButtons.forEach(($kwButton) => {
-//     console.log($kwButton)
-
-//     $kwButton.addEventListener('click', () => {
-//       console.log($kwStep.style.display)
-//     })
-//   })
-// })
 
 console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')
