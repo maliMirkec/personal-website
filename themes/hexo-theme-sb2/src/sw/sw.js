@@ -12,7 +12,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.14',
+  suffix: 'v1.2.15',
   precache: 'precache',
   runtime: 'runtime'
 })

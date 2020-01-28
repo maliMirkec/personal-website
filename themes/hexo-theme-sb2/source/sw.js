@@ -12,7 +12,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.14',
+  suffix: 'v1.2.15',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -34,7 +34,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "archive.html",
-    "revision": "8a0fd3d6be3771c87a6fa25f0b6e4a80"
+    "revision": "a98b443b380e94a037118477aeb8537f"
   },
   {
     "url": "articles/2018-lookback/index.html",
@@ -166,7 +166,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/my-favorite-chrome-extensions-for-web-development-mostly/index.html",
-    "revision": "20e0172c2a0c3a86ff3b4a9e3516f8d6"
+    "revision": "3c8cfbfa56c98a289a3282dfb0f4590e"
   },
   {
     "url": "articles/my-favorite-netlify-features/index.html",
@@ -214,7 +214,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "articles/the-ui-development-mentoring-program/index.html",
-    "revision": "02a1f5d7dae3b258b32ad409a128a3ca"
+    "revision": "774d56aa1874862f207438333b324661"
   },
   {
     "url": "articles/using-css-grid-where-appropriate-revisited/index.html",
@@ -262,11 +262,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "css/style.css",
-    "revision": "071af9d846426ec05424d35d8c89b88e"
+    "revision": "c3424c10ce16cfd8143baf962dcf839b"
   },
   {
     "url": "css/style.min.css",
-    "revision": "2412114b98a1e0c001b4ba2a88ce38e9"
+    "revision": "2820d1abde1880d7cc0655500c22eeda"
   },
   {
     "url": "css/style2.critical.css",
@@ -478,7 +478,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "page.html",
-    "revision": "f3c8a2d21a8cd929c8218069cd4a64cd"
+    "revision": "814b588426d32d72f71f6214a4f5190c"
   },
   {
     "url": "portfolio/atika-interijeri/index.html",
@@ -570,7 +570,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "post.html",
-    "revision": "f3c8a2d21a8cd929c8218069cd4a64cd"
+    "revision": "814b588426d32d72f71f6214a4f5190c"
   },
   {
     "url": "services/index.html",
@@ -586,7 +586,7 @@ workbox.precaching.precacheAndRoute([
 workbox.routing.registerRoute(
   /\.html$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'html-cache',
+    cacheName: 'sb-html-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -603,7 +603,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.js$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'js-cache',
+    cacheName: 'sb-js-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -620,7 +620,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.css$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'css-cache',
+    cacheName: 'sb-css-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -637,7 +637,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.(?:png|jpg|jpeg|svg|gif|webp|ico|webmanifest|eot,ttf,woff,woff2)$/,
   new workbox.strategies.CacheFirst({
-    cacheName: 'asset-cache',
+    cacheName: 'sb-asset-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 30,
