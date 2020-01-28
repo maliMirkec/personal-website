@@ -12,7 +12,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.14',
+  suffix: 'v1.2.15',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -29,7 +29,7 @@ workbox.precaching.precacheAndRoute([])
 workbox.routing.registerRoute(
   /\.html$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'html-cache',
+    cacheName: 'sb-html-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -46,7 +46,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.js$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'js-cache',
+    cacheName: 'sb-js-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -63,7 +63,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.css$/,
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'css-cache',
+    cacheName: 'sb-css-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 20,
@@ -80,7 +80,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   /\.(?:png|jpg|jpeg|svg|gif|webp|ico|webmanifest|eot,ttf,woff,woff2)$/,
   new workbox.strategies.CacheFirst({
-    cacheName: 'asset-cache',
+    cacheName: 'sb-asset-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 30,
