@@ -17,7 +17,7 @@ A web browser is one of the essential tools for web development. Besides awesome
 
 - [Octotree](#Octotree)
 - [Wappalizer](#Wappalizer)
-- [CSS Feature Toggles](#CSS-Feature-Toggles-Extension)
+- [CSS Feature Toggles](#CSS-Feature-Toggles)
 - [Workona](#Workona)
 - [LastPass](#LastPass)
 - [Code Line Daily](#Code-Line-Daily)
