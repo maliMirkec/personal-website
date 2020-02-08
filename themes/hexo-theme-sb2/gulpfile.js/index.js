@@ -66,8 +66,7 @@ exports.build = series(
     global.config.html.run ? html.htmlListenCritical : helpers.skip,
     global.config.critical.run ? helpers.kill : helpers.skip
   ),
-  global.config.gzip.run ? gzip.gzipStart : helpers.skip,
-  global.config.js.run ? js.swStart : helpers.skip
+  global.config.gzip.run ? gzip.gzipStart : helpers.skip
 )
 
 exports.default = series(
@@ -101,5 +100,3 @@ exports.default = series(
     global.config.jsdoc.run ? jsdoc.jsdocListen : helpers.skip
   )
 )
-
-exports.sw = js.swStart

@@ -1,5 +1,5 @@
 // load workbox
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js')
 
 // output successful message
 if (workbox) {
@@ -12,7 +12,7 @@ if (workbox) {
 
 workbox.core.setCacheNameDetails({
   prefix: 'sb',
-  suffix: 'v1.2.15',
+  suffix: 'v1.2.17',
   precache: 'precache',
   runtime: 'runtime'
 })
@@ -23,7 +23,7 @@ workbox.core.clientsClaim()
 
 workbox.precaching.cleanupOutdatedCaches()
 
-workbox.precaching.precacheAndRoute([])
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST)
 
 // Serve all html files with StaleWhileRevalidate strategy
 workbox.routing.registerRoute(
@@ -31,11 +31,11 @@ workbox.routing.registerRoute(
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'sb-html-cache',
     plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 20,
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 10,
         maxAgeSeconds: 60 * 60
       }),
-      new workbox.broadcastUpdate.Plugin({
+      new workbox.broadcastUpdate.BroadcastUpdatePlugin({
         channelName: 'html-updates'
       })
     ]
@@ -48,11 +48,11 @@ workbox.routing.registerRoute(
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'sb-js-cache',
     plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 20,
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 10,
         maxAgeSeconds: 24 * 60 * 60
       }),
-      new workbox.broadcastUpdate.Plugin({
+      new workbox.broadcastUpdate.BroadcastUpdatePlugin({
         channelName: 'js-updates'
       })
     ]
@@ -65,11 +65,11 @@ workbox.routing.registerRoute(
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'sb-css-cache',
     plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 20,
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 10,
         maxAgeSeconds: 24 * 60 * 60
       }),
-      new workbox.broadcastUpdate.Plugin({
+      new workbox.broadcastUpdate.BroadcastUpdatePlugin({
         channelName: 'css-updates'
       })
     ]
@@ -82,8 +82,8 @@ workbox.routing.registerRoute(
   new workbox.strategies.CacheFirst({
     cacheName: 'sb-asset-cache',
     plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 30,
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 10,
         maxAgeSeconds: 30 * 24 * 60 * 60
       })
     ]

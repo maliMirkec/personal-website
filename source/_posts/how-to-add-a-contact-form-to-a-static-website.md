@@ -4,8 +4,9 @@ date: 2019-08-01 11:33:44
 categories:
   - Blog
 tags:
-  - css
-  - open source
+  - spg
+  - ssg
+  - kwes
 canonical: https://www.codementor.io/malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565249057/How_to_add_a_contact_form_to_a_static_website-2x_mqfxlv.jpg
 comments: true
@@ -20,12 +21,16 @@ Adding a contact form to a static site could be a challenge because the static s
 
 We are going to build a contact form with the following fields:
 
-| Form element     | Form field         |
-| --------------   | ----------------   |
-| Name             | Text input         |
-| Email            | Email input        |
-| Message          | Textarea input     |
-| Button           | Submit button      |
+<div class="table-wrapper">
+
+| Form element   | Form field         |
+| -------------- | ----------------   |
+| Name           | Text input         |
+| Email          | Email input        |
+| Message        | Textarea input     |
+| Button         | Submit button      |
+
+</div>
 
 All input fields should be required, and the email form field should be validated.
 
@@ -39,21 +44,21 @@ After signing up, add a new website, and a new form from Kwes dashboard.
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 
-```
+```html
 <script src="https://kwes.io/js/kwes.js"></script>
 ```
 
 I am using [Hexo] static page generator for my site, but it works with other static site generators like [Hugo] or [Jekyll]. Since most of the static site generators support Markdown, you could paste the contact code directly in Markdown, and it would work, too. Otherwise, you could create a separate page or layout and paste the code there.
 
-Pro tip: There is no need to add JavaScript file to pages that don't have a contact form.
+> Pro tip: There is no need to add JavaScript file to pages that don't have a contact form.
 
 Next, we would add an HTML form to our contact page. To do this, start by adding the usual form tags.
 
-Pro tip: Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible.
+> Pro tip: Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible.
 
-Then add the Kwes attributes. Start by adding the wrapper div with the kwes-from class. Next, add the action link to the form element, and then add rules to your input fields. The code should look something like this:
+Then add the Kwes attributes. Start by adding the wrapper div with the `kwes-from` class. Next, add the action link to the `form` element, and then add rules to your `input` fields. The code should look something like this:
 
-```
+```html
 <div class="kwes-form">
   <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
     <label for="name">Name</label>
@@ -70,8 +75,9 @@ Then add the Kwes attributes. Start by adding the wrapper div with the kwes-from
 You could see all the rules options at the [Kwes official documentation].
 
 Before you publish the form, you should test the form first. With Kwes, you could do it in two different ways:
+
 - by providing a testing domain in the site settings, or
-- by adding HTML attribute `mode="test"` to your form element.
+- by adding HTML attribute `mode="test"` to your `form` element.
 
 During [the testing mode], all your submission would not affect the data in your plan. You could view test data in the dashboard by switching the toggle. As easy as that.
 

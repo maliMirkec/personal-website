@@ -51,7 +51,7 @@ Here's the simplified preview of the HTML structure:
 </main>
 ```
 
-Inside the `main` element, we have `header,` `.fake-header` and `article` elements. To make `position: sticky` work, the sticky element should be inside the scrollable element — the `main` element in our case.
+Inside the `main` element, we have `header,` `.fake-header` and `article` elements. To make `position: sticky` work, the sticky element should be inside the scrollable element—the `main` element in our case.
 
 Header holds two elements:
 - `.header--alpha`, the static header, and

@@ -1,7 +1,7 @@
 site:
   full_name: SB
   short_name: Silvestar Bistrović
-  description: Silvestar Bistrović is fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
+  description: Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
@@ -157,7 +157,7 @@ home_page:
 
 open_graph:
   pretty_url: true
-  image: /gfx/jpg/logo.jpg
+  image: /gfx/jpg/cover.jpg
   fb:
     fb_id: 340933169673372
     fb_admins: malimirkeccita
@@ -230,7 +230,7 @@ widgets:
   cookies: true
   about:
     paragraphs:
-      - I am Silvestar Bistrović, fearless web engineer, JAMstack enthusiast and WordPress coder.
+      - I am Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
     contact:
       Contact: /contact/
       # Toptal: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
