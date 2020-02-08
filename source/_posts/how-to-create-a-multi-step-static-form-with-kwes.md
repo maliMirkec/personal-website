@@ -17,6 +17,8 @@ Recently I wanted to add a multi-step form to my site. Since my site runs on Hex
 
 I was delighted to learn that [Kwes now offers a multi-step form functionality]. Before I tell you how I did it, let’s see what a multi-step form, sometimes also referred to as multi-page form, is.
 
+<!--more-->
+
 ## A multi-step form
 
 A multi-step form is a long-form that is broken into pieces. The reason for doing this is to make the form easier to complete. Each step represents grouped inputs that are related to each other, so users are not frightened by the length of the form. It might be more comfortable for users to fill the information step by step because their minds should process fewer fields at the time.
