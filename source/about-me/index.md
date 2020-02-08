@@ -14,7 +14,7 @@ profile: https://res.cloudinary.com/starbist/image/upload/v1545137170/profile_ts
 
 I am Silvestar Bistrović, fearless web engineer, CSS developer, [JAMstack](//jamstack.org/) enthusiast, and WordPress theme specialist.
 
-I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.
+I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my speciality.
 
 I started my career in a local web development company where I have been working as a backend PHP developer. My career took a turn when I started to work for a local startup as a frontend developer. In spring of 2017, I started to work remotely as a freelance web developer from my office in Osijek, Croatia.
 

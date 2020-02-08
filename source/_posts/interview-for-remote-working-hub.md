@@ -56,7 +56,7 @@ When I was starting, most of my clients came from a particular talent network. I
 
 Since, I have invested a lot of time to post meaningful content on my site by publishing blog posts and portfolio projects. Some of my blog posts were featured in newsletters, like CSS Weekly, and some posts started meaningful discussions on websites, such as Hacker News.
 
-This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless — clients began to contact me directly!
+This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless—clients began to contact me directly!
 
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1573311440/pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Old-school typewriter." %}
 
@@ -108,7 +108,7 @@ Having a place to go to work, making and sticking to your schedule, and having a
 
 So far, my career has been skyrocketing beyond my wildest expectations. I am in a situation where clients are waiting in line to work with me. If you had told me at the beginning of my remote career that I would be working on some of these projects, I would have laughed at you. That is what I like in remote working—it is all about your skills, and not about where you live. I think my hard work and commitment to previous projects have paid off, and now I could enjoy my everyday work.
 
-Not all of my goals have been fulfilled. I would like to have more time to produce more blog articles and courses. I would like to publish articles on more websites. I would like to create a better version of my site and side projects. I would like to learn new technologies, like React, or even a new programming language, like Go. I would like to help more people learn how to code. Well, there is always something on my goal list – I hope it would never be empty!
+Not all of my goals have been fulfilled. I would like to have more time to produce more blog articles and courses. I would like to publish articles on more websites. I would like to create a better version of my site and side projects. I would like to learn new technologies, like React, or even a new programming language, like Go. I would like to help more people learn how to code. Well, there is always something on my goal list—I hope it would never be empty!
 
 ##  How do you expect remote working to evolve in the future?
 

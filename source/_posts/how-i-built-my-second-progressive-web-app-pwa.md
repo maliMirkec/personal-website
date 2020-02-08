@@ -57,7 +57,7 @@ workbox wizard --injectManifest
 
 I have selected configured paths and selected files to precache, and Workbox CLI created a new file for me.
 
-To be able to inject the files into the Service Worker file, I added the following line to it:
+To be able to inject the files into the Service Worker file, I have added the following line to it:
 
 ```js
 workbox.precaching.precacheAndRoute([]);

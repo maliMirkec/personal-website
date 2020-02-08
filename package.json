@@ -1,7 +1,7 @@
 {
   "name": "silvestar.codes",
   "version": "3.0.119",
-  "description": "Silvestar Bistrović is fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.",
+  "description": "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.",
   "main": "index",
   "repository": {
     "type": "git",
@@ -23,23 +23,24 @@
     "cp_headers": "cp source/_headers public/_headers",
     "cp_robots-dev": "cp ./robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
-    "deploy": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots-prod",
-    "dev": "hexo generate --silent && npm run cp_redirects && npm run cp_headers && npm run cp_robots-dev"
+    "sw": "node index.js",
+    "deploy": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw",
+    "dev": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
   },
   "hexo": {
-    "version": "4.0.0"
+    "version": "4.2.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
+    "hexo": "^4.2.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-caniuse": "^0.1.4",
     "hexo-cloudinary": "^0.1.5",
     "hexo-codepen": "^0.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.1.0",
+    "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",
-    "hexo-generator-sitemap": "^1.2.0",
+    "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-inline-svg": "^1.1.3",
     "hexo-migrator-wordpress": "^1.0.0",
@@ -47,6 +48,8 @@
     "hexo-render-pug": "^2.1.4",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^1.0.0",
-    "hexo-theme-sb": "^1.0.17"
+    "hexo-theme-sb": "^1.0.17",
+    "workbox-build": "^5.0.0",
+    "yarn": "^1.22.0"
   }
 }

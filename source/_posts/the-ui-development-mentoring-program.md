@@ -47,7 +47,7 @@ Your main task as a UI developer is to present and deliver the content to every 
 
 As a UI developer, you should be able to create modern, responsive and optimized websites. If you think about it, every website or web app need an interface. The user interface is the final layer presented to every user. It understands much more than HTML, CSS and JavaScript. It understands fonts, graphic assets, SVG, icons, animations, favicons, performance, painting, rendering, auditing, testing, and more.
 
-UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a frontend or full-stack developer or even a UI designer–you are the one who decides.
+UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a frontend or full-stack developer or even a UI designer—you are the one who decides.
 
 ## The Programs
 

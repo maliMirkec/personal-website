@@ -1,12 +1,8 @@
 {
-  "wbConfig": {
-    "src": "helpers.source/config.js.src/sw.wb",
-    "dest": "helpers.source/config.js.src/sw.js"
-  },
   "swConfig": {
     "globDirectory": "../../public/",
     "globPatterns": [
-      "**/*.{html,webmanifest,css,eot,svg,ttf,woff,woff2,png,js,ico,jpg}"
+      "**/*.{html,webmanifest,css,js,eot,svg,ttf,woff,woff2,png,ico,jpg}"
     ],
     "globIgnores": [
       "bookmarks/**/*",

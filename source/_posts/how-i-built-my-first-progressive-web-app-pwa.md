@@ -30,7 +30,7 @@ By looking at the PWA report, I realised my site is ready for PWA. There were on
 
 ## How I did it
 
-As my starting point, I decided to follow the [“Your First Progressive Web App” tutorial]. The very first step was to update my `webmanifest.json` file. I added `start_url` and `display` options and some required meta tags, like `<meta name="apple-mobile-web-app-capable" content="yes">`.
+As my starting point, I decided to follow the [“Your First Progressive Web App” tutorial]. The very first step was to update my `webmanifest.json` file. I have added `start_url` and `display` options and some required meta tags, like `<meta name="apple-mobile-web-app-capable" content="yes">`.
 
 ```json
 {
