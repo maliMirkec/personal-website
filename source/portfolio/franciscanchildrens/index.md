@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
 portfolio: true
 quotes:

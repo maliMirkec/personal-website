@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Flexera control and manage software and IT costs, to grow and protect your business.
 portfolio: true
 quotes:

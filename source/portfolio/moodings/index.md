@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
 portfolio: true
 ---

@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
 portfolio: true
 quotes:

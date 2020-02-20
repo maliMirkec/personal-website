@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.
 portfolio: true
 ---

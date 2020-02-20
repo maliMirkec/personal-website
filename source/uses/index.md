@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 date: 2017-08-02 20:08:06
 description: Most developers often spend time on their setup. I am no exception, by no means. These devices, tools, and software help me make the most of my everyday tasks.
 sidebar: true

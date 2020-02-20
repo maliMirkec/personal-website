@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "2020 Q3-Q4"
+  btn2: "Open 2020 Q3-Q4"
 description: Flexera Software can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
 portfolio: true
 quotes:
