@@ -7,6 +7,9 @@ tags:
 categories:
   - Blog
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1568205327/My_favorite_extensions_for_web_development_r9apoh.jpg
+credit:
+  text: Vivek Doshi on Unsplash
+  link: https://unsplash.com/photos/p6GY97dK0X0
 comments: true
 description: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
 ---

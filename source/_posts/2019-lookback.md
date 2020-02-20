@@ -7,6 +7,9 @@ tags:
 categories:
   - Blog
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1576864894/2019-lookback-2x_qhjkuj.jpg
+credit:
+  text: Sam Bark on Unsplash
+  link: https://unsplash.com/photos/XFkkYwKiC_U
 comments: true
 description: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
 ---

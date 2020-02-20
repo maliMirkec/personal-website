@@ -1202,6 +1202,11 @@ code {
       margin-right: 0;
       margin-left: 0; } }
 
+.article__credit {
+  margin-top: calc(0.15789 * 1rem);
+  font-size: 0.75019rem;
+  text-align: right; }
+
 .details {
   margin-top: 0;
   margin-bottom: 0;

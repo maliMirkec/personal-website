@@ -157,7 +157,7 @@ home_page:
 
 open_graph:
   pretty_url: true
-  image: /gfx/jpg/cover.jpg
+  image: /gfx/jpg/social.jpg
   fb:
     fb_id: 340933169673372
     fb_admins: malimirkeccita

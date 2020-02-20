@@ -7,6 +7,9 @@ tags:
 categories:
   - Blog
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1546701300/2018-lookback-2x_xvi1vo.jpg
+credit:
+  text: Sam Bark on Unsplash
+  link: https://unsplash.com/photos/XFkkYwKiC_U
 comments: true
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 ---

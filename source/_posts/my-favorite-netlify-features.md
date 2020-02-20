@@ -9,6 +9,9 @@ tags:
   - netlify
 canonical: https://css-tricks.com/my-favorite-netlify-features/
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565248044/My_favorite_Netlify_features-2x_inepie.jpg
+credit:
+  text: Peter Pryharski on Unsplash
+  link: https://unsplash.com/photos/lXR2boS_O94
 comments: true
 description: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
 ---
