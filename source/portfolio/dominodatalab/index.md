@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
 portfolio: true
 ---
@@ -21,4 +21,4 @@ Link: [dominodatalab.com](//www.dominodatalab.com)
 - Configured CMS settings.
 - Maintained frontend of the website.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

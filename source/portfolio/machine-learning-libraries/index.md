@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python.
 portfolio: true
 ---
@@ -23,4 +23,4 @@ Link: [mllibraries.com](//www.mllibraries.com)
 - Created all pages from designs.
 - Hosted the website on Netlify.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

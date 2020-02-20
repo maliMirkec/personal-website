@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization. The website runs on Middleman, Webpack, Netlify, and Github.
 portfolio: true
 ---
@@ -22,5 +22,5 @@ Link: [contiamo.com](//www.contiamo.com)
 - Helped configure Webpack for development and production environments.
 - Implemented and optimized SVG assets.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).
 

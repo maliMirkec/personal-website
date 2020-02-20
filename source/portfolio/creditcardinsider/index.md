@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
 portfolio: true
 quotes:
@@ -32,4 +32,4 @@ Link: [creditcardinsider.com](https://www.creditcardinsider.com/)
 - Optimized assets delivery.
 - Used the latest best practices for boosting the site speed.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

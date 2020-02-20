@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
 portfolio: true
 ---
@@ -22,4 +22,4 @@ Link: [borninjune.net](//borninjune.net)
 - Hosted the website on DigitalOcean.
 - Used Cloudflare to improve site security and performance.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

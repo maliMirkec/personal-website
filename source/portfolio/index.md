@@ -6,7 +6,7 @@ grid:
   banner1:
     span: "Got questions? Or projects? I would like to learn more. Contact me today!"
     btn1: "👉 Get in touch"
-    btn2: "Response guaranteed ⭐️"
+    btn2: "2020 Q3-Q4"
   list:
     - item:
       title: Credit Card Insider
@@ -100,4 +100,4 @@ grid:
       description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world.
 ---
 
-[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/about-me/). You could [download my CV in PDF here](/portfolio/silvestar-bistrovic-cv.pdf).
+[This website](/how/) is the best example of how awesome your website could be. I've worked on other great projects as well. If you like what you see, feel free to [contact me](/contact/). You could [download my CV in PDF here](/portfolio/silvestar-bistrovic-cv.pdf). You might want to [check my side projects](/side-projects/), too.

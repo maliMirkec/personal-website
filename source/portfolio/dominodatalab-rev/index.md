@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "2020 Q3-Q4"
 description: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
 portfolio: true
 ---
@@ -22,4 +22,4 @@ Link: [rev.dominodatalab.com/](//rev.dominodatalab.com/)
 - Created all pages from designs.
 - Hosted the website on Netlify.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).
