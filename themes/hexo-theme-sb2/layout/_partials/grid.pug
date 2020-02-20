@@ -4,7 +4,7 @@ if (page && page.grid && page.grid.list)
       if (i === 2)
         li.list__item.list__item--banner
           include banner1
-      if (i % 2 === 0 && i >= page.grid.list.length - 2)
+      if (i > 6 && i % 2 === 0 && i >= page.grid.list.length - 2)
         li.list__item.list__item--banner
           include banner2
       if (item && item.src)

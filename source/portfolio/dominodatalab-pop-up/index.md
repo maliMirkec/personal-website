@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "Open 2020 Q3-Q4"
 description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
 portfolio: true
 ---
@@ -20,4 +20,4 @@ Link: [popup.dominodatalab.com](//popup.dominodatalab.com)
 - Configured CMS settings.
 - Maintained frontend of the website.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

@@ -16,7 +16,6 @@ function swStart () {
     ],
     swDest: "public/sw.js",
     swSrc: "sw.js"
-
   })
     .then(({ count, size }) => {
       console.info('Service worker generation completed.')

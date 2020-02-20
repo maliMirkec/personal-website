@@ -8,6 +8,9 @@ categories:
   - Blog
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1550167953/Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
+credit:
+  text: Chris Charles on Unsplash
+  link: https://unsplash.com/photos/9APFPoNb9iw
 description: "As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker."
 ---
 

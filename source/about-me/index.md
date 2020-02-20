@@ -4,7 +4,7 @@ id: 79
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "Open 2020 Q3-Q4"
 comments: false
 date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
@@ -16,7 +16,7 @@ I am Silvestar Bistrović, fearless web engineer, CSS developer, [JAMstack](//ja
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my speciality.
 
-I started my career in a local web development company where I have been working as a backend PHP developer. My career took a turn when I started to work for a local startup as a frontend developer. In spring of 2017, I started to work remotely as a freelance web developer from my office in Osijek, Croatia.
+I started my career in a local web development company where I have been working as a backend PHP developer. My career took a turn when I began to work for a local startup as a frontend developer. In spring of 2017, I began to work remotely as a freelance web developer from my office in Osijek, Croatia. I enjoy every aspect of my remote career since.
 
 When I am not coding, I like to write new articles on my blog.
 

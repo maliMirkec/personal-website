@@ -4,7 +4,7 @@ comments: false
 banner2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "Open 2020 Q3-Q4"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 portfolio: true
 quotes:
@@ -27,4 +27,4 @@ Link: [yearbook2018.trase.earth/](//yearbook2018.trase.earth/)
 
 - Developed a new WordPress theme from scratch based on a design.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

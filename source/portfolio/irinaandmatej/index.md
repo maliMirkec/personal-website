@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "Open 2020 Q3-Q4"
 description: Irina and Matej are wedding and portrait photographers based in Croatia and traveling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
 portfolio: true
 ---
@@ -24,4 +24,4 @@ Link: [irinaandmatej.com](//irinaandmatej.com)
 - Hosted the website on DigitalOcean.
 - Used Cloudflare to improve the security and performance.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

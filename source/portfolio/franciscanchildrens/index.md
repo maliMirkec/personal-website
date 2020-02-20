@@ -4,7 +4,7 @@ comments: false
 banner1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "👉 Get in touch"
-  btn2: "Response guaranteed ⭐️"
+  btn2: "Open 2020 Q3-Q4"
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
 portfolio: true
 quotes:
@@ -33,4 +33,4 @@ Link: [franciscanchildrens.org](//franciscanchildrens.org)
 - Upgraded a responsive navigation style.
 - Updated a layout on several pages.
 
-[View other projects](/portfolio/) or [contact me](/about-me/).
+[View other projects](/portfolio/) or [contact me](/contact/).

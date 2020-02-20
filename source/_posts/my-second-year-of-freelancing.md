@@ -8,6 +8,9 @@ categories:
   - Blog
 comments: true
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1558335657/My_second_year_of_freelancing-2x_acm7w9.jpg
+credit:
+  text: Chris Liverani on Unsplash
+  link: https://unsplash.com/photos/9cd8qOgeNIY
 description: About two year ago, I started with a freelance career. Here is what I have been doing, what did I learn and which problems I stumbled upon.
 ---
 

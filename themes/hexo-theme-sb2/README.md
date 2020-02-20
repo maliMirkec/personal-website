@@ -86,7 +86,7 @@ home_page:
   - section:
     title: Links
     links:
-      Contact: https://silvestar.typeform.com/to/jS4Qkz
+      Contact: https://www.silvestar.codes/contact/
       Twitter: https://twitter.com/malimirkeccita
       Github: https://github.com/maliMirkec
 
@@ -105,7 +105,7 @@ open_graph:
 # Widgets
 widgets:
   contact:
-    contact: https://silvestar.typeform.com/to/jS4Qkz
+    contact: https://www.silvestar.codes/contact/
     twitter: https://twitter.com/malimirkeccita
     linkedin: https://www.linkedin.com/in/starbist/
     facebook: https://www.facebook.com/silvestar.codes/
@@ -141,5 +141,5 @@ If you need any help, please feel free to [contact me].
 If you're having issues, please [search for issues](https://github.com/maliMirkec/hexo-theme-sb/issues) or open [a new one](https://github.com/maliMirkec/hexo-theme-sb/issues/new).
 
 [Starter Project]: https://starter.silvestar.codes
-[contact me]: https://silvestar.typeform.com/to/jS4Qkz
+[contact me]: https://www.silvestar.codes/contact/
 
