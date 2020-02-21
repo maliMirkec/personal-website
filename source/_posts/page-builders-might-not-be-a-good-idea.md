@@ -12,10 +12,10 @@ thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582238815/Page_bui
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4
-description: "Here’s an unpopular opinion: page builder might not be a good idea. Read my thoughts about page builders and why you might think twice before you consider using it (again)."
+description: "Here’s what I think: page builder might not be a good idea. Read my thoughts about page builders and why you might think twice before you consider using it (again)."
 ---
 
-Here’s an unpopular opinion: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).
+Here’s what I think: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).
 
 <!-- more -->
 
