@@ -2,15 +2,15 @@
 title: How I built this website
 date: 2017-08-04 16:16:05
 comments: false
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack as an example.
 sidebar: true
 ---
 
-This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It's featured on [JAMStack as an example](https://jamstack.org/examples/). I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate banner. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.
+This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It's featured on [JAMStack as an example](https://jamstack.org/examples/). I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate cta. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.
 
 The development workflow is completely automated using [Gulp](https://gulpjs.com/) and [Yarn](https://yarnpkg.com/en/). The website looks good on every modern browser, both desktop, and mobile. If you find a bug, please [report an issue](https://github.com/maliMirkec/hexo-sb/issues/new) on GitHub. And yes, this website is [available publicly](https://github.com/maliMirkec/hexo-sb) but please be kind of intellectual ownership. The branching model is inherited from [git-flow](https://github.com/nvie/gitflow) and [semantic versioning](http://semver.org/) is used as documentation method.
 

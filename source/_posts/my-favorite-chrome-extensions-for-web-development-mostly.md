@@ -12,6 +12,7 @@ credit:
   link: https://unsplash.com/photos/p6GY97dK0X0
 comments: true
 description: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
+highlighted: true
 ---
 
 A web browser is one of the essential tools for web development. Besides awesome dev tools that come with the default installation, you might consider these Chrome extensions that could help you with your everyday tasks:

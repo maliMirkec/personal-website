@@ -5,6 +5,26 @@ mixin inlineSvg(file)
   else
     img(src=file, alt="Inline image")
 
+mixin cloudinary(imgSrc, imgSizes, imgAlt, imgClass, responsiveImage)
+  if (responsiveImage === "false")
+    img(class=imgClass, alt=imgAlt, src=imgSrc)
+  else if (imgSizes === "true")
+    - var size = imgSizes.split("=")
+    img(class=imgClass, alt=imgAlt, src=imgSrc.replace("upload/", "upload/" + size[1] + "/"))
+  else
+    - var currentImgSrcset = ""
+    - var currentImgSizes = ""
+    - var currentImgSrc = ""
+    - var sizes = imgSizes.split(";")
+    each vsize, ksize in sizes
+      - var size = vsize.split("=")
+      - currentImgSrc = imgSrc.replace("upload/", "upload/" + size[1] + "/")
+      - var separator = ksize + 1 === sizes.length ? "" : ", "
+      - var mediaQuery = ksize + 1 === sizes.length ? "" : "(max-width:" + size[0] + ")"
+      - currentImgSrcset += currentImgSrc + " " + size[0].replace("px", "w") + separator
+      - currentImgSizes += mediaQuery + " " + size[0] + separator
+    img(class=imgClass, alt=imgAlt, src=currentImgSrc, srcset=currentImgSrcset, sizes=currentImgSizes)
+
 - var urlFor = (link) => (url_for) ? url_for(link) : link
 
 - var isHome = () => (is_home) ? is_home() : false
@@ -12,6 +32,8 @@ mixin inlineSvg(file)
 - var isCategory = () => (is_category) ? is_category() : false
 
 - var isPortfolio = (page) => page.path.indexOf('portfolio') !== -1
+
+- var isSideProject = (page) => page.path.indexOf('side-projects') !== -1
 
 - var isPortfolioPost = (page) => page.portfolio === true
 

@@ -1,0 +1,27 @@
+if (site && site.pages)
+  - var testimonialPages = site.pages.toArray().filter(page => page.portfolio && page.quotes)
+  - testimonialPages.sort((a, b) => (a.order > b.order) ? 1 : -1)
+  .block__grid.block__grid--beta
+    .block__item.block__item--alpha
+      include intro-testimonials
+    each vpage, kpage in testimonialPages
+      each vquote, kquote in vpage.quotes
+        if (vquote.highlighted)
+          .block__item.quote
+            p.quote__person
+              span= vquote.person
+              if (vquote.position && vquote.project && vquote.project.name)
+                span= ", " + vquote.position + " @ "
+                a(href=vpage.path)= vquote.project.name
+              span= " said:"
+            blockquote.quote__text
+              each paragraph in vquote.paragraphs
+                p= paragraph
+            if (vquote.person)
+            if (vpage && vpage.logo)
+              .quote__details
+                a.quote__link(href=urlFor(vpage.path)) View project ⇢
+                - var logo_src = vpage.logo.replace('upload/', 'upload/f_auto,q_99,h_30/');
+                - var logo_alt = "Logo of " + vpage.title + " company."
+                a.quote__logo(href=urlFor(vpage.path))
+                  +cloudinary(logo_src, "", logo_alt, "", "false")

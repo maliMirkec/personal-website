@@ -65,6 +65,7 @@ Once you installed and initialized the plugin, you are ready to use the plugin a
 ## Which options does Classily.js have?
 
 Two main options could be passed to Classily.js:
+
 - `data-target` and
 - `data-class`.
 
@@ -73,6 +74,7 @@ Two main options could be passed to Classily.js:
 `data-class` option is used to pass class names that will be toggled on targeted elements.
 
 We can provide multiple targets and classes by separating them with comma character. Using these two options, and depending on how the options are passed, we could achieve four different scenarios:
+
 - toggling a single class on a single selector,
 - toggling a single class on multiple selectors,
 - toggling multiple classes on a single selector and
@@ -102,6 +104,7 @@ To trigger class toggle action, you should add the following code:
 ```
 
 where
+
 - `class="js-classily"` is used as a selector for plugin initialization;
 - `data-target=".my-class"` is used to target the element or elements that will toggle class;
 - `data-class="blue"` is used to provide a class or classes that will be toggled.
@@ -157,6 +160,7 @@ Pretty awesome, right. Are you ready for more advanced examples?
 ## How to use Classily.js for toggling states?
 
 In the following example, the heading could be in three states:
+
 - default state,
 - "blue" state,
 - "red" state and
@@ -213,7 +217,7 @@ Classily.js is helping me with my everyday job. I no longer have to jump from te
 
 Also, don't hesitate [to report an issue](https://github.com/maliMirkec/Classily.js/issues/new), if you find any. And if you know how to make tests for this plugin, let me know how.
 
-# Links
+## Links
 
 Github: https://github.com/maliMirkec/Classily.js
 Npm: https://www.npmjs.com/package/classily.js

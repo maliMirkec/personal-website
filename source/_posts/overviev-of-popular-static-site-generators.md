@@ -3,6 +3,7 @@ title: Overview of Popular Static Site Generators
 date: 2018-08-07 13:00:33
 tags:
   - spg
+  - ssg
   - hexo
   - hugo
   - middleman

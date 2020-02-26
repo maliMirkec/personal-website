@@ -11,7 +11,13 @@ else
 
 html(lang=lang)
   include ../_partials/head
-  body
+  if (isHome())
+    - var body_class = "body body--home"
+  else if (isPost())
+    - var body_class = "body body--post"
+  else
+    - var body_class = "body"
+  body(class=body_class)
     include ../_partials/header
     if (isHome())
       - var main_class = " main--home"
@@ -26,7 +32,7 @@ html(lang=lang)
     else
       - var main_class = " main--page"
 
-    - var main_sidebar = (page && (page.sidebar || page.portfolio)) ? " main--sidebar" : "";
+    - var main_sidebar = (page && (page.sidebar || page.portfolio || page.side)) ? " main--sidebar" : "";
 
     main(class="main" + main_class + main_sidebar, id="main")
       block content

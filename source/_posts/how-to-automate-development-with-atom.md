@@ -41,7 +41,7 @@ Sure, we should use **editorconfig** here, too. But what if we want to sort `CS
 
 ### CSScomb
 
-[**csscomb** ](https://github.com/csscomb/csscomb)is a tool which formats `CSS`
+[**csscomb**](https://github.com/csscomb/csscomb)is a tool which formats `CSS`
 files based on configuration file `.csscomb`. There was an online
 tool, but just like Online JavaScript beautifer, there
 is unnecessary cope-paste back and forth again.

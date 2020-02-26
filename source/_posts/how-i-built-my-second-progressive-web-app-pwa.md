@@ -25,7 +25,7 @@ In my previous attempt to make PWA, I handled everything manually. I learned abo
 
 This time, I decided to use [Workbox] to make PWA. Workbox is Google’s tool for making PWA more smoothly.
 
-> Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build [Progressive Web Apps].
+> “Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build [Progressive Web Apps].”
 
 There is an excellent [“Getting Started” guide] which I followed and set up the initial version in a matter of minutes. Workbox is providing [predefined caching strategies], like “CacheFirst” or “StaleWhileRevalidate”. You could set the caching strategy in a single line, like this:
 
@@ -71,7 +71,7 @@ I was quite happy how everything was working, but I realised that I would need t
 
 There is a `generateSW` mode that creates a service worker with a precaching setup which seemed like a logical option for my needs.
 
-> This will generate a service worker with precaching setup for all of the files picked up by your configuration.
+> “This will generate a service worker with precaching setup for all of the files picked up by your configuration.”
 
 Here is the configuration for my project.
 

@@ -1,15 +1,21 @@
 ---
 title: Born In June
 comments: false
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983573/bij_rb4lqa.png
 portfolio: true
+order: 22
+tags:
+  - wordpress
+  - html
+  - css
+  - javascript
+  - pagespeed optimization
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983573/bij_rb4lqa.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Born In June cover" cover-img https://borninjune.net cover %}
 
 Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
 

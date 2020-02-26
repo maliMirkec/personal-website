@@ -74,13 +74,14 @@ body {
 //
 // Styleguide: Typography.Headings
 @for $i from 1 through 4 {
-  h#{$i} {
+  h#{$i},
+  .h#{$i} {
     font-size: ms(3 - $i);
     font-weight: 700;
     word-break: break-word;
     text-transform: uppercase;
     color: lighten($color-psi, 30%);
-    letter-spacing: calc(0.15em / #{$i});
+    letter-spacing: calc(0.125em / #{$i});
 
     @include mq($from: tablet) {
       font-size: ms(4 - $i);

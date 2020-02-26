@@ -25,7 +25,7 @@ A multi-step form is a long-form that is broken into pieces. The reason for doin
 
 You might have seen multi-steps forms on checkout or shipping forms. Multi-steps forms are also used for wizards such as signing up forms, and there is an increased appearance of multi-step login forms recently. These are just common scenarios when to use them, but every longer form could be broken into pieces.
 
-> Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop.
+> Pro tip: Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop.
 
 The conversion rate is one of the most substantial benefits of a multi-step form. It is believed that multi-step forms have a better conversion rate. Other benefits include the first impression, which is less overwhelming to users, and progress bars, which encourage users to proceed with the form.
 

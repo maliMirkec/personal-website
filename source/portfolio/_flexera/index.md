@@ -1,12 +1,21 @@
 ---
 title: Flexera
 comments: false
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Flexera control and manage software and IT costs, to grow and protect your business.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
 portfolio: true
+order: 20
+display: false
+tags:
+  - styleguide
+  - html
+  - css
+  - javascript
 quotes:
   - person: Evan Lavidor
     position: Partner & Executive Director
@@ -20,8 +29,6 @@ quotes:
       - Additionally, he's very fast. We were always impressed with the speed at which he could put things together at a very high level of quality.
       - I'd happily work with Silvestar again, and we'll definitely reach out to him in the future when we need help with additional projects.
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Flexera cover" cover-img https://www.flexera.com cover %}
 
 Flexera controls and manages software, and IT costs, to grow and protect your business. The website runs on Adobe Experience Manager.
 

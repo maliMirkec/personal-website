@@ -13,43 +13,66 @@ if (page && page.posts)
   .articles
     each vpost, kpost in page.posts.toArray()
       if (kpost === 3)
-        .article.article--banner
-          include banner2
+        .article.article--cta
+          include cta2
       if (kpost % 3 === 0 && kpost >= page.posts.length - 3)
-        .article.article--banner
-          include banner1
-      article.article
-        if (vpost && vpost.path && vpost.title)
-          h2.article__title.article__title--alpha
-            a.link(href=urlFor(vpost.path))= vpost.title
-        if (vpost && vpost.thumbnail)
-          - var articles_img_retina = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_1216/');
-          - var articles_img_wide = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_608/');
-          - var articles_img_desktop = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_550/');
-          - var articles_img_mobile = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_640/');
-          - var articles_img_tamagochi = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
-          - var articles_img_srcset = articles_img_tamagochi + " 270w, " + articles_img_mobile + " 640w, " + articles_img_desktop + " 550w, " + articles_img_wide + " 608w, " + articles_img_retina + " 1216w";
-          a.article__thumb(href=urlFor(vpost.path))
-            img(src=articles_img_wide, alt=vpost.title, srcset=articles_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 640px, (min-width: 768px) and (max-width: 1199px) 550px, (min-width: 1200px) 608px")
-        if (vpost && vpost.layout == "post")
-          .details
-            if (vpost && (vpost.date || vpost.tags))
-              ul.list.list--delta
-                if (vpost.date)
-                  li.list__item.list__item--alpha.list__item--beta
-                    span.list__text= vpost.date.format(config.date_format)
-                if (vpost.tags)
-                  - vpost.tags.each(function(tag, i){
-                    if (i < 3)
-                      li.list__item.list__item--alpha.list__item--delta
-                        a.list__link(href=urlFor(tag.path))= tag.name
-                  - });
-        if (vpost && vpost.excerpt)
-          .content!= vpost.excerpt
+        .article.article--cta
+          include cta1
+      .block__item.card.card--alpha
+        .card__image
+          a(href=urlFor(vpost.path))
+            - var thumbnail_src = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_350/');
+            +cloudinary(thumbnail_src, "", "Headshot of myself, Silvestar Bistrović.", "", "false")
+        .card__content
+          if (vpost.date)
+            ul.card__list.card__list--beta.card__details
+              //- li.card__detail Silvestar Bistrović
+              li.card__detail= vpost.date.format(config.date_format)
+          if vpost.title
+            h3.h4.card__title
+              a(href=urlFor(vpost.path))= vpost.title
+          if (vpost && vpost.description)
+            .card__description!= vpost.description
+          if (vpost.tags)
+            ul.card__list.card__list--alpha.card__tags
+              each tag in vpost.tags.toArray()
+                li
+                  a.card__tag(href=urlFor(tag.path))= tag.name
+          .card__action
+            a(href=urlFor(vpost.path)) Read more ⇢
 
-        if (vpost && vpost.path)
-          p
-            a(href=urlFor(vpost.path)) Read more →
+
+        //- if (vpost && vpost.path && vpost.title)
+        //-   h2.article__title.article__title--alpha
+        //-     a.link(href=urlFor(vpost.path))= vpost.title
+        //- if (vpost && vpost.thumbnail)
+        //-   - var articles_img_retina = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_1216/');
+        //-   - var articles_img_wide = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_608/');
+        //-   - var articles_img_desktop = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_550/');
+        //-   - var articles_img_mobile = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_640/');
+        //-   - var articles_img_tamagochi = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
+        //-   - var articles_img_srcset = articles_img_tamagochi + " 270w, " + articles_img_mobile + " 640w, " + articles_img_desktop + " 550w, " + articles_img_wide + " 608w, " + articles_img_retina + " 1216w";
+        //-   a.article__thumb(href=urlFor(vpost.path))
+        //-     img(src=articles_img_wide, alt=vpost.title, srcset=articles_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 640px, (min-width: 768px) and (max-width: 1199px) 550px, (min-width: 1200px) 608px")
+        //- if (vpost && vpost.layout == "post")
+        //-   .details
+        //-     if (vpost && (vpost.date || vpost.tags))
+        //-       ul.list.list--delta
+        //-         if (vpost.date)
+        //-           li.list__item.list__item--alpha.list__item--beta
+        //-             span.list__text= vpost.date.format(config.date_format)
+        //-         if (vpost.tags)
+        //-           - vpost.tags.each(function(tag, i){
+        //-             if (i < 3)
+        //-               li.list__item.list__item--alpha.list__item--delta
+        //-                 a.list__link(href=urlFor(tag.path))= tag.name
+        //-           - });
+        //- if (vpost && vpost.excerpt)
+        //-   .content!= vpost.excerpt
+
+        //- if (vpost && vpost.path)
+        //-   p
+        //-     a(href=urlFor(vpost.path)) Read more →
 
 if (page && (page.prev || page.next))
   nav.metadata

@@ -1,0 +1,155 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-omega;
+  border-radius: 4px;
+  box-shadow: 0 4px 0 0 $color-delta;
+
+  .post-cta & {
+    background-color: $color-gamma;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    color: $color-psi;
+    padding: .275rem .5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: $color-alpha;
+    box-shadow: 0 4px 0 0 $color-psi;
+    border-radius: 4px;
+    transition: transform $tra #{$trd / 2};
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+      background-color: darken($color-psi, 10%);
+      color: $color-gamma;
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 4px 0 0 $color-alpha;
+    }
+
+    &:active {
+      transform: translateY(4px);
+      box-shadow: none;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: inherit;
+      font-weight: bold;
+    }
+
+    span:nth-child(1) {
+      font-family: $font-beta;
+      font-size: ms(0);
+      @include ls(50);
+    }
+
+    span:nth-child(2) {
+      font-family: $font-alpha;
+      font-size: ms(-1);
+      @include ls(25);
+    }
+  }
+}
+
+.cta__content {
+  padding: 10px;
+  flex: 1 1 auto;
+  font-size: ms(0);
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5em;
+  }
+
+  span {
+    display: block;
+    color: inherit;
+  }
+}
+
+.cta--beta {
+  box-shadow: 0 4px 0 0 $color-epsilon;
+
+  .btn {
+    color: $color-omega;
+    background-color: $color-beta;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken($color-psi, 10%);
+      color: $color-omega;
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 4px 0 0 $color-beta;
+    }
+  }
+}
+
+.cta--omega {
+  @include bsh($color-beta);
+  background-color: $color-omega;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq($from: desktop) {
+    max-width: 800px;
+
+    p {
+      font-size: ms(-1);
+    }
+  }
+}
+
+@include mq($from: mobile) {
+  .cta {
+    flex-direction: row;
+    align-items: center;
+
+    .btn {
+      min-width: 170px;
+    }
+  }
+}
+
+@include mq($from: tablet) {
+  .cta {
+    .btn {
+      min-width: 190px;
+    }
+  }
+}
+
+@include mq($from: desktop) {
+  .cta {
+    .btn {
+      min-width: 210px;
+    }
+  }
+
+  .cta__content {
+    padding: 0 0 0 30px;
+    font-size: ms(0);
+  }
+}

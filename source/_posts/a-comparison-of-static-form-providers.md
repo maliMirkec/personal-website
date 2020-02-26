@@ -14,6 +14,7 @@ credit:
   link: https://unsplash.com/photos/ZbMJ5VLrpQ4
 comments: true
 description: Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. Read the review of the most popular static form providers.
+highlighted: true
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/a-comparison-of-static-form-providers/)._
@@ -85,7 +86,7 @@ Kwes is the only provider with back-end validation, too. The rules you set in th
 
 </div>
 
-> Kwes advertises a 99.6% spam block success rate with no setup required.
+> “Kwes advertises a 99.6% spam block success rate with no setup required.”
 
 Once your form is ready for submissions, you might find it hard to deal with spam. That’s why spam protection is essential, especially if you want to keep your sanity and serenity. All providers provide spam protection in this way or another. Some rely on [Google reCAPTCHA](https://www.google.com/recaptcha/intro/v3.html) or [Akismet](https://akismet.com/), some on Honeypot techniques, and some use artificial intelligence to get the job done. It is worth noting that adding an additional step to your form, like adding reCAPTCHA might affect the conversion rates on form submissions.
 

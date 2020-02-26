@@ -12,23 +12,24 @@ credit:
   link: https://unsplash.com/photos/KI2KaOeT670
 comments: true
 description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
+highlighted: true
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.
 
 <!--more-->
 
-# The specifications
+## The specifications
 
 The task is to build a sticky header that appears when the user scrolls past the static header or on a custom offset position. When scrolling down, the static header should stay at its place, while the sticky header should roll down. When scrolling up, the sticky header should disappear, and the static header should roll down. Note that the content of the static header and the sticky header differs.
 
-# The solution
+## The solution
 
 To make it easier to understand the specifications, see this pen that contains the full solution:
 
 {% codepen CiTA BGQPBz dark result 550 %}
 
-# The breakdown
+## The breakdown
 
 For a better understanding of how this code works, we should examine the HTML structure.
 
@@ -112,7 +113,6 @@ Next, we should define the behavior of the header parts.
 
 `.header--beta`, our sticky header is positioned absolutely and translated outside of the wrapper `header` element. When the sticky effect is activated, it will be translated and transitioned in the original position.
 
-
 ## JavaScript
 
 You might have noticed the `.fake-header` element.
@@ -168,7 +168,7 @@ header {
 
 First we would set `pointer-events` to `none` to the `header` element to disable click/hover events, and then we would set the `pointer-events` to `all` to reenable them again.
 
-# Conclusion
+## Conclusion
 
 You could see the full demo [on my Codepen](https://codepen.io/CiTA/pen/BGQPBz).
 

@@ -74,8 +74,8 @@ img {
       grid-area: content;
     }
 
-    &.page-banner {
-      grid-area: pbanner;
+    &.page-cta {
+      grid-area: pcta;
     }
   }
 
@@ -92,12 +92,12 @@ img {
 .main--sidebar {
   grid-template-areas: "title"
   "content"
-  "pbanner"
+  "pcta"
   "sidebar";
 
   @include mq($from: mobile) {
     grid-template-areas: "title"
-    "pbanner"
+    "pcta"
     "content"
     "sidebar";
   }
@@ -105,7 +105,7 @@ img {
   @include mq($from: tablet) {
     grid-template-areas: "title title"
       "content sidebar"
-      "pbanner sidebar";
+      "pcta sidebar";
     grid-template-columns: 1fr 33vw;
   }
 
@@ -124,20 +124,4 @@ img {
   grid-template-areas: "title"
   "content"
   "meta";
-}
-
-.profile {
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-image: linear-gradient(to right, transparent, $color-gamma, transparent);
-
-  .article & {
-    margin-bottom: 2em;
-  }
-
-  img {
-    display: block;
-    max-width: 100%;
-    width: auto;
-  }
 }

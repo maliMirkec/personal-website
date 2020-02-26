@@ -47,7 +47,7 @@ There's even a package that highlights search result occurrences in the **minima
 
 **minimap-linter** displays linter errors on the **minimap**. Linters are separate topic and I will be writing about them in the future articles.
 
-** minimap-pigments** is Atom plugin to display **[pigments](https://atom.io/packages/pigments)** colors in the **minimap**. In the earlier releases, this package caused my Atom to crash so I had to disable it. Use carefully.
+**minimap-pigments** is Atom plugin to display **[pigments](https://atom.io/packages/pigments)** colors in the **minimap**. In the earlier releases, this package caused my Atom to crash so I had to disable it. Use carefully.
 
 This is my **minimap** in action:
 

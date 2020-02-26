@@ -1,14 +1,27 @@
 ---
 title: Credit Card Insider
 comments: false
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1573824300/cci_ohuha5.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582624909/cci_xk4gjk.png
 portfolio: true
+order: 1
+display: true
+highlighted: true
+tags:
+  - wordpress
+  - styleguide
+  - html
+  - css
+  - javascript
+  - pagespeed optimization
 quotes:
   - person: John Ganotis
+    highlighted: true
     position: Entrepreneur
     project:
       name: Credit Card Insider
@@ -18,8 +31,6 @@ quotes:
       - In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls.
       - When working with Silvestar, I know that the work will be done quickly and correctly, but that he'll also point out any areas where he thinks we can improve. He's always looking out for opportunities to improve performance, maintainability, and accessibility. I get the impression that he's constantly learning and reflecting on his work, always looking for ways that he can build his skillset even more and produce even higher quality work (if that's possible!).
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1573824300/cci_ohuha5.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Credit Card Insider cover" cover-img https://www.creditcardinsider.com cover %}
 
 Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence. The website runs on WordPress and WPEngine.
 

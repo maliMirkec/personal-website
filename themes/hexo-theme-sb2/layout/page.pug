@@ -5,18 +5,25 @@ block content
 
   if (page && page.offline)
     include _partials/offline
-  if (page && page.banner1)
-    .page-banner
-      include _partials/banner1
-  else if (page && page.banner2)
-    .page-banner
-      include _partials/banner2
+
+  if (page && page.cta1)
+    .page-cta
+      include _partials/cta1
+  else if (page && page.cta2)
+    .page-cta
+      include _partials/cta2
 
   if (page && page.sidebar)
     include _partials/sidebar
 
   if (page && page.portfolio)
-    include _partials/portfolio
+    include _partials/redesign/portfolio-sidebar
 
-  if (page && page.grid)
-    include _partials/grid
+  if (page && page.side)
+    include _partials/redesign/side-sidebar
+
+  if (page && page.grid === "portfolio")
+    include _partials/redesign/portfolio-all
+
+  if (page && page.grid === "side")
+    include _partials/redesign/projects-all

@@ -40,6 +40,7 @@ In the time when more than 50% of the developers didn't know how to solve the fa
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
+
 - Chris Coyier in [All Fired Up About Specificity], and
 - Tim Kadlec in [The Cascade and Other Essential Unessentials].
 
@@ -75,7 +76,7 @@ Another trend that is common when talking about static sites is CMS. Although I 
 
 I have developed a couple of custom solutions for static sites, like integrating third-party software, creating Lambda functions, and adding custom build hooks. Static sites might not be so “static.”
 
-> It is interesting that every client that needed static site approached me directly. I haven't seen many job posts about static sites, too. I guess finding a developer for the static site is not that easy yet.
+> “It is interesting that every client that needed static site approached me directly. I haven't seen many job posts about static sites, too. I guess finding a developer for the static site is not that easy yet.”
 
 ## Blogging
 

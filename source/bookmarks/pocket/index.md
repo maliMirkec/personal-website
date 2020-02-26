@@ -1,9 +1,9 @@
 ---
 title: Pocket Bookmarks
 comments: false
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 date: 2017-08-02 20:08:06
 description: Pocket bookmarks export file
@@ -748,7 +748,7 @@ sidebar: true
 - [http://www.coolinarika.com/recept/748226/](http://www.coolinarika.com/recept/748226/)
 - [http://lab.hakim.se/flipside/](http://lab.hakim.se/flipside/)
 - [https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/](https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/)
-- [https://gibbon.co/gibbon-university?utm_source=blog&amp;utm_medium=banner&amp;utm_campaign=blog](https://gibbon.co/gibbon-university?utm_source=blog&amp;utm_medium=banner&amp;utm_campaign=blog)
+- [https://gibbon.co/gibbon-university?utm_source=blog&amp;utm_medium=cta&amp;utm_campaign=blog](https://gibbon.co/gibbon-university?utm_source=blog&amp;utm_medium=cta&amp;utm_campaign=blog)
 - [http://philipwalton.com/articles/side-effects-in-css/](http://philipwalton.com/articles/side-effects-in-css/)
 - [https://helpmebuild.io/](https://helpmebuild.io/)
 - [http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/](http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/)
@@ -1113,7 +1113,7 @@ sidebar: true
 - [http://blog.neave.com/post/64669185529/why-i-create-for-the-web](http://blog.neave.com/post/64669185529/why-i-create-for-the-web)
 - [http://webstandardssherpa.com/reviews/responsive-webfont-icons](http://webstandardssherpa.com/reviews/responsive-webfont-icons)
 - [http://www.behance.net/gallery/Rose-Free-Font/11350077](http://www.behance.net/gallery/Rose-Free-Font/11350077)
-- [http://newrelic.com/lp/web-monitoring?utm_source=SMIT&amp;utm_medium=banner_ad&amp;utm_content=web-monitoring&amp;utm_campaign=RPM&amp;url_term=web-monitoring&amp;mpc=BA-SMIT-VTX-en-100-Codrops-web-monitoring_1x1](http://newrelic.com/lp/web-monitoring?utm_source=SMIT&amp;utm_medium=banner_ad&amp;utm_content=web-monitoring&amp;utm_campaign=RPM&amp;url_term=web-monitoring&amp;mpc=BA-SMIT-VTX-en-100-Codrops-web-monitoring_1x1)
+- [http://newrelic.com/lp/web-monitoring?utm_source=SMIT&amp;utm_medium=cta_ad&amp;utm_content=web-monitoring&amp;utm_campaign=RPM&amp;url_term=web-monitoring&amp;mpc=BA-SMIT-VTX-en-100-Codrops-web-monitoring_1x1](http://newrelic.com/lp/web-monitoring?utm_source=SMIT&amp;utm_medium=cta_ad&amp;utm_content=web-monitoring&amp;utm_campaign=RPM&amp;url_term=web-monitoring&amp;mpc=BA-SMIT-VTX-en-100-Codrops-web-monitoring_1x1)
 - [http://daturi.me/](http://daturi.me/)
 - [http://marianoguerra.github.io/json.human.js/](http://marianoguerra.github.io/json.human.js/)
 - [http://www.coolinarika.com/recept/savrseno-kuhana-riza/](http://www.coolinarika.com/recept/savrseno-kuhana-riza/)

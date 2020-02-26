@@ -26,6 +26,7 @@ The idea of Starter Project is to have a single config file for all Gulp tasks. 
 {% cloudinary https://res.cloudinary.com/starbist/image/upload/v1524385137/config-json-css_ha2n75.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "config.json file, CSS part." %}
 
 The first option is `run`. If set to true, CSS Gulp tasks will be executed. There are three other mandatory options for CSS:
+
 - `src` - a path to a folder with Sass files,
 - `dest` - a path to a folder where compiled CSS files will be saved, and
 - `clean` - a path to a folder which will be cleaned before Gulp execution (almost always the same as `dest` option).
@@ -38,7 +39,7 @@ Other options are for [gulp-cssimport], [gulp-autoprefixer], [gulp-rename], and 
 
 Starter Project uses [Sass] as a preprocessor for CSS. As it's official website says, Sass is "CSS with superpowers." A significant number of developers are supporters and users of this robust program. It has useful features like variables, functions, and mixins.
 
-> CSS with superpowers.
+> “CSS with superpowers.”
 
 Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
@@ -81,6 +82,7 @@ You could add `includePaths` option to the `sassConfig` settings to avoid writin
 
 Starter Project has three libraries imported:
 - Normalize.css,
+
 - Modular Scale, and
 - Media Queries.
 
@@ -92,7 +94,7 @@ Starter Project has three libraries imported:
 
 If your website looks inconsistent across different browsers, you probably want to use CSS technique to reset browser behavior. In Starter Project, [Normalize.css] is used for this task.
 
-> Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
+> “Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”
 >
 > Nicolas Gallagher
 
@@ -133,7 +135,7 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 ## Linting
 
-> Linting is the process of running a program that will analyze code for potential errors.
+> “Linting is the process of running a program that will analyze code for potential errors.”
 >
 > Source: [StackOverflow](https://stackoverflow.com/a/8503586)
 
@@ -189,7 +191,7 @@ This should run stylelint when you save `.scss` files. If it doesn't work, [cont
 
 [In the previous article], I was trying to explain the idea for this project. This article should help you understand how Gulp could be used to optimize, lint and deliver best possible CSS output.
 
-[Starter Project] is conceived as a boilerplate with the latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto: admin@silvestar.codes?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
+[Starter Project] is conceived as a boilerplate with the latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please [contact me](mailto:admin@silvestar.codes?Subject=Starter), open [an issue], or create [a pull request] on [GitHub].
 
 Please share! 🙏
 

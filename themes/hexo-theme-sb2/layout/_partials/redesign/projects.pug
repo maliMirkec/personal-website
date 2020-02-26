@@ -1,0 +1,20 @@
+if (site && site.pages)
+  .block__grid.block__grid--beta
+    .block__item.block__item--alpha
+      include intro-projects
+    each vpage, kpage in site.pages.toArray()
+      if (vpage.highlighted && vpage.side)
+        .block__item.poster
+          .poster__image
+            a(href=urlFor(vpage.path))
+              - var thumbnail_src = vpage.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_560/');
+              - var thumbnail_alt = "Screenshot of " + vpage.title + " website.";
+              +cloudinary(thumbnail_src, "", thumbnail_alt, "", "false")
+          .poster__content
+            if vpage.title
+              h3.poster__title
+                a(href=urlFor(vpage.path))= vpage.title
+              if (vpage.description)
+                p.poster__description= vpage.description
+            .poster__action
+              a(href=urlFor(vpage.path)) View Project ⇢

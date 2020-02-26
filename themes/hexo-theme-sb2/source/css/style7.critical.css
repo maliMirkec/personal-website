@@ -95,7 +95,7 @@ h1 {
   word-break: break-word;
   text-transform: uppercase;
   color: #6c6c6c;
-  letter-spacing: calc(0.15em / 1);
+  letter-spacing: calc(0.125em / 1);
 }
 
 @media (min-width: 48em) {
@@ -110,7 +110,7 @@ h2 {
   word-break: break-word;
   text-transform: uppercase;
   color: #6c6c6c;
-  letter-spacing: calc(0.15em / 2);
+  letter-spacing: calc(0.125em / 2);
 }
 
 @media (min-width: 48em) {
@@ -199,18 +199,18 @@ img {
 }
 
 .main--sidebar {
-  grid-template-areas: "title" "content" "pbanner" "sidebar";
+  grid-template-areas: "title" "content" "pcta" "sidebar";
 }
 
 @media (min-width: 30em) {
   .main--sidebar {
-    grid-template-areas: "title" "pbanner" "content" "sidebar";
+    grid-template-areas: "title" "pcta" "content" "sidebar";
   }
 }
 
 @media (min-width: 48em) {
   .main--sidebar {
-    grid-template-areas: "title title" "content sidebar" "pbanner sidebar";
+    grid-template-areas: "title title" "content sidebar" "pcta sidebar";
     grid-template-columns: 1fr 33vw;
   }
 }
@@ -425,10 +425,9 @@ img {
     content: "";
     position: absolute;
     top: 0;
-    right: calc((100vw - 100%) / -2);
+    right: 0;
     bottom: 0;
     left: 0;
-    background-color: #f5f5f5;
     border-left: 1px solid #12e09f;
     z-index: -1;
   }
@@ -496,7 +495,7 @@ img {
   color: #e01258;
 }
 
-.article p a {
+.article p a:not([class*="card"]) {
   color: #e01258;
 }
 
@@ -608,6 +607,10 @@ img {
 .cookies a {
   color: inherit;
   padding: 5px 15px;
+}
+
+.body {
+  background-color: #f5f5f5;
 }
 
 .sig {

@@ -1,15 +1,20 @@
 ---
 title: Marcijuš Weddings
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 comments: false
 description: Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/mw_gtapmb.png
 portfolio: true
+order: 19
+tags:
+  - wordpress
+  - html
+  - css
+  - javascript
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983574/mw_gtapmb.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Marcijus Weddings cover" cover-img https://marcijusweddings.com cover %}
 
 Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
 

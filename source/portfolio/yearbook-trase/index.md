@@ -1,12 +1,21 @@
 ---
 title: Trase Yearbook 2018
 comments: false
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582624910/yt_iyy37j.png
 portfolio: true
+order: 10
+display: true
+tags:
+  - wordpress
+  - html
+  - css
+  - javascript
 quotes:
   - person: Pablo Pareja Tobes
     position: Project Manager
@@ -16,8 +25,6 @@ quotes:
     paragraphs:
       - Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise.
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Trase Yearbook 2018 cover" cover-img https://yearbook2018.trase.earth cover %}
 
 The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 
