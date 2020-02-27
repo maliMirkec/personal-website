@@ -1,3 +1,22 @@
+// Cookies
+import Cookies from 'js-cookie'
+
+// color mode switch
+const $toggle = document.querySelector('.toggle')
+
+if($toggle) {
+  $toggle.addEventListener('click', () => {
+    const thisColorMode = document.body.classList.contains('body--dark');
+
+    Cookies.set('sb-color-mode', thisColorMode ? 'dark' : 'light', {
+      expires: 7
+    });
+  })
+}
+
+// starter project
+console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')
+
 // signature animation
 const calcPaths = (totalDur) => {
   // get all SVG elements - lines and dots
@@ -26,7 +45,7 @@ const calcPaths = (totalDur) => {
     // get current path length
     const totalLen = path.getTotalLength()
     // calculate current animation duration
-    const duration = totalLen / len * totalDuration
+    const duration = totalLen / (len * totalDuration)
 
     // set animation duration and delay
     pathElem.style.animationDuration = `${duration < 0.2 ? 0.2 : duration}s`
@@ -93,5 +112,3 @@ document.addEventListener('click', function (e) {
     }
   }
 }, false)
-
-console.log('Powered by Starter Project (https://github.com/maliMirkec/starter-project).')

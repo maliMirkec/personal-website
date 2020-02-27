@@ -6,6 +6,7 @@ description: Feel free to contact me. I am always open for a new discussion or a
 sidebar: true
 contact: true
 form: contact
+card: true
 ---
 
 Hi friend,

@@ -1,36 +1,46 @@
 {
-  "override": true,
   "proot": "./",
-  "src": "src",
+  "src": "/",
   "dist": "source",
-  "override2": true,
+  "sync": {
+    "run": true
+  },
   "html": {
     "run": true,
     "pug": true,
-    "src": "../layout",
+    "data": false,
+    "inline": true,
+    "src": "layout",
     "dist": "",
-    "lint": true
+    "minify": true,
+    "lint": false
   },
   "css": {
     "run": true,
-    "src": "scss",
+    "sass": true,
+    "src": "src/scss",
     "dist": "css",
+    "minify": true,
+    "autoprefix": true,
+    "sourcemaps": true,
     "lint": true
   },
   "js": {
     "run": true,
-    "src": "js",
+    "src": "src/js",
     "dist": "js",
+    "uglify": true,
+    "sourcemaps": true,
     "lint": true
   },
   "gfx": {
     "run": true,
-    "src": "gfx",
+    "src": "src/gfx",
     "dist": "gfx"
   },
   "fonts": {
     "run": true,
-    "src": "fonts",
+    "src": "src/fonts",
     "dist": "fonts"
   },
   "favicon": {
@@ -38,9 +48,6 @@
   },
   "critical": {
     "run": true
-  },
-  "gzip": {
-    "run": false
   },
   "kss": {
     "run": false
@@ -51,7 +58,11 @@
   "jsdoc": {
     "run": false
   },
-  "penthouse": {
+  "bump": {
+    "run": true
+  },
+  "gzip": {
     "run": false
-  }
+  },
+  "yarn": true
 }

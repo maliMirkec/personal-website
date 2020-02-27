@@ -17,13 +17,13 @@ block content
     include _partials/sidebar
 
   if (page && page.portfolio)
-    include _partials/redesign/portfolio-sidebar
+    include _partials/_redesign/portfolio-sidebar
 
   if (page && page.side)
-    include _partials/redesign/side-sidebar
+    include _partials/_redesign/side-sidebar
 
   if (page && page.grid === "portfolio")
-    include _partials/redesign/portfolio-all
+    include _partials/_redesign/portfolio-all
 
   if (page && page.grid === "side")
-    include _partials/redesign/projects-all
+    include _partials/_redesign/projects-all

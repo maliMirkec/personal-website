@@ -2,13 +2,41 @@
   background-color: $color-gamma;
 }
 
+.body--dark {
+  @include dark-mode;
+
+  @media (prefers-color-scheme: dark) {
+    @include light-mode;
+  }
+}
+
 .body--post {
   background-color: $color-omega;
+}
+
+.main {
+  position: relative;
 }
 
 .main--home {
   margin-top: 0;
   grid-template-areas: "content";
+}
+
+.toggle {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background-color: $color-gamma;
+  color: $color-psi;
+  border: 1px dotted $color-alpha;
+  border-radius: 3px;
+  font-size: ms(-1);
+  font-weight: 700;
+  margin-left: auto;
+  padding: 0.25rem .5rem;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .block__grid {
@@ -33,7 +61,7 @@
 
 .block__item {
   > h1 {
-    margin-top: 110px;
+    margin-top: 40px;
   }
 
   > h2 {
@@ -52,7 +80,7 @@
       width: 15%;
       max-width: 100px;
       height: 10px;
-      background-color: lighten($color-alpha, 20%);
+      background-color: $color-delta;
     }
   }
 
@@ -92,6 +120,15 @@
     border-radius: 4px 4px 0 0;
     z-index: -1;
   }
+}
+
+.profile__avatar {
+  position: relative;
+  max-width: 220px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px $color-delta;
 
   img {
     display: block;
@@ -101,6 +138,25 @@
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 0 4px $color-delta;
+
+    &:last-of-type:not(:only-of-type) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.95;
+      transform: translateY(110%);
+      transition: transform $tra $trd;
+    }
+  }
+
+  &:hover {
+    cursor: crosshair;
+
+    img:last-of-type:not(:only-of-type) {
+      transform: none;
+    }
   }
 }
 
@@ -308,7 +364,7 @@
 }
 
 .poster__image {
-  filter: drop-shadow(0 0 10px lighten($color-psi, 50%));
+  filter: drop-shadow(0 0 10px $color-gamma);
 
   &:hover,
   &:focus,
@@ -322,7 +378,7 @@
 }
 
 .poster--alpha {
-  filter: drop-shadow(0 0 10px lighten($color-psi, 50%));
+  filter: drop-shadow(0 0 10px $color-gamma);
 
   .poster__image {
     filter: none;
@@ -474,6 +530,12 @@
 
   .block__grid--alpha {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .block__item {
+    > h1 {
+      margin-top: 110px;
+    }
   }
 
   .block__item--alpha {

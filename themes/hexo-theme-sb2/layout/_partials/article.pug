@@ -68,12 +68,12 @@ if (page && page.title)
     .content
       div!= page.content
       if (page && page.form && page.form == 'contact')
-        include forms/contact
+        include _forms/contact
       if (page && page.form && page.form == 'mentoring')
-        include forms/mentoring
+        include _forms/mentoring
 
   if (page && page.card)
-    include redesign/profile-solo
+    include _redesign/profile-solo
 
   if (page && page.quotes)
     h2.article__testimonials= "Testimonials"
@@ -98,7 +98,7 @@ if (page && page.title)
                 +cloudinary(logo_src, "", logo_alt, "", "false")
 
   if (page && page.testimonials)
-    include redesign/testimonials-all
+    include _redesign/testimonials-all
 
   if (isPost())
     .metadata
@@ -129,16 +129,16 @@ if (page && page.title)
                   a.list__link(href=urlFor(page.prev.path), rel="next")= prevTitle
       .metadata__content
         if (theme && theme.widgets && theme.widgets.about)
-          include widgets/about
+          include _widgets/about
 
   if (isPost())
     .post-cta
-      include widgets/coffee
+      include _widgets/coffee
       include cta2
 
   if (page && page.signature)
-    include redesign/signature
+    include _redesign/signature
 
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
-    include widgets/comments
+    include _widgets/comments
 

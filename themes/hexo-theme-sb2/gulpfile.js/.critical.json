@@ -1,137 +1,140 @@
-[{
-  "src": "style.css",
-  "settings": {
-    "out": "style8.critical.css",
-    "url": "http://localhost:4001/about-me/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+{
+  "temp": "helpers.source/src/critical/",
+  "configs": [{
+    "src": "style.css",
+    "settings": {
+      "out": "style8.critical.css",
+      "url": "http://localhost:4001/about-me/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style7.critical.css",
-    "url": "http://localhost:4001/mentoring/?cache=1",
-    "width": 1920,
-    "height": 2400,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style7.critical.css",
+      "url": "http://localhost:4001/mentoring/?cache=1",
+      "width": 1920,
+      "height": 2400,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style6.critical.css",
-    "url": "http://localhost:4001/contact/?cache=1",
-    "width": 1920,
-    "height": 2000,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style6.critical.css",
+      "url": "http://localhost:4001/contact/?cache=1",
+      "width": 1920,
+      "height": 2000,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style5.critical.css",
-    "url": "http://localhost:4001/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style5.critical.css",
+      "url": "http://localhost:4001/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style4.critical.css",
-    "url": "http://localhost:4001/categories/articles/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style4.critical.css",
+      "url": "http://localhost:4001/categories/articles/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style3.critical.css",
-    "url": "http://localhost:4001/portfolio/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style3.critical.css",
+      "url": "http://localhost:4001/portfolio/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style2.critical.css",
-    "url": "http://localhost:4001/portfolio/westwing/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style2.critical.css",
+      "url": "http://localhost:4001/portfolio/westwing/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}, {
-  "src": "style.css",
-  "settings": {
-    "out": "style.critical.css",
-    "url": "http://localhost:4001/?cache=1",
-    "width": 1920,
-    "height": 1800,
-    "keepLargerMediaQueries": true,
-    "strict": false,
-    "blockJSRequests": true,
-    "renderWaitTime": 3000,
-    "timeout": 60000,
-    "phantomJsOptions": {
-      "ssl-protocol": "any",
-      "ignore-ssl-errors": true
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style.critical.css",
+      "url": "http://localhost:4001/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
     }
-  }
-}]
+  }]
+}

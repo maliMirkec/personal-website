@@ -80,8 +80,8 @@ body {
     font-weight: 700;
     word-break: break-word;
     text-transform: uppercase;
-    color: lighten($color-psi, 30%);
     letter-spacing: calc(0.125em / #{$i});
+    color: $color-chi;
 
     @include mq($from: tablet) {
       font-size: ms(4 - $i);
@@ -107,9 +107,8 @@ p {
 }
 
 ::selection {
-  background-color: lighten($color-beta, 20%);
-  text-shadow: 0 1px 0 $color-beta;
-  color: $color-omega;
+  background-color: $color-delta;
+  color: $color-psi;
 }
 
 // Code Block

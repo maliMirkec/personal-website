@@ -8,8 +8,8 @@
   margin-left: calc((100vw - 100%) / -2);
 
   table {
-    color: darken($color-beta, 3%);
-    font-size: 0.7rem;
+    color: $color-beta;
+    font-size: ms(-1);
     line-height: 1.6;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@
   }
 
   .gutter {
-    color: lighten($color-psi, 50%);
+    color: $color-alpha;
     width: 2.5em;
   }
 
@@ -31,7 +31,7 @@
 
   @include mq($from: desktop) {
     table {
-      font-size: 0.8rem;
+      font-size: ms(-1);
     }
   }
 }

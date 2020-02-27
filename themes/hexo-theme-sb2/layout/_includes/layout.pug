@@ -18,7 +18,19 @@ html(lang=lang)
   else
     - var body_class = "body"
   body(class=body_class)
+    script.
+      function getCookieValue(a) {
+        var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+        return b ? b.pop() : '';
+      }
+
+      if(getCookieValue('sb-color-mode') === 'dark') {
+        document.body.classList.add('body--dark');
+      }
     include ../_partials/header
+
+    button(onclick="document.body.classList.toggle('body--dark')").toggle Switch color mode
+
     if (isHome())
       - var main_class = " main--home"
     else if (isPost())
@@ -37,6 +49,6 @@ html(lang=lang)
     main(class="main" + main_class + main_sidebar, id="main")
       block content
     if (theme && theme.widgets && theme.widgets.cookies)
-      include ../_partials/widgets/cookies
+      include ../_partials/_widgets/cookies
     include ../_partials/footer
     include ../_partials/starter-project

@@ -15,13 +15,16 @@ body {
   line-height: 1.5;
   color: $color-psi;
   overflow-x: hidden;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
-  hyphenate-limit-chars: 6 3 2;
-  hyphenate-limit-lines: 2;
-  hyphenate-limit-last: always;
-  hyphenate-limit-zone: 8%;
+
+  @include mq($until: desktop) {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 2;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+  }
 }
 
 a {
@@ -34,7 +37,8 @@ a {
   &:not(.btn),
   a:not([class*="link"]) {
     &:focus {
-      box-shadow: 0 0 0 1px $color-beta inset, 0 0 0 1px $color-beta;
+      box-shadow: 0 0 0 1px $color-epsilon inset, 0 0 0 2px $color-epsilon;
+      border-radius: 4px;
     }
   }
 }

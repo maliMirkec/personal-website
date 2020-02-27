@@ -1,41 +1,55 @@
-const { src, dest } = require('gulp')
-const bump = require('gulp-bump')
+const { src, dest } = require('gulp');
+const bump = require('gulp-bump');
 
-const { helpers } = require('./helpers')
+const { helpers } = require('./helpers');
+
+const bumpConfig = require('./.bump.json');
 
 // Will patch the version
-function patch (cb) {
-  src([`${helpers.trim(global.config.proot)}/package.json`])
+function patch(cb) {
+  src(bumpConfig.src.map((path) => helpers.parse(path)))
     .pipe(bump())
-    .pipe(dest(global.config.proot))
+    .pipe(dest(global.config.proot));
 
-  cb()
+  cb();
 }
 
 // Will update minor version
-function minor (cb) {
-  src([`${helpers.trim(global.config.proot)}/package.json`])
+function minor(cb) {
+  src(bumpConfig.src.map((path) => helpers.parse(path)))
     .pipe(bump({
-      type: 'minor'
+      type: 'minor',
     }))
-    .pipe(dest(global.config.proot))
+    .pipe(dest(global.config.proot));
 
-  cb()
+  cb();
 }
 
 // Will update major version
-function major (cb) {
-  src([`${helpers.trim(global.config.proot)}/package.json`])
+function major(cb) {
+  src(bumpConfig.src.map((path) => helpers.parse(path)))
     .pipe(bump({
-      type: 'major'
+      type: 'major',
     }))
-    .pipe(dest(global.config.proot))
+    .pipe(dest(global.config.proot));
 
-  cb()
+  cb();
+}
+
+// Will update prerelease version
+function prerelease(cb) {
+  src(bumpConfig.src.map((path) => helpers.parse(path)))
+    .pipe(bump({
+      type: 'prerelease',
+    }))
+    .pipe(dest(global.config.proot));
+
+  cb();
 }
 
 exports.bump = {
   patch,
   minor,
-  major
-}
+  major,
+  prerelease,
+};

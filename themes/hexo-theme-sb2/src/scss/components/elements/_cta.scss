@@ -22,7 +22,6 @@
     white-space: nowrap;
     text-decoration: none;
     background-color: $color-alpha;
-    box-shadow: 0 4px 0 0 $color-psi;
     border-radius: 4px;
     transition: transform $tra #{$trd / 2};
 
@@ -30,18 +29,11 @@
     &:focus,
     &:active {
       text-decoration: none;
-      background-color: darken($color-psi, 10%);
-      color: $color-gamma;
-    }
-
-    &:hover,
-    &:focus {
-      box-shadow: 0 4px 0 0 $color-alpha;
+      box-shadow: 0 0 0 4px $color-psi inset;
     }
 
     &:active {
       transform: translateY(4px);
-      box-shadow: none;
     }
 
     span {
@@ -87,18 +79,6 @@
   .btn {
     color: $color-omega;
     background-color: $color-beta;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: darken($color-psi, 10%);
-      color: $color-omega;
-    }
-
-    &:hover,
-    &:focus {
-      box-shadow: 0 4px 0 0 $color-beta;
-    }
   }
 }
 
