@@ -193,7 +193,10 @@ code {
     display: block;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 4px 0 0 $color-epsilon;
+
+    &[src*=".jpg"] {
+      box-shadow: 0 4px 0 0 $color-epsilon;
+    }
   }
 
   @include mq($from: mobile) {
@@ -335,8 +338,29 @@ code {
 }
 
 .comments {
+  background-color: $color-gamma;
+  color: $color-psi;
+  padding: 1px 10px 10px;
+  border-radius: 4px;
+
+  .body--dark & {
+    @include comment-mode;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include comment-mode;
+  }
+
+  h3 {
+    color: inherit;
+  }
+
   .main--post & {
     max-width: 720px;
     margin: 0 auto;
+  }
+
+  @include mq($from: mobile) {
+    padding: 1px 20px 20px;
   }
 }

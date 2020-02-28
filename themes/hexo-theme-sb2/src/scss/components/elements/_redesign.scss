@@ -485,6 +485,14 @@
     width: auto;
     margin: 0;
     max-width: 100px;
+
+    .body--dark & {
+      filter: invert(.75) contrast(2) grayscale(1);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      filter: invert(.75) contrast(2) grayscale(1);
+    }
   }
 }
 
