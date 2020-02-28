@@ -403,8 +403,6 @@ img {
   display: block;
   border-radius: 4px;
   overflow: hidden;
-  -webkit-box-shadow: 0 4px 0 0 var(--color-epsilon);
-  box-shadow: 0 4px 0 0 var(--color-epsilon);
 }
 
 @media (min-width: 30em) {
@@ -559,6 +557,13 @@ img {
   width: auto;
   margin: 0;
   max-width: 100px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .quote__logo img {
+    -webkit-filter: invert(0.75) contrast(2) grayscale(1);
+    filter: invert(0.75) contrast(2) grayscale(1);
+  }
 }
 
 @media (min-width: 75em) {
