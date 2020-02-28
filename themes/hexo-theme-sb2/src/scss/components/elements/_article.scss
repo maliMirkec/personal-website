@@ -193,10 +193,6 @@ code {
     display: block;
     border-radius: 4px;
     overflow: hidden;
-
-    &[src*=".jpg"] {
-      box-shadow: 0 4px 0 0 $color-epsilon;
-    }
   }
 
   @include mq($from: mobile) {
