@@ -1,8 +1,8 @@
 ---
 title: Links
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 comments: false
 date: 2018-10-22 13:38:37
@@ -37,9 +37,10 @@ My direct email is [me@silvestar.codes](mailto:me@silvestar.codes). You could [d
 - [About.me](https://about.me/starbist) -->
 
 ## Projects
+- [Code Line Daily](https://cld.silvestar.codes/)
 - [Starter Project](https://starter.silvestar.codes/)
 - [Making a website with Hugo](https://skl.sh/2ILioJ8)
-- [_bem](https://frontend-developer.xyz/_bem/)
+- [The Playground](https://play.silvestar.codes/)
 
 ## Publications
 - [⭐ CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)

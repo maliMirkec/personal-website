@@ -14,6 +14,7 @@ credit:
   link: https://unsplash.com/photos/lXR2boS_O94
 comments: true
 description: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
+highlighted: true
 ---
 
 Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. All these modern frameworks, tools, and services make our lives as JAMstack developers quite enjoyable. In fact, Chris would say [they give us superpowers].
@@ -33,7 +34,7 @@ When creating a new project on Netlify, you start by either:
 
 The project should be ready in a matter of minutes and you could start configuring it for your needs right away. Start by choosing the site name.
 
-> The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.
+>“ The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.”
 
 Netlify randomly creates a default name for a new project. If you don’t like the name, choose your own and make it one that would be much easier for you to remember.
 
@@ -82,7 +83,7 @@ Netlify creates a unique preview link for every successful build. That means you
 
 In his talk, Phil Hawksworth calls this feature [immutable, atomic deploys].
 
-> They are immutable deployments that live on forever.
+> “They are immutable deployments that live on forever.”
 >
 > — Phil Hawksworth
 
@@ -96,14 +97,14 @@ If you ever wanted to run A/B tests on your site, you would find that Netlify ma
 
 All you have to do is create a separate branch, make changes, and publish the branch. Then you should be able to select the branch, set a split percentage, and start the test. You could even set a variable in analytics code to track which branch is currently displayed.
 
-> Netlify’s Split Testing lets you divide traffic to your site between different deploys, straight from our CDN network, without losing any download performance, and without installing any third party JavaScript library.
+> “Netlify’s Split Testing lets you divide traffic to your site between different deploys, straight from our CDN network, without losing any download performance, and without installing any third party JavaScript library.”
 >
 > — [Netlify documentation]
 
 I have been using A/B testing on my site for a few different features so far:
 
 - Testing different versions of contact forms
-- Displaying different versions of banners
+- Displaying different versions of ctas
 - Tracking user behavior, like heatmaps
 
 If you want track split testing information, you could set up the process environment variable for this purpose. You could learn more about it [in the official documentation]. The best part? Most A/B testing services use client-side JavaScript to do it, which is unreliable and not great for performance. Doing it at the load balancer level like this is so much better.

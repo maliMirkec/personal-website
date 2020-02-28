@@ -38,7 +38,7 @@ So it began, I started working as a PHP developer. With my basic knowledge, I fi
 
 After endless consultations with my mentor, and about billion bugs and issues, I finally started to produce the code that works. During this period the most important skill I have acquired was learning how to find an answer to the specific problem. I obtained a new set of skills, too, like setting up IDE to help me spend more time coding and less time finding typos, and how to use Composer, for example.
 
-> I learned something new everytime I succeeded. I learned even more everytime I failed.
+> “I learned something new everytime I succeeded. I learned even more everytime I failed.”
 
 After I have worked on different projects for a few years, I was getting comfortable making decisions on my own. I was exploring different approaches how to solve problems. I learned something new everytime I succeeded. I learned even more everytime I failed.
 
@@ -54,7 +54,7 @@ I learned how to present obtained knowledge to the rest of the team, too. Speaki
 
 Last year I started a freelance career. It was [a great year] for me, I worked with extraordinary professionals on exceptional projects. Working remotely, and juggling projects continuously mean adapting to new surroundings and environments. That is where spending hours, days and months of learning about new tools come in beneficial.
 
-> Learning and using new tools and applications are part of the job.
+> “Learning and using new tools and applications are part of the job.”
 
 In my opinion, I learned more techniques, and tools in the past year than in all previous jobs. I didn't enjoy learning about all of them, but I didn't mind either. Learning and using new tools and applications is part of the job.
 
@@ -64,7 +64,7 @@ Being able to adapt to the new environment is vital for me. I am not ashamed to 
 
 There is [a quote] from an old movie that could be applied here:
 
-> Every day in every way I'm getting more and more progressive.
+> “Every day in every way I'm getting more and more progressive.”
 
 I learned a valuable lesson that learning was part of the job — a developer could never know it all, it is impossible. Never stop learning and improving yourself. 📚
 

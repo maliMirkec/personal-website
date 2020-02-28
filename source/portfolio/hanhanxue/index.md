@@ -1,14 +1,27 @@
 ---
 title: Han Han Xue
 comments: false
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582626135/hhx_nntltz.png
 portfolio: true
+order: 14
+display: true
+tags:
+  - spg
+  - ssg
+  - middleman
+  - html
+  - css
+  - javascript
+  - pagespeed optimization
 quotes:
   - person: Han Han Xue
+    highlighted: true
     position: Product Designer
     project:
       name: Lyft
@@ -19,8 +32,6 @@ quotes:
       - Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions.
       - If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project."
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Han Han Xue cover" cover-img https://www.hanhanxue.com cover %}
 
 Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
 

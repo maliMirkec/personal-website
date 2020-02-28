@@ -35,7 +35,7 @@ Here are some facts from [my Contribution activity graph]:
 
 Sourcerer is an open-source project that gives a visual overview of your GitHub profile.
 
-> Sourcerer is a visual profile for SWEs that analyzes and derives your abilities, preferences, and habits from your commits and source code.
+> “Sourcerer is a visual profile for SWEs that analyzes and derives your abilities, preferences, and habits from your commits and source code.”
 
 Here are some facts from [my Sourcerer profile]:
 

@@ -27,7 +27,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - node_modules/*
-  - themes/hexo-theme-sb2/_gulp/*
+  - themes/hexo-theme-sb2/gulpfile.js/*
   - themes/hexo-theme-sb2/node_modules/*
   - themes/hexo-theme-sb2/source/*
   - themes/hexo-theme-sb2/src/*

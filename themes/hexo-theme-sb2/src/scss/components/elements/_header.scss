@@ -1,8 +1,16 @@
 // Header
 .header {
   background-color: $color-psi;
-  color: lighten($color-alpha, 20%);
+  color: $color-delta;
   box-shadow: 0 -3px 0 0 $color-alpha inset;
+
+  .body--dark & {
+    @include light-mode;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include light-mode;
+  }
 }
 
 .nav__list {
@@ -41,7 +49,7 @@
   letter-spacing: 0.05em;
   background-size: 10px 10px;
   background-repeat: no-repeat;
-  background-position: top 4px center, bottom center;
+  background-position: bottom 4px center;
   cursor: pointer;
 
   &.skip {
@@ -66,47 +74,67 @@
   }
 
   .nav__list--home .nav__item:nth-child(2) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__list--blog .nav__item:nth-child(3) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__list--portfolio .nav__item:nth-child(4) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__list--about-me .nav__item:nth-child(5) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__list--links .nav__item:nth-child(6) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__list--contact .nav__item:nth-child(7) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), url(/gfx/svg/logo-header.svg);
+    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
   }
 
   .nav__item:last-of-type & {
-    color: lighten($color-beta, 25%);
+    color: $color-epsilon;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-beta;
+      box-shadow: 0 0 0 3px $color-epsilon inset;
+    }
   }
 
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($color-psi, 10%);
+    color: $color-alpha;
+    border-radius: 4px;
+  }
+
+  .nav__item &:hover,
+  .nav__item &:focus,
+  .nav__item &:active {
+    box-shadow: 0 0 0 3px $color-delta inset;
   }
 
   @include mq($from: tablet) {
     background-size: 20px 20px;
     padding: 17.5px 25px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px), radial-gradient(circle at 80% center, $color-alpha 2px, transparent 2px), radial-gradient(circle at 20% center, $color-alpha 2px, transparent 2px);
+    }
   }
 
   @include mq($from: desktop) {
     padding: 35px 50px;
     background-size: 30px 30px;
-    background-position: top 15px center, bottom 2px center;
+    background-position: bottom 15px center;
   }
 }

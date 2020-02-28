@@ -1,0 +1,26 @@
+if (site && site.posts)
+  .block__grid.block__grid--alpha
+    .block__item
+      include intro-publications
+    each vpost, kpost in site.posts.toArray().reverse()
+      if (vpost.highlighted && vpost.canonical)
+        .block__item.card
+          .card__image
+            a(href=urlFor(vpost.path))
+              - var thumbnail_alt = "Cover for " + vpost.title + " article."
+              img(src="/gfx/jpg/cover-half.jpg", alt=thumbnail_alt)
+          .card__content
+            if (vpost.date)
+              ul.card__list.card__list--beta.card__details
+                //- li.card__detail Silvestar Bistrović
+                li.card__detail= vpost.date.format(config.date_format)
+            if vpost.title
+              h3.h4.card__title
+                a(href=urlFor(vpost.path))= vpost.title
+            if (vpost.tags)
+              ul.card__list.card__list--alpha.card__tags
+                each tag in vpost.tags.toArray()
+                  li
+                    a.card__tag(href=urlFor(tag.path))= tag.name
+            .card__action
+              a(href=urlFor(vpost.path)) Read more ⇢

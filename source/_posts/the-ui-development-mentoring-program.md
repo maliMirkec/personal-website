@@ -6,7 +6,7 @@ tags:
   - mentoring
 categories:
   - Blog
-banner1:
+cta1:
   span: "Wanna improve your UI coding skills?"
   btn1: "Join the Program"
   btn2: "Become an UI dev 💯"
@@ -25,7 +25,7 @@ Since I work remotely, I am talking about remote mentoring here. That means I wo
 
 <!-- more -->
 
-> _Note that I am located in Croatia, and I speak only English and Croatian. 🇭🇷_
+> Note that I am located in Croatia, and I speak only English and Croatian. 🇭🇷
 
 ## Background
 

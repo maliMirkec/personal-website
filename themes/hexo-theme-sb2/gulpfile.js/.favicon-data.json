@@ -1,6 +1,6 @@
 {
-  "masterPicture": "helpers.source/gfx/svg/logo-favicon.svg",
-  "temp": "helpers.source/favicon/",
+  "masterPicture": "helpers.source/config.gfx.src/svg/logo-favicon.svg",
+  "temp": "helpers.source/src/favicon/",
   "dest": "helpers.dist/favicon/",
   "iconsPath": "/favicon/",
   "markupFile": "helpers.proot/gulpfile.js/.favicon-data-generated.json",

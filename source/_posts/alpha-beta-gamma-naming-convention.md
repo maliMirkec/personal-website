@@ -45,6 +45,7 @@ What is great about using Alpha, Beta, Gamma naming convention is that it separa
 Let's say we have a `list` component with modifiers `list--red,` `list--green,` and `list--blue` for a list with red, green, and blue elements respectively. At some point, our designer decided to change the brand color from red to pink. Now we need to update the red color to pink, which means our modifier class name `list--red` wouldn't make sense anymore. We need to update the class name to `list-pink.` This situation is a classic problem in the world of CSS.
 
 If we use Alpha, Beta, Gamma convention, we would have these three classes:
+
 - `list--alpha,`
 - `list--beta,` and
 - `list--gamma.`
@@ -55,7 +56,7 @@ Now we could modify the style as we please and our classes wouldn't lose meaning
 
 There is a potential brain processing overhead here because you have to remember which letter stands for which version of an element. Try to reduce your brain usage by documenting your variables and modifiers and not using too many variations for a single component.
 
-> Use `psi` and `omega` to name different or completely distinct variables or modifiers.
+> “Use `psi` and `omega` to name different or completely distinct variables or modifiers.”
 
 Here's a tip for you: use `psi` and `omega` letters (last two letters of the alphabet) to name different or completely distinct variables or modifiers. For example, I am using `color-psi` for text color, and `color-omega` for white color. These are opposites of `color-alpha,` `color-beta,` and `color-gamma` which serves as theme/brand colors in my case.
 

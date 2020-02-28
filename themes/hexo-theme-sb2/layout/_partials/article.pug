@@ -17,13 +17,13 @@ if (page && page.title)
           span="Photo credit: "
           a(href=page.credit.link)=page.credit.text
   if (isPost())
-    .post-banner
-      include banner1
+    .post-cta
+      include cta1
   if (page && page.profile)
     - var article_img_wide = page.profile.replace('upload/', 'upload/f_auto,q_auto,w_240/');
     - var article_img_mobile = page.profile.replace('upload/', 'upload/f_auto,q_auto,w_120/');
     - var article_img_srcset = article_img_mobile + " 120w, " + article_img_wide + " 240w";
-    .profile
+    .profile__image.profile__image--alpha
       img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 240px) 120px, (min-width: 321px) 240px")
 
   if (page && page.layout == "post")
@@ -58,24 +58,47 @@ if (page && page.title)
           span= "Project: "
           a(href=page.project.href, target="_blank")= page.project.name
           span= " 👀"
+
+  if (page && page.portfolio && page.tags)
+    ul.poster__list.poster__tags
+      each tag in page.tags
+        li.poster__tag= tag
+
   if (page && page.content)
     .content
       div!= page.content
       if (page && page.form && page.form == 'contact')
-        include forms/contact
+        include _forms/contact
       if (page && page.form && page.form == 'mentoring')
-        include forms/mentoring
+        include _forms/mentoring
+
+  if (page && page.card)
+    include _redesign/profile-solo
 
   if (page && page.quotes)
     h2.article__testimonials= "Testimonials"
-    ul.list.list--omega
+    .block__grid
       each quote in page.quotes
-        li.list__item
-          blockquote
+        .block__item.quote
+          p.quote__person
+            span= quote.person
+            if (quote.position && quote.project && quote.project.name)
+              span= ", " + quote.position + " @ "
+              a(href=page.path)= quote.project.name
+            span= " said:"
+          blockquote.quote__text
             each paragraph in quote.paragraphs
               p= paragraph
-            h3= quote.person
-            h3= quote.position + " @ " + quote.project.name
+          if (quote.person)
+          if (page && page.logo)
+            .quote__details
+              - var logo_src = page.logo.replace('upload/', 'upload/f_auto,q_99,h_30/');
+              - var logo_alt = "Logo of " + page.title + " company."
+              .quote__logo
+                +cloudinary(logo_src, "", logo_alt, "", "false")
+
+  if (page && page.testimonials)
+    include _redesign/testimonials-all
 
   if (isPost())
     .metadata
@@ -106,13 +129,16 @@ if (page && page.title)
                   a.list__link(href=urlFor(page.prev.path), rel="next")= prevTitle
       .metadata__content
         if (theme && theme.widgets && theme.widgets.about)
-          include widgets/about
+          include _widgets/about
 
   if (isPost())
-    .post-banner
-      include widgets/coffee
-      include banner2
+    .post-cta
+      include _widgets/coffee
+      include cta2
+
+  if (page && page.signature)
+    include _redesign/signature
 
   if (page && page.layout == "post" && theme && theme.widgets && theme.widgets.disqus)
-    include widgets/comments
+    include _widgets/comments
 

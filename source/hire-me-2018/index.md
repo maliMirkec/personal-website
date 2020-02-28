@@ -1,9 +1,9 @@
 ---
 title: I'm available for hire
 comments: false
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 date: 2017-08-02 11:37:55
 description: If you want me on your team, you should send me an email at me@silvestar.codes. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
@@ -15,6 +15,7 @@ If you want me on your team, you should [contact me](/contact/). I'm also availa
 ## Why me
 
 I've been working with web technologies since 2011. I first started as a PHP developer in 2012. We were a small team of 2 and we worked on various projects like:
+
 - building custom CMS for websites;
 - building custom CRM solutions;
 - building application for a call center;
@@ -29,9 +30,9 @@ In 2015 friends asked me to build a website. They were starting with their [wedd
 
 In 2016 I wanted to start my own blog. It was my great desire for a long time but I was afraid. But fear isn't necessarily the bad thing.
 
-> ### Fear is a compass-a signal that you might be on the verge of doing something worthwhile.
+> “Fear is a compass-a signal that you might be on the verge of doing something worthwhile.”
 >
-> _— Source: http://weekjuice.com/#/16_
+> _— Source: [http://weekjuice.com/#/16](http://weekjuice.com/#/16)_
 
 And it happened, I started a blog. I used WordPress as a blogging engine. I always work with performance on my mind so I tried to make my blog as fast as possible. I managed to create a pretty fast website using [_bem - WordPress theme with BEM methodology](/articles/bem-wordpress-theme/). As icing on the cake, the content from my website got recognized and even featured on CSS Weekly: [Issue #237](http://css-weekly.com/issue-237/), [Issue #258](http://css-weekly.com/issue-258/), and [Issue #277](http://css-weekly.com/issue-277/).
 

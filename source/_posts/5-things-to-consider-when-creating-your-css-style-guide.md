@@ -13,6 +13,7 @@ credit:
   link: https://unsplash.com/photos/eqXiLNfZDc0
 comments: true
 description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
+highlighted: true
 ---
 
 _This article was originally published on [LogRocket Blog](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d)._

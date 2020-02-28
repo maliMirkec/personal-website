@@ -1,15 +1,23 @@
 ---
 title: Moodings
 comments: false
-banner2:
+cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582624909/m_ajy438.png
 portfolio: true
+order: 13
+display: true
+tags:
+  - shopify
+  - html
+  - css
+  - javascript
+  - pagespeed optimization
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Moodings cover" cover-img https://moodings.com cover %}
 
 Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
 

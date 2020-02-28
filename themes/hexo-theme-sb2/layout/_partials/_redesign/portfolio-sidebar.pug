@@ -1,0 +1,10 @@
+if (site && site.pages)
+  .sidebar
+    .sidebar__inner
+      h2.sidebar__title Portfolio
+      ul.list.list--beta
+        each vpage, kpage in site.pages.toArray().sort((a, b) => (a.order > b.order) ? 1 : -1)
+          if (vpage.portfolio && vpage.display)
+            li.list__item
+              - var link_class = (page.path.indexOf(vpage.path) !== -1) ? " list__link--current" : "";
+              a(href=urlFor(vpage.path), class="list__link" + link_class)= vpage.title

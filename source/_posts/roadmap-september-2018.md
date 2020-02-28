@@ -18,6 +18,7 @@ The inspiration for creating a roadmap for myself came from [C. Todd Lombardo] a
 ## Roadmap
 
 According to Lombardo, there are five primary components of a roadmap:
+
 - vision,
 - objectives,
 - timeframes,
@@ -37,6 +38,7 @@ Having that said, you are free to be inspired and make your own career plan and 
 Vision should answer questions like where are you going, or how the future should look for you, or where do you see yourself in a certain period of time.  It doesn't have to be a single thought, it could be a whole document or a blog post or something else.
 
 > My current visions are:
+>
 > - to build more performant, reliable and accessible website for every client,
 > - to be better in delivering pixel-perfect, responsive and semantic user interface solutions,
 > - to become a more respectful and acknowledged developer, and
@@ -47,6 +49,7 @@ Vision should answer questions like where are you going, or how the future shoul
 Objectives are outcomes that you could measure or compare. When setting your objectives, you should ask questions like what are you trying to accomplish, or what results you are expecting.
 
 > My current objectives are:
+>
 > - devote to all projects equally and with full attention,
 > - learn more about web tools, techniques, and principles,
 > - write more technical posts,
@@ -71,12 +74,14 @@ Themes are organizing principles how you should work. First, you have a problem,
 Let's create a theme. The problem is high bounce rate—visitors on my website often bounce after they read or don't read an article. What I need is more quality content and/or call-to-action buttons. The objective is to engage visitors more and decrease the bounce rate.
 
 Lombardo talks about asking “why” repeatedly for a problem that you are trying to solve until you find a root cause of the problem:
+
 - Why do I need more quality content? Because I want more visitors getting back to read more content.
 - Why are visitors not coming back? Because visitors mainly come from social networks after I share an article.
 - Why don't visitors come from Google? Because the website is not on the first page on search results.
 - Why isn't the site on the first page? Because the SEO is not optimized.
 
 > My current themes are:
+>
 > - Improve SEO to get higher Google ranking
 > - Add more content on the homepage to make a unique user experience
 > - Update portfolio to make potential clients want to hire you

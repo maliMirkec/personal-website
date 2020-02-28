@@ -1,0 +1,30 @@
+if (site && site.pages)
+  - var portfolioPages = site.pages.toArray().filter(page => page.portfolio && page.display)
+  - portfolioPages.sort((a, b) => (a.order > b.order) ? 1 : -1)
+  .block__grid.block__grid--beta.block__grid--gamma
+    each vpage, kpage in portfolioPages
+      if (kpage === 2)
+        .block__cta
+          include ../cta2
+      if (kpage % 2 === 0 && kpage > 4 && kpage >= portfolioPages.length - 2)
+        .block__cta
+          include ../cta1
+      .block__item.poster
+        .poster__image
+          a(href=urlFor(vpage.path))
+            - var thumbnail_src = vpage.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_560/');
+            - var thumbnail_alt = "Screenshot of " + vpage.title + " website.";
+            +cloudinary(thumbnail_src, "", thumbnail_alt, "", "false")
+        .poster__content
+          if vpage.title
+            h3.poster__title
+              a(href=urlFor(vpage.path))= vpage.title
+          if (vpage.description)
+            p.poster__description= vpage.description
+          if (vpage.tags)
+            ul.poster__list.poster__tags
+              each tag in vpage.tags
+                li.poster__tag= tag
+          .poster__action
+            a(href=urlFor(vpage.path)) View Project ⇢
+

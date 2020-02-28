@@ -1,32 +1,54 @@
-global.bs = require('browser-sync').create()
+const { helpers } = require('./helpers');
 
-const { helpers } = require('./helpers')
-
-const syncConfig = require('./.sync.json')
+const syncConfig = require('./.sync.json');
 
 // Start static server
-function syncStart (cb) {
-  const thisServer = syncConfig.server.baseDir
-    ? syncConfig.server
-    : Object.assign({}, syncConfig.server, { baseDir: helpers.dist() })
+function syncStart(cb) {
+  if (global.config.sync.run) {
+    let thisConfig = {};
 
-  const thisConfig = Object.assign({}, syncConfig, {
-    server: thisServer
-  })
+    if (syncConfig.proxy) {
+      thisConfig = {
+        ...syncConfig,
+        proxy: syncConfig.proxy,
+      };
+    } else {
+      const thisServer = syncConfig.server.baseDir
+        ? helpers.parse(syncConfig.server.baseDir)
+        : ({
+          ...syncConfig.server,
+          baseDir: helpers.dist(),
+        });
 
-  global.bs.init(thisConfig)
+      thisConfig = {
+        ...syncConfig,
+        server: thisServer,
+      };
+    }
 
-  cb()
+    global.bs.init(thisConfig);
+  }
+
+  cb();
+}
+
+// Start static dev server
+function syncStartBuild(cb) {
+  syncConfig.open = false;
+
+  syncStart(cb);
 }
 
 // Stop static server
-function syncStop (cb) {
-  global.bs.exit()
+function syncStop(cb) {
+  global.bs.cleanup();
+  global.bs.exit();
 
-  cb()
+  cb();
 }
 
 exports.sync = {
   syncStart,
-  syncStop
-}
+  syncStartBuild,
+  syncStop,
+};

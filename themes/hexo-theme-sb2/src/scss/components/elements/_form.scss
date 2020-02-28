@@ -1,52 +1,63 @@
 .form {
-  margin-top: rem(40);
+  margin-top: 40px;
+
+  .body--dark & {
+    @include mixed-mode;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include mixed-mode;
+  }
 
   * {
     box-sizing: border-box;
   }
 
   form {
-    margin-bottom: rem(20);
+    margin-bottom: 20px;
   }
 
   label {
+    color: $color-chi;
     display: block;
     font-size: ms(0);
 
     &:not(:first-of-type) {
-      margin-top: rem(10);
+      margin-top: 10px;
+    }
+
+    small {
+      margin-left: 0.5em;
     }
   }
 
-
   small {
-    color: lighten($color-psi, 12.5%);
+    font-size: ms(-1);
+    color: $color-chi;
   }
 
-  input:not([type="checkbox"]):not([type="radio"]),
-  button {
-    min-height: rem(70);
+  input:not([type="checkbox"]):not([type="radio"]) {
+    min-height: 50px;
   }
 
   input:not([type="checkbox"]):not([type="radio"]),
   textarea {
     font-family: $font-alpha;
-    background-color: lighten($color-alpha, 50%);
+    border-radius: 4px;
     width: 100%;
 
     &[class*="is-danger"] {
-      border: rem(3) solid lighten($color-beta, 15%);
-      background-color: lighten($color-beta, 50%);
+      border: 1px dotted $color-beta;
 
       &:hover,
       &:focus,
       &:active {
-        border: rem(3) solid $color-beta;
+        border-color: $color-beta;
       }
 
       &:focus,
       &:active {
-        outline: rem(3) solid $color-beta;
+        box-shadow: 0 0 0 3px $color-epsilon;
       }
     }
   }
@@ -56,18 +67,26 @@
   button {
     font-size: ms(0);
     line-height: 2;
-    padding: rem(10) rem(20);
-    border: rem(3) solid lighten($color-alpha, 15%);
+    padding: 5px 10px;
 
     &:hover,
     &:focus,
     &:active {
-      border-color: $color-alpha;
+      outline: none;
     }
+  }
 
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea {
+    color: $color-chi;
+    background-color: $color-gamma;
+    border: 1px dotted $color-alpha;
+
+    &:hover,
     &:focus,
     &:active {
-      outline: rem(3) solid $color-alpha;
+      border-color: $color-psi;
+      box-shadow: 0 0 0 3px $color-gamma;
     }
   }
 
@@ -79,17 +98,49 @@
 
   button {
     font-family: $font-beta;
-    font-size: ms(0);
-    background-color: lighten($color-alpha, 25%);
+    font-size: ms(-1);
+    background-color: $color-alpha;
     color: $color-psi;
-    margin-top: rem(20);
+    min-height: 40px;
+    border: none;
+    text-transform: uppercase;
+    @include ls(50);
     cursor: pointer;
 
     &:hover,
     &:focus,
     &:active {
-      background-color: lighten($color-alpha, 12.5%);
+      background-color: $color-alpha;
     }
+  }
+
+  .kw-multistep {
+    background-color: $color-gamma;
+    color: $color-chi;
+    border: 1px dotted $color-alpha;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .kw-multistep-header,
+  .kw-multistep-footer,
+  .kw-multistep-body {
+    color: $color-psi;
+  }
+
+  .kw-multistep-header,
+  .kw-multistep-footer {
+    font-size: ms(0);
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: inherit;
+    color: inherit;
+    @include ls(50);
+  }
+
+  .kw-multistep-body {
+    background-color: $color-omega;
+    border-radius: 4px;
   }
 
   .kw-form-wrapper,
@@ -102,9 +153,10 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-bottom: rem(24);
+    padding-bottom: 24px;
 
     .help {
+      color: $color-beta;
       position: absolute;
       left: 0;
       right: 0;
@@ -116,17 +168,18 @@
   .kw-radio {
     display: flex;
     align-items: center;
-    padding-top: rem(10);
+    padding-top: 10px;
 
     input {
       margin-right: .5em;
     }
   }
 
-  .kw-message-error {
-    background-color: lighten($color-beta, 50%) !important;
-    color: darken($color-beta, 10%) !important;
-    border-radius: 0;
+  .kw-message-error.kw-message-error {
+    border: 1px dotted $color-beta;
+    background-color: $color-omega;
+    color: $color-beta;
+    border-radius: 4px;
 
     span {
       padding-bottom: 0;
@@ -135,32 +188,43 @@
 
   .kw-multistep-footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     button {
       float: none;
       flex: 0 0 auto;
       width: auto;
-      margin-top: 0;
-      padding: rem(10) rem(20);
-      min-height: rem(50);
-      min-width: rem(130);
+      margin: 4px 0;
+      padding: 2px 10px 4px;
+      border-radius: 4px;
+      min-width: 140px;
 
       &[disabled] {
-        opacity: 0.6;
+        opacity: 0.8;
+      }
+
+      @include mq($until: mobile) {
+        width: 100%;
       }
     }
   }
 
   .kw-multistep-button-previous,
   .kw-multistep-button-next {
-    background-color: darken($color-gamma, 12.5%);
-    border-color: darken($color-gamma, 17.5%);
+    background-color: $color-alpha;
+    border: none;
+  }
+
+  .kw-multistep-button-previous,
+  .kw-multistep-button-next,
+  .kw-multistep-button-submit {
+    font-size: ms(0);
 
     &:hover,
     &:focus,
     &:active {
-      background-color: lighten($color-alpha, 12.5%);
+      box-shadow: 0 0 0 4px $color-psi inset;
     }
   }
 

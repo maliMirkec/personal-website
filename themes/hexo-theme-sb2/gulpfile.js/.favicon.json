@@ -1,5 +1,4 @@
 {
-  "run": true,
-  "src": "helpers.source/config.html.src/_partials/assets/favicon.pug",
-  "dest": "helpers.source/config.html.src/_partials/assets/"
+  "src": "helpers.source/config.html.src/_partials/_assets/favicon.pug",
+  "dest": "helpers.source/config.html.src/_partials/_assets/"
 }

@@ -29,9 +29,9 @@ In this post, I'll try to explain CSS sidebar toggle technique in general and fo
 
 In order to trigger the sidebar overlay, we'll need the following components:
 
-*   a `label`,
-*   a `checkbox` and
-*   a `sidebar`.
+* a `label`,
+* a `checkbox` and
+* a `sidebar`.
 
 We'll use checkbox's `:checked` pseudo class to determine whether to show or to hide the sidebar.
 
@@ -39,11 +39,11 @@ We'll use checkbox's `:checked` pseudo class to determine whether to show or t
 
 For a menu toggle indicator, we could use well know hamburger menu. There are [many](https://webdesign.tutsplus.com/tutorials/7-non-raster-approaches-for-making-the-hamburger-menu-icon--cms-21686) [simple](https://css-tricks.com/three-line-menu-navicon/) and [awesome](https://jonsuh.com/hamburgers/) ways how we could do it. I've decided to use pure `CSS` solution, well, because this is a pure CSS sidebar toggle solution.
 
-### Demo
+### First Demo
 
 {% codepen CiTA YNbKpo dark result %}
 
-### `HTML`
+### HTML for the first demo
 
 {% codeblock lang:html %}
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
@@ -58,7 +58,7 @@ Inside the label, we should place `span` elements—each one will represent one 
 
 Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`** attribute on a `label` element.
 
-### `CSS`
+### CSS for the first demo
 
 {% codeblock lang:scss %}
 // variables
@@ -91,8 +91,8 @@ For deeper understanding how this hamburger menu is working, check the source co
 
 The logic is straightforward:
 
-*   if not checked, display hamburger icon;
-*   if checked, display close icon.
+* if not checked, display hamburger icon;
+* if checked, display close icon.
 
 We are using transitions and transforms to animate the icon.
 
@@ -100,14 +100,13 @@ We are using transitions and transforms to animate the icon.
 
 There are many ways how a sidebar could be displayed. I've decided to go with a full-width sidebar containing just a menu list.
 
-### Demo
+### Second Demo
 
 {% codepen CiTA bgjKKE dark result %}
 
-### `HTML`
+### HTML for the second demo
 
 In order to create CSS sidebar toggle, we should use the following `HTML` structure:
-
 
 {% codeblock lang:html %}
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
@@ -124,7 +123,7 @@ In order to create CSS sidebar toggle, we should use the following `HTML` struct
 
 Notice that `checkbox` input, `label`, `sidebar` and content are all siblings.
 
-### `CSS`
+### CSS for the second demo
 
 {% codeblock lang:scss %}
 :root {
@@ -188,8 +187,8 @@ menuToggler.addEventListener('change', function() {
 
 When a menu button is pressed, we should change its `aria-pressed` attribute and navigation's `aria-hidden` attribute accordingly. We should change `tabindex` of every menu item:
 
-*   if a menu is visible, menu items should be tabbable;
-*   if a menu is not visible, menu items should not be tabbable.
+* if a menu is visible, menu items should be tabbable;
+* if a menu is not visible, menu items should not be tabbable.
 
 ### Keyboard interaction
 

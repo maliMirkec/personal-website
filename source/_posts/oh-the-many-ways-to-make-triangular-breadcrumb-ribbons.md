@@ -17,6 +17,7 @@ description: Let’s have a look at how we can create a row of links that sorta 
 project:
   name: Playground
   href: https://play.silvestar.codes/ribbon/
+highlighted: true
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)._

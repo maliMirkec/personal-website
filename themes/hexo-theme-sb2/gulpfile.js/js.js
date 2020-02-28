@@ -1,54 +1,82 @@
-const { src, dest, watch } = require('gulp')
-const eslint = require('gulp-eslint')
-const babel = require('gulp-babel')
-const include = require('gulp-include')
-const sourcemaps = require('gulp-sourcemaps')
-const uglify = require('gulp-uglify')
-const rename = require('gulp-rename')
+const { src, dest, watch } = require('gulp');
+const gulpif = require('gulp-if');
+const eslint = global.config.js.lint ? require('gulp-eslint') : () => true;
+const sourcemaps = global.config.js.sourcemaps ? require('gulp-sourcemaps') : () => true;
+const rename = global.config.js.uglify ? require('gulp-rename') : () => true;
+const webpack = require('webpack');
+const gulpWebpack = require('webpack-stream');
 
-const { helpers } = require('./helpers')
+const { helpers } = require('./helpers');
 
-const jsConfig = require('./.js.json')
+const jsConfig = require('./.js.json');
+const webpackConfig = require('./webpack.js');
+
+// gulp-if fix
+if (!global.config.css.sourcemaps) {
+  sourcemaps.init = () => true;
+  sourcemaps.write = () => true;
+}
+
+const thisEslintConfig = (global.config.js.lint)
+  ? ({ ...jsConfig.eslintConfig, configFile: helpers.parse(jsConfig.eslintConfig.configFile) })
+  : {};
+
+if (!global.config.js.lint) {
+  eslint.format = () => true;
+  eslint.failAfterError = () => true;
+  eslint.result = () => true;
+}
+
+webpackConfig.devtool = (global.config.js.sourcemaps) ? 'sourcemaps' : '';
 
 // Will process JS files
-function jsStart () {
-  const thisEslintConfig = Object.assign({}, jsConfig.eslintConfig, {
-    configFile: helpers.parse(jsConfig.eslintConfig.configFile)
-  })
+function jsStart() {
+  return src(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`))
+    .pipe(gulpif(global.config.js.sourcemaps, sourcemaps.init()))
+    .pipe(gulpif(global.config.js.lint, eslint(thisEslintConfig)))
+    .pipe(gulpif(global.config.js.lint, eslint.format()))
+    .pipe(gulpif(global.config.js.lint, eslint.failAfterError()))
+    .pipe(gulpif(global.config.js.lint, eslint.result((result) => {
+      console.log(`[JS] ESLint complete: ${result.filePath}`);
+      console.log(`[JS] Messages: ${result.messages.length}`);
+      console.warn(`[JS] Warnings: ${result.warningCount}`);
+      console.error(`[JS] Errors: ${result.errorCount}`);
+    })))
+    .pipe(
+      gulpWebpack(webpackConfig),
+      webpack,
+    )
+    .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.js.dist}`)))
+    .pipe(gulpif(global.config.js.uglify, rename(jsConfig.renameConfig)))
+    .pipe(gulpif(global.config.js.sourcemaps, sourcemaps.write(helpers.trim(`${helpers.source()}/${global.config.js.dist}`))))
+    .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.js.dist}`)))
+    .pipe(gulpif(global.config.sync.run, global.bs.stream()));
+}
 
-  const thisIncludePaths = jsConfig.includeConfig.includePaths.map(path => helpers.parse(path))
+function jsStartDev(cb) {
+  webpackConfig.mode = 'development';
 
-  const thisIncludeConfig = Object.assign({}, jsConfig.includeConfig, {
-    includePaths: thisIncludePaths
-  })
+  jsStart();
 
-  return src(`${helpers.source()}/${helpers.trim(global.config.js.src)}/*.js`)
-    .pipe(sourcemaps.init())
-    .pipe(eslint(thisEslintConfig))
-    .pipe(eslint.format())
-    .pipe(eslint.failAfterError())
-    .pipe(eslint.result((result) => {
-      console.log(`[JS] ESLint complete: ${result.filePath}`)
-      console.log(`[JS] Messages: ${result.messages.length}`)
-      console.warn(`[JS] Warnings: ${result.warningCount}`)
-      console.error(`[JS] Errors: ${result.errorCount}`)
-    }))
-    .pipe(include(thisIncludeConfig))
-    .pipe(babel(jsConfig.babelConfig))
-    .pipe(dest(`${helpers.dist()}/${helpers.trim(global.config.js.dist)}`))
-    .pipe(uglify())
-    .pipe(rename(jsConfig.renameConfig))
-    .pipe(sourcemaps.write(`${helpers.source()}/${helpers.trim(global.config.js.dist)}`))
-    .pipe(dest(`${helpers.dist()}/${helpers.trim(global.config.js.dist)}`))
-    .pipe(global.bs.stream())
+  cb();
+}
+
+function jsStartProd(cb) {
+  webpackConfig.mode = (global.config.js.uglify) ? 'production' : 'development';
+
+  jsStart();
+
+  cb();
 }
 
 // When JS file is changed, it will process JS file, too
-function jsListen () {
-  return watch(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`), global.config.watchConfig, jsStart, global.bs.reload)
+function jsListen() {
+  return watch(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`), global.config.watchConfig, jsStart, global.bs.reload);
 }
 
 exports.js = {
   jsStart,
-  jsListen
-}
+  jsStartDev,
+  jsStartProd,
+  jsListen,
+};

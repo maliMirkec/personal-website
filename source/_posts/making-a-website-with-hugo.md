@@ -6,12 +6,13 @@ categories:
 tags:
   - hugo
   - spg
-banner1:
+  - ssg
+cta1:
   span: "Hugo is “the world’s fastest framework for building websites.”"
   btn1: "Learn Hugo"
   btn2: "Make a website within an hour"
   link: https://skl.sh/2q88Ij7
-banner2:
+cta2:
   span: "Hugo is “the world’s fastest framework for building websites.”"
   btn1: "Learn Hugo"
   btn2: "Make a website within an hour"
@@ -28,7 +29,7 @@ If you are starting a new website, consider using [Hugo]. Other than it is “th
 
 <!--more-->
 
-_<small>This post serves as an intro for the course “[Making a website with Hugo].”</small>_
+__<small>This post serves as an intro for the course “[Making a website with Hugo].”</small>__
 
 ## CLI
 

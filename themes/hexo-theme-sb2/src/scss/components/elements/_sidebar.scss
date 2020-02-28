@@ -13,10 +13,9 @@
       content: "";
       position: absolute;
       top: 0;
-      right: calc((100vw - 100%) / -2);
+      right: 0;
       bottom: 0;
       left: 0;
-      background-color: $color-gamma;
       border-left: 1px solid $color-alpha;
       z-index: -1;
     }
@@ -35,6 +34,6 @@
     width: 15%;
     max-width: 100px;
     height: 10px;
-    background-color: lighten($color-beta, 30%);
+    background-color: $color-delta;
   }
 }

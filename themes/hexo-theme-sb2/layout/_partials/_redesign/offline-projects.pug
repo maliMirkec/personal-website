@@ -1,0 +1,19 @@
+if (site && site.pages)
+  .block__grid.block__grid--beta
+    .block__item.block__item--alpha
+      include intro-projects
+    each vpage, kpage in site.pages.toArray()
+      if (vpage.highlighted && vpage.side)
+        .block__item.poster.poster--alpha
+          .poster__image
+            a(href=urlFor(vpage.path))
+              - var thumbnail_alt = "Screenshot of " + vpage.title + " website.";
+              img(src="/gfx/jpg/cover-half.jpg", alt=thumbnail_alt)
+          .poster__content
+            if vpage.title
+              h3.poster__title
+                a(href=urlFor(vpage.path))= vpage.title
+              if (vpage.description)
+                p.poster__description= vpage.description
+            .poster__action
+              a(href=urlFor(vpage.path)) View Project ⇢

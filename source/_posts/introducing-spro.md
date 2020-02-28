@@ -38,7 +38,7 @@ Amongst other great build tools, like Grunt, Webpack, Parcel or even npm scripts
 
 About a year ago I started working on my side project, [Starter Project]. Starter Project is conceived as a boilerplate of the latest best practices packed in Gulp tasks. Instead of copy-pasting code from one project to another, why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.
 
-> ...why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.
+> “...why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.”
 
 Read more about the idea and possible problems that Starter Project package it is trying to solve [in the introduction article] from the last year.
 
@@ -78,7 +78,7 @@ Now you should be able to run the command from the terminal that would save you 
 
 To check if the command is available, try running the following commands: `spro --version` and `node_modules/.bin/spro --version` for global and local installation, respectively. You should see the version number in your terminal.
 
-{% cloudinary //res.cloudinary.com/starbist/image/upload/v1551289671/spro-version_bc2zt4.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "SPRO version example." %}
+{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1551289671/spro-version_bc2zt4.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_500;1440px=f_auto,q_auto,w_500 "SPRO version example." %}
 
 The command that you want to run is `spro start`. You should be prompted to answer the questions about the project structure, as mentioned earlier.
 

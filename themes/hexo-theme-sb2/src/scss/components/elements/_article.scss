@@ -20,7 +20,7 @@
     max-width: 640px;
     margin: 0 auto;
 
-    &.article--banner {
+    &.article--cta {
       grid-column: 1 / -1;
       max-width: none;
       width: 100%;
@@ -53,12 +53,12 @@
 
   li,
   p {
-    a {
+    a:not([class*="card"]) {
       color: $color-beta;
     }
   }
 
-  blockquote {
+  blockquote:not([class*="quote"]) {
     border-left: 1px solid $color-alpha;
     margin: 2em 0;
     padding: 5px 20px 10px;
@@ -79,21 +79,16 @@
       right: calc((100vw - 100%) / -2);
       bottom: 0;
       left: calc((100vw - 100%) / -2);
-      background-color: $color-gamma;
+      background-color: $color-omega;
       z-index: -1;
+
+      .body--post & {
+        background-color: $color-gamma;
+      }
     }
 
     @include mq($from: tablet) {
       padding: 20px 60px 1.414rem;
-    }
-
-    .main--sidebar & {
-      @include mq($from: tablet) {
-        margin-top: 0;
-        margin-bottom: 3px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-      }
     }
 
     .main--sidebar &:before {
@@ -110,44 +105,31 @@
 
   table {
     min-width: 100%;
-    border: 1px solid lighten($color-alpha, 30%);
+    border: 1px solid $color-gamma;
     border-collapse: collapse;
     font-size: ms(-1);
 
     th,
     td {
       text-align: left;
-      border: 1px solid lighten($color-alpha, 30%);
+      border: 1px solid $color-gamma;
       padding: .5rem;
       min-width: 80px;
     }
 
     th {
-      background-color: lighten($color-alpha, 40%);
-    }
-
-    td {
-      background-color: lighten($color-alpha, 50%);
+      background-color: $color-delta;
     }
   }
 }
 
 code {
-  font-size: ms(-1);
-  display: inline-block;
-  background-color: lighten($color-alpha, 50%);
-  border-color: lighten($color-alpha, 40%);
-  border-style: solid;
-  border-width: 1px 3px;
-  border-radius: .25rem;
+  border-radius: 2px;
   padding-right: .125rem;
   padding-left: .125rem;
-
-  &::selection {
-    background-color: lighten($color-alpha, 10%);
-    color: $color-psi;
-    text-shadow: 0 1px 0 $color-omega;
-  }
+  background-color: $color-delta;
+  box-shadow: 0 0 0 1px $color-delta;
+  word-break: break-word;
 }
 
 .article__title--alpha {
@@ -198,7 +180,7 @@ code {
     width: 15%;
     max-width: 100px;
     height: 10px;
-    background-color: lighten($color-alpha, 20%);
+    // background-color: $color-delta
   }
 }
 
@@ -209,6 +191,12 @@ code {
 
   img {
     display: block;
+    border-radius: 4px;
+    overflow: hidden;
+
+    &[src*=".jpg"] {
+      box-shadow: 0 4px 0 0 $color-epsilon;
+    }
   }
 
   @include mq($from: mobile) {
@@ -276,12 +264,6 @@ code {
   grid-template-columns: 1fr;
 
   h3,
-  p,
-  li {
-    line-height: 30px;
-  }
-
-  h3,
   p {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -322,7 +304,7 @@ code {
       width: 15%;
       max-width: 100px;
       height: 10px;
-      background-color: lighten($color-alpha, 20%);
+      // background-color: $color-delta
     }
   }
 
@@ -337,21 +319,48 @@ code {
 
   p {
     img {
+      display: block;
       width: auto;
+      margin: 0 auto;
+      border-radius: 4px;
+      overflow: hidden;
     }
   }
 
   a {
     .main--sidebar & {
-      word-break: break-all;
-      hyphens: auto;
+      @include mq($until: desktop) {
+        word-break: break-word;
+        hyphens: auto;
+      }
     }
   }
 }
 
 .comments {
+  background-color: $color-gamma;
+  color: $color-psi;
+  padding: 1px 10px 10px;
+  border-radius: 4px;
+
+  .body--dark & {
+    @include comment-mode;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include comment-mode;
+  }
+
+  h3 {
+    color: inherit;
+  }
+
   .main--post & {
     max-width: 720px;
     margin: 0 auto;
+  }
+
+  @include mq($from: mobile) {
+    padding: 1px 20px 20px;
   }
 }

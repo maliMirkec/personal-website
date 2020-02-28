@@ -1,15 +1,23 @@
 ---
 title: Netki
 comments: false
-banner1:
+cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "👉 Get in touch"
+  btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.
+thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
+logo: https://res.cloudinary.com/starbist/image/upload/v1582625242/n_oxgjdy.png
 portfolio: true
+order: 11
+display: true
+tags:
+  - wordpress
+  - html
+  - css
+  - javascript
+  - pagespeed optimization
 ---
-
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440;960px=f_auto,q_auto,w_960 "Netki cover" cover-img https://netki.com cover %}
 
 Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.
 

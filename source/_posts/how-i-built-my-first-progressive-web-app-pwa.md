@@ -8,6 +8,7 @@ tags:
 thumbnail: https://res.cloudinary.com/starbist/image/upload/v1574165503/How_I_built_my_first_Progressive_Web_App_PWA_-2x_jwct17.jpg
 comments: true
 description: "As of today, my site is available as a Progressive Web App. In this post, you would learn more about how and why I added this exciting feature to my site."
+highlighted: true
 ---
 
 As of today, my site is available as a Progressive Web App. Yaay! 💯

@@ -1,3 +1,51 @@
+@mixin light-mode {
+  --color-alpha: #12e09f;
+  --color-beta: #e01258;
+  --color-gamma: #f5f5f5;
+  --color-delta: #C2FAE8;
+  --color-epsilon: #FAC2D4;
+  --color-chi: #4f4f4f;
+  --color-psi: #1f1f1f;
+  --color-omega: #fff;
+}
+
+@mixin dark-mode {
+  --color-alpha: #e01258;
+  --color-beta: #12e09f;
+  --color-gamma: #3e3e3e;
+  --color-delta: #C20A38;
+  --color-epsilon: #42AE8C;
+  --color-chi: #e1e1e1;
+  --color-psi: #fff;
+  --color-omega: #1f1f1f;
+}
+
+@mixin mixed-mode {
+  --color-alpha: #C2FAE8;
+  --color-beta: #FAC2D4;
+  --color-gamma: #4f4f4f;
+  --color-delta: #e01258;
+  --color-epsilon: #12e09f;
+  --color-chi: #fff;
+  --color-psi: #1f1f1f;
+  --color-omega: #3e3e3e;
+}
+
+@mixin comment-mode {
+  --color-gamma: #d5d5d5;
+  --color-psi: #1f1f1f;
+}
+
+:root {
+  @include light-mode;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include dark-mode;
+  }
+}
+
 /// Media query definition for mobile devices, used in css-locks.
 /// @access public
 /// @author Silvestar Bistrović <me@silvestar.codes>
@@ -89,7 +137,7 @@ $mq-breakpoints: (
 /// @group 1.1 Colors
 /// @name color1
 /// @since 1.0.0
-$color-alpha: #12e09f;
+$color-alpha: var(--color-alpha);
 
 /// Color from SB palette
 /// @access public
@@ -98,7 +146,7 @@ $color-alpha: #12e09f;
 /// @group 1.1 Colors
 /// @name white
 /// @since 1.0.0
-$color-beta: #e01258;
+$color-beta: var(--color-beta);
 
 /// Color from SB palette
 /// @access public
@@ -107,16 +155,43 @@ $color-beta: #e01258;
 /// @group 1.1 Colors
 /// @name white
 /// @since 1.0.0
-$color-gamma: #f5f5f5;
+$color-gamma: var(--color-gamma);
 
 /// Color from SB palette
 /// @access public
 /// @author Silvestar Bistrović <me@silvestar.codes>
-/// @example color: $color-zeta;
+/// @example color: $color-delta;
+/// @group 1.1 Colors
+/// @name white
+/// @since 1.0.0
+$color-delta: var(--color-delta);
+
+/// Color from SB palette
+/// @access public
+/// @author Silvestar Bistrović <me@silvestar.codes>
+/// @example color: $color-epsilon;
+/// @group 1.1 Colors
+/// @name white
+/// @since 1.0.0
+$color-epsilon: var(--color-epsilon);
+
+/// Color from SB palette
+/// @access public
+/// @author Silvestar Bistrović <me@silvestar.codes>
+/// @example color: $color-chi;
 /// @group 1.1 Colors
 /// @name zeta
 /// @since 1.0.0
-$color-psi: #1f1f1f;
+$color-chi: var(--color-chi);
+
+/// Color from SB palette
+/// @access public
+/// @author Silvestar Bistrović <me@silvestar.codes>
+/// @example color: $color-psi;
+/// @group 1.1 Colors
+/// @name zeta
+/// @since 1.0.0
+$color-psi: var(--color-psi);
 
 /// Color from SB palette
 /// @access public
@@ -125,7 +200,7 @@ $color-psi: #1f1f1f;
 /// @group 1.1 Colors
 /// @name omega
 /// @since 1.0.0
-$color-omega: #fff;
+$color-omega: var(--color-omega);
 
 /// Transition duration
 /// @access public
