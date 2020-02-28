@@ -1177,9 +1177,6 @@ code {
     display: block;
     border-radius: 4px;
     overflow: hidden; }
-    .article__thumb img[src*=".jpg"] {
-      -webkit-box-shadow: 0 4px 0 0 var(--color-epsilon);
-      box-shadow: 0 4px 0 0 var(--color-epsilon); }
   @media (min-width: 30em) {
     .article__thumb {
       margin-right: 0;
