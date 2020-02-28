@@ -271,10 +271,10 @@
 }
 
 .card__image {
-  background-color: $color-delta;
   position: relative;
 
   img {
+    background-color: $color-delta;
     display: block;
     width: 100%;
     border-radius: 4px;

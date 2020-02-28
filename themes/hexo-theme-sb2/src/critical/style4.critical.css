@@ -413,11 +413,11 @@ img {
 }
 
 .card__image {
-  background-color: var(--color-delta);
   position: relative;
 }
 
 .card__image img {
+  background-color: var(--color-delta);
   display: block;
   width: 100%;
   border-radius: 4px;
