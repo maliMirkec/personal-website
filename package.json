@@ -25,7 +25,7 @@
     "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
     "sw": "node index.js",
     "deploy": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw",
-    "dev": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
+    "dev": "hexo generate --debug && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
   },
   "hexo": {
     "version": "4.2.0"
