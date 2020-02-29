@@ -2723,10 +2723,10 @@ hexo-caniuse@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hexo-caniuse/-/hexo-caniuse-0.1.4.tgz#1994fd32c1333d5ea0dc42e4a8c5b4718846df75"
 
-hexo-cldnry@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/hexo-cldnry/-/hexo-cldnry-0.0.4.tgz#65deed28a83d3753ece28caca9db4a6e763ef161"
-  integrity sha512-I/LcYH4TQIkymT8WYbhQYJCB6sGN9E6a5q9BgjKCu8OODATcka5plz5E52fl4cNyL8fhJowSXQ/r3elH5gO/sA==
+hexo-cldnry@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-cldnry/-/hexo-cldnry-0.0.6.tgz#1f8a97da2a8700aa7f62fd83fd4e4c02c129ee02"
+  integrity sha512-NinY2BFdUBo32/XY1mi4y2qLcL5jlgOdIPjOT8uV5e1WxICSihftwJcI0XFSPJKWmQ17FJkwMzfhfcnCN1k6uw==
   dependencies:
     cloudinary "^1.19.0"
     dotenv "^8.2.0"
