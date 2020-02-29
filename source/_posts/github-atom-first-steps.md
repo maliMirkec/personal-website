@@ -33,7 +33,7 @@ First, open Atom settings. I'm a Windows user and default shortcut for Windows i
 
 To install **sync-settings**, find package in a list (should be first on the list) and then click _Install_ button.
 
-{% cldnry sync-settings-1_fdwmpf.png "Sync-settings installation." null "https://res.cloudinary.com/starbist/image/upload/v1582948215/placeholder_jm8ua7.svg" %}
+{% cldnry sync-settings-1_fdwmpf.png "Sync-settings installation." null %}
 
 ### sync-settings configuration
 

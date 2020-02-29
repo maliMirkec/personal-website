@@ -2020,6 +2020,11 @@ domutils@^2.0.0:
     domelementtype "^2.0.1"
     domhandler "^3.0.0"
 
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 duplexify@^3.5.0, duplexify@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.5.3.tgz#8b5818800df92fd0125b27ab896491912858243e"
@@ -2718,12 +2723,13 @@ hexo-caniuse@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hexo-caniuse/-/hexo-caniuse-0.1.4.tgz#1994fd32c1333d5ea0dc42e4a8c5b4718846df75"
 
-hexo-cldnry@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hexo-cldnry/-/hexo-cldnry-0.0.3.tgz#ff7ab22da8bb4f5685a1bc7ebe18b5767fd0bb56"
-  integrity sha512-zQhLaAtSv/fzPGTGuaT3UHOMqoaNST36tXJyA1IsvInk36y4lKLlLmxc+E3piynRZThGtwlKldBdyfEy85n5Pg==
+hexo-cldnry@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-cldnry/-/hexo-cldnry-0.0.4.tgz#65deed28a83d3753ece28caca9db4a6e763ef161"
+  integrity sha512-I/LcYH4TQIkymT8WYbhQYJCB6sGN9E6a5q9BgjKCu8OODATcka5plz5E52fl4cNyL8fhJowSXQ/r3elH5gO/sA==
   dependencies:
     cloudinary "^1.19.0"
+    dotenv "^8.2.0"
 
 hexo-cli@^3.0.0:
   version "3.1.0"

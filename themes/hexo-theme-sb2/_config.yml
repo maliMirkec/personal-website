@@ -6,6 +6,7 @@ site:
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
+  cldnry: starbist
 
 open_graph:
   pretty_url: true

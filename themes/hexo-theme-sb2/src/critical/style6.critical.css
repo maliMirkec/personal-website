@@ -406,119 +406,6 @@ img {
   }
 }
 
-.footer {
-  background-color: var(--color-psi);
-  color: var(--color-epsilon);
-  -webkit-box-shadow: 0 3px 0 0 var(--color-beta) inset;
-  box-shadow: 0 3px 0 0 var(--color-beta) inset;
-  font-size: 16px;
-  line-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media (min-width: 48em) {
-  .footer {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .footer {
-    --color-alpha: #12e09f;
-    --color-beta: #e01258;
-    --color-gamma: #f5f5f5;
-    --color-delta: #C2FAE8;
-    --color-epsilon: #FAC2D4;
-    --color-chi: #4f4f4f;
-    --color-psi: #1f1f1f;
-    --color-omega: #fff;
-  }
-}
-
-.subnav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0;
-  padding: 10px 5px;
-  list-style: none;
-}
-
-@media (min-width: 48em) {
-  .subnav__list {
-    padding: 0;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-}
-
-.subnav__link {
-  display: block;
-  color: inherit;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
-
-.subnav__link img {
-  display: block;
-  max-width: 30px;
-}
-
-@media (min-width: 48em) {
-  .subnav__link {
-    padding: 17.5px 25px;
-  }
-}
-
-@media (min-width: 75em) {
-  .subnav__link {
-    padding: 35px 25px;
-  }
-}
-
-.copy {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 5px 10px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.05em;
-}
-
-@media (min-width: 48em) {
-  .copy {
-    padding: 17.5px 25px;
-    margin-left: auto;
-  }
-}
-
-@media (min-width: 75em) {
-  .copy {
-    padding: 35px 25px;
-  }
-}
-
 .sidebar {
   grid-area: sidebar;
 }
@@ -730,19 +617,6 @@ img {
 .steps__path {
   stroke-dasharray: 1640;
   stroke-dashoffset: 1020;
-}
-
-.cookies {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 0.75019rem;
-  line-height: 1;
-}
-
-.cookies a {
-  color: inherit;
-  padding: 5px 15px;
 }
 
 .body {
