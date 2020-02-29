@@ -34,7 +34,7 @@
     "hexo": "^4.2.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-caniuse": "^0.1.4",
-    "hexo-cloudinary": "^0.1.5",
+    "hexo-cldnry": "^0.0.3",
     "hexo-codepen": "^0.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",

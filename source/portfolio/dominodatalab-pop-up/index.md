@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddlp_mjllzg.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624910/ddl_rj0jfd.png
+thumbnail: ddlp_mjllzg.png
+logo: ddl_rj0jfd.png
 portfolio: true
 order: 4
 display: true

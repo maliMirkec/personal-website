@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization. The website runs on Middleman, Webpack, Netlify, and Github.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983573/c_ob598q.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624909/c_xbqshe.png
+thumbnail: c_ob598q.png
+logo: c_xbqshe.png
 portfolio: true
 order: 12
 display: true

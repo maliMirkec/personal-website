@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983573/bij_rb4lqa.png
+thumbnail: bij_rb4lqa.png
 portfolio: true
 order: 22
 tags:

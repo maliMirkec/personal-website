@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddlr_rpy3cx.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582625243/rev_garoyf.png
+thumbnail: ddlr_rpy3cx.png
+logo: rev_garoyf.png
 portfolio: true
 order: 5
 display: true

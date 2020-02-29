@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1573824300/cci_ohuha5.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624909/cci_xk4gjk.png
+thumbnail: cci_ohuha5.png
+logo: cci_xk4gjk.png
 portfolio: true
 order: 1
 display: true

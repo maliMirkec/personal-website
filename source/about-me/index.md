@@ -21,5 +21,9 @@ I started my career in a local web development company where I have been working
 
 When I am not coding, I like to write new articles on my blog.
 
+{% cldnry devto-stats_zj90eq.png "test1." %}
+
+{% cldnry devto-stats_zj90eq.png "test2." %}
+
 If you want to get in touch, please [fill the contact form](/contact/), or [send me the email](mailto:me@silvestar.codes).
 For more information [check my porfolio](/portfolio/) or [download my CV here](/portfolio/silvestar-bistrovic-cv.pdf).

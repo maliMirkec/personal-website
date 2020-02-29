@@ -8,7 +8,7 @@ tags:
   - breadcrumb
   - ribbon
 canonical: https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1557942398/Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
+thumbnail: Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
 credit:
   text: Joshua Wilking on Unsplash
   link: https://unsplash.com/photos/ZbMJ5VLrpQ4

@@ -6,7 +6,7 @@ tags:
 comment: true
 categories:
   - Blog
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1501440282/How_to_create_crooked_shadow_kqx9vr.png
+thumbnail: How_to_create_crooked_shadow_kqx9vr.png
 date: 2017-07-25 16:10:31
 description: Recently I was working on a very interesting and challenging project. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border.
 ---
@@ -19,7 +19,7 @@ Recently I was working on a very interesting and challenging project. I was told
 
 Here's the desired design for the hero section with crooked border (notice the crooked shadow at the bottom):
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1500989561/crooked-shadow_rozyr7.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Crooked background example." %}
+{% cldnry crooked-shadow_rozyr7.jpg "Crooked background example." %}
 
 Let's break this into smaller modules:
 - hero block

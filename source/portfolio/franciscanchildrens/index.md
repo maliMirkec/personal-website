@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983573/fc_c8rxa2.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
+thumbnail: fc_c8rxa2.png
+logo: bm_qlnuvi.png
 portfolio: true
 order: 17
 display: false

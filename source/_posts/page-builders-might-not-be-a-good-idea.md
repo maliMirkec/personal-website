@@ -8,7 +8,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582238815/Page_builders_might_not_be_a_good_idea-2x_xpujzp.jpg
+thumbnail: Page_builders_might_not_be_a_good_idea-2x_xpujzp.jpg
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4

@@ -7,7 +7,7 @@ tags:
   - css
   - styleguide
 canonical: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1557942405/5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg
+thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg
 credit:
   text: Zdeněk Macháček on Unsplash
   link: https://unsplash.com/photos/eqXiLNfZDc0
@@ -48,7 +48,7 @@ Every style guide has a set of rules that should help every person on the projec
 
 For example, [WordPress Style Guide] defines the structure for writing CSS declarations:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937722/styleguide-wordpress-formatting_myl9ey.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "WordPress Style Guide example." %}
+{% cldnry styleguide-wordpress-formatting_myl9ey.jpg "WordPress Style Guide example." %}
 
 There are tools like [Prettier] or [editorconfig] that could help your team produce well-formatted code. Make sure you include the configuration file in the project. In addition, you might want to add a note in the README file about how to set up the code formatting in different code editors.
 
@@ -58,7 +58,7 @@ There are many different naming conventions for CSS. The most popular ones are [
 
 For example, [Lonely Planet] uses BEM as a naming convention:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937721/styleguide-lonely-planet-bem_lqcm24.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Lonely Planet Style Guide, BEM example." %}
+{% cldnry styleguide-lonely-planet-bem_lqcm24.jpg "Lonely Planet Style Guide, BEM example." %}
 
 > ”Naming things is hard but worth getting right. To make it somewhat simpler we use the BEM methodology within class names. BEM also helps us to avoid cross module collisions and to signify intent and relationships from the classnames.“
 >
@@ -74,13 +74,13 @@ Coding rules should include decisions about defining global styles, variables, m
 
 For example, Lonely Planet defines typography usage. The team decided that style collisions across projects could be avoided by not establishing typography globally, but by applying a particular class to a wrapper element. I could only guess, but I assume the team made this decision after they noticed the problem, then discussed it and finally come with an agreement. I might disagree about this issue, but if I were a part of the team, I would understand where they were coming from.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937721/styleguide-lonely-planet-typography_pu1rcb.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Lonely Planet Style Guide, typography section example." %}
+{% cldnry styleguide-lonely-planet-typography_pu1rcb.jpg "Lonely Planet Style Guide, typography section example." %}
 
 Once the team agrees on every rule, you should stick to it. No further discussion on this subject is needed. That could save your team so much time. It should also prevent possible disagreements and arguments between team members, too.
 
 For example, Primer defines four major breakpoints. By identifying these breakpoints, the creative team could design pages and components within these limitations, and the development team could style those pages and elements more easily without further guessing or discussing the breakpoints.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937721/styleguide-primer-breakpoints_flf3zd.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Primer Style Guide, breakpoints section example." %}
+{% cldnry styleguide-primer-breakpoints_flf3zd.jpg "Primer Style Guide, breakpoints section example." %}
 
 I prefer to define colors, typography, and breakpoints as global variables. That helps me build a brand that is more consistent, recognizable and discoverable.
 
@@ -98,7 +98,7 @@ Style guide components should always be isolated particles of the product. By re
 
 For example, Primer defines a popover component. The content of the popover bubble could be another component, like a button. If the primary button changes, it would be updated across every component, including the popover.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937829/styleguide-primer-popover_x36xse.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Primer Style Guide, popover section example." %}
+{% cldnry styleguide-primer-popover_x36xse.jpg "Primer Style Guide, popover section example." %}
 
 A good practice is to add variations to your components. You should isolate variations, too. If you need an element that has a different text size and alignment, then consider using two separate variation classes for this particular component.
 
@@ -114,11 +114,11 @@ Some tools, like [KSS] or [mdcss] or [Stylemark] or [Nucleus], could help you ge
 
 Some tools, like Stylemark and mdcss, support Markdown syntax, which could be useful if you are familiar with it.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937829/styleguide-stylemark-example_n1pfo2.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Stylemark Style Guide example." %}
+{% cldnry styleguide-stylemark-example_n1pfo2.jpg "Stylemark Style Guide example." %}
 
 As a global rule, besides providing examples, it is advisable to write the purpose of the component, how to use it, and which modifiers could be applied.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1557937829/styleguide-stylemark-bootstrap_b7vhhe.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Stylemark Style Guide, Bootstrap example." %}
+{% cldnry styleguide-stylemark-bootstrap_b7vhhe.jpg "Stylemark Style Guide, Bootstrap example." %}
 
 If you don’t prefer generating a style guide automatically, you could create it manually. Any method would work, as long as it does not take too much time.
 

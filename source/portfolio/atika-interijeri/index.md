@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture. The site runs on WordPress, DigitalOcean, and Cloudflare.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983572/ai_u5b34y.png
+thumbnail: ai_u5b34y.png
 portfolio: true
 order: 18
 display: false

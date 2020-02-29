@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582214410/spro_aej3o2.png
+thumbnail: spro_aej3o2.png
 side: true
 order: 2
 display: true

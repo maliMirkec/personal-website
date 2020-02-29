@@ -8,7 +8,7 @@ tags:
   - ssg
   - kwes
 canonical: https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1580363114/How_to_create_a_multi-step_static_form_with_Kwes-2x_u6sjh3.jpg
+thumbnail: How_to_create_a_multi-step_static_form_with_Kwes-2x_u6sjh3.jpg
 comments: true
 description: "A multi-step form is a long-form that is broken into pieces. Learn how I add one to my site."
 ---
@@ -90,7 +90,7 @@ Of course, that’s not all. Kwes is packed with other impressive features. Thes
 
 ### Custom Headers
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1580362171/Multi_step_form_example_fykjm0.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "A multi-step form example." %}
+{% cldnry Multi_step_form_example_fykjm0.png "A multi-step form example." %}
 
 Kwes provides adding custom headers to each step—a title of the current step. There are two types of headers: simple and complex.
 

@@ -6,7 +6,7 @@ categories:
 tags:
   - css
   - BEM
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565249712/Alpha_Beta_Gamma_naming_convention-2x_jkluc6.jpg
+thumbnail: Alpha_Beta_Gamma_naming_convention-2x_jkluc6.jpg
 credit:
   text: John Kappa on Unsplash
   link: https://unsplash.com/photos/Vg6jlsI2mSc

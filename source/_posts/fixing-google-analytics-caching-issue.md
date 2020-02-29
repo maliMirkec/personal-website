@@ -7,7 +7,7 @@ comments: true
 tags:
   - PageSpeed
   - optimization
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1504795545/Fixing_Google_Analytics_caching_issue_mz9cm7.png
+thumbnail: Fixing_Google_Analytics_caching_issue_mz9cm7.png
 description: Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. My friend, the solution is here.
 ---
 
@@ -15,7 +15,7 @@ Getting the perfect score from Google PageSpeed Insights could be a tedious task
 
 <!-- more -->
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1504035691/Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Google Analytics browser caching issue." %}
+{% cldnry Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx.png "Google Analytics browser caching issue." %}
 
 ## The solution
 The answer is pretty simple—use [CloudFlare Google Analytics app](https://www.cloudflare.com/apps/google-analytics). As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.

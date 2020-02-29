@@ -1,6 +1,3 @@
 {
-  "port": 8084,
-  "server": {
-    "baseDir": ""
-  }
+  "proxy": "http://localhost:4001"
 }

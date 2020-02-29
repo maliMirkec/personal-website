@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - productivity
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1554999635/Bookmarks_Saves_Hearts_Stars_Claps_ammz0s.jpg
+thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_ammz0s.jpg
 comments: true
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
 ---
@@ -14,7 +14,7 @@ I realized that I rarely use bookmarks, but I still bookmark interesting sites, 
 
 <!--more-->
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1554999690/search-bar-bookmarks_namh9b.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Search bar with bookmark suggestions." %}
+{% cldnry "search-bar-bookmarks_namh9b.png" "Search bar with bookmark suggestions." %}
 
 Since I am using only dozens of bookmarked links, I thought I could share the exported bookmark file with the community, before I clean them up. There are many interesting, useful, and not-so-useful links here. You could [download the file] or <a href="/bookmarks/browser/" target="_blank">see it in your browser</a>.
 

@@ -8,7 +8,7 @@ tags:
   - ssg
   - kwes
 canonical: https://www.codementor.io/malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565249057/How_to_add_a_contact_form_to_a_static_website-2x_mqfxlv.jpg
+thumbnail: How_to_add_a_contact_form_to_a_static_website-2x_mqfxlv.jpg
 comments: true
 description: "With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with Kwes form builder."
 ---
@@ -40,7 +40,7 @@ Since we are going to add Kwes form to our site, we should sign up for free firs
 
 After signing up, add a new website, and a new form from Kwes dashboard.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1568016828/kwes-dashboard_nfctyx.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Kwes Dashboard screenshot." %}
+{% cldnry kwes-dashboard_nfctyx.png "Kwes Dashboard screenshot." %}
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 

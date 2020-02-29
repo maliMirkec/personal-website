@@ -12,7 +12,7 @@ categories:
   - Blog
 comments: true
 canonical: https://www.toptal.com/front-end/static-site-generators-comparison-2018
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1535357269/Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
+thumbnail: Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
 description: There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.
 ---
 
@@ -24,7 +24,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Static_site_generators_illustrated_echczp.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Static site generators illustrated." %}
+{% cldnry Static_site_generators_illustrated_echczp.png "Static site generators illustrated." %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -105,7 +105,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Content_in_Static_page_generators_cnkviv.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Content in Static page generators." %}
+{% cldnry Content_in_Static_page_generators_cnkviv.png "Content in Static page generators." %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -313,7 +313,7 @@ Hexo has different syntax, but the result is the same.
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1535356626/Assets_of_Static_page_generator_i43ch9.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Assets of Static page generator." %}
+{% cldnry Assets_of_Static_page_generator_i43ch9.png "Assets of Static page generator." %}
 
 ## SASS
 

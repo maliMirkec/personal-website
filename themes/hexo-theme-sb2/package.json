@@ -26,6 +26,7 @@
   },
   "homepage": "https://sbtheme.silvestar.codes",
   "dependencies": {
+    "cloudinary-core": "^2.8.1",
     "hexo-helper-inline-svg": "latest",
     "hexo-render-pug": "latest",
     "js-cookie": "^2.2.1",

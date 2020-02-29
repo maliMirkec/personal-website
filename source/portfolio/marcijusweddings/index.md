@@ -6,7 +6,7 @@ cta1:
   btn2: "Open 2020 Q3-Q4"
 comments: false
 description: Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/mw_gtapmb.png
+thumbnail: mw_gtapmb.png
 portfolio: true
 order: 19
 tags:

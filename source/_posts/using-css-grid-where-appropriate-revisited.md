@@ -6,7 +6,7 @@ categories:
 tags:
   - css
   - grid
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1536138845/Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
+thumbnail: Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
 comments: true
 description: This solution is a follow-up post on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
 ---

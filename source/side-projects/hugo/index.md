@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Making a website with Hugo is a course for learning how to use Hugo.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582214410/hugo_qkfxp9.png
+thumbnail: hugo_qkfxp9.png
 side: true
 order: 3
 display: true

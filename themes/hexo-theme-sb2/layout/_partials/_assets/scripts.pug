@@ -1,9 +1,3 @@
-if (page && !page.offline)
-  script(src="/js/index.min.js", async)
-
-if (page && page.form)
-  script(src="https://kwes.io/js/kwes.js", async)
-
 script(type="module").
   // register service worker
   import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-window.prod.mjs';
@@ -52,3 +46,11 @@ script(type="module").
     });
     wb.register();
   }
+
+script(src="/js/cldnry.js", async)
+
+if (page && !page.offline)
+  script(src="/js/index.min.js", async)
+
+if (page && page.form)
+  script(src="https://kwes.io/js/kwes.js", async)

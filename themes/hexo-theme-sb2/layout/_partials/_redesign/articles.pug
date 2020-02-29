@@ -5,11 +5,10 @@ if (site && site.posts)
     each vpost, kpost in site.posts.toArray().reverse()
       if (vpost.highlighted && !vpost.canonical)
         .block__item.card
-          .card__image
-            a(href=urlFor(vpost.path))
-              - var thumbnail_src = vpost.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_350/');
-              - var thumbnail_alt = "Cover for " + vpost.title + " article."
-              +cloudinary(thumbnail_src, "", thumbnail_alt, "", "false")
+          if (vpost.thumbnail)
+            .card__image
+              a(href=urlFor(vpost.path))
+                +cldnry(vpost.thumbnail, "Cover for " + vpost.title + " article.")
           .card__content
             if (vpost.date)
               ul.card__list.card__list--beta.card__details

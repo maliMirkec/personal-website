@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Flexera control and manage software and IT costs, to grow and protect your business.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1553496465/f1_bn1woc.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
+thumbnail: f1_bn1woc.png
+logo: bm_qlnuvi.png
 portfolio: true
 order: 20
 display: false

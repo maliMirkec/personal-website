@@ -7,7 +7,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1558335657/My_second_year_of_freelancing-2x_acm7w9.jpg
+thumbnail: My_second_year_of_freelancing-2x_acm7w9.jpg
 credit:
   text: Chris Liverani on Unsplash
   link: https://unsplash.com/photos/9cd8qOgeNIY
@@ -49,7 +49,7 @@ I have been working on developing, maintaining, and optimizing WordPress themes 
 
 I could say that building static sites, pages, and styleguides are the main requirements for my services.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1558460679/i_do_css_html_for_a_living2_n3llxk.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "I do CSS and HTML for a living sticker." %}
+{% cldnry i_do_css_html_for_a_living2_n3llxk.jpg "I do CSS and HTML for a living sticker." %}
 
 I would even go that far and say that my primary skills are HTML and CSS, just like my favorite sticker says.
 
@@ -63,7 +63,7 @@ During the last year, I have put a lot of effort into my website. I have rebrand
 
 Away from the computer, I like to do stuff around my house. My favorite is carpentry.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1558504424/gazebo_rqxkif.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Playhouse in my backyard." %}
+{% cldnry gazebo_rqxkif.jpg "Playhouse in my backyard." %}
 
 This year I have built a playhouse for my daughter. It is something that I enjoy doing. Getting away from code and getting my hand dirty from time to time makes me appreciate my everyday job even more.
 

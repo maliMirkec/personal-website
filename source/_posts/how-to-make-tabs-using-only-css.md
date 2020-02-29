@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-10-07 19:01:40
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1497509312/How-to-make-tabs-using-only-CSS_exk7am.png
+thumbnail: How-to-make-tabs-using-only-CSS_exk7am.png
 description: "I know there are more than a few articles about this topic. And there are 2 basic approaches: using target pseudo selector and using list with checked pseudo selector."
 ---
 

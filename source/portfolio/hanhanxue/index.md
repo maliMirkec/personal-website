@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman, Netlify, and BitBucket.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/hhx_p45br6.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582626135/hhx_nntltz.png
+thumbnail: hhx_p45br6.png
+logo: hhx_nntltz.png
 portfolio: true
 order: 14
 display: true

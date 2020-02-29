@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding. The website runs on WordPress.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1533798334/b_csao4p.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
+thumbnail: b_csao4p.png
+logo: bm_qlnuvi.png
 portfolio: true
 order: 8
 display: true

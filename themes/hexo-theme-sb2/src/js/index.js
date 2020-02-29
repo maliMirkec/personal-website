@@ -83,8 +83,6 @@ function inView ($elem) {
 
 if ($autograph) {
   const animate = () => {
-    console.log(1)
-
     if (inView($autograph)) {
       calcPaths(5)
       document.removeEventListener('scroll', animate)

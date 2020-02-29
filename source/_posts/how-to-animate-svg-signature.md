@@ -7,7 +7,7 @@ tags:
   - javascript
 categories:
   - Blog
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1578315408/How_to_Animate_SVG_Signature-2x_jlawyz.jpg
+thumbnail: How_to_Animate_SVG_Signature-2x_jlawyz.jpg
 comments: true
 description: Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.
 highlighted: true
@@ -17,13 +17,13 @@ Let’s see how to animate SVG signature with a little bit of JavaScript and CSS
 
 <!-- more -->
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1578317355/gif-signature3_rxjclr.gif 320px=f_auto,q_100,w_270;720px=f_auto,q_100,w_720 "Animated SVG signature - S.Bistrović." %}
+{% cldnry gif-signature3_rxjclr.gif "Animated SVG signature - S.Bistrović." %}
 
 ## SVG Signature
 
 Let’s start by creating an SVG signature. I am using Sketch to make SVG paths for letters. Here’s how it looks in Edit mode:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1578315386/sketch-signature_u7trkt.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Screenshot of SVG signature paths in Sketch application." %}
+{% cldnry sketch-signature_u7trkt.png "Screenshot of SVG signature paths in Sketch application." %}
 
 It contains eight different paths for different paths of signature. For example, one path represents the letter “S”, one path represents the dot, and so on.
 

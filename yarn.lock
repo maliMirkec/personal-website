@@ -1596,6 +1596,15 @@ cliui@^3.0.3, cliui@^3.2.0:
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
 
+cloudinary@^1.19.0:
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.19.0.tgz#333dafb53ee32efea5457e28a80ecb8f6d31e48c"
+  integrity sha512-oEz4Fsqshd9SI7UAvF1CCyAmt3wgsv8tK1eRY0900gQaq+wP8TAzpruxpbQCmxvF6gL9Po7OpO0m0Jefx6uK8w==
+  dependencies:
+    lodash "^4.17.11"
+    q "^1.5.1"
+    typescript "^2.9.2"
+
 cmd-shim@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/cmd-shim/-/cmd-shim-2.0.2.tgz#6fcbda99483a8fd15d7d30a196ca69d688a2efdb"
@@ -2709,6 +2718,13 @@ hexo-caniuse@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hexo-caniuse/-/hexo-caniuse-0.1.4.tgz#1994fd32c1333d5ea0dc42e4a8c5b4718846df75"
 
+hexo-cldnry@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/hexo-cldnry/-/hexo-cldnry-0.0.3.tgz#ff7ab22da8bb4f5685a1bc7ebe18b5767fd0bb56"
+  integrity sha512-zQhLaAtSv/fzPGTGuaT3UHOMqoaNST36tXJyA1IsvInk36y4lKLlLmxc+E3piynRZThGtwlKldBdyfEy85n5Pg==
+  dependencies:
+    cloudinary "^1.19.0"
+
 hexo-cli@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-3.1.0.tgz#a7414d4647333fe73762f86d77e5660659c0d05b"
@@ -2724,10 +2740,6 @@ hexo-cli@^3.0.0:
     minimist "^1.2.0"
     resolve "^1.11.0"
     tildify "^2.0.0"
-
-hexo-cloudinary@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/hexo-cloudinary/-/hexo-cloudinary-0.1.5.tgz#a6bf9d94e8095acb13c39f83e5a5d5f20715ddd4"
 
 hexo-codepen@^0.1.0:
   version "0.1.1"
@@ -4521,7 +4533,7 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
-q@^1.0.1:
+q@^1.0.1, q@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
 
@@ -5680,6 +5692,11 @@ type-fest@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.3.1.tgz#63d00d204e059474fe5e1b7c011112bbd1dc29e1"
   integrity sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ==
+
+typescript@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
 ua-parser-js@0.7.12:
   version "0.7.12"
