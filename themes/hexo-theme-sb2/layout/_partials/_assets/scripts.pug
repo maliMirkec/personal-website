@@ -5,7 +5,7 @@ script(type="module").
     const displayMessage = () => {
       const $swButton = document.createElement('div')
       $swButton.className = 'cta cta--beta cta--omega';
-      $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span></button>';
+      $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span><span>To see updates</span></button>';
       document.body.appendChild($swButton)
     }
     const wb = new Workbox('/sw.js');

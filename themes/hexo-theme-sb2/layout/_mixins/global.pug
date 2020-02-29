@@ -7,7 +7,7 @@ mixin inlineSvg(file)
 
 mixin cldnry(imgName, imgAlt, imgPlaceholder)
   if (theme && theme.site && theme.site.cldnry)
-    - var placeholder = imgPlaceholder || "https://res.cloudinary.com/starbist/image/upload/w_auto,f_90,q_auto,dpr_auto,c_scale/v1582948215/placeholder_jm8ua7.svg"
+    - var placeholder = imgPlaceholder || "https://res.cloudinary.com/starbist/image/upload/v1582948215/placeholder_jm8ua7.svg"
     //- - var placeholder = imgPlaceholder || "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAQAAABeK7cBAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII="
     img(class="cld-responsive"
       data-src="https://res.cloudinary.com/" + theme.site.cldnry + "/image/upload/w_auto,f_auto,q_90,dpr_auto,c_scale/" + imgName

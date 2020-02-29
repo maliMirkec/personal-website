@@ -45,7 +45,7 @@ const calcPaths = (totalDur) => {
     // get current path length
     const totalLen = path.getTotalLength()
     // calculate current animation duration
-    const duration = totalLen / (len * totalDuration)
+    const duration = (totalLen / len) * totalDuration
 
     // set animation duration and delay
     pathElem.style.animationDuration = `${duration < 0.2 ? 0.2 : duration}s`
@@ -90,6 +90,7 @@ if ($autograph) {
   }
 
   document.addEventListener('scroll', animate)
+  document.addEventListener('click', animate)
 }
 
 // form progress steps

@@ -485,6 +485,7 @@
     width: auto;
     margin: 0;
     max-width: 100px;
+    max-height: 30px;
 
     .body--dark & {
       filter: invert(.75) contrast(2) grayscale(1);

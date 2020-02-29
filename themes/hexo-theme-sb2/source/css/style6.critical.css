@@ -246,8 +246,8 @@ img {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  margin: 50px auto;
-  width: calc(100% - 50px);
+  margin: 20px auto;
+  width: calc(100% - 20px);
   position: relative;
   display: grid;
   grid-template-areas: "title" "content";
@@ -526,11 +526,11 @@ img {
 
 @media (prefers-color-scheme: dark) {
   .form {
-    --color-alpha: #C2FAE8;
+    --color-alpha: #12e09f;
     --color-beta: #FAC2D4;
     --color-gamma: #4f4f4f;
     --color-delta: #e01258;
-    --color-epsilon: #12e09f;
+    --color-epsilon: #C2FAE8;
     --color-chi: #fff;
     --color-psi: #1f1f1f;
     --color-omega: #3e3e3e;
