@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983575/n_gcmcap.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582625242/n_oxgjdy.png
+thumbnail: n_gcmcap.png
+logo: n_oxgjdy.png
 portfolio: true
 order: 11
 display: true

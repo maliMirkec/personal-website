@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1549951653/mll_uzqdan.png
+thumbnail: mll_uzqdan.png
 portfolio: true
 order: 6
 display: true

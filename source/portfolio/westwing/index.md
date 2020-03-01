@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1533798343/ww_hceizq.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624910/ww_pm2rwy.png
+thumbnail: ww_hceizq.png
+logo: ww_pm2rwy.png
 portfolio: true
 order: 7
 display: true

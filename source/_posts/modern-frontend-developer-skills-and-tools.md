@@ -8,7 +8,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1531903322/The_Essential_Skill_Of_A_Developer_csb5dm.jpg
+thumbnail: The_Essential_Skill_Of_A_Developer_csb5dm.jpg
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 ---
 
@@ -22,7 +22,7 @@ _I am writing this article from a frontend developer perspective, but it could b
 
 I have created a [mindmap] of the skills and tools I acquired during my career. It was inspired by [Kamran Ahmed]'s [Web Developer Roadmap]. Kamran's roadmap made me think what did I learned, how many skills do I have, and are those skills still valid and required. I have used my [Toptal profile] as a reference of skills and tools because I am trying to keep my profile up to date there.
 
-[{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1531902380/mm_ujclvz.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Mindmap containing skills learned as a developer." %}](https://coggle.it/diagram/Wy9XDVsxfi3TaCnK/t/silvestar-bistrovi%C4%87-web-developer%2C-coder-toptal-freelancer)
+[{% cldnry mm_ujclvz.jpg "Mindmap containing skills learned as a developer." %}](https://coggle.it/diagram/Wy9XDVsxfi3TaCnK/t/silvestar-bistrovi%C4%87-web-developer%2C-coder-toptal-freelancer)
 
 Once I reviewed all skills, I decided to divide my career into three parts, depending on my employment status.
 

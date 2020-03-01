@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1526983574/m_rjmzz2.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624909/m_ajy438.png
+thumbnail: m_rjmzz2.png
+logo: m_ajy438.png
 portfolio: true
 order: 13
 display: true

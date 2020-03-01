@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - pwa
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1576584968/How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr.jpg
+thumbnail: How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr.jpg
 comments: true
 description: "As of today, my side project Code Line Daily is available as a Progressive Web App. This post is a sequel to my previous PWA post."
 project:
@@ -159,7 +159,7 @@ workbox.routing.registerRoute(
 
 Code Line Daily is now Progressive Web App. That is my second PWA, and I would recommend everyone to learn more about it. The site is now available offline, but it is also saving bandwidth for my users by serving cached assets whenever possible. Go ahead and try to install [Code Line Daily] and let me know what do you think.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1576588992/cld-pwa_ph3i0l.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Lighthouse showing fireworks for perfect scores." %}
+{% cldnry cld-pwa_ph3i0l.gif "Lighthouse showing fireworks for perfect scores." %}
 
 As a bonus point, I have run the audit for Code Line Daily site, and I see fireworks again, just like on my personal site. 💯
 

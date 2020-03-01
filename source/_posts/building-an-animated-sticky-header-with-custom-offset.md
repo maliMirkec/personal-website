@@ -6,7 +6,7 @@ categories:
 tags:
   - css
   - javascript
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1544203449/Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
+thumbnail: Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
 credit:
   text: Guilherme Romano on Unsplash
   link: https://unsplash.com/photos/KI2KaOeT670

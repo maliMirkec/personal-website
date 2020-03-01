@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1553496460/ev-c_vgm0ws.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
+thumbnail: ev-c_vgm0ws.png
+logo: bm_qlnuvi.png
 portfolio: true
 order: 2
 display: true

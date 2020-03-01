@@ -1,6 +1,8 @@
 .cta {
+  font-size: inherit;
   display: flex;
   flex-direction: column;
+  padding: 5px;
   background-color: $color-omega;
   border-radius: 4px;
   box-shadow: 0 4px 0 0 $color-delta;
@@ -14,6 +16,7 @@
   .btn {
     color: $color-psi;
     padding: .275rem .5rem .5rem;
+    line-height: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +95,24 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
+
+  .cta__content {
+    padding-left: 10px;
+    font-size: ms(-1);
+  }
+
+  .btn {
+    min-width: 150px;
+
+    span:nth-child(1) {
+      font-size: ms(-1);
+    }
+
+    span:nth-child(2) {
+      font-size: ms(-2);
+    }
+  }
 
   @include mq($from: desktop) {
     max-width: 800px;

@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1549951653/ddl_mypfrt.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624910/ddl_rj0jfd.png
+thumbnail: ddl_mypfrt.png
+logo: ddl_rj0jfd.png
 portfolio: true
 order: 3
 display: true

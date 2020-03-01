@@ -7,7 +7,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1550167953/Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
+thumbnail: Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
 credit:
   text: Chris Charles on Unsplash
   link: https://unsplash.com/photos/9APFPoNb9iw
@@ -24,7 +24,7 @@ The inspiration for writing this article comes from [an article about remote lif
 
 Moving from the home office to an actual office changed my daily routine the most. Getting up, dressing, driving/cycling to work makes me feel like I have a regular job. Not to mention that working from actual office makes me more productive and focused. There are no distractions, just the working environment set up for delivering the best possible work.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1550168136/IMG_20190214_123144_eqcdi5.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Workstation in my office." %}
+{% cldnry IMG_20190214_123144_eqcdi5.jpg "Workstation in my office." %}
 
 ## In-office Hours
 
@@ -90,19 +90,19 @@ During my daily routine, I use several applications that help me get the job don
 
 The first one is the [Station] application. I use it mostly for my Google Mail, Google Drive, Google Calendar, Zoho Mail, Trello, Asana, and Slack. Jumping between applications is quite easy. Plus, I don't have a lot of open browser tabs that clutter my browser. Another thing I noticed is that I spend way less time on Slack since I docket it inside the Station. Not seeing the “unread” dot makes me less stressed and I don't feel guilty for not reading the latest messages. If I want to get distracted, I just turn on the volume on my mobile device.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1550168055/station_ta36nu.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Screenshot of my Station application." %}
+{% cldnry station_ta36nu.png "Screenshot of my Station application." %}
 
 ### Workona
 
 The second one is the [Workona] extension for my browser. My browser workspace is a lot cleaner when I could group related tabs in a meaningful entity. For example, my "Knowledge Base” workspace contains articles and tutorials that I would want to read later, and my “Blogging” workspace contains links for tracking and sharing my blog. I also like the sync option that allows me to open my links on a different device.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1550168058/workona_sfrffi.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Screenshot of my Workona extension." %}
+{% cldnry workona_sfrffi.png "Screenshot of my Workona extension." %}
 
 ### Unroll.me
 
 [Unroll.me] is a service for email management. I have set up a significant number of not-so-important emails that I could read daily. In my case, I get the Unroll.me email every morning, and I could quickly glance through emails and see the latest highlights. Important emails are not going through Unroll.me, so I still get those at the time.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1550168057/unroll-me_ctmvoz.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Screenshot of my Unroll.me folder." %}
+{% cldnry unroll-me_ctmvoz.png "Screenshot of my Unroll.me folder." %}
 
 ## Conclusion
 

@@ -5,25 +5,15 @@ mixin inlineSvg(file)
   else
     img(src=file, alt="Inline image")
 
-mixin cloudinary(imgSrc, imgSizes, imgAlt, imgClass, responsiveImage)
-  if (responsiveImage === "false")
-    img(class=imgClass, alt=imgAlt, src=imgSrc)
-  else if (imgSizes === "true")
-    - var size = imgSizes.split("=")
-    img(class=imgClass, alt=imgAlt, src=imgSrc.replace("upload/", "upload/" + size[1] + "/"))
-  else
-    - var currentImgSrcset = ""
-    - var currentImgSizes = ""
-    - var currentImgSrc = ""
-    - var sizes = imgSizes.split(";")
-    each vsize, ksize in sizes
-      - var size = vsize.split("=")
-      - currentImgSrc = imgSrc.replace("upload/", "upload/" + size[1] + "/")
-      - var separator = ksize + 1 === sizes.length ? "" : ", "
-      - var mediaQuery = ksize + 1 === sizes.length ? "" : "(max-width:" + size[0] + ")"
-      - currentImgSrcset += currentImgSrc + " " + size[0].replace("px", "w") + separator
-      - currentImgSizes += mediaQuery + " " + size[0] + separator
-    img(class=imgClass, alt=imgAlt, src=currentImgSrc, srcset=currentImgSrcset, sizes=currentImgSizes)
+mixin cldnry(imgName, imgAlt, imgPlaceholder)
+  if (theme && theme.site && theme.site.cldnry)
+    - var placeholder = imgPlaceholder || "https://res.cloudinary.com/starbist/image/upload/v1582948215/placeholder_jm8ua7.svg"
+    //- - var placeholder = imgPlaceholder || "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAQAAABeK7cBAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII="
+    img(class="cld-responsive"
+      data-src="https://res.cloudinary.com/" + theme.site.cldnry + "/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/" + imgName
+      src=placeholder
+      alt=imgAlt
+      sizes="100vw")
 
 - var urlFor = (link) => (url_for) ? url_for(link) : link
 

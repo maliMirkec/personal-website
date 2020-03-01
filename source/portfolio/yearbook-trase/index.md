@@ -6,8 +6,8 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1533809399/yb_urvwkg.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582624910/yt_iyy37j.png
+thumbnail: yb_urvwkg.png
+logo: yt_iyy37j.png
 portfolio: true
 order: 10
 display: true

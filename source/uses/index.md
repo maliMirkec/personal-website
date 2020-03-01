@@ -16,7 +16,7 @@ _Bolded items are my favourites._
 
 _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes Bos's setup](https://wesbos.com/uses/). My setup is also featured on [/uses](http://uses.tech/) site._
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1550168136/IMG_20190214_123144_eqcdi5.jpg 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Workstation in my office." %}
+{% cldnry IMG_20190214_123144_eqcdi5.jpg "Workstation in my office." %}
 
 ## Hardware
 

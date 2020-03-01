@@ -6,8 +6,8 @@ cta1:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Flexera Software can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1553496466/f2_yibqhl.png
-logo: https://res.cloudinary.com/starbist/image/upload/v1582701992/bm_qlnuvi.png
+thumbnail: f2_yibqhl.png
+logo: bm_qlnuvi.png
 portfolio: true
 order: 21
 display: false

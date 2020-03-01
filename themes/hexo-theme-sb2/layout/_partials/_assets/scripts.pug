@@ -1,9 +1,3 @@
-if (page && !page.offline)
-  script(src="/js/index.min.js", async)
-
-if (page && page.form)
-  script(src="https://kwes.io/js/kwes.js", async)
-
 script(type="module").
   // register service worker
   import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-window.prod.mjs';
@@ -11,7 +5,7 @@ script(type="module").
     const displayMessage = () => {
       const $swButton = document.createElement('div')
       $swButton.className = 'cta cta--beta cta--omega';
-      $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span></button>';
+      $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span><span>To see updates</span></button>';
       document.body.appendChild($swButton)
     }
     const wb = new Workbox('/sw.js');
@@ -52,3 +46,11 @@ script(type="module").
     });
     wb.register();
   }
+
+script(src="/js/cldnry.js", async)
+
+if (page && !page.offline)
+  script(src="/js/index.min.js", async)
+
+if (page && page.form)
+  script(src="https://kwes.io/js/kwes.js", async)

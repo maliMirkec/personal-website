@@ -6,7 +6,7 @@ categories:
 tags:
   - freelance
   - remote work
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1571392025/What_I_learned_from_my_GitHub_profile-2x_rq4si5.jpg
+thumbnail: What_I_learned_from_my_GitHub_profile-2x_rq4si5.jpg
 comments: true
 description: GitHub profile is often recognised as a developer's portfolio. It reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
 ---
@@ -19,7 +19,7 @@ _This analysis doesn't include repositories from my clients._
 
 ## GitHub profile
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Contribution activity graph on my GitHub profile." %}
+{% cldnry GitHub_profile_Contribution_activity_graph_ridiqj.gif "Contribution activity graph on my GitHub profile." %}
 
 Here are some facts from [my Contribution activity graph]:
 

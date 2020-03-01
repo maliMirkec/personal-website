@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Code Line Daily is dedicated to highlighting awesome code single-liners.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582214409/cld_jrsdct.png
+thumbnail: cld_jrsdct.png
 side: true
 order: 1
 display: true

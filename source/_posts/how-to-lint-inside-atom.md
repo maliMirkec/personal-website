@@ -8,7 +8,7 @@ categories:
   - Blog
 date: 2016-10-02 07:14:39
 comments: true
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1497509314/How-to-lint-inside-Atom_mmlauz.png
+thumbnail: How-to-lint-inside-Atom_mmlauz.png
 description: Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
 ---
 
@@ -44,7 +44,7 @@ This settings should turn on **linter** errors in Atom, so you could fix the pro
 
 You can see full configuration of my **linter** package here:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509501/linter-settings-full_uchhit.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Linter settings." %}
+{% cldnry linter-settings-full_uchhit.png "Linter settings." %}
 
 Basic **linter** is installed and configured, now we need actual linter plugins for specific programming languages. There are many plugins available, full list is available [here](http://atomlinter.github.io/). Because I'm a frontend developer, I'll show you how to install linters for `CSS` and `JavaScript`.
 
@@ -52,23 +52,23 @@ Basic **linter** is installed and configured, now we need actual linter plugins 
 
 One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https://atom.io/packages/linter-jshint)**. It is an interface for [JSHint](http://jshint.com/), a tool that helps to detect errors and potential problems in your `JavaScript` code. Installation could be done via Atom package manager. There are few configuration options. The most important is to provide of executable `jshint` node script. Here are my settings:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509332/linter-jshint-settings_i3w9mm.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "JSHint settings." %}
+{% cldnry linter-jshint-settings_i3w9mm.png "JSHint settings." %}
 
 ### CSS linter
 
 [**linter-stylelint**](https://atom.io/packages/linter-stylelint) is an interface for [stylelint](http://stylelint.io/), CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets. It is available on Atom package manager and it has only 3 configuration options. Here you can see my** linter-stylelint** configuration:
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509330/linter-stylelint-settings_t5ebdp.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Stylelint settings." %}
+{% cldnry linter-stylelint-settings_t5ebdp.png "Stylelint settings." %}
 
 ## How to use it?
 
 To see **linter-jshint** in action, open any `JavaScript` file and see if any errors exists. You could see errors in different places, depending on your main **linter** package configuration.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509499/linter-jshint_nkkmny.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "JSHint in action." %}
+{% cldnry linter-jshint_nkkmny.png "JSHint in action." %}
 
 You could see `CSS` lint errors by opening and `CSS` file.
 
-{% cloudinary https://res.cloudinary.com/starbist/image/upload/v1497509328/linter-stylelint_uzvqwj.png 320px=f_auto,q_auto,w_270;720px=f_auto,q_auto,w_720;1440px=f_auto,q_auto,w_1440 "Stylelint in action." %}
+{% cldnry linter-stylelint_uzvqwj.png "Stylelint in action." %}
 
 In the examples above you could see that errors are displayed on 4 different places:
 

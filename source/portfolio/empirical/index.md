@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on WordPress and WPEngine.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1527504202/ewm_aikxon.png
+thumbnail: ewm_aikxon.png
 portfolio: true
 order: 16
 display: false

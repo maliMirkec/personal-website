@@ -10,11 +10,10 @@ if (site && site.pages)
         .block__cta
           include ../cta1
       .block__item.poster
-        .poster__image
-          a(href=urlFor(vpage.path))
-            - var thumbnail_src = vpage.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_560/');
-            - var thumbnail_alt = "Screenshot of " + vpage.title + " website.";
-            +cloudinary(thumbnail_src, "", thumbnail_alt, "", "false")
+        if (vpage.thumbnail)
+          .poster__image
+            a(href=urlFor(vpage.path))
+              +cldnry(vpage.thumbnail, "Screenshot of " + vpage.title + " website.")
         .poster__content
           if vpage.title
             h3.poster__title

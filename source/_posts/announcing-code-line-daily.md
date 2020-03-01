@@ -7,7 +7,7 @@ tags:
   - css
   - cld
   - open source
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1565241482/Announcing_Code_Line_Daily-2x_eo71qp.jpg
+thumbnail: Announcing_Code_Line_Daily-2x_eo71qp.jpg
 comments: true
 description: "Last week I released my side project: Code Line Daily. It is a quite straightforward project: a new line of code would be introduced every day. The lines are mostly frontend, PHP, and WordPress code. Here's how I build it!"
 project:

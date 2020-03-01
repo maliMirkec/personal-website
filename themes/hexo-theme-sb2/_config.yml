@@ -6,6 +6,8 @@ site:
   logo: /gfx/svg/logo.svg
   logo_footer: /gfx/svg/logo-footer.svg
   language: en-US
+  cldnry: starbist
+
 
 open_graph:
   pretty_url: true
@@ -65,7 +67,7 @@ cta2:
   href: /contact/
 
 widgets:
-  cookies: true
+  # cookies: true
   about:
     paragraphs:
       - I am Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.

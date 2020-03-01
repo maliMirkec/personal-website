@@ -5,13 +5,9 @@ if (page && page.title)
     h1.article__title.article__title--gamma= page.title
 .article
   if (page && page.thumbnail)
-    - var article_img_wide2x = page.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_1920/');
-    - var article_img_wide = page.thumbnail.replace('upload/', 'upload/f_auto,q_99,w_960/');
-    - var article_img_mobile = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_717/');
-    - var article_img_tamagochi = page.thumbnail.replace('upload/', 'upload/f_auto,q_auto,w_270/');
-    - var article_img_srcset = article_img_tamagochi + " 270w, " + article_img_mobile + " 717w, " + article_img_wide + " 960w, " + article_img_wide2x + " 1920w";
     .article__thumb
-      img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 320px) 270px, (min-width: 321px) and (max-width: 767px) 717px, (min-width: 768px) 960px")
+      +cldnry(page.thumbnail, "Cover photo for " + page.title + " page")
+      page.thumbnail
       if(page.credit && page.credit.text && page.credit.link)
         p.article__credit
           span="Photo credit: "
@@ -20,11 +16,8 @@ if (page && page.title)
     .post-cta
       include cta1
   if (page && page.profile)
-    - var article_img_wide = page.profile.replace('upload/', 'upload/f_auto,q_auto,w_240/');
-    - var article_img_mobile = page.profile.replace('upload/', 'upload/f_auto,q_auto,w_120/');
-    - var article_img_srcset = article_img_mobile + " 120w, " + article_img_wide + " 240w";
     .profile__image.profile__image--alpha
-      img(src=article_img_wide, alt=page.title, srcset=article_img_srcset sizes="(max-width: 240px) 120px, (min-width: 321px) 240px")
+      +cldnry(page.profile, page.title)
 
   if (page && page.layout == "post")
     .details
@@ -92,10 +85,8 @@ if (page && page.title)
           if (quote.person)
           if (page && page.logo)
             .quote__details
-              - var logo_src = page.logo.replace('upload/', 'upload/f_auto,q_99,h_30/');
-              - var logo_alt = "Logo of " + page.title + " company."
               .quote__logo
-                +cloudinary(logo_src, "", logo_alt, "", "false")
+                +cldnry(page.logo, "Logo of " + page.title + " company.")
 
   if (page && page.testimonials)
     include _redesign/testimonials-all

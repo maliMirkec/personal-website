@@ -17,7 +17,7 @@ cta2:
   btn1: "Learn Hugo"
   btn2: "Make a website within an hour"
   link: https://skl.sh/2q88Ij7
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1540377692/making-a-website-with-hugo-cover_kpek9x.jpg
+thumbnail: making-a-website-with-hugo-cover_kpek9x.jpg
 comments: true
 description: Other than it is “the world’s fastest framework for building websites,” Hugo is packed with powerful features that would make the website development process more pleasable.
 project:

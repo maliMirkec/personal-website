@@ -2431,6 +2431,11 @@ cloneable-readable@^1.0.0:
     process-nextick-args "^2.0.0"
     readable-stream "^2.3.5"
 
+cloudinary-core@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.8.1.tgz#68e3b892dcdbdc9b22dcadadbf3c30dcc77cbde8"
+  integrity sha512-UsJnukV1qftOoEWIEwqUC5nBZWZRDnBNFQnCFsxfLGyLDES4D13YxyygGAtC+ipTatZr0Ylnlr2qDclnZPBhuw==
+
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"

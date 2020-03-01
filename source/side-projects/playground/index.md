@@ -6,7 +6,7 @@ cta2:
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
 description: The Playground is a place where I share my latest experiments.
-thumbnail: https://res.cloudinary.com/starbist/image/upload/v1582214410/play_ubrrdp.png
+thumbnail: play_ubrrdp.png
 side: true
 order: 4
 display: true

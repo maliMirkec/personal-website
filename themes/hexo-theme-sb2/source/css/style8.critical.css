@@ -227,8 +227,8 @@ img {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  margin: 50px auto;
-  width: calc(100% - 50px);
+  margin: 20px auto;
+  width: calc(100% - 20px);
   position: relative;
   display: grid;
   grid-template-areas: "title" "content";
@@ -498,6 +498,7 @@ img {
 }
 
 .cta {
+  font-size: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,6 +506,7 @@ img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding: 5px;
   background-color: var(--color-omega);
   border-radius: 4px;
   -webkit-box-shadow: 0 4px 0 0 var(--color-delta);
@@ -514,6 +516,7 @@ img {
 .cta .btn {
   color: var(--color-psi);
   padding: .275rem .5rem .5rem;
+  line-height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
