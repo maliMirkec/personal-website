@@ -4,3 +4,5 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Content-Security-Policy: upgrade-insecure-requests;
+  Feature-Policy: camera 'none'; geolocation 'none'; microphone 'none'
+  Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
