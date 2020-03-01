@@ -3,7 +3,7 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy: default-src 'self';
+  Content-Security-Policy: upgrade-insecure-requests;
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Feature-Policy: camera 'none'; geolocation 'none'; microphone 'none'
   Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
