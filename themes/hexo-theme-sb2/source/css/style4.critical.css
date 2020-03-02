@@ -380,7 +380,7 @@ img {
 
 .toggle {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.875rem;
   right: 0.5rem;
   background-color: var(--color-gamma);
   color: var(--color-psi);

@@ -624,6 +624,7 @@ img {
   margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
+  stroke: var(--color-psi);
 }
 
 .autograph__path {
@@ -644,7 +645,7 @@ img {
 
 .toggle {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.875rem;
   right: 0.5rem;
   background-color: var(--color-gamma);
   color: var(--color-psi);

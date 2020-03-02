@@ -176,6 +176,12 @@ h3 {
   }
 }
 
+h2 a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 p {
   margin-top: 1.333rem;
 }
@@ -380,7 +386,7 @@ img {
 
 .toggle {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.875rem;
   right: 0.5rem;
   background-color: var(--color-gamma);
   color: var(--color-psi);
