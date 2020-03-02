@@ -201,7 +201,9 @@
       min-width: 140px;
 
       &[disabled] {
-        opacity: 0.8;
+        background-color: $color-epsilon;
+        opacity: 0.5;
+        cursor: no-drop;
       }
 
       @include mq($until: mobile) {

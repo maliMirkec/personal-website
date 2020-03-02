@@ -1103,6 +1103,10 @@ img {
     .main--sidebar .article blockquote:not([class*="quote"]):before {
       right: 0; } }
 
+.article .twitter-tweet {
+  margin-left: auto;
+  margin-right: auto; }
+
 .table-wrapper {
   width: 100%;
   overflow-y: auto; }
@@ -1651,7 +1655,9 @@ code {
       border-radius: 4px;
       min-width: 140px; }
       .form .kw-multistep-footer button[disabled] {
-        opacity: 0.8; }
+        background-color: var(--color-epsilon);
+        opacity: 0.5;
+        cursor: no-drop; }
       @media (max-width: 29.99em) {
         .form .kw-multistep-footer button {
           width: 100%; } }
@@ -1730,7 +1736,8 @@ code {
   max-width: 200px;
   margin-top: 4rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  stroke: var(--color-psi); }
 
 .autograph__path {
   opacity: 0;
@@ -1796,7 +1803,7 @@ code {
 
 .toggle {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 0.875rem;
   right: 0.5rem;
   background-color: var(--color-gamma);
   color: var(--color-psi);
@@ -1814,6 +1821,9 @@ code {
   grid-gap: 40px;
   margin-top: 40px;
   margin-bottom: 40px; }
+  .main--sidebar .block__grid {
+    margin-top: 20px;
+    margin-bottom: 2px; }
   .block__grid + .block__grid:before {
     content: "";
     display: block;
@@ -2270,6 +2280,9 @@ code {
     grid-gap: 80px;
     margin-top: 80px;
     margin-bottom: 80px; }
+    .main--sidebar .block__grid {
+      margin-top: 40px;
+      margin-bottom: 4px; }
   .block__grid--alpha {
     grid-template-columns: repeat(3, 1fr); }
   .block__item > h1 {
