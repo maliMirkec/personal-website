@@ -10,7 +10,6 @@ categories:
 comments: true
 thumbnail: I_just_finished_redesigning_my_site-2x_nkip6c.jpg
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
-highlighted: true
 ---
 
 During the last week, I have been working on redesigning my site. Here is the list of all changes:
