@@ -111,16 +111,3 @@ document.addEventListener('click', function (e) {
     }
   }
 }, false)
-
-const u = 'https://develop--code-line-daily.netlify.com/api/get-random-line'
-
-console.log(u)
-
-fetch(u, {
-  mode: 'no-cors',
-  headers: {
-    'Content-Type': 'text/plain'
-  }
-})
-  .then(r => console.log(r))
-  .catch(e => console.log(e))
