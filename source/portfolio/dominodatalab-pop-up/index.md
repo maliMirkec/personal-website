@@ -18,7 +18,7 @@ tags:
   - javascript
 ---
 
-Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value. The website runs on WordPress.
+Pop-up is a series of events organized by Domino Data Lab that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value. The website runs on WordPress.
 
 Link: [popup.dominodatalab.com](//popup.dominodatalab.com)
 

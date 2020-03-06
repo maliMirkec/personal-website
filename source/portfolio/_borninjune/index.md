@@ -8,7 +8,7 @@ cta2:
 description: Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.
 thumbnail: bij_rb4lqa.png
 portfolio: true
-order: 22
+order: 99
 tags:
   - wordpress
   - html

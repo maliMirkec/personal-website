@@ -9,7 +9,7 @@ description: Irina and Matej are wedding and portrait photographers based in Cro
 thumbnail: im_xnyy09.png
 logo: im_s8hadt.png
 portfolio: true
-order: 15
+order: 16
 display: true
 highlighted: true
 tags:
