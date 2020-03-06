@@ -9,7 +9,7 @@ description: The Trase Yearbook presents the latest insights on the sustainabili
 thumbnail: yb_urvwkg.png
 logo: yt_iyy37j.png
 portfolio: true
-order: 10
+order: 11
 display: true
 tags:
   - wordpress

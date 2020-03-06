@@ -9,7 +9,7 @@ description: Flexera control and manage software and IT costs, to grow and prote
 thumbnail: f1_bn1woc.png
 logo: bm_qlnuvi.png
 portfolio: true
-order: 20
+order: 21
 display: false
 tags:
   - styleguide

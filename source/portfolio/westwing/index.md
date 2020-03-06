@@ -9,12 +9,13 @@ description: Westwing is "curated shoppable magazine", inspiring customers every
 thumbnail: ww_hceizq.png
 logo: ww_pm2rwy.png
 portfolio: true
-order: 7
+order: 8
 display: true
 highlighted: true
 tags:
   - spg
   - ssg
+  - hugo
   - html
   - css
   - javascript

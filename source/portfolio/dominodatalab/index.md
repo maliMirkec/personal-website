@@ -5,7 +5,7 @@ cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
-description: Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
+description: Domino Data Lab is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
 thumbnail: ddl_mypfrt.png
 logo: ddl_rj0jfd.png
 portfolio: true
@@ -22,7 +22,7 @@ tags:
   - javascript
 ---
 
-Domino is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage. The website runs on Jekyll.
+Domino Data Lab is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage. The website runs on Jekyll.
 
 Link: [dominodatalab.com](//www.dominodatalab.com)
 

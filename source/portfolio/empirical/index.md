@@ -8,7 +8,7 @@ cta2:
 description: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on WordPress and WPEngine.
 thumbnail: ewm_aikxon.png
 portfolio: true
-order: 16
+order: 17
 display: false
 tags:
   - wordpress
