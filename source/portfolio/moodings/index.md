@@ -9,7 +9,7 @@ description: Moodings is an e-commerce website from Copenhagen, Denmark. By cura
 thumbnail: m_rjmzz2.png
 logo: m_ajy438.png
 portfolio: true
-order: 14
+order: 13
 display: true
 tags:
   - shopify

@@ -9,7 +9,7 @@ description: Rev is a summit hosted by Domino Data Lab company that gathers data
 thumbnail: ddlr_rpy3cx.png
 logo: rev_garoyf.png
 portfolio: true
-order: 5
+order: 4
 display: true
 tags:
   - jekyll

@@ -9,7 +9,7 @@ description: Domino Data Lab is a data science platform that enables data scienc
 thumbnail: ddl_mypfrt.png
 logo: ddl_rj0jfd.png
 portfolio: true
-order: 3
+order: 2
 display: true
 highlighted: true
 tags:
@@ -22,7 +22,7 @@ tags:
   - javascript
 quotes:
   - person: Grigoriy Kogan
-    highlighted: false
+    highlighted: true
     position: Growth Consultant at Domino Data Lab
     project:
       name: Domino Data Lab

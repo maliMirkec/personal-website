@@ -9,7 +9,7 @@ description: Pop-up is a series of events that bring together the data science l
 thumbnail: ddlp_mjllzg.png
 logo: ddl_rj0jfd.png
 portfolio: true
-order: 4
+order: 3
 display: true
 tags:
   - wordpress

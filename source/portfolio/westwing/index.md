@@ -9,7 +9,7 @@ description: Westwing is "curated shoppable magazine", inspiring customers every
 thumbnail: ww_hceizq.png
 logo: ww_pm2rwy.png
 portfolio: true
-order: 8
+order: 5
 display: true
 highlighted: true
 tags:
@@ -29,7 +29,7 @@ quotes:
     paragraphs:
       - It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him.
   - person: Karim Mansi
-    highlighted: true
+    highlighted: false
     position: eCommerce Product Manager at Westwing Home & Living
     project:
       name: Westwing

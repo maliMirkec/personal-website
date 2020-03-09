@@ -9,7 +9,7 @@ description: TheGrio is the first video-centric news community site devoted to p
 thumbnail: tg_r1peey.png
 logo: tg_gxyrqc.png
 portfolio: true
-order: 10
+order: 9
 display: true
 tags:
   - wordpress
