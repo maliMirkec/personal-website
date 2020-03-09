@@ -9,7 +9,7 @@ description: Calvert is a global leader in responsible investing for analyzing c
 thumbnail: ev-c_vgm0ws.png
 logo: bm_qlnuvi.png
 portfolio: true
-order: 9
+order: 8
 display: true
 tags:
   - html

@@ -9,7 +9,7 @@ description: Bozzuto is a generationally-owned, independently-operated family bu
 thumbnail: b_csao4p.png
 logo: bm_qlnuvi.png
 portfolio: true
-order: 2
+order: 6
 display: true
 highlighted: true
 tags:

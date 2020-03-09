@@ -7,8 +7,9 @@ cta2:
   btn2: "Open 2020 Q3-Q4"
 description: Machine Learning Libraries is a website that outlines the most popular machine learning libraries for R and Python.
 thumbnail: mll_uzqdan.png
+logo: ddl_rj0jfd.png
 portfolio: true
-order: 6
+order: 14
 display: true
 tags:
   - spg
