@@ -22,7 +22,7 @@ tags:
   - javascript
 quotes:
   - person: Grigoriy Kogan
-    highlighted: true
+    highlighted: false
     position: Growth Consultant at Domino Data Lab
     project:
       name: Domino Data Lab
