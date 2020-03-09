@@ -18,6 +18,15 @@ tags:
   - html
   - css
   - javascript
+quotes:
+  - person: Grigoriy Kogan
+    highlighted: false
+    position: Growth Consultant at Domino Data Lab
+    project:
+      name: Domino Data Lab
+      link: /portfolio/dominodatalab/
+    paragraphs:
+      - "When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout."
 ---
 
 Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place. The website runs on Jekyll.
