@@ -16,6 +16,15 @@ tags:
   - html
   - css
   - javascript
+quotes:
+  - person: Grigoriy Kogan
+    highlighted: false
+    position: Growth Consultant at Domino Data Lab
+    project:
+      name: Domino Data Lab
+      link: /portfolio/dominodatalab/
+    paragraphs:
+      - "When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout."
 ---
 
 Pop-up is a series of events organized by Domino Data Lab that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value. The website runs on WordPress.
