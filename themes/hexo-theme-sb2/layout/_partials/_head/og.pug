@@ -14,7 +14,9 @@ if (theme && theme.open_graph)
     meta(property="og:site_name" content=theme.site.full_name)
 
   if (page && page.thumbnail)
-    meta(property="og:image" content=`https:${page.thumbnail}`)
+    if (theme && theme.site && theme.site.cldnry)
+      - var ogImage = "https://res.cloudinary.com/" + theme.site.cldnry + "/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/" + page.thumbnail
+      meta(property="og:image" content=ogImage)
   else if (theme && theme.open_graph.image)
     meta(property="og:image" content=`${config.url}${theme.open_graph.image}`)
 
