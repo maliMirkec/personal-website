@@ -7,7 +7,6 @@ if (page && page.title)
   if (page && page.thumbnail)
     .article__thumb
       +cldnry(page.thumbnail, "Cover photo for " + page.title + " page")
-      page.thumbnail
       if(page.credit && page.credit.text && page.credit.link)
         p.article__credit
           span="Photo credit: "
