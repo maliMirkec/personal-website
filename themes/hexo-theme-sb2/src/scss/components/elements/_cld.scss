@@ -1,0 +1,129 @@
+.ide {
+  font-family: $font-gamma;
+  font-weight: bold;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.ide__inner {
+  background-color: var(--color-omega);
+  border: 1px dashed var(--color-epsilon);
+  padding: 0 1rem;
+  position: relative;
+  border-radius: .25rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: .6em;
+    width: .6em;
+    border-radius: .3em;
+    top: .75rem;
+    left: 1rem;
+    background-color: red;
+    box-shadow: 1rem 0 0 gold, 2rem 0 0 lightgreen;
+    opacity: 0.6;
+  }
+}
+
+.ide__header {
+  color: var(--color-beta);
+  padding-top: .5rem;
+  text-align: center;
+  font-size: ms(-1);
+}
+
+.ide__body {
+  background-color: var(--color-gamma);
+  color: var(--color-beta);
+  display: flex;
+  flex-direction: column;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-top: .5rem;
+  counter-reset: line;
+  font-size: ms(-1);
+
+  p {
+    counter-increment: line;
+    display: flex;
+
+    &:before {
+      content: counter(line);
+      margin-right: 1rem;
+      opacity: 0.75;
+    }
+  }
+}
+
+.ide__footer {
+  color: var(--color-beta);
+  display: flex;
+  justify-content: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: ms(-1);
+
+  p {
+    flex: 0 0 calc(100% / 3);
+
+    &:nth-child(2) {
+      text-align: center;
+    }
+
+    &:nth-child(3) {
+      text-align: right;
+    }
+  }
+}
+
+.ide__details {
+  font-family: $font-alpha;
+  font-weight: normal;
+  margin-top: 1rem;
+
+  p {
+    &:first-child {
+      font-weight: bold;
+    }
+
+    &:last-child {
+      &:before {
+        content: "⇒";
+        display: inline-block;
+        margin-right: .25rem;
+        position: relative;
+        top: -0.05em;
+      }
+    }
+  }
+}
+
+.reset {
+  background-color: var(--color-alpha);
+  color: var(--color-psi);
+  border-radius: 3px;
+  border: 1px dotted var(--color-psi);
+  font-size: ms(-1);
+  text-transform: uppercase;
+  padding: 4px 12px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: var(--color-alpha);
+  }
+}
+
+@include mq($from: desktop) {
+  .ide__body {
+    font-size: ms(0);
+  }
+}
