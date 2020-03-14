@@ -169,10 +169,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html {
-  max-width: 100vw;
-}
-
 body {
   min-height: 100vh;
   display: -webkit-box;
