@@ -1058,19 +1058,6 @@ img {
     grid-column: 1 / -1;
     max-width: none;
     width: 100%; }
-  .articles .article:before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    right: -25px;
-    bottom: -10px;
-    left: -25px;
-    background-image: -o-radial-gradient(center, circle closest-side, var(--color-omega), var(--color-gamma));
-    background-image: radial-gradient(circle closest-side at center, var(--color-omega), var(--color-gamma));
-    opacity: .1;
-    z-index: -1; }
-  .articles .article:hover:before, .articles .article:focus:before, .articles .article:active:before {
-    opacity: 1; }
 
 .article li a:not([class*="card"]),
 .article p a:not([class*="card"]) {

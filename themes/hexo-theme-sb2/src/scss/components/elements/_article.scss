@@ -24,30 +24,6 @@
       grid-column: 1 / -1;
       max-width: none;
       width: 100%;
-
-      // @include mq($from: tablet, $until: desktop) {
-      //   &:first-of-type {
-      //     grid-row: 2 / span 1;
-      //   }
-      // }
-    }
-
-    &:before {
-      content: "";
-      position: absolute;
-      top: -10px;
-      right: -25px;
-      bottom: -10px;
-      left: -25px;
-      background-image: radial-gradient(circle closest-side at center, $color-omega, $color-gamma);
-      opacity: .1;
-      z-index: -1;
-    }
-
-    &:hover:before,
-    &:focus:before,
-    &:active:before {
-      opacity: 1;
     }
   }
 
