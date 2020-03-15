@@ -1,11 +1,11 @@
 .highlight {
   margin: 2em 0;
-  max-width: 100vw;
+  max-width: 99.9vw;
   overflow-x: auto;
   padding: 0 1em;
   background-color: $color-gamma;
-  margin-right: calc((100vw - 100%) / -2);
-  margin-left: calc((100vw - 100%) / -2);
+  margin-right: calc((99.9vw - 100%) / -2);
+  margin-left: calc((99.9vw - 100%) / -2);
 
   table {
     color: $color-beta;

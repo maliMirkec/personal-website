@@ -158,10 +158,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html {
-  max-width: 100vw;
-}
-
 body {
   min-height: 100vh;
   display: -webkit-box;
@@ -398,8 +394,8 @@ img {
 }
 
 .article__thumb {
-  margin-right: calc((100vw - 100%) / -2);
-  margin-left: calc((100vw - 100%) / -2);
+  margin-right: calc((99.9vw - 100%) / -2);
+  margin-left: calc((99.9vw - 100%) / -2);
   display: block;
 }
 
