@@ -78,7 +78,7 @@ Now you should be able to run the command from the terminal that would save you 
 
 To check if the command is available, try running the following commands: `spro --version` and `node_modules/.bin/spro --version` for global and local installation, respectively. You should see the version number in your terminal.
 
-{% cldnry spro-version_bc2zt4.gif "SPRO version example." %}
+![SPRO version example.](https://res.cloudinary.com/starbist/image/upload/v1551288910/spro-version_jyelxa.gif)
 
 The command that you want to run is `spro start`. You should be prompted to answer the questions about the project structure, as mentioned earlier.
 

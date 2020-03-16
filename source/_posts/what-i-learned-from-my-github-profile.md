@@ -19,7 +19,7 @@ _This analysis doesn't include repositories from my clients._
 
 ## GitHub profile
 
-{% cldnry GitHub_profile_Contribution_activity_graph_ridiqj.gif "Contribution activity graph on my GitHub profile." %}
+!["Contribution activity graph on my GitHub profile."](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif)
 
 Here are some facts from [my Contribution activity graph]:
 

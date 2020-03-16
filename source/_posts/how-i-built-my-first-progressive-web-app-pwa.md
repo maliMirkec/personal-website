@@ -13,7 +13,7 @@ highlighted: true
 
 As of today, my site is available as a Progressive Web App. Yaay! 💯
 
-{% cldnry pwa-after2_cbz06b.gif "Lighthouse showing fireworks for perfect scores." %}
+![Lighthouse showing fireworks for perfect scores.](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif)
 
 In this post, you would learn more about how and why I added this exciting feature to my site.
 
@@ -141,7 +141,7 @@ After the deployment, I run the audit for the site and now I have it looks like 
 
 I think fireworks deserve another appearance. 💯
 
-{% cldnry pwa-after2_cbz06b.gif "Lighthouse showing fireworks for perfect scores." %}
+![Lighthouse showing fireworks for perfect scores.](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif)
 
 ## Next steps
 
