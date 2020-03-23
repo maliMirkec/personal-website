@@ -24,7 +24,7 @@ _Note: this article is written from a technology perspective, meaning that I wro
 
 I still work on WordPress projects. WordPress is not going away: its users are loyal, and they are not losing trust in such wide-spread system. And they shouldn’t because it is still easy to use and it is familiar to most beginners and advanced users. One of the most significant advantages is the plugin library. There is a plugin for almost everything you might think of, and users really like that. There is a large number of themes, too. The biggest downside is the performance, as most themes are not optimized.
 
-WordPress is not my favourite system. However, I am still motivated to find new ways to optimize and enhance WordPress websites. When given the control to override default settings and behaviour, one could achieve remarkable results, like getting green scores from PageSpeed Insights, Lighthouse and WebPageTest scoring tools. I had an opportunity to optimize such an instance. We were pushing to its limits and even introduced [native lazy-loading] and moving the whole media library to CDN service. The scores were sky-rocketing. 🚀
+WordPress is not my favorite system. However, I am still motivated to find new ways to optimize and enhance WordPress websites. When given the control to override default settings and behaviour, one could achieve remarkable results, like getting green scores from PageSpeed Insights, Lighthouse and WebPageTest scoring tools. I had an opportunity to optimize such an instance. We were pushing to its limits and even introduced [native lazy-loading] and moving the whole media library to CDN service. The scores were sky-rocketing. 🚀
 
 ## Static Site Generators (SSG)
 
@@ -32,7 +32,7 @@ Static site generators, on the other hand, are so fast that rarely anybody conce
 
 > “Netlify supports anything you could think of and a little bit more.”
 
-Netlify supports anything you could think of and a little bit more: from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favourite Netlify features].
+Netlify supports anything you could think of and a little bit more: from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favorite Netlify features].
 
 [{% cldnry My_favorite_Netlify_features-2x_inepie.jpg "Cover for My Favorite Netlify features article." %}](/articles/my-favorite-netlify-features/)
 
@@ -107,7 +107,7 @@ Let’s make the web an even better place! 2⃣0⃣2⃣0⃣
 [Theme Kit]: https://shopify.github.io/themekit/
 [Netlify]: https://netlify.com
 [Netlify CMS]: https://www.netlifycms.org/
-[a post about my favourite Netlify features]: /articles/my-favorite-netlify-features/
+[a post about my favorite Netlify features]: /articles/my-favorite-netlify-features/
 [an article about style guides]: /articles/5-things-to-consider-when-creating-your-css-style-guide/
 [SPRO (or Starter Project CLI)]: https://starter.silvestar.codes/
 [Starter Project]: https://starter.silvestar.codes/starter-project/
