@@ -8,7 +8,7 @@ tags:
   - editor
 thumbnail: My_Favorite_VS_Code_Settings-2x_ft5wa0.jpg
 comments: true
-description: "There are my favorite VS Code settings: Breadcrumbs, Minimap, Saving and Formatting, Bars and Windows."
+description: "These are my favorite VS Code settings: Breadcrumbs, Minimap, Saving and Formatting, Bars and Windows."
 ---
 
 Last week I saw [an interesting tweet about showing modified tabs in the VS Code] from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.
