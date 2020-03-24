@@ -477,7 +477,7 @@ img {
   transform: translateY(-50%);
 }
 
-.card__tags {
+.card__content:not(:only-child) .card__tags {
   margin-top: auto;
 }
 

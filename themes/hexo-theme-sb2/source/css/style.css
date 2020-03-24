@@ -2025,6 +2025,14 @@ code {
   padding: 0 24px 24px;
   -webkit-box-shadow: 0 4px 0 0 var(--color-delta);
   box-shadow: 0 4px 0 0 var(--color-delta); }
+  .card__content:only-child {
+    padding-top: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
 
 .card__title {
   font-family: 'Playfair Display', serif;
@@ -2059,7 +2067,7 @@ code {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.card__tags {
+.card__content:not(:only-child) .card__tags  {
   margin-top: auto; }
 
 .card__tag {
@@ -2136,6 +2144,13 @@ code {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
+  .poster__content:only-child {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
 
 .poster__title {
   margin-top: 0;

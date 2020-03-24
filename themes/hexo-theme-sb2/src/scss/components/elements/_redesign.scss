@@ -295,6 +295,12 @@
   border-radius: 0 0 4px 4px;
   padding: 0 24px 24px;
   box-shadow: 0 4px 0 0 $color-delta;
+
+  &:only-child {
+    padding-top: 24px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .card__title {
@@ -328,7 +334,9 @@
 }
 
 .card__tags {
-  margin-top: auto;
+  .card__content:not(:only-child) & {
+    margin-top: auto;
+  }
 }
 
 .card__tag {
@@ -409,6 +417,11 @@
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+
+  &:only-child {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .poster__title {

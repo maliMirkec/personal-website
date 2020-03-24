@@ -5,17 +5,9 @@ if (site && site.posts)
     each vpost, kpost in site.posts.toArray().reverse()
       if (vpost.highlighted && !vpost.canonical)
         .block__item.card
-          .card__image
-            span
-              - var thumbnail_alt = "Cover for " + vpost.title + " article."
-              img(src="/gfx/jpg/offline.jpg", alt=thumbnail_alt)
           .card__content
-            if (vpost.date)
-              ul.card__list.card__list--beta.card__details
-                //- li.card__detail Silvestar Bistrović
-                li.card__detail= vpost.date.format(config.date_format)
             if vpost.title
-              h3.h4.card__title
+              h3.h3.card__title
                 span= vpost.title
             if vpost.description
               .card__description!= vpost.description

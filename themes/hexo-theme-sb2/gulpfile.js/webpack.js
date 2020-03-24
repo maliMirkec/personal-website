@@ -5,6 +5,7 @@ module.exports = {
   mode: 'production',
   entry: {
     index: helpers.parse('helpers.source/config.js.src/index.js'),
+    "workbox": helpers.parse('helpers.source/config.js.src/workbox.js'),
     cldnry: helpers.parse('helpers.source/config.js.src/cldnry.js')
   },
   output: {
