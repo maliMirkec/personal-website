@@ -1,56 +1,57 @@
-script(type="module").
-  // register service worker
-  import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-window.prod.mjs';
-  if ('serviceWorker' in navigator) {
-    const displayMessage = () => {
-      const $swButton = document.createElement('div')
-      $swButton.className = 'cta cta--beta cta--omega';
-      $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span><span>To see updates</span></button>';
-      document.body.appendChild($swButton)
-    }
-    const wb = new Workbox('/sw.js');
-    wb.addEventListener('installed', event => {
-      if (!event.isUpdate) {
-        displayMessage()
-      }
-    });
-    wb.addEventListener('activated', (event) => {
-      if (!event.isUpdate) {
-        console.log('Service Worker has been installed successfully.')
-      } else {
-        displayMessage()
-      }
-    });
-    wb.addEventListener('message', (event) => {
-      if (event.data.type === 'CACHE_UPDATED') {
-        displayMessage()
-      }
-    });
-    wb.addEventListener('waiting', (event) => {
-      displayMessage()
-    });
-    wb.addEventListener('externalinstalled', (event) => {
-      if (!event.isUpdate) {
-        displayMessage()
-      }
-    });
-    wb.addEventListener('externalactivated', (event) => {
-      if (!event.isUpdate) {
-        console.log('Service Worker has been installed successfully.')
-      } else {
-        displayMessage()
-      }
-    });
-    wb.addEventListener('externalwaiting', (event) => {
-      displayMessage()
-    });
-    wb.register();
-  }
-
-script(src="/js/cldnry.js", async)
-
 if (page && !page.offline)
-  script(src="/js/index.min.js", async)
+  script(type="module").
+    // register service worker
+    import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-window.prod.mjs';
+    if ('serviceWorker' in navigator) {
+      const displayMessage = () => {
+        const $swButton = document.createElement('div')
+        $swButton.className = 'cta cta--beta cta--omega';
+        $swButton.innerHTML = '<div class="cta__content"><p><span>The content has been updated. To see the latest changes, refresh the page, please.</span></p></div><button class="btn" type="button" onclick="window.location.reload()"><span>Refresh</span><span>To see updates</span></button>';
+        document.body.appendChild($swButton)
+      }
+      const wb = new Workbox('/sw.js');
+      wb.addEventListener('installed', event => {
+        if (!event.isUpdate) {
+          displayMessage()
+        }
+      });
+      wb.addEventListener('activated', (event) => {
+        if (!event.isUpdate) {
+          console.log('Service Worker has been installed successfully.')
+        } else {
+          displayMessage()
+        }
+      });
+      wb.addEventListener('message', (event) => {
+        if (event.data.type === 'CACHE_UPDATED') {
+          displayMessage()
+        }
+      });
+      wb.addEventListener('waiting', (event) => {
+        displayMessage()
+      });
+      wb.addEventListener('externalinstalled', (event) => {
+        if (!event.isUpdate) {
+          displayMessage()
+        }
+      });
+      wb.addEventListener('externalactivated', (event) => {
+        if (!event.isUpdate) {
+          console.log('Service Worker has been installed successfully.')
+        } else {
+          displayMessage()
+        }
+      });
+      wb.addEventListener('externalwaiting', (event) => {
+        displayMessage()
+      });
+      wb.register();
+    }
 
-if (page && page.form)
-  script(src="https://kwes.io/js/kwes.js", async)
+  script(src="/js/cldnry.js", async)
+
+  if (page && !page.offline)
+    script(src="/js/index.min.js", async)
+
+  if (page && page.form)
+    script(src="https://kwes.io/js/kwes.js", async)

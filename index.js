@@ -5,7 +5,7 @@ function swStart () {
   return injectManifest({
     globDirectory: "public/",
     globPatterns: [
-      "**/*.{html,webmanifest,css,js,eot,svg,ttf,woff,woff2,png,ico,jpg}"
+      "**/offline.{html,css,js,jpg}"
     ],
     globIgnores: [
       "bookmarks/**/*",

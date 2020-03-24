@@ -6,14 +6,12 @@ if (site && site.pages)
       if (vpage.highlighted && vpage.side)
         .block__item.poster.poster--alpha
           .poster__image
-            a(href=urlFor(vpage.path))
+            span
               - var thumbnail_alt = "Screenshot of " + vpage.title + " website.";
-              img(src="/gfx/jpg/cover-half.jpg", alt=thumbnail_alt)
+              img(src="/gfx/jpg/offline.jpg", alt=thumbnail_alt)
           .poster__content
             if vpage.title
               h3.poster__title
-                a(href=urlFor(vpage.path))= vpage.title
+                span= vpage.title
               if (vpage.description)
                 p.poster__description= vpage.description
-            .poster__action
-              a(href=urlFor(vpage.path)) View Project ⇢

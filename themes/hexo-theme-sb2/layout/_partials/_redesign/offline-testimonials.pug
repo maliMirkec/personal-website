@@ -1,0 +1,19 @@
+if (site && site.pages)
+  - var testimonialPages = site.pages.toArray().filter(page => page.portfolio && page.quotes)
+  - testimonialPages.sort((a, b) => (a.order > b.order) ? 1 : -1)
+  .block__grid.block__grid--beta
+    .block__item.block__item--alpha
+      include intro-testimonials
+    each vpage, kpage in testimonialPages
+      each vquote, kquote in vpage.quotes
+        if (vquote.highlighted)
+          .block__item.quote
+            p.quote__person
+              span= vquote.person
+              if (vquote.position && vquote.project && vquote.project.name)
+                span= ", " + vquote.position + " @ "
+                span= vquote.project.name
+              span= " said:"
+            blockquote.quote__text
+              each paragraph in vquote.paragraphs
+                p= paragraph
