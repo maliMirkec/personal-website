@@ -109,6 +109,10 @@
   margin-top: 4rem;
 }
 
+.profile--beta {
+  display: flex;
+}
+
 .profile__image {
   position: relative;
   padding-left: 40px;
@@ -168,8 +172,13 @@
 .profile__content {
   background-color: $color-omega;
   padding: 10px 20px 20px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 4px;
   box-shadow: 0 4px 0 0 $color-delta;
+
+  .profile--beta & {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .profile__inner {

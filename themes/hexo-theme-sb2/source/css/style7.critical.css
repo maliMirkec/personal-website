@@ -490,7 +490,7 @@ img {
 
 @media (min-width: 48em) {
   .subnav__link {
-    padding: 17.5px 25px;
+    padding: 17.5px 22.5px;
   }
 }
 
@@ -822,7 +822,7 @@ img {
 .profile__content {
   background-color: var(--color-omega);
   padding: 10px 20px 20px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 4px 0 0 var(--color-delta);
   box-shadow: 0 4px 0 0 var(--color-delta);
 }

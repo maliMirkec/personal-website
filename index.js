@@ -12,7 +12,8 @@ function swStart () {
       "archives/**/*",
       "tags/**/*",
       "favicon/*.{png,jpg,svg}",
-      "*.critical.css"
+      "*.critical.css",
+      "*.workbox.min.js"
     ],
     swDest: "public/sw.js",
     swSrc: "sw.js"
