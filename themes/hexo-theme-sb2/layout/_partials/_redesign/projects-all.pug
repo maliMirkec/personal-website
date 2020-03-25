@@ -1,7 +1,7 @@
 if (site && site.pages)
   - var projectPages = site.pages.toArray().filter(page => page.side && page.display)
   - projectPages.sort((a, b) => (a.order > b.order) ? 1 : -1)
-  .block__grid.block__grid--beta.block__grid--gamma
+  .block__grid.block__grid--beta
     each vpage, kpage in projectPages
       if (kpage === 2)
         .block__cta

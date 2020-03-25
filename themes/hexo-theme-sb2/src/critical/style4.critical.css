@@ -261,6 +261,12 @@ img {
   }
 }
 
+.nav {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,10 +1,11 @@
 footer.footer
-  if (theme && theme.widgets && theme.widgets.subnav)
-    include _widgets/subnav
-  if (theme && theme.site && theme.site.short_name)
-    p.copy!= "&copy; " + theme.site.short_name + ", " + new Date().getFullYear()
-  else if (config && config.title)
-    p.copy!= "&copy; " + config.title + ", " + new Date().getFullYear()
+  .footer__inner
+    if (theme && theme.widgets && theme.widgets.subnav)
+      include _widgets/subnav
+    if (theme && theme.site && theme.site.short_name)
+      p.copy!= "&copy; " + theme.site.short_name + ", " + new Date().getFullYear()
+    else if (config && config.title)
+      p.copy!= "&copy; " + config.title + ", " + new Date().getFullYear()
 
 if (theme && theme.widgets && theme.widgets.cookies)
   include _widgets/ga

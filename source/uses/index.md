@@ -12,6 +12,8 @@ sidebar: true
 
 Most developers often spend time on their setup, and I am no exception, by no means. I like to organize my computer and my tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
 
+I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome-extensions-for-web-development-mostly/) and [my favorite VS Code settings](/articles/my-favorite-vs-code-settings/).
+
 _Bolded items are my favorites._
 
 _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes Bos's setup](https://wesbos.com/uses/). My setup is also featured on [/uses](http://uses.tech/) site._
