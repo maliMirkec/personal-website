@@ -261,6 +261,12 @@ img {
   }
 }
 
+.nav {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,7 +483,7 @@ img {
   transform: translateY(-50%);
 }
 
-.card__tags {
+.card__content:not(:only-child) .card__tags {
   margin-top: auto;
 }
 

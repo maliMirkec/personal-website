@@ -65,7 +65,7 @@
 }
 
 .block__item {
-  > h1 {
+  &:not(.block__item--omega) > h1 {
     margin-top: 40px;
   }
 
@@ -107,6 +107,10 @@
 
 .profile--alpha {
   margin-top: 4rem;
+}
+
+.profile--beta {
+  display: flex;
 }
 
 .profile__image {
@@ -168,8 +172,13 @@
 .profile__content {
   background-color: $color-omega;
   padding: 10px 20px 20px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 4px;
   box-shadow: 0 4px 0 0 $color-delta;
+
+  .profile--beta & {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .profile__inner {
@@ -295,6 +304,12 @@
   border-radius: 0 0 4px 4px;
   padding: 0 24px 24px;
   box-shadow: 0 4px 0 0 $color-delta;
+
+  &:only-child {
+    padding-top: 24px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .card__title {
@@ -328,7 +343,9 @@
 }
 
 .card__tags {
-  margin-top: auto;
+  .card__content:not(:only-child) & {
+    margin-top: auto;
+  }
 }
 
 .card__tag {
@@ -409,6 +426,11 @@
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+
+  &:only-child {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .poster__title {
@@ -507,27 +529,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .block__item--alpha {
-    grid-column: span 3;
-  }
-
   .block__grid--beta {
-    grid-template-columns: repeat(6, 1fr);
-
-    .block__item--alpha ~ .block__item {
-      grid-column: span 3;
-    }
-
-    .block__item--alpha + .block__item {
-      grid-column-start: 4;
-      grid-column-end: -1;
-    }
-  }
-
-  .block__grid--gamma {
-    .block__item {
-      grid-column: span 3;
-    }
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .profile__content {
@@ -552,13 +555,9 @@
   }
 
   .block__item {
-    > h1 {
+    &:not(.block__item--omega) > h1 {
       margin-top: 110px;
     }
-  }
-
-  .block__item--alpha {
-    grid-column: span 2;
   }
 
   .block__item--beta {

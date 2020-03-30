@@ -12,14 +12,8 @@ if (site && site.pages)
               span= vquote.person
               if (vquote.position && vquote.project && vquote.project.name)
                 span= ", " + vquote.position + " @ "
-                a(href=vpage.path)= vquote.project.name
+                span= vquote.project.name
               span= " said:"
             blockquote.quote__text
               each paragraph in vquote.paragraphs
                 p= paragraph
-            if (vquote.person)
-            if (vpage && vpage.logo)
-              .quote__details
-                a.quote__link(href=urlFor(vpage.path)) View project ⇢
-                a.quote__logo(href=urlFor(vpage.path))
-                  +cldnry(vpage.logo, "Logo of " + vpage.title + " company.")

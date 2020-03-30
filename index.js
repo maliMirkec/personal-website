@@ -5,14 +5,15 @@ function swStart () {
   return injectManifest({
     globDirectory: "public/",
     globPatterns: [
-      "**/*.{html,webmanifest,css,js,eot,svg,ttf,woff,woff2,png,ico,jpg}"
+      "**/offline.{html,css,js,jpg}"
     ],
     globIgnores: [
       "bookmarks/**/*",
       "archives/**/*",
       "tags/**/*",
       "favicon/*.{png,jpg,svg}",
-      "*.critical.css"
+      "*.critical.css",
+      "*.workbox.min.js"
     ],
     swDest: "public/sw.js",
     swSrc: "sw.js"
