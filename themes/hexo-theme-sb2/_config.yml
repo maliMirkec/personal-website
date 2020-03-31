@@ -86,7 +86,7 @@ widgets:
     GitHub: https://github.com/maliMirkec
     CodePen: https://codepen.io/CiTA/
     Twitter: https://twitter.com/malimirkeccita
-    Feed: https://www.silvestar.codes/rss2.xml
+    Feed: /rss2.xml
   disqus:
     shortname: silvestarbistrovic
   sharing:

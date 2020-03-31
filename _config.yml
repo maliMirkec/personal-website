@@ -60,7 +60,12 @@ tag_map:
 feed:
   type: rss2
   path: rss2.xml
-  limit: 50
+  limit: false
+  content: false
+  content_limit: 140
+  content_limit_delim: '... Find out more.'
+  order_by: -date
+  autodiscovery: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
