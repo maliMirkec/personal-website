@@ -17,5 +17,5 @@ I look forward to talking to you about anything:
 
 - possible collaboration, or
 - a new project, or
-- [mentoring](/mentoring/), or
+- [mentoring](https://mentor.silvestar.codes/), or
 - anything else really.

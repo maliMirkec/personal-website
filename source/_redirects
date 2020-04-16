@@ -5,4 +5,4 @@
 /tag/* /tags/:splat 301
 /clanci/* /articles/ 301
 /categories/articles/* /articles/:splat 301
-/articles/ /categories/articles/ 301
+/mentoring/ https://mentor.silvestar.codes/ 301
