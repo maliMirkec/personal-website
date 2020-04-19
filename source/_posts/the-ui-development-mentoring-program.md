@@ -9,7 +9,7 @@ categories:
 cta1:
   span: "Wanna improve your UI coding skills?"
   btn1: "Join the Program"
-  btn2: "Become an UI dev 💯"
+  btn2: "Become a better UI dev 💯"
   link: https://mentor.silvestar.codes/
 comments: true
 thumbnail: The_UI_Development_Mentoring_program-2x_wohbeq.jpg

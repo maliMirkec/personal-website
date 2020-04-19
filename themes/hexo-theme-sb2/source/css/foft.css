@@ -24,35 +24,30 @@
   font-family: "Barlow";
   font-style: normal;
   font-weight: normal;
-  font-display: swap;
   src: local("Barlow"), local("Barlow-Regular"), url("/fonts/Barlow/Barlow-Regular.woff2") format("woff2"), url("/fonts/Barlow/Barlow-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "Barlow";
   font-style: italic;
   font-weight: normal;
-  font-display: swap;
   src: local("Barlow Italic"), local("Barlow-Italic"), url("/fonts/Barlow/Barlow-Italic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-Italic.woff") format("woff"); }
 
 @font-face {
   font-family: "Barlow";
   font-style: normal;
   font-weight: bold;
-  font-display: swap;
   src: local("Barlow Bold"), local("Barlow-Bold"), url("/fonts/Barlow/Barlow-Bold.woff2") format("woff2"), url("/fonts/Barlow/Barlow-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: "Barlow";
   font-style: italic;
   font-weight: bold;
-  font-display: swap;
   src: local("Barlow BoldItalic"), local("Barlow-BoldItalic"), url("/fonts/Barlow/Barlow-BoldItalic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-BoldItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: bold;
-  font-display: swap;
   src: local("PlayfairDisplay Bold"), local("PlayfairDisplay-Bold"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"); }
 
 body {

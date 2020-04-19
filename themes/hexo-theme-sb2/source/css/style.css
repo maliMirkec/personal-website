@@ -556,16 +556,10 @@ img {
   list-style: none; }
   @media (min-width: 48em) {
     .nav__list {
-      padding: 0;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start; } }
+      padding: 0; } }
 
 .nav__item {
   text-align: center; }
-  @media (min-width: 48em) {
-    .nav__item:last-of-type {
-      margin-left: auto; } }
 
 .nav__link {
   display: block;
@@ -613,8 +607,8 @@ img {
     background-image: -o-radial-gradient(center, circle, var(--color-alpha) 2px, transparent 2px);
     background-image: radial-gradient(circle at center, var(--color-alpha) 2px, transparent 2px); }
   .nav__list--contact .nav__item:nth-child(7) .nav__link {
-    background-image: -o-radial-gradient(center, circle, var(--color-alpha) 2px, transparent 2px);
-    background-image: radial-gradient(circle at center, var(--color-alpha) 2px, transparent 2px); }
+    background-image: -o-radial-gradient(center, circle, var(--color-beta) 2px, transparent 2px);
+    background-image: radial-gradient(circle at center, var(--color-beta) 2px, transparent 2px); }
   .nav__item:last-of-type .nav__link {
     color: var(--color-epsilon); }
     .nav__item:last-of-type .nav__link:hover, .nav__item:last-of-type .nav__link:focus, .nav__item:last-of-type .nav__link:active {
@@ -1281,6 +1275,20 @@ code {
     -ms-hyphens: auto;
     hyphens: auto; } }
 
+.embed {
+  position: relative;
+  padding-bottom: calc(9 / 16 * 100%);
+  background-color: var(--color-gamma);
+  border: 1px solid var(--color-delta); }
+  .embed iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%; }
+
 .comments {
   background-color: var(--color-gamma);
   color: var(--color-psi);
@@ -1684,9 +1692,6 @@ code {
   .desc p {
     margin: 0; }
 
-[v-cloak] {
-  display: none; }
-
 .steps {
   display: block;
   max-width: 80px;
@@ -1701,6 +1706,45 @@ code {
   .step2 .steps__path {
     -webkit-animation: step2 1s ease-in-out forwards;
     animation: step2 1s ease-in-out forwards; }
+
+[v-cloak] form {
+  position: relative;
+  max-height: calc(14.52632 * 1rem);
+  overflow: hidden; }
+  [v-cloak] form:after {
+    content: "Waiting.";
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    bottom: -1rem;
+    left: -1rem;
+    background-color: var(--color-omega);
+    border-radius: calc(0.15789 * 1rem);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.77689rem;
+    font-weight: bold;
+    -webkit-animation: waiting 3s steps(3, end) infinite;
+    animation: waiting 3s steps(3, end) infinite; }
+
+@-webkit-keyframes waiting {
+  33% {
+    content: "Waiting.."; }
+  66% {
+    content: "Waiting..."; } }
+
+@keyframes waiting {
+  33% {
+    content: "Waiting.."; }
+  66% {
+    content: "Waiting..."; } }
 
 @-webkit-keyframes step1 {
   0% {

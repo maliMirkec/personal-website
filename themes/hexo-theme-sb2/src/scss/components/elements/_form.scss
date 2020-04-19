@@ -269,23 +269,27 @@
 }
 
 [v-cloak] {
-  position: relative;
+  form {
+    position: relative;
+    max-height: rem(276);
+    overflow: hidden;
 
-  &:after {
-    content: "Waiting.";
-    position: absolute;
-    top: -1rem;
-    right: -1rem;
-    bottom: -1rem;
-    left: -1rem;
-    border-radius: rem(3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: ms(4);
-    font-weight: bold;
-    background-color: transparentize($color-beta, .25);
-    animation: waiting 3s steps(3, end) infinite;
+    &:after {
+      content: "Waiting.";
+      position: absolute;
+      top: -1rem;
+      right: -1rem;
+      bottom: -1rem;
+      left: -1rem;
+      background-color: $color-omega;
+      border-radius: rem(3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: ms(2);
+      font-weight: bold;
+      animation: waiting 3s steps(3, end) infinite;
+    }
   }
 }
 
