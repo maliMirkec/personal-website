@@ -41,7 +41,7 @@ sidebar:
     Hire me: /hire-me/
     Services: /services/
     Contact: /contact/
-    Mentoring: /mentoring/
+    Mentoring: https://mentor.silvestar.codes
     Setup: /uses/
     My Links: /links/
     Portfolio: /portfolio/
@@ -55,13 +55,13 @@ sidebar:
     Silvestar Bistrović: /
 
 cta1:
-  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q3-Q4"
+  span: "Looking for a mentor? Become a better UI developer today."
+  btn1: "Join the program ⇢"
+  btn2: "Start today"
   link: /contact/
 
 cta2:
-  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
+  span: "If you want me on your team, contact me today!"
   btn1: "Get in touch ⇢"
   btn2: "Open 2020 Q3-Q4"
   href: /contact/

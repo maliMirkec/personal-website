@@ -31,18 +31,11 @@
 
   @include mq($from: tablet) {
     padding: 0;
-    justify-content: flex-start;
   }
 }
 
 .nav__item {
   text-align: center;
-
-  @include mq($from: tablet) {
-    &:last-of-type {
-      margin-left: auto;
-    }
-  }
 }
 
 .nav__link {
@@ -100,7 +93,7 @@
   }
 
   .nav__list--contact .nav__item:nth-child(7) & {
-    background-image: radial-gradient(circle at center, $color-alpha 2px, transparent 2px);
+    background-image: radial-gradient(circle at center, $color-beta 2px, transparent 2px);
   }
 
   .nav__item:last-of-type & {

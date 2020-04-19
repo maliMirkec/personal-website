@@ -1,6 +1,6 @@
 {
   "name": "silvestar.codes",
-  "version": "4.0.14",
+  "version": "4.0.16",
   "description": "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.",
   "main": "index",
   "repository": {
@@ -25,7 +25,7 @@
     "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
     "sw": "node index.js",
     "deploy": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw",
-    "dev": "hexo generate --debug && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
+    "dev": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
   },
   "hexo": {
     "version": "4.2.0"

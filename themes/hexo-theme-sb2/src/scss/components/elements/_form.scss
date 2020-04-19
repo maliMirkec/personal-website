@@ -249,10 +249,6 @@
   }
 }
 
-[v-cloak] {
-  display: none;
-}
-
 .steps {
   display: block;
   max-width: 80px;
@@ -269,6 +265,40 @@
 
   .step2 & {
     animation: step2 1s ease-in-out forwards;
+  }
+}
+
+[v-cloak] {
+  form {
+    position: relative;
+    max-height: rem(276);
+    overflow: hidden;
+
+    &:after {
+      content: "Waiting.";
+      position: absolute;
+      top: -1rem;
+      right: -1rem;
+      bottom: -1rem;
+      left: -1rem;
+      background-color: $color-omega;
+      border-radius: rem(3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: ms(2);
+      font-weight: bold;
+      animation: waiting 3s steps(3, end) infinite;
+    }
+  }
+}
+
+@keyframes waiting {
+  33% {
+    content: "Waiting..";
+  }
+  66% {
+    content: "Waiting...";
   }
 }
 

@@ -314,6 +314,23 @@ code {
   }
 }
 
+.embed {
+  position: relative;
+  padding-bottom: calc(9 / 16 * 100%);
+  background-color: $color-gamma;
+  border: 1px solid $color-delta;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
 .comments {
   background-color: $color-gamma;
   color: $color-psi;

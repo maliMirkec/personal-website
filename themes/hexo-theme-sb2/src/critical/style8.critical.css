@@ -327,20 +327,11 @@ img {
 @media (min-width: 48em) {
   .nav__list {
     padding: 0;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
   }
 }
 
 .nav__item {
   text-align: center;
-}
-
-@media (min-width: 48em) {
-  .nav__item:last-of-type {
-    margin-left: auto;
-  }
 }
 
 .nav__link {

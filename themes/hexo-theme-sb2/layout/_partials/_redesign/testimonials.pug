@@ -12,7 +12,7 @@ if (site && site.pages)
               span= vquote.person
               if (vquote.position && vquote.project && vquote.project.name)
                 span= ", " + vquote.position + " @ "
-                a(href=vpage.path)= vquote.project.name
+                a(href=urlFor(vpage.path))= vquote.project.name
               span= " said:"
             blockquote.quote__text
               each paragraph in vquote.paragraphs

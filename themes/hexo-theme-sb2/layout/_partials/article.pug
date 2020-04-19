@@ -76,7 +76,7 @@ if (page && page.title)
             span= quote.person
             if (quote.position && quote.project && quote.project.name)
               span= ", " + quote.position + " @ "
-              a(href=page.path)= quote.project.name
+              a(href=urlFor(page.path))= quote.project.name
             span= " said:"
           blockquote.quote__text
             each paragraph in quote.paragraphs
