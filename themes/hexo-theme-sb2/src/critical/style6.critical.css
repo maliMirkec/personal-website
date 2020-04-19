@@ -268,20 +268,11 @@ body {
 @media (min-width: 48em) {
   .nav__list {
     padding: 0;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
   }
 }
 
 .nav__item {
   text-align: center;
-}
-
-@media (min-width: 48em) {
-  .nav__item:last-of-type {
-    margin-left: auto;
-  }
 }
 
 .nav__link {
@@ -311,8 +302,8 @@ body {
 }
 
 .nav__list--contact .nav__item:nth-child(7) .nav__link {
-  background-image: -o-radial-gradient(center, circle, var(--color-alpha) 2px, transparent 2px);
-  background-image: radial-gradient(circle at center, var(--color-alpha) 2px, transparent 2px);
+  background-image: -o-radial-gradient(center, circle, var(--color-beta) 2px, transparent 2px);
+  background-image: radial-gradient(circle at center, var(--color-beta) 2px, transparent 2px);
 }
 
 .nav__item:last-of-type .nav__link {
@@ -394,54 +385,6 @@ body {
 .steps__path {
   stroke-dasharray: 1640;
   stroke-dashoffset: 1020;
-}
-
-[v-cloak] {
-  position: relative;
-}
-
-[v-cloak]:after {
-  content: "Waiting.";
-  position: absolute;
-  top: -1rem;
-  right: -1rem;
-  bottom: -1rem;
-  left: -1rem;
-  border-radius: calc(0.15789 * 1rem);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 3.15733rem;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.75);
-  -webkit-animation: waiting 3s steps(3, end) infinite;
-  animation: waiting 3s steps(3, end) infinite;
-}
-
-@-webkit-keyframes waiting {
-  33% {
-    content: "Waiting..";
-  }
-
-  66% {
-    content: "Waiting...";
-  }
-}
-
-@keyframes waiting {
-  33% {
-    content: "Waiting..";
-  }
-
-  66% {
-    content: "Waiting...";
-  }
 }
 
 .body {
