@@ -4,6 +4,6 @@
 /hr/* /:splat 301
 /tag/* /tags/:splat 301
 /clanci/* /articles/ 301
-/categories/articles /articles/ 200!
-/categories/articles/* /articles/:splat 301
+/articles /categories/articles/ 200!
+/categories/* /categories/articles/:splat 200!
 /mentoring https://mentor.silvestar.codes/ 301!
