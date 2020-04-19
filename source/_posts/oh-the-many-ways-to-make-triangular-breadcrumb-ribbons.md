@@ -37,7 +37,7 @@ For each demo, the HTML structure will largely be the same where we have a `<nav
 ```html
 <nav class="ribbon ribbon--modifier" role="navigation" aria-label="breadcrumbs">
   <a class="ribbon__element" href="https://www.silvestar.codes/">Home</a>
-  <a class="ribbon__element" href="https://www.silvestar.codes/categories/articles/">Blog</a>
+  <a class="ribbon__element" href="https://www.silvestar.codes/articles/">Blog</a>
   <a class="ribbon__element" href="https://www.silvestar.codes/articles/building-an-animated-sticky-header-with-custom-offset/" aria-current="page">Post</a>
 </nav>
 ```
