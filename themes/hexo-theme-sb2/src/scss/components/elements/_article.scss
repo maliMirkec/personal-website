@@ -113,6 +113,13 @@ code {
   word-break: break-word;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: $color-gamma;
+  margin-top: ms(1);
+}
+
 .article__title--alpha {
   font-size: ms(1);
   text-shadow: 0 1px 0 $color-omega;
