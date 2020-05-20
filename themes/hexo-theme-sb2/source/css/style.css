@@ -1122,6 +1122,12 @@ code {
   box-shadow: 0 0 0 1px var(--color-delta);
   word-break: break-word; }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--color-gamma);
+  margin-top: 1.333rem; }
+
 .article__title--alpha {
   font-size: 1.333rem;
   text-shadow: 0 1px 0 var(--color-omega); }

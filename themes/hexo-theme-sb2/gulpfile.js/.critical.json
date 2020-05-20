@@ -55,7 +55,7 @@
     "src": "style.css",
     "settings": {
       "out": "style4.critical.css",
-      "url": "http://localhost:4001/articles/?cache=1",
+      "url": "http://localhost:4001/categories/articles/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
