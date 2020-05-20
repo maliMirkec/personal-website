@@ -11,7 +11,7 @@ credit:
   text: Benoit Gauzere on Unsplash
   link: https://unsplash.com/photos/6CcoF7h9h-k
 comments: true
-description:
+description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
 cta1:
   span: "Wanna improve your UI coding skills?"
   btn1: "Join the Program"
