@@ -81,8 +81,16 @@ If you need more inspiration, read these tips I gathered during my career:
 
 Happy coding!
 
+---
+
+This post is part of **The UI Development Mentoring Program** series:
+
+- A Story of Becoming a Web Developer
+- [Tips About Learning Web Development]
+
 [Toptal]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
 [The UI Development Mentoring Program]: https://mentor.silvestar.codes
 [apply to become a mentee]: https://mentor.silvestar.codes/apply/
 [find useful resources]: https://mentor.silvestar.codes/resources/
 [tips]: https://mentor.silvestar.codes/tips/
+[Tips About Learning Web Development]: /articles/tips-on-learning-web-development/
