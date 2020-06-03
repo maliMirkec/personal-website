@@ -7,7 +7,7 @@ tags:
 categories:
   - Blog
 comments: true
-thumbnail: My_second_year_of_freelancing-2x_acm7w9.jpg
+thumbnail: My_Second_Year_Of_Freelancing-2x_nm36hp.jpg
 credit:
   text: Chris Liverani on Unsplash
   link: https://unsplash.com/photos/9cd8qOgeNIY
