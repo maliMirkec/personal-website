@@ -8,7 +8,7 @@ categories:
   - Blog
 comments: true
 thumbnail: My_Third_Year_Of_Freelancing-2x_t4bpff.jpg
-description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
+description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
 ---
 
 It is time for another yearly overview of my freelancing career: the third year.
