@@ -4,7 +4,7 @@ comments: false
 cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q3-Q4"
+  btn2: "Open 2020 Q4"
 description: Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
 thumbnail: im_xnyy09.png
 logo: im_s8hadt.png

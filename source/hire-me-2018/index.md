@@ -4,7 +4,7 @@ comments: false
 cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q3-Q4"
+  btn2: "Open 2020 Q4"
 date: 2017-08-02 11:37:55
 description: If you want me on your team, you should send me an email at me@silvestar.codes. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
 sidebar: true

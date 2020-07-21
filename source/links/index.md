@@ -3,7 +3,7 @@ title: Links
 cta2:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q3-Q4"
+  btn2: "Open 2020 Q4"
 comments: false
 date: 2018-10-22 13:38:37
 description: Here you could find links to all my profiles and projects.

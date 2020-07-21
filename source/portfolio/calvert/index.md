@@ -4,7 +4,7 @@ comments: false
 cta1:
   span: "Got questions? Or projects? I would like to learn more. Contact me today!"
   btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q3-Q4"
+  btn2: "Open 2020 Q4"
 description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
 thumbnail: ev-c_vgm0ws.png
 logo: bm_qlnuvi.png
