@@ -12,6 +12,11 @@ description: "It has been a year since I launched my side project: Code Line Dai
 project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
+cta1:
+  span: "Explore a new line of code every day."
+  btn1: "Go to site ⇢"
+  btn2: "cld.silvestar.codes"
+  link: https://cld.silvestar.codes
 ---
 
 It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way.
