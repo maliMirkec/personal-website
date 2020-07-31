@@ -1,13 +1,11 @@
-@import "elements/general";
-@import "elements/header";
-@import "elements/footer";
-@import "elements/sidebar";
-@import "elements/list";
-@import "elements/article";
-@import "elements/cta";
-@import "elements/highlight";
-@import "elements/form";
-@import "elements/autograph";
-// @import "elements/cookies";
-@import "elements/redesign";
-@import "elements/cld";
+@import 'definitions/helpers';
+@import 'definitions/colors';
+@import 'definitions/fonts';
+@import 'definitions/spacing';
+@import 'definitions/animations';
+@import 'definitions/breakpoints';
+@import 'definitions/display';
+@import 'definitions/list';
+@import 'definitions/anchors';
+@import 'elements/header';
+

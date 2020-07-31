@@ -1,3 +1,6 @@
 {
-  "proxy": "http://localhost:4001"
+  "port": 8989,
+  "server": {
+    "baseDir": "helpers.dist"
+  }
 }

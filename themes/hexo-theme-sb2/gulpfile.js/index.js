@@ -36,8 +36,6 @@ if (!global.config.sync.run) {
 }
 
 exports.clean = clean.cleanStart;
-exports.html = html.htmlStart;
-exports.favicon = favicon.faviconStart;
 
 exports.dev = series(
   clean.cleanStart,

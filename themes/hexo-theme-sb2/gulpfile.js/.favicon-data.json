@@ -15,7 +15,7 @@
         "precomposedIcons": true,
         "declareOnlyDefaultIcon": true
       },
-      "appName": "SB site - Silvestar Bistrović website"
+      "appName": "Home of Silvestar Bistrović"
     },
     "desktopBrowser": {},
     "windows": {
@@ -31,13 +31,13 @@
           "rectangle": true
         }
       },
-      "appName": "SB site - Silvestar Bistrović website"
+      "appName": "Home of Silvestar Bistrović"
     },
     "androidChrome": {
       "pictureAspect": "noChange",
       "themeColor": "#12e09f",
       "manifest": {
-        "name": "SB site - Silvestar Bistrović website",
+        "name": "Home of Silvestar Bistrović",
         "orientation": "notSet",
         "onConflict": "override",
         "declared": true,

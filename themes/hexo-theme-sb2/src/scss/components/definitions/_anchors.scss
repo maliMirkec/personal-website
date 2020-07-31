@@ -1,0 +1,36 @@
+// Anchors
+//
+// Markup: _anchors.html
+//
+// Weight: 500
+//
+// Styleguide Anchors
+
+a {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px dotted;
+    transform: translateX(-110%);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    &:first-letter {
+      text-shadow: 0 0 1px currentColor;
+    }
+
+    &:after {
+      transition: transform v(duration);
+      transform: translateX(66.66%);
+    }
+  }
+}

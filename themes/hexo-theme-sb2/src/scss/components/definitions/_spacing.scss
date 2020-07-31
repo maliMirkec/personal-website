@@ -1,0 +1,75 @@
+// Spacing
+//
+// Markup: _spacing.html
+//
+// Weight: 900
+//
+// Styleguide Spacing
+
+:root {
+  --space: .25rem;
+}
+
+@for $i from 1 through 6 {
+  $space: calc(#{-1 + $i*$i} * var(--space) + var(--space));
+
+  .inside-#{$i} {
+    padding: $space;
+  }
+
+  .inside-x-#{$i} {
+    padding-right: $space;
+    padding-left: $space;
+  }
+
+  .inside-y-#{$i} {
+    padding-top: $space;
+    padding-bottom: $space;
+  }
+
+  .inside-r-#{$i} {
+    padding-right: $space;
+  }
+
+  .inside-l-#{$i} {
+    padding-left: $space;
+  }
+
+  .inside-t-#{$i} {
+    padding-top: $space;
+  }
+
+  .inside-b-#{$i} {
+    padding-bottom: $space;
+  }
+
+  .outside-#{$i} {
+    margin: $space;
+  }
+
+  .outside-x-#{$i} {
+    margin-right: $space;
+    margin-left: $space;
+  }
+
+  .outside-y-#{$i} {
+    margin-top: $space;
+    margin-bottom: $space;
+  }
+
+  .outside-r-#{$i} {
+    margin-right: $space;
+  }
+
+  .outside-l-#{$i} {
+    margin-left: $space;
+  }
+
+  .outside-t-#{$i} {
+    margin-top: $space;
+  }
+
+  .outside-b-#{$i} {
+    margin-bottom: $space;
+  }
+}

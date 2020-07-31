@@ -1,0 +1,19 @@
+// Breakpoints
+//
+// Markup: _breakpoints.html
+//
+// Weight: 500
+//
+// Styleguide Breakpoints
+
+:root {
+  --bp1: 500px;
+  --bp2: 1000px;
+  --bp3: 1500px;
+}
+
+$mq-breakpoints: (
+  bp1: 500px,
+  bp2: 1000px,
+  bp3: 1500px
+);

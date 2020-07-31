@@ -56,13 +56,13 @@ if (page && page.title)
       each tag in page.tags
         li.poster__tag= tag
 
-  if (page && page.content)
-    .content
-      div!= page.content
-      if (page && page.form && page.form == 'contact')
-        include _forms/contact
-      if (page && page.form && page.form == 'mentoring')
-        include _forms/mentoring
+  //- if (page && page.content)
+  //-   .content
+  //-     div!= page.content
+  //-     if (page && page.form && page.form == 'contact')
+  //-       include _forms/contact
+  //-     if (page && page.form && page.form == 'mentoring')
+  //-       include _forms/mentoring
 
   if (page && page.card)
     include _redesign/profile-solo

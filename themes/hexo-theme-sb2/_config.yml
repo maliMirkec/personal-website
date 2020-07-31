@@ -8,7 +8,6 @@ site:
   language: en-US
   cldnry: starbist
 
-
 open_graph:
   pretty_url: true
   image: /gfx/jpg/social.jpg

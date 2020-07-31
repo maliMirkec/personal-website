@@ -42,7 +42,6 @@ function criticalStart(cb) {
       src(thisConfig.src)
         .pipe(critical(thisConfig.settings))
         .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
-        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
         .pipe(cleanCSS())
         .pipe(rename(cssConfig.renameConfig))
         .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))

@@ -1,24 +1,17 @@
 {
   "proot": "./",
-  "src": "/",
+  "src": "src",
   "dist": "source",
   "sync": {
     "run": true
   },
   "html": {
-    "run": true,
-    "pug": true,
-    "data": false,
-    "inline": true,
-    "src": "layout",
-    "dist": "",
-    "minify": true,
-    "lint": false
+    "run": false
   },
   "css": {
     "run": true,
     "sass": true,
-    "src": "src/scss",
+    "src": "scss",
     "dist": "css",
     "minify": true,
     "autoprefix": true,
@@ -27,7 +20,7 @@
   },
   "js": {
     "run": true,
-    "src": "src/js",
+    "src": "js",
     "dist": "js",
     "uglify": true,
     "sourcemaps": true,
@@ -35,28 +28,31 @@
   },
   "gfx": {
     "run": true,
-    "src": "src/gfx",
+    "src": "gfx",
     "dist": "gfx"
   },
   "fonts": {
     "run": true,
-    "src": "src/fonts",
+    "src": "fonts",
     "dist": "fonts"
   },
   "favicon": {
-    "run": true
+    "run": false
   },
   "critical": {
-    "run": true
+    "run": false
   },
   "kss": {
-    "run": false
+    "run": true,
+    "dist": "docs/styleguide"
   },
   "sassdoc": {
-    "run": false
+    "run": true,
+    "dist": "docs/sass"
   },
   "jsdoc": {
-    "run": false
+    "run": true,
+    "dist": "docs/js"
   },
   "bump": {
     "run": true
