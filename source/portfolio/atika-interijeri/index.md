@@ -15,7 +15,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 ---
 
 Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture. The site runs on WordPress, DigitalOcean, and Cloudflare.

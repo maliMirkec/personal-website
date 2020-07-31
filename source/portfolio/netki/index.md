@@ -16,7 +16,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 ---
 
 Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.

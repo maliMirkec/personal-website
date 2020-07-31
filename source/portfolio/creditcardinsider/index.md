@@ -18,7 +18,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 quotes:
   - person: John Ganotis
     highlighted: true

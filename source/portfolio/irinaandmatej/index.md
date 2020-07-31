@@ -17,7 +17,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 ---
 
 Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.

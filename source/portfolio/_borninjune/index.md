@@ -14,7 +14,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 ---
 
 Lara is born in June, and she is a passionate traveler, biologist, and wedding photographer. The site runs on WordPress, DigitalOcean, and Cloudflare.

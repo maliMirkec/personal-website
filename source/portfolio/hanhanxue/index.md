@@ -18,7 +18,7 @@ tags:
   - html
   - css
   - javascript
-  - pagespeed optimization
+  - page speed optimization
 quotes:
   - person: Han Han Xue
     highlighted: true
