@@ -147,16 +147,16 @@
 }
 
 @mixin bg2-alpha {
-  background-color: c(alpha-light-40);
-  background-image: linear-gradient(c(alpha-light-10), c(alpha-light-10)), linear-gradient(c(alpha-light-20), c(alpha-light-20)), linear-gradient(c(alpha-light-30), c(alpha-light-30));
+  background-color: c(alpha);
+  background-image: linear-gradient(c(alpha-dark-30), c(alpha-dark-30)), linear-gradient(c(alpha-dark-20), c(alpha-dark-20)), linear-gradient(c(alpha-dark-10), c(alpha-dark-10));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 @mixin bg2-beta {
-  background-color: c(beta-light-40);
-  background-image: linear-gradient(c(beta-light-10), c(beta-light-10)), linear-gradient(c(beta-light-20), c(beta-light-20)), linear-gradient(c(beta-light-30), c(beta-light-30));
+  background-color: c(beta);
+  background-image: linear-gradient(c(beta-dark-30), c(beta-dark-30)), linear-gradient(c(beta-dark-20), c(beta-dark-20)), linear-gradient(c(beta-dark-10), c(beta-dark-10));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
@@ -208,6 +208,10 @@
 
 .bgc2-beta-50 {
   @include bg2-beta-50;
+}
+
+.bgc2-regular {
+  background-size: calc(100% - 2.4rem) calc(100% - 2.4rem), calc(100% - 1.6rem) calc(100% - 1.6rem), calc(100% - .8rem) calc(100% - .8rem);
 }
 
 .bgc2-fat {

@@ -100,6 +100,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  @extend .tsh-light;
+  background-color: c(alpha-light-70);
+  color: c(alpha-dark-100);
+}
+
 h1,
 h2,
 h3,
@@ -175,5 +181,41 @@ code,
 }
 
 .tsh {
-  text-shadow: 0 0 1px currentColor;
+  text-shadow: 0 1px 0 currentColor;
+}
+
+.tsh-light {
+  text-shadow: 0 1px 0 c(alpha-light-100);
+}
+
+.tsh-dark {
+  text-shadow: 0 1px 0 c(alpha-dark-100);
+}
+
+.tsh-alpha-light {
+  text-shadow: 0 1px 0 c(alpha-light-80);
+}
+
+.tsh-beta-light {
+  text-shadow: 0 1px 0 c(beta-light-80);
+}
+
+.tsh-alpha-dark {
+  text-shadow: 0 1px 0 c(alpha-dark-80);
+}
+
+.tsh-beta-dark {
+  text-shadow: 0 1px 0 c(beta-dark-80);
+}
+
+.tsh-none {
+  text-shadow: none;
+}
+
+.ttuc {
+  text-transform: uppercase;
+}
+
+.lsp {
+  letter-spacing: .05em;
 }

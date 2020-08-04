@@ -10,27 +10,35 @@ a {
   display: inline-block;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: currentColor;
 
-  &:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    border-bottom: 1px dotted;
-    transform: translateX(-110%);
-  }
+  &:not(.rm) {
+    &:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      border-bottom: 1px dotted;
+      transition: transform calc(#{v(duration)} / 2);
 
-  &:hover,
-  &:focus,
-  &:active {
-    &:first-letter {
-      text-shadow: 0 0 1px currentColor;
+      @media (prefers-reduced-motion) {
+        transition: none;
+      }
     }
 
-    &:after {
-      transition: transform v(duration);
-      transform: translateX(66.66%);
+    &:hover,
+    &:focus,
+    &:active {
+      &:after {
+        transform: translateX(66.66%);
+        transition: transform v(duration);
+
+        @media (prefers-reduced-motion) {
+          transition: none;
+        }
+      }
     }
   }
 }

@@ -6,11 +6,16 @@
 //
 // Styleguide Header
 
-.header__list--alpha {
-  max-width: v(bp1);
-  margin-left: auto;
-  margin-right: auto;
+.header__list {
+  a {
+    &:after {
+      transform: translateX(-110%);
+      transition: none;
+    }
+  }
+}
 
+.header__list--alpha {
   > li {
     flex: 1 1 100%;
     width: 100%;

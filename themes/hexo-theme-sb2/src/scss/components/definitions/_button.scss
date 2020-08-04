@@ -1,0 +1,92 @@
+// Buttons
+//
+// Markup: _button.html
+//
+// :hover - Button hover.
+// :active - Button active.
+// .button--alpha-50 - Alternative button
+// .button--alpha-50:hover - Alternative button hover
+// .button--alpha-50:active - Alternative button active
+// .button--beta - Alternative button
+// .button--beta:hover - Alternative button hover
+// .button--beta:active - Alternative button active
+// .button--beta-50 - Alternative button
+// .button--beta-50:hover - Alternative button hover
+// .button--beta-50:active - Alternative button active
+//
+// Weight: 600
+//
+// Styleguide Buttons
+
+.button {
+  @extend .bgc2-alpha;
+  @extend .fz-step-0;
+  @extend .fw-black;
+  @extend .ttuc;
+  @extend .lsp;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  border: 0;
+  border-radius: 0.1em;
+  min-height: 3.6em;
+  padding: 1em 2em;
+  box-shadow: 0 .1em .4em -0.3em c(alpha-dark-100);
+  cursor: pointer;
+  transition: background-size calc(#{v(duration)} / 2);
+
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+
+  &:not([class*="-50"]) {
+    color: c(alpha-light-100);
+  }
+
+  &[class*="-50"] {
+    @extend .tsh-light;
+  }
+
+  &[href] {
+    text-decoration: none;
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    @extend .bgc2-regular;
+    transition: background-size v(duration);
+
+    @media (prefers-reduced-motion) {
+      transition: none;
+    }
+  }
+
+  &:active {
+    transform: scale(0.975);
+    transform-origin: center;
+  }
+}
+
+
+.button--alpha-50 {
+  @extend .bgc2-alpha-50;
+  color: c(alpha-dark-90);
+}
+
+.button--beta {
+  @extend .bgc2-beta;
+  @extend .tsh-none;
+}
+
+.button--beta-50 {
+  @extend .bgc2-beta-50;
+  @extend .tsh-none;
+  color: c(beta-dark-90);
+}
