@@ -5,30 +5,3 @@
 // Weight: 2010
 //
 // Styleguide Header
-
-.header__list {
-  a {
-    &:after {
-      transform: translateX(-110%);
-      transition: none;
-    }
-  }
-}
-
-.header__list--alpha {
-  > li {
-    flex: 1 1 100%;
-    width: 100%;
-  }
-}
-
-.header__list--beta {
-  > li {
-    flex: 1 1 33.33%;
-    width: 33.33%;
-  }
-
-  a {
-    white-space: nowrap;
-  }
-}

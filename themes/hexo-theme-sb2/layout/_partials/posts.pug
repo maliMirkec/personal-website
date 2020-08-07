@@ -1,0 +1,24 @@
+section(class=`lg-alpha inside-2`)
+  .wrapper.wrapper-bp2.df-col.df-center.t-center.outside-b-2
+    h2.fz-step-5.fw-black.outside-b-0=page.category
+    h3.fz-step-1.fw-bold.outside-y-3=page.desc
+  .wrapper.wrapper-bp3.grid.grid--beta.inside-b-4
+    each thisPost in page.posts.toArray()
+      div(class=`card dif-col-center lg-gamma-50 lg-fat inside-3`)
+        h4.fz-step-2.fw-black.outside-y-2.t-center
+          - var postTitle = thisPost.title
+          if (is_tag())
+            - var category
+            - thisPost.categories.each(function(cat) {
+              - category = cat.name
+            - });
+            - postTitle = `${category}: ${postTitle}`
+
+          a(href=urlFor(thisPost.permalink))=postTitle
+        time.fz-step--1.fw-bold.ttuc.ffm.outside-t-0.outside-b-3.inside-x-1= thisPost.date.format(config.date_format)
+        if (thisPost.tags && thisPost.tags.length && thisPost.tags.each)
+          .df-center.inside-y-1.outside-t-a
+            - thisPost.tags.each(function(tag) {
+              a(class=`button button--alpha button--sm outside-1` href=urlFor(tag.path))=tag.name
+            - });
+        a.fw-bold.outside-y-2(href=urlFor(thisPost.permalink)) Read more ⇢

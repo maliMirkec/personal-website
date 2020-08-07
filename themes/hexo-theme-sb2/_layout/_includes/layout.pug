@@ -1,0 +1,53 @@
+include ../_mixins/global
+
+doctype html
+
+if (theme && theme.site && theme.site.language)
+  - var lang = theme.site.language
+else if (config && config.language)
+  - var lang = config.language
+else
+  - var lang = "en"
+
+html(lang=lang)
+  include ../_partials/head
+  if (isHome())
+    - var body_class = "body body--home"
+  else if (isPost())
+    - var body_class = "body body--post"
+  else
+    - var body_class = "body"
+  body(class=body_class)
+    script.
+      function getCookieValue(a) {
+        var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+        return b ? b.pop() : '';
+      }
+
+      if(getCookieValue('sb-color-mode') === 'dark') {
+        document.body.classList.add('body--dark');
+      }
+    include ../_partials/header
+
+    button(onclick="document.body.classList.toggle('body--dark')").toggle Switch color mode
+
+    if (isHome())
+      - var main_class = " main--home"
+    else if (isPost())
+      - var main_class = " main--post"
+    else if (isCategory())
+      - var main_class = " main--category"
+    else if (isArchive())
+      - var main_class = " main--archive"
+    else if (isTag())
+      - var main_class = " main--tag"
+    else
+      - var main_class = " main--page"
+
+    - var main_sidebar = (page && (page.sidebar || page.portfolio || page.side)) ? " main--sidebar" : "";
+
+    main(class="main" + main_class + main_sidebar, id="main")
+      block content
+    if (theme && theme.widgets && theme.widgets.cookies)
+      include ../_partials/_widgets/cookies
+    include ../_partials/footer

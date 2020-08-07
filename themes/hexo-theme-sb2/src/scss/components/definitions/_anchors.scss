@@ -2,43 +2,39 @@
 //
 // Markup: _anchors.html
 //
+// :hover - Button hover.
+//
 // Weight: 500
 //
 // Styleguide Anchors
 
 a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   position: relative;
-  overflow: hidden;
-  text-decoration: none;
   color: currentColor;
+  text-decoration: none;
 
   &:not(.rm) {
-    &:after {
-      content: "";
-      position: absolute;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      border-bottom: 1px dotted;
-      transition: transform calc(#{v(duration)} / 2);
-
-      @media (prefers-reduced-motion) {
-        transition: none;
-      }
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
     }
+  }
+
+  .copy &,
+  &.a {
+    @extend .inside-x-1;
+    @extend .brad;
+    @extend .bsh--alpha;
+    background-color: v(transparent-light);
 
     &:hover,
     &:focus,
     &:active {
-      &:after {
-        transform: translateX(66.66%);
-        transition: transform v(duration);
-
-        @media (prefers-reduced-motion) {
-          transition: none;
-        }
-      }
+      @extend .bsh--beta;
+      text-decoration: none;
     }
   }
 }

@@ -1,0 +1,7 @@
+if (page.hero)
+  .section.lg-delta-50.lg-fat.inside-4
+    .div.wrapper.wrapper-bp2.df-col.df-center.t-center
+      h1.fz-step-5.fw-black.outside-b-0=page.hero.title
+      h2.fz-step-1.fw-bold.outside-y-3=page.hero.desc
+      if (page.hero.cta)
+        a.button.button--beta.outside-t-2(href=page.hero.cta.href)=page.hero.cta.title

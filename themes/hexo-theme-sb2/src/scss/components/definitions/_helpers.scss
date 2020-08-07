@@ -2,20 +2,16 @@
   @return var(--#{$var});
 }
 
-.logo {
-  header &,
-  footer & {
-    display: block;
-
-    img {
-      max-height: 50px;
-    }
-  }
+:root {
+  --transparent-light: rgba(255,255,255,.33);
+  --transparent-dark: rgba(0,0,0,.25);
+  --transparent-darker: rgba(0,0,0,.5);
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   margin: 0;
 }
 
@@ -28,4 +24,22 @@ img {
   .wrapper-bp#{$i} {
     max-width: v(bp#{$i});
   }
+}
+
+.brad {
+  border-radius: .1em;
+}
+
+.bsh--alpha {
+  box-shadow: 0 .05em .15em 0 v(transparent-dark);
+}
+
+.bsh--beta {
+  box-shadow: 0 .05em .3em 0 v(transparent-darker);
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: v(transparent-light);
+  @extend .bsh--alpha;
 }

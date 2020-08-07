@@ -19,15 +19,31 @@
   flex-wrap: wrap;
 }
 
+.dif {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
 .df-col {
   display: flex;
+  flex-direction: column;
+}
+
+.dif-col {
+  display: inline-flex;
   flex-direction: column;
 }
 
 .df-center {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+
+.dif-col-center {
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -37,8 +53,18 @@
     flex-wrap: wrap;
   }
 
+  .dif-bp1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
   .df-col-bp1 {
     display: flex;
+    flex-direction: column;
+  }
+
+  .dif-col-bp1 {
+    display: inline-flex;
     flex-direction: column;
   }
 
@@ -48,6 +74,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .dif-col-center-bp1 {
+    display: inline-flex;
+    flex-direction: column;
+  }
 }
 
 @include mq($until: bp2) {
@@ -56,8 +87,18 @@
     flex-wrap: wrap;
   }
 
+  .dif-bp2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
   .df-col-bp2 {
     display: flex;
+    flex-direction: column;
+  }
+
+  .dif-col-bp2 {
+    display: inline-flex;
     flex-direction: column;
   }
 
@@ -67,6 +108,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .dif-col-center-bp2 {
+    display: inline-flex;
+    flex-direction: column;
+  }
 }
 
 @include mq($until: bp3) {
@@ -75,8 +121,18 @@
     flex-wrap: wrap;
   }
 
+  .dif-bp3 {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
   .df-col-bp3 {
     display: flex;
+    flex-direction: column;
+  }
+
+  .dif-col-bp3 {
+    display: inline-flex;
     flex-direction: column;
   }
 
@@ -85,5 +141,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .dif-col-center-bp3 {
+    display: inline-flex;
+    flex-direction: column;
   }
 }

@@ -1,0 +1,71 @@
+// Grid
+//
+// Weight: 2040
+//
+// Styleguide Grid
+
+// Grid Alpha
+//
+// Markup: _grid-alpha.html
+//
+// Weight: 2041
+//
+// .grid--alpha - Alternative grid
+// .grid--beta - Alternative grid
+// .grid--gamma - Alternative grid
+//
+// Styleguide Grid.Alpha
+
+// Grid Beta
+//
+// Markup: _grid-beta.html
+//
+// Weight: 2042
+//
+// .grid--alpha - Alternative grid
+// .grid--beta - Alternative grid
+// .grid--gamma - Alternative grid
+//
+// Styleguide Grid.Beta
+
+// Grid Gamma
+//
+// Markup: _grid-gamma.html
+//
+// Weight: 2043
+//
+// .grid--alpha - Alternative grid
+// .grid--beta - Alternative grid
+// .grid--gamma - Alternative grid
+//
+// Styleguide Grid.Gamma
+
+// Grid Delta
+//
+// Markup: _grid-delta.html
+//
+// Weight: 2044
+//
+// .grid--alpha - Alternative grid
+// .grid--beta - Alternative grid
+// .grid--gamma - Alternative grid
+//
+// Styleguide Grid.Delta
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: calc(#{v(space)} * 5);
+}
+
+.grid--alpha {
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.grid--beta {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.grid--gamma {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

@@ -50,6 +50,8 @@
 // --beta-dark-90: #1a050a
 // --beta-dark-100: #000000;
 //
+// Weight: 101
+//
 // Styleguide Colors.Brand
 
 /// Slightly lighten a color
@@ -117,180 +119,189 @@
   --beta-dark-100: #000000;
 }
 
-@function c($name) {
-  @return var(--#{$name});
-}
-
 // Background Colors
 //
 // Markup: _colors.html
 //
+// Weight: 102
+//
 // Styleguide Colors.Background
-@mixin bg-alpha {
-  background-color: c(alpha);
-  background-image: linear-gradient(100deg, c(alpha) 20%, c(alpha-light-10) 0%, c(alpha-light-10) 40%, c(alpha-light-20) 0%, c(alpha-light-20) 60%, c(alpha-light-30) 0%, c(alpha-light-30) 80%, c(alpha-light-40) 0%, c(alpha-light-40) 100%);
+@mixin lg-alpha {
+  background-color: v(alpha-dark-20);
+  background-image: linear-gradient(99deg, v(alpha-dark-40) 20%, v(alpha-dark-30) 0%, v(alpha-dark-30) 40%, v(alpha-dark-20) 0%, v(alpha-dark-20) 60%, v(alpha-dark-10) 0%, v(alpha-dark-10) 80%, v(alpha) 0%, v(alpha) 100%);
+  background-size: 100%;
 }
 
-@mixin bg-beta {
-  background-color: c(beta);
-  background-image: linear-gradient(100deg, c(beta) 20%, c(beta-light-10) 0%, c(beta-light-10) 40%, c(beta-light-20) 0%, c(beta-light-20) 60%, c(beta-light-30) 0%, c(beta-light-30) 80%, c(beta-light-40) 0%, c(beta-light-40) 100%);
+@mixin lg-beta {
+  background-color: v(beta);
+  background-image: linear-gradient(99deg, v(beta-dark-20) 20%, v(beta-dark-10) 0%, v(beta-dark-10) 40%, v(beta) 0%, v(beta) 60%, v(beta-light-10) 0%, v(beta-light-10) 80%, v(beta-light-20) 0%, v(beta-light-20) 100%);
+  background-size: 100%;
 }
 
-@mixin bg-alpha-50 {
-  background-color: c(alpha);
-  background-image: linear-gradient(100deg, c(alpha-light-50) 20%, c(alpha-light-60) 0%, c(alpha-light-60) 40%, c(alpha-light-70) 0%, c(alpha-light-70) 60%, c(alpha-light-80) 0%, c(alpha-light-80) 80%, c(alpha-light-90) 0%, c(alpha-light-90) 100%);
+@mixin lg-alpha-50 {
+  background-color: v(alpha);
+  background-image: linear-gradient(99deg, v(alpha-light-50) 20%, v(alpha-light-60) 0%, v(alpha-light-60) 40%, v(alpha-light-70) 0%, v(alpha-light-70) 60%, v(alpha-light-80) 0%, v(alpha-light-80) 80%, v(alpha-light-90) 0%, v(alpha-light-100) 100%);
+  background-size: 100%;
 }
 
-@mixin bg-beta-50 {
-  background-color: c(beta);
-  background-image: linear-gradient(100deg, c(beta-light-50) 20%, c(beta-light-60) 0%, c(beta-light-60) 40%, c(beta-light-70) 0%, c(beta-light-70) 60%, c(beta-light-80) 0%, c(beta-light-80) 80%, c(beta-light-90) 0%, c(beta-light-90) 100%);
+@mixin lg-beta-50 {
+  background-color: v(beta);
+  background-image: linear-gradient(99deg, v(beta-light-50) 20%, v(beta-light-60) 0%, v(beta-light-60) 40%, v(beta-light-70) 0%, v(beta-light-70) 60%, v(beta-light-80) 0%, v(beta-light-80) 80%, v(beta-light-90) 0%, v(beta-light-100) 100%);
+  background-size: 100%;
 }
 
-@mixin bg2-alpha {
-  background-color: c(alpha);
-  background-image: linear-gradient(c(alpha-dark-30), c(alpha-dark-30)), linear-gradient(c(alpha-dark-20), c(alpha-dark-20)), linear-gradient(c(alpha-dark-10), c(alpha-dark-10));
+@mixin lg-gamma {
+  background-color: v(alpha);
+  background-image: linear-gradient(v(alpha-dark-30), v(alpha-dark-30)), linear-gradient(v(alpha-dark-20), v(alpha-dark-20)), linear-gradient(v(alpha-dark-10), v(alpha-dark-10));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@mixin bg2-beta {
-  background-color: c(beta);
-  background-image: linear-gradient(c(beta-dark-30), c(beta-dark-30)), linear-gradient(c(beta-dark-20), c(beta-dark-20)), linear-gradient(c(beta-dark-10), c(beta-dark-10));
+@mixin lg-delta {
+  background-color: v(beta);
+  background-image: linear-gradient(v(beta-dark-30), v(beta-dark-30)), linear-gradient(v(beta-dark-20), v(beta-dark-20)), linear-gradient(v(beta-dark-10), v(beta-dark-10));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@mixin bg2-alpha-50 {
-  background-color: c(alpha-light-90);
-  background-image: linear-gradient(c(alpha-light-60), c(alpha-light-60)), linear-gradient(c(alpha-light-70), c(alpha-light-70)), linear-gradient(c(alpha-light-80), c(alpha-light-80));
+@mixin lg-gamma-50 {
+  background-color: v(alpha-light-90);
+  background-image: linear-gradient(v(alpha-light-60), v(alpha-light-60)), linear-gradient(v(alpha-light-70), v(alpha-light-70)), linear-gradient(v(alpha-light-80), v(alpha-light-80));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@mixin bg2-beta-50 {
-  background-color: c(beta-light-90);
-  background-image: linear-gradient(c(beta-light-60), c(beta-light-60)), linear-gradient(c(beta-light-70), c(beta-light-70)), linear-gradient(c(beta-light-80), c(beta-light-80));
+@mixin lg-delta-50 {
+  background-color: v(beta-light-90);
+  background-image: linear-gradient(v(beta-light-60), v(beta-light-60)), linear-gradient(v(beta-light-70), v(beta-light-70)), linear-gradient(v(beta-light-80), v(beta-light-80));
   background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.bgc-alpha {
-  @include bg-alpha;
+@mixin lg-gamma-invert {
+  background-color: v(alpha-dark-30);
+  background-image: linear-gradient(v(alpha), v(alpha)), linear-gradient(v(alpha-dark-10), v(alpha-dark-10)), linear-gradient(v(alpha-dark-20), v(alpha-dark-20));
+  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.bgc-beta {
-  @include bg-beta;
+@mixin lg-delta-invert {
+  background-color: v(beta-dark-30);
+  background-image: linear-gradient(v(beta), v(beta)), linear-gradient(v(beta-dark-10), v(beta-dark-10)), linear-gradient(v(beta-dark-20), v(beta-dark-20));
+  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.bgc-alpha-50 {
-  @include bg-alpha-50;
+@mixin lg-gamma-invert-50 {
+  background-color: v(alpha-light-50);
+  background-image: linear-gradient(v(alpha-light-80), v(alpha-light-80)), linear-gradient(v(alpha-light-70), v(alpha-light-70)), linear-gradient(v(alpha-light-60), v(alpha-light-60));
+  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.bgc-beta-50 {
-  @include bg-beta-50;
+@mixin lg-delta-invert-50 {
+  background-color: v(beta-light-50);
+  background-image: linear-gradient(v(beta-light-80), v(beta-light-80)), linear-gradient(v(beta-light-70), v(beta-light-70)), linear-gradient(v(beta-light-60), v(beta-light-60));
+  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.bgc2-alpha {
-  @include bg2-alpha;
+.lg-alpha {
+  @include lg-alpha;
+  @extend .tsh-alpha-dark;
+  color: v(alpha-light-100);
 }
 
-.bgc2-beta {
-  @include bg2-beta;
+.lg-beta {
+  @include lg-beta;
+  @extend .tsh-beta-dark;
+  color: v(beta-light-100);
 }
 
-.bgc2-alpha-50 {
-  @include bg2-alpha-50;
+.lg-alpha-50 {
+  @include lg-alpha-50;
+  @extend .tsh-alpha-light;
+  color: v(alpha-dark-100);
 }
 
-.bgc2-beta-50 {
-  @include bg2-beta-50;
+.lg-beta-50 {
+  @include lg-beta-50;
+  @extend .tsh-beta-light;
+  color: v(beta-dark-100);
 }
 
-.bgc2-regular {
+.lg-gamma {
+  @include lg-gamma;
+  @extend .tsh-alpha-dark;
+  color: v(alpha-light-100);
+}
+
+.lg-delta {
+  @include lg-delta;
+  @extend .tsh-beta-dark;
+  color: v(beta-light-100);
+}
+
+.lg-gamma-50 {
+  @include lg-gamma-50;
+  @extend .tsh-alpha-light;
+  color: v(alpha-dark-100);
+}
+
+.lg-delta-50 {
+  @include lg-delta-50;
+  @extend .tsh-beta-light;
+  color: v(beta-dark-100);
+}
+
+.lg-gamma-invert {
+  @include lg-gamma-invert;
+  @extend .tsh-alpha-light;
+  color: v(alpha-dark-100);
+}
+
+.lg-delta-invert {
+  @include lg-delta-invert;
+  @extend .tsh-beta-dark;
+  color: v(beta-light-100);
+}
+
+.lg-gamma-invert-50 {
+  @include lg-gamma-invert-50;
+  @extend .tsh-alpha-light;
+  color: v(alpha-dark-100);
+}
+
+.lg-delta-invert-50 {
+  @include lg-delta-invert-50;
+  @extend .tsh-beta-light;
+  color: v(beta-dark-100);
+}
+
+.lg-regular {
   background-size: calc(100% - 2.4rem) calc(100% - 2.4rem), calc(100% - 1.6rem) calc(100% - 1.6rem), calc(100% - .8rem) calc(100% - .8rem);
 }
 
-.bgc2-fat {
+.lg-fat {
   background-size: calc(100% - 3rem) calc(100% - 3rem), calc(100% - 2rem) calc(100% - 2rem), calc(100% - 1rem) calc(100% - 1rem);
 }
 
-.bgc2-slim {
+.lg-slim {
   background-size: calc(100% - .75rem) calc(100% - .75rem), calc(100% - .5rem) calc(100% - .5rem), calc(100% - .25rem) calc(100% - .25rem);
 }
 
-@for $i from 1 through 10 {
-  $j: $i * 10;
-
-  .bgc-alpha-light-#{$j} {
-    background-color: var(--alpha-light-#{$j});
-  }
-
-  .bgc-alpha-dark-#{$j} {
-    background-color: var(--alpha-dark-#{$j});
-  }
-
-  .bgc-beta-light-#{$j} {
-    background-color: var(--beta-light-#{$j});
-  }
-
-  .bgc-beta-dark-#{$j} {
-    background-color: var(--beta-dark-#{$j});
-  }
-
-  .c-alpha-light-#{$j} {
-    color: var(--alpha-light-#{$j});
-  }
-
-  .c-alpha-dark-#{$j} {
-    color: var(--alpha-dark-#{$j});
-  }
-
-  .c-beta-light-#{$j} {
-    color: var(--beta-light-#{$j});
-  }
-
-  .c-beta-dark-#{$j} {
-    color: var(--beta-dark-#{$j});
-  }
+.lg-slim {
+  background-size: calc(100% - .75rem) calc(100% - .75rem), calc(100% - .5rem) calc(100% - .5rem), calc(100% - .25rem) calc(100% - .25rem);
 }
 
-// All colors
-// @for $i from 1 through 10 {
-//   $amount: $i * 10;
-
-//   .c-alpha-light-#{$amount} {
-//     color: c("alpha-light-#{$amount}");
-//   }
-
-//   .bgc-alpha-light-#{$amount} {
-//     background-color: c("alpha-light-#{$amount}");
-//   }
-
-//   .c-alpha-dark-#{$amount} {
-//     color: c("alpha-dark-#{$amount}");
-//   }
-
-//   .bgc-alpha-dark-#{$amount} {
-//     background-color: c("alpha-dark-#{$amount}");
-//   }
-
-//   .c-beta-light-#{$amount} {
-//     color: c("beta-light-#{$amount}");
-//   }
-
-//   .bgc-beta-light-#{$amount} {
-//     background-color: c("beta-light-#{$amount}");
-//   }
-
-//   .c-beta-dark-#{$amount} {
-//     color: c("beta-dark-#{$amount}");
-//   }
-
-//   .bgc-beta-dark-#{$amount} {
-//     background-color: c("beta-dark-#{$amount}");
-//   }
-// }
+.lg-normal {
+  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+}

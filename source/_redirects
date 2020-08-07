@@ -7,5 +7,7 @@
 /categories/articles /articles/ 301!
 /categories/articles/* /articles/:splat 301!
 /articles /categories/articles/ 200!
+/portfolio /categories/portfolio/ 200!
+/side-projects /categories/side-projects/ 200!
 /categories/* /categories/articles/:splat 200!
 /mentoring https://mentor.silvestar.codes/ 301!

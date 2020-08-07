@@ -38,3 +38,9 @@ mixin cldnry(imgName, imgAlt, imgPlaceholder)
 - var isPost = () => (is_post) ? is_post() : false
 
 - var getPage = (link) => link.split("/")[0]
+
+- var debug = (output) => JSON.stringify(output)
+
+- var themes = ["lg-alpha", "lg-beta", "lg-alpha-50", "lg-beta-50", "lg-gamma", "lg-delta", "lg-gamma-50", "lg-delta-50", "lg-gamma-invert", "lg-delta-invert", "lg-gamma-invert-50", "lg-delta-invert-50"]
+
+- var getTheme = (key) => themes.find(theme => theme === `lg-${key}`)

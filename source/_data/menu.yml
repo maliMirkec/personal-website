@@ -1,4 +1,57 @@
-Home: /
-Blog: /articles/
-Portfolio: /portfolio/
-About me: /about-me/
+primary:
+  - href: "/"
+    src: /gfx/svg/logo.svg
+    alt: "Logo containing Silvestar Bistrović initials in a fancy design."
+  - href: "/categories/portfolio/"
+    title: Portfolio
+    list:
+      - href: "/categories/side-projects/"
+        title: Side Projects
+      - href: "/testimonials/"
+        title: Testimonials
+  - href: "/categories/articles/"
+    title: Blog
+    list:
+      - href: "/publications/"
+        title: Publications
+      - href: "/ui-dev-newsletter/"
+        title: UI Dev Newsletter
+  - href: "/about-me/"
+    title: About
+    list:
+      - href: "mailto:me@silvestar.codes"
+        title: Contact
+      - href: "/services/"
+        title: Services
+secondary:
+  - href: "/categories/portfolio/"
+    title: Portfolio
+    list:
+      - href: "/categories/side-projects/"
+        title: Side Projects
+      - href: "/testimonials/"
+        title: Testimonials
+  - href: "/categories/articles/"
+    title: Blog
+    list:
+      - href: "/publications/"
+        title: Publications
+      - href: "/ui-dev-newsletter/"
+        title: UI Dev Newsletter
+  - href: "/about-me/"
+    title: About
+    list:
+      - href: "mailto:me@silvestar.codes"
+        title: Contact
+      - href: "/services/"
+        title: Services
+  - href: "/links/"
+    title: Links
+    list:
+      - href: "/uses/"
+        title: Setup
+      - href: "/mentoring/"
+        title: Mentoring
+  - href: "/"
+    src: /gfx/svg/logo.svg
+    alt: "Logo containing Silvestar Bistrović initials in a fancy design."

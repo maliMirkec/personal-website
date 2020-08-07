@@ -4,89 +4,125 @@
 //
 // :hover - Button hover.
 // :active - Button active.
-// .button--alpha-50 - Alternative button
-// .button--alpha-50:hover - Alternative button hover
-// .button--alpha-50:active - Alternative button active
+// .button--alpha - Alternative button
+// .button--alpha:hover - Alternative button hover
+// .button--alpha:active - Alternative button active
 // .button--beta - Alternative button
 // .button--beta:hover - Alternative button hover
 // .button--beta:active - Alternative button active
-// .button--beta-50 - Alternative button
-// .button--beta-50:hover - Alternative button hover
-// .button--beta-50:active - Alternative button active
+// .button--sm - Small button
+// .button--sm:hover - Small button hover.
+// .button--sm:active - Small button active.
+// .button--sm.button--alpha - Alternative small button
+// .button--sm.button--alpha:hover - Alternative small button hover
+// .button--sm.button--alpha:active - Alternative small button active
+// .button--sm.button--beta - Alternative small button
+// .button--sm.button--beta:hover - Alternative small button hover
+// .button--sm.button--beta:active - Alternative small button active
 //
 // Weight: 600
 //
 // Styleguide Buttons
 
 .button {
-  @extend .bgc2-alpha;
-  @extend .fz-step-0;
   @extend .fw-black;
   @extend .ttuc;
   @extend .lsp;
+  @extend .brad;
+  @extend .bsh--alpha;
+  background-color: transparent;
+  background-size: 100%;
+  color: currentColor;
   box-sizing: border-box;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   appearance: none;
-  border: 0;
-  border-radius: 0.1em;
   min-height: 3.6em;
   padding: 1em 2em;
-  box-shadow: 0 .1em .4em -0.3em c(alpha-dark-100);
-  cursor: pointer;
-  transition: background-size calc(#{v(duration)} / 2);
 
-  @media (prefers-reduced-motion) {
-    transition: none;
-  }
-
-  &:not([class*="-50"]) {
-    color: c(alpha-light-100);
-  }
-
-  &[class*="-50"] {
-    @extend .tsh-light;
+  &:not(.button--sm) {
+    @extend .fz-step-0;
   }
 
   &[href] {
     text-decoration: none;
-
-    &:after {
-      content: none;
-    }
   }
+}
 
-  &:hover,
-  &:focus,
-  &:active {
-    @extend .bgc2-regular;
-    transition: background-size v(duration);
+.button--alpha {
+  @extend .tsh-alpha-light;
+  background-color: v(alpha);
+  color: v(alpha-dark-90);
+}
+
+.button--beta {
+  @extend .tsh-beta-light;
+  background-color: v(beta-light-40);
+  color: v(beta-dark-90);
+}
+
+.button--sm {
+  @extend .lg-slim;
+  @extend .fz-step--1;
+  min-height: 2.6em;
+  padding: .5em 1em;
+}
+
+button,
+a {
+  &.button {
+    border: .1em solid currentColor;
+    transition: background-color calc(#{v(duration)} / 2);
+    cursor: pointer;
 
     @media (prefers-reduced-motion) {
       transition: none;
     }
+
+    &:hover,
+    &:focus,
+    &:active {
+      @extend .bsh--beta;
+      background-color: transparent;
+      transition: background-color v(duration);
+
+      &[href] {
+        text-decoration: none;
+      }
+
+      @media (prefers-reduced-motion) {
+        transition: none;
+      }
+    }
+
+    &:active {
+      transform: scale(0.975);
+      transform-origin: center;
+    }
   }
 
-  &:active {
-    transform: scale(0.975);
-    transform-origin: center;
+  &.button--alpha {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: v(alpha-light-30);
+    }
   }
-}
 
+  &.button--beta {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: v(beta-light-10);
+    }
+  }
 
-.button--alpha-50 {
-  @extend .bgc2-alpha-50;
-  color: c(alpha-dark-90);
-}
-
-.button--beta {
-  @extend .bgc2-beta;
-  @extend .tsh-none;
-}
-
-.button--beta-50 {
-  @extend .bgc2-beta-50;
-  @extend .tsh-none;
-  color: c(beta-dark-90);
+  &.button--sm {
+    &:hover,
+    &:focus,
+    &:active {
+      @extend .lg-normal;
+    }
+  }
 }

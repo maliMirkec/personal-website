@@ -1,27 +1,20 @@
-header.header
-  nav.nav
-    if (theme && theme.menu && theme.menu.items)
-      if (isHome())
-        - var current = " nav__list--home"
-      else if (page && page.offline)
-        - var current = " nav__list--home"
-      else if (isCategory())
-        - var current = " nav__list--blog"
-      else if (isPost())
-        - var current = " nav__list--blog"
-      else
-        - var current = " nav__list--" + getPage(page.path)
-      ul(class="nav__list" + current)
-        li.nav__item
-          a.nav__link.skip(href="#main") Skip to the main content
-        each knav, vnav in theme.menu.items
-          li.nav__item
-            a.nav__link(href=urlFor(knav))= vnav
-    else
-      ul.nav__list
-        li.nav__item
-          a.nav__link.skip(href="#main") Skip to the main content
-        li.nav__item
-          a.nav__link(href="/") Home
-        li.nav__item
-          a.nav__link(href="/archives") Archives
+header.lg-gamma-50.lg-fat.inside-2
+  nav.wrapper.wrapper-bp2
+    ul.df-center.list-reset
+      if (site.data.menu.primary)
+        each link in site.data.menu.primary
+          if link.src
+            li.df-center.outside-x-a.inside-x-2
+              a.rm.circle(href=link.href)
+                img(src=link.src alt=link.alt width="100" height="100")
+          else
+            li.outside-x-a
+              ul.df-center.list-reset
+                li
+                  ul.df-col.list-reset
+                    li.outside-x-2.fz-step-0
+                      a.fw-bold.inside-y-1(href=link.href)=link.title
+                    if (link.list)
+                      each sublink in link.list
+                        li.outside-x-2.fz-step--1
+                          a.fw-bold.inside-y-1(href=sublink.href)=sublink.title
