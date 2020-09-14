@@ -28,28 +28,28 @@
     "dev": "hexo generate --silent && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "5.1.1"
   },
   "dependencies": {
-    "hexo": "^4.2.0",
+    "hexo": "^5.1.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-caniuse": "^0.1.4",
     "hexo-cldnry": "^0.0.11",
     "hexo-codepen": "^0.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.2.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-inline-svg": "^1.1.3",
-    "hexo-migrator-wordpress": "^1.0.0",
+    "hexo-migrator-wordpress": "^2.1.2",
     "hexo-pagination": "^1.0.0",
     "hexo-render-pug": "^2.1.4",
-    "hexo-renderer-marked": "^2.0.0",
-    "hexo-server": "^1.0.0",
+    "hexo-renderer-marked": "^3.2.0",
+    "hexo-server": "^2.0.0",
     "hexo-theme-sb": "^1.0.17",
-    "workbox-build": "^5.0.0",
-    "yarn": "^1.22.0"
+    "workbox-build": "^5.1.4",
+    "yarn": "^1.22.5"
   }
 }
