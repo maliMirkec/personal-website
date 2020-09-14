@@ -57,6 +57,7 @@ const kill = (cb) => {
 // Will kill all tasks immidiately
 const killNow = (cb) => {
   src(proot())
+    .pipe(wait(helpersConfig.now))
     .pipe(exit());
 
   cb();
