@@ -133,7 +133,7 @@ I like to think that I am fair, and I give every client a chance to convince me 
 
 ## Conclusion
 
-My third year of freelancing is undoubtedly the most successful one. With my family expanded by a new member, I managed to dedicate my time to work on high-quality projects like [Westwing], [Credit Card Insider], [Huggable] and [Domino Data Lab]. All thanks to honest and open communication, quality time management and support from my family.
+My third year of freelancing is undoubtedly the most successful one. With my family expanded by a new member, I managed to dedicate my time to work on high-quality projects like [Westwing], [Credit Card Insider], [Little Bundle] and [Domino Data Lab]. All thanks to honest and open communication, quality time management and support from my family.
 
 [first]: /articles/my-first-year-of-freelancing/
 [second]: /articles/my-second-year-of-freelancing/
@@ -151,5 +151,5 @@ My third year of freelancing is undoubtedly the most successful one. With my fam
 [the Great (Frontend) Divide]: https://css-tricks.com/the-great-divide/
 [Westwing]: /portfolio/westwing/
 [Credit Card Insider]: /portfolio/creditcardinsider/
-[Huggable]: /portfolio/huggable/
+[Little Bundle]: /portfolio/littlebundle/
 [Domino Data Lab]: /portfolio/dominodatalab/

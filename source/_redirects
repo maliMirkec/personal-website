@@ -9,3 +9,4 @@
 /articles /categories/articles/ 200!
 /categories/* /categories/articles/:splat 200!
 /mentoring https://mentor.silvestar.codes/ 301!
+/huggable/ /littlebundle/ 301!
