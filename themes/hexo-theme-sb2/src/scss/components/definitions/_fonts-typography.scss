@@ -89,7 +89,7 @@
 }
 
 body {
-  color: v(alpha-dark-100);
+  color: v(black);
   font-family: var(--font-alpha);
   font-style: normal;
   font-weight: normal;
@@ -101,9 +101,8 @@ body {
 }
 
 ::selection {
-  @extend .tsh-none;
-  background-color: v(alpha-light-50);
-  color: v(alpha-dark-100);
+  background-color: v(black);
+  color: v(white);
 }
 
 h1,
@@ -180,42 +179,10 @@ code,
   text-decoration: none;
 }
 
-.tsh {
-  text-shadow: 0 1px 0 currentColor;
-}
-
-.tsh-light {
-  text-shadow: 0 1px 0 v(alpha-light-100);
-}
-
-.tsh-dark {
-  text-shadow: 0 1px 0 v(alpha-dark-100);
-}
-
-.tsh-alpha-light {
-  text-shadow: 0 1px 0 v(alpha-light-40);
-}
-
-.tsh-beta-light {
-  text-shadow: 0 1px 0 v(beta-light-40);
-}
-
-.tsh-alpha-dark {
-  text-shadow: 0 1px 0 v(alpha-dark-40);
-}
-
-.tsh-beta-dark {
-  text-shadow: 0 1px 0 v(beta-dark-40);
-}
-
-.tsh-none {
-  text-shadow: none;
-}
-
 .ttuc {
   text-transform: uppercase;
 }
 
 .lsp {
-  letter-spacing: .05em;
+  letter-spacing: .06em;
 }

@@ -7,48 +7,10 @@
 // Brand Colors
 //
 // Colors:
-// --color-alpha: #12e09f
-// --alpha-light-10: #2ae3a9
-// --alpha-light-20: #41e6b2
-// --alpha-light-30: #59e9bc
-// --alpha-light-40: #71ecc5
-// --alpha-light-50: #89f0cf
-// --alpha-light-60: #a0f3d9
-// --alpha-light-70: #b8f6e2
-// --alpha-light-80: #d0f9ec
-// --alpha-light-90: #e7fcf5
-// --alpha-light-100: #ffffff
-// --alpha-dark-10: #10ca8f
-// --alpha-dark-20: #0eb37f
-// --alpha-dark-30: #0d9d6f
-// --alpha-dark-40: #0b865f
-// --alpha-dark-50: #097050
-// --alpha-dark-60: #075a40
-// --alpha-dark-70: #054330
-// --alpha-dark-80: #042d20
-// --alpha-dark-90: #021610
-// --color-beta: #FF3366
-// --alpha-dark-100: #000000
-// --beta-light-10: #ff4775
-// --beta-light-20: #ff5c85
-// --beta-light-30: #ff7094
-// --beta-light-40: #ff85a3
-// --beta-light-50: #ff99b3
-// --beta-light-60: #ffadc2
-// --beta-light-70: #ffc2d1
-// --beta-light-80: #ffd6e0
-// --beta-light-90: #ffebf0
-// --beta-light-100: #ffffff
-// --beta-dark-10: #e62e5c
-// --beta-dark-20: #cc2952
-// --beta-dark-30: #b32447
-// --beta-dark-40: #991f3d
-// --beta-dark-50: #801a33
-// --beta-dark-60: #661429
-// --beta-dark-70: #4d0f1f
-// --beta-dark-80: #330a14
-// --beta-dark-90: #1a050a
-// --beta-dark-100: #000000;
+// $color-alpha: #12e09f - --color-alpha
+// $color-beta: #ff3366 - --color-beta
+// $color-white: #fff - --color-white
+// $color-black: #111 - --color-white
 //
 // Weight: 101
 //
@@ -74,234 +36,81 @@
   @return mix(black, $color, $percentage);
 }
 
+$color-alpha: #12e09f;
+$color-beta: #ff3366;
+$color-white: #fff;
+$color-black: #111;
+
 :root {
-  --alpha: #12e09f;
-  --alpha-light-10: #2ae3a9;
-  --alpha-light-20: #41e6b2;
-  --alpha-light-30: #59e9bc;
-  --alpha-light-40: #71ecc5;
-  --alpha-light-50: #89f0cf;
-  --alpha-light-60: #a0f3d9;
-  --alpha-light-70: #b8f6e2;
-  --alpha-light-80: #d0f9ec;
-  --alpha-light-90: #e7fcf5;
-  --alpha-light-100: #ffffff;
-  --alpha-dark-10: #10ca8f;
-  --alpha-dark-20: #0eb37f;
-  --alpha-dark-30: #0d9d6f;
-  --alpha-dark-40: #0b865f;
-  --alpha-dark-50: #097050;
-  --alpha-dark-60: #075a40;
-  --alpha-dark-70: #054330;
-  --alpha-dark-80: #042d20;
-  --alpha-dark-90: #021610;
-  --beta: #FF3366;
-  --alpha-dark-100: #000000;
-  --beta-light-10: #ff4775;
-  --beta-light-20: #ff5c85;
-  --beta-light-30: #ff7094;
-  --beta-light-40: #ff85a3;
-  --beta-light-50: #ff99b3;
-  --beta-light-60: #ffadc2;
-  --beta-light-70: #ffc2d1;
-  --beta-light-80: #ffd6e0;
-  --beta-light-90: #ffebf0;
-  --beta-light-100: #ffffff;
-  --beta-dark-10: #e62e5c;
-  --beta-dark-20: #cc2952;
-  --beta-dark-30: #b32447;
-  --beta-dark-40: #991f3d;
-  --beta-dark-50: #801a33;
-  --beta-dark-60: #661429;
-  --beta-dark-70: #4d0f1f;
-  --beta-dark-80: #330a14;
-  --beta-dark-90: #1a050a;
-  --beta-dark-100: #000000;
+  --alpha: #{$color-alpha};
+  --beta: #{$color-beta};
+  --white: #{$color-white};
+  --black: #{$color-black};
 }
 
-// Background Colors
+// Common
 //
 // Markup: _colors.html
 //
 // Weight: 102
 //
-// Styleguide Colors.Background
-@mixin lg-alpha {
-  background-color: v(alpha-dark-20);
-  background-image: linear-gradient(99deg, v(alpha-dark-40) 20%, v(alpha-dark-30) 0%, v(alpha-dark-30) 40%, v(alpha-dark-20) 0%, v(alpha-dark-20) 60%, v(alpha-dark-10) 0%, v(alpha-dark-10) 80%, v(alpha) 0%, v(alpha) 100%);
-  background-size: 100%;
+// Styleguide Colors.Common
+[class*="bg-"],
+[class*="rr-"] {
+  --bg-space-1: calc(#{v(space)} * 5);
+  --bg-space-2: calc(#{v(space)} * 10);
+  --bg-space-3: calc(#{v(space)} * 15);
 }
 
-@mixin lg-beta {
-  background-color: v(beta);
-  background-image: linear-gradient(99deg, v(beta-dark-20) 20%, v(beta-dark-10) 0%, v(beta-dark-10) 40%, v(beta) 0%, v(beta) 60%, v(beta-light-10) 0%, v(beta-light-10) 80%, v(beta-light-20) 0%, v(beta-light-20) 100%);
-  background-size: 100%;
+[class*="bg-"] {
+  --bg-alpha-1: #{lighten($color-alpha, 40%)};
+  --bg-alpha-2: #{lighten($color-alpha, 44%)};
+  --bg-alpha-3: #{lighten($color-alpha, 48%)};
+  --bg-beta-1: #{lighten($color-beta, 30%)};
+  --bg-beta-2: #{lighten($color-beta, 34%)};
+  --bg-beta-3: #{lighten($color-beta, 38%)};
 }
 
-@mixin lg-alpha-50 {
-  background-color: v(alpha);
-  background-image: linear-gradient(99deg, v(alpha-light-50) 20%, v(alpha-light-60) 0%, v(alpha-light-60) 40%, v(alpha-light-70) 0%, v(alpha-light-70) 60%, v(alpha-light-80) 0%, v(alpha-light-80) 80%, v(alpha-light-90) 0%, v(alpha-light-100) 100%);
-  background-size: 100%;
+[class*="lr-"],
+[class*="rr-"] {
+  --bg-alpha-1: #{transparentize($color-alpha, .9)};
+  --bg-alpha-2: #{transparentize($color-alpha, .8)};
+  --bg-alpha-3: #{transparentize($color-alpha, .7)};
+  --bg-beta-1: #{transparentize($color-beta, .9)};
+  --bg-beta-2: #{transparentize($color-beta, .8)};
+  --bg-beta-3: #{transparentize($color-beta, .7)};
 }
 
-@mixin lg-beta-50 {
-  background-color: v(beta);
-  background-image: linear-gradient(99deg, v(beta-light-50) 20%, v(beta-light-60) 0%, v(beta-light-60) 40%, v(beta-light-70) 0%, v(beta-light-70) 60%, v(beta-light-80) 0%, v(beta-light-80) 80%, v(beta-light-90) 0%, v(beta-light-100) 100%);
-  background-size: 100%;
+.bg-alpha {
+  background-image: radial-gradient(circle at bottom right, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), radial-gradient(circle at top left, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at top left, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at top left, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)}));
 }
 
-@mixin lg-gamma {
-  background-color: v(alpha);
-  background-image: linear-gradient(v(alpha-dark-30), v(alpha-dark-30)), linear-gradient(v(alpha-dark-20), v(alpha-dark-20)), linear-gradient(v(alpha-dark-10), v(alpha-dark-10));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.bg-beta {
+  background-image: radial-gradient(circle at bottom right, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), radial-gradient(circle at top left, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at top left, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at top left, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)}));
 }
 
-@mixin lg-delta {
-  background-color: v(beta);
-  background-image: linear-gradient(v(beta-dark-30), v(beta-dark-30)), linear-gradient(v(beta-dark-20), v(beta-dark-20)), linear-gradient(v(beta-dark-10), v(beta-dark-10));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.lr-alpha {
+  background-image: linear-gradient(100deg, v(bg-alpha-3) 20%, v(bg-alpha-2) 50%, v(bg-alpha-1) 100%);
 }
 
-@mixin lg-gamma-50 {
-  background-color: v(alpha-light-90);
-  background-image: linear-gradient(v(alpha-light-60), v(alpha-light-60)), linear-gradient(v(alpha-light-70), v(alpha-light-70)), linear-gradient(v(alpha-light-80), v(alpha-light-80));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.lr-beta {
+  background-image: linear-gradient(100deg, v(bg-beta-3) 20%, v(bg-beta-2) 50%, v(bg-beta-1) 100%);
 }
 
-@mixin lg-delta-50 {
-  background-color: v(beta-light-90);
-  background-image: linear-gradient(v(beta-light-60), v(beta-light-60)), linear-gradient(v(beta-light-70), v(beta-light-70)), linear-gradient(v(beta-light-80), v(beta-light-80));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.rr-alpha {
+  background-color: v(bg-alpha-1);
+  background-image: radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
 }
 
-@mixin lg-gamma-invert {
-  background-color: v(alpha-dark-30);
-  background-image: linear-gradient(v(alpha), v(alpha)), linear-gradient(v(alpha-dark-10), v(alpha-dark-10)), linear-gradient(v(alpha-dark-20), v(alpha-dark-20));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.rr-beta {
+  background-color: v(bg-beta-1);
+  background-image: radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
 }
 
-@mixin lg-delta-invert {
-  background-color: v(beta-dark-30);
-  background-image: linear-gradient(v(beta), v(beta)), linear-gradient(v(beta-dark-10), v(beta-dark-10)), linear-gradient(v(beta-dark-20), v(beta-dark-20));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
+.c-alpha {
+  color: darken($color-alpha, 25%);
 }
 
-@mixin lg-gamma-invert-50 {
-  background-color: v(alpha-light-50);
-  background-image: linear-gradient(v(alpha-light-80), v(alpha-light-80)), linear-gradient(v(alpha-light-70), v(alpha-light-70)), linear-gradient(v(alpha-light-60), v(alpha-light-60));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@mixin lg-delta-invert-50 {
-  background-color: v(beta-light-50);
-  background-image: linear-gradient(v(beta-light-80), v(beta-light-80)), linear-gradient(v(beta-light-70), v(beta-light-70)), linear-gradient(v(beta-light-60), v(beta-light-60));
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lg-alpha {
-  @include lg-alpha;
-  @extend .tsh-alpha-dark;
-  color: v(alpha-light-100);
-}
-
-.lg-beta {
-  @include lg-beta;
-  @extend .tsh-beta-dark;
-  color: v(beta-light-100);
-}
-
-.lg-alpha-50 {
-  @include lg-alpha-50;
-  @extend .tsh-alpha-light;
-  color: v(alpha-dark-100);
-}
-
-.lg-beta-50 {
-  @include lg-beta-50;
-  @extend .tsh-beta-light;
-  color: v(beta-dark-100);
-}
-
-.lg-gamma {
-  @include lg-gamma;
-  @extend .tsh-alpha-dark;
-  color: v(alpha-light-100);
-}
-
-.lg-delta {
-  @include lg-delta;
-  @extend .tsh-beta-dark;
-  color: v(beta-light-100);
-}
-
-.lg-gamma-50 {
-  @include lg-gamma-50;
-  @extend .tsh-alpha-light;
-  color: v(alpha-dark-100);
-}
-
-.lg-delta-50 {
-  @include lg-delta-50;
-  @extend .tsh-beta-light;
-  color: v(beta-dark-100);
-}
-
-.lg-gamma-invert {
-  @include lg-gamma-invert;
-  @extend .tsh-alpha-light;
-  color: v(alpha-dark-100);
-}
-
-.lg-delta-invert {
-  @include lg-delta-invert;
-  @extend .tsh-beta-dark;
-  color: v(beta-light-100);
-}
-
-.lg-gamma-invert-50 {
-  @include lg-gamma-invert-50;
-  @extend .tsh-alpha-light;
-  color: v(alpha-dark-100);
-}
-
-.lg-delta-invert-50 {
-  @include lg-delta-invert-50;
-  @extend .tsh-beta-light;
-  color: v(beta-dark-100);
-}
-
-.lg-regular {
-  background-size: calc(100% - 2.4rem) calc(100% - 2.4rem), calc(100% - 1.6rem) calc(100% - 1.6rem), calc(100% - .8rem) calc(100% - .8rem);
-}
-
-.lg-fat {
-  background-size: calc(100% - 3rem) calc(100% - 3rem), calc(100% - 2rem) calc(100% - 2rem), calc(100% - 1rem) calc(100% - 1rem);
-}
-
-.lg-slim {
-  background-size: calc(100% - .75rem) calc(100% - .75rem), calc(100% - .5rem) calc(100% - .5rem), calc(100% - .25rem) calc(100% - .25rem);
-}
-
-.lg-slim {
-  background-size: calc(100% - .75rem) calc(100% - .75rem), calc(100% - .5rem) calc(100% - .5rem), calc(100% - .25rem) calc(100% - .25rem);
-}
-
-.lg-normal {
-  background-size: calc(100% - 1.5rem) calc(100% - 1.5rem), calc(100% - 1rem) calc(100% - 1rem), calc(100% - .5rem) calc(100% - .5rem);
+.c-beta {
+  color: darken($color-beta, 25%);
 }

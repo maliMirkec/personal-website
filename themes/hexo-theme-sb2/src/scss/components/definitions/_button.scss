@@ -1,6 +1,12 @@
 // Buttons
 //
-// Markup: _button.html
+// Weight: 600
+//
+// Styleguide Buttons
+
+// Native Buttons
+//
+// Markup: _button-native.html
 //
 // :hover - Button hover.
 // :active - Button active.
@@ -20,12 +26,51 @@
 // .button--sm.button--beta:hover - Alternative small button hover
 // .button--sm.button--beta:active - Alternative small button active
 //
-// Weight: 600
+// Weight: 601
 //
-// Styleguide Buttons
+// Styleguide Buttons.Native
+
+// Combined Buttons
+//
+// Markup: _button-combined.html
+//
+// :hover - Button hover.
+// :active - Button active.
+// .lr-alpha - Alternative button with custom background active
+// .lr-alpha:hover - Alternative button with custom background active hover
+// .lr-alpha:active - Alternative button with custom background active active
+// .lr-beta - Alternative button with custom background active
+// .lr-beta:hover - Alternative button with custom background active hover
+// .lr-beta:active - Alternative button with custom background active active
+// .rr-alpha - Alternative button with custom background active
+// .rr-alpha:hover - Alternative button with custom background active hover
+// .rr-alpha:active - Alternative button with custom background active active
+// .rr-beta - Alternative button with custom background active
+// .rr-beta:hover - Alternative button with custom background active hover
+// .rr-beta:active - Alternative button with custom background active active
+// .button--sm.lr-alpha - Alternative button with custom background active
+// .button--sm.lr-alpha:hover - Alternative button with custom background active hover
+// .button--sm.lr-alpha:active - Alternative button with custom background active active
+// .button--sm.lr-beta - Alternative button with custom background active
+// .button--sm.lr-beta:hover - Alternative button with custom background active hover
+// .button--sm.lr-beta:active - Alternative button with custom background active active
+// .button--sm.rr-alpha - Alternative button with custom background active
+// .button--sm.rr-alpha:hover - Alternative button with custom background active hover
+// .button--sm.rr-alpha:active - Alternative button with custom background active active
+// .button--sm.rr-beta - Alternative button with custom background active
+// .button--sm.rr-beta:hover - Alternative button with custom background active hover
+// .button--sm.rr-beta:active - Alternative button with custom background active active
+//
+// Weight: 602
+//
+// Styleguide Buttons.Combined
 
 .button {
-  @extend .fw-black;
+  --button-bg-alpha: #{lighten($color-alpha, 40%)};
+  --button-bg-beta: #{lighten($color-beta, 30%)};
+  --button-color-alpha: #{darken($color-alpha, 48%)};
+  --button-color-beta: #{darken($color-beta, 58%)};
+  @extend .fw-bold;
   @extend .ttuc;
   @extend .lsp;
   @extend .brad;
@@ -38,8 +83,10 @@
   justify-content: center;
   align-items: center;
   appearance: none;
+  line-height: 1.66;
   min-height: 3.6em;
   padding: 1em 2em;
+  filter: brightness(100%);
 
   &:not(.button--sm) {
     @extend .fz-step-0;
@@ -48,22 +95,41 @@
   &[href] {
     text-decoration: none;
   }
+
+  &:hover,
+  &:focus,
+  &:active {
+    filter: brightness(108%);
+
+    &[class*="lr-alpha"] {
+      filter: brightness(140%);
+    }
+
+    &[class*="lr-beta"] {
+      filter: brightness(150%);
+    }
+
+    &[class*="rr-alpha"] {
+      filter: brightness(130%);
+    }
+
+    &[class*="rr-beta"] {
+      filter: brightness(140%);
+    }
+  }
 }
 
 .button--alpha {
-  @extend .tsh-alpha-light;
-  background-color: v(alpha);
-  color: v(alpha-dark-90);
+  background-color: v(button-bg-alpha);
+  color: v(button-color-alpha);
 }
 
 .button--beta {
-  @extend .tsh-beta-light;
-  background-color: v(beta-light-40);
-  color: v(beta-dark-90);
+  background-color: v(button-bg-beta);
+  color: v(button-color-beta);
 }
 
 .button--sm {
-  @extend .lg-slim;
   @extend .fz-step--1;
   min-height: 2.6em;
   padding: .5em 1em;
@@ -84,45 +150,15 @@ a {
     &:focus,
     &:active {
       @extend .bsh--beta;
-      background-color: transparent;
-      transition: background-color v(duration);
 
       &[href] {
         text-decoration: none;
-      }
-
-      @media (prefers-reduced-motion) {
-        transition: none;
       }
     }
 
     &:active {
       transform: scale(0.975);
       transform-origin: center;
-    }
-  }
-
-  &.button--alpha {
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: v(alpha-light-30);
-    }
-  }
-
-  &.button--beta {
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: v(beta-light-10);
-    }
-  }
-
-  &.button--sm {
-    &:hover,
-    &:focus,
-    &:active {
-      @extend .lg-normal;
     }
   }
 }

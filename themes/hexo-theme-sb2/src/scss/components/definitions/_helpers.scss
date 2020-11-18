@@ -37,9 +37,3 @@ img {
 .bsh--beta {
   box-shadow: 0 .05em .3em 0 v(transparent-darker);
 }
-
-.circle {
-  border-radius: 50%;
-  background-color: v(transparent-light);
-  @extend .bsh--alpha;
-}

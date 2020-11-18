@@ -2,5 +2,6 @@
   "port": 8989,
   "server": {
     "baseDir": "helpers.dist"
-  }
+  },
+  "startPath": "/docs/styleguide/"
 }

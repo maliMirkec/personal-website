@@ -41,12 +41,6 @@
   align-items: center;
 }
 
-.dif-col-center {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @include mq($until: bp1) {
   .df-bp1 {
     display: flex;
@@ -73,11 +67,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-
-  .dif-col-center-bp1 {
-    display: inline-flex;
-    flex-direction: column;
   }
 }
 
@@ -108,11 +97,6 @@
     justify-content: center;
     align-items: center;
   }
-
-  .dif-col-center-bp2 {
-    display: inline-flex;
-    flex-direction: column;
-  }
 }
 
 @include mq($until: bp3) {
@@ -141,10 +125,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-
-  .dif-col-center-bp3 {
-    display: inline-flex;
-    flex-direction: column;
   }
 }

@@ -9,32 +9,50 @@
 // Styleguide Anchors
 
 a {
+  --anchor-color-black: #{transparentize($color-black, .75)};
+  --anchor-color-alpha: #{transparentize($color-alpha, .5)};
+  --anchor-color-beta: #{transparentize($color-beta, .5)};
   display: inline-flex;
   align-items: center;
   position: relative;
   color: currentColor;
-  text-decoration: none;
+  text-decoration: underline;
 
-  &:not(.rm) {
-    &:hover,
-    &:focus,
-    &:active {
-      text-decoration: underline;
-    }
+  &:not(.rm, .button, .a) {
+    filter: saturate(200%) brightness(70%);
+  }
+
+  &.rm {
+    filter: drop-shadow(0 0 3px #{v(anchor-color-black)});
   }
 
   .copy &,
   &.a {
     @extend .inside-x-1;
     @extend .brad;
-    @extend .bsh--alpha;
-    background-color: v(transparent-light);
+  }
 
-    &:hover,
-    &:focus,
-    &:active {
-      @extend .bsh--beta;
-      text-decoration: none;
+  &.a--alpha,
+  &.a--beta {
+    filter: drop-shadow(0 0 3px #{v(anchor-color-black)});
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+    filter: saturate(200%) brightness(130%) drop-shadow(0 0 6px #{v(anchor-color-black)});
+
+    &.rm {
+      filter: drop-shadow(0 0 6px #{v(anchor-color-black)});
+    }
+
+    &.a--alpha {
+      filter: drop-shadow(0 0 6px #{v(anchor-color-alpha)});
+    }
+
+    &.a--beta {
+      filter: drop-shadow(0 0 6px #{v(anchor-color-beta)});
     }
   }
 }
