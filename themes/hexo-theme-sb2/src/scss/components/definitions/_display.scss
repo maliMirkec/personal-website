@@ -19,19 +19,16 @@
   flex-wrap: wrap;
 }
 
-.dif {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
-
-.df-col {
+.df-align {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.dif-col {
-  display: inline-flex;
-  flex-direction: column;
+.df-justify {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .df-center {
@@ -41,89 +38,128 @@
   align-items: center;
 }
 
+.df-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.df-col-center {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @include mq($until: bp1) {
-  .df-bp1 {
+  .df {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .dif-bp1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  .df-col-bp1 {
+  .df-align {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
-  .dif-col-bp1 {
-    display: inline-flex;
-    flex-direction: column;
+  .df-justify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .df-center-bp1 {
+  .df-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .df-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @include mq($until: bp2) {
-  .df-bp2 {
+  .df {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .dif-bp2 {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  .df-col-bp2 {
+  .df-align {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
-  .dif-col-bp2 {
-    display: inline-flex;
-    flex-direction: column;
+  .df-justify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .df-center-bp2 {
+  .df-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .df-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @include mq($until: bp3) {
-  .df-bp3 {
+  .df {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .dif-bp3 {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  .df-col-bp3 {
+  .df-align {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
-  .dif-col-bp3 {
-    display: inline-flex;
-    flex-direction: column;
+  .df-justify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .df-center-bp3 {
+  .df-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  .df-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

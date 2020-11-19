@@ -1,56 +1,14 @@
 // Grid
 //
-// Weight: 2040
+// Markup: _grid.html
+//
+// .grid--alpha - Alternative grid
+// .grid--beta - Alternative grid
+// .grid--gamma - Alternative grid
+//
+// Weight: 1000
 //
 // Styleguide Grid
-
-// Grid Alpha
-//
-// Markup: _grid-alpha.html
-//
-// Weight: 2041
-//
-// .grid--alpha - Alternative grid
-// .grid--beta - Alternative grid
-// .grid--gamma - Alternative grid
-//
-// Styleguide Grid.Alpha
-
-// Grid Beta
-//
-// Markup: _grid-beta.html
-//
-// Weight: 2042
-//
-// .grid--alpha - Alternative grid
-// .grid--beta - Alternative grid
-// .grid--gamma - Alternative grid
-//
-// Styleguide Grid.Beta
-
-// Grid Gamma
-//
-// Markup: _grid-gamma.html
-//
-// Weight: 2043
-//
-// .grid--alpha - Alternative grid
-// .grid--beta - Alternative grid
-// .grid--gamma - Alternative grid
-//
-// Styleguide Grid.Gamma
-
-// Grid Delta
-//
-// Markup: _grid-delta.html
-//
-// Weight: 2044
-//
-// .grid--alpha - Alternative grid
-// .grid--beta - Alternative grid
-// .grid--gamma - Alternative grid
-//
-// Styleguide Grid.Delta
 
 .grid {
   --cols: repeat(auto-fit, minmax(480px, 1fr));

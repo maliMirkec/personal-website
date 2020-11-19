@@ -1,11 +1,17 @@
+@function strip-unit($value) {
+  @return #{$value / ($value * 0 + 1)};
+}
+
 @function v($var) {
   @return var(--#{$var});
 }
 
 :root {
   --transparent-light: rgba(255,255,255,.33);
-  --transparent-dark: rgba(0,0,0,.25);
-  --transparent-darker: rgba(0,0,0,.5);
+  --transparent-dark: #{transparentize($color-black, .75)};
+  --transparent-darker: #{transparentize($color-black, .5)};
+  --transparent-alpha: #{transparentize($color-alpha, .75)};
+  --transparent-beta: #{transparentize($color-beta, .75)};
 }
 
 img {
@@ -31,9 +37,17 @@ img {
 }
 
 .bsh--alpha {
-  box-shadow: 0 .05em .15em 0 v(transparent-dark);
+  box-shadow: 0 0 0 .1em v(transparent-dark);
+}
+
+.bsh--alpha2 {
+  box-shadow: 0 0 0 .2em v(transparent-alpha);
 }
 
 .bsh--beta {
-  box-shadow: 0 .05em .3em 0 v(transparent-darker);
+  box-shadow: 0 0 0 .1em v(transparent-darker);
+}
+
+.bsh--beta2 {
+  box-shadow: 0 0 0 .2em v(transparent-beta);
 }

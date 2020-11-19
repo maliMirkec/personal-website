@@ -4,7 +4,7 @@
 //
 // :hover - Button hover.
 //
-// Weight: 500
+// Weight: 800
 //
 // Styleguide Anchors
 
@@ -23,7 +23,7 @@ a {
   }
 
   &.rm {
-    filter: drop-shadow(0 0 3px #{v(anchor-color-black)});
+    filter: drop-shadow(0 0 .2rem #{v(anchor-color-black)});
   }
 
   .copy &,
@@ -34,25 +34,25 @@ a {
 
   &.a--alpha,
   &.a--beta {
-    filter: drop-shadow(0 0 3px #{v(anchor-color-black)});
+    filter: drop-shadow(0 0 .2rem #{v(anchor-color-black)});
   }
 
   &:hover,
   &:focus,
   &:active {
     text-decoration: underline;
-    filter: saturate(200%) brightness(130%) drop-shadow(0 0 6px #{v(anchor-color-black)});
+    filter: saturate(200%) brightness(130%) drop-shadow(0 0 .4rem #{v(anchor-color-black)});
 
     &.rm {
-      filter: drop-shadow(0 0 6px #{v(anchor-color-black)});
+      filter: drop-shadow(0 0 .4rem #{v(anchor-color-black)});
     }
 
     &.a--alpha {
-      filter: drop-shadow(0 0 6px #{v(anchor-color-alpha)});
+      filter: drop-shadow(0 0 .4rem #{v(anchor-color-alpha)});
     }
 
     &.a--beta {
-      filter: drop-shadow(0 0 6px #{v(anchor-color-beta)});
+      filter: drop-shadow(0 0 .4rem #{v(anchor-color-beta)});
     }
   }
 }
