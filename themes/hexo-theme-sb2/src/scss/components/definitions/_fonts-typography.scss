@@ -9,6 +9,7 @@
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 
 :root {
+  --selection: #{transparentize($color-alpha, .75)};
   --font-alpha: 'Playfair Display';
   --font-beta: 'Courier New', Courier, monospace;
 
@@ -96,13 +97,12 @@ body {
   font-size: #{v(step-0)};
   line-height: 1.44;
   letter-spacing: 0.01em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
-  background-color: v(black);
-  color: v(white);
+  background-color: v(selection);
 }
 
 h1,

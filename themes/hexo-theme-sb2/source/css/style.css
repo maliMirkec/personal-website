@@ -363,28 +363,22 @@ img {
   --white: #fff;
   --black: #111; }
 
+[class*="bgi-"],
 [class*="bg-"],
 [class*="rg-"] {
   --bg-space-1: calc(var(--space) * 5);
   --bg-space-2: calc(var(--space) * 10);
   --bg-space-3: calc(var(--space) * 15); }
 
-[class*="bg-"] {
+[class*="bg-"],
+[class*="lg-"],
+[class*="rg-"] {
   --bg-alpha-1: #c4fae9;
   --bg-alpha-2: #d7fcf0;
   --bg-alpha-3: #eafdf7;
   --bg-beta-1: #ffccd9;
   --bg-beta-2: #ffe0e8;
   --bg-beta-3: #fff5f7; }
-
-[class*="lg-"],
-[class*="rg-"] {
-  --bg-alpha-1: rgba(18, 224, 159, 0.1);
-  --bg-alpha-2: rgba(18, 224, 159, 0.2);
-  --bg-alpha-3: rgba(18, 224, 159, 0.3);
-  --bg-beta-1: rgba(255, 51, 102, 0.1);
-  --bg-beta-2: rgba(255, 51, 102, 0.2);
-  --bg-beta-3: rgba(255, 51, 102, 0.3); }
 
 .bg-alpha {
   background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
@@ -423,50 +417,97 @@ img {
   background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
 
 .lg-alpha {
-  background-image: -o-linear-gradient(350deg, var(--bg-alpha-3) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-1) 100%);
-  background-image: linear-gradient(100deg, var(--bg-alpha-3) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-1) 100%); }
+  background-image: -o-linear-gradient(350deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
 
 .lg-beta {
-  background-image: -o-linear-gradient(350deg, var(--bg-beta-3) 20%, var(--bg-beta-2) 50%, var(--bg-beta-1) 100%);
-  background-image: linear-gradient(100deg, var(--bg-beta-3) 20%, var(--bg-beta-2) 50%, var(--bg-beta-1) 100%); }
+  background-image: -o-linear-gradient(350deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
 
 .lg-alpha2 {
-  background-image: -o-linear-gradient(190deg, var(--bg-alpha-3) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-1) 100%);
-  background-image: linear-gradient(-100deg, var(--bg-alpha-3) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-1) 100%); }
+  background-image: -o-linear-gradient(190deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
 
 .lg-beta2 {
-  background-image: -o-linear-gradient(190deg, var(--bg-beta-3) 20%, var(--bg-beta-2) 50%, var(--bg-beta-1) 100%);
-  background-image: linear-gradient(-100deg, var(--bg-beta-3) 20%, var(--bg-beta-2) 50%, var(--bg-beta-1) 100%); }
+  background-image: -o-linear-gradient(190deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
 
-.rg-alpha {
-  background-color: var(--bg-alpha-1);
-  background-image: -o-radial-gradient(center left, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center left, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center left, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center left, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center left, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center left, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+[class*="bgi-"] {
+  --bgi-color-black: rgba(17, 17, 17, 0.25);
+  position: relative; }
+  [class*="bgi-"]:before {
+    content: '';
+    background-repeat: no-repeat;
+    background-position: bottom var(--bg-space-2) right var(--bg-space-2);
+    background-size: 10vmin;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; }
 
-.rg-beta {
-  background-color: var(--bg-beta-1);
-  background-image: -o-radial-gradient(center left, circle, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center left, circle, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center left, circle, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center left, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center left, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center left, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+.bgi--tr:before {
+  background-position: top var(--bg-space-2) right var(--bg-space-2); }
 
-.rg-alpha2 {
-  background-color: var(--bg-alpha-1);
-  background-image: -o-radial-gradient(center right, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center right, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center right, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center right, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center right, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center right, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+.bgi--tl:before {
+  background-position: top var(--bg-space-2) left var(--bg-space-2); }
 
-.rg-beta2 {
-  background-color: var(--bg-beta-1);
-  background-image: -o-radial-gradient(center right, circle, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center right, circle, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center right, circle, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center right, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center right, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center right, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+.bgi--r:before {
+  background-position: center right var(--bg-space-2); }
 
-.rg-alpha3 {
-  background-color: var(--bg-alpha-1);
-  background-image: -o-radial-gradient(center, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center, circle, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center, var(--bg-alpha-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center, var(--bg-alpha-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center, var(--bg-alpha-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+.bgi--l:before {
+  background-position: center left var(--bg-space-2); }
 
-.rg-beta3 {
-  background-color: var(--bg-beta-1);
-  background-image: -o-radial-gradient(center, circle, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), -o-radial-gradient(center, circle, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), -o-radial-gradient(center, circle, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3)));
-  background-image: radial-gradient(circle at center, var(--bg-beta-1) calc(100% - var(--bg-space-1)), transparent calc(100% - var(--bg-space-1))), radial-gradient(circle at center, var(--bg-beta-1) calc(100% - var(--bg-space-2)), transparent calc(100% - var(--bg-space-2))), radial-gradient(circle at center, var(--bg-beta-1) calc(100% - var(--bg-space-3)), transparent calc(100% - var(--bg-space-3))); }
+.bgi--c:before {
+  background-position: center left var(--bg-space-2); }
+
+.bgi--bl:before {
+  background-position: bottom var(--bg-space-2) left var(--bg-space-2); }
+
+.bgi--opacity:before {
+  opacity: 0.5; }
+
+.bgi--shadow:before {
+  -webkit-filter: drop-shadow(0 0 0.3rem var(--bgi-color-black));
+  filter: drop-shadow(0 0 0.3rem var(--bgi-color-black)); }
+
+.bgi--small:before {
+  background-size: 6vmin; }
+
+.bgi--cover:before {
+  opacity: 0.15;
+  background-size: auto 80%; }
+
+.bgi-calendar:before {
+  background-image: url(/gfx/svg/calendar.svg); }
+
+.bgi-languages:before {
+  background-image: url(/gfx/svg/languages.svg); }
+
+.bgi-rocket:before {
+  background-image: url(/gfx/svg/rocket.svg); }
+
+.bgi-pen:before {
+  background-image: url(/gfx/svg/pen.svg); }
+
+.bgi-quote:before {
+  background-image: url(/gfx/svg/quote.svg); }
+
+.bgi-calendar2:before {
+  background-image: url(/gfx/svg/calendar2.svg); }
+
+.bgi-languages2:before {
+  background-image: url(/gfx/svg/languages2.svg); }
+
+.bgi-rocket2:before {
+  background-image: url(/gfx/svg/rocket2.svg); }
+
+.bgi-pen2:before {
+  background-image: url(/gfx/svg/pen2.svg); }
+
+.bgi-quote2:before {
+  background-image: url(/gfx/svg/quote2.svg); }
 
 @font-face {
   font-family: 'Playfair Display';
@@ -512,6 +553,7 @@ img {
 
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 :root {
+  --selection: rgba(18, 224, 159, 0.25);
   --font-alpha: 'Playfair Display';
   --font-beta: 'Courier New', Courier, monospace;
   --fluid-min-width: 600;
@@ -583,17 +625,13 @@ body {
   font-weight: normal;
   font-size: var(--step-0);
   line-height: 1.44;
-  letter-spacing: 0.01em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  letter-spacing: 0.01em; }
 
 ::-moz-selection {
-  background-color: var(--black);
-  color: var(--white); }
+  background-color: var(--selection); }
 
 ::selection {
-  background-color: var(--black);
-  color: var(--white); }
+  background-color: var(--selection); }
 
 h1,
 h2,
@@ -1313,24 +1351,27 @@ a {
     -webkit-filter: saturate(200%) brightness(70%);
     filter: saturate(200%) brightness(70%); }
   a.rm {
-    -webkit-filter: drop-shadow(0 0 0.2rem var(--anchor-color-black));
-    filter: drop-shadow(0 0 0.2rem var(--anchor-color-black)); }
-  a.a--alpha, a.a--beta {
-    -webkit-filter: drop-shadow(0 0 0.2rem var(--anchor-color-black));
-    filter: drop-shadow(0 0 0.2rem var(--anchor-color-black)); }
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-black));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-black)); }
+  a.a--alpha {
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha)); }
+  a.a--beta {
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta)); }
   a:hover, a:focus, a:active {
     text-decoration: underline;
-    -webkit-filter: saturate(200%) brightness(130%) drop-shadow(0 0 0.4rem var(--anchor-color-black));
-    filter: saturate(200%) brightness(130%) drop-shadow(0 0 0.4rem var(--anchor-color-black)); }
+    -webkit-filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
+    filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
     a:hover.rm, a:focus.rm, a:active.rm {
-      -webkit-filter: drop-shadow(0 0 0.4rem var(--anchor-color-black));
-      filter: drop-shadow(0 0 0.4rem var(--anchor-color-black)); }
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
     a:hover.a--alpha, a:focus.a--alpha, a:active.a--alpha {
-      -webkit-filter: drop-shadow(0 0 0.4rem var(--anchor-color-alpha));
-      filter: drop-shadow(0 0 0.4rem var(--anchor-color-alpha)); }
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha)); }
     a:hover.a--beta, a:focus.a--beta, a:active.a--beta {
-      -webkit-filter: drop-shadow(0 0 0.4rem var(--anchor-color-beta));
-      filter: drop-shadow(0 0 0.4rem var(--anchor-color-beta)); }
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta)); }
 
 .button {
   --button-bg-alpha: #c4fae9;

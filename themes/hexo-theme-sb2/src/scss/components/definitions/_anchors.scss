@@ -2,7 +2,11 @@
 //
 // Markup: _anchors.html
 //
-// :hover - Button hover.
+// :hover - Anchor hover.
+// :focus - Anchor focus.
+// :active - Anchor active.
+// .a--alpha - Alternative anchor.
+// .a--beta - Alternative anchor.
 //
 // Weight: 800
 //
@@ -23,7 +27,7 @@ a {
   }
 
   &.rm {
-    filter: drop-shadow(0 0 .2rem #{v(anchor-color-black)});
+    filter: drop-shadow(0 0 .3rem #{v(anchor-color-black)});
   }
 
   .copy &,
@@ -32,27 +36,30 @@ a {
     @extend .brad;
   }
 
-  &.a--alpha,
+  &.a--alpha {
+    filter: drop-shadow(0 0 .3rem #{v(anchor-color-alpha)});
+  }
+
   &.a--beta {
-    filter: drop-shadow(0 0 .2rem #{v(anchor-color-black)});
+    filter: drop-shadow(0 0 .3rem #{v(anchor-color-beta)});
   }
 
   &:hover,
   &:focus,
   &:active {
     text-decoration: underline;
-    filter: saturate(200%) brightness(130%) drop-shadow(0 0 .4rem #{v(anchor-color-black)});
+    filter: saturate(200%) contrast(100%) drop-shadow(0 0 .1rem #{v(anchor-color-black)});
 
     &.rm {
-      filter: drop-shadow(0 0 .4rem #{v(anchor-color-black)});
+      filter: contrast(100%) drop-shadow(0 0 .1rem #{v(anchor-color-black)});
     }
 
     &.a--alpha {
-      filter: drop-shadow(0 0 .4rem #{v(anchor-color-alpha)});
+      filter: contrast(100%) drop-shadow(0 0 .1rem #{v(anchor-color-alpha)});
     }
 
     &.a--beta {
-      filter: drop-shadow(0 0 .4rem #{v(anchor-color-beta)});
+      filter: contrast(100%) drop-shadow(0 0 .1rem #{v(anchor-color-beta)});
     }
   }
 }

@@ -6,6 +6,7 @@
 //
 // Styleguide Backgrounds
 
+[class*="bgi-"],
 [class*="bg-"],
 [class*="rg-"] {
   --bg-space-1: calc(#{v(space)} * 5);
@@ -13,23 +14,15 @@
   --bg-space-3: calc(#{v(space)} * 15);
 }
 
-[class*="bg-"] {
+[class*="bg-"],
+[class*="lg-"],
+[class*="rg-"] {
   --bg-alpha-1: #{lighten($color-alpha, 40%)};
   --bg-alpha-2: #{lighten($color-alpha, 44%)};
   --bg-alpha-3: #{lighten($color-alpha, 48%)};
   --bg-beta-1: #{lighten($color-beta, 30%)};
   --bg-beta-2: #{lighten($color-beta, 34%)};
   --bg-beta-3: #{lighten($color-beta, 38%)};
-}
-
-[class*="lg-"],
-[class*="rg-"] {
-  --bg-alpha-1: #{transparentize($color-alpha, .9)};
-  --bg-alpha-2: #{transparentize($color-alpha, .8)};
-  --bg-alpha-3: #{transparentize($color-alpha, .7)};
-  --bg-beta-1: #{transparentize($color-beta, .9)};
-  --bg-beta-2: #{transparentize($color-beta, .8)};
-  --bg-beta-3: #{transparentize($color-beta, .7)};
 }
 
 .bg-alpha {
@@ -65,47 +58,156 @@
 }
 
 .lg-alpha {
-  background-image: linear-gradient(100deg, v(bg-alpha-3) 20%, v(bg-alpha-2) 50%, v(bg-alpha-1) 100%);
+  background-image: linear-gradient(100deg, v(bg-alpha-1) 20%, v(bg-alpha-2) 50%, v(bg-alpha-3) 100%);
 }
 
 .lg-beta {
-  background-image: linear-gradient(100deg, v(bg-beta-3) 20%, v(bg-beta-2) 50%, v(bg-beta-1) 100%);
+  background-image: linear-gradient(100deg, v(bg-beta-1) 20%, v(bg-beta-2) 50%, v(bg-beta-3) 100%);
 }
 
 .lg-alpha2 {
-  background-image: linear-gradient(-100deg, v(bg-alpha-3) 20%, v(bg-alpha-2) 50%, v(bg-alpha-1) 100%);
+  background-image: linear-gradient(-100deg, v(bg-alpha-1) 20%, v(bg-alpha-2) 50%, v(bg-alpha-3) 100%);
 }
 
 .lg-beta2 {
-  background-image: linear-gradient(-100deg, v(bg-beta-3) 20%, v(bg-beta-2) 50%, v(bg-beta-1) 100%);
+  background-image: linear-gradient(-100deg, v(bg-beta-1) 20%, v(bg-beta-2) 50%, v(bg-beta-3) 100%);
 }
 
-.rg-alpha {
-  background-color: v(bg-alpha-1);
-  background-image: radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center left, v(bg-alpha-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+[class*="bgi-"] {
+  --bgi-color-black: #{transparentize($color-black, .75)};
+  position: relative;
+
+  &:before {
+    content: '';
+    background-repeat: no-repeat;
+    background-position: bottom #{v(bg-space-2)} right #{v(bg-space-2)};
+    background-size: 10vmin;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
 }
 
-.rg-beta {
-  background-color: v(bg-beta-1);
-  background-image: radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center left, v(bg-beta-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+.bgi--tr {
+  &:before {
+    background-position: top #{v(bg-space-2)} right #{v(bg-space-2)};
+  }
 }
 
-.rg-alpha2 {
-  background-color: v(bg-alpha-1);
-  background-image: radial-gradient(circle at center right, v(bg-alpha-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center right, v(bg-alpha-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center right, v(bg-alpha-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+.bgi--tl {
+  &:before {
+    background-position: top #{v(bg-space-2)} left #{v(bg-space-2)};
+  }
 }
 
-.rg-beta2 {
-  background-color: v(bg-beta-1);
-  background-image: radial-gradient(circle at center right, v(bg-beta-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center right, v(bg-beta-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center right, v(bg-beta-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+.bgi--r {
+  &:before {
+    background-position: center right #{v(bg-space-2)};
+  }
 }
 
-.rg-alpha3 {
-  background-color: v(bg-alpha-1);
-  background-image: radial-gradient(circle at center, v(bg-alpha-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center, v(bg-alpha-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center, v(bg-alpha-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+.bgi--l {
+  &:before {
+    background-position: center left #{v(bg-space-2)};
+  }
 }
 
-.rg-beta3 {
-  background-color: v(bg-beta-1);
-  background-image: radial-gradient(circle at center, v(bg-beta-1) calc(100% - #{v(bg-space-1)}), transparent calc(100% - #{v(bg-space-1)})), radial-gradient(circle at center, v(bg-beta-1) calc(100% - #{v(bg-space-2)}), transparent calc(100% - #{v(bg-space-2)})), radial-gradient(circle at center, v(bg-beta-1) calc(100% - #{v(bg-space-3)}), transparent calc(100% - #{v(bg-space-3)}));
+.bgi--c {
+  &:before {
+    background-position: center left #{v(bg-space-2)};
+  }
+}
+
+.bgi--bl {
+  &:before {
+    background-position: bottom #{v(bg-space-2)} left #{v(bg-space-2)};
+  }
+}
+
+.bgi--opacity {
+  &:before {
+    opacity: 0.5;
+  }
+}
+
+.bgi--shadow {
+  &:before {
+    filter: drop-shadow(0 0 .3rem #{v(bgi-color-black)});
+  }
+}
+
+.bgi--small {
+  &:before {
+    background-size: 6vmin;
+  }
+}
+
+.bgi--cover {
+  &:before {
+    opacity: 0.15;
+    background-size: auto 80%;
+  }
+}
+
+.bgi-calendar {
+  &:before {
+    background-image: url(/gfx/svg/calendar.svg);
+  }
+}
+
+.bgi-languages {
+  &:before {
+    background-image: url(/gfx/svg/languages.svg);
+  }
+}
+
+.bgi-rocket {
+  &:before {
+    background-image: url(/gfx/svg/rocket.svg);
+  }
+}
+
+.bgi-pen {
+  &:before {
+    background-image: url(/gfx/svg/pen.svg);
+  }
+}
+
+.bgi-quote {
+  &:before {
+    background-image: url(/gfx/svg/quote.svg);
+  }
+}
+
+.bgi-calendar2 {
+  &:before {
+    background-image: url(/gfx/svg/calendar2.svg);
+  }
+}
+
+.bgi-languages2 {
+  &:before {
+    background-image: url(/gfx/svg/languages2.svg);
+  }
+}
+
+.bgi-rocket2 {
+  &:before {
+    background-image: url(/gfx/svg/rocket2.svg);
+  }
+}
+
+.bgi-pen2 {
+  &:before {
+    background-image: url(/gfx/svg/pen2.svg);
+  }
+}
+
+.bgi-quote2 {
+  &:before {
+    background-image: url(/gfx/svg/quote2.svg);
+  }
 }
