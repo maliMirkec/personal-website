@@ -55,10 +55,10 @@ sidebar:
     Silvestar Bistrović: /
 
 cta1:
-  span: "Looking for a mentor? Become a better UI developer today."
-  btn1: "Join the program ⇢"
-  btn2: "Start today"
-  link: /contact/
+  span: "Did you know that I run the UI Dev Newsletter?"
+  btn1: "Subscribe here ⇢"
+  btn2: "New issue every Monday"
+  link: "https://tinyletter.com/starbist/"
 
 cta2:
   span: "If you want me on your team, contact me today!"
