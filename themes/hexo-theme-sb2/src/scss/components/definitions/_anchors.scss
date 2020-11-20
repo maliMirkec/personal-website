@@ -16,6 +16,7 @@ a {
   --anchor-color-black: #{transparentize($color-black, .75)};
   --anchor-color-alpha: #{transparentize($color-alpha, .5)};
   --anchor-color-beta: #{transparentize($color-beta, .5)};
+  @extend .brad;
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -60,6 +61,18 @@ a {
 
     &.a--beta {
       filter: contrast(100%) drop-shadow(0 0 .1rem #{v(anchor-color-beta)});
+    }
+  }
+
+  &:active,
+  &:focus {
+    @extend .bsh--alpha2;
+  }
+
+  &:active,
+  &:focus {
+    &.a--beta {
+      @extend .bsh--beta2;
     }
   }
 }

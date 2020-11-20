@@ -308,6 +308,10 @@ template {
   display: none; }
 
 :root {
+  --duration: .24s;
+  --easing: ease-out; }
+
+:root {
   --transparent-light: rgba(255,255,255,.33);
   --transparent-dark: rgba(17, 17, 17, 0.25);
   --transparent-darker: rgba(17, 17, 17, 0.5);
@@ -333,14 +337,14 @@ img {
 .wrapper-bp3 {
   max-width: var(--bp3); }
 
-.brad, .copy a, a.a, .button {
+.brad, .button, a, .copy a, a.a {
   border-radius: .1em; }
 
 .bsh--alpha {
   -webkit-box-shadow: 0 0 0 0.1em var(--transparent-dark);
   box-shadow: 0 0 0 0.1em var(--transparent-dark); }
 
-.bsh--alpha2, .button:active, .button:focus {
+.bsh--alpha2, .button:active, .button:focus, a:active, a:focus {
   -webkit-box-shadow: 0 0 0 0.2em var(--transparent-alpha);
   box-shadow: 0 0 0 0.2em var(--transparent-alpha); }
 
@@ -348,7 +352,7 @@ img {
   -webkit-box-shadow: 0 0 0 0.1em var(--transparent-darker);
   box-shadow: 0 0 0 0.1em var(--transparent-darker); }
 
-.bsh--beta2, .button--beta:active, .button--beta:focus {
+.bsh--beta2, .button--beta:active, .button--beta:focus, a.a--beta:active, a.a--beta:focus {
   -webkit-box-shadow: 0 0 0 0.2em var(--transparent-beta);
   box-shadow: 0 0 0 0.2em var(--transparent-beta); }
 
@@ -356,158 +360,6 @@ img {
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px; }
-
-:root {
-  --alpha: #12e09f;
-  --beta: #ff3366;
-  --white: #fff;
-  --black: #111; }
-
-[class*="bgi-"],
-[class*="bg-"],
-[class*="rg-"] {
-  --bg-space-1: calc(var(--space) * 5);
-  --bg-space-2: calc(var(--space) * 10);
-  --bg-space-3: calc(var(--space) * 15); }
-
-[class*="bg-"],
-[class*="lg-"],
-[class*="rg-"] {
-  --bg-alpha-1: #c4fae9;
-  --bg-alpha-2: #d7fcf0;
-  --bg-alpha-3: #eafdf7;
-  --bg-beta-1: #ffccd9;
-  --bg-beta-2: #ffe0e8;
-  --bg-beta-3: #fff5f7; }
-
-.bg-alpha {
-  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
-  background-image: -o-radial-gradient(bottom right, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
-  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
-
-.bg-beta {
-  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3)));
-  background-image: -o-radial-gradient(bottom right, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
-  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
-
-.bg-alpha2 {
-  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
-  background-image: -o-radial-gradient(bottom right, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-radial-gradient(top left, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(top left, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(top left, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
-  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
-
-.bg-beta2 {
-  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3)));
-  background-image: -o-radial-gradient(bottom right, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-radial-gradient(top left, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(top left, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(top left, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
-  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
-
-.bg-alpha3 {
-  background-image: -o-linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
-  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
-
-.bg-beta3 {
-  background-image: -o-linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
-  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
-
-.bg-alpha4 {
-  background-image: -o-linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(315deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(315deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(315deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
-  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
-
-.bg-beta4 {
-  background-image: -o-linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(315deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(315deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(315deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
-  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
-
-.lg-alpha {
-  background-image: -o-linear-gradient(350deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
-  background-image: linear-gradient(100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
-
-.lg-beta {
-  background-image: -o-linear-gradient(350deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
-  background-image: linear-gradient(100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
-
-.lg-alpha2 {
-  background-image: -o-linear-gradient(190deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
-  background-image: linear-gradient(-100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
-
-.lg-beta2 {
-  background-image: -o-linear-gradient(190deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
-  background-image: linear-gradient(-100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
-
-[class*="bgi-"] {
-  --bgi-color-black: rgba(17, 17, 17, 0.25);
-  position: relative; }
-  [class*="bgi-"]:before {
-    content: '';
-    background-repeat: no-repeat;
-    background-position: bottom var(--bg-space-2) right var(--bg-space-2);
-    background-size: 10vmin;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1; }
-
-.bgi--tr:before {
-  background-position: top var(--bg-space-2) right var(--bg-space-2); }
-
-.bgi--tl:before {
-  background-position: top var(--bg-space-2) left var(--bg-space-2); }
-
-.bgi--r:before {
-  background-position: center right var(--bg-space-2); }
-
-.bgi--l:before {
-  background-position: center left var(--bg-space-2); }
-
-.bgi--c:before {
-  background-position: center left var(--bg-space-2); }
-
-.bgi--bl:before {
-  background-position: bottom var(--bg-space-2) left var(--bg-space-2); }
-
-.bgi--opacity:before {
-  opacity: 0.5; }
-
-.bgi--shadow:before {
-  -webkit-filter: drop-shadow(0 0 0.3rem var(--bgi-color-black));
-  filter: drop-shadow(0 0 0.3rem var(--bgi-color-black)); }
-
-.bgi--small:before {
-  background-size: 6vmin; }
-
-.bgi--cover:before {
-  opacity: 0.15;
-  background-size: auto 80%; }
-
-.bgi-calendar:before {
-  background-image: url(/gfx/svg/calendar.svg); }
-
-.bgi-languages:before {
-  background-image: url(/gfx/svg/languages.svg); }
-
-.bgi-rocket:before {
-  background-image: url(/gfx/svg/rocket.svg); }
-
-.bgi-pen:before {
-  background-image: url(/gfx/svg/pen.svg); }
-
-.bgi-quote:before {
-  background-image: url(/gfx/svg/quote.svg); }
-
-.bgi-calendar2:before {
-  background-image: url(/gfx/svg/calendar2.svg); }
-
-.bgi-languages2:before {
-  background-image: url(/gfx/svg/languages2.svg); }
-
-.bgi-rocket2:before {
-  background-image: url(/gfx/svg/rocket2.svg); }
-
-.bgi-pen2:before {
-  background-image: url(/gfx/svg/pen2.svg); }
-
-.bgi-quote2:before {
-  background-image: url(/gfx/svg/quote2.svg); }
 
 @font-face {
   font-family: 'Playfair Display';
@@ -725,6 +577,411 @@ blockquote {
 
 .lsp, .button {
   letter-spacing: .06em; }
+
+:root {
+  --alpha: #12e09f;
+  --beta: #ff3366;
+  --white: #fff;
+  --black: #111; }
+
+[class*="bgi-"],
+[class*="bg-"],
+[class*="rg-"] {
+  --bg-space-1: calc(var(--space) * 5);
+  --bg-space-2: calc(var(--space) * 10);
+  --bg-space-3: calc(var(--space) * 15); }
+
+[class*="bg-"],
+[class*="lg-"],
+[class*="rg-"] {
+  --bg-alpha-1: #c4fae9;
+  --bg-alpha-2: #d7fcf0;
+  --bg-alpha-3: #eafdf7;
+  --bg-beta-1: #ffccd9;
+  --bg-beta-2: #ffe0e8;
+  --bg-beta-3: #fff5f7; }
+
+.bg-alpha {
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
+  background-image: -o-radial-gradient(bottom right, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
+
+.bg-beta {
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3)));
+  background-image: -o-radial-gradient(bottom right, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
+
+.bg-alpha2 {
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
+  background-image: -o-radial-gradient(bottom right, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-radial-gradient(top left, circle, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(top left, circle, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(top left, circle, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
+
+.bg-beta2 {
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-beta-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-beta-3)));
+  background-image: -o-radial-gradient(bottom right, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(bottom right, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(bottom right, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-radial-gradient(top left, circle, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-radial-gradient(top left, circle, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-radial-gradient(top left, circle, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
+
+.bg-alpha3 {
+  background-image: -o-linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
+  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
+
+.bg-beta3 {
+  background-image: -o-linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
+  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
+
+.bg-alpha4 {
+  background-image: -o-linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(315deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(315deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(315deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
+  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))); }
+
+.bg-beta4 {
+  background-image: -o-linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(315deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), -o-linear-gradient(315deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), -o-linear-gradient(315deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), -o-linear-gradient(bottom, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), -o-linear-gradient(left, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
+  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))); }
+
+.lg-alpha {
+  background-image: -o-linear-gradient(350deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
+
+.lg-beta {
+  background-image: -o-linear-gradient(350deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
+
+.lg-alpha2 {
+  background-image: -o-linear-gradient(190deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%); }
+
+.lg-beta2 {
+  background-image: -o-linear-gradient(190deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%); }
+
+[class*="bgi-"] {
+  --bgi-color-black: rgba(17, 17, 17, 0.25);
+  position: relative; }
+  [class*="bgi-"] > * {
+    position: relative;
+    z-index: 1; }
+  [class*="bgi-"]:before {
+    content: '';
+    background-repeat: no-repeat;
+    background-position: bottom var(--bg-space-2) right var(--bg-space-2);
+    background-size: 10vmin;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0; }
+
+.bgi--tr:before {
+  background-position: top var(--bg-space-2) right var(--bg-space-2); }
+
+.bgi--tl:before {
+  background-position: top var(--bg-space-2) left var(--bg-space-2); }
+
+.bgi--r:before {
+  background-position: center right var(--bg-space-2); }
+
+.bgi--l:before {
+  background-position: center left var(--bg-space-2); }
+
+.bgi--c:before {
+  background-position: center; }
+
+.bgi--bl:before {
+  background-position: bottom var(--bg-space-2) left var(--bg-space-2); }
+
+.bgi--opacity:before {
+  opacity: 0.5; }
+
+.bgi--shadow:before {
+  -webkit-filter: drop-shadow(0 0 0.3rem var(--bgi-color-black));
+  filter: drop-shadow(0 0 0.3rem var(--bgi-color-black)); }
+
+.bgi--small:before {
+  background-size: 6vmin; }
+
+.bgi--cover:before {
+  opacity: 0.15;
+  background-size: auto 80%; }
+
+.bgi-calendar:before {
+  background-image: url(/gfx/svg/calendar.svg); }
+
+.bgi-languages:before {
+  background-image: url(/gfx/svg/languages.svg); }
+
+.bgi-rocket:before {
+  background-image: url(/gfx/svg/rocket.svg); }
+
+.bgi-pen:before {
+  background-image: url(/gfx/svg/pen.svg); }
+
+.bgi-quote:before {
+  background-image: url(/gfx/svg/quote.svg); }
+
+.bgi-calendar2:before {
+  background-image: url(/gfx/svg/calendar2.svg); }
+
+.bgi-languages2:before {
+  background-image: url(/gfx/svg/languages2.svg); }
+
+.bgi-rocket2:before {
+  background-image: url(/gfx/svg/rocket2.svg); }
+
+.bgi-pen2:before {
+  background-image: url(/gfx/svg/pen2.svg); }
+
+.bgi-quote2:before {
+  background-image: url(/gfx/svg/quote2.svg); }
+
+.db {
+  display: block; }
+
+.dib {
+  display: inline-block; }
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.df-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.df-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.df-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.df-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.df-col-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+@media (max-width: 37.49em) {
+  .df-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .df-align-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-justify-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .df-center-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-col-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .df-col-center-bp1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+@media (max-width: 74.99em) {
+  .df-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .df-align-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-justify-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .df-center-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-col-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .df-col-center-bp2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+@media (max-width: 99.99em) {
+  .df-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .df-align-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-justify-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .df-center-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .df-col-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .df-col-center-bp3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 :root {
   --space: .25rem; }
@@ -1060,319 +1317,6 @@ blockquote {
 .outside-b-6 {
   margin-bottom: calc(35 * var(--space) + var(--space)); }
 
-:root {
-  --duration: .24s;
-  --easing: ease-out; }
-
-.db {
-  display: block; }
-
-.dib {
-  display: inline-block; }
-
-.df {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-
-.df-align {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.df-justify {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.df-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.df-col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-
-.df-col-center {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-@media (max-width: 37.49em) {
-  .df {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  .df-align {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-justify {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .df-center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-col {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .df-col-center {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
-
-@media (max-width: 74.99em) {
-  .df {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  .df-align {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-justify {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .df-center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-col {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .df-col-center {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
-
-@media (max-width: 99.99em) {
-  .df {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  .df-align {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-justify {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .df-center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .df-col {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .df-col-center {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
-
-.list-outside {
-  list-style-position: outside; }
-
-.list-inside, ul:not([class]) {
-  list-style-position: inside; }
-
-.list-style-none {
-  list-style: none; }
-
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0; }
-
-.list-condensed, ul:not([class]) {
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0; }
-
-a {
-  --anchor-color-black: rgba(17, 17, 17, 0.25);
-  --anchor-color-alpha: rgba(18, 224, 159, 0.5);
-  --anchor-color-beta: rgba(255, 51, 102, 0.5);
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  color: currentColor;
-  text-decoration: underline; }
-  a {
-    -webkit-filter: saturate(200%) brightness(70%);
-    filter: saturate(200%) brightness(70%); }
-  a.rm {
-    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-black));
-    filter: drop-shadow(0 0 0.3rem var(--anchor-color-black)); }
-  a.a--alpha {
-    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha));
-    filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha)); }
-  a.a--beta {
-    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta));
-    filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta)); }
-  a:hover, a:focus, a:active {
-    text-decoration: underline;
-    -webkit-filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
-    filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
-    a:hover.rm, a:focus.rm, a:active.rm {
-      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
-      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
-    a:hover.a--alpha, a:focus.a--alpha, a:active.a--alpha {
-      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha));
-      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha)); }
-    a:hover.a--beta, a:focus.a--beta, a:active.a--beta {
-      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta));
-      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta)); }
-
 .button {
   --button-bg-alpha: #c4fae9;
   --button-bg-beta: #ffccd9;
@@ -1440,6 +1384,65 @@ a {
 .button--beta {
   background-color: var(--button-bg-beta);
   color: var(--button-color-beta); }
+
+a {
+  --anchor-color-black: rgba(17, 17, 17, 0.25);
+  --anchor-color-alpha: rgba(18, 224, 159, 0.5);
+  --anchor-color-beta: rgba(255, 51, 102, 0.5);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  color: currentColor;
+  text-decoration: underline; }
+  a {
+    -webkit-filter: saturate(200%) brightness(70%);
+    filter: saturate(200%) brightness(70%); }
+  a.rm {
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-black));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-black)); }
+  a.a--alpha {
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-alpha)); }
+  a.a--beta {
+    -webkit-filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta));
+    filter: drop-shadow(0 0 0.3rem var(--anchor-color-beta)); }
+  a:hover, a:focus, a:active {
+    text-decoration: underline;
+    -webkit-filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
+    filter: saturate(200%) contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
+    a:hover.rm, a:focus.rm, a:active.rm {
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-black)); }
+    a:hover.a--alpha, a:focus.a--alpha, a:active.a--alpha {
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-alpha)); }
+    a:hover.a--beta, a:focus.a--beta, a:active.a--beta {
+      -webkit-filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta));
+      filter: contrast(100%) drop-shadow(0 0 0.1rem var(--anchor-color-beta)); }
+
+.list-outside {
+  list-style-position: outside; }
+
+.list-inside, ul:not([class]) {
+  list-style-position: inside; }
+
+.list-style-none {
+  list-style: none; }
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
+.list-condensed, ul:not([class]) {
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0; }
 
 .grid {
   --cols: repeat(auto-fit, minmax(480px, 1fr));

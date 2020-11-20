@@ -44,44 +44,44 @@
 }
 
 .df-col-center {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 @include mq($until: bp1) {
-  .df {
+  .df-bp1 {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .df-align {
+  .df-align-bp1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  .df-justify {
+  .df-justify-bp1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .df-center {
+  .df-center-bp1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .df-col {
+  .df-col-bp1 {
     display: flex;
     flex-direction: column;
   }
 
-  .df-col-center {
-    display: inline-flex;
+  .df-col-center-bp1 {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -89,37 +89,37 @@
 }
 
 @include mq($until: bp2) {
-  .df {
+  .df-bp2 {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .df-align {
+  .df-align-bp2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  .df-justify {
+  .df-justify-bp2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .df-center {
+  .df-center-bp2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .df-col {
+  .df-col-bp2 {
     display: flex;
     flex-direction: column;
   }
 
-  .df-col-center {
-    display: inline-flex;
+  .df-col-center-bp2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -127,37 +127,37 @@
 }
 
 @include mq($until: bp3) {
-  .df {
+  .df-bp3 {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .df-align {
+  .df-align-bp3 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  .df-justify {
+  .df-justify-bp3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .df-center {
+  .df-center-bp3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .df-col {
+  .df-col-bp3 {
     display: flex;
     flex-direction: column;
   }
 
-  .df-col-center {
-    display: inline-flex;
+  .df-col-center-bp3 {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
