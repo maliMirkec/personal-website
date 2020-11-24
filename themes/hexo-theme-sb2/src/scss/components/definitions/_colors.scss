@@ -1,38 +1,45 @@
 // Colors
 //
-// Colors:
-// $color-alpha: #12e09f - --color-alpha
-// $color-beta: #ff3366 - --color-beta
-// $color-white: #fff - --color-white
-// $color-black: #111 - --color-white
-//
 // Weight: 100
 //
 // Styleguide Colors
 
-/// Slightly lighten a color
-/// @access public
-/// @param {Color} $color - color to tint
-/// @param {Number} $percentage - percentage of `$color` in returned color
-/// @return {Color}
+// Definitions
+//
+// Colors:
+// $color-alpha: #12e09f - --color-alpha
+// $color-beta: #ff3366 - --color-beta
+// $color-light: #fff - --color-light
+// $color-dark: #111 - --color-light
+//
+// Weight: 101
+//
+// Styleguide Colors.Definitions
 
-@function tint($color, $percentage) {
-  @return mix(white, $color, $percentage);
+// Text
+//
+// Markup: _colors-text.html
+//
+// Weight: 102
+//
+// Styleguide Colors.Text
+
+[class*="text-"] {
+  color: var(--text-color);
 }
 
-/// Slightly darken a color
-/// @access public
-/// @param {Color} $color - color to shade
-/// @param {Number} $percentage - percentage of `$color` in returned color
-/// @return {Color}
-
-@function shade($color, $percentage) {
-  @return mix(black, $color, $percentage);
+.text-alpha {
+  --text-color: #{darken($color-alpha, 25%)};
 }
 
-:root {
-  --alpha: #{$color-alpha};
-  --beta: #{$color-beta};
-  --white: #{$color-white};
-  --black: #{$color-black};
+.text-beta {
+  --text-color: #{darken($color-beta, 25%)};
+}
+
+.text-light {
+  --text-color: #{$color-light};
+}
+
+.text-dark {
+  --text-color: #{$color-dark};
 }

@@ -1,5 +1,4 @@
 @import 'definitions/variables';
-@import 'definitions/animations';
 @import 'definitions/helpers';
 @import 'definitions/breakpoints';
 @import 'definitions/fonts';
@@ -7,12 +6,12 @@
 @import 'definitions/backgrounds';
 @import 'definitions/display';
 @import 'definitions/spacing';
-@import 'definitions/buttons';
-@import 'definitions/anchors';
-@import 'definitions/list';
-@import 'elements/grid';
-@import 'elements/header';
-@import 'elements/hero';
-@import 'elements/banner';
-@import 'elements/card';
+@import 'basic/buttons';
+@import 'basic/anchors';
+@import 'basic/list';
+@import 'complex/grid';
+@import 'complex/header';
+@import 'complex/hero';
+@import 'complex/banner';
+@import 'complex/card';
 

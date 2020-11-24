@@ -9,10 +9,6 @@
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 
 :root {
-  --selection: #{transparentize($color-alpha, .75)};
-  --font-alpha: 'Playfair Display';
-  --font-beta: 'Courier New', Courier, monospace;
-
   --fluid-min-width: #{strip-unit($bp1)};
   --fluid-max-width: #{strip-unit($bp3)};
   --fluid-min-size: #{strip-unit($min-size)};
@@ -21,88 +17,84 @@
   --fluid-max-ratio: #{$max-ratio};
 
   --fluid-screen: 100vw;
-  --fluid-bp: calc((#{v(fluid-screen)} - ((#{v(fluid-min-width)} / 16) * 1rem)) / ((#{v(fluid-max-width)} / 16) - (#{v(fluid-min-width)} / 16)));
-}
+  --fluid-bp: calc((var(--fluid-screen) - ((var(--fluid-min-width) / 16) * 1rem)) / ((var(--fluid-max-width) / 16) - (var(--fluid-min-width) / 16)));
 
-@include mq($from: bp3) {
-  :root {
-    --fluid-screen: calc(#{v(fluid-max-width)} * 1px);
+  --fluid-max-negative: (1 / var(--fluid-max-ratio) / var(--fluid-max-ratio));
+  --fluid-min-negative: (1 / var(--fluid-min-ratio) / var(--fluid-min-ratio));
+
+  --fluid-min-scale--2: var(--fluid-min-scale--1) * var(--fluid-min-ratio) * var(--fluid-min-negative);
+  --fluid-max-scale--2: var(--fluid-max-scale--1) * var(--fluid-max-ratio) * var(--fluid-max-negative);
+  --fluid-min-size--2: (var(--fluid-min-size) * var(--fluid-min-scale--2)) / 16;
+  --fluid-max-size--2: (var(--fluid-max-size) * var(--fluid-max-scale--2)) / 16;
+  --step--2: calc(((var(--fluid-min-size--2) * 1rem) + (var(--fluid-max-size--2) - var(--fluid-min-size--2)) * var(--fluid-bp)));
+
+  --fluid-min-scale--1: var(--fluid-min-ratio) * var(--fluid-min-negative);
+  --fluid-max-scale--1: var(--fluid-max-ratio) * var(--fluid-max-negative);
+  --fluid-min-size--1: (var(--fluid-min-size) * var(--fluid-min-scale--1)) / 16;
+  --fluid-max-size--1: (var(--fluid-max-size) * var(--fluid-max-scale--1)) / 16;
+  --step--1: calc(((var(--fluid-min-size--1) * 1rem) + (var(--fluid-max-size--1) - var(--fluid-min-size--1)) * var(--fluid-bp)));
+
+  --fluid-min-scale-0: var(--fluid-min-ratio);
+  --fluid-max-scale-0: var(--fluid-max-ratio);
+  --fluid-min-size-0: (var(--fluid-min-size)) / 16;
+  --fluid-max-size-0: (var(--fluid-max-size)) / 16;
+  --step-0: calc(((var(--fluid-min-size-0) * 1rem) + (var(--fluid-max-size-0) - var(--fluid-min-size-0)) * var(--fluid-bp)));
+
+  --fluid-min-scale-1: var(--fluid-min-scale-0) * var(--fluid-min-ratio);
+  --fluid-max-scale-1: var(--fluid-max-scale-0) * var(--fluid-max-ratio);
+  --fluid-min-size-1: (var(--fluid-min-size) * var(--fluid-min-scale-0)) / 16;
+  --fluid-max-size-1: (var(--fluid-max-size) * var(--fluid-max-scale-0)) / 16;
+  --step-1: calc(((var(--fluid-min-size-1) * 1rem) + (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp)));
+
+  --fluid-min-scale-2: var(--fluid-min-scale-1) * var(--fluid-min-ratio);
+  --fluid-max-scale-2: var(--fluid-max-scale-1) * var(--fluid-max-ratio);
+  --fluid-min-size-2: (var(--fluid-min-size) * var(--fluid-min-scale-1)) / 16;
+  --fluid-max-size-2: (var(--fluid-max-size) * var(--fluid-max-scale-1)) / 16;
+  --step-2: calc(((var(--fluid-min-size-2) * 1rem) + (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp)));
+
+  --fluid-min-scale-3: var(--fluid-min-scale-2) * var(--fluid-min-ratio);
+  --fluid-max-scale-3: var(--fluid-max-scale-2) * var(--fluid-max-ratio);
+  --fluid-min-size-3: (var(--fluid-min-size) * var(--fluid-min-scale-2)) / 16;
+  --fluid-max-size-3: (var(--fluid-max-size) * var(--fluid-max-scale-2)) / 16;
+  --step-3: calc(((var(--fluid-min-size-3) * 1rem) + (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp)));
+
+  --fluid-min-scale-4: var(--fluid-min-scale-3) * var(--fluid-min-ratio);
+  --fluid-max-scale-4: var(--fluid-max-scale-3) * var(--fluid-max-ratio);
+  --fluid-min-size-4: (var(--fluid-min-size) * var(--fluid-min-scale-3)) / 16;
+  --fluid-max-size-4: (var(--fluid-max-size) * var(--fluid-max-scale-3)) / 16;
+  --step-4: calc(((var(--fluid-min-size-4) * 1rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
+
+  --fluid-min-scale-5: var(--fluid-min-scale-4) * var(--fluid-min-ratio);
+  --fluid-max-scale-5: var(--fluid-max-scale-4) * var(--fluid-max-ratio);
+  --fluid-min-size-5: (var(--fluid-min-size) * var(--fluid-min-scale-4)) / 16;
+  --fluid-max-size-5: (var(--fluid-max-size) * var(--fluid-max-scale-4)) / 16;
+  --step-5: calc(((var(--fluid-min-size-5) * 1rem) + (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp)));
+
+  --fluid-min-scale-6: var(--fluid-min-scale-5) * var(--fluid-min-ratio);
+  --fluid-max-scale-6: var(--fluid-max-scale-5) * var(--fluid-max-ratio);
+  --fluid-min-size-6: (var(--fluid-min-size) * var(--fluid-min-scale-5)) / 16;
+  --fluid-max-size-6: (var(--fluid-max-size) * var(--fluid-max-scale-5)) / 16;
+  --step-6: calc(((var(--fluid-min-size-6) * 1rem) + (var(--fluid-max-size-6) - var(--fluid-min-size-6)) * var(--fluid-bp)));
+
+  @include mq($from: bp3) {
+    --fluid-screen: calc(var(--fluid-max-width) * 1px);
   }
 }
 
-:root {
-  --fluid-max-negative: (1 / #{v(fluid-max-ratio)} / #{v(fluid-max-ratio)});
-  --fluid-min-negative: (1 / #{v(fluid-min-ratio)} / #{v(fluid-min-ratio)});
-
-  --fluid-min-scale--2: #{v(fluid-min-scale--1)} * #{v(fluid-min-ratio)} * #{v(fluid-min-negative)};
-  --fluid-max-scale--2: #{v(fluid-max-scale--1)} * #{v(fluid-max-ratio)} * #{v(fluid-max-negative)};
-  --fluid-min-size--2: (#{v(fluid-min-size)} * #{v(fluid-min-scale--2)}) / 16;
-  --fluid-max-size--2: (#{v(fluid-max-size)} * #{v(fluid-max-scale--2)}) / 16;
-  --step--2: calc(((#{v(fluid-min-size--2)} * 1rem) + (#{v(fluid-max-size--2)} - #{v(fluid-min-size--2)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale--1: #{v(fluid-min-ratio)} * #{v(fluid-min-negative)};
-  --fluid-max-scale--1: #{v(fluid-max-ratio)} * #{v(fluid-max-negative)};
-  --fluid-min-size--1: (#{v(fluid-min-size)} * #{v(fluid-min-scale--1)}) / 16;
-  --fluid-max-size--1: (#{v(fluid-max-size)} * #{v(fluid-max-scale--1)}) / 16;
-  --step--1: calc(((#{v(fluid-min-size--1)} * 1rem) + (#{v(fluid-max-size--1)} - #{v(fluid-min-size--1)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-0: #{v(fluid-min-ratio)};
-  --fluid-max-scale-0: #{v(fluid-max-ratio)};
-  --fluid-min-size-0: (#{v(fluid-min-size)}) / 16;
-  --fluid-max-size-0: (#{v(fluid-max-size)}) / 16;
-  --step-0: calc(((#{v(fluid-min-size-0)} * 1rem) + (#{v(fluid-max-size-0)} - #{v(fluid-min-size-0)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-1: #{v(fluid-min-scale-0)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-1: #{v(fluid-max-scale-0)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-1: (#{v(fluid-min-size)} * #{v(fluid-min-scale-0)}) / 16;
-  --fluid-max-size-1: (#{v(fluid-max-size)} * #{v(fluid-max-scale-0)}) / 16;
-  --step-1: calc(((#{v(fluid-min-size-1)} * 1rem) + (#{v(fluid-max-size-1)} - #{v(fluid-min-size-1)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-2: #{v(fluid-min-scale-1)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-2: #{v(fluid-max-scale-1)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-2: (#{v(fluid-min-size)} * #{v(fluid-min-scale-1)}) / 16;
-  --fluid-max-size-2: (#{v(fluid-max-size)} * #{v(fluid-max-scale-1)}) / 16;
-  --step-2: calc(((#{v(fluid-min-size-2)} * 1rem) + (#{v(fluid-max-size-2)} - #{v(fluid-min-size-2)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-3: #{v(fluid-min-scale-2)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-3: #{v(fluid-max-scale-2)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-3: (#{v(fluid-min-size)} * #{v(fluid-min-scale-2)}) / 16;
-  --fluid-max-size-3: (#{v(fluid-max-size)} * #{v(fluid-max-scale-2)}) / 16;
-  --step-3: calc(((#{v(fluid-min-size-3)} * 1rem) + (#{v(fluid-max-size-3)} - #{v(fluid-min-size-3)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-4: #{v(fluid-min-scale-3)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-4: #{v(fluid-max-scale-3)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-4: (#{v(fluid-min-size)} * #{v(fluid-min-scale-3)}) / 16;
-  --fluid-max-size-4: (#{v(fluid-max-size)} * #{v(fluid-max-scale-3)}) / 16;
-  --step-4: calc(((#{v(fluid-min-size-4)} * 1rem) + (#{v(fluid-max-size-4)} - #{v(fluid-min-size-4)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-5: #{v(fluid-min-scale-4)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-5: #{v(fluid-max-scale-4)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-5: (#{v(fluid-min-size)} * #{v(fluid-min-scale-4)}) / 16;
-  --fluid-max-size-5: (#{v(fluid-max-size)} * #{v(fluid-max-scale-4)}) / 16;
-  --step-5: calc(((#{v(fluid-min-size-5)} * 1rem) + (#{v(fluid-max-size-5)} - #{v(fluid-min-size-5)}) * #{v(fluid-bp)}));
-
-  --fluid-min-scale-6: #{v(fluid-min-scale-5)} * #{v(fluid-min-ratio)};
-  --fluid-max-scale-6: #{v(fluid-max-scale-5)} * #{v(fluid-max-ratio)};
-  --fluid-min-size-6: (#{v(fluid-min-size)} * #{v(fluid-min-scale-5)}) / 16;
-  --fluid-max-size-6: (#{v(fluid-max-size)} * #{v(fluid-max-scale-5)}) / 16;
-  --step-6: calc(((#{v(fluid-min-size-6)} * 1rem) + (#{v(fluid-max-size-6)} - #{v(fluid-min-size-6)}) * #{v(fluid-bp)}));
-}
-
 body {
-  color: v(black);
-  font-family: #{v(font-alpha)};
+  color: var(--black);
+  font-family: var(--font-alpha);
   font-style: normal;
   font-weight: normal;
-  font-size: #{v(step-0)};
-  line-height: 1.44;
-  letter-spacing: 0.01em;
+  font-size: var(--step-0);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
-  background-color: v(selection);
+  background-color: var(--selection);
 }
 
 h1,
@@ -116,33 +108,43 @@ h6 {
 }
 
 h1 {
-  font-size: #{v(step-6)};
+  font-size: var(--step-6);
 }
 
 h2 {
-  font-size: #{v(step-5)};
+  font-size: var(--step-5);
 }
 
 h3 {
-  font-size: #{v(step-4)};
+  font-size: var(--step-4);
 }
 
 h4 {
-  font-size: #{v(step-3)};
+  font-size: var(--step-3);
 }
 
 h5 {
-  font-size: #{v(step-2)};
+  font-size: var(--step-2);
 }
 
 h6 {
-  font-size: #{v(step-1)};
+  font-size: var(--step-1);
+}
+
+[class*="fz-step-"] {
+  font-size: var(--font-size);
+}
+
+@for $i from -2 through 6 {
+  &[class*="fz-step-#{$i}"] {
+    --font-size: var(--step-#{$i});
+  }
 }
 
 pre,
 code,
 .ffm {
-  font-family: #{v(font-beta)};
+  font-family: var(--font-beta);
 }
 
 blockquote {
@@ -170,17 +172,11 @@ blockquote {
   font-weight: 900;
 }
 
-@for $i from -2 through 6 {
-  .fz-step-#{$i} {
-    font-size: #{v(step-#{$i})};
-  }
-}
-
-.t-center {
+.text-center {
   text-align: center;
 }
 
-.t-right {
+.text-right {
   text-align: right;
 }
 

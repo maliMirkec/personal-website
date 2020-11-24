@@ -6,17 +6,19 @@
 //
 // Styleguide Backgrounds
 
+$multiplier: 1.3;
+
 [class*="bgi-"],
 [class*="bg-"],
-[class*="rg-"] {
-  --bg-space-1: calc(#{v(space)} * 5);
-  --bg-space-2: calc(#{v(space)} * 10);
-  --bg-space-3: calc(#{v(space)} * 15);
+[class*="bg-"] {
+  --bg-space-1: calc(#{$space * 1 * $multiplier});
+  --bg-space-2: calc(#{$space * 2 * $multiplier});
+  --bg-space-3: calc(#{$space * 3 * $multiplier});
 }
 
 [class*="bg-"],
 [class*="lg-"],
-[class*="rg-"] {
+[class*="bg-"] {
   --bg-alpha-1: #{lighten($color-alpha, 40%)};
   --bg-alpha-2: #{lighten($color-alpha, 44%)};
   --bg-alpha-3: #{lighten($color-alpha, 48%)};
@@ -26,55 +28,55 @@
 }
 
 .bg-alpha {
-  background-image: radial-gradient(circle at bottom right, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)}));
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-beta {
-  background-image: radial-gradient(circle at bottom right, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)}));
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-alpha2 {
-  background-image: radial-gradient(circle at bottom right, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), radial-gradient(circle at top left, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at top left, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at top left, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)}));
+  background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-beta2 {
-  background-image: radial-gradient(circle at bottom right, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at bottom right, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at bottom right, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), radial-gradient(circle at top left, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), radial-gradient(circle at top left, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), radial-gradient(circle at top left, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)}));
+  background-image: radial-gradient(circle at bottom right, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), radial-gradient(circle at top left, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at top left, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at top left, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-alpha3 {
-  background-image: linear-gradient(-45deg, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(-45deg, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(-45deg, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)}));
+  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-beta3 {
-  background-image: linear-gradient(-45deg, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(-45deg, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(-45deg, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)}));
+  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-alpha4 {
-  background-image: linear-gradient(-45deg, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(-45deg, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(-45deg, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(135deg, v(bg-alpha-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(135deg, v(bg-alpha-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(135deg, v(bg-alpha-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-alpha-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-alpha-3) calc(100% - #{v(bg-space-1)}));
+  background-image: linear-gradient(-45deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-alpha-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-alpha-3) calc(100% - var(--bg-space-1)));
 }
 
 .bg-beta4 {
-  background-image: linear-gradient(-45deg, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(-45deg, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(-45deg, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(135deg, v(bg-beta-1) v(bg-space-1), transparent v(bg-space-1)), linear-gradient(135deg, v(bg-beta-2) v(bg-space-2), transparent v(bg-space-2)), linear-gradient(135deg, v(bg-beta-3) v(bg-space-3), transparent v(bg-space-3)), linear-gradient(0deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)})), linear-gradient(90deg, v(bg-beta-3) v(bg-space-1), transparent v(bg-space-1), transparent calc(100% - #{v(bg-space-1)}), v(bg-beta-3) calc(100% - #{v(bg-space-1)}));
+  background-image: linear-gradient(-45deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(-45deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(-45deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(135deg, var(--bg-beta-1) var(--bg-space-1), transparent var(--bg-space-1)), linear-gradient(135deg, var(--bg-beta-2) var(--bg-space-2), transparent var(--bg-space-2)), linear-gradient(135deg, var(--bg-beta-3) var(--bg-space-3), transparent var(--bg-space-3)), linear-gradient(0deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1))), linear-gradient(90deg, var(--bg-beta-3) var(--bg-space-1), transparent var(--bg-space-1), transparent calc(100% - var(--bg-space-1)), var(--bg-beta-3) calc(100% - var(--bg-space-1)));
 }
 
 .lg-alpha {
-  background-image: linear-gradient(100deg, v(bg-alpha-1) 20%, v(bg-alpha-2) 50%, v(bg-alpha-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
 }
 
 .lg-beta {
-  background-image: linear-gradient(100deg, v(bg-beta-1) 20%, v(bg-beta-2) 50%, v(bg-beta-3) 100%);
+  background-image: linear-gradient(100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
 }
 
 .lg-alpha2 {
-  background-image: linear-gradient(-100deg, v(bg-alpha-1) 20%, v(bg-alpha-2) 50%, v(bg-alpha-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-alpha-1) 20%, var(--bg-alpha-2) 50%, var(--bg-alpha-3) 100%);
 }
 
 .lg-beta2 {
-  background-image: linear-gradient(-100deg, v(bg-beta-1) 20%, v(bg-beta-2) 50%, v(bg-beta-3) 100%);
+  background-image: linear-gradient(-100deg, var(--bg-beta-1) 20%, var(--bg-beta-2) 50%, var(--bg-beta-3) 100%);
 }
 
 [class*="bgi-"] {
-  --bgi-color-black: #{transparentize($color-black, .75)};
+  --bgi-color-dark: #{transparentize($color-dark, .75)};
   position: relative;
 
   > * {
@@ -85,7 +87,7 @@
   &:before {
     content: '';
     background-repeat: no-repeat;
-    background-position: bottom #{v(bg-space-2)} right #{v(bg-space-2)};
+    background-position: bottom var(--bg-space-2) right var(--bg-space-2);
     background-size: 10vmin;
     position: absolute;
     top: 0;
@@ -98,25 +100,25 @@
 
 .bgi--tr {
   &:before {
-    background-position: top #{v(bg-space-2)} right #{v(bg-space-2)};
+    background-position: top var(--bg-space-2) right var(--bg-space-2);
   }
 }
 
 .bgi--tl {
   &:before {
-    background-position: top #{v(bg-space-2)} left #{v(bg-space-2)};
+    background-position: top var(--bg-space-2) left var(--bg-space-2);
   }
 }
 
 .bgi--r {
   &:before {
-    background-position: center right #{v(bg-space-2)};
+    background-position: center right var(--bg-space-2);
   }
 }
 
 .bgi--l {
   &:before {
-    background-position: center left #{v(bg-space-2)};
+    background-position: center left var(--bg-space-2);
   }
 }
 
@@ -128,7 +130,7 @@
 
 .bgi--bl {
   &:before {
-    background-position: bottom #{v(bg-space-2)} left #{v(bg-space-2)};
+    background-position: bottom var(--bg-space-2) left var(--bg-space-2);
   }
 }
 
@@ -140,7 +142,7 @@
 
 .bgi--shadow {
   &:before {
-    filter: drop-shadow(0 0 .3rem #{v(bgi-color-black)});
+    filter: drop-shadow(0 0 .3rem var(--bgi-color-dark));
   }
 }
 

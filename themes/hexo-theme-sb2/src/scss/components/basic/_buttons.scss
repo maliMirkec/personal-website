@@ -42,24 +42,12 @@
 // .lg-beta - Alternative button with custom background active
 // .lg-beta:hover - Alternative button with custom background active hover
 // .lg-beta:active - Alternative button with custom background active active
-// .rg-alpha - Alternative button with custom background active
-// .rg-alpha:hover - Alternative button with custom background active hover
-// .rg-alpha:active - Alternative button with custom background active active
-// .rg-beta - Alternative button with custom background active
-// .rg-beta:hover - Alternative button with custom background active hover
-// .rg-beta:active - Alternative button with custom background active active
 // .button--sm.lg-alpha - Alternative button with custom background active
 // .button--sm.lg-alpha:hover - Alternative button with custom background active hover
 // .button--sm.lg-alpha:active - Alternative button with custom background active active
 // .button--sm.lg-beta - Alternative button with custom background active
 // .button--sm.lg-beta:hover - Alternative button with custom background active hover
 // .button--sm.lg-beta:active - Alternative button with custom background active active
-// .button--sm.rg-alpha - Alternative button with custom background active
-// .button--sm.rg-alpha:hover - Alternative button with custom background active hover
-// .button--sm.rg-alpha:active - Alternative button with custom background active active
-// .button--sm.rg-beta - Alternative button with custom background active
-// .button--sm.rg-beta:hover - Alternative button with custom background active hover
-// .button--sm.rg-beta:active - Alternative button with custom background active active
 //
 // Weight: 702
 //
@@ -90,7 +78,6 @@
   min-height: 2.75em;
   padding: .25em 2em;
   border: .1em solid currentColor;
-  transition: background-color calc(#{v(duration)} / 2);
   outline: none;
   filter: brightness(100%);
   cursor: pointer;
@@ -100,7 +87,7 @@
   }
 
   &:not(.button--sm) {
-    @extend .fz-step-0;
+    font-size: var(--fz-step-0);
   }
 
   &[href] {
@@ -108,48 +95,48 @@
   }
 
   &:hover,
-  &:focus,
-  &:active {
-    filter: brightness(108%);
+  &:focus {
+    filter: brightness(110%);
+    @extend .bsh--alpha;
+    background-color: var(--color-alpha-rgba);
 
-    &[class*="lr-alpha"] {
-      filter: brightness(140%);
-    }
-
-    &[class*="lr-beta"] {
-      filter: brightness(150%);
-    }
-
-    &[class*="rr-alpha"] {
-      filter: brightness(130%);
-    }
-
-    &[class*="rr-beta"] {
-      filter: brightness(140%);
+    &[class*="lg-beta"],
+    &[class*="bg-beta"],
+    [class*="lg-beta"] &,
+    [class*="bg-beta"] & {
+      @extend .bsh--beta;
+      background-color: var(--color-beta-rgba);
     }
   }
 
-  &:active,
-  &:focus {
+  &:focus,
+  &:active {
     @extend .bsh--alpha2;
+
+    &[class*="lg-beta"],
+    &[class*="bg-beta"],
+    [class*="lg-beta"] &,
+    [class*="bg-beta"] & {
+      @extend .bsh--beta2;
+    }
   }
 }
 
 .button--alpha {
-  background-color: v(button-bg-alpha);
-  color: v(button-color-alpha);
+  background-color: var(--button-bg-alpha);
+  color: var(--button-color-alpha);
 }
 
 .button--beta {
-  background-color: v(button-bg-beta);
-  color: v(button-color-beta);
+  background-color: var(--button-bg-beta);
+  color: var(--button-color-beta);
 
-  &:active,
+  &:hover,
   &:focus {
-    @extend .bsh--beta2;
+    background-color: var(--color-beta-rgba);
   }
 }
 
 .button--sm {
-  @extend .fz-step--2;
+  font-size: var(--step--1);
 }

@@ -6,12 +6,6 @@
 //
 // Styleguide Breakpoints
 
-:root {
-  --bp1: #{$bp1};
-  --bp2: #{$bp2};
-  --bp3: #{$bp3};
-}
-
 $mq-breakpoints: (
   bp1: $bp1,
   bp2: $bp2,

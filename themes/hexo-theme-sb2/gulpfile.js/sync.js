@@ -28,8 +28,6 @@ function syncStart(cb) {
       };
     }
 
-    console.log(thisConfig);
-
     global.bs.init(thisConfig);
   }
 

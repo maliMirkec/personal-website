@@ -6,87 +6,84 @@
 //
 // Styleguide Spacing
 
-:root {
-  --space: .25rem;
-}
-
-.outside-l-a {
+.margin-l-auto {
   margin-left: auto;
 }
 
-.outside-r-a {
+.margin-r-auto {
   margin-right: auto;
 }
 
-.outside-t-a {
+.margin-t-auto {
   margin-top: auto;
 }
 
-.outside-x-a {
-  @extend .outside-r-a;
-  @extend .outside-l-a;
+.margin-l-auto {
+  @extend .margin-r-auto;
+  @extend .margin-l-auto;
 }
 
 @for $i from 0 through 6 {
-  $space: calc(#{-1 + $i*$i} * var(--space) + var(--space));
+  $spacing: calc(#{$space * $i});
+  $spacing: calc(#{((-1 + $i * $i) * $space-default) + $space-default});
 
-  .inside-#{$i} {
-    padding: $space;
+  .padding-#{$i} {
+    padding: $spacing;
   }
 
-  .inside-x-#{$i} {
-    padding-right: $space;
-    padding-left: $space;
+  .padding-x-#{$i} {
+    padding-right: $spacing;
+    padding-left: $spacing;
   }
 
-  .inside-y-#{$i} {
-    padding-top: $space;
-    padding-bottom: $space;
+  .padding-y-#{$i} {
+    padding-top: $spacing;
+    padding-bottom: $spacing;
   }
 
-  .inside-r-#{$i} {
-    padding-right: $space;
+  .padding-r-#{$i} {
+    padding-right: $spacing;
   }
 
-  .inside-l-#{$i} {
-    padding-left: $space;
+  .padding-l-#{$i} {
+    padding-left: $spacing;
   }
 
-  .inside-t-#{$i} {
-    padding-top: $space;
+  .padding-t-#{$i} {
+    padding-top: $spacing;
   }
 
-  .inside-b-#{$i} {
-    padding-bottom: $space;
+  .padding-b-#{$i} {
+    padding-bottom: $spacing;
   }
 
-  .outside-#{$i} {
-    margin: $space;
+  .margin-#{$i} {
+    margin: $spacing;
   }
 
-  .outside-x-#{$i} {
-    margin-right: $space;
-    margin-left: $space;
+  .margin-x-#{$i} {
+    margin-right: $spacing;
+    margin-left: $spacing;
   }
 
-  .outside-y-#{$i} {
-    margin-top: $space;
-    margin-bottom: $space;
+  .margin-y-#{$i} {
+    margin-top: $spacing;
+    margin-bottom: $spacing;
   }
 
-  .outside-r-#{$i} {
-    margin-right: $space;
+  .margin-r-#{$i} {
+    margin-right: $spacing;
   }
 
-  .outside-l-#{$i} {
-    margin-left: $space;
+  .margin-l-#{$i} {
+    margin-left: $spacing;
   }
 
-  .outside-t-#{$i} {
-    margin-top: $space;
+  .margin-t-#{$i} {
+    margin-top: $spacing;
   }
 
-  .outside-b-#{$i} {
-    margin-bottom: $space;
+  .margin-b-#{$i} {
+    margin-bottom: $spacing;
   }
 }
