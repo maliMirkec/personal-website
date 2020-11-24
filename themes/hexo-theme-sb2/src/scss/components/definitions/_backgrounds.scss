@@ -9,7 +9,6 @@
 $multiplier: 1.3;
 
 [class*="bgi-"],
-[class*="bg-"],
 [class*="bg-"] {
   --bg-space-1: calc(#{$space * 1 * $multiplier});
   --bg-space-2: calc(#{$space * 2 * $multiplier});
@@ -17,14 +16,13 @@ $multiplier: 1.3;
 }
 
 [class*="bg-"],
-[class*="lg-"],
-[class*="bg-"] {
-  --bg-alpha-1: #{lighten($color-alpha, 40%)};
+[class*="lg-"] {
+  --bg-alpha-1: #{lighten($color-alpha, 41%)};
   --bg-alpha-2: #{lighten($color-alpha, 44%)};
-  --bg-alpha-3: #{lighten($color-alpha, 48%)};
-  --bg-beta-1: #{lighten($color-beta, 30%)};
+  --bg-alpha-3: #{lighten($color-alpha, 47%)};
+  --bg-beta-1: #{lighten($color-beta, 31%)};
   --bg-beta-2: #{lighten($color-beta, 34%)};
-  --bg-beta-3: #{lighten($color-beta, 38%)};
+  --bg-beta-3: #{lighten($color-beta, 37%)};
 }
 
 .bg-alpha {

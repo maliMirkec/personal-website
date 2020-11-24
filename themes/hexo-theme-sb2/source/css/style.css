@@ -633,21 +633,19 @@ blockquote {
   --text-color: #111; }
 
 [class*="bgi-"],
-[class*="bg-"],
 [class*="bg-"] {
   --bg-space-1: calc(1.3rem);
   --bg-space-2: calc(2.6rem);
   --bg-space-3: calc(3.9rem); }
 
 [class*="bg-"],
-[class*="lg-"],
-[class*="bg-"] {
-  --bg-alpha-1: #c4fae9;
+[class*="lg-"] {
+  --bg-alpha-1: #c8fbeb;
   --bg-alpha-2: #d7fcf0;
-  --bg-alpha-3: #eafdf7;
-  --bg-beta-1: #ffccd9;
+  --bg-alpha-3: #e5fdf5;
+  --bg-beta-1: #ffd1dd;
   --bg-beta-2: #ffe0e8;
-  --bg-beta-3: #fff5f7; }
+  --bg-beta-3: #fff0f4; }
 
 .bg-alpha {
   background-image: radial-gradient(circle at bottom right, var(--bg-alpha-1) var(--bg-space-1), transparent var(--bg-space-1)), radial-gradient(circle at bottom right, var(--bg-alpha-2) var(--bg-space-2), transparent var(--bg-space-2)), radial-gradient(circle at bottom right, var(--bg-alpha-3) var(--bg-space-3), transparent var(--bg-space-3)), -webkit-gradient(linear, left bottom, left top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3))), -webkit-gradient(linear, left top, right top, from(var(--bg-alpha-3)), color-stop(transparent), color-stop(transparent), to(var(--bg-alpha-3)));
