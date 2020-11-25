@@ -1,0 +1,10 @@
+extends _includes/layout
+
+block content
+  if (sections)
+    each section in sections
+      include _partials/sections
+  else
+    main !{content}
+  //- div !{page.content}
+

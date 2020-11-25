@@ -1,0 +1,165 @@
+// Display
+//
+// Markup: _display.html
+//
+// Weight: 500
+//
+// Styleguide Display
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.df {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.df-align {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.df-justify {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.df-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.df-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.df-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@include mq($until: bp1) {
+  .df-bp1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .df-align-bp1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .df-justify-bp1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .df-center-bp1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .df-col-bp1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center-bp1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include mq($until: bp2) {
+  .df-bp2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .df-align-bp2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .df-justify-bp2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .df-center-bp2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .df-col-bp2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center-bp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include mq($until: bp3) {
+  .df-bp3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .df-align-bp3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .df-justify-bp3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .df-center-bp3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .df-col-bp3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-col-center-bp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

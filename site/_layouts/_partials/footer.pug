@@ -1,0 +1,25 @@
+if (footer)
+  footer.lg-beta.padding-2.fw-black
+    if (footer.menu)
+      nav.wrapper.wrapper-bp2
+        ul.df-center.list-reset
+          each item in footer.menu
+            li
+              ul.df-col.list-reset
+                li.margin-x-2
+                  a.padding-y-1(href=item.href)= item.title
+    if (footer.social)
+      nav.wrapper.wrapper-bp2.fz-step--1
+        ul.df-center.list-reset
+          each item in footer.social
+            li
+              ul.df-col.list-reset
+                li.margin-x-2
+                  a.padding-y-1(href=item.href)= item.title
+    if (site.author)
+      .wrapper.wrapper-bp2.text-center
+        p.fz-step--1 &copy; #{ site.author }, #{ new Date().getFullYear() }
+    if (footer.logo)
+      .wrapper.wrapper-bp2.text-center
+        a.rm.margin-x-2(href=footer.logo.href)
+          img(src=footer.logo.src alt=footer.logo.title width='50' height='50')

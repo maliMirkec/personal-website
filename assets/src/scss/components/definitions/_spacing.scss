@@ -1,0 +1,89 @@
+// Spacing
+//
+// Markup: _spacing.html
+//
+// Weight: 600
+//
+// Styleguide Spacing
+
+.margin-l-auto {
+  margin-left: auto;
+}
+
+.margin-r-auto {
+  margin-right: auto;
+}
+
+.margin-t-auto {
+  margin-top: auto;
+}
+
+.margin-l-auto {
+  @extend .margin-r-auto;
+  @extend .margin-l-auto;
+}
+
+@for $i from 0 through 6 {
+  $spacing: calc(#{$space * $i});
+  $spacing: calc(#{((-1 + $i * $i) * $space-default) + $space-default});
+
+  .padding-#{$i} {
+    padding: $spacing;
+  }
+
+  .padding-x-#{$i} {
+    padding-right: $spacing;
+    padding-left: $spacing;
+  }
+
+  .padding-y-#{$i} {
+    padding-top: $spacing;
+    padding-bottom: $spacing;
+  }
+
+  .padding-r-#{$i} {
+    padding-right: $spacing;
+  }
+
+  .padding-l-#{$i} {
+    padding-left: $spacing;
+  }
+
+  .padding-t-#{$i} {
+    padding-top: $spacing;
+  }
+
+  .padding-b-#{$i} {
+    padding-bottom: $spacing;
+  }
+
+  .margin-#{$i} {
+    margin: $spacing;
+  }
+
+  .margin-x-#{$i} {
+    margin-right: $spacing;
+    margin-left: $spacing;
+  }
+
+  .margin-y-#{$i} {
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+  }
+
+  .margin-r-#{$i} {
+    margin-right: $spacing;
+  }
+
+  .margin-l-#{$i} {
+    margin-left: $spacing;
+  }
+
+  .margin-t-#{$i} {
+    margin-top: $spacing;
+  }
+
+  .margin-b-#{$i} {
+    margin-bottom: $spacing;
+  }
+}

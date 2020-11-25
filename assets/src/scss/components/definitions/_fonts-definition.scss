@@ -1,0 +1,67 @@
+// Definitions
+//
+// Markup: _fonts-definition.html
+//
+// Weight: 10
+//
+// Styleguide Fonts.Definitions
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display Black'), local('PlayfairDisplay-Black'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Black.woff2') format('woff2'),
+    url('/fonts/PlayfairDisplay/PlayfairDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

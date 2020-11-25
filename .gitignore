@@ -1,11 +1,1 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
-themes/sb/node_modules/
-public/
-.deploy*/
-.vscode/
-.netlify/
-.env
+node_modules

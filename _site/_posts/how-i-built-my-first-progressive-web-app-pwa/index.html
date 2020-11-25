@@ -1,0 +1,105 @@
+<p>As of today, my site is available as a Progressive Web App. Yaay! 💯</p>
+<p><img src="https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" alt="Lighthouse showing fireworks for perfect scores."></p>
+<p>In this post, you would learn more about how and why I added this exciting feature to my site.</p>
+<!--more-->
+<h2>Why did I do it</h2>
+<p>I like to think of myself as a very pedantic person, and I was trying to make my site better from the very first day. At the time when I was building my site, I didn’t understand all metrics from web performance tools like PageSpeed Insights or WebPageTest. But, as I was trying to make my site better, I was learning new techniques, and my website got better and better.</p>
+<p>Now my site gets top scores, but one thing was bothering me for some time. It was the Progressive Web App score.</p>
+<blockquote>
+<p>{cldnry pwa-before_cokho9.png &quot;Lighthouse score for Progressive Web App before optimisation.&quot; %}</p>
+</blockquote>
+<p>By looking at the PWA report, I realised my site is ready for PWA. There were only a few issues to resolve. I didn’t understand these issues, but that never stopped me before.</p>
+<h2>How I did it</h2>
+<p>As my starting point, I decided to follow the <a href="https://codelabs.developers.google.com/codelabs/your-first-pwapp/#4">“Your First Progressive Web App” tutorial</a>. The very first step was to update my <code>webmanifest.json</code> file. I have added <code>start_url</code> and <code>display</code> options and some required meta tags, like <code>&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</code>.</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;SB site - Silvestar Bistrović website&quot;,
+  &quot;short_name&quot;: &quot;SB site - Silvestar Bistrović website&quot;,
+  &quot;icons&quot;: [
+    …
+  ],
+  &quot;theme_color&quot;: &quot;#12e09f&quot;,
+  &quot;background_color&quot;: &quot;#fff&quot;,
+  &quot;start_url&quot;: &quot;/offline.html&quot;,
+  &quot;display&quot;: &quot;standalone&quot;
+}
+</code></pre>
+<p>Next, I created <code>sw.js</code> file for Service Worker. To register service worker, there is a small snippet that needs to be added to your index page:</p>
+<pre><code class="language-js">// CODELAB: Register service worker.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () =&gt; {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then((reg) =&gt; {
+        console.log('Service worker registered.', reg);
+      });
+  });
+}
+</code></pre>
+<p>The content of the Service Worker file could vary, depending what you want to use achieve with your site. Since my site is quite straightforward, I decided to make use of basic offline experience only. That means I needed an <code>offline.html</code> file for offline experience. It would be a stripped version of my homepage. So I removed external images, and created a placeholder using CSS. I removed external CSS file and inlined it in <code>head</code> section. The only thing left to do was to add favicon files. I am not yet sure if this is need, but I decided to put it there, just in case. Those files aren’t big anyway.</p>
+<p>The <code>sw.js</code> file could be broken into four segments:</p>
+<ul>
+<li>defining constants,</li>
+<li>installation,</li>
+<li>activation, and</li>
+<li>fetching.</li>
+</ul>
+<p>First, I defined the cache name and which files to cache.</p>
+<pre><code class="language-js">// constants
+const CACHE_NAME = 'sb-cache-v1.3'
+const FILES_TO_CACHE = [
+  '/offline.html',
+  '/favicon/apple-touch-icon.png',
+  '/favicon/favicon-32x32.png',
+  '/favicon/favicon-16x16.png',
+  '/favicon/site.webmanifest',
+  '/favicon/safari-pinned-tab.svg',
+  '/favicon/favicon.ico',
+  '/favicon/mstile-144x144.png',
+  '/favicon/browserconfig.xml'
+]
+</code></pre>
+<p>Next, I created the <code>install</code> event which opens cache with given cache name and caches the files.</p>
+<pre><code class="language-js">self.addEventListener('install', (event) =&gt; {
+  // CODELAB: Precache static resources here.
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) =&gt; {
+      console.log('[ServiceWorker] Pre-caching offline page')
+      return cache.addAll(FILES_TO_CACHE)
+    })
+  )
+})
+</code></pre>
+<p>After that, I created the <code>activate</code> event, which cleans cached files from disk.</p>
+<pre><code class="language-js">self.addEventListener('activate', (event) =&gt; {
+  // CODELAB: Remove previous cached data from disk.
+  event.waitUntil(
+    caches.keys().then(keyList =&gt; Promise.all(keyList.map((key) =&gt; {
+      if (key !== CACHE_NAME) {
+        console.log('[ServiceWorker] Removing old cache', key)
+        return caches.delete(key)
+      }
+    })))
+  )
+})
+</code></pre>
+<p>Finally, I created the <code>fetch</code> event, which handles page navigations only when request <code>.mode</code> is <code>navigate</code>. If the request fails to fetch the item from the network, it tries to fetch the <code>offline.html</code> file.</p>
+<pre><code class="language-js">self.addEventListener('fetch', (event) =&gt; {
+  // CODELAB: Add fetch event handler here.
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request)
+        .catch(() =&gt; caches.open(CACHE_NAME)
+          .then(cache =&gt; cache.match('offline.html')))
+    )
+  }
+})
+</code></pre>
+<h2>Final Results</h2>
+<p>After the deployment, I run the audit for the site and now I have it looks like this:</p>
+<blockquote>
+<p>{cldnry pwa-after_au0ip8.png &quot;Lighthouse score for Progressive Web App after optimisation.&quot; %}</p>
+</blockquote>
+<p>I think fireworks deserve another appearance. 💯</p>
+<p><img src="https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" alt="Lighthouse showing fireworks for perfect scores."></p>
+<h2>Next steps</h2>
+<p>The next steps are to learn more about <a href="https://developers.google.com/web/tools/workbox/">Workbox</a>. And after that, I plan to add full offline experience for my side project <a href="https://cld.silvestar.codes/">Code Line Daily</a>.</p>
+<p>Edit: Continue reading <a href="/articles/how-i-built-my-second-progressive-web-app-pwa/">my second article about “How I built my second Progressive Web App (PWA)”</a>.</p>

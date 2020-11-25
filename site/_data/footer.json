@@ -1,0 +1,36 @@
+{
+  "logo": {
+    "href": "/",
+    "src": "/gfx/svg/logo.svg",
+    "title": "Silvestar Bistrović"
+  },
+  "menu": [{
+    "href": "/portfolio/",
+    "title": "Portfolio"
+  }, {
+    "href": "/blog/",
+    "title": "Blog"
+  }, {
+    "href": "/about/",
+    "title": "About"
+  }, {
+    "href": "/contact/",
+    "title": "Contact"
+  }, {
+    "href": "/rss.xml",
+    "title": "Feed"
+  }],
+  "social": [{
+    "href": "https://www.linkedin.com/in/starbist/",
+    "title": "LinkeIn"
+  }, {
+    "href": "https://twitter.com/malimirkeccita",
+    "title": "Twitter"
+  }, {
+    "href": "https://github.com/maliMirkec",
+    "title": "GitHub"
+  }, {
+    "href": "https://codepen.io/CiTA/",
+    "title": "CodePen"
+  }]
+}

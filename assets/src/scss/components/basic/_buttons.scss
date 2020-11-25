@@ -1,0 +1,142 @@
+// Buttons
+//
+// Weight: 700
+//
+// Styleguide Buttons
+
+// Native Buttons
+//
+// Markup: _buttons-native.html
+//
+// :hover - Button hover.
+// :active - Button active.
+// .button--alpha - Alternative button
+// .button--alpha:hover - Alternative button hover
+// .button--alpha:active - Alternative button active
+// .button--beta - Alternative button
+// .button--beta:hover - Alternative button hover
+// .button--beta:active - Alternative button active
+// .button--sm - Small button
+// .button--sm:hover - Small button hover.
+// .button--sm:active - Small button active.
+// .button--sm.button--alpha - Alternative small button
+// .button--sm.button--alpha:hover - Alternative small button hover
+// .button--sm.button--alpha:active - Alternative small button active
+// .button--sm.button--beta - Alternative small button
+// .button--sm.button--beta:hover - Alternative small button hover
+// .button--sm.button--beta:active - Alternative small button active
+//
+// Weight: 701
+//
+// Styleguide Buttons.Native
+
+// Combined Buttons
+//
+// Markup: _buttons-combined.html
+//
+// :hover - Button hover.
+// :active - Button active.
+// .lg-alpha - Alternative button with custom background active
+// .lg-alpha:hover - Alternative button with custom background active hover
+// .lg-alpha:active - Alternative button with custom background active active
+// .lg-beta - Alternative button with custom background active
+// .lg-beta:hover - Alternative button with custom background active hover
+// .lg-beta:active - Alternative button with custom background active active
+// .button--sm.lg-alpha - Alternative button with custom background active
+// .button--sm.lg-alpha:hover - Alternative button with custom background active hover
+// .button--sm.lg-alpha:active - Alternative button with custom background active active
+// .button--sm.lg-beta - Alternative button with custom background active
+// .button--sm.lg-beta:hover - Alternative button with custom background active hover
+// .button--sm.lg-beta:active - Alternative button with custom background active active
+//
+// Weight: 702
+//
+// Styleguide Buttons.Combined
+
+.button {
+  --button-bg-alpha: #{lighten($color-alpha, 40%)};
+  --button-bg-beta: #{lighten($color-beta, 30%)};
+  --button-color-alpha: #{darken($color-alpha, 48%)};
+  --button-color-beta: #{darken($color-beta, 58%)};
+  --button-ds-alpha: #{transparentize($color-alpha, .75)};
+  --button-ds-alpha-focus: #{transparentize($color-alpha, .25)};
+  --button-ds-beta: #{transparentize($color-beta, .75)};
+  --button-ds-beta-focus: #{transparentize($color-beta, .5)};
+  @extend .fw-bold;
+  @extend .ttuc;
+  @extend .lsp;
+  @extend .brad;
+  background-color: transparent;
+  background-size: 100%;
+  color: currentColor;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  line-height: 1.66;
+  min-height: 2.75em;
+  padding: .25em 2em;
+  border: .1em solid currentColor;
+  outline: none;
+  filter: brightness(100%);
+  cursor: pointer;
+
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+
+  &:not(.button--sm) {
+    font-size: var(--fz-step-0);
+  }
+
+  &[href] {
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    filter: brightness(110%);
+    @extend .bsh--alpha;
+    background-color: var(--color-alpha-rgba);
+
+    &[class*="lg-beta"],
+    &[class*="bg-beta"],
+    [class*="lg-beta"] &,
+    [class*="bg-beta"] & {
+      @extend .bsh--beta;
+      background-color: var(--color-beta-rgba);
+    }
+  }
+
+  &:focus,
+  &:active {
+    @extend .bsh--alpha2;
+
+    &[class*="lg-beta"],
+    &[class*="bg-beta"],
+    [class*="lg-beta"] &,
+    [class*="bg-beta"] & {
+      @extend .bsh--beta2;
+    }
+  }
+}
+
+.button--alpha {
+  background-color: var(--button-bg-alpha);
+  color: var(--button-color-alpha);
+}
+
+.button--beta {
+  background-color: var(--button-bg-beta);
+  color: var(--button-color-beta);
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-beta-rgba);
+  }
+}
+
+.button--sm {
+  font-size: var(--step--1);
+}

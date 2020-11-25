@@ -1,0 +1,17 @@
+<p>Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. What does that one point mean anyway? And you go to sleep every night knowing that one point is still missing. My friend, the solution is here.</p>
+<!-- more -->
+<blockquote>
+<p>{cldnry Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx.png &quot;Google Analytics browser caching issue.&quot; %}</p>
+</blockquote>
+<h2>The solution</h2>
+<p>The answer is pretty simple—use <a href="https://www.cloudflare.com/apps/google-analytics">CloudFlare Google Analytics app</a>. As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.</p>
+<h2>The setup</h2>
+<p><a href="https://www.cloudflare.com">CloudFlare</a> is awesome service that makes your project faster and safer. I'm using <a href="https://www.cloudflare.com/plans/">the free plan</a> which provides you with plenty of options. The first step is to add the website to CloudFlare. You will have to scan the site, add DNS records, and update the nameservers. Don't worry; your domain will be available the whole time, no downtime during the transition.</p>
+<p>Once when your website is added to CloudFlare, you will be notified, and you could get started with configuration. There is a significant number of configuration settings out there that are out of the scope of this article. Every option is well documented, take your time and set up every option carefully. Don't forget to check if your website is working after every change because it could be hard to debug the problems afterward. Believe me; I have learned that the hard way.</p>
+<h2>The Google Analytics app</h2>
+<p>The first step is to remove the currently installed Google Analytics tracking code. To install the Google Analytics app, go to Apps tab and search for it. Click &quot;Preview&quot;, add the tracking code and choose the pages on which to install the Google Analytics. Don't forget to click on &quot;Install&quot; button to finish the installation. Now go to <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a> and test your website if it's working.</p>
+<h2>Final thoughts</h2>
+<p>This issue has haunted me for months, and now I have <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.silvestar.codes">the perfect score</a>.</p>
+<p>Do you have the perfect score? Do you have an alternative solution?</p>
+<p>Let me know in the comments below or on my Twitter page.</p>
+<p><em>If you want me to help you with your score, I'm available for <a href="/hire-me">hire</a>.</em></p>

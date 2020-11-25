@@ -1,0 +1,37 @@
+// List
+//
+// Markup: _list.html
+//
+// Weight: 900
+//
+// Styleguide List
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.list-condensed {
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ul:not([class]) {
+  @extend .list-condensed;
+  @extend .list-inside;
+}

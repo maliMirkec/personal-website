@@ -1,0 +1,78 @@
+<p><strong>Angular dragtable</strong> is an Angular directive that allows table column reorder.</p>
+<p>I've been searching for a similar solution, including JavaScript libraries, jQuery plugins or Angular directives. I've tested various solutions, but nothing worked as expected. So I decided to create brand new directive.</p>
+<!-- more -->
+<p>The package is available <a href="https://github.com/maliMirkec/angular-dragtable">here</a>.
+And the demo is available <a href="https://frontend-developer.xyz/angular-dragtable/">here.</a></p>
+<h2>Angular dragtable events</h2>
+<p><strong>Angular dragtable</strong> uses <em>drag</em> events. <a href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent"><em>Drag</em> events</a> are around for a while and have a pretty good support. There are some <a href="http://mereskin.github.io/dnd/">issues</a>, but nothing that cannot be solved. It should be noted that the <em>drag</em> events do not work on mobile devices. Although I thought about implementing mobile support using <a href="https://developer.mozilla.org/en/docs/Web/API/Touch_events">touch events</a> or excellent <a href="http://touchpunch.furf.com/">jQuery UI Touch Punch</a> plugin, I give up at the end. This feature is not crucial on mobile devices. Even if I did provide mobile implementation, it could be really hard to use this feature.</p>
+<p>The main idea of <strong>Angular dragtable</strong> directive is to reorder the table columns by dragging table header cell. We have to listen when <em>drag</em> event starts and when it ends. When dragging occurs we should display <em>ghost</em> floating table column as a current position indicator. <strong>Angular dragtable</strong> actually contains 2 directives, one for <em>draggable</em> elements and one for <em>droppable</em> elements. A full code could be found <a href="https://github.com/maliMirkec/angular-dragtable/blob/master/angular-dragtable.js">here</a>.</p>
+<h2>Dragging</h2>
+<p>If we want to enable <em>draggable</em> events on header cell, we should add <code>drag-me</code> directive by providing it via attribute name. There are 3 main <em>drag</em> events:</p>
+<ul>
+<li><code>dragstart</code> - fires when a <em>drag</em> event start;</li>
+<li><code>drag</code> - fires during <em>drag</em> event;</li>
+<li><code>dragend</code> - fires when a <em>drag</em> event ends.</li>
+</ul>
+<p>On <code>dragstart</code> event, we want to remove every <em>ghost</em> elements that are left behind and create new <em>ghost</em> elements for current column.
+Actual dragging fires <code>drag</code> event on which we want to move <em>ghost</em> column when we move the mouse. It is always a great idea to set the <em>timeout</em> on events that occur every few hundred milliseconds.
+And finally, we will use <code>dragend</code> event to remove <em>ghost</em> column.</p>
+<h2>Dropping</h2>
+<p>Dropping events allow us to reorder columns by listening when <em>ghost</em> column is over the current column. To enable <em>droppable</em> events on header cell, we should add <code>drop-me</code> directive. For this purpose, we should use <code>dragover</code> event. This event fires when <em>draggable</em> element is over <em>droppable</em> element.</p>
+<p>On <code>dragover</code> event, we want to determine a direction of dragging event and append <em>ghost</em> column before or after current column. This means that we don't need to listen to <code>drop</code> event because we are responding with a live action on <code>dragover</code> event. That is desirable effect as we want to avoid unnecessary events. Again, we should set <em>timeout</em> here, just like we did on <code>drag</code> event.</p>
+<h2>Usage</h2>
+<p>To install <strong>Angular dragtable</strong>, clone the repository from Github or use bower installer: <code>bower install **angular-dragtable**</code>.</p>
+<p>Include <strong>Angular dragtable</strong> in your project.</p>
+<blockquote>
+<p>{codeblock lang:js %}
+(function (DemoApp) {
+'use strict';</p>
+</blockquote>
+<p>DemoApp = angular.module('DemoApp', ['Dragtable']);</p>
+<p>DemoApp.config(function () {});
+}(this));</p>
+<blockquote>
+<p>{endcodeblock %}</p>
+</blockquote>
+<p>To enable reorder of table header cells, use <code>drag-me</code> and <code>drop-me</code> directives.</p>
+<blockquote>
+<p>{codeblock lang:html %}</p>
+</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th drag-me drop-me>Name</th>
+      <th drag-me drop-me>Description</th>
+      <th drag-me drop-me>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Item 1</td>
+      <td>Description 1</td>
+      <td>1</td>
+    </tr>
+    ...
+  </tbody>
+</table>
+> {endcodeblock %}
+<p>If you want to use a custom handle for <em>drag</em> events, you should provide selector via <code>data-handle</code> attribute.</p>
+<blockquote>
+<p>{codeblock lang:html %}</p>
+</blockquote>
+<th drag-me drop-me data-handle=".my-handle">
+  <span class="my-handle drag-icon"></span> Column name
+</th>
+> {endcodeblock %}
+<p>Be sure to place handle element inside header cell.</p>
+<p>To make <strong>Angular dragtable</strong> more performant, especially when using a large table, we should use <code>data-limit</code> option. When this option is provided, a number of <em>ghost</em> column elements are limited. That means less iteration during <code>drag</code> event.</p>
+<blockquote>
+<p>{codeblock lang:html %}</p>
+</blockquote>
+<th drag-me drop-me data-limit="50"><th>
+> {endcodeblock %}
+<h2>Conclusion</h2>
+<p>In this article, I wanted to provide detailed insight of the creation process of this Angular directive.</p>
+<p>I really enjoyed building it and I'm hoping you will enjoy using it.</p>
+<p>Share your thoughts by commenting on this article or <a href="https://twitter.com/malimirkeccita">tweet me</a>.</p>

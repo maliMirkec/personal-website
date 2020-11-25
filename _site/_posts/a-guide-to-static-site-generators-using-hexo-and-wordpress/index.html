@@ -1,0 +1,77 @@
+<p><em>This article was originally published on <a href="https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers">Toptal Blog</a>.</em></p>
+<p>Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight, saving you and your users precious time and bandwidth. This increased efficiency is reflected in lower costs and, potentially, higher revenues.</p>
+<!-- more -->
+<h2>From Optimizing WordPress to Going Static</h2>
+<p>Speaking of efficient revenue generators, WordPress comes to mind. It powers 28 percent of the internet and is a potent platform with lots of great features, including extensive user and content management backed by an array of plugins, themes, APIs, etc.</p>
+<p>Even big players in our industry use <a href="https://www.toptal.com/wordpress#trust-nothing-but-brilliant-freelancers">WordPress</a>. Websites like <a href="https://www.smashingmagazine.com/">Smashing Magazine</a> and <a href="https://css-tricks.com/">CSS-Tricks</a> use WordPress, albeit significantly customized instances in both cases. However, working with WordPress can be a tedious task, especially when customizing and optimizing for performance.</p>
+<p>I started a small blog back in 2015. My first instinct was to use WordPress. It gave me a jumpstart, as I was working with WordPress already. I created a new droplet on <a href="https://www.digitalocean.com/">DigitalOcean</a> as a server, established <a href="https://vestacp.com/">Vesta</a> as Hosting Control Panel, and installed WordPress as a blog platform. Ultimately, I designed and developed a brand new WordPress theme. The only thing missing was the content.</p>
+<p>I knew I wanted to share some tips about Atom, as I was using this great editor at that time. I published a few articles about it and shared them with the community.</p>
+<p>At first, I wasn’t paying that much attention to performance because I was too focused on the content. After a while, I noticed some performance issues. The score on Google PageSpeed Insights was lousy, so I worked hard to fix and optimize my website, attaining an almost perfect score of 99/100:</p>
+<ul>
+<li>I switched from Nginx+Apache to Nginx+PHP-FPM.</li>
+<li>I used CloudFlare for speed and protection.</li>
+<li>I used Cloudinary to host images.</li>
+<li>I tweaked my theme and used Critical CSS.</li>
+</ul>
+<p>The only warning was for a Google Analytics caching issue which I didn’t know how to fix at the time.</p>
+<p>But what if 99/100 or 100/100 still don’t get you the desired performance? That’s where static page generators enter the fray.</p>
+<h2>Enter Static Page Generators and Hexo</h2>
+<p>So what is a static site generator?</p>
+<p>As the name implies, a static website generator is a system that generates static HTML files. Serving static HTML files is much faster than creating pages on the fly. There is no server rendering or compiling, which often causes a delay in page loading.</p>
+<p>When talking about performance, one must think about caching. Although there are multiple techniques for caching WordPress, this is not usually a straightforward task, unlike caching static files. Serving cached files is more performant than serving actual files from the server and it can save time when loading websites.</p>
+<p>In June of this year, Vitaly Friedman of Smashing Magazine introduced <a href="https://jamstack.org/">JAMstack</a> in a workshop in my city. I’d never heard of it, and I was very intrigued. After the seminar finished, I studied this new concept for a bit, and I realized how awesome it is. I realized that my website doesn’t need a WordPress.</p>
+<p>The first step was to decide which static page generator to use. I wasn’t aware <a href="https://www.staticgen.com/">how many there are</a>. I decided to give the <a href="https://hexo.io/">Hexo blog</a> framework a try. It is deployable to <a href="https://www.netlify.com/">Netlify</a>, has a plugin to migrate from WordPress, and uses Node.js, which I’m familiar with, unlike Jekyll and Hugo, which are based on Ruby and Go, respectively. And, as I discovered later, it is blazing fast.</p>
+<h2>Migrating WordPress to Hexo</h2>
+<p>Hexo installation is as simple as it could be. Install hexo-cli globally using npm, run the hexo init command, install npm dependencies, and voilà:</p>
+<pre><code>npm i -g hexo-cli
+hexo init &lt;blog-name&gt;
+cd &lt;blog-name&gt;
+npm install
+</code></pre>
+<p>To make the migration, install the <a href="https://github.com/hexojs/hexo-migrator-wordpress">hexo-migrator-wordpress plugin</a>. This plugin expects XML files as a source. XML files could be exported via the WordPress export tool, which can be found in administration panel under Tools -&gt; Export -&gt; WordPress. Finally, type the hexo migrate command to finish the import.</p>
+<pre><code>hexo migrate wordpress &lt;source&gt;
+</code></pre>
+<p>The only thing left to do is to check the result. Run the hexo server command to start the server and open the browser at given address.</p>
+<pre><code>hexo server
+</code></pre>
+<h2>Markdown and Its Limitations</h2>
+<p>Hexo supports Markdown out of the box. <a href="https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers#trust-nothing-but-brilliant-freelancers">Markdown is a markup language</a> that many use to format README files, comments, and posts. But it could be used for writing your article as well. Its syntax is intuitive and easy to learn.</p>
+<p>Another advantage for Markdown is that it generates clean and valid HTML. That allows developers to create clean and maintainable CSS rules for styling blog articles and pages.</p>
+<p>A developer’s life is never easy. We often run into problems that could cause us to spend time on unexpected things. If we learn something along the way, then we didn’t waste this time, and that is a good thing. The same happened to me. I thought everything went well because there was no compiling error, but then I noticed that some things didn’t work as expected.</p>
+<p>For example, Codepen demos didn’t load. I searched for a Hexo plugin, and found one. Unfortunately, <a href="https://github.com/timnew/hexo-tag-codepen">this</a> plugin wasn’t official, and it generated HTML errors that were unacceptable. I wanted to contribute and fix the problems, but the latest pull request was unresolved for more than a year and a half. I decided it would be easier to fork the repository, fix the problems, and publish the plugin on the Hexo page so that anyone could use it. <a href="https://github.com/maliMirkec/hexo-tag-codepen">The plugin</a> was accepted, I updated the content, and Codepen demos worked like a charm.</p>
+<p>Similar problems occurred with CanIUse embeds. Now that I knew how to create a Hexo plugin, there was no excuse not to do so. My <a href="https://github.com/maliMirkec/hexo-caniuse">hexo-caniuse plugin</a> was also published, as was my <a href="https://github.com/maliMirkec/hexo-cloudinary">hexo-cloudinary plugin</a> for responsive images loaded from Cloudinary CDN.</p>
+<h2>Redesign and Optimization</h2>
+<p>The design of the website is rather fundamental. Hexo offers a handful of themes for free on the official website, but I wanted a unique theme for my Hexo site. After I read the <a href="https://hexo.io/docs/themes.html">documentation</a> and learned how to customize Hexo, I started to develop an original theme from scratch.</p>
+<p>To create new templates, I decided to use EJS for templating. Having never worked with <a href="http://www.embeddedjs.com/">EJS</a>, I saw it as a chance to learn the new template syntax. If you don’t like EJS, Hexo provides you with <a href="http://www.swig.org/">Swig</a>, <a href="http://haml.info/">Haml</a> or <a href="https://pugjs.org/api/getting-started.html">pug</a> support via plugins.</p>
+<p>During the redesign process, I was paying close attention to performance. By following best practices, we can speed up our static website even more. Placing JavaScript files at the bottom of the document and using the <a href="https://www.smashingmagazine.com/2015/08/understanding-critical-css/">Critical CSS technique</a> creates the best experience for your audience.</p>
+<p>SEO optimization is crucial for blog visibility on search engines like Google. Hexo has a built-in helper for inserting Open Graph data. Hexo uses YAML files to store site and theme configuration. I used the theme configuration file to configure the site name, description, and various social IDs.</p>
+<p>Adding Gulp or Webpack to your build process is always helpful and recommended. I used Gulp to minify and compress CSS and JavaScript files, and everything was ready. I could deploy it.</p>
+<h2>Netlify</h2>
+<p>Netlify is a platform that provides hosting for websites and apps with blazing fast performance. It markets itself as a unified platform that automates code to create performant and easy to maintain websites.</p>
+<blockquote>
+<p>“Simply push your code and let us take care of the rest.”</p>
+</blockquote>
+<p>As you’d expect, configuring the website is straightforward:</p>
+<ol>
+<li>Set up the domain.</li>
+<li>Change the DNS records.</li>
+<li>Set up build and deployment.</li>
+<li>Turn on SSL.</li>
+</ol>
+<p>When everything was set up, I ran a handful of basic tests to see the scores, including <a href="https://tools.pingdom.com/">Pingdom Website Speed Test</a>, <a href="https://www.webpagetest.org/">Web Page Test</a>, and <a href="https://testmysite.io/">Testmysite.io</a>. The results were excellent, as the site got the highest scores on every tool.</p>
+<h2>CloudFlare</h2>
+<p>Despite the excellent scores, I wanted to try CloudFlare, just to see how much it would speed up the website additionally. CloudFlare can be overwhelming at first, but learning how to use it is fundamental. After I configured CloudFlare, I reran the tests and the results were even better.</p>
+<p>The final test was <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a>. The score was almost 100% both for mobile and desktop versions. The problem was Google Analytics browser caching. <a href="/articles/fixing-google-analytics-caching-issue/">I managed to fix the issue</a> by using CloudFlare App for Google Analytics.</p>
+<h2>How Much Does It Cost?</h2>
+<p>Using Hexo on Netlify with CloudFlare costs nothing.</p>
+<p>Hexo is an open-source platform, so it’s free no matter how you decide to use it. It has a large community, and is the third most popular open source static page generator according to StaticGen.</p>
+<p>Netlify has an open plan which provides us with great options for our hosting. Images are hosted on Cloudinary’s open plan as well. CloudFlare’s free plan allows us to configure a high number of rules which can speed up your already fast website. It also allows us to fix the Google Analytics browser caching issue. I didn’t pay for the domain either, since I used a free personal domain provided by the government.</p>
+<p>This project setup reduced my budget to a minimum. If you need more advanced features for your project, a static page generator may still save you a few bucks.</p>
+<p>Serving cached files means CPU and bandwidth usage is reduced, which in turn means you can use cheaper hosting plans with less powerful hardware. Not only that, your website will be much faster, meaning your users will enjoy browsing on both mobile and desktop devices. And, because page load speed can impact Google Search rankings, your website will rank higher, gaining even more visitors.</p>
+<p>All this means that you could spend part of your budget elsewhere—for example, on promoting your website or creating additional content, which will help gain a tad more revenue.</p>
+<h2>The Case for Static Site Generators</h2>
+<p>Migrating from WordPress to a static page generator is no simple task, and it’s definitely not something every WordPress user should do. However, Hexo made this transition relatively painless, thanks to its plugins, excellent documentation, and a simple API.</p>
+<p>Before deciding whether or not you want to migrate your product to a static solution, you need to be aware of the limitations that come with static page generators, such as content restrictions, Markdown learning curve, and version control.</p>
+<p>You should also be aware that Hexo is a blog framework. It is perfect for developers and tech people that know how to use a text editor and terminal. If you like using a web interface to manage your content, there is a plugin that provides that functionality as well. It’s called <a href="https://github.com/jaredly/hexo-admin">hexo-admin</a> and it’s quite popular.</p>
+<p>If you’re already using WordPress, you should stop and think which features of WordPress you are using right now, and which are indispensable. Do you have a complicated content structure? Are you using user management? Are you using a lot of plugins on your instance of WordPress and are they all necessary? Are you satisfied with performance of your site?</p>
+<p>If the answer to most or all of these question is no, than you are ready to supercharge your website with a static page generator. Depending on the use case and your requirements, static pages could help maximize efficiency while minimizing cost. If, on the other hand, you demand WordPress flexibility, you’re probably not even considering such a move.</p>

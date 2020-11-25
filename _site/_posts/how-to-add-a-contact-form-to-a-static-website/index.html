@@ -1,0 +1,79 @@
+<p>With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with <a href="https://kwes.io">Kwes form builder</a>.</p>
+<p>Adding a contact form to a static site could be a challenge because the static site usually doesn't have a backend that could handle the form submissions. In that case, we could use a service that would do this for us. There are many services out there, like Netlify forms or Typeform, but in this case, we are going to use the Kwes service.</p>
+<!--more-->
+<p>We are going to build a contact form with the following fields:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Form element</th>
+<th>Form field</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Text input</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Email input</td>
+</tr>
+<tr>
+<td>Message</td>
+<td>Textarea input</td>
+</tr>
+<tr>
+<td>Button</td>
+<td>Submit button</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>All input fields should be required, and the email form field should be validated.</p>
+<h2>Integration</h2>
+<p>Since we are going to add Kwes form to our site, we should sign up for free first.</p>
+<p>After signing up, add a new website, and a new form from Kwes dashboard.</p>
+<blockquote>
+<p>{cldnry kwes-dashboard_nfctyx.png &quot;Kwes Dashboard screenshot.&quot; %}</p>
+</blockquote>
+<p>To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.</p>
+<pre><code class="language-html">&lt;script src=&quot;https://kwes.io/js/kwes.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>I am using <a href="https://hexo.io/">Hexo</a> static page generator for my site, but it works with other static site generators like <a href="https://gohugo.io">Hugo</a> or <a href="https://jekyllrb.com/">Jekyll</a>. Since most of the static site generators support Markdown, you could paste the contact code directly in Markdown, and it would work, too. Otherwise, you could create a separate page or layout and paste the code there.</p>
+<blockquote>
+<p>Pro tip: There is no need to add JavaScript file to pages that don't have a contact form.</p>
+</blockquote>
+<p>Next, we would add an HTML form to our contact page. To do this, start by adding the usual form tags.</p>
+<blockquote>
+<p>Pro tip: Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible.</p>
+</blockquote>
+<p>Then add the Kwes attributes. Start by adding the wrapper div with the <code>kwes-from</code> class. Next, add the action link to the <code>form</code> element, and then add rules to your <code>input</code> fields. The code should look something like this:</p>
+<pre><code class="language-html">&lt;div class=&quot;kwes-form&quot;&gt;
+  &lt;form method=&quot;POST&quot; action=&quot;https://kwes.io/api/foreign/forms/youruniqueid&quot;&gt;
+    &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; rules=&quot;required&quot;&gt;
+    &lt;label for=&quot;email&quot;&gt;E-mail&lt;/label&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; rules=&quot;required|email|max:255&quot;&gt;
+    &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+    &lt;textarea name=&quot;message&quot; id=&quot;message&quot; rules=&quot;required&quot;&gt;&lt;/textarea&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+</code></pre>
+<p>You could see all the rules options at the <a href="https://kwes.io/docs/validation-rules">Kwes official documentation</a>.</p>
+<p>Before you publish the form, you should test the form first. With Kwes, you could do it in two different ways:</p>
+<ul>
+<li>by providing a testing domain in the site settings, or</li>
+<li>by adding HTML attribute <code>mode=&quot;test&quot;</code> to your <code>form</code> element.</li>
+</ul>
+<p>During <a href="https://kwes.io/docs/form-mode">the testing mode</a>, all your submission would not affect the data in your plan. You could view test data in the dashboard by switching the toggle. As easy as that.</p>
+<p>The last step is setting the code to the production mode. Now we should sit back and wait for the submissions knowing that Kwes would handle everything for us—from form validation, through spam filtering, to sending confirmation emails.</p>
+<p>You could customize the style of the notification messages to match your brand. See the example of a customized contact form <a href="https://www.silvestar.codes/contact/">on my site</a>.</p>
+<h2>Kwes features</h2>
+<p>Kwes has a built-in <a href="https://kwes.io/docs/hide-show-logic">logic for showing or hiding any content on a condition</a>. For example, you could show different plan details based on the selected plan.</p>
+<p>For me, the most significant advantage is form validation. The validation takes action on both frontend and backend site. Not having to reinvent the wheel and writing validation rules over and over again is time-saving but also a task that I would very happily like to avoid on every project. With more than 50 validation rules, Kwes should cover the most scenarios, even the most complicated ones, like handling dates, times, passwords, and file uploads.</p>
+<p>When your form is public, there is a high chance that you would get a spam submission. With Kwes, you could get spam protection and even help Kwes learn which messages to filter out.</p>
+<p>If you want more control over your form and integrate it with other services like Zapier, you could do it. You could even take advantage of the Kwes API and manage submissions on your own.</p>
+<h2>Conclusion</h2>
+<p>Kwes comes with the cost, but you should think about saving yourself and your team hours of development time. I think it is worth to leave the validation to developers who specialize in this field of area and focus on other parts of your project or business.</p>

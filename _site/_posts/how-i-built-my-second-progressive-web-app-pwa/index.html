@@ -1,0 +1,116 @@
+<p>As of today, my side project <a href="https://cld.silvestar.codes/">Code Line Daily</a> is available as a Progressive Web App.</p>
+<p>If you happen to read <a href="/articles/how-i-built-my-first-progressive-web-app-pwa/">my previous post about “How I built my first Progressive Web App (PWA)”</a>, this article is a sequel.</p>
+<!-- more -->
+<h2>Workbox</h2>
+<p>In my previous attempt to make PWA, I handled everything manually. I learned about available options and techniques, and that helped me understand how PWA websites work.</p>
+<p>This time, I decided to use <a href="https://developers.google.com/web/tools/workbox">Workbox</a> to make PWA. Workbox is Google’s tool for making PWA more smoothly.</p>
+<blockquote>
+<p>“Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build <a href="https://developers.google.com/web/progressive-web-apps/">Progressive Web Apps</a>.”</p>
+</blockquote>
+<p>There is an excellent <a href="https://developers.google.com/web/tools/workbox/guides/get-started">“Getting Started” guide</a> which I followed and set up the initial version in a matter of minutes. Workbox is providing <a href="https://developers.google.com/web/tools/workbox/modules/workbox-strategies">predefined caching strategies</a>, like “CacheFirst” or “StaleWhileRevalidate”. You could set the caching strategy in a single line, like this:</p>
+<pre><code class="language-bash">// Serve all CSS files with StaleWhileRevalidate strategy
+workbox.routing.registerRoute(
+  /\.css$/,
+  new workbox.strategies.StaleWhileRevalidate()
+)
+</code></pre>
+<p>This strategy tells of serving old/stale CSS files if available. If not available, use a network request to fetch files.</p>
+<p>You could see all the strategies for Code Line Daily <a href="https://github.com/maliMirkec/code-line-daily/blob/master/src/sw/sw.js">in the GitHub repository</a>.</p>
+<h2>Precaching</h2>
+<p>After setting the strategies, I have created the list of files to precache using <a href="https://developers.google.com/web/tools/workbox/guides/precache-files/cli">Workbox CLI</a>. I have installed Workbox CLI as a global <code>npm</code> package.</p>
+<pre><code class="language-bash">npm i -g workbox-cli
+</code></pre>
+<p>After that, <code>workbox</code> command was available in my terminal. I have run the command to bring up the wizard.</p>
+<pre><code class="language-bash">workbox wizard --injectManifest
+</code></pre>
+<p>I have selected configured paths and selected files to precache, and Workbox CLI created a new file for me.</p>
+<p>To be able to inject the files into the Service Worker file, I have added the following line to it:</p>
+<pre><code class="language-js">workbox.precaching.precacheAndRoute([]);
+</code></pre>
+<p>Finally, I have run the command <code>workbox injectManifest</code> which created the new Service Worker file with a populated list of files to precache.</p>
+<h2>Automation</h2>
+<p>I was quite happy how everything was working, but I realised that I would need to run these commands manually. Since  I have already put much effort to automatize this project, I wanted to add Workbox to my Gulp tasks. Luckily for me, Workbox is available as a plugin for Node.js environment, too.</p>
+<p>There is a <code>generateSW</code> mode that creates a service worker with a precaching setup which seemed like a logical option for my needs.</p>
+<blockquote>
+<p>“This will generate a service worker with precaching setup for all of the files picked up by your configuration.”</p>
+</blockquote>
+<p>Here is the configuration for my project.</p>
+<pre><code class="language-json">{
+  &quot;globDirectory&quot;: &quot;dist/&quot;,
+  &quot;globPatterns&quot;: [
+    &quot;**/*.{html,webmanifest,css,eot,svg,ttf,woff,woff2,png,js,ico,jpg}&quot;
+  ],
+  &quot;globIgnores&quot;: [
+    &quot;docs/**/*&quot;,
+    &quot;gfx/cover/**/*&quot;
+  ],
+  &quot;swDest&quot;: &quot;dist/sw.js&quot;,
+  &quot;swSrc&quot;: &quot;src/sw/sw.js&quot;
+}
+</code></pre>
+<p>where:</p>
+<ul>
+<li><code>swSrc</code> option tells where to find the Service Worker file,</li>
+<li><code>swDest</code> option tells where to save the processed Service Worker file,</li>
+<li><code>globDirectory</code> option tells which folder to scan for precached files,</li>
+<li><code>globPatterns</code> option tells which patterns to use, and</li>
+<li><code>globIgnores</code> option tells which folders to ignore, despite the pattern match.</li>
+</ul>
+<p>After running the Gulp tasks, I got the final Service Worker file which looks like this:</p>
+<pre><code class="language-js">// load workbox
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
+
+// output successful message
+if (workbox) {
+  console.log(`Yay! Workbox is loaded 🎉`)
+} else {
+  console.log(`Boo! Workbox didn't load 😬`)
+}
+
+workbox.core.setCacheNameDetails({
+  prefix: 'cld',
+  suffix: 'v1.0',
+  precache: 'precache',
+  runtime: 'runtime'
+})
+
+workbox.precaching.precacheAndRoute([
+  // precached file list
+])
+
+// Serve all html files with StaleWhileRevalidate strategy
+workbox.routing.registerRoute(
+  /\.html$/,
+  new workbox.strategies.NetworkFirst()
+)
+
+// Serve all css files with StaleWhileRevalidate strategy
+workbox.routing.registerRoute(
+  /\.js$/,
+  new workbox.strategies.StaleWhileRevalidate()
+)
+
+// Serve all css files with StaleWhileRevalidate strategy
+workbox.routing.registerRoute(
+  /\.css$/,
+  new workbox.strategies.StaleWhileRevalidate()
+)
+
+// Serve all other assets with CacheFirst strategy
+workbox.routing.registerRoute(
+  /\.(?:png|jpg|jpeg|svg|gif|webp|ico|webmanifest|eot,ttf,woff,woff2)$/,
+  new workbox.strategies.CacheFirst({
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 20,
+        maxAgeSeconds: 30 * 24 * 60 * 60
+      })
+    ]
+  })
+)
+
+</code></pre>
+<h2>Final results</h2>
+<p>Code Line Daily is now Progressive Web App. That is my second PWA, and I would recommend everyone to learn more about it. The site is now available offline, but it is also saving bandwidth for my users by serving cached assets whenever possible. Go ahead and try to install <a href="https://cld.silvestar.codes/">Code Line Daily</a> and let me know what do you think.</p>
+<p><img src="https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" alt="Lighthouse showing fireworks for perfect scores."></p>
+<p>As a bonus point, I have run the audit for Code Line Daily site, and I see fireworks again, just like on my personal site. 💯</p>

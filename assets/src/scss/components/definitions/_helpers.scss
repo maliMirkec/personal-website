@@ -1,0 +1,61 @@
+// Helpers
+//
+// Markup: _helpers.html
+//
+// Weight: 150
+//
+// Styleguide Helpers
+
+@function strip-unit($value) {
+  @return #{$value / ($value * 0 + 1)};
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@for $i from 1 through 3 {
+  .wrapper-bp#{$i} {
+    max-width: var(--bp#{$i});
+  }
+}
+
+.brad {
+  border-radius: var(--border-radius);
+}
+
+.bsh--alpha {
+  box-shadow: 0 0 0 .2rem var(--color-alpha-rgba);
+}
+
+.bsh--alpha2 {
+  box-shadow: 0 0 0 .2rem var(--color-alpha-rgba2);
+}
+
+.bsh--beta {
+  box-shadow: 0 0 0 .2rem var(--color-beta-rgba);
+}
+
+.bsh--beta2 {
+  box-shadow: 0 0 0 .2rem var(--color-beta-rgba2);
+}
+
+.bsh--light {
+  box-shadow: 0 0 0 .2rem var(--color-light-rgba);
+}
+
+.bsh--dark {
+  box-shadow: 0 0 0 .2rem var(--color-dark-rgba);
+}
+
+.bsh--darker {
+  box-shadow: 0 0 0 .2rem var(--color-darker-rgba);
+}

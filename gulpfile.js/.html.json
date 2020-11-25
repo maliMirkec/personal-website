@@ -1,12 +1,7 @@
 {
   "pugConfig": {
     "basedir": "",
-    "pretty": true,
-    "data": {
-      "config": {
-        "title": "Hexo Theme SB"
-      }
-    }
+    "pretty": true
   },
   "htmllintConfig": {
     "config": "",

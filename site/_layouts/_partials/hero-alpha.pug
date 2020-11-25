@@ -1,0 +1,15 @@
+- var heroClass1 = `${hero.wrapperClass ? hero.wrapperClass : 'padding-4 lg-alpha'}`;
+- var heroClass2 = `wrapper wrapper-bp3 text-center ${hero.elementClass ? hero.elementClass : 'bg-alpha2'}`;
+
+section(class=heroClass1)
+  div(class=heroClass2)
+    .padding-4.df-col-center
+      if (hero.src)
+        img(src=hero.src alt=hero.alt width='100' height='100')
+      if (hero.title)
+        h1.fz-step-5.fw-black.margin-b-0= hero.title
+      if (hero.desc)
+        p.fz-step-1.fw-bold.margin-y-3= hero.desc
+      if (hero.cta)
+        - var ctaClass = `button margin-t-2 ${hero.cta.class ? hero.cta.class : 'button--alpha'}`
+        a(class=ctaClass, href=hero.cta.href)= hero.cta.title

@@ -1,0 +1,41 @@
+<p>I've been using all kind of local server solutions back in a day, from <a href="http://www.wampserver.com/en/">WampServer</a> to <a href="https://www.vagrantup.com/">Vagrant</a>. I noticed that I had to spend large amount of time on learning and configuration. That was, not only time consuming, but also very frustrating, especially when you're a newby and you don't understand half of the instructions and problems.</p>
+<!-- more -->
+<p>Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my <a href="https://atom.io/">Atom</a>.</p>
+<h2>Bitnami WAMP Stack</h2>
+<p>First things first—you'll need an actual local server. I've tried more than few solutions and finally decided to go with <strong>Bitnami WAMP Stack</strong> for Windows. Installation is pretty straightforward, but let's go through step by step.</p>
+<p>First go to <a href="https://bitnami.com/stack/wamp"><strong>Bitnami WAMP Stack</strong> page</a> and download installer and start the installation process.</p>
+<p>During installation setup, select if you want to install any PHP framework. I didn't, because I don't actually need any.</p>
+<p>Then select where you want to install <strong>Bitnami WAMP Stack</strong>. After that Setup will create root user for database. Enter password and remember it, maybe you'll need it in the future for some more complicated development.</p>
+<p>Next steps are to select Apache web server port, SSL port and MySQL Server port. Port 80 is the standard Apache web server port, but it may not be available on you machine. In that case, select another port or make sure port 80 is not in use. Port 443 is the standard SSL port, try to set it up. If in use, use another one. Do the same with MySQL Server port, the standard port is 3306. Remember this settings, maybe you'll need it some day.</p>
+<p><em>If any port is available, Setup will automatically assign standard port and skip steps.</em></p>
+<p>That's it, proceed with a installation, wait for process to finish and violà—you got yourself a local web server.</p>
+<p><img src="https://res.cloudinary.com/starbist/image/upload/v1497509507/bitnami-wamp-installation_p0sgui.gif" alt="Bitnami WAMP installation example."></p>
+<h2>php-server for Atom</h2>
+<p>If you managed to install <strong>Bitnami WAMP Stack</strong>, you could use it as your development environment. You could even install WordPress or <a href="https://bitnami.com/stack/wamp/modules">any other module</a> for <strong>Bitnami WAMP Stack</strong> for even quicker and simpler development environment. With a little knowledge of hosting, you could event add a local domains. I'll write about this topic in the future, so stay tuned.</p>
+<p>But often I find myself in a situation where I don't need the whole environment, I just need to develop and test a single feature. This is where <strong><a href="https://atom.io/packages/php-server">php-server</a></strong> for Atom comes in.</p>
+<p><strong>php-server</strong> allows you to run PHP server from any folder or file. You don't have to be a PHP developer to use it, because this package allows you to see static HTML pages, too. And this is where <strong>php-server</strong> has saved me a great amount of time.</p>
+<p>Imagine you need to create a form or a jQuery plugin. It is part of some complicated project written in C# or Ruby. There is no need run the project for this job, all you need is a page, a static demo page where you could fake real project page and quickly complete a task. Easy! Create new folder, create <code>index.html</code> or <code>index.php</code> file, add some markup and styling or a script and start developing.</p>
+<p><strong>php-server</strong> is available on Atom package manager. After installation, you'll have to configure package. The most important settings are <em>Path to PHP executable</em> and <em>Default port to bind to</em>. This is why we had to install <strong>Bitnami WAMP Stack</strong> (or any other local server). In the installation folder of <strong>Bitnami WAMP Stack</strong>, find <code>php</code> folder. You should find executable PHP file there, <code>php.exe</code>. This is your path. Default port cannot be the same as Bitnami's, so use another one, like 9000. There are other advanced options, but they are out of scope of this article.</p>
+<blockquote>
+<p>{cldnry php-server-settings_htpxrt.png &quot;PHP-server settings.&quot; %}</p>
+</blockquote>
+<p>There are no shortcuts for this package, you'll have to call commands from command palette. The most common commands are <em>Php server: Start</em> and <em>Php server: stop</em>. For all available commands, please refer to <a href="https://atom.io/packages/php-server"><strong>php-server</strong> package page</a>.</p>
+<p>When you start <strong>php-server</strong>, your browser will start automatically and try to open <code>index.php</code> or <code>index.html</code> file. If necessary, you could use different filename, but then you have to add that file to the URL. For example, if you create file with named <code>form.php</code>, then your URL should look like this: http://localhost:9000/form.php.</p>
+<p><em>When you run your <strong>php-server</strong> for the first time, Firewall window could pop out asking you to allow access to this feature. You should allow it. This depends of your system settings.</em></p>
+<p>That's it! If you're more familiar with PHP, you could even create more advanced architecture for your development.</p>
+<p><em>Pro tip: by default, PHP opcache is turned on. This means that you'll have to wait for new changes in PHP file to propagate every time. To turn off this feature, go to <code>php</code> folder in your Bitnami installation folder and open file named <code>php.ini</code>. Search for <code>opcache.enable</code> and set it to 0. Now every change in PHP file should be immediately propagated to your browser.</em></p>
+<h2>livereload</h2>
+<p>So far we managed to set up our local PHP server. Now let's get fancy.</p>
+<p>Back in the day every developer dreamed about live reloading in browser on file change in editor. Today there are more than few solutions for that. Since we're using Atom, let's make it work in Atom.</p>
+<p>Go ahead and install <strong>livereload</strong> package from Atom package manager. After installation, you should configure package. There nothing much here, this is how my configuration looks like:</p>
+<blockquote>
+<p>{cldnry livereload-settings_u6h4bx.png &quot;Livereload settings.&quot; %}</p>
+</blockquote>
+<p>To start <strong>livereload</strong> server, you could use command palette or shortcut <code>ctrl + shift + R</code>.</p>
+<p>Nothing happens in your browser yet, because we need to install browser extension as well. Go to the <strong>LiveReload</strong> extension's website and install it. It works both on Chrome and Firefox.</p>
+<p><em>I prefer Atom solution for <strong>LiveReload</strong> because native solution didn't work well on my machine. Plus, I could use it directly from Atom and that is pretty awesome, if you ask me.</em></p>
+<p>Assuming that you've started <strong>livereload</strong> server in Atom, now you could turn on your browser extension. Go ahead and save changes in CSS or JavaScript or PHP file and enjoy the magic.</p>
+<p><em>Pro tip: if you're using <a href="http://gulpjs.com/">Gulp</a> or <a href="http://gruntjs.com/">Grunt</a> or any other task runner, don't worry, it will work. More about that in the following articles.</em></p>
+<h2>Final thought</h2>
+<p>There you have it—a perfect local server. It may not be adequate for complicated architectures, but it's perfect for quick and simple development. All you need to do is turn on your Atom, start <strong>php-server</strong> and <strong>livereload</strong> and start digging in. Isn't that just prefect?</p>
+<p>Stay tuned, follow me on <a href="https://twitter.com/malimirkeccita">Twitter</a> and <a href="https://medium.com/@malimirkeccita">Medium</a>.</p>

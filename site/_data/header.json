@@ -1,0 +1,38 @@
+{
+  "logo": {
+    "href": "/",
+    "src": "/gfx/svg/logo.svg",
+    "title": "Silvestar Bistrović"
+  },
+  "menu": [{
+    "href": "/portfolio/",
+    "title": "Portfolio",
+    "list": [{
+      "href": "/side-projects/",
+      "title": "Side Projects"
+    }, {
+      "href": "/testimonials/",
+      "title": "Testimonials"
+    }]
+  }, {
+    "href": "/blog/",
+    "title": "Blog",
+    "list": [{
+      "href": "/Publications/",
+      "title": "UI Dev Newsletter"
+    }, {
+      "href": "/testimonials/",
+      "title": "Testimonials"
+    }]
+  }, {
+    "href": "/about/",
+    "title": "About",
+    "list": [{
+      "href": "/contact/",
+      "title": "Contact"
+    }, {
+      "href": "/services/",
+      "title": "Services"
+    }]
+  }]
+}

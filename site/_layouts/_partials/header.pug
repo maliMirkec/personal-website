@@ -1,0 +1,20 @@
+if (header)
+  header.lg-alpha.padding-2
+    nav.wrapper.wrapper-bp2
+      ul.df-center.list-reset
+        if (header.logo)
+          li.df-center.margin-x-auto.padding-x-2
+            a.rm(href=header.logo.href)
+              img(src=header.logo.src alt=header.logo.title width='100' height='100')
+        if (header.menu)
+          li.margin-x-a
+            ul.df-center.list-reset
+              each item in header.menu
+                li
+                  ul.df-col.list-reset
+                    li.margin-x-2.fz-step-0
+                      a.fw-bold.padding-y-1.tdn(href=item.href)= item.title
+                    if (item.list)
+                      each subitem in item.list
+                        li.margin-x-2.fz-step--1
+                          a.fw-bold.padding-y-1.tdn(href=subitem.href)= subitem.title

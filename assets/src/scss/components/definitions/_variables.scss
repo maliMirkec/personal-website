@@ -1,0 +1,82 @@
+// Breakpoints
+$bp1: 600px;
+$bp2: 1200px;
+$bp3: 1600px;
+
+// Colors
+$color-alpha: #12e09f;
+$color-beta: #ff3366;
+$color-light: #fff;
+$color-dark: #111;
+$color-alpha-rgba: transparentize($color-alpha, .85);
+$color-alpha-rgba2: transparentize($color-alpha, .5);
+$color-beta-rgba: transparentize($color-beta, .85);
+$color-beta-rgba2: transparentize($color-beta, .5);
+$color-light-rgba: transparentize($color-light, .85);
+$color-dark-rgba: transparentize($color-dark, .85);
+$color-darker-rgba: transparentize($color-dark, .5);
+
+
+// Typography
+$font-alpha: 'Playfair Display', serif;
+$font-beta: 'Courier New', Courier, monospace;
+$min-size: 16px;
+$max-size: 19px;
+$min-ratio: 1.2;
+$max-ratio: 1.2;
+$lh: 1.44;
+$lsp: .01em;
+
+// Spacing
+$space-default: .25rem;
+$space-factor: 4;
+$space: $space-default * $space-factor;
+
+// Border Radius
+$brad: .1rem;
+
+// Grid
+$cols: repeat(auto-fit, minmax(400px, 1fr));
+$gap: $space * 2;
+
+:root {
+  // Breakpoints
+  --bp1: #{$bp1};
+  --bp2: #{$bp2};
+  --bp3: #{$bp3};
+
+  // Colors
+  --color-alpha: #{$color-alpha};
+  --color-beta: #{$color-beta};
+  --color-light: #{$color-light};
+  --color-dark: #{$color-dark};
+  --color-alpha-rgba: #{$color-alpha-rgba};
+  --color-alpha-rgba2: #{$color-alpha-rgba2};
+  --color-beta-rgba: #{$color-beta-rgba};
+  --color-beta-rgba2: #{$color-beta-rgba2};
+  --color-light-rgba: #{$color-light-rgba};
+  --color-dark-rgba: #{$color-dark-rgba};
+  --color-darker-rgba: #{$color-darker-rgba};
+
+  // Typography
+  --selection: #{$color-alpha-rgba};
+  --font-alpha: #{$font-alpha};
+  --font-beta: #{$font-beta};
+  --min-size: #{$min-size};
+  --max-size: #{$max-size};
+  --min-ratio: #{$min-ratio};
+  --max-ratio: #{$max-ratio};
+  --line-height: #{$lh};
+  --letter-spacing: #{$lsp};
+
+  // Spacing
+  --space-default: #{$space-default};
+  --space: #{$space};
+
+  // Border Radius
+  --border-radius: #{$brad};
+
+  // Grid
+  --cols: #{$cols};
+  --gap: #{$gap};
+}

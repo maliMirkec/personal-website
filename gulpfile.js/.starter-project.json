@@ -1,7 +1,7 @@
 {
   "proot": "./",
-  "src": "src",
-  "dist": "source",
+  "src": "assets/src",
+  "dist": "assets/dist",
   "sync": {
     "run": true
   },

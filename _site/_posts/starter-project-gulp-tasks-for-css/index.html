@@ -1,0 +1,135 @@
+<p>This article is part of a series about <a href="https://starter.silvestar.codes/">Starter Project</a>, and this time I will explain all about Gulp tasks for CSS.</p>
+<!-- more -->
+<h2>Settings</h2>
+<p>The idea of Starter Project is to have a single config file for all Gulp tasks. If you open <code>config.json</code> file, you could see a section for CSS.</p>
+<blockquote>
+<p>{cldnry config-json-css_ha2n75.png &quot;config.json file, CSS part.&quot; %}</p>
+</blockquote>
+<p>The first option is <code>run</code>. If set to true, CSS Gulp tasks will be executed. There are three other mandatory options for CSS:</p>
+<ul>
+<li><code>src</code> - a path to a folder with Sass files,</li>
+<li><code>dest</code> - a path to a folder where compiled CSS files will be saved, and</li>
+<li><code>clean</code> - a path to a folder which will be cleaned before Gulp execution (almost always the same as <code>dest</code> option).</li>
+</ul>
+<p><em>All paths are prepended with global <code>root</code> path.</em></p>
+<p>Other options are for <a href="https://www.npmjs.com/package/gulp-cssimport">gulp-cssimport</a>, <a href="https://www.npmjs.com/package/gulp-autoprefixer">gulp-autoprefixer</a>, <a href="https://www.npmjs.com/package/gulp-rename">gulp-rename</a>, and <a href="https://www.npmjs.com/package/gulp-sourcemaps">gulp-sourcemaps</a>.</p>
+<h2>Sass</h2>
+<p>Starter Project uses <a href="https://sass-lang.com/">Sass</a> as a preprocessor for CSS. As it's official website says, Sass is &quot;CSS with superpowers.&quot; A significant number of developers are supporters and users of this robust program. It has useful features like variables, functions, and mixins.</p>
+<blockquote>
+<p>“CSS with superpowers.”</p>
+</blockquote>
+<p>Starter Project uses <a href="https://www.npmjs.com/package/gulp-sass">gulp-sass</a> plugin for compiling Sass to CSS.</p>
+<h2>Imports</h2>
+<p><a href="https://www.npmjs.com/package/gulp-cssimport">gulp-cssimport</a> is a plugin that allows import of linked files by including content to CSS file. This means you cannot use native CSS <code>@import</code> implementation, but it is considered <a href="https://stackoverflow.com/a/7199377">a bad practice</a> in most cases anyway.</p>
+<p>To use this plugin, add <code>@import</code> statement in Sass file.</p>
+<pre><code class="language-sass">// Plugins
+@import 'normalize';
+@import 'modularscale';
+@import 'mq';
+
+// Configuration
+@import 'variables';
+@import 'fonts';
+@import 'locks';
+@import 'helpers';
+@import 'typography';
+@import 'theme';
+</code></pre>
+<p>You could add <code>includePaths</code> option to the <code>sassConfig</code> settings to avoid writing full paths of the included libraries.</p>
+<pre><code>&quot;sassConfig&quot;: {
+  &quot;includePaths&quot;: [
+     &quot;./node_modules/modularscale-sass/stylesheets/&quot;,
+     &quot;./node_modules/sass-mq/&quot;,
+     &quot;./node_modules/normalize.css/&quot;,
+     &quot;./src/scss/&quot;,
+     &quot;./src/scss/components&quot;
+  ]
+},
+</code></pre>
+<h2>Sass Libraries</h2>
+<p>Starter Project has three libraries imported:</p>
+<ul>
+<li>
+<p>Normalize.css,</p>
+</li>
+<li>
+<p>Modular Scale, and</p>
+</li>
+<li>
+<p>Media Queries.</p>
+</li>
+</ul>
+<pre><code>@import 'normalize';
+@import 'modularscale';
+@import 'mq';
+</code></pre>
+<p>If your website looks inconsistent across different browsers, you probably want to use CSS technique to reset browser behavior. In Starter Project, <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> is used for this task.</p>
+<blockquote>
+<p>“Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”</p>
+<p>Nicolas Gallagher</p>
+</blockquote>
+<p><a href="http://www.modularscale.com/">Modular Scale</a> helps with font size consistency. <a href="https://www.npmjs.com/package/modularscale-sass">modularscale-sass</a> is a list of values that are used to size type and create a sense of harmony in design.</p>
+<p><a href="https://www.npmjs.com/package/sass-mq">sass-mq</a> is a Sass mixin that helps a developer in composing media queries in an elegant way.</p>
+<h2>Autoprefix</h2>
+<p>Starter Project uses <a href="https://www.npmjs.com/package/gulp-autoprefixer">gulp-autoprefixer</a> plugin to add vendor prefixes to CSS files. This plugin is handy as developers don't have to add these prefixes manually. In <code>config.json</code>, you could add <a href="https://github.com/postcss/autoprefixer#options">Autoprefixer options</a> to <code>autoprefixedConfig</code> settings.</p>
+<pre><code>&quot;autoprefixedConfig&quot;: {
+    &quot;browsers&quot;: [&quot;last 5 versions&quot;],
+    &quot;cascade&quot;: false
+},
+</code></pre>
+<h2>Source maps</h2>
+<p>Source maps allow developers to see the source code for compressed assets. In Starter Project, <a href="https://www.npmjs.com/package/gulp-sourcemaps">gulp-sourcemaps</a> plugin is used to create source maps for CSS and JavaScript files. If your environment doesn't require source maps, you could disable it by setting <code>run</code> option to <code>false</code> in <code>sourcemapsConfig</code>.</p>
+<pre><code>&quot;sourcemapsConfig&quot;: {
+  &quot;run&quot;: true
+}
+</code></pre>
+<h2>Minifying</h2>
+<p><a href="https://www.npmjs.com/package/gulp-clean-css">gulp-clean-css</a> is a Gulp plugin that acts as a wrapper for <a href="https://github.com/jakubpawlowicz/clean-css">clean-css</a>. In Starter Project, this plugin is used for CSS minification. To create less confusion with file names, <code>gulp-rename</code> plugin is used to rename minified assets by adding prefix or suffix to the file name.</p>
+<pre><code>&quot;renameConfig&quot;: {
+  &quot;suffix&quot;: &quot;.min&quot;
+}
+</code></pre>
+<h2>Linting</h2>
+<blockquote>
+<p>“Linting is the process of running a program that will analyze code for potential errors.”</p>
+<p>Source: <a href="https://stackoverflow.com/a/8503586">StackOverflow</a></p>
+</blockquote>
+<p>In Starter Project, <a href="https://www.npmjs.com/package/gulp-stylelint">gulp-stylelint</a> plugin is used to lint CSS files. You could configure the plugin in <code>config.json</code> file.</p>
+<pre><code>&quot;styleLintConfig&quot;: {
+  &quot;reporters&quot;: [{
+    &quot;formatter&quot;: &quot;string&quot;,
+    &quot;console&quot;: true
+  }]
+},
+</code></pre>
+<p>Default settings output error in a console as a string. See all available settings <a href="https://www.npmjs.com/package/gulp-stylelint#options">here</a>.</p>
+<p>Stylelint options are stored in <code>.stylelintrc</code> file.</p>
+<pre><code>{
+  &quot;plugins&quot;: [
+    &quot;stylelint-scss&quot;,
+    &quot;stylelint-order&quot;
+  ],
+  &quot;extends&quot;: &quot;stylelint-config-sass-guidelines&quot;
+}
+</code></pre>
+<p>Stylelint also has its plugins. In Starter Project, <a href="https://www.npmjs.com/package/stylelint-scss">stylelint-scss</a> and <a href="https://www.npmjs.com/package/stylelint-order">stylelint-order</a> plugins are used. Also, there are <a href="https://github.com/bjankord/stylelint-config-sass-guidelines">Stylelint Sass Guidelines</a> that are used to extend default Stylelint settings. Learn more about Stylelint <a href="https://stylelint.io/">on the official website</a>.</p>
+<h2>Bonus</h2>
+<p>For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-stylefmt">stylefmt</a> and <a href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">Run On Save</a> extensions for VS Code. Then call command palette by pressing <code>cmd + shift + p</code>, and type <code>open workspace settings</code>.</p>
+<blockquote>
+<p>{cldnry open-workspace-settings_luw5ru.png &quot;Open workspace settings example.&quot; %}</p>
+</blockquote>
+<p>When you open the workspace settings, add these settings.</p>
+<pre><code>{
+  &quot;emeraldwalk.runonsave&quot;: {
+    &quot;commands&quot;: [{
+      &quot;match&quot;: &quot;\\.scss?$&quot;,
+      &quot;cmd&quot;: &quot;cd ${workspaceRoot} &amp;&amp; stylefmt -c .stylelintrc ${file}&quot;
+    }]
+  }
+}
+</code></pre>
+<p>This should run stylelint when you save <code>.scss</code> files. If it doesn't work, <a href="mailto:admin@silvestar.codes?Subject=VSCode">contact me</a> for help.</p>
+<h2>Conclusion</h2>
+<p><a href="/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/">In the previous article</a>, I was trying to explain the idea for this project. This article should help you understand how Gulp could be used to optimize, lint and deliver best possible CSS output.</p>
+<p><a href="https://starter.silvestar.codes/">Starter Project</a> is conceived as a boilerplate with the latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please <a href="mailto:admin@silvestar.codes?Subject=Starter">contact me</a>, open <a href="https://github.com/maliMirkec/starter-project/issues/new">an issue</a>, or create <a href="https://github.com/maliMirkec/starter-project/compare">a pull request</a> on <a href="https://github.com/maliMirkec/starter-project">GitHub</a>.</p>
+<p>Please share! 🙏</p>

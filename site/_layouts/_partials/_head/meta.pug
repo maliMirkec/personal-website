@@ -1,0 +1,38 @@
+meta(charset="UTF-8")
+meta(name="viewport" content="width=device-width, initial-scale=1.0")
+meta(http-equiv="X-UA-Compatible" content="ie=edge")
+meta(name="referrer" content="no-referrer")
+if (url && page && !canonical)
+  link(rel="canonical", href=url.replace('index.html', ''))
+if (theme && theme.site && theme.site.author)
+  meta(name="author" content=theme.site.author)
+else if (config && config.author)
+  meta(name="author" content=config.author)
+if (isHome())
+  - var description = "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist."
+if (description)
+  - var description = description
+if (description)
+  - var description = description
+else if (posts && !isHome())
+  if (category)
+    - var description = "Blog posts about CSS, HTML, JavaScript browsers, static page generators, WordPress, frontend technologies, freelance life, remote working, and more."
+  else if (tag)
+    - var description = "A list of blog posts tagged " + tag + "."
+  else if (theme && theme.site && theme.site.description)
+    - var description = theme.site.description
+  else if (config && config.description)
+    - var description = config.description
+meta(name="description" content=description)
+if (theme && theme.site && theme.site.full_name)
+  if (isHome())
+    - var title = "Home of fearless web engineer Silvestar Bistrović 🤘 " + theme.site.full_name
+  else if (category)
+    - var title = "Blog 🤘 " + theme.site.full_name
+  else if (tag)
+    - var title = "Tag: " + tag + " 🤘 " + theme.site.full_name
+  else
+    - var title = title ? title + " 🤘 " + theme.site.full_name : theme.site.full_name
+  title= title
+else if (config && config.title)
+  title= config.title
