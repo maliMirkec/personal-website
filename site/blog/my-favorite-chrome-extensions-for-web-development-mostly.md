@@ -3,22 +3,19 @@ title: My favorite extensions for web development
 date: 2019-09-11 14:23:33
 tags:
   - blog
+categories:
   - productivity
   - devtools
-categories:
-  - Blog
 thumbnail: My_favorite_extensions_for_web_development_r9apoh.jpg
 credit:
   text: Vivek Doshi on Unsplash
   link: https://unsplash.com/photos/p6GY97dK0X0
-comments: true
 description: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
-highlighted: true
 ---
 
 A web browser is one of the essential tools for web development. Besides awesome dev tools that come with the default installation, you might consider these Chrome extensions that could help you with your everyday tasks:
 
-<!--more-->
+<!-- more -->
 
 - [Octotree](#Octotree)
 - [Wappalizer](#Wappalizer)

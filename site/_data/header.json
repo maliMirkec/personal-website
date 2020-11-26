@@ -18,11 +18,11 @@
     "href": "/blog/",
     "title": "Blog",
     "list": [{
-      "href": "/Publications/",
+      "href": "/newsletter/",
       "title": "UI Dev Newsletter"
     }, {
-      "href": "/testimonials/",
-      "title": "Testimonials"
+      "href": "/publications/",
+      "title": "Publications"
     }]
   }, {
     "href": "/about/",

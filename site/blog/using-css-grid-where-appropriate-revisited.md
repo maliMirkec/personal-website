@@ -1,14 +1,12 @@
 ---
 title: 'Using CSS Grid where appropriate (revisited)'
 date: 2018-09-05 11:01:11
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
-comments: true
 description: This solution is a follow-up post on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
 ---
 

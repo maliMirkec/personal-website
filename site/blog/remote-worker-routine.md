@@ -3,11 +3,9 @@ title: Just My Routine As A Remote Worker
 date: 2019-02-14 18:32:42
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
-comments: true
 thumbnail: Just-My-Routine-as-a-Remote-Worker-2x_k5gzh2.jpg
 credit:
   text: Chris Charles on Unsplash
@@ -19,7 +17,7 @@ As a remote worker, having a routine and self-discipline is critical. Keeping up
 
 The inspiration for writing this article comes from [an article about remote life] and from [a prominent discussion on Gun.io Slack channel].
 
-<!--more-->
+<!-- more -->
 
 ## The Office
 

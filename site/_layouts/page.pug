@@ -1,3 +1,7 @@
 extends _includes/layout
 
 block content
+  if (content)
+    .wrapper.wrapper-bp2
+      h1= page.title
+      div !{content}

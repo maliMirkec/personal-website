@@ -1,20 +1,19 @@
 ---
 title: 5 things to consider when creating your CSS style guide
 date: 2019-05-15 15:08:46
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - css
   - styleguide
+publication: LogRocket
 canonical: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
 thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck.jpg
 credit:
   text: Zdeněk Macháček on Unsplash
   link: https://unsplash.com/photos/eqXiLNfZDc0
-comments: true
 description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
-highlighted: true
 ---
 
 _This article was originally published on [LogRocket Blog](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d)._
@@ -23,7 +22,7 @@ A CSS style guide is a set of standards and rules on how to use and write CSS co
 
 CSS style guides should be considered an equal citizen of every project requirement.
 
-<!--more-->
+<!-- more -->
 
 There is more than one definition of what the style guide is. For example, [Wikipedia] says:
 

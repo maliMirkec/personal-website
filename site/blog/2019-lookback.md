@@ -3,21 +3,19 @@ title: 2019 Lookback
 date: 2019-12-20 16:10:42
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
 thumbnail: 2019-lookback-2x_qhjkuj.jpg
 credit:
   text: Sam Bark on Unsplash
   link: https://unsplash.com/photos/XFkkYwKiC_U
-comments: true
 description: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
 ---
 
 Last year I wrote [my first yearly look back], and now it is time for the 2019 lookback.
 
-<!--more-->
+<!-- more -->
 
 _Note: this article is written from a technology perspective, meaning that I wrote about technologies and tools used during this year._
 

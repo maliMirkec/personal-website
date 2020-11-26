@@ -1,23 +1,21 @@
 ---
 title: 'Alpha, Beta, Gamma naming convention'
 date: 2018-11-06 21:39:00
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - css
   - BEM
 thumbnail: Alpha_Beta_Gamma_naming_convention-2x_jkluc6.jpg
 credit:
   text: John Kappa on Unsplash
   link: https://unsplash.com/photos/Vg6jlsI2mSc
-comments: true
 description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
 ---
 
 A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
 
-<!--more-->
+<!-- more -->
 
 ## Alpha, Beta, Gamma
 

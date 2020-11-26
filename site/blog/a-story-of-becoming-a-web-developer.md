@@ -1,17 +1,15 @@
 ---
 title: A Story of Becoming a Web Developer
 date: 2020-04-20 17:27:03
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - ui
   - mentoring
 thumbnail: A_Story_of_Becoming_a_Web_Developer-2x_snhsm4.jpg
 credit:
   text: Ray Hennessy on Unsplash
   link: https://unsplash.com/photos/oEcQFq0NKjo
-comments: true
 description: Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
 cta1:
   span: "Wanna improve your UI coding skills?"

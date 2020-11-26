@@ -3,11 +3,9 @@ title: Starter Project - A set of the latest best practices packed in Gulp tasks
 date: 2018-03-23 11:20:00
 tags:
   - blog
+categories:
   - gulp
   - starter project
-categories:
-  - Blog
-comments: true
 thumbnail: starter-project_vr5fq4.png
 credit:
   text: Luke Syres on Unsplash

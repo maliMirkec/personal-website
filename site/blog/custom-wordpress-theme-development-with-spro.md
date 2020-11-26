@@ -3,11 +3,9 @@ title: Custom WordPress Theme Development with SPRO
 date: 2019-03-05 11:13:42
 tags:
   - blog
+categories:
   - gulp
   - starter project
-categories:
-  - Blog
-comments: true
 thumbnail: Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
 description: "SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development."
 project:
@@ -17,7 +15,7 @@ project:
 
 [SPRO] is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development.
 
-<!--more-->
+<!-- more -->
 
 If you want to learn more about SPRO, [read the introduction article from the last week].
 

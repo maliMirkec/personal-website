@@ -1,7 +1,5 @@
 ---
 title: Contact Me
-comments: false
-date: 2019-07-01 13:06:32
 description: Feel free to contact me. I am always open for a new discussion or a potential collaboration.
 sidebar: true
 contact: true

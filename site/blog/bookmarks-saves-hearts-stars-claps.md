@@ -1,19 +1,17 @@
 ---
 title: 'Bookmarks, Saves, Hearts, Stars, Claps'
 date: 2019-04-11 18:10:34
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - productivity
 thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_ammz0s.jpg
-comments: true
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
 ---
 
 I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools. I guess this is because my browser is displaying bookmarked pages first in the suggestions which could be very useful when you know only part of the title or a domain.
 
-<!--more-->
+<!-- more -->
 
 > {cldnry "search-bar-bookmarks_namh9b.png" "Search bar with bookmark suggestions." %}
 

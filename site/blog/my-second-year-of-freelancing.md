@@ -3,11 +3,9 @@ title: My second year of freelancing
 date: 2019-05-23 12:00:01
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
-comments: true
 thumbnail: My_Second_Year_Of_Freelancing-2x_nm36hp.jpg
 credit:
   text: Chris Liverani on Unsplash
@@ -17,7 +15,7 @@ description: About two year ago, I started with a freelance career. Here is what
 
 Last year on this day, I wrote the first yearly review of my freelance career. Now it is time to review my second year of freelancing.
 
-<!--more-->
+<!-- more -->
 
 ## Clients
 

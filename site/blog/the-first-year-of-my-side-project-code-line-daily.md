@@ -1,14 +1,13 @@
 ---
+layout: index
 title: 'The first year of my side project: Code Line Daily'
 date: 2020-07-21 09:33:35
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - cld
   - open source
 thumbnail: The_first_year_of_Code_Line_Daily-2x_rqtn8d.jpg
-comments: true
 description: "It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way."
 project:
   name: Code Line Daily
@@ -22,7 +21,7 @@ cta1:
 
 It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way.
 
-<!--more-->
+<!-- more -->
 
 ## About the project
 

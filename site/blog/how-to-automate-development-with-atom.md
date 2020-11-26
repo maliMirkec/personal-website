@@ -2,12 +2,9 @@
 title: How to automate development with Atom
 tags:
   - blog
-  - atom
-id: 9
 categories:
-  - Blog
+  - atom
 date: 2016-11-30 20:33:06
-comments: true
 thumbnail: How-to-automate-development-with-Atom_ycu82l.png
 description: We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
 ---

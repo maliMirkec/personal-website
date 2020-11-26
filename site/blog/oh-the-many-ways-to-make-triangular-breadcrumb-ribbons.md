@@ -1,24 +1,23 @@
 ---
 title: 'Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
 date: 2019-05-15 19:04:01
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - css
   - breadcrumb
   - ribbon
+publication: CSS Tricks
 canonical: https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
 thumbnail: Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons-2x_y1lftp.jpg
 credit:
   text: Joshua Wilking on Unsplash
   link: https://unsplash.com/photos/ZbMJ5VLrpQ4
-comments: true
 description: Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.
 project:
   name: Playground
   href: https://play.silvestar.codes/ribbon/
-highlighted: true
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)._
@@ -27,7 +26,7 @@ Let’s have a look at how we can create a row of links that sorta run into each
 
 You’ve probably seen this pattern a lot. It comes up often in things like multi-step forms and site breadcrumbs. For our purposes we’re going to call these “ribbons" so we know what we’re referring to as we go.
 
-<!--more-->
+<!-- more -->
 
 Like a lot of things on the web, we can make ribbons like these in many ways! I’ve created [a demo page] that brings a variety of them together, like using [CSS triangles], SVG backgrounds, and the CSS `clip-path` property.
 

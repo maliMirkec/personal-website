@@ -4,7 +4,6 @@ block content
   if (sections)
     each section in sections
       include _partials/sections
-  else
-    main !{content}
-  //- div !{page.content}
+  if (content)
+    include _partials/content
 

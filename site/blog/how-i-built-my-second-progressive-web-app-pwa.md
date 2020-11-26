@@ -1,13 +1,11 @@
 ---
 title: How I built my second Progressive Web App (PWA)
 date: 2019-12-17 13:00:00
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - pwa
 thumbnail: How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr.jpg
-comments: true
 description: "As of today, my side project Code Line Daily is available as a Progressive Web App. This post is a sequel to my previous PWA post."
 project:
   name: Code Line Daily

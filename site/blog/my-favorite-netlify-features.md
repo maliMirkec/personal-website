@@ -1,28 +1,27 @@
 ---
 title: My favorite Netlify features
 date: 2019-08-05 11:12:34
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - spg
   - ssg
   - netlify
+publication: CSS Tricks
 canonical: https://css-tricks.com/my-favorite-netlify-features/
 thumbnail: My_favorite_Netlify_features-2x_inepie.jpg
 credit:
   text: Peter Pryharski on Unsplash
   link: https://unsplash.com/photos/lXR2boS_O94
-comments: true
 description: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
-highlighted: true
 ---
 
 Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. All these modern frameworks, tools, and services make our lives as JAMstack developers quite enjoyable. In fact, Chris would say [they give us superpowers].
 
 Yet, there is one particular platform that stands out with its formidable products and features—Netlify. You’re probably pretty well familiar with Netlify if you read CSS-Tricks regularly. There’s a slew of articles on it. There are even two CSS-Tricks microsites that use it.
 
-<!--more-->
+<!-- more -->
 
 This article is more of a love letter to Netlify and all of the great things it does. I decided to sit down and list my five favorite things about it. So that’s what I’d like to share with you here. Hopefully, this gives you a good idea not only what Netlify is capable of doing, but helps you get the most out of it as well.
 

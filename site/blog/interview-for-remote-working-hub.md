@@ -1,20 +1,19 @@
 ---
 title: Interview for Remote Working Hub
 date: 2019-11-09 15:36:14
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - freelance
   - remote work
+publication: Remote Work Hub
 canonical: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 thumbnail: Interview_for_Remote_Working_Hub-2x_yhycf5.jpg
 credit:
   text: Mathew Schwartz on Unsplash
   link: https://unsplash.com/photos/5iFZBM7qgWc
-comments: true
 description: "Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not."
-highlighted: true
 ---
 
 _This article was originally published on [Remote Working Hub](https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/)._

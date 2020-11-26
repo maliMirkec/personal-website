@@ -3,15 +3,15 @@ title: Overview of Popular Static Site Generators
 date: 2018-08-07 13:00:33
 tags:
   - blog
+  - publications
+categories:
   - spg
   - ssg
   - hexo
   - hugo
   - middleman
   - jekyll
-categories:
-  - Blog
-comments: true
+publication: Toptal
 canonical: https://www.toptal.com/front-end/static-site-generators-comparison-2018
 thumbnail: Overview_of_Popular_Static_Site_Generators_fpv8q9.jpg
 description: There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.

@@ -3,18 +3,15 @@ title: Page builders might not be a good idea
 date: 2020-02-20 17:17:11
 tags:
   - blog
+categories:
   - wordpress
   - shopify
   - frontend
-categories:
-  - Blog
-comments: true
 thumbnail: Page_builders_might_not_be_a_good_idea-2x_xpujzp.jpg
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4
 description: "Here’s what I think: page builder might not be a good idea. Read my thoughts about page builders and why you might think twice before you consider using it (again)."
-highlighted: true
 ---
 
 Here’s what I think: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).

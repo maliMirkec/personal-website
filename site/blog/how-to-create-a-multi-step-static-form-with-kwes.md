@@ -1,16 +1,16 @@
 ---
 title: How to create a multi-step form the easy way
 date: 2020-02-08 05:39:43
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - spg
   - ssg
   - kwes
+publication: DEV
 canonical: https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp
 thumbnail: How_to_create_a_multi-step_static_form_with_Kwes-2x_u6sjh3.jpg
-comments: true
 description: "A multi-step form is a long-form that is broken into pieces. Learn how I add one to my site."
 ---
 
@@ -18,7 +18,7 @@ Recently I wanted to add a multi-step form to my site. Since my site runs on Hex
 
 I was delighted to learn that [Kwes now offers a multi-step form functionality]. Before I tell you how I did it, let’s see what a multi-step form, sometimes also referred to as multi-page form, is.
 
-<!--more-->
+<!-- more -->
 
 ## A multi-step form
 

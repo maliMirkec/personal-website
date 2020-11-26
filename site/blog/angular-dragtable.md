@@ -2,12 +2,9 @@
 title: Angular dragtable
 tags:
   - blog
-  - angular
-id: 11
 categories:
-  - Blog
+  - angular
 date: 2017-02-03 12:41:54
-comment: true
 thumbnail: Angular-dragtable_zfatnn.png
 description: Angular dragtable is an Angular directive that allows table column reorder.
 ---

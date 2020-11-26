@@ -3,12 +3,10 @@ title: Starter Project - Gulp tasks for CSS
 date: 2018-04-22 11:28:37
 tags:
   - blog
+categories:
   - gulp
   - css
   - starter project
-categories:
-  - Blog
-comments: true
 thumbnail: starter-project-gulp-tasks-for-css_shybn0.png
 description: This article is part of a series about Starter Project, and this time I will explain all about Gulp tasks for CSS.
 project:

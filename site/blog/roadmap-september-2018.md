@@ -3,11 +3,9 @@ title: 'Roadmap, September 2018.'
 date: 2018-09-27 12:11:55
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
-comments: true
 description: I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
 thumbnail: Roadmap_September_2018._o6syhw.jpg
 ---

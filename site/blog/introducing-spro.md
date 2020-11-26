@@ -3,11 +3,9 @@ title: Introducing SPRO
 date: 2019-02-28 10:22:07
 tags:
   - blog
+categories:
   - gulp
   - starter project
-categories:
-  - Blog
-comments: true
 thumbnail: Introducing_Starter_Project_CLI-2x_gzuhpi.jpg
 description: "SPRO, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs."
 project:

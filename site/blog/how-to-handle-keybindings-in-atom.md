@@ -2,13 +2,10 @@
 title: How to handle keybindings in Atom
 tags:
   - blog
+categories:
   - atom
   - keybindings
-id: 7
-categories:
-  - Blog
 date: 2016-10-15 16:41:54
-comments: true
 thumbnail: How-to-handle-keybindings-in-Atom_qj3djx.png
 description: In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
 ---

@@ -2,13 +2,10 @@
 title: _bem - WordPress theme with BEM methodology
 tags:
   - blog
+categories:
   - WordPress
   - BEM
-id: 13
-categories:
-  - Blog
 date: 2017-05-27 07:39:05
-comments: true
 thumbnail: bem-WordPress-theme-with-BEM-methodology_myadk9.png
 description: This is a post about building custom WordPress theme with BEM naming methodology.
 ---

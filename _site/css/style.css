@@ -326,7 +326,7 @@ template {
   --max-size: 19px;
   --min-ratio: 1.2;
   --max-ratio: 1.2;
-  --line-height: 1.44;
+  --line-height: 1.66;
   --letter-spacing: 0.01em;
   --space-default: 0.25rem;
   --space: 1rem;
@@ -601,6 +601,9 @@ blockquote {
 .tdn {
   text-decoration: none; }
 
+.tdu {
+  text-decoration: underline; }
+
 .ttuc, .button {
   text-transform: uppercase; }
 
@@ -624,9 +627,9 @@ blockquote {
 
 [class*="bgi-"],
 [class*="bg-"] {
-  --bg-space-1: calc(1.3rem);
-  --bg-space-2: calc(2.6rem);
-  --bg-space-3: calc(3.9rem); }
+  --bg-space-1: calc(1.1rem);
+  --bg-space-2: calc(2.2rem);
+  --bg-space-3: calc(3.3rem); }
 
 [class*="bg-"],
 [class*="lg-"] {

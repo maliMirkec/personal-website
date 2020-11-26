@@ -3,16 +3,14 @@ title: The UI Development Mentoring Program
 date: 2020-01-20 06:03:47
 tags:
   - blog
+categories:
   - ui
   - mentoring
-categories:
-  - Blog
 cta1:
   span: "Wanna improve your UI coding skills?"
   btn1: "Join the Program"
   btn2: "Become a better UI dev 💯"
   link: https://mentor.silvestar.codes/
-comments: true
 thumbnail: The_UI_Development_Mentoring_program-2x_wohbeq.jpg
 description: I have decided to give it a shot with a brand new mentoring program for UI development. Fill out the form today!
 project:

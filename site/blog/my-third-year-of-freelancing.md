@@ -3,11 +3,9 @@ title: My Third Year Of Freelancing
 date: 2020-06-03 19:27:07
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
-comments: true
 thumbnail: My_Third_Year_Of_Freelancing-2x_t4bpff.jpg
 description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
 ---
@@ -16,6 +14,7 @@ It is time for another yearly overview of my freelancing career: the third year.
 
 You could read the report on my [first] and [second] year, too.
 
+<!-- more -->
 ## Clients
 
 During the last year, I have been working with four clients on multiple projects. The clients contacted me via:

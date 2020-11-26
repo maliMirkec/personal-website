@@ -1,12 +1,5 @@
 ---
 title: About me
-id: 79
-cta2:
-  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q4"
-comments: false
-date: 2016-08-14 08:17:36
 description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
 sidebar: true
 card: true

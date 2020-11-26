@@ -2,13 +2,10 @@
 title: Github Atom Git packages
 tags:
   - blog
+categories:
   - atom
   - git
-id: 2
-categories:
-  - Blog
 date: 2016-08-22 20:21:37
-comments: true
 thumbnail: Github-Atom-Git-packages_dxonzr.png
 description: Developers often rely on a version control system and one of the most popular is Git.
 ---

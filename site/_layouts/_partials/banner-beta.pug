@@ -1,0 +1,8 @@
+- var bannerClass1 = `wrapper wrapper-bp2 df-center text-center ${banner.wrapperClass ? banner.wrapperClass : 'padding-1 margin-y-4 lg-alpha'}`;
+
+if (banner.desc)
+  section(class=bannerClass1)
+    p.fz-step-0.margin-x-2 !{banner.desc}
+    if (banner.cta)
+      - var ctaClass = `button button--sm margin-x-2 ${banner.cta.class ? banner.cta.class : 'button--alpha'}`
+      a(class=ctaClass, href=banner.cta.href) !{banner.cta.title}

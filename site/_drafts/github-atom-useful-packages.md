@@ -1,13 +1,12 @@
 ---
 title: Github Atom useful packages
 published: false
+eleventyExcludeFromCollections: true
 tags:
   - blog
   - atom
   - text editor
-id: 21
-categories:
-  - Blog
+
 ---
 
 Essential:

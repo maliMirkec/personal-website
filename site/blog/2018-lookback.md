@@ -3,21 +3,19 @@ title: 2018 Lookback
 date: 2019-01-05 16:06:38
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
 thumbnail: 2018-lookback-2x_xvi1vo.jpg
 credit:
   text: Sam Bark on Unsplash
   link: https://unsplash.com/photos/XFkkYwKiC_U
-comments: true
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 ---
 
 It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 
-<!--more-->
+<!-- more -->
 
 ## WordPress
 

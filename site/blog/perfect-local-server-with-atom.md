@@ -2,13 +2,10 @@
 title: Perfect local server with Atom
 tags:
   - blog
+categories:
   - atom
   - server
-id: 4
-categories:
-  - Blog
 date: 2016-09-05 17:11:14
-comments: true
 thumbnail: Perfect-local-server-with-Atom_xplcj6.png
 description: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
 ---

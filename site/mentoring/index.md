@@ -1,7 +1,5 @@
 ---
 title: Mentorship
-comments: false
-date: 2019-07-01 13:06:32
 description: If you like to be mentored to become a better UI developer, feel free to contact me.
 sidebar: true
 mentoring: true

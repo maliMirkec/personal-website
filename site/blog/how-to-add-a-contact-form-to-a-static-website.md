@@ -1,16 +1,16 @@
 ---
 title: How to add a contact form to a static website
 date: 2019-08-01 11:33:44
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - spg
   - ssg
   - kwes
+publication: Codementor
 canonical: https://www.codementor.io/malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
 thumbnail: How_to_add_a_contact_form_to_a_static_website-2x_mqfxlv.jpg
-comments: true
 description: "With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with Kwes form builder."
 ---
 
@@ -18,7 +18,7 @@ With the rise of the static site, developers need a service that could handle fo
 
 Adding a contact form to a static site could be a challenge because the static site usually doesn't have a backend that could handle the form submissions. In that case, we could use a service that would do this for us. There are many services out there, like Netlify forms or Typeform, but in this case, we are going to use the Kwes service.
 
-<!--more-->
+<!-- more -->
 
 We are going to build a contact form with the following fields:
 

@@ -1,21 +1,20 @@
 ---
 title: 'A Comparison of Static Form Providers'
 date: 2019-09-26 22:08:09
-categories:
-  - Blog
 tags:
   - blog
+  - publications
+categories:
   - serverless
   - spg
   - ssg
+publication: CSS Tricks
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
 thumbnail: A_Comparison_of_Static_Form_Providers-2x_qjsrdd.jpg
 credit:
   text: Joshua Wilking on Unsplash
   link: https://unsplash.com/photos/ZbMJ5VLrpQ4
-comments: true
 description: Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. Read the review of the most popular static form providers.
-highlighted: true
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/a-comparison-of-static-form-providers/)._
@@ -24,7 +23,7 @@ Let’s attempt to coin a term here: "Static Form Provider." You bring your HTML
 
 Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. It’s lovely when you can delegate big responsibilities like this. The cost? Typically a monthly or annual subscription, except for a few providers and limited plans. The cost is usually less than fancier "[form builders](https://css-tricks.com/options-for-web-forms/)" that help you build the form itself _and_ process it.
 
-<!--more-->
+<!-- more -->
 
 In this article, we are going to review some of the most popular [static form providers](https://serverless.css-tricks.com/services/forms/):
 

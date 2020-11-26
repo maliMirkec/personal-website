@@ -7,6 +7,15 @@ if (section.type === 'hero-beta')
 if (section.type === 'banner-alpha')
   - var banner = section;
   include banner-alpha
-if (section.type === 'cards')
+if (section.type === 'banner-beta')
+  - var banner = section;
+  include banner-beta
+if (section.type === 'cards-alpha')
   - var cards = section;
-  include cards
+  include cards-alpha
+if (section.type === 'cards-beta')
+  - var cards = section;
+  include cards-beta
+if (section.type === 'cards-gamma')
+  - var cards = section;
+  include cards-gamma

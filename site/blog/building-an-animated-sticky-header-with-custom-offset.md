@@ -1,24 +1,21 @@
 ---
 title: Building an Animated Sticky Header With Custom Offset
 date: 2018-12-07 18:08:55
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - css
   - javascript
 thumbnail: Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
 credit:
   text: Guilherme Romano on Unsplash
   link: https://unsplash.com/photos/KI2KaOeT670
-comments: true
 description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
-highlighted: true
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.
 
-<!--more-->
+<!-- more -->
 
 ## The specifications
 

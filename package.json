@@ -22,8 +22,8 @@
     "cp_headers": "cp source/_headers public/_headers",
     "cp_robots-dev": "cp ./robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
-    "deploy": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw",
-    "dev": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev && yarn sw"
+    "dev": "gulp & npx @11ty/eleventy --serve",
+    "deploy": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",

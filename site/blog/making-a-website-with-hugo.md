@@ -1,10 +1,9 @@
 ---
 title: If you are starting a new website, consider using Hugo
 date: 2018-10-24 12:23:45
-categories:
-  - Blog
 tags:
   - blog
+categories:
   - hugo
   - spg
   - ssg
@@ -19,7 +18,6 @@ cta2:
   btn2: "Make a website within an hour"
   link: https://skl.sh/2q88Ij7
 thumbnail: making-a-website-with-hugo-cover_kpek9x.jpg
-comments: true
 description: Other than it is “the world’s fastest framework for building websites,” Hugo is packed with powerful features that would make the website development process more pleasable.
 project:
   name: Hugo
@@ -28,7 +26,7 @@ project:
 
 If you are starting a new website, consider using [Hugo]. Other than it is “the world’s fastest framework for building websites,” it is packed with powerful features that would make the website development process more pleasable.
 
-<!--more-->
+<!-- more -->
 
 __<small>This post serves as an intro for the course “[Making a website with Hugo].”</small>__
 

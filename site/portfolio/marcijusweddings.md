@@ -1,27 +1,21 @@
 ---
-title: Marcijuš Weddings
-cta1:
-  span: "Got questions? Or projects? I would like to learn more. Contact me today!"
-  btn1: "Get in touch ⇢"
-  btn2: "Open 2020 Q4"
-comments: false
-description: Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
+title: Marcijuš Studio
+description: Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
 thumbnail: mw_gtapmb.png
-portfolio: true
-categories:
-  - Portfolio
+link: //marcijus-studio.com
 order: 20
 tags:
   - portfolio
+categories:
   - wordpress
   - html
   - css
   - javascript
 ---
 
-Marcijuš weddings are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
+Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
 
-Link: [marcijusweddings.com](//marcijusweddings.com)
+Link: [marcijus-studio.com/](//marcijus-studio.com)
 
 ## Responsibilities
 

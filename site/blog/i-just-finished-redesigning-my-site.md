@@ -3,12 +3,10 @@ title: I just finished redesigning my site
 date: 2020-03-02 07:49:34
 tags:
   - blog
+categories:
   - redesign
   - serverless
   - hexo
-categories:
-  - Blog
-comments: true
 thumbnail: I_just_finished_redesigning_my_site-2x_nkip6c.jpg
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
 ---

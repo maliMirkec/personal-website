@@ -2,13 +2,10 @@
 title: How to lint inside Atom
 tags:
   - blog
+categories:
   - atom
   - linter
-id: 5
-categories:
-  - Blog
 date: 2016-10-02 07:14:39
-comments: true
 thumbnail: How-to-lint-inside-Atom_mmlauz.png
 description: Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
 ---

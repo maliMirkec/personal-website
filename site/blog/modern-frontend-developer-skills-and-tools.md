@@ -3,12 +3,10 @@ title: The essential skill of a developer
 date: 2018-06-26 13:01:32
 tags:
   - blog
+categories:
   - freelance
   - remote work
   - frontend
-categories:
-  - Blog
-comments: true
 thumbnail: The_Essential_Skill_Of_A_Developer_csb5dm.jpg
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 ---

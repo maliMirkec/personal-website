@@ -3,11 +3,9 @@ title: My first year of freelancing
 date: 2018-05-21 13:53:01
 tags:
   - blog
+categories:
   - freelance
   - remote work
-categories:
-  - Blog
-comments: true
 thumbnail: My_First_Year_Of_Freelancing-2x_budolh.jpg
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 ---
