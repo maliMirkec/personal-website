@@ -1,5 +1,5 @@
 - var cardsClass1 = `${cards.wrapperClass ? cards.wrapperClass : 'padding-x-4 padding-b-4'}`;
-- var cardsClass2 = `card padding-3 ${cards.elementClass ? cards.elementClass : ' bg-alpha'}`;
+- var cardsClass2 = `card df-col-center padding-3 ${cards.elementClass ? cards.elementClass : ' bg-alpha'}`;
 - var cardsClass3 = `card df-col-center text-center padding-3 ${cards.elementClass2 ? cards.elementClass2 : 'lg-alpha'}`;
 - var spanClass = `fz-step--1 margin-1 padding-x-1 brad ${cards.elementClass2 ? cards.elementClass2 : 'lg-alpha'}`;
 
@@ -11,11 +11,9 @@ if (cardList)
       each post, i in cardList.reverse()
         if (i >= (cards.limit ? cards.limit : site.limit))
           - break
-        - ctaText1 = cards.cta.title ? cards.cta.title : 'View project &#x21E2;';
-        - ctaText2 = cards.cta2.title ? cards.cta2.title : 'See all &#x21E2;';
         div(class=cardsClass2)
-          blockquote.fz-step-0.fw-bold.df-col(cite='https://www.linkedin.com/in/starbist/') !{post.templateContent}
-          footer.fz-step--1.margin-t-2.df-col-center.text-center.margin-b-2
+          blockquote.fz-step-0.fs-italic.df-col(cite='https://www.linkedin.com/in/starbist/') !{post.templateContent}
+          footer.df-col-center.ffs.fz-step--1.text-center.margin-t-auto.margin-b-2
             p.margin-b-0 !{post.data.title}
             if (post.data.position && post.data.company)
               p.margin-t-0 !{post.data.position}, !{post.data.company}
@@ -27,8 +25,10 @@ if (cardList)
           //-     span.fz-step--1.margin-1 Tags:
           //-     each category in post.data.categories
           //-       span(class=spanClass)= category
+          //- - ctaText1 = cards.cta.title ? cards.cta.title : 'View project &#x21E2;';
           //- a.fw-bold.margin-y-2(href=post.url) !{ctaText1}
       if (cards.desc)
         div(class=cardsClass3)
           p.fz-step-0 !{cards.desc}
+          - ctaText2 = cards.cta2.title ? cards.cta2.title : 'See all &#x21E2;';
           a.fw-bold.margin-y-2(href=cards.cta2.href) !{ctaText2}

@@ -18,13 +18,8 @@
 
 a {
   border-radius: var(--border-radius);
-  display: inline-flex;
-  align-items: center;
-  position: relative;
   color: currentColor;
   text-decoration: underline;
-  padding-left: var(--space-default);
-  padding-right: var(--space-default);
 
   &:hover,
   &:focus {

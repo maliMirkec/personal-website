@@ -2,81 +2,44 @@
 layout: index
 title: Services
 description: I have been working with web technologies since 2011. During this period, I acquired a certain set of skills for building better websites.
-data2title: Test
-sctns:
-  - type: hero-beta
-    src: /gfx/svg/rocket2.svg
-    alt: Rocket Icon
-    title: From Side Projects
-    desc: Sometimes I like to work on side projects in my spare time.<br>These are my open-source side projects.
+sections:
+  - type: hero-alpha
+    elementClass: bg-alpha2 bgi-languages bgi--opacity
+    title: Services I provide
+    desc: I have been working with web technologies <b>since 2011</b>.<br>During this period, I acquired a certain set of skills for building websites.
+  - type: cards-delta
+    wrapperClass: margin-y-4
+    elementClass: bg-alpha4
+    list:
+      - title: Static Site Generators
+        description: >-
+          There has been a global trend for static sites in recent few years. I have been lucky to recognize that trend and started to learn more about it back in 2017.<br>I have build more than a few static site using <b>Jekyll</b>, <b>Hugo</b>, <b>Hexo</b>, and <b>11ty</b>, like <a href="/portfolio/westwing/">Westwing</a>, <a href="/portfolio/dominodatalab/">Domino Data Lab</a>, and <a href="/portfolio/hanhanxue/">Han Han Xue</a>.
+        cta:
+          href: /portfolio/
+          title: See portfolio ⇢
+      - title: WordPress
+        description: >-
+          WordPress is still number 1 framework for building sites in the world. Buying a theme for WordPress is easy, but I always recommend developing a <b>new theme</b> from scratch.<br>I have build several custom themes, like the ones for <a href="/portfolio/creditcardinsider/">Credit Card Insider</a>, <a href="/portfolio/irinaandmatej/">Irina & Matej</a>, and <a href="/portfolio/yearbook-trase/">Trase Yearbook 2018</a>.
+        cta:
+          href: /portfolio/
+          title: See portfolio ⇢
+      - title: PageSpeed Optimizations
+        description: >-
+          Did you know that Google penalizes sites which are not very performant? For that reason, it is important have a fast site that follow the latest best practices, like Core Web Vitals. I have been optimizing PageSpeed score for several sites, including my own.
+        cta:
+          href: /portfolio/
+          title: See portfolio ⇢
+      - title: Writing
+        description: >-
+          In 2016, I started to blog about my work. Since then, my writing skills improved greatly and I have been publishing articles for publications like <b>CSS Tricks</b>, <b>LogRocket</b>, and <b>Toptal</b>.
+        cta:
+          href: /publications/
+          title: See publications ⇢
   - type: banner-beta
-    wrapperClass: margin-b-3 lg-alpha
+    wrapperClass: margin-y-4 lg-beta
     desc: Did you know that I am <b>available for hire</b>?
-    cta:
-      class: button--alpha
-      href: /contact/
-      title: Hire me ⇢
-  - type: cards-beta
-    elementClass: bg-alpha2
-    elementClass2: lg-alpha
-    cta:
-      title: See project ⇢
-    filter: projects
-    sorter: order
-    limit: 999
-  - type: banner-alpha
-    src: /gfx/svg/calendar.svg
-    alt: Calendar Icon
-    wrapperClass: padding-t-4 padding-x-4 padding-b-4 lg-beta
-    elementClass: bg-beta2
-    title: I am <u>available</u> for a new project.
-    desc: I specialized in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>WordPress</b>, <b>Shopify</b>, and <b>JAMstack</b> technologies.
     cta:
       class: button--beta
       href: /contact/
-      title: Hire me
-    cta2:
-      href: /services/
-      title: Or see the full list of services I provide.
+      title: Hire me ⇢
 ---
-
-I have been working with web technologies since 2011. During this period, I acquired a certain set of skills for building better websites.
-
-Here's the list of services that I could offer you:
-
-- Build new website with Hugo,
-- Build new website with Jekyll,
-- Build new website with Middleman,
-- Build new website with Hexo,
-- Configure Netlify CMS,
-- Configure Netlify,
-- Build new website with WordPress,
-- Create new WordPress theme from scratch,
-- Make adjustments or updates to existing WordPress website,
-- Convert design to HTML: PSD, Sketch, InVision, Figma, etc.,
-- Create styleguide for your project,
-- Produce highly maintainable stylesheets using CSS, Sass or Less,
-- Create layout using CSS Grid or Flexbox,
-- Break CSS for Above the fold using Critical CSS,
-- Add custom animations,
-- BEMify your project,
-- Implement modular scale and fluid typography,
-- Create interactive experience using JavaScript,
-- Add cross browser compatibility,
-- Make your website accessible,
-- Implement coding standards for better code formatting,
-- Create fluid development environment using Webpack, Gulp, and Grunt,
-- Optimize your website for PageSpeed Insights (and similar page scoring apps),
-- Improve performance of your website using CloudFlare,
-- Add version control on your project using Git,
-- Apply git-glow for branching model,
-- Use semantic versioning,
-- Use template engines to create HTML dynamically,
-- Implement srcset or Picturefill for responsive images,
-- Add advanced techiques for lazy loading of images, and
-- Many more.
-
-Many of the aforementioned services are used on this website. You could learn more about it in the article I wrote, [“How I built this website”](/how/).
-
-If you want to hire me, go to [Hire me](/hire-me/) page. If you want to know which devices and tools I use in my everyday tasks, [read about it here](/uses/).
-

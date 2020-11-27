@@ -1,0 +1,44 @@
+// Forms
+//
+// Markup: _forms.html
+//
+// :hover - Anchor hover.
+// :focus - Anchor focus.
+// :active - Anchor active.
+//
+// Weight: 850
+//
+// Styleguide Forms
+
+.input {
+  @extend .fw-bold;
+  @extend .lsp;
+  @extend .brad;
+  background-color: transparent;
+  background-size: 100%;
+  color: currentColor;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  line-height: 1.66;
+  min-height: 2.75em;
+  padding: .25em .5em;
+  border: .1em solid currentColor;
+  outline: none;
+  width: 100%;
+  filter: brightness(100%);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    filter: brightness(110%);
+    @extend .bsh--alpha;
+  }
+
+  &:focus,
+  &:active {
+    @extend .bsh--alpha2;
+  }
+}

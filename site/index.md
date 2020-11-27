@@ -16,7 +16,7 @@ sections:
     src: /gfx/svg/pen2.svg
     alt: Pencil Icon
     title: From the Blog
-    desc: Here are the latest posts from my blog.<br>I cover mostly Frontend, JAMstack, WordPress, and freelancing topics.
+    desc: Here are the latest posts from my blog.<br>I cover mostly <b>frontend</b>, <b>JAMstack</b>, and <b>freelancing</b> topics.
   - type: cards-alpha
     elementClass: bg-alpha4
     desc: Do you want to see all articles?
@@ -31,7 +31,7 @@ sections:
     src: /gfx/svg/pen.svg
     alt: Pencil Icon
     title: From Publications
-    desc: Here are the posts that I wrote for some prominent publications.<br>I wrote for CSS Tricks, LogRocket, and Toptal.
+    desc: Here are the posts that I wrote for some prominent publications.<br>I wrote for <b>CSS Tricks</b>, <b>LogRocket</b>, and <b>Toptal</b>.
   - type: cards-alpha
     elementClass: bg-beta4
     elementClass2: lg-beta
@@ -54,7 +54,7 @@ sections:
     src: /gfx/svg/rocket2.svg
     alt: Rocket Icon
     title: From the Portfolio
-    desc: Here are the projects that I am most proud. <br> Built with WordPress, Shopify, Jekyll, and Hugo, amongst others.
+    desc: Here are the projects that I am most proud. <br> Built with <b>WordPress</b>, <b>Shopify</b>, <b>Jekyll</b>, and <b>Hugo</b>, amongst others.
   - type: cards-beta
     elementClass: bg-alpha2
     elementClass2: lg-alpha
@@ -79,7 +79,7 @@ sections:
     title: From Testimonials
     desc: Here are some kind words about my work from clients. <br> Although I collaborated with clients from more than 10 countries, most of them come from <b>The United States</b>.
   - type: cards-gamma
-    elementClass: bg-beta2 bgi-quote2 bgi--small bgi--br bgi--opacity
+    elementClass: bg-beta2
     elementClass2: lg-beta
     desc: Do you want to be my next client?
     cta:
@@ -103,5 +103,4 @@ sections:
     cta2:
       href: /services/
       title: Or see the full list of services I provide.
-    filter:
 ---

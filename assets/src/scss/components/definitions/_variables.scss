@@ -25,7 +25,8 @@ $color-darker-rgba: transparentize($color-dark, .5);
 
 // Typography
 $font-alpha: 'Playfair Display', serif;
-$font-beta: 'Courier New', Courier, monospace;
+$font-beta: 'Barlow', sans-serif;
+$font-gamma: 'Courier New', Courier, monospace;
 $min-size: 15px;
 $max-size: 19px;
 $min-ratio: 1.2;
@@ -69,6 +70,7 @@ $gap: $space * 2;
   --selection: #{$color-alpha-rgba};
   --font-alpha: #{$font-alpha};
   --font-beta: #{$font-beta};
+  --font-gamma: #{$font-gamma};
   --min-size: #{$min-size};
   --max-size: #{$max-size};
   --min-ratio: #{$min-ratio};

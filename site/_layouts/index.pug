@@ -6,4 +6,7 @@ block content
       include _partials/sections
   if (content)
     include _partials/content
+  if (sections2)
+    each section in sections2
+      include _partials/sections
 

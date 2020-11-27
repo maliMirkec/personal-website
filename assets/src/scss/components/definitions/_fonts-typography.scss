@@ -83,9 +83,9 @@
 
 body {
   color: var(--black);
-  font-family: var(--font-alpha);
+  font-family: var(--font-beta);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
@@ -103,8 +103,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-alpha);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 h1 {
@@ -141,15 +142,24 @@ h6 {
   }
 }
 
-pre,
-code,
-.ffm {
-  font-family: var(--font-beta);
-}
-
 blockquote {
   padding: 0;
   margin: 0;
+}
+
+pre,
+code,
+.ffm {
+  font-family: var(--font-gamma);
+}
+
+.ffss {
+  font-family: var(--font-beta);
+}
+
+.body-copy,
+.ffs {
+  font-family: var(--font-alpha);
 }
 
 .fs-italic {
@@ -161,15 +171,11 @@ blockquote {
 }
 
 .fw-normal {
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .fw-bold {
-  font-weight: bold;
-}
-
-.fw-black {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .text-center {

@@ -321,7 +321,8 @@ template {
   --color-darker-rgba: rgba(17, 17, 17, 0.5);
   --selection: rgba(18, 224, 159, 0.15);
   --font-alpha: Playfair Display, serif;
-  --font-beta: Courier New, Courier, monospace;
+  --font-beta: Barlow, sans-serif;
+  --font-gamma: Courier New, Courier, monospace;
   --min-size: 15px;
   --max-size: 19px;
   --min-ratio: 1.2;
@@ -346,6 +347,8 @@ img {
 .wrapper {
   margin-left: auto;
   margin-right: auto; }
+  .wrapper.copy {
+    max-width: 60ch; }
 
 .wrapper-bp1 {
   max-width: var(--bp1); }
@@ -356,13 +359,13 @@ img {
 .wrapper-bp3 {
   max-width: var(--bp3); }
 
-.brad, .button {
+.brad, .button, .input {
   border-radius: var(--border-radius); }
 
-.bsh--alpha, .button:hover, .button:focus, a:hover, a:focus {
+.bsh--alpha, .button:hover, .button:focus, a:hover, a:focus, .input:hover, .input:focus {
   box-shadow: 0 0 0 0.2rem var(--color-alpha-rgba); }
 
-.bsh--alpha2, .button:focus, .button:active, a:focus, a:active {
+.bsh--alpha2, .button:focus, .button:active, a:focus, a:active, .input:focus, .input:active {
   box-shadow: 0 0 0 0.2rem var(--color-alpha-rgba2); }
 
 .bsh--beta, .button:hover[class*="lg-beta"], .button:hover[class*="bg-beta"],
@@ -397,45 +400,59 @@ img {
   box-shadow: 0 0 0 0.2rem var(--color-darker-rgba); }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Bold Italic"), local("PlayfairDisplay-BoldItalic"), url("/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff") format("woff");
-  font-weight: bold;
+  font-family: 'Barlow';
+  src: local("Barlow Medium Italic"), local("Barlow-MediumItalic"), url("fonts/Barlow/Barlow-MediumItalic.woff2") format("woff2"), url("fonts/Barlow/Barlow-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Barlow';
+  src: local("Barlow SemiBold"), local("Barlow-SemiBold"), url("fonts/Barlow/Barlow-SemiBold.woff2") format("woff2"), url("fonts/Barlow/Barlow-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Barlow';
+  src: local("Barlow Medium"), local("Barlow-Medium"), url("fonts/Barlow/Barlow-Medium.woff2") format("woff2"), url("fonts/Barlow/Barlow-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Barlow';
+  src: local("Barlow SemiBold Italic"), local("Barlow-SemiBoldItalic"), url("fonts/Barlow/Barlow-SemiBoldItalic.woff2") format("woff2"), url("fonts/Barlow/Barlow-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Playfair Display';
-  src: local("Playfair Display Regular"), local("PlayfairDisplay-Regular"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Italic"), local("PlayfairDisplay-Italic"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff") format("woff");
-  font-weight: normal;
+  src: local("Playfair Display Medium Italic"), local("PlayfairDisplay-MediumItalic"), url("fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2") format("woff2"), url("fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff") format("woff");
+  font-weight: 500;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Playfair Display';
-  src: local("Playfair Display Black Italic"), local("PlayfairDisplay-BlackItalic"), url("/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff") format("woff");
-  font-weight: 900;
+  src: local("Playfair Display SemiBold"), local("PlayfairDisplay-SemiBold"), url("fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2") format("woff2"), url("fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local("Playfair Display Medium"), local("PlayfairDisplay-Medium"), url("fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2") format("woff2"), url("fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local("Playfair Display SemiBold Italic"), local("PlayfairDisplay-SemiBoldItalic"), url("fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2") format("woff2"), url("fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
   font-style: italic;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Bold"), local("PlayfairDisplay-Bold"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Black"), local("PlayfairDisplay-Black"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Black.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
   font-display: swap; }
 
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
@@ -501,9 +518,9 @@ img {
 
 body {
   color: var(--black);
-  font-family: var(--font-alpha);
+  font-family: var(--font-beta);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing); }
@@ -520,8 +537,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-alpha);
   font-style: normal;
-  font-weight: 900; }
+  font-weight: 600; }
 
 h1 {
   font-size: var(--step-6); }
@@ -571,14 +589,21 @@ h6 {
 [class*="fz-step-6"] {
   --font-size: var(--step-6); }
 
-pre,
-code,
-.ffm {
-  font-family: var(--font-beta); }
-
 blockquote {
   padding: 0;
   margin: 0; }
+
+pre,
+code,
+.ffm {
+  font-family: var(--font-gamma); }
+
+.ffss {
+  font-family: var(--font-beta); }
+
+.body-copy,
+.ffs {
+  font-family: var(--font-alpha); }
 
 .fs-italic {
   font-style: italic; }
@@ -587,13 +612,10 @@ blockquote {
   font-style: normal; }
 
 .fw-normal {
-  font-weight: normal; }
+  font-weight: 500; }
 
-.fw-bold, .button {
-  font-weight: bold; }
-
-.fw-black {
-  font-weight: 900; }
+.fw-bold, .button, .input {
+  font-weight: 600; }
 
 .text-center {
   text-align: center; }
@@ -610,7 +632,7 @@ blockquote {
 .ttuc, .button {
   text-transform: uppercase; }
 
-.lsp, .button {
+.lsp, .button, .input {
   letter-spacing: .06em; }
 
 [class*="text-"] {
@@ -1261,13 +1283,8 @@ blockquote {
 
 a {
   border-radius: var(--border-radius);
-  display: inline-flex;
-  align-items: center;
-  position: relative;
   color: currentColor;
-  text-decoration: underline;
-  padding-left: var(--space-default);
-  padding-right: var(--space-default); }
+  text-decoration: underline; }
   a:hover, a:focus {
     filter: brightness(110%);
     background-color: var(--color-alpha-rgba); }
@@ -1277,6 +1294,28 @@ a {
     [class*="lg-beta"] a:focus,
     [class*="bg-beta"] a:focus {
       background-color: var(--color-beta-rgba); }
+
+.input {
+  background-color: transparent;
+  background-size: 100%;
+  color: currentColor;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 1.66;
+  min-height: 2.75em;
+  padding: .25em .5em;
+  border: .1em solid currentColor;
+  outline: none;
+  width: 100%;
+  filter: brightness(100%);
+  cursor: pointer; }
+  .input:hover, .input:focus {
+    filter: brightness(110%); }
 
 .list-outside {
   list-style-position: outside; }
@@ -1297,6 +1336,9 @@ a {
   padding-left: 0;
   margin-left: 0;
   margin-right: 0; }
+
+ul:not([class]) ul {
+  padding-left: 1.5em; }
 
 .grid {
   display: grid;
