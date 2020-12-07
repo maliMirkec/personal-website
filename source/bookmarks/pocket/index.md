@@ -1588,7 +1588,7 @@ sidebar: true
 - [http://www.ebay.com/itm/HEAD-CASE-MOUSE-TRAP-DESIGN-PROTECTIVE-SNAP-BACK-CASE-COVER-FOR-NOKIA-LUMIA-710-/200847112561?pt=UK_MobilePhones_MobilePhonesCasesPouches&amp;hash=item2ec36bb971](http://www.ebay.com/itm/HEAD-CASE-MOUSE-TRAP-DESIGN-PROTECTIVE-SNAP-BACK-CASE-COVER-FOR-NOKIA-LUMIA-710-/200847112561?pt=UK_MobilePhones_MobilePhonesCasesPouches&amp;hash=item2ec36bb971)
 - [https://www.paypal.com/hr/cgi-bin/webscr?cmd=_login-done&amp;login_access=1344877422](https://www.paypal.com/hr/cgi-bin/webscr?cmd=_login-done&amp;login_access=1344877422)
 - [http://customer.prius.superdruid.com/en/prius-administration/estate](http://customer.prius.superdruid.com/en/prius-administration/estate)
-- [http://preview.grooveshark.com/#!/broadcasts/top/Indie+Rock/3773](http://preview.grooveshark.com/#!/broadcasts/top/Indie+Rock/3773)
+- [http://preview.grooveshark.com/#!/broadcasts/top/Indie+Rock/3773](https://www.cinchsolution.com/what-happened-to-grooveshark-com/)
 - [https://pixelambacht.nl/2016/building-bixa-color/](https://pixelambacht.nl/2016/building-bixa-color/)
 - [http://madebymike.com.au/writing/love-letter-to-jquery/](http://madebymike.com.au/writing/love-letter-to-jquery/)
 - [https://www.paciellogroup.com/blog/2016/01/the-state-of-hidden-content-support-in-2016/](https://www.paciellogroup.com/blog/2016/01/the-state-of-hidden-content-support-in-2016/)
