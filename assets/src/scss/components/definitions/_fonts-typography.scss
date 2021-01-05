@@ -89,12 +89,11 @@ body {
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
   background-color: var(--selection);
+  text-shadow: 0 1px 0 var(--color-light);
 }
 
 h1,

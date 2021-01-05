@@ -1,14 +1,14 @@
 {
   "logo": {
     "href": "/",
-    "src": "/gfx/svg/logo.svg",
+    "src": "/gfx/svg/logo-2021.svg",
     "title": "Silvestar Bistrović"
   },
   "menu": [{
     "href": "/portfolio/",
     "title": "Portfolio"
   }, {
-    "href": "/blog/",
+    "href": "/articles/",
     "title": "Blog"
   }, {
     "href": "/about/",

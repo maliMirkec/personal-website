@@ -1,0 +1,154 @@
+<p>CSS sidebar toggle presented in this post is made with <code>CSS</code> only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without <code>JavaScript</code>, I've added a small snippet for this feature.</p>
+<h2>Preparation</h2>
+<p>As  I was preparing this post, I've created <a href="http://codepen.io/CiTA/pen/bgjKKE">a CSS sidebar toggle demo on Codepen</a>. Suddenly the pen received a large number of visitors. The pen was listed in <em>&quot;Picked Pens&quot;</em> section on <a href="http://codepen.io/">Codepen home page</a> as I discovered later. Apparently, it was a great inspiration for the community, ending up with many hearts and many forks. At this point, I knew that I was doing something good. But what I did not expect was a post about this technique.</p>
+<p>Jorge C.S. Cardoso published <a href="https://codepen.io/jorgecardoso/post/css-transitions-and-animations">a post</a> based on this demo. It was listed in the Codepen newsletter. Well done, Mr. Cardoso, and thank you for saving me some time to write this post.</p>
+<p>In this post, I'll try to explain CSS sidebar toggle technique in general and focus on accessibility.</p>
+<h2>Concept</h2>
+<p>In order to trigger the sidebar overlay, we'll need the following components:</p>
+<ul>
+<li>a <code>label</code>,</li>
+<li>a <code>checkbox</code> and</li>
+<li>a <code>sidebar</code>.</li>
+</ul>
+<p>We'll use checkbox's <code>:checked</code> pseudo class to determine whether to show or to hide the sidebar.</p>
+<h2>Menu icon</h2>
+<p>For a menu toggle indicator, we could use well know hamburger menu. There are <a href="https://webdesign.tutsplus.com/tutorials/7-non-raster-approaches-for-making-the-hamburger-menu-icon--cms-21686">many</a> <a href="https://css-tricks.com/three-line-menu-navicon/">simple</a> and <a href="https://jonsuh.com/hamburgers/">awesome</a> ways how we could do it. I've decided to use pure <code>CSS</code> solution, well, because this is a pure CSS sidebar toggle solution.</p>
+<h3>First Demo</h3>
+<blockquote>
+<p>{codepen CiTA YNbKpo dark result %}</p>
+</blockquote>
+<h3>HTML for the first demo</h3>
+<blockquote>
+<p>{codeblock lang:html %}
+<input type="checkbox" id="menuToggler" class="input-toggler"/>
+<label for="menuToggler" class="menu-toggler">
+<span class="menu-toggler__line"></span>
+<span class="menu-toggler__line"></span>
+<span class="menu-toggler__line"></span>
+</label>
+{endcodeblock %}</p>
+</blockquote>
+<p>Inside the label, we should place <code>span</code> elements—each one will represent one hamburger line.</p>
+<p>Make sure to add <code>**id**</code> attribute on a <code>checkbox</code> input and matching <strong><code>for</code></strong> attribute on a <code>label</code> element.</p>
+<h3>CSS for the first demo</h3>
+<blockquote>
+<p>{codeblock lang:scss %}
+// variables
+:root {
+--toggler-size: 30px;
+--toggler-line-number: 3;
+--toggler-line-size: calc(var(--toggler-size) / (var(--toggler-line-number) + var(--toggler-line-number) - 1));
+--toggler-offset-left: 10px;
+--toggler-offset-top: 10px;
+--toggler-color: Tomato;
+}</p>
+</blockquote>
+<p>// same as var(--toggler-line-number)
+$total: 3;</p>
+<blockquote>
+<p>{endcodeblock %}</p>
+</blockquote>
+<p>For this demo, I've decided to use a new <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables"><code>CSS</code> variables</a> feature. Beware of the support:</p>
+<blockquote>
+<p>{caniuse css-variables current %}</p>
+</blockquote>
+<p>Using <code>CSS</code> variables we could define menu icon size, the number of lines, top offset, left offset and background color.</p>
+<p><em>Note: I didn't find an efficient way how to <em>convert a <em><code>CSS</code></em> variable into a <em><code>SASS</code></em> variable</em>. If you know how to do this, please let me know.</em></p>
+<p>The number of lines could vary. If we want 3 hamburger lines, we should add 3 span elements: <code>&lt;span class=&quot;menu-toggler__line&quot;&gt;&lt;/span&gt;</code>. We should also set <code>CSS</code> variables <code>--</code>toggler<code>-line-number</code> and <code>$total</code> to 3.</p>
+<p>I've tested this code with 3 and 4 hamburger lines and the code is working pretty good.</p>
+<p>For deeper understanding how this hamburger menu is working, check the source code. If you don't get it, leave a comment below or ask a question on <a href="https://twitter.com/malimirkeccita">Twitter</a>.</p>
+<p>The logic is straightforward:</p>
+<ul>
+<li>if not checked, display hamburger icon;</li>
+<li>if checked, display close icon.</li>
+</ul>
+<p>We are using transitions and transforms to animate the icon.</p>
+<h2>Sidebar</h2>
+<p>There are many ways how a sidebar could be displayed. I've decided to go with a full-width sidebar containing just a menu list.</p>
+<h3>Second Demo</h3>
+<blockquote>
+<p>{codepen CiTA bgjKKE dark result %}</p>
+</blockquote>
+<h3>HTML for the second demo</h3>
+<p>In order to create CSS sidebar toggle, we should use the following <code>HTML</code> structure:</p>
+<blockquote>
+<p>{codeblock lang:html %}
+<input type="checkbox" id="menuToggler" class="input-toggler"/>
+<label for="menuToggler" class="menu-toggler">
+...
+</label></p>
+</blockquote>
+<nav class="sidebar">
+  ...
+</nav>
+<main class="content">
+  ...
+</main>
+> {endcodeblock %}
+<p>Notice that <code>checkbox</code> input, <code>label</code>, <code>sidebar</code> and content are all siblings.</p>
+<h3>CSS for the second demo</h3>
+<blockquote>
+<p>{codeblock lang:scss %}
+:root {
+--sidebar-width: 100%;
+}</p>
+</blockquote>
+<p>.sidebar {
+width: var(--sidebar-width);
+transform: translateX(calc(var(--sidebar-width) * -1));
+...
+}</p>
+<p>.input-toggler {
+...</p>
+<p>&amp;:checked ~ .sidebar {
+transform: translateX(0);
+opacity: .98;
+}
+}</p>
+<blockquote>
+<p>{endcodeblock %}</p>
+</blockquote>
+<p>The idea is to hide a sidebar by translating it out of viewport using <code>translateX</code> property. Then, when menu icon is clicked and <code>:checked</code> stated is active, translate sidebar back to the viewport.</p>
+<h2>CSS sidebar toggle accessibility</h2>
+<p>Last time I've published <a href="https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/">a post about pure CSS tabs solution</a>, I've received a lot of comments about missing accessibility. As a result, I've updated a demo with accessibility and published a <a href="https://silvestar.codes/en/articles/css-tabs-part-ii-accessibility/">new article</a>. This time I've decided to implement accessibility right away.</p>
+<p>The first step is adding <a href="https://www.w3.org/TR/wai-aria/">wai-aria attributes</a>. We want our label to act as a button. We should add <code>role=&quot;button&quot;</code> attribute. <a href="https://www.w3.org/TR/wai-aria#button">Button role</a> supports 2 states, pressed and expanded. Let's add those too: <code>aria-pressed=&quot;false&quot;</code> and <code>aria-expanded=&quot;false&quot;</code>. Finally, we should add <code>aria-label=&quot;Navigation button&quot;</code> because there is no text element inside the label.</p>
+<p>Next, we should add wai-aria attributes on <a href="https://www.w3.org/TR/wai-aria#navigation">navigation</a>. On <code>nav</code> element we should add these attributes: <code>role=&quot;navigation&quot;</code>, <code>aria-labelledby=&quot;menuTogglerLabel&quot;</code> and <code>aria-hidden=&quot;true&quot;</code>. The role is navigation, an element is labeled by navigation button and it is hidden by default.</p>
+<p>The final element is a <a href="https://www.w3.org/TR/wai-aria#menubar">menubar</a> with 2 wai-aria attributes: <code>role=&quot;menubar&quot;</code> and <code>aria-orientation=&quot;vertical&quot;</code>. First attribute defines the role this element has and the second attribute describes how the element is oriented—in our case vertically. Every menubar should have <a href="https://www.w3.org/TR/wai-aria#menuitem">menu items</a>. They are usually links and we define them as follows: <code>role=&quot;menuitem&quot;</code>. Because the navigation is hidden by default, we're adding <code>tabindex=&quot;-1&quot;</code> to skip tabbing through invisible elements.</p>
+<p>Finally, we should add <code>JavaScript</code> snippet to change states of this elements:</p>
+<blockquote>
+<p>{codeblock lang:js %}
+let menuToggler = document.getElementById('menuToggler')
+let menuTogglerLabel = document.getElementById('menuTogglerLabel');
+let sidebar = document.getElementById('sidebar');
+let menuItems = document.getElementsByClassName('menu__link');</p>
+</blockquote>
+<p>menuToggler.addEventListener('change', function() {
+if(menuToggler.checked) {
+menuTogglerLabel.setAttribute('aria-pressed', 'true');
+sidebar.setAttribute('aria-hidden', 'false');
+} else {
+menuTogglerLabel.setAttribute('aria-pressed', 'false');
+sidebar.setAttribute('aria-hidden', 'true');
+}</p>
+<p>for(let menuItem of menuItems) {
+if(menuToggler.checked) {
+menuItem.setAttribute('tabindex', '0');
+} else {
+menuItem.setAttribute('tabindex', '-1');
+}
+}
+});</p>
+<blockquote>
+<p>{endcodeblock %}</p>
+</blockquote>
+<p>When a menu button is pressed, we should change its <code>aria-pressed</code> attribute and navigation's <code>aria-hidden</code> attribute accordingly. We should change <code>tabindex</code> of every menu item:</p>
+<ul>
+<li>if a menu is visible, menu items should be tabbable;</li>
+<li>if a menu is not visible, menu items should not be tabbable.</li>
+</ul>
+<h3>Keyboard interaction</h3>
+<p>Our job is not done yet, we should implement keyboard interaction. I'll leave this part to you as this feature is out of the scope of this article. For more details see <a href="https://www.w3.org/TR/wai-aria-practices/#menu">official W3C documentation for menu and menubar</a> and <a href="https://www.w3.org/TR/wai-aria-practices/examples/menubar/menubar-1/menubar-1.html">navigation menubar example</a>.</p>
+<h2>Conclusion</h2>
+<p>There are many ways how we could build UI components and there are no right way to do so. Some will disagree that the pure <code>CSS</code> solutions are usable in production environment, but that depends on project type and many other factors. I love to experiment with <code>CSS</code> because it gives me a new opportunity to learn and use the latest techniques out there. I don't know if you noticed, but beside <code>CSS</code> variables, I've used <a href="https://css-tricks.com/css-locks/"><code>CSS</code> locks</a> and <a href="https://css-tricks.com/snippets/css/system-font-stack/">system fonts</a> techniques in this demo. Pretty awesome, right?</p>
+<p>And there is accessibility, which is always hard. But hard doesn't mean we should avoid learning it and using it. I encourage every developer to read <a href="https://www.w3.org/TR/wai-aria-practices/">this document</a> and then try to implement any part of accessibility in their newest project. Let's make Internet a better place.</p>
+<p>I'm always opened for discussion so leave a comment or ping me on <a href="https://twitter.com/malimirkeccita">Twitter</a>.</p>

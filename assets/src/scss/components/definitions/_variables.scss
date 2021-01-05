@@ -1,4 +1,5 @@
 // Breakpoints
+$bp: 80ch;
 $bp1: 600px;
 $bp2: 1200px;
 $bp3: 1600px;
@@ -14,21 +15,13 @@ $color-alpha: #12e09f;
 $color-beta: #ff3366;
 $color-light: #fff;
 $color-dark: #111;
-$color-alpha-rgba: transparentize($color-alpha, .85);
-$color-alpha-rgba2: transparentize($color-alpha, .5);
-$color-beta-rgba: transparentize($color-beta, .85);
-$color-beta-rgba2: transparentize($color-beta, .5);
-$color-light-rgba: transparentize($color-light, .85);
-$color-dark-rgba: transparentize($color-dark, .85);
-$color-darker-rgba: transparentize($color-dark, .5);
-
 
 // Typography
 $font-alpha: 'Playfair Display', serif;
 $font-beta: 'Barlow', sans-serif;
 $font-gamma: 'Courier New', Courier, monospace;
-$min-size: 15px;
-$max-size: 19px;
+$min-size: 14px;
+$max-size: 18px;
 $min-ratio: 1.2;
 $max-ratio: 1.2;
 $lh: 1.66;
@@ -43,31 +36,29 @@ $space: $space-default * $space-factor;
 // Border Radius
 $brad: .1rem;
 
+// Transitions
+$duration: .33s;
+$duration2: $duration / 2;
+$delay: .166s;
+
 // Grid
-$cols: repeat(auto-fit, minmax(400px, 1fr));
+$cols: repeat(auto-fill, minmax(400px, 1fr));
+$cols-bp1: repeat(auto-fill, 1fr);
 $gap: $space * 2;
 
 :root {
   // Breakpoints
-  --bp1: #{$bp1};
-  --bp2: #{$bp2};
-  --bp3: #{$bp3};
+  --bp: #{$bp};
+  --bp-alpha: #{$bp2};
 
   // Colors
+  --selection: #{transparentize($color-alpha, .675)};
   --color-alpha: #{$color-alpha};
   --color-beta: #{$color-beta};
   --color-light: #{$color-light};
   --color-dark: #{$color-dark};
-  --color-alpha-rgba: #{$color-alpha-rgba};
-  --color-alpha-rgba2: #{$color-alpha-rgba2};
-  --color-beta-rgba: #{$color-beta-rgba};
-  --color-beta-rgba2: #{$color-beta-rgba2};
-  --color-light-rgba: #{$color-light-rgba};
-  --color-dark-rgba: #{$color-dark-rgba};
-  --color-darker-rgba: #{$color-darker-rgba};
 
   // Typography
-  --selection: #{$color-alpha-rgba};
   --font-alpha: #{$font-alpha};
   --font-beta: #{$font-beta};
   --font-gamma: #{$font-gamma};
@@ -85,6 +76,11 @@ $gap: $space * 2;
   // Border Radius
   --border-radius: #{$brad};
 
+  // Transitions
+  --duration: #{$duration};
+  --duration2: #{$duration2};
+  --delay: #{$delay};
+
   // Grid
   --cols: #{$cols};
   --gap: #{$gap};
@@ -92,5 +88,8 @@ $gap: $space * 2;
   @include mq($until: bp1) {
     // Spacing
     --space-default: #{$space-default-min};
+
+    // Grid
+    --cols: #{$cols-bp1};
   }
 }

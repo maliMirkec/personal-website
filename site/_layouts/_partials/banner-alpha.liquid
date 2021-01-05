@@ -1,0 +1,18 @@
+<section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper wrapper--copy margin-top margin-bottom padding text-center">
+    {% if banner1.src %}
+      <img src="{{ banner1.src }}" alt="{{ banner1.alt }}" width="100" height="100" loading="lazy">
+    {% endif %}
+    {% if banner1.title %}
+      <h2 class="fz-step-4 no-margin-top margin-bottom">{{ banner1.title | markdownifyi }}</h2>
+    {% endif %}
+    {% if banner1.desc %}
+      <div class="margin-top copy">{{ banner1.desc | markdownify }}</div>
+    {% endif %}
+    {% if banner1.cta %}
+      <div class="margin-top">
+        <a class="button" href="{{ banner1.cta.href }}">{{ banner1.cta.title }}</a>
+      </div>
+    {% endif %}
+  </div>
+</section>

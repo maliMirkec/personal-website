@@ -1,18 +1,17 @@
 @import 'definitions/variables';
-@import 'definitions/helpers';
 @import 'definitions/breakpoints';
-@import 'definitions/fonts';
 @import 'definitions/colors';
-@import 'definitions/backgrounds';
-@import 'definitions/display';
+@import 'definitions/helpers';
+@import 'definitions/fonts';
 @import 'definitions/spacing';
-@import 'basic/buttons';
 @import 'basic/anchors';
-@import 'basic/forms';
 @import 'basic/list';
-@import 'complex/grid';
+@import 'basic/buttons';
+@import 'basic/forms';
 @import 'complex/header';
+@import 'complex/footer';
 @import 'complex/hero';
 @import 'complex/banner';
 @import 'complex/card';
-
+@import 'complex/grid';
+@import 'complex/copy';

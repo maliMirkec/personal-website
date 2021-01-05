@@ -1,0 +1,12 @@
+<section class="hero margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      {% if hero2.title %}
+        <h2 class="fz-step-5 no-margin-top margin-bottom">{{ hero2.title | markdownifyi }}</h2>
+      {% endif %}
+      {% if hero2.desc %}
+        <div class="copy">{{ hero2.desc | markdownify }}</div>
+      {% endif %}
+    </div>
+  </div>
+</section>

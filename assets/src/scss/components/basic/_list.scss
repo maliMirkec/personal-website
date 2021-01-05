@@ -2,40 +2,41 @@
 //
 // Markup: _list.html
 //
-// Weight: 900
+// .list-inside - Inside
+// .list-style-none - No style
+//
+// Weight: 700
 //
 // Styleguide List
 
-.list-outside {
+ul,
+ol {
+  padding-left: 1.25em;
+  margin-left: 0;
+  margin-right: 0;
   list-style-position: outside;
+
+  ul,
+  ol {
+    font-size: 92.5%;
+  }
 }
 
 .list-inside {
   list-style-position: inside;
+
+  ul,
+  ol {
+    list-style-position: inside;
+  }
 }
 
 .list-style-none {
-  list-style: none;
-}
-
-.list-reset {
-  list-style: none;
   padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
+  list-style: none;
 
-.list-condensed {
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-ul:not([class]) {
-  @extend .list-condensed;
-  @extend .list-inside;
-
-  ul {
-    padding-left: 1.5em;
+  ul,
+  ol {
+    list-style: none;
   }
 }

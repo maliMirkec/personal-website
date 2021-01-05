@@ -1,0 +1,64 @@
+<p>This solution is a follow-up post on my last year's article <a href="/articles/using-css-grid-where-appropriate/">&quot;Using CSS Grid where appropriate&quot;</a>. The goal is to find a solution for navigation with an unknown number of items.</p>
+<h2>Recap</h2>
+<p>Creating navigation with CSS Grid is arguably not the best solution. However, if one wants to use CSS Grid, two options were suggested:</p>
+<ul>
+<li>Using <code>grid-auto-flow: row;</code> and placing each item in the grid, like this:</li>
+</ul>
+<pre><code class="language-css">.nav__item:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 2;
+}
+</code></pre>
+<ul>
+<li>Defining a definite grid using keyword auto for setting width of the rows and columns:</li>
+</ul>
+<pre><code class="language-css">.nav {
+  display: grid;
+  grid-auto-flow: row;
+}
+@media screen and (min-width: 320px) {
+  .nav {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+</code></pre>
+<p>In both examples, we are defining a strict grid—a number of columns in a row are strictly defined.</p>
+<blockquote>
+<p>{codepen CiTA dzogLV dark result 650 %}</p>
+</blockquote>
+<h2>A new solution</h2>
+<p>I have been using CSS Grid for more than a year now, and I learned how to use its features properly along the way:</p>
+<ul>
+<li><a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-minmax"><code>minmax()</code> function</a>,</li>
+<li><a href="https://www.w3.org/TR/css-grid-1/#valdef-repeat-auto-fit"><code>auto-fit</code> keyword</a>,</li>
+<li><a href="https://www.w3.org/TR/css-grid-1/#propdef-grid-auto-flow"><code>grid-auto-flow</code> property</a>, and</li>
+<li>how to avoid media queries 🎊.</li>
+</ul>
+<h3>The code</h3>
+<p>I have forked the previous solution and updated it with the features mentioned above. Here's the final solution.</p>
+<blockquote>
+<p>{codepen CiTA pOgGqv dark result 220 %}</p>
+</blockquote>
+<pre><code class="language-css">.nav--grid2 {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(60px, auto));
+  justify-content: center;
+}
+</code></pre>
+<p>Let's break down this piece of code.</p>
+<h3>minmax()</h3>
+<p><code>minmax()</code> function defines a size as a range between minimum and maximum value. It allows defining a dynamic size of columns and rows.</p>
+<p>We could use this property to define a minimum and a maximum width of navigation item. In our example, we are using the following minmax definition:</p>
+<p><code>minmax(60px, auto)</code></p>
+<p>We are saying that column should be at least 60px wide, and it should be as wide as the maximum content width. See <a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-auto"><code>auto</code> keyword</a> for more details.</p>
+<h3>auto-fit</h3>
+<p><code>auto-fit</code> should be used as a repetition number—a number used in <a href="https://www.w3.org/TR/css-grid-1/#funcdef-repeat"><code>repeat()</code> function</a>. It says that the grid should place as many items as possible like when items are empty (I think 🤔).</p>
+<h3>grid-auto-flow</h3>
+<p><code>grid-auto-flow</code> is a property that controls how the grid algorithm for placing items works. In our example, we are using <a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-auto-flow-dense"><code>dense</code> keyword</a>. It says that the grid should fill holes that could be left when larger grid items occur.</p>
+<h3>justify-content</h3>
+<p><a href="https://www.w3.org/TR/css-align-3/#propdef-justify-content"><code>justify-content</code> property</a> aligns the content of the box. We are using <code>justify-content: center</code> to align the content of the items to the center.</p>
+<h3>Bonus: No media queries</h3>
+<p>As you could see, we haven't used media queries. Media queries are useful and without them, and there wouldn't be a responsive web design, but it feels so satisfying when we able to build responsive behavior without using one.</p>
+<h2>Final thoughts</h2>
+<p>CSS Grid still may not be the best approach for navigation element, but it works. Always try using CSS Grid where appropriate, even if it solves your problem. If you are a rebel, ignore this thought and use it nevertheless—there are no rules when building web solutions as long as your users are happy. 😎</p>

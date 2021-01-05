@@ -3,38 +3,35 @@ layout: index
 title: SB
 sections:
   - type: hero-alpha
-    wrapperClass: padding-t-0 padding-x-4 padding-b-4 lg-alpha
-    elementClass: bg-alpha2 bgi-languages bgi--opacity
-    elementClass2:
-    title: Building <u>modern</u>, <u>responsive</u> and <u>optimized</u> websites since 2012.
-    desc: Using <b>the best coding practices</b> to deliver <b>the best experience</b> for every user.
+    title: Building _modern_, _responsive_ and _optimized_ websites since 2012.
+    desc: Using **the best coding practices** to deliver **the best experience** for every user.
     cta:
-      class: button--alpha
       href: /contact/
-      title: Contact me
+      title: Contact me ⇢
   - type: hero-beta
-    src: /gfx/svg/pen2.svg
-    alt: Pencil Icon
     title: From the Blog
-    desc: Here are the latest posts from my blog.<br>I cover mostly <b>frontend</b>, <b>JAMstack</b>, and <b>freelancing</b> topics.
+    desc: >-
+      Here are the latest posts from my blog. I cover mostly **frontend**, **JAMstack**, and **freelancing** topics.
   - type: cards-alpha
-    elementClass: bg-alpha4
     desc: Do you want to see all articles?
     cta:
       title: Read more ⇢
     cta2:
-      href: /blog/
+      href: /articles/
       title: Go to all articles ⇢
     filter: blog
     sorter: date
+    limit: 5
+  - type: banner-beta
+    desc: Did you know that I write **UI Dev Newletter**?
+    cta:
+      href: /newsletter/
+      title: Subscribe here ⇢
   - type: hero-beta
-    src: /gfx/svg/pen.svg
-    alt: Pencil Icon
     title: From Publications
-    desc: Here are the posts that I wrote for some prominent publications.<br>I wrote for <b>CSS Tricks</b>, <b>LogRocket</b>, and <b>Toptal</b>.
+    desc: >-
+      Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
   - type: cards-alpha
-    elementClass: bg-beta4
-    elementClass2: lg-beta
     desc: Do you want me to write for you?
     cta:
       title: Read more ⇢
@@ -43,21 +40,12 @@ sections:
       title: Contact me ⇢
     filter: publications
     sorter: date
-  - type: banner-beta
-    wrapperClass: lg-beta
-    desc: Did you know that I write <b>UI Dev Newletter</b>?
-    cta:
-      class: button--beta
-      href: /newsletter/
-      title: Subscribe here ⇢
+    limit: 5
   - type: hero-beta
-    src: /gfx/svg/rocket2.svg
-    alt: Rocket Icon
     title: From the Portfolio
-    desc: Here are the projects that I am most proud. <br> Built with <b>WordPress</b>, <b>Shopify</b>, <b>Jekyll</b>, and <b>Hugo</b>, amongst others.
-  - type: cards-beta
-    elementClass: bg-alpha2
-    elementClass2: lg-alpha
+    desc: >-
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+  - type: cards-gamma
     desc: Do you want to work with me?
     cta:
       title: See project ⇢
@@ -66,21 +54,17 @@ sections:
       title: Hire me ⇢
     filter: portfolio
     sorter: order
+    limit: 5
   - type: banner-beta
-    wrapperClass: lg-alpha
-    desc: Did you know that I started <b>CSS Auditors</b>, a site dedicated to <b>CSS</b>?
+    desc: Did you know that I started **CSS Auditors**, a site dedicated to **CSS**?
     cta:
-      class: button--alpha
       href: https://css-auditors.com
       title: Learn more ⇢
   - type: hero-beta
-    src: /gfx/svg/quote.svg
-    alt: Quote Icon
     title: From Testimonials
-    desc: Here are some kind words about my work from clients. <br> Although I collaborated with clients from more than 10 countries, most of them come from <b>The United States</b>.
-  - type: cards-gamma
-    elementClass: bg-beta2
-    elementClass2: lg-beta
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
     desc: Do you want to be my next client?
     cta:
       title: See project ⇢
@@ -89,18 +73,11 @@ sections:
       title: Make the first step ⇢
     filter: testimonials
     sorter: order
+    limit: 5
   - type: banner-alpha
-    src: /gfx/svg/calendar.svg
-    alt: Calendar Icon
-    wrapperClass: padding-t-4 padding-x-4 padding-b-4 lg-beta
-    elementClass: bg-beta2
-    title: I am <u>available</u> for a new project.
-    desc: I specialized in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>WordPress</b>, <b>Shopify</b>, and <b>JAMstack</b> technologies.
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
-      class: button--beta
       href: /contact/
-      title: Hire me
-    cta2:
-      href: /services/
-      title: Or see the full list of services I provide.
+      title: Hire me ⇢
 ---

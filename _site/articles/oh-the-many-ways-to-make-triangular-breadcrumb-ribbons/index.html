@@ -1,0 +1,327 @@
+<p><em>This article was originally published on <a href="https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/">CSS-Tricks</a>.</em></p>
+<p>Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.</p>
+<p>You’ve probably seen this pattern a lot. It comes up often in things like multi-step forms and site breadcrumbs. For our purposes we’re going to call these “ribbons&quot; so we know what we’re referring to as we go.</p>
+<p>Like a lot of things on the web, we can make ribbons like these in many ways! I’ve created <a href="https://play.silvestar.codes/ribbon/">a demo page</a> that brings a variety of them together, like using <a href="https://css-tricks.com/snippets/css/css-triangle/">CSS triangles</a>, SVG backgrounds, and the CSS <code>clip-path</code> property.</p>
+<h2>Starting with the HTML structure</h2>
+<p>For each demo, the HTML structure will largely be the same where we have a <code>&lt;nav&gt;</code> that acts as the parent element and then links inside it as the children.</p>
+<pre><code class="language-html">&lt;nav class=&quot;ribbon ribbon--modifier&quot; role=&quot;navigation&quot; aria-label=&quot;breadcrumbs&quot;&gt;
+  &lt;a class=&quot;ribbon__element&quot; href=&quot;https://www.silvestar.codes/&quot;&gt;Home&lt;/a&gt;
+  &lt;a class=&quot;ribbon__element&quot; href=&quot;https://www.silvestar.codes/articles/&quot;&gt;Blog&lt;/a&gt;
+  &lt;a class=&quot;ribbon__element&quot; href=&quot;https://www.silvestar.codes/articles/building-an-animated-sticky-header-with-custom-offset/&quot; aria-current=&quot;page&quot;&gt;Post&lt;/a&gt;
+&lt;/nav&gt;
+</code></pre>
+<p>Note that these elements should be accessible, according to <a href="https://a11y-style-guide.com/style-guide/section-navigation.html">A11y Style Guide website</a>. It’s a good rule to build components with accessibility in mind and introducing accessibility at the very start is the best way to prevent the classic “I forgot to make it accessible&quot; situation.</p>
+<h2>Let’s create some baseline styles</h2>
+<p>When it comes to things like this, we want to make sure the sizing of the elements is done right. For this purpose, we are going to define the font size of the <code>.ribbon</code> (that’s what we’re going to call these things) wrapper element and then use <code>em</code> units on the child element which are the links themselves.</p>
+<pre><code class="language-css">/* Define font size of the wrapper element */
+.ribbon {
+  font-size: 15px;
+}
+
+/* Use ems to define the size of the ribbon element */
+.ribbon__element {
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+  line-height: 1.333em;
+  padding: 0.667em 0.667em 0.667em 1.333em;
+}
+</code></pre>
+<p>This particular technique would be beneficial for defining the size of the triangle shape for each ribbon because we would use the same sizes to calculate triangle. And since we are using <code>em</code> units to calculate the ribbon element size, we could resize all elements by redefining the <code>font-size</code> on the wrapper element.</p>
+<p>Let’s use <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid</a> for the layout because, well, we can. We could do this in a way that offers deeper browser support, but we’ll leave that up to you based on your support requirements.</p>
+<p>We are going to define four columns:</p>
+<ul>
+<li>Three for ribbon elements</li>
+<li>One to fix spacing issues. As it is, the right arrow shape would be placed outside of the ribbon component and that could mess up the original layout.</li>
+</ul>
+<pre><code class="language-css">/* The wrapper element
+ * We're using CSS Grid, but ensure that meets your browser support requirements.
+ * Assuming the use of autoprefixer for vendor prefixes and properties.
+ */
+
+.ribbon {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fill, 1fr) 1em; /* Auto-fill the three ribbon elements plus one narrow column to fix the sizing issues */
+}
+</code></pre>
+<p>If you prefer to avoid stretching the ribbon elements, the grid could be defined differently. For example, we could use <code>max-content</code> to adjust columns by content size. (Note, however, that <code>max-content</code> <a href="https://caniuse.com/#search=max-content">is not very well supported</a> yet in some key browsers.)</p>
+<pre><code class="language-css">/* Make ribbon columns adjust to the maximum content size */
+.ribbon--auto {
+  grid-template-columns: repeat(3, max-content) 1em;
+}
+</code></pre>
+<p>I am sure there are many different ways we could have gone about the layout. I like this one because it defines the exact gap between ribbon elements without complicated calculations.</p>
+<p>Accessibility is not only adding aria attributes. It also includes color contrast and readability, as well as adding hover and focus states. If you don’t like <code>outline</code> style, you could use other CSS properties, like <code>box-shadow</code>, for example.</p>
+<pre><code class="language-css">/* Use current link color, but add underline on hover  */
+.ribbon__element:hover,
+.ribbon__element:active {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Clear default outline style and use inset box shadow for focus state */
+.ribbon__element:focus {
+  box-shadow: inset 0 -3px 0 0 #343435;
+  outline: none;
+}
+</code></pre>
+<h2>Creating the unique triangular shape</h2>
+<p>We have more than one option when it comes down to defining the triangle at the end of each ribbon. We could:</p>
+<ol>
+<li>We could create <a href="https://css-tricks.com/snippets/css/css-triangle/">a triangle using borders</a> with pseudo-elements</li>
+<li>We could use an SVG background image on pseudo-elements</li>
+<li>We could use inline SVG images</li>
+<li>We could create a <code>clip-path</code> using the <code>polygon()</code> function</li>
+</ol>
+<p>Let’s dig into each one.</p>
+<h3>Option 1: The border approach</h3>
+<p>First, we should set the element’s width and height to zero so it doesn’t get in the way of the pseudo-elements we’re using to draw the triangle with borders. Then we should draw the triangle using borders, specifically by defining a solid left border that matches the color of the background to make it blend in with the rest of the ribbon. From there, let’s define top and bottom borders and make them transparent. The trick here is to calculate the size of the border.</p>
+<p>Our ribbon element has a content size of the <code>line-height</code> value plus the top and bottom paddings:</p>
+<pre><code class="language-css">1.333em + 0.667em + 0.667em = 2.667em
+</code></pre>
+<p>That means our top and bottom borders should be half that size. The only thing left to do is to position elements absolutely to the correct side of the component.</p>
+<pre><code class="language-css">/* The left arrow */
+.ribbon--alpha .ribbon__element:before {
+  /* Make the content size zero */
+  content: '';
+  height: 0;
+  width: 0;
+
+  /* Use borders to make the pseudo element fit the ribbon size */
+  border-bottom: 1.333em solid transparent;
+  border-left: 0.667em solid #fff;
+  border-top: 1.333em solid transparent;
+
+  /* Position the element absolutely on the left side of the ribbon element */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* The right arrow */
+.ribbon--alpha .ribbon__element:after {
+  /* Make the content size zero */
+  content: '';
+  height: 0;
+  width: 0;
+
+  /* Use borders to make the pseudo-element fit the ribbon size */
+  border-bottom: 1.333em solid transparent;
+  border-left: 0.667em solid;
+  border-top: 1.333em solid transparent;
+
+  /* Position the element absolutely on the right side of the ribbon element and push it outside */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(0.667em);
+  transform: translateX(0.667em);
+}
+</code></pre>
+<p>Since the right triangle should match the background color of the ribbon, let’s remember to add the correct border color for each ribbon’s pseudo-element.</p>
+<pre><code class="language-css">/* The right arrow of the first element */
+.ribbon--alpha .ribbon__element:nth-child(1):after {
+  border-left-color: #11d295;
+}
+
+/* The right arrow of the second element */
+.ribbon--alpha .ribbon__element:nth-child(2):after {
+  border-left-color: #ef3675;
+}
+
+/* The right arrow of the third element */
+.ribbon--alpha .ribbon__element:nth-child(3):after {
+  border-left-color: #4cd4e9;
+}
+</code></pre>
+<p>And there we go!</p>
+<blockquote>
+<p>{codepen CiTA moNQgY dark result 400 %}</p>
+</blockquote>
+<h3>Option 2: The background image approach</h3>
+<p>We can also create a triangle using a background image. This requires creating an image that matches the design, which is a little cumbersome, but still totally possible. We are going to use SVG here since it’s smooth at any resolution.</p>
+<p>Unlike the border triangle approach, we want to match the height of our pseudo-element with the height of the ribbon element, or 100%. The width of the component should match the left border width of the border triangle, which is 0.666666em in our case. Then we should use a white triangle for the background image on the triangle of the left side, and then use triangle images with color for the triangles on the right side. Again, we are using absolute positioning to place our triangles to the correct side of the ribbon element.</p>
+<pre><code class="language-css">/* The left arrow */
+.ribbon--beta .ribbon__element:before {
+  /* Define the arrow size */
+  content: '';
+  height: 100%;
+  width: 0.666666em;
+
+  /* Define the background image that matches the background color */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAgNDAiIHdpZHRoPSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjZmZmIj48cGF0aCBkPSJtNSAxNSAyMCAxMGgtNDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KDAgLTEgLTEgMCAyNSAyNSkiLz48L3N2Zz4=);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* Position the element absolutely on the left side of the ribbon element */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+/* The right arrow */
+.ribbon--beta .ribbon__element:after {
+  /* Define the arrow size */
+  content: '';
+  height: 100%;
+  width: 0.667em;
+
+  /* Define the background image attributes */
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* Position the element absolutely on the right side of the ribbon element and push it outside */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(0.667em);
+  transform: translateX(0.667em);
+}
+
+/* Define the background image that matches the background color of the first element */
+.ribbon--beta .ribbon__element:nth-child(1):after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAgNDAiIHdpZHRoPSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNSAxNSAyMCAxMGgtNDB6IiBmaWxsPSIjMTFkMjk1IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KDAgLTEgLTEgMCAyNSAyNSkiLz48L3N2Zz4=);
+}
+
+/* Define the background image that matches the background color of the second element */
+.ribbon--beta .ribbon__element:nth-child(2):after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAgNDAiIHdpZHRoPSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNSAxNSAyMCAxMGgtNDB6IiBmaWxsPSIjZWYzNjc1IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KDAgLTEgLTEgMCAyNSAyNSkiLz48L3N2Zz4=);
+}
+
+/* Define the background image that matches the background color of the third element */
+.ribbon--beta .ribbon__element:nth-child(3):after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAgNDAiIHdpZHRoPSIxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNSAxNSAyMCAxMGgtNDB6IiBmaWxsPSIjNGNkNGU5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KDAgLTEgLTEgMCAyNSAyNSkiLz48L3N2Zz4=);
+}
+</code></pre>
+<p>There we go!</p>
+<blockquote>
+<p>{codepen CiTA jJgQoM dark result 400 %}</p>
+</blockquote>
+<h3>Option 3: The inline SVG approach</h3>
+<p>Instead of loading a different SVG triangle for each background image, we could use inline SVG directly in the HTML.</p>
+<p>This particular approach allows us to control the <code>fill</code> color of each SVG arrow with CSS. The arrow size is calculated by the ribbon size. Once again, we are using the <code>em</code> units to define the size and arrows are absolutely positioned, like the other approaches we’ve seen so far.</p>
+<pre><code class="language-css">/* Position arrows absolutely and set the correct size */
+.ribbon--gamma .ribbon__element svg {
+  height: 2.667em;
+  position: absolute;
+  top: 0;
+  width: 0.667em;
+}
+
+/* The left arrow */
+.ribbon--gamma .ribbon__element svg:first-child {
+  fill: #fff; /* Define the background image that matches the background color */
+  left: 0; /* Stick left arrows to the left side of the ribbon element */
+}
+
+/* The right arrow */
+.ribbon--gamma .ribbon__element svg:last-child {
+  left: 100%; /* Push right arrows outside of the ribbon element */
+}
+
+/* Define the fill color that matches the background color of the first element */
+.ribbon--gamma .ribbon__element:nth-child(1) svg:last-child {
+  fill: #11d295;
+}
+
+/* Define the fill color that matches the background color of the second element */
+.ribbon--gamma .ribbon__element:nth-child(2) svg:last-child {
+  fill: #ef3675;
+}
+
+/* Define the fill color that matches the background color of the third element */
+.ribbon--gamma .ribbon__element:nth-child(3) svg:last-child {
+  fill: #4cd4e9;
+}
+</code></pre>
+<blockquote>
+<p>{codepen CiTA axdpXe dark result 400 %}</p>
+</blockquote>
+<h3>Option 4: The clip-path approach</h3>
+<p>We can create the ribbon triangles with a polygon that masks the background. <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Edit_CSS_shapes">Firefox’s Shape Editor</a> is a fantastic tool to draw shapes directly in the browser with a GUI, as is <a href="https://bennettfeely.com/clippy/">Clippy</a>.</p>
+<p>Since polygons must be created using percentages, we should use our best judgment to match the size of border triangles. Also, note that percentage-based polygons might look a little funny on some viewports, especially when element sizes are adapting to its surroundings, like wrapper elements. Consider redefining polygons for different viewports.</p>
+<pre><code class="language-css">.ribbon--delta .ribbon__element {
+  clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+</code></pre>
+<p>Since we defined our wrapper element using CSS Grid, we should expand the ribbon elements but leave the last one at the size of the polygon triangle, which is 5% in our case. The last ribbon element should be wider by the size of the border triangle width to match the first two examples.</p>
+<pre><code class="language-css">/* Make all ribbon elements (except the last one) wider by the size of the polygon triangle */
+.ribbon--delta .ribbon__element:not(:last-child) {
+  width: 105%;
+}
+
+/* Make the last ribbon element wider by the size of the border triangle */
+.ribbon--delta .ribbon__element:last-child {
+  width: calc(100% + .667em);
+}
+</code></pre>
+<blockquote>
+<p>{codepen CiTA YgmRbg dark result 400 %}</p>
+</blockquote>
+<h3>Variations on these options</h3>
+<p>Now that we’ve learned how to create the breadcrumb ribbon a few different ways, we could play around with it, like adding shadows or gradients and different sizes.</p>
+<h3>Adding a shadow</h3>
+<p>We could add the shadow on our ribbon elements. Make sure to avoid the shadow on the left or right side of the ribbon element.</p>
+<pre><code class="language-css">/* Add shadow under each ribbon element */
+.ribbon--shadow .ribbon__element {
+  box-shadow: 1px 3px 3px -3px black;
+}
+</code></pre>
+<blockquote>
+<p>{codepen CiTA WmVYqx dark result 400 %}</p>
+</blockquote>
+<h3>Using gradients for color</h3>
+<p>We could add gradients to our ribbon element. Be sure to match the color of the right triangle when doing so. Also, make sure to comply with <a href="https://webaim.org/resources/contrastchecker/">contrast accessibility</a>.</p>
+<p>For example, if we are going to use the border approach or background image approach, we should use mostly horizontal (i.e. left-to-right) gradients (with the exceptions of some carefully calculated angled gradients). If we are using the <code>clip-path</code> approach, we could use any gradient version we wish.</p>
+<pre><code class="language-css">/* Add gradient to the first ribbon element */
+.ribbon--gradient .ribbon__element:nth-child(1) {
+  background-image: linear-gradient(to right, #11ced2, #11d295);
+}
+
+/* Add gradient to the second ribbon element */
+.ribbon--gradient .ribbon__element:nth-child(2) {
+  background-image: linear-gradient(to right, #ef36b2, #ef3675);
+}
+
+/* Add gradient to the third ribbon element */
+.ribbon--gradient .ribbon__element:nth-child(3) {
+  background-image: linear-gradient(to right, #4c9fe9, #4cd4e9);
+}
+</code></pre>
+<blockquote>
+<p>{codepen CiTA xBvQoz dark result 400 %}</p>
+</blockquote>
+<h3>Working with size variations</h3>
+<p>Since the size of our ribbon elements depends on the font size of the wrapper element, defining different sizes is pretty straightforward.</p>
+<pre><code class="language-css">/* Small ribbons */
+.ribbon--small {
+  font-size: 10px;
+}
+
+/* Big ribbons */
+.ribbon--big {
+  font-size: 20px;
+}
+</code></pre>
+<p>Here we go with a smaller set of ribbons:</p>
+<blockquote>
+<p>{codepen CiTA aMeQeG dark result 400 %}</p>
+</blockquote>
+<p>And here’s a nice set of chunky ribbons:</p>
+<blockquote>
+<p>{codepen CiTA drxQxw dark result 400 %}</p>
+</blockquote>
+<h3>Combining all the things!</h3>
+<p>We can also combine different modifier classes to achieve an even more styling. For example, let’s use gradient and shadow modifiers together:</p>
+<blockquote>
+<p>{codepen CiTA ywmQmb dark result 400 %}</p>
+</blockquote>
+<h2>Any other angles to consider?</h2>
+<p>Making custom elements using different CSS techniques is a great way how each one of us could improve or refresh our knowledge. Before starting, it’s worth investing some thought into the maintainability and modularity of the component being built. A consistent naming convention, like <a href="https://css-tricks.com/bem-101/">BEM</a>, is certainly helpful that. Accessibility is also a big deal, so starting with it in mind and documenting accessibility features along the way will serve you well.</p>
+<p>We looked at four different approaches for drawing ribbon triangles. Have you used a different approach or know of one we haven’t considered here? Let me know in the comments!</p>

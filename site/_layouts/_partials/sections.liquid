@@ -1,0 +1,40 @@
+{% assign hr = false %}
+{% if section.type == 'hero-alpha' %}
+  {% assign hr = true %}
+  {% assign hero1 = section %}
+  {% include _partials/hero-alpha %}
+{% elsif section.type == 'hero-beta' %}
+  {% assign hr = true %}
+  {% assign hero2 = section %}
+  {% include _partials/hero-beta %}
+{% elsif section.type == 'banner-alpha' %}
+  {% assign hr = true %}
+  {% assign banner1 = section %}
+  {% include _partials/banner-alpha %}
+{% elsif section.type == 'banner-beta' %}
+  {% assign hr = true %}
+  {% assign banner2 = section %}
+  {% include _partials/banner-beta %}
+{% elsif section.type == 'cards-alpha' %}
+  {% assign hr = true %}
+  {% assign cards1 = section %}
+  {% include _partials/cards-alpha %}
+{% elsif section.type == 'cards-beta' %}
+  {% assign hr = true %}
+  {% assign cards2 = section %}
+  {% include _partials/cards-beta %}
+{% elsif section.type == 'cards-gamma' %}
+  {% assign hr = true %}
+  {% assign cards3 = section %}
+  {% include _partials/cards-gamma %}
+{% elsif section.type == 'contact' %}
+  {% assign hr = true %}
+  {% assign contact = section %}
+  {% include _partials/contact %}
+{% endif %}
+{% if hr == true and forloop.last != true %}
+  <hr class="text-beta hr">
+{% endif %}
+{% if forloop.last == true and sections2 and content == '' %}
+  <hr class="text-beta hr">
+{% endif %}

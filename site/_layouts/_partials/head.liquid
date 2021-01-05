@@ -1,0 +1,11 @@
+<head>
+  {% include _partials/_head/meta %}
+  {% include _partials/_head/og %}
+  {% include _partials/_head/link %}
+  {% include _partials/_assets/favicon %}
+  {% include _partials/_assets/critical %}
+  {% if canonical %}
+    <link rel="canonical" href="{{ canonical }}">
+  {% endif %}
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>

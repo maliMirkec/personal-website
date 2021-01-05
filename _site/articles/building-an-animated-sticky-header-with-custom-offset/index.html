@@ -1,0 +1,118 @@
+<p>Sticky elements are used all across the web. With the appearance of the <code>position: sticky</code> property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.</p>
+<h2>The specifications</h2>
+<p>The task is to build a sticky header that appears when the user scrolls past the static header or on a custom offset position. When scrolling down, the static header should stay at its place, while the sticky header should roll down. When scrolling up, the sticky header should disappear, and the static header should roll down. Note that the content of the static header and the sticky header differs.</p>
+<h2>The solution</h2>
+<p>To make it easier to understand the specifications, see this pen that contains the full solution:</p>
+<blockquote>
+<p>{codepen CiTA BGQPBz dark result 550 %}</p>
+</blockquote>
+<h2>The breakdown</h2>
+<p>For a better understanding of how this code works, we should examine the HTML structure.</p>
+<h2>HTML</h2>
+<p>Here's the simplified preview of the HTML structure:</p>
+<pre><code>&lt;main&gt;
+  &lt;header&gt;
+    &lt;div class=&quot;header header--alpha&quot;&gt;
+      ...
+    &lt;/div&gt;
+    &lt;div class=&quot;header header--beta&quot;&gt;
+      ...
+    &lt;/div&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;fake-header&quot;&gt;&lt;/div&gt;
+  &lt;article&gt;
+    ...
+  &lt;/article&gt;
+&lt;/main&gt;
+</code></pre>
+<p>Inside the <code>main</code> element, we have <code>header,</code> <code>.fake-header</code> and <code>article</code> elements. To make <code>position: sticky</code> work, the sticky element should be inside the scrollable element—the <code>main</code> element in our case.</p>
+<p>Header holds two elements:</p>
+<ul>
+<li><code>.header--alpha</code>, the static header, and</li>
+<li><code>.header--beta</code>, the sticky header.</li>
+</ul>
+<h2>CSS</h2>
+<p>First, let's style our wrapper element. It should have position relative by default, and sticky once the offset is reached.</p>
+<pre><code>header {
+  top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+header.sticky {
+  position: sticky;
+}
+</code></pre>
+<p>The property <code>top: 0</code> would make sure our header is stuck to the top, and the property <code>overflow: hidden</code> hides everything outside of the <code>header</code> element.</p>
+<p>Next, we should define the behavior of the header parts.</p>
+<pre><code>.header--alpha {
+  transition: .225s ease-out;
+}
+
+.sticky .header--alpha {
+  opacity: .5;
+  transform: translateY(-100%);
+  transition: none;
+}
+</code></pre>
+<p><code>.header--alpha</code>, our static header is visible by default. When the user scrolls past the offset, and the wrapper <code>header</code> element becomes sticky, it will be translated outside of the wrapper element instantaneously without any transition effect. Note that element will be transitioned when it goes to the original position when sticky effect won't be active.</p>
+<pre><code>.header--beta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: .5;
+  transform: translateY(-100%);
+}
+
+.sticky .header--beta {
+  opacity: 1;
+  transform: translateY(0);
+  transition: .35s ease-out;
+}
+</code></pre>
+<p><code>.header--beta</code>, our sticky header is positioned absolutely and translated outside of the wrapper <code>header</code> element. When the sticky effect is activated, it will be translated and transitioned in the original position.</p>
+<h2>JavaScript</h2>
+<p>You might have noticed the <code>.fake-header</code> element.</p>
+<pre><code>.fake-header {
+  height: 1px;
+  position: relative;
+}
+</code></pre>
+<p>This element serves as an offset for the scroll. When it reaches the top of the viewport, the header becomes sticky. And when the header becomes sticky, the fake element will be pushed up by the height of the header plus one extra pixel. When the user scrolls up and reaches the fake element in its new position, the sticky effect will be turned off.</p>
+<pre><code>const $realSticky = document.querySelector(&quot;header&quot;);
+const $fakeSticky = document.querySelector(&quot;.fake-header&quot;);
+
+const stickyHeader = () =&gt; function() {
+  const sr1 = $fakeSticky.getBoundingClientRect();
+  const sr2 = $realSticky.getBoundingClientRect();
+
+  if (sr1.top &gt; 0) {
+    $realSticky.classList.remove(&quot;sticky&quot;);
+    $fakeSticky.style.top = 0;
+  } else {
+    $realSticky.classList.add(&quot;sticky&quot;);
+    $fakeSticky.style.top = `-${sr2.height + 1}px`;
+  }
+};
+
+window.addEventListener(&quot;scroll&quot;, _.debounce(stickyHeader(), 15));
+</code></pre>
+<p>In this example, <a href="https://lodash.com/docs/4.17.10#debounce">lodash debounce</a> function is used to execute the task on scroll event.</p>
+<p><em>I am aware the I could write better JS code and avoid adding the <code>.fake-header</code> element, but I wanted to create a demo without too many calculations.</em></p>
+<h2>Extra</h2>
+<p>Since the static header determines the height of the wrapper element, we have a problem with selecting or clicking on the content immediately after the sticky header, once it appears.</p>
+<p>We could use pointer-events to fix this issue:</p>
+<pre><code>header {
+  pointer-events: none;
+}
+
+.header {
+  pointer-events: all;
+}
+</code></pre>
+<p>First we would set <code>pointer-events</code> to <code>none</code> to the <code>header</code> element to disable click/hover events, and then we would set the <code>pointer-events</code> to <code>all</code> to reenable them again.</p>
+<h2>Conclusion</h2>
+<p>You could see the full demo <a href="https://codepen.io/CiTA/pen/BGQPBz">on my Codepen</a>.</p>
+<p>This demo uses <a href="https://caniuse.com/#search=position%3A%20sticky"><code>position: sticky</code></a>, and <a href="https://caniuse.com/#search=pointer-events"><code>pointer-events</code></a> properties that have limited support.</p>
+<p>I am really excited to see how fast CSS is moving. Brand new properties, like <code>position: sticky</code> and <code>pointer-events</code> allows us to create better experience for the end user more easily and natively. And support is getting better and better every day. 🏆</p>

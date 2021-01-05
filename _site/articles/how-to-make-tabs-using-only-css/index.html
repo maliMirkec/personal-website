@@ -1,0 +1,81 @@
+<p>I know there are more than a few articles about this topic. And there are 2 basic approaches: <a href="https://css-tricks.com/css3-tabs/">using <code>:target</code> pseudo selector</a> and <a href="https://css-tricks.com/functional-css-tabs-revisited/">using list with <code>:checked</code> pseudo selector</a>.</p>
+<p>I prefer the second approach, but without list or nested div structure.</p>
+<p><em>CSS tabs could be accessible, <a href="/articles/css-tabs-part-ii-accessibility/">read about it here</a>.</em></p>
+<h2>HTML structure</h2>
+<p>Let's start with <code>HTML</code>.  This is the full structure:</p>
+<blockquote>
+<p>{codepen CiTA YGZyOm dark html %}</p>
+</blockquote>
+<p>Let's break it down by elements:</p>
+<ul>
+<li>wrapper - this element is used to distinguish tabs from the rest of the content;</li>
+<li><code>input type=&quot;radio&quot;</code> - this element will be hidden, but will be used as a controlling element;</li>
+<li><code>label</code> - this element will be used as a clickable tab;</li>
+<li>content - this element is used as a wrapper for tab's content.</li>
+</ul>
+<p>This structure may look a bit dirty, but soon you'll see the benefit of it. The basic principle is to group different types of elements.</p>
+<p>Next we'll add the following classes on every element:</p>
+<ul>
+<li><code>tabs</code> on wrapper <code>div</code>,</li>
+<li><code>tabs__radio</code> on <code>input type=&quot;radio&quot;</code> elements,</li>
+<li><code>tabs__label</code> on <code>label</code> elements and</li>
+<li><code>tabs__content</code> on content <code>div</code> elements.</li>
+</ul>
+<p><a href="https://en.bem.info/methodology/">BEM naming convention</a> is used for this purpose.</p>
+<p>To make sure every <code>input type=&quot;radio&quot;</code> element is a part of the same block, we'll add <code>name</code> attribute with same value on it like this:</p>
+<blockquote>
+<p>{codeblock lang:html %}
+<code>&lt;input class=&quot;tabs__radio&quot; name=&quot;myTabs&quot; /&gt;</code>
+{endcodeblock %}</p>
+</blockquote>
+<p>Labels are generally used to define an <code>input</code> element. If <code>for</code> attribute is provided with matching <code>id</code> of an <code>input</code>, they will be bound together. If you click on a <code>label</code> that is related to <code>input type=&quot;radio&quot;</code>, <code>checked</code> state of an element will be toggled. This will be used as a trigger for changing tabs.</p>
+<p>With that clarified, we'll add unique <code>id</code> attributes on every <code>input type=&quot;radio&quot;</code> and matching <code>for</code> attributes to every <code>label</code> like this:</p>
+<blockquote>
+<p>{codeblock lang:html %}
+<input class="tabs__radio" id="myTab1" name="myTabs" />
+&lt;label class=&quot;tabs__label for=&quot;myTab1&quot;&gt;
+{endcodeblock %}</p>
+</blockquote>
+<p>Finally, we'll add <code>value</code> attribute for every <code>input type=&quot;radio&quot;</code> element and <code>checked</code> attribute on an element which should be active.</p>
+<h2>CSS code</h2>
+<p>To create styling for tabs, <strong><a href="http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html">SCSS</a></strong> and <strong><a href="https://github.com/maliMirkec/cita-flex">cita-flex</a></strong> will be used. This is the final code:</p>
+<blockquote>
+<p>{codepen CiTA ALVWzg dark html %}</p>
+</blockquote>
+<p>First we will import <strong>cita-flex</strong> mixins in our file. It is a small library which could help you create layouts using flexbox built by me. <strong>cita-flex</strong> is available through bower and you could install it using command <code>bower install cita-flex</code>.</p>
+<p>After that we should define default variables which will help us write more consistent code. There are 6 variables:</p>
+<ul>
+<li><code>$size</code> - default size for padding,</li>
+<li><code>$background</code> - default background color for tabs,</li>
+<li><code>$background--active</code> - default background color for active tab,</li>
+<li><code>$color</code> - text color for tabs,</li>
+<li><code>$color--disabled</code> - text color for disabled tabs and</li>
+<li><code>$breakpoint</code> - width which will define our tabs layout.</li>
+</ul>
+<p><em>I really like BEM naming convention and I use it for defining <code>CSS</code> variables, too.</em></p>
+<p>Wrapper element should be displayed as a wrapped flex.</p>
+<p><code>input type=&quot;radio&quot;</code> elements should be hidden. Here we hide them using <code>position: absolute</code> technique and push the elements outside of the viewport.</p>
+<p>Tabs, or <code>label</code> elements in this case, are flex items. They are aligned in a row and have fluid width controlled by <code>flex-basis</code>.</p>
+<p>Tab's content is an element which takes 100% of the wrapper's width. This is achieved by setting <code>flex-basis</code> to 100%. By default, content is hidden unless matching <code>input type=&quot;radio&quot;</code> is checked.</p>
+<p>Now for the fun part, using <code>CSS</code> to control the tabs. We will take advantage of 3 powerful <code>CSS</code> selectors:</p>
+<ul>
+<li><code>nth-of-type</code> - selects the nth child of the same elements,</li>
+<li><code>:checked</code> - check if <code>input</code> is checked and</li>
+<li><code>~</code> - selects siblings selector.</li>
+</ul>
+<p>If the first child of a <code>input type=&quot;radio&quot;</code> is checked, the first tab should be active and the content of the first tab should be displayed.</p>
+<p>Easy, we'll use <code>.input__radio:nth-of-type(1)</code> to select the first <code>input type=&quot;radio&quot;</code>. Then we'll check if <code>input</code> is checked:  <code>.input__radio:nth-of-type(1):checked</code> and find the first tab using siblings selector: <code>.input__radio:nth-of-type(1):checked ~ .tabs__label:nth-of-type(1)</code>. Finally, we'll find the content of the first tab: <code>.input__radio:nth-of-type(1):checked ~ .tabs__content:nth-of-type(1)</code>.</p>
+<p>Now that we know how to do this for first tab, we could use <code>@for</code> loop and repeat this for every tab. And that's it!</p>
+<h3>Bonus: disabled state</h3>
+<p>I've had situations where tabs should be disabled. It is legit situation and for this purpose I've added disabled state of tab.</p>
+<p>We'll use <code>:disabled</code> pseudo selector and <code>hide-if-disabled</code> class for elements that should be hidden.</p>
+<p>The principle is the the same: we'll find disabled <code>input</code> element and matching tab and content: <code>.tab__radio:nth-of-type(1):disabled ~ .hide-if-disabled:nth-of-type(1)</code>.</p>
+<p>Now we could repeat this for every tab using <code>@for</code> loop and we're finished.</p>
+<p>Below you could see the full solution with disabled tabs 2 and 10.</p>
+<blockquote>
+<p>{codepen CiTA ALVWzg dark result %}</p>
+</blockquote>
+<h2>Final thought</h2>
+<p>Full demo is available on <a href="https://github.com/maliMirkec/csstabs">Github</a> and via bower: <code>bower install csstabs</code>.</p>
+<p>Do you find this solution usable, because I really like how we could do even more complex things with <code>CSS</code> only nowdays?</p>
+<p>Make sure you follow me on <a href="https://twitter.com/malimirkeccita">Twitter</a> and <a href="https://medium.com/@malimirkeccita">Medium</a>, more posts are coming soon.</p>

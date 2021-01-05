@@ -2,6 +2,39 @@
 //
 // Markup: _header.html
 //
-// Weight: 1100
+// Weight: 1000
 //
 // Styleguide Header
+
+header,
+footer {
+  nav {
+    > ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+
+      @include mq($until: bp1) {
+        position: relative;
+
+        > li:first-child {
+          position: absolute;
+          top: -0.66rem;
+          right: 0;
+          left: 0;
+          opacity: 0.1;
+          z-index: -1;
+
+          img {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}

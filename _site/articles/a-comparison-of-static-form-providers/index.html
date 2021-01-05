@@ -1,0 +1,711 @@
+<p><em>This article was originally published on <a href="https://css-tricks.com/a-comparison-of-static-form-providers/">CSS-Tricks</a>.</em></p>
+<p>Let’s attempt to coin a term here: &quot;Static Form Provider.&quot; You bring your HTML <code>&lt;form&gt;</code>, but don’t worry about the back-end processing that makes it work. <a href="https://serverless.css-tricks.com/services/forms">There are a lot of these services out there!</a></p>
+<p>Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. It’s lovely when you can delegate big responsibilities like this. The cost? Typically a monthly or annual subscription, except for a few providers and limited plans. The cost is usually less than fancier &quot;<a href="https://css-tricks.com/options-for-web-forms/">form builders</a>&quot; that help you build the form itself <em>and</em> process it.</p>
+<p>In this article, we are going to review some of the most popular <a href="https://serverless.css-tricks.com/services/forms/">static form providers</a>:</p>
+<ul>
+<li><a href="https://kwes.io/">Kwes</a></li>
+<li><a href="https://usebasin.com/">Basin</a></li>
+<li><a href="https://fieldgoal.io/">FieldGoal</a></li>
+<li><a href="https://formcarry.com/">Formcarry</a></li>
+<li><a href="https://formkeep.com/">FormKeep</a></li>
+<li><a href="https://formspree.io/">Formspree</a></li>
+<li><a href="https://formsubmit.co/">FormSubmit</a></li>
+<li><a href="https://formx.stream/">formX</a></li>
+<li><a href="https://getform.io/">Getform</a></li>
+<li><a href="https://www.netlify.com/products/forms/">Netlify Forms</a></li>
+</ul>
+<p>Before moving forward, just a note that the information for these comparisons came from visiting the site for each product and learning about the included features. Once I got all the information, I sent an email to each provider to confirm the list of features. Some of them confirmed, some didn't. Special thanks to Kwes, FormKeep, Formspree, FormSubmit, formX, and Netlify Forms teams for confirming.</p>
+<h3>Form building components and validation</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Components</th>
+<th>Front-End Validation</th>
+<th>Back-End Validation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+<td>Unable to confirm</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Components for building a form are HTML input elements, like text inputs, textareas, checkboxes, and radio buttons. When using a static form, most providers require adding custom HTML attributes. By providing the custom URL in the form <code>action</code> attribute, the form gets submitted on the provider’s side where it gets stored.</p>
+<p>If you are looking for a form builder, FormKeep has a form designer feature. That means you embed custom HTML and JavaScript files in the page, and you get a styled form. Otherwise, you have to style the form by yourself.</p>
+<p>If you need custom components, like a date picker or card inputs, Kwes and FormKeep are the only providers with this feature. If you want to validate input fields in the browser, you might use third-party libraries or writing your code which means adding additional JavaScript code to the site. Kwes is the only provider that supports front-end validation based on the rules you set in each input component. To enable this feature, you should include additional JavaScript file, which you might do nevertheless. Other static form providers rely only on HTML5 validation.</p>
+<p>Kwes is the only provider with back-end validation, too. The rules you set in the front end are passed to the back end side. In case when front-end validation fails, you are safe, the backend validation would work. Other providers don't have this feature; they rely only on spam protection.</p>
+<h3>Spam protection</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Spam Protection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>Artificial intelligence<br> Automatic Honeypot<br> Blacklists<br> Proprietary technology</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>Akismet<br> CleanTalk<br> reCAPTCHA<br> Honeypot</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Provided, but unable to confirm what powers it</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>Akismet<br> reCAPTCHA</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>Akismet<br> reCAPTCHA<br> Honeypot<br> Proprietary technology</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>Akismet<br> Profanity Filter<br> Authorized Domains<br> Custom reCAPTCHA<br> Custom Honeypot<br> Custom Spam Filtering</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>reCaptcha<br> Honeypot</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>reCAPTCHA<br> Honeypot</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>Akismet<br> reCAPTCHA</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>Akismet<br> reCAPTCHA<br> Honeypot</td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<p>“Kwes advertises a 99.6% spam block success rate with no setup required.”</p>
+</blockquote>
+<p>Once your form is ready for submissions, you might find it hard to deal with spam. That’s why spam protection is essential, especially if you want to keep your sanity and serenity. All providers provide spam protection in this way or another. Some rely on <a href="https://www.google.com/recaptcha/intro/v3.html">Google reCAPTCHA</a> or <a href="https://akismet.com/">Akismet</a>, some on Honeypot techniques, and some use artificial intelligence to get the job done. It is worth noting that adding an additional step to your form, like adding reCAPTCHA might affect the conversion rates on form submissions.</p>
+<h3>Email notifications</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Confirmations</th>
+<th>Notifications</th>
+<th>Email Routing Logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+<td>Unable to confirm</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Email confirmations are essential if you want to provide a fast response to your users. With a contact form, for example, you want to get an email for every new submission. That way, you're able to respond to the submission quickly and efficiently.</p>
+<p>All providers, except FieldGoal, have confirmation, notification, and email routing logic features. You could set up an email form element which would be used to send an email automatically to the user with confirmation about the submission.</p>
+<p>Some providers have other sorts of notifications besides email, like push notifications or Slack messages, which might be handy.</p>
+<h3>White labeling</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>White Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>When communicating via email notifications with your clients, you might want to use your brand and style. It creates better awareness and that way you familiarize your clients with your product. All providers offer this feature, with the exception of FieldGoal, which I was unable to confirm (although it might be under paid plans).</p>
+<h3>Custom redirects</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Redirects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Once you have captured a response from your user, you may want to let the user continue using your site. Also, you might want to communicate to the user that the submission was received. This feature is called &quot;custom redirect,&quot; and every provider has this feature (with another exception for FieldGoal because I was unable to confirm). Note that this feature might not be available in a free plan and require a paid or upgraded account.</p>
+<h3>Upload storage</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Upload Storage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>200MB per file<br> 20GB storage</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>100MB per submission</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Amazon S3</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>5MB per file<br> 5GB storage</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>2.5G storage</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>10MB per file<br> 10GB storage</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>Included, but unconfirmed storage amounts</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>25MB per submission<br> 25GB storage</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>1GB storage</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Not every static form provider provides file storage. For example, formX doesn't provide it at all. In most cases, this feature is available under paid plans. You might want to invest additional time to find out which provider offers the best service for you. Be sure to look specifically at single file size <em>and</em> form submission size limitations.</p>
+<h3>Data export</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data Export</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Data export is important feature if you want to use it for analysis or for import to third-party software. Most providers offer <abbr>CSV</abbr> and JSON exports, which are the most commonly used ones.</p>
+<h3><abbr>API</abbr> access</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>API Access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>On demand</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>If you want to control your data submissions by building a custom application or script, you might benefit from having API access. Most providers have this feature, except Getform. formX offers it, but only on demand.</p>
+<h3>Webhooks/Zapier</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Webhooks</th>
+<th>Zapier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>When building a custom application or a script is out of budget, you might want to use webhooks to integrate data submissions with third-party software. Zapier is one of the most commonly used services for this, and only FormSubmit doesn't support it (though it does support webhooks).</p>
+<h3>Analytics</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Analytics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Unable to confirm</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>formX</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Analytics for static forms is a neat feature that could offer beneficial insight into how your form is performing. It may help you understand how your users interact with it, and you may spot ways to improve the form submission experience as a result. This feature is the least supported of all other features. Only Basin, FormKeep, and formX provide it.</p>
+<h3>Plan comparison</h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Plan 1</th>
+<th>Plan 2</th>
+<th>Plan 3</th>
+<th>Plan 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kwes</td>
+<td>Free Tier $0/mo. <br> Build spam-protected, and validated forms quicker than ever. <br> 1 Website <br> Unlimited Forms <br> 30 Spam Blocks</td>
+<td>Bronze Tier<br>  $9/mo. <br> Unlimited spam blocks, more form tools, and submissions.<br> 1 Website <br> Unlimited Forms <br> Unlimited Spam Blocks</td>
+<td>Silver Tier<br> $29/mo. <br> Build more powerful forms with integrations and webhooks.<br> 3 Websites <br> Unlimited Forms <br> Unlimited Spam Blocks <br> 4 Users</td>
+<td>Gold Tier<br> $79/mo. <br> Enjoy more team members and everything with increased limits. <br> 10 Websites <br> Unlimited Forms <br> Unlimited Spam Blocks <br> 11 Users</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>Standard Tier<br> $4.17/mo. (billed annually)</td>
+<td>Premium Tier<br> $12.50/mo. (billed annually)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FieldGoal</td>
+<td>Single Tier<br> 1 form<br> $5/mo.</td>
+<td>Freelancer Tier<br> 5 forms<br> $15/mo.</td>
+<td>Studio Tier<br> 15 forms<br> $39/mo.</td>
+<td>Agency Tier<br> 50 forms<br> $79/mo.</td>
+</tr>
+<tr>
+<td>FormCarry</td>
+<td>Baby Tier<br> Free</td>
+<td>Basic Tier<br> $15/mo.</td>
+<td>Growth Tier<br> $40/mo.</td>
+<td></td>
+</tr>
+<tr>
+<td>FormKeep</td>
+<td>Starter Tier<br> $4.99/mo.</td>
+<td>Starter Pack<br> $7.50 per form per month</td>
+<td>Freelancer Tier<br> $5.90 per form per month</td>
+<td>Agency Tier<br> $3.30 per form per month</td>
+</tr>
+<tr>
+<td>Formspree</td>
+<td>Free Tier<br> $0/mo.</td>
+<td>Gold Tier<br> $10/mo.</td>
+<td>Platform Tier<br> $40/mo.</td>
+<td></td>
+</tr>
+<tr>
+<td>FormSubmit</td>
+<td>Unlimited</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>formX</td>
+<td>Free Tier<br> $0/mo.<br> 100 submissions max.</td>
+<td>Starter Tier<br> $4.99/mo.</td>
+<td>SMBs &amp; Freelancers<br> $49.99/mo.</td>
+<td>Business &amp; Agencies<br> $99.99/mo.</td>
+</tr>
+<tr>
+<td>Getform</td>
+<td>Free Tier<br> $0/mo.</td>
+<td>Basic Tier<br> Perfect for small businesses<br> $7.5/mo.<br> $90 per year</td>
+<td>Agency Tier<br> $24/mo.<br> $290 annually</td>
+<td>Enterprise Tier<br> $57.5/mo.<br> $690 annually</td>
+</tr>
+<tr>
+<td>Netlify Forms</td>
+<td>Level 0<br> $0<br> 100 submissions/mo.<br> 10MB uploads/mo.</td>
+<td>Level 1<br> $19/mo. per site<br> 1,000 submissions/mo.<br> 1GB uploads/mo.</td>
+<td>Level 2<br> Custom pricing and limits</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Static form providers have different plans, from entirely free plans and trials, to enterprise plans for every business need. Depending on a plan, you might have different features enabled. For example, FormSubmit is the only provider that offers all of its features for free, though it doesn't support every feature we've covered here. You will want to invest some time to learn about which features are most important for you and your product or business. Then go ahead and decide on which provider is most suitable for your needs.</p>
+<h3>Wrapping up</h3>
+<p>Having a form of any kind is a must-have for a large number of sites. When you use a static site generator, you might discover that static form providers make adding forms to a site almost trivial. By following a few rules for enabling static forms, you could benefit from essential features like spam protection and email notifications.</p>
+<p>I have been using Kwes for a while now and I can honestly tell you it is a great product that fulfills all of my needs. It has smart spam protection, an easy-to-use dashboard, and impressive validation, both on the front end and back end.</p>
+<p>Before choosing your static form providers, be sure to put down all requirements to the paper, and then find your perfect provider.</p>

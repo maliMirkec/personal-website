@@ -2,11 +2,7 @@
 //
 // Markup: _grid.html
 //
-// .grid--alpha - Alternative grid
-// .grid--beta - Alternative grid
-// .grid--gamma - Alternative grid
-//
-// Weight: 1000
+// Weight: 1500
 //
 // Styleguide Grid
 
@@ -14,16 +10,9 @@
   display: grid;
   grid-template-columns: var(--cols);
   grid-gap: var(--gap);
+
+  @include mq($from: bp1) {
+    --cols: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }
 
-.grid--alpha {
-  --cols: repeat(auto-fit, minmax(350px, 1fr));
-}
-
-.grid--beta {
-  --cols: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.grid--gamma {
-  --cols: repeat(auto-fit, minmax(250px, 1fr));
-}

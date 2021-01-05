@@ -1,7 +1,18 @@
 ---
+layout: index
 title: I'm available for hire
 description: If you want me on your team, you should send me an email at me@silvestar.codes. I'm also available on Toptal. You will benefit from my experience and services that I could provide.
-sidebar: true
+sections:
+  - type: hero-alpha
+    title: I am available for hire
+    desc: If you want me on your team, you should send me an email at [me@silvestar.codes](mailto:me@silvestar.codes). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and services that I could provide.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 If you want me on your team, you should [contact me](/contact/). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and [services](/services/) that I could provide.
@@ -39,6 +50,3 @@ My first job on Toptal was to build static pages for a [German based company](ht
 I've worked on all sorts of projects and I'm still learning new technologies and techniques every day. I love my job and I like to think that I'm good at it. At least I'm trying to be.
 
 Until this day I've learned to deal with many different problems and tasks. You could check which [services](/services/) I could provide for you.
-
-Best,
-Silvestar

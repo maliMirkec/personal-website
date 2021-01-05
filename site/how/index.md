@@ -1,8 +1,24 @@
 ---
+layout: index
 title: How I built this website
 description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack as an example.
-sidebar: true
+sections:
+  - type: hero-alpha
+    title: I am available for hire
+    desc: >-
+      If you want me on your team, you should send me an email at [me@silvestar.codes](mailto:me@silvestar.codes). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and services that I could provide.
+
+
+
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
+
 
 This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It's featured on [JAMStack as an example](https://jamstack.org/examples/). I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate cta. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.
 

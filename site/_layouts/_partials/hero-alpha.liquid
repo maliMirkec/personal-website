@@ -1,0 +1,22 @@
+<section class="hero margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      {% if hero1.src %}
+        <div class="margin-bottom">
+          {% cldnry src=hero1.src alt=hero1.alt width="300" height="300" classes="margin-auto+brad" %}
+        </div>
+      {% endif %}
+      {% if hero1.title %}
+        <h1 class="fz-step-5 no-margin-top margin-bottom">{{ hero1.title | markdownifyi }}</h1>
+      {% endif %}
+      {% if hero1.desc %}
+        <div class="fz-step-1 copy">{{ hero1.desc | markdownify }}</div>
+      {% endif %}
+      {% if hero1.cta %}
+        <div class="padding">
+          <a class="button" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

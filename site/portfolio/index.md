@@ -3,37 +3,26 @@ layout: index
 title: Portfolio
 sections:
   - type: hero-beta
-    src: /gfx/svg/rocket2.svg
-    alt: Rocket Icon
     title: From the Portfolio
-    desc: Here are the projects that I am most proud. <br> Built with WordPress, Shopify, Jekyll, and Hugo, amongst others.
-  - type: banner-beta
-    wrapperClass: margin-b-3 lg-alpha
-    desc: Did you know that I am <b>available for hire</b>?
-    cta:
-      class: button--alpha
-      href: /contact/
-      title: Hire me ⇢
-  - type: cards-beta
-    elementClass: bg-alpha2
-    elementClass2: lg-alpha
+    desc: >-
+      Here are the projects that I am most proud.
+
+
+      Built with WordPress, Shopify, Jekyll, and Hugo, amongst others.
+    banner:
+      desc: Did you know that I am **available for hire**?
+      cta:
+        href: /contact/
+        title: Hire me ⇢
+  - type: cards-gamma
     cta:
       title: See project ⇢
     filter: portfolio
     sorter: order
-    limit: 999
   - type: banner-alpha
-    src: /gfx/svg/calendar.svg
-    alt: Calendar Icon
-    wrapperClass: padding-t-4 padding-x-4 padding-b-4 lg-beta
-    elementClass: bg-beta2
-    title: I am <u>available</u> for a new project.
-    desc: I specialized in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>WordPress</b>, <b>Shopify</b>, and <b>JAMstack</b> technologies.
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
-      class: button--beta
       href: /contact/
-      title: Hire me
-    cta2:
-      href: /services/
-      title: Or see the full list of services I provide.
+      title: Hire me ⇢
 ---

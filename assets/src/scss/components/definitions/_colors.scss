@@ -1,6 +1,6 @@
 // Colors
 //
-// Weight: 100
+// Weight: 200
 //
 // Styleguide Colors
 
@@ -12,7 +12,7 @@
 // $color-light: #fff - --color-light
 // $color-dark: #111 - --color-light
 //
-// Weight: 101
+// Weight: 201
 //
 // Styleguide Colors.Definitions
 
@@ -20,20 +20,36 @@
 //
 // Markup: _colors-text.html
 //
-// Weight: 102
+// Weight: 202
 //
 // Styleguide Colors.Text
+
+// Background
+//
+// Markup: _colors-background.html
+//
+// Weight: 203
+//
+// Styleguide Colors.Background
+
+// Border
+//
+// Markup: _colors-border.html
+//
+// Weight: 204
+//
+// Styleguide Colors.Border
 
 [class*="text-"] {
   color: var(--text-color);
 }
 
 .text-alpha {
-  --text-color: #{darken($color-alpha, 25%)};
+  --text-color: #{$color-alpha};
 }
 
 .text-beta {
-  --text-color: #{darken($color-beta, 25%)};
+  --text-color: #{$color-beta};
 }
 
 .text-light {
@@ -42,4 +58,52 @@
 
 .text-dark {
   --text-color: #{$color-dark};
+}
+
+[class*="bg-"] {
+  background-color: var(--bg-color);
+}
+
+.bg-alpha {
+  --bg-color: #{$color-alpha};
+}
+
+.bg-beta {
+  --bg-color: #{$color-beta};
+}
+
+.bg-light {
+  --bg-color: #{$color-light};
+}
+
+.bg-dark {
+  --bg-color: #{$color-dark};
+}
+
+[class*="border-"]:not([class*="bottom-border"]):not([class*="top-border"]) {
+  border: 1px solid var(--border-color);
+}
+
+.top-border {
+  border-top: 1px solid var(--border-color);
+}
+
+.bottom-border {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.border-alpha {
+  --border-color: #{$color-alpha};
+}
+
+.border-beta {
+  --border-color: #{$color-beta};
+}
+
+.border-light {
+  --border-color: #{$color-light};
+}
+
+.border-dark {
+  --border-color: #{$color-dark};
 }

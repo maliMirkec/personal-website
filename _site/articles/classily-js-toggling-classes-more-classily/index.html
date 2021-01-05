@@ -1,0 +1,148 @@
+<p>I created a <code>JavaScript</code> plugin for toggling classes more <strong>classily</strong>, and I called it <strong><a href="https://github.com/maliMirkec/Classily.js">Classily.js</a></strong>. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.</p>
+<h2>What is Classily.js?</h2>
+<p>Classily.js is a <code>Javascript</code> plugin built to solve a single problem—toggle a <code>CSS</code> class on an <code>HTML</code> element. The current version of Classily.js has more features, including toggling multiple classes and targeting multiple elements.</p>
+<p>Before we see the plugin in action, let's see how to install it.</p>
+<h2>How to install Classily.js?</h2>
+<p>You could install Classily.js by cloning a repository from GitHub:</p>
+<pre><code class="language-bash">git clone https://github.com/maliMirkec/Classily.js.git
+</code></pre>
+<p>or by installing using npm:</p>
+<pre><code class="language-bash">npm install classily.js
+</code></pre>
+<p>or using yarn:</p>
+<pre><code class="language-bash">yarn add classily.js
+</code></pre>
+<p>or using Bower:</p>
+<pre><code class="language-bash">bower install classily.js
+</code></pre>
+<h2>How to initialize Classily.js?</h2>
+<p>To initialize Classily.js, add <code>script</code> tag to your <code>HTML</code> document with path to Classily.js.
+Next, make new Classily instance and you are good to go!</p>
+<pre><code class="language-javascript">new Classily ({
+  selector: '.my-selector'
+})
+</code></pre>
+<p>where <code>selector: &quot;.my-classily-element&quot;</code> is a trigger selector—an element which will trigger class toggle action—usually an anchor or a button. Default selector is <code>.js-classily</code>.</p>
+<p>Once you installed and initialized the plugin, you are ready to use the plugin and discover many new ways how the plugin could be helpful.</p>
+<h2>Which options does Classily.js have?</h2>
+<p>Two main options could be passed to Classily.js:</p>
+<ul>
+<li><code>data-target</code> and</li>
+<li><code>data-class</code>.</li>
+</ul>
+<p><code>data-target</code> option is used for targeting elements. We target elements by providing selectors for <code>querySelectorAll()</code> function.</p>
+<p><code>data-class</code> option is used to pass class names that will be toggled on targeted elements.</p>
+<p>We can provide multiple targets and classes by separating them with comma character. Using these two options, and depending on how the options are passed, we could achieve four different scenarios:</p>
+<ul>
+<li>toggling a single class on a single selector,</li>
+<li>toggling a single class on multiple selectors,</li>
+<li>toggling multiple classes on a single selector and</li>
+<li>toggling multiple classes on multiple selectors.</li>
+</ul>
+<p>When a number of selectors and classes are equal, then each selector could be toggled with a different set of classes. For example, if we pass two selectors separated with comma character and two classes separated with comma character, the first class will be toggled on elements targeted with the first selector, and the second class will be toggled on elements targeted with the second selector.</p>
+<blockquote>
+<p>{cldnry Classily-example_a31spq.png &quot;Classily.js graphic.&quot; %}</p>
+</blockquote>
+<p>When a number of selectors and classes are not equal, then all provided classes will be toggled on every element targeted by every selector. For example, if we pass two selectors separated with comma character and three classes separated with comma character, all three classes will be toggled on every element targeted by two selectors.</p>
+<p>Enough theory, let's see this plugin in action.</p>
+<h2>How to use Classily.js?</h2>
+<p>To trigger class toggle action, you should add the following code:</p>
+<pre><code class="language-html">&lt;button type=&quot;button&quot;
+  class=&quot;js-classily&quot;
+  data-target=&quot;.my-class&quot;
+  data-class=&quot;blue&quot;&gt;
+  Toggle
+&lt;/button&gt;
+...
+&lt;div class=&quot;my-class&quot;&gt;...&lt;/div&gt;
+</code></pre>
+<p>where</p>
+<ul>
+<li><code>class=&quot;js-classily&quot;</code> is used as a selector for plugin initialization;</li>
+<li><code>data-target=&quot;.my-class&quot;</code> is used to target the element or elements that will toggle class;</li>
+<li><code>data-class=&quot;blue&quot;</code> is used to provide a class or classes that will be toggled.</li>
+</ul>
+<p>As you see, Classily.js is not complicated to use. In fact, it looks like it cannot do much, but I want to reassure you that is not the case. Stay with me; I will guide you through examples.</p>
+<h2>How to toggle the same class on multiple elements?</h2>
+<p>If you click on the &quot;Toggle button&quot; in the example below, you should see that both headings will change color.</p>
+<blockquote>
+<p>{codepen CiTA POaNEj dark result 350 %}</p>
+</blockquote>
+<p>Here's the code:</p>
+<pre><code class="language-html">&lt;button class=&quot;js-classily&quot;
+  type=&quot;button&quot;
+  data-target=&quot;.my-class&quot;
+  data-class=&quot;blue&quot;&gt;
+  Toggle class
+&lt;/button&gt;
+...
+&lt;h1 class=&quot;my-class&quot;&gt;...&lt;/h1&gt;
+&lt;h1 class=&quot;my-class&quot;&gt;...&lt;/h1&gt;
+</code></pre>
+<p>By adding the same class <code>.my-class</code> on target elements we are targeting both headings at the same time. That is because Classily.js uses <code>querySelectorAll()</code> function.</p>
+<p>There is another way how we could achieve the same effect—we could provide a comma-separated list of selectors.</p>
+<h2>How to toggle multiple classes on multiple elements?</h2>
+<p>In the example below, we are toggling two different classes on two separate elements.</p>
+<blockquote>
+<p>{codepen CiTA VrdaGK dark result 430 %}</p>
+</blockquote>
+<p>The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, <code>hidden</code> and <code>blue</code>—we could provide more that one class by using space as separator.</p>
+<pre><code class="language-html">&lt;button type=&quot;button&quot;
+  class=&quot;js-classily&quot;
+  data-target=&quot;.my-first-target, .my-second-target&quot;
+  data-class=&quot;blue, hidden blue&quot;&gt;
+  Toggle classes
+&lt;/button&gt;
+...
+&lt;h1 class=&quot;my-first-target&quot;&gt;...&lt;/h1&gt;
+&lt;h1 class=&quot;my-second-target&quot;&gt;...&lt;/h1&gt;
+</code></pre>
+<p>Pretty awesome, right. Are you ready for more advanced examples?</p>
+<h2>How to use Classily.js for toggling states?</h2>
+<p>In the following example, the heading could be in three states:</p>
+<ul>
+<li>default state,</li>
+<li>&quot;blue&quot; state,</li>
+<li>&quot;red&quot; state and</li>
+<li>&quot;gold&quot; state.</li>
+</ul>
+<p>Once we activate &quot;blue&quot;, &quot;red&quot; or &quot;gold&quot; state, the heading could never go back to default state.</p>
+<blockquote>
+<p>{codepen CiTA pdKbzY dark result 250 %}</p>
+</blockquote>
+<p>To create the same effect, think how many lines of <code>JavaScript</code> code you should write. And now let's look how we could achieve this effect using Classily.js:</p>
+<pre><code class="language-html">&lt;button type=&quot;button&quot;
+  class=&quot;js-classily&quot;
+  data-target=&quot;.my-class.red, .my-class.gold, .my-class:not(.blue)&quot;
+  data-class=&quot;red, gold, blue&quot;&gt;
+  Toggle Blue
+&lt;/button&gt;
+...
+&lt;h1 class=&quot;my-class&quot;&gt;...&lt;/h1&gt;
+</code></pre>
+<p>First, we are targeting <code>.my-class</code> element with <code>.red</code> class. If there is no such element, Classily.js will skip this step. If the element exists, then we remove <code>.red</code> class. Repeat the same for the <code>.gold</code> class. Then, we are targeting <code>.my-class</code> element that doesn't contain <code>.blue</code> class. If the element exists, then add <code>.blue</code> class. The heading is now in &quot;blue&quot; state. The same is for &quot;red&quot; and &quot;gold&quot; states.</p>
+<p>The method above could be applied to create tab section, feature seen on many websites, for example. When the user clicks on a tab, different content appears.</p>
+<h2>Does Classily.js have special features?</h2>
+<p>Often there is a need to switch the state of the element itself, like the button in this example.</p>
+<blockquote>
+<p>{codepen CiTA JOZKEb dark result 180 %}</p>
+</blockquote>
+<p>To avoid usage of complicated selectors, we could use the keyword <code>this</code>.</p>
+<pre><code class="language-html">&lt;a href=&quot;https://github.com/maliMirkec/Classily.js&quot;
+  class=&quot;button-switch js-classily&quot;
+  data-target=&quot;this&quot;
+  data-class=&quot;button-switch--off&quot;
+  data-prevent=&quot;default&quot;&gt;
+  ...
+&lt;/a&gt;
+</code></pre>
+<p>In this example, we used anchor tag as a button. There is another feature that is useful—we could prevent default behavior, like opening a link. To do that, we should use <code>data-prevent=&quot;default&quot;</code> option.</p>
+<p>For more Classily.js examples, check this <a href="https://codepen.io/collection/nJZLYz/">Codepen collection</a>.</p>
+<h2>Conclusion</h2>
+<p>Classily.js is helping me with my everyday job. I no longer have to jump from template file to script file to execute simple tasks like class toggling. And I'm able to achieve some pretty nifty tricks with it.</p>
+<p><a href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/">Share it</a>, <a href="https://www.npmjs.com/package/classily.js">like it</a>, <a href="https://github.com/maliMirkec/Classily.js">star it</a>, <a href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/&amp;text=Classily.js%20-%20Toggling%20classes%20more%20classily&amp;via=malimirkeccita">tweet it</a>!</p>
+<p>Also, don't hesitate <a href="https://github.com/maliMirkec/Classily.js/issues/new">to report an issue</a>, if you find any. And if you know how to make tests for this plugin, let me know how.</p>
+<h2>Links</h2>
+<p>Github: https://github.com/maliMirkec/Classily.js
+Npm: https://www.npmjs.com/package/classily.js
+Codepen: https://codepen.io/collection/nJZLYz/</p>

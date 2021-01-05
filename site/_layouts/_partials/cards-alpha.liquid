@@ -1,0 +1,52 @@
+{% assign card1List = collections[cards1.filter] | reverse %}
+
+{% if card1List %}
+  <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
+    <div class="wrapper wrapper--alpha grid">
+      {% for card1 in card1List %}
+        {% if cards1.limit and forloop.index > cards1.limit %}
+          {% break %}
+        {% endif %}
+        <div class="card card--flex text-center bg-light">
+          {% if card1.data.title %}
+            <h3 class="fz-step-2 no-margin top-border border-dark"><a class="db margin-top" href="{{ card1.url }}">{{card1.data.title}}</a></h3>
+          {% endif %}
+          <div class="padding">
+            {% if card1.data.date %}
+              <div class="copy">
+                <p>Published: <time>{{ card1.data.date | date: "%Y-%m-%d" }}</time></p>
+              </div>
+            {% endif %}
+            {% if card1.data.categories %}
+              <div class="padding">
+                {% for category in card1.data.categories %}
+                  <a class="button button--small button--inverse" href="#tag/{{ category }}">{{ category }}</a>
+                {% endfor %}
+                {% if cards1.cta %}
+                <div class="copy margin-top">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias vel quis! Fuga odit soluta ratione, itaque aspernatur aliquid alias minima voluptates, temporibus quaerat illo, vel deserunt rerum deleniti harum?</p>
+                </div>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% if cards1.cta %}
+            <a class="button df padding" href="{{ card1.url }}">{{ cards1.cta.title }}</a>
+          {% endif %}
+        </div>
+      {% endfor %}
+      {% if cards1.desc %}
+        <div class="card card--flex text-center bg-light padding">
+          <div class="margin-auto">
+            <div class="copy">{{ cards1.desc | markdownify }}</div>
+            {% if cards1.cta2 %}
+              <div class="margin-top">
+                <a class="button button--small" href="{{ cards1.cta2.href }}">{{ cards1.cta2.title }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}

@@ -2,88 +2,76 @@
 //
 // Markup: _spacing.html
 //
-// Weight: 600
+// Weight: 400
 //
 // Styleguide Spacing
 
-.margin-l-auto {
-  margin-left: auto;
+
+.padding {
+  padding: #{$space};
 }
 
-.margin-r-auto {
-  margin-right: auto;
+.margin {
+  margin: #{$space};
 }
 
-.margin-t-auto {
-  margin-top: auto;
+.margin-top {
+  margin-top: #{$space};
 }
 
-.margin-l-auto {
-  @extend .margin-r-auto;
-  @extend .margin-l-auto;
+.margin-bottom {
+  margin-bottom: #{$space};
 }
 
-@for $i from 0 through 6 {
-  $spacing: calc(#{$space * $i});
-  $spacing: calc(#{((-1 + $i * $i) * #{var(--space-default)}) + var(--space-default)});
+.margin-top-alpha {
+  margin-top: #{$space * 2};
 
-  .padding-#{$i} {
-    padding: $spacing;
+  @include mq($from: bp1) {
+    margin-top: #{$space * 2};
   }
+}
 
-  .padding-x-#{$i} {
-    padding-right: $spacing;
-    padding-left: $spacing;
-  }
+.margin-bottom-alpha {
+  margin-bottom: #{$space * 2};
 
-  .padding-y-#{$i} {
-    padding-top: $spacing;
-    padding-bottom: $spacing;
+  @include mq($from: bp1) {
+    margin-bottom: #{$space * 2};
   }
+}
 
-  .padding-r-#{$i} {
-    padding-right: $spacing;
-  }
+.margin-left {
+  margin-left: #{$space};
+}
 
-  .padding-l-#{$i} {
-    padding-left: $spacing;
-  }
+.margin-right {
+  margin-right: #{$space};
+}
 
-  .padding-t-#{$i} {
-    padding-top: $spacing;
-  }
+.margin-auto {
+  margin: auto;
+}
 
-  .padding-b-#{$i} {
-    padding-bottom: $spacing;
-  }
+.no-spacing {
+  margin: 0;
+  padding: 0;
+}
 
-  .margin-#{$i} {
-    margin: $spacing;
-  }
+.no-margin-bottom {
+  margin-bottom: 0;
+}
 
-  .margin-x-#{$i} {
-    margin-right: $spacing;
-    margin-left: $spacing;
-  }
+.no-margin-top {
+  margin-top: 0;
+}
 
-  .margin-y-#{$i} {
-    margin-top: $spacing;
-    margin-bottom: $spacing;
-  }
+.no-padding-bottom {
+  padding-bottom: 0;
+}
 
-  .margin-r-#{$i} {
-    margin-right: $spacing;
-  }
+.no-padding-top {
+  padding-top: 0;
+}
 
-  .margin-l-#{$i} {
-    margin-left: $spacing;
-  }
-
-  .margin-t-#{$i} {
-    margin-top: $spacing;
-  }
-
-  .margin-b-#{$i} {
-    margin-bottom: $spacing;
-  }
+.no-margin {
+  margin: 0;
 }

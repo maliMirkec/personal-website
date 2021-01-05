@@ -1,0 +1,130 @@
+<p>Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid</a> and actually use it. Here's what I learned.</p>
+<h2>Using CSS Grid</h2>
+<p>Every time I'm doing a new (re)design, I usually start with the header. The first component in a header is navigation. My website architecture is not complicated, just a few pages, blog category and posts.</p>
+<pre><code class="language-html">&lt;header class=&quot;header&quot;&gt;
+  &lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;
+      &lt;a class=&quot;nav__link&quot; href=&quot;/link/to/nav/item&quot;&gt;Item 1&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;
+      &lt;a class=&quot;nav__link&quot; href=&quot;/link/to/nav/item&quot;&gt;Item 2&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;
+      &lt;a class=&quot;nav__link&quot; href=&quot;/link/to/nav/item&quot;&gt;Item 3&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;
+      &lt;a class=&quot;nav__link&quot; href=&quot;/link/to/nav/item&quot;&gt;Item 4&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/header&gt;
+</code></pre>
+<p>I wanted to try CSS Grid here, so I started by adding <code>display: grid</code> on my <code>ul</code> element. At first, I wasn't sure how many elements will be in the menu, 4 or 5. But I had to know that information in order to define my <code>grid-template-columns</code>. Or do I?</p>
+<p>I discovered there's a property that could help me in this specific situation. And it is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow"><code>grid-auto-flow</code></a>.</p>
+<blockquote>
+<p>“The grid-auto-flow CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.”</p>
+</blockquote>
+<p>I'll set this property to <code>column</code> and grid will be smart enough to add new columns as necessary.</p>
+<pre><code class="language-css">.nav {
+  display: grid;
+  grid-auto-flow: row;
+}
+@media screen and (min-width: $mq-mobile) {
+  .nav {
+    grid-auto-flow: column;
+  }
+}
+</code></pre>
+<p>To create a responsive menu, I've added a media query for a smaller screen and stacked items one below other using <code>grid-auto-flow: row</code>. Now I could use either 4 or 5 elements in my navigation. Everything works.</p>
+<blockquote>
+<p>{codepen CiTA brVbjx dark result 200 %}</p>
+</blockquote>
+<h2>Using CSS Grid items</h2>
+<p>Then new problems arrived. I wanted to create <a href="https://hexo.io/docs/themes.html">a Hexo theme</a> and <a href="https://hexo.io/themes/">share it with the community</a>, just like I did with <a href="https://www.npmjs.com/package/hexo-codepen">hexo-codepen</a> and <a href="https://www.npmjs.com/package/hexo-caniuse">hexo-caniuse</a> plugins.</p>
+<p>In order to do that, I wanted to provide developers with an option to add as many menu elements as needed. And then things started to get complicated.</p>
+<p>I thought it would be a good idea to allow a maximum of 4 elements per row in the header navigation. If there are more than 4 elements, place them in the new row.</p>
+<p>I was playing around with various CSS Grid properties to achieve desired behavior but nothing worked with <code>grid-auto-flow</code>.</p>
+<p>Then I've tried a different approach: instead of trying to define a grid, I'll try to position grid items individually. I'll place first grid item in the first column of the first row and then second grid item in the second column of the first row and so on.</p>
+<pre><code class="language-css">@media screen and (min-width: 320px) {
+  .nav__item:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .nav__item:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .
+  ..
+  ...
+}
+</code></pre>
+<p>CSS Grid is smart enough to create a grid from provided <code>grid-area</code> properties. It wasn't the best solution and certainly not the most elegant one, but it worked.</p>
+<blockquote>
+<p>{codepen CiTA BdoaQb dark result 230 %}</p>
+</blockquote>
+<h2>Using CSS Grid correctly</h2>
+<p>I couldn't be satisfied with that kind of a solution. By looking at the compiled CSS, I realized that the file was too big because of all those <code>nth-child</code> pseudo classes. I had to dig deeper.</p>
+<p>After studying every grid property I finally got the answer. I should create desired grid, but use <code>auto</code> for sizing.</p>
+<pre><code class="language-css">.nav {
+  display: grid;
+  grid-auto-flow: row;
+}
+@media screen and (min-width: 320px) {
+  .nav {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+</code></pre>
+<p>I've defined 4 columns and 2 rows and the result looks the same.</p>
+<blockquote>
+<p>{codepen CiTA MvKQXZ dark result 230 %}</p>
+</blockquote>
+<h2>Using flexbox as fallback</h2>
+<p>CSS Grid isn't fully supported yet.</p>
+<blockquote>
+<p>{caniuse css-grid current %}</p>
+</blockquote>
+<p>I needed a decent fallback for CSS grid. Because I'm a huge fan of Flexbox and because the support for Flexbox is pretty good, it was natural to create a fallback to Flexbox.</p>
+<blockquote>
+<p>{caniuse flexbox current %}</p>
+</blockquote>
+<p>I first heard about this method when <a href="https://www.smashingmagazine.com/author/vitaly-friedman/">Vitaly Friedman</a> from <a href="https://www.smashingmagazine.com/">Smashing Magazine</a> had a workshop in Osijek earlier this year. The principle is that we should first define Flexbox and than add CSS Grid using <code>@supports</code> rule.</p>
+<pre><code class="language-css">.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav__item {
+  flex: 0 0 auto;
+  width: 100%;
+}
+@media screen and (min-width: $mq-mobile) {
+  .nav__item {
+    width: calc(100% / 4);
+  }
+}
+// use grid if supported
+@supports (display:grid) and (grid-auto-flow: row) {
+  .nav {
+    display: grid;
+    grid-auto-flow: row;
+  }
+  @media screen and (min-width: 320px) {
+    .nav {
+      grid-template-columns: repeat(4, auto);
+      grid-template-rows: repeat(2, auto);
+    }
+  }
+}
+</code></pre>
+<p>To prevent Edge from using CSS Grid, I've added <code>grid-auto-flow: row</code> rule. This property has <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow#Browser_compatibility">no support</a> in Edge.</p>
+<p>The result is still the same, with an exception of cross browser support.</p>
+<blockquote>
+<p>{codepen CiTA gxPzwJ dark result 230 %}</p>
+</blockquote>
+<h2>A lesson learned</h2>
+<p>I've learned a lot by building a navigation using CSS Grid. The biggest lesson here is to use CSS Grid where appropriate. And building navigation using CSS Grid is certainly not appropriate, in my opinion.</p>
+<h2>Final thoughts</h2>
+<p>I really enjoyed building a navigation component using many different techniques. There are many ways how components could be built and there is no correct or wrong solution, as long as it works. That's why I love CSS.</p>
+<p>Are you using CSS Grid? In what situations? Leave a comment below or <a href="https://twitter.com/malimirkeccita">ping me on Twitter</a>.</p>
+<blockquote>
+<p>“I wrote a newer article on the same subject, <a href="/articles/using-css-grid-where-appropriate-revisited/">Using CSS Grid where appropriate (revisited)</a>.”</p>
+</blockquote>

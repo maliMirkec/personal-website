@@ -1,0 +1,21 @@
+// Copy
+//
+// Markup: _copy.html
+//
+// Weight: 1600
+//
+// Styleguide Copy
+
+.copy {
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.copy--body {
+  overflow: hidden;
+}

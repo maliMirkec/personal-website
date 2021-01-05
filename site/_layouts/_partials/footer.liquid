@@ -1,0 +1,32 @@
+{% if footer %}
+  <footer class="text-center">
+    {% if footer.menu %}
+      <nav>
+        <ul class="list-style-none">
+          {% for item in footer.menu %}
+            <li class="margin-right margin-left">
+              <a href="{{ item.href }}" class="padding-y-1">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+    {% if footer.social %}
+      <nav>
+        <ul class="list-style-none">
+          {% for item in footer.social %}
+            <li class="margin-right margin-left">
+              <a href="{{ item.href }}" class="padding-y-1">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+    {% if site.author %}
+      <p class="fz-step--1">&copy; {{ site.author }}, YEAR</p>
+    {% endif %}
+    {% if footer.logo %}
+      <p><a href="{{ footer.logo.href }}"><img class="margin-auto" src="{{ footer.logo.src }}" alt="{{ footer.logo.title }}" width="50" height="50" loading="lazy"></a></p>
+    {% endif %}
+  </footer>
+{% endif %}

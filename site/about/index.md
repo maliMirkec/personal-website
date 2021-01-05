@@ -4,24 +4,18 @@ title: About me
 description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
 sections:
   - type: hero-alpha
-    elementClass: bg-alpha2 bgi-quote bgi--tl bgi--opacity bgi--small
+    src: avatar-1024_yo1iya
+    alt: A profile photo of Silvestar Bistrović.
     title: About me
-    desc: I am Silvestar Bistrović, <b>fearless</b> web engineer, <b>CSS developer</b>, JAMstack enthusiast, and WordPress theme specialist.
+    desc: >-
+      I am Silvestar Bistrović, **fearless** web engineer, **CSS developer**, JAMstack enthusiast, and WordPress theme specialist.
 sections2:
   - type: banner-alpha
-    src: /gfx/svg/calendar.svg
-    alt: Calendar Icon
-    wrapperClass: padding-t-4 padding-x-4 padding-b-4 lg-beta
-    elementClass: bg-beta2
-    title: I am <u>available</u> for a new project.
-    desc: I specialized in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>WordPress</b>, <b>Shopify</b>, and <b>JAMstack</b> technologies.
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
-      class: button--beta
       href: /contact/
-      title: Hire me
-    cta2:
-      href: /services/
-      title: Or see the full list of services I provide.
+      title: Hire me ⇢
 ---
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my speciality.

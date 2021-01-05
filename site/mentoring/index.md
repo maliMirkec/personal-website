@@ -1,10 +1,18 @@
 ---
+layout: index
 title: Mentorship
 description: If you like to be mentored to become a better UI developer, feel free to contact me.
-sidebar: true
-mentoring: true
-form: mentoring
-card: true
+sections:
+  - type: hero-alpha
+    title: Need a mentor?
+    desc: If you like to be mentored to become a better UI developer, feel free to contact me.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Learning new skills or entering web development world in this fast-moving branch could be a daunting task and decision. I have been lucky to start learning web development in a very friendly environment. I have learned all about web development while being mentored, which made the process a lot enjoyable and more relaxed. As I gained confidence, I was able to resolve more complex tasks and problems. Having a person who understands a developer's path has been crucial in my career.

@@ -2,11 +2,11 @@
 //
 // Markup: _forms.html
 //
-// :hover - Anchor hover.
-// :focus - Anchor focus.
-// :active - Anchor active.
+// :hover - Hover.
+// :focus - Focus.
+// :active - Active.
 //
-// Weight: 850
+// Weight: 900
 //
 // Styleguide Forms
 
@@ -28,17 +28,19 @@
   border: .1em solid currentColor;
   outline: none;
   width: 100%;
-  filter: brightness(100%);
   cursor: pointer;
 
-  &:hover,
-  &:focus {
-    filter: brightness(110%);
-    @extend .bsh--alpha;
+  &:hover {
+    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)} inset;
   }
 
   &:focus,
   &:active {
-    @extend .bsh--alpha2;
+    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
   }
+
+  // &:focus,
+  // &:active {
+  //   @extend .bsh--alpha2;
+  // }
 }

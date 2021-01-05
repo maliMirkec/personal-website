@@ -1,0 +1,263 @@
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper wrapper--copy padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way.</p>
+<h2>About the project</h2>
+<p><a href="https://cld.silvestar.codes">Code Line Daily</a> is a website that is dedicated to highlighting a single line of code that makes a significant impact in an every-day job of a developer. The project was <a href="https://www.producthunt.com/posts/code-line-daily">featured on the Product Hunt</a>, to my big surprise, and it gathered 150 upvotes, too.</p>
+<p>As a part of the Code Line Daily project, I developed the following features:</p>
+<ul>
+<li>scheduled posting,</li>
+<li>CMS implementation,</li>
+<li>an API for fetching the data and posting to Twitter,</li>
+<li>auto-post on Twitter,</li>
+<li>on-the-fly image creation,</li>
+<li>RSS feed,</li>
+<li>offline support,</li>
+<li>a widget featured on my personal site, and</li>
+<li>a browser extension for Chrome.</li>
+</ul>
+<p>I have used my other side project called <a href="https://starter.silvestar.codes">Starter Project</a> as a starting point. I customized the original project, and it grew to become some sort of static generator. It may not be perfect, but it works out for me.</p>
+<h2>Challenges</h2>
+<p>The original project was <a href="/articles/announcing-code-line-daily/">built over a weekend</a> last summer. I had the idea, I had the time, and I just went for it. Since the project gained a bit of traction, I realized that I might do some things to improve it.</p>
+<p>First, I <a href="https://dev.to/starbist/could-you-review-my-design-please-3fc6">asked the community</a> for the feedback <a href="https://projects.invisionapp.com/prototype/Code-Line-Daily-cjzlr00lz002fan01i2i608k3/play/a9d28b19">on the design</a>. I got a few fair comments which I took into account. After a few smaller iterations, I implemented the design. I should say that I am not a designer by no means, and I was surprised how quickly I came up with it.</p>
+<p>The next challenge was to create a scheduling functionality. Since the project falls under “static sites”, I realized I would need at least one build every day. I decided to use Zapier and scheduled daily build every morning. The next step was to figure out how to store the data and display only current and past lines. The final decision was to use JSON file and some custom <a href="https://pugjs.org/api/getting-started.html">Pug</a> template mixins.</p>
+<p><a href="https://coggle.it/diagram/XxWrxyV2w96sJ-ZL/t/code-line-daily">&gt; {cldnry cld-coggle_s7nfvf.png &quot;A graph of the Code Line Daily architecture.&quot; %}</a></p>
+<p>Since I used the JSON file, I figured I could set up <a href="https://www.netlifycms.org/">Netlify CMS</a>. The reason was to be able to add a new line from my mobile using a mobile browser. You could <a href="https://cld.silvestar.codes/commit/">add new lines</a>, too.</p>
+<p>Next, I wanted to be able to post a new line every day on Twitter. I created a lambda function that checks if the line is already published and then publishes a new tweet. Again I used <a href="https://zapier.com/">Zapier</a> to trigger the post-to-twitter action every day 1 hour after the morning build (just in case).</p>
+<p>To make the most out of Twitter posting, I wanted to post the image as the image might be better for engaging the users. To create an image for every line, I had to develop an SVG that could be used as a template. Creating dynamic image was a challenge because the SVG text element is restricted to final dimensions. I had to calculate the size of the text to make it right. One person commented that Twitter content might be better. I have updated the text, too.</p>
+<p>Next, as a part of the project, I wanted to add the <a href="https://cld.silvestar.codes/rss.xml">RSS feed</a>. Building the RSS feed using only Pug was also something I never did. It turns out it is not that hard to do it, but it might be a challenge to create a valid feed since RSS file doesn’t allow any mistakes.</p>
+<p>Last year I learned about <a href="https://developers.google.com/web/tools/workbox">Workbox</a>, a library that helps to create an offline experience by taking advantage of features used to build Progressive Web Apps. After I integrated Workbox, the site became available offline. It could be installed on your mobile device, too.</p>
+<p>Finally, I created the Code Line Daily widget and put it on my <a href="/">personal site’s homepage</a>. The widget fetches a random line from the API and displays it as a fancy little component. You could see the prototype <a href="https://codepen.io/CiTA/pen/eYNMvOa">in the CodePen</a>.</p>
+<p>Another person suggested that it might be a good idea to build <a href="https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg">a browser extension</a>. When a user opens a new tab, the latest line would be displayed. I have never developed a browser extension before. Still, after learning about it, I figured I might be able to do it. And I did, indeed.</p>
+<h2>Conclusion</h2>
+<p>During the last year, I dedicated a lot of my time to this project. Most of the time, I was having fun developing these features, but I struggled with the content. Even if it was a single line per day, it was still a challenge for me. Writing content is hard.</p>
+<blockquote>
+<p>Most of the time, I was having fun developing these features, but I struggled with the content.</p>
+</blockquote>
+<p>On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the <a href="https://tinyletter.com/starbist/">UI Dev newsletter</a>, which I am beginning to enjoy more and more with every new issue.</p>
+<p>P.S. I am aware my project is not very popular. I always wanted to learn more about the marketing and promotion aspects of this project. If you have any suggestion on how to promote this project, please <a href="/contact/">contact me</a> or <a href="#disqus_thread">leave a comment</a>.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+
