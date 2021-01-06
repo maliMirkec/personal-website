@@ -7,11 +7,42 @@ tags:
 thumbnail: cci_ohuha5.png
 logo: cci_xk4gjk.png
 order: 1
+date: 2020-01-01
 position: Founder
 company: Credit Card Insider
-projects:
-  - name: Credit Card Insider
-    link: /portfolio/creditcardinsider/
+sections:
+  - type: hero-alpha
+    src: cci_xk4gjk.png
+    alt: Logo of Credit Card Insider.
+    width: 159
+    height: 40
+    title: John Ganotis
+    desc: Founder at Credit Card Insider
+    tag:
+      href: /testimonials/
+      title: /Testimonials
+sections2:
+  - type: banner-beta
+    desc: >-
+      Did you know that I built the WordPress theme for Credit Card Insider site?
+    cta:
+      href: /portfolio/creditcardinsider/
+      title: See the project ⇢
+  - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    cta:
+      title: See more ⇢
+    filter: testimonials
+    exclude: true
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers.

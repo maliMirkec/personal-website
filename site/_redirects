@@ -11,3 +11,4 @@
 /side-projects /categories/side-projects/ 200!
 /categories/* /categories/articles/:splat 200!
 /mentoring https://mentor.silvestar.codes/ 301!
+/portfolio/huggable /portfolio/little-bundle/ 301!

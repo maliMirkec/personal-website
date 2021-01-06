@@ -18,7 +18,6 @@ sections:
     cta:
       title: See project ⇢
     filter: portfolio
-    sorter: order
   - type: banner-alpha
     title: I am _available_ for a new project.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.

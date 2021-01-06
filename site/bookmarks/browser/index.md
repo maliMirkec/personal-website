@@ -1,9 +1,13 @@
 ---
 layout: index
 title: Browser Bookmarks
+description: Browser bookmarks export file.
 date: 2017-08-02 20:08:06
-description: Browser bookmarks export file
-sidebar: true
+sections:
+  - type: hero-alpha
+    title: Browser Bookmarks
+    desc: >-
+      Browser bookmarks export file.
 ---
 
 - [Xpath tester](https://extendsclass.com/xpath-tester.html)

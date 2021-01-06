@@ -1,14 +1,14 @@
 ---
 layout: index
-title: Karim Mansi
-description: Karim Mansi talks about his positive experience in working with Silvestar Bistrović.
+title: Rachel Ivey
+description: Rachel Ivey talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 thumbnail: ww_hceizq.png
 logo: ww_pm2rwy.png
-order: 6
-date: 2020-01-06
-position: eCommerce Product Manager
+order: 7
+date: 2020-01-07
+position: Product Manager
 company: Westwing Home & Living
 sections:
   - type: hero-alpha
@@ -16,8 +16,8 @@ sections:
     alt: Logo of Westwing.
     width: 219
     height: 30
-    title: Karim Mansi
-    desc: eCommerce Product Manager at Westwing Home & Living
+    title: Rachel Ivey
+    desc: Product Manager at Westwing Home & Living
     tag:
       href: /testimonials/
       title: /Testimonials
@@ -45,4 +45,4 @@ sections2:
       title: Hire me ⇢
 ---
 
-While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects.
+I recently worked with Silvestar on a webpage development project. He was extremely professional, capable, responsive, and very pleasant to work with. He managed numerous design revisions and small detailed feedback (sometimes multiple times per day) with ease and with fast turnaround. He was also very honest and reasonable about the level of effort required to complete the project from the very first meeting. I would absolutely work with Silvestar again and wish him much success on his future endeavors!

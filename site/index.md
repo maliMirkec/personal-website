@@ -28,6 +28,19 @@ sections:
       href: /newsletter/
       title: Subscribe here ⇢
   - type: hero-beta
+    title: From the Portfolio
+    desc: >-
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+  - type: cards-gamma
+    desc: Do you want to work with me?
+    cta:
+      title: See project ⇢
+    cta2:
+      href: /contact/
+      title: Hire me ⇢
+    filter: portfolio
+    limit: 5
+  - type: hero-beta
     title: From Publications
     desc: >-
       Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
@@ -41,10 +54,15 @@ sections:
     filter: publications
     sorter: date
     limit: 5
+  - type: banner-beta
+    desc: Did you know that I started **CSS Auditors**, a site dedicated to **CSS**?
+    cta:
+      href: https://css-auditors.com
+      title: Learn more ⇢
   - type: hero-beta
-    title: From the Portfolio
+    title: From Side Projects
     desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+      Sometimes I like to work on side projects in my spare time. These are my open-source side projects.
   - type: cards-gamma
     desc: Do you want to work with me?
     cta:
@@ -52,14 +70,8 @@ sections:
     cta2:
       href: /contact/
       title: Hire me ⇢
-    filter: portfolio
-    sorter: order
+    filter: projects
     limit: 5
-  - type: banner-beta
-    desc: Did you know that I started **CSS Auditors**, a site dedicated to **CSS**?
-    cta:
-      href: https://css-auditors.com
-      title: Learn more ⇢
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -72,7 +84,6 @@ sections:
       href: /contact/
       title: Make the first step ⇢
     filter: testimonials
-    sorter: order
     limit: 5
   - type: banner-alpha
     title: I am _available_ for a new project.

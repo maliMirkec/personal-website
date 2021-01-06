@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Side Projects
+title: /Side Projects
 sections:
   - type: hero-beta
     title: From Side Projects
@@ -18,7 +18,6 @@ sections:
     cta:
       title: See project ⇢
     filter: projects
-    sorter: order
   - type: banner-alpha
     title: I am _available_ for a new project.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.

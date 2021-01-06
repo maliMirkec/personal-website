@@ -398,19 +398,24 @@ img {
   margin: 0; }
 
 .pic {
+  display: block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%; }
   .pic svg {
+    display: block;
     max-width: 100%;
     height: auto; }
   .pic img {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0; }
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0; }
 
 .wrapper {
   margin-left: auto;
@@ -429,6 +434,9 @@ img {
 
 .df {
   display: flex; }
+
+.oh {
+  overflow: hidden; }
 
 hr:not([class*="hr"]) {
   background-color: currentColor;
@@ -676,6 +684,9 @@ code,
 .text-center {
   text-align: center; }
 
+.text-left {
+  text-align: left; }
+
 .text-right {
   text-align: right; }
 
@@ -751,7 +762,7 @@ a {
   position: relative;
   overflow: hidden;
   outline: none; }
-  a:before  {
+  a:not(.inert):before  {
     content: "";
     position: absolute;
     left: -100%;
@@ -761,19 +772,26 @@ a {
     background-image: linear-gradient(to right, rgba(18, 224, 159, 0.25) 50%, transparent 50%);
     transition: transform var(--duration2);
     z-index: -1; }
-  a:hover:before  {
+  a:not(.inert):hover:before  {
     transform: translateX(50%);
     transition: transform var(--duration); }
   a:focus, a:active {
     box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
   .copy--body a:not([class]) {
     text-decoration: underline;
+    -webkit-text-decoration-color: var(--color-beta);
+    text-decoration-color: var(--color-beta);
+    text-decoration-thickness: .125em;
+    text-underline-offset: .15em;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-style: dotted;
     display: inline; }
     .copy--body a:not([class]):before {
       content: none; }
     .copy--body a:not([class]):hover {
-      background-color: rgba(18, 224, 159, 0.25);
-      transition: background-color var(--duration); }
+      -webkit-text-decoration-color: var(--color-alpha);
+      text-decoration-color: var(--color-alpha);
+      transition: all var(--duration); }
 
 ul,
 ol {
@@ -816,7 +834,6 @@ ol {
   border: none;
   border-radius: 0;
   outline: none;
-  cursor: pointer;
   transition: background-color var(--duration2), color var(--duration2); }
   .button:not(.df):not(.db) {
     display: inline-flex;
@@ -826,12 +843,14 @@ ol {
       transition: none; } }
   .button[href] {
     text-decoration: none; }
-  .button:hover, .button:focus {
-    background-color: var(--color-dark);
-    color: var(--color-alpha);
-    transition: background-color var(--duration), color var(--duration); }
-  .button:focus, .button:active {
-    box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
+  .button[href], .button[type] {
+    cursor: pointer; }
+    .button[href]:hover, .button[href]:focus, .button[type]:hover, .button[type]:focus {
+      background-color: var(--color-dark);
+      color: var(--color-alpha);
+      transition: background-color var(--duration), color var(--duration); }
+    .button[href]:focus, .button[href]:active, .button[type]:focus, .button[type]:active {
+      box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
 
 .button--small {
   font-size: var(--step--1);
@@ -841,7 +860,7 @@ ol {
 .button--inverse {
   background-color: var(--color-dark);
   color: var(--color-light); }
-  .button--inverse:hover, .button--inverse:focus {
+  .button--inverse[href]:hover, .button--inverse[href]:focus, .button--inverse[type]:hover, .button--inverse[type]:focus {
     background-color: var(--color-alpha);
     color: var(--color-dark); }
 
@@ -926,6 +945,11 @@ footer nav > ul {
 
 .copy > :last-child {
   margin-bottom: 0; }
+
+.copy code {
+  font-size: 115%;
+  padding-left: 0.125em;
+  padding-right: 0.125em; }
 
 .copy--body {
   overflow: hidden; }

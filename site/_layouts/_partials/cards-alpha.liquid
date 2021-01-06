@@ -1,10 +1,11 @@
 {% assign card1List = collections[cards1.filter] | reverse %}
+{% assign i1 = 1 %}
 
 {% if card1List %}
   <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card1 in card1List %}
-        {% if cards1.limit and forloop.index > cards1.limit %}
+        {% if cards1.limit and i1 > cards1.limit %}
           {% break %}
         {% endif %}
         <div class="card card--flex text-center bg-light">
@@ -35,6 +36,7 @@
             <a class="button df padding" href="{{ card1.url }}">{{ cards1.cta.title }}</a>
           {% endif %}
         </div>
+        {% assign i1 = i1 | plus: 1 %}
       {% endfor %}
       {% if cards1.desc %}
         <div class="card card--flex text-center padding">

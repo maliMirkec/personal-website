@@ -1,7 +1,10 @@
 {
+  "url": "https://www.silvestar.codes",
   "title": "Silvestar Bistrović",
   "author": "Silvestar Bistrović",
+  "about": "Silvestar is a fearless web developer who is very enthusiastic about web technologies and everything related to frontend development.",
   "limit": 10,
   "cldnry": "starbist",
-  "placeholder": "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAQAAABeK7cBAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII="
+  "placeholder": "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAQAAABeK7cBAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII=",
+  "twitter": "malimirkeccita"
 }

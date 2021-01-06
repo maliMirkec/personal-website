@@ -2,10 +2,10 @@
 layout: index
 title: Trase Yearbook 2018
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-thumbnail: yb_urvwkg.png
+thumbnail: yb_mgssbz.png
 link: //yearbook2018.trase.earth
-order: 10
 display: true
+date: 2020-01-11
 tags:
   - portfolio
 categories:
@@ -13,14 +13,39 @@ categories:
   - html
   - css
   - javascript
+sections:
+  - type: hero-alpha
+    src: yb_mgssbz.png
+    alt: Screenshot of Trase Yearbook 2018 website.
+    width: 815
+    height: 448
+    left: true
+    title: Trase Yearbook 2018
+    desc: >-
+      The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
+    subtitle: Responsibilities
+    desc2: >-
+      - Developed a new WordPress theme from scratch based on a design.
+    tag:
+      href: /portfolio/
+      title: /Portfolio
+    cta:
+      href: //yearbook2018.trase.earth
+      title: Go to site ⇢
+  - type: hero-beta
+    title: From the Portfolio
+    desc: >-
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+  - type: cards-gamma
+    cta:
+      title: See project ⇢
+    filter: portfolio
+    exclude: true
+    limit: 6
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
-
-The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-
-Link: [yearbook2018.trase.earth](//yearbook2018.trase.earth)
-
-## Responsibilities
-
-- Developed a new WordPress theme from scratch based on a design.
-
-[View other projects](/portfolio/) or [contact me](/contact/).

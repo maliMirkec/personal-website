@@ -1,9 +1,13 @@
 ---
 layout: index
 title: Pocket Bookmarks
+description: Pocket bookmarks export file.
 date: 2017-08-02 20:08:06
-description: Pocket bookmarks export file
-sidebar: true
+sections:
+  - type: hero-alpha
+    title: Pocket Bookmarks
+    desc: >-
+      Pocket bookmarks export file.
 ---
 
 - [https://unroll.me/a/rollup/2018-08-02/email/12582677211](https://unroll.me/a/rollup/2018-08-02/email/12582677211)

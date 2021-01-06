@@ -4,8 +4,8 @@ title: Irina & Matej
 description: Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
 thumbnail: im_xnyy09.png
 link: //irinaandmatej.com
-order: 16
 display: true
+date: 2020-01-16
 tags:
   - portfolio
 categories:
@@ -13,20 +13,49 @@ categories:
   - html
   - css
   - javascript
-  - page speed optimization
+sections:
+  - type: hero-alpha
+    src: im_xnyy09.png
+    alt: Screenshot of Irina and Matej website.
+    width: 815
+    height: 448
+    left: true
+    title: Irina and Matej
+    desc: >-
+      Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
+    subtitle: Responsibilities
+    desc2: >-
+      - Installed a new WordPress instance.
+
+      - Designed and developed a new WordPress theme from scratch twice.
+
+      - Optimized assets delivery.
+
+      - Used the latest best practices for boosting the site speed.
+
+      - Hosted the website on DigitalOcean.
+
+      - Used Cloudflare to improve the security and performance.
+    tag:
+      href: /portfolio/
+      title: /Portfolio
+    cta:
+      href: //irinaandmatej.com
+      title: Go to site ⇢
+  - type: hero-beta
+    title: From the Portfolio
+    desc: >-
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+  - type: cards-gamma
+    cta:
+      title: See project ⇢
+    filter: portfolio
+    exclude: true
+    limit: 6
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
-
-Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
-
-Link: [irinaandmatej.com](//irinaandmatej.com)
-
-## Responsibilities
-
-- Installed a new WordPress instance.
-- Designed and developed a new WordPress theme from scratch twice.
-- Optimized assets delivery.
-- Used the latest best practices for boosting the site speed.
-- Hosted the website on DigitalOcean.
-- Used Cloudflare to improve the security and performance.
-
-[View other projects](/portfolio/) or [contact me](/contact/).

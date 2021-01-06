@@ -7,19 +7,50 @@ tags:
 thumbnail: b_csao4p.png
 logo: bm_qlnuvi.png
 order: 2
+date: 2020-01-02
 position: Partner & Executive Director
 company: BEAM Interactive
-projects:
-  - name: Bozzuto
-    link: /portfolio/bozzuto/
-  - name: Flexera
-    link: /portfolio/flexera/
-  - name: Flexera Software
-    link: /portfolio/flexerasoftware/
-  - name: Calvert
-    link: /portfolio/calvert/
-  - name: Franciscan Children's
-    link: /portfolio/franciscanchildrens/
+sections:
+  - type: hero-alpha
+    src: bm_qlnuvi.png
+    alt: Logo of BEAM Interactive.
+    width: 258
+    height: 40
+    title: Evan Lavidor
+    desc: Partner & Executive Director at BEAM Interactive
+    tag:
+      href: /testimonials/
+      title: /Testimonials
+sections2:
+  - type: banner-beta
+    desc: >-
+      Did you know that I worked on several projects with Evan?
+    ctas:
+      - href: /portfolio/bozzuto/
+        title: Bozzuto ⇢
+      - href: /portfolio/flexera/
+        title: Flexera ⇢
+      - href: /portfolio/flexerasoftware/
+        title: Flexera Software ⇢
+      - href: /portfolio/calvert/
+        title: Calvert ⇢
+      - href: /portfolio/franciscanchildrens/
+        title: Franciscan Children's ⇢
+  - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    cta:
+      title: See more ⇢
+    filter: testimonials
+    exclude: true
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 We've worked with Silvestar on several projects, and he's been a pleasure to work with on all of them. Recently, he handled primary front end development for two large web sites that were launched on Adobe Experience Manager. He's also worked on the front end development of a large WordPress project as well as some smaller campaign landing page and microsite work.

@@ -1,12 +1,21 @@
 <section class="banner margin-top-alpha margin-bottom-alpha">
-  <div class="wrapper margin-top margin-bottom padding text-center border-alpha">
-    {% if banner2.desc %}
-      <div class="copy">{{ banner2.desc | markdownify }}</div>
-    {% endif %}
-    {% if banner2.cta %}
-      <div class="margin-top">
-        <a class="button button--small" href="{{ banner2.cta.href }}">{{ banner2.cta.title }}</a>
-      </div>
-    {% endif %}
+  <div class="wrapper margin-top margin-bottom text-center border-alpha">
+    <div class="padding">
+      {% if banner2.desc %}
+        <div class="copy">{{ banner2.desc | markdownify }}</div>
+      {% endif %}
+      {% if banner2.cta %}
+        <div class="margin-top">
+          <a class="button button--small" href="{{ banner2.cta.href }}">{{ banner2.cta.title }}</a>
+        </div>
+      {% endif %}
+      {% if banner2.ctas %}
+        <div class="margin-top">
+          {% for cta in banner2.ctas %}
+            <a class="button button--small" href="{{ cta.href }}">{{ cta.title }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   </div>
 </section>

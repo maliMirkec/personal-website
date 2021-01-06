@@ -29,7 +29,6 @@
   border: none;
   border-radius: 0;
   outline: none;
-  cursor: pointer;
   transition: background-color var(--duration2), color var(--duration2);
 
   &:not(.df):not(.db) {
@@ -46,16 +45,21 @@
     text-decoration: none;
   }
 
-  &:hover,
-  &:focus {
-    background-color: var(--color-dark);
-    color: var(--color-alpha);
-    transition: background-color var(--duration), color var(--duration);
-  }
+  &[href],
+  &[type] {
+    cursor: pointer;
 
-  &:focus,
-  &:active {
-    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+    &:hover,
+    &:focus {
+      background-color: var(--color-dark);
+      color: var(--color-alpha);
+      transition: background-color var(--duration), color var(--duration);
+    }
+
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+    }
   }
 }
 
@@ -69,9 +73,12 @@
   background-color: var(--color-dark);
   color: var(--color-light);
 
-  &:hover,
-  &:focus {
-    background-color: var(--color-alpha);
-    color: var(--color-dark);
+  &[href],
+  &[type] {
+    &:hover,
+    &:focus {
+      background-color: var(--color-alpha);
+      color: var(--color-dark);
+    }
   }
 }

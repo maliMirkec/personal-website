@@ -31,3 +31,9 @@ In short, I am a fearless web developer who enjoys to write HTML,CSS, and JavaSc
 If you don't believe me, read the kind words from my clients. I believe that honest communication is a strong foundation for a perfect collaboration.
 
 <a class="button button--small" href="/testimonials/">See Testimonials page ⇢</a>
+
+### Portfolio
+
+Still not convinced? My work speak for itself. I have been lucky to work on awesome projects and to collaborate with extraordinary clients.
+
+<a class="button button--small" href="/portfolio/">See Porfolio page ⇢</a>

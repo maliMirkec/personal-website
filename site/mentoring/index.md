@@ -5,7 +5,11 @@ description: If you like to be mentored to become a better UI developer, feel fr
 sections:
   - type: hero-alpha
     title: Need a mentor?
-    desc: If you like to be mentored to become a better UI developer, feel free to contact me.
+    desc: >-
+      If you like to be mentored to become a better UI developer, feel free to contact me.
+
+
+      **The program is suspended due to full capacity.**
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

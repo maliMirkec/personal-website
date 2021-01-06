@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Testimonials
+title: /Testimonials
 sections:
   - type: hero-beta
     title: From Testimonials
@@ -16,9 +16,8 @@ sections:
         title: Hire me ⇢
   - type: cards-beta
     cta:
-      title: See project ⇢
+      title: See more ⇢
     filter: testimonials
-    sorter: order
   - type: banner-alpha
     title: I am _available_ for a new project.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.

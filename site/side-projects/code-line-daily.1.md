@@ -1,28 +1,27 @@
 ---
 layout: index
-title: Starter Project
-description: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
+title: UI Dev Mentoring
+description: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
 tags:
   - projects
 categories:
-  - starter
-  - gulp
-thumbnail: spro_aej3o2.png
+  - mentoring
+thumbnail: uidev_zn6018.png
 display: true
-date: 2020-01-04
+date: 2020-01-03
 sections:
   - type: hero-alpha
-    src: spro_aej3o2.png
-    alt: Screenshot of Starter Project website.
+    src: uidev_zn6018.png
+    alt: Screenshot of The UI Dev Mentoring Program website.
     width: 815
     height: 448
-    title: Starter Project
-    desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
+    title: The UI Dev Mentoring Program
+    desc: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
     tag:
       href: /side-projects/
       title: /Side Projects
     cta:
-      href: //starter.silvestar.codes
+      href: //mentor.silvestar.codes
       title: Go to the Project ⇢
     cta2:
       href: /side-projects/
