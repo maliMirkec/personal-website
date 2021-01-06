@@ -1,4 +1,152 @@
-<p>In <a href="https://silvestar.codes/en/tags/atom/">recent articles about Atom</a>, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>In <a href="https://silvestar.codes/en/tags/atom/">recent articles about Atom</a>, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?</p>
 <p>In this tutorial I'll show you how you could fix this.</p>
 <p><strong><em>Windows based shortcuts will be used but the same analogy could be applied for other operating systems.</em></strong></p>
 <h2>What are keybindings?</h2>
@@ -8,33 +156,103 @@
 <p>To increment number by 1, we should install <a href="https://atom.io/packages/emmet"><strong>emmet</strong></a> plugin, one of the best plugins for fuzzy coding. Once you've installed <strong>emmet</strong> package, open any file containing numbers. Move cursor to any number and press <code>ctrl-up</code>. According to <strong>emmet</strong>, this command should increment a number by 1, but sadly it's not. Instead, current line is moved up.</p>
 <p>We need to fix this. First step is to find out which command is currently used. Open the Keybindings page in settings to see the list of all keybindings. You could do this by pressing <code>ctrl-,</code> and then click on &quot;Keybindings&quot; or open command palette, type in &quot;keybindings&quot; and select &quot;Settings View: Show keybindings&quot;.</p>
 <p>Go on and search <code>ctrl-up</code> to see all related commands.</p>
-<blockquote>
-<p>{cldnry keybindings-settings-1_lq79lw.png &quot;Keybindings settings.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-settings-1_lq79lw" alt="Keybindings settings." sizes="800px" loading="lazy">
 <p>Let say we couldn't determine which command should we remove or update. What to do then?</p>
 <p>In this case you should use <a href="https://atom.io/packages/keybinding-resolver">keybinding-resolver</a>, a package which shows what command resolves to. This package is a part of Atom core, no additional installation is required. To see it in action, open any file, open command palette, search &quot;keybinding resolver&quot; and select &quot;Key Binding Resolver: Toggle&quot;. Keybinding for <strong>keybinding-resolver</strong> is <code>ctrl-.</code>.</p>
 <p>Now try to press <code>ctrl-up</code> and see what happens. <strong>keybinding-resolver</strong> shows us which command is used in what order. In our case, we could see that <code>editor:move-line-up</code> command is the first in line. We'll should remove it.</p>
-<blockquote>
-<p>{cldnry keybindings-resolver_xuy5tk.png &quot;Keybindings resolver in action.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-resolver_xuy5tk" alt="Keybindings resolver in action." sizes="800px" loading="lazy">
 <h2>How to remove keybindings?</h2>
 <p>When multiple commands for the same keybinding exist, we need to remove ones that we don't need somehow. First we should copy keybinding that we don't need by clicking on the copy icon at left. Then we need to open the custom keymap file where we'll add a command for removing unnecessary keybinding. Call command palette <code>ctrl-shift-p</code>, type &quot;keymap&quot; and select &quot;Application: Open Your Keymap&quot; or open file manually: <code>~/.atom/keymap.cson</code>. Here you could see all your custom keybindings, if any exist.</p>
 <p>Paste the copied keybinding command. You should see the command selector and keybinding command.</p>
-<blockquote>
-<p>{cldnry keybindings-keymap-copy_mqcnuz.png &quot;Keybindings keymap copy command.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-copy_mqcnuz" alt="Keybindings keymap copy command." sizes="800px" loading="lazy">
 <p>To remove the keybinding, use &quot;unset!&quot; command.</p>
-<blockquote>
-<p>{cldnry keybindings-keymap-unset_xfhlkt.png &quot;Keybindings keymap unset command.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-unset_xfhlkt" alt="Keybindings keymap unset command." sizes="800px" loading="lazy">
 <h2>How to use custom keybindings?</h2>
 <p>So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:</p>
-<blockquote>
-<p>{cldnry keybindings-keymap-replace_dmqrfn.png &quot;Keybindings keymap replace command.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-replace_dmqrfn" alt="Keybindings keymap replace command." sizes="800px" loading="lazy">
 <p>Now we could use <code>ctrl-up</code> to increment number by 1.</p>
 <h2>Final thought</h2>
 <p>Keybindings are easy now, no more conflicts.</p>
 <p>You could learn more about keybindings in <a href="http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/#removing-bindings">Atom flight manual</a>. As of <a href="http://blog.atom.io/2016/10/11/atom-1-11.html">Atom 1.12 Beta</a>, keybinding usability is further simplified.</p>
 <p>I hope you'll find this tutorial useful. Please feel free to comment below.</p>
 <p>Follow me on <a href="https://twitter.com/malimirkeccita">Twitter</a> and <a href="https://medium.com/@malimirkeccita">Medium</a>.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

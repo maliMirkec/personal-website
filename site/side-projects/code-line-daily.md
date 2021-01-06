@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Code Line Daily
 description: Code Line Daily is dedicated to highlighting awesome code single-liners.
 tags:

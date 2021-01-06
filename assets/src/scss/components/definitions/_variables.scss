@@ -49,7 +49,9 @@ $gap: $space * 2;
 :root {
   // Breakpoints
   --bp: #{$bp};
-  --bp-alpha: #{$bp2};
+  --bp1: #{$bp1};
+  --bp2: #{$bp2};
+  --bp3: #{$bp3};
 
   // Colors
   --selection: #{transparentize($color-alpha, .675)};

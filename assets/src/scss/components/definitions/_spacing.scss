@@ -27,7 +27,7 @@
   margin-top: #{$space * 2};
 
   @include mq($from: bp1) {
-    margin-top: #{$space * 2};
+    margin-top: #{$space * 5};
   }
 }
 
@@ -35,7 +35,7 @@
   margin-bottom: #{$space * 2};
 
   @include mq($from: bp1) {
-    margin-bottom: #{$space * 2};
+    margin-bottom: #{$space * 5};
   }
 }
 

@@ -1,4 +1,152 @@
-<p>Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.</p>
 <h2>What is linter?</h2>
 <p>Linter is a program which analyses your code during coding process.</p>
 <p>Imagine yourself working on a new <code>JavaScript</code> widget. You write a hundreds of lines of code, but in a hurry, you forget to add a couple of semicolons here and there. When you open the widget in a browser to test it, it's not working. Open developer tools, open console tab, inspect errors, go back to Atom, fix the errors, go back to browser again and see if it runs now. Very annoying and time consuming process.</p>
@@ -17,29 +165,19 @@
 </ul>
 <p>This settings should turn on <strong>linter</strong> errors in Atom, so you could fix the problems more easily.</p>
 <p>You can see full configuration of my <strong>linter</strong> package here:</p>
-<blockquote>
-<p>{cldnry linter-settings-full_uchhit.png &quot;Linter settings.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/linter-settings-full_uchhit" alt="Linter settings." sizes="800px" loading="lazy">
 <p>Basic <strong>linter</strong> is installed and configured, now we need actual linter plugins for specific programming languages. There are many plugins available, full list is available <a href="http://atomlinter.github.io/">here</a>. Because I'm a frontend developer, I'll show you how to install linters for <code>CSS</code> and <code>JavaScript</code>.</p>
 <h3>JavaScript linter</h3>
 <p>One of the most popular <code>JavaScript</code> linters for Atom is <strong><a href="https://atom.io/packages/linter-jshint">linter-jshint</a></strong>. It is an interface for <a href="http://jshint.com/">JSHint</a>, a tool that helps to detect errors and potential problems in your <code>JavaScript</code> code. Installation could be done via Atom package manager. There are few configuration options. The most important is to provide of executable <code>jshint</code> node script. Here are my settings:</p>
-<blockquote>
-<p>{cldnry linter-jshint-settings_i3w9mm.png &quot;JSHint settings.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/linter-jshint-settings_i3w9mm" alt="JSHint settings." sizes="800px" loading="lazy">
 <h3>CSS linter</h3>
 <p><a href="https://atom.io/packages/linter-stylelint"><strong>linter-stylelint</strong></a> is an interface for <a href="http://stylelint.io/">stylelint</a>, CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets. It is available on Atom package manager and it has only 3 configuration options. Here you can see my** linter-stylelint** configuration:</p>
-<blockquote>
-<p>{cldnry linter-stylelint-settings_t5ebdp.png &quot;Stylelint settings.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/linter-stylelint-settings_t5ebdp" alt="Stylelint settings." sizes="800px" loading="lazy">
 <h2>How to use it?</h2>
 <p>To see <strong>linter-jshint</strong> in action, open any <code>JavaScript</code> file and see if any errors exists. You could see errors in different places, depending on your main <strong>linter</strong> package configuration.</p>
-<blockquote>
-<p>{cldnry linter-jshint_nkkmny.png &quot;JSHint in action.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/undefined" alt="JSHint in action." sizes="800px" loading="lazy">
 <p>You could see <code>CSS</code> lint errors by opening and <code>CSS</code> file.</p>
-<blockquote>
-<p>{cldnry linter-stylelint_uzvqwj.png &quot;Stylelint in action.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/linter-stylelint_uzvqwj" alt="Stylelint in action." sizes="800px" loading="lazy">
 <p>In the examples above you could see that errors are displayed on 4 different places:</p>
 <ul>
 <li>in a status bar,</li>
@@ -54,3 +192,83 @@
 <p>Linters are very useful and simple solution for basic syntax checking. Linters will not only save you time, but will also make you write better code.</p>
 <p>Are you using linters? Which one are your favorite?</p>
 <p>Follow me on <a href="https://twitter.com/malimirkeccita">Twitter</a> and <a href="https://medium.com/@malimirkeccita">Medium</a>.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

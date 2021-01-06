@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Credit Card Insider
 description: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
 thumbnail: cci_ohuha5.png

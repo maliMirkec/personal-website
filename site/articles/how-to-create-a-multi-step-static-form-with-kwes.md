@@ -1,4 +1,5 @@
 ---
+layout: index
 title: How to create a multi-step form the easy way
 date: 2020-02-08 05:39:43
 tags:
@@ -10,7 +11,7 @@ categories:
   - kwes
 publication: DEV
 canonical: https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp
-thumbnail: How_to_create_a_multi-step_static_form_with_Kwes-2x_u6sjh3.jpg
+thumbnail: How_to_create_a_multi-step_static_form_with_Kwes-2x_u6sjh3
 description: "A multi-step form is a long-form that is broken into pieces. Learn how I add one to my site."
 ---
 
@@ -91,7 +92,7 @@ Of course, that’s not all. Kwes is packed with other impressive features. Thes
 
 ### Custom Headers
 
-> {cldnry Multi_step_form_example_fykjm0.png "A multi-step form example." %}
+{% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." %}
 
 Kwes provides adding custom headers to each step—a title of the current step. There are two types of headers: simple and complex.
 

@@ -1,4 +1,152 @@
-<p>CSS sidebar toggle presented in this post is made with <code>CSS</code> only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without <code>JavaScript</code>, I've added a small snippet for this feature.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>CSS sidebar toggle presented in this post is made with <code>CSS</code> only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without <code>JavaScript</code>, I've added a small snippet for this feature.</p>
 <h2>Preparation</h2>
 <p>As  I was preparing this post, I've created <a href="http://codepen.io/CiTA/pen/bgjKKE">a CSS sidebar toggle demo on Codepen</a>. Suddenly the pen received a large number of visitors. The pen was listed in <em>&quot;Picked Pens&quot;</em> section on <a href="http://codepen.io/">Codepen home page</a> as I discovered later. Apparently, it was a great inspiration for the community, ending up with many hearts and many forks. At this point, I knew that I was doing something good. But what I did not expect was a post about this technique.</p>
 <p>Jorge C.S. Cardoso published <a href="https://codepen.io/jorgecardoso/post/css-transitions-and-animations">a post</a> based on this demo. It was listed in the Codepen newsletter. Well done, Mr. Cardoso, and thank you for saving me some time to write this post.</p>
@@ -152,3 +300,83 @@ menuItem.setAttribute('tabindex', '-1');
 <p>There are many ways how we could build UI components and there are no right way to do so. Some will disagree that the pure <code>CSS</code> solutions are usable in production environment, but that depends on project type and many other factors. I love to experiment with <code>CSS</code> because it gives me a new opportunity to learn and use the latest techniques out there. I don't know if you noticed, but beside <code>CSS</code> variables, I've used <a href="https://css-tricks.com/css-locks/"><code>CSS</code> locks</a> and <a href="https://css-tricks.com/snippets/css/system-font-stack/">system fonts</a> techniques in this demo. Pretty awesome, right?</p>
 <p>And there is accessibility, which is always hard. But hard doesn't mean we should avoid learning it and using it. I encourage every developer to read <a href="https://www.w3.org/TR/wai-aria-practices/">this document</a> and then try to implement any part of accessibility in their newest project. Let's make Internet a better place.</p>
 <p>I'm always opened for discussion so leave a comment or ping me on <a href="https://twitter.com/malimirkeccita">Twitter</a>.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

@@ -1,12 +1,158 @@
-<p>Last week I saw <a href="https://twitter.com/mattbierner/status/1241039298750746624">an interesting tweet about showing modified tabs in the VS Code</a> from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>Last week I saw <a href="https://twitter.com/mattbierner/status/1241039298750746624">an interesting tweet about showing modified tabs in the VS Code</a> from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.</p>
 <p>By the way, the setting could be found as “Workbench &gt; Editor: Highlight Modified Tabs” in VS Code Settings. If you also want to see the modified indicator in your current VS Code window, go to Settings, search “Window: Title”, and add <code>${dirty}</code> option. Here is how it looks in my settings:</p>
 <pre><code class="language-js">${dirty} ${activeEditorMedium}${separator}${rootName}
 </code></pre>
 <h2>Modified settings</h2>
 <p>I have 364 modified settings in my VS Code. To see these modified settings, go to Settings, and select “Show modified settings” from the drop-down menu or type <code>@modified</code> in the input field. Some of these settings aren't modified in a way that they have a non-default value—they are just present in the <code>settings.json</code> file.</p>
-<blockquote>
-<p>{cldnry vs-modified-setttings_wju4zh.jpg &quot;Screenshot of modified VS Code Settings window.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-modified-setttings_wju4zh" alt="Screenshot of modified VS Code Settings window." sizes="800px" loading="lazy">
 <blockquote>
 <p>Tip: you could see this file by clicking the “Open Settings” icon.</p>
 </blockquote>
@@ -20,14 +166,10 @@
 </ul>
 <h3>Breadcrumbs</h3>
 <p>I like to have breadcrumbs turned on. However, I don't prefer cluttered breadcrumbs with unnecessary information. That's why I turned off all fancy settings, like showing icons or file contents (classes, constants, etc.) in my breadcrumbs. Here's how it looks:</p>
-<blockquote>
-<p>{cldnry vs-breadcrumbs_hempo7.jpg &quot;Screenshot of breadcrumbs in VS Code editor.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-breadcrumbs_hempo7" alt="Screenshot of breadcrumbs in VS Code editor." sizes="800px" loading="lazy">
 <h3>Bars</h3>
 <p>From the very start, I was quite fond of the VS Code interface. Activity bar, status bar and sidebar are handy features that hold a lot of information. I like to display the activity bar and sidebar on the right side. That way toggling the sidebar won't affect my primary window location which otherwise may cause distraction.</p>
-<blockquote>
-<p>{cldnry vs-bars_onlhxt.jpg &quot;Screenshot of Bar Settings in VS Code editor.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-bars_onlhxt" alt="Screenshot of Bar Settings in VS Code editor." sizes="800px" loading="lazy">
 <p>I particularly like my status bar. In it, I could see the following information:</p>
 <ul>
 <li>the name of the Git branch I am currently working on,</li>
@@ -42,16 +184,12 @@
 <li>the depth of the indent of the current line, and</li>
 <li>what is the current time.</li>
 </ul>
-<blockquote>
-<p>{cldnry vs-statusbar_prx3m1.jpg &quot;Screenshot of VS Code status bar.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-statusbar_prx3m1" alt="Screenshot of VS Code status bar." sizes="800px" loading="lazy">
 <p>Note that not all information is visible in the screenshot.</p>
 <h3>Saving and Formatting</h3>
 <p>I prefer not to allow VS Code to format my code automatically. The main reason is that I tend to save files often as I usually use <a href="https://www.browsersync.io/">BrowserSync</a> or <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> to see the changes in the browser.</p>
 <p>I turned off the following settings: ”Editor: Format on Save” and ”Files: Auto Save”.</p>
-<blockquote>
-<p>{cldnry vs-save_jynrn6.jpg &quot;Screenshot of Saving Settings in VS Code editor.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-save_jynrn6" alt="Screenshot of Saving Settings in VS Code editor." sizes="800px" loading="lazy">
 <p>I also turned off all settings related to formatting:</p>
 <ul>
 <li>“Editor: Format on Paste”,</li>
@@ -106,9 +244,87 @@
 <p>Besides already mentioned Window Title settings, I like to open files in the current window, open folders in the new window, inherit windows size for the new window and restore all windows after the restart. I also like to keep the current window opened after closing the last tab and open recently closed window in “windowed”, not full-screen mode.</p>
 <h3>Minimap</h3>
 <p>I am using minimap since I first saw this feature in Sublime Text. I find it quite useful, especially with longer files. It makes it easier to find and navigate certain parts of code for me.</p>
-<blockquote>
-<p>{cldnry vs-minimap_yxslkw.jpg &quot;Screenshot of Minimap Settings in VS Code editor.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-minimap_yxslkw" alt="Screenshot of Minimap Settings in VS Code editor." sizes="800px" loading="lazy">
 <h2>Conclusion</h2>
 <p>There are so many meaningful settings in VS Code. You might be overwhelmed by the number of options, but every choice is very well explained, which is helpful. Also, most default values are enough to make you start using the editor easily. However, when you feel the editor should behave differently, try to search for the option and set it to your preference. And don't forget to share your settings with the community.</p>
 <p>Now, what are your favorite VS Code settings?</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

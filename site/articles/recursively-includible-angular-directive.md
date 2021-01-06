@@ -1,11 +1,12 @@
 ---
+layout: index
 title: Recursively includible Angular directive
 tags:
   - blog
 categories:
   - angular
 date: 2017-01-07 21:54:57
-thumbnail: Recursively-includible-Angular-directive_wu42od.png
+thumbnail: Recursively-includible-Angular-directive_wu42od
 description: I've been working on a complex Angular CRUD-ish project recently and one of the requirements was to create a form based on an MVC model. I've created a directive that could generate a form for every complex model.
 ---
 
@@ -21,11 +22,11 @@ Sometimes the amount of new frontend technologies feels really [overwhelming to 
 
 Let's go back to the code. Even better, let's consider model examples for this task:
 
-> {cldnry first-model-for-angular-repeater_bmsaac.png "First model for angular repeater." %}
+{% cldnry "first-model-for-angular-repeater_bmsaac" "First model for angular repeater." %}
 
-> {cldnry second-model-for-angular-repeater_lxgczj.png "Second model for angular repeater." %}
+{% cldnry "second-model-for-angular-repeater_lxgczj" "Second model for angular repeater." %}
 
-> {cldnry third-model-for-angular-repeater_dsleyg.png "Third model for angular repeater." %}
+{% cldnry "third-model-for-angular-repeater_dsleyg" "Third model for angular repeater." %}
 
 These models contain typical types of data:
 
@@ -41,7 +42,7 @@ Since we need to iterate through these models to display labels and inputs, we s
 
 The solution lies in **recursion**. It is a programming principle when a function calls itself. In our case, we'll use a **recursive-repeater** directive that will call itself.
 
-> {cldnry angular-repeater-template_pzfvoq.png "Template for angular repeater." %}
+{% cldnry "angular-repeater-template_pzfvoq" "Template for angular repeater." %}
 
 _For now, ignore IsObject() and IsNumber() functions._
 
@@ -53,7 +54,7 @@ The solution is [Mark Lagendijk's RecursionHelper service](https://github.com/ma
 
 I've already included this awesome service in **recursive-repeater** directive, like this:
 
-> {cldnry angular-repeater-directive_rkx8sy.png "Angular repeater directive." %}
+{% cldnry "angular-repeater-directive_rkx8sy" "Angular repeater directive." %}
 
 As you could see, we're not using **link** property when defining directive, we are using **compile** instead.
 

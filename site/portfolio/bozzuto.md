@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Bozzuto
 description: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding. The website runs on WordPress.
 thumbnail: b_csao4p.png

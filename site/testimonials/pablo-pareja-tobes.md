@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Pablo Pareja Tobes
 description: Pablo Pareja Tobes talks about his positive experience in working with Silvestar Bistrović.development.
 tags:

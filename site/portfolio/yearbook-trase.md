@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Trase Yearbook 2018
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
 thumbnail: yb_urvwkg.png

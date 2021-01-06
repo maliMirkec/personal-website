@@ -2,7 +2,7 @@
 
 {% if card3List %}
   <section id="{{ cards3.filter }}" class="margin-top-alpha margin-bottom-alpha">
-    <div class="wrapper wrapper--alpha grid">
+    <div class="wrapper wrapper--alpha grid padding">
       {% for card3 in card3List %}
         {% if cards3.limit and forloop.index > cards3.limit %}
           {% break %}
@@ -15,7 +15,7 @@
           {% endif %}
           {% if card3.data.thumbnail %}
             <div class="padding">
-              {% cldnry src=card3.data.thumbnail alt=card3.data.title width="552" height="304" %}
+              {% cldnry card3.data.thumbnail card3.data.title "552" "304" %}
             </div>
           {% endif %}
           {% if card3.data.categories %}
@@ -38,7 +38,7 @@
             <div class="copy">{{ cards3.desc | markdownify }}</div>
             {% if cards3.cta2 %}
               <div class="margin-top">
-                <a class="button button--small" href="{{ cards3.cta2.href }}">{{ cards3.cta2.title }}</a>
+                <a class="button" href="{{ cards3.cta2.href }}">{{ cards3.cta2.title }}</a>
               </div>
             {% endif %}
           </div>

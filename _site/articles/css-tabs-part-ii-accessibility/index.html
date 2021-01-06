@@ -1,4 +1,152 @@
-<p>Recently I've been writing about <a href="https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/">CSS tabs</a>. Topic was surprisingly popular, gaining several thousand users to my page.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>Recently I've been writing about <a href="https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/">CSS tabs</a>. Topic was surprisingly popular, gaining several thousand users to my page.</p>
 <p>What was even more surprising were comments about accessibility. Although my initial idea was to present just a CSS technique for tabs, I decided to investigate a little bit more and add accessibility to my solution.</p>
 <h2>Existing solutions</h2>
 <p>CSS tabs are very old topic apparently, I've even found <a href="http://daniel.glazman.free.fr/weblog/archived/2003_01_05_glazblogarc.html#87183885">an article dating back in 2003</a>. And it is a very popular topic, too, search results returned dozens of articles. I decided to document every article in <a href="https://github.com/maliMirkec/css-tabs-list">this Github repository</a>.</p>
@@ -9,9 +157,7 @@
 <p>We need to find a tool to test our tabs for accessibility. Web Accessibility Initiative provides us with the list of tools <a href="https://www.w3.org/WAI/ER/tools/">here</a>. I prefer <strong><a href="http://wave.webaim.org/">WAVE</a></strong>, web accessibility evaluation tool, because it is available from Firefox Web Developer Toolbar, under section Tools &gt; &quot;Validate Accessibility&quot;.</p>
 <h3>ngrok</h3>
 <p>Since I was developing <a href="https://silvestar.codes/en/articles/perfect-local-server-with-atom/">locally</a>, <strong>WAVE</strong> couldn't access my localhost. I found solution in <strong><a href="https://ngrok.com/">ngrok</a></strong>, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download <strong>ngrok</strong> executable file, place it in project root, open Command Prompt and start it using <code>ngrok http 9000</code> command. Last number is the port number of your application which is 9000 in my case. Then open <code>127.0.0.1:4040</code> page, copy tunnel URL and paste it in <strong>WAVE</strong> application. Here's how it looks in action (<em>and yes, that's Pokemon theme for Firefox</em>):</p>
-<blockquote>
-<p>{cldnry ngrok-in-action_u2lpmo.png &quot;ngrok in action.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/ngrok-in-action_u2lpmo" alt="ngrok in action." sizes="800px" loading="lazy">
 <h3>Contrast</h3>
 <p><strong>WAVE</strong> detected a couple of contrast errors. That's the easy part. We should use stronger colors for text and lighter colors for background. Visually impaired people shouldn't have problems with reading tabs labels and content now. And there's no errors from <strong>WAVE</strong>, too.</p>
 <h3>aria attributes</h3>
@@ -44,3 +190,83 @@
 <p>But on the other hand, if you're making a solution for targeted audience and there are no special request for accessibility, aria attributes may not be necessary. They are hard to implement and very time consuming.</p>
 <p>What do you think? What are your experiences?</p>
 <p>Leave a comment below or send <a href="https://twitter.com/malimirkeccita">me</a> a tweet.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

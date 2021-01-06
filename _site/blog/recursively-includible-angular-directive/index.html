@@ -4,13 +4,13 @@
 <h2>Angular Model</h2>
 <p>Let's go back to the code. Even better, let's consider model examples for this task:</p>
 <blockquote>
-<p>{cldnry first-model-for-angular-repeater_bmsaac.png &quot;First model for angular repeater.&quot; %}</p>
+<p>{% cldnry first-model-for-angular-repeater_bmsaac.png &quot;First model for angular repeater.&quot; %}</p>
 </blockquote>
 <blockquote>
-<p>{cldnry second-model-for-angular-repeater_lxgczj.png &quot;Second model for angular repeater.&quot; %}</p>
+<p>{% cldnry second-model-for-angular-repeater_lxgczj.png &quot;Second model for angular repeater.&quot; %}</p>
 </blockquote>
 <blockquote>
-<p>{cldnry third-model-for-angular-repeater_dsleyg.png &quot;Third model for angular repeater.&quot; %}</p>
+<p>{% cldnry third-model-for-angular-repeater_dsleyg.png &quot;Third model for angular repeater.&quot; %}</p>
 </blockquote>
 <p>These models contain typical types of data:</p>
 <ul>
@@ -24,7 +24,7 @@
 <p>Since we need to iterate through these models to display labels and inputs, we should create at least 3 templates for them because they are formatted differently. That seems like a lot of work. Therefore that doesn't sound like the correct solution. Finally, if we try to iterate a model using <strong>ng-repeat</strong> directive and display every property as an input, we would repeat the code for every property. As a result we'll end up with a bloated and very ugly code.</p>
 <p>The solution lies in <strong>recursion</strong>. It is a programming principle when a function calls itself. In our case, we'll use a <strong>recursive-repeater</strong> directive that will call itself.</p>
 <blockquote>
-<p>{cldnry angular-repeater-template_pzfvoq.png &quot;Template for angular repeater.&quot; %}</p>
+<p>{% cldnry angular-repeater-template_pzfvoq.png &quot;Template for angular repeater.&quot; %}</p>
 </blockquote>
 <p><em>For now, ignore IsObject() and IsNumber() functions.</em></p>
 <p>If we run this code, we'll get an error. This is because Angular 1 doesn't support recursively included directives out of the box. But there is a solution.</p>
@@ -32,7 +32,7 @@
 <p>The solution is <a href="https://github.com/marklagendijk/angular-recursion">Mark Lagendijk's RecursionHelper service</a> that makes it possible to have recursive Angular directives.</p>
 <p>I've already included this awesome service in <strong>recursive-repeater</strong> directive, like this:</p>
 <blockquote>
-<p>{cldnry angular-repeater-directive_rkx8sy.png &quot;Angular repeater directive.&quot; %}</p>
+<p>{% cldnry angular-repeater-directive_rkx8sy.png &quot;Angular repeater directive.&quot; %}</p>
 </blockquote>
 <p>As you could see, we're not using <strong>link</strong> property when defining directive, we are using <strong>compile</strong> instead.</p>
 <p>This directive works only when <strong>jsonData</strong> is provided via <strong>json-data</strong> attribute. <strong>label</strong> attribute is optional and is used to display label for every input. You could see an example in a <a href="#AngularRepeaterTemplate">previous section</a>.</p>

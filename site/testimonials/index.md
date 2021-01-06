@@ -15,12 +15,8 @@ sections:
         href: /contact/
         title: Hire me ⇢
   - type: cards-beta
-    desc: Do you want to be my next client?
     cta:
       title: See project ⇢
-    cta2:
-      href: /contact/
-      title: Make the first step ⇢
     filter: testimonials
     sorter: order
   - type: banner-alpha

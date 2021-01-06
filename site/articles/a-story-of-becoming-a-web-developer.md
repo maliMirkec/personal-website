@@ -1,4 +1,5 @@
 ---
+layout: index
 title: A Story of Becoming a Web Developer
 date: 2020-04-20 17:27:03
 tags:
@@ -6,16 +7,11 @@ tags:
 categories:
   - ui
   - mentoring
-thumbnail: A_Story_of_Becoming_a_Web_Developer-2x_snhsm4.jpg
+thumbnail: A_Story_of_Becoming_a_Web_Developer-2x_snhsm4
 credit:
   text: Ray Hennessy on Unsplash
   link: https://unsplash.com/photos/oEcQFq0NKjo
 description: Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
-cta1:
-  span: "Wanna improve your UI coding skills?"
-  btn1: "Join the Program"
-  btn2: "Become a better UI dev 💯"
-  link: https://mentor.silvestar.codes/
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
@@ -39,7 +35,7 @@ In about a few months, as project complexity increased, Silvestar figured out wh
 
 He was working on different projects for a few years. Then a new opportunity arose. A local startup was hiring a frontend developer, and Silvestar decided to give it a shot. After completing a challenging task that he thought he could not do, he was hired. The company was big, with more than 20 people organized in different teams. He was part of a development team working on a solid product. He was quite happy and satisfied.
 
-> {cldnry dan-meyers-hluOJZjLVXc-unsplash_j0sub4.jpg "Three banners with inspirational messages: don't give up, you are not alone, and you matter." %}
+{% cldnry "dan-meyers-hluOJZjLVXc-unsplash_j0sub4" "Three banners with inspirational messages: don't give up, you are not alone, and you matter." %}
 
 <small>_Image Credit: [Dan Meyers on Unsplash](https://unsplash.com/photos/hluOJZjLVXc)_</small>
 

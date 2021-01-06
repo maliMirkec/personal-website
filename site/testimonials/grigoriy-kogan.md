@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Grigoriy Kogan
 description: Grigoriy Kogan talks about his positive experience in working with Silvestar Bistrović.
 tags:

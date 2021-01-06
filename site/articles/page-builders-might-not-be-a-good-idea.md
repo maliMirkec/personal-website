@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Page builders might not be a good idea
 date: 2020-02-20 17:17:11
 tags:
@@ -7,7 +8,7 @@ categories:
   - wordpress
   - shopify
   - frontend
-thumbnail: Page_builders_might_not_be_a_good_idea-2x_xpujzp.jpg
+thumbnail: Page_builders_might_not_be_a_good_idea-2x_xpujzp
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4

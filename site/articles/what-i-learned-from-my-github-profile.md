@@ -1,4 +1,5 @@
 ---
+layout: index
 title: What I learned from my GitHub profile
 date: 2019-10-18 11:30:27
 tags:
@@ -6,7 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: What_I_learned_from_my_GitHub_profile-2x_rq4si5.jpg
+thumbnail: What_I_learned_from_my_GitHub_profile-2x_rq4si5
 description: GitHub profile is often recognised as a developer's portfolio. It reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
 ---
 

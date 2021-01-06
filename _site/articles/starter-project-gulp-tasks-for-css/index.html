@@ -1,9 +1,155 @@
-<p>This article is part of a series about <a href="https://starter.silvestar.codes/">Starter Project</a>, and this time I will explain all about Gulp tasks for CSS.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>This article is part of a series about <a href="https://starter.silvestar.codes/">Starter Project</a>, and this time I will explain all about Gulp tasks for CSS.</p>
 <h2>Settings</h2>
 <p>The idea of Starter Project is to have a single config file for all Gulp tasks. If you open <code>config.json</code> file, you could see a section for CSS.</p>
-<blockquote>
-<p>{cldnry config-json-css_ha2n75.png &quot;config.json file, CSS part.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/config-json-css_ha2n75" alt="config.json file, CSS part." sizes="800px" loading="lazy">
 <p>The first option is <code>run</code>. If set to true, CSS Gulp tasks will be executed. There are three other mandatory options for CSS:</p>
 <ul>
 <li><code>src</code> - a path to a folder with Sass files,</li>
@@ -114,9 +260,7 @@
 <p>Stylelint also has its plugins. In Starter Project, <a href="https://www.npmjs.com/package/stylelint-scss">stylelint-scss</a> and <a href="https://www.npmjs.com/package/stylelint-order">stylelint-order</a> plugins are used. Also, there are <a href="https://github.com/bjankord/stylelint-config-sass-guidelines">Stylelint Sass Guidelines</a> that are used to extend default Stylelint settings. Learn more about Stylelint <a href="https://stylelint.io/">on the official website</a>.</p>
 <h2>Bonus</h2>
 <p>For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-stylefmt">stylefmt</a> and <a href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">Run On Save</a> extensions for VS Code. Then call command palette by pressing <code>cmd + shift + p</code>, and type <code>open workspace settings</code>.</p>
-<blockquote>
-<p>{cldnry open-workspace-settings_luw5ru.png &quot;Open workspace settings example.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/open-workspace-settings_luw5ru" alt="Open workspace settings example." sizes="800px" loading="lazy">
 <p>When you open the workspace settings, add these settings.</p>
 <pre><code>{
   &quot;emeraldwalk.runonsave&quot;: {
@@ -132,3 +276,83 @@
 <p><a href="/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/">In the previous article</a>, I was trying to explain the idea for this project. This article should help you understand how Gulp could be used to optimize, lint and deliver best possible CSS output.</p>
 <p><a href="https://starter.silvestar.codes/">Starter Project</a> is conceived as a boilerplate with the latest best practices for generating the best possible outcome. If you have any idea or suggestion how this project could be better and more interesting, please <a href="mailto:admin@silvestar.codes?Subject=Starter">contact me</a>, open <a href="https://github.com/maliMirkec/starter-project/issues/new">an issue</a>, or create <a href="https://github.com/maliMirkec/starter-project/compare">a pull request</a> on <a href="https://github.com/maliMirkec/starter-project">GitHub</a>.</p>
 <p>Please share! 🙏</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

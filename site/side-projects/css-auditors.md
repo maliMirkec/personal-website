@@ -1,4 +1,5 @@
 ---
+layout: index
 title: CSS Auditors
 description: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
 tags:

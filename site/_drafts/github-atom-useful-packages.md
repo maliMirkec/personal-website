@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Github Atom useful packages
 published: false
 eleventyExcludeFromCollections: true

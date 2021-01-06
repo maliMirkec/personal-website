@@ -1,4 +1,5 @@
 ---
+layout: index
 title: _bem - WordPress theme with BEM methodology
 tags:
   - blog
@@ -6,7 +7,7 @@ categories:
   - WordPress
   - BEM
 date: 2017-05-27 07:39:05
-thumbnail: bem-WordPress-theme-with-BEM-methodology_myadk9.png
+thumbnail: bem-WordPress-theme-with-BEM-methodology_myadk9
 description: This is a post about building custom WordPress theme with BEM naming methodology.
 ---
 

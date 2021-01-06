@@ -1,4 +1,5 @@
 ---
+layout: index
 title: From WordPress to Hexo
 tags:
   - blog
@@ -8,7 +9,7 @@ categories:
   - hexo
   - spg
   - ssg
-thumbnail: From_WordPress_to_Hexo_xgibru.png
+thumbnail: From_WordPress_to_Hexo_xgibru
 publication: Toptal
 canonical: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11

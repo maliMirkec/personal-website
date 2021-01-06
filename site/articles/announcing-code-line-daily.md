@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Announcing Code Line Daily
 date: 2019-08-08 14:34:23
 tags:
@@ -7,7 +8,7 @@ categories:
   - css
   - cld
   - open source
-thumbnail: Announcing_Code_Line_Daily-2x_eo71qp.jpg
+thumbnail: Announcing_Code_Line_Daily-2x_eo71qp
 description: "Last week I released my side project: Code Line Daily. It is a quite straightforward project: a new line of code would be introduced every day. The lines are mostly frontend, PHP, and WordPress code. Here's how I build it!"
 project:
   name: Code Line Daily

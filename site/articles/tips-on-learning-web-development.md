@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Tips On Learning Web Development
 date: 2020-05-20 12:11:18
 tags:
@@ -6,16 +7,11 @@ tags:
 categories:
   - ui
   - mentoring
-thumbnail: Tips_On_Learning_Web_Development-2x_jj1hrc.jpg
+thumbnail: Tips_On_Learning_Web_Development-2x_jj1hrc
 credit:
   text: Benoit Gauzere on Unsplash
   link: https://unsplash.com/photos/6CcoF7h9h-k
 description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
-cta1:
-  span: "Wanna improve your UI coding skills?"
-  btn1: "Join the Program"
-  btn2: "Become a better UI dev 💯"
-  link: https://mentor.silvestar.codes/
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
@@ -54,7 +50,7 @@ When you start learning, you might be quite overwhelmed by the number of new ter
 
 You might want to make a list or a plan or a schedule to avoid wasting time as much as possible. A simple schedule or Trello board could help you focus on getting there, especially if you set up deadlines for yourself.
 
-> {cldnry kaleidico-26MJGnCM0Wc-unsplash_a6gj75.jpg "A whiteboard with project structure." %}
+{% cldnry "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." %}
 
 <small>_Image Credit: [Kaleidico on Unsplash](https://unsplash.com/photos/26MJGnCM0Wc)_</small>
 

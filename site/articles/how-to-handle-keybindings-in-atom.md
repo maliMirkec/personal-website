@@ -1,4 +1,5 @@
 ---
+layout: index
 title: How to handle keybindings in Atom
 tags:
   - blog
@@ -6,7 +7,7 @@ categories:
   - atom
   - keybindings
 date: 2016-10-15 16:41:54
-thumbnail: How-to-handle-keybindings-in-Atom_qj3djx.png
+thumbnail: How-to-handle-keybindings-in-Atom_qj3djx
 description: In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
 ---
 
@@ -32,7 +33,7 @@ We need to fix this. First step is to find out which command is currently used. 
 
 Go on and search `ctrl-up` to see all related commands.
 
-> {cldnry keybindings-settings-1_lq79lw.png "Keybindings settings." %}
+{% cldnry "keybindings-settings-1_lq79lw" "Keybindings settings." %}
 
 Let say we couldn't determine which command should we remove or update. What to do then?
 
@@ -40,7 +41,7 @@ In this case you should use [keybinding-resolver](https://atom.io/packages/keybi
 
 Now try to press `ctrl-up` and see what happens. **keybinding-resolver** shows us which command is used in what order. In our case, we could see that `editor:move-line-up` command is the first in line. We'll should remove it.
 
-> {cldnry keybindings-resolver_xuy5tk.png "Keybindings resolver in action." %}
+{% cldnry "keybindings-resolver_xuy5tk" "Keybindings resolver in action." %}
 
 ## How to remove keybindings?
 
@@ -48,17 +49,17 @@ When multiple commands for the same keybinding exist, we need to remove ones tha
 
 Paste the copied keybinding command. You should see the command selector and keybinding command.
 
-> {cldnry keybindings-keymap-copy_mqcnuz.png "Keybindings keymap copy command." %}
+{% cldnry "keybindings-keymap-copy_mqcnuz" "Keybindings keymap copy command." %}
 
 To remove the keybinding, use "unset!" command.
 
-> {cldnry keybindings-keymap-unset_xfhlkt.png "Keybindings keymap unset command." %}
+{% cldnry "keybindings-keymap-unset_xfhlkt" "Keybindings keymap unset command." %}
 
 ## How to use custom keybindings?
 
 So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:
 
-> {cldnry keybindings-keymap-replace_dmqrfn.png "Keybindings keymap replace command." %}
+{% cldnry "keybindings-keymap-replace_dmqrfn" "Keybindings keymap replace command." %}
 
 Now we could use `ctrl-up` to increment number by 1.
 

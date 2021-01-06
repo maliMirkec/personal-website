@@ -15,7 +15,7 @@ I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome
 
 _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes Bos's setup](https://wesbos.com/uses/). My setup is also featured on [/uses](http://uses.tech/) site._
 
-+cldnry(IMG_20190214_123144_eqcdi5.jpg, "Workstation in my office.")
+{% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." "847" "635" %}
 
 ## Hardware
 

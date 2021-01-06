@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Custom WordPress Theme Development with SPRO
 date: 2019-03-05 11:13:42
 tags:
@@ -6,7 +7,7 @@ tags:
 categories:
   - gulp
   - starter project
-thumbnail: Custom_WordPress_Theme_Development_with_SPRO_koknho.jpg
+thumbnail: Custom_WordPress_Theme_Development_with_SPRO_koknho
 description: "SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development."
 project:
   name: Starter Project
@@ -23,13 +24,13 @@ If you want to learn more about SPRO, [read the introduction article from the la
 
 If you prefer watching a video over reading an article, you could proceed to [the Skillshare lesson] that I recorded for this occasion.
 
-[> {cldnry cover-wp_w0q90l.jpg "SPRO Skillshare course cover." %}](https://skl.sh/2EcUlRt)
+[{% cldnry "cover-wp_w0q90l" "SPRO Skillshare course cover." %}](https://skl.sh/2EcUlRt)
 
 ## The project structure
 
 I am going to use a default WordPress installation as my starting point. I am using [Local by FlyWheel] as my WordPress development tool.
 
-> {cldnry local_hu1z2y.jpg "Screenshot of Local by FlyWheel tool." %}
+{% cldnry "local_hu1z2y" "Screenshot of Local by FlyWheel tool." %}
 
 The aim is to add Gulp tasks to TwentyNineteen default theme for Sass, JavaScript, BrowserSync, and Critical CSS.
 

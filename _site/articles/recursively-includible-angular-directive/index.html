@@ -1,17 +1,159 @@
-<p>I've been working on a complex Angular <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>-ish project recently and one of the requirements was to create a form based on an <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> model. This model was not definite and could vary depending on many parameters in the application. As a result, I've created a directive that could generate a form for every complex model. Final code is available on <a href="https://github.com/maliMirkec/angular-repeater">Github repository</a> and it's called <strong>angular-repeater</strong>. Demo is available <a href="https://frontend-developer.xyz/angular-repeater/">here</a>.</p>
+
+
+
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  
+
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Silvestar Bistrović">
+<meta name="application-name" content="Silvestar Bistrović">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=starbist">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=starbist">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=starbist">
+<link rel="manifest" href="/favicon/site.webmanifest?v=starbist">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=starbist" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=starbist">
+<meta name="apple-mobile-web-app-title" content="SB site - Silvestar Bistrović website">
+<meta name="application-name" content="SB site - Silvestar Bistrović website">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=starbist">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=starbist">
+<meta name="theme-color" content="#12e09f">
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  </head>
+  <body>
+    
+  <header>
+    <nav>
+      <ul class="list-style-none">
+        
+          <li>
+            <a class="db margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul>
+                <li class="fz-step-1">
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+<div class="wrapper padding margin-top-alpha margin-bottom-alpha">
+  <div class="copy copy--body"><p>I've been working on a complex Angular <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>-ish project recently and one of the requirements was to create a form based on an <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> model. This model was not definite and could vary depending on many parameters in the application. As a result, I've created a directive that could generate a form for every complex model. Final code is available on <a href="https://github.com/maliMirkec/angular-repeater">Github repository</a> and it's called <strong>angular-repeater</strong>. Demo is available <a href="https://frontend-developer.xyz/angular-repeater/">here</a>.</p>
 <h2>Digression</h2>
 <p>Sometimes the amount of new frontend technologies feels really <a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.h9purwu1w">overwhelming to me</a>. Everybody is writing about these shinny new frameworks, but there are plenty of applications that are still using &quot;old&quot; technologies (that are not <em>that</em> old). Nobody is writing about them anymore. This is a solution for Angular 1.</p>
 <h2>Angular Model</h2>
 <p>Let's go back to the code. Even better, let's consider model examples for this task:</p>
-<blockquote>
-<p>{cldnry first-model-for-angular-repeater_bmsaac.png &quot;First model for angular repeater.&quot; %}</p>
-</blockquote>
-<blockquote>
-<p>{cldnry second-model-for-angular-repeater_lxgczj.png &quot;Second model for angular repeater.&quot; %}</p>
-</blockquote>
-<blockquote>
-<p>{cldnry third-model-for-angular-repeater_dsleyg.png &quot;Third model for angular repeater.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/first-model-for-angular-repeater_bmsaac" alt="First model for angular repeater." sizes="800px" loading="lazy">
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/second-model-for-angular-repeater_lxgczj" alt="Second model for angular repeater." sizes="800px" loading="lazy">
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/third-model-for-angular-repeater_dsleyg" alt="Third model for angular repeater." sizes="800px" loading="lazy">
 <p>These models contain typical types of data:</p>
 <ul>
 <li>strings,</li>
@@ -23,17 +165,13 @@
 <h2>Recursion problem</h2>
 <p>Since we need to iterate through these models to display labels and inputs, we should create at least 3 templates for them because they are formatted differently. That seems like a lot of work. Therefore that doesn't sound like the correct solution. Finally, if we try to iterate a model using <strong>ng-repeat</strong> directive and display every property as an input, we would repeat the code for every property. As a result we'll end up with a bloated and very ugly code.</p>
 <p>The solution lies in <strong>recursion</strong>. It is a programming principle when a function calls itself. In our case, we'll use a <strong>recursive-repeater</strong> directive that will call itself.</p>
-<blockquote>
-<p>{cldnry angular-repeater-template_pzfvoq.png &quot;Template for angular repeater.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/angular-repeater-template_pzfvoq" alt="Template for angular repeater." sizes="800px" loading="lazy">
 <p><em>For now, ignore IsObject() and IsNumber() functions.</em></p>
 <p>If we run this code, we'll get an error. This is because Angular 1 doesn't support recursively included directives out of the box. But there is a solution.</p>
 <h2>Recursion helper</h2>
 <p>The solution is <a href="https://github.com/marklagendijk/angular-recursion">Mark Lagendijk's RecursionHelper service</a> that makes it possible to have recursive Angular directives.</p>
 <p>I've already included this awesome service in <strong>recursive-repeater</strong> directive, like this:</p>
-<blockquote>
-<p>{cldnry angular-repeater-directive_rkx8sy.png &quot;Angular repeater directive.&quot; %}</p>
-</blockquote>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/angular-repeater-directive_rkx8sy" alt="Angular repeater directive." sizes="800px" loading="lazy">
 <p>As you could see, we're not using <strong>link</strong> property when defining directive, we are using <strong>compile</strong> instead.</p>
 <p>This directive works only when <strong>jsonData</strong> is provided via <strong>json-data</strong> attribute. <strong>label</strong> attribute is optional and is used to display label for every input. You could see an example in a <a href="#AngularRepeaterTemplate">previous section</a>.</p>
 <p>In addition, there are 2 helper functions in a directive:</p>
@@ -48,3 +186,83 @@
 <p>This particular directive is used to display label and input for every model property. I'm considering to extend this functionality and allow user to define any other output.</p>
 <p>I'm also considering to compare this technique with other popular frameworks, like <a href="https://vuejs.org/">Vue.js</a>, <a href="https://angular.io/">Angular 2</a> and <a href="https://facebook.github.io/react/">React</a>.</p>
 <p>Please let me know what do you think, leave a comment bellow or <a href="https://twitter.com/malimirkeccita">tweet me</a>.</p>
+</div>
+</div>
+
+
+        
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, YEAR</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload="this.media='all'">
+
+    <script src="/js/cldnry.min.js" async></script>
+<script src="/js/index.min.js" async></script>
+
+  </body>
+</html>
+
+
+
+

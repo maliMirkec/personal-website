@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Irina & Matej
 description: Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world. The site runs on WordPress, DigitalOcean, and Cloudflare.
 thumbnail: im_xnyy09.png

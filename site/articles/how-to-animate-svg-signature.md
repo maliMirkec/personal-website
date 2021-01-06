@@ -1,4 +1,5 @@
 ---
+layout: index
 title: How to animate SVG signature
 date: 2020-01-06 09:13:35
 tags:
@@ -7,7 +8,7 @@ categories:
   - svg
   - css
   - javascript
-thumbnail: How_to_Animate_SVG_Signature-2x_jlawyz.jpg
+thumbnail: How_to_Animate_SVG_Signature-2x_jlawyz
 description: Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.
 ---
 
@@ -21,7 +22,7 @@ Let’s see how to animate SVG signature with a little bit of JavaScript and CSS
 
 Let’s start by creating an SVG signature. I am using Sketch to make SVG paths for letters. Here’s how it looks in Edit mode:
 
-> {cldnry sketch-signature_u7trkt.png "Screenshot of SVG signature paths in Sketch application." %}
+{% cldnry "sketch-signature_u7trkt" "Screenshot of SVG signature paths in Sketch application." %}
 
 It contains eight different paths for different paths of signature. For example, one path represents the letter “S”, one path represents the dot, and so on.
 

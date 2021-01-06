@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Browser Bookmarks
 date: 2017-08-02 20:08:06
 description: Browser bookmarks export file

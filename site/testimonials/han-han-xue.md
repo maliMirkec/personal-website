@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Han Han Xue
 description: Han Han Xue talks about his positive experience in working with Silvestar Bistrović.
 tags:

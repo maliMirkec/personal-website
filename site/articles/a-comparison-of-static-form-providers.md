@@ -1,4 +1,5 @@
 ---
+layout: index
 title: 'A Comparison of Static Form Providers'
 date: 2019-09-26 22:08:09
 tags:
@@ -10,7 +11,7 @@ categories:
   - ssg
 publication: CSS Tricks
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
-thumbnail: A_Comparison_of_Static_Form_Providers-2x_qjsrdd.jpg
+thumbnail: A_Comparison_of_Static_Form_Providers-2x_qjsrdd
 credit:
   text: Joshua Wilking on Unsplash
   link: https://unsplash.com/photos/ZbMJ5VLrpQ4

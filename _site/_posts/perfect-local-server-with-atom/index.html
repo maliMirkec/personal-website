@@ -17,7 +17,7 @@
 <p>Imagine you need to create a form or a jQuery plugin. It is part of some complicated project written in C# or Ruby. There is no need run the project for this job, all you need is a page, a static demo page where you could fake real project page and quickly complete a task. Easy! Create new folder, create <code>index.html</code> or <code>index.php</code> file, add some markup and styling or a script and start developing.</p>
 <p><strong>php-server</strong> is available on Atom package manager. After installation, you'll have to configure package. The most important settings are <em>Path to PHP executable</em> and <em>Default port to bind to</em>. This is why we had to install <strong>Bitnami WAMP Stack</strong> (or any other local server). In the installation folder of <strong>Bitnami WAMP Stack</strong>, find <code>php</code> folder. You should find executable PHP file there, <code>php.exe</code>. This is your path. Default port cannot be the same as Bitnami's, so use another one, like 9000. There are other advanced options, but they are out of scope of this article.</p>
 <blockquote>
-<p>{cldnry php-server-settings_htpxrt.png &quot;PHP-server settings.&quot; %}</p>
+<p>{% cldnry php-server-settings_htpxrt.png &quot;PHP-server settings.&quot; %}</p>
 </blockquote>
 <p>There are no shortcuts for this package, you'll have to call commands from command palette. The most common commands are <em>Php server: Start</em> and <em>Php server: stop</em>. For all available commands, please refer to <a href="https://atom.io/packages/php-server"><strong>php-server</strong> package page</a>.</p>
 <p>When you start <strong>php-server</strong>, your browser will start automatically and try to open <code>index.php</code> or <code>index.html</code> file. If necessary, you could use different filename, but then you have to add that file to the URL. For example, if you create file with named <code>form.php</code>, then your URL should look like this: http://localhost:9000/form.php.</p>
@@ -29,7 +29,7 @@
 <p>Back in the day every developer dreamed about live reloading in browser on file change in editor. Today there are more than few solutions for that. Since we're using Atom, let's make it work in Atom.</p>
 <p>Go ahead and install <strong>livereload</strong> package from Atom package manager. After installation, you should configure package. There nothing much here, this is how my configuration looks like:</p>
 <blockquote>
-<p>{cldnry livereload-settings_u6h4bx.png &quot;Livereload settings.&quot; %}</p>
+<p>{% cldnry livereload-settings_u6h4bx.png &quot;Livereload settings.&quot; %}</p>
 </blockquote>
 <p>To start <strong>livereload</strong> server, you could use command palette or shortcut <code>ctrl + shift + R</code>.</p>
 <p>Nothing happens in your browser yet, because we need to install browser extension as well. Go to the <strong>LiveReload</strong> extension's website and install it. It works both on Chrome and Firefox.</p>

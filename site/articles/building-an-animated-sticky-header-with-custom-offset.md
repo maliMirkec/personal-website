@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Building an Animated Sticky Header With Custom Offset
 date: 2018-12-07 18:08:55
 tags:
@@ -6,7 +7,7 @@ tags:
 categories:
   - css
   - javascript
-thumbnail: Building_an_animated_sticky_header_with_custom_offset_pnzuri.jpg
+thumbnail: Building_an_animated_sticky_header_with_custom_offset_pnzuri
 credit:
   text: Guilherme Romano on Unsplash
   link: https://unsplash.com/photos/KI2KaOeT670

@@ -1,4 +1,5 @@
 ---
+layout: index
 title: CSS sidebar toggle
 tags:
   - blog
@@ -7,7 +8,7 @@ categories:
   - sidebar
   - accessibility
 date: 2017-02-20 11:43:48
-thumbnail: CSS-sidebar-toggle_cnrish.png
+thumbnail: CSS-sidebar-toggle_cnrish
 description: CSS sidebar toggle presented in this post is made with CSS only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without JavaScript, I've added a small snippet for this feature.
 ---
 

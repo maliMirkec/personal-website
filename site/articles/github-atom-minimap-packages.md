@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Github Atom minimap packages
 tags:
   - blog
@@ -6,7 +7,7 @@ categories:
   - atom
   - minimap
 date: 2016-08-30 18:00:19
-thumbnail: Github_Atom_minimap_packages_asknpo.png
+thumbnail: Github_Atom_minimap_packages_asknpo
 description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
 ---
 
@@ -18,7 +19,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **[minimap](https://atom.io/packages/minimap)** is a basic package for code preview and it's available on Atom's package manager. Settings let's you configure the **minimap** and here's my settings:
 
-> {cldnry minimap-settings_qurgyc.png "Atom General settings." %}
+{% cldnry "minimap-settings_qurgyc" "Atom General settings." %}
 
 ## useful minimap extensions
 
@@ -49,7 +50,7 @@ There's even a package that highlights search result occurrences in the **minima
 
 This is my **minimap** in action:
 
-> {cldnry minimap-in-action_jopeok.png "Atom Minimap settings." %}
+{% cldnry "minimap-in-action_jopeok" "Atom Minimap settings." %}
 
 ## Final thoughts
 

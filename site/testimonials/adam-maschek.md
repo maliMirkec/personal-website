@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Adam Maschek
 description: Adam Maschek talks about his positive experience in working with Silvestar Bistrović.
 tags:

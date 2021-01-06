@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Netki
 description: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States. The website runs on WordPress and WPEngine.
 thumbnail: n_gcmcap.png

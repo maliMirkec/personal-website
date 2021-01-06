@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Interview for Remote Working Hub
 date: 2019-11-09 15:36:14
 tags:
@@ -9,7 +10,7 @@ categories:
   - remote work
 publication: Remote Work Hub
 canonical: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
-thumbnail: Interview_for_Remote_Working_Hub-2x_yhycf5.jpg
+thumbnail: Interview_for_Remote_Working_Hub-2x_yhycf5
 credit:
   text: Mathew Schwartz on Unsplash
   link: https://unsplash.com/photos/5iFZBM7qgWc
@@ -36,7 +37,7 @@ My focus is always on delivering the best experience for users on every device. 
 
 When I am not coding, I like to write new articles on my blog.
 
-> {cldnry dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6.jpg "Pedestrian bridge in Osijek by night." %}
+{% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." %}
 
 _Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw](https://unsplash.com/photos/iM6Gm-cdBuw)_
 
@@ -62,7 +63,7 @@ Since, I have invested a lot of time to post meaningful content on my site by pu
 
 This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless—clients began to contact me directly!
 
-> {cldnry pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx.jpg "Old-school typewriter." %}
+{% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." %}
 
 _Image credit: [https://unsplash.com/photos/qFH7-yKoxik](https://unsplash.com/photos/qFH7-yKoxik)_
 
@@ -84,7 +85,7 @@ There are other tools that I use on my daily basis that are related to my progra
 
 I made a list of my current hardware setup and my preferred software. You can find it here: [https://www.silvestar.codes/uses/](https://www.silvestar.codes/uses/).
 
-> {cldnry IMG_20190214_123144_eqcdi5.jpg "Workstation in my office." %}
+{% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." %}
 
 ## Your most exciting/ hilarious experience since you started working remotely.
 
@@ -96,7 +97,7 @@ If I had to give only one piece of advice to a new remote worker, it would be to
 
 Related to this advice, I would also tell a new remote worker to start finding new gigs on time. You don’t have to wait for your current gig to be finished to start looking for a new one. This could help you avoid significant periods without a job.
 
-> {cldnry michael-longmire-lhltMGdohc8-unsplash_nyrjzz.jpg "Spilled piggy bank." %}
+{% cldnry "michael-longmire-lhltMGdohc8-unsplash_nyrjzz" "Spilled piggy bank." %}
 
 Image credit: [https://unsplash.com/photos/lhltMGdohc8](https://unsplash.com/photos/lhltMGdohc8)
 

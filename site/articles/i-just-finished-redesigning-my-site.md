@@ -1,4 +1,5 @@
 ---
+layout: index
 title: I just finished redesigning my site
 date: 2020-03-02 07:49:34
 tags:
@@ -7,7 +8,7 @@ categories:
   - redesign
   - serverless
   - hexo
-thumbnail: I_just_finished_redesigning_my_site-2x_nkip6c.jpg
+thumbnail: I_just_finished_redesigning_my_site-2x_nkip6c
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
 ---
 
@@ -21,7 +22,7 @@ During the last week, I have been working on redesigning my site. Here is the li
 
 ## Refreshed design
 
-> {cldnry light-mode_zpgxn1.png  "Screenshot of the redesigned site - the light mode" %}
+{% cldnry "light-mode_zpgxn1" "Screenshot of the redesigned site - the light mode" %}
 
 Since I am not a designer, I have started with a couple of prototypes on Codepen:
 
@@ -40,7 +41,7 @@ Finally, I have updated HTML and CSS code. I have removed hard-coded sections fr
 
 ## Added dark mode
 
-> {cldnry dark-mode_lo1vph.png  "Screenshot of the redesigned site - the dark mode" %}
+{% cldnry "dark-mode_lo1vph" "Screenshot of the redesigned site - the dark mode" %}
 
 I wanted to add the dark mode to my site, so I introduced CSS Variables to my Scss codebase. I have four major modes:
 

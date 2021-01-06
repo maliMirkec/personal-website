@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Westwing
 description: Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
 thumbnail: ww_hceizq.png

@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Karim Mansi
 description: Karim Mansi talks about his positive experience in working with Silvestar Bistrović.
 tags:

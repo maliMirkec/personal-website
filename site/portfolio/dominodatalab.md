@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Domino Data Lab
 description: Domino Data Lab is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
 thumbnail: ddl_mypfrt.png

@@ -2,7 +2,7 @@
 
 {% if card2List %}
   <section id="{{ cards2.filter }}" class="margin-top-alpha margin-bottom-alpha">
-    <div class="wrapper wrapper--alpha grid">
+    <div class="wrapper wrapper--alpha grid padding">
       {% for card2 in card2List %}
         {% if cards2.limit and forloop.index > cards2.limit %}
           {% break %}
@@ -24,12 +24,12 @@
         </div>
       {% endfor %}
       {% if cards2.desc %}
-        <div class="card card--flex text-center bg-light padding">
+        <div class="card card--flex text-center padding">
           <div class="margin-auto">
             <div class="copy">{{ cards2.desc | markdownify }}</div>
             {% if cards2.cta2 %}
               <div class="margin-top">
-                <a class="button button--small" href="{{ cards2.cta2.href }}">{{ cards2.cta2.title }}</a>
+                <a class="button" href="{{ cards2.cta2.href }}">{{ cards2.cta2.title }}</a>
               </div>
             {% endif %}
           </div>

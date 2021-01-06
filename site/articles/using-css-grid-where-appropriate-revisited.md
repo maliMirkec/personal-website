@@ -1,4 +1,5 @@
 ---
+layout: index
 title: 'Using CSS Grid where appropriate (revisited)'
 date: 2018-09-05 11:01:11
 tags:
@@ -6,7 +7,7 @@ tags:
 categories:
   - css
   - grid
-thumbnail: Using_CSS_Grid_where_appropriate_revisited_m4mtyq.jpg
+thumbnail: Using_CSS_Grid_where_appropriate_revisited_m4mtyq
 description: This solution is a follow-up post on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
 ---
 
@@ -31,6 +32,7 @@ Creating navigation with CSS Grid is arguably not the best solution. However, if
   display: grid;
   grid-auto-flow: row;
 }
+
 @media screen and (min-width: 320px) {
   .nav {
     grid-template-columns: repeat(4, auto);

@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Moodings
 description: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
 thumbnail: m_rjmzz2.png

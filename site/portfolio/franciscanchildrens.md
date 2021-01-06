@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Franciscan Children's
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
 thumbnail: fc_c8rxa2.png

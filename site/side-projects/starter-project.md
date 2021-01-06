@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Starter Project
 description: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
 tags:

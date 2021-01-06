@@ -1,4 +1,5 @@
 ---
+layout: index
 title: How to make tabs using only CSS
 tags:
   - blog
@@ -6,7 +7,7 @@ categories:
   - css
   - tabs
 date: 2016-10-07 19:01:40
-thumbnail: How-to-make-tabs-using-only-CSS_exk7am.png
+thumbnail: How-to-make-tabs-using-only-CSS_exk7am
 description: "I know there are more than a few articles about this topic. And there are 2 basic approaches: using target pseudo selector and using list with checked pseudo selector."
 ---
 

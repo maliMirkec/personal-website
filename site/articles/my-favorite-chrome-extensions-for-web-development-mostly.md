@@ -1,4 +1,5 @@
 ---
+layout: index
 title: My favorite extensions for web development
 date: 2019-09-11 14:23:33
 tags:
@@ -6,7 +7,7 @@ tags:
 categories:
   - productivity
   - devtools
-thumbnail: My_favorite_extensions_for_web_development_r9apoh.jpg
+thumbnail: My_favorite_extensions_for_web_development_r9apoh
 credit:
   text: Vivek Doshi on Unsplash
   link: https://unsplash.com/photos/p6GY97dK0X0
@@ -37,7 +38,7 @@ A web browser is one of the essential tools for web development. Besides awesome
 
 Octotree or “GitHub on steroids,” is an extension that adds a few extra features on GitHub pages. The most formidable feature is a sidebar with a code tree, like in IDEs. It comes handy when you try to find a file in the repository.
 
-> {cldnry Octotree_lq3wa7.jpg "Octotree screenshot." %}
+{% cldnry "Octotree_lq3wa7" "Octotree screenshot." %}
 
 Here’s the preview of the Octotree sidebar for my site’s repository.
 
@@ -45,7 +46,7 @@ Here’s the preview of the Octotree sidebar for my site’s repository.
 
 Wappalizer identifies technologies used in the current site. I find this extension helpful when reviewing new projects. I could see most of the technologies used on the site, which allows me to make a decision about accepting a project or even making an estimation.
 
-> {cldnry Wappalizer_mn78hc.jpg "Wappalizer screenshot." %}
+{% cldnry "Wappalizer_mn78hc" "Wappalizer screenshot." %}
 
 For example, you could see that my site uses Matomo for analytics, Netlify as a web server and CDN, and Hexo for generating a static website.
 
@@ -53,7 +54,7 @@ For example, you could see that my site uses Matomo for analytics, Netlify as a 
 
 Testing websites in different devices could be a rather tedious but required task. Although the web is moving in the right direction, we should be aware of the unsupported CSS features like CSS Grid or CSS variables. Before you put the effort in testing your site in different browsers, you could save some time by toggling CSS features in Chrome first. CSS Feature Toggle extension enables you to do exactly that—switching off CSS features.
 
-> {cldnry CSS_Feature_Toggles_d9qdzj.jpg "CSS Feature Toggles screenshot." %}
+{% cldnry "CSS_Feature_Toggles_d9qdzj" "CSS Feature Toggles screenshot." %}
 
 The supported features are:
 
@@ -66,7 +67,7 @@ The supported features are:
 
 Workona is the one extension that I couldn’t image my workday without anymore. It’s like a project manager right in your browser where you could manage all your work in the cloud. That means I could open my tabs on a different device at any time. I use it to organize my workspaces for reading the articles, watching the webinars, learning, and working on separate projects.
 
-> {cldnry Workona_eurplk.jpg "Workona screenshot." %}
+{% cldnry "Workona_eurplk" "Workona screenshot." %}
 
 You could see a part of my Workona dashboard. To open tabs for a particular workspace, all I have to do it to perform a single click.
 
@@ -74,7 +75,7 @@ You could see a part of my Workona dashboard. To open tabs for a particular work
 
 LastPass is a password manager. It could store passwords, and it could automatically populate login fields for you. When dealing with a lot of clients, it could save you time and sanity. I use it on my mobile, too. It works like a charm.
 
-> {cldnry LastPass_tev0ul.jpg "LassPass screenshot." %}
+{% cldnry "LastPass_tev0ul" "LassPass screenshot." %}
 
 LastPass could save you a lot of time when testing forms, too. You could create a profile with dummy data and then use the “Fill” option to populate the form. I use this feature for registration forms quite often.
 
@@ -84,7 +85,7 @@ _Fun fact: I have more than 20 Slack logins._ 😵
 
 Code Line Daily is a side project I have been working on for the last month or so. It was [introduced on Product Hunt] earlier this month.
 
-> {cldnry Code_Line_Daily_v3ehh0.jpg "Code Line Daily screenshot." %}
+{% cldnry "Code_Line_Daily_v3ehh0" "Code Line Daily screenshot." %}
 
 One of the followers suggested it could be used as a browser plugin. This week Code Line Daily is available as an extension [in the Chrome Web Store].
 

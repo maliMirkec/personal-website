@@ -1,4 +1,5 @@
 ---
+layout: index
 title: John Ganotis
 description: John Ganotis talks about his positive experience in working with Silvestar Bistrović.
 tags:

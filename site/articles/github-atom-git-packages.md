@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Github Atom Git packages
 tags:
   - blog
@@ -6,7 +7,7 @@ categories:
   - atom
   - git
 date: 2016-08-22 20:21:37
-thumbnail: Github-Atom-Git-packages_dxonzr.png
+thumbnail: Github-Atom-Git-packages_dxonzr
 description: Developers often rely on a version control system and one of the most popular is Git.
 ---
 
@@ -23,7 +24,7 @@ Atom community provides us with plenty of [Git packages](https://atom.io/packag
 
 ## git-plus
 
-> {cldnry git-plus_hi3gmm.png "Git-plus in action." %}
+{% cldnry "git-plus_hi3gmm" "Git-plus in action." %}
 
 When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
@@ -47,7 +48,7 @@ Installation could be done via package manager. Configuration is straightforward
 
 ## git-history
 
-> {cldnry git-history_whbavd.png "Git-history in action." %}
+{% cldnry "git-history_whbavd" "Git-history in action." %}
 
 This package allows you to view history of the file.
 
@@ -57,7 +58,7 @@ To view file history, open command palette and type in "git history" and select 
 
 ## git-log
 
-> {cldnry git-log_npntsy.png "Git-log in action." %}
+{% cldnry "git-log_npntsy" "Git-log in action." %}
 
 **git-log** helps you see pretty Git log directly from Atom.
 

@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Making a website with Hugo
 description: Making a website with Hugo is a course for learning how to use Hugo.
 tags:

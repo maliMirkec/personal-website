@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Domino Data Lab Rev
 description: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
 thumbnail: ddlr_rpy3cx.png

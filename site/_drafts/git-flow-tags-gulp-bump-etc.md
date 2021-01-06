@@ -1,4 +1,5 @@
 ---
+layout: index
 title: 'Git flow, tags, gulp-bump etc'
 id: 568
 
