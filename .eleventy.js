@@ -23,6 +23,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       input: 'site',
+      output: 'public',
       layouts: '_layouts',
       data: '_data',
       htmlTemplateEngine: 'liquid',
