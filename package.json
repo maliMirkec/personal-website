@@ -20,10 +20,12 @@
   "scripts": {
     "cp_redirects": "cp extras/_redirects _site/_redirects",
     "cp_headers": "cp extras/_headers _site/_headers",
+    "cp_cv": "cp extras/silvestar-bistrovic-cv.pdf _site/silvestar-bistrovic-cv.pdf",
     "cp_robots-dev": "cp extras/robots_dev.txt _site/robots.txt",
     "cp_robots-prod": "cp extras/robots_prod.txt _site/robots.txt",
     "dev": "gulp & npx @11ty/eleventy --serve",
-    "build": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev",
+    "build": "gulp build && npx @11ty/eleventy",
+    "preview": "yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
     "deploy": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
   "dependencies": {
