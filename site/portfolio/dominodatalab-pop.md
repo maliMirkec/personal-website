@@ -2,10 +2,11 @@
 layout: index
 title: Domino Data Lab Pop-up
 description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
-thumbnail: ddlp_mjllzg.png
+thumbnail: ddlp_mjllzg
 link: //popup.dominodatalab.com
 display: true
 date: 2020-01-03
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: ddlp_mjllzg.png
+    src: ddlp_mjllzg
     alt: Screenshot of Domino Data Lab Pop-up website.
     width: 815
     height: 448

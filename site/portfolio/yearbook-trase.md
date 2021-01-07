@@ -2,10 +2,11 @@
 layout: index
 title: Trase Yearbook 2018
 description: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-thumbnail: yb_mgssbz.png
+thumbnail: yb_mgssbz
 link: //yearbook2018.trase.earth
 display: true
 date: 2020-01-11
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: yb_mgssbz.png
+    src: yb_mgssbz
     alt: Screenshot of Trase Yearbook 2018 website.
     width: 815
     height: 448

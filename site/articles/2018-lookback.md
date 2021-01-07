@@ -7,10 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: 2018-lookback-2x_xvi1vo
-credit:
-  text: Sam Bark on Unsplash
-  link: https://unsplash.com/photos/XFkkYwKiC_U
+thumbnail: 2018_Lookback_nrqris
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 ---
 

@@ -8,7 +8,7 @@ categories:
   - tabs
   - accessibility
 date: 2016-11-01 08:39:30
-thumbnail: CSS-Tabs-part-II-Accessibility_hyc6zh
+thumbnail: CSS_tabs_part_II_Accessibility_io11di
 description: Recently I've been writing about CSS tabs. Topic was surprisingly popular, gaining several thousand users to my page. What was even more surprising were comments about accessibility. I decided to investigate a little bit more and add accessibility to my solution.
 ---
 

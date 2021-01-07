@@ -2,10 +2,11 @@
 layout: index
 title: Little Bundle
 description: Little Bundle is a US-based company with a mission to maximize children's' health by making high-quality formula easily accessible, from the moment you’re ready to transition from or supplement breastfeeding.
-thumbnail: h_ahx9mm.png
+thumbnail: h_ahx9mm
 link: //littlebundle.com
 display: true
 date: 2020-01-10
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: h_ahx9mm.png
+    src: h_ahx9mm
     alt: Screenshot of Little Bundle website.
     width: 815
     height: 448

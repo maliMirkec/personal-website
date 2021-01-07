@@ -7,10 +7,7 @@ tags:
 categories:
   - productivity
   - devtools
-thumbnail: My_favorite_extensions_for_web_development_r9apoh
-credit:
-  text: Vivek Doshi on Unsplash
-  link: https://unsplash.com/photos/p6GY97dK0X0
+thumbnail: My_favorite_extensions_for_web_development_erf5gg
 description: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
 ---
 

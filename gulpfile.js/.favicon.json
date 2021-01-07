@@ -1,4 +1,4 @@
 {
-  "src": "helpers.source/config.html.src/_partials/_assets/favicon.pug",
-  "dest": "helpers.source/config.html.src/_partials/_assets/"
+  "src": "helpers.source/favicon",
+  "dest": "helpers.dist/favicon/"
 }

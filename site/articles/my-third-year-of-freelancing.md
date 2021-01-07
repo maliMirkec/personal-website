@@ -7,7 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: My_Third_Year_Of_Freelancing-2x_t4bpff
+thumbnail: My_Third_Year_Of_Freelancing_ency0u
 description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
 ---
 

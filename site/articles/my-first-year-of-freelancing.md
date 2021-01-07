@@ -7,7 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: My_First_Year_Of_Freelancing-2x_budolh
+thumbnail: My_first_year_of_freelancing_xufkud
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 ---
 

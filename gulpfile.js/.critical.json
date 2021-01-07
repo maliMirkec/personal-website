@@ -1,10 +1,10 @@
 {
-  "temp": "helpers.source/src/critical/",
+  "temp": "helpers.source/config.css.src/critical/",
   "configs": [{
     "src": "style.css",
     "settings": {
-      "out": "style8.critical.css",
-      "url": "http://localhost:4001/about-me/?cache=1",
+      "out": "testimonials-item.critical.css",
+      "url": "http://localhost:8080/testimonials/john-ganotis/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -12,6 +12,7 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -20,15 +21,16 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style6.critical.css",
-      "url": "http://localhost:4001/contact/?cache=1",
+      "out": "testimonials.critical.css",
+      "url": "http://localhost:8080/testimonials/?cache=1",
       "width": 1920,
-      "height": 2000,
+      "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -37,8 +39,8 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style5.critical.css",
-      "url": "http://localhost:4001/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/?cache=1",
+      "out": "side-projects-item.critical.css",
+      "url": "http://localhost:8080/side-projects/css-auditors/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -46,6 +48,7 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -54,8 +57,8 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style4.critical.css",
-      "url": "http://localhost:4001/categories/articles/?cache=1",
+      "out": "side-projects.critical.css",
+      "url": "http://localhost:8080/side-projects/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -63,6 +66,7 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -71,8 +75,8 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style3.critical.css",
-      "url": "http://localhost:4001/portfolio/?cache=1",
+      "out": "portfolio-item.critical.css",
+      "url": "http://localhost:8080/portfolio/westwing/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -80,6 +84,7 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -88,8 +93,8 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style2.critical.css",
-      "url": "http://localhost:4001/portfolio/westwing/?cache=1",
+      "out": "portfolio.critical.css",
+      "url": "http://localhost:8080/portfolio/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -97,6 +102,7 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -105,8 +111,8 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "style.critical.css",
-      "url": "http://localhost:4001/?cache=1",
+      "out": "articles-item.critical.css",
+      "url": "http://localhost:8080/articles/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
@@ -114,6 +120,61 @@
       "blockJSRequests": true,
       "renderWaitTime": 3000,
       "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "articles.critical.css",
+      "url": "http://localhost:8080/articles/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "page.critical.css",
+      "url": "http://localhost:8080/contact/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "home.critical.css",
+      "url": "http://localhost:8080/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true

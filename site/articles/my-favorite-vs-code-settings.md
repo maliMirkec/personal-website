@@ -7,7 +7,7 @@ tags:
 categories:
   - vs code
   - editor
-thumbnail: My_Favorite_VS_Code_Settings-2x_ft5wa0
+thumbnail: My_Favorite_VS_Code_Settings_b2cqy6
 description: "These are my favorite VS Code settings: Breadcrumbs, Minimap, Saving and Formatting, Bars and Windows."
 ---
 

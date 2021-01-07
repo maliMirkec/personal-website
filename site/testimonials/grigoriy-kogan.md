@@ -4,15 +4,16 @@ title: Grigoriy Kogan
 description: Grigoriy Kogan talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
-thumbnail: ddl_mypfrt.png
-logo: ddl_rj0jfd.png
+type: testimonials-item
+thumbnail: ddl_mypfrt
+logo: ddl_rj0jfd
 order: 4
 date: 2020-01-04
 position: Growth Consultant
 company: Domino Data Lab
 sections:
   - type: hero-alpha
-    src: ddl_rj0jfd.png
+    src: ddl_rj0jfd
     alt: Logo of Domino Data Lab.
     width: 128
     height: 40

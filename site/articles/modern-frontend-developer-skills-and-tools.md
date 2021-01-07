@@ -8,7 +8,7 @@ categories:
   - freelance
   - remote work
   - frontend
-thumbnail: The_Essential_Skill_Of_A_Developer_csb5dm
+thumbnail: The_essential_skill_of_a_developer_cr4cev
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 ---
 

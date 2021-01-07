@@ -4,15 +4,16 @@ title: Evan Lavidor
 description: Evan Lavidor talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
-thumbnail: b_csao4p.png
-logo: bm_qlnuvi.png
+type: testimonials-item
+thumbnail: b_csao4p
+logo: bm_qlnuvi
 order: 2
 date: 2020-01-02
 position: Partner & Executive Director
 company: BEAM Interactive
 sections:
   - type: hero-alpha
-    src: bm_qlnuvi.png
+    src: bm_qlnuvi
     alt: Logo of BEAM Interactive.
     width: 258
     height: 40

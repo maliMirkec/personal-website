@@ -1,6 +1,7 @@
 ---
 layout: index
 title: /Side Projects
+type: side-projects
 sections:
   - type: hero-beta
     title: From Side Projects

@@ -7,8 +7,8 @@ tags:
 categories:
   - freelance
   - remote work
+thumbnail: Roadmap_September_2018_njrqcl
 description: I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
-thumbnail: Roadmap_September_2018._o6syhw
 ---
 
 The inspiration for creating a roadmap for myself came from [C. Todd Lombardo] and his talk on Smashing TV about roadmaps: [Roadmaps are dead! Long live roadmaps!]. I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.

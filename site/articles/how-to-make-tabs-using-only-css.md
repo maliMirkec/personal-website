@@ -7,7 +7,7 @@ categories:
   - css
   - tabs
 date: 2016-10-07 19:01:40
-thumbnail: How-to-make-tabs-using-only-CSS_exk7am
+thumbnail: How_to_make_tabs_using_only_CSS_jfkvko
 description: "I know there are more than a few articles about this topic. And there are 2 basic approaches: using target pseudo selector and using list with checked pseudo selector."
 ---
 

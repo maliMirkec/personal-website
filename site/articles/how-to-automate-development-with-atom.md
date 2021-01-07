@@ -6,7 +6,7 @@ tags:
 categories:
   - atom
 date: 2016-11-30 20:33:06
-thumbnail: How-to-automate-development-with-Atom_ycu82l
+thumbnail: How_to_automate_development_with_Atom_kaktwk
 description: We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
 ---
 

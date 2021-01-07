@@ -6,7 +6,7 @@ tags:
   - blog
 categories:
   - pwa
-thumbnail: How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr
+thumbnail: How_I_built_my_second_Progressive_Web_App_PWA_ffgk5w
 description: "As of today, my side project Code Line Daily is available as a Progressive Web App. This post is a sequel to my previous PWA post."
 project:
   name: Code Line Daily

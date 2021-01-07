@@ -2,10 +2,11 @@
 layout: index
 title: TheGrio
 description: TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives that appeal to them but are underrepresented in existing national news outlets.
-thumbnail: tg_r1peey.png
+thumbnail: tg_r1peey
 link: //thegrio.com
 display: true
 date: 2020-01-19
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: tg_r1peey.png
+    src: tg_r1peey
     alt: Screenshot of TheGrio website.
     width: 815
     height: 448

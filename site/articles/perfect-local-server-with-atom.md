@@ -7,7 +7,7 @@ categories:
   - atom
   - server
 date: 2016-09-05 17:11:14
-thumbnail: Perfect-local-server-with-Atom_xplcj6
+thumbnail: Perfect_local_server_with_Atom_ucayec
 description: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
 ---
 

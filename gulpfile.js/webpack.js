@@ -4,7 +4,6 @@ const path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    index: helpers.parse('helpers.source/config.js.src/index.js'),
     cldnry: helpers.parse('helpers.source/config.js.src/cldnry.js')
   },
   output: {

@@ -1,20 +1,31 @@
-{% comment %} //- | <style>
-//- if (offline)
-//-   include ../../../source/css/offline.min.css
-//- else if (isHome())
-//-   include ../../../source/css/style.critical.min.css
-//- else if (page and isPortfolioPost(page))
-//-   include ../../../source/css/style2.critical.min.css
-//- else if (page and isPortfolio(page))
-//-   include ../../../source/css/style3.critical.min.css
-//- else if (isCategory())
-//-   include ../../../source/css/style4.critical.min.css
-//- else if (isPost())
-//-   include ../../../source/css/style5.critical.min.css
-//- else if (page and isContact(page))
-//-   include ../../../source/css/style6.critical.min.css
-//- else if (page and isMentoring(page))
-//-   include ../../../source/css/style7.critical.min.css
-//- else
-//-   include ../../../source/css/style8.critical.min.css
-//- | </style> {% endcomment %}
+{% if type == "home" %}
+  <style>{% include ../../assets/dist/css/home.critical.min.css %}</style>
+  <meta name="xxx" content="home">
+{% elsif type == "testimonials-item" %}
+  <style>{% include ../../assets/dist/css/testimonials-item.critical.min.css %}</style>
+  <meta name="xxx" content="testimonials-item">
+{% elsif type == "testimonials" %}
+  <style>{% include ../../assets/dist/css/testimonials.critical.min.css %}</style>
+  <meta name="xxx" content="testimonials">
+{% elsif type == "side-projects-item" %}
+  <style>{% include ../../assets/dist/css/side-projects-item.critical.min.css %}</style>
+  <meta name="xxx" content="side-projects-item">
+{% elsif type == "side-projects" %}
+  <style>{% include ../../assets/dist/css/side-projects.critical.min.css %}</style>
+  <meta name="xxx" content="side-projects">
+{% elsif type == "portfolio-item" %}
+  <style>{% include ../../assets/dist/css/portfolio-item.critical.min.css %}</style>
+  <meta name="xxx" content="portfolio-item">
+{% elsif type == "portfolio" %}
+  <style>{% include ../../assets/dist/css/portfolio.critical.min.css %}</style>
+  <meta name="xxx" content="portfolio">
+{% elsif type == "articles-item" %}
+  <style>{% include ../../assets/dist/css/articles-item.critical.min.css %}</style>
+  <meta name="xxx" content="articles-item">
+{% elsif type == "articles" %}
+  <style>{% include ../../assets/dist/css/articles.critical.min.css %}</style>
+  <meta name="xxx" content="articles">
+{% else %}
+  <style>{% include ../../assets/dist/css/page.critical.min.css %}</style>
+  <meta name="xxx" content="page">
+{% endif %}

@@ -9,7 +9,7 @@ categories:
   - hexo
   - spg
   - ssg
-thumbnail: From_WordPress_to_Hexo_xgibru
+thumbnail: From_WordPress_to_Hexo_xxxdyj
 publication: Toptal
 canonical: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11

@@ -2,18 +2,19 @@
 layout: index
 title: Making a website with Hugo
 description: Making a website with Hugo is a course for learning how to use Hugo.
+type: side-projects-item
 tags:
   - projects
 categories:
   - learning
   - course
   - tutorial
-thumbnail: hugo_qkfxp9.png
+thumbnail: hugo_qkfxp9
 display: true
 date: 2020-01-05
 sections:
   - type: hero-alpha
-    src: hugo_qkfxp9.png
+    src: hugo_qkfxp9
     alt: Screenshot of Making a website with Hugo website.
     width: 815
     height: 448

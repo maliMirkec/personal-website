@@ -7,10 +7,7 @@ tags:
 categories:
   - ui
   - mentoring
-thumbnail: A_Story_of_Becoming_a_Web_Developer-2x_snhsm4
-credit:
-  text: Ray Hennessy on Unsplash
-  link: https://unsplash.com/photos/oEcQFq0NKjo
+thumbnail: A_Story_of_Becoming_a_Web_Developer_w5y1ca
 description: Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
 project:
   name: Mentoring

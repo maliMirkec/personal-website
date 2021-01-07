@@ -8,7 +8,7 @@ categories:
   - wordpress
   - shopify
   - frontend
-thumbnail: Page_builders_might_not_be_a_good_idea-2x_xpujzp
+thumbnail: Page_builders_might_not_be_a_good_idea_z5hyli
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4

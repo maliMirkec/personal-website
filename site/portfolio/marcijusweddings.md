@@ -2,10 +2,11 @@
 layout: index
 title: Marcijuš Studio
 description: Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
-thumbnail: mw_gtapmb.png
+thumbnail: mw_gtapmb
 link: //marcijus-studio.com
 display: false
 date: 2020-01-21
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: mw_gtapmb.png
+    src: mw_gtapmb
     alt: Screenshot of Marcijuš Studio website.
     width: 815
     height: 448

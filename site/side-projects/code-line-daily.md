@@ -2,16 +2,17 @@
 layout: index
 title: Code Line Daily
 description: Code Line Daily is dedicated to highlighting awesome code single-liners.
+type: side-projects-item
 tags:
   - projects
 categories:
   - jamstack
-thumbnail: cld_jrsdct.png
+thumbnail: cld_jrsdct
 display: true
 date: 2020-01-02
 sections:
   - type: hero-alpha
-    src: cld_jrsdct.png
+    src: cld_jrsdct
     alt: Screenshot of Code Line Daily website.
     width: 815
     height: 448

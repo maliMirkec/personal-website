@@ -1,20 +1,13 @@
 ---
 layout: index
 title: "First steps with Github Atom"
-description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
-date: 2016-08-19 16:14:04
 tags:
   - blog
 categories:
   - atom
-thumbnail: First-steps-with-Github-Atom_t3pqwm
-sections2:
-  - type: banner-alpha
-    title: I am _available_ for a new project.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me ⇢
+date: 2016-08-19 16:14:04
+thumbnail: First_steps_with_Github_Atom_tessgb
+description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
 ---
 
 This is the first article in a series about my [perfect Atom setup](/en/tags/atom/). First topic is installation and initial setup.

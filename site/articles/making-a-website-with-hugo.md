@@ -8,7 +8,7 @@ categories:
   - hugo
   - spg
   - ssg
-thumbnail: making-a-website-with-hugo-cover_kpek9x
+thumbnail: If_you_are_starting_a_new_website_consider_using_Hugo_war4eb
 description: Other than it is “the world’s fastest framework for building websites,” Hugo is packed with powerful features that would make the website development process more pleasable.
 project:
   name: Hugo

@@ -2,10 +2,11 @@
 layout: index
 title: Han Han Xue
 description: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman and Netlify.
-thumbnail: hhx_p45br6.png
+thumbnail: hhx_p45br6
 link: //www.hanhanxue.com
 display: true
 date: 2020-01-14
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -17,7 +18,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: hhx_p45br6.png
+    src: hhx_p45br6
     alt: Screenshot of Han Han Xue website.
     width: 815
     height: 448

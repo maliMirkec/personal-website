@@ -7,10 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: My_Second_Year_Of_Freelancing-2x_nm36hp
-credit:
-  text: Chris Liverani on Unsplash
-  link: https://unsplash.com/photos/9cd8qOgeNIY
+thumbnail: My_second_year_of_freelancing_bkeeo6
 description: About two year ago, I started with a freelance career. Here is what I have been doing, what did I learn and which problems I stumbled upon.
 ---
 

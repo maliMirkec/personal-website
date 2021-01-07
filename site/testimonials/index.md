@@ -1,6 +1,7 @@
 ---
 layout: index
 title: /Testimonials
+type: testimonials
 sections:
   - type: hero-beta
     title: From Testimonials

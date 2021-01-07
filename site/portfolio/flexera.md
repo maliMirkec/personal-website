@@ -2,10 +2,11 @@
 layout: index
 title: Flexera
 description: Flexera control and manage software and IT costs, to grow and protect your business.
-thumbnail: f1_bn1woc.png
+thumbnail: f1_bn1woc
 link: //www.flexera.com
 display: false
 date: 2020-01-07
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: f1_bn1woc.png
+    src: f1_bn1woc
     alt: Screenshot of Flexera website.
     width: 815
     height: 448

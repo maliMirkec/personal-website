@@ -2,10 +2,11 @@
 layout: index
 title: Flexera Software
 description: Flexera Software can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
-thumbnail: f2_yibqhl.png
+thumbnail: f2_yibqhl
 link: //www.flexerasoftware.com
 display: false
 date: 2020-01-08
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: f2_yibqhl.png
+    src: f2_yibqhl
     alt: Screenshot of Flexera Software website.
     width: 815
     height: 448

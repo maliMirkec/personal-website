@@ -2,17 +2,18 @@
 layout: index
 title: Starter Project
 description: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
+type: side-projects-item
 tags:
   - projects
 categories:
   - starter
   - gulp
-thumbnail: spro_aej3o2.png
+thumbnail: spro_aej3o2
 display: true
 date: 2020-01-04
 sections:
   - type: hero-alpha
-    src: spro_aej3o2.png
+    src: spro_aej3o2
     alt: Screenshot of Starter Project website.
     width: 815
     height: 448

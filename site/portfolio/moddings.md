@@ -2,10 +2,11 @@
 layout: index
 title: Moodings
 description: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
-thumbnail: m_rjmzz2.png
+thumbnail: m_rjmzz2
 link: //moodings.com
 display: true
 date: 2020-01-13
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: m_rjmzz2.png
+    src: m_rjmzz2
     alt: Screenshot of Moodings website.
     width: 815
     height: 448

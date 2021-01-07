@@ -6,7 +6,7 @@ tags:
   - blog
 categories:
   - pwa
-thumbnail: How_I_built_my_first_Progressive_Web_App_PWA_-2x_jwct17
+thumbnail: How_I_built_my_first_Progressive_Web_App_PWA_zxkqw1
 description: "As of today, my site is available as a Progressive Web App. In this post, you would learn more about how and why I added this exciting feature to my site."
 ---
 

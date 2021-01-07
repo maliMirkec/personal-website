@@ -4,8 +4,9 @@ title: Han Han Xue
 description: Han Han Xue talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
-thumbnail: hhx_p45br6.png
-logo: hhx_nntltz.png
+type: testimonials-item
+thumbnail: hhx_p45br6
+logo: hhx_nntltz
 order: 3
 date: 2020-01-03
 position: Product Designer
@@ -15,7 +16,7 @@ projects:
     link:
 sections:
   - type: hero-alpha
-    src: hhx_nntltz.png
+    src: hhx_nntltz
     alt: Logo of Han Han Xue.
     width: 60
     height: 60

@@ -2,10 +2,11 @@
 layout: index
 title: Franciscan Children's
 description: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
-thumbnail: fc_c8rxa2.png
+thumbnail: fc_c8rxa2
 link: //franciscanchildrens.org
 display: false
 date: 2020-01-18
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: fc_c8rxa2.png
+    src: fc_c8rxa2
     alt: Screenshot of Franciscan Children’s website.
     width: 815
     height: 448

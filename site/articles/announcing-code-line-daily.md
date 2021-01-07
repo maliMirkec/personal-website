@@ -8,7 +8,7 @@ categories:
   - css
   - cld
   - open source
-thumbnail: Announcing_Code_Line_Daily-2x_eo71qp
+thumbnail: Announcing_Code_Line_Daily_lty61j
 description: "Last week I released my side project: Code Line Daily. It is a quite straightforward project: a new line of code would be introduced every day. The lines are mostly frontend, PHP, and WordPress code. Here's how I build it!"
 project:
   name: Code Line Daily

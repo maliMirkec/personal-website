@@ -8,7 +8,7 @@ categories:
   - redesign
   - serverless
   - hexo
-thumbnail: I_just_finished_redesigning_my_site-2x_nkip6c
+thumbnail: I_just_finished_redesigning_my_site_oy6djs
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
 ---
 

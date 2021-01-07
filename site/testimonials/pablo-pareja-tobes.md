@@ -4,8 +4,9 @@ title: Pablo Pareja Tobes
 description: Pablo Pareja Tobes talks about his positive experience in working with Silvestar Bistrović.development.
 tags:
   - testimonials
-thumbnail: yb_urvwkg.png
-logo: yt_iyy37j.png
+type: testimonials-item
+thumbnail: yb_urvwkg
+logo: yt_iyy37j
 order: 8
 date: 2020-01-08
 position: Project Manager
@@ -15,7 +16,7 @@ projects:
     link: /portfolio/yearbook-trase/
 sections:
   - type: hero-alpha
-    src: yt_iyy37j.png
+    src: yt_iyy37j
     alt: Logo of Vizzuality.
     width: 212
     height: 40

@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Publications
+type: articles
 sections:
   - type: hero-beta
     title: From Publications

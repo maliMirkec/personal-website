@@ -37,25 +37,25 @@
     "dist": "fonts"
   },
   "favicon": {
-    "run": false
+    "run": true
   },
   "critical": {
-    "run": false
+    "run": true
   },
   "kss": {
     "run": true,
     "dist": "docs/styleguide"
   },
   "sassdoc": {
-    "run": true,
+    "run": false,
     "dist": "docs/sass"
   },
   "jsdoc": {
-    "run": true,
+    "run": false,
     "dist": "docs/js"
   },
   "bump": {
-    "run": true
+    "run": false
   },
   "gzip": {
     "run": false

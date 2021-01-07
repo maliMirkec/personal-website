@@ -7,7 +7,7 @@ categories:
   - atom
   - git
 date: 2016-08-22 20:21:37
-thumbnail: Github-Atom-Git-packages_dxonzr
+thumbnail: Github_Atom_Git_packages_s0tziy
 description: Developers often rely on a version control system and one of the most popular is Git.
 ---
 

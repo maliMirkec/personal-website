@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Portfolio
+type: portfolio
 sections:
   - type: hero-beta
     title: From the Portfolio

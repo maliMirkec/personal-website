@@ -4,15 +4,16 @@ title: Karim Mansi
 description: Karim Mansi talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
-thumbnail: ww_hceizq.png
-logo: ww_pm2rwy.png
+type: testimonials-item
+thumbnail: ww_hceizq
+logo: ww_pm2rwy
 order: 6
 date: 2020-01-06
 position: eCommerce Product Manager
 company: Westwing Home & Living
 sections:
   - type: hero-alpha
-    src: ww_pm2rwy.png
+    src: ww_pm2rwy
     alt: Logo of Westwing.
     width: 219
     height: 30

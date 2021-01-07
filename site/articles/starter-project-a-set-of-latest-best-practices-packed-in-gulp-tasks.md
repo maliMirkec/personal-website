@@ -7,10 +7,7 @@ tags:
 categories:
   - gulp
   - starter project
-thumbnail: starter-project_vr5fq4
-credit:
-  text: Luke Syres on Unsplash
-  link: https://unsplash.com/photos/mOMhEC47T8s
+thumbnail: Starter_Project_-_A_set_of_the_latest_best_practices_packed_in_Gulp_tasks_ovmzob
 description: This article is the very first article in a series about Starter Project, a set of the latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
 project:
   name: Starter Project

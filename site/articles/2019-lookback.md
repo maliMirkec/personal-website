@@ -7,10 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail: 2019-lookback-2x_qhjkuj
-credit:
-  text: Sam Bark on Unsplash
-  link: https://unsplash.com/photos/XFkkYwKiC_U
+thumbnail: 2019_Lookback_a69k2x
 description: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
 ---
 

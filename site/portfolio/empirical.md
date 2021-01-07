@@ -2,10 +2,11 @@
 layout: index
 title: Empirical Wealth
 description: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on WordPress and WPEngine.
-thumbnail: ewm_aikxon.png
+thumbnail: ewm_aikxon
 link: //www.empirical.net
 display: false
 date: 2020-01-17
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -15,7 +16,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: ewm_aikxon.png
+    src: ewm_aikxon
     alt: Screenshot of Empirical Wealth Management website.
     width: 815
     height: 448

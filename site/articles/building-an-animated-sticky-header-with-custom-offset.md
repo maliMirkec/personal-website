@@ -7,10 +7,7 @@ tags:
 categories:
   - css
   - javascript
-thumbnail: Building_an_animated_sticky_header_with_custom_offset_pnzuri
-credit:
-  text: Guilherme Romano on Unsplash
-  link: https://unsplash.com/photos/KI2KaOeT670
+thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5
 description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: index
 title: SB
+type: home
 sections:
   - type: hero-alpha
     title: Building _modern_, _responsive_ and _optimized_ websites since 2012.

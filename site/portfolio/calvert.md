@@ -2,10 +2,11 @@
 layout: index
 title: Calvert
 description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
-thumbnail: ev-c_vgm0ws.png
+thumbnail: ev-c_vgm0ws
 link: //www.calvert.com/invest-with-purpose.php
 display: true
 date: 2020-01-09
+type: portfolio-item
 tags:
   - portfolio
 categories:
@@ -14,7 +15,7 @@ categories:
   - javascript
 sections:
   - type: hero-alpha
-    src: ev-c_vgm0ws.png
+    src: ev-c_vgm0ws
     alt: Screenshot of Calvert website.
     width: 815
     height: 448

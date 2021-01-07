@@ -1,41 +1,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="canonical" href="{{ page.url }}">
-{% comment %} <meta name="referrer" content="no-referrer">
-{% if url and canonical %}
-  <link rel="canonical" href="{{ url }}">
+{% if canonical %}
+  <link rel="canonical" href="{{ canonical }}">
+{% elsif page.url %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 {% endif %}
-{% if theme and theme.site and theme.site.author %}
-  <meta name="author" content=theme.site.author>
-{% else if config and config.author %}
-  <meta name="author" content=config.author>
+<meta name="referrer" content="no-referrer">
+{% if tags and tags[0] == 'blog' and site.author %}
+  <meta name="author" content="{{ site.author }}">
 {% endif %}
-{% if isHome() %}
-  {% assign description = "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist." %}
-{% else if posts and !isHome() %}
-  {% if category %}
-    {% assign description = "Blog posts about CSS, HTML, JavaScript browsers, static page generators, WordPress, frontend technologies, freelance life, remote working, and more." %}
-  {% else if tag %}
-    {% assign description = "A list of blog posts tagged " | append: tag | append: "." %}
-  {% else if theme and theme.site and theme.site. description %}
-    {% assign description = theme.site.description %}
-  {% else if config and config.description %}
-    {% assign description = config.description %}
-  {% endif %}
+{% if description %}
+  <meta name="description" content="{{ description }}">
 {% endif %}
-<meta name="description" content="{{ description }}">
-{% if theme and theme.site and theme.site.full_name %}
-  {% if isHome() %}
-    {% assign title = "Home of fearless web engineer Silvestar Bistrović 🤘 " + theme.site.full_name %}
-  {% else if category %}
-    {% assign title = "Blog 🤘 " + theme.site.full_name %}
-  {% else if tag %}
-    {% assign title = "Tag: " + tag + " 🤘 " + theme.site.full_name %}
-  {% else %}
-    {% assign title = title ? title + " 🤘 " + theme.site.full_name : theme.site.full_name %}
-  {% endif %}
-{% else if config and config.title %}
-  {% assign title = config.title %}
-{% endif %}
-<title>{{ title }}</title> {% endcomment %}
+<title>{{ title }}</title>

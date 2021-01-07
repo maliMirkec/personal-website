@@ -4,15 +4,16 @@ title: John Ganotis
 description: John Ganotis talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
-thumbnail: cci_ohuha5.png
-logo: cci_xk4gjk.png
+type: testimonials-item
+thumbnail: cci_ohuha5
+logo: cci_xk4gjk
 order: 1
 date: 2020-01-01
 position: Founder
 company: Credit Card Insider
 sections:
   - type: hero-alpha
-    src: cci_xk4gjk.png
+    src: cci_xk4gjk
     alt: Logo of Credit Card Insider.
     width: 159
     height: 40
