@@ -2,7 +2,7 @@
 ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [build]
-  publish = "/public/"
+  publish = "/_site/"
   command = "yarn deploy"
 
 [context.production]
