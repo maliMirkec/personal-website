@@ -18,12 +18,13 @@
     "url": "https://github.com/maliMirkec/hexo-sb/issues"
   },
   "scripts": {
-    "cp_redirects": "cp source/_redirects public/_redirects",
-    "cp_headers": "cp source/_headers public/_headers",
-    "cp_robots-dev": "cp ./robots_dev.txt public/robots.txt",
-    "cp_robots-prod": "cp ./robots_prod.txt public/robots.txt",
+    "cp_redirects": "cp extras/_redirects _site/_redirects",
+    "cp_headers": "cp extras/_headers _site/_headers",
+    "cp_robots-dev": "cp extras/robots_dev.txt _site/robots.txt",
+    "cp_robots-prod": "cp extras/robots_prod.txt _site/robots.txt",
     "dev": "gulp & npx @11ty/eleventy --serve",
-    "deploy": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod && yarn sw"
+    "build": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-dev",
+    "deploy": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",

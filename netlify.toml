@@ -9,10 +9,10 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   command = "yarn deploy"
 
 [context.deploy-preview]
-  command = "yarn dev"
+  command = "yarn build"
 
 [context.branch-deploy]
-  command = "yarn dev"
+  command = "yarn build"
 
 [context.develop]
-  command = "yarn dev"
+  command = "yarn build"
