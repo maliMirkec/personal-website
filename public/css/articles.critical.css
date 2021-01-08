@@ -52,10 +52,15 @@ img {
   --font-alpha: Playfair Display, serif;
   --font-beta: Barlow, sans-serif;
   --font-gamma: Courier New, Courier, monospace;
-  --min-size: 14px;
-  --max-size: 18px;
-  --min-ratio: 1.2;
-  --max-ratio: 1.2;
+  --step-6: 31.108px;
+  --step-5: 24.878px;
+  --step-4: 14px, 555;
+  --step-3: 4662px;
+  --step-2: 17.108px;
+  --step-1: 15.554px;
+  --step-0: 14px;
+  --step--1: 12.432px;
+  --step--2: 10.878px;
   --line-height: 1.66;
   --letter-spacing: 0.01em;
   --space-default: 0.25rem;
@@ -207,70 +212,6 @@ hr[class*="hr"]:before {
   font-weight: 600;
   font-style: italic;
   font-display: swap;
-}
-
-:root {
-  --fluid-min-width: 600;
-  --fluid-max-width: 1600;
-  --fluid-min-size: 14;
-  --fluid-max-size: 18;
-  --fluid-min-ratio: 1.2;
-  --fluid-max-ratio: 1.2;
-  --fluid-screen: 100vw;
-  --fluid-bp: calc((var(--fluid-screen) - ((var(--fluid-min-width) / 16) * 1rem)) / ((var(--fluid-max-width) / 16) - (var(--fluid-min-width) / 16)));
-  --fluid-max-negative: (1 / var(--fluid-max-ratio) / var(--fluid-max-ratio));
-  --fluid-min-negative: (1 / var(--fluid-min-ratio) / var(--fluid-min-ratio));
-  --fluid-min-scale--2: var(--fluid-min-scale--1) * var(--fluid-min-ratio) * var(--fluid-min-negative);
-  --fluid-max-scale--2: var(--fluid-max-scale--1) * var(--fluid-max-ratio) * var(--fluid-max-negative);
-  --fluid-min-size--2: (var(--fluid-min-size) * var(--fluid-min-scale--2)) / 16;
-  --fluid-max-size--2: (var(--fluid-max-size) * var(--fluid-max-scale--2)) / 16;
-  --step--2: calc(((var(--fluid-min-size--2) * 1rem) + (var(--fluid-max-size--2) - var(--fluid-min-size--2)) * var(--fluid-bp)));
-  --fluid-min-scale--1: var(--fluid-min-ratio) * var(--fluid-min-negative);
-  --fluid-max-scale--1: var(--fluid-max-ratio) * var(--fluid-max-negative);
-  --fluid-min-size--1: (var(--fluid-min-size) * var(--fluid-min-scale--1)) / 16;
-  --fluid-max-size--1: (var(--fluid-max-size) * var(--fluid-max-scale--1)) / 16;
-  --step--1: calc(((var(--fluid-min-size--1) * 1rem) + (var(--fluid-max-size--1) - var(--fluid-min-size--1)) * var(--fluid-bp)));
-  --fluid-min-scale-0: var(--fluid-min-ratio);
-  --fluid-max-scale-0: var(--fluid-max-ratio);
-  --fluid-min-size-0: (var(--fluid-min-size)) / 16;
-  --fluid-max-size-0: (var(--fluid-max-size)) / 16;
-  --step-0: calc(((var(--fluid-min-size-0) * 1rem) + (var(--fluid-max-size-0) - var(--fluid-min-size-0)) * var(--fluid-bp)));
-  --fluid-min-scale-1: var(--fluid-min-scale-0) * var(--fluid-min-ratio);
-  --fluid-max-scale-1: var(--fluid-max-scale-0) * var(--fluid-max-ratio);
-  --fluid-min-size-1: (var(--fluid-min-size) * var(--fluid-min-scale-0)) / 16;
-  --fluid-max-size-1: (var(--fluid-max-size) * var(--fluid-max-scale-0)) / 16;
-  --step-1: calc(((var(--fluid-min-size-1) * 1rem) + (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp)));
-  --fluid-min-scale-2: var(--fluid-min-scale-1) * var(--fluid-min-ratio);
-  --fluid-max-scale-2: var(--fluid-max-scale-1) * var(--fluid-max-ratio);
-  --fluid-min-size-2: (var(--fluid-min-size) * var(--fluid-min-scale-1)) / 16;
-  --fluid-max-size-2: (var(--fluid-max-size) * var(--fluid-max-scale-1)) / 16;
-  --step-2: calc(((var(--fluid-min-size-2) * 1rem) + (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp)));
-  --fluid-min-scale-3: var(--fluid-min-scale-2) * var(--fluid-min-ratio);
-  --fluid-max-scale-3: var(--fluid-max-scale-2) * var(--fluid-max-ratio);
-  --fluid-min-size-3: (var(--fluid-min-size) * var(--fluid-min-scale-2)) / 16;
-  --fluid-max-size-3: (var(--fluid-max-size) * var(--fluid-max-scale-2)) / 16;
-  --step-3: calc(((var(--fluid-min-size-3) * 1rem) + (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp)));
-  --fluid-min-scale-4: var(--fluid-min-scale-3) * var(--fluid-min-ratio);
-  --fluid-max-scale-4: var(--fluid-max-scale-3) * var(--fluid-max-ratio);
-  --fluid-min-size-4: (var(--fluid-min-size) * var(--fluid-min-scale-3)) / 16;
-  --fluid-max-size-4: (var(--fluid-max-size) * var(--fluid-max-scale-3)) / 16;
-  --step-4: calc(((var(--fluid-min-size-4) * 1rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
-  --fluid-min-scale-5: var(--fluid-min-scale-4) * var(--fluid-min-ratio);
-  --fluid-max-scale-5: var(--fluid-max-scale-4) * var(--fluid-max-ratio);
-  --fluid-min-size-5: (var(--fluid-min-size) * var(--fluid-min-scale-4)) / 16;
-  --fluid-max-size-5: (var(--fluid-max-size) * var(--fluid-max-scale-4)) / 16;
-  --step-5: calc(((var(--fluid-min-size-5) * 1rem) + (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp)));
-  --fluid-min-scale-6: var(--fluid-min-scale-5) * var(--fluid-min-ratio);
-  --fluid-max-scale-6: var(--fluid-max-scale-5) * var(--fluid-max-ratio);
-  --fluid-min-size-6: (var(--fluid-min-size) * var(--fluid-min-scale-5)) / 16;
-  --fluid-max-size-6: (var(--fluid-max-size) * var(--fluid-max-scale-5)) / 16;
-  --step-6: calc(((var(--fluid-min-size-6) * 1rem) + (var(--fluid-max-size-6) - var(--fluid-min-size-6)) * var(--fluid-bp)));
-}
-
-@media (min-width: 100em) {
-  :root {
-    --fluid-screen: calc(var(--fluid-max-width) * 1px);
-  }
 }
 
 body {
