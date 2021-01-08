@@ -18,22 +18,43 @@ footer {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
       }
+    }
+  }
+}
 
-      @include mq($until: bp1) {
-        position: relative;
+@include mq($until: bp1) {
+  header {
+    nav {
+      text-align: center;
 
-        > li:first-child {
-          position: absolute;
-          top: -0.66rem;
-          right: 0;
-          left: 0;
-          opacity: 0.1;
-          z-index: -1;
+      a {
+        white-space: nowrap;
+      }
 
-          img {
-            margin: auto;
+      > ul {
+        flex-wrap: wrap;
+
+        > li {
+          &:first-child {
+            flex: 1 1 100%;
+
+            img {
+              margin: auto;
+            }
+          }
+
+          &:not(:first-child) {
+            flex: 1 0 150px;
           }
         }
+      }
+    }
+  }
+
+  footer {
+    nav {
+      ul {
+        flex-wrap: wrap;
       }
     }
   }

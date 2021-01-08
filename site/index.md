@@ -39,6 +39,9 @@ sections:
     cta2:
       href: /contact/
       title: Hire me ⇢
+    cta3:
+      href: /portfolio/
+      title: Or see my portfolio ⇢
     filter: portfolio
     limit: 5
   - type: hero-beta
@@ -52,6 +55,9 @@ sections:
     cta2:
       href: /contact/
       title: Contact me ⇢
+    cta3:
+      href: /publications/
+      title: Or see all publications ⇢
     filter: publications
     sorter: date
     limit: 5
@@ -84,6 +90,9 @@ sections:
     cta2:
       href: /contact/
       title: Make the first step ⇢
+    cta3:
+      href: /testimonials/
+      title: Or see all testimonials ⇢
     filter: testimonials
     limit: 5
   - type: banner-alpha

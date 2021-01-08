@@ -3,19 +3,19 @@
 
 {% if card3List %}
   <section id="{{ cards3.filter }}" class="margin-top-alpha margin-bottom-alpha">
-    <div class="wrapper wrapper--alpha grid padding">
+    <div class="wrapper wrapper--alpha grid">
       {% for card3 in card3List %}
         {% if cards3.limit and i3 > cards3.limit %}
           {% break %}
         {% endif %}
         {% unless cards3.exclude == 'true' or title == card3.data.title %}
-          <div class="card text-center">
+          <div class="card text-center oh">
             {% if card3.data.thumbnail %}
               <a class="db padding inert" href="{{ card3.url }}">{% cldnry card3.data.thumbnail card3.data.title "552" "304" %}</a>
             {% endif %}
             {% if card3.data.title %}
               <div class="padding no-padding-top">
-                <h3 class="no-spacing"><a href="{{ card3.url }}">{{ card3.data.title }}</a></h3>
+                <h3 class="fz-step-3 no-spacing"><a href="{{ card3.url }}">{{ card3.data.title }}</a></h3>
               </div>
             {% endif %}
             {% if card3.data.categories %}
@@ -41,6 +41,11 @@
             {% if cards3.cta2 %}
               <div class="margin-top">
                 <a class="button" href="{{ cards3.cta2.href }}">{{ cards3.cta2.title }}</a>
+              </div>
+            {% endif %}
+            {% if cards3.cta3 %}
+              <div class="margin-top">
+                <a href="{{ cards3.cta3.href }}">{{ cards3.cta3.title }}</a>
               </div>
             {% endif %}
           </div>

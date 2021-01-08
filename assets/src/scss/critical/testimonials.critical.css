@@ -56,15 +56,15 @@ img {
   --font-alpha: Playfair Display, serif;
   --font-beta: Barlow, sans-serif;
   --font-gamma: Courier New, Courier, monospace;
-  --step-6: 31.108px;
-  --step-5: 24.878px;
-  --step-4: 14px, 555;
-  --step-3: 4662px;
-  --step-2: 17.108px;
-  --step-1: 15.554px;
-  --step-0: 14px;
-  --step--1: 12.432px;
-  --step--2: 10.878px;
+  --step-6: 54px;
+  --step-5: 46.8px;
+  --step-4: 39.6px;
+  --step-3: 32.4px;
+  --step-2: 25.2px;
+  --step-1: 21.6px;
+  --step-0: 18px;
+  --step--1: 16.2px;
+  --step--2: 14.4px;
   --line-height: 1.66;
   --letter-spacing: 0.01em;
   --space-default: 0.25rem;
@@ -79,6 +79,15 @@ img {
 
 @media (max-width: 37.49em) {
   :root {
+    --step-6: 39.996px;
+    --step-5: 31.986px;
+    --step-4: 27.99px;
+    --step-3: 23.994px;
+    --step-2: 21.996px;
+    --step-1: 19.998px;
+    --step-0: 18px;
+    --step--1: 15.984px;
+    --step--2: 13.986px;
     --space-default: 0.1rem;
     --cols: repeat(auto-fill, 1fr);
   }
@@ -98,14 +107,6 @@ img {
 
 .bg-light {
   --bg-color: #fff;
-}
-
-.top-border {
-  border-top: 1px solid var(--border-color);
-}
-
-.border-dark {
-  --border-color: #111;
 }
 
 main:not(.kss-main) {
@@ -404,21 +405,13 @@ header nav > ul ul {
 }
 
 @media (max-width: 37.49em) {
-  header nav > ul {
-    position: relative;
+  header nav > ul ul {
+    display: flex;
   }
 
-  header nav > ul > li:first-child {
-    position: absolute;
-    top: -0.66rem;
-    right: 0;
-    left: 0;
-    opacity: 0.1;
-    z-index: -1;
-  }
-
-  header nav > ul > li:first-child img {
-    margin: auto;
+  header nav > ul ul li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 

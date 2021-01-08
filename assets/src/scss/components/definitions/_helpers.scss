@@ -112,3 +112,15 @@ p {
     display: none;
   }
 }
+
+@include mq($from: bp1) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@include mq($until: bp1) {
+  .hidden-sm {
+    display: none;
+  }
+}

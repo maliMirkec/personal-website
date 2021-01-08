@@ -1,19 +1,20 @@
 {% if header %}
   <header>
     <nav>
-      <ul class="list-style-none">
+      <ul class="list-style-none no-spacing">
         {% if header.logo %}
-          <li>
+          <li class="margin-top">
             <a class="db margin-right" href="{{ header.logo.href }}">
-              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
+              <img class="hidden-sm" src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
+              <img class="hidden-lg" src="{{ header.logo.src2 }}" alt="{{ header.logo.title }}" width="40" height="40">
             </a>
           </li>
         {% endif %}
         {% if header.menu %}
           {% for item in header.menu %}
             <li>
-              <ul>
-                <li class="fz-step-1">
+              <ul class="margin-top">
+                <li>
                   <a href="{{ item.href }}">{{ item.title }}</a>
                 </li>
                 {% if item.list %}
