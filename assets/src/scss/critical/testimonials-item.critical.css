@@ -544,7 +544,3 @@ header nav > ul ul {
 .copy > :last-child {
   margin-bottom: 0;
 }
-
-.copy--body {
-  overflow: hidden;
-}
