@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: 2018_Lookback_nrqris
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
@@ -89,7 +96,7 @@ I have redesigned my site this year (with [a little help] from my friends). I am
 
 ## Conclusion
 
-I could easily say that 2018 was a great year for me. I hope the next one will be even better. Let's make the web even better place! 2⃣0⃣1⃣9⃣
+I could easily say that 2018 was a great year for me. I hope the next one will be even better. Let's make the web even better place!
 
 [Toptal]: https://www.toptal.com/#trust-nothing-but-brilliant-freelancers
 [WPEngine]: https://wpengine.com/

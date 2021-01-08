@@ -8,6 +8,13 @@ categories:
   - productivity
 thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_hnn9hc
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools. I guess this is because my browser is displaying bookmarked pages first in the suggestions which could be very useful when you know only part of the title or a domain.

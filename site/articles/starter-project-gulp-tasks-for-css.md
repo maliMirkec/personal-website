@@ -13,6 +13,13 @@ description: This article is part of a series about Starter Project, and this ti
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 This article is part of a series about [Starter Project], and this time I will explain all about Gulp tasks for CSS.
@@ -49,7 +56,7 @@ Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
 To use this plugin, add `@import` statement in Sass file.
 
-```sass
+``` sass
 // Plugins
 @import 'normalize';
 @import 'modularscale';
@@ -66,7 +73,7 @@ To use this plugin, add `@import` statement in Sass file.
 
 You could add `includePaths` option to the `sassConfig` settings to avoid writing full paths of the included libraries.
 
-```
+``` json
 "sassConfig": {
   "includePaths": [
      "./node_modules/modularscale-sass/stylesheets/",
@@ -86,7 +93,7 @@ Starter Project has three libraries imported:
 - Modular Scale, and
 - Media Queries.
 
-```
+``` sass
 @import 'normalize';
 @import 'modularscale';
 @import 'mq';
@@ -106,7 +113,7 @@ If your website looks inconsistent across different browsers, you probably want 
 
 Starter Project uses [gulp-autoprefixer] plugin to add vendor prefixes to CSS files. This plugin is handy as developers don't have to add these prefixes manually. In `config.json`, you could add [Autoprefixer options] to `autoprefixedConfig` settings.
 
-```
+``` json
 "autoprefixedConfig": {
     "browsers": ["last 5 versions"],
     "cascade": false
@@ -117,7 +124,7 @@ Starter Project uses [gulp-autoprefixer] plugin to add vendor prefixes to CSS fi
 
 Source maps allow developers to see the source code for compressed assets. In Starter Project, [gulp-sourcemaps] plugin is used to create source maps for CSS and JavaScript files. If your environment doesn't require source maps, you could disable it by setting `run` option to `false` in `sourcemapsConfig`.
 
-```
+``` json
 "sourcemapsConfig": {
   "run": true
 }
@@ -127,7 +134,7 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 [gulp-clean-css] is a Gulp plugin that acts as a wrapper for [clean-css](https://github.com/jakubpawlowicz/clean-css). In Starter Project, this plugin is used for CSS minification. To create less confusion with file names, `gulp-rename` plugin is used to rename minified assets by adding prefix or suffix to the file name.
 
-```
+``` json
 "renameConfig": {
   "suffix": ".min"
 }
@@ -141,7 +148,7 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 In Starter Project, [gulp-stylelint] plugin is used to lint CSS files. You could configure the plugin in `config.json` file.
 
-```
+``` json
 "styleLintConfig": {
   "reporters": [{
     "formatter": "string",
@@ -154,7 +161,7 @@ Default settings output error in a console as a string. See all available settin
 
 Stylelint options are stored in `.stylelintrc` file.
 
-```
+``` json
 {
   "plugins": [
     "stylelint-scss",
@@ -174,7 +181,7 @@ For all the VS Code users, here is the tip how to use Stylelint inside the edito
 
 When you open the workspace settings, add these settings.
 
-```
+``` json
 {
   "emeraldwalk.runonsave": {
     "commands": [{

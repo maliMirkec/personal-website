@@ -9,6 +9,13 @@ categories:
 date: 2016-09-05 17:11:14
 thumbnail: Perfect_local_server_with_Atom_ucayec
 description: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 I've been using all kind of local server solutions back in a day, from [WampServer](http://www.wampserver.com/en/) to [Vagrant](https://www.vagrantup.com/). I noticed that I had to spend large amount of time on learning and configuration. That was, not only time consuming, but also very frustrating, especially when you're a newby and you don't understand half of the instructions and problems.

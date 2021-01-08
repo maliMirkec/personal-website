@@ -10,6 +10,13 @@ categories:
   - frontend
 thumbnail: The_essential_skill_of_a_developer_cr4cev
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Being a developer requires specific skills and tools. I have put an effort to make a list of all the skills, tools, and techniques that I acquired during my career, and I was surprised by the number of them. During this process, I realized what the essential skill for one developer is.

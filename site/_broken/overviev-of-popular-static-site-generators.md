@@ -69,25 +69,25 @@ For example, this is how you start a new project in different frameworks:
 
 **Jekyll**
 
-```bash
+``` bash
 jekyll new my_website
 ```
 
 **Middleman**
 
-```bash
+``` bash
 middleman init my_website
 ```
 
 **Hugo**
 
-```bash
+``` bash
 hugo new my_website
 ```
 
 **Hexo**
 
-```bash
+``` bash
 hexo init my_website
 ```
 
@@ -117,25 +117,25 @@ Here are the commands for creating a new article in Middleman, Hugo, and Hexo:
 
 **Middleman**
 
-```bash
+``` bash
 middleman article my_article
 ```
 
 **Hugo**
 
-```bash
+``` bash
 hugo new posts/my_article.md
 ```
 
 **Hexo**
 
-```bash
+``` bash
 hexo new post my_article
 ```
 
 In Markdown, you are limited to a particular set of syntax. Luckily for us, all generators can process raw HTML as well. For example, if you want to add an anchor with a specific class, you could add it as you would in a regular HTML file:
 
-```
+``` text
 This is a text with <a class="my-class" href="#">a link</a>.
 ```
 
@@ -145,7 +145,7 @@ Front matter is a block of data on top of the Markdown file. You could set custo
 
 For example, this is how you could add tags to your article.
 
-```md
+``` md
 tags:
   - web
   - dev
@@ -156,13 +156,13 @@ tags:
 
 Static page generators use a templating language to process templates. To insert data into a template, you need to use tags. For example, to display the page title in Jekyll, you could write:
 
-```html
+``` html
 {{ page.title }}
 ```
 
 Let's try to display a list of tags from the front matter in our post in Jekyll. You need to check if a variable is available. Then, you need to loop through tags and display them in an unordered list.
 
-```html
+``` html
 {%- if page.tags -%}
  <ul>
    {%- for tag in page.tags -%}
@@ -174,7 +174,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 
 **Middleman**
 
-```html
+``` html
 <% if current_page.data.tags %>
  <ul>
    <% for tag in current_page.data.tags %>
@@ -186,7 +186,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 
 **Hugo**
 
-```html
+``` html
 {{ if .Params.Tags }}
  <ul>
    {{ range .Params.Tags }}
@@ -198,7 +198,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 
 **Hexo**
 
-```html
+``` html
 <% if (post.tags) { %>
  <ul>
    <% post.tags.forEach(function(tag) { %>
@@ -224,7 +224,7 @@ When you want to store data that are not available in Markdown files, you should
 
 Let's store those social links in our data file. Since all generators support YAML format, let's save the data in the social.yml file:
 
-```md
+``` md
 - name: Twitter
   href: https://twitter.com/malimirkeccita
 - name: LinkedIn
@@ -239,7 +239,7 @@ To output the data, you could use the following code:
 
 **Jekyll**
 
-```html
+``` html
 {%- if site.data.social -%}
  <ul>
    {% for social in site.data.social %}
@@ -251,7 +251,7 @@ To output the data, you could use the following code:
 
 **Middleman**
 
-```html
+``` html
 <% if data.social %>
  <ul>
    <% data.social.each do |s| %>
@@ -263,7 +263,7 @@ To output the data, you could use the following code:
 
 **Hugo**
 
-```html
+``` html
 {{ if $.Site.Data.social }}
  <ul>
    {{ range $.Site.Data.social }}
@@ -275,7 +275,7 @@ To output the data, you could use the following code:
 
 **Hexo**
 
-```html
+``` html
 <% if (site.data.social) { %>
  <ul>
    <% site.data.social.forEach(function(social){ %>
@@ -289,25 +289,25 @@ To output the data, you could use the following code:
 
 Templates often support data filtering. For example, if you want to make the title uppercase, you could do it like so:
 
-```html
+``` html
 {{ page.title | upcase }}
 ```
 
 Middleman has similar syntax:
 
-```html
+``` html
 <%= current_page.data.title.upcase %>
 ```
 
 Hugo uses the following command:
 
-```html
+``` html
 {{ .Title | upper }}
 ```
 
 Hexo has different syntax, but the result is the same.
 
-```html
+``` html
 <%= page.title.toUpperCase() %>
 ```
 
@@ -338,13 +338,13 @@ You could write a new plugin or extension. Before you do, check if a similar plu
 ## Shortcodes in Markdown
 Shortcodes are code snippets that you could place in Markdown documents. Those snippets output HTML code. Hugo and Hexo support shortcodes. There are built-in shortcodes, like figure in Hugo:
 
-```html
+``` html
 {{< figure src="/lint/to/image.jpg" title="My image" >}}
 ```
 
 Hexo youtube shortcode:
 
-```html
+``` html
 {% youtube video_id %}
 ```
 

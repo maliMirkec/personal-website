@@ -8,6 +8,13 @@ categories:
 date: 2016-11-30 20:33:06
 thumbnail: How_to_automate_development_with_Atom_kaktwk
 description: We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 We should automate our development process whenever possible. But there are so many tools available and new ones are published every week. Even though these tools help us, it could be very time consuming to learn and to handle all of these tools.
@@ -77,9 +84,9 @@ Although this is very easy, it is also a little bit clumsy, switching from Atom 
 
 We should see a new dock with 3 main sections:
 
-*   task list,
-*   input field and
-*   console output.
+* task list,
+* input field and
+* console output.
 
 If we want to run a task, we could click it from task list. On the right side we could see a console output for these task. It is very useful when debugging invalid or failed task. Alternatively, we could write the name of the task inside input field and then press _Enter_.
 

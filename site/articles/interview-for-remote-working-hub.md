@@ -12,6 +12,13 @@ publication: Remote Work Hub
 canonical: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 thumbnail: Interview_for_Remote_Working_Hub_hngeel
 description: "Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _This article was originally published on [Remote Working Hub](https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/)._
@@ -120,10 +127,10 @@ I hope more people realise the benefits of remote working. I would be thrilled t
 
 ##  Where can we follow you on?
 
-[https://www.silvestar.codes](https://www.silvestar.codes)
-[https://www.silvestar.codes/links/](https://www.silvestar.codes/links/)
-[https://twitter.com/malimirkeccita](https://twitter.com/malimirkeccita)
-[https://www.linkedin.com/in/starbist/](https://www.linkedin.com/in/starbist/)
-[https://github.com/maliMirkec](https://github.com/maliMirkec)
-[https://codepen.io/CiTA/](https://codepen.io/CiTA/)
-[https://dev.to/starbist](https://dev.to/starbist)
+* [https://www.silvestar.codes](https://www.silvestar.codes)
+* [https://www.silvestar.codes/links/](https://www.silvestar.codes/links/)
+* [https://twitter.com/malimirkeccita](https://twitter.com/malimirkeccita)
+* [https://www.linkedin.com/in/starbist/](https://www.linkedin.com/in/starbist/)
+* [https://github.com/maliMirkec](https://github.com/maliMirkec)
+* [https://codepen.io/CiTA/](https://codepen.io/CiTA/)
+* [https://dev.to/starbist](https://dev.to/starbist)

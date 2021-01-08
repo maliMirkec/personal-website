@@ -9,6 +9,13 @@ categories:
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_revisited_kxxtlh
 description: This solution is a follow-up post on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 This solution is a follow-up post on my last year's article ["Using CSS Grid where appropriate"]. The goal is to find a solution for navigation with an unknown number of items.
@@ -20,14 +27,14 @@ This solution is a follow-up post on my last year's article ["Using CSS Grid whe
 Creating navigation with CSS Grid is arguably not the best solution. However, if one wants to use CSS Grid, two options were suggested:
 - Using `grid-auto-flow: row;` and placing each item in the grid, like this:
 
-```css
+``` css
 .nav__item:nth-child(1) {
   grid-area: 1 / 1 / 2 / 2;
 }
 ```
 - Defining a definite grid using keyword auto for setting width of the rows and columns:
 
-```css
+``` css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -43,7 +50,7 @@ Creating navigation with CSS Grid is arguably not the best solution. However, if
 
 In both examples, we are defining a strict grid—a number of columns in a row are strictly defined.
 
-> {codepen CiTA dzogLV dark result 650 %}
+{% codepen "CiTA" "dzogLV" "dark" "result" "650" %}
 
 ## A new solution
 
@@ -57,9 +64,9 @@ I have been using CSS Grid for more than a year now, and I learned how to use it
 
 I have forked the previous solution and updated it with the features mentioned above. Here's the final solution.
 
-> {codepen CiTA pOgGqv dark result 220 %}
+{% codepen "CiTA" "pOgGqv" "dark" "result" "220" %}
 
-```css
+``` css
 .nav--grid2 {
   display: grid;
   grid-auto-flow: dense;

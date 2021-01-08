@@ -49,10 +49,7 @@ a {
   .copy--body & {
     &:not([class]) {
       text-decoration: underline;
-      text-decoration-color: var(--color-beta);
-      text-decoration-thickness: .125em;
-      text-underline-offset: .15em;
-      text-decoration-style: dotted;
+      text-decoration-thickness: 2px;
       display: inline;
 
       &:before {
@@ -60,8 +57,14 @@ a {
       }
 
       &:hover {
-        text-decoration-color: var(--color-alpha);
+        text-decoration: none;
+        background-color: var(--color-alpha);
         transition: all var(--duration);
+      }
+
+      &:focus,
+      &:active {
+        text-decoration: none;
       }
     }
   }

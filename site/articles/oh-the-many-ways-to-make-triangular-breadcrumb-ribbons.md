@@ -16,6 +16,13 @@ description: Let’s have a look at how we can create a row of links that sorta 
 project:
   name: Playground
   href: https://play.silvestar.codes/ribbon/
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)._
@@ -32,7 +39,7 @@ Like a lot of things on the web, we can make ribbons like these in many ways! I�
 
 For each demo, the HTML structure will largely be the same where we have a `<nav>` that acts as the parent element and then links inside it as the children.
 
-```html
+``` html
 <nav class="ribbon ribbon--modifier" role="navigation" aria-label="breadcrumbs">
   <a class="ribbon__element" href="https://www.silvestar.codes/">Home</a>
   <a class="ribbon__element" href="https://www.silvestar.codes/articles/">Blog</a>
@@ -46,7 +53,7 @@ Note that these elements should be accessible, according to [A11y Style Guide we
 
 When it comes to things like this, we want to make sure the sizing of the elements is done right. For this purpose, we are going to define the font size of the `.ribbon` (that’s what we’re going to call these things) wrapper element and then use `em` units on the child element which are the links themselves.
 
-```css
+``` css
 /* Define font size of the wrapper element */
 .ribbon {
   font-size: 15px;
@@ -70,7 +77,7 @@ We are going to define four columns:
 - Three for ribbon elements
 - One to fix spacing issues. As it is, the right arrow shape would be placed outside of the ribbon component and that could mess up the original layout.
 
-```css
+``` css
 /* The wrapper element
  * We're using CSS Grid, but ensure that meets your browser support requirements.
  * Assuming the use of autoprefixer for vendor prefixes and properties.
@@ -85,7 +92,7 @@ We are going to define four columns:
 
 If you prefer to avoid stretching the ribbon elements, the grid could be defined differently. For example, we could use `max-content` to adjust columns by content size. (Note, however, that `max-content` [is not very well supported] yet in some key browsers.)
 
-```css
+``` css
 /* Make ribbon columns adjust to the maximum content size */
 .ribbon--auto {
   grid-template-columns: repeat(3, max-content) 1em;
@@ -96,7 +103,7 @@ I am sure there are many different ways we could have gone about the layout. I l
 
 Accessibility is not only adding aria attributes. It also includes color contrast and readability, as well as adding hover and focus states. If you don’t like `outline` style, you could use other CSS properties, like `box-shadow`, for example.
 
-```css
+``` css
 /* Use current link color, but add underline on hover  */
 .ribbon__element:hover,
 .ribbon__element:active {
@@ -128,13 +135,13 @@ First, we should set the element’s width and height to zero so it doesn’t ge
 
 Our ribbon element has a content size of the `line-height` value plus the top and bottom paddings:
 
-```css
+``` css
 1.333em + 0.667em + 0.667em = 2.667em
 ```
 
 That means our top and bottom borders should be half that size. The only thing left to do is to position elements absolutely to the correct side of the component.
 
-```css
+``` css
 /* The left arrow */
 .ribbon--alpha .ribbon__element:before {
   /* Make the content size zero */
@@ -178,7 +185,7 @@ That means our top and bottom borders should be half that size. The only thing l
 
 Since the right triangle should match the background color of the ribbon, let’s remember to add the correct border color for each ribbon’s pseudo-element.
 
-```css
+``` css
 /* The right arrow of the first element */
 .ribbon--alpha .ribbon__element:nth-child(1):after {
   border-left-color: #11d295;
@@ -197,7 +204,7 @@ Since the right triangle should match the background color of the ribbon, let’
 
 And there we go!
 
-> {codepen CiTA moNQgY dark result 400 %}
+{% codepen "CiTA" "moNQgY" "dark" "result" "400" %}
 
 ### Option 2: The background image approach
 
@@ -205,7 +212,7 @@ We can also create a triangle using a background image. This requires creating a
 
 Unlike the border triangle approach, we want to match the height of our pseudo-element with the height of the ribbon element, or 100%. The width of the component should match the left border width of the border triangle, which is 0.666666em in our case. Then we should use a white triangle for the background image on the triangle of the left side, and then use triangle images with color for the triangles on the right side. Again, we are using absolute positioning to place our triangles to the correct side of the ribbon element.
 
-```css
+``` css
 /* The left arrow */
 .ribbon--beta .ribbon__element:before {
   /* Define the arrow size */
@@ -265,7 +272,7 @@ Unlike the border triangle approach, we want to match the height of our pseudo-e
 
 There we go!
 
-> {codepen CiTA jJgQoM dark result 400 %}
+{% codepen "CiTA" "jJgQoM" "dark" "result" "400" %}
 
 ### Option 3: The inline SVG approach
 
@@ -273,7 +280,7 @@ Instead of loading a different SVG triangle for each background image, we could 
 
 This particular approach allows us to control the `fill` color of each SVG arrow with CSS. The arrow size is calculated by the ribbon size. Once again, we are using the `em` units to define the size and arrows are absolutely positioned, like the other approaches we’ve seen so far.
 
-```css
+``` css
 /* Position arrows absolutely and set the correct size */
 .ribbon--gamma .ribbon__element svg {
   height: 2.667em;
@@ -309,7 +316,7 @@ This particular approach allows us to control the `fill` color of each SVG arrow
 }
 ```
 
-> {codepen CiTA axdpXe dark result 400 %}
+{% codepen "CiTA" "axdpXe" "dark" "result" "400" %}
 
 ### Option 4: The clip-path approach
 
@@ -317,7 +324,7 @@ We can create the ribbon triangles with a polygon that masks the background. [Fi
 
 Since polygons must be created using percentages, we should use our best judgment to match the size of border triangles. Also, note that percentage-based polygons might look a little funny on some viewports, especially when element sizes are adapting to its surroundings, like wrapper elements. Consider redefining polygons for different viewports.
 
-```css
+``` css
 .ribbon--delta .ribbon__element {
   clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
 }
@@ -325,7 +332,7 @@ Since polygons must be created using percentages, we should use our best judgmen
 
 Since we defined our wrapper element using CSS Grid, we should expand the ribbon elements but leave the last one at the size of the polygon triangle, which is 5% in our case. The last ribbon element should be wider by the size of the border triangle width to match the first two examples.
 
-```css
+``` css
 /* Make all ribbon elements (except the last one) wider by the size of the polygon triangle */
 .ribbon--delta .ribbon__element:not(:last-child) {
   width: 105%;
@@ -337,7 +344,7 @@ Since we defined our wrapper element using CSS Grid, we should expand the ribbon
 }
 ```
 
-> {codepen CiTA YgmRbg dark result 400 %}
+{% codepen "CiTA" "YgmRbg" "dark" "result" "400" %}
 
 ### Variations on these options
 
@@ -347,14 +354,14 @@ Now that we’ve learned how to create the breadcrumb ribbon a few different way
 
 We could add the shadow on our ribbon elements. Make sure to avoid the shadow on the left or right side of the ribbon element.
 
-```css
+``` css
 /* Add shadow under each ribbon element */
 .ribbon--shadow .ribbon__element {
   box-shadow: 1px 3px 3px -3px black;
 }
 ```
 
-> {codepen CiTA WmVYqx dark result 400 %}
+{% codepen "CiTA" "WmVYqx" "dark" "result" "400" %}
 
 ### Using gradients for color
 
@@ -362,7 +369,7 @@ We could add gradients to our ribbon element. Be sure to match the color of the 
 
 For example, if we are going to use the border approach or background image approach, we should use mostly horizontal (i.e. left-to-right) gradients (with the exceptions of some carefully calculated angled gradients). If we are using the `clip-path` approach, we could use any gradient version we wish.
 
-```css
+``` css
 /* Add gradient to the first ribbon element */
 .ribbon--gradient .ribbon__element:nth-child(1) {
   background-image: linear-gradient(to right, #11ced2, #11d295);
@@ -379,13 +386,13 @@ For example, if we are going to use the border approach or background image appr
 }
 ```
 
-> {codepen CiTA xBvQoz dark result 400 %}
+{% codepen "CiTA" "xBvQoz" "dark" "result" "400" %}
 
 ### Working with size variations
 
 Since the size of our ribbon elements depends on the font size of the wrapper element, defining different sizes is pretty straightforward.
 
-```css
+``` css
 /* Small ribbons */
 .ribbon--small {
   font-size: 10px;
@@ -399,17 +406,17 @@ Since the size of our ribbon elements depends on the font size of the wrapper el
 
 Here we go with a smaller set of ribbons:
 
-> {codepen CiTA aMeQeG dark result 400 %}
+{% codepen "CiTA" "aMeQeG" "dark" "result" "400" %}
 
 And here’s a nice set of chunky ribbons:
 
-> {codepen CiTA drxQxw dark result 400 %}
+{% codepen "CiTA" "drxQxw" "dark" "result" "400" %}
 
 ### Combining all the things!
 
 We can also combine different modifier classes to achieve an even more styling. For example, let’s use gradient and shadow modifiers together:
 
-> {codepen CiTA ywmQmb dark result 400 %}
+{% codepen "CiTA" "ywmQmb" "dark" "result" "400" %}
 
 ## Any other angles to consider?
 

@@ -10,6 +10,13 @@ categories:
 date: 2016-11-01 08:39:30
 thumbnail: CSS_tabs_part_II_Accessibility_io11di
 description: Recently I've been writing about CSS tabs. Topic was surprisingly popular, gaining several thousand users to my page. What was even more surprising were comments about accessibility. I decided to investigate a little bit more and add accessibility to my solution.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Recently I've been writing about [CSS tabs](https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.
@@ -54,9 +61,9 @@ We should test our tabs in some of the [assistive technology tools](https://dev
 
 Now we could add **aria attributes**. There are [specific aria roles for tabs](https://whatsock.com/training/matrices/#tablist):
 
-*   _tablist_,
-*   _tab_ and
-*   _tabpanel_.
+* _tablist_,
+* _tab_ and
+* _tabpanel_.
 
 Every role could have required and optional attributes. Required attributes are easy, because we know we should add it to an element. Optional attributes are problem: how can we know which ones work and which ones don't? Ideally, every attribute should work. But as I discovered, they don't.
 
@@ -64,7 +71,7 @@ Every role could have required and optional attributes. Required attributes are
 
 Because there are so many tools and devices and documentation is overwhelming, I decided to use trial and error method this time. After few hours, I came up with final solution. You could see it in this pen:
 
-> {codepen CiTA LRKEPQ dark result %}
+{% codepen "CiTA" "LRKEPQ" "dark" "result" %}
 
 ### Radio buttons
 

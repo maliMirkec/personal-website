@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: 2019_Lookback_a69k2x
 description: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Last year I wrote [my first yearly look back], and now it is time for the 2019 lookback.
@@ -97,7 +104,7 @@ The traffic improved significantly on all platforms, but no so much on my site. 
 
 I could easily say that 2019 was an excellent year for me. I hope the next one will be even better.
 
-Let’s make the web an even better place! 2⃣0⃣2⃣0⃣
+Let’s make the web an even better place!
 
 [my first yearly look back]: /articles/2018-lookback/
 [native lazy-loading]: https://web.dev/native-lazy-loading/

@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: My_first_year_of_freelancing_xufkud
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization._

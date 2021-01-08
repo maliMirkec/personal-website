@@ -9,6 +9,13 @@ categories:
 date: 2016-10-07 19:01:40
 thumbnail: How_to_make_tabs_using_only_CSS_jfkvko
 description: "I know there are more than a few articles about this topic. And there are 2 basic approaches: using target pseudo selector and using list with checked pseudo selector."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 I know there are more than a few articles about this topic. And there are 2 basic approaches: [using `:target` pseudo selector](https://css-tricks.com/css3-tabs/) and [using list with `:checked` pseudo selector](https://css-tricks.com/functional-css-tabs-revisited/).
@@ -23,40 +30,40 @@ _CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-a
 
 Let's start with `HTML`.  This is the full structure:
 
-> {codepen CiTA YGZyOm dark html %}
+{% codepen "CiTA" "YGZyOm" "dark" "html" %}
 
 Let's break it down by elements:
 
-*   wrapper - this element is used to distinguish tabs from the rest of the content;
-*   `input type="radio"` - this element will be hidden, but will be used as a controlling element;
-*   `label` - this element will be used as a clickable tab;
-*   content - this element is used as a wrapper for tab's content.
+* wrapper - this element is used to distinguish tabs from the rest of the content;
+* `input type="radio"` - this element will be hidden, but will be used as a controlling element;
+* `label` - this element will be used as a clickable tab;
+* content - this element is used as a wrapper for tab's content.
 
 This structure may look a bit dirty, but soon you'll see the benefit of it. The basic principle is to group different types of elements.
 
 Next we'll add the following classes on every element:
 
-*   `tabs` on wrapper `div`,
-*   `tabs__radio` on `input type="radio"` elements,
-*   `tabs__label` on `label` elements and
-*   `tabs__content` on content `div` elements.
+* `tabs` on wrapper `div`,
+* `tabs__radio` on `input type="radio"` elements,
+* `tabs__label` on `label` elements and
+* `tabs__content` on content `div` elements.
 
 [BEM naming convention](https://en.bem.info/methodology/) is used for this purpose.
 
 To make sure every `input type="radio"` element is a part of the same block, we'll add `name` attribute with same value on it like this:
 
-> {codeblock lang:html %}
-`<input class="tabs__radio" name="myTabs" />`
-> {endcodeblock %}
+``` html
+<input class="tabs__radio" name="myTabs" />
+```
 
 Labels are generally used to define an `input` element. If `for` attribute is provided with matching `id` of an `input`, they will be bound together. If you click on a `label` that is related to `input type="radio"`, `checked` state of an element will be toggled. This will be used as a trigger for changing tabs.
 
 With that clarified, we'll add unique `id` attributes on every `input type="radio"` and matching `for` attributes to every `label` like this:
 
-> {codeblock lang:html %}
+``` html
 <input class="tabs__radio" id="myTab1" name="myTabs" />
 <label class="tabs__label for="myTab1">
-> {endcodeblock %}
+```
 
 Finally, we'll add `value` attribute for every `input type="radio"` element and `checked` attribute on an element which should be active.
 
@@ -64,18 +71,18 @@ Finally, we'll add `value` attribute for every `input type="radio"` element and 
 
 To create styling for tabs, **[SCSS](http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html)** and **[cita-flex](https://github.com/maliMirkec/cita-flex)** will be used. This is the final code:
 
-> {codepen CiTA ALVWzg dark html %}
+{% codepen "CiTA" "ALVWzg" "dark" "html" %}
 
 First we will import **cita-flex** mixins in our file. It is a small library which could help you create layouts using flexbox built by me. **cita-flex** is available through bower and you could install it using command `bower install cita-flex`.
 
 After that we should define default variables which will help us write more consistent code. There are 6 variables:
 
-*   `$size` - default size for padding,
-*   `$background` - default background color for tabs,
-*   `$background--active` - default background color for active tab,
-*   `$color` - text color for tabs,
-*   `$color--disabled` - text color for disabled tabs and
-*   `$breakpoint` - width which will define our tabs layout.
+* `$size` - default size for padding,
+* `$background` - default background color for tabs,
+* `$background--active` - default background color for active tab,
+* `$color` - text color for tabs,
+* `$color--disabled` - text color for disabled tabs and
+* `$breakpoint` - width which will define our tabs layout.
 
 _I really like BEM naming convention and I use it for defining `CSS` variables, too._
 
@@ -89,9 +96,9 @@ Tab's content is an element which takes 100% of the wrapper's width. This is ach
 
 Now for the fun part, using `CSS` to control the tabs. We will take advantage of 3 powerful `CSS` selectors:
 
-*   `nth-of-type` - selects the nth child of the same elements,
-*   `:checked` - check if `input` is checked and
-*   `~` - selects siblings selector.
+* `nth-of-type` - selects the nth child of the same elements,
+* `:checked` - check if `input` is checked and
+* `~` - selects siblings selector.
 
 If the first child of a `input type="radio"` is checked, the first tab should be active and the content of the first tab should be displayed.
 
@@ -111,7 +118,7 @@ Now we could repeat this for every tab using `@for` loop and we're finished.
 
 Below you could see the full solution with disabled tabs 2 and 10.
 
-> {codepen CiTA ALVWzg dark result %}
+{% codepen "CiTA" "ALVWzg" "dark" "result" %}
 
 ## Final thought
 

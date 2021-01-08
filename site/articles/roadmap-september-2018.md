@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: Roadmap_September_2018_njrqcl
 description: I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 The inspiration for creating a roadmap for myself came from [C. Todd Lombardo] and his talk on Smashing TV about roadmaps: [Roadmaps are dead! Long live roadmaps!]. I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.

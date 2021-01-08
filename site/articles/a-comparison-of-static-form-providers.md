@@ -13,6 +13,13 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
 thumbnail: A_Comparison_of_Static_Form_Providers_efatgg
 description: Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. Read the review of the most popular static form providers.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _This article was originally published on [CSS-Tricks](https://css-tricks.com/a-comparison-of-static-form-providers/)._

@@ -8,6 +8,13 @@ categories:
 date: 2017-01-07 21:54:57
 thumbnail: Recursively_includible_Angular_directive_polzka
 description: I've been working on a complex Angular CRUD-ish project recently and one of the requirements was to create a form based on an MVC model. I've created a directive that could generate a form for every complex model.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 I've been working on a complex Angular [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)-ish project recently and one of the requirements was to create a form based on an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) model. This model was not definite and could vary depending on many parameters in the application. As a result, I've created a directive that could generate a form for every complex model. Final code is available on [Github repository](https://github.com/maliMirkec/angular-repeater) and it's called **angular-repeater**. Demo is available [here](https://frontend-developer.xyz/angular-repeater/).
@@ -30,11 +37,11 @@ Let's go back to the code. Even better, let's consider model examples for this t
 
 These models contain typical types of data:
 
-*   strings,
-*   integers,
-*   floats,
-*   arrays and
-*   objects.
+* strings,
+* integers,
+* floats,
+* arrays and
+* objects.
 
 ## Recursion problem
 
@@ -62,8 +69,8 @@ This directive works only when **jsonData** is provided via **json-data** attrib
 
 In addition, there are 2 helper functions in a directive:
 
-*   IsObject() - used to check model property type and
-*   IsNumber() - used to check if model property key is a number.
+* IsObject() - used to check model property type and
+* IsNumber() - used to check if model property key is a number.
 
 ### Important notice
 

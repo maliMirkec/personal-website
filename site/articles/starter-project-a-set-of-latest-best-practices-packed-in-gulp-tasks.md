@@ -12,6 +12,13 @@ description: This article is the very first article in a series about Starter Pr
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 ⚠️ The package is deprecated. See [SPRO](/articles/introducing-spro/) instead.

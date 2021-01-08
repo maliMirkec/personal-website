@@ -9,6 +9,13 @@ categories:
 date: 2016-08-30 18:00:19
 thumbnail: Github_Atom_minimap_packages_nqwd7i
 description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 One of the most popular features for Atom out there is a **minimap**. It's a code preview in a small sidebar window.
@@ -23,7 +30,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 ## useful minimap extensions
 
-**minimap **has many extensions and these are my favorites:
+**minimap** has many extensions and these are my favorites:
 
 * **[minimap-autohide](https://atom.io/packages/minimap-autohide)**
 * **[minimap-cursorline](https://atom.io/packages/minimap-cursorline)**

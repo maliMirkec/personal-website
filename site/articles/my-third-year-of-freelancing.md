@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: My_Third_Year_Of_Freelancing_ency0u
 description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 It is time for another yearly overview of my freelancing career: the third year.

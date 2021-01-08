@@ -1,25 +1,24 @@
 <section class="banner margin-top-alpha margin-bottom-alpha">
   <div class="wrapper margin-top margin-bottom text-center">
     <div class="padding">
-      <h3 class="fz-step-3 no-margin-top no-margin-bottom">About</h3>
-      <p>{{ site.about }}</p>
-      <div class="margin-top margin-bottom">
-        <a class="button button--small" href="/about/">About ⇢</a>
-        <a class="button button--small" href="/portfolio/">Portfolio ⇢</a>
-        <a class="button button--small" href="/contact/">Contact ⇢</a>
-      </div>
-      <hr class="text-dark hr">
       {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
       {% assign facebookLink = "https://facebook.com/sharer.php?u=" | append: site.url | append: page.url %}
       {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
-      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share:</h3>
-      <div class="margin-top margin-bottom">
-        <a class="button button--small" href="{{ twitterLink }}" target="_blank">Twitter ⇢</a>
-        <a class="button button--small" href="{{ facebookLink }}" target="_blank">Facebook ⇢</a>
-        <a class="button button--small" href="{{ redditLink }}" target="_blank">Reddit ⇢</a>
+      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter ⇢</a>
+        <a class="margin-left margin-right" href="{{ facebookLink }}" target="_blank">Facebook ⇢</a>
+        <a class="margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit ⇢</a>
       </div>
-
-      <hr class="text-dark hr">
+      <h3 class="fz-step-2 no-margin-top">About the Author</h3>
+      <div class="copy">
+        <p>{{ site.about }}</p>
+      </div>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="/about/">About ⇢</a>
+        <a class="margin-left margin-right" href="/portfolio/">Portfolio ⇢</a>
+        <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
+      </div>
       {% assign articles = collections['blog'] %}
       {% for article in articles %}
         {% if title == article.data.title %}
@@ -33,10 +32,10 @@
       {% if prev_i < 0 %}
         {% assign prev_i = articles.length | minus: 1 %}
       {% endif %}
-      <h3 class="fz-step-1 no-margin-top no-margin-bottom">Read more articles:</h3>
+      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
       <div class="margin-top margin-bottom">
-        <a class="button button--small" href="{{articles[next_i].data.url}}" title="{{articles[next_i].data.title}}">⇠ Prev post</a>
-        <a class="button button--small" href="{{articles[prev_i].data.url} title="{{articles[prev_i].data.title}}"}">Next post ⇢</a>
+        <a class="button button--small" href="{{articles[prev_i].url}}" title="{{articles[prev_i].data.title}}">⇠ Prev post</a>
+        <a class="button button--small" href="{{articles[next_i].url} title="{{articles[next_i].data.title}}"}">Next post ⇢</a>
       </div>
     </div>
   </div>

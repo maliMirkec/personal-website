@@ -12,6 +12,13 @@ description: Let me tell you a story about Silvestar, a fellow who learned how t
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
@@ -73,7 +80,7 @@ If you need more inspiration, read these tips I gathered during my career:
 
 Happy coding!
 
----
+<hr class="text-alpha hr margin-top-alpha margin-bottom-alpha">
 
 This post is part of **The UI Development Mentoring Program** series:
 

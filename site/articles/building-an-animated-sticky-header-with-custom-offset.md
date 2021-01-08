@@ -9,6 +9,13 @@ categories:
   - javascript
 thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5
 description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.
@@ -23,7 +30,7 @@ The task is to build a sticky header that appears when the user scrolls past the
 
 To make it easier to understand the specifications, see this pen that contains the full solution:
 
-> {codepen CiTA BGQPBz dark result 550 %}
+{% codepen "CiTA" "BGQPBz" "dark" "result" "550" %}
 
 ## The breakdown
 
@@ -33,7 +40,7 @@ For a better understanding of how this code works, we should examine the HTML st
 
 Here's the simplified preview of the HTML structure:
 
-```
+``` html
 <main>
   <header>
     <div class="header header--alpha">
@@ -60,7 +67,7 @@ Header holds two elements:
 
 First, let's style our wrapper element. It should have position relative by default, and sticky once the offset is reached.
 
-```
+``` css
 header {
   top: 0;
   position: relative;
@@ -76,7 +83,7 @@ The property `top: 0` would make sure our header is stuck to the top, and the pr
 
 Next, we should define the behavior of the header parts.
 
-```
+``` css
 .header--alpha {
   transition: .225s ease-out;
 }
@@ -90,7 +97,7 @@ Next, we should define the behavior of the header parts.
 
 `.header--alpha`, our static header is visible by default. When the user scrolls past the offset, and the wrapper `header` element becomes sticky, it will be translated outside of the wrapper element instantaneously without any transition effect. Note that element will be transitioned when it goes to the original position when sticky effect won't be active.
 
-```
+``` css
 .header--beta {
   position: absolute;
   top: 0;
@@ -113,7 +120,7 @@ Next, we should define the behavior of the header parts.
 
 You might have noticed the `.fake-header` element.
 
-```
+``` css
 .fake-header {
   height: 1px;
   position: relative;
@@ -122,7 +129,7 @@ You might have noticed the `.fake-header` element.
 
 This element serves as an offset for the scroll. When it reaches the top of the viewport, the header becomes sticky. And when the header becomes sticky, the fake element will be pushed up by the height of the header plus one extra pixel. When the user scrolls up and reaches the fake element in its new position, the sticky effect will be turned off.
 
-```
+``` js
 const $realSticky = document.querySelector("header");
 const $fakeSticky = document.querySelector(".fake-header");
 
@@ -152,7 +159,7 @@ Since the static header determines the height of the wrapper element, we have a 
 
 We could use pointer-events to fix this issue:
 
-```
+``` css
 header {
   pointer-events: none;
 }

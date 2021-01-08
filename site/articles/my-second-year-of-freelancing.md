@@ -9,6 +9,13 @@ categories:
   - remote work
 thumbnail: My_second_year_of_freelancing_bkeeo6
 description: About two year ago, I started with a freelance career. Here is what I have been doing, what did I learn and which problems I stumbled upon.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Last year on this day, I wrote the first yearly review of my freelance career. Now it is time to review my second year of freelancing.

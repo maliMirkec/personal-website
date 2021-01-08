@@ -13,6 +13,13 @@ publication: Codementor
 canonical: https://www.codementor.io/malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
 thumbnail: How_to_add_a_contact_form_to_a_static_website_q6q5hx
 description: "With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with Kwes form builder."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with [Kwes form builder].
@@ -46,7 +53,7 @@ After signing up, add a new website, and a new form from Kwes dashboard.
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 
-```html
+``` html
 <script src="https://kwes.io/js/kwes.js"></script>
 ```
 
@@ -60,7 +67,7 @@ Next, we would add an HTML form to our contact page. To do this, start by adding
 
 Then add the Kwes attributes. Start by adding the wrapper div with the `kwes-from` class. Next, add the action link to the `form` element, and then add rules to your `input` fields. The code should look something like this:
 
-```html
+``` html
 <div class="kwes-form">
   <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
     <label for="name">Name</label>

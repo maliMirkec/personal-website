@@ -9,6 +9,13 @@ categories:
   - editor
 thumbnail: My_Favorite_VS_Code_Settings_b2cqy6
 description: "These are my favorite VS Code settings: Breadcrumbs, Minimap, Saving and Formatting, Bars and Windows."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Last week I saw [an interesting tweet about showing modified tabs in the VS Code] from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.
@@ -17,7 +24,7 @@ Last week I saw [an interesting tweet about showing modified tabs in the VS Code
 
 By the way, the setting could be found as “Workbench > Editor: Highlight Modified Tabs” in VS Code Settings. If you also want to see the modified indicator in your current VS Code window, go to Settings, search “Window: Title”, and add `${dirty}` option. Here is how it looks in my settings:
 
-```js
+``` js
 ${dirty} ${activeEditorMedium}${separator}${rootName}
 ```
 
@@ -83,7 +90,7 @@ I also turned off all settings related to formatting:
 
 I usually use [Beautify] plugin to format my code. Here are my settings for the plugin:
 
-```json
+``` json
 {
   "beautify.language": {
     "css": [
@@ -119,7 +126,7 @@ I usually use [Beautify] plugin to format my code. Here are my settings for the 
 
 VS Code allows you to configure the window behaviour. I prefer the following VS Code window settings:
 
-```json
+``` json
 {
   "window.closeWhenEmpty": false,
   "window.newWindowDimensions": "inherit",

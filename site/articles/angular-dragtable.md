@@ -8,6 +8,13 @@ categories:
 date: 2017-02-03 12:41:54
 thumbnail: Angular_dragtable_ri1u0a
 description: Angular dragtable is an Angular directive that allows table column reorder.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 **Angular dragtable** is an Angular directive that allows table column reorder.
@@ -29,9 +36,9 @@ The main idea of **Angular dragtable** directive is to reorder the table columns
 
 If we want to enable _draggable_ events on header cell, we should add `drag-me` directive by providing it via attribute name. There are 3 main _drag_ events:
 
-*   `dragstart` - fires when a _drag_ event start;
-*   `drag` - fires during _drag_ event;
-*   `dragend` - fires when a _drag_ event ends.
+* `dragstart` - fires when a _drag_ event start;
+* `drag` - fires during _drag_ event;
+* `dragend` - fires when a _drag_ event ends.
 
 On `dragstart` event, we want to remove every _ghost_ elements that are left behind and create new _ghost_ elements for current column.
 Actual dragging fires `drag` event on which we want to move _ghost_ column when we move the mouse. It is always a great idea to set the _timeout_ on events that occur every few hundred milliseconds.
@@ -49,7 +56,7 @@ To install **Angular dragtable**, clone the repository from Github or use bower 
 
 Include **Angular dragtable** in your project.
 
-> {codeblock lang:js %}
+``` js
 (function (DemoApp) {
   'use strict';
 
@@ -57,11 +64,11 @@ Include **Angular dragtable** in your project.
 
   DemoApp.config(function () {});
 }(this));
-> {endcodeblock %}
+```
 
 To enable reorder of table header cells, use `drag-me` and `drop-me` directives.
 
-> {codeblock lang:html %}
+``` html
 <table>
   <thead>
     <tr>
@@ -81,23 +88,23 @@ To enable reorder of table header cells, use `drag-me` and `drop-me` directives.
     ...
   </tbody>
 </table>
-> {endcodeblock %}
+```
 
 If you want to use a custom handle for _drag_ events, you should provide selector via `data-handle` attribute.
 
-> {codeblock lang:html %}
+``` html
 <th drag-me drop-me data-handle=".my-handle">
   <span class="my-handle drag-icon"></span> Column name
 </th>
-> {endcodeblock %}
+```
 
 Be sure to place handle element inside header cell.
 
 To make **Angular dragtable** more performant, especially when using a large table, we should use `data-limit` option. When this option is provided, a number of _ghost_ column elements are limited. That means less iteration during `drag` event.
 
-> {codeblock lang:html %}
+``` html
 <th drag-me drop-me data-limit="50"><th>
-> {endcodeblock %}
+```
 
 ## Conclusion
 

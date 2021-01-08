@@ -9,6 +9,13 @@ categories:
 thumbnail: Using_CSS_Grid_where_appropriate_avifto
 date: 2017-07-30 22:17:48
 description: Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about CSS Grid and actually use it. Here's what I learned.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and actually use it. Here's what I learned.
@@ -19,7 +26,7 @@ Recently I've redesigned my blog, as some of you could notice. During this proce
 
 Every time I'm doing a new (re)design, I usually start with the header. The first component in a header is navigation. My website architecture is not complicated, just a few pages, blog category and posts.
 
-```html
+``` html
 <header class="header">
   <ul class="nav">
     <li class="nav__item">
@@ -46,7 +53,7 @@ I discovered there's a property that could help me in this specific situation. A
 
 I'll set this property to `column` and grid will be smart enough to add new columns as necessary.
 
-```css
+``` css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -60,7 +67,7 @@ I'll set this property to `column` and grid will be smart enough to add new colu
 
 To create a responsive menu, I've added a media query for a smaller screen and stacked items one below other using `grid-auto-flow: row`. Now I could use either 4 or 5 elements in my navigation. Everything works.
 
-> {codepen CiTA brVbjx dark result 200 %}
+{% codepen "CiTA" "brVbjx" "dark" "result" "200" %}
 
 ## Using CSS Grid items
 
@@ -74,7 +81,7 @@ I was playing around with various CSS Grid properties to achieve desired behavio
 
 Then I've tried a different approach: instead of trying to define a grid, I'll try to position grid items individually. I'll place first grid item in the first column of the first row and then second grid item in the second column of the first row and so on.
 
-```css
+``` css
 @media screen and (min-width: 320px) {
   .nav__item:nth-child(1) {
     grid-area: 1 / 1 / 2 / 2;
@@ -90,7 +97,7 @@ Then I've tried a different approach: instead of trying to define a grid, I'll t
 
 CSS Grid is smart enough to create a grid from provided `grid-area` properties. It wasn't the best solution and certainly not the most elegant one, but it worked.
 
-> {codepen CiTA BdoaQb dark result 230 %}
+{% codepen "CiTA" "BdoaQb" "dark" "result" "230" %}
 
 ## Using CSS Grid correctly
 
@@ -98,7 +105,7 @@ I couldn't be satisfied with that kind of a solution. By looking at the compiled
 
 After studying every grid property I finally got the answer. I should create desired grid, but use `auto` for sizing.
 
-```css
+``` css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -113,21 +120,21 @@ After studying every grid property I finally got the answer. I should create des
 
 I've defined 4 columns and 2 rows and the result looks the same.
 
-> {codepen CiTA MvKQXZ dark result 230 %}
+{% codepen "CiTA" "MvKQXZ" "dark" "result" "230" %}
 
 ## Using flexbox as fallback
 
 CSS Grid isn't fully supported yet.
 
-> {caniuse css-grid current %}
+{% caniuse "css-grid" "current" %}
 
 I needed a decent fallback for CSS grid. Because I'm a huge fan of Flexbox and because the support for Flexbox is pretty good, it was natural to create a fallback to Flexbox.
 
-> {caniuse flexbox current %}
+{% caniuse "flexbox" "current" %}
 
 I first heard about this method when [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) from [Smashing Magazine](https://www.smashingmagazine.com/) had a workshop in Osijek earlier this year. The principle is that we should first define Flexbox and than add CSS Grid using `@supports` rule.
 
-```css
+``` css
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +167,7 @@ To prevent Edge from using CSS Grid, I've added `grid-auto-flow: row` rule. This
 
 The result is still the same, with an exception of cross browser support.
 
-> {codepen CiTA gxPzwJ dark result 230 %}
+{% codepen "CiTA" "gxPzwJ" "dark" "result" "230" %}
 
 ## A lesson learned
 

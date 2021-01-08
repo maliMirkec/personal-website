@@ -9,6 +9,13 @@ categories:
 date: 2016-10-02 07:14:39
 thumbnail: How_to_lint_inside_Atom_ufdwzt
 description: Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
@@ -33,11 +40,11 @@ You could use **[linter](https://atom.io/packages/linter)** inside Atom. Go ahea
 
 The most important options are:
 
-*   _Lint As You Type_ - turn on
-*   _Highlight Error Lines in Gutter_ - turn on
-*   _Show Inline Error Tooltips_ - turn on
-*   _Display Linter Info in the Status Bar_ - turn on
-*   _Display Linter Status Info in Status Bar_ - turn on
+* _Lint As You Type_ - turn on
+* _Highlight Error Lines in Gutter_ - turn on
+* _Show Inline Error Tooltips_ - turn on
+* _Display Linter Info in the Status Bar_ - turn on
+* _Display Linter Status Info in Status Bar_ - turn on
 
 This settings should turn on **linter** errors in Atom, so you could fix the problems more easily.
 
@@ -63,7 +70,7 @@ One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https
 
 To see **linter-jshint** in action, open any `JavaScript` file and see if any errors exists. You could see errors in different places, depending on your main **linter** package configuration.
 
-{% cldnry linter-jshint_nkkmny "JSHint in action." %}
+{% cldnry "linter-jshint_nkkmny" "JSHint in action." %}
 
 You could see `CSS` lint errors by opening and `CSS` file.
 
@@ -71,10 +78,10 @@ You could see `CSS` lint errors by opening and `CSS` file.
 
 In the examples above you could see that errors are displayed on 4 different places:
 
-*   in a status bar,
-*   in a gutter,
-*   as a status info and
-*   in a minimap.
+* in a status bar,
+* in a gutter,
+* as a status info and
+* in a minimap.
 
 This depends on your main **linter** settings, but you should see at least on of them.
 

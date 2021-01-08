@@ -12,6 +12,13 @@ description: If you are a beginner, where would you begin these days? I got some
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 A couple of years ago, I wrote an article about called [“The essential skill of a developer”]. That particular skill is **learning** or the need to continue learning new things. Some people noted this is not a revolutionary conclusion or a breakthrough. It isn’t, indeed, but I do believe learning is the essential skill for every developer.
@@ -91,7 +98,7 @@ This post is available in the form of slides, too:
 
 Happy coding!
 
----
+<hr class="text-alpha hr margin-top-alpha margin-bottom-alpha">
 
 This post is part of **The UI Development Mentoring Program** series:
 

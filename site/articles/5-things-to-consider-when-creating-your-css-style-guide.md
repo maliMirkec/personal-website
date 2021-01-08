@@ -12,6 +12,13 @@ publication: LogRocket
 canonical: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
 thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide_agkuxa
 description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _This article was originally published on [LogRocket Blog](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d)._

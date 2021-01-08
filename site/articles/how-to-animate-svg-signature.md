@@ -10,6 +10,13 @@ categories:
   - javascript
 thumbnail: How_to_animate_SVG_signature_l1h5a8
 description: Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Let’s see how to animate SVG signature with a little bit of JavaScript and CSS. In this demo, I would show you how to use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes. You could see the final result on [About page] or [CodePen].
@@ -28,7 +35,7 @@ It contains eight different paths for different paths of signature. For example,
 
 Once I have exported the SVG from Sketch, I reordered paths in such a way that they appear as I want them to animate: first the letter “S”, then the dot, then the letter “B” and so on. Also, I have added `autograph` and `autograph__path` classes for easier JavaScript manipulation and styling. Here's the final file:
 
-```html
+``` html
 <svg class="autograph" height="103" viewBox="0 0 424 103" width="424" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(2 2)">
     <path class="autograph__path"
@@ -67,7 +74,7 @@ These two properties should be equal to make it work. Now we could try to guess 
 
 Here's the whole JavaScript function (with comments for easier understanding):
 
-```js
+``` js
 const calcPaths = (totalDur) => {
   // unset 'animated' class to body which will reset the animation
   document.body.classList.add('animated')
@@ -131,7 +138,7 @@ CSS Animation consists of setting the final `stroke-dashoffset` back to zero.
 
 I have used `linear` for `animation-timing-function` and `forwards` for `animation-fill-mode`. The first attribute makes the animation linear, which seemed the most natural to me. The second one tells the animation to stay at 100% state.
 
-```scss
+``` scss
 .autograph__path {
   opacity: 0;
   animation-timing-function: linear;
@@ -156,7 +163,7 @@ I have used opacity to prevent flick during the load time. It works better when 
 
 There you have it, an animated SVG signature. With a little bit of SVG, JavaScript and CSS knowledge, you could create appealing drawing animation. I have found more than a couple of plugins that handle animations like this one, but I always prefer using less code. I have made this demo in less than 100 lines of code. See the full demo here:
 
-> {codepen CiTA abzJqQv dark result 400 %}
+{% codepen "CiTA" "abzJqQv" "dark" "result" "400" %}
 
 [About page]: /about-me/
 [CodePen]: https://codepen.io/CiTA/full/abzJqQv

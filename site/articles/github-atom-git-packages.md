@@ -9,6 +9,13 @@ categories:
 date: 2016-08-22 20:21:37
 thumbnail: Github_Atom_Git_packages_s0tziy
 description: Developers often rely on a version control system and one of the most popular is Git.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
@@ -17,10 +24,10 @@ Developers often rely on a version control system and one of the most popular i
 
 Atom community provides us with plenty of [Git packages](https://atom.io/packages/search?q=git) and these are my favorites:
 
-*   **[git-plus](https://atom.io/packages/git-plus)**
-*   **[tree-view-git-status](https://atom.io/packages/tree-view-git-status)**
-*   **[git-history](https://atom.io/packages/git-history)**
-*   **[git-log](https://atom.io/packages/git-log)**
+* **[git-plus](https://atom.io/packages/git-plus)**
+* **[tree-view-git-status](https://atom.io/packages/tree-view-git-status)**
+* **[git-history](https://atom.io/packages/git-history)**
+* **[git-log](https://atom.io/packages/git-log)**
 
 ## git-plus
 

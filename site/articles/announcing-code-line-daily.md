@@ -13,6 +13,13 @@ description: "Last week I released my side project: Code Line Daily. It is a qui
 project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Last week I released my side project: [Code Line Daily].
@@ -25,7 +32,7 @@ It is a quite straightforward project: a new line of code would be introduced ev
 
 To build this project, I have used [Starter Project]. It is a Gulp based boilerplate that I created last year. It has grown a lot, and for this project, I have introduced JSON data files.
 
-```json
+``` json
 {
   "list": [
     {
@@ -52,7 +59,7 @@ _[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/a
 
 Here is the basic JSON structure—an array of object items. [gulp-data] plugin is used to include, parse, and display the data on the homepage, archive, and author pages.
 
-```pug
+``` pug
 - var list = locals.data.list ? locals.data.list.filter(item => new Date(item.date) < new Date()) : [];
 ```
 
@@ -60,7 +67,7 @@ _[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/s
 
 To display only current lines and not future ones, I have used `filter` function with a date condition. That way, future lines won't be displayed. Also, I have set up Zapier to trigger a new build every day in the morning.
 
-```pug
+``` pug
 - thisItem = list.slice(-1).pop()
 
 h3= thisItem.line
@@ -70,7 +77,7 @@ _[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/s
 
 To display only a single line on the homepage, I have extracted the last item from an array of lines.
 
-```pug
+``` pug
 ul
   each listValue, listIndex in list.reverse()
     li

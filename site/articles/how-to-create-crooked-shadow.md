@@ -9,6 +9,13 @@ categories:
 date: 2017-07-25 16:10:31
 thumbnail: How_to_create_crooked_shadow_cpq1ze
 description: Recently I was working on a very interesting and challenging project. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Recently I was working on a very interesting and challenging project. I was told to use CSS wherever possible. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border. I know it doesn't sound either glamorous or complicated, but it kinda is.
@@ -30,7 +37,7 @@ Let's break this into smaller modules:
 
 First three are easy to create, especially if using flexbox to center the content.
 
-```html
+``` html
 <a class="hero" href="//www.silvestar.codes" target="_blank">
   <div class="hero__content">
     <h1 class="hero__text">
@@ -43,7 +50,7 @@ First three are easy to create, especially if using flexbox to center the conten
 </a>
 ```
 
-```css
+``` css
 .hero {
   position: relative;
   overflow: hidden;
@@ -58,11 +65,11 @@ First three are easy to create, especially if using flexbox to center the conten
 
 To create the crooked border, we will use CSS triangle. It's pretty old technique and it's used all over the place. To understand CSS triangles, look at this short animation made by Chris Coyier:
 
-> {codepen chriscoyier lotjh dark result %}
+{% codepen "chriscoyier" "lotjh" "dark" "result" %}
 
 In our case, we'll use `:after` pseudo element to create a crooked solid bottom border. Here's the code:
 
-```css
+``` css
 .hero:after {
   content: "";
   position: absolute;
@@ -86,7 +93,7 @@ Then it hit me—I should use a crooked transparent gradient on a box that is as
 
 First, we should create an element that is as tall as `:after` pseudo element. We could use `:before` pseudo element for this purpose. Then we should add linear gradient at the correct angle and percentage. In our case, linear gradient should go to the top left corner until 50%. Finally, we should scale and translate element to make it visible.
 
-```css
+``` css
 .hero:before {
   content: "";
   position: absolute;
@@ -104,7 +111,7 @@ _In order to make this work, don't forget to add `position: relative` and `overf
 
 And here's the final solution:
 
-> {codepen CiTA WjRJWN dark result 340 %}
+{% codepen "CiTA" "WjRJWN" "dark" "result" "340" %}
 
 ## Final thoughts
 
@@ -116,6 +123,6 @@ If you like this article or you have a different solution, let me know in the co
 
 After I posted the article on [Reddit](https://www.reddit.com/r/Frontend/comments/6pihl9/how_to_create_crooked_shadow/), Martijn Hermans provided alternative and perhaps even more elegant solution using `skew` and a single pseudo element:
 
-> {codepen doxick oegrwM dark result 340 %}
+{% codepen "doxick" "oegrwM" "dark" "result" "340" %}
 
 The border and the shadow look sharper now.

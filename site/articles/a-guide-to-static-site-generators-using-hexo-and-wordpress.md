@@ -14,6 +14,13 @@ publication: Toptal
 canonical: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11
 description: Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 _This article was originally published on [Toptal Blog](https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers)._
@@ -59,7 +66,7 @@ The first step was to decide which static page generator to use. I wasn’t awar
 
 Hexo installation is as simple as it could be. Install hexo-cli globally using npm, run the hexo init command, install npm dependencies, and voilà:
 
-```
+``` bash
 npm i -g hexo-cli
 hexo init <blog-name>
 cd <blog-name>
@@ -68,13 +75,13 @@ npm install
 
 To make the migration, install the [hexo-migrator-wordpress plugin](https://github.com/hexojs/hexo-migrator-wordpress). This plugin expects XML files as a source. XML files could be exported via the WordPress export tool, which can be found in administration panel under Tools -> Export -> WordPress. Finally, type the hexo migrate command to finish the import.
 
-```
+``` bash
 hexo migrate wordpress <source>
 ```
 
 The only thing left to do is to check the result. Run the hexo server command to start the server and open the browser at given address.
 
-```
+``` bash
 hexo server
 ```
 

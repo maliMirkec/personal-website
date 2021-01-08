@@ -9,6 +9,13 @@ categories:
   - devtools
 thumbnail: My_favorite_extensions_for_web_development_erf5gg
 description: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 A web browser is one of the essential tools for web development. Besides awesome dev tools that come with the default installation, you might consider these Chrome extensions that could help you with your everyday tasks:

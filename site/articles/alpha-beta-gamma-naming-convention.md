@@ -9,6 +9,13 @@ categories:
   - BEM
 thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m
 description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
@@ -27,7 +34,7 @@ When I got back to that particular code to update the names of the modifiers, I 
 
 After a while, I started using the same with Sass variables. Here is how color variables for my site look:
 
-```
+``` sass
 $color-alpha: #12e09f;
 $color-beta: #e01258;
 $color-gamma: #f5f5f5;

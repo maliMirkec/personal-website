@@ -13,6 +13,13 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/my-favorite-netlify-features/
 thumbnail: My_favorite_Netlify_features_lied4i
 description: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. All these modern frameworks, tools, and services make our lives as JAMstack developers quite enjoyable. In fact, Chris would say [they give us superpowers].

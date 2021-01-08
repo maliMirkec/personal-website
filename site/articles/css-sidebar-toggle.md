@@ -10,6 +10,13 @@ categories:
 date: 2017-02-20 11:43:48
 thumbnail: CSS_sidebar_toggle_qzorac
 description: CSS sidebar toggle presented in this post is made with CSS only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without JavaScript, I've added a small snippet for this feature.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 CSS sidebar toggle presented in this post is made with `CSS` only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without `JavaScript`, I've added a small snippet for this feature.
@@ -40,18 +47,18 @@ For a menu toggle indicator, we could use well know hamburger menu. There are [m
 
 ### First Demo
 
-> {codepen CiTA YNbKpo dark result %}
+{% codepen "CiTA" "YNbKpo" "dark" "result" %}
 
 ### HTML for the first demo
 
-> {codeblock lang:html %}
+``` html
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
 <label for="menuToggler" class="menu-toggler">
   <span class="menu-toggler__line"></span>
   <span class="menu-toggler__line"></span>
   <span class="menu-toggler__line"></span>
 </label>
-> {endcodeblock %}
+```
 
 Inside the label, we should place `span` elements—each one will represent one hamburger line.
 
@@ -59,7 +66,7 @@ Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`
 
 ### CSS for the first demo
 
-> {codeblock lang:scss %}
+``` scss
 // variables
 :root {
   --toggler-size: 30px;
@@ -72,11 +79,11 @@ Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`
 
 // same as var(--toggler-line-number)
 $total: 3;
-> {endcodeblock %}
+```
 
 For this demo, I've decided to use a new [`CSS` variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) feature. Beware of the support:
 
-> {caniuse css-variables current %}
+{% caniuse "css-variables" "current" %}
 
 Using `CSS` variables we could define menu icon size, the number of lines, top offset, left offset and background color.
 
@@ -101,13 +108,13 @@ There are many ways how a sidebar could be displayed. I've decided to go with a�
 
 ### Second Demo
 
-> {codepen CiTA bgjKKE dark result %}
+{% codepen "CiTA" "bgjKKE" "dark" "result" %}
 
 ### HTML for the second demo
 
 In order to create CSS sidebar toggle, we should use the following `HTML` structure:
 
-> {codeblock lang:html %}
+``` html
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
 <label for="menuToggler" class="menu-toggler">
   ...
@@ -118,13 +125,13 @@ In order to create CSS sidebar toggle, we should use the following `HTML` struct
 <main class="content">
   ...
 </main>
-> {endcodeblock %}
+```
 
 Notice that `checkbox` input, `label`, `sidebar` and content are all siblings.
 
 ### CSS for the second demo
 
-> {codeblock lang:scss %}
+``` scss
 :root {
   --sidebar-width: 100%;
 }
@@ -143,7 +150,7 @@ Notice that `checkbox` input, `label`, `sidebar` and content are all siblings.
   opacity: .98;
   }
 }
-> {endcodeblock %}
+```
 
 The idea is to hide a sidebar by translating it out of viewport using `translateX` property. Then, when menu icon is clicked and `:checked` stated is active, translate sidebar back to the viewport.
 
@@ -159,7 +166,7 @@ The final element is a [menubar](https://www.w3.org/TR/wai-aria#menubar) with 
 
 Finally, we should add `JavaScript` snippet to change states of this elements:
 
-> {codeblock lang:js %}
+``` js
 let menuToggler = document.getElementById('menuToggler')
 let menuTogglerLabel = document.getElementById('menuTogglerLabel');
 let sidebar = document.getElementById('sidebar');
@@ -182,7 +189,7 @@ menuToggler.addEventListener('change', function() {
     }
   }
 });
-> {endcodeblock %}
+```
 
 When a menu button is pressed, we should change its `aria-pressed` attribute and navigation's `aria-hidden` attribute accordingly. We should change `tabindex` of every menu item:
 

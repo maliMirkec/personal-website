@@ -12,6 +12,13 @@ description: "SPRO, or Starter Project CLI, is the best starting point for your 
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 **SPRO** <small>(pronounces /es-pro/)</small>, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs.
@@ -66,7 +73,7 @@ There is a good chance that Gulp tasks would work for you in the first attempt. 
 
 SPRO is available as an npm module, and you could install it locally or globally.
 
-```
+``` bash
 npm install starter-project-cli
 ```
 

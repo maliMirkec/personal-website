@@ -9,6 +9,13 @@ categories:
 date: 2017-05-27 07:39:05
 thumbnail: _bem_-_WordPress_theme_with_BEM_methodology_z7onq3
 description: This is a post about building custom WordPress theme with BEM naming methodology.
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 **[BEM](https://en.bem.info/)** is great. It is simple, yet powerful. If you're not familiar with it, I highly recommend reading [this article](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts.
@@ -27,10 +34,10 @@ A few years ago, I was looking for a tool that could help me build WordPress the
 
 You enter a template name (and some other options, if you want) and you generate plain theme. It contains the following:
 
-*   simple templates,
-*   default styling,
-*   translations and
-*   few custom functions.
+* simple templates,
+* default styling,
+* translations and
+* few custom functions.
 
 Swell! From this step, I could easily dive into developing beautiful custom themes.
 
@@ -40,8 +47,8 @@ Right about that time, I was learning about BEM. I was trying to implement it on
 
 From the start, I saw great benefits of BEM:
 
-*   clean `HTML` templates and
-*   clean `CSS` code.
+* clean `HTML` templates and
+* clean `CSS` code.
 
 Not only that. If used with SASS or any other preprocessing tool, you could really organize your code. And debugging and fixing style was a piece of cake.
 
@@ -57,7 +64,7 @@ I knew it will be a daunting project to deal with. Going through all the templ
 
 For example, comments. WordPress provides you with a commenting system out of the box. It is a great feature used by many people out there. But adding custom classes to comment components could not be done easily. As I found out later, it should be done by using callback of [wp_list_comments](https://codex.wordpress.org/Function_Reference/wp_list_comments) function and writing custom callback function. Here is an example code:
 
-> {codeblock lang:html %}
+``` html
 <div class="comment-list _comments__list">
 <?php
   wp_list_comments( array(
@@ -67,13 +74,13 @@ For example, comments. WordPress provides you with a commenting system out of 
   ) );
 ?>
 </div><!-- .comment-list -->
-> {endcodeblock %}
+```
 
 If you're interested in a custom callback function `_bem_comments` you could see it [here](https://github.com/maliMirkec/_bem/blob/master/inc/bem-comments.php).
 
 Another example of how difficult it is to add classes to post navigation links.
 
-> {codeblock lang:php %}
+``` php
 /**
   * Custom _bem post links
   *
@@ -81,9 +88,9 @@ Another example of how difficult it is to add classes to post navigation links.
   */
 add_filter( 'next_post_link', '_bem_next_post_link' );
 add_filter( 'previous_post_link', '_bem_previous_post_link' );
-> {endcodeblock %}
+```
 
-> {codeblock lang:php %}
+``` php
 /**
   * Custom next post link
   *
@@ -92,9 +99,9 @@ add_filter( 'previous_post_link', '_bem_previous_post_link' );
 function _bem_next_post_link( $format ) {
   return str_replace( 'href=', 'class="**_post-navigation__link _post-navigation__link--next**" href=', $format );
 }
-> {endcodeblock %}
+```
 
-> {codeblock lang:php %}
+``` php
 /**
   * Custom previous post link
   *
@@ -103,7 +110,7 @@ function _bem_next_post_link( $format ) {
 function _bem_previous_post_link( $format ) {
   return str_replace( 'href=', 'class="**_post-navigation__link _post-navigation__link--previous**" href=', $format );
 }
-> {endcodeblock %}
+```
 
 There are still some WordPress parts where I couldn't find the solution how to add classes to `HTML` components, like WordPress widgets. If you know how to do this, please let me know.
 
@@ -111,12 +118,12 @@ There are still some WordPress parts where I couldn't find the solution how to 
 
 BEM is big deal, but there is more stuff that I've implemented in this starter template:
 
-*   cita-flex,
-*   System fonts,
-*   Gutenberg,
-*   Sass MQ,
-*   CSS locks and
-*   Critical CSS
+* cita-flex,
+* System fonts,
+* Gutenberg,
+* Sass MQ,
+* CSS locks and
+* Critical CSS
 
 ### cita-flex
 
@@ -134,12 +141,12 @@ Web typography is hard. That's why I'm using [Gutenberg](http://matejlatin.githu
 
 Writing media queries could be a tedious and boring task. And it could lead to many inconsistencies in a code. To avoid all that, I'm using [Sass MQ](http://sass-mq.github.io/sass-mq/), a `Sass` mixin with configuration for media queries. Usage is pretty simple, but if you want to make it even simpler, create a snippet for your favorite text editor. This is how it looks in Atom:
 
-> {codeblock %}
+``` text
 '.source.scss':
   'mq.scss':
     'prefix': 'mq'
     'body': '@include mq(${1:\$from}: ${2:desktop}) {\n\t$3\n}'
-> {endcodeblock %}
+```
 
 ### CSS locks
 

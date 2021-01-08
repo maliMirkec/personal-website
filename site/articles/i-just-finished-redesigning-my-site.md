@@ -10,6 +10,13 @@ categories:
   - hexo
 thumbnail: I_just_finished_redesigning_my_site_oy6djs
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 During the last week, I have been working on redesigning my site. Here is the list of all changes:
@@ -29,9 +36,9 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 - [Article Card], and
 - [Profile Card].
 
-> {codepen CiTA LYVbmKd dark result 450 %}
+{% codepen "CiTA" "LYVbmKd" "dark" "result" "450" %}
 
-> {codepen CiTA gOpLzMz dark result 450 %}
+{% codepen "CiTA" "gOpLzMz" "dark" "result" "450" %}
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 
@@ -50,7 +57,7 @@ I wanted to add the dark mode to my site, so I introduced CSS Variables to my Sc
 - `mixed-mode`, and
 - `comment-mode`.
 
-```scss
+``` scss
 @mixin light-mode {
  --color-alpha: #12e09f;
  --color-beta: #e01258;
@@ -96,7 +103,7 @@ The first two are used globally. The third one, `mixed-mode`, is used for pages 
 
 I published an article [about page builders] recently, and it gained many responses. I noticed strange behaviour with my Disqus comments: different comments appeared based on different URL parameters. To fix that, I had to use [URL Mapper] to merge all comments based on the correct URL and set the unique identifier:
 
-```js
+``` js
 this.page.identifier = UNIQUE_PAGE_IDENTIFIER
 ```
 
@@ -116,7 +123,7 @@ If you need help setting the Hexo plugin, feel free to [contact me] or [open a n
 
 To be able to use [Client Hints], I had to enable it on Netlify:
 
-```txt
+``` text
 Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
 ```
 

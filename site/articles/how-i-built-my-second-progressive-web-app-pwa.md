@@ -11,6 +11,13 @@ description: "As of today, my side project Code Line Daily is available as a Pro
 project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 As of today, my side project [Code Line Daily] is available as a Progressive Web App.
@@ -29,7 +36,7 @@ This time, I decided to use [Workbox] to make PWA. Workbox is Google’s tool fo
 
 There is an excellent [“Getting Started” guide] which I followed and set up the initial version in a matter of minutes. Workbox is providing [predefined caching strategies], like “CacheFirst” or “StaleWhileRevalidate”. You could set the caching strategy in a single line, like this:
 
-```bash
+``` js
 // Serve all CSS files with StaleWhileRevalidate strategy
 workbox.routing.registerRoute(
   /\.css$/,
@@ -45,13 +52,13 @@ You could see all the strategies for Code Line Daily [in the GitHub repository].
 
 After setting the strategies, I have created the list of files to precache using [Workbox CLI]. I have installed Workbox CLI as a global `npm` package.
 
-```bash
+``` bash
 npm i -g workbox-cli
 ```
 
 After that, `workbox` command was available in my terminal. I have run the command to bring up the wizard.
 
-```bash
+``` bash
 workbox wizard --injectManifest
 ```
 
@@ -59,7 +66,7 @@ I have selected configured paths and selected files to precache, and Workbox CLI
 
 To be able to inject the files into the Service Worker file, I have added the following line to it:
 
-```js
+``` js
 workbox.precaching.precacheAndRoute([]);
 ```
 
@@ -75,7 +82,7 @@ There is a `generateSW` mode that creates a service worker with a precaching set
 
 Here is the configuration for my project.
 
-```json
+``` json
 {
   "globDirectory": "dist/",
   "globPatterns": [
@@ -100,7 +107,7 @@ where:
 
 After running the Gulp tasks, I got the final Service Worker file which looks like this:
 
-```js
+``` js
 // load workbox
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
 

@@ -13,6 +13,13 @@ credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4
 description: "Here’s what I think: page builder might not be a good idea. Read my thoughts about page builders and why you might think twice before you consider using it (again)."
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 Here’s what I think: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).

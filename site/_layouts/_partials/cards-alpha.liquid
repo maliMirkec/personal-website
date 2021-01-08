@@ -1,4 +1,7 @@
-{% assign card1List = collections[cards1.filter] | reverse %}
+{% assign card1List = collections[cards1.filter] %}
+{% unless cards1.limit %}
+  {% assign card1List = card1List | reverse %}
+{% endunless %}
 {% assign i1 = 1 %}
 
 {% if card1List %}
@@ -24,7 +27,7 @@
                   <a class="button button--small button--inverse" href="{{ card1.data.canonical }}">{{ card1.data.publication }}</a>
                 {% endif %}
                 {% for category in card1.data.categories %}
-                  <a class="button button--small button--inverse" href="#tag/{{ category }}">{{ category }}</a>
+                  <span class="button button--small button--inverse">{{ category }}</span>
                 {% endfor %}
                 {% if cards1.cta %}
                   <div class="copy margin-top">{{ card1.data.description }}</div>
