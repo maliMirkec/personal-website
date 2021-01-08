@@ -159,6 +159,18 @@ hr[class*="hr"]:before {
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
 }
 
+@media (min-width: 37.5em) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 37.49em) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
 @font-face {
   font-family: 'Barlow';
   src: local("Barlow Medium Italic"), local("Barlow-MediumItalic"), url("/fonts/Barlow/Barlow-MediumItalic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-MediumItalic.woff") format("woff");
@@ -251,10 +263,6 @@ h2 {
   --font-size: var(--step--1);
 }
 
-[class*="fz-step-1"] {
-  --font-size: var(--step-1);
-}
-
 [class*="fz-step-5"] {
   --font-size: var(--step-5);
 }
@@ -288,6 +296,10 @@ blockquote {
   padding: 1rem;
 }
 
+.margin-top {
+  margin-top: 1rem;
+}
+
 .margin-bottom {
   margin-bottom: 1rem;
 }
@@ -314,6 +326,11 @@ blockquote {
 
 .margin-right {
   margin-right: 1rem;
+}
+
+.no-spacing {
+  margin: 0;
+  padding: 0;
 }
 
 .no-margin-top {
@@ -405,13 +422,28 @@ header nav > ul ul {
 }
 
 @media (max-width: 37.49em) {
-  header nav > ul ul {
-    display: flex;
+  header nav {
+    text-align: center;
   }
 
-  header nav > ul ul li {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  header nav a {
+    white-space: nowrap;
+  }
+
+  header nav > ul {
+    flex-wrap: wrap;
+  }
+
+  header nav > ul > li:first-child {
+    flex: 1 1 100%;
+  }
+
+  header nav > ul > li:first-child img {
+    margin: auto;
+  }
+
+  header nav > ul > li:not(:first-child) {
+    flex: 1 0 150px;
   }
 }
 

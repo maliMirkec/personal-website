@@ -180,6 +180,10 @@ img {
   display: block;
 }
 
+.df {
+  display: flex;
+}
+
 hr[class*="hr"] {
   border: 0;
   max-height: 0;
@@ -196,6 +200,18 @@ hr[class*="hr"]:before {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
+}
+
+@media (min-width: 37.5em) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 37.49em) {
+  .hidden-sm {
+    display: none;
+  }
 }
 
 @font-face {
@@ -368,6 +384,11 @@ blockquote {
   margin: auto;
 }
 
+.no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
 .no-margin-top {
   margin-top: 0;
 }
@@ -473,13 +494,28 @@ header nav > ul ul {
 }
 
 @media (max-width: 37.49em) {
-  header nav > ul ul {
-    display: flex;
+  header nav {
+    text-align: center;
   }
 
-  header nav > ul ul li {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  header nav a {
+    white-space: nowrap;
+  }
+
+  header nav > ul {
+    flex-wrap: wrap;
+  }
+
+  header nav > ul > li:first-child {
+    flex: 1 1 100%;
+  }
+
+  header nav > ul > li:first-child img {
+    margin: auto;
+  }
+
+  header nav > ul > li:not(:first-child) {
+    flex: 1 0 150px;
   }
 }
 
@@ -491,6 +527,10 @@ header nav > ul ul {
 
 .card blockquote main {
   flex: 1 1 100%;
+}
+
+.card blockquote footer {
+  margin-top: auto;
 }
 
 .grid {
