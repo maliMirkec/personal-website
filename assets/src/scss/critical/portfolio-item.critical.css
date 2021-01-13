@@ -75,9 +75,9 @@ img {
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;
-  --duration: 0.33s;
-  --duration2: 0.165s;
-  --delay: 0.166s;
+  --duration: 0.3s;
+  --duration2: 0.15s;
+  --delay: 0.15s;
   --cols: repeat(auto-fill, minmax(400px, 1fr));
   --gap: 2rem;
 }
@@ -106,8 +106,12 @@ img {
   --text-color: #12e09f;
 }
 
-main:not(.kss-main) {
-  filter: drop-shadow(0 0 0.5rem rgba(17, 17, 17, 0.1));
+[class*="bg-"] {
+  background-color: var(--bg-color);
+}
+
+.bg-light {
+  --bg-color: #fff;
 }
 
 img {
@@ -140,6 +144,7 @@ img {
   left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  filter: drop-shadow(0 0 0.5rem rgba(18, 224, 159, 0.1));
 }
 
 .wrapper {
@@ -156,7 +161,8 @@ img {
 }
 
 .brad,
-.button:not(.df):not(.db) {
+.button:not(.df):not(.db),
+.card {
   border-radius: var(--border-radius);
 }
 
@@ -184,18 +190,6 @@ hr[class*="hr"]:before {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
-}
-
-@media (min-width: 37.5em) {
-  .hidden-lg {
-    display: none;
-  }
-}
-
-@media (max-width: 37.49em) {
-  .hidden-sm {
-    display: none;
-  }
 }
 
 @font-face {
@@ -270,6 +264,7 @@ body {
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
+  filter: drop-shadow(0 0 0.25rem rgba(17, 17, 17, 0.1));
 }
 
 h1,
@@ -355,6 +350,10 @@ h2 {
   }
 }
 
+.margin-left {
+  margin-left: 1rem;
+}
+
 .margin-right {
   margin-right: 1rem;
 }
@@ -385,11 +384,12 @@ a {
 a:not(.inert):before {
   content: "";
   position: absolute;
-  left: -100%;
+  left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: linear-gradient(to right, rgba(18, 224, 159, 0.25) 50%, transparent 50%);
+  opacity: 0;
+  background-color: rgba(18, 224, 159, 0.25);
   z-index: -1;
 }
 
@@ -457,6 +457,36 @@ ul ul {
   color: var(--color-light);
 }
 
+header nav {
+  position: relative;
+}
+
+header nav .skip-link {
+  position: absolute;
+  top: .25rem;
+  right: .25rem;
+  bottom: .25rem;
+  left: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+header nav .skip-link:not(:focus) {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+  z-index: -1;
+}
+
 header nav > ul {
   display: flex;
   justify-content: center;
@@ -492,6 +522,11 @@ header nav > ul ul {
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
   }
+}
+
+.card {
+  overflow: hidden;
+  filter: drop-shadow(0 0 0.25rem rgba(18, 224, 159, 0.1));
 }
 
 .grid {
