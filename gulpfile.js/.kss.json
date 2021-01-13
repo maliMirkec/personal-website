@@ -1,7 +1,8 @@
 {
-  "title": "Starter Project",
+  "title": "SB",
   "source": "helpers.source",
   "destination": "helpers.dist/config.kss.dist/",
+  "homepage": "helpers.source/config.css.src/styleguide.md",
   "css": [
     "/config.css.dist/style.css"
   ],

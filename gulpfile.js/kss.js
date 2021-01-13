@@ -14,6 +14,7 @@ const thisKssConfig = {
   ...kssConfig,
   source: helpers.parse(kssConfig.source),
   destination: helpers.parse(kssConfig.destination),
+  homepage: helpers.parse(kssConfig.homepage),
   css: thisCss,
   js: thisJs,
 };
