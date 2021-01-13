@@ -1,0 +1,49 @@
+{
+  "logo": {
+    "href": "/",
+    "src": "/gfx/svg/logo-2021.svg",
+    "src2": "/gfx/svg/logo.svg",
+    "title": "Silvestar Bistrović"
+  },
+  "menu": [{
+    "href": "/portfolio/",
+    "title": "Portfolio",
+    "list": [{
+      "href": "/side-projects/",
+      "title": "Side Projects"
+    }, {
+      "href": "/testimonials/",
+      "title": "Testimonials"
+    }]
+  }, {
+    "href": "/articles/",
+    "title": "Blog",
+    "list": [{
+      "href": "/publications/",
+      "title": "Publications"
+    }, {
+      "href": "https://mentor.silvestar.codes/reads#newsletter",
+      "title": "UI Dev Newsletter"
+    }]
+  }, {
+    "href": "/links/",
+    "title": "Links",
+    "list": [{
+      "href": "/mentoring/",
+      "title": "Mentoring"
+    }, {
+      "href": "/uses/",
+      "title": "Uses"
+    }]
+  }, {
+    "href": "/about/",
+    "title": "About",
+    "list": [{
+      "href": "/contact/",
+      "title": "Contact"
+    }, {
+      "href": "/services/",
+      "title": "Services"
+    }]
+  }]
+}

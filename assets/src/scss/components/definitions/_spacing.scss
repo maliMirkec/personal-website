@@ -1,0 +1,77 @@
+// Spacing
+//
+// Markup: _spacing.html
+//
+// Weight: 400
+//
+// Styleguide Spacing
+
+
+.padding {
+  padding: #{$space};
+}
+
+.margin {
+  margin: #{$space};
+}
+
+.margin-top {
+  margin-top: #{$space};
+}
+
+.margin-bottom {
+  margin-bottom: #{$space};
+}
+
+.margin-top-alpha {
+  margin-top: #{$space * 2};
+
+  @include mq($from: bp1) {
+    margin-top: #{$space * 5};
+  }
+}
+
+.margin-bottom-alpha {
+  margin-bottom: #{$space * 2};
+
+  @include mq($from: bp1) {
+    margin-bottom: #{$space * 5};
+  }
+}
+
+.margin-left {
+  margin-left: #{$space};
+}
+
+.margin-right {
+  margin-right: #{$space};
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-margin {
+  margin: 0;
+}

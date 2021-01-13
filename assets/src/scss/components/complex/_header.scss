@@ -1,0 +1,88 @@
+// Header
+//
+// Markup: _header.html
+//
+// Weight: 1000
+//
+// Styleguide Header
+
+header,
+footer {
+  nav {
+    position: relative;
+
+    .skip-link {
+      position: absolute;
+      top: .25rem;
+      right: .25rem;
+      bottom: .25rem;
+      left: .25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+
+      &:not(:focus) {
+        display: block;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(1px);
+        white-space: nowrap;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+
+    > ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+    }
+  }
+}
+
+@include mq($until: bp1) {
+  header {
+    nav {
+      text-align: center;
+
+      a {
+        white-space: nowrap;
+      }
+
+      > ul {
+        flex-wrap: wrap;
+
+        > li {
+          &:first-child {
+            flex: 1 1 100%;
+
+            img {
+              margin: auto;
+            }
+          }
+
+          &:not(:first-child) {
+            flex: 1 0 150px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    nav {
+      ul {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

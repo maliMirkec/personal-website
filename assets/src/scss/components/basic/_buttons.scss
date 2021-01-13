@@ -1,0 +1,84 @@
+// Buttons
+//
+// Markup: _buttons.html
+//
+// :hover - Hover.
+// :focus - Focus.
+// :focus:active - Active.
+// .button--small - Small.
+// .button--inverse - Inverse.
+//
+// Weight: 800
+//
+// Styleguide Buttons
+
+.button {
+  @extend .fw-bold;
+  @extend .ttuc;
+  @extend .lsp;
+  background-color: var(--color-alpha);
+  color: var(--color-dark);
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  font-size: var(--fz-step-0);
+  line-height: 1.66;
+  min-height: 3em;
+  padding: .25em 2em;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  transition: background-color var(--duration2), color var(--duration2);
+
+  &:not(.df):not(.db) {
+    @extend .brad;
+    display: inline-flex;
+    margin: .125em;
+  }
+
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+
+  &[href] {
+    text-decoration: none;
+  }
+
+  &[href],
+  &[type] {
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-dark);
+      color: var(--color-alpha);
+      transition: background-color var(--duration), color var(--duration);
+    }
+
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+    }
+  }
+}
+
+.button--small {
+  font-size: var(--step--1);
+  padding: .125em 1em;
+  min-height: 1.75em;
+}
+
+.button--inverse {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+
+  &[href],
+  &[type] {
+    &:hover,
+    &:focus {
+      background-color: var(--color-alpha);
+      color: var(--color-dark);
+    }
+  }
+}

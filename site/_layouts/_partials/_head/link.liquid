@@ -1,0 +1,25 @@
+
+<link href="https://res.cloudinary.com/" rel="dns-prefetch">
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="dns-prefetch">
+<link href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link href="https://res.cloudinary.com/" rel="preconnect" crossorigin>
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="preconnect" crossorigin>
+<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+{% if type == "home" %}
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+{% endif %}
+
+{% if thumbnail %}
+  <link href="{{ thumbnail | cldnrysrc }}" rel="preload" crossorigin as="image">
+{% endif %}
+
+<link href="/css/style.min.css" rel="preload" crossorigin as="style">
+<link href="/fonts/Barlow/Barlow-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">

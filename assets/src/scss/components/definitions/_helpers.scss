@@ -1,0 +1,121 @@
+// Helpers
+//
+// Markup: _helpers.html
+//
+// Weight: 500
+//
+// Styleguide Helpers
+
+@function strip-unit($value) {
+  @return #{$value / ($value * 0 + 1)};
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.pic {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+  svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    filter: drop-shadow(0 0 .5rem #{transparentize($color-alpha, .9)});
+
+    &:not([src]) {
+      display: none;
+    }
+  }
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+  &:not([class*="wrapper-"]) {
+    max-width: calc(var(--bp) + 2rem);
+  }
+}
+
+.wrapper--alpha {
+  max-width: calc(var(--bp3) + 2rem);
+}
+
+.brad {
+  border-radius: var(--border-radius);
+}
+
+.db {
+  display: block;
+}
+
+.df {
+  display: flex;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+hr {
+  &:not([class*="hr"]) {
+    background-color: currentColor;
+    border: 0;
+    height: 1px;
+  }
+
+  &[class*="hr"] {
+    border: 0;
+    max-height: 0;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &:before {
+      content: "★";
+      font-size: .5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
+    }
+  }
+}
+
+p {
+  &:empty {
+    display: none;
+  }
+}
+
+@include mq($from: bp1) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@include mq($until: bp1) {
+  .hidden-sm {
+    display: none;
+  }
+}

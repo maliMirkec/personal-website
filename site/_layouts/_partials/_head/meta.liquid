@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+{% if canonical %}
+  <link rel="canonical" href="{{ canonical }}">
+{% elsif page.url %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% endif %}
+<meta name="referrer" content="no-referrer">
+{% if tags and tags[0] == 'blog' and site.author %}
+  <meta name="author" content="{{ site.author }}">
+{% endif %}
+{% if description %}
+  <meta name="description" content="{{ description }}">
+{% endif %}
+<title>{{ title }}</title>

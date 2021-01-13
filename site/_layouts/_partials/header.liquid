@@ -1,0 +1,34 @@
+{% if header %}
+  <header>
+    <nav>
+      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <ul class="list-style-none no-spacing">
+        {% if header.logo %}
+          <li class="margin-top">
+            <a class="db margin-left margin-right" href="{{ header.logo.href }}">
+              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
+            </a>
+          </li>
+        {% endif %}
+        {% if header.menu %}
+          {% for item in header.menu %}
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="{{ item.href }}">{{ item.title }}</a>
+                </li>
+                {% if item.list %}
+                  {% for subitem in item.list %}
+                    <li>
+                      <a href="{{ subitem.href }}">{{ subitem.title }}</a>
+                    </li>
+                  {% endfor %}
+                {% endif %}
+              </ul>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </nav>
+  </header>
+{% endif %}

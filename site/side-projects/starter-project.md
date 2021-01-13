@@ -1,0 +1,46 @@
+---
+layout: index
+title: Starter Project
+description: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
+type: side-projects-item
+tags:
+  - projects
+categories:
+  - starter
+  - gulp
+thumbnail: spro_aej3o2
+display: true
+date: 2020-01-04
+sections:
+  - type: hero-alpha
+    src: spro_aej3o2
+    alt: Screenshot of Starter Project website.
+    width: 815
+    height: 448
+    title: Starter Project
+    desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
+    tag:
+      href: /side-projects/
+      title: /Side Projects
+    cta:
+      href: //starter.silvestar.codes
+      title: Go to the Project ⇢
+    cta2:
+      href: /side-projects/
+      title: See other projects ⇢
+  - type: hero-beta
+    title: From Side Projects
+    desc: >-
+      Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
+  - type: cards-gamma
+    cta:
+      title: See project ⇢
+    filter: projects
+    exclude: true
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
+---

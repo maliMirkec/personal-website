@@ -1,0 +1,72 @@
+// Anchors
+//
+// Markup: _anchors.html
+//
+// :hover - Hover.
+// :focus - Focus.
+// :focus:active - Active.
+//
+// Weight: 600
+//
+// Styleguide Anchors
+
+a {
+  display: inline-flex;
+  border-radius: var(--border-radius);
+  color: currentColor;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+
+  &:not(.inert) {
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      opacity: 0;
+      transition: all var(--duration);
+      background-color: transparentize($color-alpha, .75);
+      z-index: -1;
+    }
+
+    &:hover,
+    &:focus {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.inert {
+    &:hover,
+    &:focus {
+      filter: drop-shadow(0 0 .5rem #{transparentize($color-alpha, .5)});
+    }
+  }
+
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+  }
+
+  .copy--body & {
+    &:not([class]) {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      display: inline;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}

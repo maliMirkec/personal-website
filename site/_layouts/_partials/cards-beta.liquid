@@ -1,0 +1,51 @@
+{% assign card2List = collections[cards2.filter] %}
+{% assign i2 = 1 %}
+
+{% if card2List %}
+  <section id="{{ cards2.filter }}" class="margin-top-alpha margin-bottom-alpha">
+    <div class="wrapper wrapper--alpha grid padding">
+      {% for card2 in card2List %}
+        {% if cards2.limit and i2 > cards2.limit %}
+          {% break %}
+        {% endif %}
+        {% unless cards2.exclude == 'true' or title == card2.data.title %}
+          <div class="card bg-light">
+            <blockquote cite="{{ card2.url }}">
+              {% if card2.data.title %}
+                <header class="padding no-padding-bottom copy">
+                  <p class="fz-step--1">{{ card2.data.title }}{% if card2.data.position %}, {{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %} said:</p>
+                </header>
+              {% endif %}
+              {% if card2.template.frontMatter.content %}
+                <main class="padding copy fs-italic">{{ card2.template.frontMatter.content | markdownify }}</main>
+              {% endif %}
+              {% if cards2.cta %}
+                <footer>
+                  <a class="button df padding" href="{{ card2.url }}">{{ cards2.cta.title }}</a>
+                </footer>
+              {% endif %}
+            </blockquote>
+          </div>
+          {% assign i2 = i2 | plus: 1 %}
+        {% endunless %}
+      {% endfor %}
+      {% if cards2.desc %}
+        <div class="card card--flex text-center padding">
+          <div class="margin-auto">
+            <div class="copy">{{ cards2.desc | markdownify }}</div>
+            {% if cards2.cta2 %}
+              <div class="margin-top">
+                <a class="button" href="{{ cards2.cta2.href }}">{{ cards2.cta2.title }}</a>
+              </div>
+            {% endif %}
+            {% if cards2.cta3 %}
+              <div class="margin-top">
+                <a href="{{ cards2.cta3.href }}">{{ cards2.cta3.title }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}

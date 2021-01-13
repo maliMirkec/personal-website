@@ -1,0 +1,184 @@
+{
+  "temp": "helpers.source/config.css.src/critical/",
+  "configs": [{
+    "src": "style.css",
+    "settings": {
+      "out": "testimonials-item.critical.css",
+      "url": "http://localhost:8080/testimonials/john-ganotis/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "testimonials.critical.css",
+      "url": "http://localhost:8080/testimonials/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "side-projects-item.critical.css",
+      "url": "http://localhost:8080/side-projects/css-auditors/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "side-projects.critical.css",
+      "url": "http://localhost:8080/side-projects/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "portfolio-item.critical.css",
+      "url": "http://localhost:8080/portfolio/westwing/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "portfolio.critical.css",
+      "url": "http://localhost:8080/portfolio/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "articles-item.critical.css",
+      "url": "http://localhost:8080/articles/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "articles.critical.css",
+      "url": "http://localhost:8080/articles/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "page.critical.css",
+      "url": "http://localhost:8080/contact/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "home.critical.css",
+      "url": "http://localhost:8080/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 3000,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+// Grid
+//
+// Markup: _grid.html
+//
+// Weight: 1500
+//
+// Styleguide Grid
+
+.grid {
+  display: grid;
+  grid-template-columns: var(--cols);
+  grid-gap: var(--gap);
+
+  @include mq($from: bp1) {
+    --cols: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+

@@ -1,0 +1,55 @@
+<section class="hero margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      {% if hero1.tag or categories %}
+        <div class="margin-bottom">
+          {% if hero1.tag %}
+            <a class="button button--small button--inverse" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
+          {% endif %}
+          {% if categories %}
+            {% for category in categories %}
+              <span class="button button--small button--inverse">{{ category }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if hero1.src %}
+        <div>
+          {% if hero1.width %}
+            {% assign hwidth = hero1.width %}
+          {% else %}
+            {% assign hwidth = "300" %}
+          {% endif %}
+          {% if hero1.height %}
+            {% assign hheight = hero1.height %}
+          {% else %}
+            {% assign hheight = "300" %}
+          {% endif %}
+          {% cldnry hero1.src hero1.alt hwidth hheight "margin-auto brad" %}
+        </div>
+      {% endif %}
+      {% if hero1.title %}
+        <h1 class="fz-step-5 no-margin-top margin-bottom">{{ hero1.title | markdownifyi }}</h1>
+      {% endif %}
+      {% if hero1.desc %}
+        <div class="fz-step-1 copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc | markdownify }}</div>
+      {% endif %}
+      {% if hero1.subtitle %}
+        <h2 class="fz-step-2 margin-top margin-bottom{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
+      {% endif %}
+      {% if hero1.desc2 %}
+        <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
+      {% endif %}
+      {% if hero1.cta %}
+        <div class="margin-top">
+          <a class="button" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
+        </div>
+      {% endif %}
+      {% if hero1.cta2 %}
+        <div class="margin-top">
+          <a href="{{ hero1.cta2.href }}">{{ hero1.cta2.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

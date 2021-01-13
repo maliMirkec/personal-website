@@ -1,0 +1,17 @@
+if(comments and theme and <theme class="widge"></theme>ts and theme.widgets.disqus and theme.widgets.disqus.shortname)
+  script.
+    var shortname = '#{theme.widgets.disqus.shortname}';
+
+    var disqus_config = function () {
+      this.url = '#{permalink}';  // Replace PAGE_URL with your page's canonical URL variable
+      this.identifier = '#{permalink}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      var type = #{comments} ? 'embed.js' : 'count.js';
+      dsq.src = '//' + shortname + '.disqus.com/' + type;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
