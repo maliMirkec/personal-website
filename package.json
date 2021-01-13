@@ -28,9 +28,9 @@
     "build": "yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
     "deploy": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",

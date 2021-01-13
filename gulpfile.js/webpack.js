@@ -4,8 +4,7 @@ const path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    cldnry: helpers.parse('helpers.source/config.js.src/cldnry.js'),
-    cldnry2: helpers.parse('helpers.source/config.js.src/cldnry2.js')
+    cldnry: helpers.parse('helpers.source/config.js.src/cldnry.js')
   },
   output: {
     path: path.resolve(`${__dirname}/${helpers.parse('helpers.dist/config.js.dist/')}`),
