@@ -1,5 +1,3 @@
 node_modules
-public
-assets/dist
 .env
 .vscode

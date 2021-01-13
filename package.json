@@ -24,7 +24,7 @@
     "cp_robots-dev": "cp extras/robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp extras/robots_prod.txt public/robots.txt",
     "dev": "gulp & npx @11ty/eleventy --serve",
-    "build": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
+    "build": "yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
     "deploy": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
   "dependencies": {
