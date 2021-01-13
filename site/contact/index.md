@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Contact Me
-description: Feel free to contact me. I am always open for a new discussion or a potential collaboration.
+description: Feel free to contact Silvestar. He is a fearless web developer who enjoys to write HTML,CSS, and JavaScript code.
 sections:
   - type: hero-alpha
     title: Contact me

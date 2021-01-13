@@ -20,9 +20,9 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 ## Hardware
 
 - [MacBook Pro 15" 2017](https://support.apple.com/kb/SP756?locale=en_US)
-- Magic Trackpad 2
-- Magic Mouse 2
-- Magic keyboard
+- [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
+- [Magic Mouse 2](https://www.apple.com/shop/product/MLA02LL/A/magic-mouse-2-silver)
+- [Magic keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english?fnode=0cfc2a3754d65c71f0b6e664ca7ea04bb2073289cb73126f30760cb20946cdf48f0ba25d1ec9777c8fe5822530d32ccf598a93d9e34f40a56813a555a9c79ea4e0f8aed792894c5197cd5b130601071626d21bb9f30097227a81a393e10f854b7e4fa26215cc6b4af3befb5bdee2b4b9)
 - [Logitech M570 Wireless Trackball](https://www.logitech.com/en-us/product/wireless-trackball-m570)
 - 2 x [Dell S2716DG 27''](https://www.dell.com/en-us/shop/dell-27-gaming-monitor-s2716dg/apd/210-agjr/monitors-monitor-accessories)
 - [Arctic Z2 Pro](https://www.arctic.ac/eu_en/z-2-pro.html)
@@ -42,7 +42,7 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [Choosy](https://www.choosyosx.com/)
 - [CleanMyMac 3](https://macpaw.com/cleanmymac)
 - [coconutBattery 3](https://www.coconut-flavour.com/coconutbattery/)
-- [Chrome](https://www.google.com/chrome/)
+- [Brave](https://brave.com/)
 - [Deezer](https://deezer.com/)
 - [f.lux](https://justgetflux.com/)
 - [FileZilla](https://filezilla-project.org/)
@@ -94,11 +94,11 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
-- [CSS Peek]
+- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 - [Cyberpunk+ theme](https://marketplace.visualstudio.com/items?itemName=jbelford.cyberpunk-plus)
 - [Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-- [Error Lens]
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [GistPad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
 - [Git Merger](https://marketplace.visualstudio.com/items?itemName=shaharkazaz.git-merger)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -106,24 +106,24 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator)
-- [Insert Unicode]
-- [JavaScript Booster]
+- [Insert Unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode)
+- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
 - [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Live Reload]
-- [Markdown Checkboxes]
+- [LiveReload](https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload)
+- [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
 - [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
-- [Path Intellisense]
-- [PHP Intelephense]
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 - [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
 - [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
-- [Prettier - Code formatter]
-- [Prettify JSON]
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
-- [Shopify Liquid Template Snippets]
+- [Shopify Liquid Template Snippets](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets)
 - [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
@@ -132,23 +132,18 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 
 ## Browser Extensions
 
-- [Allow-Control-Allow-Origin: *]
 - [Always Clear Downloads 2](https://chrome.google.com/webstore/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn)
 - [Buffer](https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh)
 - [Code Line Daily ♥️](https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg)
-- [Emoji Keyboard - Emojis for Chrome]
+- [Emoji Keyboard - Emojis for Chrome](https://chrome.google.com/webstore/detail/emoji-keyboard-emojis-for/fbcgkphadgmbalmlklhbdagcicajenei)
 - [Grammarly for Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
-- [Headless Recorder]
 - [Inspect Canonical](https://chrome.google.com/webstore/detail/inspect-canonical/glkngfenfpegejlggjfcmdobodjlfann)
-- [Keywords Everywhere - Keyword Tool]
+- [Keywords Everywhere - Keyword Tool](https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp)
 - [Loom for Chrome](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb)
-- [Meetingbird](https://chrome.google.com/webstore/detail/meetingbird-calendar-and/joheckceackgilmpkgcihjfgggbnejcg)
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-- [Open Graph Preview]
-- [SEO Minion]
-- [Station]
-- [The Great Suspender]
-- [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc)
+- [Open Graph Preview](https://chrome.google.com/webstore/detail/open-graph-preview/ehaigphokkgebnmdiicabhjhddkaekgh)
+- [SEO Minion](https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi)
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
 - [WakaTime](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi)
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 - [Workona](https://chrome.google.com/webstore/detail/workona/ailcmbgekjpnablpdkmaaccecekgdhlh)

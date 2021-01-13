@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Links
-description: Here you could find links to all my profiles and projects.
+description: Here are Silvestar's links and profiles from all over the web, from social networks to projects and publications.
 sections:
   - type: hero-alpha
     title: Around the web

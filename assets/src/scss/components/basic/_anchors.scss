@@ -20,26 +20,33 @@ a {
   outline: none;
 
   &:not(.inert) {
-    &:before {
+    &:before {
       content: "";
       position: absolute;
-      left: -100%;
+      left: 0;
       right: 0;
       top: 0;
       bottom: 0;
-      background-image: linear-gradient(to right, #{transparentize($color-alpha, .75)} 50%, transparent 50%);
-      transition: transform var(--duration2);
+      opacity: 0;
+      transition: all var(--duration);
+      background-color: transparentize($color-alpha, .75);
       z-index: -1;
     }
 
-    &:hover {
-      &:before {
-        transform: translateX(50%);
-        transition: transform var(--duration);
+    &:hover,
+    &:focus {
+      &:before {
+        opacity: 1;
       }
     }
   }
 
+  &.inert {
+    &:hover,
+    &:focus {
+      filter: drop-shadow(0 0 .5rem #{transparentize($color-alpha, .5)});
+    }
+  }
 
   &:focus,
   &:active {
@@ -52,14 +59,8 @@ a {
       text-decoration-thickness: 2px;
       display: inline;
 
-      &:before {
-        content: none;
-      }
-
       &:hover {
         text-decoration: none;
-        background-color: var(--color-alpha);
-        transition: all var(--duration);
       }
 
       &:focus,

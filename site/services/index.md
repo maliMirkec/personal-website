@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Services
-description: I have been working with web technologies since 2011. During this period, I acquired a certain set of skills for building better websites.
+description: Silvestar have been working with web technologies since 2011. During this period, he acquired a certain set of skills for building better websites.
 sections:
   - type: hero-alpha
     title: Services I provide

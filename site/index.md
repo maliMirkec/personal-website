@@ -1,6 +1,7 @@
 ---
 layout: index
 title: SB
+description: Silvestar is building modern, responsive and optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
 type: home
 sections:
   - type: hero-alpha
@@ -31,7 +32,7 @@ sections:
   - type: hero-beta
     title: From the Portfolio
     desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, amongst others.
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
     desc: Do you want to work with me?
     cta:

@@ -16,6 +16,7 @@ body {
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
+  filter: drop-shadow(0 0 .25rem #{transparentize($color-dark, .9)});
 }
 
 ::selection {

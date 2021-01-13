@@ -10,12 +10,6 @@
   @return #{$value / ($value * 0 + 1)};
 }
 
-main {
-  &:not(.kss-main) {
-    filter: drop-shadow(0 0 .5rem #{transparentize($color-dark, .9)});
-  }
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -45,6 +39,7 @@ img {
     left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    filter: drop-shadow(0 0 .5rem #{transparentize($color-alpha, .9)});
 
     &:not([src]) {
       display: none;

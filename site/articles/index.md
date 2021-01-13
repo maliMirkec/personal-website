@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Blog
+description: Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.
 sections:
   - type: hero-beta
     title: From the Blog
@@ -8,7 +9,7 @@ sections:
       Here are the latest posts from my blog.
 
 
-      I cover mostly Frontend, JAMstack, WordPress, and freelancing topics.
+      I cover mostly frontend, JAMstack, WordPress, and freelancing topics.
     banner:
       desc: Did you know that I write **UI Dev Newletter**?
       cta:

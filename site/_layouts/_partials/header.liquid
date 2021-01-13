@@ -1,12 +1,12 @@
 {% if header %}
   <header>
     <nav>
+      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
       <ul class="list-style-none no-spacing">
         {% if header.logo %}
           <li class="margin-top">
-            <a class="db margin-right" href="{{ header.logo.href }}">
-              <img class="hidden-sm" src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
-              <img class="hidden-lg" src="{{ header.logo.src2 }}" alt="{{ header.logo.title }}" width="40" height="40">
+            <a class="db margin-left margin-right" href="{{ header.logo.href }}">
+              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
             </a>
           </li>
         {% endif %}

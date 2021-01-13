@@ -35,9 +35,9 @@ $space: $space-default * $space-factor;
 $brad: .1rem;
 
 // Transitions
-$duration: .33s;
+$duration: .3s;
 $duration2: $duration / 2;
-$delay: .166s;
+$delay: $duration / 2;
 
 // Grid
 $cols: repeat(auto-fill, minmax(400px, 1fr));
