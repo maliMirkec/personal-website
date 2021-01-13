@@ -26,7 +26,7 @@
     "dev": "gulp & npx @11ty/eleventy --serve",
     "prebuild": "gulp build && npx @11ty/eleventy",
     "build": "yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
-    "deploy": "gulp build && npx @11ty/eleventy && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
+    "deploy": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
   "dependencies": {
     "cloudinary-core": "^2.10.3"
