@@ -26,8 +26,8 @@
     "critical": "concurrently --kill-others \"npx @11ty/eleventy --serve\" \"gulp build\"",
     "dev": "npx @11ty/eleventy --serve & gulp dev",
     "prebuild": "gulp build && npx @11ty/eleventy",
-    "build": "yarn prebuild && yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
-    "deploy": "yarn prebuild && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
+    "build": "npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
+    "deploy": "npm run cp_redirects && npm run cp_headers && npm run cp_robots-prod"
   },
   "dependencies": {
     "cloudinary-core": "^2.10.3",
