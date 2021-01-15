@@ -739,10 +739,10 @@ a {
     z-index: -1; }
   a:not(.inert):hover:before, a:not(.inert):focus :before {
     opacity: 1; }
+  a:not(.inert):focus, a:not(.inert):active {
+    box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
   a.inert:hover, a.inert:focus {
     filter: drop-shadow(0 0 0.5rem rgba(18, 224, 159, 0.5)); }
-  a:focus, a:active {
-    box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
   .copy--body a:not([class]) {
     text-decoration: underline;
     text-decoration-thickness: 2px;

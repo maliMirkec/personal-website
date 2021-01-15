@@ -1,7 +1,4 @@
 {% assign card1List = collections[cards1.filter] %}
-{% unless cards1.limit %}
-  {% assign card1List = card1List | reverse %}
-{% endunless %}
 {% assign i1 = 1 %}
 
 {% if card1List %}

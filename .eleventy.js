@@ -5,9 +5,9 @@ const markdownItRenderer = new markdownIt()
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str))
+  eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str.trim()))
 
-  eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str))
+  eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str.trim()))
 
   eleventyConfig.addLiquidFilter('cldnrysrc', (name) => `https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/${ name }`)
 
