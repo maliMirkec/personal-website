@@ -9,6 +9,7 @@ categories:
   - remote work
 thumbnail: My_Third_Year_Of_Freelancing_ency0u
 description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

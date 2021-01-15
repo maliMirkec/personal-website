@@ -1,16 +1,15 @@
 ---
 layout: index
-title: Blog
-description: Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.
+title: Publications
 type: articles
 sections:
   - type: hero-beta
-    title: From the Blog
+    title: From Publications
     desc: >-
-      Here are the latest posts from my blog.
+      Here are the posts that I wrote for some prominent publications.
 
 
-      I cover mostly frontend, JAMstack, WordPress, and freelancing topics.
+      I wrote for CSS Tricks, LogRocket, and Toptal.
     banner:
       desc: Did you know that I write **UI Dev Newletter**?
       cta:
@@ -19,7 +18,7 @@ sections:
   - type: cards-alpha
     cta:
       title: Read more ⇢
-    filter: blog
+    filter: publications
     sorter: date
   - type: banner-alpha
     title: I am _available_ for a new project.

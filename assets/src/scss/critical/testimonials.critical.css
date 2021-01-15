@@ -255,6 +255,10 @@ h2 {
   --font-size: var(--step--1);
 }
 
+[class*="fz-step-4"] {
+  --font-size: var(--step-4);
+}
+
 [class*="fz-step-5"] {
   --font-size: var(--step-5);
 }

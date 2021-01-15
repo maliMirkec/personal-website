@@ -12,6 +12,7 @@ publication: Remote Work Hub
 canonical: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 thumbnail: Interview_for_Remote_Working_Hub_hngeel
 description: "Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not."
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.
@@ -20,8 +21,6 @@ sections2:
       href: /contact/
       title: Hire me ⇢
 ---
-
-_This article was originally published on [Remote Working Hub](https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/)._
 
 Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not.
 

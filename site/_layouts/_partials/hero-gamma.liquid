@@ -2,14 +2,14 @@
   <div class="wrapper text-center">
     <div class="padding">
       <div class="margin-bottom">
-        <a class="button button--small button--inverse" href="/articles/">/Blog</a>
-        {% if date %}
-          <span class="button button--small button--inverse">{{ date | date: '%Y-%m-%d' }}</span>
-        {% endif %}
+        <a class="button button--small" href="/articles/">/Blog</a>
         {% if categories %}
           {% for category in categories %}
             <span class="button button--small button--inverse">{{ category }}</span>
           {% endfor %}
+        {% endif %}
+        {% if date %}
+          <span class="button button--small button--outline">{{ date | date: '%Y-%m-%d' }}</span>
         {% endif %}
       </div>
       {% if title %}

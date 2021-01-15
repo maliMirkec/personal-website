@@ -9,6 +9,7 @@ categories:
 thumbnail: Classily.js_-_Toggling_classes_more_classily_qarsp1
 date: 2017-11-28 10:28:28
 description: I created a JavaScript plugin for toggling classes more classily, and I called it Classily.js. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

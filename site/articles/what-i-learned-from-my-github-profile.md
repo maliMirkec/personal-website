@@ -9,6 +9,7 @@ categories:
   - remote work
 thumbnail: What_I_learned_from_my_GitHub_profile_t126k2
 description: GitHub profile is often recognised as a developer's portfolio. It reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

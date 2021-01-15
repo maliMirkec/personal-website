@@ -9,6 +9,7 @@ categories:
 date: 2016-10-07 19:01:40
 thumbnail: How_to_make_tabs_using_only_CSS_jfkvko
 description: "I know there are more than a few articles about this topic. And there are 2 basic approaches: using target pseudo selector and using list with checked pseudo selector."
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

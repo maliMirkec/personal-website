@@ -33,10 +33,15 @@ a {
   background-color: transparent;
 }
 
+strong {
+  font-weight: bolder;
+}
+
 img {
   border-style: none;
 }
 
+button,
 input,
 textarea {
   font-family: inherit;
@@ -49,9 +54,31 @@ textarea {
   /* 2 */
 }
 
+button,
 input {
   /* 1 */
   overflow: visible;
+}
+
+button {
+  /* 1 */
+  text-transform: none;
+}
+
+button,
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
 }
 
 textarea {
@@ -276,12 +303,20 @@ h3 {
   font-size: var(--font-size);
 }
 
+[class*="fz-step--1"] {
+  --font-size: var(--step--1);
+}
+
 [class*="fz-step-1"] {
   --font-size: var(--step-1);
 }
 
 [class*="fz-step-2"] {
   --font-size: var(--step-2);
+}
+
+[class*="fz-step-4"] {
+  --font-size: var(--step-4);
 }
 
 [class*="fz-step-5"] {
@@ -344,6 +379,10 @@ h3 {
 
 .margin-right {
   margin-right: 1rem;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .no-spacing {
@@ -455,7 +494,8 @@ ul ul {
   width: 100%;
 }
 
-header nav {
+header nav,
+footer nav {
   position: relative;
 }
 
@@ -485,7 +525,8 @@ header nav .skip-link:not(:focus) {
   z-index: -1;
 }
 
-header nav > ul {
+header nav > ul,
+footer nav > ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -519,6 +560,10 @@ header nav > ul ul {
 
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
+  }
+
+  footer nav ul {
+    flex-wrap: wrap;
   }
 }
 

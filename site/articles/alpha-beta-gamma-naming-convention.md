@@ -9,6 +9,7 @@ categories:
   - BEM
 thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m
 description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

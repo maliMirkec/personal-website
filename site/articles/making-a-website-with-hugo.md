@@ -13,6 +13,7 @@ description: Other than it is “the world’s fastest framework for building we
 project:
   name: Hugo
   href: https://hugo.silvestar.codes
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

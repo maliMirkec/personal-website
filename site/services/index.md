@@ -6,6 +6,7 @@ sections:
   - type: hero-alpha
     title: Services I provide
     desc: I have been working with web technologies **since 2011**. During this period, I acquired a certain set of skills for building websites.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

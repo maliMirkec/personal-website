@@ -8,6 +8,7 @@ categories:
 date: 2017-01-07 21:54:57
 thumbnail: Recursively_includible_Angular_directive_polzka
 description: I've been working on a complex Angular CRUD-ish project recently and one of the requirements was to create a form based on an MVC model. I've created a directive that could generate a form for every complex model.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

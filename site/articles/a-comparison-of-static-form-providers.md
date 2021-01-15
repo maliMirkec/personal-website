@@ -13,6 +13,7 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
 thumbnail: A_Comparison_of_Static_Form_Providers_efatgg
 description: Static Form Providers do all tasks like validating, storing, sending notifications, and integrating with other APIs. Read the review of the most popular static form providers.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.
@@ -21,8 +22,6 @@ sections2:
       href: /contact/
       title: Hire me ⇢
 ---
-
-_This article was originally published on [CSS-Tricks](https://css-tricks.com/a-comparison-of-static-form-providers/)._
 
 Let’s attempt to coin a term here: "Static Form Provider." You bring your HTML `<form>`, but don’t worry about the back-end processing that makes it work. [There are a lot of these services out there!](https://serverless.css-tricks.com/services/forms)
 

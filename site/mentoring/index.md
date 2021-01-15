@@ -10,6 +10,7 @@ sections:
 
 
       **The program is suspended due to full capacity.**
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

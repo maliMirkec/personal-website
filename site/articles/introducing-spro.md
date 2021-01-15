@@ -12,6 +12,7 @@ description: "SPRO, or Starter Project CLI, is the best starting point for your 
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

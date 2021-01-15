@@ -23,6 +23,7 @@ sections:
       title: Go to all articles ⇢
     filter: blog
     sorter: date
+    exclude: publications
     limit: 5
   - type: banner-beta
     desc: Did you know that I write **UI Dev Newletter**?

@@ -271,7 +271,8 @@ body:not([id*="kss"]) {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 600;
@@ -285,6 +286,10 @@ h2 {
   font-size: var(--step-5);
 }
 
+h3 {
+  font-size: var(--step-4);
+}
+
 [class*="fz-step-"] {
   font-size: var(--font-size);
 }
@@ -295,6 +300,10 @@ h2 {
 
 [class*="fz-step-2"] {
   --font-size: var(--step-2);
+}
+
+[class*="fz-step-3"] {
+  --font-size: var(--step-3);
 }
 
 [class*="fz-step-5"] {
@@ -372,6 +381,10 @@ h2 {
 
 .no-margin-top {
   margin-top: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
 }
 
 a {

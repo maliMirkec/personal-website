@@ -9,6 +9,7 @@ categories:
   - remote work
 thumbnail: 2019_Lookback_a69k2x
 description: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

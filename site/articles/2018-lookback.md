@@ -9,6 +9,7 @@ categories:
   - remote work
 thumbnail: 2018_Lookback_nrqris
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

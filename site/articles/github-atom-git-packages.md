@@ -9,6 +9,7 @@ categories:
 date: 2016-08-22 20:21:37
 thumbnail: Github_Atom_Git_packages_s0tziy
 description: Developers often rely on a version control system and one of the most popular is Git.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

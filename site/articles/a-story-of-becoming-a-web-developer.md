@@ -12,6 +12,7 @@ description: Let me tell you a story about Silvestar, a fellow who learned how t
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

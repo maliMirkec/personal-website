@@ -6,6 +6,7 @@ sections:
   - type: hero-alpha
     title: I am available for hire
     desc: If you want me on your team, you should send me an email at [me@silvestar.codes](mailto:me@silvestar.codes). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and services that I could provide.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

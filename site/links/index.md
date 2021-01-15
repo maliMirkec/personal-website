@@ -6,6 +6,7 @@ sections:
   - type: hero-alpha
     title: Around the web
     desc: Here are my links and profiles from all over the web, from social networks to projects and publications.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

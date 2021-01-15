@@ -9,6 +9,7 @@ sections:
     cta:
       href: "#form"
       title: Fill the form ⇢
+type: articles-item
 sections2:
   - type: contact
     title: Fill the form

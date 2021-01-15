@@ -12,6 +12,7 @@ description: If you are a beginner, where would you begin these days? I got some
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

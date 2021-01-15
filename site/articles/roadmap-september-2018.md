@@ -9,6 +9,7 @@ categories:
   - remote work
 thumbnail: Roadmap_September_2018_njrqcl
 description: I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

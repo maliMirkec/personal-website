@@ -8,6 +8,7 @@ categories:
 date: 2016-08-19 16:14:04
 thumbnail: First_steps_with_Github_Atom_tessgb
 description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

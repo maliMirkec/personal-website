@@ -18,8 +18,6 @@ thumbnail: Overview_of_Popular_Static_Site_Generators_fpv8q9
 description: There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.
 ---
 
-_This article was originally published on [Toptal Blog](https://www.toptal.com/front-end/static-site-generators-comparison-2018)._
-
 All static page generators have a single and seemingly straightforward task: to produce a static HTML file and all its assets.
 
 There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.

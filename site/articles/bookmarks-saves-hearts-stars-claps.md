@@ -8,6 +8,7 @@ categories:
   - productivity
 thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_hnn9hc
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

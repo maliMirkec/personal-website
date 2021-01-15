@@ -12,6 +12,7 @@ description: I have decided to give it a shot with a brand new mentoring program
 project:
   name: Mentoring
   href: https://mentor.silvestar.codes/
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

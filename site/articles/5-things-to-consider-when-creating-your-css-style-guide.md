@@ -12,6 +12,7 @@ publication: LogRocket
 canonical: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
 thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide_agkuxa
 description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.
@@ -20,8 +21,6 @@ sections2:
       href: /contact/
       title: Hire me ⇢
 ---
-
-_This article was originally published on [LogRocket Blog](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d)._
 
 A CSS style guide is a set of standards and rules on how to use and write CSS code. It often contains global branding definitions like colors and typography and a set of reusable components for building a more consistent and maintainable project.
 

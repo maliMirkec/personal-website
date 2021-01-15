@@ -23,10 +23,11 @@
     "cp_cv": "cp extras/silvestar-bistrovic-cv.pdf public/silvestar-bistrovic-cv.pdf",
     "cp_robots-dev": "cp extras/robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp extras/robots_prod.txt public/robots.txt",
-    "dev": "gulp & npx @11ty/eleventy --serve",
+    "critical": "npx @11ty/eleventy --serve & gulp",
+    "dev": "npx @11ty/eleventy --serve & gulp",
     "prebuild": "gulp build && npx @11ty/eleventy",
-    "build": "yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
-    "deploy": "yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
+    "build": "yarn prebuild && yarn cp_redirects && yarn cp_headers && yarn cp_cv && yarn cp_robots-dev",
+    "deploy": "yarn prebuild && yarn cp_redirects && yarn cp_headers && yarn cp_robots-prod"
   },
   "dependencies": {
     "cloudinary-core": "^2.10.3"

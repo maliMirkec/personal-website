@@ -13,6 +13,7 @@ description: "Last week I released my side project: Code Line Daily. It is a qui
 project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

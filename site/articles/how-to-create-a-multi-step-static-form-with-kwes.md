@@ -13,6 +13,7 @@ publication: DEV
 canonical: https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp
 thumbnail: How_to_create_a_multi-step_form_the_easy_way_eas7lb
 description: "A multi-step form is a long-form that is broken into pieces. Learn how I add one to my site."
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

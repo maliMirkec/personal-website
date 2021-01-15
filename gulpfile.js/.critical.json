@@ -9,8 +9,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -27,8 +27,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -45,8 +45,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -63,8 +63,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -81,8 +81,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -99,8 +99,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -112,13 +112,13 @@
     "src": "style.css",
     "settings": {
       "out": "articles-item.critical.css",
-      "url": "http://localhost:8080/articles/?cache=1",
+      "url": "http://localhost:8080/articles/how-to-get-sticky-and-full-bleed-elements-to-play-well-together/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -135,8 +135,26 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "about.critical.css",
+      "url": "http://localhost:8080/about/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -153,8 +171,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {
@@ -171,8 +189,8 @@
       "height": 1800,
       "keepLargerMediaQueries": true,
       "strict": false,
-      "blockJSRequests": true,
-      "renderWaitTime": 3000,
+      "blockJSRequests": false,
+      "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
       "phantomJsOptions": {

@@ -9,6 +9,7 @@ categories:
 date: 2017-05-27 07:39:05
 thumbnail: _bem_-_WordPress_theme_with_BEM_methodology_z7onq3
 description: This is a post about building custom WordPress theme with BEM naming methodology.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

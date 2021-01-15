@@ -9,6 +9,7 @@ categories:
   - optimization
 thumbnail: Fixing_Google_Analytics_caching_issue_h0bhqx
 description: Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. My friend, the solution is here.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

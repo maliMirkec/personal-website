@@ -12,6 +12,7 @@ description: This article is the very first article in a series about Starter Pr
 project:
   name: Starter Project
   href: https://starter.silvestar.codes
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

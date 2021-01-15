@@ -16,6 +16,7 @@ description: Let’s have a look at how we can create a row of links that sorta 
 project:
   name: Playground
   href: https://play.silvestar.codes/ribbon/
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.
@@ -24,8 +25,6 @@ sections2:
       href: /contact/
       title: Hire me ⇢
 ---
-
-_This article was originally published on [CSS-Tricks](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)._
 
 Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.
 

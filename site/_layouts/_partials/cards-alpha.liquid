@@ -11,24 +11,28 @@
         {% if cards1.limit and i1 > cards1.limit %}
           {% break %}
         {% endif %}
+        {% if cards1.exclude %}
+          {% assign tags = card1.data.tags | join: ', ' %}
+          {% if tags contains cards1.exclude %}
+            {% continue %}
+          {% endif %}
+        {% endif %}
         <div class="card card--flex text-center bg-light">
           {% if card1.data.title %}
             <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="db margin-top" href="{{ card1.url }}">{{card1.data.title}}</a></h3>
           {% endif %}
           <div class="padding">
-            {% if card1.data.date %}
-              <div class="copy">
-                <p>Published: <time>{{ card1.data.date | date: "%Y-%m-%d" }}</time></p>
-              </div>
-            {% endif %}
             {% if card1.data.categories %}
               <div class="padding">
                 {% if card1.data.publication %}
-                  <a class="button button--small button--inverse" href="{{ card1.data.canonical }}">{{ card1.data.publication }}</a>
+                  <a class="button button--small" href="{{ card1.data.canonical }}">{{ card1.data.publication }} ⇢</a>
                 {% endif %}
                 {% for category in card1.data.categories %}
                   <span class="button button--small button--inverse">{{ category }}</span>
                 {% endfor %}
+                {% if card1.data.date %}
+                  <time class="button button--small button--outline">{{ card1.data.date | date: "%Y-%m-%d" }}</time>
+                {% endif %}
                 {% if cards1.cta %}
                   <div class="copy margin-top">{{ card1.data.description }}</div>
                 {% endif %}

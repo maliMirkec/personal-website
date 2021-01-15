@@ -14,6 +14,7 @@ publication: Toptal
 canonical: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11
 description: Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.
@@ -22,8 +23,6 @@ sections2:
       href: /contact/
       title: Hire me ⇢
 ---
-
-_This article was originally published on [Toptal Blog](https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers)._
 
 Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight, saving you and your users precious time and bandwidth. This increased efficiency is reflected in lower costs and, potentially, higher revenues.
 

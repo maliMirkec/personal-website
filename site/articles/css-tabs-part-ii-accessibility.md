@@ -10,6 +10,7 @@ categories:
 date: 2016-11-01 08:39:30
 thumbnail: CSS_tabs_part_II_Accessibility_io11di
 description: Recently I've been writing about CSS tabs. Topic was surprisingly popular, gaining several thousand users to my page. What was even more surprising were comments about accessibility. I decided to investigate a little bit more and add accessibility to my solution.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

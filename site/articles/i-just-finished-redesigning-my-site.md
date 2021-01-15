@@ -10,6 +10,7 @@ categories:
   - hexo
 thumbnail: I_just_finished_redesigning_my_site_oy6djs
 description: "During the last week, I have been working on redesigning my site. Read all about the changes."
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

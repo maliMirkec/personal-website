@@ -6,6 +6,7 @@ sections:
   - type: hero-alpha
     title: I am available for hire
     desc: If you hire me, you get a frontend developer that is most comfortable working with **HTML**, **CSS**, and **JavaScript**, but who is also comfortable working in different environments, from **WordPress** to **Shopify** to **Static Page Generators**.
+type: articles-item
 sections2:
   - type: banner-alpha
     title: I am _available_ for a new project.

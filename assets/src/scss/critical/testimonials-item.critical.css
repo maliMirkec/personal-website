@@ -178,6 +178,10 @@ img {
   display: block;
 }
 
+.df {
+  display: flex;
+}
+
 hr[class*="hr"] {
   border: 0;
   max-height: 0;
@@ -553,6 +557,10 @@ header nav > ul ul {
 
 .card blockquote main {
   flex: 1 1 100%;
+}
+
+.card blockquote footer {
+  margin-top: auto;
 }
 
 .grid {
