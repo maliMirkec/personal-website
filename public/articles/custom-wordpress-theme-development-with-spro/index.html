@@ -1,0 +1,588 @@
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="canonical" href="https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/">
+
+<meta name="referrer" content="no-referrer">
+
+  <meta name="author" content="Silvestar Bistrović">
+
+
+  <meta name="description" content="SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development.">
+
+<title>Custom WordPress Theme Development with SPRO</title>
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="Custom WordPress Theme Development with SPRO">
+
+
+
+  <meta property="og:url" content="https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/">
+
+
+  <meta property="og:site_name" content="Home of fearless web developer Silvestar Bistrović">
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Custom_WordPress_Theme_Development_with_SPRO_ypnnfh">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@malimirkeccita">
+  <meta name="twitter:creator" content="@malimirkeccita">
+  
+    <meta property="twitter:url" content="https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/">
+  
+  
+    <meta name="twitter:title" content="Custom WordPress Theme Development with SPRO">
+  
+  
+  
+    <meta property="twitter:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Custom_WordPress_Theme_Development_with_SPRO_ypnnfh">
+  
+
+
+  <meta name="fb:app_id" content="340933169673372">
+
+
+  <meta name="fb:admins" content="malimirkeccita">
+
+
+  <meta property="article:author" content="Silvestar Bistrović">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "@id": "https://www.silvestar.codes"
+      },
+      "headline": "Home of fearless web developer Silvestar Bistrović",
+      "image": [
+        "https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Custom_WordPress_Theme_Development_with_SPRO_ypnnfh"
+      ],
+      "datePublished": "2019-03-05",
+      "dateModified": "2019-03-05",
+      "author": {
+        "@type": "Person",
+        "name": "Silvestar Bistrović"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cita",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.cita.hr/favicon/android-chrome-192x192.png"
+        }
+      },
+      "description": ""
+    }
+  </script>
+
+<meta property="og:locale" content="en">
+<link rel="pingback" href="https://webmention.io/www.silvestar.codes/xmlrpc">
+<link rel="webmention" href="https://webmention.io/www.silvestar.codes/webmention">
+
+  
+<link href="https://res.cloudinary.com/" rel="dns-prefetch">
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="dns-prefetch">
+<link href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link href="https://res.cloudinary.com/" rel="preconnect" crossorigin>
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="preconnect" crossorigin>
+<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+
+
+  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Custom_WordPress_Theme_Development_with_SPRO_ypnnfh" rel="preload" crossorigin as="image">
+
+
+<link href="/css/style.min.css" rel="preload" crossorigin as="style">
+<link href="/fonts/Barlow/Barlow-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=2021">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=2021">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2021">
+<link rel="manifest" href="/favicon/site.webmanifest?v=2021">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=2021" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=2021">
+<meta name="msapplication-TileColor" content="#111111">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=2021">
+<meta name="theme-color" content="#12e09f">
+
+  
+  <style>@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}:root{--bp:80ch;--bp1:600px;--bp2:1200px;--bp3:1600px;--selection:rgba(18, 224, 159, 0.325);--color-alpha:#12e09f;--color-beta:#ff3366;--color-light:#fff;--color-dark:#111;--font-alpha:Playfair Display,serif;--font-beta:Barlow,sans-serif;--font-gamma:Courier New,Courier,monospace;--step-6:54px;--step-5:46.8px;--step-4:39.6px;--step-3:32.4px;--step-2:25.2px;--step-1:21.6px;--step-0:18px;--step--1:16.2px;--step--2:14.4px;--line-height:1.66;--letter-spacing:0.01em;--space-default:0.25rem;--space:1rem;--border-radius:0.1rem;--duration:0.3s;--duration2:0.15s;--delay:0.15s;--cols:repeat(auto-fill, minmax(400px, 1fr));--gap:2rem}@media (max-width:37.49em){:root{--step-6:39.996px;--step-5:31.986px;--step-4:27.99px;--step-3:23.994px;--step-2:21.996px;--step-1:19.998px;--step-0:18px;--step--1:15.984px;--step--2:13.986px;--space-default:0.1rem;--cols:repeat(auto-fill, 1fr)}}[class*=text-]{color:var(--text-color)}.text-alpha{--text-color:#12e09f}[class*=bg-]{background-color:var(--bg-color)}.bg-light{--bg-color:#fff}img{display:block;max-width:100%;height:auto;margin:0}.wrapper{margin-left:auto;margin-right:auto}.wrapper:not([class*=wrapper-]){max-width:calc(var(--bp) + 2rem)}.button:not(.df):not(.db){border-radius:var(--border-radius)}.db{display:block}hr[class*=hr]{border:0;max-height:0;position:relative;padding-top:1rem;padding-bottom:1rem}hr[class*=hr]:before{content:"★";font-size:.5rem;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-shadow:-1rem 0 0 currentColor,1rem 0 0 currentColor}@font-face{font-family:Barlow;src:local("Barlow Medium Italic"),local("Barlow-MediumItalic"),url(/fonts/Barlow/Barlow-MediumItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold"),local("Barlow-SemiBold"),url(/fonts/Barlow/Barlow-SemiBold.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow Medium"),local("Barlow-Medium"),url(/fonts/Barlow/Barlow-Medium.woff2) format("woff2"),url(/fonts/Barlow/Barlow-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold Italic"),local("Barlow-SemiBoldItalic"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium Italic"),local("PlayfairDisplay-MediumItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold"),local("PlayfairDisplay-SemiBold"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium"),local("PlayfairDisplay-Medium"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold Italic"),local("PlayfairDisplay-SemiBoldItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}body{color:var(--black);font-family:var(--font-beta);font-style:normal;font-weight:500;font-size:var(--step-0);line-height:var(--line-height);letter-spacing:var(--letter-spacing)}body:not([id*=kss]){filter:drop-shadow(0 0 .25rem rgba(17, 17, 17, .1))}h1,h2{font-family:var(--font-alpha);font-style:normal;font-weight:600}h1{font-size:var(--step-6)}h2{font-size:var(--step-5)}[class*=fz-step-]{font-size:var(--font-size)}[class*=fz-step-5]{--font-size:var(--step-5)}code,pre{font-family:var(--font-gamma)}.fs-italic{font-style:italic}.button{font-weight:600}.text-center{text-align:center}.button{text-transform:uppercase}.button{letter-spacing:.06em}.padding{padding:1rem}.margin-top{margin-top:1rem}.margin-bottom{margin-bottom:1rem}.margin-top-alpha{margin-top:2rem}@media (min-width:37.5em){.margin-top-alpha{margin-top:5rem}}.margin-bottom-alpha{margin-bottom:2rem}@media (min-width:37.5em){.margin-bottom-alpha{margin-bottom:5rem}}.margin-left{margin-left:1rem}.margin-right{margin-right:1rem}.no-spacing{margin:0;padding:0}.no-margin-top{margin-top:0}a{display:inline-flex;border-radius:var(--border-radius);color:currentColor;text-decoration:none;position:relative;overflow:hidden;outline:0}a:not(.inert):before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;opacity:0;background-color:rgba(18,224,159,.25);z-index:-1}.copy--body a:not([class]){text-decoration:underline;text-decoration-thickness:2px;display:inline}ul{padding-left:1.25em;margin-left:0;margin-right:0;list-style-position:outside}ul ul{font-size:92.5%}.list-style-none{padding-left:0;list-style:none}.list-style-none ul{list-style:none}.button{background-color:var(--color-alpha);color:var(--color-dark);box-sizing:border-box;justify-content:center;align-items:center;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:var(--fz-step-0);line-height:1.66;min-height:3em;padding:.25em 2em;border:none;border-radius:0;outline:0}.button:not(.df):not(.db){display:inline-flex;margin:.125em}.button[href]{text-decoration:none}.button--small{font-size:var(--step--1);padding:.125em 1em;min-height:1.75em}.button--inverse{background-color:var(--color-dark);color:var(--color-light)}.button--outline{background-color:transparent;box-shadow:0 0 0 2px currentColor inset}header nav{position:relative}header nav .skip-link{position:absolute;top:.25rem;right:.25rem;bottom:.25rem;left:.25rem;display:flex;align-items:center;justify-content:center;z-index:1}header nav .skip-link:not(:focus){display:block;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(1px);clip-path:inset(1px);white-space:nowrap;position:absolute;z-index:-1}header nav>ul{display:flex;justify-content:center;align-items:center}header nav>ul ul{padding-left:.5rem;padding-right:.5rem}@media (max-width:37.49em){header nav{text-align:center}header nav a{white-space:nowrap}header nav>ul{flex-wrap:wrap}header nav>ul>li:first-child{flex:1 1 100%}header nav>ul>li:first-child img{margin:auto}header nav>ul>li:not(:first-child){flex:1 0 150px}}.copy>:first-child{margin-top:0}.copy>:last-child{margin-bottom:0}.copy code{font-size:115%;padding-left:.125em;padding-right:.125em;font-weight:500}</style>
+
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss2.xml">
+</head>
+
+  <body>
+    
+  <header>
+    <nav>
+      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <ul class="list-style-none no-spacing">
+        
+          <li class="margin-top">
+            <a class="db margin-left margin-right" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+
+  <section class="hero margin-top-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      <div class="margin-bottom">
+        <a class="button button--small" href="/articles/">/Blog</a>
+        
+          
+            <span class="button button--small button--inverse">gulp</span>
+          
+            <span class="button button--small button--inverse">starter project</span>
+          
+        
+        
+          <span class="button button--small button--outline">2019-03-05</span>
+        
+      </div>
+      
+        <h1 class="fz-step-5 no-margin-top margin-bottom">Custom WordPress Theme Development with SPRO</h1>
+      
+      
+      
+    </div>
+  </div>
+</section>
+
+  <hr class="text-alpha hr">
+
+<div class="wrapper margin-top-alpha margin-bottom-alpha">
+  <div class="padding">
+    
+      <div class="copy copy--body margin-bottom">
+        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
+      </div>
+    
+    <div class="copy copy--body"><p><a href="https://npmjs.com/package/starter-project-cli">SPRO</a> is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development.</p>
+<p>If you want to learn more about SPRO, <a href="/articles/introducing-spro/">read the introduction article from the last week</a>.</p>
+<h2>The Video Lesson</h2>
+<p>If you prefer watching a video over reading an article, you could proceed to <a href="https://skl.sh/2EcUlRt">the Skillshare lesson</a> that I recorded for this occasion.</p>
+<p><a href="https://skl.sh/2EcUlRt"><img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/cover-wp_w0q90l" alt="SPRO Skillshare course cover." sizes="800px" loading="lazy"></a></p>
+<h2>The project structure</h2>
+<p>I am going to use a default WordPress installation as my starting point. I am using <a href="https://local.getflywheel.com/">Local by FlyWheel</a> as my WordPress development tool.</p>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/local_hu1z2y" alt="Screenshot of Local by FlyWheel tool." sizes="800px" loading="lazy">
+<p>The aim is to add Gulp tasks to TwentyNineteen default theme for Sass, JavaScript, BrowserSync, and Critical CSS.</p>
+<p>I have reorganized the code in the theme. First, I have created a new folder called <code>css</code> and moved all Sass files and <code>sass</code> folder in it. Next, I have created a new folder called <code>src</code>, and moved newly created <code>css</code> folder and existing <code>js</code> folder in the <code>src</code> folder.</p>
+<p>The project structure looks like this:</p>
+<pre class="language-text"><code class="language-text">|-- src<br>    |   |-- css<br>    |   |   |-- style.scss<br>    |   |   |-- ...<br>    |   |   |-- sass<br>    |   |       |-- _normalize.scss<br>    |   |       |-- ...<br>    |   |-- js<br>    |       |-- customize-controls.js<br>    |       |-- ...</code></pre>
+<h2>SPRO installation</h2>
+<p>To install SPRO, run <code>npm install starter-project-cli -s</code> command, and then run SPRO by executing <code>node_modules/.bin/spro start</code> command. SPRO is also available <a href="/articles/introducing-spro/#Installation">for global installation</a>. Now you should be prompted to answer questions about the project architecture and Gulp tasks.</p>
+<p>Here are my (shortened) answers:</p>
+<pre class="language-text"><code class="language-text">    GENERAL | Do you want to override the project? Yes<br>    GENERAL | What is the root folder of the project? ./<br>    GENERAL | Where is the folder with the source code of the project? src<br>    GENERAL | Where do you want to store compiled code of the project? build<br>    GENERAL | Are you sure that you want to override the project? Yes<br>BROWSERSYNC | Do you want to run BrowserSync to preview changes in the browser? Yes<br>       HTML | Do you want to run HTML tasks? No<br>        CSS | Do you want to run CSS tasks? Yes<br>        CSS | Are you using Sass? Yes<br>        CSS | Where is the folder with CSS source code? css<br>        CSS | Where do you want to store compiled CSS code? css<br>        CSS | Do you want to minify CSS code? Yes<br>        CSS | Do you want to autoprefix CSS code? Yes<br>        CSS | Do you want to add sourcemaps for CSS code? No<br>        CSS | Do you want to lint CSS code? No<br>         JS | Do you want to run JavaScript (es6) tasks? Yes<br>         JS | Where is the folder with JavaScript source code? js<br>         JS | Where do you want to store compiled JavaScript code? js<br>         JS | Do you want to minify JavaScript code? Yes<br>         JS | Do you want to add sourcemaps for JavaScript code? No<br>         JS | Do you want to lint JavaScript code? No<br>     IMAGES | Do you want to run image optimization tasks? No<br>      FONTS | Do you use local fonts? Do you want to run font tasks? No<br>    FAVICON | Do you want to run favicon tasks? No<br>   CRITICAL | Do you want to extract Critical CSS? Yes<br>   COMPRESS | Do you want to compress (gzip) all assets? No<br>        KSS | Do you want to add KSS style guide? No<br>    SASSDOC | Do you want to add documentation for the SASS code (SassDoc)? No<br>      JSDOC | Do you want to add documentation for the JS code (JSDoc)? No<br>     SEMVER | Do you want to add semver versioning tasks? No<br>       YARN | Do you use Yarn as your default dependency manager? Yes</code></pre>
+<p>After the installation, SPRO would copy Gulp tasks and configuration files in the <code>gulpfile.js</code> folder.</p>
+<p>To be able to run Gulp tasks, we should install all required dependencies. You could find the installation command in your terminal, right after the questions. Paste the command in your terminal, and hit Enter.</p>
+<h2>SPRO configuration</h2>
+<p>Now that we have all required Gulp tasks and dependencies, we could configure SPRO.</p>
+<p>Let's start with BrowserSync. I want to use the BrowserSync to preview the changes in the browser. Local by FlyWheel tool have configured the local site domain for me. In my case, it is <code>spro-wp.v</code>. I am going to use the local domain as a proxy for BrowserSync.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>  <span class="token property">"proxy"</span><span class="token operator">:</span> <span class="token string">"http://spro-wp.v"</span><br><span class="token punctuation">}</span></code></pre>
+<p>Next, we should update the URL for extracting Critical CSS to match our development domain in the <code>.critical.json</code> file.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">[</span><span class="token punctuation">{</span><br>  <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"style.css"</span><span class="token punctuation">,</span><br>  <span class="token property">"settings"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>    <span class="token property">"out"</span><span class="token operator">:</span> <span class="token string">"style.critical.css"</span><span class="token punctuation">,</span><br>    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"http://spro-wp.v/"</span><span class="token punctuation">,</span><br>    <span class="token property">"width"</span><span class="token operator">:</span> <span class="token number">1920</span><span class="token punctuation">,</span><br>    <span class="token property">"height"</span><span class="token operator">:</span> <span class="token number">1200</span><span class="token punctuation">,</span><br>    <span class="token property">"keepLargerMediaQueries"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span><br>    <span class="token property">"strict"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><br>    <span class="token property">"blockJSRequests"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><br>    <span class="token property">"phantomJsOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>      <span class="token property">"ssl-protocol"</span><span class="token operator">:</span> <span class="token string">"any"</span><span class="token punctuation">,</span><br>      <span class="token property">"ignore-ssl-errors"</span><span class="token operator">:</span> <span class="token boolean">true</span><br>    <span class="token punctuation">}</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">]</span></code></pre>
+<p>There are other options here, but the most important ones are <code>src</code> and <code>out</code> options. <code>src</code> option tells which file to use as our source file for extracting Critical CSS, and <code>out</code> option tells in which file should Penthouse store the extracted Critical CSS code. To learn more about Penthouse, <a href="https://github.com/pocketjoso/penthouse">visit the official Penthouse site</a>.</p>
+<p>Also, we should create a new Sass file in the <code>sass</code> folder called <code>style.critical.scss</code>.</p>
+<h2>Running the tasks</h2>
+<p>To view the list of available Gulp tasks, run <code>gulp --tasks</code> command. We have four tasks:</p>
+<ul>
+<li><code>clean</code> for cleaning the compiled code, and</li>
+<li>three tasks for development: <code>dev</code>, <code>build</code>, and <code>default</code>.</li>
+</ul>
+<p>If you run <code>default</code> Gulp task, the site should open in the browser.</p>
+<h2>PHP updates</h2>
+<p>Since our compiled code is stored in the <code>build</code> folder, we should update the path for CSS and JavaScript files. In the <code>functions.php</code> file, update the <code>twentynineteen_scripts</code> function:</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><span class="token comment">/**<br> * Enqueue scripts and styles.<br> */</span><br><span class="token keyword">function</span> <span class="token function">twentynineteen_scripts</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Will load CSS file at the end of the page</span><br>  <span class="token comment">// wp_enqueue_style( 'twentynineteen-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );</span><br><br>  <span class="token function">wp_style_add_data</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'twentynineteen-style'</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'rtl'</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'replace'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>  <span class="token comment">// Will update the path to the JavaScript files</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token function">has_nav_menu</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'menu-1'</span> <span class="token punctuation">)</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token function">wp_enqueue_script</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'twentynineteen-priority-menu'</span><span class="token punctuation">,</span> <span class="token function">get_theme_file_uri</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'/build/js/priority-menu.js'</span> <span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'1.1'</span><span class="token punctuation">,</span> <span class="token constant boolean">true</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token function">wp_enqueue_script</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'twentynineteen-touch-navigation'</span><span class="token punctuation">,</span> <span class="token function">get_theme_file_uri</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'/build/js/touch-keyboard-navigation.js'</span> <span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'1.1'</span><span class="token punctuation">,</span> <span class="token constant boolean">true</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><br>  <span class="token comment">// Will update the path to the print CSS file</span><br>  <span class="token function">wp_enqueue_style</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'twentynineteen-print-style'</span><span class="token punctuation">,</span> <span class="token function">get_template_directory_uri</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token string single-quoted-string">'/build/css/print.css'</span><span class="token punctuation">,</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">wp_get_theme</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-></span><span class="token function">get</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'Version'</span> <span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'print'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token function">is_singular</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token function">comments_open</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token function">get_option</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'thread_comments'</span> <span class="token punctuation">)</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token function">wp_enqueue_script</span><span class="token punctuation">(</span> <span class="token string single-quoted-string">'comment-reply'</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><br><span class="token delimiter important">?></span></span></code></pre>
+<p>We are removing the main style file, and we are updating the path to the JavaScript and the print CSS files.</p>
+<p>In the <code>footer.php</code> file, add a link to the main style file just before the closing body tag:</p>
+<pre class="language-php"><code class="language-php"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token php language-php"><span class="token delimiter important">&lt;?php</span> <span class="token keyword">echo</span> <span class="token function">get_theme_file_uri</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'/build/css/style.css'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token delimiter important">?></span></span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>Ideally, we should defer the loading of the uncritical CSS file, <a href="https://developers.google.com/web/tools/lighthouse/audits/unused-css#deferring">as suggested by Google</a>.</p>
+<h2>Critical CSS</h2>
+<p>Next, let's inline Critical CSS in the head of the HTML document, in the <code>header.php</code> file.</p>
+<pre class="language-php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span><br><span class="token variable">$critical</span> <span class="token operator">=</span> <span class="token function">get_template_directory</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token string single-quoted-string">'/build/css/style.critical.css'</span><span class="token punctuation">;</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token function">file_exists</span><span class="token punctuation">(</span> <span class="token variable">$critical</span> <span class="token punctuation">)</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">echo</span> <span class="token string single-quoted-string">'&lt;style>'</span><span class="token punctuation">;</span><br>  <span class="token keyword">require_once</span> <span class="token variable">$critical</span><span class="token punctuation">;</span><br>  <span class="token keyword">echo</span> <span class="token string single-quoted-string">'&lt;/style>'</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token delimiter important">?></span></span></code></pre>
+<p>If you followed the instructions correctly, you should be able to run <code>gulp</code> command in your terminal. Gulp should compile the code, then open the site in the browser, then extract the Critical CSS and then refresh the browser.</p>
+<h2>Conclusion</h2>
+<p>As you could see, I have never touched any of the Gulp tasks, just configuration file. This is exactly what SPRO is all about.</p>
+<p>If you have any feedback, it would be appreciated. SPRO is in its early stages, and more features could be added soon.</p>
+<p>Please spread the word. More lessons are coming soon! 📣</p>
+</div>
+  </div>
+</div>
+
+  <hr class="text-alpha hr">
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/&text=Custom WordPress Theme Development with SPRO&via=malimirkeccita" target="_blank">Twitter ⇢</a>
+        <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/" target="_blank">Facebook ⇢</a>
+        <a class="margin-left margin-right" href="https://www.reddit.com/submit?url=https://www.silvestar.codes/articles/custom-wordpress-theme-development-with-spro/" target="_blank">Reddit ⇢</a>
+      </div>
+      <h3 class="fz-step-2 no-margin-top">About the Author</h3>
+      <div class="copy">
+        <p>Silvestar is a fearless web developer who is very enthusiastic about web technologies and everything related to frontend development.</p>
+      </div>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="/about/">About ⇢</a>
+        <a class="margin-left margin-right" href="/portfolio/">Portfolio ⇢</a>
+        <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
+      </div>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
+      <div class="margin-top margin-bottom">
+        <a class="button button--small" href="/articles/introducing-spro/" title="Introducing SPRO">⇠ Prev post</a>
+        <a class="button button--small" href="/articles/bookmarks-saves-hearts-stars-claps/"}">Next post ⇢</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <hr class="text-alpha hr">
+
+
+        
+        
+          
+            
+
+  
+  
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+        <h2 class="fz-step-4 no-margin-top margin-bottom">I am <em>available</em> for a new project.</h2>
+      
+      
+        <div class="margin-top copy"><p>I specialized in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>WordPress</strong>, <strong>Shopify</strong>, and <strong>JAMstack</strong> technologies.</p>
+</div>
+      
+      
+        <div class="margin-top">
+          <a class="button" href="/contact/">Hire me ⇢</a>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+          
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, 2021</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
+
+    <script src="/js/cldnry.js"></script>
+
+  </body>
+</html>
+
+
+
+
