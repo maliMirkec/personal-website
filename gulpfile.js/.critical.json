@@ -13,6 +13,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -31,6 +32,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -49,6 +51,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -67,6 +70,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -85,6 +89,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -103,6 +108,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -121,6 +127,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -139,6 +146,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -157,6 +165,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -175,6 +184,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -193,6 +203,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
+      "forceInclude": [".pic", ".pic svg", ".pic img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
