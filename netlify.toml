@@ -17,11 +17,11 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 [context.develop]
   command = "npm run build-dev"
 
-# [[plugins]]
-#   package = "netlify-plugin-checklinks"
+[[plugins]]
+  package = "netlify-plugin-checklinks"
 
-#   [plugin.inputs]
-#     skipPatterns = ["www.googletagmanager.com"]
+  [plugin.inputs]
+    skipPatterns = ["www.googletagmanager.com"]
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
