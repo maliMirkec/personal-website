@@ -2,7 +2,7 @@
 ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [build]
-  publish = "/public/"
+  publish = "public"
   command = "npm run build-prod"
 
 [context.production]
@@ -16,6 +16,14 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [context.develop]
   command = "npm run build-dev"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+
+  # The base dir of the project
+  buildDir = "public"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
