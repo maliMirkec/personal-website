@@ -32,7 +32,8 @@
     "build-prod": "npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
   },
   "dependencies": {
-    "cloudinary-core": "^2.10.3"
+    "cloudinary-core": "^2.10.3",
+    "uslug": "^1.0.4"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -69,6 +70,7 @@
     "jstransformer-markdown-it": "^2.1.0",
     "kss": "^3.0.1",
     "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.0.0",
     "modularscale-sass": "latest",
     "normalize.css": "latest",
     "sass-mq": "latest",

@@ -275,21 +275,21 @@
     
     <div class="copy copy--body"><p>⚠️ The package is deprecated. See <a href="/articles/introducing-spro/">SPRO</a> instead.</p>
 <p>This article is the very first article in a series about <a href="https://starter.silvestar.codes/">Starter Project</a>, a set of the latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.</p>
-<h2>First Scenario</h2>
+<h2 id="first-scenario">First Scenario</h2>
 <p>Every project has its environment. Switching between projects means switching environments. Switching environments means remembering commands for running project tasks, like Gulp or webpack. But too often commands are forgotten. This scenario happens to me daily, even when working on similar projects.</p>
-<h2>Second Scenario</h2>
+<h2 id="second-scenario">Second Scenario</h2>
 <p>Consider two different projects. First is custom WordPress theme development, second is Middleman blog. Both projects use Gulp task runner to compile and optimize assets. Setting up Gulp tasks for either project is time-consuming work. And every project has its architecture which disables a developer to copy Gulp tasks from one project to another without spending the time to reconfigure every Gulp task individually.</p>
-<h2>Third Scenario</h2>
+<h2 id="third-scenario">Third Scenario</h2>
 <p>Working on a project without a coding convention could be a nightmare. Git conflicts on every merge, endless discussion about tabs versus spaces, ugly and inconsistent code are just some of the problems that could emerge as a consequence.</p>
-<h2>The idea</h2>
+<h2 id="the-idea">The idea</h2>
 <p>I am sure these scenarios sound familiar. These happened to me a lot of times. I cannot even remember how many times I created a Sass mixin or a JavaScript function on a project that I wanted to use on another project but I was too lazy to search for the code, and eventually, I started from the beginning.</p>
 <p>Starter Project is an effort of mine to fix these problems. It is a collection of Gulp tasks with the latest best practices in front-end development. But not only Gulp tasks. It contains every asset for building a successful project, from HTML and CSS to JavaScript and images.</p>
-<h2>The Package</h2>
+<h2 id="the-package">The Package</h2>
 <p>The package is available on <a href="https://www.npmjs.com/package/starter-project">npm</a>. You could find instructions for the installation in <a href="https://starter.silvestar.codes/">official documentation</a>. Once installed, you will have the copy of the package's website for the Starter project. It could be a good starting point for your new project.</p>
 <p>Starter Package is also a static page generator, a very rudimental one. The original website is built using Starter Project and hosted on Netlify. It is very fast, see the <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestar.codes%2F&amp;tab=desktop">PageSpeed Insights</a> and <a href="https://www.webpagetest.org/result/180323_7F_8cd32d6a04d395ff01839c921d82047d/">WebPageTest</a> scores.</p>
 <p>The package should be used as a development dependency. That will allow you to update the package and maintain your project more efficiently.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/code_g0esoz" alt="package.json file." sizes="800px" loading="lazy">
-<h2>The Usage</h2>
+<h2 id="the-usage">The Usage</h2>
 <p>Starter project has three different Gulp commands for different environments:</p>
 <ul>
 <li><code>gulp dev</code> and <code>gulp dist</code> for a development build,</li>
@@ -307,11 +307,11 @@
 <li>and more.</li>
 </ul>
 <p>You could find all assets in <code>new_src</code> folder. Once you run one of the build commands, <code>new_dist</code> folder will be created with compiled static contents.</p>
-<h2>The Config file</h2>
+<h2 id="the-config-file">The Config file</h2>
 <p>Starter Project is configurable and should be able to run in every project, no matter the architecture. The main configuration file could be found in the root of the project, <code>config.json</code>. For every task, there is an option <code>run</code>. If set to true, the task will run. For example, you could turn off <a href="https://www.npmjs.com/package/gulp-penthouse"><code>penthouse</code></a>, a library for generating Critical CSS.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/code2_mxkqcq" alt="Penthouse plugin config example." sizes="800px" loading="lazy">
 <p>Read more about configuration <a href="https://starter.silvestar.codes/">here</a>.</p>
-<h2>Features</h2>
+<h2 id="features">Features</h2>
 <p>I mentioned Critical CSS in the previous section. Starter Project has other great features.</p>
 <p>Pug is default template engine. Markdown is also supported via Pug filter <a href="https://github.com/jstransformers/jstransformer-markdown-it">jstransformer-markdown-it</a>. I should consider adding support for more template engines if interest is shown.</p>
 <p>Sass comes with <a href="https://www.npmjs.com/package/normalize.css">normalize.css</a>, <a href="https://www.npmjs.com/package/modularscale-sass">modularscale-sass</a> and <a href="https://www.npmjs.com/package/sass-mq">sass-mq</a> libraries by default. It will help you create more consistent pages with strictly defined typography and media queries.</p>
@@ -320,7 +320,7 @@
 <code>.gif</code>, <code>.png</code>, <code>.jpg</code>, and <code>.svg</code> files.</p>
 <p>Documentation is an integral part of every project. You can generate excellent documentation using Starter Project. <a href="http://sassdoc.com/">SassDoc</a> will parse Sass comments and create Sass documentation. <a href="https://jsdoc.app/">JSDoc</a> will parse JavaScript comments and create JavaScript documentation. You could even create living styleguide. Starter Project uses <a href="https://kss-node.github.io/kss-node/">KSS</a> to parse Sass comment for that purpose.</p>
 <p>There are other goodies, like Browser-sync, Favicons, Sourcemaps, Gzip, Linters, Standards, editorconfig, and more. I will try to document everything and write new articles about these, too. Stay tuned!</p>
-<h2>Websites</h2>
+<h2 id="websites">Websites</h2>
 <p>I have used Starter Project on several different projects so far.</p>
 <ul>
 <li><a href="https://hanhanxue.com/">Han Han Xue website</a> - a website with a blog for Han Han Xue, a Designer and FX Technical Director from Montreal, Canada. The site runs on Middleman.</li>
@@ -328,7 +328,7 @@
 <li><a href="https://www.silvestar.codes">Silvestar Bistrović website</a> - a personal website with a blog. The site runs on Hexo.</li>
 <li><a href="https://starter.silvestar.codes/">Starter Project website</a> - a website for Starter Project. The website runs on Starter Project only.</li>
 </ul>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>Starter Project is not conceived as a strict set of rules. This package should be configured to fulfill every project specification; you could propose new features, fork the repository or turn off some of the tasks in the config file.</p>
 <p>Show your support: provide feedback, open <a href="https://github.com/maliMirkec/starter-project/issues/new">a new issue</a>, create <a href="https://github.com/maliMirkec/starter-project/compare">a new pull request</a>, or leave a comment.</p>
 </div>

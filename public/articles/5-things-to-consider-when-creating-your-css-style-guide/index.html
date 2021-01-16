@@ -292,12 +292,12 @@
 </blockquote>
 <p>All of these definitions are telling us the primary mission of the style guide: to help each other understand how to read, write and use the code. It is vital to know that every style guide is unique and its definitions, principles, and structure should be a team effort, rather than a persuasive way to follow someone’s logic or idea.</p>
 <p>Here are five things that you should keep in mind when working with CSS style guides.</p>
-<h2>Define coding format</h2>
+<h2 id="define-coding-format">Define coding format</h2>
 <p>Every style guide has a set of rules that should help every person on the project write the code in the same manner. By following these rules, developers could avoid typical problems in every-day tasks, like merge conflicts and linting errors. Your team could agree on indentation preference to spaces or tabs early in the project. Other common rules are tab width, adding new lines at the end of the document, and usage of quotation signs.</p>
 <p>For example, <a href="https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/#structure">WordPress Style Guide</a> defines the structure for writing CSS declarations:</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-wordpress-formatting_myl9ey" alt="WordPress Style Guide example." sizes="800px" loading="lazy">
 <p>There are tools like <a href="https://prettier.io/">Prettier</a> or <a href="https://editorconfig.org/">editorconfig</a> that could help your team produce well-formatted code. Make sure you include the configuration file in the project. In addition, you might want to add a note in the README file about how to set up the code formatting in different code editors.</p>
-<h2>Agree on the naming convention</h2>
+<h2 id="agree-on-the-naming-convention">Agree on the naming convention</h2>
 <p>There are many different naming conventions for CSS. The most popular ones are <a href="https://css-tricks.com/bem-101/">BEM</a>, <a href="http://smacss.com/">SMACSS</a>, and <a href="https://github.com/stubbornella/oocss/wiki">OOCSS</a>, to name just a few. If your team decides to adapt to the naming convention, every developer should understand the structure of the component. The code would feel like it is written by a single person, which would improve readability. Additionally, isolating CSS naming convention from JS naming convention is always a good idea.</p>
 <p>For example, <a href="https://rizzo.lonelyplanet.com/documentation/css/naming">Lonely Planet</a> uses BEM as a naming convention:</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-lonely-planet-bem_lqcm24" alt="Lonely Planet Style Guide, BEM example." sizes="800px" loading="lazy">
@@ -307,7 +307,7 @@
 </blockquote>
 <p>Not every developer would agree about the naming convention, but as long as every developer follows it, that is all that matters. That is one of the reasons why style guides shouldn’t be the responsibility of a single developer, but a collaborative effort made with every developer in mind. It wouldn’t hurt to put a note about the naming convention decision somewhere like in the README file.</p>
 <p>I prefer using BEM on almost every project. I am also familiar with other naming conventions. It is with worth familiarizing yourself with all of the naming conventions as that can be helpful primarily if you work on multiple projects or with multiple teams.</p>
-<h2>Define coding rules</h2>
+<h2 id="define-coding-rules">Define coding rules</h2>
 <p>Coding rules should include decisions about defining global styles, variables, mixins, functions and more. These coding rules could be about anything, from typography to unit usage.</p>
 <p>For example, Lonely Planet defines typography usage. The team decided that style collisions across projects could be avoided by not establishing typography globally, but by applying a particular class to a wrapper element. I could only guess, but I assume the team made this decision after they noticed the problem, then discussed it and finally come with an agreement. I might disagree about this issue, but if I were a part of the team, I would understand where they were coming from.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-lonely-planet-typography_pu1rcb" alt="Lonely Planet Style Guide, typography section example." sizes="800px" loading="lazy">
@@ -315,7 +315,7 @@
 <p>For example, Primer defines four major breakpoints. By identifying these breakpoints, the creative team could design pages and components within these limitations, and the development team could style those pages and elements more easily without further guessing or discussing the breakpoints.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-primer-breakpoints_flf3zd" alt="Primer Style Guide, breakpoints section example." sizes="800px" loading="lazy">
 <p>I prefer to define colors, typography, and breakpoints as global variables. That helps me build a brand that is more consistent, recognizable and discoverable.</p>
-<h2>Define reusable components (if they are a part of your style guide)</h2>
+<h2 id="define-reusable-components-if-they-are-a-part-of-your-style-guide">Define reusable components (if they are a part of your style guide)</h2>
 <p>Some style guides include reusable components, and some don’t. It doesn’t matter what you keep in your style guide, as long as it helps the team to build a better, maintainable product.</p>
 <p>When components are part of the style guide, you should take into consideration some of the following questions:</p>
 <ul>
@@ -330,7 +330,7 @@
 <p>When the same variations appear on more than one component, then you could consider adding utility class. Utility classes often solve problems like alignment, paddings, and margins.</p>
 <p>For example, Primer defines <a href="https://styleguide.github.com/primer/utilities/padding/">utility classes for padding</a>. A popover component uses a utility class to achieve consistent spacing with other components.</p>
 <p>I don’t prefer adding utility classes to a project, but if you could justify the decision of adding them, go for it.</p>
-<h2>Consider using a tool for a style guide</h2>
+<h2 id="consider-using-a-tool-for-a-style-guide">Consider using a tool for a style guide</h2>
 <p>Some tools, like <a href="http://warpspire.com/kss/">KSS</a> or <a href="https://github.com/jonathantneal/mdcss">mdcss</a> or <a href="https://github.com/nextbigsoundinc/stylemark">Stylemark</a> or <a href="https://holidaypirates.github.io/nucleus/getting-started.html">Nucleus</a>, could help you generate style guide right from the code. All of these tools work on the same principle, a documenting syntax, that would parse comments from your code and compile it as static pages.</p>
 <p>Some tools, like Stylemark and mdcss, support Markdown syntax, which could be useful if you are familiar with it.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-stylemark-example_n1pfo2" alt="Stylemark Style Guide example." sizes="800px" loading="lazy">
@@ -338,7 +338,7 @@
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/styleguide-stylemark-bootstrap_b7vhhe" alt="Stylemark Style Guide, Bootstrap example." sizes="800px" loading="lazy">
 <p>If you don’t prefer generating a style guide automatically, you could create it manually. Any method would work, as long as it does not take too much time.</p>
 <p>I prefer using KSS and Stylemark because I could set up and configure a new style guide within minutes. I haven’t stumbled upon any problems so far. I find these tools have all requirements to create a robust, and easy to use documents.</p>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>Each style guide has or should have the same goals — to improve consistency and usability. By standardizing your code, and by applying uniform design principles, you could create a unique cookbook with “dos and don’ts” that could help your team build the product more efficiently and consistently.</p>
 </div>
   </div>

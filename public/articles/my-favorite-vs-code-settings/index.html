@@ -276,7 +276,7 @@
     <div class="copy copy--body"><p>Last week I saw <a href="https://twitter.com/mattbierner/status/1241039298750746624">an interesting tweet about showing modified tabs in the VS Code</a> from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.</p>
 <p>By the way, the setting could be found as “Workbench &gt; Editor: Highlight Modified Tabs” in VS Code Settings. If you also want to see the modified indicator in your current VS Code window, go to Settings, search “Window: Title”, and add <code>${dirty}</code> option. Here is how it looks in my settings:</p>
 <pre class="language-js"><code class="language-js">$<span class="token punctuation">{</span>dirty<span class="token punctuation">}</span> $<span class="token punctuation">{</span>activeEditorMedium<span class="token punctuation">}</span>$<span class="token punctuation">{</span>separator<span class="token punctuation">}</span>$<span class="token punctuation">{</span>rootName<span class="token punctuation">}</span></code></pre>
-<h2>Modified settings</h2>
+<h2 id="modified-settings">Modified settings</h2>
 <p>I have 364 modified settings in my VS Code. To see these modified settings, go to Settings, and select “Show modified settings” from the drop-down menu or type <code>@modified</code> in the input field. Some of these settings aren't modified in a way that they have a non-default value—they are just present in the <code>settings.json</code> file.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-modified-setttings_wju4zh" alt="Screenshot of modified VS Code Settings window." sizes="800px" loading="lazy">
 <blockquote>
@@ -290,10 +290,10 @@
 <li>window management, and</li>
 <li>minimap.</li>
 </ul>
-<h3>Breadcrumbs</h3>
+<h3 id="breadcrumbs">Breadcrumbs</h3>
 <p>I like to have breadcrumbs turned on. However, I don't prefer cluttered breadcrumbs with unnecessary information. That's why I turned off all fancy settings, like showing icons or file contents (classes, constants, etc.) in my breadcrumbs. Here's how it looks:</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-breadcrumbs_hempo7" alt="Screenshot of breadcrumbs in VS Code editor." sizes="800px" loading="lazy">
-<h3>Bars</h3>
+<h3 id="bars">Bars</h3>
 <p>From the very start, I was quite fond of the VS Code interface. Activity bar, status bar and sidebar are handy features that hold a lot of information. I like to display the activity bar and sidebar on the right side. That way toggling the sidebar won't affect my primary window location which otherwise may cause distraction.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-bars_onlhxt" alt="Screenshot of Bar Settings in VS Code editor." sizes="800px" loading="lazy">
 <p>I particularly like my status bar. In it, I could see the following information:</p>
@@ -312,7 +312,7 @@
 </ul>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-statusbar_prx3m1" alt="Screenshot of VS Code status bar." sizes="800px" loading="lazy">
 <p>Note that not all information is visible in the screenshot.</p>
-<h3>Saving and Formatting</h3>
+<h3 id="saving-and-formatting">Saving and Formatting</h3>
 <p>I prefer not to allow VS Code to format my code automatically. The main reason is that I tend to save files often as I usually use <a href="https://www.browsersync.io/">BrowserSync</a> or <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a> to see the changes in the browser.</p>
 <p>I turned off the following settings: ”Editor: Format on Save” and ”Files: Auto Save”.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-save_jynrn6" alt="Screenshot of Saving Settings in VS Code editor." sizes="800px" loading="lazy">
@@ -327,14 +327,14 @@
 <blockquote>
 <p>Tip: To prevent losing the unsaved changes on exit, set the “Files: Hot Exit” to <code>onExitAndWindowClose</code>.</p>
 </blockquote>
-<h3>Window management</h3>
+<h3 id="window-management">Window management</h3>
 <p>VS Code allows you to configure the window behaviour. I prefer the following VS Code window settings:</p>
 <pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>  <span class="token property">"window.closeWhenEmpty"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><br>  <span class="token property">"window.newWindowDimensions"</span><span class="token operator">:</span> <span class="token string">"inherit"</span><span class="token punctuation">,</span><br>  <span class="token property">"window.openFilesInNewWindow"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span><br>  <span class="token property">"window.openFoldersInNewWindow"</span><span class="token operator">:</span> <span class="token string">"on"</span><span class="token punctuation">,</span><br>  <span class="token property">"window.restoreFullscreen"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><br>  <span class="token property">"window.restoreWindows"</span><span class="token operator">:</span> <span class="token string">"all"</span><span class="token punctuation">,</span><br>  <span class="token property">"window.title"</span><span class="token operator">:</span> <span class="token string">"${dirty} ${activeEditorMedium}${separator}${rootName}"</span><span class="token punctuation">,</span><br>  <span class="token property">"window.titleBarStyle"</span><span class="token operator">:</span> <span class="token string">"custom"</span><span class="token punctuation">,</span><br><span class="token punctuation">}</span></code></pre>
 <p>Besides already mentioned Window Title settings, I like to open files in the current window, open folders in the new window, inherit windows size for the new window and restore all windows after the restart. I also like to keep the current window opened after closing the last tab and open recently closed window in “windowed”, not full-screen mode.</p>
-<h3>Minimap</h3>
+<h3 id="minimap">Minimap</h3>
 <p>I am using minimap since I first saw this feature in Sublime Text. I find it quite useful, especially with longer files. It makes it easier to find and navigate certain parts of code for me.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/vs-minimap_yxslkw" alt="Screenshot of Minimap Settings in VS Code editor." sizes="800px" loading="lazy">
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>There are so many meaningful settings in VS Code. You might be overwhelmed by the number of options, but every choice is very well explained, which is helpful. Also, most default values are enough to make you start using the editor easily. However, when you feel the editor should behave differently, try to search for the option and set it to your preference. And don't forget to share your settings with the community.</p>
 <p>Now, what are your favorite VS Code settings?</p>
 </div>

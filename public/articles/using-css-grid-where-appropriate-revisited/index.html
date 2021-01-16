@@ -274,7 +274,7 @@
       </div>
     
     <div class="copy copy--body"><p>This solution is a follow-up post on my last year's article <a href="/articles/using-css-grid-where-appropriate/">&quot;Using CSS Grid where appropriate&quot;</a>. The goal is to find a solution for navigation with an unknown number of items.</p>
-<h2>Recap</h2>
+<h2 id="recap">Recap</h2>
 <p>Creating navigation with CSS Grid is arguably not the best solution. However, if one wants to use CSS Grid, two options were suggested:</p>
 <ul>
 <li>Using <code>grid-auto-flow: row;</code> and placing each item in the grid, like this:</li>
@@ -286,7 +286,7 @@
 <pre class="language-css"><code class="language-css"><span class="token selector">.nav</span> <span class="token punctuation">{</span><br>  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span><br>  <span class="token property">grid-auto-flow</span><span class="token punctuation">:</span> row<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token atrule"><span class="token rule">@media</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 320px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><br>  <span class="token selector">.nav</span> <span class="token punctuation">{</span><br>    <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>4<span class="token punctuation">,</span> auto<span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token property">grid-template-rows</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>2<span class="token punctuation">,</span> auto<span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
 <p>In both examples, we are defining a strict grid—a number of columns in a row are strictly defined.</p>
 <iframe id="cp_embed_dzogLV" src="//codepen.io/CiTA/embed/dzogLV?height=650&theme-id=dark&slug-hash=dzogLV&default-tab=result" scrolling="no" frameborder="no" height="650" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
-<h2>A new solution</h2>
+<h2 id="a-new-solution">A new solution</h2>
 <p>I have been using CSS Grid for more than a year now, and I learned how to use its features properly along the way:</p>
 <ul>
 <li><a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-minmax"><code>minmax()</code> function</a>,</li>
@@ -294,25 +294,25 @@
 <li><a href="https://www.w3.org/TR/css-grid-1/#propdef-grid-auto-flow"><code>grid-auto-flow</code> property</a>, and</li>
 <li>how to avoid media queries 🎊.</li>
 </ul>
-<h3>The code</h3>
+<h3 id="the-code">The code</h3>
 <p>I have forked the previous solution and updated it with the features mentioned above. Here's the final solution.</p>
 <iframe id="cp_embed_pOgGqv" src="//codepen.io/CiTA/embed/pOgGqv?height=220&theme-id=dark&slug-hash=pOgGqv&default-tab=result" scrolling="no" frameborder="no" height="220" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
 <pre class="language-css"><code class="language-css"><span class="token selector">.nav--grid2</span> <span class="token punctuation">{</span><br>  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span><br>  <span class="token property">grid-auto-flow</span><span class="token punctuation">:</span> dense<span class="token punctuation">;</span><br>  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>auto-fit<span class="token punctuation">,</span> <span class="token function">minmax</span><span class="token punctuation">(</span>60px<span class="token punctuation">,</span> auto<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>Let's break down this piece of code.</p>
-<h3>minmax()</h3>
+<h3 id="minmax">minmax()</h3>
 <p><code>minmax()</code> function defines a size as a range between minimum and maximum value. It allows defining a dynamic size of columns and rows.</p>
 <p>We could use this property to define a minimum and a maximum width of navigation item. In our example, we are using the following minmax definition:</p>
 <p><code>minmax(60px, auto)</code></p>
 <p>We are saying that column should be at least 60px wide, and it should be as wide as the maximum content width. See <a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-auto"><code>auto</code> keyword</a> for more details.</p>
-<h3>auto-fit</h3>
+<h3 id="auto-fit">auto-fit</h3>
 <p><code>auto-fit</code> should be used as a repetition number—a number used in <a href="https://www.w3.org/TR/css-grid-1/#funcdef-repeat"><code>repeat()</code> function</a>. It says that the grid should place as many items as possible like when items are empty (I think 🤔).</p>
-<h3>grid-auto-flow</h3>
+<h3 id="grid-auto-flow">grid-auto-flow</h3>
 <p><code>grid-auto-flow</code> is a property that controls how the grid algorithm for placing items works. In our example, we are using <a href="https://www.w3.org/TR/css-grid-1/#valdef-grid-auto-flow-dense"><code>dense</code> keyword</a>. It says that the grid should fill holes that could be left when larger grid items occur.</p>
-<h3>justify-content</h3>
+<h3 id="justify-content">justify-content</h3>
 <p><a href="https://www.w3.org/TR/css-align-3/#propdef-justify-content"><code>justify-content</code> property</a> aligns the content of the box. We are using <code>justify-content: center</code> to align the content of the items to the center.</p>
-<h3>Bonus: No media queries</h3>
+<h3 id="bonus-no-media-queries">Bonus: No media queries</h3>
 <p>As you could see, we haven't used media queries. Media queries are useful and without them, and there wouldn't be a responsive web design, but it feels so satisfying when we able to build responsive behavior without using one.</p>
-<h2>Final thoughts</h2>
+<h2 id="final-thoughts">Final thoughts</h2>
 <p>CSS Grid still may not be the best approach for navigation element, but it works. Always try using CSS Grid where appropriate, even if it solves your problem. If you are a rebel, ignore this thought and use it nevertheless—there are no rules when building web solutions as long as your users are happy. 😎</p>
 </div>
   </div>

@@ -276,9 +276,9 @@
     <div class="copy copy--body"><p>In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?</p>
 <p>In this tutorial I'll show you how you could fix this.</p>
 <p><strong><em>Windows based shortcuts will be used but the same analogy could be applied for other operating systems.</em></strong></p>
-<h2>What are keybindings?</h2>
+<h2 id="what-are-keybindings">What are keybindings?</h2>
 <p>Keybindings, or keyboard shortcuts, are combinations of different keys which, when pressed together, invoke certain action. For example, if you press <code>ctrl-shift-p</code> in Atom, command palette will show up.</p>
-<h2>How to detect keybindings?</h2>
+<h2 id="how-to-detect-keybindings">How to detect keybindings?</h2>
 <p>In this tutorial, we'll try to remove and customize <code>**ctrl-up**</code> keybinding for moving a line up and then set this keybinding to increment number by 1.</p>
 <p>To increment number by 1, we should install <a href="https://atom.io/packages/emmet"><strong>emmet</strong></a> plugin, one of the best plugins for fuzzy coding. Once you've installed <strong>emmet</strong> package, open any file containing numbers. Move cursor to any number and press <code>ctrl-up</code>. According to <strong>emmet</strong>, this command should increment a number by 1, but sadly it's not. Instead, current line is moved up.</p>
 <p>We need to fix this. First step is to find out which command is currently used. Open the Keybindings page in settings to see the list of all keybindings. You could do this by pressing <code>ctrl-,</code> and then click on &quot;Keybindings&quot; or open command palette, type in &quot;keybindings&quot; and select &quot;Settings View: Show keybindings&quot;.</p>
@@ -288,17 +288,17 @@
 <p>In this case you should use <a href="https://atom.io/packages/keybinding-resolver">keybinding-resolver</a>, a package which shows what command resolves to. This package is a part of Atom core, no additional installation is required. To see it in action, open any file, open command palette, search &quot;keybinding resolver&quot; and select &quot;Key Binding Resolver: Toggle&quot;. Keybinding for <strong>keybinding-resolver</strong> is <code>ctrl-.</code>.</p>
 <p>Now try to press <code>ctrl-up</code> and see what happens. <strong>keybinding-resolver</strong> shows us which command is used in what order. In our case, we could see that <code>editor:move-line-up</code> command is the first in line. We'll should remove it.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-resolver_xuy5tk" alt="Keybindings resolver in action." sizes="800px" loading="lazy">
-<h2>How to remove keybindings?</h2>
+<h2 id="how-to-remove-keybindings">How to remove keybindings?</h2>
 <p>When multiple commands for the same keybinding exist, we need to remove ones that we don't need somehow. First we should copy keybinding that we don't need by clicking on the copy icon at left. Then we need to open the custom keymap file where we'll add a command for removing unnecessary keybinding. Call command palette <code>ctrl-shift-p</code>, type &quot;keymap&quot; and select &quot;Application: Open Your Keymap&quot; or open file manually: <code>~/.atom/keymap.cson</code>. Here you could see all your custom keybindings, if any exist.</p>
 <p>Paste the copied keybinding command. You should see the command selector and keybinding command.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-copy_mqcnuz" alt="Keybindings keymap copy command." sizes="800px" loading="lazy">
 <p>To remove the keybinding, use &quot;unset!&quot; command.</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-unset_xfhlkt" alt="Keybindings keymap unset command." sizes="800px" loading="lazy">
-<h2>How to use custom keybindings?</h2>
+<h2 id="how-to-use-custom-keybindings">How to use custom keybindings?</h2>
 <p>So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:</p>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/keybindings-keymap-replace_dmqrfn" alt="Keybindings keymap replace command." sizes="800px" loading="lazy">
 <p>Now we could use <code>ctrl-up</code> to increment number by 1.</p>
-<h2>Final thought</h2>
+<h2 id="final-thought">Final thought</h2>
 <p>Keybindings are easy now, no more conflicts.</p>
 <p>You could learn more about keybindings in <a href="http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/#removing-bindings">Atom flight manual</a>. As of <a href="http://blog.atom.io/2016/10/11/atom-1-11.html">Atom 1.12 Beta</a>, keybinding usability is further simplified.</p>
 <p>I hope you'll find this tutorial useful. Please feel free to comment below.</p>

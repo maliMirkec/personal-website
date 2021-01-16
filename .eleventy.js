@@ -1,9 +1,16 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
+const markdownItAnchor = require('markdown-it-anchor')
+const uslug = require('uslug')
 const env = require('./site/_data/env');
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.setLibrary(
+    'md',
+    markdownIt({ html: true }).use(markdownItAnchor, { slugify: uslug })
+  )
+
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str.trim()))

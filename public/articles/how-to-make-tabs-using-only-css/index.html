@@ -276,7 +276,7 @@
     <div class="copy copy--body"><p>I know there are more than a few articles about this topic. And there are 2 basic approaches: <a href="https://css-tricks.com/css3-tabs/">using <code>:target</code> pseudo selector</a> and <a href="https://css-tricks.com/functional-css-tabs-revisited/">using list with <code>:checked</code> pseudo selector</a>.</p>
 <p>I prefer the second approach, but without list or nested div structure.</p>
 <p><em>CSS tabs could be accessible, <a href="/articles/css-tabs-part-ii-accessibility/">read about it here</a>.</em></p>
-<h2>HTML structure</h2>
+<h2 id="html-structure">HTML structure</h2>
 <p>Let's start with <code>HTML</code>.  This is the full structure:</p>
 <iframe id="cp_embed_YGZyOm" src="//codepen.io/CiTA/embed/YGZyOm?height=300&theme-id=dark&slug-hash=YGZyOm&default-tab=html" scrolling="no" frameborder="no" height="300" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
 <p>Let's break it down by elements:</p>
@@ -301,7 +301,7 @@
 <p>With that clarified, we'll add unique <code>id</code> attributes on every <code>input type=&quot;radio&quot;</code> and matching <code>for</code> attributes to every <code>label</code> like this:</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tabs__radio<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myTab1<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myTabs<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tabs__label for=<span class="token punctuation">"</span></span><span class="token attr-name">myTab1"</span><span class="token punctuation">></span></span></code></pre>
 <p>Finally, we'll add <code>value</code> attribute for every <code>input type=&quot;radio&quot;</code> element and <code>checked</code> attribute on an element which should be active.</p>
-<h2>CSS code</h2>
+<h2 id="css-code">CSS code</h2>
 <p>To create styling for tabs, <strong><a href="http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html">SCSS</a></strong> and <strong><a href="https://github.com/maliMirkec/cita-flex">cita-flex</a></strong> will be used. This is the final code:</p>
 <iframe id="cp_embed_ALVWzg" src="//codepen.io/CiTA/embed/ALVWzg?height=300&theme-id=dark&slug-hash=ALVWzg&default-tab=html" scrolling="no" frameborder="no" height="300" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
 <p>First we will import <strong>cita-flex</strong> mixins in our file. It is a small library which could help you create layouts using flexbox built by me. <strong>cita-flex</strong> is available through bower and you could install it using command <code>bower install cita-flex</code>.</p>
@@ -328,14 +328,14 @@
 <p>If the first child of a <code>input type=&quot;radio&quot;</code> is checked, the first tab should be active and the content of the first tab should be displayed.</p>
 <p>Easy, we'll use <code>.input__radio:nth-of-type(1)</code> to select the first <code>input type=&quot;radio&quot;</code>. Then we'll check if <code>input</code> is checked:  <code>.input__radio:nth-of-type(1):checked</code> and find the first tab using siblings selector: <code>.input__radio:nth-of-type(1):checked ~ .tabs__label:nth-of-type(1)</code>. Finally, we'll find the content of the first tab: <code>.input__radio:nth-of-type(1):checked ~ .tabs__content:nth-of-type(1)</code>.</p>
 <p>Now that we know how to do this for first tab, we could use <code>@for</code> loop and repeat this for every tab. And that's it!</p>
-<h3>Bonus: disabled state</h3>
+<h3 id="bonus-disabled-state">Bonus: disabled state</h3>
 <p>I've had situations where tabs should be disabled. It is legit situation and for this purpose I've added disabled state of tab.</p>
 <p>We'll use <code>:disabled</code> pseudo selector and <code>hide-if-disabled</code> class for elements that should be hidden.</p>
 <p>The principle is the the same: we'll find disabled <code>input</code> element and matching tab and content: <code>.tab__radio:nth-of-type(1):disabled ~ .hide-if-disabled:nth-of-type(1)</code>.</p>
 <p>Now we could repeat this for every tab using <code>@for</code> loop and we're finished.</p>
 <p>Below you could see the full solution with disabled tabs 2 and 10.</p>
 <iframe id="cp_embed_ALVWzg" src="//codepen.io/CiTA/embed/ALVWzg?height=300&theme-id=dark&slug-hash=ALVWzg&default-tab=result" scrolling="no" frameborder="no" height="300" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
-<h2>Final thought</h2>
+<h2 id="final-thought">Final thought</h2>
 <p>Full demo is available on <a href="https://github.com/maliMirkec/csstabs">Github</a> and via bower: <code>bower install csstabs</code>.</p>
 <p>Do you find this solution usable, because I really like how we could do even more complex things with <code>CSS</code> only nowdays?</p>
 <p>Make sure you follow me on <a href="https://twitter.com/malimirkeccita">Twitter</a> and <a href="https://medium.com/@malimirkeccita">Medium</a>, more posts are coming soon.</p>
