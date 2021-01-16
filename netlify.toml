@@ -3,16 +3,16 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [build]
   publish = "/public/"
-  command = "yarn deploy"
+  command = "npm run build-prod"
 
 [context.production]
-  command = "yarn deploy"
+  command = "npm run build-prod"
 
 [context.deploy-preview]
-  command = "yarn build"
+  command = "npm run build-dev"
 
 [context.branch-deploy]
-  command = "yarn build"
+  command = "npm run build-dev"
 
 [context.develop]
-  command = "yarn build"
+  command = "npm run build-dev"

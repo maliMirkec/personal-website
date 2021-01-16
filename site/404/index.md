@@ -2,6 +2,7 @@
 layout: index
 title: Error 404—A terrible situation
 description: There is no content on this link. It is just a custom 404 page.
+permalink: 404.html
 sections:
   - type: hero-alpha
     title: This is a terrible situation.
