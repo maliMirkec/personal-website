@@ -171,7 +171,7 @@
 &lt;p&gt;Most of the time, I was having fun developing these features, but I struggled with the content.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the &lt;a href=&#34;https://tinyletter.com/starbist/&#34;&gt;UI Dev newsletter&lt;/a&gt;, which I am beginning to enjoy more and more with every new issue.&lt;/p&gt;
-&lt;p&gt;P.S. I am aware my project is not very popular. I always wanted to learn more about the marketing and promotion aspects of this project. If you have any suggestion on how to promote this project, please &lt;a href=&#34;/contact/&#34;&gt;contact me&lt;/a&gt; or &lt;a href=&#34;#disqus_thread&#34;&gt;leave a comment&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;P.S. I am aware my project is not very popular. I always wanted to learn more about the marketing and promotion aspects of this project. If you have any suggestion on how to promote this project, please &lt;a href=&#34;/contact/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 ]]></content:encoded>
       
         
@@ -290,7 +290,7 @@
 &lt;p&gt;Other reasons are mostly disagreements about the rate or estimation.&lt;/p&gt;
 &lt;p&gt;I like to think that I am fair, and I give every client a chance to convince me why I should work on their project. The problem emerges when the client feels the other way around—that I should persuade him/her to work on their project. When this happens, I know the communication would be the problem, so I avoid these clients.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;My third year of freelancing is undoubtedly the most successful one. With my family expanded by a new member, I managed to dedicate my time to work on high-quality projects like &lt;a href=&#34;/portfolio/westwing/&#34;&gt;Westwing&lt;/a&gt;, &lt;a href=&#34;/portfolio/creditcardinsider/&#34;&gt;Credit Card Insider&lt;/a&gt;, &lt;a href=&#34;/portfolio/littlebundle/&#34;&gt;Little Bundle&lt;/a&gt; and &lt;a href=&#34;/portfolio/dominodatalab/&#34;&gt;Domino Data Lab&lt;/a&gt;. All thanks to honest and open communication, quality time management and support from my family.&lt;/p&gt;
+&lt;p&gt;My third year of freelancing is undoubtedly the most successful one. With my family expanded by a new member, I managed to dedicate my time to work on high-quality projects like &lt;a href=&#34;/portfolio/westwing/&#34;&gt;Westwing&lt;/a&gt;, &lt;a href=&#34;/portfolio/creditcardinsider/&#34;&gt;Credit Card Insider&lt;/a&gt;, &lt;a href=&#34;/portfolio/little-bundle/&#34;&gt;Little Bundle&lt;/a&gt; and &lt;a href=&#34;/portfolio/dominodatalab/&#34;&gt;Domino Data Lab&lt;/a&gt;. All thanks to honest and open communication, quality time management and support from my family.&lt;/p&gt;
 ]]></content:encoded>
       
         
@@ -815,7 +815,7 @@
       <guid>https://www.silvestar.codes.com/articles/how-to-animate-svg-signature/</guid>
       <pubDate>Mon, 06 Jan 2020 10:13:35 +0100</pubDate>
       <description><![CDATA[Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.]]></description>
-      <content:encoded><![CDATA[&lt;p&gt;Let’s see how to animate SVG signature with a little bit of JavaScript and CSS. In this demo, I would show you how to use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes. You could see the final result on &lt;a href=&#34;/about-me/&#34;&gt;About page&lt;/a&gt; or &lt;a href=&#34;https://codepen.io/CiTA/full/abzJqQv&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+      <content:encoded><![CDATA[&lt;p&gt;Let’s see how to animate SVG signature with a little bit of JavaScript and CSS. In this demo, I would show you how to use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes. You could see the final result on &lt;a href=&#34;/about/&#34;&gt;About page&lt;/a&gt; or &lt;a href=&#34;https://codepen.io/CiTA/full/abzJqQv&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1578317221/gif-signature3_jiyf17.gif&#34; alt=&#34;Animated SVG signature - S.Bistrović.&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;SVG Signature&lt;/h2&gt;
 &lt;p&gt;Let’s start by creating an SVG signature. I am using Sketch to make SVG paths for letters. Here’s how it looks in Edit mode:&lt;/p&gt;
@@ -2246,7 +2246,7 @@
       <content:encoded><![CDATA[&lt;p&gt;Last year on this day, I wrote the first yearly review of my freelance career. Now it is time to review my second year of freelancing.&lt;/p&gt;
 &lt;h2&gt;Clients&lt;/h2&gt;
 &lt;p&gt;During the last year, I have been working on a dozen projects with eight different clients. Half of the clients came from &lt;a href=&#34;https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers&#34;&gt;the Toptal network&lt;/a&gt;, and the other half engaged me via &lt;a href=&#34;https://www.silvestar.codes&#34;&gt;my website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Every project was delivered with success and on time. Every client &lt;a href=&#34;/#Testimonials&#34;&gt;had positive feedback&lt;/a&gt; for my work and some of them returned to me with new projects. I have been collaborating with clients from Spain, Saudi Arabia, Germany, and the United States.&lt;/p&gt;
+&lt;p&gt;Every project was delivered with success and on time. Every client &lt;a href=&#34;/testimonials/&#34;&gt;had positive feedback&lt;/a&gt; for my work and some of them returned to me with new projects. I have been collaborating with clients from Spain, Saudi Arabia, Germany, and the United States.&lt;/p&gt;
 &lt;h2&gt;Client&#39;s Projects&lt;/h2&gt;
 &lt;p&gt;I am really pleased how &lt;a href=&#34;/portfolio/&#34;&gt;my portfolio&lt;/a&gt; looks this year. Every single project was challenging and fulfilling in its own way.&lt;/p&gt;
 &lt;p&gt;Last year I was building static pages and styleguides for:&lt;/p&gt;
@@ -4203,7 +4203,7 @@ is unnecessary cope-paste back and forth again.&lt;/p&gt;
       <guid>https://www.silvestar.codes.com/articles/how-to-handle-keybindings-in-atom/</guid>
       <pubDate>Sat, 15 Oct 2016 18:41:54 +0200</pubDate>
       <description><![CDATA[In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?]]></description>
-      <content:encoded><![CDATA[&lt;p&gt;In &lt;a href=&#34;https://silvestar.codes/en/tags/atom/&#34;&gt;recent articles about Atom&lt;/a&gt;, I&#39;ve talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?&lt;/p&gt;
+      <content:encoded><![CDATA[&lt;p&gt;In recent articles about Atom, I&#39;ve talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?&lt;/p&gt;
 &lt;p&gt;In this tutorial I&#39;ll show you how you could fix this.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Windows based shortcuts will be used but the same analogy could be applied for other operating systems.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;What are keybindings?&lt;/h2&gt;
