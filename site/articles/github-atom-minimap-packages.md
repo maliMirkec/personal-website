@@ -50,7 +50,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 There's even a package that highlights search result occurrences in the **minimap**. It is called **[minimap-find-and-replace](https://atom.io/packages/minimap-find-and-replace)** and could be very useful when finding in the text.
 
-[In the previous post](/en/articles/github-atom-git-packages/), my favorite Git packages for Atom where presented. Beside community packages, there are packages that are part of the Atom's core. One of them is **[git-diff](https://atom.io/packages/git-diff)**. **git-diff** allows user to see Git changes directly in the file. **minimap** binding for that package is called **minimap-git-diff**. It shows git-diff status in the **minimap**. It could be pretty useful when searching for changes in a large file.
+[In the previous post](/articles/github-atom-git-packages/), my favorite Git packages for Atom where presented. Beside community packages, there are packages that are part of the Atom's core. One of them is **[git-diff](https://atom.io/packages/git-diff)**. **git-diff** allows user to see Git changes directly in the file. **minimap** binding for that package is called **minimap-git-diff**. It shows git-diff status in the **minimap**. It could be pretty useful when searching for changes in a large file.
 
 **minimap-linter** displays linter errors on the **minimap**. Linters are separate topic and I will be writing about them in the future articles.
 

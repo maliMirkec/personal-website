@@ -18,7 +18,7 @@ sections2:
       title: Hire me ⇢
 ---
 
-This is the first article in a series about my [perfect Atom setup](/en/tags/atom/). First topic is installation and initial setup.
+This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
 
 <!-- more -->
 
