@@ -23,12 +23,12 @@ A web browser is one of the essential tools for web development. Besides awesome
 
 <!-- more -->
 
-- [Octotree](#Octotree)
-- [Wappalizer](#Wappalizer)
-- [CSS Feature Toggles](#CSS-Feature-Toggles)
-- [Workona](#Workona)
-- [LastPass](#LastPass)
-- [Code Line Daily](#Code-Line-Daily)
+- [Octotree](#octotree)
+- [Wappalizer](#wappalizer)
+- [CSS Feature Toggles](#css-feature-toggles)
+- [Workona](#workona)
+- [LastPass](#lastpass)
+- [Code Line Daily](#code-line-daily)
 - [Codopen]
 - [Keywords Everywhere]
 - [Block Yourself from Analytics]

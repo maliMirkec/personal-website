@@ -28,7 +28,6 @@
       <guid>{{ metadata.url | append: article.url }}</guid>
       <pubDate>{{ article.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
       <description><![CDATA[{{ article.data.description }}]]></description>
-      <content:encoded><![CDATA[{{ article.templateContent | escape }}]]></content:encoded>
       {% if article.data.categories %}
         {% for category in article.data.categories %}
           <category>{{ category }}</category>
