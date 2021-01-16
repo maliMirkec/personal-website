@@ -3,8 +3,6 @@ const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const env = require('./site/_data/env');
 
-console.log(env);
-
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
 
