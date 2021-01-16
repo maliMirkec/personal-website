@@ -13,6 +13,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  eleventyConfig.addPairedShortcode("codeblock", (str) => str)
+
   eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str.trim()))
 
   eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str.trim()))

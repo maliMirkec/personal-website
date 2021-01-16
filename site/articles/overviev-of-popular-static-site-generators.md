@@ -16,6 +16,14 @@ publication: Toptal
 canonical: https://www.toptal.com/front-end/static-site-generators-comparison-2018
 thumbnail: Overview_of_Popular_Static_Site_Generators_fpv8q9
 description: There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.
+type: articles-item
+sections2:
+  - type: banner-alpha
+    title: I am _available_ for a new project.
+    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    cta:
+      href: /contact/
+      title: Hire me ⇢
 ---
 
 All static page generators have a single and seemingly straightforward task: to produce a static HTML file and all its assets.
@@ -24,7 +32,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." %}
+{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -67,25 +75,25 @@ For example, this is how you start a new project in different frameworks:
 
 **Jekyll**
 
-``` bash
+```bash
 jekyll new my_website
 ```
 
 **Middleman**
 
-``` bash
+```bash
 middleman init my_website
 ```
 
 **Hugo**
 
-``` bash
+```bash
 hugo new my_website
 ```
 
 **Hexo**
 
-``` bash
+```bash
 hexo init my_website
 ```
 
@@ -105,7 +113,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." %}
+{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -115,25 +123,25 @@ Here are the commands for creating a new article in Middleman, Hugo, and Hexo:
 
 **Middleman**
 
-``` bash
+```bash
 middleman article my_article
 ```
 
 **Hugo**
 
-``` bash
+```bash
 hugo new posts/my_article.md
 ```
 
 **Hexo**
 
-``` bash
+```bash
 hexo new post my_article
 ```
 
 In Markdown, you are limited to a particular set of syntax. Luckily for us, all generators can process raw HTML as well. For example, if you want to add an anchor with a specific class, you could add it as you would in a regular HTML file:
 
-``` text
+```text
 This is a text with <a class="my-class" href="#">a link</a>.
 ```
 
@@ -143,7 +151,7 @@ Front matter is a block of data on top of the Markdown file. You could set custo
 
 For example, this is how you could add tags to your article.
 
-``` md
+```md
 tags:
   - web
   - dev
@@ -154,25 +162,25 @@ tags:
 
 Static page generators use a templating language to process templates. To insert data into a template, you need to use tags. For example, to display the page title in Jekyll, you could write:
 
-``` html
-{{ page.title }}
+```html
+{{ page.title }}
 ```
 
 Let's try to display a list of tags from the front matter in our post in Jekyll. You need to check if a variable is available. Then, you need to loop through tags and display them in an unordered list.
 
-``` html
-{%- if page.tags -%}
+```html
+{%- if page.tags -%}
  <ul>
-   {%- for tag in page.tags -%}
-     <li>{{ tag }}</li>
-   {%- endfor -%}
+   {%- for tag in page.tags -%}
+     <li>{{ tag }}</li>
+   {%- endfor -%}
  </ul>
-{%- endif -%}
+{%- endif -%}
 ```
 
 **Middleman**
 
-``` html
+```html
 <% if current_page.data.tags %>
  <ul>
    <% for tag in current_page.data.tags %>
@@ -184,19 +192,19 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 
 **Hugo**
 
-``` html
-{{ if .Params.Tags }}
+```html
+{{ if .Params.Tags }}
  <ul>
-   {{ range .Params.Tags }}
-     <li>{{ . }}</li>
-   {{ end }}
+   {{ range .Params.Tags }}
+     <li>{{ . }}</li>
+   {{ end }}
  </ul>
-{{ end }}
+{{ end }}
 ```
 
 **Hexo**
 
-``` html
+```html
 <% if (post.tags) { %>
  <ul>
    <% post.tags.forEach(function(tag) { %>
@@ -222,7 +230,7 @@ When you want to store data that are not available in Markdown files, you should
 
 Let's store those social links in our data file. Since all generators support YAML format, let's save the data in the social.yml file:
 
-``` md
+```md
 - name: Twitter
   href: https://twitter.com/malimirkeccita
 - name: LinkedIn
@@ -237,19 +245,19 @@ To output the data, you could use the following code:
 
 **Jekyll**
 
-``` html
-{%- if site.data.social -%}
+```html
+{%- if site.data.social -%}
  <ul>
-   {% for social in site.data.social %}
-     <li><a href="{{ social.href }}">{{ social.name }}</li>
-   {%- endfor -%}
+   {% for social in site.data.social %}
+     <li><a href="{{ social.href }}">{{ social.name }}</li>
+   {%- endfor -%}
  </ul>
-{%- endif -%}
+{%- endif -%}
 ```
 
 **Middleman**
 
-``` html
+```html
 <% if data.social %>
  <ul>
    <% data.social.each do |s| %>
@@ -261,19 +269,19 @@ To output the data, you could use the following code:
 
 **Hugo**
 
-``` html
-{{ if $.Site.Data.social }}
+```html
+{{ if $.Site.Data.social }}
  <ul>
-   {{ range $.Site.Data.social }}
-     <li><a href="{{ .href }}">{{ .name }}</a></li>
-   {{ end }}
+   {{ range $.Site.Data.social }}
+     <li><a href="{{ .href }}">{{ .name }}</a></li>
+   {{ end }}
  </ul>
-{{ end }}
+{{ end }}
 ```
 
 **Hexo**
 
-``` html
+```html
 <% if (site.data.social) { %>
  <ul>
    <% site.data.social.forEach(function(social){ %>
@@ -287,25 +295,25 @@ To output the data, you could use the following code:
 
 Templates often support data filtering. For example, if you want to make the title uppercase, you could do it like so:
 
-``` html
-{{ page.title | upcase }}
+```html
+{{ page.title | upcase }}
 ```
 
 Middleman has similar syntax:
 
-``` html
+```html
 <%= current_page.data.title.upcase %>
 ```
 
 Hugo uses the following command:
 
-``` html
-{{ .Title | upper }}
+```html
+{{ .Title | upper }}
 ```
 
 Hexo has different syntax, but the result is the same.
 
-``` html
+```html
 <%= page.title.toUpperCase() %>
 ```
 
@@ -313,7 +321,7 @@ Hexo has different syntax, but the result is the same.
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." %}
+{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." %}
 
 ## SASS
 
@@ -336,14 +344,14 @@ You could write a new plugin or extension. Before you do, check if a similar plu
 ## Shortcodes in Markdown
 Shortcodes are code snippets that you could place in Markdown documents. Those snippets output HTML code. Hugo and Hexo support shortcodes. There are built-in shortcodes, like figure in Hugo:
 
-``` html
-{{< figure src="/lint/to/image.jpg" title="My image" >}}
+```html
+{{< figure src="/lint/to/image.jpg" title="My image" >}}
 ```
 
 Hexo youtube shortcode:
 
-``` html
-{% youtube video_id %}
+```html
+{% youtube video_id %}
 ```
 
 If you cannot find a proper shortcode, you could create a new one. For example, Hexo doesn't support CanIUse embeds, and I developed [a new tag] that supports CanIUse embedding. Don't forget to publish your plugin on npm or official generator site. The community will be grateful if you do.
