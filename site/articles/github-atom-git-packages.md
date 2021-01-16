@@ -38,7 +38,7 @@ When terminal is not accessible or when I'm too lazy to open it, I use **git-p
 
 _I don't recommend using **git-plus** package for complicated Git structures. There are specific tools that are built for that, like [Git Extensions](https://gitextensions.github.io/) or [Tower](https://www.git-tower.com/), to name just a few._
 
-**git-plus** could be installed via package manager, the instructions could be found in the article [First steps with Github Atom](https://silvestar.codes/en/articles/github-atom-first-steps/).
+**git-plus** could be installed via package manager, the instructions could be found in the article [First steps with Github Atom](/articles/github-atom-first-steps/).
 
 To configure **git-plus** package, Git path should be provided. Make sure to enter the path with actual Git file executable, like this `C:Program FilesGitbingit.exe`. You could configure other options as per your preferences.
 

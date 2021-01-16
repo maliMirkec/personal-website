@@ -48,7 +48,7 @@ I worked on various projects last year, mostly on WordPress platform:
 - developed a custom theme for [a wedding photography website],
 - developed a custom theme for a digital ID validation solution website,
 - installed a premium theme for [another wedding photography website],
-- installed a premium theme for [a travel journal website], and
+- installed a premium theme for a travel journal website, and
 - helped a few clients to finish WordPress projects by applying style improvements and making websites responsive.
 
 I created a couple of styleguides:
@@ -65,7 +65,7 @@ I developed a few websites using static page generators:
 I have worked on web speed optimization:
 
 - on WordPress-based projects, and
-- on [a Shopify project].
+- on a Shopify project.
 
 In the spare time, I worked on open-source projects. I published [three]&nbsp; [simple]&nbsp; [plugins] and [a theme] for the Hexo framework, [an Angular directive], [a JavaScript plugin], and [a boilerplate of Gulp tasks].
 
@@ -108,10 +108,8 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [a wedding photography website]: /portfolio/irinaandmatej/
 <!-- a digital ID validation solution website]: /portfolio/netki/ -->
 [another wedding photography website]: /portfolio/marcijusweddings/
-[a travel journal website]: /portfolio/borninjune/
 <!-- [an agency from Germany]: /portfolio/contiamo/ -->
 [a personal website for a designer from Montreal]: /portfolio/hanhanxue/
-[a Shopify project]: /portfolio/moodings/
 [three]: https://www.npmjs.com/package/hexo-codepen
 [simple]: https://www.npmjs.com/package/hexo-caniuse
 [plugins]: https://www.npmjs.com/package/hexo-cloudinary

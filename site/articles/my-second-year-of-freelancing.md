@@ -43,7 +43,7 @@ I have been building and maintaining websites that are powered by static page ge
 
 - [Domino Data Lab],
 - [Domino Data Lab Rev],
-- [Machine Learning Libraries], and
+- Machine Learning Libraries, and
 - [Westwing].
 
 I have been working on developing, maintaining, and optimizing WordPress themes for:
@@ -104,10 +104,9 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 [my portfolio]: /portfolio/
 [Trase Yearbook 2018]: /portfolio/yearbook-trase/
 [TheGrio]: /portfolio/thegrio/
-[Domino Data Lab Pop-up]: /portfolio/dominodatalab-pop-up/
+[Domino Data Lab Pop-up]: /portfolio/dominodatalab-pop/
 [Domino Data Lab]: /portfolio/dominodatalab/
 [Domino Data Lab Rev]: /portfolio/dominodatalab-rev/
-[Machine Learning Libraries]: /portfolio/machine-learning-libraries/
 [Westwing]: /portfolio/westwing/
 [International, IT software & services client]: https://www.beamland.com/
 [Calvert]: /portfolio/calvert/

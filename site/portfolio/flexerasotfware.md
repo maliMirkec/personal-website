@@ -4,7 +4,7 @@ title: Flexera Software
 description: Flexera Software can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
 thumbnail: f2_yibqhl
 link: //www.flexerasoftware.com
-display: false
+display: true
 date: 2020-01-08
 type: portfolio-item
 tags:

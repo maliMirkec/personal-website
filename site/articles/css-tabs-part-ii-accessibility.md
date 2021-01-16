@@ -20,7 +20,7 @@ sections2:
       title: Hire me ⇢
 ---
 
-Recently I've been writing about [CSS tabs](https://silvestar.codes/en/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.
+Recently I've been writing about [CSS tabs](/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.
 
 What was even more surprising were comments about accessibility. Although my initial idea was to present just a CSS technique for tabs, I decided to investigate a little bit more and add accessibility to my solution.
 
@@ -42,7 +42,7 @@ We need to find a tool to test our tabs for accessibility. Web Accessibility Ini
 
 ### ngrok
 
-Since I was developing [locally](https://silvestar.codes/en/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
+Since I was developing [locally](/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
 
 {% cldnry "ngrok-in-action_u2lpmo" "ngrok in action." %}
 

@@ -4,7 +4,7 @@ title: Flexera
 description: Flexera control and manage software and IT costs, to grow and protect your business.
 thumbnail: f1_bn1woc
 link: //www.flexera.com
-display: false
+display: true
 date: 2020-01-07
 type: portfolio-item
 tags:
