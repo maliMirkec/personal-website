@@ -18,10 +18,20 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   command = "npm run build-dev"
 
 [[plugins]]
-  package = "netlify-plugin-checklinks"
+  package = "@netlify/plugin-lighthouse"
 
-  [plugins.inputs]
-    skipPatterns = ["googletagmanager"]
+  # optional, fails build when a category is below a threshold
+  [plugins.inputs.thresholds]
+    performance = 0.9
+    accessibility = 0.9
+    best-practices = 0.9
+    seo = 0.9
+
+# [[plugins]]
+#   package = "netlify-plugin-checklinks"
+
+#   [plugins.inputs]
+#     skipPatterns = ["googletagmanager"]
 
 [[plugins]]
   package = "netlify-plugin-minify-html"

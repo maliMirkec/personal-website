@@ -66,7 +66,7 @@ I've already included this awesome service in **recursive-repeater** directive, 
 
 As you could see, we're not using **link** property when defining directive, we are using **compile** instead.
 
-This directive works only when **jsonData** is provided via **json-data** attribute. **label** attribute is optional and is used to display label for every input. You could see an example in a [previous section](#angular-repeater-template).
+This directive works only when **jsonData** is provided via **json-data** attribute. **label** attribute is optional and is used to display label for every input. You could see an example in a previous section.
 
 In addition, there are 2 helper functions in a directive:
 
