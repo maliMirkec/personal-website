@@ -27,7 +27,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
   # Exclude files from sitemap
   exclude = [
-    '/docs/**/*'
+    './docs/**/*.html'
   ]
 
 [[plugins]]
