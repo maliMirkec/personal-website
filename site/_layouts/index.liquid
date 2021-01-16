@@ -31,6 +31,9 @@
     {% include _partials/footer %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
+    {% unless env.development %}
+      {% include _partials/_assets/critical %}
+    {% endunless %}
   </body>
 </html>
 
