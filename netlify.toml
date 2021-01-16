@@ -25,6 +25,11 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   # The base dir of the project
   buildDir = "public"
 
+  # Exclude files from sitemap
+  exclude = [
+    '/docs/**/*'
+  ]
+
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
