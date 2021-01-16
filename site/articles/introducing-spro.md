@@ -139,7 +139,7 @@ Or contribute to the project by creating [a new issue] or [a pull request].
 [to write npm scripts]: https://medium.freecodecamp.org/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
 [install using silent option]: https://stackoverflow.com/questions/34426332/how-to-suppress-output-when-running-npm-scripts
 [SPRO's GitHub page]: https://github.com/maliMirkec/starter-project-cli#packages
-[watch videos]: #The-Course
+[watch videos]: #the-course
 [a course]: https://skl.sh/2EcUlRt
 [SkillShare]: https://skl.sh/2EcUlRt
 [siteaudit]: https://github.com/thecreazy/siteaudit

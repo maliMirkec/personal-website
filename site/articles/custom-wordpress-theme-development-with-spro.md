@@ -218,6 +218,6 @@ Please spread the word. More lessons are coming soon! 📣
 [read the introduction article from the last week]: /articles/introducing-spro/
 [the Skillshare lesson]: https://skl.sh/2EcUlRt
 [Local by FlyWheel]: https://local.getflywheel.com/
-[for global installation]: /articles/introducing-spro/#Installation
+[for global installation]: /articles/introducing-spro/#installation
 [visit the official Penthouse site]: https://github.com/pocketjoso/penthouse
 [as suggested by Google]: https://developers.google.com/web/tools/lighthouse/audits/unused-css#deferring
