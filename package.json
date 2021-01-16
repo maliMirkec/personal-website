@@ -23,7 +23,7 @@
     "cp_cv": "cp extras/silvestar-bistrovic-cv.pdf public/silvestar-bistrovic-cv.pdf",
     "cp_robots-dev": "cp extras/robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp extras/robots_prod.txt public/robots.txt",
-    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch --quiet",
+    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --watch --quiet",
     "dev": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp dev\"",
     "prod": "concurrently --kill-others \"npm run eleventy-prod\" \"gulp\"",

@@ -1,4 +1,6 @@
+<meta name="env" content="{{env.development}}">
 {% unless env.development %}
+<meta name="env" content="{{env.development}}">
   {% if type == "home" %}
     <style>{% include ../../assets/dist/css/home.critical.min.css %}</style>
   {% elsif type == "testimonials-item" %}
