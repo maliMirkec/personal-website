@@ -28,10 +28,13 @@
     "dev": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp dev\"",
     "prod": "concurrently --kill-others \"npm run eleventy-prod\" \"gulp\"",
     "prebuild": "gulp build && npx @11ty/eleventy",
-    "build-dev": "npm run prebuild && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
-    "build-prod": "npm run prebuild && npm run cp_redirects && npm run cp_headers && npm run cp_robots-prod"
+    "build-dev": "npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
+    "build-prod": "npm run cp_redirects && npm run cp_headers && npm run cp_robots-prod"
   },
   "dependencies": {
+    "cloudinary-core": "^2.10.3"
+  },
+  "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "@babel/core": "^7.12.10",
@@ -39,7 +42,6 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.10",
-    "cloudinary-core": "^2.10.3",
     "concurrently": "^5.3.0",
     "del": "^6.0.0",
     "eslint": "^7.17.0",
