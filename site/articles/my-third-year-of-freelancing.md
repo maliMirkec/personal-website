@@ -160,5 +160,5 @@ My third year of freelancing is undoubtedly the most successful one. With my fam
 [the Great (Frontend) Divide]: https://css-tricks.com/the-great-divide/
 [Westwing]: /portfolio/westwing/
 [Credit Card Insider]: /portfolio/creditcardinsider/
-[Little Bundle]: /portfolio/littlebundle/
+[Little Bundle]: /portfolio/little-bundle/
 [Domino Data Lab]: /portfolio/dominodatalab/

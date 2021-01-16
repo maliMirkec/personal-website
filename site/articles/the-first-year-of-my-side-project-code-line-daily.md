@@ -76,7 +76,7 @@ During the last year, I dedicated a lot of my time to this project. Most of the 
 
 On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the [UI Dev newsletter], which I am beginning to enjoy more and more with every new issue.
 
-P.S. I am aware my project is not very popular. I always wanted to learn more about the marketing and promotion aspects of this project. If you have any suggestion on how to promote this project, please [contact me] or [leave a comment].
+P.S. I am aware my project is not very popular. I always wanted to learn more about the marketing and promotion aspects of this project. If you have any suggestion on how to promote this project, please [contact me].
 
 [Code Line Daily]: https://cld.silvestar.codes
 [featured on the Product Hunt]: https://www.producthunt.com/posts/code-line-daily
@@ -95,4 +95,3 @@ P.S. I am aware my project is not very popular. I always wanted to learn more ab
 [a browser extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
 [UI Dev newsletter]: https://tinyletter.com/starbist/
 [contact me]: /contact/
-[leave a comment]: #disqus_thread

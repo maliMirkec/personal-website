@@ -166,7 +166,7 @@ There you have it, an animated SVG signature. With a little bit of SVG, JavaScri
 
 {% codepen "CiTA" "abzJqQv" "dark" "result" "400" %}
 
-[About page]: /about-me/
+[About page]: /about/
 [CodePen]: https://codepen.io/CiTA/full/abzJqQv
 [the browser compability]: https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength#Browser_compatibility
 [`getTotalLength()`]: https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength

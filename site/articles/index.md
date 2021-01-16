@@ -14,7 +14,7 @@ sections:
     banner:
       desc: Did you know that I write **UI Dev Newletter**?
       cta:
-        href: /newsletter/
+        href: https://mentor.silvestar.codes/reads#newsletter
         title: Subscribe here ⇢
   - type: cards-alpha
     cta:

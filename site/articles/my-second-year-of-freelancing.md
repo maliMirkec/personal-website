@@ -100,7 +100,7 @@ If you want to become Toptal professional, use [this link] to join! 🔗
 
 [the Toptal network]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
 [my website]: https://www.silvestar.codes
-[had positive feedback]: /#Testimonials
+[had positive feedback]: /testimonials/
 [my portfolio]: /portfolio/
 [Trase Yearbook 2018]: /portfolio/yearbook-trase/
 [TheGrio]: /portfolio/thegrio/

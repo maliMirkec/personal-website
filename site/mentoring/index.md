@@ -26,4 +26,4 @@ I am here to offer you the same experience. I have been in the web development i
 
 Learn more about the program by [reading the introductinary blog post](/articles/the-ui-development-mentoring-program/).
 
-Get to know me better by [checking the about page](/about-me/) or [hire me page](/hire-me/).
+Get to know me better by [checking the about page](/about/) or [hire me page](/hire-me/).
