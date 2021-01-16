@@ -30,7 +30,10 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
     "./docs/",
     "./docs/styleguide/",
     "./docs/styleguide/*.html",
-    "./docs/**/*.html"
+    "./docs/styleguide/**.html",
+    "./docs/**/*.html",
+    "./docs/styleguide/**",
+    "./docs/**"
   ]
 
 [[plugins]]
