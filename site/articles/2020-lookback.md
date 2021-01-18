@@ -25,8 +25,8 @@ Another year is over and it is time for the annual lookback.
 
 _If you want to read articles from last couple of years, see the following_:
 
-* [2018 Lookback]
-* [2019 Lookback]
+* [2018 lookback]
+* [2019 lookback]
 
 _Note: this article is written from a technology perspective, meaning that I wrote about technologies and tools used during last year._
 
@@ -50,7 +50,7 @@ Last year I stopped one side project after one year, [Code Line Daily]. The site
 
 I started a new project last year and it wasn't a success, but it wasn't a failure either. I guess I didn't commit myself to this project fully, too. I wanted to start the mentoring business by offering my professional advice and charging for it. I have a couple of students which I mentor to this day. It makes me smile when I see their excitement and progress, so I guess I did at least something right.
 
-As a part of my mentoring program, I started [a newsletter about User Interface (UI) development]. Running a newsletter is not an easy task, but I enjoy it. I read articles all the time anyway and I am happy to share my findings with other. I published 40 issues to this date and I have 60 subscribers so far. I never ran any advertising campaings for the newsletter, but I guess I should.
+As a part of my mentoring program, I started [a newsletter] about User Interface (UI) development. Running a newsletter is not an easy task, but I enjoy it. I read articles all the time anyway and I am happy to share my findings with other. I published 40 issues to this date and I have 60 subscribers so far. I never ran any advertising campaings for the newsletter, but I guess I should.
 
 ## Blogging
 
@@ -65,8 +65,8 @@ Since I wasn't that active, I didn't gain much recognition from the community. T
 2020 was a solid year for me. I could complain, but I don't think anybody want to hear about it. I am thankful to be working in an industry that is not affected by the global pandemic.
 
 [why page builder might be a bad idea]: /articles/page-builders-might-not-be-a-good-idea/
-[2018 Lookback]: /articles/2018-lookback/
-[2019 Lookback]: /articles/2019-lookback/
+[2018 lookback]: /articles/2018-lookback/
+[2019 lookback]: /articles/2019-lookback/
 [Code Line Daily]: /articles/the-first-year-of-my-side-project-code-line-daily/
 [the browser extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
-[a newsletter about User Interface (UI) development]: https://mentor.silvestar.codes/reads#newsletter
+[a newsletter]: https://mentor.silvestar.codes/reads#newsletter

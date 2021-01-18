@@ -377,22 +377,11 @@ a {
   outline: none;
 }
 
-a:not(.inert):before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  opacity: 0;
-  background-color: rgba(18, 224, 159, 0.25);
-  z-index: -1;
-}
-
 .copy--body a:not([class]) {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   display: inline;
+  word-break: break-word;
 }
 
 ul {
