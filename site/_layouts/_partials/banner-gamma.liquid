@@ -4,7 +4,7 @@
       {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
       {% assign facebookLink = "https://facebook.com/sharer.php?u=" | append: site.url | append: page.url %}
       {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="{{ facebookLink }}" target="_blank">Facebook ⇢</a>
@@ -32,11 +32,15 @@
       {% if prev_i < 0 %}
         {% assign prev_i = articles.length | minus: 1 %}
       {% endif %}
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom{% unless env.development %}-alpha{% endunless %}">
         <a class="button button--small" href="{{articles[prev_i].url}}" title="{{articles[prev_i].data.title}}">⇠ Prev post</a>
         <a class="button button--small" href="{{articles[next_i].url} title="{{articles[next_i].data.title}}">Next post ⇢</a>
       </div>
+      {% unless env.development %}
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        {% include _partials/comments %}
+      {% endunless %}
     </div>
   </div>
 </section>

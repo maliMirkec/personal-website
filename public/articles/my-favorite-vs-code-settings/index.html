@@ -101,12 +101,18 @@
 
   <link href="https://www.googletagmanager.com" rel="dns-prefetch">
   <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+  <link href="https://c.disquscdn.com" rel="dns-prefetch">
+  <link href="https://c.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://referrer.disquscdn.com" rel="dns-prefetch">
+  <link href="https://referrer.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://links.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://links.services.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://realtime.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://realtime.services.disquscdn.com" rel="preconnect" crossorigin>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-
-
-
-  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/My_Favorite_VS_Code_Settings_b2cqy6" rel="preload" crossorigin as="image">
 
 
 <link href="/css/style.min.css" rel="preload" crossorigin as="style">
@@ -271,10 +277,6 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     
-      <div class="copy copy--body margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
-      </div>
-    
     <div class="copy copy--body"><p>Last week I saw <a href="https://twitter.com/mattbierner/status/1241039298750746624">an interesting tweet about showing modified tabs in the VS Code</a> from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.</p>
 <p>By the way, the setting could be found as “Workbench &gt; Editor: Highlight Modified Tabs” in VS Code Settings. If you also want to see the modified indicator in your current VS Code window, go to Settings, search “Window: Title”, and add <code>${dirty}</code> option. Here is how it looks in my settings:</p>
 <pre class="language-js"><code class="language-js">$<span class="token punctuation">{</span>dirty<span class="token punctuation">}</span> $<span class="token punctuation">{</span>activeEditorMedium<span class="token punctuation">}</span>$<span class="token punctuation">{</span>separator<span class="token punctuation">}</span>$<span class="token punctuation">{</span>rootName<span class="token punctuation">}</span></code></pre>
@@ -350,7 +352,7 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/my-favorite-vs-code-settings/&text=My Favorite VS Code Settings&via=malimirkeccita" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/my-favorite-vs-code-settings/" target="_blank">Facebook ⇢</a>
@@ -378,6 +380,8 @@
         
       
         
+      
+        
           
           
         
@@ -486,11 +490,32 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
         <a class="button button--small" href="/articles/a-story-of-becoming-a-web-developer/" title="A Story of Becoming a Web Developer">⇠ Prev post</a>
         <a class="button button--small" href="/articles/i-just-finished-redesigning-my-site/">Next post ⇢</a>
       </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/my-favorite-vs-code-settings/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "silvestarbistrovic"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
     </div>
   </div>
 </section>

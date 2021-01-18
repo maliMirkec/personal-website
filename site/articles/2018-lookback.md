@@ -41,8 +41,7 @@ What an excellent year for CSS developers last year was. I enjoyed solving probl
 
 In the time when more than 50% of the developers didn't know how to solve the famous [Twitter puzzle], I wanted to write about the importance of the cascade.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Only 43% of the 13,000 people who answered know CSS well!<br><br>The right answer: both will be blue! 🤯<br><br>The class order on the element does not matter. These two classes have the same specificity, so CSS falls back to source order. Today y&#39;all learned!<br><br>Demo: <a href="https://t.co/OB2rh2OWG4">https://t.co/OB2rh2OWG4</a> <a href="https://t.co/lgNP5VkEsO">https://t.co/lgNP5VkEsO</a></p>&mdash; Max Stoiber (@mxstbr) <a href="https://twitter.com/mxstbr/status/1038416725182697472?ref_src=twsrc%5Etfw">September 8, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[{% cldnry "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" "400" "607" %}](https://twitter.com/mxstbr/status/1038416725182697472)
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
 

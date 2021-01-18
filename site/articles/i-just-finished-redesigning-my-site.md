@@ -43,7 +43,7 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Which is better: version 1 or version 2? <a href="https://t.co/7s6qTGSuf2">pic.twitter.com/7s6qTGSuf2</a></p>&mdash; ѕιlveѕтαr вιѕтrovιć (@malimirkeccita) <a href="https://twitter.com/malimirkeccita/status/1231233665667149824?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[{% cldnry "tweetcyborg_dknyll" "Twitter screenshot containing the poll" "400" "356" %}](https://twitter.com/malimirkeccita/status/1231233665667149824)
 
 Finally, I have updated HTML and CSS code. I have removed hard-coded sections from the theme, and I used Hexo built-in features.
 

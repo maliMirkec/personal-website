@@ -725,20 +725,10 @@ a {
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  outline: none; }
-  a:not(.inert):before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: all var(--duration);
-    background-color: rgba(18, 224, 159, 0.25);
-    z-index: -1; }
-  a:not(.inert):hover:before, a:not(.inert):focus :before {
-    opacity: 1; }
+  outline: none;
+  transition: all var(--duration); }
+  a:not(.inert):hover, a:not(.inert):focus  {
+    background-color: rgba(18, 224, 159, 0.25); }
   a:not(.inert):focus, a:not(.inert):active {
     box-shadow: 0 0 0 0.25rem rgba(18, 224, 159, 0.25); }
   a.inert:hover, a.inert:focus {
@@ -746,7 +736,8 @@ a {
   .copy--body a:not([class]) {
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    display: inline; }
+    display: inline;
+    word-break: break-word; }
     .copy--body a:not([class]):hover {
       text-decoration: none; }
     .copy--body a:not([class]):focus, .copy--body a:not([class]):active {

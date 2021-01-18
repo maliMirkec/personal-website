@@ -101,12 +101,18 @@
 
   <link href="https://www.googletagmanager.com" rel="dns-prefetch">
   <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+  <link href="https://c.disquscdn.com" rel="dns-prefetch">
+  <link href="https://c.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://referrer.disquscdn.com" rel="dns-prefetch">
+  <link href="https://referrer.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://links.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://links.services.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://realtime.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://realtime.services.disquscdn.com" rel="preconnect" crossorigin>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-
-
-
-  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/How_to_animate_SVG_signature_l1h5a8" rel="preload" crossorigin as="image">
 
 
 <link href="/css/style.min.css" rel="preload" crossorigin as="style">
@@ -273,10 +279,6 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     
-      <div class="copy copy--body margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
-      </div>
-    
     <div class="copy copy--body"><p>Let’s see how to animate SVG signature with a little bit of JavaScript and CSS. In this demo, I would show you how to use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes. You could see the final result on <a href="/about/">About page</a> or <a href="https://codepen.io/CiTA/full/abzJqQv">CodePen</a>.</p>
 <p><img src="https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1578317221/gif-signature3_jiyf17.gif" alt="Animated SVG signature - S.Bistrović."></p>
 <h2 id="svg-signature">SVG Signature</h2>
@@ -324,7 +326,7 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/how-to-animate-svg-signature/&text=How to animate SVG signature&via=malimirkeccita" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/how-to-animate-svg-signature/" target="_blank">Facebook ⇢</a>
@@ -362,6 +364,8 @@
         
       
         
+      
+        
           
           
         
@@ -460,11 +464,32 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
         <a class="button button--small" href="/articles/the-ui-development-mentoring-program/" title="The UI Development Mentoring Program">⇠ Prev post</a>
         <a class="button button--small" href="/articles/2019-lookback/">Next post ⇢</a>
       </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/how-to-animate-svg-signature/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "silvestarbistrovic"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
     </div>
   </div>
 </section>

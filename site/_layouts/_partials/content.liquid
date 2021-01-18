@@ -7,7 +7,7 @@
 {% endif %}
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
-    {% if tags and tags[0] == 'blog' %}
+    {% if canonical and publication %}
       <div class="copy copy--body margin-bottom">
         <p class="fs-italic">This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
       </div>

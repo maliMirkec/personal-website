@@ -18,26 +18,12 @@ a {
   position: relative;
   overflow: hidden;
   outline: none;
+  transition: all var(--duration);;
 
   &:not(.inert) {
-    &:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      opacity: 0;
-      transition: all var(--duration);
-      background-color: transparentize($color-alpha, .75);
-      z-index: -1;
-    }
-
     &:hover,
     &:focus {
-      &:before {
-        opacity: 1;
-      }
+      background-color: transparentize($color-alpha, .75);
     }
 
     &:focus,
@@ -58,6 +44,7 @@ a {
       text-decoration: underline;
       text-decoration-thickness: 2px;
       display: inline;
+      word-break: break-word;
 
       &:hover {
         text-decoration: none;

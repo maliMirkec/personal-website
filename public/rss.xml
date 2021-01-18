@@ -5,7 +5,7 @@
     <title>Blog of fearless web developer Silvestar Bistrović</title>
     <link>https://www.silvestar.codes</link>
     <description>Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.</description>
-    <lastBuildDate>Fri, 15 Jan 2021 12:08:46 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jan 2021 14:10:42 +0100</lastBuildDate>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <generator>manual</generator>
     <language>en</language>
@@ -27,6 +27,23 @@
       
     
     <atom:link href="https://www.silvestar.codes/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title><![CDATA[2020 Lookback]]></title>
+      <link>https://www.silvestar.codes/articles/2020-lookback/</link>
+      <guid>https://www.silvestar.codes/articles/2020-lookback/</guid>
+      <pubDate>Mon, 18 Jan 2021 14:10:42 +0100</pubDate>
+      <description><![CDATA[Another year is over and it is time for the annual lookback.]]></description>
+      
+        
+          <category>freelance</category>
+        
+          <category>remote work</category>
+        
+      
+      <author>me@silvestar.codes (Silvestar Bistrović)</author>
+      
+    </item>
     
     <item>
       <title><![CDATA[How to Get Sticky and Full-Bleed Elements to Play Well Together]]></title>

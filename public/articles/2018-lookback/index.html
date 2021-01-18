@@ -101,12 +101,18 @@
 
   <link href="https://www.googletagmanager.com" rel="dns-prefetch">
   <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+  <link href="https://c.disquscdn.com" rel="dns-prefetch">
+  <link href="https://c.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://referrer.disquscdn.com" rel="dns-prefetch">
+  <link href="https://referrer.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://links.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://links.services.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://realtime.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://realtime.services.disquscdn.com" rel="preconnect" crossorigin>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-
-
-
-  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/2018_Lookback_nrqris" rel="preload" crossorigin as="image">
 
 
 <link href="/css/style.min.css" rel="preload" crossorigin as="style">
@@ -271,10 +277,6 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     
-      <div class="copy copy--body margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
-      </div>
-    
     <div class="copy copy--body"><p>It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.</p>
 <h2 id="wordpress">WordPress</h2>
 <p>I am a freelance developer. Most of my engagements come via <a href="https://www.toptal.com/#trust-nothing-but-brilliant-freelancers">Toptal</a>, and most of the engagements were WordPress projects, and only a few were UI specific projects.</p>
@@ -285,8 +287,7 @@
 <h2 id="css">CSS</h2>
 <p>What an excellent year for CSS developers last year was. I enjoyed solving problems using <code>Flexbox</code>, <code>CSS Grid</code>, and <code>CSS variables</code>.</p>
 <p>In the time when more than 50% of the developers didn't know how to solve the famous <a href="https://twitter.com/mxstbr/status/1038073603311448064?lang=en">Twitter puzzle</a>, I wanted to write about the importance of the cascade.</p>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Only 43% of the 13,000 people who answered know CSS well!<br><br>The right answer: both will be blue! 🤯<br><br>The class order on the element does not matter. These two classes have the same specificity, so CSS falls back to source order. Today y&#39;all learned!<br><br>Demo: <a href="https://t.co/OB2rh2OWG4">https://t.co/OB2rh2OWG4</a> <a href="https://t.co/lgNP5VkEsO">https://t.co/lgNP5VkEsO</a></p>&mdash; Max Stoiber (@mxstbr) <a href="https://twitter.com/mxstbr/status/1038416725182697472?ref_src=twsrc%5Etfw">September 8, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><a href="https://twitter.com/mxstbr/status/1038416725182697472"><span class="pic" style="width:400px;height:607px"><svg width="400" height="607"><rect width="400" height="607" fill="transparent"/></svg><img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/tweetcyborg_fgqnev" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Twitter screenshot containing the poll" width="400" height="607" sizes="800px" loading="lazy"></span></a></p>
 <p>I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:</p>
 <ul>
 <li>Chris Coyier in <a href="https://css-tricks.com/all-fired-up-about-specificity/">All Fired Up About Specificity</a>, and</li>
@@ -330,7 +331,7 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/2018-lookback/&text=2018 Lookback&via=malimirkeccita" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/2018-lookback/" target="_blank">Facebook ⇢</a>
@@ -404,6 +405,8 @@
         
       
         
+      
+        
           
           
         
@@ -466,11 +469,32 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
         <a class="button button--small" href="/articles/remote-worker-routine/" title="Just My Routine As A Remote Worker">⇠ Prev post</a>
         <a class="button button--small" href="/articles/building-an-animated-sticky-header-with-custom-offset/">Next post ⇢</a>
       </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/2018-lookback/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "silvestarbistrovic"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
     </div>
   </div>
 </section>

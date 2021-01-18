@@ -101,12 +101,18 @@
 
   <link href="https://www.googletagmanager.com" rel="dns-prefetch">
   <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+  <link href="https://c.disquscdn.com" rel="dns-prefetch">
+  <link href="https://c.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://referrer.disquscdn.com" rel="dns-prefetch">
+  <link href="https://referrer.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://links.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://links.services.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://realtime.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://realtime.services.disquscdn.com" rel="preconnect" crossorigin>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-
-
-
-  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/I_just_finished_redesigning_my_site_oy6djs" rel="preload" crossorigin as="image">
 
 
 <link href="/css/style.min.css" rel="preload" crossorigin as="style">
@@ -273,10 +279,6 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     
-      <div class="copy copy--body margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
-      </div>
-    
     <div class="copy copy--body"><p>During the last week, I have been working on redesigning my site. Here is the list of all changes:</p>
 <ul>
 <li>refreshed design,</li>
@@ -295,7 +297,7 @@
 <iframe id="cp_embed_LYVbmKd" src="//codepen.io/CiTA/embed/LYVbmKd?height=450&theme-id=dark&slug-hash=LYVbmKd&default-tab=result" scrolling="no" frameborder="no" height="450" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
 <iframe id="cp_embed_gOpLzMz" src="//codepen.io/CiTA/embed/gOpLzMz?height=450&theme-id=dark&slug-hash=gOpLzMz&default-tab=result" scrolling="no" frameborder="no" height="450" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
 <p>Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Which is better: version 1 or version 2? <a href="https://t.co/7s6qTGSuf2">pic.twitter.com/7s6qTGSuf2</a></p>&mdash; ѕιlveѕтαr вιѕтrovιć (@malimirkeccita) <a href="https://twitter.com/malimirkeccita/status/1231233665667149824?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><a href="https://twitter.com/malimirkeccita/status/1231233665667149824"><span class="pic" style="width:400px;height:356px"><svg width="400" height="356"><rect width="400" height="356" fill="transparent"/></svg><img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/tweetcyborg_dknyll" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Twitter screenshot containing the poll" width="400" height="356" sizes="800px" loading="lazy"></span></a></p>
 <p>Finally, I have updated HTML and CSS code. I have removed hard-coded sections from the theme, and I used Hexo built-in features.</p>
 <h2 id="added-dark-mode">Added dark mode</h2>
 <img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/dark-mode_lo1vph" alt="Screenshot of the redesigned site - the dark mode" sizes="800px" loading="lazy">
@@ -342,7 +344,7 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/i-just-finished-redesigning-my-site/&text=I just finished redesigning my site&via=malimirkeccita" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/i-just-finished-redesigning-my-site/" target="_blank">Facebook ⇢</a>
@@ -372,6 +374,8 @@
         
       
         
+      
+        
           
           
         
@@ -478,11 +482,32 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
         <a class="button button--small" href="/articles/my-favorite-vs-code-settings/" title="My Favorite VS Code Settings">⇠ Prev post</a>
         <a class="button button--small" href="/articles/page-builders-might-not-be-a-good-idea/">Next post ⇢</a>
       </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/i-just-finished-redesigning-my-site/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "silvestarbistrovic"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
     </div>
   </div>
 </section>

@@ -101,12 +101,18 @@
 
   <link href="https://www.googletagmanager.com" rel="dns-prefetch">
   <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+  <link href="https://c.disquscdn.com" rel="dns-prefetch">
+  <link href="https://c.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://referrer.disquscdn.com" rel="dns-prefetch">
+  <link href="https://referrer.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://links.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://links.services.disquscdn.com" rel="preconnect" crossorigin>
+  <link href="https://realtime.services.disquscdn.com" rel="dns-prefetch">
+  <link href="https://realtime.services.disquscdn.com" rel="preconnect" crossorigin>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-
-
-
-  <link href="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/2019_Lookback_a69k2x" rel="preload" crossorigin as="image">
 
 
 <link href="/css/style.min.css" rel="preload" crossorigin as="style">
@@ -271,10 +277,6 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     
-      <div class="copy copy--body margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="">.</a></p>
-      </div>
-    
     <div class="copy copy--body"><p>Last year I wrote <a href="/articles/2018-lookback/">my first yearly look back</a>, and now it is time for the 2019 lookback.</p>
 <p><em>Note: this article is written from a technology perspective, meaning that I wrote about technologies and tools used during this year.</em></p>
 <h2 id="wordpress">WordPress</h2>
@@ -339,7 +341,7 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-bottom">Share the article:</h3>
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
       <div class="margin-top margin-bottom-alpha">
         <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/2019-lookback/&text=2019 Lookback&via=malimirkeccita" target="_blank">Twitter ⇢</a>
         <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/2019-lookback/" target="_blank">Facebook ⇢</a>
@@ -379,6 +381,8 @@
         
       
         
+      
+        
           
           
         
@@ -475,11 +479,32 @@
       
       
       
-      <h3 class="fz-step-2 no-margin-top">Read more articles:</h3>
-      <div class="margin-top margin-bottom">
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
         <a class="button button--small" href="/articles/how-to-animate-svg-signature/" title="How to animate SVG signature">⇠ Prev post</a>
         <a class="button button--small" href="/articles/how-i-built-my-second-progressive-web-app-pwa/">Next post ⇢</a>
       </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/2019-lookback/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "silvestarbistrovic"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
     </div>
   </div>
 </section>
