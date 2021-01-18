@@ -1,10 +1,10 @@
 ---
 layout: index
-title: Thank you for contact me
+title: Thank you for contacting me
 description: You could expect to get back from me soon. I usually respond within 24 hours.
 sections:
   - type: hero-alpha
-    title: Thank you for contact me.
+    title: Thank you for contacting me.
     desc: >-
       You could expect to get back from me soon.
 
