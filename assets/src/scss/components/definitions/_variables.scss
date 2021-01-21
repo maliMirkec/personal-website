@@ -58,6 +58,11 @@ $gap: $space * 2;
   --color-light: #{$color-light};
   --color-dark: #{$color-dark};
 
+  @media (prefers-color-scheme: dark) {
+    --color-light: #{$color-dark};
+    --color-dark: #{$color-light};
+  }
+
   // Typography
   --font-alpha: #{$font-alpha};
   --font-beta: #{$font-beta};
@@ -108,4 +113,21 @@ $gap: $space * 2;
     // Grid
     --cols: #{$cols-bp1};
   }
+}
+
+.dark {
+  filter: invert(1) hue-rotate(180deg);
+
+  .pic,
+  img[src*="logo-2021"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  // .button:not(.button--inverse):not(.button--outline)
+  // .hr {
+  //   filter: invert(1);
+  // }
+}
+
+.switch {
+  filter: blur(3px) grayscale(.8) brightness(.5);
 }

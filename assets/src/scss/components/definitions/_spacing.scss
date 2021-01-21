@@ -8,43 +8,43 @@
 
 
 .padding {
-  padding: #{$space};
+  padding: var(--space);
 }
 
 .margin {
-  margin: #{$space};
+  margin: var(--space);
 }
 
 .margin-top {
-  margin-top: #{$space};
+  margin-top: var(--space);
 }
 
 .margin-bottom {
-  margin-bottom: #{$space};
+  margin-bottom: var(--space);
 }
 
 .margin-top-alpha {
-  margin-top: #{$space * 2};
+  margin-top: calc(var(--space) * 2);
 
   @include mq($from: bp1) {
-    margin-top: #{$space * 5};
+    margin-top: calc(var(--space) * 5);
   }
 }
 
 .margin-bottom-alpha {
-  margin-bottom: #{$space * 2};
+  margin-bottom: calc(var(--space) * 2);
 
   @include mq($from: bp1) {
-    margin-bottom: #{$space * 5};
+    margin-bottom: calc(var(--space) * 5);
   }
 }
 
 .margin-left {
-  margin-left: #{$space};
+  margin-left: var(--space);
 }
 
 .margin-right {
-  margin-right: #{$space};
+  margin-right: var(--space);
 }
 
 .margin-auto {
