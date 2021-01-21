@@ -116,4 +116,8 @@
       }
     }
   }
+
+  @include mq($until: bp1) {
+    max-width: 60px;
+  }
 }

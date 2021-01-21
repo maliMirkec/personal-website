@@ -355,15 +355,6 @@ template {
       --space-default: 0.1rem;
       --cols: repeat(auto-fill, 1fr); } }
 
-.dark {
-  filter: invert(1) hue-rotate(180deg); }
-  .dark .pic,
-  .dark img[src*="logo-2021"] {
-    filter: invert(1) hue-rotate(180deg); }
-
-.switch {
-  filter: blur(3px) grayscale(0.8) brightness(0.5); }
-
 body {
   background-color: var(--color-light);
   color: var(--color-dark); }
@@ -734,6 +725,15 @@ code,
 .no-margin {
   margin: 0; }
 
+.dark {
+  filter: invert(1) hue-rotate(180deg); }
+  .dark .pic,
+  .dark img[src*="logo-2021"] {
+    filter: invert(1) hue-rotate(180deg); }
+
+.switch {
+  filter: blur(3px) grayscale(0.8) brightness(0.5); }
+
 a {
   display: inline-flex;
   border-radius: var(--border-radius);
@@ -848,6 +848,9 @@ ol {
     display: none; }
   html.dark .button--toggle span:first-of-type {
     display: none; }
+  @media (max-width: 37.49em) {
+    .button--toggle {
+      max-width: 60px; } }
 
 .input {
   background-color: transparent;
