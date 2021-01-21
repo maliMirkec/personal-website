@@ -27,11 +27,11 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 #     best-practices = 0.9
 #     seo = 0.9
 
-[[plugins]]
-  package = "netlify-plugin-checklinks"
+# [[plugins]]
+#   package = "netlify-plugin-checklinks"
 
-  [plugins.inputs]
-    skipPatterns = ["googletagmanager"]
+#   [plugins.inputs]
+#     skipPatterns = ["googletagmanager"]
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
