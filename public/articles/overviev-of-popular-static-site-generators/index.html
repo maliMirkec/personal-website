@@ -1,0 +1,737 @@
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="canonical" href="https://www.toptal.com/front-end/static-site-generators-comparison-2018">
+
+<meta name="referrer" content="no-referrer">
+
+  <meta name="author" content="Silvestar Bistrović">
+
+
+  <meta name="description" content="There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.">
+
+<title>Overview of Popular Static Site Generators</title>
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="Overview of Popular Static Site Generators">
+
+
+
+  <meta property="og:url" content="https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/">
+
+
+  <meta property="og:site_name" content="Home of fearless web developer Silvestar Bistrović">
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Overview_of_Popular_Static_Site_Generators_fpv8q9">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@malimirkeccita">
+  <meta name="twitter:creator" content="@malimirkeccita">
+  
+    <meta property="twitter:url" content="https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/">
+  
+  
+    <meta name="twitter:title" content="Overview of Popular Static Site Generators">
+  
+  
+  
+    <meta property="twitter:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Overview_of_Popular_Static_Site_Generators_fpv8q9">
+  
+
+
+  <meta name="fb:app_id" content="340933169673372">
+
+
+  <meta name="fb:admins" content="malimirkeccita">
+
+
+  <meta property="article:author" content="Silvestar Bistrović">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "@id": "/articles/overviev-of-popular-static-site-generators/"
+      },
+      "headline": "Overview of Popular Static Site Generators",
+      "image": [
+        "https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/Overview_of_Popular_Static_Site_Generators_fpv8q9"
+      ],
+      "datePublished": "2018-08-07",
+      "dateModified": "2018-08-07",
+      "author": {
+        "@type": "Person",
+        "name": "Silvestar Bistrović"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cita",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.cita.hr/favicon/android-chrome-192x192.png"
+        }
+      },
+      "description": ""
+    }
+  </script>
+
+<meta property="og:locale" content="en">
+<link rel="pingback" href="https://webmention.io/www.silvestar.codes/xmlrpc">
+<link rel="webmention" href="https://webmention.io/www.silvestar.codes/webmention">
+
+  
+<link href="https://res.cloudinary.com/" rel="dns-prefetch">
+<link href="https://res.cloudinary.com/" rel="preconnect" crossorigin>
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="dns-prefetch">
+<link href="https://d33wubrfki0l68.cloudfront.net/" rel="preconnect" crossorigin>
+
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch">
+  <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+
+<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+
+<link href="/css/style.min.css" rel="preload" crossorigin as="style">
+<link href="/fonts/Barlow/Barlow-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=2021">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=2021">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2021">
+<link rel="manifest" href="/favicon/site.webmanifest?v=2021">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=2021" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=2021">
+<meta name="msapplication-TileColor" content="#111111">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=2021">
+<meta name="theme-color" content="#12e09f">
+
+  
+    
+  <style>@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}img{border-style:none}button{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}:root{--bp:80ch;--bp1:600px;--bp2:1200px;--bp3:1600px;--selection:rgba(18, 224, 159, 0.325);--color-alpha:#12e09f;--color-beta:#ff3366;--color-light:#fff;--color-dark:#111;--font-alpha:Playfair Display,serif;--font-beta:Barlow,sans-serif;--font-gamma:Courier New,Courier,monospace;--step-6:54px;--step-5:46.8px;--step-4:39.6px;--step-3:32.4px;--step-2:25.2px;--step-1:21.6px;--step-0:18px;--step--1:16.2px;--step--2:14.4px;--line-height:1.66;--letter-spacing:0.01em;--space-default:0.25rem;--space:1rem;--border-radius:0.1rem;--duration:0.3s;--duration2:0.15s;--delay:0.15s;--cols:repeat(auto-fill, minmax(400px, 1fr));--gap:2rem}@media (prefers-color-scheme:dark){:root{--color-light:#111;--color-dark:#fff}}@media (max-width:37.49em){:root{--step-6:39.996px;--step-5:31.986px;--step-4:27.99px;--step-3:23.994px;--step-2:21.996px;--step-1:19.998px;--step-0:18px;--step--1:15.984px;--step--2:13.986px;--space-default:0.1rem;--cols:repeat(auto-fill, 1fr)}}body{background-color:var(--color-light);color:var(--color-dark)}[class*=text-]{color:var(--text-color)}.text-alpha{--text-color:var(--color-alpha)}[class*=bg-]{background-color:var(--bg-color)}.bg-light{--bg-color:var(--color-light)}img{display:block;max-width:100%;height:auto;margin:0}.pic{display:block;position:relative;margin-left:auto;margin-right:auto;max-width:100%}.pic svg{display:block;max-width:100%;height:auto}.pic img{display:block;position:absolute;top:0;right:0;bottom:0;left:0;margin-top:0;margin-bottom:0;filter:drop-shadow(0 0 .5rem rgba(18, 224, 159, .1))}.wrapper{margin-left:auto;margin-right:auto}.wrapper:not([class*=wrapper-]){max-width:calc(var(--bp) + 2rem)}.button:not(.df):not(.db){border-radius:var(--border-radius)}.db{display:block}hr[class*=hr]{border:0;max-height:0;position:relative;padding-top:1rem;padding-bottom:1rem}hr[class*=hr]:before{content:"★";font-size:.5rem;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-shadow:-1rem 0 0 currentColor,1rem 0 0 currentColor}@font-face{font-family:Barlow;src:local("Barlow Medium Italic"),local("Barlow-MediumItalic"),url(/fonts/Barlow/Barlow-MediumItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold"),local("Barlow-SemiBold"),url(/fonts/Barlow/Barlow-SemiBold.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow Medium"),local("Barlow-Medium"),url(/fonts/Barlow/Barlow-Medium.woff2) format("woff2"),url(/fonts/Barlow/Barlow-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold Italic"),local("Barlow-SemiBoldItalic"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium Italic"),local("PlayfairDisplay-MediumItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold"),local("PlayfairDisplay-SemiBold"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium"),local("PlayfairDisplay-Medium"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold Italic"),local("PlayfairDisplay-SemiBoldItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}body{font-family:var(--font-beta);font-style:normal;font-weight:500;font-size:var(--step-0);line-height:var(--line-height);letter-spacing:var(--letter-spacing)}body:not([id*=kss]){filter:drop-shadow(0 0 .25rem rgba(17, 17, 17, .1))}h1,h2{font-family:var(--font-alpha);font-style:normal;font-weight:600}h1{font-size:var(--step-6)}h2{font-size:var(--step-5)}[class*=fz-step-]{font-size:var(--font-size)}[class*=fz-step-5]{--font-size:var(--step-5)}blockquote{padding:0;margin:0}code,pre{font-family:var(--font-gamma)}.fs-italic{font-style:italic}.button{font-weight:600}.text-center{text-align:center}.button{text-transform:uppercase}.button{letter-spacing:.06em}.padding{padding:var(--space)}.margin-top{margin-top:var(--space)}.margin-bottom{margin-bottom:var(--space)}.margin-top-alpha{margin-top:calc(var(--space) * 2)}@media (min-width:37.5em){.margin-top-alpha{margin-top:calc(var(--space) * 5)}}.margin-bottom-alpha{margin-bottom:calc(var(--space) * 2)}@media (min-width:37.5em){.margin-bottom-alpha{margin-bottom:calc(var(--space) * 5)}}.margin-left{margin-left:var(--space)}.margin-right{margin-right:var(--space)}.no-spacing{margin:0;padding:0}.no-margin-top{margin-top:0}.dark{filter:invert(1) hue-rotate(180deg)}.dark .pic,.dark img[src*=logo-2021]{filter:invert(1) hue-rotate(180deg)}a{display:inline-flex;border-radius:var(--border-radius);color:currentColor;text-decoration:none;position:relative;overflow:hidden;outline:0}.copy--body a:not([class]){text-decoration:underline;text-decoration-thickness:2px;display:inline;word-break:break-word}ul{padding-left:1.25em;margin-left:0;margin-right:0;list-style-position:outside}ul ul{font-size:92.5%}.list-style-none{padding-left:0;list-style:none}.list-style-none ul{list-style:none}.button{background-color:var(--color-alpha);color:var(--color-dark);box-sizing:border-box;justify-content:center;align-items:center;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:var(--fz-step-0);line-height:1.66;min-height:3em;padding:.25em 2em;border:none;border-radius:0;outline:0}.button:not(.df):not(.db){display:inline-flex;margin:.125em}.button[href]{text-decoration:none}.button--small{font-size:var(--step--1);padding:.125em 1em;min-height:1.75em}.button--inverse{background-color:var(--color-dark);color:var(--color-light)}.button--outline{background-color:transparent;box-shadow:0 0 0 2px currentColor inset}.button--toggle{position:fixed;top:1rem;right:1rem;font-size:80%}html:not(.dark) .button--toggle span:last-of-type{display:none}@media (max-width:37.49em){.button--toggle{max-width:60px}}header nav{position:relative}header nav .skip-link{position:absolute;top:.25rem;right:.25rem;bottom:.25rem;left:.25rem;display:flex;align-items:center;justify-content:center;z-index:1}header nav .skip-link:not(:focus){display:block;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(1px);clip-path:inset(1px);white-space:nowrap;position:absolute;z-index:-1}header nav>ul{display:flex;justify-content:center;align-items:center}header nav>ul ul{padding-left:.5rem;padding-right:.5rem}@media (max-width:37.49em){header nav{text-align:center}header nav a{white-space:nowrap}header nav>ul{flex-wrap:wrap}header nav>ul>li:first-child{flex:1 1 100%}header nav>ul>li:first-child img{margin:auto}header nav>ul>li:not(:first-child){flex:1 0 150px}}.copy>:first-child{margin-top:0}.copy>:last-child{margin-bottom:0}.copy code{font-size:115%;padding-left:.125em;padding-right:.125em;font-weight:500}.copy blockquote{font-size:112.5%;margin-top:1em;margin-bottom:1em;padding-top:1px;padding-bottom:1px;padding-left:2rem;border-left:.125rem dashed var(--color-alpha)}</style>
+
+
+  
+  
+    <link rel="canonical" href="https://www.toptal.com/front-end/static-site-generators-comparison-2018">
+  
+  <script>if(localStorage.getItem('sb-dark-mode') === 'true'){document.documentElement.classList.add('dark')}</script>
+
+</head>
+
+  <body>
+    
+  <header>
+    <nav>
+      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <ul class="list-style-none no-spacing">
+        
+          <li class="margin-top">
+            <a class="db margin-left margin-right inert" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+    <main id="main">
+      
+        
+        
+          
+
+  <section class="hero margin-top-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      <div class="margin-bottom">
+        <a class="button button--small" href="/articles/">/Blog</a>
+        
+          
+            <span class="button button--small button--inverse">spg</span>
+          
+            <span class="button button--small button--inverse">ssg</span>
+          
+            <span class="button button--small button--inverse">hexo</span>
+          
+            <span class="button button--small button--inverse">hugo</span>
+          
+            <span class="button button--small button--inverse">middleman</span>
+          
+            <span class="button button--small button--inverse">jekyll</span>
+          
+        
+        
+          <span class="button button--small button--outline">2018-08-07</span>
+        
+      </div>
+      
+        <h1 class="fz-step-5 no-margin-top margin-bottom">Overview of Popular Static Site Generators</h1>
+      
+      
+      
+    </div>
+  </div>
+</section>
+
+  <hr class="text-alpha hr">
+
+<div class="wrapper margin-top-alpha margin-bottom-alpha">
+  <div class="padding">
+    
+      <div class="copy copy--body margin-bottom">
+        <p class="fs-italic">This article was originally published at <a href="https://www.toptal.com/front-end/static-site-generators-comparison-2018">Toptal.</a></p>
+      </div>
+    
+    <div class="copy copy--body"><p>All static page generators have a single and seemingly straightforward task: to produce a static HTML file and all its assets.</p>
+<p>There are many obvious benefits to serving a static HTML file, such as easier caching, faster load times, and a more secure environment overall. Each static page generator produces the HTML output differently.</p>
+<p>{% cldnry &quot;Static_site_generators_illustrated_echczp&quot; &quot;Static site generators illustrated.&quot; %}</p>
+<p>However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.</p>
+<h2 id="overview-of-popular-static-page-frameworks">Overview of Popular Static Page Frameworks</h2>
+<p>In this post, we will take a closer look at the following static page frameworks: Jekyll, Middleman, Hugo, and Hexo. These are by no means the only generators out there, but they are the most commonly used ones, backed by large communities and lots of useful resources.</p>
+<p>Let's take a closer look at each of them and compare their basic features:</p>
+<ul>
+<li>Jekyll
+<ul>
+<li>written in Ruby,</li>
+<li>supports the Liquid template engine out of the box;</li>
+</ul>
+</li>
+<li>Middleman
+<ul>
+<li>written in Ruby,</li>
+<li>supports ERB and Haml template engines out of the box;</li>
+</ul>
+</li>
+<li>Hugo
+<ul>
+<li>written in Go,</li>
+<li>supports Go template engine out of the box;</li>
+</ul>
+</li>
+<li>Hexo
+<ul>
+<li>written in JavaScript,</li>
+<li>supports EJS and Pug out of the box.</li>
+</ul>
+</li>
+</ul>
+<p>Note: <em>It is worth pointing out that each of these static page generators can be customized and extended using plugins and extensions, allowing you to cover most or all of your needs.</em></p>
+<h2 id="setting-up-static-site-generators">Setting up Static Site Generators</h2>
+<p>The documentation for each of these frameworks is comprehensive and nothing short of excellent and you can grab it here:</p>
+<p><a href="https://jekyllrb.com/docs/home/">Jekyll documentation</a></p>
+<p><a href="https://middlemanapp.com/basics/install/">Middleman documentation</a></p>
+<p><a href="https://gohugo.io/documentation/">Hugo documentation</a></p>
+<p><a href="https://hexo.io/docs/">Hexo documentation</a></p>
+<p>If you simply follow the installation guides, you should have the development environment ready within a matter of minutes. Once installed, you can start a new project by running commands from the terminal.</p>
+<p>For example, this is how you start a new project in different frameworks:</p>
+<p><strong>Jekyll</strong></p>
+<pre class="language-bash"><code class="language-bash">jekyll new my_website</code></pre>
+<p><strong>Middleman</strong></p>
+<pre class="language-bash"><code class="language-bash">middleman init my_website</code></pre>
+<p><strong>Hugo</strong></p>
+<pre class="language-bash"><code class="language-bash">hugo new my_website</code></pre>
+<p><strong>Hexo</strong></p>
+<pre class="language-bash"><code class="language-bash">hexo init my_website</code></pre>
+<h2 id="configuration">Configuration</h2>
+<p>Configuration is usually stored in a single file. Each static website generator has its specifics, but many settings are the same across all four.</p>
+<p>You could specify where are source files stored or where to output built sources. It is always useful to skip data that will not be used in the build process by setting exclude or <code>skip_render</code> option. You could also use the config file to store global settings like project title or the author.</p>
+<h2 id="migrating-to-a-static-generator">Migrating to a Static Generator</h2>
+<p>If you already have a WordPress project ready to go, you can migrate it to a static page generator with relative ease.</p>
+<p>For Jekyll, you could <a href="https://wordpress.org/plugins/jekyll-exporter/">Jekyll Exporter</a> plugin. For Middleman, you could use a command line tool called <a href="https://github.com/mdb/wp2middleman">wp2middleman</a>. You can use WordPress to Hugo Exporter for Hugo migration, and for Hexo, you could read a <a href="/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/">guide on how to migrate from WordPress to Hexo</a> that I wrote last year.</p>
+<p>The principle is nearly identical and quite straightforward—first export all content to a suitable format, and then include it in the right folder.</p>
+<h2 id="content">Content</h2>
+<p>Static page generators use <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.</p>
+<p>{% cldnry &quot;Content_in_Static_page_generators_cnkviv&quot; &quot;Content in Static page generators.&quot; %}</p>
+<p>You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.</p>
+<p>In Jekyll, you should place an article in the _posts directory. Article name should have the following format: YEAR-MONTH-DAY-title.MARKUP. Other generators have similar rules, and they provide a command for creating a new article.</p>
+<p>Here are the commands for creating a new article in Middleman, Hugo, and Hexo:</p>
+<p><strong>Middleman</strong></p>
+<pre class="language-bash"><code class="language-bash">middleman article my_article</code></pre>
+<p><strong>Hugo</strong></p>
+<pre class="language-bash"><code class="language-bash">hugo new posts/my_article.md</code></pre>
+<p><strong>Hexo</strong></p>
+<pre class="language-bash"><code class="language-bash">hexo new post my_article</code></pre>
+<p>In Markdown, you are limited to a particular set of syntax. Luckily for us, all generators can process raw HTML as well. For example, if you want to add an anchor with a specific class, you could add it as you would in a regular HTML file:</p>
+<pre class="language-text"><code class="language-text">This is a text with <a class="my-class" href="#">a link</a>.</code></pre>
+<h2 id="front-matter">Front Matter</h2>
+<p>Front matter is a block of data on top of the Markdown file. You could set custom variables to store the data you need to create better content. Instead of writing HTML in Markdown, which could lead to a cluttered and ugly document structure, you could define a variable in the front matter.</p>
+<p>For example, this is how you could add tags to your article.</p>
+<pre class="language-md"><code class="language-md">tags:<br>  <span class="token list punctuation">-</span> web<br>  <span class="token list punctuation">-</span> dev<br>  <span class="token list punctuation">-</span> featured</code></pre>
+<h2 id="templates-in-static-page-generators">Templates in Static Page Generators</h2>
+<p>Static page generators use a templating language to process templates. To insert data into a template, you need to use tags. For example, to display the page title in Jekyll, you could write:</p>
+<pre class="language-html"><code class="language-html">{{ page.title }}</code></pre>
+<p>Let's try to display a list of tags from the front matter in our post in Jekyll. You need to check if a variable is available. Then, you need to loop through tags and display them in an unordered list.</p>
+<pre class="language-html"><code class="language-html">{%- if page.tags -%}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   {%- for tag in page.tags -%}<br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>{{ tag }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   {%- endfor -%}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>{%- endif -%}</code></pre>
+<p><strong>Middleman</strong></p>
+<pre class="language-html"><code class="language-html">&lt;% if current_page.data.tags %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   &lt;% for tag in current_page.data.tags %><br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>&lt;%= tag %><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   &lt;% end %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>&lt;% end %></code></pre>
+<p><strong>Hugo</strong></p>
+<pre class="language-html"><code class="language-html">{{ if .Params.Tags }}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   {{ range .Params.Tags }}<br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>{{ . }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   {{ end }}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>{{ end }}</code></pre>
+<p><strong>Hexo</strong></p>
+<pre class="language-html"><code class="language-html">&lt;% if (post.tags) { %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   &lt;% post.tags.forEach(function(tag) { %><br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>&lt;%= tag.name %><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   &lt;% } ); %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>&lt;% } %></code></pre>
+<p>Note: <em>It is a good practice to check if a variable exists to prevent a build process from failing. It could save you hours of debugging and testing.</em></p>
+<h2 id="using-variables">Using Variables</h2>
+<p>A static page generator provides global variables available for handing in templates. Different variable type holds different information. For example, a global variable site in Hexo holds information about posts, pages, categories, and tags of a site.</p>
+<p>Knowing the available variables and how to use them could make a developer's life easier. Hugo uses Go's template libraries for templating. Working with variables in Hugo could be a problem if you are not familiar with <a href="https://gohugo.io/templates/introduction/#context-aka-the-dot">the context</a>, or “the dot” how they call it.</p>
+<p>Middleman doesn't have global variables. However, you could turn on the <a href="https://middlemanapp.com/basics/blogging/">middleman-blog</a> extension that would allow you to get access to some variables, like a list of articles. If you want to add global variables, you could do that by extracting data to data files.</p>
+<h2 id="data-files">Data Files</h2>
+<p>When you want to store data that are not available in Markdown files, you should use data files. For example, if you need to save the list of your social links that you want to display in the footer of your site. All static page generators support YAML and JSON files. Additionally, Jekyll supports CSV files, and Hugo supports TOML files.</p>
+<p>Let's store those social links in our data file. Since all generators support YAML format, let's save the data in the social.yml file:</p>
+<pre class="language-md"><code class="language-md"><span class="token list punctuation">-</span> name: Twitter<br>  href: https://twitter.com/malimirkeccita<br><span class="token list punctuation">-</span> name: LinkedIn<br>  href: https://github.com/maliMirkec/<br><span class="token list punctuation">-</span> name: GitHub<br>  href: https://www.linkedin.com/in/starbist/</code></pre>
+<p>Jekyll stores data files in _data directory by default. Middleman and Hugo use data directory, and Hexo uses <code>source/_data directory</code>.</p>
+<p>To output the data, you could use the following code:</p>
+<p><strong>Jekyll</strong></p>
+<pre class="language-html"><code class="language-html">{%- if site.data.social -%}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   {% for social in site.data.social %}<br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ social.href }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>{{ social.name }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   {%- endfor -%}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>{%- endif -%}</code></pre>
+<p><strong>Middleman</strong></p>
+<pre class="language-html"><code class="language-html">&lt;% if data.social %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   &lt;% data.social.each do |s| %><br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&lt;%= s.href %><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>&lt;%= s.name %><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   &lt;% end %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>&lt;% end %></code></pre>
+<p><strong>Hugo</strong></p>
+<pre class="language-html"><code class="language-html">{{ if $.Site.Data.social }}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   {{ range $.Site.Data.social }}<br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ .href }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>{{ .name }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   {{ end }}<br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>{{ end }}</code></pre>
+<p><strong>Hexo</strong></p>
+<pre class="language-html"><code class="language-html">&lt;% if (site.data.social) { %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>   &lt;% site.data.social.forEach(function(social){ %><br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&lt;%= social.href %><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>&lt;%= social.name %><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>   &lt;% }); %><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>&lt;% } %></code></pre>
+<h2 id="helpers">Helpers</h2>
+<p>Templates often support data filtering. For example, if you want to make the title uppercase, you could do it like so:</p>
+<pre class="language-html"><code class="language-html">{{ page.title | upcase }}</code></pre>
+<p>Middleman has similar syntax:</p>
+<pre class="language-html"><code class="language-html">&lt;%= current_page.data.title.upcase %></code></pre>
+<p>Hugo uses the following command:</p>
+<pre class="language-html"><code class="language-html">{{ .Title | upper }}</code></pre>
+<p>Hexo has different syntax, but the result is the same.</p>
+<pre class="language-html"><code class="language-html">&lt;%= page.title.toUpperCase() %></code></pre>
+<h2 id="how-static-page-generators-handle-assets">How Static Page Generators Handle Assets</h2>
+<p>Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.</p>
+<p>{% cldnry &quot;Assets_of_Static_page_generator_i43ch9&quot; &quot;Assets of Static page generator.&quot; %}</p>
+<h2 id="sass">SASS</h2>
+<p>Jekyll supports Sass out of the box, but you should follow <a href="https://jekyllrb.com/docs/assets/">some rules</a>. Middleman also supports Sass out of the box. Hugo compiles Sass through <a href="https://gohugo.io/hugo-pipes/scss-sass/">Hugo Pipes for Sass</a>. Hexo does it via <a href="https://github.com/knksmith57/hexo-renderer-sass">plugin</a>.</p>
+<h2 id="es6">ES6</h2>
+<p>If you want to use modern JavaScript features of es6, then you should install a plugin. There might be more than one version of a similar plugin, so you might want to check the code or see open issues or latest commit to finding the best one.</p>
+<h2 id="images">Images</h2>
+<p>Image optimization is not supported by default either. Also, like es6 plugins, there is more than one plugin to optimize images. Do your homework and try to find the best plugin for the job. Alternatively, you could use a third party solution. In my blog that is build with Hexo, I am using <a href="https://cloudinary.com/documentation/upload_images">Cloudinary free plan</a>. I developed a <a href="https://www.npmjs.com/package/hexo-cloudinary">cloudinary tag</a>, and I am providing responsive and optimized images via Cloudinary transformations.</p>
+<h2 id="plugins-extensions">Plugins, Extensions</h2>
+<p>Static page generators have potent libraries that allow you to customize your website. Each plugin serves a different purpose. You could find a wide range of plugins, from LiveReload for a better development environment to generating Sitemap or RSS feed.</p>
+<p>You could write a new plugin or extension. Before you do, check if a similar plugin exists. See <a href="https://jekyllrb.com/docs/plugins/#available-plugins">Jekyll plugin list</a>, <a href="https://directory.middlemanapp.com/#/extensions/all">Middleman extensions</a>, and <a href="https://hexo.io/plugins/">Hexo plugins</a>. Hugo doesn't have plugins or extensions. However, it does support custom shortcodes.</p>
+<h2 id="shortcodes-in-markdown">Shortcodes in Markdown</h2>
+<p>Shortcodes are code snippets that you could place in Markdown documents. Those snippets output HTML code. Hugo and Hexo support shortcodes. There are built-in shortcodes, like figure in Hugo:</p>
+<pre class="language-html"><code class="language-html">{{&lt; figure src="/lint/to/image.jpg" title="My image" >}}</code></pre>
+<p>Hexo youtube shortcode:</p>
+<pre class="language-html"><code class="language-html">{% youtube video_id %}</code></pre>
+<p>If you cannot find a proper shortcode, you could create a new one. For example, Hexo doesn't support CanIUse embeds, and I developed <a href="https://www.npmjs.com/package/hexo-caniuse">a new tag</a> that supports CanIUse embedding. Don't forget to publish your plugin on npm or official generator site. The community will be grateful if you do.</p>
+<h2 id="cms">CMS</h2>
+<p>Static page generators could be overhead for a non-technical person. Learning how to use commands or Markdown is not something that is easy for everybody. In that case, a user could benefit from <a href="https://headlesscms.org/">Content Management System for JAMstack sites</a>. In this list, you could find a system that best suits your needs. Know that it takes some time to configure the CMS, but longterm you and other users could benefit from publishing content more efficiently.</p>
+<h2 id="bonus-jamstack-templates">Bonus: JAMstack Templates</h2>
+<p>If you don't want to spend too much time on configuring your project, you could benefit from <a href="https://templates.netlify.com/">JAMstack templates</a>. Some of these templates are already preconfigured with CMS which could save you much time.</p>
+<p>You could also learn a lot by examining the code. Try to install a template, compare it to others and choose the best one for you.</p>
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>Static page generators are a fast and reliable way to build a website. You can even build non-trivial and highly customized websites with a generator nowadays.</p>
+<p>For example, <a href="https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/">Smashing Magazine</a> moved to JAMstack last year, and they managed to speed up their site significantly. There are other successful examples of static websites and they all share the same principle—to produce static resources and deliver them over Content Delivery Networks for faster loading and a superior user experience.</p>
+<p>There is much more you could do with your static website: from using WordPress REST API as a backend to using Lambda functions. There are excellent solutions even for simple websites, like using <a href="https://www.netlify.com/docs/ssl/">HTTPS out of the box</a> or <a href="https://www.netlify.com/docs/form-handling/">handling form submissions</a>.</p>
+<p>I hope this overview of static page frameworks helped you realize their potential and consider using them next time you think of a new project.</p>
+</div>
+  </div>
+</div>
+
+  <hr class="text-alpha hr">
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/&text=Overview of Popular Static Site Generators&via=malimirkeccita" target="_blank">Twitter ⇢</a>
+        <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/" target="_blank">Facebook ⇢</a>
+        <a class="margin-left margin-right" href="https://www.reddit.com/submit?url=https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/" target="_blank">Reddit ⇢</a>
+      </div>
+      <h3 class="fz-step-2 no-margin-top">About the Author</h3>
+      <div class="copy">
+        <p>Silvestar is a fearless web developer who is very enthusiastic about web technologies and everything related to frontend development.</p>
+      </div>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="/about/">About ⇢</a>
+        <a class="margin-left margin-right" href="/portfolio/">Portfolio ⇢</a>
+        <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
+      </div>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="button button--small" href="/articles/using-css-grid-where-appropriate-revisited/" title="Using CSS Grid where appropriate (revisited)">⇠ Prev post</a>
+        <a class="button button--small" href="/articles/modern-frontend-developer-skills-and-tools/">Next post ⇢</a>
+      </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "https://www.silvestar.codes/articles/overviev-of-popular-static-site-generators/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
+    </div>
+  </div>
+</section>
+
+
+
+  <hr class="text-alpha hr">
+
+
+        
+        
+          
+            
+
+  
+  
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+        <h2 class="fz-step-4 no-margin-top margin-bottom">I am <em>available</em> for a new project.</h2>
+      
+      
+        <div class="margin-top copy"><p>I specialized in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>WordPress</strong>, <strong>Shopify</strong>, and <strong>JAMstack</strong> technologies.</p>
+</div>
+      
+      
+        <div class="margin-top">
+          <a class="button" href="/contact/">Hire me ⇢</a>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+          
+        
+      
+    </main>
+    
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkeIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, 2021</p>
+    
+    
+      <p><a href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a></p>
+    
+  </footer>
+
+
+    <button class="button button--small button--toggle js-toggle">
+  <span>Dark theme</span>
+  <span>Light theme</span>
+</button>
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
+
+    <script src="/js/sb.js"></script>
+
+    
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37881833-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37881833-5');
+</script>
+
+    
+  </body>
+</html>
+
+
+
+
