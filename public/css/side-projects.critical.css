@@ -401,6 +401,15 @@ h3 {
   padding-top: 0;
 }
 
+.dark {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.dark .pic,
+.dark img[src*="logo-2021"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 a {
   display: inline-flex;
   border-radius: var(--border-radius);
