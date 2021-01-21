@@ -58,6 +58,11 @@ $gap: $space * 2;
   --color-light: #{$color-light};
   --color-dark: #{$color-dark};
 
+  @media (prefers-color-scheme: dark) {
+    --color-light: #{$color-dark};
+    --color-dark: #{$color-light};
+  }
+
   // Typography
   --font-alpha: #{$font-alpha};
   --font-beta: #{$font-beta};

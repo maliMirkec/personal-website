@@ -1,0 +1,16 @@
+.dark {
+  filter: invert(1) hue-rotate(180deg);
+
+  .pic,
+  img[src*="logo-2021"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  // .button:not(.button--inverse):not(.button--outline)
+  // .hr {
+  //   filter: invert(1);
+  // }
+}
+
+.switch {
+  filter: blur(3px) grayscale(.8) brightness(.5);
+}

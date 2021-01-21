@@ -29,7 +29,8 @@
   border: none;
   border-radius: 0;
   outline: none;
-  transition: background-color var(--duration2), color var(--duration2);
+  cursor: pointer;
+  transition: all var(--duration2);
 
   &:not(.df):not(.db) {
     @extend .brad;
@@ -49,16 +50,13 @@
   &[type] {
     cursor: pointer;
 
-    &:hover,
-    &:focus {
-      background-color: var(--color-dark);
-      color: var(--color-alpha);
-      transition: background-color var(--duration), color var(--duration);
+    &:hover {
+      box-shadow: 0 0 0 .25rem var(--color-alpha);
     }
 
     &:focus,
     &:active {
-      box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+      box-shadow: 0 0 0 .25rem var(--color-dark);
     }
   }
 }
@@ -94,5 +92,32 @@
       background-color: transparent;
       color: currentColor;
     }
+  }
+}
+
+.button--toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+
+  html:not(.dark) & {
+    span {
+      &:last-of-type {
+        display: none;
+      }
+    }
+  }
+
+  html.dark & {
+    span {
+      &:first-of-type {
+        display: none;
+      }
+    }
+  }
+
+  @include mq($until: bp1) {
+    max-width: 60px;
   }
 }

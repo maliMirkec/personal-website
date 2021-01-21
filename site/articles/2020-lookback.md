@@ -7,7 +7,7 @@ tags:
 categories:
   - freelance
   - remote work
-thumbnail:
+thumbnail: 2020_Lookback_k4tip6
 description: Another year is over and it is time for the annual lookback.
 type: articles-item
 sections2:
@@ -36,7 +36,7 @@ Last year I worked on a few projects that were built using static page generator
 
 ## WordPress
 
-Last year I worked on a couple of WordPress projects. That information makes me happy, to see a lower number of WordPress projects. However I still get many offers for those kinds of projects.
+Last year I worked on a couple of WordPress projects. That information makes me happy, to see a lower number of WordPress projects. However, I still get many offers for those kinds of projects.
 
 The first WordPress project is an ongoing collaboration where I maintain and develop small features. The other one was the short gig where I had to improve one site's visual and performance characteristics. The site was built with Divi. I cannot say I hated it, but I didn't enjoy it. I think the client wouldn't even hire me if they knew I wrote an article explaining [why page builder might be a bad idea].
 

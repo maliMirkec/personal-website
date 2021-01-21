@@ -40,24 +40,29 @@
 //
 // Styleguide Colors.Border
 
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
 [class*="text-"] {
   color: var(--text-color);
 }
 
 .text-alpha {
-  --text-color: #{$color-alpha};
+  --text-color: var(--color-alpha);
 }
 
 .text-beta {
-  --text-color: #{$color-beta};
+  --text-color: var(--color-beta);
 }
 
 .text-light {
-  --text-color: #{$color-light};
+  --text-color: var(--color-light);
 }
 
 .text-dark {
-  --text-color: #{$color-dark};
+  --text-color: var(--color-dark);
 }
 
 [class*="bg-"] {
@@ -65,19 +70,19 @@
 }
 
 .bg-alpha {
-  --bg-color: #{$color-alpha};
+  --bg-color: var(--color-alpha);
 }
 
 .bg-beta {
-  --bg-color: #{$color-beta};
+  --bg-color: var(--color-beta);
 }
 
 .bg-light {
-  --bg-color: #{$color-light};
+  --bg-color: var(--color-light);
 }
 
 .bg-dark {
-  --bg-color: #{$color-dark};
+  --bg-color: var(--color-dark);
 }
 
 [class*="border-"]:not([class*="bottom-border"]):not([class*="top-border"]) {
@@ -93,17 +98,17 @@
 }
 
 .border-alpha {
-  --border-color: #{$color-alpha};
+  --border-color: var(--color-alpha);
 }
 
 .border-beta {
-  --border-color: #{$color-beta};
+  --border-color: var(--color-beta);
 }
 
 .border-light {
-  --border-color: #{$color-light};
+  --border-color: var(--color-light);
 }
 
 .border-dark {
-  --border-color: #{$color-dark};
+  --border-color: var(--color-dark);
 }
