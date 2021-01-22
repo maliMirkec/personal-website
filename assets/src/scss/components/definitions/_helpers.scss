@@ -18,7 +18,7 @@ img {
 }
 
 .pic {
-  display: block;
+  display: inline-block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +39,11 @@ img {
     left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    filter: drop-shadow(0 0 .5rem #{transparentize($color-alpha, .9)});
+
+    &:hover,
+    &:focus {
+      filter: drop-shadow(0 0 .25rem $color-alpha);
+    }
 
     &:not([src]) {
       display: none;
@@ -66,6 +70,10 @@ img {
 
 .db {
   display: block;
+}
+
+.dib {
+  display: inline-block;
 }
 
 .df {

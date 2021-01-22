@@ -11,8 +11,8 @@
 // Styleguide Anchors
 
 a {
+  @extend .brad;
   display: inline-flex;
-  border-radius: var(--border-radius);
   color: currentColor;
   text-decoration: none;
   position: relative;
@@ -35,12 +35,12 @@ a {
     }
   }
 
-  &.inert {
-    &:hover,
-    &:focus {
-      filter: drop-shadow(0 0 .5rem var(--color-alpha));
-    }
-  }
+  // &.inert {
+  //   &:hover,
+  //   &:focus {
+  //     // filter: drop-shadow(0 0 .5rem var(--color-alpha));
+  //   }
+  // }
 
   .copy--body & {
     &:not([class]) {

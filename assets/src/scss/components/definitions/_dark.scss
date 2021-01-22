@@ -1,16 +1,27 @@
-.dark {
-  filter: invert(1) hue-rotate(180deg);
-
-  .pic,
-  img[src*="logo-2021"] {
-    filter: invert(1) hue-rotate(180deg);
+.inner {
+  &:not([id*="kss"]) {
+    filter: drop-shadow(0 0 .25rem var(--color-lightish));
   }
-  // .button:not(.button--inverse):not(.button--outline)
-  // .hr {
-  //   filter: invert(1);
-  // }
 }
 
-.switch {
-  filter: blur(3px) grayscale(.8) brightness(.5);
+.dark {
+  --color-alpha: #{$color-alpha-dark};
+  --color-beta: #{$color-beta-dark};
+  --color-light: #{$color-dark};
+  --color-lightish: #{$color-darkish};
+  --color-dark: #{$color-light};
+  --color-darkish: #{$color-lightish};
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  filter: contrast(.95);
+
+  .inner {
+    &:not([id*="kss"]) {
+      filter: none;
+    }
+  }
+
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
 }

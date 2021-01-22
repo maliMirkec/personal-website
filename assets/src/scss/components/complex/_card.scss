@@ -36,7 +36,7 @@
 
 .card {
   @extend .brad;
-  filter: drop-shadow(0 0 .25rem #{transparentize($color-alpha, .9)});
+  // filter: drop-shadow(0 0 .25rem #{transparentize($color-alpha, .9)});
 
   blockquote {
     display: flex;

@@ -16,6 +16,7 @@
   @extend .fw-bold;
   @extend .ttuc;
   @extend .lsp;
+  @extend .brad;
   background-color: var(--color-alpha);
   color: var(--color-dark);
   box-sizing: border-box;
@@ -27,9 +28,7 @@
   min-height: 3em;
   padding: .25em 2em;
   border: none;
-  border-radius: 0;
   outline: none;
-  cursor: pointer;
   transition: all var(--duration2);
 
   &:not(.df):not(.db) {
@@ -97,7 +96,6 @@
 
 .button--toggle {
   position: fixed;
-  top: 1rem;
   right: 1rem;
   font-size: 80%;
 
@@ -117,7 +115,12 @@
     }
   }
 
+  @include mq($from: bp1) {
+    top: 1rem;
+  }
+
   @include mq($until: bp1) {
+    bottom: 1rem;
     max-width: 60px;
   }
 }

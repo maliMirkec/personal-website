@@ -61,8 +61,16 @@ body {
   --text-color: var(--color-light);
 }
 
+.text-lightish {
+  --text-color: var(--color-lightish);
+}
+
 .text-dark {
   --text-color: var(--color-dark);
+}
+
+.text-darkish {
+  --text-color: var(--color-darkish);
 }
 
 [class*="bg-"] {
@@ -81,8 +89,16 @@ body {
   --bg-color: var(--color-light);
 }
 
+.bg-lightish {
+  --bg-color: var(--color-lightish);
+}
+
 .bg-dark {
   --bg-color: var(--color-dark);
+}
+
+.bg-darkish {
+  --bg-color: var(--color-darkish);
 }
 
 [class*="border-"]:not([class*="bottom-border"]):not([class*="top-border"]) {
@@ -109,6 +125,14 @@ body {
   --border-color: var(--color-light);
 }
 
+.border-lightish {
+  --border-color: var(--color-lightish);
+}
+
 .border-dark {
   --border-color: var(--color-dark);
+}
+
+.border-darkish {
+  --border-color: var(--color-darkish);
 }

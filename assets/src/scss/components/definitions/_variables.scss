@@ -11,10 +11,14 @@ $mq-breakpoints: (
 );
 
 // Colors
-$color-alpha: #12e09f;
-$color-beta: #ff3366;
-$color-light: #fff;
-$color-dark: #111;
+$color-alpha: hsl(161, 85%, 47%);
+$color-alpha-dark: hsla(161, 85%, 47%, .5);
+$color-beta: hsl(345, 100%, 60%);
+$color-beta-dark: hsla(345, 100%, 60%, .5);
+$color-light: hsl(0, 0%, 100%);
+$color-lightish: hsl(0, 0%, 95%);
+$color-dark: hsl(0, 0%, 6%);
+$color-darkish: hsl(0, 0%, 10%);
 
 // Typography
 $font-alpha: 'Playfair Display', serif;
@@ -56,12 +60,9 @@ $gap: $space * 2;
   --color-alpha: #{$color-alpha};
   --color-beta: #{$color-beta};
   --color-light: #{$color-light};
+  --color-lightish: #{$color-lightish};
   --color-dark: #{$color-dark};
-
-  @media (prefers-color-scheme: dark) {
-    --color-light: #{$color-dark};
-    --color-dark: #{$color-light};
-  }
+  --color-darkish: #{$color-darkish};
 
   // Typography
   --font-alpha: #{$font-alpha};
