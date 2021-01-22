@@ -13,7 +13,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -32,7 +32,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -51,7 +51,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -70,7 +70,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -89,7 +89,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -108,7 +108,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -127,7 +127,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -146,7 +146,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -165,7 +165,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -184,7 +184,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true
@@ -203,7 +203,7 @@
       "renderWaitTime": 300,
       "timeout": 60000,
       "forceExclude": ["@font-face"],
-      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .pic", ".dark img[src*=\"logo-2021\"]"],
+      "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
       "phantomJsOptions": {
         "ssl-protocol": "any",
         "ignore-ssl-errors": true

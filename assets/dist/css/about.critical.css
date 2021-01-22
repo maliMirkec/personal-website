@@ -62,16 +62,19 @@ button {
   text-transform: none;
 }
 
-button {
+button,
+[type="button"] {
   -webkit-appearance: button;
 }
 
-button::-moz-focus-inner {
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
-button:-moz-focusring {
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -87,11 +90,13 @@ button:-moz-focusring {
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
-  --selection: rgba(18, 224, 159, 0.325);
-  --color-alpha: #12e09f;
+  --selection: rgba(18, 222, 157, 0.325);
+  --color-alpha: #12de9d;
   --color-beta: #ff3366;
-  --color-light: #fff;
-  --color-dark: #111;
+  --color-light: white;
+  --color-lightish: #f2f2f2;
+  --color-dark: #0f0f0f;
+  --color-darkish: #1a1a1a;
   --font-alpha: Playfair Display, serif;
   --font-beta: Barlow, sans-serif;
   --font-gamma: Courier New, Courier, monospace;
@@ -114,13 +119,6 @@ button:-moz-focusring {
   --delay: 0.15s;
   --cols: repeat(auto-fill, minmax(400px, 1fr));
   --gap: 2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-light: #111;
-    --color-dark: #fff;
-  }
 }
 
 @media (max-width: 37.49em) {
@@ -168,7 +166,7 @@ img {
 }
 
 .pic {
-  display: block;
+  display: inline-block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +188,6 @@ img {
   left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  filter: drop-shadow(0 0 0.5rem rgba(18, 224, 159, 0.1));
 }
 
 .wrapper {
@@ -203,12 +200,18 @@ img {
 }
 
 .brad,
+a,
+.button,
 .button:not(.df):not(.db) {
   border-radius: var(--border-radius);
 }
 
 .db {
   display: block;
+}
+
+.dib {
+  display: inline-block;
 }
 
 hr[class*="hr"] {
@@ -300,10 +303,6 @@ body {
   font-size: var(--step-0);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
-}
-
-body:not([id*="kss"]) {
-  filter: drop-shadow(0 0 0.25rem rgba(17, 17, 17, 0.1));
 }
 
 h1,
@@ -410,18 +409,32 @@ h2 {
   margin-top: 0;
 }
 
-.dark {
-  filter: invert(1) hue-rotate(180deg);
+.inner:not([id*="kss"]) {
+  filter: drop-shadow(0 0 0.25rem var(--color-lightish));
 }
 
-.dark .pic,
-.dark img[src*="logo-2021"] {
-  filter: invert(1) hue-rotate(180deg);
+.dark {
+  --color-alpha: rgba(18, 222, 157, 0.5);
+  --color-beta: rgba(255, 51, 102, 0.5);
+  --color-light: #0f0f0f;
+  --color-lightish: #1a1a1a;
+  --color-dark: white;
+  --color-darkish: #f2f2f2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  filter: contrast(0.95);
+}
+
+.dark .inner:not([id*="kss"]) {
+  filter: none;
+}
+
+.dark img {
+  filter: brightness(0.8) contrast(1.2);
 }
 
 a {
   display: inline-flex;
-  border-radius: var(--border-radius);
   color: currentColor;
   text-decoration: none;
   position: relative;
@@ -470,7 +483,6 @@ ul ul {
   min-height: 3em;
   padding: .25em 2em;
   border: none;
-  border-radius: 0;
   outline: none;
 }
 
@@ -497,7 +509,6 @@ ul ul {
 
 .button--toggle {
   position: fixed;
-  top: 1rem;
   right: 1rem;
   font-size: 80%;
 }
@@ -506,8 +517,15 @@ html:not(.dark) .button--toggle span:last-of-type {
   display: none;
 }
 
+@media (min-width: 37.5em) {
+  .button--toggle {
+    top: 1rem;
+  }
+}
+
 @media (max-width: 37.49em) {
   .button--toggle {
+    bottom: 1rem;
     max-width: 60px;
   }
 }
