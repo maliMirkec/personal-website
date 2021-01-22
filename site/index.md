@@ -91,7 +91,7 @@ sections:
       title: See project ⇢
     cta2:
       href: /contact/
-      title: Make the first step ⇢
+      title: Contact me ⇢
     cta3:
       href: /testimonials/
       title: Or see all testimonials ⇢
