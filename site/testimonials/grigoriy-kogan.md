@@ -25,8 +25,10 @@ sections:
 sections2:
   - type: banner-beta
     desc: >-
-      Did you know that I worked on several projects with Greg?
+      Did you know that I worked on several projects with Grigoriy?
     ctas:
+      - href: /portfolio/pinecone/
+        title: Pinecone ⇢
       - href: /portfolio/dominodatalab/
         title: Domino Data Lab ⇢
       - href: /portfolio/dominodatalab-pop/
