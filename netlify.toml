@@ -31,7 +31,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
-    skipPatterns = ["googletagmanager"]
+    skipPatterns = ["googletagmanager", "sb.js"]
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
