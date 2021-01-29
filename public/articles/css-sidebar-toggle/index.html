@@ -631,7 +631,12 @@
 <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.11.3/cloudinary-core-shrinkwrap.min.js" integrity="sha512-1wsyBGww6zsSY6mFs+LdGSc1OENkAvdRnAl6nDAmyFi2gxnPMGo36FH1b9W1YBFlIg0KYteHYU20ENpMW8TpXw==" crossorigin="anonymous"></script>
-<script src="./js/sb.js?test"></script>
+<script>
+const $script = document.createElement('script');
+$script.src = '/js/sb.js';
+console.log($script);
+document.body.appendChild($script);
+</script>
 
     
       
