@@ -6,12 +6,15 @@
 <link href="https://d33wubrfki0l68.cloudfront.net" rel="dns-prefetch">
 <link href="https://d33wubrfki0l68.cloudfront.net" rel="preconnect" crossorigin>
 {% unless env.development and tags and tags[0] == 'blog' %}
-  <link href="https://www.googletagmanager.com" rel="dns-prefetch">
-  <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  {% if site.analytics %}
+    <link href="https://www.googletagmanager.com" rel="dns-prefetch">
+    <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+  {% endif %}
   <link href="https://disqus.com" rel="dns-prefetch">
   <link href="https://disqus.com" rel="preconnect" crossorigin>
 {% endunless %}
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
 {% if type == "home" %}
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
