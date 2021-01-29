@@ -1,0 +1,622 @@
+
+  
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="canonical" href="https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/">
+
+<meta name="referrer" content="no-referrer">
+
+  <meta name="author" content="Silvestar Bistrović">
+
+
+  <meta name="description" content="Recently I&#39;ve been writing about CSS tabs. Topic was surprisingly popular, gaining several thousand users to my page. What was even more surprising were comments about accessibility. I decided to investigate a little bit more and add accessibility to my solution.">
+
+<title>CSS tabs, part II: Accessibility</title>
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="CSS tabs, part II: Accessibility">
+
+
+
+  <meta property="og:url" content="https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/">
+
+
+  <meta property="og:site_name" content="Home of fearless web developer Silvestar Bistrović">
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/CSS_tabs_part_II_Accessibility_io11di">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@malimirkeccita">
+  <meta name="twitter:creator" content="@malimirkeccita">
+  
+    <meta property="twitter:url" content="https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/">
+  
+  
+    <meta name="twitter:title" content="CSS tabs, part II: Accessibility">
+  
+  
+  
+    <meta property="twitter:image" content="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/CSS_tabs_part_II_Accessibility_io11di">
+  
+
+
+  <meta name="fb:app_id" content="340933169673372">
+
+
+  <meta name="fb:admins" content="malimirkeccita">
+
+
+  <meta property="article:author" content="Silvestar Bistrović">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "@id": "/articles/css-tabs-part-ii-accessibility/"
+      },
+      "headline": "CSS tabs, part II: Accessibility",
+      "image": [
+        "https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/CSS_tabs_part_II_Accessibility_io11di"
+      ],
+      "datePublished": "2016-11-01",
+      "dateModified": "2016-11-01",
+      "author": {
+        "@type": "Person",
+        "name": "Silvestar Bistrović"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cita",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.cita.hr/favicon/android-chrome-192x192.png"
+        }
+      },
+      "description": ""
+    }
+  </script>
+
+<meta property="og:locale" content="en">
+<link rel="pingback" href="https://webmention.io/www.silvestar.codes/xmlrpc">
+<link rel="webmention" href="https://webmention.io/www.silvestar.codes/webmention">
+
+  
+<link href="https://res.cloudinary.com" rel="dns-prefetch">
+<link href="https://res.cloudinary.com" rel="preconnect" crossorigin>
+<link href="https://cdnjs.cloudflare.com" rel="dns-prefetch">
+<link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin>
+<link href="https://d33wubrfki0l68.cloudfront.net" rel="dns-prefetch">
+<link href="https://d33wubrfki0l68.cloudfront.net" rel="preconnect" crossorigin>
+
+  
+  <link href="https://disqus.com" rel="dns-prefetch">
+  <link href="https://disqus.com" rel="preconnect" crossorigin>
+
+<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+
+
+<link href="/css/style.min.css" rel="preload" crossorigin as="style">
+<link href="/fonts/Barlow/Barlow-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/Barlow/Barlow-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2" rel="preload" crossorigin as="font">
+<link href="/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2" rel="preload" crossorigin as="font">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=2021">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=2021">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2021">
+<link rel="manifest" href="/favicon/site.webmanifest?v=2021">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=2021" color="#12e09f">
+<link rel="shortcut icon" href="/favicon/favicon.ico?v=2021">
+<meta name="msapplication-TileColor" content="#111111">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml?v=2021">
+<meta name="theme-color" content="#12e09f">
+
+  
+    
+  <style>@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}img{border-style:none}button{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button{text-transform:none}[type=button],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}:root{--bp:80ch;--bp1:600px;--bp2:1200px;--bp3:1600px;--selection:rgba(18, 222, 157, 0.325);--color-alpha:#12de9d;--color-beta:#ff3366;--color-light:white;--color-lightish:#f2f2f2;--color-dark:#0f0f0f;--color-darkish:#1a1a1a;--font-alpha:Playfair Display,serif;--font-beta:Barlow,sans-serif;--font-gamma:Courier New,Courier,monospace;--step-6:54px;--step-5:46.8px;--step-4:39.6px;--step-3:32.4px;--step-2:25.2px;--step-1:21.6px;--step-0:18px;--step--1:16.2px;--step--2:14.4px;--line-height:1.66;--letter-spacing:0.01em;--space-default:0.25rem;--space:1rem;--border-radius:0.1rem;--duration:0.3s;--duration2:0.15s;--delay:0.15s;--cols:repeat(auto-fill, minmax(400px, 1fr));--gap:2rem}@media (max-width:37.49em){:root{--step-6:39.996px;--step-5:31.986px;--step-4:27.99px;--step-3:23.994px;--step-2:21.996px;--step-1:19.998px;--step-0:18px;--step--1:15.984px;--step--2:13.986px;--space-default:0.1rem;--cols:repeat(auto-fill, 1fr)}}body{background-color:var(--color-light);color:var(--color-dark)}[class*=text-]{color:var(--text-color)}.text-alpha{--text-color:var(--color-alpha)}[class*=bg-]{background-color:var(--bg-color)}.bg-light{--bg-color:var(--color-light)}img{display:block;max-width:100%;height:auto;margin:0}.pic{display:inline-block;position:relative;margin-left:auto;margin-right:auto;max-width:100%}.pic svg{display:block;max-width:100%;height:auto}.pic img{display:block;position:absolute;top:0;right:0;bottom:0;left:0;margin-top:0;margin-bottom:0}.wrapper{margin-left:auto;margin-right:auto}.wrapper:not([class*=wrapper-]){max-width:calc(var(--bp) + 2rem)}.button,.button:not(.df):not(.db),a{border-radius:var(--border-radius)}.db{display:block}hr[class*=hr]{border:0;max-height:0;position:relative;padding-top:1rem;padding-bottom:1rem}hr[class*=hr]:before{content:"★";font-size:.5rem;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-shadow:-1rem 0 0 currentColor,1rem 0 0 currentColor}@font-face{font-family:Barlow;src:local("Barlow Medium Italic"),local("Barlow-MediumItalic"),url(/fonts/Barlow/Barlow-MediumItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold"),local("Barlow-SemiBold"),url(/fonts/Barlow/Barlow-SemiBold.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow Medium"),local("Barlow-Medium"),url(/fonts/Barlow/Barlow-Medium.woff2) format("woff2"),url(/fonts/Barlow/Barlow-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Barlow;src:local("Barlow SemiBold Italic"),local("Barlow-SemiBoldItalic"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff2) format("woff2"),url(/fonts/Barlow/Barlow-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium Italic"),local("PlayfairDisplay-MediumItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold"),local("PlayfairDisplay-SemiBold"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display Medium"),local("PlayfairDisplay-Medium"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Playfair Display';src:local("Playfair Display SemiBold Italic"),local("PlayfairDisplay-SemiBoldItalic"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2) format("woff2"),url(/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff) format("woff");font-weight:600;font-style:italic;font-display:swap}body{font-family:var(--font-beta);font-style:normal;font-weight:500;font-size:var(--step-0);line-height:var(--line-height);letter-spacing:var(--letter-spacing)}h1,h2{font-family:var(--font-alpha);font-style:normal;font-weight:600}h1{font-size:var(--step-6)}h2{font-size:var(--step-5)}[class*=fz-step-]{font-size:var(--font-size)}[class*=fz-step-5]{--font-size:var(--step-5)}blockquote{padding:0;margin:0}code,pre{font-family:var(--font-gamma)}.fs-italic{font-style:italic}.button{font-weight:600}.text-center{text-align:center}.button{text-transform:uppercase}.button{letter-spacing:.06em}.padding{padding:var(--space)}.margin-top{margin-top:var(--space)}.margin-bottom{margin-bottom:var(--space)}.margin-top-alpha{margin-top:calc(var(--space) * 2)}@media (min-width:37.5em){.margin-top-alpha{margin-top:calc(var(--space) * 5)}}.margin-bottom-alpha{margin-bottom:calc(var(--space) * 2)}@media (min-width:37.5em){.margin-bottom-alpha{margin-bottom:calc(var(--space) * 5)}}.margin-left{margin-left:var(--space)}.margin-right{margin-right:var(--space)}.no-spacing{margin:0;padding:0}.no-margin-top{margin-top:0}.inner:not([id*=kss]){filter:drop-shadow(0 0 .25rem var(--color-lightish))}.dark{--color-alpha:rgba(18, 222, 157, 0.5);--color-beta:rgba(255, 51, 102, 0.5);--color-light:#0f0f0f;--color-lightish:#1a1a1a;--color-dark:white;--color-darkish:#f2f2f2;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;filter:contrast(.95)}.dark .inner:not([id*=kss]){filter:none}.dark img{filter:brightness(.8) contrast(1.2)}a{display:inline-flex;color:currentColor;text-decoration:none;position:relative;overflow:hidden;outline:0}.copy--body a:not([class]){text-decoration:underline;text-decoration-thickness:2px;display:inline;word-break:break-word}ul{padding-left:1.25em;margin-left:0;margin-right:0;list-style-position:outside}ul ul{font-size:92.5%}.list-style-none{padding-left:0;list-style:none}.list-style-none ul{list-style:none}.button{background-color:var(--color-alpha);color:var(--color-dark);box-sizing:border-box;justify-content:center;align-items:center;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:var(--fz-step-0);line-height:1.66;min-height:3em;padding:.25em 2em;border:none;outline:0}.button:not(.df):not(.db){display:inline-flex;margin:.125em}.button[href]{text-decoration:none}.button--small{font-size:var(--step--1);padding:.125em 1em;min-height:1.75em}.button--inverse{background-color:var(--color-dark);color:var(--color-light)}.button--outline{background-color:transparent;box-shadow:0 0 0 2px currentColor inset}.button--toggle{position:fixed;right:1rem;font-size:80%}html:not(.dark) .button--toggle span:last-of-type{display:none}@media (min-width:37.5em){.button--toggle{top:1rem}}@media (max-width:37.49em){.button--toggle{bottom:1rem;max-width:60px}}header nav{position:relative}header nav .skip-link{position:absolute;top:.25rem;right:.25rem;bottom:.25rem;left:.25rem;display:flex;align-items:center;justify-content:center;z-index:1}header nav .skip-link:not(:focus){display:block;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(1px);clip-path:inset(1px);white-space:nowrap;position:absolute;z-index:-1}header nav>ul{display:flex;justify-content:center;align-items:center}header nav>ul ul{padding-left:.5rem;padding-right:.5rem}@media (max-width:37.49em){header nav{text-align:center}header nav a{white-space:nowrap}header nav>ul{flex-wrap:wrap}header nav>ul>li:first-child{flex:1 1 100%}header nav>ul>li:first-child img{margin:auto}header nav>ul>li:not(:first-child){flex:1 0 150px}}.copy>:first-child{margin-top:0}.copy>:last-child{margin-bottom:0}.copy code{font-size:115%;padding-left:.125em;padding-right:.125em;font-weight:500}.copy blockquote{font-size:112.5%;margin-top:1em;margin-bottom:1em;padding-top:1px;padding-bottom:1px;padding-left:2rem;border-left:.125rem dashed var(--color-alpha)}</style>
+
+
+  
+  
+  <script>if(localStorage.getItem('sb-dark-mode') === 'true'){document.documentElement.classList.add('dark')}</script>
+
+</head>
+
+  <body>
+    <div class="inner">
+      
+  <header>
+    <nav>
+      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <ul class="list-style-none no-spacing">
+        
+          <li class="margin-top">
+            <a class="db margin-left margin-right inert" href="/">
+              <img src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="90" height="90">
+            </a>
+          </li>
+        
+        
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/portfolio/">Portfolio</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/side-projects/">Side Projects</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/testimonials/">Testimonials</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/articles/">Blog</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/publications/">Publications</a>
+                    </li>
+                  
+                    <li>
+                      <a href="https://mentor.silvestar.codes/reads#newsletter">UI Dev Newsletter</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/links/">Links</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/mentoring/">Mentoring</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/uses/">Uses</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+            <li>
+              <ul class="margin-top">
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+                
+                  
+                    <li>
+                      <a href="/contact/">Contact</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/services/">Services</a>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </header>
+
+
+      <main id="main">
+        
+          
+          
+            
+
+  <section class="hero margin-top-alpha">
+  <div class="wrapper text-center">
+    <div class="padding">
+      <div class="margin-bottom">
+        <a class="button button--small" href="/articles/">/Blog</a>
+        
+          
+            <span class="button button--small button--inverse">css</span>
+          
+            <span class="button button--small button--inverse">tabs</span>
+          
+            <span class="button button--small button--inverse">accessibility</span>
+          
+        
+        
+          <span class="button button--small button--outline">2016-11-01</span>
+        
+      </div>
+      
+        <h1 class="fz-step-5 no-margin-top margin-bottom">CSS tabs, part II: Accessibility</h1>
+      
+      
+      
+    </div>
+  </div>
+</section>
+
+  <hr class="text-alpha hr">
+
+<div class="wrapper margin-top-alpha margin-bottom-alpha">
+  <div class="padding">
+    
+    <div class="copy copy--body"><p>Recently I've been writing about <a href="/articles/how-to-make-tabs-using-only-css/">CSS tabs</a>. Topic was surprisingly popular, gaining several thousand users to my page.</p>
+<p>What was even more surprising were comments about accessibility. Although my initial idea was to present just a CSS technique for tabs, I decided to investigate a little bit more and add accessibility to my solution.</p>
+<h2 id="existing-solutions">Existing solutions</h2>
+<p>CSS tabs are very old topic apparently, I've even found <a href="http://daniel.glazman.free.fr/weblog/archived/2003_01_05_glazblogarc.html#87183885">an article dating back in 2003</a>. And it is a very popular topic, too, search results returned dozens of articles. I decided to document every article in <a href="https://github.com/maliMirkec/css-tabs-list">this Github repository</a>.</p>
+<p><em>If you have an article that is not in the list, please add it by making a pull request.</em></p>
+<h2 id="accessibility">Accessibility</h2>
+<p>Reading all this articles made me realize that <a href="https://en.wikipedia.org/wiki/Web_accessibility">accessibility</a> is a major issue nowadays. And accessibility is hard. But that doesn't mean that we should ignore it. Quite the contrary, we should learn it and apply it.</p>
+<h3 id="wave">WAVE</h3>
+<p>We need to find a tool to test our tabs for accessibility. Web Accessibility Initiative provides us with the list of tools <a href="https://www.w3.org/WAI/ER/tools/">here</a>. I prefer <strong><a href="http://wave.webaim.org/">WAVE</a></strong>, web accessibility evaluation tool, because it is available from Firefox Web Developer Toolbar, under section Tools &gt; &quot;Validate Accessibility&quot;.</p>
+<h3 id="ngrok">ngrok</h3>
+<p>Since I was developing <a href="/articles/perfect-local-server-with-atom/">locally</a>, <strong>WAVE</strong> couldn't access my localhost. I found solution in <strong><a href="https://ngrok.com/">ngrok</a></strong>, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download <strong>ngrok</strong> executable file, place it in project root, open Command Prompt and start it using <code>ngrok http 9000</code> command. Last number is the port number of your application which is 9000 in my case. Then open <code>127.0.0.1:4040</code> page, copy tunnel URL and paste it in <strong>WAVE</strong> application. Here's how it looks in action (<em>and yes, that's Pokemon theme for Firefox</em>):</p>
+<img class="cld-responsive" data-src="https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/ngrok-in-action_u2lpmo" alt="ngrok in action." sizes="800px" loading="lazy">
+<h3 id="contrast">Contrast</h3>
+<p><strong>WAVE</strong> detected a couple of contrast errors. That's the easy part. We should use stronger colors for text and lighter colors for background. Visually impaired people shouldn't have problems with reading tabs labels and content now. And there's no errors from <strong>WAVE</strong>, too.</p>
+<h3 id="aria-attributes">aria attributes</h3>
+<p>Our tabs are not yet accessible. To make it accessible for every user, device and tool, we should add <strong><a href="https://en.wikipedia.org/wiki/WAI-ARIA">aria attributes</a></strong>. <strong>aria attributes</strong> are used to add context for elements. That way tools and devices are able to read the content and reproduce it in a way that every user could understand it.</p>
+<h3 id="screen-readers">Screen readers</h3>
+<p>We should test our tabs in some of the <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ#Assistive_Technologies">assistive technology tools</a>, because results could help us start adding accessibility. I decided to use <strong><a href="http://www.freedomscientific.com/Products/Blindness/JAWS">Jaws</a></strong> and <strong><a href="http://www.nvaccess.org/">NVDA</a></strong>, both available for free on Windows platform. First thing I noticed, after running these tools, was that <code>HTML</code> structure is not suitable for accessibility. We need to add <code>div</code> wrappers for tab labels and tab content.</p>
+<h3 id="aria-roles">aria roles</h3>
+<p>Now we could add <strong>aria attributes</strong>. There are <a href="https://whatsock.com/training/matrices/#tablist">specific aria roles for tabs</a>:</p>
+<ul>
+<li><em>tablist</em>,</li>
+<li><em>tab</em> and</li>
+<li><em>tabpanel</em>.</li>
+</ul>
+<p>Every role could have required and optional attributes. Required attributes are easy, because we know we should add it to an element. Optional attributes are problem: how can we know which ones work and which ones don't? Ideally, every attribute should work. But as I discovered, they don't.</p>
+<h3 id="trial-and-error">Trial and error</h3>
+<p>Because there are so many tools and devices and documentation is overwhelming, I decided to use trial and error method this time. After few hours, I came up with final solution. You could see it in this pen:</p>
+<iframe id="cp_embed_LRKEPQ" src="//codepen.io/CiTA/embed/LRKEPQ?height=300&theme-id=dark&slug-hash=LRKEPQ&default-tab=result" scrolling="no" frameborder="no" height="300" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:100%;overflow: hidden;"></iframe>
+<h3 id="radio-buttons">Radio buttons</h3>
+<p>In previous article, radio inputs were hidden. I decided to use them as a part of design for tabs. Most users should be familiar with radio buttons, as they are widely used on the web.</p>
+<p>To position every radio input, we could use absolute position with top and left offsets. Tricky part was to make it responsive. <code>nth-of-type</code> selector is used to adjust position for every radio button.</p>
+<h3 id="interaction">Interaction</h3>
+<p>To add some interaction, we should add a little bit of JavaScript. It is mostly used for changing states, like <code>aria-activedescendant</code>, <code>aria-selected</code> and <code>aria-expanded</code>. <code>HTML</code> and <code>CSS</code> are still used for handling tabs.</p>
+<h3 id="navigation">Navigation</h3>
+<p>Now that radio buttons are visible, user could navigate through tab labels more intuitively using left and right arrow keys.</p>
+<p>Also, we should add trigger to help users jump to content from tabs. If a user press &quot;Enter&quot; while on the tab label, matching tab content will be focused.</p>
+<h3 id="final-thought">Final thought</h3>
+<p>Accessibility is hard to implement, but non accessible content is even harder to interpret for impaired users. We should try our best and make our content accessible.</p>
+<p>But on the other hand, if you're making a solution for targeted audience and there are no special request for accessibility, aria attributes may not be necessary. They are hard to implement and very time consuming.</p>
+<p>What do you think? What are your experiences?</p>
+<p>Leave a comment below or send <a href="https://twitter.com/malimirkeccita">me</a> a tweet.</p>
+</div>
+  </div>
+</div>
+
+  <hr class="text-alpha hr">
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/&text=CSS tabs, part II: Accessibility&via=malimirkeccita" target="_blank">Twitter ⇢</a>
+        <a class="margin-left margin-right" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/" target="_blank">Facebook ⇢</a>
+        <a class="margin-left margin-right" href="https://www.reddit.com/submit?url=https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/" target="_blank">Reddit ⇢</a>
+      </div>
+      <h3 class="fz-step-2 no-margin-top">About the Author</h3>
+      <div class="copy">
+        <p>Silvestar is a fearless web developer who is very enthusiastic about web technologies and everything related to frontend development.</p>
+      </div>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="margin-left margin-right" href="/about/">About ⇢</a>
+        <a class="margin-left margin-right" href="/portfolio/">Portfolio ⇢</a>
+        <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
+      </div>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
+      <div class="margin-top margin-bottom-alpha">
+        <a class="button button--small" href="/articles/how-to-automate-development-with-atom/" title="How to automate development with Atom">⇠ Prev post</a>
+        <a class="button button--small" href="/articles/how-to-handle-keybindings-in-atom/">Next post ⇢</a>
+      </div>
+      
+        <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>
+        <div class="margin-top margin-bottom" id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+      this.page.url = "https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "https://www.silvestar.codes/articles/css-tabs-part-ii-accessibility/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://silvestarbistrovic.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
+    </div>
+  </div>
+</section>
+
+
+
+  <hr class="text-alpha hr">
+
+
+          
+          
+            
+              
+
+  
+  
+  <section class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      
+      
+        <h2 class="fz-step-4 no-margin-top margin-bottom">I am <em>available</em> for a new project.</h2>
+      
+      
+        <div class="margin-top copy"><p>I specialized in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>WordPress</strong>, <strong>Shopify</strong>, and <strong>JAMstack</strong> technologies.</p>
+</div>
+      
+      
+        <div class="margin-top">
+          <a class="button" href="/contact/">Hire me ⇢</a>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+            
+          
+        
+      </main>
+      
+  <footer class="text-center">
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="/portfolio/" class="padding-y-1">Portfolio</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/articles/" class="padding-y-1">Blog</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/about/" class="padding-y-1">About</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/contact/" class="padding-y-1">Contact</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="/rss.xml" class="padding-y-1">Feed</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <nav>
+        <ul class="list-style-none">
+          
+            <li class="margin-right margin-left">
+              <a href="https://www.linkedin.com/in/starbist/" class="padding-y-1">LinkedIn</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://twitter.com/malimirkeccita" class="padding-y-1">Twitter</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://github.com/maliMirkec" class="padding-y-1">GitHub</a>
+            </li>
+          
+            <li class="margin-right margin-left">
+              <a href="https://codepen.io/CiTA/" class="padding-y-1">CodePen</a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+    
+      <p class="fz-step--1">&copy; Silvestar Bistrović, 2021</p>
+    
+    
+      <a class="dib margin-bottom" href="/"><img class="margin-auto" src="/gfx/svg/logo-2021.svg" alt="Silvestar Bistrović" width="50" height="50" loading="lazy"></a>
+    
+  </footer>
+
+
+    </div>
+    <button type="button" class="button button--small button--toggle js-toggle">
+  <span>Dark theme</span>
+  <span>Light theme</span>
+</button>
+
+    <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.11.3/cloudinary-core-shrinkwrap.min.js" integrity="sha512-1wsyBGww6zsSY6mFs+LdGSc1OENkAvdRnAl6nDAmyFi2gxnPMGo36FH1b9W1YBFlIg0KYteHYU20ENpMW8TpXw==" crossorigin="anonymous"></script>
+<script src="./js/sb.js?test"></script>
+
+    
+      
+
+    
+  </body>
+</html>
+
+
+
+

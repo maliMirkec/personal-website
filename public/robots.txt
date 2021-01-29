@@ -1,0 +1,3 @@
+Sitemap: https://www.silvestar.codes/sitemap.xml
+User-agent: *
+Disallow: /docs/*
