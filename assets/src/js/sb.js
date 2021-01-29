@@ -1,8 +1,11 @@
 // Cloudinary
-// import { Cloudinary } from 'cloudinary-core'
+const _ = require('lodash')
+console.log(_);
+const Cloudinary = require('cloudinary-core')
+console.log(Cloudinary);
 
-// var cl = Cloudinary.new({cloud_name: "starbist"})
-// cl.responsive()
+const cl = Cloudinary.new({cloud_name: "starbist"})
+cl.responsive()
 
 // Theme toggle
 const $toggle = document.querySelector('.js-toggle')
@@ -16,6 +19,6 @@ if ($toggle) {
 
     setTimeout(() => {
       document.documentElement.classList.remove('switch')
-    }, 1000);
+    }, 1000)
   })
 }
