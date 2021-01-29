@@ -25,7 +25,7 @@ sections:
 sections2:
   - type: banner-beta
     desc: >-
-      Did you know that I worked on several projects with Edo?
+      Did you know that I built a site powered by Hugo, the world’s fastest framework for building websites, for Edo?
     ctas:
       - href: /portfolio/pinecone/
         title: Pinecone ⇢
