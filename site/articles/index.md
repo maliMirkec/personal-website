@@ -19,7 +19,7 @@ sections:
   - type: cards-alpha
     cta:
       title: Read more ⇢
-    filter: blog
+    filter: myArticles
     sorter: date
   - type: banner-alpha
     title: I am _available_ for a new project.

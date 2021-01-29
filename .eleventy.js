@@ -1,9 +1,9 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
 const uslug = require('uslug')
-const env = require('./site/_data/env');
+const env = require('./site/_data/env')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.setLibrary(
@@ -11,7 +11,7 @@ module.exports = (eleventyConfig) => {
     markdownIt({ html: true }).use(markdownItAnchor, { slugify: uslug })
   )
 
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight)
 
   eleventyConfig.addPairedShortcode("codeblock", (str) => str)
 
@@ -31,13 +31,39 @@ module.exports = (eleventyConfig) => {
   : `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" alt="${ alt || '' }" sizes="800px" loading="lazy">`
   )
 
+  console.log(eleventyConfig.collections);
+
+  eleventyConfig.addCollection("myArticles", (collection) => {
+    return collection.getFilteredByTag("blog").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
+
+  eleventyConfig.addCollection("myPublications", (collection) => {
+    return collection.getFilteredByTag("publications").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
+
   eleventyConfig.addPassthroughCopy({"assets/dist": "."})
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     // Optional, default is "---"
     excerpt_separator: "<!-- more -->"
-  });
+  })
 
   return {
     dir: {
