@@ -1,4 +1,4 @@
-const cl = Cloudinary.new({cloud_name: "starbist"})
+const cl = window.cloudinary.Cloudinary.new({cloud_name: "starbist"})
 cl.responsive()
 
 // Theme toggle
