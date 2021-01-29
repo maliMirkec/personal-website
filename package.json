@@ -34,10 +34,6 @@
     "build-prod": "npm run prebuild && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
   },
   "dependencies": {
-    "cloudinary-core": "^2.11.3",
-    "lodash": "^4.17.20"
-  },
-  "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "@babel/core": "^7.12.10",

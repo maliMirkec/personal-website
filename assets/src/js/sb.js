@@ -1,7 +1,7 @@
 // Cloudinary
 const _ = require('lodash')
 console.log(_);
-const Cloudinary = require('cloudinary-core')
+const Cloudinary = require('cloudinary-core/src/index.js')
 console.log(Cloudinary);
 
 const cl = Cloudinary.new({cloud_name: "starbist"})
