@@ -31,8 +31,6 @@ module.exports = (eleventyConfig) => {
   : `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" alt="${ alt || '' }" sizes="800px" loading="lazy">`
   )
 
-  console.log(eleventyConfig.collections);
-
   eleventyConfig.addCollection("myArticles", (collection) => {
     return collection.getFilteredByTag("blog").sort((a, b) => {
       if (a.date < b.date) {
