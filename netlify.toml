@@ -54,6 +54,9 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
+    contexts = [
+      'production'
+    ]
 
     # The base dir of the project
     buildDir = "public"
@@ -74,6 +77,9 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   package = "netlify-plugin-submit-sitemap"
 
   [plugins.inputs]
+    contexts = [
+      'production'
+    ]
 
     # The base url of your site (optional, default = main URL set in Netlify)
     baseUrl = "https://www.silvestar.codes"
