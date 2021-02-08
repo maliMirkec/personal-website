@@ -1,7 +1,6 @@
 <head>
   {% include _partials/_head/meta %}
   {% include _partials/_head/og %}
-  {% include _partials/_head/link %}
   {% include _partials/_assets/favicon %}
   {% unless env.development %}
     {% include _partials/_assets/critical %}
@@ -9,5 +8,6 @@
   {% if canonical %}
     <link rel="canonical" href="{{ canonical }}">
   {% endif %}
+  {% include _partials/_head/link %}
   {% include _partials/toggle-check %}
 </head>
