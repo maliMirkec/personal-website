@@ -56,7 +56,7 @@ $gap: $space * 2;
   --bp3: #{$bp3};
 
   // Colors
-  --selection: #{transparentize($color-alpha, .675)};
+  --selection: #{transparentize($color-alpha, .8125)};
   --color-alpha: #{$color-alpha};
   --color-beta: #{$color-beta};
   --color-light: #{$color-light};

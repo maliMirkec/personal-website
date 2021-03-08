@@ -16,7 +16,7 @@ description: "With the rise of the static site, developers need a service that c
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am _available_ for a new project.
+    title: I am considering new projects for the 2021.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

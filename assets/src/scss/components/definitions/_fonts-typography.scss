@@ -22,6 +22,10 @@ body {
   text-shadow: 0 1px 0 var(--color-light);
 }
 
+pre ::selection {
+  text-shadow: none;
+}
+
 h1,
 h2,
 h3,

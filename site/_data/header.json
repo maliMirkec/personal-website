@@ -27,13 +27,13 @@
     }]
   }, {
     "href": "/links/",
-    "title": "Links",
+    "title": "My Links",
     "list": [{
+      "href": "/uses/",
+      "title": "My Setup"
+    }, {
       "href": "/mentoring/",
       "title": "Mentoring"
-    }, {
-      "href": "/uses/",
-      "title": "Uses"
     }]
   }, {
     "href": "/about/",

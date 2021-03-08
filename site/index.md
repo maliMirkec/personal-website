@@ -5,11 +5,53 @@ description: Silvestar is building modern, responsive and optimized websites sin
 type: home
 sections:
   - type: hero-alpha
-    title: Building _modern_, _responsive_ and _optimized_ websites since 2012.
+    title: I am Silvestar and have been building _modern_, _responsive_ and _optimized_ websites since 2012.
     desc: Using **the best coding practices** to deliver **the best experience** for every user.
     cta:
       href: /contact/
       title: Contact me ⇢
+  - type: hero-beta
+    title: From the Portfolio
+    desc: >-
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
+  - type: cards-gamma
+    desc: Do you want to work with me?
+    cta:
+      title: See project ⇢
+    cta2:
+      href: /contact/
+      title: Hire me ⇢
+    cta3:
+      href: /portfolio/
+      title: Or see my portfolio ⇢
+    filter: portfolio
+    limit: 5
+  - type: banner-beta
+    desc: Did you know that I work as a freelance contractor since **2017**?
+    cta:
+      href: /articles/a-story-of-becoming-a-web-developer/
+      title: Read the full story ⇢
+  - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    desc: Do you want to be my next client?
+    cta:
+      title: See project ⇢
+    cta2:
+      href: /contact/
+      title: Contact me ⇢
+    cta3:
+      href: /testimonials/
+      title: Or see all testimonials ⇢
+    filter: testimonials
+    limit: 5
+  - type: banner-beta
+    desc: Did you know that I gave an interview for the **Remote Working Hub**?
+    cta:
+      href: /articles/interview-for-remote-working-hub/
+      title: Read the full interview ⇢
   - type: hero-beta
     title: From the Blog
     desc: >-
@@ -31,22 +73,6 @@ sections:
       href: https://mentor.silvestar.codes/reads#newsletter
       title: Subscribe here ⇢
   - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
-    desc: Do you want to work with me?
-    cta:
-      title: See project ⇢
-    cta2:
-      href: /contact/
-      title: Hire me ⇢
-    cta3:
-      href: /portfolio/
-      title: Or see my portfolio ⇢
-    filter: portfolio
-    limit: 5
-  - type: hero-beta
     title: From Publications
     desc: >-
       Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
@@ -64,10 +90,10 @@ sections:
     sorter: date
     limit: 5
   - type: banner-beta
-    desc: Did you know that I started **CSS Auditors**, a site dedicated to **CSS**?
+    desc: Did you know that I blog since **2016**?
     cta:
-      href: https://css-auditors.com
-      title: Learn more ⇢
+      href: /articles/
+      title: Read the articles ⇢
   - type: hero-beta
     title: From Side Projects
     desc: >-
@@ -81,24 +107,13 @@ sections:
       title: Hire me ⇢
     filter: projects
     limit: 5
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
-  - type: cards-beta
-    desc: Do you want to be my next client?
+  - type: banner-beta
+    desc: Did you know that I started **CSS Auditors**, a site dedicated to **auditing CSS**?
     cta:
-      title: See project ⇢
-    cta2:
-      href: /contact/
-      title: Contact me ⇢
-    cta3:
-      href: /testimonials/
-      title: Or see all testimonials ⇢
-    filter: testimonials
-    limit: 5
+      href: https://css-auditors.com
+      title: Learn more ⇢
   - type: banner-alpha
-    title: I am _available_ for a new project.
+    title: I am considering new projects for the 2021.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
