@@ -421,24 +421,8 @@ h3 {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    --color-alpha: rgba(18, 222, 157, 0.5);
-    --color-beta: rgba(255, 51, 102, 0.5);
-    --color-light: #0f0f0f;
-    --color-lightish: #1a1a1a;
-    --color-dark: white;
-    --color-darkish: #f2f2f2;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    filter: contrast(0.95);
-  }
-
   .inner:not([id*="kss"]) {
     filter: none;
-  }
-
-  img {
-    filter: brightness(0.8) contrast(1.2);
   }
 }
 
