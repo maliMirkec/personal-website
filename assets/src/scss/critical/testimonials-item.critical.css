@@ -90,7 +90,7 @@ button:-moz-focusring,
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
-  --selection: rgba(18, 222, 157, 0.325);
+  --selection: rgba(18, 222, 157, 0.1875);
   --color-alpha: #12de9d;
   --color-beta: #ff3366;
   --color-light: white;
@@ -341,10 +341,6 @@ h2 {
   font-size: var(--font-size);
 }
 
-[class*="fz-step--1"] {
-  --font-size: var(--step--1);
-}
-
 [class*="fz-step-1"] {
   --font-size: var(--step-1);
 }
@@ -463,6 +459,28 @@ blockquote {
   filter: brightness(0.8) contrast(1.2);
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-alpha: rgba(18, 222, 157, 0.5);
+    --color-beta: rgba(255, 51, 102, 0.5);
+    --color-light: #0f0f0f;
+    --color-lightish: #1a1a1a;
+    --color-dark: white;
+    --color-darkish: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    filter: contrast(0.95);
+  }
+
+  .inner:not([id*="kss"]) {
+    filter: none;
+  }
+
+  img {
+    filter: brightness(0.8) contrast(1.2);
+  }
+}
+
 a {
   display: inline-flex;
   color: currentColor;
@@ -558,8 +576,7 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
-header nav,
-footer nav {
+header nav {
   position: relative;
 }
 
@@ -589,8 +606,7 @@ header nav .skip-link:not(:focus) {
   z-index: -1;
 }
 
-header nav > ul,
-footer nav > ul {
+header nav > ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -624,10 +640,6 @@ header nav > ul ul {
 
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
-  }
-
-  footer nav ul {
-    flex-wrap: wrap;
   }
 }
 

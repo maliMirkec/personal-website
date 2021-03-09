@@ -25,3 +25,27 @@
     filter: brightness(.8) contrast(1.2);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-alpha: #{$color-alpha-dark};
+    --color-beta: #{$color-beta-dark};
+    --color-light: #{$color-dark};
+    --color-lightish: #{$color-darkish};
+    --color-dark: #{$color-light};
+    --color-darkish: #{$color-lightish};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    filter: contrast(.95);
+  }
+
+  .inner {
+    &:not([id*="kss"]) {
+      filter: none;
+    }
+  }
+
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
