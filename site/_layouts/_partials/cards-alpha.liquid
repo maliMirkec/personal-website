@@ -2,7 +2,7 @@
 {% assign i1 = 1 %}
 
 {% if card1List %}
-  <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <div id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card1 in card1List %}
         {% if cards1.limit and i1 > cards1.limit %}
@@ -60,5 +60,5 @@
         </div>
       {% endif %}
     </div>
-  </section>
+  </div>
 {% endif %}
