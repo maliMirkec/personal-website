@@ -6,6 +6,10 @@ const uslug = require('uslug')
 const env = require('./site/_data/env')
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.setBrowserSyncConfig({
+    open: true,
+  });
+
   eleventyConfig.setLibrary(
     'md',
     markdownIt({ html: true }).use(markdownItAnchor, { slugify: uslug })

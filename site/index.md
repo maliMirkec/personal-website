@@ -53,6 +53,23 @@ sections:
       href: /articles/interview-for-remote-working-hub/
       title: Read the full interview ⇢
   - type: hero-beta
+    title: From Publications
+    desc: >-
+      Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
+  - type: cards-alpha
+    desc: Do you want me to write for you?
+    cta:
+      title: Read more ⇢
+    cta2:
+      href: /contact/
+      title: Contact me ⇢
+    cta3:
+      href: /publications/
+      title: Or see all publications ⇢
+    filter: myPublications
+    sorter: date
+    limit: 5
+  - type: hero-beta
     title: From the Blog
     desc: >-
       Here are the latest posts from my blog. I cover mostly **frontend**, **JAMstack**, and **freelancing** topics.
@@ -72,23 +89,6 @@ sections:
     cta:
       href: https://mentor.silvestar.codes/reads#newsletter
       title: Subscribe here ⇢
-  - type: hero-beta
-    title: From Publications
-    desc: >-
-      Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
-  - type: cards-alpha
-    desc: Do you want me to write for you?
-    cta:
-      title: Read more ⇢
-    cta2:
-      href: /contact/
-      title: Contact me ⇢
-    cta3:
-      href: /publications/
-      title: Or see all publications ⇢
-    filter: myPublications
-    sorter: date
-    limit: 5
   - type: banner-beta
     desc: Did you know that I blog since **2016**?
     cta:
