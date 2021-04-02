@@ -129,7 +129,11 @@ button:-moz-focusring,
 }
 
 body {
+  background-image: url(/gfx/png/bg-logo.png), url(/gfx/png/bg-logo.png), url(/gfx/png/bg-logo.png), url(/gfx/png/bg-logo.png), url(/gfx/png/bg-logo.png);
+  background-position: top left, top .2rem left .2rem, top .4rem left .4rem, top .6rem left .6rem, top .8rem left .8rem;
+  background-size: 1rem;
   background-color: var(--color-light);
+  background-attachment: fixed;
   color: var(--color-dark);
 }
 
