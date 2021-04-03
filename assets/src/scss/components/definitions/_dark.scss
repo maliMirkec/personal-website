@@ -15,6 +15,10 @@
 	-moz-osx-font-smoothing: grayscale;
   filter: contrast(.95);
 
+  body {
+    background-image: url(/gfx/svg/bg-logo.svg);
+  }
+
   .inner {
     &:not([id*="kss"]) {
       filter: none;
