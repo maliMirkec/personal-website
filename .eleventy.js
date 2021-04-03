@@ -8,7 +8,11 @@ const env = require('./site/_data/env')
 module.exports = (eleventyConfig) => {
   eleventyConfig.setBrowserSyncConfig({
     open: true,
-  });
+  })
+
+  eleventyConfig.addWatchTarget("./assets/");
+
+  eleventyConfig.setWatchThrottleWaitTime(200);
 
   eleventyConfig.setLibrary(
     'md',
