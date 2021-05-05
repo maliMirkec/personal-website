@@ -5,7 +5,7 @@ description: Silvestar is building modern, responsive and optimized websites sin
 type: home
 sections:
   - type: hero-alpha
-    title: I am Silvestar and have been building _modern_, _responsive_ and _optimized_ websites since 2012
+    title: I am Silvestar and I have been building _modern_, _responsive_ and _optimized_ websites since 2012
     desc: using **the best coding practices** to deliver **the best experience** for every user.
     cta:
       href: /contact/
