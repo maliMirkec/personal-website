@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: ww_hceizq
 logo: ww_pm2rwy
+avatar: am_zanda5
 order: 5
-date: 2020-01-05
+date: 2000-01-05
 position: CTO
 company: Westwing Home & Living
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of Westwing.
     width: 219
     height: 30
+    avatar: am_zanda5
     title: Adam Maschek
     desc: CTO at Westwing Home & Living
     tag:
@@ -44,6 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: It was a pleasure to work with Silvestar. He was available on a short notice, he...
 ---
 
 It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him.

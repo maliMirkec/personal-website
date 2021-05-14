@@ -3,7 +3,6 @@ layout: index
 title: Using CSS Grid where appropriate
 tags:
   - blog
-categories:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_avifto

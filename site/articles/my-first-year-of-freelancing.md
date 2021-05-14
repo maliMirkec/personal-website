@@ -4,7 +4,6 @@ title: My first year of freelancing
 date: 2018-05-21 13:53:01
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: My_first_year_of_freelancing_xufkud

@@ -3,7 +3,6 @@ layout: index
 title: CSS sidebar toggle
 tags:
   - blog
-categories:
   - css
   - sidebar
   - accessibility

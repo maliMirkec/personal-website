@@ -4,7 +4,6 @@ title: Custom WordPress Theme Development with SPRO
 date: 2019-03-05 11:13:42
 tags:
   - blog
-categories:
   - gulp
   - starter project
 thumbnail: Custom_WordPress_Theme_Development_with_SPRO_ypnnfh

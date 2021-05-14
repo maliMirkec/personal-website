@@ -16,7 +16,8 @@
     </image>
     <copyright>All rights reserved, {{ metadata.author.name }}</copyright>
     {% if metadata.tags %}
-      {% for tag in metadata.tags %}
+      {% assign myTags = metadata.tags | tagify %}
+      {% for tag in myTags %}
         <category>{{ tag }}</category>
       {% endfor %}
     {% endif %}
@@ -28,9 +29,10 @@
       <guid>{{ metadata.url | append: article.url }}</guid>
       <pubDate>{{ article.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
       <description><![CDATA[{{ article.data.description }}]]></description>
-      {% if article.data.categories %}
-        {% for category in article.data.categories %}
-          <category>{{ category }}</category>
+      {% assign myTags2 = article.data.tags | tagify %}
+      {% if myTags2 %}
+        {% for tag in myTags2 %}
+          <category>{{ tag }}</category>
         {% endfor %}
       {% endif %}
       <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>

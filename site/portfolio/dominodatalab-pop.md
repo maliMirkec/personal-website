@@ -5,11 +5,10 @@ description: Pop-up is a series of events that bring together the data science l
 thumbnail: ddlp_mjllzg
 link: //popup.dominodatalab.com
 display: true
-date: 2020-01-03
+date: 2010-01-03
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

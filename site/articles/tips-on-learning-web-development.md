@@ -4,7 +4,6 @@ title: Tips On Learning Web Development
 date: 2020-05-20 12:11:18
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: Tips_On_Learning_Web_Development_sb1pfy

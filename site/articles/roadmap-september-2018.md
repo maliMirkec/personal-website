@@ -4,7 +4,6 @@ title: 'Roadmap, September 2018.'
 date: 2018-09-27 12:11:55
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: Roadmap_September_2018_njrqcl

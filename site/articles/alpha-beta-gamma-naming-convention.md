@@ -4,7 +4,6 @@ title: 'Alpha, Beta, Gamma naming convention'
 date: 2018-11-06 21:39:00
 tags:
   - blog
-categories:
   - css
   - BEM
 thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m

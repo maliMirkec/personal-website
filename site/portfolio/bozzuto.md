@@ -5,11 +5,10 @@ description: Bozzuto is a generationally-owned, independently-operated family bu
 thumbnail: b_hkqm0j
 link: //www.bozzuto.com
 display: true
-date: 2020-01-06
+date: 2010-01-06
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - styleguide
   - html
   - css

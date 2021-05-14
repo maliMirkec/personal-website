@@ -5,11 +5,10 @@ description: Little Bundle is a US-based company with a mission to maximize chil
 thumbnail: h_ahx9mm
 link: //littlebundle.com
 display: true
-date: 2020-01-10
+date: 2010-01-10
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - shopify
   - html
   - css

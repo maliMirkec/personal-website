@@ -5,11 +5,10 @@ description: Domino Data Lab is a data science platform that enables data scienc
 thumbnail: ddl_mypfrt
 link: //www.dominodatalab.com
 display: true
-date: 2020-01-02
+date: 2010-01-02
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - jekyll

@@ -4,7 +4,6 @@ title: Announcing Code Line Daily
 date: 2019-08-08 14:34:23
 tags:
   - blog
-categories:
   - css
   - cld
   - open source

@@ -4,7 +4,6 @@ title: Introducing SPRO
 date: 2019-02-28 10:22:07
 tags:
   - blog
-categories:
   - gulp
   - starter project
 thumbnail: Introducing_SPRO_iucjd8

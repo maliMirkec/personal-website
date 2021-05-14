@@ -3,7 +3,6 @@ layout: index
 title: How to lint inside Atom
 tags:
   - blog
-categories:
   - atom
   - linter
 date: 2016-10-02 07:14:39

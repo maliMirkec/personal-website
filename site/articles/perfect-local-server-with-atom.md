@@ -3,7 +3,6 @@ layout: index
 title: Perfect local server with Atom
 tags:
   - blog
-categories:
   - atom
   - server
 date: 2016-09-05 17:11:14

@@ -3,7 +3,6 @@ layout: index
 title: Angular dragtable
 tags:
   - blog
-categories:
   - angular
 date: 2017-02-03 12:41:54
 thumbnail: Angular_dragtable_ri1u0a

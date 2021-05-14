@@ -5,11 +5,10 @@ description: Code Line Daily is dedicated to highlighting awesome code single-li
 type: side-projects-item
 tags:
   - projects
-categories:
   - jamstack
 thumbnail: cld_jrsdct
 display: true
-date: 2020-01-02
+date: 2005-01-02
 sections:
   - type: hero-alpha
     src: cld_jrsdct

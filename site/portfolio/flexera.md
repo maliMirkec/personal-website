@@ -5,11 +5,10 @@ description: Flexera control and manage software and IT costs, to grow and prote
 thumbnail: f1_bn1woc
 link: //www.flexera.com
 display: true
-date: 2020-01-07
+date: 2010-01-07
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - styleguide
   - html
   - css

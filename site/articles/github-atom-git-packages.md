@@ -3,7 +3,6 @@ layout: index
 title: Github Atom Git packages
 tags:
   - blog
-categories:
   - atom
   - git
 date: 2016-08-22 20:21:37

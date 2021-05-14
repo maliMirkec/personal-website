@@ -18,10 +18,11 @@
                 <h3 class="fz-step-3 no-spacing"><a href="{{ card3.url }}">{{ card3.data.title }}</a></h3>
               </div>
             {% endif %}
-            {% if card3.data.categories %}
+            {% if card3.data.tags %}
               <div class="padding">
-                {% for category in card3.data.categories %}
-                  <span class="button button--small button--inverse">{{ category }}</span>
+                {% assign myTags = card3.data.tags | tagify %}
+                {% for tag in myTags %}
+                  <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
                 {% endfor %}
                 {% if cards3.cta %}
                   <div class="margin-top">

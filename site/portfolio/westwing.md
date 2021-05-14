@@ -5,11 +5,10 @@ description: Westwing is "curated shoppable magazine", inspiring customers every
 thumbnail: ww_jkpf8l
 link: //www.westwing.com
 display: true
-date: 2020-01-05
+date: 2010-01-05
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - hugo

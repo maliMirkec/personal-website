@@ -5,11 +5,10 @@ description: The Trase Yearbook presents the latest insights on the sustainabili
 thumbnail: yb_mgssbz
 link: //yearbook2018.trase.earth
 display: true
-date: 2020-01-11
+date: 2010-01-11
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

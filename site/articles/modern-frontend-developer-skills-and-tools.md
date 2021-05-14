@@ -4,7 +4,6 @@ title: The essential skill of a developer
 date: 2018-06-26 13:01:32
 tags:
   - blog
-categories:
   - freelance
   - remote work
   - frontend

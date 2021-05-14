@@ -5,11 +5,10 @@ description: Netki is a provider of tools to foster the adoption of blockchain t
 thumbnail: n_gcmcap
 link: //netki.com
 display: true
-date: 2020-01-15
+date: 2010-01-15
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

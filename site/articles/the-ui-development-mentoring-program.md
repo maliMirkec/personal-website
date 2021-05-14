@@ -4,7 +4,6 @@ title: The UI Development Mentoring Program
 date: 2020-01-20 06:03:47
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: The_UI_Development_Mentoring_Program_ggdme2

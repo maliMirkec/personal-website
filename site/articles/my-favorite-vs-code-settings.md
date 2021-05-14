@@ -4,7 +4,6 @@ title: 'My Favorite VS Code Settings'
 date: 2020-03-22 15:32:07
 tags:
   - blog
-categories:
   - vs code
   - editor
 thumbnail: My_Favorite_VS_Code_Settings_b2cqy6

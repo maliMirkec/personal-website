@@ -3,7 +3,6 @@ layout: index
 title: How to handle keybindings in Atom
 tags:
   - blog
-categories:
   - atom
   - keybindings
 date: 2016-10-15 16:41:54

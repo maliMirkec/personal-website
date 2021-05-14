@@ -5,11 +5,10 @@ description: Han Han Xue is a Designer and FX Technical Director from Montreal, 
 thumbnail: hhx_p45br6
 link: //www.hanhanxue.com
 display: true
-date: 2020-01-14
+date: 2010-01-14
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - middleman

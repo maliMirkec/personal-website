@@ -5,7 +5,6 @@ date: 2019-11-09 15:36:14
 tags:
   - blog
   - publications
-categories:
   - freelance
   - remote work
 publication: Remote Work Hub

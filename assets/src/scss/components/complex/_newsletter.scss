@@ -1,0 +1,34 @@
+.newsletter {
+  p {
+    @include mq($until: bp1) {
+      text-align: center;
+    }
+  }
+}
+
+.newsletter__input {
+  position: relative;
+
+  .input {
+    padding-right: 9rem;
+
+    @include mq($until: bp1) {
+      font-size: var(--step-0);
+      margin-bottom: .25em;
+    }
+  }
+
+  .button {
+    @include mq($until: bp1) {
+      width: calc(100% - .25em);
+    }
+
+    @include mq($from: bp1) {
+      font-size: var(--step-0);
+      position: absolute;
+      right: .5rem;
+      top: calc(50% - .2em);
+      transform: translateY(-50%);
+    }
+  }
+}

@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: hhx_p45br6
 logo: hhx_nntltz
+avatar: hhx_iu8agl
 order: 3
-date: 2020-01-03
+date: 2000-01-09
 position: Product Designer
 company: Lyft
 projects:
@@ -20,6 +21,7 @@ sections:
     alt: Logo of Han Han Xue.
     width: 60
     height: 60
+    avatar: hhx_iu8agl
     title: Han Han Xue
     desc: Product Designer at Lyft
     tag:
@@ -47,6 +49,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: I collaborated closely with Silvestar on a project. Throughout the span of the project, Silvestar...
 ---
 
 I collaborated closely with Silvestar on a project.

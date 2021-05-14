@@ -5,13 +5,12 @@ description: Making a website with Hugo is a course for learning how to use Hugo
 type: side-projects-item
 tags:
   - projects
-categories:
   - learning
   - course
   - tutorial
 thumbnail: hugo_qkfxp9
 display: true
-date: 2020-01-05
+date: 2005-01-05
 sections:
   - type: hero-alpha
     src: hugo_qkfxp9

@@ -5,11 +5,10 @@ description: Pinecone is a managed database that provides the infrastructure for
 thumbnail: pc_h99bkn
 link: //www.pinecone.io
 display: true
-date: 2020-01-01
+date: 2010-01-01
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - hugo

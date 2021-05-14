@@ -4,7 +4,6 @@ title: My Third Year Of Freelancing
 date: 2020-06-03 19:27:07
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: My_Third_Year_Of_Freelancing_ency0u

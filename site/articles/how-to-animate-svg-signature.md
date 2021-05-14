@@ -4,7 +4,6 @@ title: How to animate SVG signature
 date: 2020-01-06 09:13:35
 tags:
   - blog
-categories:
   - svg
   - css
   - javascript

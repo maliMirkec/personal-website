@@ -5,11 +5,10 @@ description: The goal of The UI Development Mentoring Program is to help everyon
 type: side-projects-item
 tags:
   - projects
-categories:
   - mentoring
 thumbnail: uidev_zn6018
 display: true
-date: 2020-01-03
+date: 2005-01-03
 sections:
   - type: hero-alpha
     src: uidev_zn6018
