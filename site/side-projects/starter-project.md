@@ -5,12 +5,11 @@ description: Starter Project is a Gulp-based boilterplate of the latest best pra
 type: side-projects-item
 tags:
   - projects
-categories:
   - starter
   - gulp
 thumbnail: spro_aej3o2
 display: true
-date: 2020-01-04
+date: 2005-01-04
 sections:
   - type: hero-alpha
     src: spro_aej3o2

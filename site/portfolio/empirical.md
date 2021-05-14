@@ -5,11 +5,10 @@ description: Empirical Wealth Management is a comprehensive wealth management te
 thumbnail: ewm_aikxon
 link: //www.empirical.net
 display: false
-date: 2020-01-17
+date: 2010-01-17
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

@@ -3,9 +3,10 @@
     <div class="padding">
       <div class="margin-bottom">
         <a class="button button--small" href="/articles/">/Blog</a>
-        {% if categories %}
-          {% for category in categories %}
-            <span class="button button--small button--inverse">{{ category }}</span>
+        {% if tags %}
+          {% assign myTags = tags | tagify %}
+          {% for tag in myTags %}
+            <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
           {% endfor %}
         {% endif %}
         {% if date %}

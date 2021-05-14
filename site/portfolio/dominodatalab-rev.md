@@ -5,11 +5,10 @@ description: Rev is a summit hosted by Domino Data Lab company that gathers data
 thumbnail: ddlr_rpy3cx
 link: //rev.dominodatalab.com
 display: true
-date: 2020-01-04
+date: 2010-01-04
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - jekyll
   - spg
   - ssg

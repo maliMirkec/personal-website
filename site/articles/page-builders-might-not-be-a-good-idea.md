@@ -4,7 +4,6 @@ title: Page builders might not be a good idea
 date: 2020-02-20 17:17:11
 tags:
   - blog
-categories:
   - wordpress
   - shopify
   - frontend

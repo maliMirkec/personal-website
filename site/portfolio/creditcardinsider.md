@@ -5,11 +5,10 @@ description: Credit Card Insider is a New York based consumer education company 
 thumbnail: cci_ohuha5
 link: //www.creditcardinsider.com
 display: true
-date: 2020-01-01
+date: 2010-01-01
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - styleguide
   - html

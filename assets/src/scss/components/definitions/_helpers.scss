@@ -40,13 +40,18 @@ img {
     margin-top: 0;
     margin-bottom: 0;
 
-    &:hover,
-    &:focus {
-      filter: drop-shadow(0 0 .25rem $color-alpha);
-    }
-
     &:not([src]) {
       display: none;
+    }
+  }
+
+  a & {
+    img {
+
+      &:hover,
+      &:focus {
+        filter: drop-shadow(0 0 .25rem $color-alpha);
+      }
     }
   }
 }
@@ -64,6 +69,14 @@ img {
   max-width: calc(var(--bp3) + 2rem);
 }
 
+.wrapper--beta {
+  max-width: calc(var(--bp1) + 2rem);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
 .brad {
   border-radius: var(--border-radius);
 }
@@ -78,6 +91,10 @@ img {
 
 .df {
   display: flex;
+}
+
+.aic {
+  align-items: center;
 }
 
 .oh {

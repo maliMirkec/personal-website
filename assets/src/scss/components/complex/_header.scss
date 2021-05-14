@@ -54,8 +54,17 @@ footer {
     nav {
       text-align: center;
 
+      img {
+        max-height: 45px;
+      }
+
       a {
         white-space: nowrap;
+
+        &:not([class]) {
+          padding-top: .35em;
+          padding-bottom: .35em;
+        }
       }
 
       > ul {

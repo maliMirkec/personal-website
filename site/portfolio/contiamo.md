@@ -5,11 +5,10 @@ description: Contiamo is a company that uses machine learning and AI to drive be
 thumbnail: c_ob598q
 link: //www.contiamo.com
 display: true
-date: 2020-01-12
+date: 2010-01-12
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - html

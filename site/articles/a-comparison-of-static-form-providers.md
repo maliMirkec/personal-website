@@ -5,7 +5,6 @@ date: 2019-09-26 22:08:09
 tags:
   - blog
   - publications
-categories:
   - serverless
   - spg
   - ssg

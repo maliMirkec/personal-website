@@ -5,11 +5,10 @@ description: Flexera Software can help you as a developer of software, SaaS apps
 thumbnail: f2_yibqhl
 link: //www.flexerasoftware.com
 display: true
-date: 2020-01-08
+date: 2010-01-08
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - styleguide
   - html
   - css

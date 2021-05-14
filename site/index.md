@@ -5,7 +5,7 @@ description: Silvestar is building modern, responsive and optimized websites sin
 type: home
 sections:
   - type: hero-alpha
-    title: I am Silvestar and have been building _modern_, _responsive_ and _optimized_ websites since 2012
+    title: I am Silvestar and I have been building _modern_, _responsive_ and _optimized_ websites since 2012
     desc: using **the best coding practices** to deliver **the best experience** for every user.
     cta:
       href: /contact/
@@ -38,7 +38,7 @@ sections:
   - type: cards-beta
     desc: Do you want to be my next client?
     cta:
-      title: See project ⇢
+      title: Read full testimonial ⇢
     cta2:
       href: /contact/
       title: Contact me ⇢
@@ -69,6 +69,20 @@ sections:
     filter: myPublications
     sorter: date
     limit: 5
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="newsletter wrapper wrapper--beta margin-top text-left" action="https://tinyletter.com/starbist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/starbist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <input type="hidden" value="1" name="embed"/>
+        <div class="margin-top">
+          <label for="tlemail">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="text" name="email" id="tlemail" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://tinyletter.com" target="_blank">Powered by TinyLetter</a></small></p>
+      </form>
   - type: hero-beta
     title: From the Blog
     desc: >-
@@ -84,11 +98,6 @@ sections:
     sorter: date
     exclude: publications
     limit: 5
-  - type: banner-beta
-    desc: Did you know that I write **UI Dev Newletter**?
-    cta:
-      href: https://mentor.silvestar.codes/reads#newsletter
-      title: Subscribe here ⇢
   - type: banner-beta
     desc: Did you know that I blog since **2016**?
     cta:

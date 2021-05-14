@@ -4,7 +4,6 @@ title: What I learned from my GitHub profile
 date: 2019-10-18 11:30:27
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: What_I_learned_from_my_GitHub_profile_t126k2

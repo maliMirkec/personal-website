@@ -3,7 +3,6 @@ layout: index
 title: Classily.js - Toggling classes more classily
 tags:
   - blog
-categories:
   - javascript
   - plugin
 thumbnail: Classily.js_-_Toggling_classes_more_classily_qarsp1

@@ -4,7 +4,6 @@ title: 'Using CSS Grid where appropriate (revisited)'
 date: 2018-09-05 11:01:11
 tags:
   - blog
-categories:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_revisited_kxxtlh

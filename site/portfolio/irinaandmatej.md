@@ -5,11 +5,10 @@ description: Irina and Matej are wedding and portrait photographers based in Cro
 thumbnail: im_xnyy09
 link: //irinaandmatej.com
 display: true
-date: 2020-01-16
+date: 2010-01-16
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

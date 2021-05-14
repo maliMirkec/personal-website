@@ -5,11 +5,10 @@ description: Atika Interijeri is a carpentry company specialized for creating al
 thumbnail: ai_u5b34y
 link: //atika-interijeri.hr
 display: false
-date: 2020-01-20
+date: 2010-01-20
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

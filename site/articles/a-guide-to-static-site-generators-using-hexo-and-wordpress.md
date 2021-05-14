@@ -4,7 +4,6 @@ title: From WordPress to Hexo
 tags:
   - blog
   - publications
-categories:
   - wordpress
   - hexo
   - spg

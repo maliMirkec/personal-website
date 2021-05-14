@@ -3,7 +3,6 @@ layout: index
 title: How to automate development with Atom
 tags:
   - blog
-categories:
   - atom
 date: 2016-11-30 20:33:06
 thumbnail: How_to_automate_development_with_Atom_kaktwk

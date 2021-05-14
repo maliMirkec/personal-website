@@ -3,7 +3,6 @@ layout: index
 title: How to make tabs using only CSS
 tags:
   - blog
-categories:
   - css
   - tabs
 date: 2016-10-07 19:01:40

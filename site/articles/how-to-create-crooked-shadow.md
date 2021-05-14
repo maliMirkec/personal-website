@@ -3,7 +3,6 @@ layout: index
 title: How to create crooked shadow
 tags:
   - blog
-categories:
   - css
   - box-shadow
 date: 2017-07-25 16:10:31

@@ -5,7 +5,6 @@ date: 2019-05-15 15:08:46
 tags:
   - blog
   - publications
-categories:
   - css
   - styleguide
 publication: LogRocket

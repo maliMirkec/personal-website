@@ -4,7 +4,6 @@ title: Building an Animated Sticky Header With Custom Offset
 date: 2018-12-07 18:08:55
 tags:
   - blog
-categories:
   - css
   - javascript
 thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5

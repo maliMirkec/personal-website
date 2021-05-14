@@ -5,11 +5,10 @@ description: Marcijuš Studio are wedding photographers who love spontaneity, cr
 thumbnail: mw_gtapmb
 link: //marcijus-studio.com
 display: false
-date: 2020-01-21
+date: 2010-01-21
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

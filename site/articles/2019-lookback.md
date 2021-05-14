@@ -4,7 +4,6 @@ title: 2019 Lookback
 date: 2019-12-20 16:10:42
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: 2019_Lookback_a69k2x

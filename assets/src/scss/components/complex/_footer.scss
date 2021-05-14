@@ -5,3 +5,15 @@
 // Weight: 1100
 //
 // Styleguide Footer
+
+
+@include mq($until: bp1) {
+  footer {
+    nav {
+      a {
+        padding-top: .35em;
+        padding-bottom: .35em;
+      }
+    }
+  }
+}

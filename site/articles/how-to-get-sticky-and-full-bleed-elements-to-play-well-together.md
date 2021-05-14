@@ -5,7 +5,6 @@ date: 2021-01-15 11:08:46
 tags:
   - blog
   - publications
-categories:
   - css
 publication: CSS Tricks
 canonical: https://css-tricks.com/how-to-get-sticky-and-full-bleed-elements-to-play-well-together/

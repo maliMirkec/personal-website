@@ -5,7 +5,6 @@ date: 2019-05-15 19:04:01
 tags:
   - blog
   - publications
-categories:
   - css
   - breadcrumb
   - ribbon

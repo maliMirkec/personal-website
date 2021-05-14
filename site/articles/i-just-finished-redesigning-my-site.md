@@ -4,7 +4,6 @@ title: I just finished redesigning my site
 date: 2020-03-02 07:49:34
 tags:
   - blog
-categories:
   - redesign
   - serverless
   - hexo

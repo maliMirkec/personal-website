@@ -4,7 +4,6 @@ title: If you are starting a new website, consider using Hugo
 date: 2018-10-24 12:23:45
 tags:
   - blog
-categories:
   - hugo
   - spg
   - ssg

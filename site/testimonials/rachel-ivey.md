@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: ww_hceizq
 logo: ww_pm2rwy
+avatar: ri_bekodu
 order: 7
-date: 2020-01-07
+date: 2000-01-07
 position: Product Manager
 company: Westwing Home & Living
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of Westwing.
     width: 219
     height: 30
+    avatar: ri_bekodu
     title: Rachel Ivey
     desc: Product Manager at Westwing Home & Living
     tag:
@@ -44,6 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: I recently worked with Silvestar on a webpage development project. He was extremely professional...
 ---
 
 I recently worked with Silvestar on a webpage development project. He was extremely professional, capable, responsive, and very pleasant to work with. He managed numerous design revisions and small detailed feedback (sometimes multiple times per day) with ease and with fast turnaround. He was also very honest and reasonable about the level of effort required to complete the project from the very first meeting. I would absolutely work with Silvestar again and wish him much success on his future endeavors!

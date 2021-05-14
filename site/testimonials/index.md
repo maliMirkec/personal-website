@@ -18,7 +18,7 @@ sections:
         title: Hire me ⇢
   - type: cards-beta
     cta:
-      title: See more ⇢
+      title: See full testimonial ⇢
     filter: testimonials
   - type: banner-alpha
     title: I am considering new projects for the 2021.

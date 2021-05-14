@@ -4,7 +4,6 @@ title: You want enabling CSS selectors, not disabling ones
 date: 2021-03-08 11:23:50
 tags:
   - blog
-categories:
   - css
 thumbnail: you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one_rjvsoa
 description: An enabling selector is what I call selectors that do a job without disabling the particular rule.

@@ -5,11 +5,10 @@ description: Calvert is a global leader in responsible investing for analyzing c
 thumbnail: ev-c_vgm0ws
 link: //www.calvert.com/invest-with-purpose.php
 display: true
-date: 2020-01-09
+date: 2010-01-09
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - html
   - css
   - javascript

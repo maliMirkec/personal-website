@@ -3,7 +3,6 @@ layout: index
 title: Recursively includible Angular directive
 tags:
   - blog
-categories:
   - angular
 date: 2017-01-07 21:54:57
 thumbnail: Recursively_includible_Angular_directive_polzka

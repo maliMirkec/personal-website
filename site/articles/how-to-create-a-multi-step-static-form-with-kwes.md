@@ -5,7 +5,6 @@ date: 2020-02-08 05:39:43
 tags:
   - blog
   - publications
-categories:
   - spg
   - ssg
   - kwes

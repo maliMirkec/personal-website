@@ -4,7 +4,6 @@ title: My second year of freelancing
 date: 2019-05-23 12:00:01
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: My_second_year_of_freelancing_bkeeo6

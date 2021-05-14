@@ -4,7 +4,6 @@ title: Fixing Google Analytics caching issue
 date: 2017-09-07 16:20:04
 tags:
   - blog
-categories:
   - PageSpeed
   - optimization
 thumbnail: Fixing_Google_Analytics_caching_issue_h0bhqx

@@ -5,11 +5,10 @@ description: TheGrio is the first video-centric news community site devoted to p
 thumbnail: tg_r1peey
 link: //thegrio.com
 display: true
-date: 2020-01-19
+date: 2010-01-19
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

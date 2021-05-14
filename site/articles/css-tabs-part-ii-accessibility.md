@@ -3,7 +3,6 @@ layout: index
 title: 'CSS tabs, part II: Accessibility'
 tags:
   - blog
-categories:
   - css
   - tabs
   - accessibility

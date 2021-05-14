@@ -5,7 +5,6 @@ date: 2019-08-05 11:12:34
 tags:
   - blog
   - publications
-categories:
   - spg
   - ssg
   - netlify

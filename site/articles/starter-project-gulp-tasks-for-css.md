@@ -4,7 +4,6 @@ title: Starter Project - Gulp tasks for CSS
 date: 2018-04-22 11:28:37
 tags:
   - blog
-categories:
   - gulp
   - css
   - starter project

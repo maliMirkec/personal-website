@@ -4,7 +4,6 @@ title: My favorite extensions for web development
 date: 2019-09-11 14:23:33
 tags:
   - blog
-categories:
   - productivity
   - devtools
 thumbnail: My_favorite_extensions_for_web_development_erf5gg

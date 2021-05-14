@@ -5,12 +5,11 @@ description: CSS Auditors is a project which mission is to put the CSS under the
 type: side-projects-item
 tags:
   - projects
-categories:
   - css
   - audit
 thumbnail: cssa_jwbova
 display: true
-date: 2020-01-01
+date: 2005-01-01
 sections:
   - type: hero-alpha
     src: cssa_jwbova

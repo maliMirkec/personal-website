@@ -4,7 +4,6 @@ title: 2018 Lookback
 date: 2019-01-05 16:06:38
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: 2018_Lookback_nrqris

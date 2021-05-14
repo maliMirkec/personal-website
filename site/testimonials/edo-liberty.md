@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: pc_h99bkn
 logo: pinecone-logo_ybycgg
+avatar: el2_ptyk3k
 order: 4
-date: 2020-01-04
+date: 2000-01-04
 position: Founder, CEO, and Scientist
 company: Pinecone
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of Pinecone.
     width: 128
     height: 40
+    avatar: el2_ptyk3k
     title: Edo liberty
     desc: Founder, CEO, Scientist, at Pinecone.
     tag:
@@ -44,6 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 
 Super fast and responsive, great eye for esthetics, quality web development. What else can you ask for?

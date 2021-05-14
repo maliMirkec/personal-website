@@ -3,7 +3,6 @@ layout: index
 title: _bem - WordPress theme with BEM methodology
 tags:
   - blog
-categories:
   - WordPress
   - BEM
 date: 2017-05-27 07:39:05

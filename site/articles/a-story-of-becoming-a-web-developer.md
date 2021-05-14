@@ -4,7 +4,6 @@ title: A Story of Becoming a Web Developer
 date: 2020-04-20 17:27:03
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: A_Story_of_Becoming_a_Web_Developer_w5y1ca

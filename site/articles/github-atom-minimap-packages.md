@@ -3,7 +3,6 @@ layout: index
 title: Github Atom minimap packages
 tags:
   - blog
-categories:
   - atom
   - minimap
 date: 2016-08-30 18:00:19

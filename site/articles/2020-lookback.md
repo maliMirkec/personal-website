@@ -4,7 +4,6 @@ title: 2020 Lookback
 date: 2021-01-18 13:10:42
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: 2020_Lookback_k4tip6

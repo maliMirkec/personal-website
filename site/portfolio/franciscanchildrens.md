@@ -5,11 +5,10 @@ description: Franciscan Children’s is an integral part of Boston’s pediatric
 thumbnail: fc_c8rxa2
 link: //franciscanchildrens.org
 display: false
-date: 2020-01-18
+date: 2010-01-18
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css

@@ -1,20 +1,21 @@
 <section class="hero margin-top-alpha margin-bottom-alpha">
   <div class="wrapper text-center">
     <div class="padding">
-      {% if hero1.tag or categories %}
+      {% if hero1.tag or tags %}
         <div class="margin-bottom">
           {% if hero1.tag %}
             <a class="button button--small button--inverse" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
           {% endif %}
-          {% if categories %}
-            {% for category in categories %}
-              <span class="button button--small button--inverse">{{ category }}</span>
+          {% if tags %}
+            {% assign myTags = tags | tagify %}
+            {% for tag in myTags %}
+              <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
             {% endfor %}
           {% endif %}
         </div>
       {% endif %}
       {% if hero1.src %}
-        <div>
+        <div class="margin-top margin-bottom">
           {% if hero1.width %}
             {% assign hwidth = hero1.width %}
           {% else %}
@@ -33,6 +34,11 @@
       {% endif %}
       {% if hero1.desc %}
         <div class="fz-step-1 copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc | markdownify }}</div>
+      {% endif %}
+      {% if hero1.avatar %}
+        <div class="margin-top margin-bottom">
+          {% cldnry hero1.avatar hero1.title 60 60 "margin-auto circle" %}
+        </div>
       {% endif %}
       {% if hero1.subtitle %}
         <h2 class="fz-step-2 margin-top margin-bottom{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
