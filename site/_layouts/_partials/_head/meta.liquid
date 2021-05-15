@@ -16,3 +16,6 @@
   <meta name="description" content="{{ description | escape }}">
 {% endif %}
 <title>{{ title }} | {{ site.title }}</title>
+{% if noindex %}
+  <meta name="robots" content="noindex">
+{% endif %}

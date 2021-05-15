@@ -15,6 +15,11 @@ main {
   display: block;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -26,10 +31,6 @@ hr {
 
 a {
   background-color: transparent;
-}
-
-strong {
-  font-weight: bolder;
 }
 
 img {
@@ -156,10 +157,6 @@ body {
   --bg-color: var(--color-light);
 }
 
-.bg-lightish {
-  --bg-color: var(--color-lightish);
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -201,14 +198,6 @@ img {
   max-width: calc(var(--bp) + 2rem);
 }
 
-.wrapper--alpha {
-  max-width: calc(var(--bp3) + 2rem);
-}
-
-.circle {
-  border-radius: 50%;
-}
-
 a,
 .button,
 .button:not(.df):not(.db),
@@ -218,14 +207,6 @@ a,
 
 .db {
   display: block;
-}
-
-.df {
-  display: flex;
-}
-
-.aic {
-  align-items: center;
 }
 
 hr[class*="hr"] {
@@ -319,39 +300,35 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 
-h2 {
+h1,
+h3 {
   font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 600;
 }
 
-h2 {
-  font-size: var(--step-5);
+h1 {
+  font-size: var(--step-6);
+}
+
+h3 {
+  font-size: var(--step-4);
 }
 
 [class*="fz-step-"] {
   font-size: var(--font-size);
 }
 
-[class*="fz-step--1"] {
-  --font-size: var(--step--1);
+[class*="fz-step-1"] {
+  --font-size: var(--step-1);
 }
 
-[class*="fz-step-0"] {
-  --font-size: var(--step-0);
+[class*="fz-step-3"] {
+  --font-size: var(--step-3);
 }
 
 [class*="fz-step-5"] {
   --font-size: var(--step-5);
-}
-
-blockquote {
-  padding: 0;
-  margin: 0;
-}
-
-.fs-italic {
-  font-style: italic;
 }
 
 .button {
@@ -410,21 +387,21 @@ blockquote {
   margin-right: var(--space);
 }
 
-.margin-auto {
-  margin: auto;
-}
-
 .no-spacing {
   margin: 0;
   padding: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
 }
 
 .no-margin-top {
   margin-top: 0;
 }
 
-.no-margin {
-  margin: 0;
+.no-padding-top {
+  padding-top: 0;
 }
 
 .inner:not([id*="kss"]) {
@@ -525,6 +502,16 @@ ul ul {
   border: .45em solid transparent;
 }
 
+.button--inverse {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.button--outline {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px currentColor inset;
+}
+
 .button--toggle {
   position: fixed;
   right: 1rem;
@@ -621,28 +608,6 @@ header nav > ul ul {
 
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
-  }
-}
-
-.card blockquote {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.card blockquote footer {
-  margin-top: auto;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: var(--cols);
-  grid-gap: var(--gap);
-}
-
-@media (min-width: 37.5em) {
-  .grid {
-    --cols: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 

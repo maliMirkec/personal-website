@@ -15,6 +15,11 @@ main {
   display: block;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -26,10 +31,6 @@ hr {
 
 a {
   background-color: transparent;
-}
-
-strong {
-  font-weight: bolder;
 }
 
 img {
@@ -156,10 +157,6 @@ body {
   --bg-color: var(--color-light);
 }
 
-.bg-lightish {
-  --bg-color: var(--color-lightish);
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -201,14 +198,6 @@ img {
   max-width: calc(var(--bp) + 2rem);
 }
 
-.wrapper--alpha {
-  max-width: calc(var(--bp3) + 2rem);
-}
-
-.circle {
-  border-radius: 50%;
-}
-
 a,
 .button,
 .button:not(.df):not(.db),
@@ -220,12 +209,8 @@ a,
   display: block;
 }
 
-.df {
-  display: flex;
-}
-
-.aic {
-  align-items: center;
+.dib {
+  display: inline-block;
 }
 
 hr[class*="hr"] {
@@ -319,14 +304,14 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 
-h2 {
+h1 {
   font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 600;
 }
 
-h2 {
-  font-size: var(--step-5);
+h1 {
+  font-size: var(--step-6);
 }
 
 [class*="fz-step-"] {
@@ -337,21 +322,12 @@ h2 {
   --font-size: var(--step--1);
 }
 
-[class*="fz-step-0"] {
-  --font-size: var(--step-0);
+[class*="fz-step-1"] {
+  --font-size: var(--step-1);
 }
 
 [class*="fz-step-5"] {
   --font-size: var(--step-5);
-}
-
-blockquote {
-  padding: 0;
-  margin: 0;
-}
-
-.fs-italic {
-  font-style: italic;
 }
 
 .button {
@@ -421,10 +397,6 @@ blockquote {
 
 .no-margin-top {
   margin-top: 0;
-}
-
-.no-margin {
-  margin: 0;
 }
 
 .inner:not([id*="kss"]) {
@@ -525,6 +497,11 @@ ul ul {
   border: .45em solid transparent;
 }
 
+.button--inverse {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
 .button--toggle {
   position: fixed;
   right: 1rem;
@@ -548,7 +525,8 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
-header nav {
+header nav,
+footer nav {
   position: relative;
 }
 
@@ -578,7 +556,8 @@ header nav .skip-link:not(:focus) {
   z-index: -1;
 }
 
-header nav > ul {
+header nav > ul,
+footer nav > ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,27 +601,16 @@ header nav > ul ul {
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
   }
+
+  footer nav ul {
+    flex-wrap: wrap;
+  }
 }
 
-.card blockquote {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.card blockquote footer {
-  margin-top: auto;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: var(--cols);
-  grid-gap: var(--gap);
-}
-
-@media (min-width: 37.5em) {
-  .grid {
-    --cols: repeat(auto-fit, minmax(400px, 1fr));
+@media (max-width: 37.49em) {
+  footer nav a {
+    padding-top: .35em;
+    padding-bottom: .35em;
   }
 }
 

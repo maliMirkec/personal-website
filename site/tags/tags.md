@@ -11,4 +11,5 @@ pagination:
   addAllPagesToCollections: true
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
+type: tags-item
 ---

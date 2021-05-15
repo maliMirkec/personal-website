@@ -21,7 +21,7 @@ sections:
       title: See full testimonial ⇢
     filter: testimonials
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

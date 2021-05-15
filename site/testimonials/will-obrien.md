@@ -9,7 +9,7 @@ thumbnail: cs_zg7xpc
 logo: cs_zg7xpc
 order: 5
 avatar: wo_s4ocq4
-date: 2000-01-01
+date: 2000-01-07
 position: DevOps Consultant
 company: CodeScan
 sections:
@@ -41,7 +41,7 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
