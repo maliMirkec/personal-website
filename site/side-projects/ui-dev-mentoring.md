@@ -5,11 +5,10 @@ description: The goal of The UI Development Mentoring Program is to help everyon
 type: side-projects-item
 tags:
   - projects
-categories:
   - mentoring
 thumbnail: uidev_zn6018
 display: true
-date: 2020-01-03
+date: 2005-01-03
 sections:
   - type: hero-alpha
     src: uidev_zn6018
@@ -37,7 +36,7 @@ sections:
     filter: projects
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

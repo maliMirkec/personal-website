@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: yb_urvwkg
 logo: yt_iyy37j
+avatar: ppt_bvwjey
 order: 8
-date: 2020-01-08
+date: 2000-01-08
 position: Project Manager
 company: Vizzuality
 projects:
@@ -20,6 +21,7 @@ sections:
     alt: Logo of Vizzuality.
     width: 212
     height: 40
+    avatar: ppt_bvwjey
     title: Pablo Pareja Tobes
     desc: Project Manager at Vizzuality
     tag:
@@ -42,11 +44,12 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed...
 ---
 
 Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise.

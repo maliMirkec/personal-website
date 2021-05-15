@@ -36,7 +36,7 @@ footer {
       }
     }
 
-    > ul {
+    >ul {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,13 +49,39 @@ footer {
   }
 }
 
+@include mq($from: bp1) {
+  .toggle {
+    &:not(.df):not(.db) {
+      display: none;
+    }
+  }
+}
+
 @include mq($until: bp1) {
+  .toggle {
+    &:not(.df):not(.db) {
+      position: absolute;
+      top: var(--space);
+      right: var(--space);
+      z-index: 1;
+    }
+  }
+
   header {
     nav {
       text-align: center;
 
+      img {
+        max-height: 55px;
+      }
+
       a {
         white-space: nowrap;
+
+        &:not([class]) {
+          padding-top: .35em;
+          padding-bottom: .35em;
+        }
       }
 
       > ul {
@@ -75,13 +101,33 @@ footer {
           }
         }
       }
-    }
-  }
 
-  footer {
-    nav {
-      ul {
-        flex-wrap: wrap;
+      &.active {
+        .toggle {
+          span {
+            &:first-child {
+              display: none;
+            }
+          }
+        }
+      }
+
+      &:not(.active) {
+        .toggle {
+          span {
+            &:last-child {
+              display: none;
+            }
+          }
+        }
+
+        >  ul {
+          >  li {
+            &:not(:first-child) {
+              display: none;
+            }
+          }
+        }
       }
     }
   }

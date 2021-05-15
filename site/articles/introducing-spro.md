@@ -4,7 +4,6 @@ title: Introducing SPRO
 date: 2019-02-28 10:22:07
 tags:
   - blog
-categories:
   - gulp
   - starter project
 thumbnail: Introducing_SPRO_iucjd8
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

@@ -3,7 +3,6 @@ layout: index
 title: How to lint inside Atom
 tags:
   - blog
-categories:
   - atom
   - linter
 date: 2016-10-02 07:14:39
@@ -12,7 +11,7 @@ description: Lint, linter, linting? What is it and why you should use it? I'll t
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

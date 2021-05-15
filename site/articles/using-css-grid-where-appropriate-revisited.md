@@ -4,7 +4,6 @@ title: 'Using CSS Grid where appropriate (revisited)'
 date: 2018-09-05 11:01:11
 tags:
   - blog
-categories:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_revisited_kxxtlh
@@ -12,7 +11,7 @@ description: This solution is a follow-up post on my last year's article "Using 
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

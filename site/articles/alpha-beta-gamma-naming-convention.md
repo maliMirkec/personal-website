@@ -4,7 +4,6 @@ title: 'Alpha, Beta, Gamma naming convention'
 date: 2018-11-06 21:39:00
 tags:
   - blog
-categories:
   - css
   - BEM
 thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m
@@ -12,7 +11,7 @@ description: A few months ago I started using Alpha, Beta, Gamma naming conventi
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

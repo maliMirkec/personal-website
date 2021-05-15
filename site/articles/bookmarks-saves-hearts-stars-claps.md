@@ -4,14 +4,13 @@ title: 'Bookmarks, Saves, Hearts, Stars, Claps'
 date: 2019-04-11 18:10:34
 tags:
   - blog
-categories:
   - productivity
 thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_hnn9hc
 description: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

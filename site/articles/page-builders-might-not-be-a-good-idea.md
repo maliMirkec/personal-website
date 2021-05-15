@@ -4,7 +4,6 @@ title: Page builders might not be a good idea
 date: 2020-02-20 17:17:11
 tags:
   - blog
-categories:
   - wordpress
   - shopify
   - frontend
@@ -16,7 +15,7 @@ description: "Here’s what I think: page builder might not be a good idea. Read
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

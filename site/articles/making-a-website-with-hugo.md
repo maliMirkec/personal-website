@@ -4,7 +4,6 @@ title: If you are starting a new website, consider using Hugo
 date: 2018-10-24 12:23:45
 tags:
   - blog
-categories:
   - hugo
   - spg
   - ssg
@@ -16,7 +15,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

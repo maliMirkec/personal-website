@@ -3,7 +3,6 @@ layout: index
 title: "First steps with Github Atom"
 tags:
   - blog
-categories:
   - atom
 date: 2016-08-19 16:14:04
 thumbnail: First_steps_with_Github_Atom_tessgb
@@ -11,7 +10,7 @@ description: This is the first article in a series about my perfect Atom setup. 
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

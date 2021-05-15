@@ -4,7 +4,6 @@ title: My favorite extensions for web development
 date: 2019-09-11 14:23:33
 tags:
   - blog
-categories:
   - productivity
   - devtools
 thumbnail: My_favorite_extensions_for_web_development_erf5gg
@@ -12,7 +11,7 @@ description: "A web browser is one of the essential tools for web development. B
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

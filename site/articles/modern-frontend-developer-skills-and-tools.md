@@ -4,7 +4,6 @@ title: The essential skill of a developer
 date: 2018-06-26 13:01:32
 tags:
   - blog
-categories:
   - freelance
   - remote work
   - frontend
@@ -13,7 +12,7 @@ description: Being a developer requires specific skills and tools. I realized wh
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

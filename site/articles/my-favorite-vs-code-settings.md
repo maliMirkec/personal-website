@@ -4,7 +4,6 @@ title: 'My Favorite VS Code Settings'
 date: 2020-03-22 15:32:07
 tags:
   - blog
-categories:
   - vs code
   - editor
 thumbnail: My_Favorite_VS_Code_Settings_b2cqy6
@@ -12,7 +11,7 @@ description: "These are my favorite VS Code settings: Breadcrumbs, Minimap, Savi
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

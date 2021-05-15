@@ -4,7 +4,6 @@ title: Tips On Learning Web Development
 date: 2020-05-20 12:11:18
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: Tips_On_Learning_Web_Development_sb1pfy
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

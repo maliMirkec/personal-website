@@ -3,7 +3,6 @@ layout: index
 title: _bem - WordPress theme with BEM methodology
 tags:
   - blog
-categories:
   - WordPress
   - BEM
 date: 2017-05-27 07:39:05
@@ -12,7 +11,7 @@ description: This is a post about building custom WordPress theme with BEM nam
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

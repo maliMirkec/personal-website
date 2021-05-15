@@ -4,7 +4,6 @@ title: 2019 Lookback
 date: 2019-12-20 16:10:42
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: 2019_Lookback_a69k2x
@@ -12,7 +11,7 @@ description: Last year I wrote my first yearly look back, and now it is time for
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

@@ -4,7 +4,6 @@ title: Building an Animated Sticky Header With Custom Offset
 date: 2018-12-07 18:08:55
 tags:
   - blog
-categories:
   - css
   - javascript
 thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5
@@ -12,7 +11,7 @@ description: "With the appearance of the position: sticky property, we could cre
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

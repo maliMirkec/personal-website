@@ -4,7 +4,6 @@ title: My first year of freelancing
 date: 2018-05-21 13:53:01
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: My_first_year_of_freelancing_xufkud
@@ -12,7 +11,7 @@ description: About a year ago, I started with a freelance career. This experienc
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

@@ -38,7 +38,7 @@ sections:
   - type: cards-beta
     desc: Do you want to be my next client?
     cta:
-      title: See project ⇢
+      title: Read full testimonial ⇢
     cta2:
       href: /contact/
       title: Contact me ⇢
@@ -69,6 +69,20 @@ sections:
     filter: myPublications
     sorter: date
     limit: 5
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="newsletter wrapper wrapper--beta margin-top text-left" action="https://tinyletter.com/starbist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/starbist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <input type="hidden" value="1" name="embed"/>
+        <div class="margin-top">
+          <label for="tlemail">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="text" name="email" id="tlemail" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://tinyletter.com" target="_blank" rel="noreferrer">Powered by TinyLetter</a></small></p>
+      </form>
   - type: hero-beta
     title: From the Blog
     desc: >-
@@ -84,11 +98,6 @@ sections:
     sorter: date
     exclude: publications
     limit: 5
-  - type: banner-beta
-    desc: Did you know that I write **UI Dev Newletter**?
-    cta:
-      href: https://mentor.silvestar.codes/reads#newsletter
-      title: Subscribe here ⇢
   - type: banner-beta
     desc: Did you know that I blog since **2016**?
     cta:
@@ -113,7 +122,7 @@ sections:
       href: https://css-auditors.com
       title: Learn more ⇢
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

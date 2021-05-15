@@ -10,7 +10,12 @@
 {% if tags and tags[0] == 'blog' and site.author %}
   <meta name="author" content="{{ site.author }}">
 {% endif %}
-{% if description %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}">
+{% elsif description %}
   <meta name="description" content="{{ description | escape }}">
 {% endif %}
-<title>{{ title }}</title>
+<title>{{ title }} | {{ site.title }}</title>
+{% if noindex %}
+  <meta name="robots" content="noindex">
+{% endif %}

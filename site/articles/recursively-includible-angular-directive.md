@@ -3,7 +3,6 @@ layout: index
 title: Recursively includible Angular directive
 tags:
   - blog
-categories:
   - angular
 date: 2017-01-07 21:54:57
 thumbnail: Recursively_includible_Angular_directive_polzka
@@ -11,7 +10,7 @@ description: I've been working on a complex Angular CRUD-ish project recently an
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

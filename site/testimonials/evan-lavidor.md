@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: b_csao4p
 logo: bm_qlnuvi
+avatar: el_keb12t
 order: 2
-date: 2020-01-02
+date: 2000-01-02
 position: Partner & Executive Director
 company: BEAM Interactive
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of BEAM Interactive.
     width: 258
     height: 40
+    avatar: el_keb12t
     title: Evan Lavidor
     desc: Partner & Executive Director at BEAM Interactive
     tag:
@@ -47,11 +49,12 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 
 We've worked with Silvestar on several projects, and he's been a pleasure to work with on all of them. Recently, he handled primary front end development for two large web sites that were launched on Adobe Experience Manager. He's also worked on the front end development of a large WordPress project as well as some smaller campaign landing page and microsite work.

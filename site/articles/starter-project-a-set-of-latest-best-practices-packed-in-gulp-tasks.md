@@ -4,7 +4,6 @@ title: Starter Project - A set of the latest best practices packed in Gulp tasks
 date: 2018-03-23 11:20:00
 tags:
   - blog
-categories:
   - gulp
   - starter project
 thumbnail: Starter_Project_-_A_set_of_the_latest_best_practices_packed_in_Gulp_tasks_ovmzob
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

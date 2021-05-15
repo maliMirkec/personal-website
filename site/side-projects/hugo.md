@@ -5,13 +5,12 @@ description: Making a website with Hugo is a course for learning how to use Hugo
 type: side-projects-item
 tags:
   - projects
-categories:
   - learning
   - course
   - tutorial
 thumbnail: hugo_qkfxp9
 display: true
-date: 2020-01-05
+date: 2005-01-05
 sections:
   - type: hero-alpha
     src: hugo_qkfxp9
@@ -36,7 +35,7 @@ sections:
     filter: projects
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

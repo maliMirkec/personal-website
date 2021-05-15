@@ -4,7 +4,6 @@ title: Just My Routine As A Remote Worker
 date: 2019-02-14 18:32:42
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: Just_My_Routine_As_A_Remote_Worker_ggjr05
@@ -12,7 +11,7 @@ description: "As a remote worker, having a routine and self-discipline is critic
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

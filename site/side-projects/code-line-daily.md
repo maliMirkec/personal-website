@@ -5,11 +5,10 @@ description: Code Line Daily is dedicated to highlighting awesome code single-li
 type: side-projects-item
 tags:
   - projects
-categories:
   - jamstack
 thumbnail: cld_jrsdct
 display: true
-date: 2020-01-02
+date: 2005-01-02
 sections:
   - type: hero-alpha
     src: cld_jrsdct
@@ -37,7 +36,7 @@ sections:
     filter: projects
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

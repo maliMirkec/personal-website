@@ -5,7 +5,6 @@ date: 2019-09-26 22:08:09
 tags:
   - blog
   - publications
-categories:
   - serverless
   - spg
   - ssg
@@ -16,7 +15,7 @@ description: Static Form Providers do all tasks like validating, storing, sendin
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

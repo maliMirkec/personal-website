@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
+avatar: gk_i7hj6p
 order: 4
-date: 2020-01-04
+date: 2000-01-04
 position: Growth Consultant
 company: Domino Data Lab
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of Domino Data Lab.
     width: 128
     height: 40
+    avatar: gk_i7hj6p
     title: Grigoriy Kogan
     desc: Growth Consultant at Domino Data Lab
     tag:
@@ -45,11 +47,12 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
 ---
 
 When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout.

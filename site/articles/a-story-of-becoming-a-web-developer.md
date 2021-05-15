@@ -4,7 +4,6 @@ title: A Story of Becoming a Web Developer
 date: 2020-04-20 17:27:03
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: A_Story_of_Becoming_a_Web_Developer_w5y1ca
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

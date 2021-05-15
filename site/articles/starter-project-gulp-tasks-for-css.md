@@ -4,7 +4,6 @@ title: Starter Project - Gulp tasks for CSS
 date: 2018-04-22 11:28:37
 tags:
   - blog
-categories:
   - gulp
   - css
   - starter project
@@ -16,7 +15,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

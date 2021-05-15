@@ -5,11 +5,10 @@ description: Domino Data Lab is a data science platform that enables data scienc
 thumbnail: ddl_mypfrt
 link: //www.dominodatalab.com
 display: true
-date: 2020-01-02
+date: 2010-01-02
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - spg
   - ssg
   - jekyll
@@ -41,6 +40,15 @@ sections:
       href: //www.dominodatalab.com
       title: Go to site ⇢
   - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    cta:
+      title: Read full testimonial ⇢
+    filter: testimonials
+    limit: 6
+  - type: hero-beta
     title: From the Portfolio
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
@@ -51,7 +59,7 @@ sections:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

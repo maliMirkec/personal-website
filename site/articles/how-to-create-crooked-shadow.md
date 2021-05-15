@@ -3,7 +3,6 @@ layout: index
 title: How to create crooked shadow
 tags:
   - blog
-categories:
   - css
   - box-shadow
 date: 2017-07-25 16:10:31
@@ -12,7 +11,7 @@ description: Recently I was working on a very interesting and challenging projec
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

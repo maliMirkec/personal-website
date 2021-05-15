@@ -5,11 +5,10 @@ description: Atika Interijeri is a carpentry company specialized for creating al
 thumbnail: ai_u5b34y
 link: //atika-interijeri.hr
 display: false
-date: 2020-01-20
+date: 2010-01-20
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - wordpress
   - html
   - css
@@ -40,6 +39,15 @@ sections:
       href: //atika-interijeri.hr
       title: Go to site ⇢
   - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    cta:
+      title: Read full testimonial ⇢
+    filter: testimonials
+    limit: 6
+  - type: hero-beta
     title: From the Portfolio
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
@@ -50,7 +58,7 @@ sections:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

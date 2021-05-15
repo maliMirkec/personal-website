@@ -4,7 +4,6 @@ title: The UI Development Mentoring Program
 date: 2020-01-20 06:03:47
 tags:
   - blog
-categories:
   - ui
   - mentoring
 thumbnail: The_UI_Development_Mentoring_Program_ggdme2
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

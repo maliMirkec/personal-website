@@ -5,12 +5,11 @@ description: Starter Project is a Gulp-based boilterplate of the latest best pra
 type: side-projects-item
 tags:
   - projects
-categories:
   - starter
   - gulp
 thumbnail: spro_aej3o2
 display: true
-date: 2020-01-04
+date: 2005-01-04
 sections:
   - type: hero-alpha
     src: spro_aej3o2
@@ -38,7 +37,7 @@ sections:
     filter: projects
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

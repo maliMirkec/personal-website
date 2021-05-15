@@ -4,7 +4,6 @@ title: 'The first year of my side project: Code Line Daily'
 date: 2020-07-21 09:33:35
 tags:
   - blog
-categories:
   - cld
   - open source
 thumbnail: The_first_year_of_my_side_project_Code_Line_Daily_iwubhe
@@ -15,7 +14,7 @@ project:
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

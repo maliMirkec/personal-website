@@ -5,11 +5,10 @@ description: Little Bundle is a US-based company with a mission to maximize chil
 thumbnail: h_ahx9mm
 link: //littlebundle.com
 display: true
-date: 2020-01-10
+date: 2010-01-10
 type: portfolio-item
 tags:
   - portfolio
-categories:
   - shopify
   - html
   - css
@@ -41,6 +40,15 @@ sections:
     cta:
       href: //littlebundle.com
       title: Go to site ⇢
+  - type: hero-beta
+    title: From Testimonials
+    desc: >-
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+  - type: cards-beta
+    cta:
+      title: Read full testimonial ⇢
+    filter: testimonials
+    limit: 6
 sections2:
   - type: hero-beta
     title: From the Portfolio
@@ -53,7 +61,7 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

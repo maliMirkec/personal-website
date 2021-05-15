@@ -2,6 +2,10 @@
   <header>
     <nav>
       <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <button class="toggle button button--small" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');">
+        <span>Menu</span>
+        <span>Close</span>
+      </button>
       <ul class="list-style-none no-spacing">
         {% if header.logo %}
           <li class="margin-top">

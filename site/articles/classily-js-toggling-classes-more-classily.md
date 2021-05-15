@@ -3,7 +3,6 @@ layout: index
 title: Classily.js - Toggling classes more classily
 tags:
   - blog
-categories:
   - javascript
   - plugin
 thumbnail: Classily.js_-_Toggling_classes_more_classily_qarsp1
@@ -12,7 +11,7 @@ description: I created a JavaScript plugin for toggling classes more classily, a
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

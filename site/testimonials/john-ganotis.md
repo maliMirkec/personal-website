@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: cci_ohuha5
 logo: cci_xk4gjk
+avatar: jg_lqw7xd
 order: 1
-date: 2020-01-01
+date: 2000-01-02
 position: Founder
 company: Credit Card Insider
 sections:
@@ -17,6 +18,7 @@ sections:
     alt: Logo of Credit Card Insider.
     width: 159
     height: 40
+    avatar: jg_lqw7xd
     title: John Ganotis
     desc: Founder at Credit Card Insider
     tag:
@@ -39,11 +41,12 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 
 Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers.

@@ -4,7 +4,6 @@ title: I just finished redesigning my site
 date: 2020-03-02 07:49:34
 tags:
   - blog
-categories:
   - redesign
   - serverless
   - hexo
@@ -13,7 +12,7 @@ description: "During the last week, I have been working on redesigning my site. 
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

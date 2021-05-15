@@ -3,7 +3,6 @@ layout: index
 title: Github Atom Git packages
 tags:
   - blog
-categories:
   - atom
   - git
 date: 2016-08-22 20:21:37
@@ -12,7 +11,7 @@ description: Developers often rely on a version control system and one of the m
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

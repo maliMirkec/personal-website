@@ -7,8 +7,9 @@ tags:
 type: testimonials-item
 thumbnail: hhx_p45br6
 logo: hhx_nntltz
+avatar: hhx_iu8agl
 order: 3
-date: 2020-01-03
+date: 2000-01-09
 position: Product Designer
 company: Lyft
 projects:
@@ -20,6 +21,7 @@ sections:
     alt: Logo of Han Han Xue.
     width: 60
     height: 60
+    avatar: hhx_iu8agl
     title: Han Han Xue
     desc: Product Designer at Lyft
     tag:
@@ -42,11 +44,12 @@ sections2:
     filter: testimonials
     exclude: true
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
       title: Hire me ⇢
+excerpt: I collaborated closely with Silvestar on a project. Throughout the span of the project, Silvestar...
 ---
 
 I collaborated closely with Silvestar on a project.

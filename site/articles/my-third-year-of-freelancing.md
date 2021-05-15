@@ -4,7 +4,6 @@ title: My Third Year Of Freelancing
 date: 2020-06-03 19:27:07
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: My_Third_Year_Of_Freelancing_ency0u
@@ -12,7 +11,7 @@ description: The third year of my freelancing career has been successful thanks 
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

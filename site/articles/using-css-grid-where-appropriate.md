@@ -3,7 +3,6 @@ layout: index
 title: Using CSS Grid where appropriate
 tags:
   - blog
-categories:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_avifto
@@ -12,7 +11,7 @@ description: Recently I've redesigned my blog, as some of you could notice. Duri
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/

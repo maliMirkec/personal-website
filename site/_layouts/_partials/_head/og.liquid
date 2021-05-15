@@ -1,9 +1,11 @@
 <meta property="og:type" content="website">
 {% if title %}
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ title }} | {{ site.title }}">
 {% endif %}
 {% if page.description %}
-  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+{% elsif description %}
+  <meta property="og:description" content="{{ description | escape }}">
 {% endif %}
 {% if page.url %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -24,10 +26,12 @@
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
   {% if title %}
-    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:title" content="{{ title }} | {{ site.title }}">
   {% endif %}
   {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+  {% elsif description %}
+    <meta name="twitter:description" content="{{ description | escape }}">
   {% endif %}
   {% if thumbnail %}
     <meta property="twitter:image" content="{{ thumbnail | cldnrysrc }}">
@@ -51,7 +55,7 @@
         "@type": "WebSite",
         "@id": "{{ page.url }}"
       },
-      "headline": "{{ title }}",
+      "headline": "{{ title }} | {{ site.title }}",
       "image": [
         "{{ thumbnail | cldnrysrc }}"
       ],
@@ -69,7 +73,11 @@
           "url": "https://www.cita.hr/favicon/android-chrome-192x192.png"
         }
       },
-      "description": "{{ page.description }}"
+      {% if page.description %}
+        "description": "{{ page.description | escape }}"
+      {% elsif description %}
+        "description": "{{ description | escape }}"
+      {% endif %}
     }
   </script>
 {% elsif type == "home" %}
@@ -105,7 +113,7 @@
           "position": 2,
           "item": {
             "@id": "{{ site.url }}{{ page.url }}",
-            "name": "{{ title }}"
+            "name": "{{ title }} | {{ site.title }}"
           }
         }
       ]

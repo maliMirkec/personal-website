@@ -4,7 +4,6 @@ title: What I learned from my GitHub profile
 date: 2019-10-18 11:30:27
 tags:
   - blog
-categories:
   - freelance
   - remote work
 thumbnail: What_I_learned_from_my_GitHub_profile_t126k2
@@ -12,7 +11,7 @@ description: GitHub profile is often recognised as a developer's portfolio. It r
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2021.
+    title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
