@@ -576,13 +576,26 @@ header nav > ul ul {
   padding-right: 0.5rem;
 }
 
+@media (min-width: 37.5em) {
+  .toggle:not(.df):not(.db) {
+    display: none;
+  }
+}
+
 @media (max-width: 37.49em) {
+  .toggle:not(.df):not(.db) {
+    position: absolute;
+    top: var(--space);
+    right: var(--space);
+    z-index: 1;
+  }
+
   header nav {
     text-align: center;
   }
 
   header nav img {
-    max-height: 45px;
+    max-height: 55px;
   }
 
   header nav a {
@@ -608,6 +621,14 @@ header nav > ul ul {
 
   header nav > ul > li:not(:first-child) {
     flex: 1 0 150px;
+  }
+
+  header nav:not(.active) .toggle span:last-child {
+    display: none;
+  }
+
+  header nav:not(.active) > ul > li:not(:first-child) {
+    display: none;
   }
 }
 

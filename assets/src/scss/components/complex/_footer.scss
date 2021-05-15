@@ -10,6 +10,10 @@
 @include mq($until: bp1) {
   footer {
     nav {
+      ul {
+        flex-wrap: wrap;
+      }
+
       a {
         padding-top: .35em;
         padding-bottom: .35em;

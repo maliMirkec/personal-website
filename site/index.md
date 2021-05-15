@@ -81,7 +81,7 @@ sections:
             <input class="button button--small" type="submit" value="Subscribe" />
           </div>
         </div>
-        <p class="no-margin"><small><a href="https://tinyletter.com" target="_blank">Powered by TinyLetter</a></small></p>
+        <p class="no-margin"><small><a href="https://tinyletter.com" target="_blank" rel="noreferrer">Powered by TinyLetter</a></small></p>
       </form>
   - type: hero-beta
     title: From the Blog
