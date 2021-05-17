@@ -102,8 +102,10 @@
   position: fixed;
   right: var(--space);
   bottom: var(--space);
-  font-size: 80%;
-  padding: .75em 1em;
+  font-size: var(--step--2);
+  min-height: 3.5em;
+  min-width: 3.5em;
+  padding: 0;
 
   &:not(.df):not(.db) {
     border-radius: 50%;
@@ -125,3 +127,38 @@
     }
   }
 }
+
+.button--menu {
+  min-width: 5em;
+
+  &:not(.df):not(.db) {
+    @include mq($from: bp1) {
+      display: none;
+    }
+
+    @include mq($until: bp1) {
+      position: absolute;
+      top: var(--space);
+      right: var(--space);
+      z-index: 1;
+
+      nav.active & {
+        span {
+          &:first-child {
+            display: none;
+          }
+        }
+      }
+
+      nav:not(.active) & {
+        span {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
