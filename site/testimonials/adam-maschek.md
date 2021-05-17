@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,4 +50,4 @@ sections2:
 excerpt: It was a pleasure to work with Silvestar. He was available on a short notice, he...
 ---
 
-It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him.
+> _It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him._

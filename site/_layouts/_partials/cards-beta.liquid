@@ -13,16 +13,20 @@
             <blockquote cite="{{ card2.url }}">
               <div class="bg-lightish margin-bottom">
                 {% if card2.data.title %}
-                  <header class="df aic padding copy">
-                    {% if card2.data.avatar %}
-                      <div class="margin-right">
-                        {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
-                      </div>
+                  <header class="padding copy">
+                    {% if card2.data.avatar and cards2.cta %}
+                      <a class="df aic inert" href="{{ card2.url }}">
+                        {% if card2.data.avatar %}
+                          <span class="db margin-right avatar">
+                            {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
+                          </span>
+                        {% endif %}
+                        <span class="db">
+                          <p class="fz-step--1 no-margin">{{ card2.data.title }}</p>
+                          <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
+                        </span>
+                      </a>
                     {% endif %}
-                    <div>
-                      <p class="fz-step--1 no-margin">{{ card2.data.title }}</p>
-                      <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
-                    </div>
                   </header>
                 {% endif %}
                 {% if card2.data.excerpt %}

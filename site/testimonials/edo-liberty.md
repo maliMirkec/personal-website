@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,4 +50,4 @@ sections2:
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 
-Super fast and responsive, great eye for esthetics, quality web development. What else can you ask for?
+> _Super fast and responsive, great eye for esthetics, quality web development. What else can you ask for?_

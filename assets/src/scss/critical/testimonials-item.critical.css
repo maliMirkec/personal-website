@@ -260,6 +260,10 @@ hr[class*="hr"]:before {
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
 }
 
+.avatar {
+  min-width: 60px;
+}
+
 @font-face {
   font-family: 'Barlow';
   src: local("Barlow Medium Italic"), local("Barlow-MediumItalic"), url("/fonts/Barlow/Barlow-MediumItalic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-MediumItalic.woff") format("woff");
@@ -543,9 +547,14 @@ ul ul {
 
 .button--small {
   font-size: var(--step--1);
-  padding: .25em 1em;
+  padding: .25em .5em;
   min-height: 1.75em;
-  border: .45em solid transparent;
+}
+
+@media (max-width: 37.49em) {
+  .button--small {
+    padding: .75em;
+  }
 }
 
 .button--inverse {
@@ -553,27 +562,25 @@ ul ul {
   color: var(--color-light);
 }
 
+.button--outline {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px currentColor inset;
+}
+
 .button--toggle {
   position: fixed;
-  right: 1rem;
+  right: var(--space);
+  bottom: var(--space);
   font-size: 80%;
+  padding: .75em 1em;
+}
+
+.button--toggle:not(.df):not(.db) {
+  border-radius: 50%;
 }
 
 html:not(.dark) .button--toggle span:last-of-type {
   display: none;
-}
-
-@media (min-width: 37.5em) {
-  .button--toggle {
-    top: 1rem;
-  }
-}
-
-@media (max-width: 37.49em) {
-  .button--toggle {
-    bottom: 1rem;
-    max-width: 60px;
-  }
 }
 
 header nav {
@@ -701,4 +708,14 @@ header nav > ul ul {
 
 .copy > :last-child {
   margin-bottom: 0;
+}
+
+.copy blockquote {
+  font-size: 112.5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2rem;
+  border-left: 0.125rem dashed var(--color-alpha);
 }

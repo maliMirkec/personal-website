@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,4 +50,4 @@ sections2:
 excerpt: While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire...
 ---
 
-While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects.
+> _While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects._

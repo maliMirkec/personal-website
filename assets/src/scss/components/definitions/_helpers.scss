@@ -45,7 +45,7 @@ img {
     }
   }
 
-  a & {
+  a:not(.inert) & {
     img {
 
       &:hover,
@@ -142,5 +142,15 @@ p {
 @include mq($until: bp1) {
   .hidden-sm {
     display: none;
+  }
+}
+
+.avatar {
+  min-width: 60px;
+
+  a:hover & {
+    img {
+      filter: brightness(110%);
+    }
   }
 }

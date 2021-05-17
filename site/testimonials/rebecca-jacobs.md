@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,6 +50,6 @@ sections2:
 excerpt: Worked with Silvestar to optimize our website! He did a great job implementing changes quickly...
 ---
 
-Worked with Silvestar to optimize our website! He did a great job implementing changes quickly. Through his experience he was able to also make some beneficial suggestions to how we fix our website foundation and set it up for success for future site management.
-
-I appreciate working with Silvestar. He's able to complete tasks and think out of the box about how to really optimize web development.
+> _Worked with Silvestar to optimize our website! He did a great job implementing changes quickly. Through his experience he was able to also make some beneficial suggestions to how we fix our website foundation and set it up for success for future site management._
+>
+> _I appreciate working with Silvestar. He's able to complete tasks and think out of the box about how to really optimize web development._

@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,8 +50,8 @@ sections2:
 excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 
-Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers.
-
-In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls.
-
-When working with Silvestar, I know that the work will be done quickly and correctly, but that he'll also point out any areas where he thinks we can improve. He's always looking out for opportunities to improve performance, maintainability, and accessibility. I get the impression that he's constantly learning and reflecting on his work, always looking for ways that he can build his skillset even more and produce even higher quality work (if that's possible!).
+> _Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers._
+>
+> _In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls._
+>
+> _When working with Silvestar, I know that the work will be done quickly and correctly, but that he'll also point out any areas where he thinks we can improve. He's always looking out for opportunities to improve performance, maintainability, and accessibility. I get the impression that he's constantly learning and reflecting on his work, always looking for ways that he can build his skillset even more and produce even higher quality work (if that's possible!)._

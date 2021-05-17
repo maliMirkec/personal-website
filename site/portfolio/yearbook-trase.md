@@ -23,15 +23,15 @@ sections:
     title: Trase Yearbook 2018
     desc: >-
       The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
+
+
+      _This site has been taken down._
     subtitle: Responsibilities
     desc2: >-
       - Developed a new WordPress theme from scratch based on a design.
     tag:
       href: /portfolio/
       title: /Portfolio
-    cta:
-      href: //yearbook2018.trase.earth
-      title: Go to site ⇢
   - type: hero-beta
     title: From Testimonials
     desc: >-

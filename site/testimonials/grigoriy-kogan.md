@@ -46,6 +46,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -55,4 +56,4 @@ sections2:
 excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
 ---
 
-When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout.
+> _When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout._

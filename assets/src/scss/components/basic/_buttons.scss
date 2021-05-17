@@ -62,9 +62,12 @@
 
 .button--small {
   font-size: var(--step--1);
-  padding: .25em 1em;
+  padding: .25em .5em;
   min-height: 1.75em;
-  border: .45em solid transparent;
+
+  @include mq($until: bp1) {
+    padding: .75em;
+  }
 }
 
 .button--inverse {
@@ -97,8 +100,14 @@
 
 .button--toggle {
   position: fixed;
-  right: 1rem;
+  right: var(--space);
+  bottom: var(--space);
   font-size: 80%;
+  padding: .75em 1em;
+
+  &:not(.df):not(.db) {
+    border-radius: 50%;
+  }
 
   html:not(.dark) & {
     span {
@@ -114,14 +123,5 @@
         display: none;
       }
     }
-  }
-
-  @include mq($from: bp1) {
-    top: 1rem;
-  }
-
-  @include mq($until: bp1) {
-    bottom: 1rem;
-    max-width: 60px;
   }
 }

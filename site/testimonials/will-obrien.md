@@ -40,6 +40,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -49,4 +50,4 @@ sections2:
 excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project....
 ---
 
-Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project out the door. I would definitely look to hire him for any future web work.
+> _Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project out the door. I would definitely look to hire him for any future web work._

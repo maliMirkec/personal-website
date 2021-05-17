@@ -43,6 +43,7 @@ sections2:
       title: See more ⇢
     filter: testimonials
     exclude: true
+    limit: 6
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
@@ -52,4 +53,4 @@ sections2:
 excerpt: Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed...
 ---
 
-Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise.
+> _Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise._
