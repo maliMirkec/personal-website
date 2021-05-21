@@ -1,7 +1,7 @@
-<div class="padding"{% if banner2.id %} id="{{ banner2.id }}"{% endif %}>
-  <section class="banner margin-top-alpha margin-bottom-alpha">
-    <div class="wrapper margin-top margin-bottom text-center border-alpha">
-      <div class="padding">
+<section class="banner margin-top-alpha margin-bottom-alpha"{% if banner2.id %} id="{{ banner2.id }}"{% endif %}>
+  <div class="wrapper margin-top margin-bottom text-center">
+    <div class="padding">
+      <div class="border-alpha padding">
         {% if banner2.desc %}
           <div class="copy">{{ banner2.desc | markdownify }}</div>
         {% endif %}
@@ -22,5 +22,5 @@
         {% endif %}
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>
