@@ -217,9 +217,7 @@ Here’s the complete form, including the SVG and JavaScript code:
 
 ## Conclusion
 
-The complete functioning form could be found on my [Contact page].
-
-I have noticed one extra benefit—far fewer spams. Other benefits of adding a multi-step form using Kwes are::
+I have noticed one extra benefit—far fewer spams. Other benefits of adding a multi-step form using Kwes are:
 
 - I didn’t have to spend too much time on design,
 - I didn’t have to spend too much time on validation, and

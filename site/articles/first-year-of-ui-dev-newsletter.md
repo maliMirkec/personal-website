@@ -33,7 +33,7 @@ sections2:
       title: Hire me ⇢
 ---
 
-A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://bit.ly/2PazCGY). Around that time, I got an email from a student with a list of questions about my newsletter. I am polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
+A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://bit.ly/2PazCGY). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
 
 If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, stay and read the whole story.
 

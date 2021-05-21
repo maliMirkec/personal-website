@@ -69,7 +69,6 @@
     "kss": "^3.0.1",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.0.2",
-    "markdown-it-implicit-figures": "^0.10.0",
     "modularscale-sass": "latest",
     "normalize.css": "latest",
     "sass-mq": "latest",

@@ -20,12 +20,11 @@
 
   .button {
     &:not(.df):not(.db) {
-      border: .25rem solid transparent;
       margin: 0;
     }
 
     @include mq($until: bp1) {
-      width: calc(100% - .25em);
+      width: 100%;
     }
 
     @include mq($from: bp1) {
@@ -34,6 +33,7 @@
       right: -0.1em;
       top: -0.1em;
       bottom: -0.1em;
+      border: .25rem solid transparent;
     }
   }
 }
