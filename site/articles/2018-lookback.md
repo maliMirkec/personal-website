@@ -40,7 +40,7 @@ What an excellent year for CSS developers last year was. I enjoyed solving probl
 
 In the time when more than 50% of the developers didn't know how to solve the famous [Twitter puzzle], I wanted to write about the importance of the cascade.
 
-[{% cldnry "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" "400" "607" %}](https://twitter.com/mxstbr/status/1038416725182697472)
+{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" "400" "607" %}
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
 

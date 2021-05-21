@@ -51,7 +51,7 @@ First, I [asked the community] for the feedback [on the design]. I got a few fai
 
 The next challenge was to create a scheduling functionality. Since the project falls under “static sites”, I realized I would need at least one build every day. I decided to use Zapier and scheduled daily build every morning. The next step was to figure out how to store the data and display only current and past lines. The final decision was to use JSON file and some custom [Pug] template mixins.
 
-[{% cldnry "cld-coggle_s7nfvf" "A graph of the Code Line Daily architecture." %}](https://coggle.it/diagram/XxWrxyV2w96sJ-ZL/t/code-line-daily)
+{% cldnrylink "https://coggle.it/diagram/XxWrxyV2w96sJ-ZL/t/code-line-daily" "cld-coggle_s7nfvf" "A graph of the Code Line Daily architecture." %}
 
 Since I used the JSON file, I figured I could set up [Netlify CMS]. The reason was to be able to add a new line from my mobile using a mobile browser. You could [add new lines], too.
 

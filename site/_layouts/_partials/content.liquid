@@ -8,13 +8,21 @@
 <div class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">
     {% if canonical and publication %}
-      <div class="copy copy--body margin-bottom">
+      <div class="copy margin-bottom">
         <p class="fs-italic">This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
       </div>
     {% endif %}
-    <div class="copy copy--body">{{ content }}</div>
+    <div class="copy">{{ content }}</div>
   </div>
 </div>
+{% if sections3 %}
+  <hr class="text-alpha hr">
+{% endif %}
+{% if sections3 %}
+  {% for section in sections3 %}
+    {% include _partials/sections %}
+  {% endfor %}
+{% endif %}
 {% if tags and tags[0] == 'blog' %}
   <hr class="text-alpha hr">
   {% include _partials/banner-gamma %}

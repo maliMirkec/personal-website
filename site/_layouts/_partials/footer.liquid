@@ -1,7 +1,7 @@
 {% if footer %}
   <footer class="text-center">
     {% if footer.menu %}
-      <nav>
+      <nav class="margin-top margin-bottom">
         <ul class="list-style-none">
           {% for item in footer.menu %}
             <li class="margin-right margin-left">
@@ -12,7 +12,7 @@
       </nav>
     {% endif %}
     {% if footer.social %}
-      <nav>
+      <nav class="margin-top margin-bottom">
         <ul class="list-style-none">
           {% for item in footer.social %}
             <li class="margin-right margin-left">
@@ -23,10 +23,13 @@
       </nav>
     {% endif %}
     {% if site.author %}
-      <p class="fz-step--1">&copy; {{ site.author }}, {{ 'now' | date: '%Y'}}</p>
+      <div class="wrapper wrapper--beta padding copy">
+        <p class="fz-step--1"><strong>Fearless</strong> web engineer, <strong>CSS developer</strong>, JAMstack enthusiast, WordPress theme specialist, author of the <a href="https://bit.ly/2PazCGY">UI Dev Newsletter</a>, and founder of <a href="https://css-auditors.com/">CSS Auditors</a>.</p>
+        <p class="fz-step--1">&copy; {{ site.author }}, {{ 'now' | date: '%Y'}}</p>
+      </div>
     {% endif %}
     {% if footer.logo %}
-      <a class="db margin-bottom" href="{{ footer.logo.href }}"><img class="margin-auto" src="{{ footer.logo.src }}" alt="{{ footer.logo.title }}" width="50" height="50" loading="lazy"></a>
+      <a class="dib margin-bottom glow glow--alpha" href="{{ footer.logo.href }}"><img class="margin-auto" src="{{ footer.logo.src }}" alt="{{ footer.logo.title }}" width="50" height="50" loading="lazy"></a>
     {% endif %}
   </footer>
 {% endif %}

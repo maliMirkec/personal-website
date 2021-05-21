@@ -31,7 +31,7 @@ If you want to learn more about SPRO, [read the introduction article from the la
 
 If you prefer watching a video over reading an article, you could proceed to [the Skillshare lesson] that I recorded for this occasion.
 
-[{% cldnry "cover-wp_w0q90l" "SPRO Skillshare course cover." %}](https://skl.sh/2EcUlRt)
+{% cldnrylink "https://skl.sh/2EcUlRt" "cover-wp_w0q90l" "SPRO Skillshare course cover." %}
 
 ## The project structure
 

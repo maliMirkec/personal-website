@@ -15,11 +15,33 @@
     margin-bottom: 0;
   }
 
-  code {
-    font-size: 115%;
-    padding-left: 0.125em;
-    padding-right: 0.125em;
-    font-weight: 500;
+  p {
+    code {
+      font-size: 90%;
+      font-weight: 600;
+      line-height: calc(var(--line-height) * 1.111);
+      padding-right: .3em;
+      padding-left: .3em;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: -0.25em;
+        right: 0;
+        bottom: -0.3em;
+        left: 0;
+        border-radius: var(--border-radius);
+        background-color: var(--selection);
+        z-index: -1;
+      }
+    }
+  }
+
+  pre {
+    code {
+      font-size: var(--step--1);
+    }
   }
 
   blockquote {

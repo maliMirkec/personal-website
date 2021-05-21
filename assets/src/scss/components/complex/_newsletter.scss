@@ -19,6 +19,11 @@
   }
 
   .button {
+    &:not(.df):not(.db) {
+      border: .25rem solid transparent;
+      margin: 0;
+    }
+
     @include mq($until: bp1) {
       width: calc(100% - .25em);
     }
@@ -26,9 +31,9 @@
     @include mq($from: bp1) {
       font-size: var(--step-0);
       position: absolute;
-      right: .5rem;
-      top: calc(50% - .2em);
-      transform: translateY(-50%);
+      right: -0.1em;
+      top: -0.1em;
+      bottom: -0.1em;
     }
   }
 }

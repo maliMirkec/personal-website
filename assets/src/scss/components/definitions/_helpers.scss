@@ -10,6 +10,10 @@
   @return #{$value / ($value * 0 + 1)};
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -45,14 +49,27 @@ img {
     }
   }
 
-  a:not(.inert) & {
+  a:not(.glow) & {
     img {
-
       &:hover,
       &:focus {
-        filter: drop-shadow(0 0 .25rem $color-alpha);
+        filter: drop-shadow(0 0 .25rem var(--color-alpha));
       }
     }
+  }
+}
+
+.glow {
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0 0 .25rem var(--color-alpha)) brightness(95%);
+  }
+}
+
+.glow--alpha {
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0 0 .1rem var(--color-light)) drop-shadow(0 0 1rem #{transparentize($color-dark, .75)});
   }
 }
 
@@ -108,6 +125,7 @@ hr {
     height: 1px;
   }
 
+  .copy &,
   &[class*="hr"] {
     border: 0;
     max-height: 0;
@@ -123,6 +141,13 @@ hr {
       left: 50%;
       transform: translate(-50%, -50%);
       text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
+    }
+  }
+
+  .copy & {
+    background-color: transparent;
+    &:before {
+      color: var(--color-alpha);
     }
   }
 }

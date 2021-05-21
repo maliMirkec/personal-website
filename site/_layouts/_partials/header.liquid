@@ -1,7 +1,7 @@
 {% if header %}
   <header>
     <nav>
-      <a class="skip-link bg-light inert" href="#main">Skip to content</a>
+      <a class="skip-link bg-light glow" href="#main">Skip to content</a>
       <button class="button button--outline button--small button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');">
         <span>Menu</span>
         <span>Close</span>
@@ -9,7 +9,7 @@
       <ul class="list-style-none no-spacing">
         {% if header.logo %}
           <li class="margin-top">
-            <a class="db margin-left margin-right inert" href="{{ header.logo.href }}">
+            <a class="db margin-left margin-right glow glow--alpha" href="{{ header.logo.href }}">
               <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
             </a>
           </li>

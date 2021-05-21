@@ -116,7 +116,7 @@ Each subtask has its own configuration file. CSS specific configuration could be
 
 I have created [a course] where you could learn more about SPRO.
 
-[{% cldnry "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" %}](https://skl.sh/2EcUlRt)
+{% cldnrylink "https://skl.sh/2EcUlRt" "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" %}
 
 The course is free, but you need to have a [Skillshare] account to view all lessons. Be sure to complete the class project and to rate the course. 🆓
 

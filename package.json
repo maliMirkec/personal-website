@@ -1,7 +1,7 @@
 {
   "name": "silvestar.codes",
   "version": "4.0.16",
-  "description": "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.",
+  "description": "Home of Silvestar Bistrović—fearless web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of the UI Dev Newsletter, and founder of CSS Auditors.",
   "main": "index",
   "repository": {
     "type": "git",
@@ -69,6 +69,7 @@
     "kss": "^3.0.1",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.0.2",
+    "markdown-it-implicit-figures": "^0.10.0",
     "modularscale-sass": "latest",
     "normalize.css": "latest",
     "sass-mq": "latest",

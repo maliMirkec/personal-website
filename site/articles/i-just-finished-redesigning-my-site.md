@@ -42,7 +42,7 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 
-[{% cldnry "tweetcyborg_dknyll" "Twitter screenshot containing the poll" "400" "356" %}](https://twitter.com/malimirkeccita/status/1231233665667149824)
+{% cldnrylink "https://twitter.com/malimirkeccita/status/1231233665667149824" "tweetcyborg_dknyll" "Twitter screenshot containing the poll" "400" "356" %}
 
 Finally, I have updated HTML and CSS code. I have removed hard-coded sections from the theme, and I used Hexo built-in features.
 

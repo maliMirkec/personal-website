@@ -447,7 +447,7 @@ a {
   outline: none;
 }
 
-.copy--body a:not([class]) {
+.copy a:not([class]) {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   display: inline;

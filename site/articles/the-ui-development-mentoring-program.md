@@ -43,7 +43,7 @@ You could find more about my online presence by [visiting My links section] on m
 
 UI development, or User Interface development, is part of the frontend web development that is focused on the user interface. The necessary skills needed for this role are HTML, CSS and JavaScript. Many other skills fall under this category like templating, naming conventions, best practices, optimizations, testing, cross-browser compatibility, and more. UI development in 2020 is not clearly defined, and that is what makes it hard, but also fun.
 
-[{% cldnry "The_UI_Development_Mentoring_program-CTA-2x_nsjgnk" "Join the UI mentoring program." %}](https://mentor.silvestar.codes/)
+{% cldnrylink "https://mentor.silvestar.codes/" "The_UI_Development_Mentoring_program-CTA-2x_nsjgnk" "Join the UI mentoring program." %}
 
 Your main task as a UI developer is to present and deliver the content to every user on every device in the most accessible and most performant way. Sometimes you will slice PSD designs into templates, sometimes you will develop unique components, sometimes you will fix style bugs and errors. Developing user interfaces is always challenging, especially now in 2020, with so many different screens and devices to be targeted.
 
@@ -59,7 +59,7 @@ The career-based mentoring program would be focused on UI developer role, and yo
 
 The skill-based mentoring program is designed as a set of levels where you would gradually acquire or improve skills needed for this role.
 
-[{% cldnry "The_UI_Development_Mentoring_program-CTA2-2x_tdnxpf" "The UI mentoring program by phases." %}](https://mentor.silvestar.codes/)
+{% cldnrylink "https://mentor.silvestar.codes/" "The_UI_Development_Mentoring_program-CTA2-2x_tdnxpf" "The UI mentoring program by phases." %}
 
 There are four levels, as I see them:
 

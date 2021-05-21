@@ -1,7 +1,7 @@
 ---
 layout: index
 title: About me
-description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist. I enjoy creating pixel-perfect, responsive, and modern websites.
+description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of the UI Dev Newsletter, and founder of CSS Auditors.
 type: about
 sections:
   - type: hero-alpha
@@ -9,7 +9,7 @@ sections:
     alt: A profile photo of Silvestar Bistrović.
     title: About me
     desc: >-
-      I am Silvestar Bistrović, **fearless** web engineer, **CSS developer**, JAMstack enthusiast, and WordPress theme specialist.
+      I am Silvestar Bistrović, **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](https://bit.ly/2PazCGY), and founder of [CSS Auditors](https://css-auditors.com/).
 sections2:
   - type: banner-alpha
     title: I am considering new projects for the 2022.

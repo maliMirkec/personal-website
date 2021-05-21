@@ -21,22 +21,20 @@
           <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
         </div>
         {% assign articles = collections['blog'] %}
-        {% for article in articles %}
-          {% if title == article.data.title %}
-            {% assign next_i = forloop.index0 | plus: 1 | string %}
-            {% assign prev_i = forloop.index0 | minus: 1 | string %}
-          {% endif %}
-        {% endfor %}
-        {% if next_i >= articles.length %}
-          {% assign next_i = 0 %}
-        {% endif %}
-        {% if prev_i < 0 %}
-          {% assign prev_i = articles.length | minus: 1 %}
-        {% endif %}
         <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
         <div class="margin-top margin-bottom{% unless env.development %}-alpha{% endunless %}">
-          <a class="button button--small" href="{{articles[prev_i].url}}" title="{{articles[prev_i].data.title}}">⇠ Prev post</a>
-          <a class="button button--small" href="{{articles[next_i].url} title="{{articles[next_i].data.title}}">Next post ⇢</a>
+          {% assign i = 0 %}
+          {% for article in articles %}
+            {% if title != article.data.title %}
+              <div class="margin-bottom">
+                <a href="{{ article.url }}">{{ article.data.title }} ⇢</a>
+              </div>
+              {% assign i = i | plus: 1 %}
+            {% endif %}
+            {% if i >= 3 %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
         </div>
         {% unless env.development %}
           <h3 class="fz-step-2 no-margin-top text-center">Comments</h3>

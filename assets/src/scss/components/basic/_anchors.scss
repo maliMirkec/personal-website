@@ -20,7 +20,7 @@ a {
   outline: none;
   transition: all var(--duration);
 
-  &:not(.inert):not(.button) {
+  &:not(.glow):not(.button) {
     &:hover,
     &:focus {
       background-color: var(--color-alpha);
@@ -35,14 +35,14 @@ a {
     }
   }
 
-  // &.inert {
+  // &.glow {
   //   &:hover,
   //   &:focus {
   //     // filter: drop-shadow(0 0 .5rem var(--color-alpha));
   //   }
   // }
 
-  .copy--body & {
+  .copy & {
     &:not([class]) {
       text-decoration: underline;
       text-decoration-thickness: 2px;
@@ -58,5 +58,13 @@ a {
         text-decoration: none;
       }
     }
+  }
+}
+
+.link-block {
+  display: inline-block;
+
+  .pic {
+    display: block;
   }
 }

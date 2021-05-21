@@ -3,7 +3,7 @@ layout: index
 title: CodeScan
 description: CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
 thumbnail: cs_ghbiql
-link: //www.codescan.com
+link: //www.codescan.io
 display: true
 date: 2010-01-01
 type: portfolio-item
@@ -32,7 +32,7 @@ sections:
       href: /portfolio/
       title: /Portfolio
     cta:
-      href: //www.codescan.com
+      href: //www.codescan.io
       title: Go to site ⇢
   - type: hero-beta
     title: From Testimonials
