@@ -6,7 +6,7 @@ tags:
   - blog
   - newsletter
 thumbnail: first-year-of-ui-dev-newsletter_owiskt
-description: After a first anniversary of the UI Dev Newsletter, I wanted to share how and why I am running it. Read the whole story and get some useful links.
+description: After the first anniversary of the UI Dev Newsletter, I wanted to share how and why I am running it. Read the whole story and get some useful links.
 type: articles-item
 sections3:
   - type: banner-beta
