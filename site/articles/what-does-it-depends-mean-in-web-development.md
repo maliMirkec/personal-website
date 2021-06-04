@@ -1,13 +1,13 @@
 ---
 layout: index
-title: What does “it depends” mean
+title: What does “it depends” mean in web development
 date: 2021-06-04 15:15:15
 tags:
   - blog
   - freelance
   - remote work
   - mentoring
-thumbnail: what-does-it-depends-mean_kdvwcl
+thumbnail: what-does-it-depends-mean_hatduk
 description: >-
   I have been in numerous situations where my answer to a client’s question was: “it depends.” But what does that seemingly simple phrase mean in web development? Let’s try to find out.
 type: articles-item
