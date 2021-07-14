@@ -3,6 +3,7 @@ layout: index
 title: Stories
 description: Here are some random thoughts and notes about work, web development, and everything else.
 type: stories
+thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 pagination:
   data: stories
   size: 100
