@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Blog
-description: Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.
+title: Stories
+description: Here are some random thoughts and notes about work, web development, and everything else.
 type: stories
 pagination:
   data: stories
