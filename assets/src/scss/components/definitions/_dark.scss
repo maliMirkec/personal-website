@@ -1,9 +1,3 @@
-.inner {
-  &:not([id*="kss"]) {
-    filter: drop-shadow(0 0 .25rem var(--color-lightish));
-  }
-}
-
 .dark {
   --color-alpha: #{$color-alpha-dark};
   --color-beta: #{$color-beta-dark};
@@ -13,27 +7,12 @@
   --color-darkish: #{$color-lightish};
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  filter: contrast(.95);
 
   body {
     background-image: url(/gfx/svg/bg-logo.svg);
   }
 
-  .inner {
-    &:not([id*="kss"]) {
-      filter: none;
-    }
-  }
-
   img {
     filter: brightness(.8) contrast(1.2);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .inner {
-    &:not([id*="kss"]) {
-      filter: none;
-    }
   }
 }

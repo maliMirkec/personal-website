@@ -1,6 +1,6 @@
 ---
 layout: index
-title: /Side Projects
+title: Side Projects
 description: Sometimes Silvestar likes to work on side projects in his spare time. These are his open-source side projects.
 type: side-projects
 sections:

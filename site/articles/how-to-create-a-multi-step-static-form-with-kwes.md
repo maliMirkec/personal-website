@@ -22,6 +22,8 @@ sections2:
       title: Hire me ⇢
 ---
 
+
+
 Recently I wanted to add a multi-step form to my site. Since my site runs on Hexo, a static page generator, I had some doubts about how to execute this task. I already had a static form on my site, and I didn’t want to spend too much time on the development of features like steps, show/hide logic or validation.
 
 I was delighted to learn that [Kwes now offers a multi-step form functionality]. Before I tell you how I did it, let’s see what a multi-step form, sometimes also referred to as multi-page form, is.
@@ -225,9 +227,10 @@ I have noticed one extra benefit—far fewer spams. Other benefits of adding a m
 
 With Kwes, everything is so easy and works as expected. You should give it a try.
 
+Update: I decided to switch to a different provider, but only for convenience reasons.
+
 [Kwes now offers a multi-step form functionality]: https://kwes.io/docs/multistep-forms
 [how to add the static form using Kwes]: https://dev.to/starbist/how-to-add-a-contact-form-to-a-static-website-2oji
 [animated SVG progress bar]: https://dev.to/starbist/animated-wizard-progress-23li
 [a little SVG that is animated]: https://dev.to/starbist/animated-wizard-progress-23li
 [the cloaking technique]: https://kwes.io/docs/form-components
-[Contact page]: /contact/

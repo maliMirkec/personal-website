@@ -13,16 +13,17 @@ sections3:
     desc: To receive the latest news about User Interface development, subscribe here.
     id: subscribe-now
     code: >-
-      <form class="newsletter wrapper wrapper--beta margin-top text-left" action="https://tinyletter.com/starbist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/starbist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-        <input type="hidden" value="1" name="embed"/>
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
-          <label for="tlemail">Enter email</label>
+          <label for="bd-email">Subscribe here. Enter email.</label>
           <div class="newsletter__input">
-            <input class="input" type="text" name="email" id="tlemail" />
+            <input class="input" type="email" name="email" id="bd-email" />
             <input class="button button--small" type="submit" value="Subscribe" />
           </div>
         </div>
-        <p class="no-margin"><small><a href="https://tinyletter.com" target="_blank" rel="noreferrer">Powered by TinyLetter</a></small></p>
+        <p class="no-margin"><small><a href=""https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
       </form>
   - type: content-beta
     id: original-q-and-a
@@ -77,7 +78,7 @@ sections2:
       title: Hire me ⇢
 ---
 
-A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://bit.ly/2PazCGY). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
+A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://mentor.silvestar.codes/reads/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
 
 If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story.
 
@@ -85,7 +86,7 @@ If you want to see the questions and answers, [skip to the end of the article](#
 
 I started the UI Dev Newsletter accidentally. I mean, I didn’t plan to run it, at least not for the whole year. It all started with my side project, [a mentoring program](/articles/the-ui-development-mentoring-program/), which failed gloriously.
 
-As part of that program, I listed [helpful frontend resources](https://mentor.silvestar.codes/resources/) and [tips](https://mentor.silvestar.codes/tips/) I collected during my career. I also listed [valuable articles](https://bit.ly/2PazCGY) that I considered worth reading. These articles were a reminder for me, but I figured it wouldn’t hurt if I document them.
+As part of that program, I listed [helpful frontend resources](https://mentor.silvestar.codes/resources/) and [tips](https://mentor.silvestar.codes/tips/) I collected during my career. I also listed [valuable articles](https://mentor.silvestar.codes/reads/) that I considered worth reading. These articles were a reminder for me, but I figured it wouldn’t hurt if I document them.
 
 I started sharing these pages on Twitter and Reddit, and it was getting some traction, but nothing too crazy.
 

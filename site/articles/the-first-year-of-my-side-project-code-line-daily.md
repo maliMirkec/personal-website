@@ -92,5 +92,5 @@ P.S. I am aware my project is not very popular. I always wanted to learn more ab
 [personal site’s homepage]: /
 [in the CodePen]: https://codepen.io/CiTA/pen/eYNMvOa
 [a browser extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
-[UI Dev newsletter]: https://tinyletter.com/starbist/
+[UI Dev newsletter]: https://mentor.silvestar.codes/reads/
 [contact me]: /contact/

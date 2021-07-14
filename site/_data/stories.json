@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2021-07-14 14:30:00",
+    "content": "Apparently applying the CSS filter to the whole container affects the scrolling experience. I removed it and the scrolling really does feel better."
+  },
+  {
+    "date": "2021-07-14 14:20:00",
+    "content": "Frameworks come and go, but JavaScript is forever."
+  },
+  {
+    "date": "2021-07-13 14:20:00",
+    "content": "I don't like to work during the summer. There should be a collective summer vacation for everyone."
+  }
+]

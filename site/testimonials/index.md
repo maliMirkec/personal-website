@@ -1,6 +1,6 @@
 ---
 layout: index
-title: /Testimonials
+title: Testimonials
 description: Here are some kind words about Silvestar's work from his clients. Although hr collaborated with clients from more than 10 countries, most of them came from The United States.
 type: testimonials
 sections:
@@ -18,7 +18,7 @@ sections:
         title: Hire me ⇢
   - type: cards-beta
     cta:
-      title: See full testimonial ⇢
+      title: Read full testimonial ⇢
     filter: testimonials
   - type: banner-alpha
     title: I am considering new projects for the 2022.

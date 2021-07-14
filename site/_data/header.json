@@ -22,8 +22,8 @@
       "href": "/publications/",
       "title": "Publications"
     }, {
-      "href": "https://mentor.silvestar.codes/reads#newsletter",
-      "title": "UI Dev Newsletter"
+      "href": "/stories/",
+      "title": "Stories"
     }]
   }, {
     "href": "/links/",
@@ -32,8 +32,8 @@
       "href": "/uses/",
       "title": "My Setup"
     }, {
-      "href": "/mentoring/",
-      "title": "Mentoring"
+      "href": "https://mentor.silvestar.codes/reads#newsletter",
+      "title": "UI Dev Newsletter"
     }]
   }, {
     "href": "/about/",

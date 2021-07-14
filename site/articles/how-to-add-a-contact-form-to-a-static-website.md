@@ -92,7 +92,7 @@ During [the testing mode], all your submission would not affect the data in your
 
 The last step is setting the code to the production mode. Now we should sit back and wait for the submissions knowing that Kwes would handle everything for us—from form validation, through spam filtering, to sending confirmation emails.
 
-You could customize the style of the notification messages to match your brand. See the example of a customized contact form [on my site].
+You could customize the style of the notification messages to match your brand.
 
 ## Kwes features
 
@@ -107,6 +107,8 @@ If you want more control over your form and integrate it with other services lik
 ## Conclusion
 
 Kwes comes with the cost, but you should think about saving yourself and your team hours of development time. I think it is worth to leave the validation to developers who specialize in this field of area and focus on other parts of your project or business.
+
+Update: I decided to switch to a different provider, but only for convenience reasons.
 
 [Kwes form builder]: https://kwes.io
 [Hexo]: https://hexo.io/

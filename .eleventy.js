@@ -33,7 +33,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('cldnrysrc', (name) => `https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/${ name }`)
 
-  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials']
+  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story']
 
   eleventyConfig.addLiquidFilter('tagify', (tags) => tags.filter(tag => exclude_tags.indexOf(tag) === -1))
 
@@ -55,6 +55,18 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addCollection("myArticles", (collection) => {
     return collection.getFilteredByTag("blog").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
+
+  eleventyConfig.addCollection("myStories", (collection) => {
+    return collection.getFilteredByTag("story").sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
