@@ -65,18 +65,6 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("myStories", (collection) => {
-    return collection.getFilteredByTag("story").sort((a, b) => {
-      if (a.date < b.date) {
-        return 1
-      } else if (a.date > b.date) {
-        return -1
-      } else {
-        return 0
-      }
-    })
-  })
-
   eleventyConfig.addCollection("myPublications", (collection) => {
     return collection.getFilteredByTag("publications").sort((a, b) => {
       if (a.date < b.date) {
