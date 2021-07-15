@@ -49,14 +49,14 @@ a {
       display: inline;
       word-break: break-word;
 
-      &:hover {
-        text-decoration: none;
-      }
+      // &:hover {
+      //   text-decoration: none;
+      // }
 
-      &:focus,
-      &:active {
-        text-decoration: none;
-      }
+      // &:focus,
+      // &:active {
+      //   text-decoration: none;
+      // }
     }
   }
 }
