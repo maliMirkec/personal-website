@@ -40,7 +40,7 @@ Instead of adding React to every frontend job ad, employers should emphasize HTM
 
 Brad Frost wrote about [front-of-the-frontend](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/). Chris Coyier wrote about [the great divide](https://css-tricks.com/the-great-divide/). I agree with both of them, but I would make the following distinction: web app developer and website developer.
 
-The web app developer probably needs React or similar frameworks. [Even that might not be true](https://medium.com/nerd-for-tech/why-you-should-stop-using-ui-frameworks-9289f0569a57).
+The web app developer does need React or similar frameworks.
 
 The website developer doesn’t need React or similar frameworks.
 
