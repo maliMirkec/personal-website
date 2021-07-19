@@ -5,6 +5,9 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
+  - date: '2021-07-19'
+    content: |
+      HTML, CSS, JavaScript, and accessibility: Four amigos for making websites performing well, achieving a solid SEO score, and allowing every user to consume the content.
   - date: '2021-07-15'
     content: |
       It seems to me that nobody knows what they are doing when it comes to accessibility.
