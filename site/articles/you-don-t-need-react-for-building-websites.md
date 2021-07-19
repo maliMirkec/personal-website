@@ -7,7 +7,7 @@ tags:
   - javascript
   - web development
 thumbnail: you-don-t-need-react-for-building-websites_bs5djk
-description: If you are building websites, you don’t need React (in most cases). Here’s why.
+description: As I get more experienced, I use fewer libraries and frameworks and rely on good old HTML, CSS, and vanilla JavaScript. I think you should consider doing the same.
 type: articles-item
 sections2:
   - type: banner-alpha
@@ -30,7 +30,7 @@ What I can rant about is the hype. I mean, it’s not even hype after all these 
 
 I feel like 9 out of 10 job ads for a frontend developer mention React.
 
-I don’t get it. Why would I need to use React if I am supposed to work on building websites? Are employers afraid that if you don’t know React that you wouldn’t be able to make a landing page? Would knowing React help you solve any problems when creating a new layout or template?
+I don’t get it. Why would I need to use React if I am supposed to work on building websites? Are employers afraid that if you don’t know React that you wouldn’t be able to make a landing page? Would knowing React help you solve any problems when creating a new layout or template? I cannot think of any part of the website that would require React.
 
 All these questions made me realize that I don’t need frameworks for my everyday work.
 
