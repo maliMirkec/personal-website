@@ -90,7 +90,6 @@ button:-moz-focusring,
   --color-darkish: #1a1a1a;
   --font-alpha: Playfair Display, serif;
   --font-beta: Barlow, sans-serif;
-  --font-gamma: Courier New, Courier, monospace;
   --step-6: 54px;
   --step-5: 46.8px;
   --step-4: 39.6px;
@@ -150,6 +149,10 @@ body {
 
 .bg-light {
   --bg-color: var(--color-light);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img {
@@ -399,10 +402,6 @@ h3 {
   padding-top: 0;
 }
 
-.inner:not([id*="kss"]) {
-  filter: drop-shadow(0 0 0.25rem var(--color-lightish));
-}
-
 .dark {
   --color-alpha: #0a7f5a;
   --color-beta: #e61a4d;
@@ -412,21 +411,10 @@ h3 {
   --color-darkish: #f0f0f0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  filter: contrast(0.95);
-}
-
-.dark .inner:not([id*="kss"]) {
-  filter: none;
 }
 
 .dark img {
   filter: brightness(0.8) contrast(1.2);
-}
-
-@media (prefers-color-scheme: dark) {
-  .inner:not([id*="kss"]) {
-    filter: none;
-  }
 }
 
 a {
