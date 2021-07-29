@@ -22,7 +22,7 @@ sections3:
             <input class="button button--small" type="submit" value="Subscribe" />
           </div>
         </div>
-        <p class="no-margin"><small><a href=""https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
         <div class="cta">
       </form>
   - type: content-beta
