@@ -8,7 +8,7 @@ tags:
   - shopify
   - web development
 thumbnail: nightmare-dx-shopify_ejavvl
-description: This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its friendliness for developers.
+description: This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
 type: articles-item
 sections2:
   - type: banner-alpha
@@ -19,7 +19,7 @@ sections2:
       title: Hire me ⇢
 ---
 
-This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its friendliness for developers.
+This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
 
 **Disclaimer:** This series intends not to rant but to educate developers about the limitations of the products, platforms, and frameworks. In the perfect world, these posts would contribute to building a better Developer Experience for everyone. That is also the reason why the title is deliberately controversial.
 
