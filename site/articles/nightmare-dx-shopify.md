@@ -45,6 +45,8 @@ I recently learned that Shopify released Shopify CLI, and they suggest using it 
 
 Shopify doesn't support Git. I imagine that implementing Git in this kind of project is challenging, but I think many developers would be happy to have staging and development instances controlled by Git. I know I would.
 
+Edit 2021/08/23: I was brought to my attention that Shopify has [GitHub integration](https://shopify.dev/themes/tools/github). I look forward to test this integration in the future.
+
 ### Structure
 
 I am not a huge fan of when a platform has a definite folder structure. That is incredibly frustrating when you are not allowed to add subfolders. For example, if you want to add some graphic assets, your `assets` folder gets messy pretty fast.
