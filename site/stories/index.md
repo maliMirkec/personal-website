@@ -5,11 +5,11 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
-  - date: '2021-07-19'
+  - date: '2021-08-28'
     content: |
       "If I do poorly at work, that doesn’t make me a bad professional. Everyone makes mistakes." So true. 
 
-      [Link] (https://adiyathemighty.com/blog/2021-08-11_setting-juniors-up-for-success#onboarding-and-getting-started) 
+      [Link](https://adiyathemighty.com/blog/2021-08-11_setting-juniors-up-for-success#onboarding-and-getting-started) 
   - date: '2021-07-19'
     content: |
       HTML, CSS, JavaScript, and accessibility: Four amigos for making websites performing well, achieving a solid SEO score, and allowing every user to consume the content.
