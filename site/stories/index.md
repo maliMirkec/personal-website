@@ -36,11 +36,11 @@ sections:
       Just random thoughts and notes from yours truly.
   - type: cards-delta
     cta:
-      title: Read more ⇢
+      title: Read more
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Hire me ⇢
+title: Hire me
 description: When you hire me, you got a frontend developer that is most comfortable working with HTML, CSS, and JavaScript. You would benefit from experience gained by working for years on high-profile projects.
 sections:
   - type: hero-alpha
@@ -13,7 +13,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 If you got this far, that means you need help with your project. Since I am always happy to help, you should contact me if you want me on your team. But before you do, check the list of [services] I could offer you.

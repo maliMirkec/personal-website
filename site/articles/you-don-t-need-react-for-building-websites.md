@@ -15,7 +15,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 Here’s what I think: if you are building websites, you don’t need React (in most cases).

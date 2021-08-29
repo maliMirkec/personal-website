@@ -13,7 +13,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 ## Social Networks

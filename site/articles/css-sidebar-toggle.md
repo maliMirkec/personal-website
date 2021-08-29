@@ -16,7 +16,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 CSS sidebar toggle presented in this post is made with `CSS` only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without `JavaScript`, I've added a small snippet for this feature.

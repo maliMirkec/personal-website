@@ -304,7 +304,7 @@ h3 {
 }
 
 .button {
-  font-weight: 900;
+  font-weight: normal;
 }
 
 .text-center {
@@ -472,6 +472,11 @@ ul ul {
 .button--outline {
   background-color: transparent;
   box-shadow: 0 0 0 2px currentColor inset;
+}
+
+.button--invisible {
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .button--toggle {

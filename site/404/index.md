@@ -14,11 +14,11 @@ sections:
       That means there is no content on this link.
     cta:
       href: /
-      title: Go home ⇢
+      title: Go home
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

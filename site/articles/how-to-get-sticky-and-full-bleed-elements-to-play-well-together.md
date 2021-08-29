@@ -17,7 +17,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top. This ended up being rather tricky to pull off so I’m documenting it here in case anyone needs to re-create this same effect. Part of the trickiness was dealing with logical positioning on small screens as well.

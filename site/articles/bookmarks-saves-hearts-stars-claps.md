@@ -14,7 +14,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools. I guess this is because my browser is displaying bookmarked pages first in the suggestions which could be very useful when you know only part of the title or a domain.

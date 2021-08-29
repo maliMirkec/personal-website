@@ -9,7 +9,7 @@ sections:
     desc: using **the best coding practices** to deliver **the best experience** for every user.
     cta:
       href: /contact/
-      title: Contact me ⇢
+      title: Contact me
   - type: hero-beta
     title: From the Portfolio
     desc: >-
@@ -17,20 +17,20 @@ sections:
   - type: cards-gamma
     desc: Do you want to work with me?
     cta:
-      title: See project ⇢
+      title: Go to project
     cta2:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
     cta3:
       href: /portfolio/
-      title: Or see my portfolio ⇢
+      title: Or see my portfolio
     filter: portfolio
     limit: 5
   - type: banner-beta
     desc: Did you know that I work as a freelance contractor since **2017**?
     cta:
       href: /articles/a-story-of-becoming-a-web-developer/
-      title: Read the full story ⇢
+      title: Read the full story
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -38,20 +38,20 @@ sections:
   - type: cards-beta
     desc: Do you want to be my next client?
     cta:
-      title: Read full testimonial ⇢
+      title: Read full testimonial
     cta2:
       href: /contact/
-      title: Contact me ⇢
+      title: Contact me
     cta3:
       href: /testimonials/
-      title: Or see all testimonials ⇢
+      title: Or see all testimonials
     filter: testimonials
     limit: 5
   - type: banner-beta
     desc: Did you know that I gave an interview for the **Remote Working Hub**?
     cta:
       href: /articles/interview-for-remote-working-hub/
-      title: Read the full interview ⇢
+      title: Read the full interview
   - type: hero-beta
     title: From Publications
     desc: >-
@@ -59,13 +59,13 @@ sections:
   - type: cards-alpha
     desc: Do you want me to write for you?
     cta:
-      title: Read more ⇢
+      title: Read more
     cta2:
       href: /contact/
-      title: Contact me ⇢
+      title: Contact me
     cta3:
       href: /publications/
-      title: Or see all publications ⇢
+      title: Or see all publications
     filter: myPublications
     sorter: date
     limit: 5
@@ -91,10 +91,10 @@ sections:
   - type: cards-alpha
     desc: Do you want to see all articles?
     cta:
-      title: Read more ⇢
+      title: Read more
     cta2:
       href: /articles/
-      title: Go to all articles ⇢
+      title: Go to all articles
     filter: myArticles
     sorter: date
     exclude: publications
@@ -103,7 +103,7 @@ sections:
     desc: Did you know that I blog since **2016**?
     cta:
       href: /articles/
-      title: Read the articles ⇢
+      title: Read the articles
   - type: hero-beta
     title: From Side Projects
     desc: >-
@@ -111,21 +111,21 @@ sections:
   - type: cards-gamma
     desc: Do you want to work with me?
     cta:
-      title: See project ⇢
+      title: Go to project
     cta2:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
     filter: projects
     limit: 5
   - type: banner-beta
     desc: Did you know that I started **CSS Auditors**, a site dedicated to **auditing CSS**?
     cta:
       href: https://css-auditors.com
-      title: Learn more ⇢
+      title: Learn more
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

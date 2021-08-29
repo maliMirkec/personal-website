@@ -17,7 +17,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 Learning new skills or entering web development world in this fast-moving branch could be a daunting task and decision. I have been lucky to start learning web development in a very friendly environment. I have learned all about web development while being mentored, which made the process a lot enjoyable and more relaxed. As I gained confidence, I was able to resolve more complex tasks and problems. Having a person who understands a developer's path has been crucial in my career.

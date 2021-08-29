@@ -15,7 +15,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 _I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization._

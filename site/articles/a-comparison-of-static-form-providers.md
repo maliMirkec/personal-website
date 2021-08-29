@@ -19,7 +19,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 Let’s attempt to coin a term here: "Static Form Provider." You bring your HTML `<form>`, but don’t worry about the back-end processing that makes it work. [There are a lot of these services out there!](https://serverless.css-tricks.com/services/forms)

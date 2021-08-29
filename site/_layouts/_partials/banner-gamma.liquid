@@ -7,18 +7,18 @@
         {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
         <div class="margin-top margin-bottom-alpha">
-          <a class="margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter ⇢</a>
-          <a class="margin-left margin-right" href="{{ facebookLink }}" target="_blank">Facebook ⇢</a>
-          <a class="margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit ⇢</a>
+          <a class="button button--small button--outline margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
+          <a class="button button--small button--outline margin-left margin-right" href="{{ facebookLink }}" target="_blank">Facebook</a>
+          <a class="button button--small button--outline margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
         </div>
         <h3 class="fz-step-2 no-margin-top">About the Author</h3>
         <div class="copy">
           <p>{{ site.about }}</p>
         </div>
         <div class="margin-top margin-bottom-alpha">
-          <a class="margin-left margin-right" href="/about/">About ⇢</a>
-          <a class="margin-left margin-right" href="/portfolio/">Portfolio ⇢</a>
-          <a class="margin-left margin-right" href="/contact/">Contact ⇢</a>
+          <a class="button button--small button--outline margin-left margin-right" href="/about/">About</a>
+          <a class="button button--small button--outline margin-left margin-right" href="/portfolio/">Portfolio</a>
+          <a class="button button--small button--outline margin-left margin-right" href="/contact/">Contact</a>
         </div>
         {% assign articles = collections['blog'] %}
         <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
@@ -27,7 +27,7 @@
           {% for article in articles %}
             {% if title != article.data.title %}
               <div class="margin-bottom">
-                <a href="{{ article.url }}">{{ article.data.title }} ⇢</a>
+                <a class="tdu" href="{{ article.url }}">{{ article.data.title }}</a>
               </div>
               {% assign i = i | plus: 1 %}
             {% endif %}

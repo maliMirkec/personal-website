@@ -23,17 +23,17 @@ sections:
       title: /Side Projects
     cta:
       href: //css-auditors.com/
-      title: Go to the Project ⇢
+      title: Go to the Project
     cta2:
       href: /side-projects/
-      title: See other projects ⇢
+      title: See other projects
   - type: hero-beta
     title: From Side Projects
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma
     cta:
-      title: See project ⇢
+      title: Go to project
     filter: projects
     exclude: true
   - type: banner-alpha
@@ -41,6 +41,6 @@ sections:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 
 ---
