@@ -21,11 +21,11 @@ $color-dark: hsl(0, 0%, 6%);
 $color-darkish: hsl(0, 0%, 10%);
 
 // Typography
-$font-alpha: 'Playfair Display', serif;
-$font-beta: 'Barlow', sans-serif;
-$font-size-sm: 18px;
-$font-size-lg: 18px;
-$lh: 1.66;
+$font-beta: 'Mulish', sans-serif;
+$font-size-sm: 16px;
+$font-size-lg: 20px;
+$lh1: 1.33;
+$lh2: 1.66;
 $lsp: .01em;
 
 // Spacing
@@ -64,7 +64,6 @@ $gap: $space * 2;
   --color-darkish: #{$color-darkish};
 
   // Typography
-  --font-alpha: #{$font-alpha};
   --font-beta: #{$font-beta};
   --step-6: #{$font-size-lg * 3};
   --step-5: #{$font-size-lg * 2.6};
@@ -75,7 +74,8 @@ $gap: $space * 2;
   --step-0: #{$font-size-lg};
   --step--1: #{$font-size-lg * 0.9};
   --step--2: #{$font-size-lg * 0.8};
-  --line-height: #{$lh};
+  --line-height1: #{$lh1};
+  --line-height2: #{$lh2};
   --letter-spacing: #{$lsp};
 
   // Spacing
