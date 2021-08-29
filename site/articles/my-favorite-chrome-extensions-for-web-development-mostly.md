@@ -15,7 +15,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 A web browser is one of the essential tools for web development. Besides awesome dev tools that come with the default installation, you might consider these Chrome extensions that could help you with your everyday tasks:

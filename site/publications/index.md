@@ -12,10 +12,10 @@ sections:
       I wrote for CSS Tricks, LogRocket, and Toptal.
 
 
-      Did you know that I am running **UI Dev Newletter**? [Subscribe now ⇢](#subscribe-now)
+      Did you know that I am running **UI Dev Newletter**? [Subscribe now](#subscribe-now)
   - type: cards-alpha
     cta:
-      title: Read more ⇢
+      title: Read more
     filter: myPublications
     sorter: date
   - type: banner-beta
@@ -39,5 +39,5 @@ sections:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

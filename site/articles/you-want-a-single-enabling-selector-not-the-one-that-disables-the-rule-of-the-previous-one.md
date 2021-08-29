@@ -14,7 +14,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 An enabling selector is what I call a selector that does a job without disabling the particular rule. I'll explain using the following example.

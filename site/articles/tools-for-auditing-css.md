@@ -18,7 +18,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 Auditing CSS is not a common task in a developer's everyday life, but sometimes you just have to do it. Maybe it's part of a performance review to identify critical CSS and reduce unused selectors. Perhaps is part of effort to improve accessibility where all the colors used in the codebase evaluated for contrast. It might even be to enforce consistency!

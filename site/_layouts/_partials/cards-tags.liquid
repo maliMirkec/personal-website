@@ -21,14 +21,14 @@
             {% if cardTag.data.tags %}
               <div class="margin-bottom">
                 {% if cardTag.data.publication %}
-                  <a class="button button--small" href="{{ cardTag.data.canonical }}">{{ cardTag.data.publication }} ⇢</a>
+                  <a class="button button--small" href="{{ cardTag.data.canonical }}">{{ cardTag.data.publication }}</a>
                 {% endif %}
                 {% assign myTags = cardTag.data.tags %}
                 {% for tag in myTags %}
                   <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
                 {% endfor %}
                 {% if cardTag.data.date and cardTag.data.type == 'articles-item' %}
-                  <time class="button button--small button--outline">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
+                  <time class="button button--small button--invisible">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
                 {% endif %}
                 {% if cards1.cta %}
                   <div class="copy margin-top">{{ cardTag.data.description }}</div>
@@ -53,7 +53,7 @@
             {% endif %}
             {% if cards1.cta3 %}
               <div class="margin-top">
-                <a href="{{ cards1.cta3.href }}">{{ cards1.cta3.title }}</a>
+                <a class="tdu" href="{{ cards1.cta3.href }}">{{ cards1.cta3.title }}</a>
               </div>
             {% endif %}
           </div>

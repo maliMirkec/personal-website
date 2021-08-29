@@ -30,22 +30,22 @@ sections2:
       Did you know that I worked on several projects with Evan?
     ctas:
       - href: /portfolio/bozzuto/
-        title: Bozzuto ⇢
+        title: Bozzuto
       - href: /portfolio/flexera/
-        title: Flexera ⇢
+        title: Flexera
       - href: /portfolio/flexerasoftware/
-        title: Flexera Software ⇢
+        title: Flexera Software
       - href: /portfolio/calvert/
-        title: Calvert ⇢
+        title: Calvert
       - href: /portfolio/franciscanchildrens/
-        title: Franciscan Children's ⇢
+        title: Franciscan Children's
   - type: hero-beta
     title: From Testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read more ⇢
+      title: Read more
     filter: testimonials
     exclude: true
     limit: 6
@@ -54,7 +54,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 

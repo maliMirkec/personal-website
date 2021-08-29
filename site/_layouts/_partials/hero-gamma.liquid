@@ -10,7 +10,7 @@
           {% endfor %}
         {% endif %}
         {% if date %}
-          <span class="button button--small button--outline">{{ date | date: '%Y-%m-%d' }}</span>
+          <time class="button button--small button--invisible">{{ date | date: '%Y-%m-%d' }}</time>
         {% endif %}
       </div>
       {% if title %}

@@ -13,7 +13,7 @@
 // Styleguide Buttons
 
 .button {
-  @extend .fw-bold;
+  @extend .fw-normal;
   @extend .ttuc;
   @extend .lsp;
   @extend .brad;
@@ -87,6 +87,20 @@
 .button--outline {
   background-color: transparent;
   box-shadow: 0 0 0 2px currentColor inset;
+
+  &[href],
+  &[type] {
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: currentColor;
+    }
+  }
+}
+
+.button--invisible {
+  background-color: transparent;
+  box-shadow: none;
 
   &[href],
   &[type] {

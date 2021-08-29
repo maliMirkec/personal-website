@@ -93,18 +93,18 @@ button:-moz-focusring,
   --color-lightish: #f0f0f0;
   --color-dark: #0f0f0f;
   --color-darkish: #1a1a1a;
-  --font-alpha: Playfair Display, serif;
-  --font-beta: Barlow, sans-serif;
-  --step-6: 54px;
-  --step-5: 46.8px;
-  --step-4: 39.6px;
-  --step-3: 32.4px;
-  --step-2: 25.2px;
-  --step-1: 21.6px;
-  --step-0: 18px;
-  --step--1: 16.2px;
-  --step--2: 14.4px;
-  --line-height: 1.66;
+  --font-beta: Mulish, sans-serif;
+  --step-6: 60px;
+  --step-5: 52px;
+  --step-4: 44px;
+  --step-3: 36px;
+  --step-2: 28px;
+  --step-1: 24px;
+  --step-0: 20px;
+  --step--1: 18px;
+  --step--2: 16px;
+  --line-height1: 1.33;
+  --line-height2: 1.66;
   --letter-spacing: 0.01em;
   --space-default: 0.25rem;
   --space: 1rem;
@@ -118,15 +118,15 @@ button:-moz-focusring,
 
 @media (max-width: 37.49em) {
   :root {
-    --step-6: 39.996px;
-    --step-5: 31.986px;
-    --step-4: 27.99px;
-    --step-3: 23.994px;
-    --step-2: 21.996px;
-    --step-1: 19.998px;
-    --step-0: 18px;
-    --step--1: 15.984px;
-    --step--2: 13.986px;
+    --step-6: 35.552px;
+    --step-5: 28.432px;
+    --step-4: 24.88px;
+    --step-3: 21.328px;
+    --step-2: 19.552px;
+    --step-1: 17.776px;
+    --step-0: 16px;
+    --step--1: 14.208px;
+    --step--2: 12.432px;
     --space-default: 0.1rem;
     --cols: repeat(auto-fill, 1fr);
   }
@@ -240,84 +240,53 @@ hr[class*="hr"]:before {
 }
 
 @font-face {
-  font-family: 'Barlow';
-  src: local("Barlow Medium Italic"), local("Barlow-MediumItalic"), url("/fonts/Barlow/Barlow-MediumItalic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-MediumItalic.woff") format("woff");
-  font-weight: 500;
+  font-family: 'Mulish';
+  src: url("/fonts/Mulish/Mulish-Italic.woff2") format("woff2"), url("Mulish-Italic.woff") format("woff");
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Barlow';
-  src: local("Barlow SemiBold"), local("Barlow-SemiBold"), url("/fonts/Barlow/Barlow-SemiBold.woff2") format("woff2"), url("/fonts/Barlow/Barlow-SemiBold.woff") format("woff");
-  font-weight: 600;
+  font-family: 'Mulish';
+  src: url("/fonts/Mulish/Mulish-Regular.woff2") format("woff2"), url("Mulish-Regular.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Barlow';
-  src: local("Barlow Medium"), local("Barlow-Medium"), url("/fonts/Barlow/Barlow-Medium.woff2") format("woff2"), url("/fonts/Barlow/Barlow-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Barlow';
-  src: local("Barlow SemiBold Italic"), local("Barlow-SemiBoldItalic"), url("/fonts/Barlow/Barlow-SemiBoldItalic.woff2") format("woff2"), url("/fonts/Barlow/Barlow-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
+  font-family: 'Mulish';
+  src: url("/fonts/Mulish/Mulish-BlackItalic.woff2") format("woff2"), url("Mulish-BlackItalic.woff") format("woff");
+  font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Medium Italic"), local("PlayfairDisplay-MediumItalic"), url("/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display SemiBold"), local("PlayfairDisplay-SemiBold"), url("/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.woff") format("woff");
-  font-weight: 600;
+  font-family: 'Mulish';
+  src: url("/fonts/Mulish/Mulish-Black.woff2") format("woff2"), url("Mulish-Black.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display Medium"), local("PlayfairDisplay-Medium"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair Display';
-  src: local("Playfair Display SemiBold Italic"), local("PlayfairDisplay-SemiBoldItalic"), url("/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff2") format("woff2"), url("/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
   font-display: swap;
 }
 
 body {
   font-family: var(--font-beta);
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: var(--step-0);
-  line-height: var(--line-height);
+  line-height: var(--line-height2);
   letter-spacing: var(--letter-spacing);
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-alpha);
+  font-family: var(--font-beta);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
+  line-height: var(--line-height1);
 }
 
 h1 {
@@ -349,7 +318,7 @@ h3 {
 }
 
 .button {
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .text-center {

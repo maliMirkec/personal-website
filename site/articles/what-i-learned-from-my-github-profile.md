@@ -15,7 +15,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 GitHub profile is often recognised as a developer’s portfolio. It reveals how often do you contribute, and what kind of projects do you like. But what else could we discover from a GitHub profile? Here is what I learned.

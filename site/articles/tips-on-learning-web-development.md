@@ -18,7 +18,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 A couple of years ago, I wrote an article about called [“The essential skill of a developer”]. That particular skill is **learning** or the need to continue learning new things. Some people noted this is not a revolutionary conclusion or a breakthrough. It isn’t, indeed, but I do believe learning is the essential skill for every developer.

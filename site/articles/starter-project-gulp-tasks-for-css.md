@@ -19,7 +19,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 This article is part of a series about [Starter Project], and this time I will explain all about Gulp tasks for CSS.

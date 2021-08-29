@@ -30,14 +30,14 @@ sections2:
       Did you know that I built a site powered by Hugo, the world’s fastest framework for building websites, for Edo?
     ctas:
       - href: /portfolio/pinecone/
-        title: Pinecone ⇢
+        title: Pinecone
   - type: hero-beta
     title: From Testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read more ⇢
+      title: Read more
     filter: testimonials
     exclude: true
     limit: 6
@@ -46,7 +46,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 

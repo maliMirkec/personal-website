@@ -18,7 +18,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---
 
 I had this idea for a while, and I have decided to give it a shot with mentoring. Last week I [asked a question about mentoring on dev.to] and the community responded positively. This encouraged me to start my own mentoring program for UI developers.

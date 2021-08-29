@@ -30,20 +30,20 @@ sections2:
       Did you know that I worked on several projects with Grigoriy?
     ctas:
       - href: /portfolio/pinecone/
-        title: Pinecone ⇢
+        title: Pinecone
       - href: /portfolio/dominodatalab/
-        title: Domino Data Lab ⇢
+        title: Domino Data Lab
       - href: /portfolio/dominodatalab-pop/
-        title: Domino Data Lab Pop-up ⇢
+        title: Domino Data Lab Pop-up
       - href: /portfolio/dominodatalab-rev/
-        title: Domino Data Lab Rev ⇢
+        title: Domino Data Lab Rev
   - type: hero-beta
     title: From Testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read more ⇢
+      title: Read more
     filter: testimonials
     exclude: true
     limit: 6
@@ -52,7 +52,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
 ---
 

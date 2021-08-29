@@ -15,15 +15,15 @@ sections:
       desc: Did you know that I am **available for hire**?
       cta:
         href: /contact/
-        title: Hire me ⇢
+        title: Hire me
   - type: cards-gamma
     cta:
-      title: See project ⇢
+      title: Go to project
     filter: projects
   - type: banner-alpha
     title: I am considering new projects for the 2022.
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

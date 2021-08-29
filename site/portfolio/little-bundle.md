@@ -39,14 +39,14 @@ sections:
       title: /Portfolio
     cta:
       href: //littlebundle.com
-      title: Go to site ⇢
+      title: Go to site
   - type: hero-beta
     title: From Testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read full testimonial ⇢
+      title: Read full testimonial
     filter: testimonials
     limit: 6
 sections2:
@@ -56,7 +56,7 @@ sections2:
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
     cta:
-      title: See project ⇢
+      title: Go to project
     filter: portfolio
     exclude: true
     limit: 6
@@ -65,5 +65,5 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 ---

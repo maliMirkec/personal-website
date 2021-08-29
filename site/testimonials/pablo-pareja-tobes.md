@@ -33,14 +33,14 @@ sections2:
       Did you know that I built the WordPress template for Trase Yearbook 2018?
     ctas:
       - href: /portfolio/yearbook-trase/
-        title: See the project ⇢
+        title: See the project
   - type: hero-beta
     title: From Testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read more ⇢
+      title: Read more
     filter: testimonials
     exclude: true
     limit: 6
@@ -49,7 +49,7 @@ sections2:
     desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
     cta:
       href: /contact/
-      title: Hire me ⇢
+      title: Hire me
 excerpt: Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed...
 ---
 

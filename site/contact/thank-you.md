@@ -12,7 +12,7 @@ sections:
       I usually respond within 24 hours.
     cta:
       href: /
-      title: Go home ⇢
+      title: Go home
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
