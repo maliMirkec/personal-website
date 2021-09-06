@@ -19,7 +19,7 @@ sections2:
 
 An enabling selector is what I call a selector that does a job without disabling the particular rule. I'll explain using the following example.
 
-Let's say we have list items and we want to add the margin to the last one.
+Let's say we have list items and we want to add the margin to every one except the last one.
 
 ```html
 <ul>
