@@ -54,8 +54,6 @@ But, unfortunately, that also means you could forget them.
 }
 ```
 
-Recently I found out an even better solution, the [**Insert Unicode extension**](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for VS Code. This extension allows you to search and insert any Unicode character. To do so, press _Command + Shift + p_, type _“insert unicode,”_ and select _Insert Unicode: Insert_ command. After that, search for the character, and select it.
+Recently I found out an even better solution, the [**Insert Unicode extension**](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for VS Code. This extension allows you to search and insert any Unicode character. To do so, press _Command + Shift + p_, type _“insert unicode,”_ and select _Insert Unicode: Insert_ command. After that, search for the character, select it, and that’s it!
 
 ![An example of VS Code extension for inserting Unicode symbol.](https://res.cloudinary.com/starbist/image/upload/v1631130634/l_t0b40s.gif)
-
-That’s it!
