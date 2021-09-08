@@ -10,12 +10,21 @@ thumbnail: Just_My_Routine_As_A_Remote_Worker_ggjr05
 description: "As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker."
 type: articles-item
 sections2:
-  - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
+        </form>
 ---
 
 As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker.

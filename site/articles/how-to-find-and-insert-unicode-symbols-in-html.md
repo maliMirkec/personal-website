@@ -10,12 +10,20 @@ thumbnail: how-to-find-and-insert-unicode-symbols-in-html_chvqia
 description: I will show you a few ways how you could find and insert the Unicode symbol in HTML (or any other file).
 type: articles-item
 sections2:
-  - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
 ---
 
 When I started using MacBook, I couldn’t remember how to type the _right arrow_ (→) symbol. I had a very inefficient process. First, I opened the Keyboard settings on my Mac, and then I inspected sources by pressing _Shift_ or _Option_ or other functional keys until I found the character.

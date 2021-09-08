@@ -13,12 +13,21 @@ thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide_agkuxa
 description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
 type: articles-item
 sections2:
-  - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
+        </form>
 ---
 
 A CSS style guide is a set of standards and rules on how to use and write CSS code. It often contains global branding definitions like colors and typography and a set of reusable components for building a more consistent and maintainable project.

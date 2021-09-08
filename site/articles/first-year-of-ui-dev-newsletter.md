@@ -70,12 +70,21 @@ sections3:
 
         Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it.
 sections2:
-  - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
+        </form>
 ---
 
 A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://mentor.silvestar.codes/reads/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.

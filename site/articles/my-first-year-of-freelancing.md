@@ -10,12 +10,21 @@ thumbnail: My_first_year_of_freelancing_xufkud
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 type: articles-item
 sections2:
-  - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
-    cta:
-      href: /contact/
-      title: Hire me
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+        <div class="cta">
+        </form>
 ---
 
 _I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization._
