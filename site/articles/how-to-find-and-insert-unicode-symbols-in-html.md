@@ -4,8 +4,9 @@ title: How to find and insert Unicode symbols in HTML
 date: 2021-09-08 22:21:00
 tags:
   - blog
-  - css
-thumbnail:
+  - unicode
+  - vs code
+thumbnail: how-to-find-and-insert-unicode-symbols-in-html_chvqia
 description: I will show you a few ways how you could find and insert the Unicode symbol in HTML (or any other file).
 type: articles-item
 sections2:
