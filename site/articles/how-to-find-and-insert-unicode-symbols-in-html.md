@@ -2,6 +2,7 @@
 layout: index
 title: How to find and insert Unicode symbols in HTML
 date: 2021-09-08 22:21:00
+updated: 2021-09-10 13:59:00
 tags:
   - blog
   - unicode
@@ -65,3 +66,5 @@ But, unfortunately, that also means you could forget them.
 Recently I found out an even better solution, the [**Insert Unicode extension**](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for VS Code. This extension allows you to search and insert any Unicode character. To do so, press _Command + Shift + p_, type _“insert unicode,”_ and select _Insert Unicode: Insert_ command. After that, search for the character, select it, and that’s it!
 
 ![An example of VS Code extension for inserting Unicode symbol.](https://res.cloudinary.com/starbist/image/upload/v1631130634/l_t0b40s.gif)
+
+**Update**: It was brought to my attention that macOS has this thing called Character Viewer. This might be the easiest way to insert Unicode. To open Character Viewer, press _Command + Control + Space_. You could search and insert most of the characters. You could [even customize the app](https://www.webnots.com/how-to-use-character-viewer-in-mac/) for easier usage.
