@@ -5,6 +5,9 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
+  - date: '2021-09-27'
+    content: |
+      Until everyone learns Web 101, there is no need for any other Web versions.
   - date: '2021-09-06'
     content: |
       Chris Coyier featured my article about using enabling CSS selectors and he thinks it is a good advice.
