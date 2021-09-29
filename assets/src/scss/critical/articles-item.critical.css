@@ -51,7 +51,8 @@ img {
   border-style: none;
 }
 
-button {
+button,
+input {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -62,7 +63,8 @@ button {
   /* 2 */
 }
 
-button {
+button,
+input {
   /* 1 */
   overflow: visible;
 }
@@ -96,7 +98,7 @@ button:-moz-focusring,
 }
 
 :root {
-  --bp: 80ch;
+  --bp: 66ch;
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
@@ -645,6 +647,11 @@ header nav > ul ul {
   border-radius: var(--border-radius);
   background-color: var(--selection);
   z-index: -1;
+}
+
+.copy p img {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .copy pre code {

@@ -82,7 +82,7 @@ button:-moz-focusring,
 }
 
 :root {
-  --bp: 80ch;
+  --bp: 66ch;
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
