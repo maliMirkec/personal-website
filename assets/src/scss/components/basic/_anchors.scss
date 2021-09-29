@@ -18,7 +18,7 @@ a {
   position: relative;
   overflow: hidden;
   outline: none;
-  transition: all var(--duration);
+  transition: all var(--duration2);
 
   &:not(.button) {
     &:hover,
@@ -68,6 +68,12 @@ a {
       // &:active {
       //   text-decoration: none;
       // }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
     }
   }
 }
