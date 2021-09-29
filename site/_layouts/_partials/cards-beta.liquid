@@ -2,7 +2,7 @@
 {% assign i2 = 1 %}
 
 {% if card2List %}
-  <div id="{{ cards2.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <section id="{{ cards2.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card2 in card2List %}
         {% if cards2.limit and i2 > cards2.limit %}
@@ -21,10 +21,10 @@
                             {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
                           </span>
                         {% endif %}
-                        <span class="db">
+                        <div class="db">
                           <p class="fz-step--1 no-margin">{{ card2.data.title }}</p>
                           <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
-                        </span>
+                        </div>
                       </a>
                     {% endif %}
                   </header>
@@ -63,5 +63,5 @@
         </div>
       {% endif %}
     </div>
-  </div>
+  </section>
 {% endif %}

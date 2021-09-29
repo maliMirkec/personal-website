@@ -1,7 +1,7 @@
 {% assign cardListTag = collections[tag] | reverse %}
 
 {% if cardListTag %}
-  <div id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper">
       <div class="padding no-padding-top">
         {% assign cardListSize = cardListTag | size %}
@@ -25,7 +25,7 @@
                 {% endif %}
                 {% assign myTags = cardTag.data.tags %}
                 {% for tag in myTags %}
-                  <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
+                  <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
                 {% endfor %}
                 {% if cardTag.data.date and cardTag.data.type == 'articles-item' %}
                   <time class="button button--small button--invisible">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
@@ -60,5 +60,5 @@
         </div>
       {% endif %}
     </div>
-  </div>
+  </section>
 {% endif %}

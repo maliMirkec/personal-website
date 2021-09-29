@@ -1,5 +1,5 @@
-<div class="padding" id="share-the-article">
-  <section class="banner margin-top-alpha margin-bottom-alpha">
+<section class="padding" id="share-the-article">
+  <div class="banner margin-top-alpha margin-bottom-alpha">
     <div class="wrapper margin-top margin-bottom text-center">
       <div class="padding">
         {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
@@ -42,5 +42,5 @@
         {% endunless %}
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>

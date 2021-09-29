@@ -48,28 +48,12 @@ img {
       display: none;
     }
   }
-
-  a:not(.glow) & {
-    img {
-      &:hover,
-      &:focus {
-        filter: drop-shadow(0 0 .25rem var(--color-alpha));
-      }
-    }
-  }
 }
 
 .glow {
   &:hover,
   &:focus {
-    filter: drop-shadow(0 0 .25rem var(--color-alpha)) brightness(95%);
-  }
-}
-
-.glow--alpha {
-  &:hover,
-  &:focus {
-    filter: drop-shadow(0 0 .1rem var(--color-light)) drop-shadow(0 0 1rem #{transparentize($color-dark, .75)});
+    background-color: transparent;
   }
 }
 

@@ -23,7 +23,6 @@ sections3:
           </div>
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        <div class="cta">
       </form>
   - type: content-beta
     id: original-q-and-a
@@ -83,7 +82,6 @@ sections2:
           </div>
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        <div class="cta">
         </form>
 ---
 

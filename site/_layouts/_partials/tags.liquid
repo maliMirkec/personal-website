@@ -1,7 +1,7 @@
 {% assign cardTags = collections.allTags %}
 
 {% if cardTags %}
-  <div id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper text-center">
       <div class="padding">
         {% assign cardTagsSize = cardTags | size %}
@@ -20,5 +20,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 {% endif %}

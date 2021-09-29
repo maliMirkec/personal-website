@@ -82,7 +82,6 @@ sections:
           </div>
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        <div class="cta">
       </form>
   - type: hero-beta
     title: From the Blog

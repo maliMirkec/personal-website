@@ -33,7 +33,6 @@ sections:
           </div>
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        <div class="cta">
       </form>
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
@@ -48,6 +47,5 @@ sections:
           </div>
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        <div class="cta">
         </form>
 ---
