@@ -36,7 +36,11 @@ footer {
       }
     }
 
-    >ul {
+    a {
+      white-space: nowrap;
+    }
+
+    > ul {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -59,8 +63,6 @@ footer {
       }
 
       a {
-        white-space: nowrap;
-
         &:not([class]) {
           padding-top: .35em;
           padding-bottom: .35em;

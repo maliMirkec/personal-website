@@ -50,12 +50,12 @@
     cursor: pointer;
 
     &:hover {
-      box-shadow: 0 0 0 .25rem var(--color-alpha);
+      box-shadow: 0 0 0 .15rem var(--color-alpha);
     }
 
     &:focus,
     &:active {
-      box-shadow: 0 0 0 .25rem var(--color-dark);
+      box-shadow: 0 0 0 .15rem var(--color-dark);
     }
   }
 }
@@ -86,14 +86,25 @@
 
 .button--outline {
   background-color: transparent;
-  box-shadow: 0 0 0 2px currentColor inset;
+  box-shadow: 0 0 0 .15rem currentColor;
 
   &[href],
   &[type] {
     &:hover,
-    &:focus {
-      background-color: transparent;
+    &:focus,
+    &:active {
+      background-color: var(--color-alpha);
       color: currentColor;
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 .15rem var(--color-alpha);
+    }
+
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 .15rem var(--color-dark);
     }
   }
 }
@@ -152,7 +163,7 @@
 
     @include mq($until: bp1) {
       position: absolute;
-      top: var(--space);
+      top: calc(var(--space) + .3rem);
       right: var(--space);
       z-index: 1;
 

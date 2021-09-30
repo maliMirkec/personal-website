@@ -1,15 +1,15 @@
 {% if header %}
   <header>
-    <nav aria-label="Main">
+    <nav aria-label="Main" id="MainNavigation">
       <a class="skip-link bg-light" href="#main">Skip to content</a>
-      <button class="button button--small button--outline button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');">
+      <button class="button button--small button--outline button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');this.setAttribute('data-expanded',this.parentNode.classList.contains('active')?'true':'false')" aria-expanded="false" aria-controls="MainNavigation">
         <span>Menu</span>
         <span>Close</span>
       </button>
       <ul class="list-style-none no-spacing">
         {% if header.logo %}
           <li class="margin-top">
-            <a class="db margin-left margin-right glow" href="{{ header.logo.href }}">
+            <a class="dib margin-left margin-right glow" href="{{ header.logo.href }}">
               <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
             </a>
           </li>

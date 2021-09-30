@@ -16,29 +16,31 @@
         {% endif %}
         <div class="card card--flex text-center bg-lightish">
           {% if card1.data.title %}
-            <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="db margin-top" href="{{ card1.url }}">{{card1.data.title}}</a></h3>
+            <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="db margin-top" href="{{ card1.url }}">{{ card1.data.title }}</a></h3>
           {% endif %}
           <div class="padding">
-            {% if card1.data.tags %}
-              <div class="padding">
-                {% if card1.data.publication %}
-                  <a class="button button--small" href="{{ card1.data.canonical }}">{{ card1.data.publication }}</a>
+            <div class="padding">
+              {% if card1.data.publication %}
+                <a class="button button--small" href="{{ card1.data.canonical }}" aria-label="Read original article on {{ card1.data.publication }}">{{ card1.data.publication }}</a>
+              {% endif %}
+              {% if true == false %}
+                {% if card1.data.tags %}
+                  {% assign myTags = card1.data.tags | tagify %}
+                  {% for tag in myTags %}
+                    <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/" aria-label="Tag {{ tag }}">{{ tag }}</a>
+                  {% endfor %}
                 {% endif %}
-                {% assign myTags = card1.data.tags | tagify %}
-                {% for tag in myTags %}
-                  <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
-                {% endfor %}
-                {% if card1.data.date %}
-                  <time class="button button--small button--invisible">{{ card1.data.date | date: "%Y-%m-%d" }}</time>
-                {% endif %}
-                {% if cards1.cta %}
-                  <div class="copy margin-top">{{ card1.data.description }}</div>
-                {% endif %}
-              </div>
-            {% endif %}
+              {% endif %}
+              {% if card1.data.date %}
+                <time class="button button--small button--invisible" datetime="{{ card1.data.date | date: "%Y-%m-%d" }}">{{ card1.data.date | date: "%Y-%m-%d" }}</time>
+              {% endif %}
+              {% if cards1.cta %}
+                <div class="copy margin-top">{{ card1.data.description }}</div>
+              {% endif %}
+            </div>
           </div>
           {% if cards1.cta %}
-            <a class="button df padding" href="{{ card1.url }}">{{ cards1.cta.title }}</a>
+            <a class="button df padding" href="{{ card1.url }}" aria-label="{{ cards1.cta.title }} about {{ card1.data.title }}">{{ cards1.cta.title }}</a>
           {% endif %}
         </div>
         {% assign i1 = i1 | plus: 1 %}

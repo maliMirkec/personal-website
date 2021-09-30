@@ -8,7 +8,7 @@
         <div class="padding margin-top-alpha">
           <div class="margin-top margin-bottom">
             {% if card4.date %}
-              <time class="button button--small button--invisible">{{ card4.date | date: "%Y-%m-%d" }}</time>
+              <time class="button button--small button--invisible" datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%Y-%m-%d" }}</time>
             {% endif %}
           </div>
         </div>

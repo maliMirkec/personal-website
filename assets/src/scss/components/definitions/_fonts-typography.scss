@@ -22,6 +22,8 @@ body {
   text-shadow: 0 1px 0 var(--color-light);
 }
 
+a::selection,
+button::selection,
 pre ::selection {
   text-shadow: none;
 }

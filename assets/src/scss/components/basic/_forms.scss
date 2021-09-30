@@ -29,18 +29,29 @@
   outline: none;
   width: 100%;
   cursor: pointer;
+  transition: all var(--duration2);
 
-  &:hover {
-    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)} inset;
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: var(--color-alpha);
+    box-shadow: 0 0 0 .15rem var(--color-alpha);
   }
 
   &:focus,
   &:active {
-    box-shadow: 0 0 0 .25rem #{transparentize($color-alpha, .75)};
+    box-shadow: 0 0 0 .15rem currentColor;
   }
 
   // &:focus,
   // &:active {
   //   @extend .bsh--alpha2;
   // }
+}
+
+form {
+  .button {
+    position: relative;
+    left: -0.2em;
+  }
 }

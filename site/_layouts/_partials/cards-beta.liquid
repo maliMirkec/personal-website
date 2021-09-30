@@ -22,7 +22,7 @@
                           </span>
                         {% endif %}
                         <div class="db">
-                          <p class="fz-step--1 no-margin">{{ card2.data.title }}</p>
+                          <h3 class="fz-step--1 no-margin">{{ card2.data.title }}</h3>
                           <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
                         </div>
                       </a>
@@ -37,7 +37,7 @@
               </div>
               {% if cards2.cta %}
                 <footer class="text-center margin-top margin-bottom">
-                  <a class="button button--small button--outline padding" href="{{ card2.url }}">{{ cards2.cta.title }}</a>
+                  <a class="button button--small button--outline padding" href="{{ card2.url }}" aria-label="{{ cards2.cta.title }} from {{ card2.data.title }}">{{ cards2.cta.title }}</a>
                 </footer>
               {% endif %}
             </blockquote>
