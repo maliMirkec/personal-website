@@ -50,8 +50,10 @@
 }
 
 form {
-  .button {
-    position: relative;
-    left: -0.2em;
+  &:not(.newsletter) {
+    .button {
+      position: relative;
+      left: -0.2em;
+    }
   }
 }
