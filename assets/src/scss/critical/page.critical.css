@@ -565,7 +565,7 @@ html:not(.dark) .button--toggle span:last-of-type {
   width: 100%;
 }
 
-form .button {
+form:not(.newsletter) .button {
   position: relative;
   left: -0.2em;
 }
