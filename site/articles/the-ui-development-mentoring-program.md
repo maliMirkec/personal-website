@@ -16,7 +16,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -41,7 +41,7 @@ Since I work remotely, I am talking about remote mentoring here. That means I wo
 
 You could read more about me on [my personal site], but here's the short version.
 
-I am an experienced web engineer who has been working with web technologies since 2011. I have started my career as a PHP backend developer. I slowly progressed to becoming a frontend developer, and now I work as a UI developer. I have been working in a local company and later in a local startup until 2017 when I started working as a remote freelance developer. I am also part of the [Toptal talent network].
+I am an experienced web engineer who has been working with web technologies since 2012. I have started my career as a PHP backend developer. I slowly progressed to becoming a frontend developer, and now I work as a UI developer. I have been working in a local company and later in a local startup until 2017 when I started working as a remote freelance developer. I am also part of the [Toptal talent network].
 
 Regarding my mentoring and teaching experience, I have organized coding school in a company where I used to work. I am writing a blog for years where I try to share some technical tips and techniques and my freelance experience. I did some online mentoring via [Codementor] before. Currently, I am mentoring my friend to become a UI developer.
 

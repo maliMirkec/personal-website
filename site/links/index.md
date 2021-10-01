@@ -5,12 +5,14 @@ description: Here are Silvestar's links and profiles from all over the web, from
 sections:
   - type: hero-alpha
     title: Around the web
-    desc: Here are my links and profiles from all over the web, from social networks to projects and publications.
+    desc: |
+      Here are my links and profiles from all over the web, from social networks to projects and publications.
+    narrow: true
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me

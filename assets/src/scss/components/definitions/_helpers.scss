@@ -71,6 +71,10 @@ img {
 }
 
 .wrapper--beta {
+  max-width: calc(var(--bp2) + 2rem);
+}
+
+.wrapper--gamma {
   max-width: calc(var(--bp1) + 2rem);
 }
 

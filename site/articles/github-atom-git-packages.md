@@ -7,13 +7,13 @@ tags:
   - git
 date: 2016-08-22 20:21:37
 thumbnail: Github_Atom_Git_packages_s0tziy
-description: Developers often rely on a version control system and one of the most popular is Git.
+description: Developers often rely on a version control system and one of the most popular is Git.
 type: articles-item
 sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -26,11 +26,11 @@ sections2:
         </form>
 ---
 
-Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
+Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
 
 <!-- more -->
 
-Atom community provides us with plenty of [Git packages](https://atom.io/packages/search?q=git) and these are my favorites:
+Atom community provides us with plenty of [Git packages](https://atom.io/packages/search?q=git) and these are my favorites:
 
 * **[git-plus](https://atom.io/packages/git-plus)**
 * **[tree-view-git-status](https://atom.io/packages/tree-view-git-status)**
@@ -41,21 +41,21 @@ Atom community provides us with plenty of [Git packages](https://atom.io/packag
 
 {% cldnry "git-plus_hi3gmm" "Git-plus in action." %}
 
-When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
+When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
-_I don't recommend using **git-plus** package for complicated Git structures. There are specific tools that are built for that, like [Git Extensions](https://gitextensions.github.io/) or [Tower](https://www.git-tower.com/), to name just a few._
+_I don't recommend using **git-plus** package for complicated Git structures. There are specific tools that are built for that, like [Git Extensions](https://gitextensions.github.io/) or [Tower](https://www.git-tower.com/), to name just a few._
 
-**git-plus** could be installed via package manager, the instructions could be found in the article [First steps with Github Atom](/articles/github-atom-first-steps/).
+**git-plus** could be installed via package manager, the instructions could be found in the article [First steps with Github Atom](/articles/github-atom-first-steps/).
 
-To configure **git-plus** package, Git path should be provided. Make sure to enter the path with actual Git file executable, like this `C:Program FilesGitbingit.exe`. You could configure other options as per your preferences.
+To configure **git-plus** package, Git path should be provided. Make sure to enter the path with actual Git file executable, like this `C:Program FilesGitbingit.exe`. You could configure other options as per your preferences.
 
-To use **git-plus**, press `ctrl + shift + p` to open command-palette and type "git plus"—**git-plus** commands should appear. To open **git-plus** menu directly, use `ctrl + shift + h` shortcut.
+To use **git-plus**, press `ctrl + shift + p` to open command-palette and type "git plus"—**git-plus** commands should appear. To open **git-plus** menu directly, use `ctrl + shift + h` shortcut.
 
-To see Git log in action, click on the little pin icon in a status bar.
+To see Git log in action, click on the little pin icon in a status bar.
 
 ## tree-view-git-status
 
-**tree-view-git-status** package adds Git information in the Atom tree view.
+**tree-view-git-status** package adds Git information in the Atom tree view.
 
 Installation could be done via package manager. Configuration is straightforward, click on the option you prefer.
 
@@ -65,11 +65,11 @@ Installation could be done via package manager. Configuration is straightforward
 
 {% cldnry "git-history_whbavd" "Git-history in action." %}
 
-This package allows you to view history of the file.
+This package allows you to view history of the file.
 
 Package is available on package manager. Configuration options are "Max Commits" and "Show Diff", but you could leave it as it is.
 
-To view file history, open command palette and type in "git history" and select "Git History: Show File History". Shortcut is `ctrl + alt + h`. In a dropdown menu select file version you want to see.
+To view file history, open command palette and type in "git history" and select "Git History: Show File History". Shortcut is `ctrl + alt + h`. In a dropdown menu select file version you want to see.
 
 ## git-log
 
@@ -83,6 +83,6 @@ There is no shortcut for **git-log**, therefore you should use command palette a
 
 ## Final thought
 
-Atom package manager has many Git packages. Which ones are your favorite?
+Atom package manager has many Git packages. Which ones are your favorite?
 
 For more articles, you should follow me on [Twitter](https://twitter.com/malimirkeccita) or checkout [my Medium page](https://medium.com/@malimirkeccita).

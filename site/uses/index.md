@@ -7,6 +7,7 @@ sections:
     elementClass: bg-alpha2
     title: Tools, apps and devices I use
     desc: These are devices, applications and tools, which I use daily, that make my job easier.
+    narrow: true
 ---
 
 Most developers often spend time on their setup, and I am no exception, by no means. I like to organize my computer and my tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.

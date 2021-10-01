@@ -70,13 +70,18 @@
       text-align: left;
     }
 
-    th {
+    th {
       font-size: 112.5%;
     }
   }
 
   iframe {
     max-width: 100%;
+  }
+
+  .button {
+    position: relative;
+    left: -0.2em;
   }
 }
 

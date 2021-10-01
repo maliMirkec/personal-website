@@ -1,4 +1,4 @@
-.newsletter {
+.newsletter {
   p {
     @include mq($until: bp1) {
       text-align: center;

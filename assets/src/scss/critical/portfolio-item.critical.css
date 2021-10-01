@@ -213,6 +213,10 @@ img {
   max-width: calc(var(--bp3) + 2rem);
 }
 
+.wrapper--beta {
+  max-width: calc(var(--bp2) + 2rem);
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -314,15 +318,15 @@ h3 {
 }
 
 h1 {
-  font-size: var(--step-6);
-}
-
-h2 {
   font-size: var(--step-5);
 }
 
-h3 {
+h2 {
   font-size: var(--step-4);
+}
+
+h3 {
+  font-size: var(--step-3);
 }
 
 [class*="fz-step-"] {

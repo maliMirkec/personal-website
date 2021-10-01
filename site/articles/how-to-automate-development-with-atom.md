@@ -12,7 +12,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -37,7 +37,7 @@ Let's say we're starting a new project. It's an open source project, a `JavaScri
 
 ### Beautiful source code
 
-Beautiful source code is a must. Nobody wants to work on a code that is not properly aligned or formatted. But not every developer could produce beautiful code. Most of the times this is not intentional, because when we are in a process of development, we're not focused on beautiful code, we're focused on functional code.
+Beautiful source code is a must. Nobody wants to work on a code that is not properly aligned or formatted. But not every developer could produce beautiful code. Most of the times this is not intentional, because when we are in a process of development, we're not focused on beautiful code, we're focused on functional code.
 
 To make our source code beautiful, we could go manually through every line and apply proper formatting and alignment. We are not gonna do this, though, because there are online tools which could help us, like [Online JavaScript beautifier](http://jsbeautifier.org/).
 
@@ -49,36 +49,36 @@ We should use **[editorconfig](http://editorconfig.org/)**, a set of rules which
 
 _**editorconfig** rules are out of scope of this article. For full documentation, refer to [**editorconfig** official page](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)._
 
-What about `CSS` files?
+What about `CSS` files?
 
-Sure, we should use **editorconfig** here, too. But what if we want to sort `CSS` properties, for example? Or add missing semicolons? Easy, we could use **csscomb**.
+Sure, we should use **editorconfig** here, too. But what if we want to sort `CSS` properties, for example? Or add missing semicolons? Easy, we could use **csscomb**.
 
 ### CSScomb
 
-[**csscomb**](https://github.com/csscomb/csscomb)is a tool which formats `CSS`
+[**csscomb**](https://github.com/csscomb/csscomb)is a tool which formats `CSS`
 files based on configuration file `.csscomb`. There was an online
 tool, but just like Online JavaScript beautifer, there
 is unnecessary cope-paste back and forth again.
 
-To create our config file, we could refer to [all available options](https://github.com/csscomb/csscomb.js/blob/dev/doc/options.md) or to online config builder. We should put our config file in a root folder of a project.
+To create our config file, we could refer to [all available options](https://github.com/csscomb/csscomb.js/blob/dev/doc/options.md) or to online config builder. We should put our config file in a root folder of a project.
 
-This won't work unless we install Atom package for **csscomb**. There are several packages available, but my favorite is [atom-css-comb](https://atom.io/packages/atom-css-comb).
+This won't work unless we install Atom package for **csscomb**. There are several packages available, but my favorite is [atom-css-comb](https://atom.io/packages/atom-css-comb).
 
-Now our `CSS` files are beautiful, too.
+Now our `CSS` files are beautiful, too.
 
 ### pretty-json
 
-We should publish our plugin on package manager, like [bower](https://bower.io/) or [npm](https://www.npmjs.com/). That means we should create and configure `JSON` files: [`bower.json`](https://bower.io/docs/creating-packages/) and [`package.json`](https://docs.npmjs.com/files/package.json). `JSON` files should be pretty, too. That's where [**pretty-json**](https://atom.io/packages/pretty-json) package steps in.
+We should publish our plugin on package manager, like [bower](https://bower.io/) or [npm](https://www.npmjs.com/). That means we should create and configure `JSON` files: [`bower.json`](https://bower.io/docs/creating-packages/) and [`package.json`](https://docs.npmjs.com/files/package.json). `JSON` files should be pretty, too. That's where [**pretty-json**](https://atom.io/packages/pretty-json) package steps in.
 
-This very popular plugin formats `JSON` files on command. As a bonus, this plugin could warn us if our `JSON` files are not properly formatted.
+This very popular plugin formats `JSON` files on command. As a bonus, this plugin could warn us if our `JSON` files are not properly formatted.
 
 ### Minification and uglification
 
-Our source code is beautiful, now's the time to compress our files. Compressed files are usually used in production. Final user doesn't need beautiful file, user doesn't even care about the file, user just want a super fast and fluid experience. Every byte matters, because smaller files equals faster load.
+Our source code is beautiful, now's the time to compress our files. Compressed files are usually used in production. Final user doesn't need beautiful file, user doesn't even care about the file, user just want a super fast and fluid experience. Every byte matters, because smaller files equals faster load.
 
-`CSS` files are minified and `JS` files are uglified. We don't want to use online tools, like [JavaScript Compression Tool](https://jscompress.com/) or [CSS Minifier](https://cssminifier.com/). We don't want to use Atom packages either. The main reason is because we want to make a separate file that is compressed and that couldn't be achieved easily inside Atom.
+`CSS` files are minified and `JS` files are uglified. We don't want to use online tools, like [JavaScript Compression Tool](https://jscompress.com/) or [CSS Minifier](https://cssminifier.com/). We don't want to use Atom packages either. The main reason is because we want to make a separate file that is compressed and that couldn't be achieved easily inside Atom.
 
-What we want is a tool which creates compressed versions of our source code files in a separate files automatically. And for that task we should use tools like **[Gulp](http://gulpjs.com/)**. **Gulp** is a task runner based on [**Node.js**](https://nodejs.org/en/). **Gulp** community created and shared quite a large number of plugins. For our tasks to compress our files, let's use [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin) and [gulp-uglify](https://www.npmjs.com/package/gulp-uglify).
+What we want is a tool which creates compressed versions of our source code files in a separate files automatically. And for that task we should use tools like **[Gulp](http://gulpjs.com/)**. **Gulp** is a task runner based on [**Node.js**](https://nodejs.org/en/). **Gulp** community created and shared quite a large number of plugins. For our tasks to compress our files, let's use [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin) and [gulp-uglify](https://www.npmjs.com/package/gulp-uglify).
 
 _**Gulp** tasks are out of scope of this article, please refer to official [**Gulp** documentation](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)._
 

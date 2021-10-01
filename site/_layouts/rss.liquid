@@ -38,7 +38,7 @@
         {% endif %}
         <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
         {% if article.data.thumbnail %}
-          <enclosure url="{{ article.data.thumbnail | cldnrysrc }}" length="0" type="image/png"/>
+          <enclosure url="{{ article.data.thumbnail | cldnrysrc }}" length="0" type="image/png"/>
         {% endif %}
       </item>
     {% endunless %}

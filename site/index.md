@@ -72,7 +72,7 @@ sections:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -122,8 +122,8 @@ sections:
       href: https://css-auditors.com
       title: Learn more
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me

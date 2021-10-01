@@ -13,7 +13,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -42,11 +42,11 @@ Keybindings, or keyboard shortcuts, are combinations of different keys which, wh
 
 In this tutorial, we'll try to remove and customize `**ctrl-up**` keybinding for moving a line up and then set this keybinding to increment number by 1.
 
-To increment number by 1, we should install [**emmet**](https://atom.io/packages/emmet) plugin, one of the best plugins for fuzzy coding. Once you've installed **emmet** package, open any file containing numbers. Move cursor to any number and press `ctrl-up`. According to **emmet**, this command should increment a number by 1, but sadly it's not. Instead, current line is moved up.
+To increment number by 1, we should install [**emmet**](https://atom.io/packages/emmet) plugin, one of the best plugins for fuzzy coding. Once you've installed **emmet** package, open any file containing numbers. Move cursor to any number and press `ctrl-up`. According to **emmet**, this command should increment a number by 1, but sadly it's not. Instead, current line is moved up.
 
-We need to fix this. First step is to find out which command is currently used. Open the Keybindings page in settings to see the list of all keybindings. You could do this by pressing `ctrl-,` and then click on "Keybindings" or open command palette, type in "keybindings" and select "Settings View: Show keybindings".
+We need to fix this. First step is to find out which command is currently used. Open the Keybindings page in settings to see the list of all keybindings. You could do this by pressing `ctrl-,` and then click on "Keybindings" or open command palette, type in "keybindings" and select "Settings View: Show keybindings".
 
-Go on and search `ctrl-up` to see all related commands.
+Go on and search `ctrl-up` to see all related commands.
 
 {% cldnry "keybindings-settings-1_lq79lw" "Keybindings settings." %}
 
@@ -66,7 +66,7 @@ Paste the copied keybinding command. You should see the command selector and key
 
 {% cldnry "keybindings-keymap-copy_mqcnuz" "Keybindings keymap copy command." %}
 
-To remove the keybinding, use "unset!" command.
+To remove the keybinding, use "unset!" command.
 
 {% cldnry "keybindings-keymap-unset_xfhlkt" "Keybindings keymap unset command." %}
 
@@ -76,14 +76,14 @@ So far we've managed to remove keybinding. To replace it, we need to copy the em
 
 {% cldnry "keybindings-keymap-replace_dmqrfn" "Keybindings keymap replace command." %}
 
-Now we could use `ctrl-up` to increment number by 1.
+Now we could use `ctrl-up` to increment number by 1.
 
 ## Final thought
 
 Keybindings are easy now, no more conflicts.
 
-You could learn more about keybindings in [Atom flight manual](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/#removing-bindings). As of [Atom 1.12 Beta](http://blog.atom.io/2016/10/11/atom-1-11.html), keybinding usability is further simplified.
+You could learn more about keybindings in [Atom flight manual](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/#removing-bindings). As of [Atom 1.12 Beta](http://blog.atom.io/2016/10/11/atom-1-11.html), keybinding usability is further simplified.
 
-I hope you'll find this tutorial useful. Please feel free to comment below.
+I hope you'll find this tutorial useful. Please feel free to comment below.
 
-Follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).
+Follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).

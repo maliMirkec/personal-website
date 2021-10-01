@@ -12,7 +12,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -27,7 +27,7 @@ sections2:
 
 **Angular dragtable** is an Angular directive that allows table column reorder.
 
-I've been searching for a similar solution, including JavaScript libraries, jQuery plugins or Angular directives. I've tested various solutions, but nothing worked as expected. So I decided to create brand new directive.
+I've been searching for a similar solution, including JavaScript libraries, jQuery plugins or Angular directives. I've tested various solutions, but nothing worked as expected. So I decided to create brand new directive.
 
 <!-- more -->
 
@@ -36,7 +36,7 @@ And the demo is available [here.](https://frontend-developer.xyz/angular-dragtab
 
 ## Angular dragtable events
 
-**Angular dragtable** uses _drag_ events. [_Drag_ events](https://developer.mozilla.org/en-US/docs/Web/API/DragEvent) are around for a while and have a pretty good support. There are some [issues](http://mereskin.github.io/dnd/), but nothing that cannot be solved. It should be noted that the _drag_ events do not work on mobile devices. Although I thought about implementing mobile support using [touch events](https://developer.mozilla.org/en/docs/Web/API/Touch_events) or excellent [jQuery UI Touch Punch](http://touchpunch.furf.com/) plugin, I give up at the end. This feature is not crucial on mobile devices. Even if I did provide mobile implementation, it could be really hard to use this feature.
+**Angular dragtable** uses _drag_ events. [_Drag_ events](https://developer.mozilla.org/en-US/docs/Web/API/DragEvent) are around for a while and have a pretty good support. There are some [issues](http://mereskin.github.io/dnd/), but nothing that cannot be solved. It should be noted that the _drag_ events do not work on mobile devices. Although I thought about implementing mobile support using [touch events](https://developer.mozilla.org/en/docs/Web/API/Touch_events) or excellent [jQuery UI Touch Punch](http://touchpunch.furf.com/) plugin, I give up at the end. This feature is not crucial on mobile devices. Even if I did provide mobile implementation, it could be really hard to use this feature.
 
 The main idea of **Angular dragtable** directive is to reorder the table columns by dragging table header cell. We have to listen when _drag_ event starts and when it ends. When dragging occurs we should display _ghost_ floating table column as a current position indicator. **Angular dragtable** actually contains 2 directives, one for _draggable_ elements and one for _droppable_ elements. A full code could be found [here](https://github.com/maliMirkec/angular-dragtable/blob/master/angular-dragtable.js).
 
@@ -54,9 +54,9 @@ And finally, we will use `dragend` event to remove _ghost_ column.
 
 ## Dropping
 
-Dropping events allow us to reorder columns by listening when _ghost_ column is over the current column. To enable _droppable_ events on header cell, we should add `drop-me` directive. For this purpose, we should use `dragover` event. This event fires when _draggable_ element is over _droppable_ element.
+Dropping events allow us to reorder columns by listening when _ghost_ column is over the current column. To enable _droppable_ events on header cell, we should add `drop-me` directive. For this purpose, we should use `dragover` event. This event fires when _draggable_ element is over _droppable_ element.
 
-On `dragover` event, we want to determine a direction of dragging event and append _ghost_ column before or after current column. This means that we don't need to listen to `drop` event because we are responding with a live action on `dragover` event. That is desirable effect as we want to avoid unnecessary events. Again, we should set _timeout_ here, just like we did on `drag` event.
+On `dragover` event, we want to determine a direction of dragging event and append _ghost_ column before or after current column. This means that we don't need to listen to `drop` event because we are responding with a live action on `dragover` event. That is desirable effect as we want to avoid unnecessary events. Again, we should set _timeout_ here, just like we did on `drag` event.
 
 ## Usage
 

@@ -13,7 +13,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -51,7 +51,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **minimap-autohide** automatically hides the **minimap** when not in focus and shows the **minimap** when a file is scrolled. It provides less distraction for a coder.
 
-**minimap-cursorline** displays Atom cursorline in the **minimap**. It is very useful when you need to scan your current position in the file quickly.
+**minimap-cursorline** displays Atom cursorline in the **minimap**. It is very useful when you need to scan your current position in the file quickly.
 
 **minimap-selection** and **minimap-highlight-selected** are very similar **minimap** extensions. **minimap-selection** displays buffer's selection on the **minimap**. **minimap-highlight-selected** is a **minimap** binding for the **[highlight-selected package](https://github.com/richrace/highlight-selected)**. What it does is display highlighted sections of text in the **minimap**.
 

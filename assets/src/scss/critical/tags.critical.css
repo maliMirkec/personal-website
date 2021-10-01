@@ -205,7 +205,7 @@ img {
   max-width: calc(var(--bp) + 2rem);
 }
 
-.wrapper--beta {
+.wrapper--gamma {
   max-width: calc(var(--bp1) + 2rem);
 }
 
@@ -287,7 +287,7 @@ h1 {
 }
 
 h1 {
-  font-size: var(--step-6);
+  font-size: var(--step-5);
 }
 
 [class*="fz-step-"] {

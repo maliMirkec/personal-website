@@ -13,7 +13,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -36,7 +36,7 @@ _CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-a
 
 ## HTML structure
 
-Let's start with `HTML`.  This is the full structure:
+Let's start with `HTML`. This is the full structure:
 
 {% codepen "CiTA" "YGZyOm" "dark" "html" %}
 
@@ -110,7 +110,7 @@ Now for the fun part, using `CSS` to control the tabs. We will take advantage of
 
 If the first child of a `input type="radio"` is checked, the first tab should be active and the content of the first tab should be displayed.
 
-Easy, we'll use `.input__radio:nth-of-type(1)` to select the first `input type="radio"`. Then we'll check if `input` is checked:  `.input__radio:nth-of-type(1):checked` and find the first tab using siblings selector: `.input__radio:nth-of-type(1):checked ~ .tabs__label:nth-of-type(1)`. Finally, we'll find the content of the first tab: `.input__radio:nth-of-type(1):checked ~ .tabs__content:nth-of-type(1)`.
+Easy, we'll use `.input__radio:nth-of-type(1)` to select the first `input type="radio"`. Then we'll check if `input` is checked: `.input__radio:nth-of-type(1):checked` and find the first tab using siblings selector: `.input__radio:nth-of-type(1):checked ~ .tabs__label:nth-of-type(1)`. Finally, we'll find the content of the first tab: `.input__radio:nth-of-type(1):checked ~ .tabs__content:nth-of-type(1)`.
 
 Now that we know how to do this for first tab, we could use `@for` loop and repeat this for every tab. And that's it!
 
@@ -134,4 +134,4 @@ Full demo is available on [Github](https://github.com/maliMirkec/csstabs) and vi
 
 Do you find this solution usable, because I really like how we could do even more complex things with `CSS` only nowdays?
 
-Make sure you follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita), more posts are coming soon.
+Make sure you follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita), more posts are coming soon.

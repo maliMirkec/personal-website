@@ -41,27 +41,27 @@ h6 {
 }
 
 h1 {
-  font-size: var(--step-6);
-}
-
-h2 {
   font-size: var(--step-5);
 }
 
-h3 {
+h2 {
   font-size: var(--step-4);
 }
 
-h4 {
+h3 {
   font-size: var(--step-3);
 }
 
-h5 {
+h4 {
   font-size: var(--step-2);
 }
 
-h6 {
+h5 {
   font-size: var(--step-1);
+}
+
+h6 {
+  font-size: var(--step-0);
 }
 
 [class*="fz-step-"] {

@@ -7,11 +7,12 @@ sections:
     title: How I built this website
     desc: >-
       This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
+    narrow: true
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me

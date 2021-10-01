@@ -295,11 +295,11 @@ h2 {
 }
 
 h1 {
-  font-size: var(--step-6);
+  font-size: var(--step-5);
 }
 
 h2 {
-  font-size: var(--step-5);
+  font-size: var(--step-4);
 }
 
 [class*="fz-step-"] {

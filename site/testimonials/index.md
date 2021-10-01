@@ -21,8 +21,8 @@ sections:
       title: Read full testimonial
     filter: testimonials
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me

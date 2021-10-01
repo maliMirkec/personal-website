@@ -280,11 +280,11 @@ h3 {
 }
 
 h1 {
-  font-size: var(--step-6);
+  font-size: var(--step-5);
 }
 
 h3 {
-  font-size: var(--step-4);
+  font-size: var(--step-3);
 }
 
 [class*="fz-step-"] {

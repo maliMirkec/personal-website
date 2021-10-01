@@ -216,6 +216,10 @@ img {
 }
 
 .wrapper--beta {
+  max-width: calc(var(--bp2) + 2rem);
+}
+
+.wrapper--gamma {
   max-width: calc(var(--bp1) + 2rem);
 }
 
@@ -299,15 +303,15 @@ h3 {
 }
 
 h1 {
-  font-size: var(--step-6);
-}
-
-h2 {
   font-size: var(--step-5);
 }
 
-h3 {
+h2 {
   font-size: var(--step-4);
+}
+
+h3 {
+  font-size: var(--step-3);
 }
 
 [class*="fz-step-"] {
@@ -670,4 +674,9 @@ header nav > ul ul {
 
 .copy > :last-child {
   margin-bottom: 0;
+}
+
+.copy .button {
+  position: relative;
+  left: -0.2em;
 }

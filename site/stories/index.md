@@ -5,6 +5,11 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
+  - date: '2021-10-01'
+    content: |
+      Starting a full-time position today.
+
+      It was hard to give resignation notice to my clients. Just [look at the comments](https://www.kudoboard.com/boards/kM7XbBJa#view) they left.
   - date: '2021-09-27'
     content: |
       Until everyone learns Web 101, there is no need for any other Web versions.
@@ -51,8 +56,8 @@ sections:
     cta:
       title: Read more
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me

@@ -1,16 +1,16 @@
 ---
 layout: index
-title: Grigoriy Kogan
-description: Grigoriy Kogan talks about his positive experience in working with Silvestar Bistrović.
+title: Christine White
+description: Christine White talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
-avatar: gk_i7hj6p
+avatar: cw_cdvokw
 order: 4
-date: 2000-01-04
-position: Growth Consultant
+date: 2000-01-01
+position: Director of Web Strategy
 company: Domino Data Lab
 sections:
   - type: hero-alpha
@@ -18,19 +18,17 @@ sections:
     alt: Logo of Domino Data Lab.
     width: 128
     height: 40
-    avatar: gk_i7hj6p
-    title: Grigoriy Kogan
-    desc: Growth Consultant at Domino Data Lab
+    avatar: cw_cdvokw
+    title: Christine White
+    desc: Director of Web Strategy at Domino Data Lab.
     tag:
       href: /testimonials/
       title: /Testimonials
 sections2:
   - type: banner-beta
     desc: >-
-      Did you know that I worked on several projects with Grigoriy?
+      Did you know that I helped migrate Domino Data Lab site from Jekyll to HubSpot CMS?
     ctas:
-      - href: /portfolio/pinecone/
-        title: Pinecone
       - href: /portfolio/dominodatalab/
         title: Domino Data Lab
       - href: /portfolio/dominodatalab-pop/
@@ -53,7 +51,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
+excerpt: Silvestar is diligent, focused, quick, and always willing to go the extra mile...
 ---
 
-> _When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind. For good reason: He has demonstrated time and time again his ability to understand business requirements, come up with creative and effective solutions, perform the work to meet high standards, and communicate clearly all throughout._
+> _I worked with Silvestar for 8 months during his engagement with Domino. Silvestar is diligent, focused, quick, and always willing to go the extra mile to make a recommendation for how to do something better. I knew we could rely on Silvestar for anything, and was impressed at how quick he learned the HubSpot CMS to support us during a migration. For that I would highly recommend Silvestar._

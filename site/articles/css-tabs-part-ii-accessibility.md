@@ -14,7 +14,7 @@ sections2:
   - type: banner-beta
     desc: Did you know that I am running **UI Dev Newletter**?
     code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--beta margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
         <div class="margin-top">
           <label for="bd-email">Subscribe here. Enter email.</label>
@@ -49,7 +49,7 @@ We need to find a tool to test our tabs for accessibility. Web Accessibility Ini
 
 ### ngrok
 
-Since I was developing [locally](/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
+Since I was developing [locally](/articles/perfect-local-server-with-atom/), **WAVE** couldn't access my localhost. I found solution in **[ngrok](https://ngrok.com/)**, a tool that makes tunnels for localhost. To create a tunnel for your localhost, download **ngrok** executable file, place it in project root, open Command Prompt and start it using `ngrok http 9000` command. Last number is the port number of your application which is 9000 in my case. Then open `127.0.0.1:4040` page, copy tunnel URL and paste it in **WAVE** application. Here's how it looks in action (_and yes, that's Pokemon theme for Firefox_):
 
 {% cldnry "ngrok-in-action_u2lpmo" "ngrok in action." %}
 
@@ -59,25 +59,25 @@ Since I was developing [locally](/articles/perfect-local-server-with-atom/), **
 
 ### aria attributes
 
-Our tabs are not yet accessible. To make it accessible for every user, device and tool, we should add **[aria attributes](https://en.wikipedia.org/wiki/WAI-ARIA)**. **aria attributes** are used to add context for elements. That way tools and devices are able to read the content and reproduce it in a way that every user could understand it.
+Our tabs are not yet accessible. To make it accessible for every user, device and tool, we should add **[aria attributes](https://en.wikipedia.org/wiki/WAI-ARIA)**. **aria attributes** are used to add context for elements. That way tools and devices are able to read the content and reproduce it in a way that every user could understand it.
 
 ### Screen readers
 
-We should test our tabs in some of the [assistive technology tools](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ#Assistive_Technologies), because results could help us start adding accessibility. I decided to use **[Jaws](http://www.freedomscientific.com/Products/Blindness/JAWS)** and **[NVDA](http://www.nvaccess.org/)**, both available for free on Windows platform. First thing I noticed, after running these tools, was that `HTML` structure is not suitable for accessibility. We need to add `div` wrappers for tab labels and tab content.
+We should test our tabs in some of the [assistive technology tools](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ#Assistive_Technologies), because results could help us start adding accessibility. I decided to use **[Jaws](http://www.freedomscientific.com/Products/Blindness/JAWS)** and **[NVDA](http://www.nvaccess.org/)**, both available for free on Windows platform. First thing I noticed, after running these tools, was that `HTML` structure is not suitable for accessibility. We need to add `div` wrappers for tab labels and tab content.
 
 ### aria roles
 
-Now we could add **aria attributes**. There are [specific aria roles for tabs](https://whatsock.com/training/matrices/#tablist):
+Now we could add **aria attributes**. There are [specific aria roles for tabs](https://whatsock.com/training/matrices/#tablist):
 
 * _tablist_,
 * _tab_ and
 * _tabpanel_.
 
-Every role could have required and optional attributes. Required attributes are easy, because we know we should add it to an element. Optional attributes are problem: how can we know which ones work and which ones don't? Ideally, every attribute should work. But as I discovered, they don't.
+Every role could have required and optional attributes. Required attributes are easy, because we know we should add it to an element. Optional attributes are problem: how can we know which ones work and which ones don't? Ideally, every attribute should work. But as I discovered, they don't.
 
-### Trial and error
+### Trial and error
 
-Because there are so many tools and devices and documentation is overwhelming, I decided to use trial and error method this time. After few hours, I came up with final solution. You could see it in this pen:
+Because there are so many tools and devices and documentation is overwhelming, I decided to use trial and error method this time. After few hours, I came up with final solution. You could see it in this pen:
 
 {% codepen "CiTA" "LRKEPQ" "dark" "result" %}
 
@@ -89,7 +89,7 @@ To position every radio input, we could use absolute position with top and left 
 
 ### Interaction
 
-To add some interaction, we should add a little bit of JavaScript. It is mostly used for changing states, like `aria-activedescendant`, `aria-selected` and `aria-expanded`. `HTML` and `CSS` are still used for handling tabs.
+To add some interaction, we should add a little bit of JavaScript. It is mostly used for changing states, like `aria-activedescendant`, `aria-selected` and `aria-expanded`. `HTML` and `CSS` are still used for handling tabs.
 
 ### Navigation
 
@@ -99,7 +99,7 @@ Also, we should add trigger to help users jump to content from tabs. If a user p
 
 ### Final thought
 
-Accessibility is hard to implement, but non accessible content is even harder to interpret for impaired users. We should try our best and make our content accessible.
+Accessibility is hard to implement, but non accessible content is even harder to interpret for impaired users. We should try our best and make our content accessible.
 
 But on the other hand, if you're making a solution for targeted audience and there are no special request for accessibility, aria attributes may not be necessary. They are hard to implement and very time consuming.
 

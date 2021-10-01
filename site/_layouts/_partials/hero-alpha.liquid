@@ -1,5 +1,5 @@
 <section class="hero margin-top-alpha margin-bottom-alpha">
-  <div class="wrapper text-center">
+  <div class="wrapper{% unless hero1.narrow %} wrapper--beta{% endunless %} text-center">
     <div class="padding">
       {% if hero1.tag or tags %}
         <div class="margin-bottom">

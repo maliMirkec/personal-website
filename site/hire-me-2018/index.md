@@ -6,11 +6,12 @@ sections:
   - type: hero-alpha
     title: I am available for hire
     desc: If you want me on your team, you should send me an email at [me@silvestar.codes](mailto:me@silvestar.codes). I'm also available on [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers). You will benefit from my experience and services that I could provide.
+    narrow: true
 type: articles-item
 sections2:
   - type: banner-alpha
-    title: I am considering new projects for the 2022.
-    desc: I specialized in **HTML**, **CSS**, **JavaScript**, **WordPress**, **Shopify**, and **JAMstack** technologies.
+    title: I am available for consultation services.
+    desc: I specialize in technologies related to frontend, user interface, and web development.
     cta:
       href: /contact/
       title: Hire me
@@ -20,7 +21,7 @@ If you want me on your team, you should [contact me](/contact/). I'm also availa
 
 ## Why me
 
-I've been working with web technologies since 2011. I first started as a PHP developer in 2012. We were a small team of 2 and we worked on various projects like:
+I've been working with web technologies since 2012. I first started as a PHP developer in 2012. We were a small team of 2 and we worked on various projects like:
 
 - building custom CMS for websites;
 - building custom CRM solutions;
