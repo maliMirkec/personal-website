@@ -1457,7 +1457,7 @@ sections:
 - [http://www.dobambam.com/](http://www.dobambam.com/)
 - [http://vitalets.github.io/angular-xeditable/](http://vitalets.github.io/angular-xeditable/)
 - [http://brace.io/](http://brace.io/)
-- [http://littlevisuals.co/](http://littlevisuals.co/)
+- [http://littlevisuals.co/](https://www.chamberofcommerce.org/findaphoto/)
 - [http://pieroxy.net/blog/pages/color-finder/demo.html](http://pieroxy.net/blog/pages/color-finder/demo.html)
 - [https://github.com/drublic/less-mixins/blob/master/mixins.less](https://github.com/drublic/less-mixins/blob/master/mixins.less)
 - [https://github.com/toddmotto/echo](https://github.com/toddmotto/echo)
