@@ -8,8 +8,7 @@ type: testimonials-item
 thumbnail: cci_ohuha5
 logo: cci_xk4gjk
 avatar: jg_lqw7xd
-order: 1
-date: 2000-01-02
+date: 2003-01-01
 position: Founder
 company: Credit Card Insider
 sections:

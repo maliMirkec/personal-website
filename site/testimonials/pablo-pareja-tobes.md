@@ -8,8 +8,7 @@ type: testimonials-item
 thumbnail: yb_urvwkg
 logo: yt_iyy37j
 avatar: ppt_bvwjey
-order: 8
-date: 2000-01-08
+date: 2008-01-01
 position: Project Manager
 company: Vizzuality
 projects:
@@ -50,7 +49,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed...
+excerpt: Silvestar was professional and had a very good attitude during all time...
 ---
 
 > _Silvestar collaborated with me on a project and the WordPress template that he developed was successful and timely completed. He was professional and had a very good attitude during all the implementation time. I would work with him again should the occasion arise._

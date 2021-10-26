@@ -8,10 +8,9 @@ type: testimonials-item
 thumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: gk_i7hj6p
-order: 4
-date: 2000-01-04
-position: Growth Consultant
-company: Domino Data Lab
+date: 2004-01-02
+position: VP of Marketing
+company: Pinecone
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd
@@ -20,7 +19,7 @@ sections:
     height: 40
     avatar: gk_i7hj6p
     title: Grigoriy Kogan
-    desc: Growth Consultant at Domino Data Lab
+    desc: VP of Marketing at Pinecone
     tag:
       href: /testimonials/
       title: /Testimonials

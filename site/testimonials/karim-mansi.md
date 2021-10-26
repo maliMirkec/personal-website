@@ -8,10 +8,9 @@ type: testimonials-item
 thumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: km_ivecgh
-order: 6
-date: 2000-01-06
+date: 2005-01-02
 position: eCommerce Product Manager
-company: Westwing Home & Living
+company: Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy
@@ -47,7 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire...
+excerpt: Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful...
 ---
 
 > _While working a senior Product Manager at Westwing Home & Living, I had the pleasure to hire Silvestar to build our static corporate website. The project went very smoothly and was delivered on time. Communication with Silvestar was straightforward, clear and reliable. He was also very resourceful and what he didn't know he figured out on his own. I would definitely recommend him for static web solutions and other web front-end projects._

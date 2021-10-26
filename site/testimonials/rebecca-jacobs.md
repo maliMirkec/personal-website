@@ -7,9 +7,8 @@ tags:
 type: testimonials-item
 thumbnail: cs_zg7xpc
 logo: cs_zg7xpc
-order: 5
 avatar: rj_tducdx
-date: 2000-01-01
+date: 2006-01-01
 position: Marketing Manager
 company: CodeScan
 sections:

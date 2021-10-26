@@ -8,8 +8,8 @@ type: testimonials-item
 thumbnail: pc_h99bkn
 logo: pinecone-logo_ybycgg
 avatar: el2_ptyk3k
-order: 4
-date: 2000-01-04
+order: 400
+date: 2004-01-01
 position: Founder, CEO, and Scientist
 company: Pinecone
 sections:

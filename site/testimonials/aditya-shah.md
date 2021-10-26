@@ -1,15 +1,15 @@
 ---
 layout: index
-title: Christine White
-description: Christine White talks about his positive experience in working with Silvestar Bistrović.
+title: Aditya Shah
+description: Aditya Shah talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
-avatar: cw_cdvokw
-date: 2000-01-01
-position: Director of Web Strategy
+avatar: as_roazni
+date: 2000-01-06
+position: MarketingOps Leader
 company: DDL
 sections:
   - type: hero-alpha
@@ -17,9 +17,9 @@ sections:
     alt: Logo of Domino Data Lab.
     width: 128
     height: 40
-    avatar: cw_cdvokw
-    title: Christine White
-    desc: Director of Web Strategy at Domino Data Lab.
+    avatar: as_roazni
+    title: Aditya Shah
+    desc: MarketingOps Leader at Domino Data Lab.
     tag:
       href: /testimonials/
       title: /Testimonials
@@ -50,7 +50,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: Silvestar is diligent, focused, quick, and always willing to go the extra mile...
+excerpt: Silvestar was an outstanding collaborator, supremely dependable doer...
 ---
 
-> _I worked with Silvestar for 8 months during his engagement with Domino. Silvestar is diligent, focused, quick, and always willing to go the extra mile to make a recommendation for how to do something better. I knew we could rely on Silvestar for anything, and was impressed at how quick he learned the HubSpot CMS to support us during a migration. For that I would highly recommend Silvestar._
+> _Silvestar was an outstanding collaborator, supremely dependable doer, and an absolutely crucial partner in our most critical web projects. We simply couldn't have accomplished everything we did without him. Any team lucky enough to work with Silvestar will be as thrilled, impressed, and grateful as we are._

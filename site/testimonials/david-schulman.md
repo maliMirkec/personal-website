@@ -1,15 +1,15 @@
 ---
 layout: index
-title: Christine White
-description: Christine White talks about his positive experience in working with Silvestar Bistrović.
+title: David Schulman
+description: David Schulman talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
-avatar: cw_cdvokw
-date: 2000-01-01
-position: Director of Web Strategy
+avatar: ds_ste3yw
+date: 2000-01-04
+position: Senior Manager of Partner Marketing
 company: DDL
 sections:
   - type: hero-alpha
@@ -17,9 +17,9 @@ sections:
     alt: Logo of Domino Data Lab.
     width: 128
     height: 40
-    avatar: cw_cdvokw
-    title: Christine White
-    desc: Director of Web Strategy at Domino Data Lab.
+    avatar: ds_ste3yw
+    title: David Schulman
+    desc: Senior Manager of Partner Marketing at Domino Data Lab.
     tag:
       href: /testimonials/
       title: /Testimonials
@@ -50,7 +50,9 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: Silvestar is diligent, focused, quick, and always willing to go the extra mile...
+excerpt: Silvestar was INSTRUMENTAL in some of my first big wins...
 ---
 
-> _I worked with Silvestar for 8 months during his engagement with Domino. Silvestar is diligent, focused, quick, and always willing to go the extra mile to make a recommendation for how to do something better. I knew we could rely on Silvestar for anything, and was impressed at how quick he learned the HubSpot CMS to support us during a migration. For that I would highly recommend Silvestar._
+> _I worked with Silvestar for when I first started at Domino Data Lab, he was INSTRUMENTAL in some of my first big wins as Head of Partner Marketing, including launching the Domino Partner Network - a massive milestone for us!_
+>
+> _Silvestar is detail-oriented, extremely responsive, and VERY CREATIVE with bringing solutions to work around dependencies and constraints. I have no doubts that Silvestar will be a KEY RESOURCE for any organization he joins!_

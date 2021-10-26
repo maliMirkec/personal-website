@@ -8,8 +8,7 @@ type: testimonials-item
 thumbnail: hhx_p45br6
 logo: hhx_nntltz
 avatar: hhx_iu8agl
-order: 3
-date: 2000-01-09
+date: 2009-01-01
 position: Product Designer
 company: Lyft
 projects:
@@ -50,7 +49,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: I collaborated closely with Silvestar on a project. Throughout the span of the project, Silvestar...
+excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 
 > _I collaborated closely with Silvestar on a project._

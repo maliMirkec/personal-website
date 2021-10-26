@@ -8,10 +8,9 @@ type: testimonials-item
 thumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: ri_bekodu
-order: 7
-date: 2000-01-07
+date: 2005-01-02
 position: Product Manager
-company: Westwing Home & Living
+company: Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy
@@ -47,7 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: I recently worked with Silvestar on a webpage development project. He was extremely professional...
+excerpt: Silvestar was extremely professional, capable, responsive, and very pleasant to work with...
 ---
 
 > _I recently worked with Silvestar on a webpage development project. He was extremely professional, capable, responsive, and very pleasant to work with. He managed numerous design revisions and small detailed feedback (sometimes multiple times per day) with ease and with fast turnaround. He was also very honest and reasonable about the level of effort required to complete the project from the very first meeting. I would absolutely work with Silvestar again and wish him much success on his future endeavors!_

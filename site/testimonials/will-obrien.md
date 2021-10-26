@@ -7,9 +7,8 @@ tags:
 type: testimonials-item
 thumbnail: cs_zg7xpc
 logo: cs_zg7xpc
-order: 5
 avatar: wo_s4ocq4
-date: 2000-01-07
+date: 2006-01-02
 position: DevOps Consultant
 company: CodeScan
 sections:
@@ -47,7 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project....
+excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile...
 ---
 
 > _Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project out the door. I would definitely look to hire him for any future web work._

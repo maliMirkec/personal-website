@@ -8,10 +8,9 @@ type: testimonials-item
 thumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: am_zanda5
-order: 5
-date: 2000-01-05
+date: 2005-01-01
 position: CTO
-company: Westwing Home & Living
+company: Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy
@@ -47,7 +46,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: It was a pleasure to work with Silvestar. He was available on a short notice, he...
+excerpt: It was a pleasure to work with Silvestar. He delivered the project on time with good quality...
 ---
 
 > _It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him._

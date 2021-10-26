@@ -8,10 +8,9 @@ type: testimonials-item
 thumbnail: b_csao4p
 logo: bm_qlnuvi
 avatar: el_keb12t
-order: 2
-date: 2000-01-02
+date: 2007-01-01
 position: Partner & Executive Director
-company: BEAM Interactive
+company: BEAM
 sections:
   - type: hero-alpha
     src: bm_qlnuvi
