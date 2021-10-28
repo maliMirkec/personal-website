@@ -1,0 +1,6 @@
+{
+  "newsletter": {
+    "desc": "Did you know that I am running **UI Dev Newsletter**?",
+    "code": "<form class=\"embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://buttondown.email/starbist', 'popupwindow')\">  <input type=\"hidden\" value=\"1\" name=\"embed\" />\n  <div class=\"margin-top\">\n    <label for=\"bd-email\">Subscribe here. Enter email.</label>\n    <div class=\"newsletter__input\">\n      <input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n      <input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n    </div>\n  </div>\n  <p class=\"no-margin\"><small><a href=\"https://buttondown.email\" target=\"_blank\" rel=\"noreferrer\">Powered by Buttondown</a></small></p>\n</form>"
+  }
+}

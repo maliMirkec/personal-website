@@ -13,6 +13,7 @@ $mq-breakpoints: (
 // Colors
 $color-alpha: hsl(161, 85%, 47%);
 $color-alpha-dark: hsl(161, 85%, 27%);
+$color-alpha-hover: hsl(161, 85%, 67%);
 $color-beta: hsl(345, 100%, 60%);
 $color-beta-dark: hsl(345, 80%, 50%);
 $color-light: hsl(0, 0%, 98%);
@@ -57,6 +58,7 @@ $gap: $space * 2;
   // Colors
   --selection: #{transparentize($color-alpha, .8125)};
   --color-alpha: #{$color-alpha};
+  --color-alpha-hover: #{$color-alpha-hover};
   --color-beta: #{$color-beta};
   --color-light: #{$color-light};
   --color-lightish: #{$color-lightish};
@@ -111,5 +113,11 @@ $gap: $space * 2;
 
     // Grid
     --cols: #{$cols-bp1};
+  }
+
+  @media (prefers-reduced-motion) {
+    --duration: .05s;
+    --duration2: .05s;
+    --delay: .05s;
   }
 }

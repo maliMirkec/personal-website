@@ -2,6 +2,9 @@
   <section class="banner margin-top-alpha margin-bottom-alpha">
     <div class="wrapper wrapper--beta margin-top margin-bottom text-center">
       <div class="padding">
+        {% if banner1.banner and cta[banner1.banner] %}
+          {% assign banner1 = cta[banner1.banner] %}
+        {% endif %}
         {% if banner1.src %}
           <img src="{{ banner1.src }}" alt="{{ banner1.alt }}" width="100" height="100" loading="lazy">
         {% endif %}

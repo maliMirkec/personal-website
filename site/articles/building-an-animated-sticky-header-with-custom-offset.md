@@ -11,19 +11,7 @@ description: "With the appearance of the position: sticky property, we could cre
 type: articles-item
 sections2:
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        </form>
+    banner: newsletter
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.

@@ -104,6 +104,7 @@ button:-moz-focusring,
   --bp3: 1600px;
   --selection: rgba(18, 222, 157, 0.1875);
   --color-alpha: #12de9d;
+  --color-alpha-hover: #63f2c5;
   --color-beta: #ff3366;
   --color-light: #fafafa;
   --color-lightish: #f0f0f0;
@@ -145,6 +146,14 @@ button:-moz-focusring,
     --step--2: 12.432px;
     --space-default: 0.1rem;
     --cols: repeat(auto-fill, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  :root {
+    --duration: .05s;
+    --duration2: .05s;
+    --delay: .05s;
   }
 }
 
@@ -391,6 +400,7 @@ code {
 
 .dark {
   --color-alpha: #0a7f5a;
+  --color-alpha-hover: #0a7f5a;
   --color-beta: #e61a4d;
   --color-light: #0f0f0f;
   --color-lightish: #1a1a1a;
@@ -629,24 +639,12 @@ header nav > ul ul {
 }
 
 .copy p code {
+  background-color: var(--selection);
   font-size: 90%;
   font-weight: normal;
   line-height: calc(var(--line-height2) * 1.111);
-  padding-right: .3em;
-  padding-left: .3em;
-  position: relative;
-}
-
-.copy p code:before {
-  content: "";
-  position: absolute;
-  top: -0.25em;
-  right: 0;
-  bottom: -0.3em;
-  left: 0;
+  padding: .1em;
   border-radius: var(--border-radius);
-  background-color: var(--selection);
-  z-index: -1;
 }
 
 .copy p img {

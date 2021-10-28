@@ -23,13 +23,13 @@ a {
   &:not(.button) {
     &:hover,
     &:focus {
-      box-shadow: 0 0 0 .15rem var(--color-alpha);
+      box-shadow: 0 0 0 .15rem var(--color-alpha-hover);
       z-index: 2;
     }
 
     &:focus,
     &:active {
-      box-shadow: 0 0 0 .15rem var(--color-alpha) inset, 0 0 0 .15rem var(--color-dark);
+      box-shadow: 0 0 0 .15rem var(--color-alpha-hover) inset, 0 0 0 .15rem var(--color-dark);
       z-index: 1;
     }
 
@@ -38,10 +38,11 @@ a {
     &:active {
       text-decoration: none;
     }
+
     &:not(.glow) {
       &:hover,
       &:focus {
-        background-color: var(--color-alpha);
+        background-color: var(--color-alpha-hover);
       }
     }
   }
@@ -49,7 +50,7 @@ a {
   // &.glow {
   //   &:hover,
   //   &:focus {
-  //     // filter: drop-shadow(0 0 .5rem var(--color-alpha));
+  //     // filter: drop-shadow(0 0 .5rem var(--color-alpha-hover));
   //   }
   // }
 

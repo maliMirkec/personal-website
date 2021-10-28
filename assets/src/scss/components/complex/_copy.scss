@@ -17,23 +17,15 @@
 
   p {
     code {
+      background-color: var(--selection);
       font-size: 90%;
       font-weight: normal;
       line-height: calc(var(--line-height2) * 1.111);
-      padding-right: .3em;
-      padding-left: .3em;
-      position: relative;
+      padding: .1em;
+      border-radius: var(--border-radius);
 
-      &:before {
-        content: "";
-        position: absolute;
-        top: -0.25em;
-        right: 0;
-        bottom: -0.3em;
-        left: 0;
-        border-radius: var(--border-radius);
-        background-color: var(--selection);
-        z-index: -1;
+      &::selection {
+        background-color: transparent;
       }
     }
 
@@ -77,6 +69,16 @@
 
   iframe {
     max-width: 100%;
+  }
+
+  a {
+    &:hover,
+    &:focus,
+    &:active {
+      code {
+        background-color: transparent;
+      }
+    }
   }
 
   .button {

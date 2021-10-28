@@ -10,19 +10,7 @@ description: I've been working on a complex Angular CRUD-ish project recently an
 type: articles-item
 sections2:
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        </form>
+    banner: newsletter
 ---
 
 I've been working on a complex Angular [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)-ish project recently and one of the requirements was to create a form based on an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) model. This model was not definite and could vary depending on many parameters in the application. As a result, I've created a directive that could generate a form for every complex model. Final code is available on [Github repository](https://github.com/maliMirkec/angular-repeater) and it's called **angular-repeater**. Demo is available [here](https://frontend-developer.xyz/angular-repeater/).

@@ -11,19 +11,7 @@ description: I appreciate living comfortably while doing what I like and working
 type: articles-item
 sections2:
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-        </form>
+    banner: newsletter
 ---
 
 When I was just a kid, like 3 or 4, when someone asked me what I wanted to be when I grew up, my answer was a postman. When someone asked me the same question when I was 7 or 8, I answered that I wanted to become a director, like a company director. So here I am now, I am the director of a company, but only because it is the only way to do freelance business here in Croatia.

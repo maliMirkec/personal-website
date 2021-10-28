@@ -12,7 +12,7 @@ sections:
       I wrote for CSS Tricks, LogRocket, and Toptal.
 
 
-      Did you know that I am running **UI Dev Newletter**? [Subscribe now](#subscribe-now)
+      Did you know that I am running **UI Dev Newsletter**? [Subscribe now](#subscribe-now)
   - type: cards-alpha
     cta:
       title: Read more

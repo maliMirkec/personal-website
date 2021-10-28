@@ -2,6 +2,9 @@
   <div class="wrapper margin-top margin-bottom text-center">
     <div class="padding">
       <div class="border-alpha padding">
+        {% if banner2.banner and cta[banner2.banner] %}
+          {% assign banner2 = cta[banner2.banner] %}
+        {% endif %}
         {% if banner2.desc %}
           <div class="copy">{{ banner2.desc | markdownify }}</div>
         {% endif %}

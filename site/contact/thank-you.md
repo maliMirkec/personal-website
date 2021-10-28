@@ -14,7 +14,7 @@ sections:
       href: /
       title: Go home
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newletter**?
+    desc: Did you know that I am running **UI Dev Newsletter**?
     code: >-
       <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
         <input type="hidden" value="1" name="embed" />
