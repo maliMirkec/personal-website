@@ -16,12 +16,12 @@
       {% if title %}
         <h1 class="fz-step-6 no-margin-top margin-bottom">{{ title | markdownifyi }}</h1>
       {% endif %}
-      {% if cta %}
+      {% if cta.href and cta.title %}
         <div class="margin-top">
           <a class="button" href="{{ cta.href }}">{{ cta.title }}</a>
         </div>
       {% endif %}
-      {% if cta2 %}
+      {% if cta2.href and cta2.title %}
         <div class="margin-top">
           <a href="{{ cta2.href }}">{{ cta2.title }}</a>
         </div>
