@@ -111,5 +111,5 @@ I hope this information could help you become a happier remote worker. If you ha
 [an article about remote life]: https://www.invisionapp.com/inside-design/remote-life-whats-it-all-about/
 [a prominent discussion on Gun.io Slack channel]: https://guniopf.slack.com/archives/C23P2CXCP/p1549776041334200
 [Station]: https://getstation.com/
-[Workona]: https://workona.com/
+[Workona]: https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542&utm_campaign=wkna-referral
 [Unroll.me]: https://unroll.me/

@@ -146,5 +146,4 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [SEO Minion](https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi)
 - [WakaTime](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi)
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
-- [Workona Tab Manager](https://workona.com/tab-manager/)
-- [Workona Tab Suspender](https://workona.com/tab-suspender/)
+- [Workona Tab Manager](https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542&utm_campaign=wkna-referral)

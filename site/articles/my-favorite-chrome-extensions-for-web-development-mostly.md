@@ -107,7 +107,7 @@ These extensions are installed on my Chrome, but I am not using it that often or
 [Wappalizer]: https://www.wappalyzer.com/download
 [CSS Feature Toggles]: https://github.com/keithclark/css-feature-toggle-devtools-extension
 [Block Yourself from Analytics]: https://www.igorware.com/extensions/block-yourself-from-analytics
-[Workona]: https://chrome.google.com/webstore/detail/workona/ailcmbgekjpnablpdkmaaccecekgdhlh?hl=en
+[Workona]: https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542&utm_campaign=wkna-referral
 [CSS Feature Toggle Extension]: https://github.com/keithclark/css-feature-toggle-devtools-extension
 [Keywords Everywhere]: https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp
 [LastPass]: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
