@@ -34,7 +34,7 @@ To respect the reduced motion feature doesn’t necessarily mean removing the an
 
 So, how do CSS Variables help us? To answer that question, I would like to show you the “regular” way to reduce the motion in CSS. Let’s say we have three elements and three different hover transitions with the same transition duration.
 
-> _A quick reminder that you should animate only the following properties to avoid paint and layout recalculations: opacity, transform, rotate, and skew._
+> _A quick reminder that you should animate only the following properties to avoid paint and layout recalculations: opacity and transform._
 >
 > _[Learn more at MDN Web Docs](https://developer.mozilla.org/en-US/docs/Tools/Performance/Scenarios/Animating_CSS_properties#css_property_cost)._
 
