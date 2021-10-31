@@ -55,7 +55,7 @@ sections:
   - type: hero-beta
     title: From Publications
     desc: >-
-      Here are the posts that I wrote for some prominent publications. I wrote for **CSS Tricks**, **LogRocket**, and **Toptal**.
+      Here are the posts that I wrote for some prominent publications. I wrote for **Smashing Magazine**, **CSS Tricks**, **LogRocket**, and **Toptal**.
   - type: cards-alpha
     desc: Do you want me to write for you?
     cta:

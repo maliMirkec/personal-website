@@ -9,7 +9,7 @@ sections:
       Here are the posts that I wrote for some prominent publications.
 
 
-      I wrote for CSS Tricks, LogRocket, and Toptal.
+      I wrote for Smashing Magazine, CSS Tricks, LogRocket, and Toptal.
 
 
       Did you know that I am running **UI Dev Newsletter**? [Subscribe now](#subscribe-now)
