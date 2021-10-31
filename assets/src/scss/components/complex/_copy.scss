@@ -15,7 +15,8 @@
     margin-bottom: 0;
   }
 
-  p {
+  p,
+  li {
     code {
       background-color: var(--selection);
       font-size: 90%;
@@ -84,6 +85,25 @@
   .button {
     position: relative;
     left: -0.2em;
+  }
+
+  .embed {
+    max-height: 0;
+    padding-bottom: var(--padding-bottom);
+    position: relative;
+    overflow: hidden;
+    margin: 1em 0;
+    border-radius: .3em;
+
+    > * {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
