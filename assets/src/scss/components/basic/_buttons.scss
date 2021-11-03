@@ -88,6 +88,11 @@
   background-color: transparent;
   box-shadow: 0 0 0 .15rem currentColor;
 
+  &.button--inverse {
+    color: var(--color-dark);
+    box-shadow: 0 0 0 .15rem var(--color-alpha);
+  }
+
   &[href],
   &[type] {
     &:hover,

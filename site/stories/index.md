@@ -5,6 +5,11 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
+  - date: '2021-11-03'
+    content: |
+      I am really struggling to be productive working from home.
+
+      I miss my monitors and my chair and my piece. -.-
   - date: '2021-10-01'
     content: |
       Starting a full-time position today.
@@ -46,7 +51,7 @@ stories:
       I'm not particularly eager to work during the summer. There should be a collective summer vacation for everyone.
 pagination:
   data: stories
-  size: 100
+  size: 10
 sections:
   - type: hero-beta
     title: From Stories

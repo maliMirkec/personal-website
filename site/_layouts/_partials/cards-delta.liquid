@@ -15,4 +15,27 @@
       </div>
     {% endfor %}
   </div>
+  <div class="wrapper wrapper--alpha grid padding">
+    {% if pagination.previousPageHref or pagination.nextPageHref %}
+      <nav class="pagination" role="navigation" aria-label="Pagination Navigation">
+        <ul>
+          {% if pagination.previousPageHref %}
+            <li>
+              <a class="button button--small button--outline" href="{{ pagination.previousPageHref }}" aria-label="Go to previous page" aria-current="true">← Previous</a>
+            </li>
+          {% endif %}
+          {% if pagination.pageNumber %}
+            <li>
+              <a class="button button--small button--outline button--inverse" href="{{ pagination.hrefs[pagination.pageNumber] }}" aria-label="Current page, page {{ pagination.pageNumber }}" aria-current="true">Current: {{ pagination.pageNumber }}</a>
+            </li>
+          {% endif %}
+          {% if pagination.nextPageHref %}
+            <li>
+              <a class="button button--small button--outline" href="{{ pagination.nextPageHref }}" aria-label="Go to next page" aria-current="true">Next →</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+    {% endif %}
+  </div>
 </section>
