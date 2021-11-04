@@ -54,7 +54,7 @@ pagination:
   size: 12
 sections:
   - type: hero-beta
-    title: From Stories
+    title: Stories
     desc: >-
       Just random thoughts and notes from yours truly.
   - type: cards-delta

@@ -31,6 +31,10 @@
   {% assign hr = true %}
   {% assign cards4 = section %}
   {% include _partials/cards-delta %}
+{% elsif section.type == 'cards-epsilon' %}
+  {% assign hr = true %}
+  {% assign cards5 = section %}
+  {% include _partials/cards-epsilon %}
 {% elsif section.type == 'content-beta' %}
   {% assign hr = true %}
   {% assign content2 = section %}

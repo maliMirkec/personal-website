@@ -4,7 +4,7 @@ title: Links
 description: Here are Silvestar's links and profiles from all over the web, from social networks to projects and publications.
 sections:
   - type: hero-alpha
-    title: Around the web
+    title: Around the Web
     desc: |
       Here are my links and profiles from all over the web, from social networks to projects and publications.
     narrow: true

@@ -1,5 +1,3 @@
-console.log(window.cloudinary);
-
 if(window.cloudinary) {
   const cl = window.cloudinary.Cloudinary.new({cloud_name: "starbist"})
   cl.responsive()
@@ -32,7 +30,7 @@ const gallery = () => {
   // Get the transition timeout from CSS
   const getTimeouts = () => {
     const durationOn = parseFloat(getComputedStyle(document.documentElement)
-      .getPropertyValue('--duration-expand'));
+      .getPropertyValue('--duration'));
 
     timeout = parseFloat(durationOn) * 1000
   }
@@ -53,8 +51,6 @@ const gallery = () => {
     const gridColumnGap = parseFloat(getComputedStyle(document.documentElement)
       .getPropertyValue('--ggap'))
 
-    console.log(gridColumnGap);
-
     $parent.setAttribute('data-gap', gridColumnGap)
 
     // Set grid item width from CSS
@@ -67,11 +63,9 @@ const gallery = () => {
       const t = getTop($elem)
 
       // Check when top offset changes
-      if (t !== top) {
+      if (t !== top && !$parent.getAttribute('data-cols')) {
         // Set the number of columns and break stop the loop
         $parent.setAttribute('data-cols', i)
-
-        return false
       }
 
       return true
@@ -113,7 +107,7 @@ const gallery = () => {
     const cols = parseInt($parent.getAttribute('data-cols'), 10)
     const width = parseFloat($parent.getAttribute('data-width'))
     const height = parseFloat($parent.getAttribute('data-height'))
-    const gap = parseFloat($parent.getAttribute('data-gap'))
+    const gap = parseFloat($parent.getAttribute('data-gap')) + 1
 
     // If there is only a single column, prevent from executing
     if (cols === 1) {
@@ -133,56 +127,58 @@ const gallery = () => {
 
     // If there is active element, set focus to it,
     // unset global active element, and prevent from further executing
-    if ($activeElem) {
-      $activeElem.focus()
+    // if ($activeElem) {
+    //   $activeElem.focus()
+    //   $activeElem = false
+    //   return
+    // }
+    console.log($activeElem, $button);
+    if ($activeElem === $button) {
       $activeElem = false
-      return
-    }
-
-    // Calculate if the item is in the last row
-    const isLastRow = i + 1 > rows * cols
-    // Set default transform direction to top (expand down)
-    let transformOrigin = 'top'
-
-    if (isLastRow) {
-      // If the item is in the last row, set transform direction to bottom (expand up)
-      transformOrigin = 'bottom'
-    }
-
-    // Calculate if the item is the most right
-    const isRight = (i + 1) % cols !== 0
-
-    if (isRight) {
-      // If the item is the most right, set transform direction to left (expand right)
-      transformOrigin += ' left'
     } else {
-      // If the item is the most right, set transform direction to right (expand left)
-      transformOrigin += ' right'
+      // Calculate if the item is in the last row
+      const isLastRow = i + 1 > rows * cols
+      // Set default transform direction to top (expand down)
+      let transformOrigin = 'top'
+
+      if (isLastRow) {
+        // If the item is in the last row, set transform direction to bottom (expand up)
+        transformOrigin = 'bottom'
+      }
+
+      // Calculate if the item is the most right
+      const isRight = (i + 1) % cols !== 0
+
+      if (isRight) {
+        // If the item is the most right, set transform direction to left (expand right)
+        transformOrigin += ' left'
+      } else {
+        // If the item is the most right, set transform direction to right (expand left)
+        transformOrigin += ' right'
+      }
+
+      $currentElem.style.transformOrigin = transformOrigin
+
+      // Calculate the scale coefficient
+      const scaleX = (width * 2 + gap) / width
+      const scaleY = (height * 2 + gap) / height
+
+      // After a whole timeout, set CSS high z-index to avoid overlay issues
+      setTimeout(() => {
+        // Set high CSS z-index to avoid overlay issues
+        $currentElem.style.zIndex = 10
+        // Set parent class
+        $parent.classList.add('is-zoomed')
+        // Set item class
+        $currentElem.classList.add('is-zoomed')
+        // Set item CSS transform
+        $currentElem.style.transform = `scaleX(${scaleX}) scaleY(${scaleY})`
+        // Set item aria expanded
+        $button.setAttribute('aria-expanded', true)
+        // Set global active item
+        $activeElem = $button
+      }, timeout)
     }
-
-    $currentElem.style.transformOrigin = transformOrigin
-
-    // Calculate the scale coefficient
-    const scaleX = (width * 2 + gap) / width
-    console.log(scaleX);
-    const scaleY = (height * 2 + gap) / height
-    console.log(scaleY);
-
-    // After a whole timeout, set CSS high z-index to avoid overlay issues
-    setTimeout(() => {
-      // Set high CSS z-index to avoid overlay issues
-      $currentElem.style.zIndex = 10
-      // Set parent class
-      $parent.classList.add('is-zoomed')
-      // Set item class
-      $currentElem.classList.add('is-zoomed')
-      // Set item CSS transform
-      $currentElem.style.transform = `scaleX(${scaleX}) scaleY(${scaleY})`
-      // Set item aria expanded
-      $button.setAttribute('aria-expanded', true)
-      // Set global active item
-      $activeElem = $button
-    }, timeout)
   }
 
   // Set sibling as an active item

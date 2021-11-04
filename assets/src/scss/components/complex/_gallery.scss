@@ -14,17 +14,40 @@
   padding: 0;
   margin: 0;
 
+  &:not(.is-zoomed) {
+    button {
+      &:focus {
+        outline: 2px solid var(--color-alpha);
+        outline-offset: 1px;
+      }
+    }
+  }
+
   @include mq($from: bp1) {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   li {
+    position: relative;
     transition-property: transform, opacity;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
     transition-duration: var(--duration2);
+    overflow: hidden;
 
     &.is-zoomed {
       transition-duration: var(--duration);
+
+      button {
+        outline: 2px solid var(--color-alpha);
+        outline-offset: 1px;
+      }
+
+      p {
+        transition-duration: var(--duration);
+        transition-delay: var(--duration);
+        transform: none;
+        opacity: 1;
+      }
     }
 
     .is-zoomed &:not(.is-zoomed) {
@@ -35,7 +58,7 @@
   button {
     all: initial;
     display: block;
-    aspect-ratio: 2/1;
+    aspect-ratio: 1 / 1;
     overflow: hidden;
     cursor: pointer;
     width: 100%;
@@ -44,11 +67,32 @@
       outline: none;
     }
 
-    li.is-zoomed &,
-    ul:not(.is-zoomed) &:focus {
-      outline: 2px solid red;
-      outline-offset: 1px;
+    &:hover {
+      p {
+        transition-duration: var(--duration);
+        transform: none;
+        opacity: 1;
+      }
     }
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    padding: .25rem;
+    margin: 0;
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(100%);
+    transform-origin: bottom center;
+    transition-property: transform, opacity;
+    transition-timing-function: ease-out;
+    transition-duration: var(--duration2);
   }
 
   img {
