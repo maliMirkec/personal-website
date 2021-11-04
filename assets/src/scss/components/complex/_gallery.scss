@@ -1,0 +1,59 @@
+// Gallery
+//
+// Markup: _gallery.html
+//
+// Weight: 1800
+//
+// Styleguide Gallery
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: var(--ggap);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @include mq($from: bp1) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  li {
+    transition-property: transform, opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: var(--duration2);
+
+    &.is-zoomed {
+      transition-duration: var(--duration);
+    }
+
+    .is-zoomed &:not(.is-zoomed) {
+      opacity: 0.3;
+    }
+  }
+
+  button {
+    all: initial;
+    display: block;
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    li.is-zoomed &,
+    ul:not(.is-zoomed) &:focus {
+      outline: 2px solid red;
+      outline-offset: 1px;
+    }
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

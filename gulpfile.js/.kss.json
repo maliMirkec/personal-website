@@ -6,5 +6,7 @@
   "css": [
     "/config.css.dist/style.css"
   ],
-  "js": []
+  "js": [
+    "/config.js.dist/sb.js"
+  ]
 }

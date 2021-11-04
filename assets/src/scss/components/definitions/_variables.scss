@@ -96,6 +96,9 @@ $gap: $space * 2;
   --cols: #{$cols};
   --gap: #{$gap};
 
+  // Gallery
+  --ggap: 4px;
+
   @include mq($until: bp1) {
     // Typography
     --step-6: #{$font-size-sm * 2.222};

@@ -10,6 +10,8 @@ const ext = global.config.css.sass ? 'scss' : 'css';
 const thisCss = kssConfig.css.map((path) => helpers.parse(path).replace('./', '/'));
 const thisJs = kssConfig.js.map((path) => helpers.parse(path).replace('./', '/'));
 
+console.log('thisJs', thisJs);
+
 const thisKssConfig = {
   ...kssConfig,
   source: helpers.parse(kssConfig.source),
@@ -18,6 +20,8 @@ const thisKssConfig = {
   css: thisCss,
   js: thisJs,
 };
+
+console.log(thisKssConfig);
 
 // Will process KSS docs
 function kssStart(cb) {

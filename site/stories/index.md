@@ -51,7 +51,7 @@ stories:
       I'm not particularly eager to work during the summer. There should be a collective summer vacation for everyone.
 pagination:
   data: stories
-  size: 10
+  size: 12
 sections:
   - type: hero-beta
     title: From Stories
