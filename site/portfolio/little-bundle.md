@@ -55,8 +55,8 @@ sections2:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    cta:
-      title: Go to project
+    # cta:
+    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

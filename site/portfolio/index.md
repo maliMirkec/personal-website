@@ -17,8 +17,8 @@ sections:
         href: /contact/
         title: Hire me
   - type: cards-gamma
-    cta:
-      title: Go to project
+    # cta:
+    #   title: Go to project
     filter: portfolio
   - type: banner-alpha
     title: I am available for consultation services.

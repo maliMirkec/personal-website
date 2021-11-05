@@ -58,17 +58,22 @@ const gallery = () => {
     $parent.setAttribute('data-width', eStyle.width)
     $parent.setAttribute('data-height', eStyle.height)
 
+    let colsSet = false
+
     // Iterate through grid items
     $elems.forEach(($elem, i) => {
-      const t = getTop($elem)
+      if(!colsSet) {
+        const t = getTop($elem)
 
-      // Check when top offset changes
-      if (t !== top && !$parent.getAttribute('data-cols')) {
-        // Set the number of columns and break stop the loop
-        $parent.setAttribute('data-cols', i)
+        // Check when top offset changes
+        if (t !== top) {
+          // Set the number of columns and break stop the loop
+
+          colsSet = true
+
+          $parent.setAttribute('data-cols', i)
+        }
       }
-
-      return true
     })
   }
 
@@ -109,6 +114,7 @@ const gallery = () => {
     const height = parseFloat($parent.getAttribute('data-height'))
     const gap = parseFloat($parent.getAttribute('data-gap')) + 1
 
+
     // If there is only a single column, prevent from executing
     if (cols === 1) {
       return
@@ -132,7 +138,8 @@ const gallery = () => {
     //   $activeElem = false
     //   return
     // }
-    console.log($activeElem, $button);
+
+    // When there is active element, deactivate it
     if ($activeElem === $button) {
       $activeElem = false
     } else {
@@ -242,7 +249,7 @@ const gallery = () => {
   const setResizeEvents = ($elems, $parent) => {
     window.addEventListener('resize', () => {
       // Set data attributes for calculations
-      setDataAttrs($elems, $parent)
+      setDataAttrs($elems, $parent, true)
       // Deactivate grid items
       deactiveElems($elems, $parent)
     })

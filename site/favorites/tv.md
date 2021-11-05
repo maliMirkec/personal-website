@@ -2,13 +2,11 @@
 layout: index
 title: My TV favorites
 description: Silvestar's favorite TV shows and characters.
-type: favorite
+date: 2021-11-05 08:00:00
+thumbnail: Screen_Shot_2021-11-05_at_9.40.22_AM_teyz7p
+type: favorite-item
 tags:
   - favorite
-thumbnail:
-# pagination:
-#   data: tv
-#   size: 12
 sections:
   - type: hero-beta
     title: My TV favorites

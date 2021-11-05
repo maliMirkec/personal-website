@@ -32,8 +32,8 @@ sections:
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma
-    cta:
-      title: Go to project
+    # cta:
+    #   title: Go to project
     filter: projects
     exclude: true
   - type: banner-alpha

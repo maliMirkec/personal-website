@@ -5,6 +5,8 @@ description: Silvestar's favorite music bands and artists.
 type: favorite
 tags:
   - favorite
+permalink: false
+eleventyExcludeFromCollections: true
 thumbnail:
 music:
   - src:

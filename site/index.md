@@ -16,8 +16,8 @@ sections:
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
     desc: Do you want to work with me?
-    cta:
-      title: Go to project
+    # cta:
+    #   title: Go to project
     cta2:
       href: /contact/
       title: Hire me
@@ -109,8 +109,8 @@ sections:
       Sometimes I like to work on side projects in my spare time. These are my open-source side projects.
   - type: cards-gamma
     desc: Do you want to work with me?
-    cta:
-      title: Go to project
+    # cta:
+    #   title: Go to project
     cta2:
       href: /contact/
       title: Hire me

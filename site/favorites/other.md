@@ -5,6 +5,8 @@ description: Silvestar's favorite writers, books, games, sport teams and individ
 type: favorite
 tags:
   - favorite
+permalink: false
+eleventyExcludeFromCollections: true
 thumbnail:
 music:
   - src:
