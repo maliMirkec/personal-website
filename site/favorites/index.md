@@ -20,8 +20,8 @@ sections:
       Just my random favorite stuff, from TV shows and characters, to bands and artists.
   - type: cards-gamma
     desc:
-    cta:
-      title: See favorites
+    # cta:
+    #   title: See favorites
     cta2:
       href: /
       title: Go to the homepage

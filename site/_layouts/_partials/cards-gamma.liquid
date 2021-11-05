@@ -33,7 +33,9 @@
                 </div>
               {% endif %}
             {% else %}
-              <a class="button button--small button--outline" href="{{ card3.url }}" aria-label="{{ cards3.cta.title }} {{ card3.data.title }}">{{ cards3.cta.title }}</a>
+              {% if cards3.cta %}
+                <a class="button button--small button--outline" href="{{ card3.url }}" aria-label="{{ cards3.cta.title }} {{ card3.data.title }}">{{ cards3.cta.title }}</a>
+              {% endif %}
             {% endif %}
           </div>
           {% assign i3 = i3 | plus: 1 %}
