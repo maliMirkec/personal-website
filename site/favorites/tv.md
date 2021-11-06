@@ -12,6 +12,9 @@ sections:
     title: My TV show favorites
     desc: >-
       Just my random favorite TV shows and characters.
+
+
+      [See my other favorites](/favorites/).
   - type: cards-epsilon
     list:
       - title: Curb Your Enthusiasm
