@@ -12,7 +12,7 @@
     url('/fonts/mulish/mulish-italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
     url('/fonts/mulish/mulish-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     url('/fonts/mulish/mulish-blackitalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -39,5 +39,5 @@
     url('/fonts/mulish/mulish-black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }

@@ -15,7 +15,7 @@
     "dist": "css",
     "minify": true,
     "autoprefix": true,
-    "sourcemaps": true,
+    "sourcemaps": false,
     "lint": true
   },
   "js": {
@@ -23,7 +23,7 @@
     "src": "js",
     "dist": "js",
     "uglify": true,
-    "sourcemaps": true,
+    "sourcemaps": false,
     "lint": true
   },
   "gfx": {

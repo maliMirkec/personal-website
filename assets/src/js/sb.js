@@ -1,3 +1,17 @@
+const FFO = require("fontfaceobserver-es");
+
+const MulishRegular = new FFO("Mulish", {
+  weight: 400
+});
+
+const MulishBlack = new FFO("Mulish", {
+  weight: 900
+});
+
+Promise.all([MulishRegular.load(), MulishBlack.load()]).then(() => {
+  document.body.classList.remove('no-font')
+});
+
 if(window.cloudinary) {
   const cl = window.cloudinary.Cloudinary.new({cloud_name: "starbist"})
   cl.responsive()

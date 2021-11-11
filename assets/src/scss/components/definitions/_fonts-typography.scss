@@ -8,13 +8,37 @@
 
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 
+body.no-font {
+  font-family: var(--font-alpha);
+  line-height: var(--line-height2);
+  letter-spacing: var(--letter-spacing2);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-alpha);
+    line-height: var(--line-height1);
+    letter-spacing: var(--letter-spacing2);
+  }
+
+  pre,
+  code,
+  .ffm,
+  .ffss,
+  .body-copy,
+  .ffs {
+    font-family: var(--font-alpha);
+  }
+}
+
 body {
   font-family: var(--font-beta);
-  font-style: normal;
-  font-weight: normal;
   font-size: var(--step-0);
   line-height: var(--line-height2);
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: var(--letter-spacing1);
 }
 
 ::selection {
@@ -81,14 +105,8 @@ blockquote {
 
 pre,
 code,
-.ffm {
-  font-family: var(--font-beta);
-}
-
-.ffss {
-  font-family: var(--font-beta);
-}
-
+.ffm,
+.ffss,
 .body-copy,
 .ffs {
   font-family: var(--font-beta);
