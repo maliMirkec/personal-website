@@ -14,6 +14,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ev-c_vgm0ws
     alt: Screenshot of Calvert website.
     width: 815

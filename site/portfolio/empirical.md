@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ewm_aikxon
     alt: Screenshot of Empirical Wealth Management website.
     width: 815

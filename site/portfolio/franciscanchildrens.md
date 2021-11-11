@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: fc_c8rxa2
     alt: Screenshot of Franciscan Children’s website.
     width: 815

@@ -59,7 +59,7 @@ For example, [Lonely Planet] uses BEM as a naming convention:
 
 {% cldnry "styleguide-lonely-planet-bem_lqcm24" "Lonely Planet Style Guide, BEM example." %}
 
-> ”Naming things is hard but worth getting right. To make it somewhat simpler we use the BEM methodology within class names. BEM also helps us to avoid cross module collisions and to signify intent and relationships from the classnames.“
+> “Naming things is hard but worth getting right. To make it somewhat simpler we use the BEM methodology within class names. BEM also helps us to avoid cross module collisions and to signify intent and relationships from the classnames.”
 >
 > — [Lonely Planet, Naming]
 

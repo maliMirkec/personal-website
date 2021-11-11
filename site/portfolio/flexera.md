@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: f1_bn1woc
     alt: Screenshot of Flexera website.
     width: 815

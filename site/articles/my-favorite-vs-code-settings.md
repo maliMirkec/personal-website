@@ -74,7 +74,7 @@ Note that not all information is visible in the screenshot.
 
 I prefer not to allow VS Code to format my code automatically. The main reason is that I tend to save files often as I usually use [BrowserSync] or [Live Server extension] to see the changes in the browser.
 
-I turned off the following settings: ”Editor: Format on Save” and ”Files: Auto Save”.
+I turned off the following settings: “Editor: Format on Save” and “Files: Auto Save”.
 
 {% cldnry "vs-save_jynrn6" "Screenshot of Saving Settings in VS Code editor." %}
 

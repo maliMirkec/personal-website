@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: yb_mgssbz
     alt: Screenshot of Trase Yearbook 2018 website.
     width: 815

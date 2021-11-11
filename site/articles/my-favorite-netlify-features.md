@@ -35,7 +35,7 @@ When creating a new project on Netlify, you start by either:
 
 The project should be ready in a matter of minutes and you could start configuring it for your needs right away. Start by choosing the site name.
 
->“ The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.”
+> “The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.”
 
 Netlify randomly creates a default name for a new project. If you don’t like the name, choose your own and make it one that would be much easier for you to remember.
 

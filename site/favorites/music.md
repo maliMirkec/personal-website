@@ -21,112 +21,112 @@ sections:
     list:
       - title: Björk
         href: https://www.last.fm/music/Bj%C3%B6rk
-        src: bjork_mf4ekf.webp
+        src: bjork_mf4ekf
       - title: Cansei de Ser Sexy
         href: https://www.last.fm/music/Cansei+de+Ser+Sexy
-        src: css_iscnoo.webp
+        src: css_iscnoo
       - title: Jefferson Airplane
         href: https://www.last.fm/music/Jefferson+Airplane
-        src: jefferson-airplane_sp9yyn.webp
+        src: jefferson-airplane_sp9yyn
       - title: Nirvana
         href: https://www.last.fm/music/Nirvana
-        src: nirvana_laipt2.webp
+        src: nirvana_laipt2
       - title: The Knife
         href: https://www.last.fm/music/The+Knife
-        src: the-knife_vwx6bq.webp
+        src: the-knife_vwx6bq
       - title: Screaming Trees
         href: https://www.last.fm/music/Screaming+Trees
-        src: screaming-trees_xzjw1m.webp
+        src: screaming-trees_xzjw1m
       - title: Röyksopp
         href: https://www.last.fm/music/R%C3%B6yksopp
-        src: royksopp_m7pjif.webp
+        src: royksopp_m7pjif
       - title: Beck
         href: https://www.last.fm/music/Beck
-        src: beck_owrxok.webp
+        src: beck_owrxok
       - title: Portishead
         href: https://www.last.fm/music/Portishead
-        src: portishead_czzijh.webp
+        src: portishead_czzijh
       - title: Animal Collective
         href: https://www.last.fm/music/Animal+Collective
-        src: animal-collective_jknt7d.webp
+        src: animal-collective_jknt7d
       - title: The Shins
         href: https://www.last.fm/music/The+Shins
-        src: the-shins_rlfdfg.webp
+        src: the-shins_rlfdfg
       - title: Queens of the Stone Age
         href: https://www.last.fm/music/Queens+of+the+Stone+Age
-        src: qotsa_vl8wxm.webp
+        src: qotsa_vl8wxm
       - title: The Go! Team
         href: https://www.last.fm/music/The+Go!+Team
-        src: the-go-team_pzh8ah.webp
+        src: the-go-team_pzh8ah
       - title: Fever Ray
         href: https://www.last.fm/music/Fever+Ray
-        src: fever-ray_nzwrxn.webp
+        src: fever-ray_nzwrxn
       - title: Grimes
         href: https://www.last.fm/music/Grimes
-        src: grimes_qoojqr.webp
+        src: grimes_qoojqr
       - title: Pixies
         href: https://www.last.fm/music/Pixies
-        src: pixies_eow2qj.webp
+        src: pixies_eow2qj
       - title: Captain Beefheart & His Magic Band
         href: https://www.last.fm/music/Captain+Beefheart+&+His+Magic+Band
-        src: captain-beefheart_oruess.webp
+        src: captain-beefheart_oruess
       - title: Sufjan Stevens
         href: https://www.last.fm/music/Sufjan+Stevens
-        src: sufjan-stevens_pfpvyh.webp
+        src: sufjan-stevens_pfpvyh
       - title: Wipers
         href: https://www.last.fm/music/Wipers
-        src: wipers_kmjhmn.webp
+        src: wipers_kmjhmn
       - title: Sleigh Bells
         href: https://www.last.fm/music/Sleigh+Bells
-        src: sleigh-bells_cwtnal.webp
+        src: sleigh-bells_cwtnal
       - title: Yeah Yeah Yeahs
         href: https://www.last.fm/music/Yeah+Yeah+Yeahs
-        src: yeah-yeah-yeahs_kui8ia.webp
+        src: yeah-yeah-yeahs_kui8ia
       - title: Fugazi
         href: https://www.last.fm/music/Fugazi
-        src: fugazi_dokzzx.webp
+        src: fugazi_dokzzx
       - title: Justice
         href: https://www.last.fm/music/Justice
-        src: justice_vw07pl.webp
+        src: justice_vw07pl
       - title: Modest Mouse
         href: https://www.last.fm/music/Modest+Mouse
-        src: modest-mouse_zbyhl9.webp
+        src: modest-mouse_zbyhl9
       - title: Van Dyke Parks
         href: https://www.last.fm/music/Van+Dyke+Parks
-        src: van-dyke-parks_t1jw35.webp
+        src: van-dyke-parks_t1jw35
       - title: The Weeknd
         href: https://www.last.fm/music/The+Weeknd
-        src: the-weeknd_ayms9q.webp
+        src: the-weeknd_ayms9q
       - title: Pink Floyd
         href: https://www.last.fm/music/Pink+Floyd
-        src: pink-floyd_ujasdl.webp
+        src: pink-floyd_ujasdl
       - title: Nick Cave & the Bad Seeds
         href: https://www.last.fm/music/Nick+Cave+&+the+Bad+Seeds
-        src: nick-cave_eu3y2y.webp
+        src: nick-cave_eu3y2y
       - title: Bat for Lashes
         href: https://www.last.fm/music/Bat+for+Lashes
-        src: bat-for-lashes_eagnex.webp
+        src: bat-for-lashes_eagnex
       - title: Caribou
         href: https://www.last.fm/music/Caribou
-        src: caribou_m6jom7.webp
+        src: caribou_m6jom7
       - title: Daft Punk
         href: https://www.last.fm/music/Daft+Punk
-        src: daft-punk_jhcoet.webp
+        src: daft-punk_jhcoet
       - title: Air
         href: https://www.last.fm/music/Air
-        src: air_cwg2jv.webp
+        src: air_cwg2jv
       - title: Arcade Fire
         href: https://www.last.fm/music/Arcade+Fire
-        src: beck_owrxok.webp
+        src: arcade-fire_ys6znn
       - title: Gorillaz
         href: https://www.last.fm/music/Gorillaz
-        src: gorillaz_qyryld.webp
+        src: gorillaz_qyryld
       - title: Beirut
         href: https://www.last.fm/music/Beirut
-        src: beirut_j3tfx7.webp
+        src: beirut_j3tfx7
       - title: Hot Chip
         href: https://www.last.fm/music/Hot+Chip
-        src: hot-chip_yewutg.webp
+        src: hot-chip_yewutg
   - type: banner-alpha
     title: I am available for consultation services.
     desc: I specialize in technologies related to frontend, user interface, and web development.

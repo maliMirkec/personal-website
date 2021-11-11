@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: b_hkqm0j
     alt: Screenshot of Bozzuto website.
     width: 815

@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: h_ahx9mm
     alt: Screenshot of Little Bundle website.
     width: 815

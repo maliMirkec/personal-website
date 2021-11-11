@@ -16,6 +16,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: cci_ohuha5
     alt: Screenshot of CCredit Card Insider website.
     width: 815

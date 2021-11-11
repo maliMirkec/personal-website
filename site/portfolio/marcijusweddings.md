@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: mw_gtapmb
     alt: Screenshot of Marcijuš Studio website.
     width: 815

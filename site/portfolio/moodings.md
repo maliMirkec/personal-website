@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: m_rjmzz2
     alt: Screenshot of Moodings website.
     width: 815

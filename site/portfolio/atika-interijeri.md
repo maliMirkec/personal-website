@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ai_u5b34y
     alt: Screenshot of Atika Interijeri website.
     width: 815

@@ -17,6 +17,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ddlr_rpy3cx
     alt: Screenshot of Domino Data Lab Rev website.
     width: 815

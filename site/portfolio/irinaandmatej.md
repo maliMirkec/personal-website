@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: im_xnyy09
     alt: Screenshot of Irina and Matej website.
     width: 815

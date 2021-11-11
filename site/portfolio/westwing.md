@@ -17,6 +17,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ww_jkpf8l
     alt: Screenshot of Westwing website.
     width: 815

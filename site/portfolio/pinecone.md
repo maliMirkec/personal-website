@@ -17,6 +17,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: pc_h99bkn
     alt: Screenshot of Pinecone website.
     width: 815

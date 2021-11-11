@@ -18,6 +18,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ddl_mypfrt
     alt: Screenshot of Domino Data Lab website.
     width: 815

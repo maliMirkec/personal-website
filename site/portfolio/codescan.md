@@ -17,6 +17,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: cs_ghbiql
     alt: Screenshot of CodeScan website.
     width: 815

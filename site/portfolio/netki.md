@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: n_gcmcap
     alt: Screenshot of Netki website.
     width: 815

@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: ddlp_mjllzg
     alt: Screenshot of Domino Data Lab Pop-up website.
     width: 815

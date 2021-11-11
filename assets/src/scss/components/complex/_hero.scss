@@ -19,3 +19,11 @@
 // Weight: 1202
 //
 // Styleguide Hero.Beta
+
+.hero {
+  a {
+    &:not([class]) {
+      text-decoration: underline;
+    }
+  }
+}

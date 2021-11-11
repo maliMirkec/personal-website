@@ -16,6 +16,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: c_ob598q
     alt: Screenshot of Contiamo website.
     width: 815

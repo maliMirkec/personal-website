@@ -11,6 +11,7 @@ display: true
 date: 2005-01-03
 sections:
   - type: hero-alpha
+    narrow: true
     src: uidev_zn6018
     alt: Screenshot of The UI Dev Mentoring Program website.
     width: 815

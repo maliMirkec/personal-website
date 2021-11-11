@@ -15,6 +15,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: tg_r1peey
     alt: Screenshot of TheGrio website.
     width: 815

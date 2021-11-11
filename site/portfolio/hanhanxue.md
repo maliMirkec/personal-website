@@ -17,6 +17,7 @@ tags:
   - javascript
 sections:
   - type: hero-alpha
+    narrow: true
     src: hhx_p45br6
     alt: Screenshot of Han Han Xue website.
     width: 815

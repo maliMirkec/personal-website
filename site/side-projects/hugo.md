@@ -13,6 +13,7 @@ display: true
 date: 2005-01-05
 sections:
   - type: hero-alpha
+    narrow: true
     src: hugo_qkfxp9
     alt: Screenshot of Making a website with Hugo website.
     width: 815

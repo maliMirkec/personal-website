@@ -12,6 +12,7 @@ display: true
 date: 2005-01-01
 sections:
   - type: hero-alpha
+    narrow: true
     src: cssa_jwbova
     alt: Screenshot of Code Line Daily website.
     width: 815
