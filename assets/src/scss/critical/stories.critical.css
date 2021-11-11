@@ -114,6 +114,7 @@ button:-moz-focusring,
   --delay: 0.15s;
   --cols: repeat(auto-fill, minmax(400px, 1fr));
   --gap: 2rem;
+  --ggap: 4px;
 }
 
 @media (max-width: 37.49em) {
@@ -252,38 +253,6 @@ hr[class*="hr"]:before {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url("/fonts/Mulish/Mulish-Italic.woff2") format("woff2"), url("/fonts/Mulish/Mulish-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url("/fonts/Mulish/Mulish-Regular.woff2") format("woff2"), url("/fonts/Mulish/Mulish-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url("/fonts/Mulish/Mulish-BlackItalic.woff2") format("woff2"), url("/fonts/Mulish/Mulish-BlackItalic.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url("/fonts/Mulish/Mulish-Black.woff2") format("woff2"), url("/fonts/Mulish/Mulish-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
 }
 
 body {

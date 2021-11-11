@@ -27,7 +27,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPairedShortcode("codeblock", (str) => str)
 
-  eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str.trim()))
+  eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str ? str.trim() : ''))
 
   eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str.trim()))
 
