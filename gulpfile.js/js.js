@@ -53,20 +53,16 @@ function jsStart() {
     .pipe(gulpif(global.config.sync.run, global.bs.stream()));
 }
 
-function jsStartDev(cb) {
+function jsStartDev() {
   webpackConfig.mode = 'development';
 
-  jsStart();
-
-  cb();
+  return jsStart();
 }
 
-function jsStartProd(cb) {
+function jsStartProd() {
   webpackConfig.mode = (global.config.js.uglify) ? 'production' : 'development';
 
-  jsStart();
-
-  cb();
+  return jsStart();
 }
 
 // When JS file is changed, it will process JS file, too

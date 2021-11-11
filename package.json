@@ -26,12 +26,10 @@
     "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --watch --quiet",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy",
-    "dev": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp dev\"",
-    "prod": "concurrently --kill-others \"npm run eleventy-prod\" \"gulp\"",
-    "local": "gulp build && npm run eleventy-prod",
-    "prebuild": "gulp build && npm run eleventy-build",
-    "build-dev": "npm run prebuild && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
-    "build-prod": "npm run prebuild && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
+    "dev": "npm run eleventy-dev & gulp dev",
+    "prod": "npm run eleventy-prod & gulp",
+    "build-dev": "gulp build && npm run eleventy-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
+    "build-prod": "gulp build && npm run eleventy-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -41,7 +39,6 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.5",
-    "concurrently": "^6.2.2",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.0",
