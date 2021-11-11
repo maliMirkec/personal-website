@@ -5087,11 +5087,6 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
   integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
-fontfaceobserver-es@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/fontfaceobserver-es/-/fontfaceobserver-es-3.3.3.tgz#b8fa6b774592c53d4ff98b031f97f15f9bdc4d83"
-  integrity sha512-1EyweL1ryy0koZWk80Kr0UgWq9KhbOl2cD6x1O8BtFu0gNqCWIXK1lVFSUb37DI5FMn1m86I6X7N1JRBy8wVfw==
-
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

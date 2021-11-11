@@ -106,8 +106,7 @@ button:-moz-focusring,
   --step--2: 16px;
   --line-height1: 1.33;
   --line-height2: 1.66;
-  --letter-spacing1: 0.01em;
-  --letter-spacing2: 0.025em;
+  --letter-spacing: 0.01em;
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;
@@ -253,31 +252,16 @@ hr[class*="hr"]:before {
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
 }
 
-body.no-font {
-  font-family: var(--font-alpha);
-  line-height: var(--line-height2);
-  letter-spacing: var(--letter-spacing2);
-  word-spacing: calc(var(--letter-spacing1) * -1);
-}
-
-body.no-font h2,
-body.no-font h3 {
-  font-family: var(--font-alpha);
-  line-height: var(--line-height1);
-  letter-spacing: var(--letter-spacing2);
-  word-spacing: calc(var(--letter-spacing1) * -1);
-}
-
 body {
-  font-family: var(--font-beta);
+  font-family: var(--font-alpha);
   font-size: var(--step-0);
   line-height: var(--line-height2);
-  letter-spacing: var(--letter-spacing1);
+  letter-spacing: var(--letter-spacing);
 }
 
 h2,
 h3 {
-  font-family: var(--font-beta);
+  font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 900;
   line-height: var(--line-height1);

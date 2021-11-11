@@ -28,8 +28,7 @@ $font-size-sm: 16px;
 $font-size-lg: 20px;
 $lh1: 1.33;
 $lh2: 1.66;
-$lsp1: .01em;
-$lsp2: .025em;
+$lsp: .01em;
 
 // Spacing
 $space-default: .25rem;
@@ -81,8 +80,7 @@ $gap: $space * 2;
   --step--2: #{$font-size-lg * 0.8};
   --line-height1: #{$lh1};
   --line-height2: #{$lh2};
-  --letter-spacing1: #{$lsp1};
-  --letter-spacing2: #{$lsp2};
+  --letter-spacing: #{$lsp};
 
   // Spacing
   --space-default: #{$space-default};
