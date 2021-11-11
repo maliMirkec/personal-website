@@ -103,7 +103,7 @@ button:-moz-focusring,
   --line-height1: 1.33;
   --line-height2: 1.66;
   --letter-spacing1: 0.01em;
-  --letter-spacing2: 0.02em;
+  --letter-spacing2: 0.025em;
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;
@@ -245,6 +245,7 @@ body.no-font {
   font-family: var(--font-alpha);
   line-height: var(--line-height2);
   letter-spacing: var(--letter-spacing2);
+  word-spacing: calc(var(--letter-spacing1) * -1);
 }
 
 body.no-font h2,
@@ -252,6 +253,7 @@ body.no-font h3 {
   font-family: var(--font-alpha);
   line-height: var(--line-height1);
   letter-spacing: var(--letter-spacing2);
+  word-spacing: calc(var(--letter-spacing1) * -1);
 }
 
 body {
