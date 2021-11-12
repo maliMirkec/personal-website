@@ -27,7 +27,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." %}
+{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -108,7 +108,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." %}
+{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -157,24 +157,29 @@ tags:
 
 Static page generators use a templating language to process templates. To insert data into a template, you need to use tags. For example, to display the page title in Jekyll, you could write:
 
+{% raw %}
 ```html
-{{ page.title }}
+{{ page.title }}
 ```
+{% endraw %}
 
 Let's try to display a list of tags from the front matter in our post in Jekyll. You need to check if a variable is available. Then, you need to loop through tags and display them in an unordered list.
 
+{% raw %}
 ```html
-{%- if page.tags -%}
+{%- if page.tags -%}
  <ul>
-   {%- for tag in page.tags -%}
-     <li>{{ tag }}</li>
-   {%- endfor -%}
+   {%- for tag in page.tags -%}
+     <li>{{ tag }}</li>
+   {%- endfor -%}
  </ul>
-{%- endif -%}
+{%- endif -%}
 ```
+{% endraw %}
 
 **Middleman**
 
+{% raw %}
 ```html
 <% if current_page.data.tags %>
  <ul>
@@ -184,21 +189,25 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
  </ul>
 <% end %>
 ```
+{% endraw %}
 
 **Hugo**
 
+{% raw %}
 ```html
-{{ if .Params.Tags }}
+{{ if .Params.Tags }}
  <ul>
-   {{ range .Params.Tags }}
-     <li>{{ . }}</li>
-   {{ end }}
+   {{ range .Params.Tags }}
+     <li>{{ . }}</li>
+   {{ end }}
  </ul>
-{{ end }}
+{{ end }}
 ```
+{% endraw %}
 
 **Hexo**
 
+{% raw %}
 ```html
 <% if (post.tags) { %>
  <ul>
@@ -208,6 +217,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
  </ul>
 <% } %>
 ```
+{% endraw %}
 
 Note: _It is a good practice to check if a variable exists to prevent a build process from failing. It could save you hours of debugging and testing._
 
@@ -240,18 +250,21 @@ To output the data, you could use the following code:
 
 **Jekyll**
 
+{% raw %}
 ```html
-{%- if site.data.social -%}
+{%- if site.data.social -%}
  <ul>
-   {% for social in site.data.social %}
-     <li><a href="{{ social.href }}">{{ social.name }}</li>
-   {%- endfor -%}
+   {% for social in site.data.social %}
+     <li><a href="{{ social.href }}">{{ social.name }}</li>
+   {%- endfor -%}
  </ul>
-{%- endif -%}
+{%- endif -%}
 ```
+{% endraw %}
 
 **Middleman**
 
+{% raw %}
 ```html
 <% if data.social %>
  <ul>
@@ -261,21 +274,25 @@ To output the data, you could use the following code:
  </ul>
 <% end %>
 ```
+{% endraw %}
 
 **Hugo**
 
+{% raw %}
 ```html
-{{ if $.Site.Data.social }}
+{{ if $.Site.Data.social }}
  <ul>
-   {{ range $.Site.Data.social }}
-     <li><a href="{{ .href }}">{{ .name }}</a></li>
-   {{ end }}
+   {{ range $.Site.Data.social }}
+     <li><a href="{{ .href }}">{{ .name }}</a></li>
+   {{ end }}
  </ul>
-{{ end }}
+{{ end }}
 ```
+{% endraw %}
 
 **Hexo**
 
+{% raw %}
 ```html
 <% if (site.data.social) { %>
  <ul>
@@ -285,38 +302,47 @@ To output the data, you could use the following code:
  </ul>
 <% } %>
 ```
+{% endraw %}
 
 ## Helpers
 
 Templates often support data filtering. For example, if you want to make the title uppercase, you could do it like so:
 
+{% raw %}
 ```html
-{{ page.title | upcase }}
+{{ page.title | upcase }}
 ```
+{% endraw %}
 
 Middleman has similar syntax:
 
+{% raw %}
 ```html
 <%= current_page.data.title.upcase %>
 ```
+{% endraw %}
 
 Hugo uses the following command:
 
+{% raw %}
 ```html
-{{ .Title | upper }}
+{{ .Title | upper }}
 ```
+{% endraw %}
 
 Hexo has different syntax, but the result is the same.
 
+{% raw %}
 ```html
 <%= page.title.toUpperCase() %>
 ```
+{% endraw %}
 
 ## How Static Page Generators Handle Assets
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." %}
+{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." %}
 
 ## SASS
 
@@ -339,15 +365,19 @@ You could write a new plugin or extension. Before you do, check if a similar plu
 ## Shortcodes in Markdown
 Shortcodes are code snippets that you could place in Markdown documents. Those snippets output HTML code. Hugo and Hexo support shortcodes. There are built-in shortcodes, like figure in Hugo:
 
+{% raw %}
 ```html
-{{< figure src="/lint/to/image.jpg" title="My image" >}}
+{{< figure src="/lint/to/image.jpg" title="My image" >}}
 ```
+{% endraw %}
 
 Hexo youtube shortcode:
 
+{% raw %}
 ```html
-{% youtube video_id %}
+{% youtube video_id %}
 ```
+{% endraw %}
 
 If you cannot find a proper shortcode, you could create a new one. For example, Hexo doesn't support CanIUse embeds, and I developed [a new tag] that supports CanIUse embedding. Don't forget to publish your plugin on npm or official generator site. The community will be grateful if you do.
 
