@@ -1,3 +1,8 @@
+if(window.cloudinary) {
+  const cl = window.cloudinary.Cloudinary.new({cloud_name: "starbist"})
+  cl.responsive()
+}
+
 // Theme toggle
 const $toggle = document.querySelector('.js-toggle')
 
