@@ -41,7 +41,8 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
   # https://docs.netlify.com/site-deploys/overview/#deploy-contexts
   [plugins.inputs]
     contexts = [
-      'production'
+      'production',
+      'staging'
     ]
 
   # Optionally, override the default options for the minification
