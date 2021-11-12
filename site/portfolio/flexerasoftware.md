@@ -41,7 +41,7 @@ sections:
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
   - type: cards-beta
     cta:
-      title: Read full testimonial
+      title: Read the testimonial
     filter: testimonials
     limit: 6
   - type: hero-beta

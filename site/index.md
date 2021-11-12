@@ -38,7 +38,7 @@ sections:
   - type: cards-beta
     desc: Do you want to be my next client?
     cta:
-      title: Read full testimonial
+      title: Read the testimonial
     cta2:
       href: /contact/
       title: Contact me
@@ -59,7 +59,7 @@ sections:
   - type: cards-alpha
     desc: Do you want me to write for you?
     cta:
-      title: Read more
+      title: Read the article
     cta2:
       href: /contact/
       title: Contact me
@@ -90,7 +90,7 @@ sections:
   - type: cards-alpha
     desc: Do you want to see all articles?
     cta:
-      title: Read more
+      title: Read the article
     cta2:
       href: /articles/
       title: Go to all articles
@@ -102,7 +102,7 @@ sections:
     desc: Did you know that I blog since **2016**?
     cta:
       href: /articles/
-      title: Read the articles
+      title: View all articles
   - type: hero-beta
     title: From Side Projects
     desc: >-

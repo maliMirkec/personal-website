@@ -16,7 +16,7 @@ sections:
       Did you know that I am running **UI Dev Newsletter**? [Subscribe now](#subscribe-now)
   - type: cards-alpha
     cta:
-      title: Read more
+      title: Read the article
     filter: myArticles
     sorter: date
   - type: banner-beta

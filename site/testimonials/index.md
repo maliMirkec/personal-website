@@ -18,7 +18,7 @@ sections:
         title: Hire me
   - type: cards-beta
     cta:
-      title: Read full testimonial
+      title: Read the testimonial
     filter: testimonials
   - type: banner-alpha
     title: I am available for consultation services.

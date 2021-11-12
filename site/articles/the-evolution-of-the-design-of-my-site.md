@@ -173,7 +173,7 @@ I made other updates, like adding gray background on cards and different colors 
 
 In May, I added my logo as a repeating image throughout the site because I think the plain white background was too bright. This way, I highlighted the brand and fixed the brightness.
 
-I also updated testimonial items. This time I added photos of persons, and I shrank the text. If a visitor wants to read the full testimonial, there is a separate dedicated page for doing that.
+I also updated testimonial items. This time I added photos of persons, and I shrank the text. If a visitor wants to Read the testimonial, there is a separate dedicated page for doing that.
 
 One other significant change was that tags were actually linked to tag pages. I decided to create these pages to connect the content. For example, the [SPG tag page](/tags/spg/) holds all articles and portfolio items tagged as SPG. SPG stands for Static Page Generators, btw.
 
