@@ -113,7 +113,7 @@ button:-moz-focusring,
   --step--2: 16px;
   --line-height1: 1.33;
   --line-height2: 1.66;
-  --letter-spacing: 0.01em;
+  --letter-spacing: 0.025em;
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;

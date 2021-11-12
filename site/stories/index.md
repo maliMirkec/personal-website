@@ -6,12 +6,10 @@ type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 stories:
   - date: '2021-11-10'
-  - content: |
+    content: |
       I managed to trim font sizes from 2Mb to ~300Kb using Transfonter (https://transfonter.org).
 
-      That update improved Web Vitals score significantly. 
-
-      I might write an article about my findings soon.
+      That update improved Web Vitals score significantly.
   - date: '2021-11-03'
     content: |
       I am really struggling to be productive working from home.

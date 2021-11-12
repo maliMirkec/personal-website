@@ -111,7 +111,7 @@ button:-moz-focusring,
   --step--2: 16px;
   --line-height1: 1.33;
   --line-height2: 1.66;
-  --letter-spacing: 0.01em;
+  --letter-spacing: 0.025em;
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;
@@ -278,6 +278,10 @@ h2 {
 
 [class*="fz-step-"] {
   font-size: var(--font-size);
+}
+
+[class*="fz-step--2"] {
+  --font-size: var(--step--2);
 }
 
 [class*="fz-step--1"] {
