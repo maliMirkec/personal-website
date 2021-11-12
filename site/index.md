@@ -120,7 +120,7 @@ sections:
     desc: Did you know that I started **CSS Auditors**, a site dedicated to **auditing CSS**?
     cta:
       href: https://css-auditors.com
-      title: Learn more
+      title: Learn more about CSS Auditors
   - type: banner-alpha
     title: I am available for consultation services.
     desc: I specialize in technologies related to frontend, user interface, and web development.
