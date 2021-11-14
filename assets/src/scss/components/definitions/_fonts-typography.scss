@@ -8,8 +8,21 @@
 
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+.ffss,
+.body-copy {
   font-family: var(--font-alpha);
+}
+
+body {
   font-size: var(--step-0);
   line-height: var(--line-height2);
   letter-spacing: var(--letter-spacing);
@@ -32,7 +45,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 900;
   line-height: var(--line-height1);
@@ -75,15 +87,6 @@ h6 {
 blockquote {
   padding: 0;
   margin: 0;
-}
-
-pre,
-code,
-.ffm,
-.ffss,
-.body-copy,
-.ffs {
-  font-family: var(--font-alpha);
 }
 
 .fs-italic {

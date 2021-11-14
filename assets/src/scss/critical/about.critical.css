@@ -99,7 +99,6 @@ button:-moz-focusring,
   --color-dark: #0f0f0f;
   --color-darkish: #1a1a1a;
   --font-alpha: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-beta: Mulish, sans-serif;
   --step-6: 60px;
   --step-5: 52px;
   --step-4: 44px;
@@ -253,8 +252,13 @@ hr[class*="hr"]:before {
   text-shadow: -1rem 0 0 currentColor, 1rem 0 0 currentColor;
 }
 
-body {
+body,
+h1,
+h2 {
   font-family: var(--font-alpha);
+}
+
+body {
   font-size: var(--step-0);
   line-height: var(--line-height2);
   letter-spacing: var(--letter-spacing);
@@ -262,7 +266,6 @@ body {
 
 h1,
 h2 {
-  font-family: var(--font-alpha);
   font-style: normal;
   font-weight: 900;
   line-height: var(--line-height1);
