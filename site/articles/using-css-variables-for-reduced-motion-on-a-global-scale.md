@@ -22,7 +22,7 @@ Here’s the example of the usage:
   animation: regularAnimation 1s;
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   .selector {
     animation: reducedAnimation .1s;
   }
@@ -60,7 +60,7 @@ So, how do CSS Variables help us? To answer that question, I would like to show 
 To reduce the transition, we could write the following:
 
 ```css
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   .selector,
   .selector2,
   .selector3 {
@@ -84,7 +84,7 @@ Let’s introduce a CSS Variable that might help us set reduced motion on a glob
   transition: transform var(--transition-duration);
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   :root {
     --transition-duration: .05s;
   }
@@ -113,7 +113,7 @@ We could use multiple transition durations, and it will still look clean:
   transition: transform var(--transition-duration2);
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   :root {
     --transition-duration1: .05s;
     --transition-duration2: .05s;

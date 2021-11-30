@@ -133,7 +133,7 @@ button:-moz-focusring,
   }
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   :root {
     --duration: .05s;
     --duration2: .05s;
@@ -437,10 +437,6 @@ ul ul {
 .button:not(.df):not(.db) {
   display: inline-flex;
   margin: .2em;
-}
-
-@media (prefers-reduced-motion) {
-
 }
 
 .button[href] {

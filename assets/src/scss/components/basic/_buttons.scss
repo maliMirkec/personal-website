@@ -37,10 +37,6 @@
     margin: .2em;
   }
 
-  @media (prefers-reduced-motion) {
-    transition: none;
-  }
-
   &[href] {
     text-decoration: none;
   }

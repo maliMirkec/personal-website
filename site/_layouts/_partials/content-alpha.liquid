@@ -1,9 +1,12 @@
 {% if sections %}
   <hr class="text-alpha hr">
 {% endif %}
-{% if tags and tags[0] == 'blog' %}
-  {% include _partials/hero-gamma %}
-  <hr class="text-alpha hr">
+{% if tags %}
+  {% assign firstTag = tags | first %}
+  {% if firstTag == 'blog' or firstTag == 'advent' %}
+    {% include _partials/hero-gamma %}
+    <hr class="text-alpha hr">
+  {% endif %}
 {% endif %}
 <section class="wrapper margin-top-alpha margin-bottom-alpha">
   <div class="padding">

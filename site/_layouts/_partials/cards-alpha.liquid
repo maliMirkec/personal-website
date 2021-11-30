@@ -5,6 +5,11 @@
   <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card1 in card1List %}
+        {% assign now = 'now' | date: "%Y-%m-%d" %}
+        {% assign card1Date = card1.data.date | date: "%Y-%m-%d" %}
+        {% if card1Date > now %}
+          {% continue %}
+        {% endif %}
         {% if cards1.limit and i1 > cards1.limit %}
           {% break %}
         {% endif %}
@@ -31,8 +36,8 @@
                   {% endfor %}
                 {% endif %}
               {% endif %}
-              {% if card1.data.date %}
-                <time class="button button--small button--invisible" datetime="{{ card1.data.date | date: "%Y-%m-%d" }}">{{ card1.data.date | date: "%Y-%m-%d" }}</time>
+              {% if card1Date %}
+                <time class="button button--small button--invisible" datetime="{{ card1Date }}">{{ card1Date }}</time>
               {% endif %}
               {% if cards1.cta %}
                 <div class="copy margin-top">{{ card1.data.description }}</div>
