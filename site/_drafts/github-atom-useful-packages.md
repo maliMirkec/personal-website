@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Github Atom useful packages
-published: false
+permalink: false
 eleventyExcludeFromCollections: true
 tags:
   - blog

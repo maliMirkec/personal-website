@@ -118,7 +118,7 @@ $gap: $space * 2;
     --cols: #{$cols-bp1};
   }
 
-  @media (prefers-reduced-motion) {
+  @media (prefers-reduced-motion: reduce) {
     --duration: .05s;
     --duration2: .05s;
     --delay: .05s;

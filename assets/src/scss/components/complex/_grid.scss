@@ -13,6 +13,10 @@
 
   @include mq($from: bp1) {
     --cols: repeat(auto-fit, minmax(400px, 1fr));
+
+    > *:only-child {
+      max-width: 33.33%;
+    }
   }
 }
 

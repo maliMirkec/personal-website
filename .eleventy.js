@@ -33,7 +33,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('cldnrysrc', (name) => `https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/${ name }`)
 
-  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story']
+  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story', 'advent']
 
   eleventyConfig.addLiquidFilter('tagify', (tags) => tags.filter(tag => exclude_tags.indexOf(tag) === -1))
 
@@ -47,13 +47,25 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('caniuse', (feature, periods) => `<p class="ciu_embed" data-feature="${ feature }" data-periods="${ periods }"><a href="http://caniuse.com/#feat=${ feature }">Can I Use ${ feature }?</a> Data on support for the ${ feature } feature across the major browsers from caniuse.com.</p><script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>`)
 
-  const cldnry = (src, alt, width, height, classes, classes2) => width ? `<span class="pic${ classes2 ? ' ' + classes2 : '' }"><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }" loading="lazy"></span>` :
+  const cldnry = (src, alt, width, height, classes, classes2) => width ? `<span class="db pic${ classes2 ? ' ' + classes2 : '' }"><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }" loading="lazy"></span>` :
     `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" loading="lazy">`
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
   eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`
   )
+
+  eleventyConfig.addCollection("myAdvent", (collection) => {
+    return collection.getFilteredByTag("advent").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
 
   eleventyConfig.addCollection("myArticles", (collection) => {
     return collection.getFilteredByTag("blog").sort((a, b) => {
