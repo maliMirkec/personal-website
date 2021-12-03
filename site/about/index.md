@@ -5,7 +5,7 @@ description: I am Silvestar Bistrović, fearless web engineer, CSS developer, JA
 type: about
 sections:
   - type: hero-alpha
-    src: avatar-1024_yo1iya
+    src: PSX_20210122_073856_fdz5qg
     alt: A profile photo of Silvestar Bistrović.
     title: About me
     desc: >-
