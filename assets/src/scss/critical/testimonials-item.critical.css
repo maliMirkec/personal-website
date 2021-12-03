@@ -631,6 +631,34 @@ header nav > ul ul {
   }
 }
 
+.advent-banner {
+  --color-xmas-alpha: #f7efef;
+  --color-xmas-beta: #d72621;
+  --color-xmas-gamma: #639565;
+  background-color: var(--color-xmas-alpha);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.advent-banner p,
+.advent-banner a {
+  background-image: linear-gradient(to right, var(--color-xmas-beta), var(--color-xmas-gamma));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.advent-banner p {
+  margin: 0;
+}
+
+.advent-banner a {
+  padding: .1em;
+  border: .3em solid transparent;
+}
+
 .card blockquote {
   display: flex;
   flex-direction: column;
