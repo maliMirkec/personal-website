@@ -19,3 +19,50 @@
 // Weight: 1301
 //
 // Styleguide Banner.Beta
+
+// Beta
+//
+// Markup: _banner-omega.html
+//
+// Weight: 1302
+//
+// Styleguide Banner.Omega
+
+.advent-banner {
+  --color-xmas-alpha: #f7efef;
+  --color-xmas-beta: #d72621;
+  --color-xmas-gamma: #639565;
+  background-color: var(--color-xmas-alpha);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+
+  p,
+  a {
+    background-image: linear-gradient(to right, var(--color-xmas-beta), var(--color-xmas-gamma));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    padding: .1em;
+    border: .3em solid transparent;
+    transition: border-color .2s;
+
+    &:not(.button) {
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: transparent;
+        box-shadow: none;
+        border-top-color: var(--color-xmas-gamma);
+        border-bottom-color: var(--color-xmas-beta);
+      }
+    }
+  }
+}
