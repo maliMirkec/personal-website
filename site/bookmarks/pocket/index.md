@@ -10,7 +10,6 @@ sections:
       Pocket bookmarks export file.
 ---
 
-- [https://unroll.me/a/rollup/2018-08-02/email/12582677211](https://unroll.me/a/rollup/2018-08-02/email/12582677211)
 - [https://www.youtube.com/watch?v=2Rn8an74khk&amp;feature=youtu.be](https://www.youtube.com/watch?v=2Rn8an74khk&amp;feature=youtu.be)
 - [https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email](https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email)
 - [https://hiddedevries.nl/en/blog/2018-06-26-how-i-learned-to-stop-worrying-and-love-csps?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email](https://hiddedevries.nl/en/blog/2018-06-26-how-i-learned-to-stop-worrying-and-love-csps?utm_source=CSS-Weekly&amp;utm_campaign=Issue-320&amp;utm_medium=email)
