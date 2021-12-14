@@ -146,8 +146,12 @@ hr {
 
   .copy & {
     background-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
     &:before {
-      color: var(--color-alpha);
+      color: inherit;
+      opacity: 0.5;
     }
   }
 }
