@@ -5,3 +5,4 @@ node_modules
 .vscode
 assets/dist
 public
+frontmatter.json
