@@ -6,6 +6,9 @@
   --color-lightish: #{$color-darkish};
   --color-dark: #{$color-light};
   --color-darkish: #{$color-lightish};
+  --color-xmas-alpha: #{$color-darkish};
+  --color-xmas-beta: #{$color-xmas-beta-dark};
+  --color-xmas-gamma: #{$color-xmas-gamma-dark};
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 

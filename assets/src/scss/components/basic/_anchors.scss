@@ -57,7 +57,7 @@ a {
   .copy & {
     &:not([class]) {
       text-decoration: underline;
-      text-decoration-thickness: 2px;
+      text-decoration-thickness: from-font;
       display: inline;
       word-break: break-word;
 
