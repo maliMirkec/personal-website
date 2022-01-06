@@ -1,12 +1,12 @@
 <section id="pagination" class="margin-top-alpha margin-bottom-alpha">
   <div class="wrapper wrapper--alpha grid padding">
     {% for card4 in pagination.items %}
-      <div class="card card--flex bg-lightish">
+      <div class="tilt card card--flex bg-lightish">
         <div class="padding">
-          <div class="copy margin-top margin-bottom">{{ card4.content | markdownify }}</div>
+          <div class="tilt__inner copy margin-top margin-bottom">{{ card4.content | markdownify }}</div>
         </div>
         <div class="padding margin-top-alpha">
-          <div class="margin-top margin-bottom">
+          <div class="tilt__inner margin-top margin-bottom text-center">
             {% if card4.date %}
               <time class="button button--small button--invisible" datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%Y-%m-%d" }}</time>
             {% endif %}

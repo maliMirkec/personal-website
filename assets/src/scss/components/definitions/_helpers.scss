@@ -183,3 +183,11 @@ p {
     }
   }
 }
+
+.tilt {
+  transform: skewY(calc(var(--angle) * -1));
+
+  .tilt__inner {
+    transform: skewY(var(--angle));
+  }
+}

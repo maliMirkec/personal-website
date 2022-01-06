@@ -53,6 +53,12 @@ $cols: repeat(auto-fill, minmax(400px, 1fr));
 $cols-bp1: repeat(auto-fill, 1fr);
 $gap: $space * 2;
 
+// Gallery gap
+$ggap: 4px;
+
+// Tilt
+$angle: .5deg;
+
 :root {
   // Breakpoints
   --bp: #{$bp};
@@ -105,7 +111,10 @@ $gap: $space * 2;
   --gap: #{$gap};
 
   // Gallery
-  --ggap: 4px;
+  --ggap: #{$ggap};
+
+  // Tilt
+  --angle: #{$angle};
 
   @include mq($until: bp1) {
     // Typography

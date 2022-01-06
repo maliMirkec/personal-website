@@ -11,29 +11,31 @@
         {% unless cards2.exclude == 'true' or title == card2.data.title %}
           <div class="card">
             <blockquote cite="{{ card2.url }}">
-              <div class="bg-lightish margin-bottom">
-                {% if card2.data.title %}
-                  <header class="padding copy">
-                    {% if card2.data.avatar and cards2.cta %}
-                      <a class="df aic" href="{{ card2.url }}">
-                        {% if card2.data.avatar %}
-                          <span class="db margin-right avatar">
-                            {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
-                          </span>
-                        {% endif %}
-                        <div class="db">
-                          <h3 class="fz-step--1 no-margin">{{ card2.data.title }}</h3>
-                          <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
-                        </div>
-                      </a>
-                    {% endif %}
-                  </header>
-                {% endif %}
-                {% if card2.data.excerpt %}
-                  <div class="padding copy fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
-                {% else if card2.template.frontMatter.content %}
-                  <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
-                {% endif %}
+              <div class="tilt bg-lightish margin-bottom">
+                <div class="tilt__inner">
+                  {% if card2.data.title %}
+                    <header class="padding copy">
+                      {% if card2.data.avatar and cards2.cta %}
+                        <a class="df aic" href="{{ card2.url }}">
+                          {% if card2.data.avatar %}
+                            <span class="db margin-right avatar">
+                              {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
+                            </span>
+                          {% endif %}
+                          <div class="db">
+                            <h3 class="fz-step--1 no-margin">{{ card2.data.title }}</h3>
+                            <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
+                          </div>
+                        </a>
+                      {% endif %}
+                    </header>
+                  {% endif %}
+                  {% if card2.data.excerpt %}
+                    <div class="padding copy fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
+                  {% else if card2.template.frontMatter.content %}
+                    <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
+                  {% endif %}
+                </div>
               </div>
               {% if cards2.cta %}
                 <footer class="text-center margin-top margin-bottom">
