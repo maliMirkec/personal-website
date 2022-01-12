@@ -63,7 +63,7 @@
     "imagemin-pngquant": "^9.0.2",
     "jstransformer-markdown-it": "^2.1.0",
     "kss": "^3.0.1",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.3.1",
     "modularscale-sass": "latest",
     "normalize.css": "latest",
