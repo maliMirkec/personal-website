@@ -33,7 +33,7 @@ sections:
       href: /portfolio/
       title: /Portfolio
     cta:
-      href: //www.pinecone.com
+      href: //www.pinecone.io
       title: Go to site
   - type: hero-beta
     title: From Testimonials
