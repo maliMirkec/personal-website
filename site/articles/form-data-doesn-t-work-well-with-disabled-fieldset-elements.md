@@ -52,7 +52,7 @@ const formData = new FormData($form)
 // You cannot log formData directly
 console.log(Array.from(formData))
 
-// Output: [] - works
+// Output: [...] - works
 
 // Set all fieldsets as disabled
 if($fieldsets.length) {
