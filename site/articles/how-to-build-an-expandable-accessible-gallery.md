@@ -412,7 +412,7 @@ const setResizeEvents = ($elems, $parent) => {
 }
 ```
 
-{% embed '<iframe title="vimeo-player" src="https://player.vimeo.com/video/613414984?h=6ef9e11f9c" width="792" height="423" frameborder="0" allowfullscreen></iframe>' '792' '423' %}
+{% embed '<iframe title="vimeo-player" src="https://player.vimeo.com/video/613414984?h=6ef9e11f9c" width="792" height="423" frameborder="0" allowfullscreen loading="lazy"></iframe>' '792' '423' %}
 
 <small>A preview of what the expandable accessible gallery demo can do. ([Try out on CodePen →](https://codepen.io/CiTA/pen/dyWdpeE))</small>
 
