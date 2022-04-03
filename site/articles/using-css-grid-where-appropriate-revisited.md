@@ -46,7 +46,7 @@ Creating navigation with CSS Grid is arguably not the best solution. However, if
 
 In both examples, we are defining a strict grid—a number of columns in a row are strictly defined.
 
-{% codepen "CiTA" "dzogLV" "dark" "result" "650" %}
+{% codepen "CiTA" "dzogLV" "dark" "result" "700" false true %}
 
 ## A new solution
 
@@ -60,7 +60,7 @@ I have been using CSS Grid for more than a year now, and I learned how to use it
 
 I have forked the previous solution and updated it with the features mentioned above. Here's the final solution.
 
-{% codepen "CiTA" "pOgGqv" "dark" "result" "220" %}
+{% codepen "CiTA" "pOgGqv" "dark" "result" "300" false true %}
 
 ``` css
 .nav--grid2 {

@@ -32,9 +32,9 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 - [Article Card], and
 - [Profile Card].
 
-{% codepen "CiTA" "LYVbmKd" "dark" "result" "450" %}
+{% codepen "CiTA" "LYVbmKd" "dark" "result" "600" false true %}
 
-{% codepen "CiTA" "gOpLzMz" "dark" "result" "450" %}
+{% codepen "CiTA" "gOpLzMz" "dark" "result" "600" false true %}
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 

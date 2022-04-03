@@ -63,7 +63,7 @@ I'll set this property to `column` and grid will be smart enough to add new colu
 
 To create a responsive menu, I've added a media query for a smaller screen and stacked items one below other using `grid-auto-flow: row`. Now I could use either 4 or 5 elements in my navigation. Everything works.
 
-{% codepen "CiTA" "brVbjx" "dark" "result" "200" %}
+{% codepen "CiTA" "brVbjx" "dark" "result" "300" false true %}
 
 ## Using CSS Grid items
 
@@ -93,7 +93,7 @@ Then I've tried a different approach: instead of trying to define a grid, I'll t
 
 CSS Grid is smart enough to create a grid from provided `grid-area` properties. It wasn't the best solution and certainly not the most elegant one, but it worked.
 
-{% codepen "CiTA" "BdoaQb" "dark" "result" "230" %}
+{% codepen "CiTA" "BdoaQb" "dark" "result" "300" false true %}
 
 ## Using CSS Grid correctly
 
@@ -116,7 +116,7 @@ After studying every grid property I finally got the answer. I should create des
 
 I've defined 4 columns and 2 rows and the result looks the same.
 
-{% codepen "CiTA" "MvKQXZ" "dark" "result" "230" %}
+{% codepen "CiTA" "MvKQXZ" "dark" "result" "300" false true %}
 
 ## Using flexbox as fallback
 
@@ -163,7 +163,7 @@ To prevent Edge from using CSS Grid, I've added `grid-auto-flow: row` rule. This
 
 The result is still the same, with an exception of cross browser support.
 
-{% codepen "CiTA" "gxPzwJ" "dark" "result" "230" %}
+{% codepen "CiTA" "gxPzwJ" "dark" "result" "300" false true %}
 
 ## A lesson learned
 

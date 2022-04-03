@@ -63,4 +63,4 @@ In this version, we add `margin-top` to all elements that have a previous siblin
 
 There you have it, enabling selectors that do a better job in less code. Here's the demo:
 
-{% codepen "CiTA" "WNogPdB" "dark" "css,result" "350" %}
+{% codepen "CiTA" "WNogPdB" "dark" "css,result" "350" false true %}

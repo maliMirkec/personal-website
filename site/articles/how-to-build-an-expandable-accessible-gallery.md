@@ -21,7 +21,7 @@ One of the use cases for using CSS Grid is to display a gallery of images, but a
 
 In this article, I’ll explain how to build an accessible expandable gallery with a few tips and tricks along the way. Here’s how the final result looks like:
 
-{% codepen "CiTA" "dyWdpeE" "dark" "result" "550" %}
+{% codepen "CiTA" "dyWdpeE" "dark" "result" "550" false true %}
 
 ## The HTML
 

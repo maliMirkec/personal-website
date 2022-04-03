@@ -98,7 +98,7 @@ If we are talking about centered content, then the calculation is quite straight
 
 In short, the negative offset is the width of the viewport, 100vw, minus the width of the element, 100%, and then divided by -2, because we need two negative offsets.
 
-{% codepen "CiTA" "abZPzoX" "dark" "result" "500" %}
+{% codepen "CiTA" "abZPzoX" "dark" "result" "500" false true %}
 
 Beware that there is a known bug when using 100vw, that is also documented over [at caniuse](https://caniuse.com/viewport-units):
 
@@ -184,15 +184,15 @@ right: ((100vw - (100% + var(--gap) + var(--aside-width))) / -2) - (var(--aside-
 
 Now we are sure the sticky element doesn’t overlap any content in full-bleed elements.
 
-{% codepen "CiTA" "KKMbqrm" "dark" "result" "500" %}
+{% codepen "CiTA" "KKMbqrm" "dark" "result" "500" false true %}
 
 Here’s the solution with a horizontal bug:
 
-{% codepen "CiTA" "vYKjEyb" "dark" "result" "500" %}
+{% codepen "CiTA" "vYKjEyb" "dark" "result" "500" false true %}
 
 And here’s the solution with a horizontal bugfix:
 
-{% codepen "CiTA" "mdELEPp" "dark" "result" "500" %}
+{% codepen "CiTA" "mdELEPp" "dark" "result" "500" false true %}
 
 The fix is to hide overflow on the x-axis of the body, which might be a good idea in general anyway:
 
@@ -271,7 +271,7 @@ Next, we are calculating the gutter width. The calculation is:
 
 …where 100% is the viewport width. First, we are subtracting the maximum width of the inner columns from the width of the viewport. Then, we are dividing that result by 2 to create the gutters. Finally, we are subtracting the grid’s gap to get the correct width of the gutter columns.
 
-{% codepen "CiTA" "VwjRbMK" "dark" "result" "500" %}
+{% codepen "CiTA" "VwjRbMK" "dark" "result" "500" false true %}
 
 Now let’s push the `.box--hero` element over so it starts at the first inner column of the grid:
 
@@ -314,7 +314,7 @@ To center the content, we are going to calculate left and right padding. The lef
 
 Here’s the final solution:
 
-{% codepen "CiTA" "dyXePPj" "dark" "result" "500" %}
+{% codepen "CiTA" "dyXePPj" "dark" "result" "500" false true %}
 
 I prefer this solution to the first one because it isn’t using buggy viewport units.
 

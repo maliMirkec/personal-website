@@ -67,7 +67,7 @@ Every role could have required and optional attributes. Required attributes are 
 
 Because there are so many tools and devices and documentation is overwhelming, I decided to use trial and error method this time. After few hours, I came up with final solution. You could see it in this pen:
 
-{% codepen "CiTA" "LRKEPQ" "dark" "result" %}
+{% codepen "CiTA" "LRKEPQ" "dark" "result" "300" false true %}
 
 ### Radio buttons
 

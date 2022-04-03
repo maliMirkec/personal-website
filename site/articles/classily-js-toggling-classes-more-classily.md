@@ -118,7 +118,7 @@ As you see, Classily.js is not complicated to use. In fact, it looks like it can
 
 If you click on the "Toggle button" in the example below, you should see that both headings will change color.
 
-{% codepen "CiTA" "POaNEj" "dark" "result" "350" %}
+{% codepen "CiTA" "POaNEj" "dark" "result" "450" false false true %}
 
 Here's the code:
 
@@ -142,7 +142,7 @@ There is another way how we could achieve the same effect—we could provide a c
 
 In the example below, we are toggling two different classes on two separate elements.
 
-{% codepen "CiTA" "VrdaGK" "dark" "result" "430" %}
+{% codepen "CiTA" "VrdaGK" "dark" "result" "450" false false true %}
 
 The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, `hidden` and `blue`—we could provide more that one class by using space as separator.
 
@@ -171,7 +171,7 @@ In the following example, the heading could be in three states:
 
 Once we activate "blue", "red" or "gold" state, the heading could never go back to default state.
 
-{% codepen "CiTA" "pdKbzY" "dark" "result" "250" %}
+{% codepen "CiTA" "pdKbzY" "dark" "result" "350" false false true %}
 
 To create the same effect, think how many lines of `JavaScript` code you should write. And now let's look how we could achieve this effect using Classily.js:
 
@@ -194,7 +194,7 @@ The method above could be applied to create tab section, feature seen on many we
 
 Often there is a need to switch the state of the element itself, like the button in this example.
 
-{% codepen "CiTA" "JOZKEb" "dark" "result" "180" %}
+{% codepen "CiTA" "JOZKEb" "dark" "result" "350" false false true %}
 
 To avoid usage of complicated selectors, we could use the keyword `this`.
 

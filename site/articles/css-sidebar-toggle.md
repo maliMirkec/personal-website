@@ -43,7 +43,7 @@ For a menu toggle indicator, we could use well know hamburger menu. There are [m
 
 ### First Demo
 
-{% codepen "CiTA" "YNbKpo" "dark" "result" %}
+{% codepen "CiTA" "YNbKpo" "dark" "result" "300" false true %}
 
 ### HTML for the first demo
 
@@ -104,7 +104,7 @@ There are many ways how a sidebar could be displayed. I've decided to go with a 
 
 ### Second Demo
 
-{% codepen "CiTA" "bgjKKE" "dark" "result" %}
+{% codepen "CiTA" "bgjKKE" "dark" "result" "500" false true %}
 
 ### HTML for the second demo
 

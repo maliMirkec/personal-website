@@ -26,7 +26,7 @@ _CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-a
 
 Let's start with `HTML`. This is the full structure:
 
-{% codepen "CiTA" "YGZyOm" "dark" "html" %}
+{% codepen "CiTA" "YGZyOm" "dark" "result" "300" false true %}
 
 Let's break it down by elements:
 
@@ -67,7 +67,7 @@ Finally, we'll add `value` attribute for every `input type="radio"` element and 
 
 To create styling for tabs, **[SCSS](http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html)** and **[cita-flex](https://github.com/maliMirkec/cita-flex)** will be used. This is the final code:
 
-{% codepen "CiTA" "ALVWzg" "dark" "html" %}
+{% codepen "CiTA" "ALVWzg" "dark" "result" "300" false true %}
 
 First we will import **cita-flex** mixins in our file. It is a small library which could help you create layouts using flexbox built by me. **cita-flex** is available through bower and you could install it using command `bower install cita-flex`.
 
@@ -114,7 +114,7 @@ Now we could repeat this for every tab using `@for` loop and we're finished.
 
 Below you could see the full solution with disabled tabs 2 and 10.
 
-{% codepen "CiTA" "ALVWzg" "dark" "result" %}
+{% codepen "CiTA" "ALVWzg" "dark" "result" "300" false true %}
 
 ## Final thought
 

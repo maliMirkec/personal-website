@@ -198,7 +198,7 @@ Since the right triangle should match the background color of the ribbon, let’
 
 And there we go!
 
-{% codepen "CiTA" "moNQgY" "dark" "result" "400" %}
+{% codepen "CiTA" "moNQgY" "dark" "result" "400" false true %}
 
 ### Option 2: The background image approach
 
@@ -266,7 +266,7 @@ Unlike the border triangle approach, we want to match the height of our pseudo-e
 
 There we go!
 
-{% codepen "CiTA" "jJgQoM" "dark" "result" "400" %}
+{% codepen "CiTA" "jJgQoM" "dark" "result" "400" false true %}
 
 ### Option 3: The inline SVG approach
 
@@ -310,7 +310,7 @@ This particular approach allows us to control the `fill` color of each SVG arrow
 }
 ```
 
-{% codepen "CiTA" "axdpXe" "dark" "result" "400" %}
+{% codepen "CiTA" "axdpXe" "dark" "result" "400" false true %}
 
 ### Option 4: The clip-path approach
 
@@ -338,7 +338,7 @@ Since we defined our wrapper element using CSS Grid, we should expand the ribbon
 }
 ```
 
-{% codepen "CiTA" "YgmRbg" "dark" "result" "400" %}
+{% codepen "CiTA" "YgmRbg" "dark" "result" "400" false true %}
 
 ### Variations on these options
 
@@ -355,7 +355,7 @@ We could add the shadow on our ribbon elements. Make sure to avoid the shadow on
 }
 ```
 
-{% codepen "CiTA" "WmVYqx" "dark" "result" "400" %}
+{% codepen "CiTA" "WmVYqx" "dark" "result" "400" false true %}
 
 ### Using gradients for color
 
@@ -380,7 +380,7 @@ For example, if we are going to use the border approach or background image appr
 }
 ```
 
-{% codepen "CiTA" "xBvQoz" "dark" "result" "400" %}
+{% codepen "CiTA" "xBvQoz" "dark" "result" "400" false true %}
 
 ### Working with size variations
 
@@ -400,17 +400,17 @@ Since the size of our ribbon elements depends on the font size of the wrapper el
 
 Here we go with a smaller set of ribbons:
 
-{% codepen "CiTA" "aMeQeG" "dark" "result" "400" %}
+{% codepen "CiTA" "aMeQeG" "dark" "result" "400" false true %}
 
 And here’s a nice set of chunky ribbons:
 
-{% codepen "CiTA" "drxQxw" "dark" "result" "400" %}
+{% codepen "CiTA" "drxQxw" "dark" "result" "400" false true %}
 
 ### Combining all the things!
 
 We can also combine different modifier classes to achieve an even more styling. For example, let’s use gradient and shadow modifiers together:
 
-{% codepen "CiTA" "ywmQmb" "dark" "result" "400" %}
+{% codepen "CiTA" "ywmQmb" "dark" "result" "400" false true %}
 
 ## Any other angles to consider?
 

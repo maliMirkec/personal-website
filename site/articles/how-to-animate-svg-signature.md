@@ -159,7 +159,7 @@ I have used opacity to prevent flick during the load time. It works better when 
 
 There you have it, an animated SVG signature. With a little bit of SVG, JavaScript and CSS knowledge, you could create appealing drawing animation. I have found more than a couple of plugins that handle animations like this one, but I always prefer using less code. I have made this demo in less than 100 lines of code. See the full demo here:
 
-{% codepen "CiTA" "abzJqQv" "dark" "result" "400" %}
+{% codepen "CiTA" "abzJqQv" "dark" "result" "400" false true %}
 
 [About page]: /about/
 [CodePen]: https://codepen.io/CiTA/full/abzJqQv

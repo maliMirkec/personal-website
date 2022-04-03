@@ -61,7 +61,7 @@ First three are easy to create, especially if using flexbox to center the conten
 
 To create the crooked border, we will use CSS triangle. It's pretty old technique and it's used all over the place. To understand CSS triangles, look at this short animation made by Chris Coyier:
 
-{% codepen "chriscoyier" "lotjh" "dark" "result" %}
+{% codepen "chriscoyier" "lotjh" "dark" "result" "400" false true %}
 
 In our case, we'll use `:after` pseudo element to create a crooked solid bottom border. Here's the code:
 
@@ -107,7 +107,7 @@ _In order to make this work, don't forget to add `position: relative` and `overf
 
 And here's the final solution:
 
-{% codepen "CiTA" "WjRJWN" "dark" "result" "340" %}
+{% codepen "CiTA" "WjRJWN" "dark" "result" "400" false true %}
 
 ## Final thoughts
 
@@ -119,6 +119,6 @@ If you like this article or you have a different solution, let me know in the co
 
 After I posted the article on [Reddit](https://www.reddit.com/r/Frontend/comments/6pihl9/how_to_create_crooked_shadow/), Martijn Hermans provided alternative and perhaps even more elegant solution using `skew` and a single pseudo element:
 
-{% codepen "doxick" "oegrwM" "dark" "result" "340" %}
+{% codepen "doxick" "oegrwM" "dark" "result" "400" false true %}
 
 The border and the shadow look sharper now.
