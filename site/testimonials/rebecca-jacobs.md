@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Rebecca Jacobs
-description: Rebecca Jacobs talks about his positive experience in working with Silvestar Bistrović.
+description: Rebecca Jacobs talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

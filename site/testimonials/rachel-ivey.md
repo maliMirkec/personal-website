@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Rachel Ivey
-description: Rachel Ivey talks about his positive experience in working with Silvestar Bistrović.
+description: Rachel Ivey talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

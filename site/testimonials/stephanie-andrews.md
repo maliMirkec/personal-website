@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Stephanie (Annie) Andrews
-description: Stephanie (Annie) Andrews talks about his positive experience in working with Silvestar Bistrović.
+description: Stephanie (Annie) Andrews talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

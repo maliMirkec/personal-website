@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Christine White
-description: Christine White talks about his positive experience in working with Silvestar Bistrović.
+description: Christine White talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
