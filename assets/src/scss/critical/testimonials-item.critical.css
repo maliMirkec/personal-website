@@ -90,14 +90,17 @@ button:-moz-focusring,
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
-  --selection: rgba(18, 222, 157, 0.1875);
-  --color-alpha: #12de9d;
-  --color-alpha-hover: #63f2c5;
+  --selection: rgba(99, 242, 197, 0.1875);
+  --color-alpha: #63f2c5;
+  --color-alpha-hover: #34efb4;
   --color-beta: #ff3366;
-  --color-light: #fafafa;
-  --color-lightish: #f0f0f0;
-  --color-dark: #0f0f0f;
-  --color-darkish: #1a1a1a;
+  --color-light: #f6fefb;
+  --color-lightish: #ecfdf8;
+  --color-dark: #021811;
+  --color-darkish: #042f21;
+  --color-xmas-alpha: #f6eeee;
+  --color-xmas-beta: #d82822;
+  --color-xmas-gamma: #649666;
   --font-alpha: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   --step-6: 60px;
   --step-5: 52px;
@@ -120,6 +123,7 @@ button:-moz-focusring,
   --cols: repeat(auto-fill, minmax(400px, 1fr));
   --gap: 2rem;
   --ggap: 4px;
+  --angle: 0.5deg;
 }
 
 @media (max-width: 37.49em) {
@@ -147,9 +151,6 @@ button:-moz-focusring,
 }
 
 body {
-  background-image: url(/gfx/svg/bg-logo-alt.svg);
-  background-position: top left;
-  background-size: 5vmax;
   background-color: var(--color-light);
   color: var(--color-dark);
 }
@@ -283,6 +284,14 @@ hr[class*="hr"]:before {
 
 .avatar {
   min-width: 60px;
+}
+
+.tilt {
+  transform: skewY(calc(var(--angle) * -1));
+}
+
+.tilt .tilt__inner {
+  transform: skewY(var(--angle));
 }
 
 body,
@@ -424,10 +433,13 @@ blockquote {
   --color-alpha: #0a7f5a;
   --color-alpha-hover: #0a7f5a;
   --color-beta: #e61a4d;
-  --color-light: #0f0f0f;
-  --color-lightish: #1a1a1a;
-  --color-dark: #fafafa;
-  --color-darkish: #f0f0f0;
+  --color-light: #021811;
+  --color-lightish: #042f21;
+  --color-dark: #f6fefb;
+  --color-darkish: #ecfdf8;
+  --color-xmas-alpha: #042f21;
+  --color-xmas-beta: #e86d69;
+  --color-xmas-gamma: #97ba98;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -551,6 +563,10 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
+.inner > header {
+  background-color: var(--color-lightish);
+}
+
 header nav {
   position: relative;
 }
@@ -629,34 +645,6 @@ header nav > ul ul {
   header nav:not(.active) > ul > li:not(:first-child) {
     display: none;
   }
-}
-
-.advent-banner {
-  --color-xmas-alpha: #f7efef;
-  --color-xmas-beta: #d72621;
-  --color-xmas-gamma: #639565;
-  background-color: var(--color-xmas-alpha);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  text-align: center;
-}
-
-.advent-banner p,
-.advent-banner a {
-  background-image: linear-gradient(to right, var(--color-xmas-beta), var(--color-xmas-gamma));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.advent-banner p {
-  margin: 0;
-}
-
-.advent-banner a {
-  padding: .1em;
-  border: .3em solid transparent;
 }
 
 .card blockquote {

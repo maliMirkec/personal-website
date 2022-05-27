@@ -37,6 +37,6 @@ Did you know that Google penalizes sites which are not very performant? For that
 
 ## Writing
 
-In 2016, I started to blog about my work. Since then, my writing skills improved greatly and I have been publishing articles for publications like **[CSS Tricks](https://css-tricks.com/author/silvestar/)**, **[LogRocket](https://blog.logrocket.com/author/silvestarbistrovic/)**, and **[Toptal](https://www.toptal.com/resume/silvestar-bistrovic#Experience)**.
+In 2016, I started to blog about my work. Since then, my writing skills improved greatly and I have been publishing articles for publications like **[Smashing Magazine](https://www.smashingmagazine.com/author/silvestar-bistrovic//)**, **[CSS Tricks](https://css-tricks.com/author/silvestar/)**, **[LogRocket](https://blog.logrocket.com/author/silvestarbistrovic/)**, and **[Toptal](https://www.toptal.com/resume/silvestar-bistrovic#Experience)**.
 
 <a class="button button--small" href="/publications/">See all publications</a>

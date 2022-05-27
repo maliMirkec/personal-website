@@ -11,31 +11,27 @@
         {% unless cards3.exclude == 'true' or title == card3.data.title %}
           <div class="card text-center">
             {% if card3.data.thumbnail %}
-              <a class="dib glow margin no-margin-bottom" href="{{ card3.url }}">{% cldnry card3.data.thumbnail card3.data.title "552" "304" %}</a>
-            {% endif %}
-            {% if card3.data.title %}
-              <div class="padding no-padding-top">
-                <h3 class="fz-step-3 no-spacing"><a href="{{ card3.url }}">{{ card3.data.title }}</a></h3>
-              </div>
-            {% endif %}
-            {% if true == false %}
-              {% if card3.data.tags %}
-                <div class="padding">
-                  {% assign myTags = card3.data.tags | tagify %}
-                  {% for tag in myTags %}
-                    <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20'}}/" aria-label="Tag {{ tag }}">{{ tag }}</a>
-                  {% endfor %}
-                  {% if cards3.cta %}
-                    <div class="margin-top">
-                      <a class="button button--small button--outline" href="{{ card3.url }}" aria-label="{{ cards3.cta.title }} {{ card3.data.title }}">{{ cards3.cta.title }}</a>
-                    </div>
-                  {% endif %}
-                </div>
-              {% endif %}
-            {% else %}
-              {% if cards3.cta %}
-                <a class="button button--small button--outline" href="{{ card3.url }}" aria-label="{{ cards3.cta.title }} {{ card3.data.title }}">{{ cards3.cta.title }}</a>
-              {% endif %}
+              <a class="dib margin no-margin-bottom" href="{{ card3.url }}">
+                {% if cards3.width %}
+                  {% assign card3Width = cards3.width %}
+                {% else %}
+                  {% assign card3Width = 552 %}
+                {% endif %}
+                {% if cards3.height %}
+                  {% assign card3Height = cards3.height %}
+                {% else %}
+                  {% assign card3Height = 304 %}
+                {% endif %}
+                {% cldnry card3.data.thumbnail card3.data.title card3Width card3Height %}
+                {% if card3.data.title %}
+                  <span class="db padding no-padding-top">
+                    <h3 class="fz-step-3 no-spacing">{{ card3.data.title }}</h3>
+                  </span>
+                {% endif %}
+                {% if cards3.cta %}
+                  <span class="button button--small button--outline">{{ cards3.cta.title }}</span>
+                {% endif %}
+              </a>
             {% endif %}
           </div>
           {% assign i3 = i3 | plus: 1 %}

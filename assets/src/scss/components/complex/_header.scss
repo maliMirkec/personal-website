@@ -8,6 +8,10 @@
 
 header,
 footer {
+  .inner > & {
+    background-color: var(--color-lightish);
+  }
+
   nav {
     position: relative;
 

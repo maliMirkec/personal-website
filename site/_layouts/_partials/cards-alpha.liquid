@@ -19,25 +19,15 @@
             {% continue %}
           {% endif %}
         {% endif %}
-        <div class="card card--flex tilt text-center bg-lightish">
+        <a class="card card--flex tilt text-center bg-lightish" href="{{ card1.url }}">
           <div class="tilt__inner padding">
             {% if card1.data.title %}
-              <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">
-                <a class="db margin-top" href="{{ card1.url }}">{{ card1.data.title }}</a>
-              </h3>
+              <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">{{ card1.data.title }}</h3>
             {% endif %}
             <div class="margin-bottom margin-left margin-right">
               <div{% if card1.data.publication %} class="margin-top margin-bottom"{% endif %}>
                 {% if card1.data.publication %}
-                  <a class="button button--small" href="{{ card1.data.canonical }}" aria-label="Read original article on {{ card1.data.publication }}">{{ card1.data.publication }}</a>
-                {% endif %}
-                {% if true == false %}
-                  {% if card1.data.tags %}
-                    {% assign myTags = card1.data.tags | tagify %}
-                    {% for tag in myTags %}
-                      <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/" aria-label="Tag {{ tag }}">{{ tag }}</a>
-                    {% endfor %}
-                  {% endif %}
+                  <span class="button button--small">{{ card1.data.publication }}</span>
                 {% endif %}
                 {% if card1Date %}
                   <time class="button button--small button--invisible" datetime="{{ card1Date }}">{{ card1Date }}</time>
@@ -49,9 +39,9 @@
             </div>
           </div>
           {% if cards1.cta %}
-            <a class="button df padding" href="{{ card1.url }}" aria-label="{{ cards1.cta.title }} about {{ card1.data.title }}">{{ cards1.cta.title }}</a>
+            <span class="button df padding">{{ cards1.cta.title }}</span>
           {% endif %}
-        </div>
+        </a>
         {% assign i1 = i1 | plus: 1 %}
       {% endfor %}
       {% if cards1.desc %}
