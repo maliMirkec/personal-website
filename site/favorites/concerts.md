@@ -2,7 +2,7 @@
 layout: index
 title: My concert favorites
 description: Silvestar's favorite concerts.
-type: favorite
+type: favorite-concert
 tags:
   - favorite
 thumbnail: concerts_smzvcy
