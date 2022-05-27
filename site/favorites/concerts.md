@@ -5,12 +5,15 @@ description: Silvestar's favorite concerts.
 type: favorite
 tags:
   - favorite
-thumbnail: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg
+thumbnail: concerts_smzvcy
 sections:
   - type: hero-beta
     title: My concert favorites
     desc: >-
-      Just my list of all concerts that I attended (that I could remember). During 2014, I was also part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
+      Just my list of all concerts that I attended (that I could remember).
+
+
+      Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
   - type: cards-eta
     list:
       - title: The Stooges

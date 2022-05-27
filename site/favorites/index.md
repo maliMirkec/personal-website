@@ -27,6 +27,8 @@ sections:
       title: Go to the homepage
     filter: favorite
     limit: 10
+    height: 297
+    width: 490
   - type: banner-alpha
     title: I am available for consultation services.
     desc: I specialize in technologies related to frontend, user interface, and web development.

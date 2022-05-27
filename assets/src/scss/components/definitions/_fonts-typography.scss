@@ -79,7 +79,7 @@ h6 {
 }
 
 @for $i from -2 through 6 {
-  &[class*="fz-step-#{$i}"] {
+  [class*="fz-step-#{$i}"] {
     --font-size: var(--step-#{$i});
   }
 }
