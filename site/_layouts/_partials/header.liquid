@@ -8,7 +8,7 @@
       </button>
       <ul class="list-style-none no-spacing">
         {% if header.logo %}
-          <li class="margin-top">
+          <li class="margin-top margin-bottom">
             <a class="dib margin-left margin-right glow" href="{{ header.logo.href }}">
               <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="90" height="90">
             </a>
@@ -17,7 +17,7 @@
         {% if header.menu %}
           {% for item in header.menu %}
             <li>
-              <ul class="margin-top">
+              <ul class="margin-top margin-bottom">
                 <li>
                   <a href="{{ item.href }}">{{ item.title }}</a>
                 </li>

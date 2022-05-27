@@ -9,14 +9,14 @@
           {% break %}
         {% endif %}
         {% unless cards2.exclude == 'true' or title == card2.data.title %}
-          <div class="card">
+          <a class="card bg-lightish" href="{{ card2.url }}">
             <blockquote cite="{{ card2.url }}">
-              <div class="tilt bg-lightish margin-bottom">
+              <div class="tilt">
                 <div class="tilt__inner">
                   {% if card2.data.title %}
                     <header class="padding copy">
                       {% if card2.data.avatar and cards2.cta %}
-                        <a class="df aic" href="{{ card2.url }}">
+                        <div class="df aic">
                           {% if card2.data.avatar %}
                             <span class="db margin-right avatar">
                               {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
@@ -26,7 +26,7 @@
                             <h3 class="fz-step--1 no-margin">{{ card2.data.title }}</h3>
                             <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
                           </div>
-                        </a>
+                        </div>
                       {% endif %}
                     </header>
                   {% endif %}
@@ -35,15 +35,17 @@
                   {% else if card2.template.frontMatter.content %}
                     <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
                   {% endif %}
+                  {% if cards2.cta %}
+                    <footer class="text-center">
+                      <div class="margin-top margin-bottom">
+                        <span class="dib button button--small">{{ cards2.cta.title }}</span>
+                      </div>
+                    </footer>
+                  {% endif %}
                 </div>
               </div>
-              {% if cards2.cta %}
-                <footer class="text-center margin-top margin-bottom">
-                  <a class="button button--small button--outline padding" href="{{ card2.url }}" aria-label="{{ cards2.cta.title }} from {{ card2.data.title }}">{{ cards2.cta.title }}</a>
-                </footer>
-              {% endif %}
             </blockquote>
-          </div>
+          </a>
           {% assign i2 = i2 | plus: 1 %}
         {% endunless %}
       {% endfor %}
