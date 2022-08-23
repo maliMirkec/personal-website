@@ -1,9 +1,9 @@
 ---
 layout: index
 title: What I don't do
-description:
+description: This is the list of the things I don’t do because I don’t know how to.
 type: stories
-thumbnail:
+thumbnail: What_I_don_t_do_oszvwu
 sections:
   - type: hero-alpha
     title: I am a front-end user interface developer.
