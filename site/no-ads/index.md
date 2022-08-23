@@ -1,18 +1,18 @@
 ---
 layout: index
 title: No advertisement at all
-description: Guest posts, backlinks, or any other form of advertisement is strictly prohibited on my site, but I am open to collaboration.
+description: Guest posts, backlinks, or any other form of advertisement is strictly prohibited on my site, but I am open to other forms of collaboration.
 type: stories
 thumbnail: No_advertisement_at_all_bhmt6n
 sections:
   - type: hero-alpha
-    title: No advertisement at all
+    title: Any kind of advertisement is unacceptable.
     desc: >-
       However, other forms of collaboration are more than welcome.
 sections2:
   - type: banner-alpha
     title: I am available for consultation services.
-    desc: I specialize in technologies related to frontend, user interface, and web development.
+    desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
       title: Hire me

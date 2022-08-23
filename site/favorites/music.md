@@ -129,7 +129,7 @@ sections:
         src: hot-chip_yewutg
   - type: banner-alpha
     title: I am available for consultation services.
-    desc: I specialize in technologies related to frontend, user interface, and web development.
+    desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
       title: Hire me
