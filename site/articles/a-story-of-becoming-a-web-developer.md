@@ -60,7 +60,7 @@ In case you were wondering, I am Silvestar. And in case you are asking yourself 
 - I started from zero,
 - I had many doubts and fears,
 - I made some bold choices at the given moment, but they all paid off,
-- I never stopped learning.
+- [I never stopped learning](/articles/modern-frontend-developer-skills-and-tools/).
 
 I hope this story inspired you to start with a new career or to start chasing your dreams. Remember, it is a process, and it takes time to succeed. But know that hard-work would pay off.
 
