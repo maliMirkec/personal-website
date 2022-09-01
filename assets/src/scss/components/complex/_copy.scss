@@ -73,19 +73,17 @@
   }
 
   a {
+    &.block {
+      &:only-child {
+        display: block;
+      }
+    }
+
     &:hover,
     &:focus,
     &:active {
       code {
         background-color: transparent;
-      }
-    }
-  }
-
-  p {
-    a {
-      &:only-child {
-        display: inline;
       }
     }
   }
