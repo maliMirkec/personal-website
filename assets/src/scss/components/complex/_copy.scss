@@ -82,6 +82,14 @@
     }
   }
 
+  p {
+    a {
+      &:only-child {
+        display: inline;
+      }
+    }
+  }
+
   .button {
     position: relative;
     left: -0.2em;
