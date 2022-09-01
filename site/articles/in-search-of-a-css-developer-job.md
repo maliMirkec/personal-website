@@ -20,9 +20,9 @@ Usually, I find jobs via freelancing platforms or the job finds me, but this tim
 
 My requirements are simple:
 
--   I want to work primarily with CSS,
--   I want to work remotely, and
--   I want a full-time position.
+- I want to work primarily with CSS,
+- I want to work remotely, and
+- I want a full-time position.
 
 ## Twitter
 
@@ -38,16 +38,16 @@ I also tried to use Twitter search, but I didn't find anything useful.
 
 After Twitter, I wanted to try my luck on search engines like Google and DuckDuckGo. The first search term I tried was "css developer job remote." The first two pages were full of job searching sites. Some of these sites, like Turing and Toptal, are freelancing platforms. You must go through the vetting process to be accepted to the network to apply for a job. Although I am a member of some of these platforms, I didn't want to use them since I tried to cut the middle man.
 
-Fun fact: if you search for "css developer," you might find my Toptal article about CSS roles as a top result.
+_👉 Fun fact: if you enter the “css developer” term in the search engine, you might find [my Toptal article about CSS roles](https://www.toptal.com/css/why-you-need-a-css-developer) as a top result._
 
 Other results included sites like We Work Remotely, Arc, Jooble, SimplyHired, etc. Job postings on almost all of these sites had one of the following problems if not all of them:
 
--   not a CSS developer job,
--   outdated job postings,
--   not a remote position, or
--   salary is too low.
+- not a CSS developer job,
+- outdated job postings,
+- not a remote position, or
+- salary is too low.
 
-When arriving at these sites, you're thinking: "Wow, there are a lot of CSS jobs." But when taking a closer look, you realize that most listings are not CSS jobs. Instead, most of them are React, Vue, or other forms of full-stack or front-end positions.
+When arriving at these sites, you're thinking: "Wow, there are a lot of CSS jobs." But when taking a closer look, you realize that most listings are not CSS jobs. Instead, most of them are React, Vue, or other forms of full-stack or front-end positions. Unfortunately, I don’t possess any JavaScript framework skills, and I think [you don’t need React for building websites](/articles/you-don-t-need-react-for-building-websites/).
 
 Some sites, like Arc, show job postings from a few months ago or last year. I mean, these sure cannot still be open now.
 
@@ -78,6 +78,8 @@ I also searched other prominent companies, like Netlify, GitHub, Airbnb, etc., t
 ## Conclusion
 
 After spending the whole day trying to find a CSS developer job, I wonder if there is one. It might be that my searching skills are not good enough or that I was looking at the wrong places. On the other hand, it might be that these jobs are not something to be advertised. I don't know, but it made me quite frustrated.
+
+Recently I wrote [about roles in the front-end development department](/articles/about-roles-in-the-front-end-development-department/), which might be a good read for all employers. I urge everyone to list only the absolute most necessary skills for the job.
 
 Generally, one could easily get lost in a sea of job posting sites and job postings. That is why I decided to write this post. The main goal of this article is to find me a perfect employer. So, feel free to contact me.
 
