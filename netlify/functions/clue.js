@@ -13,7 +13,7 @@ exports.handler = async function (event, context) {
 
     await doc.useServiceAccountAuth({
       client_email: process.env.GGL_SHTS_EMAIL,
-      private_key: process.env.GGL_SHTS_KEY,
+      private_key: process.env.GGL_SHTS_KEY.replace(/\\n/gm, "\n"),
     });
 
     await doc.loadInfo();
