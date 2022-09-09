@@ -29,7 +29,7 @@ exports.handler = async function (event, context) {
     console.log(error);
   }
 
-  console.log('client-ip:', event.headers['client-ip']);
+  console.log('event', event);
 
   return {
     statusCode: 200,
