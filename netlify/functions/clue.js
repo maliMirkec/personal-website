@@ -20,7 +20,7 @@ exports.handler = async function (event, context) {
 
     const sheet = doc.sheetsByIndex[0]
 
-    sheet.addRow({
+    await sheet.addRow({
       date: now,
       url: url,
       ua: ua
