@@ -32,9 +32,7 @@
     {% include _partials/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
-    {% unless env.development %}
-      {% include _partials/_assets/gtag %}
-    {% endunless %}
+    {% include _partials/_assets/analytics %}
   </body>
 </html>
 
