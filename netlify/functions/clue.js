@@ -1,14 +1,11 @@
-exports.handler = async function (event, context) {
-  const {
-    GoogleSpreadsheet
-  } = require('google-spreadsheet');
+const { GoogleSpreadsheet } = require('google-spreadsheet');
 
+exports.handler = async function (event) {
   let now = new Date();
   const url = event.queryStringParameters.url;
   const ua = event.headers['user-agent'];
 
   try {
-    // Initialize the sheet - doc ID is the long id in the sheets URL
     const doc = new GoogleSpreadsheet(process.env.GGL_SHTS_ID);
 
     await doc.useServiceAccountAuth({
