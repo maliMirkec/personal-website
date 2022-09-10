@@ -31,8 +31,10 @@ exports.handler = async function (event, context) {
 
   return {
     statusCode: 200,
-    body: JSON.stringify({
-      message: "Hello World"
-    }),
+    body: "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    headers: {
+      "content-type": "image/gif"
+    },
+    isBase64Encoded: true,
   };
 };
