@@ -1,0 +1,44 @@
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% else if config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  {% include _partials/head %}
+  <body class="no-font">
+    {% comment %} {% include _partials/banner-omega %} {% endcomment %}
+    <div class="inner">
+      {% include _partials/header %}
+      <main id="main">
+        {% block content %}
+          {% if sections %}
+            {% for section in sections %}
+              {% include _partials/sections %}
+            {% endfor %}
+          {% endif %}
+          {% if content != blank and content != '' %}
+            {% include _partials/content-alpha %}
+          {% endif %}
+          {% if sections2 %}
+            {% for section in sections2 %}
+              {% include _partials/sections %}
+            {% endfor %}
+          {% endif %}
+        {% endblock %}
+      </main>
+      {% include _partials/footer %}
+    </div>
+    {% include _partials/toggle-button %}
+    {% include _partials/_assets/style %}
+    {% include _partials/_assets/scripts %}
+    {% include _partials/_assets/analytics %}
+  </body>
+</html>
+
+
+
+

@@ -24,7 +24,7 @@ sections:
       href: /side-projects/
       title: /Side Projects
     cta:
-      href: //hugo.silvestar.codes
+      href: /side-projects/hugo/start/
       title: Go to the Course
   - type: hero-beta
     title: From Side Projects

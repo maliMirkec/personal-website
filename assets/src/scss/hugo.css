@@ -1,0 +1,133 @@
+:root {
+  --color-alpha: rgb(255, 64, 136);
+  --color-beta: rgb(0, 131, 192);
+  --color-gamma: rgb(51, 186, 145);
+  --color-delta: rgb(252, 216, 4);
+  --color-omega: #f8f9fa;
+  --color-text: #0a1922;
+  --lh: 1.6;
+  --fz: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--color-text);
+  font-family: sans-serif;
+  font-size: var(--fz);
+  font-weight: 100;
+  line-height: var(--lh);
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h1,
+h2,
+p {
+  padding-bottom: .75em;
+}
+
+a {
+  color: var(--color-beta);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+li {
+  padding-bottom: .5em;
+}
+
+main,
+nav {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-image: linear-gradient(to bottom, transparent 2px, var(--color-omega) 2px), linear-gradient(to right, var(--color-alpha) 25%, transparent 25%), linear-gradient(to right, var(--color-beta) 50%, transparent 50%), linear-gradient(to right, var(--color-gamma) 75%, transparent 75%), linear-gradient(to right, var(--color-delta) 100%, transparent 100%);
+}
+
+nav {
+  padding: 1em;
+  display: flex;
+}
+
+nav a {
+  padding: .25em 1em;
+}
+
+.active {
+  color: var(--color-alpha);
+}
+
+main {
+  flex: 1 1 auto;
+  padding: 2em;
+  display: grid;
+  grid-template-areas: "content"
+    "sidebar";
+  grid-gap: 1em;
+}
+
+main section {
+  grid-column: 1 / -1;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 3em;
+}
+
+.list__item h1 {
+  font-size: 1.5em;
+}
+
+.list__item h2 {
+  font-size: 1.33em;
+}
+
+footer {
+  background-image: linear-gradient(to top, transparent 2px, var(--color-omega) 2px), linear-gradient(to right, var(--color-alpha) 25%, transparent 25%), linear-gradient(to right, var(--color-beta) 50%, transparent 50%), linear-gradient(to right, var(--color-gamma) 75%, transparent 75%), linear-gradient(to right, var(--color-delta) 100%, transparent 100%)
+}
+
+
+@media screen and (min-width: 768px) {
+  :root {
+    --fz: 20px;
+  }
+
+  main {
+    grid-template-areas: "content sidebar";
+    grid-auto-columns: 1fr 280px;
+  }
+}
