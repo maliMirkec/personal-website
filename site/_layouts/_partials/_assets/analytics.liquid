@@ -1,4 +1,4 @@
-{% unless env.development %}
+{% if env.production %}
   {% if site.gtag %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37881833-5"></script>
@@ -12,4 +12,4 @@
   {% elsif site.analytics == 'self' %}
     <img src="/.netlify/functions/clue/?url={{ page.url }}" alt="">
   {% endif %}
-{% endunless %}
+{% endif %}
