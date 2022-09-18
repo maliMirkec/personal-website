@@ -24,12 +24,12 @@
     "cp_robots-dev": "cp extras/robots_dev.txt public/robots.txt",
     "cp_robots-prod": "cp extras/robots_prod.txt public/robots.txt",
     "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet --watch",
-    "eleventy-dev-build": "env ELEVENTY_ENV=development npx @11ty/eleventy --quiet",
+    "eleventy-preview": "env ELEVENTY_ENV=preview npx @11ty/eleventy --quiet",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet --watch",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
     "dev": "npm run eleventy-dev & gulp dev",
     "prod": "npm run eleventy-prod & gulp",
-    "build-dev": "gulp build && npm run eleventy-dev-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
+    "preview": "gulp build && npm run eleventy-preview && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
     "build-prod": "gulp build && npm run eleventy-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
   },
   "dependencies": {
