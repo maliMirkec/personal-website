@@ -34,6 +34,9 @@
           {% cldnry hero1.src hero1.alt hwidth hheight "margin-auto brad" %}
         </div>
       {% endif %}
+      {% if hero1.code %}
+        <h1 class="invalid-css">{{ hero1.code }}</h1>
+      {% endif %}
       {% if hero1.title %}
         <h1 class="fz-step-5 no-margin-top margin-bottom">{{ hero1.title | markdownifyi }}</h1>
       {% endif %}
@@ -43,8 +46,26 @@
       {% if hero1.subtitle %}
         <h2 class="fz-step-2 margin-top margin-bottom{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
       {% endif %}
+      {% if hero1.src2 %}
+        <div class="margin-top margin-bottom">
+          {% if hero1.width %}
+            {% assign hwidth2 = hero1.2 %}
+          {% else %}
+            {% assign hwidth2 = "300" %}
+          {% endif %}
+          {% if hero1.height %}
+            {% assign hheight2 = hero1.height2 %}
+          {% else %}
+            {% assign hheight2 = "300" %}
+          {% endif %}
+          {% cldnry hero1.src2 hero1.alt2 hwidth2 hheight2 "margin-auto brad" %}
+        </div>
+      {% endif %}
       {% if hero1.desc2 %}
         <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
+      {% endif %}
+      {% if hero1.desc3 %}
+        <div class="fz-step--2 copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc3 | markdownify }}</div>
       {% endif %}
       {% if hero1.cta %}
         <div class="margin-top">

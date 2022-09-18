@@ -2,10 +2,11 @@
 layout: index
 title: Advent of UI Components
 description:
-thumbnail: Advent_of_UI_Components_upupb1
+thumbnail: Advent_of_UI_components_nvaz4h
 type: articles
 tags:
   - projects
+  - ui
 date: 1999-01-01
 sections:
   - type: hero-beta

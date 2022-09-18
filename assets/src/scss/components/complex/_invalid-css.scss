@@ -1,0 +1,17 @@
+// Invalid CSS
+//
+// Markup: _invalid-css.html
+//
+// Weight: 1800
+//
+// Styleguide Invalid CSS
+
+.invalid-css {
+  background-color: var(--color-alpha);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: var(--step-5);
+  border-radius: var(--border-radius);
+  padding: calc(var(--step-5));
+  margin-top: calc(var(--step-5));
+  margin-bottom: calc(var(--step-5) + (2 * var(--space)));
+}

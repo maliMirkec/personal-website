@@ -2,7 +2,7 @@
 layout: index
 title: Wunder Mobility
 description: Wunder Mobility provides software, vehicles and a full range of services to cities and companies, helping them launch and scale new mobility services.
-thumbnail: wm_wh4yse
+thumbnail: Wunder_Mobility_u0u6jf
 link: //www.wundermobility.com
 display: true
 date: 2009-01-31
@@ -19,7 +19,7 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: wm_wh4yse
+    src: Wunder_Mobility_u0u6jf
     alt: Screenshot of Wunder Mobility website.
     width: 815
     height: 448
