@@ -30,7 +30,7 @@
     "dev": "npm run eleventy-dev & gulp dev",
     "prod": "npm run eleventy-prod & gulp",
     "preview": "gulp build && npm run eleventy-preview && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-dev",
-    "build-prod": "gulp build && npm run eleventy-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
+    "build": "gulp build && npm run eleventy-build && npm run cp_redirects && npm run cp_headers && npm run cp_cv && npm run cp_robots-prod"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
