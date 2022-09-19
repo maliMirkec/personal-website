@@ -64,9 +64,6 @@
       {% if hero1.desc2 %}
         <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
       {% endif %}
-      {% if hero1.desc3 %}
-        <div class="fz-step--2 copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc3 | markdownify }}</div>
-      {% endif %}
       {% if hero1.cta %}
         <div class="margin-top">
           <a class="button" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
@@ -75,6 +72,11 @@
       {% if hero1.cta2 %}
         <div class="margin-top">
           <a href="{{ hero1.cta2.href }}">{{ hero1.cta2.title }}</a>
+        </div>
+      {% endif %}
+      {% if hero1.pen %}
+        <div class="margin-top-alpha">
+          {% codepen "CiTA" hero1.pen "dark" "result" "500" false true %}
         </div>
       {% endif %}
     </div>
