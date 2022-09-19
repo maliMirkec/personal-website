@@ -14,11 +14,6 @@ sections:
 
 
       Did you know that I am running **UI Dev Newsletter**? [Subscribe now](#subscribe-now)
-  - type: cards-alpha
-    cta:
-      title: Read the article
-    filter: myArticles
-    sorter: date
   - type: banner-beta
     desc: To receive the latest news about User Interface development, subscribe here.
     id: subscribe-now
@@ -34,6 +29,12 @@ sections:
         </div>
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
       </form>
+  - type: cards-alpha
+    cta:
+      title: Read the article
+    filter: myArticles
+    sorter: date
+sections2:
   - type: banner-beta
     banner: newsletter
 ---
