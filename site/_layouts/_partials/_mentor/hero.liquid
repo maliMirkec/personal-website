@@ -1,6 +1,6 @@
 <section>
   <article class="hero">
-    <h1>{% if title and title != "Home" %}{{ title }}{% else %}{{ mentor.data.name }}{% endif %}</h1>
+    <h1>{% if title %}{{ title }}{% else %}{{ mentor.data.name }}{% endif %}</h1>
     {% if tagline %}
       {% assign taglines = tagline %}
     {% else %}

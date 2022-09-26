@@ -1,8 +1,7 @@
 ---
 layout: mentor-index
-title: "About"
-subt: "About"
-navTitle: "About"
+title: "The UI Development Mentoring Program"
+navTitle: "UI Dev"
 ctaApply: true
 type: mentor
 ---

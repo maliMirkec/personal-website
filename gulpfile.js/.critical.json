@@ -1,7 +1,7 @@
 {
   "temp": "helpers.source/config.css.src/critical/",
   "configs": [{
-    "src": "style.css",
+    "src": "mentor.css",
     "settings": {
       "out": "mentor.critical.css",
       "url": "http://localhost:8080/side-projects/ui-dev-mentoring/start/?cache=1",
