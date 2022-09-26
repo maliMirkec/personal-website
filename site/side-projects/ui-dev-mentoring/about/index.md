@@ -11,6 +11,7 @@ tagline:
   - "You could choose between two different programs: skills improvement and career guidance."
   - There no better time than now, so go ahead and apply for the program.
 ctaApply: true
+type: mentor
 ---
 
 ## The mission

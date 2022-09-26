@@ -7,6 +7,7 @@ tagline:
   - There is no better time than now.
   - Join The UI Development Mentoring Program today by filling and submitting the form below.
 formId: sD2yCh7wpHLh7g6L5SCM
+type: mentor
 ---
 
 **Applications are closed for the time being.**

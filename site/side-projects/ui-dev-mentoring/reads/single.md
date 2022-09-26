@@ -11,6 +11,7 @@ cta2:
   href: /rss2.xml
   title: Or subscribe to RSS feed
 beer: true
+type: mentor
 pagination:
   data: reads
   size: 1

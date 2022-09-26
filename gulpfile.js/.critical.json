@@ -3,6 +3,24 @@
   "configs": [{
     "src": "style.css",
     "settings": {
+      "out": "mentor.critical.css",
+      "url": "http://localhost:8080/side-projects/ui-dev-mentoring/start/?cache=1",
+      "width": 1920,
+      "height": 1800,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": true,
+      "renderWaitTime": 300,
+      "timeout": 60000,
+      "forceExclude": ["@font-face"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
       "out": "tags-item.critical.css",
       "url": "http://localhost:8080/tags/css/?cache=1",
       "width": 1920,
