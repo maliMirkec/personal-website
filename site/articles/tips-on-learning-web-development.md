@@ -10,7 +10,7 @@ thumbnail: Tips_On_Learning_Web_Development_sb1pfy
 description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
 project:
   name: Mentoring
-  href: https://mentor.silvestar.codes/
+  href: https://www.silvestar.codes/side-projects/ui-dev-mentoring/start/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -104,7 +104,7 @@ This post is part of **The UI Development Mentoring Program** series:
 [“The essential skill of a developer”]: /articles/modern-frontend-developer-skills-and-tools/
 [Developer Roadmap]: https://github.com/kamranahmedse/developer-roadmap
 [The UI Development Mentoring Program]: https://mentor.silvestar.codes
-[apply to become a mentee]: https://mentor.silvestar.codes/apply/
-[find useful resources]: https://mentor.silvestar.codes/resources/
-[tips]: https://mentor.silvestar.codes/tips/
+[apply to become a mentee]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/apply/
+[find useful resources]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/resources/
+[tips]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/tips/
 [A Story of Becoming a Web Developer]: /articles/a-story-of-becoming-a-web-developer/

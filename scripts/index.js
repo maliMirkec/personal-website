@@ -107,7 +107,7 @@ ${list2}
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
-https://mentor.silvestar.codes/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
 Featuring ${arr3.join(' ')}
 
@@ -118,7 +118,7 @@ Featuring ${arr3.join(' ')}
   console.log(`
 🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
 
-https://mentor.silvestar.codes/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
 Featuring ${arr3.join(' ')}
 `)

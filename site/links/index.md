@@ -40,11 +40,12 @@ sections2:
 - [About.me](https://about.me/starbist)
 ## Projects
 
-- [CSS Auditors](https://css-auditors.com/)
-- [Code Line Daily](https://cld.silvestar.codes/)
-- [UI Dev Mentoring](https://mentor.silvestar.codes/)
-- [Starter Project](https://starter.silvestar.codes/)
-- [Making a website with Hugo](https://skl.sh/2ILioJ8)
+- [CSS Auditors](https://www.silvestar.codes/side-projects/css-auditors/)
+- [Code Line Daily](https://www.silvestar.codes/side-projects/code-line-daily/)
+- [UI Dev Mentoring](https://www.silvestar.codes/side-projects/ui-dev-mentoring/)
+- [Starter Project](https://www.silvestar.codes/side-projects/starter-project/)
+- [Making a website with Hugo](https://www.silvestar.codes/side-projects/hugo/)
+
 ## Publications
 
 - [CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)

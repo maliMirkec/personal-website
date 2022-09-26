@@ -26,7 +26,7 @@ I love to learn, but I want to spend less time in front of the computer as I am 
 
 I noticed that I am not trying new things as much I used to. I don't immediately jump to something new like a new framework or feature. Instead, I try to remember an article or at least the gist of it, or do a little bit of investigation and general learning, and apply the knowledge when I actually need it. If such an occasion doesn't occur, at least I didn't invest my time in something useless to me.
 
-One thing that helps me memorize all the new things [is my newsletter](https://mentor.silvestar.codes/reads/). I have a few hundred subscribers, but I write it primarily for me. When I read the article, I try to summarize it in one sentence before sharing it. I also try to learn more about the author, especially if the author is not in my Twitter circle. The summarized sentence and author information stuck with me longer than the plain article.
+One thing that helps me memorize all the new things [is my newsletter](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/). I have a few hundred subscribers, but I write it primarily for me. When I read the article, I try to summarize it in one sentence before sharing it. I also try to learn more about the author, especially if the author is not in my Twitter circle. The summarized sentence and author information stuck with me longer than the plain article.
 
 On more than one occasion, I tried to find an article, and then I remembered I shared it in my newsletter.
 

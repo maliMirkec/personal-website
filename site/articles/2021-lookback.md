@@ -46,7 +46,7 @@ I acquired a HubSpot Developer certificate this year. I was helping the agency m
 
 This December, I started a new side project, [Advent of UI Components](/side-projects/advent/). I built 24 different components and tried to expand my CSS knowledge using some less-used features.
 
-I am still running the [UI Dev Newsletter](https://mentor.silvestar.codes/reads/) with more than 300 subscribers. However, I am thinking of stopping it for a while in favor of my other side project.
+I am still running the [UI Dev Newsletter](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/) with more than 300 subscribers. However, I am thinking of stopping it for a while in favor of my other side project.
 
 That other side project is [CSS Auditors](https://www.css-auditors.com). It is a project that aims to analyze CSS from different industries. A friend of mine and me published two blog posts and two reports. I am going to focus on this project in the following year.
 

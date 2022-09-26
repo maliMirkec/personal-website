@@ -10,7 +10,7 @@ thumbnail: The_UI_Development_Mentoring_Program_ggdme2
 description: I have decided to give it a shot with a brand new mentoring program for UI development. Fill out the form today!
 project:
   name: Mentoring
-  href: https://mentor.silvestar.codes/
+  href: https://www.silvestar.codes/side-projects/ui-dev-mentoring/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -39,7 +39,7 @@ You could find more about my online presence by [visiting My links section] on m
 
 UI development, or User Interface development, is part of the frontend web development that is focused on the user interface. The necessary skills needed for this role are HTML, CSS and JavaScript. Many other skills fall under this category like templating, naming conventions, best practices, optimizations, testing, cross-browser compatibility, and more. UI development in 2020 is not clearly defined, and that is what makes it hard, but also fun.
 
-{% cldnrylink "https://mentor.silvestar.codes/" "The_UI_Development_Mentoring_program-CTA-2x_nsjgnk" "Join the UI mentoring program." %}
+{% cldnrylink "https://www.silvestar.codes/side-projects/ui-dev-mentoring/" "The_UI_Development_Mentoring_program-CTA-2x_nsjgnk" "Join the UI mentoring program." %}
 
 Your main task as a UI developer is to present and deliver the content to every user on every device in the most accessible and most performant way. Sometimes you will slice PSD designs into templates, sometimes you will develop unique components, sometimes you will fix style bugs and errors. Developing user interfaces is always challenging, especially now in 2020, with so many different screens and devices to be targeted.
 
@@ -55,7 +55,7 @@ The career-based mentoring program would be focused on UI developer role, and yo
 
 The skill-based mentoring program is designed as a set of levels where you would gradually acquire or improve skills needed for this role.
 
-{% cldnrylink "https://mentor.silvestar.codes/" "The_UI_Development_Mentoring_program-CTA2-2x_tdnxpf" "The UI mentoring program by phases." %}
+{% cldnrylink "https://www.silvestar.codes/side-projects/ui-dev-mentoring/" "The_UI_Development_Mentoring_program-CTA2-2x_tdnxpf" "The UI mentoring program by phases." %}
 
 There are four levels, as I see them:
 
@@ -105,7 +105,7 @@ If you are interested, please [fill out the form]. Let's start this journey toge
 [Codementor]: https://www.codementor.io/@malimirkeccita/
 [visiting My links section]: https://www.silvestar.codes/links/
 [wrote about last year]: https://www.toptal.com/css/why-you-need-a-css-developer
-[to open applications]: https://mentor.silvestar.codes/
+[to open applications]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/apply/
 [The full specification of the program stages could be found here.]: https://docs.google.com/document/d/1fqhbu3zX1V4LBjPxParJNzDjJwFecx3cQ3-b0vXHwBE/edit?usp=sharing
 [a developer's job requires constant learning]: https://www.silvestar.codes/articles/modern-frontend-developer-skills-and-tools/
-[fill out the form]: https://mentor.silvestar.codes/
+[fill out the form]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/apply/
