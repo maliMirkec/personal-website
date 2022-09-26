@@ -15,6 +15,14 @@
 {% endif %}
 {% if thumbnail %}
   <meta property="og:image" content="{{ thumbnail | cldnrysrc }}">
+{% elsif ogImage %}
+  {% if pagination.pageNumber %}
+    {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
+    {% assign ogSuffix = '-' | append: pageNumber | append: '.jpg' %}
+    <meta property="og:image" content="{{ ogImage | replace: '.jpg', ogSuffix }}">
+  {% else %}
+    <meta property="og:image" content="{{ ogImage }}">
+  {% endif %}
 {% elsif site.cover %}
   <meta property="og:image" content="{{ site.cover | cldnrysrc }}">
 {% endif %}

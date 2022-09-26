@@ -3,6 +3,7 @@ layout: reads-single
 title: "UI Dev Newsletter"
 navTitle: "Reads"
 description: "UI Dev Newsletter is a hand-curated list of articles, tutorials, opinions, and tools related to User Interface development."
+ogImage: /gfx/jpg/ui-dev-newsletter.jpg
 tagline:
   - "UI Dev Newsletter is a hand-curated list of articles, tutorials, opinions, and tools related to User Interface development. Enjoy the read."
 noCta: true

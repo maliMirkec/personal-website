@@ -3,6 +3,7 @@ layout: apply
 title: Apply to the program
 navTitle: "Apply"
 description: Apply for The UI Development Mentoring Program today and become a better UI developer.
+ogImage: /gfx/jpg/ui-dev-mentoring.jpg
 tagline:
   - There is no better time than now.
   - Join The UI Development Mentoring Program today by filling and submitting the form below.
