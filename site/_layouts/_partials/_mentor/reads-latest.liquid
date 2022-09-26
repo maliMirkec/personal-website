@@ -1,0 +1,32 @@
+{% assign latest = reads | first %}
+
+{% if latest %}
+  <section>
+    <article class="intro intro-alpha">
+      <h2 id="{{ latest.date }}">
+        <a href="#{{ latest.date }}" class="target">
+          <span>Latest Issue:</span><span>{{ reads | size | prepend: '#' }}</span>
+        </a>
+      </h2>
+      <p class="tag">{{ latest.date }}</p>
+      <ul>
+        {% for resource in latest.list %}
+          <li>
+            <div>
+              <p>
+                <a class="href" href="{{ resource.link }}" target="_blank" rel="noopener">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</a>
+              </p>
+              <p>
+                <a class="href" href="{{ resource.link }}" target="_blank" rel="noopener"><small>{{ resource.link }}</small></a>
+              </p>
+              {% if resource.desc %}
+                <p>{{ resource.desc }}</p>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      <p><a class="href" href="/side-projects/ui-dev-mentoring/reads/{{ latest.date }}/">View issue</a></p>
+    </article>
+  </section>
+{% endif %}

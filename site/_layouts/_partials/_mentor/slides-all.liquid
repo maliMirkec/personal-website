@@ -1,0 +1,12 @@
+{% for tip in tips %}
+  <section>
+    <article class="intro">
+      <h2>{{tip.name}}</h2>
+      {% for slide in tip.slides %}
+        <div class="iframe">
+          <iframe src="{{ slide }}" width="960" height="700" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+        </div>
+      {% endfor %}
+    </article>
+  </section>
+{% endfor %}

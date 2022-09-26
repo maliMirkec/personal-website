@@ -1,0 +1,101 @@
+{
+  "data": {
+    "name": "The UI Development Mentoring Program",
+    "author": {
+      "name": "Silvestar Bistrović",
+      "about": [
+        "My name is Silvestar Bistrović, and I have been developing websites since 2012.",
+        "My primary skills are HTML, CSS, and JavaScript. What I enjoy the most is creating pixel-perfect, responsive, and modern websites.",
+        "I know how important it is to have direction. That is why I started this program: to help you become a better UI developer."
+      ],
+      "tagline": "Developing websites since 2012.",
+      "tags": [
+        "Frontend",
+        "User Interface",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JAMstack",
+        "WordPress"
+      ],
+      "positions": [
+        "Fearless web engineer",
+        "CSS developer",
+        "JAMstack enthusiast",
+        "WordPress theme specialist"
+      ],
+      "links": [{
+          "text": "Portfolio",
+          "url": "https://www.silvestar.codes/portfolio/"
+        },
+        {
+          "text": "About",
+          "url": "https://www.silvestar.codes/about-me/"
+        },
+        {
+          "text": "Contact",
+          "url": "https://www.silvestar.codes/contact/"
+        }
+      ],
+      "img": "v1638533827/PSX_20210122_074018_nfkqxc.jpg"
+    },
+    "tagline": [
+      "Do you want to start a career in the web industry?",
+      "Do you want to learn how to build websites?",
+      "Do you want to improve your UI skills?",
+      "Become a better UI developer today."
+    ],
+    "image": "https://res.cloudinary.com/starbist/image/upload/w_1024,q_auto/v1586879053/cover-2x_a6jqaz.jpg",
+    "twitterHandle": "malimirkeccita",
+    "nav": [{
+        "title": "Home",
+        "href": "/"
+      }, {
+        "title": "About",
+        "href": "/side-projects/ui-dev-mentoring/start/"
+      },
+      {
+        "title": "Programs",
+        "href": "/side-projects/ui-dev-mentoring/about/"
+      },
+      {
+        "title": "Resources",
+        "href": "/side-projects/ui-dev-mentoring/resources/"
+      },
+      {
+        "title": "Reads",
+        "href": "/side-projects/ui-dev-mentoring/reads/"
+      },
+      {
+        "title": "Tips",
+        "href": "/side-projects/ui-dev-mentoring/tips/"
+      },
+      {
+        "title": "Apply",
+        "href": "/side-projects/ui-dev-mentoring/apply/",
+        "class": "apply"
+      }
+    ],
+    "social": [{
+        "title": "Twitter",
+        "href": "https://twitter.com/malimirkeccita"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/starbist/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/maliMirkec"
+      },
+      {
+        "title": "CodePen",
+        "href": "https://codepen.io/CiTA/"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.silvestar.codes"
+      }
+    ]
+  }
+}

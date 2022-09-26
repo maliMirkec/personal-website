@@ -1,0 +1,26 @@
+<footer class="footer">
+  <nav>
+    {% if mentor.data.nav %}
+      <ul>
+        {% for val in mentor.data.nav %}
+          <li{% if val.title == title or val.title == page.data.navTitle %} class="highlight"{% endif %}>
+            <a href="{{ val.href }}" class="{{ val.class }}">
+              <span>{{ val.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </nav>
+  <div class="find">
+    <p><span>Find me on:</span></p>
+    <ul>
+      {% for val in mentor.data.social %}
+        <li>
+          <a href="{{ val.href }}" class="{{ val.class }}">{{ val.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <p class="copy">&copy; Silvestar Bistrović, {{ 'now' | date: '%Y'}}</p>
+</footer>

@@ -1,0 +1,31 @@
+.card {
+  flex: 1;
+  background-color: $color-psi;
+  padding: rem(3) rem(30) rem(30);
+  margin-bottom: rem(6);
+  border-radius: rem(6);
+  box-shadow: 0 rem(6) 0 0 $color-delta;
+  text-align: left;
+
+  &:not(:first-child) {
+    margin-top: rem(30);
+  }
+
+  ul + a {
+    margin-top: rem(30);
+  }
+
+  li {
+    &:nth-child(odd) {
+      &:before {
+        color: $color-alpha;
+      }
+    }
+
+    &:nth-child(even) {
+      &:before {
+        color: $color-beta;
+      }
+    }
+  }
+}

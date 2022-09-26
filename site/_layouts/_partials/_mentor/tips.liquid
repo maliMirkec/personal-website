@@ -1,0 +1,30 @@
+<section>
+  <article class="intro">
+    <h2>Tips</h2>
+    <p>The tips I gathered throughout the years have two primary purposes:</p>
+    <ul>
+      <li>To inspire you, and</li>
+      <li>To help you become a better UI developer.</li>
+    </ul>
+    <p>The tips are also available as <a href="/side-projects/ui-dev-mentoring/slides/" class="href">slides</a>.</p>
+  </article>
+  <div class="row">
+    {% for tip in tips %}
+      {% if forloop.index < 3 %}
+        <div class="col">
+          <div class="card wrapper wrapper--beta">
+            <h3>{{ tip.name }}</h3>
+            <ul>
+              {% for advice in tip.list %}
+                {% if forloop.index < 5 %}
+                  <li>{{ advice.title }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <a href="/side-projects/ui-dev-mentoring/tips/" class="href">See all tips</a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -4,3 +4,6 @@ const $script = document.createElement('script');
 $script.src = '/js/sb.js';
 document.body.appendChild($script);
 </script>
+{% if formId %}
+  <script src="https://kwes.io/js/kwes.js" async></script>
+{% endif %}

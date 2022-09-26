@@ -22,7 +22,7 @@ sections:
       href: /side-projects/
       title: /Side Projects
     cta:
-      href: //mentor.silvestar.codes
+      href: /side-projects/ui-dev-mentoring/start/
       title: Go to the Project
     cta2:
       href: /side-projects/

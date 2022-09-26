@@ -1,0 +1,32 @@
+<div class="profile wrapper wrapper--beta">
+  <div class="profile__image">
+    <div class="profile__avatar">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" srcset="{{ "https://res.cloudinary.com/starbist/image/upload/w_220/" | append: mentor.data.author.img | append: " 1x, https://res.cloudinary.com/starbist/image/upload/w_440/" | append: mentor.data.author.img | append: " 2x,https://res.cloudinary.com/starbist/image/upload/w_660/" | append: mentor.data.author.img | append: " 3x" }}" alt="Headshot of Silvestar Bistrović." width="220" height="220">
+    </div>
+  </div>
+  <div class="profile__content">
+    <div class="profile__inner">
+      <h2 class="h3 profile__title plain">{{ mentor.data.author.name }}</h2>
+      <p class="profile__tagline">{{ mentor.data.author.tagline }}</p>
+      <ul class="profile__list profile__list--alpha profile__tags">
+        {% for tag in mentor.data.author.tags %}
+          <li class="profile__tag">{{ tag }}</li>
+        {% endfor %}
+      </ul>
+      <ul class="profile__positions">
+        {% for position in mentor.data.author.positions %}
+          <li class="profile__position">
+            <h3 class="h6 plain">{{ position }}</h3>
+          </li>
+        {% endfor %}
+      </ul>
+      <ul class="profile__list profile__list--beta profile__links">
+        {% for link in mentor.data.author.links %}
+          <li class="profile__link">
+            <a href="{{ link.url }}" class="profile__href">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<section>
+  <article class="hero">
+    <h1>{% if title and title != "Home" %}{{ title }}{% else %}{{ mentor.data.name }}{% endif %}</h1>
+    {% if tagline %}
+      {% assign taglines = tagline %}
+    {% else %}
+      {% assign taglines = mentor.data.tagline %}
+    {% endif %}
+    {% if taglines %}
+      {% for tagline in taglines %}
+        <p>{{ tagline | markdownifyi }}</p>
+      {% endfor %}
+    {% endif %}
+    {% if ctaApply %}
+      <div>
+        <a href="/side-projects/ui-dev-mentoring/apply/" class="link">Join the program</a>
+      </div>
+    {% endif %}
+    {% if ctaNewsletter %}
+      <div>
+        <a href="#newsletter" class="link">Subscribe to the newsletter</a>
+      </div>
+    {% endif %}
+    {% if cta2 %}
+      <br>
+      <div>
+        <a href="{{ cta2.href }}" class="href">{{ cta2.title }}</a>
+      </div>
+    {% endif %}
+  </article>
+</section>

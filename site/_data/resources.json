@@ -1,0 +1,945 @@
+[{
+    "name": "Basic level",
+    "type": "skill",
+    "list": [{
+        "name": "How the Internet works basics",
+        "resources": [
+          "https://howdns.works/",
+          "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works",
+          "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server",
+          "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work",
+          "https://dev.to/bibekshah09/how-do-browsers-work-44oj",
+          "https://dev.to/arikaturika/how-web-browsers-work-part-1-with-illustrations-1nid"
+        ]
+      },
+      {
+        "name": "HTML basics",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+        ]
+      },
+      {
+        "name": "CSS basics",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
+          "https://web.dev/learn/css/",
+          "https://justmarkup.com/articles/2018-03-27-collection-of-css-snippets/",
+          "https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/",
+          "https://www.30secondsofcode.org/css/p/1/",
+          "https://github.com/AllThingsSmitty/must-watch-css",
+          "https://moderncss.dev/",
+          "https://twitter.com/sseraphini/status/1286248660364337153"
+        ]
+      },
+      {
+        "name": "JavaScript basics",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+          "https://javascript30.com/",
+          "https://beginnerjavascript.com/",
+          "https://github.com/ryanmcdermott/clean-code-javascript",
+          "https://www.learnenough.com/javascript-tutorial/hello_world",
+          "https://www.30secondsofcode.org/js/p/1/",
+          "https://github.com/AllThingsSmitty/must-watch-javascript",
+          "https://javascript.info/",
+          "https://www.programiz.com/javascript"
+        ]
+      },
+      {
+        "name": "DevTools basics",
+        "resources": [
+          "https://developers.google.com/web/tools/chrome-devtools"
+        ]
+      },
+      {
+        "name": "VS Code",
+        "resources": [
+          "https://code.visualstudio.com/"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Intermediate level",
+    "type": "skill",
+    "list": [{
+        "name": "Responsive web design",
+        "resources": [
+          "https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/"
+        ]
+      },
+      {
+        "name": "Flexbox basics",
+        "resources": [
+          "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          "https://flexbox.io/"
+        ]
+      },
+      {
+        "name": "CSS Grid basics",
+        "resources": [
+          "https://css-tricks.com/snippets/css/complete-guide-grid/",
+          "https://cssgrid.io/",
+          "https://cssgr.id/",
+          "https://www.gridtoflex.com/"
+        ]
+      },
+      {
+        "name": "CSS Variables basics",
+        "resources": [
+          "https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855/",
+          "https://scrimba.com/g/gcssvariables"
+        ]
+      },
+      {
+        "name": "CSS Animations",
+        "resources": [
+          "https://github.com/cssanimation/css-animation-101"
+        ]
+      },
+      {
+        "name": "CSS Transforms",
+        "resources": [
+          "https://3dtransforms.desandro.com/"
+        ]
+      },
+      {
+        "name": "CSS Functions",
+        "resources": [
+          "https://css-tricks.com/complete-guide-to-css-functions/"
+        ]
+      },
+      {
+        "name": "BEM basics",
+        "resources": [
+          "http://getbem.com/introduction/",
+          "https://9elements.com/bem-cheat-sheet/"
+        ]
+      },
+      {
+        "name": "Sass basics",
+        "resources": [
+          "https://sass-lang.com/guide"
+        ]
+      },
+      {
+        "name": "jQuery basics",
+        "resources": [
+          "http://jqfundamentals.com/"
+        ]
+      },
+      {
+        "name": "JavaScript techniques",
+        "resources": [
+          "https://htmldom.dev/",
+          "https://1loc.dev/"
+        ]
+      },
+      {
+        "name": "ES6 basics",
+        "resources": [
+          "https://codeburst.io/es6-tutorial-for-beginners-5f3c4e7960be?gi=9762451c6d60",
+          "https://es6.io/"
+        ]
+      },
+      {
+        "name": "Bootstrap basics",
+        "resources": [
+          "https://www.w3schools.com/bootstrap/bootstrap_ver.asp",
+          "https://getbootstrap.com/docs/4.0/getting-started/introduction/"
+        ]
+      },
+      {
+        "name": "Images",
+        "resources": [
+          "https://css-tricks.com/images-are-not-static-content/"
+        ]
+      },
+      {
+        "name": "SVG",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial",
+          "https://css-tricks.com/using-svg/",
+          "https://css-tricks.com/svg-properties-and-css/",
+          "https://css-irl.info/optimising-svgs-for-the-web/"
+        ]
+      },
+      {
+        "name": "Fonts",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts",
+          "https://zapier.com/blog/google-fonts-how-to/",
+          "https://css-tricks.com/some-typography-links/",
+          "https://www.websiteplanet.com/blog/best-free-fonts/"
+        ]
+      },
+      {
+        "name": "Icons",
+        "resources": [
+          "https://dev.to/adrianbdesigns/icon-workflow-for-the-web-an-in-depth-guide-26hj",
+          "https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use"
+        ]
+      },
+      {
+        "name": "Favicons",
+        "resources": [
+          "https://css-tricks.com/favicon-quiz/"
+        ]
+      },
+      {
+        "name": "Embeds",
+        "resources": [
+          "https://blog.logrocket.com/the-ultimate-guide-to-iframes/"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced level",
+    "type": "skill",
+    "list": [{
+        "name": "WordPress",
+        "resources": [
+          "https://wordpress.org/",
+          "https://www.wpbeginner.com/beginners-guide/self-hosted-wordpress-org-vs-free-wordpress-com-infograph/",
+          "https://underscores.me/",
+          "https://www.designbombs.com/8-best-wordpress-starter-themes-frameworks-new-wp-developers/",
+          "https://www.toptal.com/wordpress/wordpress-roots-stack",
+          "https://wphierarchy.com/"
+        ]
+      },
+      {
+        "name": "Task runners (Gulp, webpack)",
+        "resources": [
+          "https://gulpjs.com/",
+          "https://webpack.js.org/",
+          "https://parceljs.org/",
+          "https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/",
+          "https://gruntjs.com/"
+        ]
+      },
+      {
+        "name": "Package managers (npm, Yarn)",
+        "resources": [
+          "https://www.npmjs.com/",
+          "https://yarnpkg.com/",
+          "https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b"
+        ]
+      },
+      {
+        "name": "Linting (htmllint, sasslint, eslint)",
+        "resources": [
+          "https://eslint.org/",
+          "https://standardjs.com/",
+          "https://github.com/htmllint/htmllint",
+          "https://github.com/stylelint/stylelint",
+          "https://github.com/sds/scss-lint"
+        ]
+      },
+      {
+        "name": "Template engines (pug, liquid)",
+        "resources": [
+          "https://pugjs.org/api/getting-started.html",
+          "https://jekyllrb.com/docs/liquid/",
+          "https://shopify.github.io/liquid/",
+          "https://twig.symfony.com/"
+        ]
+      },
+      {
+        "name": "Markdown",
+        "resources": [
+          "https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers"
+        ]
+      },
+      {
+        "name": "Optimization (minify, uglify, compress)",
+        "resources": [
+          "https://stackoverflow.com/questions/19694448/whats-the-difference-between-concat-and-uglify-and-minify"
+        ]
+      },
+      {
+        "name": "Critical CSS",
+        "resources": [
+          "https://www.smashingmagazine.com/2015/08/understanding-critical-css/",
+          "https://www.sitelocity.com/critical-path-css-generator"
+        ]
+      },
+      {
+        "name": "CSS Specificity",
+        "resources": [
+          "https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/",
+          "https://isellsoap.github.io/specificity-visualizer/"
+        ]
+      },
+      {
+        "name": "APIs",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction",
+          "https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/"
+        ]
+      },
+      {
+        "name": "Cross-browser compatibility",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction",
+          "http://blogs.quovantis.com/browser-specific-hacks-for-frontend-developers/",
+          "https://caniuse.com/"
+        ]
+      },
+      {
+        "name": "Frontend checklist",
+        "resources": [
+          "https://frontendchecklist.io/"
+        ]
+      },
+      {
+        "name": "SEO",
+        "resources": [
+          "https://moz.com/blog/category/basic-seo",
+          "https://ahrefs.com/blog/seo-basics/",
+          "https://www.seobility.net/en/seocheck/",
+          "https://websiteseochecker.com/",
+          "https://neilpatel.com/seo-analyzer/",
+          "https://seositecheckup.com/",
+          "https://www.seoptimer.com/",
+          "http://www.seowebpageanalyzer.com/",
+          "https://sitechecker.pro/",
+          "https://www.drlinkcheck.com/"
+        ]
+      },
+      {
+        "name": "Style guide",
+        "resources": [
+          "https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d/"
+        ]
+      },
+      {
+        "name": "Accessibility",
+        "resources": [
+          "https://a11yproject.com/",
+          "https://ffoodd.github.io/a11y.css/",
+          "https://benrobertson.io/accessibility/tools-for-website-audits"
+        ]
+      },
+      {
+        "name": "User Experience",
+        "resources": [
+          "https://maze.design/guides/ux-research"
+        ]
+      },
+      {
+        "name": "Testing/Performance",
+        "resources": [
+          "https://search.google.com/search-console/about",
+          "https://developers.google.com/web/tools/lighthouse/",
+          "https://validator.w3.org/",
+          "https://search.google.com/test/mobile-friendly",
+          "https://developers.google.com/speed/pagespeed/insights/",
+          "https://lighthouse-metrics.com/",
+          "https://www.experte.com/pagespeed",
+          "https://www.webpagetest.org/",
+          "https://tools.pingdom.com/",
+          "https://webhint.io/scanner/",
+          "https://www.dotcom-tools.com/website-speed-test.aspx",
+          "https://webspeedtest.cloudinary.com/",
+          "https://securityheaders.com/",
+          "https://webbkoll.dataskydd.net/en",
+          "https://www.dareboost.com/en/analysis",
+          "https://www.thinkwithgoogle.com/feature/testmysite/",
+          "https://mxtoolbox.com/Public/FreeInvestigator.aspx",
+          "https://www.alexa.com/siteinfo/",
+          "https://perf.rocks/",
+          "https://wpostats.com/",
+          "https://progressivetooling.com/",
+          "https://www.statuscake.com/",
+          "https://www.scamadviser.com/",
+          "https://dev.to/ender_minyard/the-ultimate-guide-to-web-performance-ci4"
+        ]
+      },
+      {
+        "name": "Serverless/JAMstack",
+        "resources": [
+          "https://blog.fullstacktraining.com/introduction-to-the-jamstack/",
+          "https://jamstack.training/",
+          "https://www.netlify.com/blog/2020/03/12/learn-jamstack-with-a-free-3.5-hour-video-of-demos-and-examples/"
+        ]
+      },
+      {
+        "name": "Netlify",
+        "resources": [
+          "https://www.netlify.com/",
+          "https://www.staticgen.com/",
+          "https://headlesscms.org/",
+          "https://www.youtube.com/watch?v=mT5siI19gtc",
+          "https://serverless.css-tricks.com/",
+          "https://css-tricks.com/a-comparison-of-static-form-providers/"
+        ]
+      },
+      {
+        "name": "Jekyll",
+        "resources": [
+          "https://jekyllrb.com/"
+        ]
+      },
+      {
+        "name": "Hugo",
+        "resources": [
+          "https://gohugo.io/",
+          "https://www.silvestar.codes/articles/making-a-website-with-hugo/"
+        ]
+      },
+      {
+        "name": "Hexo",
+        "resources": [
+          "https://hexo.io/"
+        ]
+      },
+      {
+        "name": "Photoshop",
+        "resources": [
+          "https://www.photoshop.com/"
+        ]
+      },
+      {
+        "name": "Sketch",
+        "resources": [
+          "https://www.sketch.com/"
+        ]
+      },
+      {
+        "name": "Figma",
+        "resources": [
+          "https://www.figma.com/"
+        ]
+      },
+      {
+        "name": "Zeplin",
+        "resources": [
+          "https://zeplin.io/"
+        ]
+      },
+      {
+        "name": "Zapier",
+        "resources": [
+          "https://zapier.com/platform"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Games, tools, interviews",
+    "type": "other",
+    "list": [{
+        "name": "General",
+        "resources": [
+          "https://www.frontendmentor.io/resources",
+          "https://www.skillshare.com/r/user/starbist",
+          "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+          "https://dev.to/gregfletcher/top-front-end-development-youtube-channels-4ihg",
+          "https://github.com/sindresorhus/awesome",
+          "https://dev.to/jatinrao/resources-for-frontend-developers-1l9i",
+          "https://github.com/MarkoDenic/web-development-resources",
+          "https://github.com/sw-yx/spark-joym"
+        ]
+      },
+      {
+        "name": "CSS games",
+        "resources": [
+          "https://dev.to/devmount/8-games-to-learn-css-the-fun-way-4e0f",
+          "https://dev.to/alvaromontoro/css-games-are-fun-2pgi"
+        ]
+      },
+      {
+        "name": "JavaScript games",
+        "resources": [
+          "https://exercism.io/tracks/javascript/exercises"
+        ]
+      },
+      {
+        "name": "Other games",
+        "resources": [
+          "https://dev.to/selawsky/8-coding-games-to-improve-and-level-up-your-programming-skills-3fc0",
+          "https://medium.mybridge.co/12-free-resources-learn-to-code-while-playing-games-f7333043de11",
+          "https://dev.to/paco_ita/train-your-javascript-skills-with-online-games-289m"
+        ]
+      },
+      {
+        "name": "Challenges",
+        "resources": [
+          "https://www.100daysofcode.com/",
+          "https://codepen.io/challenges/",
+          "https://css-tricks.com/front-end-challenges/"
+        ]
+      },
+      {
+        "name": "Courses",
+        "resources": [
+          "https://hackademy.pro/home",
+          "https://www.vuemastery.com/"
+        ]
+      },
+      {
+        "name": "HTML tools",
+        "resources": [
+          "https://htmlhead.dev/",
+          "http://html5pattern.com/",
+          "https://www.heymeta.com/"
+        ]
+      },
+      {
+        "name": "CSS tools",
+        "resources": [
+          "https://www.csswand.dev/",
+          "https://extra-css.netlify.com/",
+          "https://grid.layoutit.com/",
+          "https://csslayout.io/patterns",
+          "https://getwaves.io/",
+          "https://www.gradientmagic.com/",
+          "https://www.grabient.com/",
+          "https://shapy.app/",
+          "https://9elements.github.io/fancy-border-radius/",
+          "https://gijsroge.github.io/tilt.js/",
+          "https://bennettfeely.com/clippy/",
+          "https://neumorphism.io/#55b9f3",
+          "https://brumm.af/shadows"
+        ]
+      },
+      {
+        "name": "Font tools",
+        "resources": [
+          "http://fontfamily.io/",
+          "https://transfonter.org/",
+          "https://devfonts.gafi.dev/l",
+          "https://www.notion.so/e873b52e0cc54f2981acc430417ba61d?v=05acdd40b0564920be69f5347f619bc3",
+          "https://www.reliablepsd.com/ultimate-google-font-pairings/"
+        ]
+      },
+      {
+        "name": "Icons",
+        "resources": [
+          "https://streamlineicons.com/"
+        ]
+      },
+      {
+        "name": "Image tools",
+        "resources": [
+          "https://picsum.photos/"
+        ]
+      },
+      {
+        "name": "Favicon tools",
+        "resources": [
+          "https://realfavicongenerator.net/",
+          "https://maskable.app/"
+        ]
+      },
+      {
+        "name": "Webdev tools",
+        "resources": [
+          "https://webmention.io/",
+          "https://instant.page/",
+          "https://www.whatfontis.com/?s2",
+          "https://fontdrop.info/",
+          "http://keycode.info/"
+        ]
+      },
+      {
+        "name": "Useful tools",
+        "resources": [
+          "https://linkfork.co/",
+          "https://flawlessapp.io/designtools",
+          "https://www.uigoodies.com/index.html",
+          "https://mobile.twitter.com/i/events/880688233641848832",
+          "https://frontendchecklist.io/",
+          "https://mailtolink.me/",
+          "http://speakhuman.today/",
+          "https://www.screely.com/",
+          "https://github.com/c0bra/deviceframe",
+          "https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22",
+          "https://spotify.github.io/coordinator/",
+          "https://svg-to-symbol.herokuapp.com/",
+          "https://jakearchibald.github.io/svgomg/",
+          "http://b64.io/",
+          "https://wkhtmltopdf.org/",
+          "https://regexly.js.org/",
+          "https://css-tricks.com/snippets/php/automatic-copyright-year/",
+          "http://youmightnotneedjquery.com/",
+          "http://youmightnotneedjs.com/",
+          "https://jsonld.com/website/",
+          "https://medium.muz.li/color-tools-for-designers-2019-6ebd77a94ab",
+          "https://dev.to/pustelto/tools-i-use-for-front-end-dev-3ekn"
+        ]
+      },
+      {
+        "name": "Templates",
+        "resources": [
+          "https://dev.to/davidepacilio/40-free-html-landing-page-templates-3gfp"
+        ]
+      },
+      {
+        "name": "Interview questions",
+        "resources": [
+          "https://www.toptal.com/html5/interview-questions",
+          "https://www.toptal.com/css/interview-questions",
+          "https://www.toptal.com/javascript/interview-questions",
+          "https://www.toptal.com/software/interview-questions",
+          "https://www.toptal.com/web/interview-questions",
+          "https://www.toptal.com/php/interview-questions",
+          "https://www.toptal.com/algorithms/interview-questions",
+          "https://www.toptal.com/designers/visual/interview-questions",
+          "https://www.toptal.com/ui-ux-frontend-developer/interview-questions"
+        ]
+      },
+      {
+        "name": "Code practice",
+        "resources": [
+          "https://exercism.io/",
+          "https://www.slant.co/options/3408/alternatives/~exercism-io-alternatives",
+          "https://dev.to/frontendmentor/16-front-end-projects-with-designs-to-help-improve-your-coding-skills-5ajl",
+          "https://dev.to/biplov/15-fun-apis-for-your-next-project-5053"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Soft skills",
+    "type": "skill",
+    "list": [{
+        "name": "General",
+        "resources": [
+          "https://thefutur.com/learn"
+        ]
+      },
+      {
+        "name": "Verbal communication",
+        "resources": [
+          "https://www.thebalancecareers.com/communication-skills-list-2063779"
+        ]
+      },
+      {
+        "name": "Written communication",
+        "resources": [
+          "https://www.indeed.com/career-advice/career-development/written-communication-skills"
+        ]
+      },
+      {
+        "name": "Documentation",
+        "resources": [
+          "https://zapier.com/engineering/great-documentation-examples/"
+        ]
+      },
+      {
+        "name": "Blogging",
+        "resources": [
+          "https://css-tricks.com/advice-for-technical-writing/",
+          "https://css-tricks.com/beginner-css-tips-for-your-blog/",
+          "https://developers.google.com/tech-writing/overview"
+        ]
+      },
+      {
+        "name": "Online presence",
+        "resources": [
+          "https://www.freecodecamp.org/news/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217/",
+          "https://www.omnesgroup.com/online-presence-as-junior-developer/",
+          "https://codeup.com/what-developers-need-to-have-for-their-online-presence/",
+          "https://simpleprogrammer.com/online-presence-programmer/",
+          "https://www.freecodecamp.org/news/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217/"
+        ]
+      },
+      {
+        "name": "Searching",
+        "resources": [
+          "https://www.alec.fyi/dorking-how-to-find-anything-on-the-internet.html"
+        ]
+      },
+      {
+        "name": "Inspiration",
+        "resources": [
+          "https://inspiration-bits.com/archives/",
+          "https://github.com/sw-yx/spark-joy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Newsletters",
+    "type": "newsletters",
+    "list": [{
+        "name": "CSS Weekly",
+        "resources": [
+          "https://css-weekly.com/"
+        ]
+      },
+      {
+        "name": "CSS Animation Weekly",
+        "resources": [
+          "https://cssanimation.rocks/weekly/"
+        ]
+      },
+      {
+        "name": "Web Design Weekly",
+        "resources": [
+          "https://web-design-weekly.com/"
+        ]
+      },
+      {
+        "name": "CSS-Tricks",
+        "resources": [
+          "https://css-tricks.com/newsletters/"
+        ]
+      },
+      {
+        "name": "Smashing Magazine",
+        "resources": [
+          "https://www.smashingmagazine.com/the-smashing-newsletter/"
+        ]
+      },
+      {
+        "name": "UI Dev Newsletter",
+        "resources": [
+          "https://mentor.silvestar.codes/reads#newsletter"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jobs boards",
+    "type": "jobs",
+    "list": [{
+        "name": "Product Hunt",
+        "resources": [
+          "https://www.producthunt.com/jobs"
+        ]
+      },
+      {
+        "name": "Indeed",
+        "resources": [
+          "https://www.indeed.com/hire"
+        ]
+      },
+      {
+        "name": "AngelList",
+        "resources": [
+          "https://angel.co/"
+        ]
+      },
+      {
+        "name": "StackOverflow",
+        "resources": [
+          "https://stackoverflow.com/jobs"
+        ]
+      },
+      {
+        "name": "YCombinator",
+        "resources": [
+          "https://news.ycombinator.com/jobs",
+          "https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=Ask%20HN%3A%20Who%20is%20hiring%3F&sort=byDate&type=story",
+          "https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=ASK%20HN%3A%20who%20wants%20to%20be%20hired%3F&sort=byDate&type=story"
+        ]
+      },
+      {
+        "name": "RemoteJobsClub",
+        "resources": [
+          "https://remotejobsclub.com/"
+        ]
+      },
+      {
+        "name": "Glassdoor",
+        "resources": [
+          "https://www.glassdoor.co.uk/index.htm"
+        ]
+      },
+      {
+        "name": "Smashing Magazine",
+        "resources": [
+          "https://jobs.smashingmagazine.com/jobs/"
+        ]
+      },
+      {
+        "name": "CSS-Tricks",
+        "resources": [
+          "https://css-tricks.com/jobs/"
+        ]
+      },
+      {
+        "name": "CodePen",
+        "resources": [
+          "https://codepen.io/jobs/"
+        ]
+      },
+      {
+        "name": "Remote Masters",
+        "resources": [
+          "https://remotemasters.dev/jobs"
+        ]
+      },
+      {
+        "name": "Remote Jobs",
+        "resources": [
+          "https://remote.jobs/"
+        ]
+      },
+      {
+        "name": "Codementor",
+        "resources": [
+          "https://www.codementor.io/jobs"
+        ]
+      },
+      {
+        "name": "50+ Remote jobs sites",
+        "resources": [
+          "https://adamconrad.dev/blog/here-is-the-full-list-of-my-50-remote-job-sites/"
+        ]
+      },
+      {
+        "name": "Where to Find Remote Developer Jobs",
+        "resources": [
+          "https://dev.to/study_web_dev/where-to-find-remote-developer-jobs-5g0h"
+        ]
+      },
+      {
+        "name": "Remote Junior Developer jobs directory",
+        "resources": [
+          "https://github.com/ugglr/Remote-Junior-Developer-jobs-directory"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jobs networks",
+    "type": "networks",
+    "list": [{
+        "name": "Toptal",
+        "resources": [
+          "https://www.toptal.com#trust-nothing-but-brilliant-freelancers"
+        ]
+      },
+      {
+        "name": "ExpertLead",
+        "resources": [
+          "https://www.expertlead.com/"
+        ]
+      },
+      {
+        "name": "Upstack",
+        "resources": [
+          "https://upstack.co/"
+        ]
+      },
+      {
+        "name": "Turing",
+        "resources": [
+          "https://turing.com/"
+        ]
+      },
+      {
+        "name": "Codementor",
+        "resources": [
+          "https://www.codementor.io/"
+        ]
+      },
+      {
+        "name": "PeoplePerHour",
+        "resources": [
+          "https://www.peopleperhour.com/"
+        ]
+      },
+      {
+        "name": "ScalablePath",
+        "resources": [
+          "https://www.scalablepath.com/"
+        ]
+      },
+      {
+        "name": "MVP Factory",
+        "resources": [
+          "https://mvpfactory.co/company/careers/"
+        ]
+      },
+      {
+        "name": "Remote",
+        "resources": [
+          "https://remote.com/"
+        ]
+      },
+      {
+        "name": "Fountain",
+        "resources": [
+          "https://get.fountain.com/"
+        ]
+      },
+      {
+        "name": "Triplebyte",
+        "resources": [
+          "https://triplebyte.com/"
+        ]
+      },
+      {
+        "name": "Vettery",
+        "resources": [
+          "https://www.vettery.com/"
+        ]
+      },
+      {
+        "name": "CodersClan",
+        "resources": [
+          "https://www.codersclan.com/"
+        ]
+      },
+      {
+        "name": "Upwork",
+        "resources": [
+          "https://www.upwork.com/"
+        ]
+      },
+      {
+        "name": "WeAreDevelopers",
+        "resources": [
+          "https://www.wearedevelopers.com/"
+        ]
+      },
+      {
+        "name": "Gun.io",
+        "resources": [
+          "https://www.gun.io/"
+        ]
+      },
+      {
+        "name": "X-Team",
+        "resources": [
+          "https://x-team.com/"
+        ]
+      },
+      {
+        "name": "Hubstaff Talent",
+        "resources": [
+          "https://talent.hubstaff.com/"
+        ]
+      },
+      {
+        "name": "Yeeply",
+        "resources": [
+          "https://en.yeeply.com/"
+        ]
+      },
+      {
+        "name": "Hired",
+        "resources": [
+          "https://hired.com/"
+        ]
+      },
+      {
+        "name": "Underdog",
+        "resources": [
+          "https://underdog.io/"
+        ]
+      },
+      {
+        "name": "Folyo",
+        "resources": [
+          "https://folyo.me/"
+        ]
+      }
+    ]
+  }
+]

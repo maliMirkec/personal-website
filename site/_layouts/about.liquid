@@ -1,0 +1,12 @@
+---
+layout: mentor
+---
+
+{% include _partials/_mentor/hero %}
+{% if content %}
+  <section class="wrapper wrapper--alpha">{{ content }}</section>
+{% endif %}
+{% include _partials/_mentor/cta %}
+{% if beer %}
+  {% include _partials/_mentor/beer %}
+{% endif %}

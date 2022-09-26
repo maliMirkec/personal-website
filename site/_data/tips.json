@@ -1,0 +1,230 @@
+[{
+    "name": "Inspirational",
+    "slides": [
+      "https://slides.com/starbist/mentoring-tips1/embed?style=light"
+    ],
+    "list": [{
+        "title": "Everyone was a junior once",
+        "tips": [
+          "Everyone had to start somewhere.",
+          "Don’t be afraid if you are overwhelmed at the beginning.",
+          "Stick with the program, try to focus and don’t get distracted.",
+          "Things will come to its place eventually.",
+          "Enjoy “Aha” moments."
+        ]
+      },
+      {
+        "title": "Start today",
+        "tips": [
+          "Don’t leave things for tomorrow.",
+          "Take detailed notes and make a reminder if you cannot do it now.",
+          "The idea might vanish until tomorrow.",
+          "It is better to get your hands dirty right now.",
+          "There’s a better chance of a “snowball effect” today."
+        ]
+      },
+      {
+        "title": "Fear is a compass",
+        "tips": [
+          "Sometimes the scariest things are the ones you might be the best at.",
+          "A crazy idea might become a successful project.",
+          "Don’t be afraid to experiment.",
+          "Don’t be afraid to talk about it.",
+          "Don’t be afraid to share your thoughts with the community."
+        ]
+      },
+      {
+        "title": "Learn at your own pace",
+        "tips": [
+          "Research what you want to know.",
+          "Decide what you want to learn.",
+          "If one course is not doing it for you, take another one.",
+          "The best way to learn is to get practical.",
+          "Don’t compare yourself with others."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Learning",
+    "slides": [
+      "https://slides.com/starbist/mentoring-tips2/embed?style=light",
+      "https://slides.com/starbist/mentoring-tips3/embed?style=light"
+    ],
+    "list": [{
+        "title": "Understand how the Internet works",
+        "tips": [
+          "Learn how DNS works.",
+          "Learn how servers work.",
+          "Learn how databases work.",
+          "Learn how the code work.",
+          "Learn how browsers work."
+        ]
+      },
+      {
+        "title": "Choose the right skill",
+        "tips": [
+          "Research what you want to know.",
+          "Decide what you want to learn.",
+          "If one course is not doing it for you, take another one.",
+          "The best way to learn is to get practical.",
+          "Don’t compare yourself with others."
+        ]
+      },
+      {
+        "title": "Don’t skip steps",
+        "tips": [
+          "Make a plan.",
+          "Stick to the plan.",
+          "Don’t jump from one topic to another.",
+          "Master the skill before starting with another one.",
+          "Don’t try to be good at everything."
+        ]
+      },
+      {
+        "title": "Don’t copy-paste the code",
+        "tips": [
+          "First, read the code.",
+          "Then understand the code.",
+          "Now type the code.",
+          "Comment the code.",
+          "Try to make it better."
+        ]
+      },
+      {
+        "title": "Learn something new every day",
+        "tips": [
+          "Learning is part of the developer job.",
+          "Apply newly acquired knowledge in a project.",
+          "Try 100daysofcode.",
+          "Share what you learned TIL.",
+          "Help others."
+        ]
+      },
+      {
+        "title": "Stay up-to-date",
+        "tips": [
+          "Subscribe to newsletters.",
+          "Subscribe to podcasts.",
+          "Join online and communities.",
+          "Follow the right people.",
+          "Make a reading routine."
+        ]
+      },
+      {
+        "title": "Build a project",
+        "tips": [
+          "Think of the project.",
+          "Make specifications.",
+          "Make design.",
+          "Build the project.",
+          "Share the knowledge."
+        ]
+      },
+      {
+        "title": "Find a mentor",
+        "tips": [
+          "Learn from an experienced professional.",
+          "Ask questions.",
+          "Talk about problems.",
+          "Propose a solution.",
+          "Respect your and other’s time."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coding",
+    "slides": [
+      "https://slides.com/starbist/mentoring-tips4/embed?style=light"
+    ],
+    "list": [{
+        "title": "Document the project",
+        "tips": [
+          "Documentation is part of the project.",
+          "Document the process.",
+          "Document the structure.",
+          "Document the usage.",
+          "Specify the audience."
+        ]
+      },
+      {
+        "title": "Organize the project",
+        "tips": [
+          "Make specification before coding.",
+          "Make design before coding.",
+          "Make structure before coding.",
+          "Agree on coding standard.",
+          "Define reusable components."
+        ]
+      },
+      {
+        "title": "Apply best practices",
+        "tips": [
+          "Don’t copy-paste.",
+          "Don’t get too attached to the code.",
+          "Comment the code.",
+          "Code with performance in mind.",
+          "Code with accessibility in mind."
+        ]
+      },
+      {
+        "title": "Test the project",
+        "tips": [
+          "Write tests.",
+          "Test across different environments.",
+          "Assume worst-case scenarios.",
+          "Learn to debug.",
+          "Document the fix."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other/Useful",
+    "slides": [
+      "https://slides.com/starbist/mentoring-deck5/embed?style=light"
+    ],
+    "list": [{
+        "title": "Communication",
+        "tips": [
+          "Be polite.",
+          "Be respectful.",
+          "Be professional.",
+          "Respond quickly.",
+          "Don’t overpromise."
+        ]
+      },
+      {
+        "title": "Organization",
+        "tips": [
+          "Define working hours.",
+          "Set and respect deadlines.",
+          "Get familiar with modern tools.",
+          "Limit the usage to one tool per project.",
+          "Use reminders."
+        ]
+      },
+      {
+        "title": "Blogging",
+        "tips": [
+          "Give back to the community.",
+          "Write about your findings.",
+          "Avoid using “easy”, “simple”, or similar words.",
+          "Write at the moment of learning.",
+          "Remember, helping a single person is a success."
+        ]
+      },
+      {
+        "title": "Health",
+        "tips": [
+          "Stretch.",
+          "Take a walk.",
+          "Exercise.",
+          "Drink water.",
+          "Socialize."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+.footer {
+  text-align: center;
+  font-size: ms(-1);
+  margin-bottom: rem(10);
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+
+  p,
+  ul {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: .25em;
+  }
+
+  li {
+    &:not(:first-of-type) {
+      &:before {
+        content: ", ";
+      }
+    }
+  }
+}
+
+@include mq($until: mobile) {
+  .find {
+    font-size: ms(-2);
+  }
+}

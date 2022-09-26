@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
+{% if isMentor %}
+  <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
+{% else %}
+  <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
+{% endif %}
+
 {% if type == 'articles-item' %}
   <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
 {% endif %}

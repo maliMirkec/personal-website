@@ -14,22 +14,22 @@
 
 <!DOCTYPE html>
 <html lang="{{ lang }}">
-  {% include _partials/head %}
-  <body class="no-font">
+  {% include _partials/_general/head %}
+  <body>
     <div class="inner">
-      {% include _partials/header %}
+      {% include _partials/_general/header %}
       <main id="main">
-        {% include _partials/hero-tags %}
+        {% include _partials/_general/hero-tags %}
         <hr class="text-alpha hr">
         {% if tag %}
-          {% include _partials/cards-tags %}
+          {% include _partials/_general/cards-tags %}
         {% else %}
-          {% include _partials/tags %}
+          {% include _partials/_general/tags %}
         {% endif %}
       </main>
-      {% include _partials/footer %}
+      {% include _partials/_general/footer %}
     </div>
-    {% include _partials/toggle-button %}
+    {% include _partials/_general/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
     {% include _partials/_assets/analytics %}

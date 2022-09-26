@@ -1,0 +1,28 @@
+.sig {
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  padding: rem(1) rem(10) rem(6);
+
+  p {
+    font-size: ms(-1);
+    margin: 0;
+  }
+}
+
+.sig__link {
+  @include tra;
+  align-items: baseline;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.sig__icon {
+  @include tra;
+  height: rem(20);
+  margin-right: rem(2);
+  transform: translateY(rem(4));
+  transform-origin: center;
+  width: rem(20);
+}

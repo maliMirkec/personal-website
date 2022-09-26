@@ -1,0 +1,16 @@
+<header class="header">
+  <nav>
+    <a href="#main" class="skip"><span>Skip to content</span></a>
+    {% if mentor.data.nav %}
+      <ul>
+        {% for val in mentor.data.nav %}
+          <li{% if val.title == title or val.title == navTitle %} class="highlight"{% endif %}>
+            <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>
+              <span>{{ val.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </nav>
+</header>

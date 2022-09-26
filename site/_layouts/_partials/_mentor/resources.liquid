@@ -1,0 +1,41 @@
+<section>
+  <article class="intro">
+    <h2>Resources</h2>
+    <p>The resources I gathered during my career should help you with learning and getting your first job.</p>
+    <p>You could also find links that I find interesting and worth reading.</p>
+  </article>
+  <div class="row">
+    <div class="col">
+      <div class="card wrapper wrapper--beta">
+        <h3>Resources</h3>
+        <ul>
+          {% for resource in resources %}
+            {% if forloop.index < 5 %}
+              <li>{{ resource.name }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <a href="/side-projects/ui-dev-mentoring/resources/" class="href">See all resources</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card wrapper wrapper--beta">
+        <h3>Interesting reads</h3>
+        <ul>
+          {% assign j = 0 %}
+          {% for read in reads %}
+            {% for resource in read.list %}
+              {% if j < 4 and resource.title %}
+                <li>
+                  <a href={{ resource.link }} target="_blank" rel="noopener">{{ resource.title }}</a>
+                </li>
+              {% endif %}
+              {% assign j = j | plus: 1 %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+        <a href="/side-projects/ui-dev-mentoring/reads/index/" class="href">See all interesting reads</a>
+      </div>
+    </div>
+  </div>
+</section>

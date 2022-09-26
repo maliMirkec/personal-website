@@ -1,0 +1,31 @@
+<section>
+  <article class="intro">
+    <p>Tips are available as a series of blog posts:</p>
+    <ul>
+      <li><a href="/articles/a-story-of-becoming-a-web-developer/">A Story of Becoming a Web Developer</a></li>
+      <li>The rest is yet to be published</li>
+    </ul>
+    <p>Tips are also available as <a href="/side-projects/ui-dev-mentoring/slides/" class="href">slides</a>.</p>
+  </article>
+</section>
+{% for tip in tips %}
+  <section>
+    <article class="intro">
+      <h2>{{ tip.name }}</h2>
+      <div class="row">
+        {% for advice in tip.list %}
+          <div class="col">
+            <div class="card wrapper wrapper--beta">
+              <h4>{{ advice.title }}</h4>
+              <ul>
+                {% for item in advice.tips %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+{% endfor %}

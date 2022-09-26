@@ -8,31 +8,31 @@
 
 <!DOCTYPE html>
 <html lang="{{ lang }}">
-  {% include _partials/head %}
-  <body class="no-font">
-    {% comment %} {% include _partials/banner-omega %} {% endcomment %}
+  {% include _partials/_general/head %}
+  <body>
+    {% comment %} {% include _partials/_general/banner-omega %} {% endcomment %}
     <div class="inner">
-      {% include _partials/header %}
+      {% include _partials/_general/header %}
       <main id="main">
         {% block content %}
           {% if sections %}
             {% for section in sections %}
-              {% include _partials/sections %}
+              {% include _partials/_general/sections %}
             {% endfor %}
           {% endif %}
           {% if content != blank and content != '' %}
-            {% include _partials/content-alpha %}
+            {% include _partials/_general/content-alpha %}
           {% endif %}
           {% if sections2 %}
             {% for section in sections2 %}
-              {% include _partials/sections %}
+              {% include _partials/_general/sections %}
             {% endfor %}
           {% endif %}
         {% endblock %}
       </main>
-      {% include _partials/footer %}
+      {% include _partials/_general/footer %}
     </div>
-    {% include _partials/toggle-button %}
+    {% include _partials/_general/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
     {% include _partials/_assets/analytics %}

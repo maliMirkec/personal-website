@@ -1,0 +1,33 @@
+<section class="wrapper wrapper--alpha">
+  <div class="kwes-form form" v-cloak="true">
+    <form method="POST" action="https://kwes.io/api/foreign/forms/{{ page.data.formId }}">
+      <p class="label">Are you interested in career mentoring or technical mentoring?</p>
+      <div class="kw-radio-group">
+        <input type="radio" name="mentoring" value="Career" label="Career" checked="checked" id="Career">
+        <input type="radio" name="mentoring" value="Technical" label="Technical" id="Technical">
+      </div>
+      <div class="desc">
+        <p>
+          <span>Career mentoring means I help you make decisions regarding your career.</span>
+        </p>
+        <p>
+          <span>Technical mentoring means I help you gain new skills or improve the current skill level.</span>
+        </p>
+      </div>
+      <label for="Name">What is your name?</label>
+      <input type="text" name="name" rules="required" id="Name">
+      <label for="Email">
+        Tell me your email address please.
+        <span>(I would use it only for direct communication)</span>
+      </label>
+      <input type="email" name="email" rules="required|email|max:255" id="Email">
+      <label for="Note">Tell me why I should mentor you?</label>
+      <textarea name="note" rules="required" rows="6" id="Note"></textarea>
+      <div kw-show="fields.mentoring == 'Technical'">
+      </div>
+        <label for="Note2">Tell me which skills do you want to aquire or approve?</label>
+        <textarea name="note2" rules="required_if:mentoring,Technical" rows="6" id="Note2"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>

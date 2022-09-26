@@ -1,0 +1,79 @@
+html {
+  @include css-locks(font-size, $mq--mobile, $mq--desktop, $font-size--mobile, $font-size--desktop);
+}
+
+body {
+  color: $color-text;
+  font-family: $font-alpha;
+  font-size: ms(0);
+  font-style: normal;
+  font-weight: 400;
+  line-height: $line-height;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@for $i from 1 through 6 {
+  h#{$i},
+  .h#{$i} {
+    font-style: normal;
+    font-size: ms(7 - $i);
+    font-weight: bold;
+    text-transform: uppercase;
+    @include ls(25);
+    @include ws(100);
+    position: relative;
+
+    &:first-letter {
+      font-size: 1.5em;
+      line-height: 0.75;
+    }
+
+    &:not(.plain):after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      width: 20%;
+      max-width: 2em;
+      height: .15em;
+    }
+
+    &:target {
+      color: $color-alpha;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    p + & {
+      margin-top: 2em;
+    }
+
+    @include mq($until: desktop) {
+      &:not(.plain):after {
+        left: 40%;
+        background-image: linear-gradient(to right, transparent, $color-delta 50%, transparent);
+      }
+    }
+
+    @include mq($from: desktop) {
+      &:not(.plain):after {
+        top: 100%;
+        left: 0;
+        background-image: linear-gradient(to right, $color-delta 50%, transparent);
+      }
+    }
+  }
+}
+
+::selection {
+  background-color: $color-delta;
+}
+
+pre,
+code,
+.code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
