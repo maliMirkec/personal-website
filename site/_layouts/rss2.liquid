@@ -12,7 +12,7 @@
     <image>
       <title>{{ metadata.title }}</title>
       <url>{{ metadata.image }}</url>
-      <link>{{ metadata.url }}</link>
+      <link>{{ metadata.urlIndex }}</link>
     </image>
     <copyright>All rights reserved, {{ metadata.author.name }}</copyright>
     {% if metadata.tags %}
@@ -24,8 +24,8 @@
     {% for article in articles %}
     <item>
       <title>UI Dev Newsletter, Issue {{ reads | size | plus: 1 | minus: forloop.index | prepend: '#' }}</title>
-      <link>{{ metadata.url | append: '/reads/' | append: article.date }}</link>
-      <guid>{{ metadata.url | append: '/reads/' | append: article.date }}</guid>
+      <link>{{ metadata.urlReads | append: article.date | append: '/' }}</link>
+      <guid>{{ metadata.urlReads | append: article.date | append: '/' }}</guid>
       <pubDate>{{ article.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
       <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
       <description>Issue {{ reads | size | plus: 1 | minus: forloop.index | prepend: '#' }} of the UI Dev Newsletter{% if article.description %} features {{ article.description }}{% endif %}</description>
