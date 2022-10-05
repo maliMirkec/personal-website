@@ -44,7 +44,7 @@ a {
 }
 
 [class*='link-'],
-.profile ul+a {
+.profile ul + a {
   border: 1px solid;
   display: inline-flex;
   letter-spacing: 0.1em;
@@ -59,7 +59,7 @@ article footer .link-downloadhtml,
 article footer .link-codepen,
 .link-guidelines,
 .link-allstyles,
-.profile ul+a {
+.profile ul + a {
   background-color: var(--color-gamma);
   padding: 0.3em 3em 0.3em 0.6em;
 }
@@ -69,12 +69,12 @@ header .link-github {
 }
 
 [href][class*='link-']::after,
-.profile ul+a::after {
+.profile ul + a::after {
   all: unset;
 }
 
 [href][class*='link-']::after,
-.profile ul+a::after {
+.profile ul + a::after {
   align-items: center;
   border-left: 1px solid;
   display: flex;
@@ -101,7 +101,7 @@ header .link-github[href]::after {
 
 .link-guidelines[href]::after,
 .link-allstyles[href]::after,
-.profile ul+a[href]::after {
+.profile ul + a::after {
   content: '→';
 }
 
@@ -150,7 +150,7 @@ h3:not(:first-child) {
   margin-top: 2rem;
 }
 
-h1+h2 {
+h1 + h2 {
   margin-top: -2rem;
 }
 
@@ -218,11 +218,11 @@ aside li {
   list-style: none;
 }
 
-aside ul+a {
+aside ul + a {
   margin: 1em;
 }
 
-aside+aside {
+aside + aside {
   background-color: var(--color-beta);
   padding: 2em 1em;
   text-align: center;
