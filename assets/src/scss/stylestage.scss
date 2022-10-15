@@ -268,3 +268,7 @@ aside + aside {
 .page-footer li [href][class*='link-']:active {
   color: var(--color-alpha);
 }
+
+.page-footer svg {
+  display: none;
+}
