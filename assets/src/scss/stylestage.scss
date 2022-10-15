@@ -189,8 +189,9 @@ nav li {
   list-style: none;
 }
 
-nav li:not(:first-child) {
-  margin-left: 1em;
+nav li {
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 blockquote {
