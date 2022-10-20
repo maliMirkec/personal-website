@@ -618,7 +618,7 @@ header nav > ul ul {
   }
 }
 
-.ad-banner {
+.hire-me {
   background-image: linear-gradient(to left, var(--color-alpha), var(--color-lightish), var(--color-lightish), var(--color-alpha));
   background-size: 200%;
   background-position: 0 0;
@@ -627,7 +627,7 @@ header nav > ul ul {
   animation: ad 3s infinite alternate-reverse ease-in-out forwards;
 }
 
-.ad-banner p {
+.hire-me p {
   margin: 0;
 }
 
