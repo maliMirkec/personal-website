@@ -10,7 +10,7 @@ tagline:
 noCta: true
 ctaNewsletter: true
 cta2:
-  href: /rss.xml
+  href: /rss2.xml
   title: Or subscribe to RSS feed
 beer: true
 type: mentor

@@ -28,6 +28,31 @@
 //
 // Styleguide Banner.Omega
 
+.ad-banner {
+  background-image: linear-gradient(to left, var(--color-alpha), var(--color-lightish), var(--color-lightish), var(--color-alpha));
+  background-size: 200%;
+  background-position: 0 0;
+  text-align: center;
+  padding: .25rem;
+  animation: ad 3s infinite alternate-reverse ease-in-out forwards;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.25em;
+    }
+  }
+}
+
 .advent-banner {
   background-color: var(--color-xmas-alpha);
   position: sticky;
@@ -60,5 +85,11 @@
         border-bottom-color: var(--color-xmas-beta);
       }
     }
+  }
+}
+
+@keyframes ad {
+  to {
+    background-position: 100% 0;
   }
 }

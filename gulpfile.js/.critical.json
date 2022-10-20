@@ -192,7 +192,7 @@
   }, {
     "src": "style.css",
     "settings": {
-      "out": "favorite.critical.css",
+      "out": "favorites.critical.css",
       "url": "http://localhost:8080/favorites/?cache=1",
       "width": 1920,
       "height": 1800,

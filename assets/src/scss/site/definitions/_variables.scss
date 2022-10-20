@@ -70,6 +70,7 @@ $angle: .5deg;
   --selection: #{transparentize($color-alpha, .8125)};
   --color-alpha: #{$color-alpha};
   --color-alpha-hover: #{$color-alpha-hover};
+  --color-alpha-dark: #{$color-alpha-dark};
   --color-beta: #{$color-beta};
   --color-light: #{$color-light};
   --color-lightish: #{$color-lightish};

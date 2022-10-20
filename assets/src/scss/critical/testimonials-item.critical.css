@@ -93,6 +93,7 @@ button:-moz-focusring,
   --selection: rgba(99, 242, 197, 0.1875);
   --color-alpha: #63f2c5;
   --color-alpha-hover: #34efb4;
+  --color-alpha-dark: #0a7f5a;
   --color-beta: #ff3366;
   --color-light: #f6fefb;
   --color-lightish: #ecfdf8;
@@ -644,6 +645,31 @@ header nav > ul ul {
 
   header nav:not(.active) > ul > li:not(:first-child) {
     display: none;
+  }
+}
+
+.ad-banner {
+  background-image: linear-gradient(to left, var(--color-alpha), var(--color-lightish), var(--color-lightish), var(--color-alpha));
+  background-size: 200%;
+  background-position: 0 0;
+  text-align: center;
+  padding: .25rem;
+  animation: ad 3s infinite alternate-reverse ease-in-out forwards;
+}
+
+.ad-banner p {
+  margin: 0;
+}
+
+@-webkit-keyframes ad {
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes ad {
+  to {
+    background-position: 100% 0;
   }
 }
 
