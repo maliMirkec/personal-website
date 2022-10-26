@@ -4,7 +4,11 @@
   {% include _partials/_assets/favicon %}
   {% include _partials/_head/link %}
   {% include _partials/_general/toggle-check %}
-  {% unless env.development %}
-    {% include _partials/_assets/critical %}
-  {% endunless %}
+  {% if slides %}
+    {% include _partials/_assets/css %}
+  {% else %}
+    {% unless env.development %}
+      {% include _partials/_assets/critical %}
+    {% endunless %}
+  {% endif %}
 </head>

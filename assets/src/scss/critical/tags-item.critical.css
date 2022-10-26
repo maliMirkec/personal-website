@@ -86,11 +86,13 @@ button:-moz-focusring,
   --bp1: 600px;
   --bp2: 1200px;
   --bp3: 1600px;
-  --selection: rgba(99, 242, 197, 0.1875);
   --color-alpha: #63f2c5;
   --color-alpha-hover: #34efb4;
   --color-alpha-dark: #0a7f5a;
+  --color-alpha-light: #92f6d7;
+  --color-alpha-lighter: rgba(99, 242, 197, 0.1875);
   --color-beta: #ff3366;
+  --color-beta-light: #ff668c;
   --color-light: #f6fefb;
   --color-lightish: #ecfdf8;
   --color-dark: #021811;

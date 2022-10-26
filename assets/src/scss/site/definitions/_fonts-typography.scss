@@ -29,8 +29,8 @@ body {
 }
 
 ::selection {
-  background-color: var(--selection);
-  text-shadow: 0 1px 0 var(--color-light);
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
 
 a::selection,

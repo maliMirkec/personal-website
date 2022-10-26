@@ -1,10 +1,20 @@
----
-layout: mentor
----
-
-{% include _partials/_mentor/hero %}
-{% include _partials/_mentor/slides-all %}
-{% include _partials/_mentor/cta %}
-{% if beer %}
-  {% include _partials/_mentor/beer %}
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% else if config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
 {% endif %}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  {% include _partials/_general/head %}
+  <body>
+    {% if type == 'mentor' %}
+      {% include _partials/_slides/mentor %}
+    {% else %}
+      {% include _partials/_slides/general %}
+    {% endif %}
+    {% include _partials/_assets/analytics %}
+  </body>
+</html>

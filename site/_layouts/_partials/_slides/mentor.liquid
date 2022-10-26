@@ -1,0 +1,36 @@
+<main class="slides">
+  {%- if title -%}
+    <section class="slides__item">
+      <div class="slides__inner">
+        <h1>{{ title }}</h1>
+      </div>
+    </section>
+  {%- endif -%}
+  {%- if tips -%}
+    {%- for elem in tips -%}
+      {%- if elem.name == slides -%}
+        {%- for item in elem.list -%}
+          <section class="slides__item">
+            <div class="slides__inner">
+              {%- if item.title -%}
+                <h1>{{ item.title }}</h1>
+              {%- endif -%}
+              {%- if item.tips -%}
+                <ul>
+                  {%- for tip in item.tips -%}
+                    <li>{{ tip }}</li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            </div>
+          </section>
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <section class="slides__item">
+      <div class="slides__inner">
+        <a href="/side-projects/ui-dev-mentoring/slides/">Go back</a>
+      </div>
+    </section>
+  {%- endif -%}
+</main>

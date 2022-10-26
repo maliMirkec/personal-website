@@ -16,8 +16,10 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-{% if isMentor %}
-  <link rel="preload" href="/css/mentor.min.css" as="style">
-{% else %}
-  <link rel="preload" href="/css/style.min.css" as="style">
-{% endif %}
+{% unless slides %}
+  {% if isMentor %}
+    <link rel="preload" href="/css/mentor.min.css" as="style">
+  {% else %}
+    <link rel="preload" href="/css/style.min.css" as="style">
+  {% endif %}
+{% endunless %}

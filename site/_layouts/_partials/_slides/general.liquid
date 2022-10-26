@@ -1,0 +1,28 @@
+<main class="slides">
+  {% if slides %}
+    {%- for slide in slides -%}
+      <section class="slides__item">
+        <div class="slides__inner">
+          {%- if slide.html -%}
+            {{ slide.html | markdownify }}
+          {%- endif -%}
+          {%- if slide.title -%}
+            <h1>{{ slide.title }}</h1>
+          {%- endif -%}
+          {%- if slide.list -%}
+            <ul>
+              {%- for tip in slide.list -%}
+                <li>{{ tip }}</li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
+      </section>
+    {%- endfor -%}
+    {%- if back -%}
+      <a class="slides__back" href="{{ back.href }}">{{ back.title }}</a>
+    {%- else -%}
+      <a class="slides__back" href="/">Go back to site</a>
+    {%- endif -%}
+  {% endif %}
+</main>

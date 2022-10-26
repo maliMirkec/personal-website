@@ -14,8 +14,11 @@ $mq-breakpoints: (
 $color-alpha: hsl(161, 85%, 67%);
 $color-alpha-hover: hsl(161, 85%, 57%);
 $color-alpha-dark: hsl(161, 85%, 27%);
+$color-alpha-light: hsl(161, 85%, 77%);
+$color-alpha-lighter: transparentize($color-alpha, .8125);
 $color-beta: hsl(345, 100%, 60%);
 $color-beta-dark: hsl(345, 80%, 50%);
+$color-beta-light: hsl(345, 100%, 70%);
 $color-light: hsl(161, 85%, 98%);
 $color-lightish: hsl(161, 85%, 96%);
 $color-dark: hsl(161, 85%, 5%);
@@ -67,11 +70,13 @@ $angle: .5deg;
   --bp3: #{$bp3};
 
   // Colors
-  --selection: #{transparentize($color-alpha, .8125)};
   --color-alpha: #{$color-alpha};
   --color-alpha-hover: #{$color-alpha-hover};
   --color-alpha-dark: #{$color-alpha-dark};
+  --color-alpha-light: #{$color-alpha-light};
+  --color-alpha-lighter: #{$color-alpha-lighter};
   --color-beta: #{$color-beta};
+  --color-beta-light: #{$color-beta-light};
   --color-light: #{$color-light};
   --color-lightish: #{$color-lightish};
   --color-dark: #{$color-dark};

@@ -271,7 +271,7 @@ body {
 }
 
 a {
-  color: #FF3366;
+  color: #d92e54;
   text-decoration: none;
 }
 
@@ -312,10 +312,10 @@ img {
 .link {
   display: inline-flex;
   align-items: center;
-  background-color: #12e09f;
+  background-color: #12de9d;
   color: #120207;
   padding: calc(0.55556 * 1rem) calc(1.66667 * 1rem);
-  box-shadow: 0 0 0 calc(0.05556 * 1rem) #fff, 0 0 0 calc(0.16667 * 1rem) #12e09f;
+  box-shadow: 0 0 0 calc(0.05556 * 1rem) #fff, 0 0 0 calc(0.16667 * 1rem) #12de9d;
   font-size: 0.88889rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -418,7 +418,7 @@ img {
 }
 
 .profile__title {
-  color: #FF3366;
+  color: #d92e54;
   text-transform: uppercase;
   margin-bottom: 0;
 }

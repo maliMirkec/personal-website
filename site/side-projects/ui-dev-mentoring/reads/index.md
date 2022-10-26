@@ -12,7 +12,6 @@ ctaNewsletter: true
 cta2:
   href: /rss2.xml
   title: Or subscribe to RSS feed
-beer: true
 type: mentor
 permalink: /side-projects/ui-dev-mentoring/reads/
 ---

@@ -26,8 +26,15 @@ isMentor: true
 {% if description == blank %}
   {% assign thisDesc = site.description | escape %}
 {% endif %}
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% else if config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
 <!DOCTYPE html>
-<html{% if site.lang %} lang="{{ site.lang }}"{% endif %}>
+<html lang="{{ lang }}">
   {% include _partials/_general/head %}
   <body class="wrapper wrapper--omega">
     {% include _partials/_mentor/header %}
