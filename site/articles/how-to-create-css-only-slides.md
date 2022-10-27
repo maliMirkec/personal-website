@@ -6,8 +6,8 @@ tags:
   - blog
   - html
   - css
-thumbnail:
-description:
+thumbnail: How_to_create_slides_with_HTML_and_CSS_mpiafo
+description: Did you know that you could create slides with HTML and CSS only? Let’s see how.
 type: articles-item
 sections2:
   - type: banner-beta
