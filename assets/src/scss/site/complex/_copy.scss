@@ -18,16 +18,12 @@
   p,
   li {
     code {
-      background-color: var(--selection);
+      background-color: var(--color-alpha-light);
       font-size: 90%;
       font-weight: normal;
       line-height: calc(var(--line-height2) * 1.111);
-      padding: .1em;
+      padding: .2em .4em;
       border-radius: var(--border-radius);
-
-      &::selection {
-        background-color: transparent;
-      }
     }
 
     img {
