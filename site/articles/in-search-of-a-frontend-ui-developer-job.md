@@ -52,7 +52,7 @@ I got five or more "reject" emails. It is nice that some companies make an effor
 
 For example, there is information about the number of applicants on the We Work Remotely site. I saw job ads with more than a thousand applicants. Of course, I will get rejected. I cannot even imagine what the process of choosing top candidates looks like. I think I am immediately dismissed because I am from Croatia.
 
-Instead of accepting every application, there should be a quick test or survey or something which could prove that you are a satisfactory candidate. Even better, someone should figure out a new system for finding remote developer jobs (I am not talking about job platforms like Toptal here).
+Instead of accepting every application, there should be a quick test or survey or something which could prove that you are a satisfactory candidate. Even better, someone should figure out a new system for finding remote developer jobs (I am not talking about job platforms like [Toptal](https://www.toptal.com/#trust-nothing-but-brilliant-freelancers) here).
 
 ## Problem #4: Outdated job ads
 
