@@ -27,8 +27,13 @@
     "href": "https://twitter.com/malimirkeccita",
     "title": "Twitter"
   }, {
+    "href": "https://mastodon.social/@cita",
+    "title": "Mastodon",
+    "rel": "me"
+  }, {
     "href": "https://github.com/maliMirkec",
-    "title": "GitHub"
+    "title": "GitHub",
+    "rel": "me"
   }, {
     "href": "https://codepen.io/CiTA/",
     "title": "CodePen"

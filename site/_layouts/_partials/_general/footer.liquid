@@ -16,7 +16,7 @@
         <ul class="list-style-none">
           {% for item in footer.social %}
             <li class="margin-right margin-left">
-              <a href="{{ item.href }}" class="padding-y-1"{% if item.href contains "github" %} rel="me"{% endif %}>{{ item.title }}</a>
+              <a href="{{ item.href }}" class="padding-y-1"{% if item.rel %} rel="{{ item.rel }}"{% endif %}>{{ item.title }}</a>
             </li>
           {% endfor %}
         </ul>
