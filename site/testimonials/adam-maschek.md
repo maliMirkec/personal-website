@@ -22,7 +22,7 @@ sections:
     desc: CTO at Westwing Home & Living
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

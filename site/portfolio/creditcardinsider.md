@@ -36,7 +36,7 @@ sections:
       - Used the latest best practices for boosting the site speed.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.creditcardinsider.com
       title: Go to site

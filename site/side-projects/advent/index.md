@@ -9,7 +9,7 @@ tags:
   - ui
 date: 1999-01-01
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: Advent of UI Components
     desc: >-
       For every day of advent I am building a new UI Component.

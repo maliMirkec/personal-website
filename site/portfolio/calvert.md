@@ -30,7 +30,7 @@ sections:
       - Created custom animations.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.calvert.com/invest-with-purpose.php
       title: Go to site

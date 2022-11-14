@@ -12,7 +12,6 @@ display: true
 date: 2005-01-04
 sections:
   - type: hero-alpha
-    narrow: true
     src: spro_aej3o2
     alt: Screenshot of Starter Project website.
     width: 815
@@ -21,7 +20,7 @@ sections:
     desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
     tag:
       href: /side-projects/
-      title: /Side Projects
+      title: Side Projects
     cta:
       href: //starter.silvestar.codes
       title: Go to the Project

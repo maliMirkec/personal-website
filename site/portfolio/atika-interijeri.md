@@ -35,7 +35,7 @@ sections:
       - Used Cloudflare to improve the security and performance.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //atika-interijeri.hr
       title: Go to site

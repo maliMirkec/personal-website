@@ -31,7 +31,7 @@ sections:
       - Maintained frontend of the website.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.pinecone.io
       title: Go to site

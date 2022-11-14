@@ -11,7 +11,6 @@ display: true
 date: 2005-01-03
 sections:
   - type: hero-alpha
-    narrow: true
     src: uidev_zn6018
     alt: Screenshot of The UI Dev Mentoring Program website.
     width: 815
@@ -20,7 +19,7 @@ sections:
     desc: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
     tag:
       href: /side-projects/
-      title: /Side Projects
+      title: Side Projects
     cta:
       href: /side-projects/ui-dev-mentoring/start/
       title: Go to the Project

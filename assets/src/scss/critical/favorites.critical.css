@@ -15,10 +15,16 @@ main {
   display: block;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 a {
   background-color: transparent;
 }
 
+b,
 strong {
   font-weight: bolder;
 }
@@ -197,10 +203,6 @@ img {
   margin-right: auto;
 }
 
-.wrapper:not([class*="wrapper-"]) {
-  max-width: calc(var(--bp) + 2rem);
-}
-
 .wrapper--alpha {
   max-width: calc(var(--bp3) + 2rem);
 }
@@ -229,6 +231,7 @@ a,
 }
 
 body,
+h1,
 h2,
 h3 {
   font-family: var(--font-alpha);
@@ -240,11 +243,16 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 
+h1,
 h2,
 h3 {
   font-style: normal;
   font-weight: 900;
   line-height: var(--line-height1);
+}
+
+h1 {
+  font-size: var(--step-5);
 }
 
 h2 {
@@ -265,6 +273,10 @@ h3 {
 
 [class*="fz-step--1"] {
   --font-size: var(--step--1);
+}
+
+[class*="fz-step-1"] {
+  --font-size: var(--step-1);
 }
 
 [class*="fz-step-3"] {
@@ -337,10 +349,6 @@ h3 {
 
 .margin-right {
   margin-right: var(--space);
-}
-
-.margin-auto {
-  margin: auto;
 }
 
 .no-spacing {
@@ -501,22 +509,10 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
-.inner > header,
-.inner >
-footer {
-  background-color: var(--color-lightish);
-}
-
-header nav,
-footer nav {
-  position: relative;
-}
-
-header nav .skip-link {
-  position: absolute;
+.skip-link {
+  position: fixed;
   top: .25rem;
   right: .25rem;
-  bottom: .25rem;
   left: .25rem;
   display: flex;
   align-items: center;
@@ -524,7 +520,7 @@ header nav .skip-link {
   z-index: 1;
 }
 
-header nav .skip-link:not(:focus) {
+.skip-link:not(:focus) {
   display: block;
   height: 1px;
   width: 1px;
@@ -536,6 +532,17 @@ header nav .skip-link:not(:focus) {
   white-space: nowrap;
   position: absolute;
   z-index: -1;
+}
+
+.inner > header,
+.inner >
+footer {
+  background-color: var(--color-lightish);
+}
+
+header nav,
+footer nav {
+  position: relative;
 }
 
 header nav a,

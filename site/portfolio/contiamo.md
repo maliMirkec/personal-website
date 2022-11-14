@@ -36,7 +36,7 @@ sections:
       - Implemented and optimized SVG assets.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.contiamo.com
       title: Go to site

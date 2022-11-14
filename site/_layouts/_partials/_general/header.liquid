@@ -1,7 +1,6 @@
 {% if header %}
   <header>
     <nav aria-label="Main" id="MainNavigation">
-      <a class="skip-link bg-light" href="#main">Skip to content</a>
       <button class="button button--small button--outline button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');this.setAttribute('data-expanded',this.parentNode.classList.contains('active')?'true':'false')" aria-expanded="false" aria-controls="MainNavigation">
         <span>Menu</span>
         <span>Close</span>
@@ -19,7 +18,7 @@
             <li>
               <ul class="margin-top margin-bottom">
                 <li>
-                  <a href="{{ item.href }}">{{ item.title }}</a>
+                  <a href="{{ item.href }}"><b>{{ item.title }}</b></a>
                 </li>
                 {% if item.list %}
                   {% for subitem in item.list %}

@@ -5,39 +5,3 @@
 // Weight: 10
 //
 // Styleguide Fonts.Definitions
-
-@font-face {
-  font-family: 'Mulish';
-  src: url('/fonts/mulish/mulish-italic.woff2') format('woff2'),
-    url('/fonts/mulish/mulish-italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url('/fonts/mulish/mulish-regular.woff2') format('woff2'),
-    url('/fonts/mulish/mulish-regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url('/fonts/mulish/mulish-blackitalic.woff2') format('woff2'),
-    url('/fonts/mulish/mulish-blackitalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Mulish';
-  src: url('/fonts/mulish/mulish-black.woff2') format('woff2'),
-    url('/fonts/mulish/mulish-black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}

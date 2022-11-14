@@ -43,7 +43,7 @@ sections:
       - Hosted the website on Netlify.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.hanhanxue.com
       title: Go to site

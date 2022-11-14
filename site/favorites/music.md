@@ -7,7 +7,7 @@ tags:
   - favorite
 thumbnail: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: My music favorites
     desc: >-
       Just my random favorite music bands and artists.

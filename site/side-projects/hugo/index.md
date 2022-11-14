@@ -13,7 +13,6 @@ display: true
 date: 2005-01-05
 sections:
   - type: hero-alpha
-    narrow: true
     src: hugo_qkfxp9
     alt: Screenshot of Making a website with Hugo website.
     width: 815
@@ -22,7 +21,7 @@ sections:
     desc: Making a website with Hugo is a course for learning how to use Hugo.
     tag:
       href: /side-projects/
-      title: /Side Projects
+      title: Side Projects
     cta:
       href: /side-projects/hugo/start/
       title: Go to the Course

@@ -33,7 +33,7 @@ sections:
       - Updated a layout on several pages.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //franciscanchildrens.org
       title: Go to site

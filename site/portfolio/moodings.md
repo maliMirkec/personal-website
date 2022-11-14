@@ -33,7 +33,7 @@ sections:
       - Optimized assets delivery.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //moodings.com
       title: Go to site

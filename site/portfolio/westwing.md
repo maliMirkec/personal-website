@@ -31,7 +31,7 @@ sections:
       - Built a static part of the corporate website.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.westwing.com
       title: Go to site

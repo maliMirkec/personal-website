@@ -4,7 +4,7 @@ title: Blog
 description: Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.
 type: articles
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: From the Blog
     desc: >-
       Here are the latest posts from my blog.

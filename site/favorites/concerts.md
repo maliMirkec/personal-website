@@ -7,7 +7,7 @@ tags:
   - favorite
 thumbnail: concerts_smzvcy
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: My concert favorites
     desc: >-
       Just my list of all concerts that I attended (that I could remember).

@@ -22,7 +22,7 @@ sections:
     desc: Founder at Credit Card Insider
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

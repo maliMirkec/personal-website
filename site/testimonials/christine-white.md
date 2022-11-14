@@ -22,7 +22,7 @@ sections:
     desc: Director of Web Strategy at Domino Data Lab.
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

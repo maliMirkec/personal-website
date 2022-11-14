@@ -31,7 +31,7 @@ sections:
       - Created more than 30 pages from designs using reusable styleguide components.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.bozzuto.com
       title: Go to site

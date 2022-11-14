@@ -36,7 +36,7 @@ sections:
       - Maintained frontend of the website.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.dominodatalab.com
       title: Go to site

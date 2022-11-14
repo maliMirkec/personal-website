@@ -8,7 +8,7 @@ type: favorite-item
 tags:
   - favorite
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: My TV show favorites
     desc: >-
       Just my random favorite TV shows and characters.

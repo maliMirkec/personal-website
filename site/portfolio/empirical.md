@@ -35,7 +35,7 @@ sections:
       - Helped publishing site to a new server.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.empirical.net
       title: Go to site

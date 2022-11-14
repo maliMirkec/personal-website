@@ -32,7 +32,7 @@ sections:
       - Developed a new WordPress theme from scratch based on a design.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
   - type: hero-beta
     title: From Testimonials
     desc: >-

@@ -16,7 +16,7 @@ pagination:
   data: music
   size: 12
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: My TV favorites
     desc: >-
       Just my random favorite writers, books, games, sport teams and individuals, and other.

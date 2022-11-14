@@ -33,7 +33,7 @@ sections:
       - Used the latest best practices for boosting the site speed.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //netki.com
       title: Go to site

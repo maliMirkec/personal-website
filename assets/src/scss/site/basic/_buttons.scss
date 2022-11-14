@@ -5,8 +5,23 @@
 // :hover - Hover.
 // :focus - Focus.
 // :focus:active - Active.
-// .button--small - Small.
 // .button--inverse - Inverse.
+// .button--inverse:hover - Inverse hover.
+// .button--inverse:focus - Inverse focus.
+// .button--inverse:focus:active - Inverse active.
+// .button--outline - Outline.
+// .button--outline:hover - Outline hover.
+// .button--outline:focus - Outline focus.
+// .button--outline:focus:active - Outline active.
+// .button--inverse.button--outline - Inverse outline.
+// .button--inverse.button--outline:hover - Inverse outline hover.
+// .button--inverse.button--outline:focus - Inverse outline focus.
+// .button--inverse.button--outline:focus:active - Inverse outline active.
+// .button--invisible - Invisible.
+// .button--invisible:hover - Invisible hover.
+// .button--invisible:focus - Invisible focus.
+// .button--invisible:focus:active - Invisible active.
+// .button--small - Small.
 //
 // Weight: 800
 //
@@ -98,8 +113,7 @@
       color: currentColor;
     }
 
-    &:hover,
-    &:focus {
+    &:hover {
       box-shadow: 0 0 0 .15rem var(--color-alpha);
     }
 

@@ -22,7 +22,7 @@ sections:
     desc: VP of Marketing at Pinecone
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

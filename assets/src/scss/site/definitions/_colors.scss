@@ -7,10 +7,23 @@
 // Definitions
 //
 // Colors:
-// $color-alpha: #12e09f - --color-alpha
-// $color-beta: #ff3366 - --color-beta
-// $color-light: #fff - --color-light
-// $color-dark: #111 - --color-light
+// $color-alpha: hsl(161, 85%, 67%) - --color-alpha
+// $color-alpha-hover: hsl(161, 85%, 57%) - color---alpha-hover
+// $color-alpha-dark: hsl(161, 85%, 27%) - color---alpha-dark
+// $color-alpha-light: hsl(161, 85%, 77%) - color---alpha-light
+// $color-alpha-lighter: transparentize($color-alpha, .8125) - color---alpha-lighter
+// $color-beta: hsl(345, 100%, 60%) - --color-beta
+// $color-beta-dark: hsl(345, 80%, 50%) - color---beta-dark
+// $color-beta-light: hsl(345, 100%, 70%) - color---beta-light
+// $color-light: hsl(161, 85%, 98%) - --color-light
+// $color-lightish: hsl(161, 85%, 96%) - --color-lightish
+// $color-dark: hsl(161, 85%, 5%) - --color-dark
+// $color-darkish: hsl(161, 85%, 10%) - --color-darkish
+// $color-xmas-alpha: hsl(0, 33%, 95%) - color---xmas-alpha
+// $color-xmas-beta: hsl(2, 73%, 49%) - color---xmas-beta
+// $color-xmas-beta-dark: hsl(2, 73%, 66%) - color-xmas---beta-dark
+// $color-xmas-gamma: hsl(122, 20%, 49%) - color---xmas-gamma
+// $color-xmas-gamma-dark: hsl(122, 20%, 66%) - color-xmas---gamma-dark
 //
 // Weight: 201
 //

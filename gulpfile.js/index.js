@@ -46,6 +46,7 @@ exports.dev = series(
     global.config.fonts.run ? fonts.fontsStart : helpers.skip,
   ),
   global.config.html.run ? html.htmlStart : helpers.skip,
+  global.config.kss.run ? kss.kssStart : helpers.skip,
   global.config.sync.run ? sync.syncStart : helpers.skip,
   parallel(
     global.config.css.run ? css.cssListen : helpers.skip,
@@ -53,6 +54,7 @@ exports.dev = series(
     global.config.gfx.run ? gfx.gfxListen : helpers.skip,
     global.config.fonts.run ? fonts.fontsListen : helpers.skip,
     global.config.html.run ? html.htmlListen : helpers.skip,
+    global.config.kss.run ? kss.kssListen : helpers.skip,
   ),
 );
 

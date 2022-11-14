@@ -1,9 +1,11 @@
 ---
 layout: slides
 title: Why I never understood CSS-in-JS
+description: I don't get CSS-in-JS. Here are the ten problems highlighted in a form of slides.
 date: 2022-10-26 10:00:00
 thumbnail: Why_I_never_understood_CSS-in-JS_ndpbnb
-description: I don't get CSS-in-JS. Here are the ten problems.
+tags:
+  - slides
 slides:
   - html: >-
       # Why I never understood CSS-in-JS

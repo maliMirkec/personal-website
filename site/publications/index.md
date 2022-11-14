@@ -3,7 +3,7 @@ layout: index
 title: Publications
 type: articles
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: From Publications
     desc: >-
       Here are the posts that I wrote for some prominent publications.

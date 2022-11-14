@@ -39,7 +39,7 @@ sections:
       - Used Cloudflare to improve the security and performance.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //irinaandmatej.com
       title: Go to site

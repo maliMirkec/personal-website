@@ -25,7 +25,7 @@ sections:
     desc: Product Designer at Lyft
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

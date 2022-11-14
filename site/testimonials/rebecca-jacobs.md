@@ -22,7 +22,7 @@ sections:
     desc: Marketing Manager at CodeScan
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

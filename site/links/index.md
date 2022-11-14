@@ -40,11 +40,11 @@ sections2:
 - [About.me](https://about.me/starbist)
 ## Projects
 
-- [CSS Auditors](https://www.silvestar.codes/side-projects/css-auditors/)
-- [Code Line Daily](https://www.silvestar.codes/side-projects/code-line-daily/)
-- [UI Dev Mentoring](https://www.silvestar.codes/side-projects/ui-dev-mentoring/)
-- [Starter Project](https://www.silvestar.codes/side-projects/starter-project/)
-- [Making a website with Hugo](https://www.silvestar.codes/side-projects/hugo/)
+- [CSS Auditors](/side-projects/css-auditors/)
+- [Code Line Daily](/side-projects/code-line-daily/)
+- [UI Dev Mentoring](/side-projects/ui-dev-mentoring/)
+- [Starter Project](/side-projects/starter-project/)
+- [Making a website with Hugo](/side-projects/hugo/)
 
 ## Publications
 

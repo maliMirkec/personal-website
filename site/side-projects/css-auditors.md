@@ -12,7 +12,6 @@ display: true
 date: 2005-01-01
 sections:
   - type: hero-alpha
-    narrow: true
     src: cssa_jwbova
     alt: Screenshot of Code Line Daily website.
     width: 815
@@ -21,7 +20,7 @@ sections:
     desc: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
     tag:
       href: /side-projects/
-      title: /Side Projects
+      title: Side Projects
     cta:
       href: //css-auditors.com/
       title: Go to the Project

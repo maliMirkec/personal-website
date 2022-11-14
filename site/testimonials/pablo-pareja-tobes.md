@@ -25,7 +25,7 @@ sections:
     desc: Project Manager at Vizzuality
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

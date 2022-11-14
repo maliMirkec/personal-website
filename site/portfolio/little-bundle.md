@@ -37,7 +37,7 @@ sections:
       - Customized Shopify theme.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //littlebundle.com
       title: Go to site

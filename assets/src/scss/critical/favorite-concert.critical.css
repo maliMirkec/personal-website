@@ -15,8 +15,17 @@ main {
   display: block;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 a {
   background-color: transparent;
+}
+
+b {
+  font-weight: bolder;
 }
 
 small {
@@ -209,12 +218,12 @@ img {
   margin-right: auto;
 }
 
-.wrapper:not([class*="wrapper-"]) {
-  max-width: calc(var(--bp) + 2rem);
-}
-
 .wrapper--alpha {
   max-width: calc(var(--bp3) + 2rem);
+}
+
+.wrapper--beta {
+  max-width: calc(var(--bp2) + 2rem);
 }
 
 a,
@@ -229,6 +238,7 @@ a,
 }
 
 body,
+h1,
 h2 {
   font-family: var(--font-alpha);
 }
@@ -239,10 +249,15 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 
+h1,
 h2 {
   font-style: normal;
   font-weight: 900;
   line-height: var(--line-height1);
+}
+
+h1 {
+  font-size: var(--step-5);
 }
 
 h2 {
@@ -251,6 +266,14 @@ h2 {
 
 [class*="fz-step-"] {
   font-size: var(--font-size);
+}
+
+[class*="fz-step--2"] {
+  --font-size: var(--step--2);
+}
+
+[class*="fz-step-1"] {
+  --font-size: var(--step-1);
 }
 
 [class*="fz-step-3"] {
@@ -407,6 +430,10 @@ ul ul {
   margin: .2em;
 }
 
+.button[href] {
+  text-decoration: none;
+}
+
 
 
 .button--small {
@@ -424,6 +451,11 @@ ul ul {
 .button--outline {
   background-color: transparent;
   box-shadow: 0 0 0 .15rem currentColor;
+}
+
+.button--invisible {
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .button--toggle {
@@ -467,19 +499,10 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
-.inner > header {
-  background-color: var(--color-lightish);
-}
-
-header nav {
-  position: relative;
-}
-
-header nav .skip-link {
-  position: absolute;
+.skip-link {
+  position: fixed;
   top: .25rem;
   right: .25rem;
-  bottom: .25rem;
   left: .25rem;
   display: flex;
   align-items: center;
@@ -487,7 +510,7 @@ header nav .skip-link {
   z-index: 1;
 }
 
-header nav .skip-link:not(:focus) {
+.skip-link:not(:focus) {
   display: block;
   height: 1px;
   width: 1px;
@@ -499,6 +522,14 @@ header nav .skip-link:not(:focus) {
   white-space: nowrap;
   position: absolute;
   z-index: -1;
+}
+
+.inner > header {
+  background-color: var(--color-lightish);
+}
+
+header nav {
+  position: relative;
 }
 
 header nav a {

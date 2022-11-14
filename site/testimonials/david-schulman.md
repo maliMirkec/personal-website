@@ -22,7 +22,7 @@ sections:
     desc: Senior Manager of Partner Marketing at Domino Data Lab.
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

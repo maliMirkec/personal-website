@@ -11,7 +11,6 @@ display: true
 date: 2005-01-02
 sections:
   - type: hero-alpha
-    narrow: true
     src: cld_jrsdct
     alt: Screenshot of Code Line Daily website.
     width: 815
@@ -20,7 +19,7 @@ sections:
     desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
     tag:
       href: /side-projects/
-      title: /Side Projects
+      title: Side Projects
     cta:
       href: //cld.silvestar.codes
       title: Go to the Project

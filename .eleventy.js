@@ -17,7 +17,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setLibrary(
     'md',
     markdownIt({
-      html: true
+      html: true,
+      linkify: true
     }).use(markdownItAnchor, {
       slugify: uslug
     })
@@ -68,6 +69,18 @@ module.exports = (eleventyConfig) => {
   }
 
   eleventyConfig.addLiquidFilter('sortlist', sortlist)
+
+  eleventyConfig.addCollection("myStories", (collection) => {
+    return collection.getFilteredByTag("story").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
 
   eleventyConfig.addCollection("mySlides", (collection) => {
     return collection.getFilteredByTag("slides").sort((a, b) => {

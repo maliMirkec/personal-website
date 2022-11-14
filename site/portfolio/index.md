@@ -4,7 +4,7 @@ title: Portfolio
 description: Here are the projects that make Silvestar proud the most. Projects are built with WordPress, Shopify, Jekyll, and Hugo, among others.
 type: portfolio
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: From the Portfolio
     desc: >-
       Here are the projects that I am most proud.

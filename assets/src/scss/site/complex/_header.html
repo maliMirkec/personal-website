@@ -1,43 +1,76 @@
 <header>
-  <nav aria-label="main">
-    <ul class="list-style-none">
-      <li><a class="db" href="#"><img src="/gfx/svg/logo-2021.svg" alt="Logo" width="100" height="100"></a></li>
+  <nav aria-label="Main" id="MainNavigation">
+    <button class="button button--small button--outline button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');this.setAttribute('data-expanded',this.parentNode.classList.contains('active')?'true':'false')" aria-expanded="false" aria-controls="MainNavigation">
+      <span>Menu</span>
+      <span>Close</span>
+    </button>
+    <ul class="list-style-none no-spacing">
+      <li class="margin-top margin-bottom">
+        <a class="dib margin-left margin-right glow" href="/">
+          <img src="/gfx/svg/logo-2021.svg" alt="Home" width="90" height="90">
+        </a>
+      </li>
       <li>
-        <ul>
-          <li class="fz-step-1">
-            <a href="#portfolio">Portfolio</a>
+        <ul class="margin-top margin-bottom">
+          <li>
+            <a href="/portfolio/"><b>Portfolio</b></a>
           </li>
           <li>
-            <a href="#side-projects">Side Projects</a>
+            <a href="/side-projects/">My projects</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="/testimonials/">Testimonials</a>
+          </li>
+          <li>
+            <a href="/hire-me/">Hire me</a>
           </li>
         </ul>
       </li>
       <li>
-        <ul>
-          <li class="fz-step-1">
-            <a href="#blog">Blog</a>
+        <ul class="margin-top margin-bottom">
+          <li>
+            <a href="/articles/"><b>Blog</b></a>
           </li>
           <li>
-            <a href="#publications">Publications</a>
+            <a href="/stories/">Stories</a>
           </li>
           <li>
-            <a href="#ui-dev-newsletter">UI Dev Newsletter</a>
+            <a href="/publications/">Publications</a>
+          </li>
+          <li>
+            <a href="/side-projects/ui-dev-mentoring/reads/">Newsletter</a>
           </li>
         </ul>
       </li>
       <li>
-        <ul>
-          <li class="fz-step-1">
-            <a href="#about">About</a>
+        <ul class="margin-top margin-bottom">
+          <li>
+            <a href="/links/"><b>My Links</b></a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="/uses/">My Setup</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="/slides/">My Slides</a>
+          </li>
+          <li>
+            <a href="/favorites/">My Favorites</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="margin-top margin-bottom">
+          <li>
+            <a href="/about/"><b>About</b></a>
+          </li>
+          <li>
+            <a href="/contact/">Contact</a>
+          </li>
+          <li>
+            <a href="/services/">Services</a>
+          </li>
+          <li>
+            <a href="/no-ads/">No ads</a>
           </li>
         </ul>
       </li>

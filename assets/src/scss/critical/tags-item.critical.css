@@ -33,6 +33,10 @@ a {
   background-color: transparent;
 }
 
+b {
+  font-weight: bolder;
+}
+
 img {
   border-style: none;
 }
@@ -504,19 +508,10 @@ html:not(.dark) .button--toggle span:last-of-type {
   }
 }
 
-.inner > header {
-  background-color: var(--color-lightish);
-}
-
-header nav {
-  position: relative;
-}
-
-header nav .skip-link {
-  position: absolute;
+.skip-link {
+  position: fixed;
   top: .25rem;
   right: .25rem;
-  bottom: .25rem;
   left: .25rem;
   display: flex;
   align-items: center;
@@ -524,7 +519,7 @@ header nav .skip-link {
   z-index: 1;
 }
 
-header nav .skip-link:not(:focus) {
+.skip-link:not(:focus) {
   display: block;
   height: 1px;
   width: 1px;
@@ -536,6 +531,14 @@ header nav .skip-link:not(:focus) {
   white-space: nowrap;
   position: absolute;
   z-index: -1;
+}
+
+.inner > header {
+  background-color: var(--color-lightish);
+}
+
+header nav {
+  position: relative;
 }
 
 header nav a {

@@ -1,15 +1,25 @@
 <section id="pagination" class="margin-top-alpha margin-bottom-alpha">
   <div class="wrapper wrapper--alpha grid padding">
     {% for card4 in pagination.items %}
-      <div class="tilt card card--flex bg-lightish">
+      <div class="tilt card card--flex bg-lightish border-alpha" id="{{ forloop.index }}">
+        <a class="db fz-step--2 padding bg-light border-alpha bottom-border text-center" href="{{ card4.url }}">
+          {% if site.author %}{{ site.author }} wrote on {% endif %}
+          {% if card4.date %}<time datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%Y-%m-%d" }}</time>:{% endif %}
+        </a>
         <div class="padding">
-          <div class="tilt__inner copy margin-top margin-bottom">{{ card4.content | markdownify }}</div>
+          <div class="tilt__inner copy">{{ card4.data.content }}</div>
         </div>
-        <div class="padding margin-top-alpha">
-          <div class="tilt__inner margin-top margin-bottom text-center">
-            {% if card4.date %}
-              <time class="button button--small button--invisible" datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%Y-%m-%d" }}</time>
-            {% endif %}
+        <div class="padding bg-light border-alpha top-border text-center">
+          {% assign card4titleEncoded = card4.data.content | strip_html | strip | url_encode %}
+          {% assign card4titleEscaped = card4titleEncoded | replace: '+', '%20' %}
+          {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: card4titleEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: site.url | append: card4.url %}
+          {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: card4titleEscaped | append: "&url=" | append: site.url | append: card4.url %}
+          {% assign redditLink = "https://www.reddit.com/submit?title=" | append: card4titleEncoded | append: "&url=" | append: site.url | append: card4.url %}
+          <p class="fz-step--2 no-margin">Share the story</p>
+          <div>
+            <a class="button button--small button--invisible border-alpha margin-left margin-right" href="{{ twitterLink }}" target="_blank"><span class="fz-step--2">Twitter</span></a>
+            <a class="button button--small button--invisible border-alpha margin-left margin-right" href="{{ mastodonLink }}" target="_blank"><span class="fz-step--2">Mastodon</span></a>
+            <a class="button button--small button--invisible border-alpha margin-left margin-right" href="{{ redditLink }}" target="_blank"><span class="fz-step--2">Reddit</span></a>
           </div>
         </div>
       </div>

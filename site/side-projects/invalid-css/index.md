@@ -9,7 +9,7 @@ tags:
   - css
 date: 1998-01-01
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: Invalid CSS
     desc: >-
       CSS declarations that are not valid and that I wish existed.

@@ -3,27 +3,33 @@
     "href": "/",
     "src": "/gfx/svg/logo-2021.svg",
     "src2": "/gfx/svg/logo.svg",
-    "title": "Silvestar Bistrović"
+    "title": "Home"
   },
   "menu": [{
     "href": "/portfolio/",
     "title": "Portfolio",
     "list": [{
       "href": "/side-projects/",
-      "title": "Projects"
+      "title": "My projects"
     }, {
       "href": "/testimonials/",
       "title": "Testimonials"
+    }, {
+      "href": "/hire-me/",
+      "title": "Hire me"
     }]
   }, {
     "href": "/articles/",
     "title": "Blog",
     "list": [{
+      "href": "/stories/",
+      "title": "Stories"
+    }, {
       "href": "/publications/",
       "title": "Publications"
     }, {
-      "href": "/stories/",
-      "title": "Stories"
+      "href": "/side-projects/ui-dev-mentoring/reads/",
+      "title": "Newsletter"
     }]
   }, {
     "href": "/links/",
@@ -31,6 +37,9 @@
     "list": [{
       "href": "/uses/",
       "title": "My Setup"
+    }, {
+      "href": "/slides/",
+      "title": "My Slides"
     }, {
       "href": "/favorites/",
       "title": "My Favorites"
@@ -44,6 +53,9 @@
     }, {
       "href": "/services/",
       "title": "Services"
+    }, {
+      "href": "/no-ads/",
+      "title": "No ads"
     }]
   }]
 }

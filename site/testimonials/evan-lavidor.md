@@ -22,7 +22,7 @@ sections:
     desc: Partner & Executive Director at BEAM Interactive
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

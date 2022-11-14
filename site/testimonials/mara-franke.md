@@ -22,7 +22,7 @@ sections:
     desc: Head of Marketing at Wunder Mobility.
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

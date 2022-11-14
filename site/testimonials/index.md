@@ -4,8 +4,9 @@ title: Testimonials
 description: Here are some kind words about Silvestar's work from his clients. Although hr collaborated with clients from more than 10 countries, most of them came from The United States.
 type: testimonials
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: From Testimonials
+    narrow: true
     desc: >-
       Here are some kind words about my work from clients.
 

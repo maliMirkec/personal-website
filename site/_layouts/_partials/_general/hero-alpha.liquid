@@ -4,14 +4,17 @@
       {% if hero1.tag or tags %}
         <div class="margin-bottom">
           {% if hero1.tag %}
-            <a class="button button--small" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
+            <a class="button button--small button--invisible with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
           {% endif %}
-          {% if tags %}
-            {% assign myTags = tags | tagify %}
-            {% for tag in myTags %}
-              <a class="button button--small button--inverse" href="/tags/{{ tag }}/">{{ tag }}</a>
-            {% endfor %}
-          {% endif %}
+          {% unless hero1.notags %}
+            {% if tags %}
+              <br>
+              {% assign myTags = tags | tagify %}
+              {% for tag in myTags %}
+                <a class="button button--small button--invisible" href="/tags/{{ tag }}/"><span class="fz-step--2">{{ tag }}</span></a>
+              {% endfor %}
+            {% endif %}
+          {% endunless %}
         </div>
       {% endif %}
       {% if hero1.avatar %}

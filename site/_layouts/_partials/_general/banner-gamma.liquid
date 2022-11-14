@@ -2,13 +2,21 @@
   <div class="banner margin-top-alpha margin-bottom-alpha">
     <div class="wrapper margin-top margin-bottom text-center">
       <div class="padding">
-        {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
-        {% assign facebookLink = "https://facebook.com/sharer.php?u=" | append: site.url | append: page.url %}
-        {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
+        {% if title %}
+          {% assign text = title %}
+          {% assign textEncoded = title | strip_html | strip | url_encode %}
+          {% assign textEscaped = textEncoded | replace: '+', '%20' %}
+        {% else %}
+          {% assign textEncoded = content | strip_html | strip | url_encode %}
+          {% assign textEscaped = textEncoded | replace: '+', '%20' %}
+        {% endif %}
+        {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: site.url | append: page.url %}
+        {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: textEscaped | append: "&url=" | append: site.url | append: page.url %}
+        {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: site.url | append: page.url %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
         <div class="margin-top margin-bottom-alpha">
           <a class="button button--small button--outline margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
-          <a class="button button--small button--outline margin-left margin-right" href="{{ facebookLink }}" target="_blank">Facebook</a>
+          <a class="button button--small button--outline margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
           <a class="button button--small button--outline margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
         </div>
         <h3 class="fz-step-2 no-margin-top">About the Author</h3>

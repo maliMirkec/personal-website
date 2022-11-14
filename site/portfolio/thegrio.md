@@ -29,7 +29,7 @@ sections:
       - Optimized and maintained the website.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //thegrio.com
       title: Go to site

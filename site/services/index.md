@@ -27,7 +27,7 @@ There has been a global trend for static sites in recent few years. I have been 
 
 WordPress is still number one framework for building sites in the world. Buying a theme for WordPress is easy, but I always recommend developing a **new theme** from scratch. I have build several custom themes, like the ones for [Credit Card Insider](/portfolio/creditcardinsider/), [Irina & Matej](/portfolio/irinaandmatej/), and [Trase Yearbook 2018](/portfolio/yearbook-trase/).
 
-<a class="button button--small" href="/portfolio/">See my portfolio</a>
+<a class="button button--small" href="/testimonials/">See testimonials</a>
 
 ## PageSpeed Optimizations
 

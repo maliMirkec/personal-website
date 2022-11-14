@@ -31,7 +31,7 @@ sections:
       - Created more than 20 pages from designs using reusable styleguide components.
     tag:
       href: /portfolio/
-      title: /Portfolio
+      title: Portfolio
     cta:
       href: //www.flexera.com
       title: Go to site

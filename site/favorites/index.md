@@ -14,7 +14,7 @@ pagination:
   data: favorites
   size: 12
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: My favorites
     desc: >-
       Just my random favorite stuff, from TV shows and characters, to bands and artists.

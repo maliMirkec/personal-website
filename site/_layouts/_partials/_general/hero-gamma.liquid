@@ -3,19 +3,22 @@
     <div class="padding">
       <div class="margin-bottom">
         {% if firstTag == 'blog' %}
-          <a class="button button--small" href="/articles/">/Blog</a>
+          <a class="button button--small button--invisible with-slash" href="/articles/">Blog</a>
         {% endif %}
         {% if firstTag == 'advent' %}
-          <a class="button button--small" href="/side-projects/advent/">/Advent</a>
+          <a class="button button--small button--invisible with-slash" href="/side-projects/advent/">Advent</a>
+        {% endif %}
+        {% if firstTag == 'story' %}
+          <a class="button button--small button--invisible with-slash" href="/stories/">Stories</a>
         {% endif %}
         {% if tags %}
           {% assign myTags = tags | tagify %}
           {% for tag in myTags %}
-            <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
+            <a class="button button--small button--invisible" href="/tags/{{ tag | replace: ' ', '%20' }}/"><span class="fz-step--2">{{ tag }}</span></a>
           {% endfor %}
         {% endif %}
         {% if date %}
-          <time class="button button--small button--invisible" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time>
+          <time class="button button--small button--invisible" datetime="{{ date | date: '%Y-%m-%d' }}"><span class="fz-step--2">{{ date | date: '%Y-%m-%d' }}</span></time>
         {% endif %}
       </div>
       {% if title %}

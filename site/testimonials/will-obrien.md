@@ -22,7 +22,7 @@ sections:
     desc: DevOps Consultant at CodeScan
     tag:
       href: /testimonials/
-      title: /Testimonials
+      title: Testimonials
 sections2:
   - type: banner-beta
     desc: >-

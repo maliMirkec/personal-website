@@ -1,10 +1,12 @@
 ---
 layout: slides
 title: Hire me
-description: Hire me slides.
+description: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, and JAMstack technologies.
+thumbnail: Hire_me_rndhfc
+date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
-tagline:
-  - The UI Development Mentoring Program tips are available as slides, too.
+tags:
+  - slides
 slides:
   - html: >-
       # Hi there!

@@ -107,6 +107,12 @@
       height: 100%;
     }
   }
+
+  .grid & {
+    p {
+      word-break: break-word;
+    }
+  }
 }
 
 .table-wrapper {

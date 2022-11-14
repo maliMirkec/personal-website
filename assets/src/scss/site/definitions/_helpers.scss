@@ -191,3 +191,13 @@ p {
     transform: skewY(var(--angle));
   }
 }
+
+.with-slash {
+  &:before {
+    content: "/";
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    top: -0.1em;
+  }
+}
