@@ -24,7 +24,6 @@ a {
   background-color: transparent;
 }
 
-b,
 strong {
   font-weight: bolder;
 }
@@ -584,6 +583,9 @@ header nav {
 
 header nav a {
   white-space: nowrap;
+  text-transform: uppercase;
+  font-size: .9rem;
+  letter-spacing: 0.05em;
 }
 
 header nav > ul {
@@ -593,8 +595,8 @@ header nav > ul {
 }
 
 header nav > ul ul {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 @media (max-width: 37.49em) {

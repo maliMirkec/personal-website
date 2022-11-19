@@ -41,6 +41,9 @@ footer {
 
     a {
       white-space: nowrap;
+      text-transform: uppercase;
+      font-size: .9rem;
+      letter-spacing: 0.05em;
     }
 
     > ul {
@@ -49,8 +52,8 @@ footer {
       align-items: center;
 
       ul {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
       }
     }
   }
