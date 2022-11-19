@@ -1,7 +1,5 @@
 <head>
   {% include _partials/_head/meta %}
-  {% include _partials/_head/og %}
-  {% include _partials/_assets/favicon %}
   {% include _partials/_head/link %}
   {% include _partials/_general/toggle-check %}
   {% if slides %}
@@ -11,4 +9,6 @@
       {% include _partials/_assets/critical %}
     {% endunless %}
   {% endif %}
+  {% include _partials/_assets/favicon %}
+  {% include _partials/_head/og %}
 </head>
