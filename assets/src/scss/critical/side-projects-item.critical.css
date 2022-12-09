@@ -103,7 +103,7 @@ button:-moz-focusring,
   --step--2: 16px;
   --line-height1: 1.33;
   --line-height2: 1.66;
-  --letter-spacing: 0.025em;
+  --letter-spacing: 0.015em;
   --space-default: 0.25rem;
   --space: 1rem;
   --border-radius: 0.1rem;
@@ -251,8 +251,9 @@ h1,
 h2,
 h3 {
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: var(--line-height1);
+  letter-spacing: -0.02em;
 }
 
 h1 {
