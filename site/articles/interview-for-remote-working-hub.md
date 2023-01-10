@@ -31,7 +31,7 @@ I started learning to programme in 2011 and began work as a PHP web developer in
 
 Today, I am enjoying creating pixel-perfect, responsive, and modern websites for clients all over the world. I have worked with clients from more than 10 countries, from Saudi Arabia to Germany and Spain, to the United States.
 
-My focus is always on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my speciality.
+My focus is always on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.
 
 When I am not coding, I like to write new articles on my blog.
 
