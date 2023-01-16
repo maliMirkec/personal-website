@@ -3,7 +3,7 @@
     "link": "https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2023-01-16/",
     "og": "https://www.silvestar.codes/gfx/jpg/ui-dev-newsletter-89.jpg",
     "description": "Conditional CSS, top CWV recommendations, interactive SVG specs, and more.",
-    "grammarly": "",
+    "grammarly": "true",
     "list": [{
         "link": "https://ishadeed.com/article/conditional-css/",
         "title": "Conditional CSS",
