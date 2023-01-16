@@ -1,4 +1,66 @@
 [{
+    "date": "2023-01-16",
+    "link": "https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2023-01-16/",
+    "og": "https://www.silvestar.codes/gfx/jpg/ui-dev-newsletter-89.jpg",
+    "description": "Conditional CSS, top CWV recommendations, interactive SVG specs, and more.",
+    "grammarly": "",
+    "list": [{
+        "link": "https://ishadeed.com/article/conditional-css/",
+        "title": "Conditional CSS",
+        "desc": "Ahmad Shadeed goes over a few everyday CSS features and shows how conditional they are.",
+        "handle": "@shadeed9"
+      },
+      {
+        "link": "https://www.bram.us/2023/01/12/sibling-scopes-in-css-thanks-to-has/",
+        "title": "Sibling Scopes in CSS, thanks to :has()",
+        "desc": "Bramus Van Damme shows how to leverage CSS :has() to select all siblings between boundaries.",
+        "handle": "@bramus"
+      },
+      {
+        "link": "https://www.matuzo.at/blog/2023/hsl-custom-properties/",
+        "title": "CSS color functions and custom properties",
+        "desc": "Manuel Matuzović shares why people find color functions like hsl(), hwb(), or lab() so appealing.",
+        "handle": ""
+      },
+      {
+        "link": "https://csswizardry.com/2023/01/why-not-document-write/",
+        "title": "Why Not document.write()?",
+        "desc": "Harry Roberts explains why you should avoid document.write().",
+        "handle": "@csswizardry"
+      },
+      {
+        "link": "https://web.dev/top-cwv-2023/",
+        "title": "Our top Core Web Vitals recommendations for 2023",
+        "desc": "Chrome developers share a collection of the best practices to improve Core Web Vitals performance in 2023.",
+        "handle": "@ChromiumDev"
+      },
+      {
+        "link": "https://www.joshwcomeau.com/career/clever-code-considered-harmful/",
+        "title": "Clever Code Considered Harmful",
+        "desc": "Josh Comeau outlines why complicated code doesn't help anyone.",
+        "handle": "@joshwcomeau"
+      },
+      {
+        "link": "https://wesbos.com/pool-in-your-url",
+        "title": "Data URLs and Pool in your URL",
+        "desc": "Wes Bos shows how you could use URLs to load files in a funky way.",
+        "handle": "@wesbos"
+      },
+      {
+        "link": "https://fffuel.co/sssvg/",
+        "title": "Interactive SVG Reference",
+        "desc": "Sébastien Noël shares an interactive reference to the SVG specification's most popular and exciting parts.",
+        "handle": "@ffffffuel"
+      }
+    ],
+    "promotion": [{
+      "type": "Self-promotion",
+      "link": "https://www.silvestar.codes/articles/2022-lookback/",
+      "title": "2022 Lookback",
+      "desc": "Read why 2022 was a very challenging year for my family and me.",
+      "handle": ""
+    }]
+  }, {
     "date": "2021-12-20",
     "link": "https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2021-12-20/",
     "slink": "https://bit.ly/3sjQgVZ",
