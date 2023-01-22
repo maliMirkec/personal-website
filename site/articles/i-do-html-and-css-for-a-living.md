@@ -36,7 +36,7 @@ My Wakatime stats go all the way to 2016. I spent the majority of my coding time
 
 I don’t mind which technology or framework is used as long as I can apply my HTML, CSS, and Vanilla JavaScript knowledge. I know my way around many templating languages like Liquid, Pug, or Handlebars and most CSS preprocessors like Sass, Less, and Stylus. But these are just enhancements or extensions to the plain HTML and CSS code. Learning these more sophisticated languages is not hard if you know the basics. Templating language and CSS preprocessors are unimportant if you understand the final output. And that is what matters.
 
-Another software I occasionally use to see the stats for my coding is CodersRank. CodersRank analyses GitHub repositories and creates interesting reports. For example, the screenshot below shows that my main languages are CSS/SCSS, HTML/Liquid, JavaScript, and JSON. That proves the stats from Wakatime.
+Another software I occasionally use to see the stats for my coding is [CodersRank](https://profile.codersrank.io/user/malimirkec). CodersRank analyses GitHub repositories and creates interesting reports. For example, the screenshot below shows that my main languages are CSS/SCSS, HTML/Liquid, JavaScript, and JSON. That proves the stats from Wakatime.
 
 {% cldnry "Screen_Shot_2023-01-22_at_7.49.47_AM_pq7rae" "CodersRank tech skills report." %}
 
