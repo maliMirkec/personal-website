@@ -27,6 +27,8 @@ a {
 
     &:not([class]) {
       text-decoration: underline;
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.125em;
     }
   }
 }

@@ -24,6 +24,24 @@
       {% if title %}
         <h1 class="fz-step-6 no-margin-top margin-bottom">{{ title | markdownifyi }}</h1>
       {% endif %}
+      {% if series %}
+        {% assign seriesList = collections['myArticles'] | findItem: 'series', series) | reverse %}
+        {% assign seriesListLength = seriesList | size %}
+        {% if seriesList and seriesListLength > 1 %}
+          <div class="dib">
+            <p class="fz-step--2 no-margin-bottom">Part of “{{ series }}” series:</p>
+            <ul class="list-style-none no-margin-top">
+              {% for seriesItem in seriesList %}
+                <li>
+                  {% if seriesItem.url != page.url %}
+                    <a class="fz-step--2 tdu" href="{{ seriesItem.url }}">{{ seriesItem.data.title }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endif %}
       {% if cta.href and cta.title %}
         <div class="margin-top">
           <a class="button" href="{{ cta.href }}">{{ cta.title }}</a>

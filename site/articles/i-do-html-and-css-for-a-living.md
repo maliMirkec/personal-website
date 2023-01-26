@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: job
+series: Searching for a job
 ---
 
 A while back, I got a sticker from Smashing Magazine saying, “I do CSS/HTML for a living.” It still sits on my MacBook and is pretty accurate - I genuinely do HTML, CSS, and Vanilla JavaScript for a living.

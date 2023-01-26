@@ -11,7 +11,8 @@ description: I have spent a whole day in search of a CSS developer job without a
 type: articles-item
 sections2:
   - type: banner-beta
-    banner: newsletter
+    banner: job
+series: Searching for a job
 ---
 
 There was some disturbance in my company the last few days, making me worry about my job. Luckily, it was a false alarm, but I spent a whole day exploring the options.

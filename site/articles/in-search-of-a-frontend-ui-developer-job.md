@@ -11,7 +11,8 @@ description: I am actively searching for a new job. Here are my observations abo
 type: articles-item
 sections2:
   - type: banner-beta
-    banner: newsletter
+    banner: job
+series: Searching for a job
 ---
 
 For the past year, I have been employed on a full-time basis. I am no longer employed, so I am actively searching for a new job. Unfortunately, it's been around a month, and I didn't land any job. So here are my observations (read: issues) about searching for a fully remote frontend UI developer job.

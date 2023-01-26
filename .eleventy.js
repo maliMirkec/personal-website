@@ -40,6 +40,12 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('tagify2', (tags) => tags.filter(tag => exclude_tags.indexOf(tag) !== -1))
 
+  eleventyConfig.addLiquidFilter('findItem', (array, key, value) => {
+    return array.filter(item => {
+      return item.data[key] === value
+    })
+  })
+
   const cp_id = (id) => `cp_embed_${id.replace(/\//g, '_')}`
 
   eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
