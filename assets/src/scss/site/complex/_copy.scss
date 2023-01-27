@@ -38,6 +38,11 @@
     }
   }
 
+  pre[class*="language-txt"],
+  code[class*="language-txt"] {
+    white-space: inherit;
+  }
+
   blockquote {
     font-size: 112.5%;
     margin-top: 1em;
