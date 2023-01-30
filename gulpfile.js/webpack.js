@@ -6,7 +6,8 @@ const path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    sb: helpers.parse('helpers.source/config.js.src/sb.js')
+    sb: helpers.parse('helpers.source/config.js.src/sb.js'),
+    devcards: helpers.parse('helpers.source/config.js.src/devcards.js')
   },
   output: {
     path: path.resolve(`${__dirname}/${helpers.parse('helpers.dist/config.js.dist/')}`),

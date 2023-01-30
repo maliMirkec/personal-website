@@ -7,7 +7,7 @@ type: articles
 tags:
   - projects
   - css
-date: 1998-01-01
+date: 2005-02-01
 sections:
   - type: hero-alpha
     title: Invalid CSS

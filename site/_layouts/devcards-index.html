@@ -1,0 +1,104 @@
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% else if config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include _partials/_assets/devcards-css %}
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <title>Dev Cards 360</title>
+  </head>
+  <body>
+    <button class="app__button app__button--toggle" onclick="document.querySelector('.app').classList.toggle('opened')">Toggle options</button>
+    <div class="app animated" id="app">
+      <div class="app__sidebar">
+        <form class="app__form" action="" v-if="hideForm">
+          <div class="app__input-group">
+            <label class="app__label" for="name">Dev name</label>
+            <input class="app__input" type="text" id="name" name="name" v-model="name">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="position">Dev position</label>
+            <input class="app__input" type="text" id="position" name="position" v-model="position">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="imagesrc">Dev image source</label>
+            <input class="app__input" type="text" id="imagesrc" name="imagesrc" v-model="image.src">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="imagealt">Dev image alt text</label>
+            <input class="app__input" type="text" id="imagealt" name="imagealt" v-model="image.alt">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="urlhref">Dev URL href</label>
+            <input class="app__input" type="text" id="urlhref" name="urlhref" v-model="url.href">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="urltext">Dev URL text</label>
+            <input class="app__input" type="text" id="urltext" name="urltext" v-model="url.text">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="details">Dev details <small>(Separate items with semicolor)</small></label>
+            <input class="app__input" type="text" id="details" name="details" v-model="details.list">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="skills">Dev skills <small>(Separate items with semicolor)</small></label>
+            <input class="app__input" type="text" id="skills" name="skills" v-model="skills.list">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="summary">Dev skills summary</label>
+            <input class="app__input" type="text" id="summary" name="summary" v-model="skills.summary">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="experience">Dev years of experience</label>
+            <input class="app__input" type="text" id="experience" name="experience" v-model="skills.experience">
+          </div>
+          <div class="app__input-group">
+            <label class="app__label" for="weakness">Weakness <small>(Separate items with semicolor)</small></label>
+            <input class="app__input" type="text" id="weakness" name="weakness" v-model="weakness.list">
+          </div>
+          <div class="app__action">
+            <button class="app__button" type="submit">Create link</button>
+            <a class="app__button" href="/">Start over</a>
+          </div>
+        </form>
+      </div>
+      <div class="app__inner">
+        <div class="profile" v-show="name || position || image.src || details.list || skills.list || skills.summary || weakness.list || url.href">
+          <h1 class="profile__name" v-show="name">${ name }</h1>
+          <h2 class="profile__position" v-show="position">${ position }</h2>
+          <div class="profile__image" v-show="image.src">
+            <img :src="image.src" :alt="image.alt">
+          </div>
+          <ul class="profile__details" v-show="detailsList.length">
+            <li v-for="detail in detailsList">${ detail }</li>
+          </ul>
+          <ul class="profile__skills" v-show="skillsList.length">
+            <li v-for="skill in skillsList">${ skill }</li>
+            <li>${ skills.experience }</li>
+          </ul>
+          <p class="profile__description" v-show="skills.summary">${ skills.summary }</p>
+          <div class="profile__weakness" v-show="weaknessList">
+            <p>Weakness:</p>
+            <ul>
+              <li v-for="weakness in weaknessList">${ weakness }</li>
+            </ul>
+          </div>
+          <a class="profile__url" :href="url.href" v-show="url.href">${ url.text }</a>
+        </div>
+      </div>
+    </div>
+    <script src="/js/devcards.js"></script>
+    <script>
+    const mountedApp = window.devcards.mount('#app')
+    </script>
+  </body>
+</html>

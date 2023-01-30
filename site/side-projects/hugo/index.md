@@ -10,7 +10,7 @@ tags:
   - tutorial
 thumbnail: hugo_qkfxp9
 display: true
-date: 2005-01-05
+date: 2005-08-01
 sections:
   - type: hero-alpha
     src: hugo_qkfxp9

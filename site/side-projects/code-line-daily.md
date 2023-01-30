@@ -8,7 +8,7 @@ tags:
   - jamstack
 thumbnail: cld_jrsdct
 display: true
-date: 2005-01-02
+date: 2005-06-01
 sections:
   - type: hero-alpha
     src: cld_jrsdct
