@@ -8,5 +8,6 @@ tags:
   - developers
 thumbnail: Dev_cards_sfygfo
 display: true
+devcards: true
 date: 2005-01-01
 ---
