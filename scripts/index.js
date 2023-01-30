@@ -127,9 +127,9 @@ console.log(`-------------
 
 ${list4}`);
 
-  if(!doc[0].slink || doc[0].slink === '') {
-    console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nShorten the links!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
-  }
+  // if(!doc[0].slink || doc[0].slink === '') {
+  //   console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nShorten the links!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
+  // }
 
   if(!doc[0].description || doc[0].description === '') {
     console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nAdd the description!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
