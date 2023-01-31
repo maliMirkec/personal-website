@@ -1,6 +1,5 @@
 <head>
   {% include _partials/_head/meta %}
-  {% include _partials/_head/link %}
   {% unless devcards %}
     {% include _partials/_general/toggle-check %}
   {% endunless %}
@@ -9,6 +8,7 @@
   {% elsif devcards %}
     {% include _partials/_assets/devcards-css %}
   {% else %}
+    {% include _partials/_head/link %}
     {% unless env.development %}
       {% include _partials/_assets/critical %}
     {% endunless %}

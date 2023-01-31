@@ -4,22 +4,13 @@
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://d33wubrfki0l68.cloudfront.net">
 <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net">
-{% unless env.development and tags and tags[0] == 'blog' %}
-  {% if site.analytics %}
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-  {% endif %}
-{% endunless %}
-{% comment %} <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script> {% endcomment %}
 
 {% if type == "home" %}
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-{% unless slides %}
-  {% if isMentor %}
-    <link rel="preload" href="/css/mentor.min.css" as="style">
-  {% else %}
-    <link rel="preload" href="/css/style.min.css" as="style">
-  {% endif %}
-{% endunless %}
+{% if isMentor %}
+  <link rel="preload" href="/css/mentor.min.css" as="style">
+{% else %}
+  <link rel="preload" href="/css/style.min.css" as="style">
+{% endif %}
