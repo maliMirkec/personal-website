@@ -1,5 +1,5 @@
 {% if env.production %}
-  {% if if site.analytics == 'self' %}
+  {% if site.analytics == 'self' %}
     <img src="/.netlify/functions/clue/?url={{ page.url }}" alt="" width="0" height="0" loading="lazy">
   {% endif %}
 {% endif %}
