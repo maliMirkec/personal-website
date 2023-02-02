@@ -27,7 +27,7 @@ sections:
       href: /side-projects/
       title: See other projects
   - type: hero-beta
-    title: From Side Projects
+    title: From My Projects
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma

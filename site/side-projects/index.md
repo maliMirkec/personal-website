@@ -5,7 +5,7 @@ description: Sometimes Silvestar likes to work on side projects in his spare tim
 type: side-projects
 sections:
   - type: hero-alpha
-    title: From Side Projects
+    title: From My Projects
     desc: >-
       Sometimes I like to work on side projects in my spare time.
 

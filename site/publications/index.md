@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Publications
+description: Here are the posts that I wrote for some prominent publications. I wrote for Smashing Magazine, CSS Tricks, LogRocket, and Toptal.
 type: articles
 sections:
   - type: hero-alpha

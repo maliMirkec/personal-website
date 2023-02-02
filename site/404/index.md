@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Error 404—A terrible situation
-description: There is no content on this link. It is just a custom 404 page.
+title: Page Not Found - Error 404
+description: This is a terrible situation. That means there is no content on this link.
 permalink: 404.html
 noindex: true
 sections:

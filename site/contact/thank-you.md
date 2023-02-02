@@ -1,15 +1,16 @@
 ---
 layout: index
 title: Thank you for contacting me
-description: You could expect to get back from me soon. I usually respond within 24 hours.
+description: I value your message and strive to respond as quickly as possible. You can expect to hear back from me within 24 hours or less.
 noindex: true
 sections:
   - type: hero-alpha
     title: Thank you for contacting me.
     desc: >-
-      You could expect to get back from me soon.
+      I value your message and strive to respond as quickly as possible.
 
-      I usually respond within 24 hours.
+
+      You can expect to hear back from me within 24 hours or less.
     cta:
       href: /
       title: Go home

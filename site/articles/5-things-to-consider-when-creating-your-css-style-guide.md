@@ -10,7 +10,8 @@ tags:
 publication: LogRocket
 canonical: https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d
 thumbnail: 5_things_to_consider_when_creating_your_CSS_style_guide_agkuxa
-description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
+old_description: CSS style guides should be considered an equal citizen of every project requirement. Here are five things that you should keep in mind when working with CSS style guides.
+description: CSS style guides play a crucial role in any project. Keep these 5 things in mind when working with them for better results.
 type: articles-item
 sections2:
   - type: banner-beta

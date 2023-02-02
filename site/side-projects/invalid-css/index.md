@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Invalid CSS
-description:
+description: CSS declarations that are not valid and that I wish existed.
 thumbnail: Invalid_CSS_jeizo0
 type: articles
 tags:

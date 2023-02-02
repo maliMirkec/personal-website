@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Advent of UI Components
-description:
+description: For every day of advent I am building a new UI Component. The theme? You guessed it ― Christmas. 🎄
 thumbnail: Advent_of_UI_components_nvaz4h
 type: articles
 tags:
