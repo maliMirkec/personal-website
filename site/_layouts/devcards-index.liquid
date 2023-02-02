@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   </head>
   <body id="app">
-    <button class="app__button app__button--toggle" @click="hideForm = !hideForm">Edit card</button>
+    <button class="app__button app__button--toggle" @click="hideForm = !hideForm"><span v-show="hideForm">Open editor</span><span v-show="!hideForm">Close editor</span></button>
     <div class="app animated" :class="{ opened: !hideForm }">
       <div class="app__sidebar">
         <form class="app__form" action="">

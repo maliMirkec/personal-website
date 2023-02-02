@@ -66,6 +66,11 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "./docs/**"
     ]
 
+    # Enable pretty URLS and remove `index.html` & trailing `.html` file references in paths
+    prettyURLs = true
+    # Append missing trailing slash to pretty URL
+    trailingSlash = true
+
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 

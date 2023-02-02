@@ -142,10 +142,6 @@ const getParamBool = (param, fallback) => {
 
 const checkMQ = window.matchMedia('screen and (max-width: 59.99em)')
 
-console.log(checkMQ, checkMQ.matches);
-
-console.log('hideForm', checkMQ.matches || getParamBool('hideForm', true));
-
 const app = Vue.createApp({
   data() {
     return {
