@@ -64,7 +64,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "./404/",
       "./404/index.md",
       "./docs/**",
-      "./contact/thank-you"
+      "./contact/thank-you.md"
     ]
 
     # Enable pretty URLS and remove `index.html` & trailing `.html` file references in paths
