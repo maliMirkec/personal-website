@@ -59,8 +59,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
-  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`
-  )
+  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`)
 
   const sortlist = (list) => {
     return list.sort((a, b) => {
@@ -169,6 +168,18 @@ module.exports = (eleventyConfig) => {
         .forEach(tag => tagsSet.add(tag))
     })
     return Array.from(tagsSet).sort()
+  })
+
+  eleventyConfig.addCollection("all-content", collection => {
+    return collection.sort((a, b) => {
+      if (a.url < b.url) {
+        return -1;
+      } else if (a.url > b.url) {
+        return 1;
+      } else {
+        return 0;
+      }
+    })
   })
 
   eleventyConfig.addPassthroughCopy({

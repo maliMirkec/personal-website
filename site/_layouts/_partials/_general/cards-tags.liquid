@@ -1,4 +1,8 @@
-{% assign cardListTag = collections[tag] | reverse %}
+{% if tag == 'all' %}
+  {% assign cardListTag = collections['all-content'] %}
+{% else %}
+  {% assign cardListTag = collections[tag] | reverse %}
+{% endif %}
 
 {% if cardListTag %}
   <section id="{{ cards1.filter }}" class="margin-top-alpha margin-bottom-alpha">
@@ -13,9 +17,9 @@
         {% endif %}
       </div>
       {% for cardTag in cardListTag %}
-        {% if cardTag.data.title %}
+        {% if cardTag.data.title and cardTag.url %}
           <div class="card">
-              <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="margin-top" href="{{ cardTag.url }}">{{cardTag.data.title}}</a></h3>
+            <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="margin-top" href="{{ cardTag.url }}">{{  cardTag.data.title }}{% if cardTag.data.title == 'UI Dev Newsletter' and cardTag.data.pagination %} latest issue{% endif %}</a></h3>
             <div class="padding">
               {% if cardTag.data.tags %}
                 <div class="margin-bottom">
@@ -39,7 +43,6 @@
               <a class="button df padding" href="{{ cardTag.url }}">{{ cards1.cta.title }}</a>
             {% endif %}
           </div>
-          {% assign i1 = i1 | plus: 1 %}
         {% endif %}
       {% endfor %}
       {% if cards1.desc %}

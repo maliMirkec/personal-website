@@ -73,7 +73,7 @@ sections2:
     banner: newsletter
 ---
 
-A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
+A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](/side-projects/ui-dev-mentoring/reads/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
 
 If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story.
 
@@ -81,7 +81,7 @@ If you want to see the questions and answers, [skip to the end of the article](#
 
 I started the UI Dev Newsletter accidentally. I mean, I didn’t plan to run it, at least not for the whole year. It all started with my side project, [a mentoring program](/articles/the-ui-development-mentoring-program/), which failed gloriously.
 
-As part of that program, I listed [helpful frontend resources](https://www.silvestar.codes/side-projects/ui-dev-mentoring/resources/) and [tips](https://www.silvestar.codes/side-projects/ui-dev-mentoring/tips/) I collected during my career. I also listed [valuable articles](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/) that I considered worth reading. These articles were a reminder for me, but I figured it wouldn’t hurt if I document them.
+As part of that program, I listed [helpful frontend resources](/side-projects/ui-dev-mentoring/resources/) and [tips](/side-projects/ui-dev-mentoring/tips/) I collected during my career. I also listed [valuable articles](/side-projects/ui-dev-mentoring/reads/) that I considered worth reading. These articles were a reminder for me, but I figured it wouldn’t hurt if I document them.
 
 I started sharing these pages on Twitter and Reddit, and it was getting some traction, but nothing too crazy.
 
@@ -97,7 +97,7 @@ _I discovered [ButtonDown](https://buttondown.email/) recently, and I am conside
 
 ## The script
 
-Next, I had to figure out how to prepare the email HTML code from my site. I am storing all links in a JSON file. That file is used to create single newsletter posts on my site, like [this one](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2021-05-17/). By the way, I am using [11ty](https://www.11ty.dev/authors/malimirkeccita/) to build the site, my new favorite static site generator.
+Next, I had to figure out how to prepare the email HTML code from my site. I am storing all links in a JSON file. That file is used to create single newsletter posts on my site, like [this one](/side-projects/ui-dev-mentoring/reads/2021-05-17/). By the way, I am using [11ty](https://www.11ty.dev/authors/malimirkeccita/) to build the site, my new favorite static site generator.
 
 The same JSON file is used in a Node script that outputs the HTML for my newsletter. The script is quite simple, partly because I cannot do complicated ones, partly because it does the job.
 

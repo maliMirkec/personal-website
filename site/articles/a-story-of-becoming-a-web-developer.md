@@ -10,7 +10,7 @@ thumbnail: A_Story_of_Becoming_a_Web_Developer_w5y1ca
 description: Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
 project:
   name: Mentoring
-  href: https://www.silvestar.codes/side-projects/ui-dev-mentoring/
+  href: /side-projects/ui-dev-mentoring/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -85,7 +85,7 @@ This post is part of **The UI Development Mentoring Program** series:
 
 [Toptal]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
 [The UI Development Mentoring Program]: https://mentor.silvestar.codes
-[apply to become a mentee]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/apply/
-[find useful resources]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/resources/
-[tips]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/tips/
+[apply to become a mentee]: /side-projects/ui-dev-mentoring/apply/
+[find useful resources]: /side-projects/ui-dev-mentoring/resources/
+[tips]: /side-projects/ui-dev-mentoring/tips/
 [Tips About Learning Web Development]: /articles/tips-on-learning-web-development/

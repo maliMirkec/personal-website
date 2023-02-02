@@ -26,15 +26,15 @@
       ],
       "links": [{
           "text": "Portfolio",
-          "url": "https://www.silvestar.codes/portfolio/"
+          "url": "/portfolio/"
         },
         {
           "text": "About",
-          "url": "https://www.silvestar.codes/about-me/"
+          "url": "/about/"
         },
         {
           "text": "Contact",
-          "url": "https://www.silvestar.codes/contact/"
+          "url": "/contact/"
         }
       ],
       "img": "v1638533827/PSX_20210122_074018_nfkqxc.jpg"
@@ -94,7 +94,7 @@
       },
       {
         "title": "Web",
-        "href": "https://www.silvestar.codes"
+        "href": "/"
       }
     ]
   }

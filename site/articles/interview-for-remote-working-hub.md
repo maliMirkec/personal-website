@@ -77,11 +77,11 @@ Today, I know that I am not a good fit for just any job out there. Maybe, I donâ
 
 ## What tools do you swear by while working remotely?
 
-Visual Studio Code is my most used tool for getting the job done. I like how easy it is to use this code editor, how everything works as expected, and how productive I am while using it. I also use Chrome as my go-to browser for testing, debugging and developing tasks. You could read which Chrome extension I like to use here: [https://www.silvestar.codes/articles/my-favorite-chrome-extensions-for-web-development-mostly/](https://www.silvestar.codes/articles/my-favorite-chrome-extensions-for-web-development-mostly/).
+Visual Studio Code is my most used tool for getting the job done. I like how easy it is to use this code editor, how everything works as expected, and how productive I am while using it. I also use Chrome as my go-to browser for testing, debugging and developing tasks. You could read which Chrome extension I like to use here: [https://www.silvestar.codes/articles/my-favorite-chrome-extensions-for-web-development-mostly/](/articles/my-favorite-chrome-extensions-for-web-development-mostly/).
 
 There are other tools that I use on my daily basis that are related to my programming job, like Git and iTerm2 terminal. I use gitflow ([https://github.com/nvie/gitflow](https://github.com/nvie/gitflow)), a Git extension to provide high-level repository operations for Vincent Driessenâ€™s branching model. I am so used to this extension that I cannot imagine working on a Git-based project without it anymore.
 
-I made a list of my current hardware setup and my preferred software. You can find it here: [https://www.silvestar.codes/uses/](https://www.silvestar.codes/uses/).
+I made a list of my current hardware setup and my preferred software. You can find it here: [https://www.silvestar.codes/uses/](/uses/).
 
 {% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." %}
 
@@ -121,8 +121,8 @@ I hope more people realise the benefits of remote working. I would be thrilled t
 
 ##  Where can we follow you on?
 
-* [https://www.silvestar.codes](https://www.silvestar.codes)
-* [https://www.silvestar.codes/links/](https://www.silvestar.codes/links/)
+* [https://www.silvestar.codes](/)
+* [https://www.silvestar.codes/links/](/links/)
 * [https://twitter.com/malimirkeccita](https://twitter.com/malimirkeccita)
 * [https://www.linkedin.com/in/starbist/](https://www.linkedin.com/in/starbist/)
 * [https://github.com/maliMirkec](https://github.com/maliMirkec)

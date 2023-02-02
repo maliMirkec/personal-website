@@ -26,4 +26,4 @@ If you are reading this, you probably want me to publish a sponsored post, or yo
 
 ## Instead, let's collaborate.
 
-However, if you want to start a collaboration in any professional way, I am listening. I offer [a wide range of services](/services/), and I would love to start talking about working together. You could [see my portfolio](/portfolio/) or [read testimonials from my clients](/testimonials) to see what kind of work I do. [Contact me](/contact/) if this sounds interesting.
+However, if you want to start a collaboration in any professional way, I am listening. I offer [a wide range of services](/services/), and I would love to start talking about working together. You could [see my portfolio](/portfolio/) or [read testimonials from my clients](/testimonials/) to see what kind of work I do. [Contact me](/contact/) if this sounds interesting.

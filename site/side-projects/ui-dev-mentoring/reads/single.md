@@ -1,8 +1,8 @@
 ---
 layout: reads-single
-title: "UI Dev Newsletter"
-navTitle: "Reads"
-description: "UI Dev Newsletter is a hand-curated list of articles, tutorials, opinions, and tools related to User Interface development delivered to your inbox bi-weekly."
+title: UI Dev Newsletter
+navTitle: Reads
+description: UI Dev Newsletter is a hand-curated list of articles, tutorials, opinions, and tools related to User Interface development delivered to your inbox bi-weekly.
 ogImage: /gfx/jpg/ui-dev-newsletter.jpg
 tagline:
   - "UI Dev Newsletter is a hand-curated list of articles, tutorials, opinions, and tools related to User Interface development delivered to your inbox every two weeks."

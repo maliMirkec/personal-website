@@ -40,13 +40,13 @@ Before I switched to the new position, I worked on another Jekyll site migrated 
 
 ## HubSpot
 
-I acquired a HubSpot Developer certificate this year. I was helping the agency migrate away from Jekyll, so I had to. HubSpot is a great solution for marketers, but their CMS is awful. It is confusing, navigating is impossible, and the development process is unfriendly. When I started using their development tools, I immediately [thought of Shopify](https://www.silvestar.codes/articles/nightmare-dx-shopify/) and its bad DX (Developer Experience). I just don't like these closed platforms that limit access to code. One thing that was better than Shopify is HubSpot's templating language/engine. However, it wasn't that straightforward to get used to it. Anyway, since my client decided to switch to HubSpot, switching to a new company was much easier to make.
+I acquired a HubSpot Developer certificate this year. I was helping the agency migrate away from Jekyll, so I had to. HubSpot is a great solution for marketers, but their CMS is awful. It is confusing, navigating is impossible, and the development process is unfriendly. When I started using their development tools, I immediately [thought of Shopify](/articles/nightmare-dx-shopify/) and its bad DX (Developer Experience). I just don't like these closed platforms that limit access to code. One thing that was better than Shopify is HubSpot's templating language/engine. However, it wasn't that straightforward to get used to it. Anyway, since my client decided to switch to HubSpot, switching to a new company was much easier to make.
 
 ## Side Projects
 
 This December, I started a new side project, [Advent of UI Components](/side-projects/advent/). I built 24 different components and tried to expand my CSS knowledge using some less-used features.
 
-I am still running the [UI Dev Newsletter](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/) with more than 300 subscribers. However, I am thinking of stopping it for a while in favor of my other side project.
+I am still running the [UI Dev Newsletter](/side-projects/ui-dev-mentoring/reads/) with more than 300 subscribers. However, I am thinking of stopping it for a while in favor of my other side project.
 
 That other side project is [CSS Auditors](https://www.css-auditors.com). It is a project that aims to analyze CSS from different industries. A friend of mine and me published two blog posts and two reports. I am going to focus on this project in the following year.
 

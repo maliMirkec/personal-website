@@ -145,10 +145,10 @@ My third year of freelancing is undoubtedly the most successful one. With my fam
 [Code Line Daily]: https://cld.silvestar.codes/
 [Chrome extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
 [homepage]: /
-[The UI Development Mentoring Program]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/
-[learning resources]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/resources
-[daily reads]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads
-[subscribe to the newsletter]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads#newsletter
+[The UI Development Mentoring Program]: /side-projects/ui-dev-mentoring/
+[learning resources]: /side-projects/ui-dev-mentoring/resources/
+[daily reads]: /side-projects/ui-dev-mentoring/reads/
+[subscribe to the newsletter]: /side-projects/ui-dev-mentoring/reads/#newsletter
 [Starter Project]: https://www.npmjs.com/package/starter-project
 [Starter Project CLI]: https://www.npmjs.com/package/starter-project-cli
 [LinkedIn]: https://www.linkedin.com/in/starbist/

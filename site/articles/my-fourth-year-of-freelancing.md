@@ -36,7 +36,7 @@ This year I worked on WordPress, Jekyll, Hugo, Shopify, and HubSpot projects. I 
 
 I enjoyed working on most of the projects. Although WordPress, Shopify, and Hubspot are solid products, I prefer working on static site generators.
 
-I didn't get too much time to work on my side projects last year. I plan to change that. The only project I am constantly working on is the [UI Dev Newsletter](https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/). It is something that I enjoy, but it doesn't take too much time.
+I didn't get too much time to work on my side projects last year. I plan to change that. The only project I am constantly working on is the [UI Dev Newsletter](/side-projects/ui-dev-mentoring/reads/). It is something that I enjoy, but it doesn't take too much time.
 
 ## Future
 
