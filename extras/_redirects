@@ -1,5 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
+/404.html /404/ 301
 /en/* /:splat 301
 /hr/* /:splat 301
 /clanci/* /articles/ 301

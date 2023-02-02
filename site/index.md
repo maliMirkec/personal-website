@@ -1,6 +1,6 @@
 ---
 layout: index
-title: SB
+title: Home
 description: Silvestar is building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
 type: home
 sections:

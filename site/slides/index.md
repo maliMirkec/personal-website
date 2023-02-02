@@ -5,7 +5,7 @@ description: Collection of all slides available on my site.
 thumbnail: Slides_kke7ow
 type: side-projects
 sections:
-  - type: hero-beta
+  - type: hero-alpha
     title: From Slides
     desc: >-
       Here is the collection of all slides on my site.
