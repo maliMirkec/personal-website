@@ -64,7 +64,21 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/404.html",
       "**/404/*",
       "**/docs/**",
-      "**/contact/thank-you/*"
+      "**/contact/thank-you/*",
+      "**/articles/overview-of-popular-static-site-generators/*",
+      "**/articles/how-to-build-an-expandable-accessible-gallery/*",
+      "**/articles/how-to-make-a-raise-the-curtains-effect-in-css/*",
+      "**/articles/interview-for-remote-working-hub/*",
+      "**/articles/the-css-from-font-value-explained-in-4-demos/*",
+      "**/articles/tools-for-auditing-css/*",
+      "**/articles/how-to-get-sticky-and-full-bleed-elements-to-play-well-together/*",
+      "**/articles/my-favorite-netlify-features/*",
+      "**/articles/how-to-create-a-multi-step-static-form-with-kwes/*",
+      "**/articles/5-things-to-consider-when-creating-your-css-style-guide/*",
+      "**/articles/how-to-add-a-contact-form-to-a-static-website/*",
+      "**/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/*",
+      "**/articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/*",
+      "**/articles/a-comparison-of-static-form-providers/*"
     ]
 
     # Enable pretty URLS and remove `index.html` & trailing `.html` file references in paths
