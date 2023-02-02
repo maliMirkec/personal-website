@@ -65,6 +65,14 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/404/*",
       "**/docs/**",
       "**/contact/thank-you/*",
+      "**/my-stories/*",
+      "**/my-slides/*",
+      "**/my-css/*",
+      "**/my-advent/*",
+      "**/my-articles/*",
+      "**/my-publications/*",
+      "**/all-articles/*",
+      "**/all-tags/*",
       "**/articles/overview-of-popular-static-site-generators/*",
       "**/articles/how-to-build-an-expandable-accessible-gallery/*",
       "**/articles/how-to-make-a-raise-the-curtains-effect-in-css/*",
@@ -78,7 +86,9 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/articles/how-to-add-a-contact-form-to-a-static-website/*",
       "**/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/*",
       "**/articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/*",
-      "**/articles/a-comparison-of-static-form-providers/*"
+      "**/articles/a-comparison-of-static-form-providers/*",
+      "**/hire-me-2018/*",
+      "./public/mentoring/*",
     ]
 
     # Enable pretty URLS and remove `index.html` & trailing `.html` file references in paths

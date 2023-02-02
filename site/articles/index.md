@@ -32,7 +32,7 @@ sections:
   - type: cards-alpha
     cta:
       title: Read the article
-    filter: myArticles
+    filter: my-articles
     sorter: date
 sections2:
   - type: banner-beta

@@ -19,7 +19,7 @@ sections:
   - type: cards-alpha
     cta:
       title: Check the component
-    filter: myAdvent
+    filter: my-advent
     sorter: date
   - type: banner-beta
     banner: newsletter

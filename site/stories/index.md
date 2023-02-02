@@ -5,7 +5,7 @@ description: Here are some random thoughts and notes about work, web development
 type: stories
 thumbnail: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 pagination:
-  data: collections.myStories
+  data: collections.my-stories
   size: 12
 sections:
   - type: hero-alpha

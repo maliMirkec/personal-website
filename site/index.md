@@ -66,7 +66,7 @@ sections:
     cta3:
       href: /publications/
       title: Or see all publications
-    filter: myPublications
+    filter: my-publications
     sorter: date
     limit: 5
   - type: banner-beta
@@ -94,7 +94,7 @@ sections:
     cta2:
       href: /articles/
       title: Go to all articles
-    filter: myArticles
+    filter: my-articles
     sorter: date
     exclude: publications
     limit: 5

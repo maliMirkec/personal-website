@@ -19,7 +19,7 @@ sections:
   - type: cards-alpha
     cta:
       title: See declaration
-    filter: myCSS
+    filter: my-css
     sorter: date
   - type: banner-beta
     banner: newsletter

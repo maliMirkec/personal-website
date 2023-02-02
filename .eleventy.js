@@ -76,7 +76,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('sortlist', sortlist)
 
-  eleventyConfig.addCollection("myStories", (collection) => {
+  eleventyConfig.addCollection("my-stories", (collection) => {
     return collection.getFilteredByTag("story").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -88,7 +88,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("mySlides", (collection) => {
+  eleventyConfig.addCollection("my-slides", (collection) => {
     return collection.getFilteredByTag("slides").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -100,7 +100,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("myCSS", (collection) => {
+  eleventyConfig.addCollection("my-css", (collection) => {
     return collection.getFilteredByTag("invalid css").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -112,7 +112,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("myAdvent", (collection) => {
+  eleventyConfig.addCollection("my-advent", (collection) => {
     return collection.getFilteredByTag("advent").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -124,7 +124,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("myArticles", (collection) => {
+  eleventyConfig.addCollection("my-articles", (collection) => {
     return collection.getFilteredByTag("blog").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -136,7 +136,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("myPublications", (collection) => {
+  eleventyConfig.addCollection("my-publications", (collection) => {
     return collection.getFilteredByTag("publications").sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -148,7 +148,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("allArticles", (collection) => {
+  eleventyConfig.addCollection("all-articles", (collection) => {
     return collection.sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -160,7 +160,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("allTags", collection => {
+  eleventyConfig.addCollection("all-tags", collection => {
     const tagsSet = new Set()
     collection.getAll().forEach(item => {
       if (!item.data.tags) return

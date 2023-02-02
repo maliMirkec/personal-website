@@ -17,7 +17,7 @@ sections:
   - type: cards-alpha
     # cta:
     #   title: Go to project
-    filter: mySlides
+    filter: my-slides
     cta:
       title: View slides
     noDate: true

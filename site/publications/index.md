@@ -16,7 +16,7 @@ sections:
   - type: cards-alpha
     cta:
       title: Read the article
-    filter: myPublications
+    filter: my-publications
     sorter: date
   - type: banner-beta
     desc: To receive the latest news about User Interface development, subscribe here.
