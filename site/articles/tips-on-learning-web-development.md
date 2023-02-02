@@ -10,7 +10,7 @@ thumbnail: Tips_On_Learning_Web_Development_sb1pfy
 description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
 project:
   name: Mentoring
-  href: https://www.silvestar.codes/side-projects/ui-dev-mentoring/start/
+  href: https://www.silvestar.codes/side-projects/ui-dev-mentoring/
 type: articles-item
 sections2:
   - type: banner-beta

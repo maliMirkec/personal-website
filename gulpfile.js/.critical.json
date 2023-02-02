@@ -4,7 +4,7 @@
     "src": "mentor.css",
     "settings": {
       "out": "mentor.critical.css",
-      "url": "http://localhost:8080/side-projects/ui-dev-mentoring/start/?cache=1",
+      "url": "http://localhost:8080/side-projects/ui-dev-mentoring/?cache=1",
       "width": 1920,
       "height": 1800,
       "keepLargerMediaQueries": true,

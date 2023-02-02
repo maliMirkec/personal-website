@@ -145,7 +145,7 @@ My third year of freelancing is undoubtedly the most successful one. With my fam
 [Code Line Daily]: https://cld.silvestar.codes/
 [Chrome extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
 [homepage]: /
-[The UI Development Mentoring Program]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/start/
+[The UI Development Mentoring Program]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/
 [learning resources]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/resources
 [daily reads]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads
 [subscribe to the newsletter]: https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads#newsletter
