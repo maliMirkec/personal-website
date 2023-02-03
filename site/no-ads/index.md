@@ -2,8 +2,8 @@
 layout: index
 title: No advertisement at all
 description: Guest posts, backlinks, or any other form of advertisement is strictly prohibited on my site, but I am open to other forms of collaboration.
-type: stories
 thumbnail: No_advertisement_at_all_bhmt6n
+type: page
 sections:
   - type: hero-alpha
     title: Any kind of advertisement is unacceptable.

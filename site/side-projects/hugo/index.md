@@ -1,8 +1,8 @@
 ---
-layout: index
+layout: hugo
 title: Making a website with Hugo
 description: Making a website with Hugo is a course for learning how to use Hugo.
-type: side-projects-item
+type: hugo
 tags:
   - projects
   - learning
@@ -11,33 +11,25 @@ tags:
 thumbnail: hugo_qkfxp9
 display: true
 date: 2005-08-01
-sections:
-  - type: hero-alpha
-    src: hugo_qkfxp9
-    alt: Screenshot of Making a website with Hugo website.
-    width: 815
-    height: 448
-    title: Making a website with Hugo
-    desc: Making a website with Hugo is a course for learning how to use Hugo.
-    tag:
-      href: /side-projects/
-      title: Side Projects
-    cta:
-      href: /side-projects/hugo/start/
-      title: Go to the Course
-  - type: hero-beta
-    title: From My Projects
-    desc: >-
-      Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
-  - type: cards-gamma
-    # cta:
-    #   title: Go to project
-    filter: projects
-    exclude: true
-  - type: banner-alpha
-    title: I am available for consultation services.
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
 ---
+
+
+<header>
+  <nav aria-label="Course">
+    <a class="active" href="/side-projects/hugo/">Home</a>
+    <a href="/side-projects/hugo/about/">About</a>
+    <a href="/side-projects/hugo/lessons/">Lessons</a>
+  </nav>
+</header>
+<section>
+  <article>
+    <h1>Making a website with Hugo</h1>
+    <a class="block" href="https://gohugo.io/"><img src="/gfx/png/hugo-logo.png" alt="Logo of Hugo framework." width="320" height="84"></a>
+    <p>Hello and welcome to “Making a website with Hugo!”</p>
+    <p>During this course, we will build a new website with a blog. We will add a homepage, an about page, and a few blog articles.</p>
+    <p>Full course is available on
+      <a href="https://www.skillshare.com/site/join?teacherRef=142704&amp;via=teacher-referral&amp;utm_campaign=teacher-referral&amp;utm_source=ShortUrl&amp;utm_medium=teacher-referral&amp;t=Making-a-website-with-Hugo&amp;sku=1694766489">Skillshare</a>.
+    </p>
+    <p>See you!</p>
+  </article>
+</section>

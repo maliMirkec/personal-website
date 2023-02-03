@@ -37,6 +37,12 @@ if (!global.config.sync.run) {
 
 exports.clean = clean.cleanStart;
 
+exports.critical = critical.criticalStart;
+
+exports.critical = series(
+  global.config.critical.run ? critical.criticalStart : helpers.skip
+);
+
 exports.dev = series(
   clean.cleanStart,
   parallel(
@@ -47,6 +53,18 @@ exports.dev = series(
   ),
   global.config.html.run ? html.htmlStart : helpers.skip,
   global.config.kss.run ? kss.kssStart : helpers.skip,
+  global.config.sync.run ? sync.syncStart : helpers.skip,
+  parallel(
+    global.config.css.run ? css.cssListen : helpers.skip,
+    global.config.js.run ? js.jsListen : helpers.skip,
+    global.config.gfx.run ? gfx.gfxListen : helpers.skip,
+    global.config.fonts.run ? fonts.fontsListen : helpers.skip,
+    global.config.html.run ? html.htmlListen : helpers.skip,
+    global.config.kss.run ? kss.kssListen : helpers.skip,
+  ),
+);
+
+exports.watch = series(
   global.config.sync.run ? sync.syncStart : helpers.skip,
   parallel(
     global.config.css.run ? css.cssListen : helpers.skip,
@@ -71,45 +89,8 @@ exports.build = series(
   global.config.kss.run ? kss.kssStart : helpers.skip,
   global.config.sassdoc.run ? sassdoc.sassdocStart : helpers.skip,
   global.config.jsdoc.run ? jsdoc.jsdocStart : helpers.skip,
-  global.config.sync.run && global.config.critical.run ? sync.syncStartBuild : helpers.skip,
-  global.config.critical.run ? critical.criticalStart : helpers.skip,
-  global.config.sync.run && global.config.critical.run ? sync.syncStop : helpers.skip,
-  global.config.html.run
-    && global.config.html.pug
-    && global.config.critical.run ? html.htmlStart : helpers.skip,
   helpers.killNow,
 );
-
-exports.default = series(
-  clean.cleanStart,
-  parallel(
-    global.config.favicon.run ? favicon.faviconStart : helpers.skip,
-    global.config.css.run ? css.cssStart : helpers.skip,
-    global.config.js.run ? js.jsStartProd : helpers.skip,
-    global.config.gfx.run ? gfx.gfxStart : helpers.skip,
-    global.config.fonts.run ? fonts.fontsStart : helpers.skip,
-  ),
-  global.config.html.run ? html.htmlStart : helpers.skip,
-  global.config.kss.run ? kss.kssStart : helpers.skip,
-  global.config.sassdoc.run ? sassdoc.sassdocStart : helpers.skip,
-  global.config.jsdoc.run ? jsdoc.jsdocStart : helpers.skip,
-  global.config.sync.run ? sync.syncStart : helpers.skip,
-  global.config.critical.run ? critical.criticalStart : helpers.skip,
-  global.config.html.run
-    && global.config.html.pug
-    && global.config.critical.run ? html.htmlStart : helpers.skip,
-  parallel(
-    global.config.css.run ? css.cssListen : helpers.skip,
-    global.config.js.run ? js.jsListen : helpers.skip,
-    global.config.gfx.run ? gfx.gfxListen : helpers.skip,
-    global.config.fonts.run ? fonts.fontsListen : helpers.skip,
-    global.config.html.run ? html.htmlListen : helpers.skip,
-    global.config.kss.run ? kss.kssListen : helpers.skip,
-    global.config.sassdoc.run ? sassdoc.sassdocListen : helpers.skip,
-    global.config.jsdoc.run ? jsdoc.jsdocListen : helpers.skip,
-  ),
-);
-
 
 // user warnings
 console.log(`IMPORTANT NOTICE!

@@ -3,7 +3,7 @@ layout: index
 title: Slides
 description: Collection of all slides available on my site.
 thumbnail: Slides_kke7ow
-type: side-projects
+type: articles
 sections:
   - type: hero-alpha
     title: From Slides

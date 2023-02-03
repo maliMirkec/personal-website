@@ -3,6 +3,7 @@ layout: index
 title: Browser Bookmarks
 description: Browser bookmarks export file.
 date: 2017-08-02 20:08:06
+type: page
 sections:
   - type: hero-alpha
     title: Browser Bookmarks

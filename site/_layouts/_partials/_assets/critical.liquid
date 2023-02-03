@@ -1,41 +1,13 @@
-{% if type == "home" %}
-  <style>{% include ../../assets/dist/css/home.critical.min.css %}</style>
-{% elsif type == "mentor" %}
-  <style>{% include ../../assets/dist/css/mentor.critical.min.css %}</style>
-{% elsif type == "tags-item" %}
-  <style>{% include ../../assets/dist/css/tags-item.critical.min.css %}</style>
-{% elsif type == "tags" %}
-  <style>{% include ../../assets/dist/css/tags.critical.min.css %}</style>
-{% elsif type == "stories" %}
-  <style>{% include ../../assets/dist/css/stories.critical.min.css %}</style>
-{% elsif type == "testimonials-item" %}
-  <style>{% include ../../assets/dist/css/testimonials-item.critical.min.css %}</style>
-{% elsif type == "testimonials" %}
-  <style>{% include ../../assets/dist/css/testimonials.critical.min.css %}</style>
-{% elsif type == "side-projects-item" %}
-  <style>{% include ../../assets/dist/css/side-projects-item.critical.min.css %}</style>
-{% elsif type == "side-projects" %}
-  <style>{% include ../../assets/dist/css/side-projects.critical.min.css %}</style>
-{% elsif type == "favorite-item" %}
-  <style>{% include ../../assets/dist/css/favorite-item.critical.min.css %}</style>
-{% elsif type == "favorite-concert" %}
-  <style>{% include ../../assets/dist/css/favorite-concert.critical.min.css %}</style>
-{% elsif type == "favorites" %}
-  <style>{% include ../../assets/dist/css/favorites.critical.min.css %}</style>
-{% elsif type == "portfolio-item" %}
-  <style>{% include ../../assets/dist/css/portfolio-item.critical.min.css %}</style>
-{% elsif type == "portfolio" %}
-  <style>{% include ../../assets/dist/css/portfolio.critical.min.css %}</style>
-{% elsif type == "articles-item" %}
-  <style>{% include ../../assets/dist/css/articles-item.critical.min.css %}</style>
-{% elsif type == "story" %}
-  <style>{% include ../../assets/dist/css/articles-item.critical.min.css %}</style>
-{% elsif type == "about" %}
-  <style>{% include ../../assets/dist/css/about.critical.min.css %}</style>
-{% elsif type == "articles" %}
-  <style>{% include ../../assets/dist/css/articles.critical.min.css %}</style>
-{% elsif type == "articles-item" %}
-  <style>{% include ../../assets/dist/css/articles-item.critical.min.css %}</style>
+{% if loadCritical %}
+  <style>{{ type | getCritical }}</style>
 {% else %}
-  <style>{% include ../../assets/dist/css/page.critical.min.css %}</style>
+  {% if isMentor %}
+    <link rel="stylesheet" href="/css/mentor.min.css">
+  {% else %}
+    <link rel="stylesheet" href="/css/style.min.css">
+  {% endif %}
+
+  {% if type == 'articles-item' %}
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
+  {% endif %}
 {% endif %}

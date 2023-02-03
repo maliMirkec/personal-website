@@ -2,13 +2,13 @@
 layout: index
 title: Links
 description: Here are Silvestar's links and profiles from all over the web, from social networks to projects and publications.
+type: page
 sections:
   - type: hero-alpha
     title: Around the Web
     desc: |
       Here are my links and profiles from all over the web, from social networks to projects and publications.
     narrow: true
-type: articles-item
 sections2:
   - type: banner-alpha
     title: I am available for consultation services.

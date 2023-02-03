@@ -4,6 +4,7 @@ title: Page Not Found - Error 404
 description: This is a terrible situation. That means there is no content on this link.
 permalink: 404.html
 noindex: true
+type: page
 sections:
   - type: hero-alpha
     title: This is a terrible situation.

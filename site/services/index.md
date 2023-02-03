@@ -2,12 +2,12 @@
 layout: index
 title: Services
 description: Silvestar have been working with web technologies since 2012. During this period, he acquired a certain set of skills for building better websites.
+type: page
 sections:
   - type: hero-alpha
     title: Services I provide
     desc: I have been working with web technologies **since 2012**. During this period, I acquired a certain set of skills for building websites.
     narrow: true
-type: articles-item
 sections2:
   - type: banner-alpha
     title: I am available for consultation services.

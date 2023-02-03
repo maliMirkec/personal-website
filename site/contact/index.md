@@ -2,6 +2,7 @@
 layout: index
 title: Contact Me
 description: Feel free to contact Silvestar. He is a fearless web developer who enjoys writing HTML,CSS, and JavaScript code.
+type: page
 sections:
   - type: hero-alpha
     title: Contact me
@@ -10,7 +11,6 @@ sections:
       href: "#form"
       title: Fill the form
     narrow: true
-type: articles-item
 sections2:
   - type: contact
     title: Fill the form

@@ -2,7 +2,7 @@
 layout: index
 title: My other favorites
 description: Silvestar's favorite writers, books, games, sport teams and individuals, and more.
-type: favorite
+type: page
 tags:
   - favorite
 permalink: false

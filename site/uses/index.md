@@ -2,6 +2,7 @@
 layout: index
 title: Setup
 description: Most developers often spend time on their setup. I am no exception, by no means. These devices, tools, and software help me make the most of my everyday tasks.
+type: page
 sections:
   - type: hero-alpha
     elementClass: bg-alpha2

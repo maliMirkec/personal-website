@@ -1,3 +1,4 @@
+{% assign loadCritical = type | criticalExists %}
 <head>
   {% include _partials/_head/meta %}
   {% unless devcards %}
@@ -9,9 +10,7 @@
     {% include _partials/_assets/devcards-css %}
   {% else %}
     {% include _partials/_head/link %}
-    {% unless env.development %}
-      {% include _partials/_assets/critical %}
-    {% endunless %}
+    {% include _partials/_assets/critical %}
   {% endif %}
   {% include _partials/_assets/favicon %}
   {% include _partials/_head/og %}

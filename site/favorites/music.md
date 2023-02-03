@@ -2,7 +2,7 @@
 layout: index
 title: My music favorites
 description: Silvestar's favorite music bands and artists.
-type: favorite
+type: side-projects-item
 tags:
   - favorite
 thumbnail: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg

@@ -1,5 +1,6 @@
 const { src, dest } = require('gulp');
-const critical = require('gulp-penthouse');
+// const critical = require('gulp-penthouse');
+const penthouse = require('penthouse');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const fs = require('fs');
@@ -14,9 +15,12 @@ if (criticalConfig.configs.length > 9) {
   process.setMaxListeners(0);
 }
 
-const cssConfig = require('./.css.json');
-
 const thisCriticalConfig = { ...criticalConfig, temp: `${helpers.parse(criticalConfig.temp)}` };
+
+function critical(cb) {
+  console.log(cb);
+  cb()
+}
 
 // Will extract Critical CSS
 function criticalStart(cb) {
@@ -39,32 +43,29 @@ function criticalStart(cb) {
         settings: thisSettings,
       };
 
-      src(thisConfig.src)
-        .pipe(critical(thisConfig.settings))
-        .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
-        .pipe(cleanCSS())
-        .pipe(rename(cssConfig.renameConfig))
-        .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
-        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)));
+      penthouse({
+        url: thisConfig.settings.url,
+        css: thisConfig.src,
+        width: thisConfig.settings.width,
+        height: thisConfig.settings.height,
+        keepLargerMediaQueries: thisConfig.settings.keepLargerMediaQueries,
+        strict: thisConfig.settings.strict,
+        blockJSRequests: thisConfig.settings.blockJSRequests,
+        renderWaitTime: thisConfig.settings.renderWaitTime,
+        forceExclude: thisConfig.settings.forceExclude,
+        // forceInclude: thisConfig.settings.forceInclude
+      })
+      .then(criticalCss => {
+        fs.writeFileSync(helpers.trim(`${thisCriticalConfig.temp}/${thisConfig.settings.out}`), criticalCss);
+
+        src(helpers.trim(`${thisCriticalConfig.temp}/${thisConfig.settings.out}`))
+          .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)));
+      })
+
     }
   });
 
-  const checkInterval = setInterval(() => {
-    let checkFile = true;
-
-    files.forEach((file) => {
-      if (!fs.existsSync(file)) {
-        checkFile = false;
-      }
-    });
-
-    if (checkFile) {
-      clearInterval(checkInterval);
-      cb();
-    }
-  }, 250);
-
-  return checkInterval;
+  cb();
 }
 
 exports.critical = {

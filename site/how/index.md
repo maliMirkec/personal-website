@@ -2,13 +2,13 @@
 layout: index
 title: How I built this website
 description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
+type: page
 sections:
   - type: hero-alpha
     title: How I built this website
     desc: >-
       This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
     narrow: true
-type: articles-item
 sections2:
   - type: banner-alpha
     title: I am available for consultation services.

@@ -3,11 +3,12 @@ layout: hugo
 title: About Making a website with Hugo
 description: Making a website with Hugo is a course for learning how to use Hugo.
 thumbnail: making-a-website-with-hugo-cover_kpek9x
+type: hugo
 ---
 
 <header>
   <nav aria-label="Course">
-    <a href="/side-projects/hugo/start/">Home</a>
+    <a href="/side-projects/hugo/">Home</a>
     <a class="active" href="/side-projects/hugo/about/">About</a>
     <a href="/side-projects/hugo/lessons/">Lessons</a>
   </nav>
@@ -15,7 +16,7 @@ thumbnail: making-a-website-with-hugo-cover_kpek9x
 <section>
   <article>
     <h1>About</h1>
-    <p><img src="/gfx/jpg/making-a-website-with-hugo-cover.jpg" alt="Cover image with page title."></p>
+    <p><img src="/gfx/jpg/making-a-website-with-hugo-cover.jpg" alt="Cover image with page title." width="824" height="515"></p>
     <p>This website serves as a demo project for the course “Making a website with Hugo.”</p>
     <p>During this course, you will learn how to make a static website using Hugo.</p>
     <p>Most websites built using other frameworks, like Wordpress, are slow and insecure. Hugo is all you need to make a lightweight, fast and secure site.</p>

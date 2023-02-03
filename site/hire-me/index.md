@@ -1,13 +1,13 @@
 ---
 layout: index
 title: Hire me
-description: When you hire me, you got a frontend developer that is most comfortable working with HTML, CSS, and JavaScript. You would benefit from experience gained by working for years on high-profile projects.
+description: When you hire me, you get an experienced frontend developer that is most comfortable working with HTML, CSS, and JavaScript.
+type: page
 sections:
   - type: hero-alpha
     title: I am available for hire
     desc: If you hire me, you get a frontend developer that is most comfortable working with **HTML**, **CSS**, and **JavaScript**, but who is also comfortable working in different environments, from **WordPress** to **Shopify** to **Static Page Generators**.
     narrow: true
-type: articles-item
 sections2:
   - type: banner-alpha
     title: I am available for consultation services.

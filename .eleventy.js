@@ -4,6 +4,8 @@ const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
 const uslug = require('uslug')
 const env = require('./site/_data/env')
+const fs = require('fs')
+const package = require('./package.json')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.setBrowserSyncConfig({
@@ -44,6 +46,19 @@ module.exports = (eleventyConfig) => {
     return array.filter(item => {
       return item.data[key] === value
     })
+  })
+
+
+  eleventyConfig.addLiquidFilter('criticalExists', (critical) => {
+    return fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
+  })
+
+  eleventyConfig.addLiquidFilter('getCritical', (critical) => {
+    return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
+  })
+
+  eleventyConfig.addLiquidFilter('generator', () => {
+    return `Eleventy ${package.dependencies['@11ty/eleventy'].replace('^', '')}`
   })
 
   const cp_id = (id) => `cp_embed_${id.replace(/\//g, '_')}`
