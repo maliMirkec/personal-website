@@ -3,19 +3,19 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "npm run build-prod"
 
 [context.production]
-  command = "npm run build"
+  command = "npm run build-prod"
 
 [context.deploy-preview]
-  command = "npm run preview"
+  command = "npm run build-dev"
 
 [context.branch-deploy]
-  command = "npm run preview"
+  command = "npm run build-dev"
 
 [context.develop]
-  command = "npm run preview"
+  command = "npm run build-dev"
 
 # [[plugins]]
 #   package = "@netlify/plugin-lighthouse"
