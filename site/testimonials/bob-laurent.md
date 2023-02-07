@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Bob Laurent
-description: Bob Laurent talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Bob Laurent in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

@@ -1,14 +1,14 @@
 ---
 layout: index
 title: Cory Schmidt
-description: Cory Schmidt talks about her positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Cory Schmidt in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: cs_tru73j
-date: 1997-01-01
+date: 1999-01-01
 position: Chief Revenue Officer
 company: Wunder Mobility
 sections:

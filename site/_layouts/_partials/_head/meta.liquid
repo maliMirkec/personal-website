@@ -1,4 +1,4 @@
-{%- if type == 'story' -%}
+{%- if type == 'stories-item' -%}
   {%- assign title = 'Story #' | append: page.fileSlug -%}
 {%- endif -%}
 <meta charset="UTF-8">
@@ -19,6 +19,6 @@
   <meta name="description" content="{{ description | escape }}">
 {% endif %}
 {% if noindex %}
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex,nofollow">
 {% endif %}
 <title>{{ title }} 🤘 {{ site.title }}</title>

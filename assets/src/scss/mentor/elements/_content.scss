@@ -330,7 +330,6 @@ img {
   height: rem(1);
   width: rem(1);
   overflow: hidden;
-  clip: rect(rem(1) rem(1) rem(1) rem(1));
   clip: rect(rem(1), rem(1), rem(1), rem(1));
   clip-path: inset(rem(1));
   white-space: nowrap;

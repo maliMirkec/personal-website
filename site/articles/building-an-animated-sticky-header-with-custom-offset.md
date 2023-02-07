@@ -7,7 +7,8 @@ tags:
   - css
   - javascript
 thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5
-description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
+old_description: "With the appearance of the position: sticky property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript."
+description: "Position: sticky allows for CSS-only sticky elements, but animating stucked element couldn't be done without JavaScript."
 type: articles-item
 sections2:
   - type: banner-beta

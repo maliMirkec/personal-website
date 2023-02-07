@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Wunder Mobility
-description: Wunder Mobility provides software, vehicles and a full range of services to cities and companies, helping them launch and scale new mobility services.
+description: I've worked on Wunder Mobility website. Wunder Mobility provides software, vehicles and services helping everyone launch and scale new mobility services.
 thumbnail: Wunder_Mobility_u0u6jf
 link: //www.wundermobility.com
 display: true

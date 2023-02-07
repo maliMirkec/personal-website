@@ -7,7 +7,8 @@ tags:
   - productivity
   - learning
 thumbnail: How_I_learn_things_after_10_years_wf8fjk
-description: When I see that people that have been in the web industry for decades still learn and want to learn new things, that amazes me. I am also learning constantly, but in a different fashion than before.
+old_description: When I see that people that have been in the web industry for decades still learn and want to learn new things, that amazes me. I am also learning constantly, but in a different fashion than before.
+description: Amazed by experienced web professionals constantly learning, I too learn but in a different manner than before.
 type: articles-item
 sections2:
   - type: banner-beta

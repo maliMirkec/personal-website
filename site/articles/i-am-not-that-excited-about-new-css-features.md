@@ -6,7 +6,8 @@ tags:
   - blog
   - css
 thumbnail: i-am-not-that-excited-about-new-css-features_tb4ntp
-description: "I have a confession: I am not that excited about all these new CSS features. Let me tell you why."
+old_description: "I have a confession: I am not that excited about all these new CSS features. Let me tell you why."
+description: Discover the reasons why I am not overly enthusiastic about the new CSS features in this thought-provoking article.
 type: articles-item
 sections2:
   - type: banner-beta

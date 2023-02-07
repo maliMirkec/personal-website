@@ -8,7 +8,8 @@ tags:
   - css
   - javascript
 thumbnail: How_to_animate_SVG_signature_l1h5a8
-description: Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.
+old_description: Let’s see how to animate SVG Signature with a little bit of JavaScript and CSS. We could use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes.
+description: "Animate an SVG signature with JavaScript and CSS: calculate path length with JavaScript and animate strokes with CSS."
 type: articles-item
 sections2:
   - type: banner-beta

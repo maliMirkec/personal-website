@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Edo liberty
-description: Edo liberty talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Edo liberty in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

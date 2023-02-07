@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Grigoriy Kogan
-description: Grigoriy Kogan talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Grigoriy Kogan in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

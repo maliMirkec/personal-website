@@ -8,7 +8,8 @@ tags:
   - cld
   - open source
 thumbnail: Announcing_Code_Line_Daily_lty61j
-description: "Last week I released my side project: Code Line Daily. It is a quite straightforward project: a new line of code would be introduced every day. The lines are mostly frontend, PHP, and WordPress code. Here's how I build it!"
+old_description: "Last week I released my side project: Code Line Daily. It is a quite straightforward project: a new line of code would be introduced every day. The lines are mostly frontend, PHP, and WordPress code. Here's how I build it!"
+description: Last week I launched Code Line Daily, a project featuring new frontend, PHP, and WordPress code every day. Learn how I built it.
 project:
   name: Code Line Daily
   href: https://cld.silvestar.codes

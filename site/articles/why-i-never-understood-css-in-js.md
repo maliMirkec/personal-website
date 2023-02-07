@@ -6,7 +6,8 @@ tags:
   - blog
   - css
 thumbnail: Why_I_never_understood_CSS-in-JS_ndpbnb
-description: As a “vanilla CSS” guy, I had many questions and comments while reading the article about breaking up with CSS-in-JS, so I had to document them in this blog post.
+old_description: As a “vanilla CSS” guy, I had many questions and comments while reading the article about breaking up with CSS-in-JS, so I had to document them in this blog post.
+description: As a CSS purist, I had questions and comments on breaking up with CSS-in-JS and documented them in a blog post.
 type: articles-item
 sections2:
   - type: banner-beta

@@ -1,5 +1,5 @@
 {% if tag == 'all' %}
-  {% assign cardListTag = collections['all-content'] %}
+  {% assign cardListTag = collections['all'] %}
 {% else %}
   {% assign cardListTag = collections[tag] | reverse %}
 {% endif %}

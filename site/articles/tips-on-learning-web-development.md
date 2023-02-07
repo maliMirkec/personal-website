@@ -7,7 +7,8 @@ tags:
   - ui
   - mentoring
 thumbnail: Tips_On_Learning_Web_Development_sb1pfy
-description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
+old_description: If you are a beginner, where would you begin these days? I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
+description: If you are a beginner, here are ideas about how to start learning web development, especially if you are into UI development.
 project:
   name: Mentoring
   href: /side-projects/ui-dev-mentoring/

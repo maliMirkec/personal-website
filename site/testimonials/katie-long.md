@@ -1,14 +1,14 @@
 ---
 layout: index
 title: Katie Long
-description: Katie Long talks about her positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Katie Long in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: kl_bpiofq
-date: 1999-01-01
+date: 1999-01-03
 position: Product Marketing Manager
 company: Wunder Mobility
 sections:

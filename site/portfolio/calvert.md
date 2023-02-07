@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Calvert
-description: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
+description: I've worked on Calvert website. Calvert is leader in responsible investing for analyzing company performance from finances to environmental policy to diversity.
 thumbnail: ev-c_vgm0ws
 link: //www.calvert.com/invest-with-purpose.php
 display: true

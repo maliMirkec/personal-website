@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Marcijuš Studio
-description: Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography. The site runs on WordPress, DigitalOcean, and Cloudflare.
+description: I've worked on Marcijuš Studio website. Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography.
 thumbnail: mw_gtapmb
 link: //marcijus-studio.com
 display: false

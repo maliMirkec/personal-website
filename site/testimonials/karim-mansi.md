@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Karim Mansi
-description: Karim Mansi talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Karim Mansi in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

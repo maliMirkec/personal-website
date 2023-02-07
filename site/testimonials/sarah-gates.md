@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Sarah Gates
-description: Sarah Gates talks about her positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Sarah Gates in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

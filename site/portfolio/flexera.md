@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Flexera
-description: Flexera control and manage software and IT costs, to grow and protect your business.
+description: I've worked on Flexera website. Flexera control and manage software and IT costs, to grow and protect your business.
 thumbnail: f1_bn1woc
 link: //www.flexera.com
 display: true

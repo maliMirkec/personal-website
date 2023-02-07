@@ -185,7 +185,7 @@ module.exports = (eleventyConfig) => {
     return Array.from(tagsSet).sort()
   })
 
-  eleventyConfig.addCollection("all-content", collection => {
+  eleventyConfig.addCollection("all", collection => {
     return collection.sort((a, b) => {
       if (a.url < b.url) {
         return -1;

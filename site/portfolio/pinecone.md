@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Pinecone
-description: Pinecone is a managed database that provides the infrastructure for ML applications that need to search and rank results based on similarities, such as recommendations, personalization, image search, and more.
+description: I've worked on Pinecone website. Pinecone is a managed database that provides the infrastructure for ML applications to search and rank results on similarities.
 thumbnail: pc_h99bkn
 link: //www.pinecone.io
 display: true

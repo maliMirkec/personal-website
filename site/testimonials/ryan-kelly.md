@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Ryan Kelly
-description: Ryan Kelly talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Ryan Kelly in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Empirical Wealth
-description: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on WordPress and WPEngine.
+description: I've worked on Empirical Wealth Management website. EWM is a wealth management team specializing in investments, taxes, financial, and estate planning.
 thumbnail: ewm_aikxon
 link: //www.empirical.net
 display: false

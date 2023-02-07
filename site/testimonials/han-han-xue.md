@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Han Han Xue
-description: Han Han Xue talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Han Han Xue in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Adam Maschek
-description: Adam Maschek talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Adam Maschek in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

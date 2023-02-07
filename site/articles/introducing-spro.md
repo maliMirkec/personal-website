@@ -7,7 +7,8 @@ tags:
   - gulp
   - starter project
 thumbnail: Introducing_SPRO_iucjd8
-description: "SPRO, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs."
+old_description: "SPRO, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs."
+description: SPRO, a Starter Project CLI, sets up your next project's perfect dev environment by understanding architecture and creating Gulp tasks.
 project:
   name: Starter Project
   href: https://starter.silvestar.codes

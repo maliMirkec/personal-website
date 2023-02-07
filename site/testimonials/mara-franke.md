@@ -1,14 +1,14 @@
 ---
 layout: index
 title: Mara Franke
-description: Mara Franke talks about her positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Mara Franke in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 thumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: mf_jkcuyp
-date: 1998-01-01
+date: 1999-01-02
 position: Head of Marketing
 company: Wunder Mobility
 sections:

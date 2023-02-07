@@ -1,7 +1,7 @@
 ---
 layout: index
 title: TheGrio
-description: TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives that appeal to them but are underrepresented in existing national news outlets.
+description: I've worked on TheGrio website. TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives.
 thumbnail: tg_r1peey
 link: //thegrio.com
 display: true

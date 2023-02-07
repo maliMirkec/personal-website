@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Will O'Brien
-description: Will O'Brien talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Will O'Brien in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

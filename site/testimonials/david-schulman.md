@@ -1,7 +1,7 @@
 ---
 layout: index
 title: David Schulman
-description: David Schulman talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by David Schulman in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

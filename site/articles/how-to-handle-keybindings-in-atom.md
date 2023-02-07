@@ -7,7 +7,8 @@ tags:
   - keybindings
 date: 2016-10-15 16:41:54
 thumbnail: How_to_handle_keybindings_in_Atom_h1wr50
-description: In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
+old_description: In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
+description: Recent Atom articles discussed packages for easier work. But what if a keybinding is already in use by another package?
 type: articles-item
 sections2:
   - type: banner-beta

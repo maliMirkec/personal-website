@@ -7,7 +7,8 @@ tags:
   - freelance
   - remote work
 thumbnail: 2021_Lookback_un2wqn
-description: It is that time again, time for 2021 lookback.
+old_description: It is that time again, time for 2021 lookback.
+description: Discover my journey in web development and my reflections on the past year with my 2021 lookback article.
 type: articles-item
 sections2:
   - type: banner-beta

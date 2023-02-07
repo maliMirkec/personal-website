@@ -6,7 +6,8 @@ tags:
   - blog
   - css
 thumbnail: you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one_rjvsoa
-description: An enabling selector is what I call selectors that do a job without disabling the particular rule.
+old_description: An enabling selector is what I call selectors that do a job without disabling the particular rule.
+description: Learn about the importance of using the correct CSS selector and avoid the common mistake of overwriting previous styles.
 type: articles-item
 sections2:
   - type: banner-beta

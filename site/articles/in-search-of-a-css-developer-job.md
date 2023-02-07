@@ -7,7 +7,8 @@ tags:
   - freelance
   - remote work
 thumbnail: In_search_of_a_CSS_developer_job_hjyrba
-description: I have spent a whole day in search of a CSS developer job without any luck.
+old_description: I have spent a whole day in search of a CSS developer job without any luck.
+description: Discover the unsuccessful journey of finding a CSS developer job on Twitter, search engines, LinkedIn, job boards, and company pages.
 type: articles-item
 sections2:
   - type: banner-beta

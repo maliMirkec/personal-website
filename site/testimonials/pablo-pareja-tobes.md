@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Pablo Pareja Tobes
-description: Pablo Pareja Tobes talks about his positive experience in working with Silvestar Bistrović.development.
+description: Read testimonial by Pablo Pareja Tobes in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

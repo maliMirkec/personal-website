@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Atika Interijeri
-description: Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture. The site runs on WordPress, DigitalOcean, and Cloudflare.
+description: I've worked on Atika Interijeri website. Atika Interijeri is a carpentry company specialized in creating different kinds of custom furniture.
 thumbnail: ai_u5b34y
 link: //atika-interijeri.hr
 display: false

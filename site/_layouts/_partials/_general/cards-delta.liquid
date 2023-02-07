@@ -3,8 +3,7 @@
     {% for card4 in pagination.items %}
       <div class="tilt card card--flex bg-lightish border-alpha" id="{{ forloop.index }}">
         <a class="db fz-step--2 padding bg-light border-alpha bottom-border text-center" href="{{ card4.url }}">
-          {% if site.author %}{{ site.author }} wrote on {% endif %}
-          {% if card4.date %}<time datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%Y-%m-%d" }}</time>:{% endif %}
+          On {% if card4.date %}<time datetime="{{ card4.date | date: "%Y-%m-%d" }}">{{ card4.date | date: "%B %e, %Y" }}</time>{% endif %}{% if site.author %} {{ site.author }} wrote:{% endif %}
         </a>
         <div class="padding">
           <div class="tilt__inner copy">{{ card4.data.content }}</div>

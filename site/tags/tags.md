@@ -2,7 +2,7 @@
 layout: tags
 title_suffix: Tagged
 subtitle_suffix: All content tagged
-description_suffix: All content on the SB site that is tagged
+description_suffix: Discover the latest articles and insights on “XXXYYY” on silvestar.codes. Find all the content related to “XXXYYY” topic and learn more about it.
 pagination:
   data: collections
   size: 1

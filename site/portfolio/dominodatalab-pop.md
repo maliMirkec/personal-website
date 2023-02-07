@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Domino Data Lab Pop-up
-description: Pop-up is a series of events that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving, and connecting the dots between quantitative research and business value.
+description: I've worked on DDL Pop-up website. Pop-up is a series of events that bring together the data science leaders of today and tomorrow.
 thumbnail: ddlp_mjllzg
 link: //popup.dominodatalab.com
 display: true

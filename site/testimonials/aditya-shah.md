@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Aditya Shah
-description: Aditya Shah talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Aditya Shah in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item

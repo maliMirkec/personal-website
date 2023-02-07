@@ -22,7 +22,7 @@
         {% endif %}
       </div>
       {% if title %}
-        <h1 class="fz-step-6 no-margin-top margin-bottom">{{ title | markdownifyi }}</h1>
+        <h1 class="{% if firstTag == 'story' %}fz-step-3{% else %}fz-step-6{% endif %} no-margin-top margin-bottom">{{ title | markdownifyi }}</h1>
       {% endif %}
       {% if series %}
         {% assign seriesList = collections['my-articles'] | findItem: 'series', series) | reverse %}
