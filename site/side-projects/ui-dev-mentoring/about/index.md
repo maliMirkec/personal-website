@@ -2,7 +2,8 @@
 layout: about
 title: The Programs
 navTitle: Programs
-description: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
+old_description: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
+description: Learn about the UI Development Mentoring project, a project dedicated to helping individuals grow their skills in UI development.
 ogImage: /gfx/jpg/ui-dev-mentoring.jpg
 tagline:
   - The goal of **The UI Development Mentoring Program** is to help everyone become a better UI developer.

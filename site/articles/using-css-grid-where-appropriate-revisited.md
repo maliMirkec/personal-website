@@ -7,7 +7,8 @@ tags:
   - css
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_revisited_kxxtlh
-description: Here's a follow-up on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
+old_description: Here's a follow-up on my last year's article "Using CSS Grid where appropriate." The goal is to find a solution for navigation with an unknown number of items.
+description: Revisiting the “Using CSS Grid where appropriate” article where you'll find a solution for navigation with variable number of items.
 type: articles-item
 sections2:
   - type: banner-beta

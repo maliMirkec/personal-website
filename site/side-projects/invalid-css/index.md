@@ -1,7 +1,8 @@
 ---
 layout: index
 title: Invalid CSS
-description: CSS declarations that are not valid and that I wish existed.
+old_description: CSS declarations that are not valid and that I wish existed.
+description: “Invalid CSS” is a project that features CSS declarations that are not valid and non-existing. None of CSS code provided was valid at the time of publishing.
 thumbnail: Invalid_CSS_jeizo0
 type: articles
 tags:

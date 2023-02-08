@@ -1,7 +1,7 @@
 ---
 layout: hugo
 title: About Making a website with Hugo
-description: Making a website with Hugo is a course for learning how to use Hugo.
+description: “Making a website with Hugo” is a course about using Hugo, a static site generator written in Go, for making a lightweight, fast and secure website.
 thumbnail: making-a-website-with-hugo-cover_kpek9x
 type: hugo
 ---

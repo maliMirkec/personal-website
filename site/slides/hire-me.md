@@ -1,7 +1,8 @@
 ---
 layout: slides
 title: Hire me
-description: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, and JAMstack technologies.
+old_description: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, and JAMstack technologies.
+description: Discover my professional portfolio and learn why I am the perfect fit for your next web development project through my Hire Me presentation slides.
 thumbnail: Hire_me_rndhfc
 date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
@@ -16,13 +17,13 @@ slides:
   - html: >-
       ## I prefer HTML, CSS, and JavaScript.
   - html: >-
-      ## [See portfolio](/portfolio/).
+      ## [See my portfolio](/portfolio/).
   - html: >-
-      ## [See testimonials](/testimonials/).
+      ## [See my testimonials](/testimonials/).
   - html: >-
-      ## [Download CV](/silvestar-bistrovic-cv.pdf).
+      ## [Download my CV](/silvestar-bistrovic-cv.pdf).
   - html: >-
       ## [Hire me](/contact/#form)!
   - html: >-
-      [Go back to site](/)
+      [Go back to the site](/)
 ---

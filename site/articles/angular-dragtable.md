@@ -6,7 +6,8 @@ tags:
   - angular
 date: 2017-02-03 12:41:54
 thumbnail: Angular_dragtable_ri1u0a
-description: Angular dragtable is an Angular directive that allows table column reorder.
+old_description: Angular dragtable is an Angular directive that allows table column reorder.
+description: Explore how to implement drag and drop functionality for tables with large amount of row in Angular with the Angular Dragtable library.
 type: articles-item
 sections2:
   - type: banner-beta

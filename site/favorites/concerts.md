@@ -1,7 +1,8 @@
 ---
 layout: index
 title: My concert favorites
-description: Silvestar's favorite concerts.
+old_description: Silvestar's favorite concerts.
+description: Explore the exhausting list of music concerts and festivals I attended. The list is long, so I grouped them into Epic, Favotite, and Others groups.
 type: favorite-concert
 tags:
   - favorite

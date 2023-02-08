@@ -7,7 +7,8 @@ tags:
   - css
   - bem
 thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m
-description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
+old_description: A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
+description: Discover the Alpha, Beta, Gamma naming convention and how it can help you in your web development projects in this in-depth article.
 type: articles-item
 sections2:
   - type: banner-beta

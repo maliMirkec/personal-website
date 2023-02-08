@@ -1,7 +1,8 @@
 ---
 layout: index
 title: Slides
-description: Collection of all slides available on my site.
+old_description: Collection of all slides available on my site.
+description: Discover the latest presentations on various web development topics and explore the latest ideas and best practices in the field.
 thumbnail: Slides_kke7ow
 type: articles
 sections:

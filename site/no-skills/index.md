@@ -1,7 +1,8 @@
 ---
 layout: index
 title: What I don't do
-description: This is the list of the things I don’t do because I don’t know how to.
+old_description: This is the list of the things I don’t do because I don’t know how to.
+description: Very often I am being asked to do things I don't know how to do. Here is the list of skills that I still need to acquire.
 type: stories
 thumbnail: What_I_don_t_do_oszvwu
 sections:
