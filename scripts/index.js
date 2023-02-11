@@ -10,6 +10,7 @@ try {
   let list2 = '';
   let list3 = '';
   let list4 = '';
+  let list5 = '';
 
   if(doc[0].list && doc[0].list.length) {
     doc[0].list.forEach(item => {
@@ -28,13 +29,21 @@ ${item.desc}
 ${item.desc}
 
 Link: ${item.link}
-Title: ${item.title}
-${item.handle ? 'Author: ' + item.handle : ''}
+${item.handle ? 'Via ' + item.handle : ''}
 
 -------------
 `
 
       list4 += `
+${item.desc}
+
+Link: ${item.link}
+${item.handle2 ? 'Via ' + item.handle2 : ''}
+
+-------------
+`
+
+      list5 += `
 ${item.desc}`
     })
   }
@@ -52,7 +61,7 @@ ${item.desc}`
 [${item.title}](${item.slink || item.link})
 ${item.desc}
 `
-      list4 += `
+      list5 += `
 ${item.desc}`
   })
   }
@@ -87,11 +96,6 @@ ${list2}
 [Subscribe to the newsletter here!](https://buttondown.email/starbist)
   `);
 
-
-  console.log('~~~~~~~~~~~~~')
-  console.log('UI Twitter')
-  console.log('~~~~~~~~~~~~~')
-
   let arr1 = doc[0].list
 
   if(doc[0].promotion) {
@@ -104,12 +108,22 @@ ${list2}
     return arr2.indexOf(d1) == d2
   })
 
+  const arr4 = arr1.map(d => d.handle2.split(' ')).flat().sort()
+
+  const arr5 = arr4.filter((d1, d2) => {
+    return arr4.indexOf(d1) == d2
+  })
+
+  console.log('~~~~~~~~~~~~~')
+  console.log('UI Twitter')
+  console.log('~~~~~~~~~~~~~')
+
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
 https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
-Featuring ${arr3.join(' ')}
+Featuring${arr3.join(' ')}
 
 -------------`)
 
@@ -120,12 +134,35 @@ Featuring ${arr3.join(' ')}
 
 https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
-Featuring ${arr3.join(' ')}
+Featuring${arr3.join(' ')}
+`)
+
+  console.log('~~~~~~~~~~~~~')
+  console.log('UI Mastodon')
+  console.log('~~~~~~~~~~~~~')
+
+  console.log(`
+🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
+
+https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+
+Featuring${arr5.join(' ')}
+
+-------------`)
+
+  console.log(list4);
+
+  console.log(`
+🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
+
+https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+
+Featuring${arr5.join(' ')}
 `)
 
 console.log(`-------------
 
-${list4}`);
+${list5}`);
 
   // if(!doc[0].slink || doc[0].slink === '') {
   //   console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nShorten the links!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')

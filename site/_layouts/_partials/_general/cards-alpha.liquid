@@ -19,31 +19,33 @@
             {% continue %}
           {% endif %}
         {% endif %}
-        <a class="card card--flex tilt text-center bg-lightish" href="{{ card1.url }}">
-          <div class="tilt__inner padding">
-            {% if card1.data.title %}
-              <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">{{ card1.data.title }}</h3>
-            {% endif %}
-            <div class="margin-bottom margin-left margin-right{% if cards1.noDate %} margin-top{% endif %}">
-              {% if card1.data.publication or card1Date %}
-                <div{% if card1.data.publication %} class="margin-top margin-bottom"{% endif %}>
-                  {% if card1.data.publication %}
-                    <span class="button button--small">{{ card1.data.publication }}</span>
-                  {% endif %}
-                  {% if card1Date and cards1.noDate != true %}
-                    <time class="button button--small button--invisible" datetime="{{ card1Date }}">{{ card1Date }}</time>
-                  {% endif %}
-                </div>
+        {% unless cards1.exclude == 'title' and title == card1.data.title %}
+          <a class="card card--flex tilt text-center bg-lightish" href="{{ card1.url }}">
+            <div class="tilt__inner padding">
+              {% if card1.data.title %}
+                <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">{{ card1.data.title }}</h3>
               {% endif %}
-              {% if cards1.cta %}
-                <div class="copy">{{ card1.data.description }}</div>
-              {% endif %}
+              <div class="margin-bottom margin-left margin-right{% if cards1.noDate %} margin-top{% endif %}">
+                {% if card1.data.publication or card1Date %}
+                  <div{% if card1.data.publication %} class="margin-top margin-bottom"{% endif %}>
+                    {% if card1.data.publication %}
+                      <span class="button button--small">{{ card1.data.publication }}</span>
+                    {% endif %}
+                    {% if card1Date and cards1.noDate != true %}
+                      <time class="button button--small button--invisible" datetime="{{ card1Date }}">{{ card1Date }}</time>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if cards1.cta and cards1.noDesc != true %}
+                  <div class="copy">{{ card1.data.description }}</div>
+                {% endif %}
+              </div>
             </div>
-          </div>
-          {% if cards1.cta %}
-            <span class="button df padding">{{ cards1.cta.title }}</span>
-          {% endif %}
-        </a>
+            {% if cards1.cta %}
+              <span class="button df padding">{{ cards1.cta.title }}</span>
+            {% endif %}
+          </a>
+        {% endunless %}
         {% assign i1 = i1 | plus: 1 %}
       {% endfor %}
       {% if cards1.desc %}

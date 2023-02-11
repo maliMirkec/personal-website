@@ -1,4 +1,76 @@
 [{
+    "date": "2023-02-13",
+    "link": "https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2023-02-13/",
+    "og": "https://www.silvestar.codes/gfx/jpg/ui-dev-newsletter-91.jpg",
+    "description": "CSS wish lists, JavaScript framework criticism, and more.",
+    "grammarly": "",
+    "list": [
+      {
+        "link": "https://daverupert.com/2023/01/css-wishlist-2023/",
+        "title": "CSS Wishlist 2023",
+        "desc": "Dave Rupert shares five CSS features he hopes will get released this year.",
+        "handle": "@davatron5000",
+        "handle2": "@davatron5000@mastodon.social"
+      },
+      {
+        "link": "https://meyerweb.com/eric/thoughts/2023/02/08/css-wish-list-2023/",
+        "title": "CSS Wish List 2023",
+        "desc": "Eric Meyer shares seventeen features on his CSS wishlist.",
+        "handle": "@meyerweb",
+        "handle2": "@Meyerweb@mastodon.social"
+      },
+      {
+        "link": "https://ishadeed.com/article/css-wishlist-2023/",
+        "title": "My CSS Wishlist",
+        "desc": "Ahmad Shadeed shares all the things that he hopes CSS to have one day.",
+        "handle": "@shadeed9",
+        "handle2": "@shadeed9@front-end.social"
+      },
+      {
+        "link": "https://chenhuijing.com/blog/debugging-firefox-on-android/",
+        "title": "Debugging Firefox on Android",
+        "desc": "Chen Hui Jing documents the step needed to debug a website on Firefox Android from macOS remotely.",
+        "handle": "@hj_chen",
+        "handle2": "@huijing@tech.lgbt"
+      },
+      {
+        "link": "https://www.matuzo.at/blog/2023/single-page-applications-criticism/",
+        "title": "Why I'm not the biggest fan of Single Page Applications",
+        "desc": "Manuel Matuzović shares his views and reasons why some developers, including himself, are wary of building SPAs.",
+        "handle": "",
+        "handle2": "@matuzo@front-end.social"
+      },
+      {
+        "link": "https://www.zachleat.com/web/react-criticism/",
+        "title": "A Historical Reference of React Criticism",
+        "desc": "Zach Leatherman summarizes critiques of React's SPA and client-side rendering model performance.",
+        "handle": "@zachleat",
+        "handle2": "@zachleat@zachleat.com"
+      },
+      {
+        "link": "https://andy-bell.co.uk/speed-for-who/",
+        "title": "Speed for who?",
+        "desc": "Andy Bell explains why developer experience matters little compared to user experience.",
+        "handle": "",
+        "handle2": "@andy@bell.bz"
+      },
+      {
+        "link": "https://www.projectwallace.com/blog/whats-new-jan-2023",
+        "title": "What's new in Project Wallace: January 2023",
+        "desc": "Bart Veneman shows the latest fixes and features of my favorite CSS project - Project Wallace.",
+        "handle": "@bartveneman @projectwallace",
+        "handle2": ""
+      }
+    ],
+    "promotion": [{
+      "type": "Self-promotion",
+      "link": "https://www.silvestar.codes/side-projects/invalid-css/",
+      "title": "Invalid CSS",
+      "desc": "CSS declarations that are not valid and that I wish existed.",
+      "handle": "",
+      "handle2": ""
+    }]
+  }, {
     "date": "2023-01-30",
     "link": "https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/2023-01-30/",
     "og": "https://www.silvestar.codes/gfx/jpg/ui-dev-newsletter-90.jpg",

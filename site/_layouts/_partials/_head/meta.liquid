@@ -1,6 +1,13 @@
 {%- if type == 'stories-item' -%}
   {%- assign title = 'Story #' | append: page.fileSlug -%}
 {%- endif -%}
+{% if descriptionPrefix and thisRead.description %}
+  {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
+{% endif %}
+{% if pagination.pageNumber %}
+  {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
+  {% assign title = title | append: ' #'| append: pageNumber %}
+{% endif %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
