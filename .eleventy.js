@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const { Liquid } = require("liquidjs");
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
@@ -8,13 +9,19 @@ const fs = require('fs')
 const package = require('./package.json')
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.setWatchJavaScriptDependencies(200);
+
   eleventyConfig.setBrowserSyncConfig({
     open: true,
   })
 
-  eleventyConfig.addWatchTarget("./assets/")
-
-  eleventyConfig.setWatchThrottleWaitTime(200)
+  let options = {
+    extname: ".liquid",
+    dynamicPartials: false,
+    strictFilters: false,
+    jsTruthy: true,
+    root: ["site/_layouts"]
+  };
 
   eleventyConfig.setLibrary(
     'md',
@@ -25,6 +32,8 @@ module.exports = (eleventyConfig) => {
       slugify: uslug
     })
   )
+
+  eleventyConfig.setLibrary("liquid", new Liquid(options));
 
   eleventyConfig.addPlugin(syntaxHighlight)
 

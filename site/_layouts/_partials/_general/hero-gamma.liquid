@@ -25,7 +25,7 @@
         <h1 class="{% if firstTag == 'story' %}fz-step-3{% else %}fz-step-6{% endif %} no-margin-top margin-bottom">{{ title | markdownifyi }}</h1>
       {% endif %}
       {% if series %}
-        {% assign seriesList = collections['my-articles'] | findItem: 'series', series) | reverse %}
+        {% assign seriesList = collections['my-articles'] | findItem: 'series', series | reverse %}
         {% assign seriesListLength = seriesList | size %}
         {% if seriesList and seriesListLength > 1 %}
           <div class="dib">

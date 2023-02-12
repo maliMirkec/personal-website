@@ -1,1 +1,4 @@
-<style>{% include ../../assets/dist/css/devcards.min.css %}</style>
+{% assign devcardsCritical = 'devcards' | criticalExists %}
+{% if devcardsCritical %}
+  <style>{{ 'devcards' | getCritical }}</style>
+{% endif %}
