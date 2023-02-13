@@ -8,10 +8,10 @@
         {% for read in reads %}
           {% unless latest == read %}
             {% if thisRead == read %}
-              {% assign readHref = {{ read.date }} | prepend: '#' %}
+              {% assign readHref = read.date | prepend: '#' %}
               {% assign readClass = 'target href static' %}
             {% else %}
-              {% assign readHref = {{ read.date }} | append: '/' | prepend: '/side-projects/ui-dev-mentoring/reads/' %}
+              {% assign readHref = read.date | append: '/' | prepend: '/side-projects/ui-dev-mentoring/reads/' %}
               {% assign readClass = 'notarget href static' %}
             {% endif %}
             <li>

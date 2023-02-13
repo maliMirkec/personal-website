@@ -29,4 +29,3 @@ sections:
       href: /contact/
       title: Hire me
 ---
-⚽
