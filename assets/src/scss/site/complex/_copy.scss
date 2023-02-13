@@ -45,12 +45,28 @@
 
   blockquote {
     font-size: 112.5%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 2rem;
-    border-left: .125rem dashed var(--color-alpha);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1rem 2rem;
+    border: .125rem dotted var(--color-alpha-light);
+    border-radius: 1rem;
+    position: relative;
+
+    &:after {
+      content: "Quote";
+      background-color: var(--color-alpha-light);
+      color: var(--color-dark);
+      font-size: 1rem;
+      line-height: 1.5;
+      letter-spacing: .125em;
+      text-transform: uppercase;
+      position: absolute;
+      right: 1.5rem;
+      top: 0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 1rem;
+      transform: translateY(-50%);
+    }
   }
 
   table {
@@ -117,6 +133,57 @@
     p {
       word-break: break-word;
     }
+  }
+}
+
+.copy--story {
+  background-color: var(--color-alpha-lighter);
+  border: .125rem dotted var(--color-alpha-light);
+  border-radius: 1rem;
+  padding: 2rem 2rem 10rem 2rem;
+  position: relative;
+
+  &:after {
+    content: "Story";
+    background-color: var(--color-alpha-light);
+    color: var(--color-dark);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .125em;
+    text-transform: uppercase;
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    transform: translateY(-50%);
+  }
+}
+
+.copy--invalid {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  background-color: var(--color-alpha-lighter);
+  border: .125rem dotted var(--color-alpha-light);
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+
+  &:after {
+    content: "Invalid CSS";
+    background-color: var(--color-alpha-light);
+    color: var(--color-dark);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .125em;
+    text-transform: uppercase;
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    transform: translateY(-50%);
   }
 }
 
