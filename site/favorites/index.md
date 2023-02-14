@@ -11,9 +11,6 @@ favorites:
       I am really struggling to be productive working from home.
 
       I miss my monitors and my chair and my piece. -.-
-pagination:
-  data: favorites
-  size: 12
 sections:
   - type: hero-alpha
     title: My favorites
