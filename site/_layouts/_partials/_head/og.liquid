@@ -15,19 +15,10 @@
 {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
 {% endif %}
-{% if page.url == "/side-projects/ui-dev-mentoring/reads/2023-02-13/" %}
-  <meta property="og:image" content="/.netlify/functions/og/?text={{  title }}">
-{% elsif thumbnail %}
+{% if thumbnail %}
   <meta property="og:image" content="{{ thumbnail | cldnrysrc }}">
-{% elsif ogImage %}
-  {% if pageNumber %}
-    {% assign ogSuffix = '-' | append: pageNumber | append: '.jpg' %}
-    <meta property="og:image" content="{{ ogImage | replace: '.jpg', ogSuffix }}">
-  {% else %}
-    <meta property="og:image" content="{{ ogImage }}">
-  {% endif %}
-{% elsif site.cover %}
-  <meta property="og:image" content="{{ site.cover | cldnrysrc }}">
+{% elsif title %}
+  <meta property="og:image" content="/.netlify/functions/og-img/?text={{ title | url_encode }}">
 {% endif %}
 {% if site.twitter %}
   <meta name="twitter:card" content="summary_large_image">

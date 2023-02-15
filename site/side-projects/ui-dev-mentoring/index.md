@@ -10,7 +10,6 @@ tags:
   - css
   - audit
 thumbnail: uidev_zn6018
-ogImage: /gfx/jpg/ui-dev-mentoring.jpg
 ctaApply: true
 display: true
 date: 2005-04-01
