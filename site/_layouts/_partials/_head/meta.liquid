@@ -1,12 +1,14 @@
+{% if pagination.pageNumber %}
+  {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
+  {% assign title = title | append: ' #'| append: pageNumber %}
+{% endif %}
 {%- if type == 'stories-item' -%}
   {%- assign title = 'Story #' | append: page.fileSlug -%}
 {%- endif -%}
 {% if descriptionPrefix and thisRead.description %}
   {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
-{% endif %}
-{% if pagination.pageNumber %}
-  {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
-  {% assign title = title | append: ' #'| append: pageNumber %}
+{% elsif descriptionPrefixAlt and pageNumber %}
+  {% assign description = descriptionPrefixAlt | append: ' #' | append: pageNumber | append: '.'  %}
 {% endif %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -66,16 +66,18 @@ ${item.desc}`
   })
   }
 
+  const docLink = `https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/`
+
   console.log('~~~~~~~~~~~~~')
   console.log('UI Newsletter')
   console.log('~~~~~~~~~~~~~')
 
   console.log(`
 <p style="margin:0">
-  <a style="display:block;background:#eee;padding:2rem;text-decoration:none" href="${doc[0].link}"><img alt="UI Dev Newsletter logo" class="tl-email-image" height="100" src="https://res.cloudinary.com/starbist/image/upload/v1619351897/uidevnewsletter-logo3_uhcdjf.png" style="margin: 0 auto;border: none;width: 400px;max-width: 400px;" width="400" /></a>
+  <a style="display:block;background:#eee;padding:2rem;text-decoration:none" href="${docLink}"><img alt="UI Dev Newsletter logo" class="tl-email-image" height="100" src="https://res.cloudinary.com/starbist/image/upload/v1619351897/uidevnewsletter-logo3_uhcdjf.png" style="margin: 0 auto;border: none;width: 400px;max-width: 400px;" width="400" /></a>
 </p>
 <div style="background:#fff;border:1px solid #eee;padding:2rem;text-align:left;">
-  <h1><a href="${doc[0].link}" target="_blank" style="text-decoration:none"><strong style="color:#FF3366">Issue #${doc.length}</strong></a></h1>
+  <h1><a href="${docLink}" target="_blank" style="text-decoration:none"><strong style="color:#FF3366">Issue #${doc.length}</strong></a></h1>
   <h5><strong>${doc[0].date}</strong></h5>
   <ul style="list-style:none;padding:0;margin:0">${list1}</ul>
   <p>Happy coding!</p>
@@ -172,9 +174,7 @@ ${list5}`);
     console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nAdd the description!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
   }
 
-  if(!doc[0].grammarly || doc[0].grammarly !== 'true') {
-    console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nCheck the grammar!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
-  }
+  console.error('\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nCheck the grammar!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n')
 } catch (e) {
   console.log(e);
 }
