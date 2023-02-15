@@ -8,8 +8,6 @@ exports.handler = async function (event) {
     console.log('browser');
     console.log(browser);
     const page = await browser.newPage()
-    console.log('page');
-    console.log(page);
     await page.goto(url)
     const buffer = await page.screenshot({
       fullPage: true
