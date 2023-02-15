@@ -1,17 +1,23 @@
 const puppeteer = require('puppeteer')
 
 exports.handler = async function (event) {
-  console.log(event);
   const url = event.rawUrl.replace('og-img', 'og-svg')
+  console.log('url');
   console.log(url);
 
   try {
     const browser = await puppeteer.launch()
+    console.log('browser');
+    console.log(browser);
     const page = await browser.newPage()
+    console.log('page');
+    console.log(page);
     await page.goto(url)
     const buffer = await page.screenshot({
       fullPage: true
     })
+    console.log('buffer');
+    console.log(buffer);
     await page.close()
     await browser.close()
 
