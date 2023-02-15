@@ -22,7 +22,6 @@ exports.handler = async function (event) {
       isBase64Encoded: true,
     }
   } catch (error) {
-    console.log(error)
     return {
       statusCode: 200,
       body: 'Error!',
