@@ -5,7 +5,7 @@ exports.handler = async function (event) {
 
   try {
     const browser = await puppeteer.launch()
-    console.log('browser');
+    console.log('browser:');
     console.log(browser);
     const page = await browser.newPage()
     await page.goto(url)
