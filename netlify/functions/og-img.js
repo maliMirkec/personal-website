@@ -2,8 +2,6 @@ const puppeteer = require('puppeteer')
 
 exports.handler = async function (event) {
   const url = event.rawUrl.replace('og-img', 'og-svg')
-  console.log('url');
-  console.log(url);
 
   try {
     const browser = await puppeteer.launch()
