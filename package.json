@@ -80,7 +80,7 @@
     "modularscale-sass": "^3.0.10",
     "normalize.css": "^8.0.1",
     "penthouse": "^2.3.3",
-    "puppeteer": "^19.7.1",
+    "puppeteer": "^18.2.1",
     "sass-mq": "5.0.1",
     "stylelint": "^13.13.1",
     "stylelint-config-sass-guidelines": "^8.0.0",
