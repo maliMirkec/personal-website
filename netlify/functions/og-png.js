@@ -4,7 +4,6 @@ const sharp = require('sharp')
 exports.handler = async function (event) {
   try {
     let textArray = []
-    let lineLength = 0
     let line = ''
     const offset = 30
     let text = 'Home of fearless web developer Silvestar Bistrović'
@@ -16,12 +15,12 @@ exports.handler = async function (event) {
     let words = text.split(' ')
 
     for (let i = 0; i < words.length; i++) {
-      if(lineLength + words[i].length < offset) {
-        lineLength += words[i].length;
+      if(line.length + words[i].length < offset) {
+        line.length += words[i].length;
         line += ` ${words[i]}`
       } else {
         textArray.push(line)
-        lineLength = words[i].length
+        line.length = words[i].length
         line = words[i]
       }
 
