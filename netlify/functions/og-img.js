@@ -1,21 +1,26 @@
-const puppeteer = require('puppeteer')
+// const puppeteer = require('puppeteer')
+const { chromium } = require("playwright");
 
 exports.handler = async function (event) {
   const url = event.rawUrl.replace('og-img', 'og-svg')
 
   try {
-    const browser = await puppeteer.launch()
-    console.log('browser:');
-    console.log(browser);
-    const page = await browser.newPage()
-    await page.goto(url)
-    const buffer = await page.screenshot({
-      fullPage: true
-    })
-    console.log('buffer');
+    let browser = await chromium.launch();
+
+    let page = await browser.newPage();
+    await page.goto(url);
+    const buffer = await page.screenshot();
     console.log(buffer);
-    await page.close()
-    await browser.close()
+    await browser.close();
+
+    // const browser = await puppeteer.launch()
+    // const page = await browser.newPage()
+    // await page.goto(url)
+    // const buffer = await page.screenshot({
+    //   fullPage: true
+    // })
+    // await page.close()
+    // await browser.close()
 
     return {
       statusCode: 200,
