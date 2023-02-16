@@ -9,7 +9,6 @@ tags:
   - projects
   - css
   - audit
-thumbnail: uidev_zn6018
 ctaApply: true
 display: true
 date: 2005-04-01

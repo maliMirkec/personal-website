@@ -1,6 +1,8 @@
 ---
 layout: resources
 title: Resources
+titlePrefix: "UI Dev Mentoring Program: "
+navTitle: Resources
 old_description: I have collected and organized resources to help you learn and get the first UI developer job more efficiently.
 description: Get access to useful resources and materials to help you in your journey as a UI developer through UI Development Mentoring program. Explore now!
 tagline:

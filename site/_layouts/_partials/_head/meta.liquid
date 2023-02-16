@@ -5,6 +5,9 @@
 {%- if type == 'stories-item' -%}
   {%- assign title = 'Story #' | append: page.fileSlug -%}
 {%- endif -%}
+{% if titlePrefix %}
+  {%- assign title = titlePrefix | append: title -%}
+{% endif %}
 {% if descriptionPrefix and thisRead.description %}
   {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
 {% elsif descriptionPrefixAlt and pageNumber %}

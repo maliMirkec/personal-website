@@ -2,7 +2,9 @@
 <section>
   <ul>
     {% for slide in my-slides %}
-      <li><a href="{{ slide.url }}">{{ slide.data.title }} ⇢</a></li>
+      {% if slide.data.type == 'mentor' %}
+        <li><a href="{{ slide.url }}">{{ slide.data.title }} ⇢</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
