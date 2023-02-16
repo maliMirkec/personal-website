@@ -36,7 +36,7 @@
     "dev-gulp": "killify && gulp build && (npm run eleventy-dev & gulp watch)",
     "prod": "killify && gulp build && gulp critical && (npm run eleventy-prod & gulp watch)",
     "build-dev": "gulp build && gulp critical && npm run eleventy-build && npm run cp-dev",
-    "build-prod": "npx playwright install && gulp build && gulp critical && npm run eleventy-build && npm run cp-prod"
+    "build-prod": "gulp build && gulp critical && npm run eleventy-build && npm run cp-prod"
   },
   "devDependencies": {
     "puppeteer": "^19.7.1"
