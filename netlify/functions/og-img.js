@@ -14,6 +14,7 @@ exports.handler = async function (event) {
     await browser.close()
 
     console.log('buffer');
+
     console.log(buffer);
 
     return {
