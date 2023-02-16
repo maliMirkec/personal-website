@@ -46,6 +46,7 @@
     "@netlify/plugin-sitemap": "^0.8.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "base-64": "^1.0.0",
     "browser-sync": "^2.27.11",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
