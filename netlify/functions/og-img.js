@@ -13,6 +13,8 @@ exports.handler = async function (event) {
     await page.close()
     await browser.close()
 
+    console.log(buffer);
+
     return {
       statusCode: 200,
       body: buffer.toString('base64'),
