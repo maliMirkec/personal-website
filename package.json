@@ -38,7 +38,6 @@
     "build-dev": "gulp build && gulp critical && npm run eleventy-build && npm run cp-dev",
     "build-prod": "gulp build && gulp critical && npm run eleventy-build && npm run cp-prod"
   },
-  "devDependencies": {},
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
@@ -49,6 +48,7 @@
     "babel-loader": "^8.2.2",
     "base-64": "^1.0.0",
     "browser-sync": "^2.27.11",
+    "chrome-aws-lambda": "^10.1.0",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.0",
