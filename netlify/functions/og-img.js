@@ -1,25 +1,26 @@
-const puppeteer = require('puppeteer')
+// const captureWebsite = require('capture-website')
 
 exports.handler = async function (event) {
   try {
-    const url = event.rawUrl.replace('og-img', 'og-svg')
+    return {
+      statusCode: 200,
+      body: 'Success!',
+      headers: {
+        "content-type": "text"
+      }
+    }
 
-    const browser = await puppeteer.launch()
-    const page = await browser.newPage()
-    await page.goto(url)
-    const buffer = await page.screenshot({
-      fullPage: true
-    })
-    await page.close()
-    await browser.close()
+    // const url = event.rawUrl.replace('og-img', 'og-svg')
 
-    console.log('buffer');
+    // const buffer = captureWebsite.buffer(url)
 
-    console.log(buffer);
+    // console.log('buffer');
+
+    // console.log(buffer);
 
     return {
       statusCode: 200,
-      body: buffer.toString('base64'),
+      // body: buffer.toString('base64'),
       headers: {
         "content-type": "image/jpeg"
       },

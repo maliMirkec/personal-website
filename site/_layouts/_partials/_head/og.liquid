@@ -18,7 +18,7 @@
 {% if thumbnail %}
   <meta property="og:image" content="{{ thumbnail | cldnrysrc }}">
 {% elsif title %}
-  <meta property="og:image" content="/.netlify/functions/og-img/?text={{ title | url_encode }}">
+  <meta property="og:image" content="/.netlify/functions/og-png/?text={{ title | url_encode }}">
 {% endif %}
 {% if site.twitter %}
   <meta name="twitter:card" content="summary_large_image">
