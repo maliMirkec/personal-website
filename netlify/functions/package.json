@@ -1,0 +1,14 @@
+{
+  "name": "og-img",
+  "version": "0.0.1",
+  "description": "",
+  "main": "og-img.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Silvestar Bistrović <me@silvestar.codes> (https://www.silvestar.codes/)",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^19.7.1"
+  }
+}
