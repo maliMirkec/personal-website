@@ -3,7 +3,7 @@ layout: apply
 title: Apply to the program
 titlePrefix: "UI Dev Mentoring Program: "
 navTitle: "Apply"
-old_description: Apply for The UI Development Mentoring Program today and become a better UI developer.
+descriptionAlt: Apply for The UI Development Mentoring Program today and become a better UI developer.
 description: Apply to become a UI Development Mentee and learn from the experience and knowledge in a personalized mentorship program. Join the program today!
 tagline:
   - There is no better time than now.

@@ -1,11 +1,12 @@
 ---
 layout: index
 title: John Ganotis
+titlePrefix: "Testimional by "
 description: Read testimonial by John Ganotis in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: cci_ohuha5
+projectThumbnail: cci_ohuha5
 logo: cci_xk4gjk
 avatar: jg_lqw7xd
 date: 2003-01-01

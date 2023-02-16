@@ -1,11 +1,12 @@
 ---
 layout: index
 title: David Schulman
+titlePrefix: "Testimional by "
 description: Read testimonial by David Schulman in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ddl_mypfrt
+projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: ds_ste3yw
 date: 2000-01-04

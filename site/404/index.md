@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Page Not Found - Error 404
+title: Page not found - Error 404
 description: This is a terrible situation. That means there is no content on this link.
 permalink: 404.html
 noindex: true

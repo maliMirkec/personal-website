@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Rachel Ivey
+titlePrefix: "Testimional by "
 description: Read testimonial by Rachel Ivey in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ww_hceizq
+projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: ri_bekodu
 date: 2005-01-03

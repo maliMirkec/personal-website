@@ -16,7 +16,7 @@ sections2:
     banner: newsletter
 ---
 
-I was doing my [Advent of UI Components](/side-projects/advent/), and I stumbled upon the [`from-font`](https://css-tricks.com/almanac/properties/t/text-decoration-thickness/#aa-values) value for the `text-decoration-thickness` CSS property. I was curious about it, so I did a little research and I think what I found (and learned) is both interesting and worth sharing.
+I was doing my [Advent of UI components](/side-projects/advent/), and I stumbled upon the [`from-font`](https://css-tricks.com/almanac/properties/t/text-decoration-thickness/#aa-values) value for the `text-decoration-thickness` CSS property. I was curious about it, so I did a little research and I think what I found (and learned) is both interesting and worth sharing.
 
 ## About the `from-font` value
 

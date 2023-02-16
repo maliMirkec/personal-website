@@ -9,8 +9,8 @@
           {% break %}
         {% endif %}
         {% unless cards3.exclude == 'true' or title == card3.data.title %}
-          <div class="card text-center">
-            {% if card3.data.thumbnail %}
+          {% if card3.data.thumbnail or card3.data.thumbnailAlt %}
+            <div class="card text-center">
               <a class="dib margin no-margin-bottom" href="{{ card3.url }}">
                 {% if cards3.width %}
                   {% assign card3Width = cards3.width %}
@@ -22,7 +22,12 @@
                 {% else %}
                   {% assign card3Height = 304 %}
                 {% endif %}
-                {% cldnry card3.data.thumbnail card3.data.title card3Width card3Height %}
+                {% if card3.data.thumbnail %}
+                  {% cldnry card3.data.thumbnail card3.data.title card3Width card3Height %}
+                {% endif %}
+                {% if card3.data.thumbnailAlt %}
+                  {% cldnry card3.data.thumbnailAlt card3.data.title card3Width card3Height %}
+                {% endif %}
                 {% if card3.data.title %}
                   <span class="db padding no-padding-top">
                     <h3 class="fz-step-3 no-spacing">{{ card3.data.title }}</h3>
@@ -32,8 +37,8 @@
                   <span class="button button--small button--outline">{{ cards3.cta.title }}</span>
                 {% endif %}
               </a>
-            {% endif %}
-          </div>
+            </div>
+          {% endif %}
           {% assign i3 = i3 | plus: 1 %}
         {% endunless %}
       {% endfor %}

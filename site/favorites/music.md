@@ -1,7 +1,7 @@
 ---
 layout: index
 title: My music favorites
-old_description: Silvestar's favorite music bands and artists.
+descriptionAlt: Silvestar's favorite music bands and artists.
 description: Explore my favorite music bands and artists. There are many many more, but these are the first ones that come up to my mind.
 type: side-projects-item
 tags:

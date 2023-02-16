@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Bob Laurent
+titlePrefix: "Testimional by "
 description: Read testimonial by Bob Laurent in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ddl_mypfrt
+projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: bl_krlunh
 date: 2000-01-03

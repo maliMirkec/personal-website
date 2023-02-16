@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Adam Maschek
+titlePrefix: "Testimional by "
 description: Read testimonial by Adam Maschek in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ww_hceizq
+projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: am_zanda5
 date: 2005-01-01

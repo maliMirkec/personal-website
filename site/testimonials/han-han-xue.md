@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Han Han Xue
+titlePrefix: "Testimional by "
 description: Read testimonial by Han Han Xue in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: hhx_p45br6
+projectThumbnail: hhx_p45br6
 logo: hhx_nntltz
 avatar: hhx_iu8agl
 date: 2009-01-01

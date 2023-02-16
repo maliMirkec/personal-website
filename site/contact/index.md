@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Contact Me
+title: Contact me
 description: Feel free to contact Silvestar. He is a fearless web developer who enjoys writing HTML,CSS, and JavaScript code.
 type: page
 sections:

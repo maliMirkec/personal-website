@@ -1,9 +1,10 @@
 ---
 layout: slides
 title: Hire me
-old_description: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, and JAMstack technologies.
+titlePrefix: "Slides: "
+descriptionAlt: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, and JAMstack technologies.
 description: Discover my professional portfolio and learn why I am the perfect fit for your next web development project through my Hire Me presentation slides.
-thumbnail: Hire_me_rndhfc
+thumbnailAlt: Hire_me_rndhfc
 date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
 tags:

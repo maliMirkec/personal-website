@@ -8,7 +8,7 @@ tags:
   - css
   - javascript
 thumbnail: tools-for-auditing-css_ojcnov
-old_description: "Auditing CSS is not a common task in a developer's everyday life, but sometimes you just have to do it. To do it, I usually reach for some of the tools I'll cover in the article."
+descriptionAlt: "Auditing CSS is not a common task in a developer's everyday life, but sometimes you just have to do it. To do it, I usually reach for some of the tools I'll cover in the article."
 description: "Streamline your CSS auditing process with this developer's guide. Discover the tools you need to tackle the task effectively."
 publication: CSS Tricks
 canonical: https://css-tricks.com/tools-for-auditing-css/

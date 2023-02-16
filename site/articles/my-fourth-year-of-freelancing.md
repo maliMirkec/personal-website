@@ -7,7 +7,7 @@ tags:
   - freelance
   - remote work
 thumbnail: My_Fourth_Year_Of_Freelancing_eg13ch.jpg
-old_description: My fourth year of freelancing was a great success, but now it is time to go full-time.
+descriptionAlt: My fourth year of freelancing was a great success, but now it is time to go full-time.
 description: Reflect on my journey as a freelancer in the past four years and read insights on balancing clients, personal projects and learning as a remote worker.
 type: articles-item
 sections2:

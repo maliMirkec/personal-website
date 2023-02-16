@@ -1,7 +1,7 @@
 ---
 layout: index
 title: How I built this website
-old_description: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
+descriptionAlt: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
 description: This website is built with Hexo, hosted on Netlify and protected by Cloudflare. It's featured on JAMStack site as an example.
 type: page
 sections:

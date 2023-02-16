@@ -8,7 +8,7 @@ tags:
   - shopify
   - web development
 thumbnail: nightmare-dx-shopify_ejavvl
-old_description: This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
+descriptionAlt: This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
 description: The first in a series about poor developer experience, this article covers Shopify and it's friendliness to developers.
 type: articles-item
 sections2:

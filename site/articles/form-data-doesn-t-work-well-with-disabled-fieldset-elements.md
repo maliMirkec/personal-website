@@ -7,7 +7,7 @@ tags:
   - javascript
   - forms
 thumbnail: FormData_doesn_t_include_disabled_fieldsets_vzyasd
-old_description: If you want to disable the fieldset element, you should do it after using the FormData constructor.
+descriptionAlt: If you want to disable the fieldset element, you should do it after using the FormData constructor.
 description: Discover the issue with form data and disabled fieldset elements in this comprehensive article. Learn how to effectively handle form data in web dev projects.
 type: articles-item
 sections2:

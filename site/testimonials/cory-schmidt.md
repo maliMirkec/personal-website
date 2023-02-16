@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Cory Schmidt
+titlePrefix: "Testimional by "
 description: Read testimonial by Cory Schmidt in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: wm_wh4yse
+projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: cs_tru73j
 date: 1999-01-01

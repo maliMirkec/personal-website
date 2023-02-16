@@ -1,11 +1,10 @@
 ---
 layout: index
-title: Stories
-old_description: Here are some random thoughts and notes about work, web development, and everything else.
+title: My stories
+descriptionAlt: Here are some random thoughts and notes about work, web development, and everything else.
 description: Discover my personal stories and thoughts on my journey in the web development world. Explore unique perspectives and insights.
 type: stories
-thumbnail:
-  Just_random_thoughts_and_notes_from_yours_truly_qpudch
+thumbnailAlt: Just_random_thoughts_and_notes_from_yours_truly_qpudch
 sections:
   - type: hero-alpha
     title: Stories

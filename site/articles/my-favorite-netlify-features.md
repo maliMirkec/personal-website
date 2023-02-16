@@ -11,7 +11,7 @@ tags:
 publication: CSS Tricks
 canonical: https://css-tricks.com/my-favorite-netlify-features/
 thumbnail: My_favorite_Netlify_features_lied4i
-old_description: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
+descriptionAlt: "Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. Yet, there is one particular platform that stands out with its formidable products and features—Netlify."
 description: "Experience the magic of JAMstack development with Netlify. See why this platform is a standout choice for developers in 2019."
 type: articles-item
 sections2:

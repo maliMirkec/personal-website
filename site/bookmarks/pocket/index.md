@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Pocket Bookmarks
-old_description: Pocket bookmarks export file.
+title: Pocket bookmarks
+descriptionAlt: Pocket bookmarks export file.
 description: Discover my favorite articles and resources saved in Pocket for web development, frontend, user interface, design, and more.
 date: 2017-08-02 20:08:06
 type: page

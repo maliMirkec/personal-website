@@ -1,9 +1,9 @@
 ---
 layout: index
-title: Slides
-old_description: Collection of all slides available on my site.
+title: My slides
+descriptionAlt: Collection of all slides available on my site.
 description: Discover the latest presentations on various web development topics and explore the latest ideas and best practices in the field.
-thumbnail: Slides_kke7ow
+thumbnailAlt: Slides_kke7ow
 type: articles
 sections:
   - type: hero-alpha

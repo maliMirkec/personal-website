@@ -7,7 +7,7 @@ tags:
   - server
 date: 2016-09-05 17:11:14
 thumbnail: Perfect_local_server_with_Atom_ucayec
-old_description: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
+descriptionAlt: Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my Atom.
 description: As an experienced developer, I seek simple solutions for most tasks and found them in Atom for streamlined development.
 type: articles-item
 sections2:

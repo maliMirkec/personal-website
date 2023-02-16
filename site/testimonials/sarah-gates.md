@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Sarah Gates
+titlePrefix: "Testimional by "
 description: Read testimonial by Sarah Gates in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ddl_mypfrt
+projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: sg_ensdvf
 date: 2000-01-02

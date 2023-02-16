@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Rebecca Jacobs
+titlePrefix: "Testimional by "
 description: Read testimonial by Rebecca Jacobs in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: cs_zg7xpc
+projectThumbnail: cs_zg7xpc
 logo: cs_zg7xpc
 avatar: rj_tducdx
 date: 2006-01-01

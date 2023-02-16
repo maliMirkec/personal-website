@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Edo liberty
+titlePrefix: "Testimional by "
 description: Read testimonial by Edo liberty in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: pc_h99bkn
+projectThumbnail: pc_h99bkn
 logo: pinecone-logo_ybycgg
 avatar: el2_ptyk3k
 order: 400

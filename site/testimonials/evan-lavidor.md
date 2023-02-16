@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Evan Lavidor
+titlePrefix: "Testimional by "
 description: Read testimonial by Evan Lavidor in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: b_csao4p
+projectThumbnail: b_csao4p
 logo: bm_qlnuvi
 avatar: el_keb12t
 date: 2007-01-01

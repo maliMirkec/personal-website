@@ -2,7 +2,6 @@
     "date": "2023-02-13",
     "og": "https://www.silvestar.codes/gfx/jpg/ui-dev-newsletter-91.jpg",
     "description": "CSS wish lists, JavaScript framework criticism, and more.",
-    "grammarly": "true",
     "list": [
       {
         "link": "https://daverupert.com/2023/01/css-wishlist-2023/",
@@ -404,7 +403,7 @@
       "type": "Self-promotion",
       "link": "https://www.silvestar.codes/side-projects/advent/",
       "slink": "https://bit.ly/3GjNq7u",
-      "title": "Advent of UI Components",
+      "title": "Advent of UI components",
       "desc": "I am building a new UI Christmas component for every day of advent. 🎄",
       "handle": ""
     }]
@@ -3810,7 +3809,7 @@
       },
       {
         "link": "https://bit.ly/3nBqhEv",
-        "title": "Creating UI Components in SVG",
+        "title": "Creating UI components in SVG",
         "desc": "Sarah Drasner illustrates the possibilities that SVG opens up for UI component development by walking through and breaking down one particular use case, the timeline.",
         "handle": "@sarah_edo",
         "hash": "#svg"

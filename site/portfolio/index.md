@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Portfolio
+title: My portfolio
 description: Here are the projects that make Silvestar proud the most. Projects are built with WordPress, Shopify, Jekyll, and Hugo, among others.
 type: portfolio
 sections:

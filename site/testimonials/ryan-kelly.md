@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Ryan Kelly
+titlePrefix: "Testimional by "
 description: Read testimonial by Ryan Kelly in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: ddl_mypfrt
+projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: rk_vbck3b
 date: 2000-01-05

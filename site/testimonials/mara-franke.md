@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Mara Franke
+titlePrefix: "Testimional by "
 description: Read testimonial by Mara Franke in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: wm_wh4yse
+projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: mf_jkcuyp
 date: 1999-01-02

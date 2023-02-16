@@ -7,7 +7,7 @@ tags:
   - cld
   - open source
 thumbnail: The_first_year_of_my_side_project_Code_Line_Daily_iwubhe
-old_description: "It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way."
+descriptionAlt: "It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way."
 description: A year since launching my side project Code Line Daily, I wanted to reintroduce the project and discuss challenges faced.
 project:
   name: Code Line Daily

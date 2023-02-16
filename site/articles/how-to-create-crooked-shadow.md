@@ -7,7 +7,7 @@ tags:
   - box-shadow
 date: 2017-07-25 16:10:31
 thumbnail: How_to_create_crooked_shadow_cpq1ze
-old_description: Recently I was working on a very interesting and challenging project. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border.
+descriptionAlt: Recently I was working on a very interesting and challenging project. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border.
 description: I recently worked on a challenging project and had to add a shadow on a crooked border. Here is how I made it.
 type: articles-item
 sections2:

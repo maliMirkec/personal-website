@@ -1,8 +1,8 @@
 ---
 layout: index
-title: Advent of UI Components
-old_description: For every day of advent I am showcasing a new UI Component. The theme? You guessed it ― Christmas. 🎄
-description: During every day of the Advent of UI Components, I am building a new UI Component. The theme? You guessed it ― Christmas. 🎄
+title: Advent of UI components
+descriptionAlt: For every day of advent I am showcasing a new UI Component. The theme? You guessed it ― Christmas. 🎄
+description: During every day of the Advent of UI components, I am building a new UI Component. The theme? You guessed it ― Christmas. 🎄
 thumbnail: Advent_of_UI_components_nvaz4h
 type: articles
 tags:
@@ -11,7 +11,7 @@ tags:
 date: 2005-03-01
 sections:
   - type: hero-alpha
-    title: Advent of UI Components
+    title: Advent of UI components
     desc: >-
       For every day of advent I am building a new UI Component.
 

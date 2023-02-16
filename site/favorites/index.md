@@ -1,7 +1,7 @@
 ---
 layout: index
 title: My favorites
-old_description: Silvestar's favorite TV shows, characters, writers, books, bands, artists, and more.
+descriptionAlt: Silvestar's favorite TV shows, characters, writers, books, bands, artists, and more.
 description: Explore my favorite TV shows, characters, writers, books, bands, artists, and more. Mostly stuff unrelated to my professional career.
 type: favorites
 thumbnail:

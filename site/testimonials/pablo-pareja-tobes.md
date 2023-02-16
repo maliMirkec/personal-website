@@ -1,11 +1,12 @@
 ---
 layout: index
 title: Pablo Pareja Tobes
+titlePrefix: "Testimional by "
 description: Read testimonial by Pablo Pareja Tobes in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
-thumbnail: yb_urvwkg
+projectThumbnail: yb_urvwkg
 logo: yt_iyy37j
 avatar: ppt_bvwjey
 date: 2008-01-01
