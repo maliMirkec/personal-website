@@ -22,14 +22,17 @@ exports.handler = async function (event) {
     // await page.close()
     // await browser.close()
 
-    return {
-      statusCode: 200,
-      body: buffer.toString('base64'),
-      headers: {
-        "content-type": "image/jpeg"
-      },
-      isBase64Encoded: true,
-    }
+
+
+
+    // return {
+    //   statusCode: 200,
+    //   body: buffer.toString('base64'),
+    //   headers: {
+    //     "content-type": "image/jpeg"
+    //   },
+    //   isBase64Encoded: true,
+    // }
   } catch (error) {
     console.log(error);
     return {
