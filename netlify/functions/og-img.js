@@ -13,6 +13,7 @@ exports.handler = async function (event) {
     await page.close()
     await browser.close()
 
+    console.log('buffer');
     console.log(buffer);
 
     return {

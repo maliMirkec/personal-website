@@ -6,12 +6,12 @@ module.exports = {
   //  - the file/directory already exists locally
   //  - the file/directory has not been cached yet
   async onPreBuild({ utils }) {
-    await utils.cache.restore('/opt/buildhome/.cache/puppeteer/'); // for Netlify Puppeteer
+    await utils.cache.restore('/home/sbx_user1051/.cache/puppeteer/'); // for Netlify Puppeteer
   },
   // Cache file/directory for future builds.
   // Does not do anything if:
   //  - the file/directory does not exist locally
   async onPostBuild({ utils }) {
-    await utils.cache.save('/opt/buildhome/.cache/puppeteer/'); // for Netlify Puppeteer
+    await utils.cache.save('/home/sbx_user1051/.cache/puppeteer/'); // for Netlify Puppeteer
   }
 };
