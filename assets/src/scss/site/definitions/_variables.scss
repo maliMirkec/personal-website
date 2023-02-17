@@ -96,6 +96,7 @@ $angle: .5deg;
   --step-0: #{$font-size-lg};
   --step--1: #{$font-size-lg * 0.9};
   --step--2: #{$font-size-lg * 0.8};
+  --step--3: #{$font-size-lg * 0.7};
   --line-height1: #{$lh1};
   --line-height2: #{$lh2};
   --letter-spacing: #{$lsp};
@@ -133,6 +134,7 @@ $angle: .5deg;
     --step-0: #{$font-size-sm};
     --step--1: #{$font-size-sm * 0.888};
     --step--2: #{$font-size-sm * 0.777};
+    --step--3: #{$font-size-sm * 0.666};
 
     // Spacing
     --space-default: #{$space-default-min};

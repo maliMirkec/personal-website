@@ -1,0 +1,17 @@
+@keyframes waiting {
+  0% {
+    content: "Waiting.";
+  }
+  33% {
+    content: "Waiting..";
+  }
+  66% {
+    content: "Waiting...";
+  }
+}
+
+@keyframes ad {
+  to {
+    background-position: 100% 0;
+  }
+}

@@ -30,7 +30,7 @@ const gallery = () => {
   // Get the transition timeout from CSS
   const getTimeouts = () => {
     const durationOn = parseFloat(getComputedStyle(document.documentElement)
-      .getPropertyValue('--duration'));
+      .getPropertyValue('--duration'))
 
     timeout = parseFloat(durationOn) * 1000
   }
@@ -277,3 +277,31 @@ const gallery = () => {
 }
 
 gallery()
+
+const lastfm = () => {
+  const $lastfm = document.querySelector('.js-lastfm')
+
+  if ($lastfm) {
+    fetch('/api/lastfm')
+      .then(response => response.json())
+      .then(data => {
+        if (data) {
+          data.forEach((item, i) => {
+            if (i < 5) {
+              const a = document.createElement('a')
+              a.href = item.trackUrl
+              a.innerHTML = `${item.artist} - ${item.track}`
+              $lastfm.appendChild(a)
+            }
+          })
+        }
+      })
+      .catch(err => {
+        const span = document.createElement('span')
+        span.innerHTML = 'Cannot load data.'
+        // $lastfm.appendChild(span)
+      })
+  }
+}
+
+lastfm()

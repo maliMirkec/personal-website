@@ -296,12 +296,3 @@
     animation: waiting 3s steps(3, end) infinite;
   }
 }
-
-@keyframes waiting {
-  33% {
-    content: "Waiting..";
-  }
-  66% {
-    content: "Waiting...";
-  }
-}

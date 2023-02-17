@@ -1,0 +1,28 @@
+.lastfm {
+  font-size: var(--step--3);
+  text-align: center;
+
+  p {
+    a {
+      margin-left: .25em;
+      margin-right: .25em;
+
+      &:before {
+        content: "♪";
+        margin-left: .5em;
+        margin-right: .5em;
+      }
+    }
+  }
+}
+
+.lastfm__tracks {
+  &:empty {
+    display: block;
+
+    &:before {
+      content: "Waiting.";
+      animation: waiting 3s steps(3, end) infinite;
+    }
+  }
+}

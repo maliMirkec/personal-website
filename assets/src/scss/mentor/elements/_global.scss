@@ -38,16 +38,6 @@ body {
   }
 }
 
-@keyframes wow {
-  from {
-    transform: translateX(-100%);
-  }
-
-  to {
-    transform: translateX(100%);
-  }
-}
-
 .row {
   display: grid;
   grid-template-columns: 1fr;
@@ -76,5 +66,15 @@ body {
 
   .row {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@keyframes wow {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(100%);
   }
 }
