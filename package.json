@@ -26,7 +26,7 @@
     "cp-dev": "npm run cp-redirects & npm run cp-headers & npm run cp-cv & npm run cp-robots-dev",
     "cp-prod": "npm run cp-redirects & npm run cp-headers & npm run cp-cv & npm run cp-robots-prod",
     "rm-critical": "rm -rf assets/src/scss/critical/*.css",
-    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet --watch",
+    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
     "eleventy-preview": "env ELEVENTY_ENV=preview npx @11ty/eleventy --quiet",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
