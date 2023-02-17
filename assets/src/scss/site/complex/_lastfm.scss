@@ -18,6 +18,7 @@
 
 .lastfm__tracks {
   &:empty {
+    background: #333;
     display: block;
 
     &:before {

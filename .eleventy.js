@@ -206,7 +206,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.watchIgnores.delete("assets/dist/*");
+  eleventyConfig.addWatchTarget("assets/dist");
+  eleventyConfig.ignores.add("assets/dist");
 
   eleventyConfig.addPassthroughCopy({
     "assets/dist": "."

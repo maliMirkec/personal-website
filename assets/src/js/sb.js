@@ -282,7 +282,7 @@ const lastfm = () => {
   const $lastfm = document.querySelector('.js-lastfm')
 
   if ($lastfm) {
-    fetch('/api/lastfm')
+    fetch('/api/lastfm.js')
       .then(response => response.json())
       .then(data => {
         if (data) {
@@ -299,7 +299,7 @@ const lastfm = () => {
       .catch(err => {
         const span = document.createElement('span')
         span.innerHTML = 'Cannot load data.'
-        // $lastfm.appendChild(span)
+        $lastfm.appendChild(span)
       })
   }
 }
