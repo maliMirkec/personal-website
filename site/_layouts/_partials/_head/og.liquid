@@ -18,7 +18,11 @@
 {% if thumbnail %}
   <meta property="og:image" content="{{ thumbnail | cldnrysrc }}">
 {% elsif title %}
-  <meta property="og:image" content="/.netlify/functions/og-png/?text={{ title | url_encode }}">
+  {% if page.url contains "no-ads" %}
+    <meta property="og:image" content="/.netlify/functions/og-svg/?text={{ title | url_encode }}">
+  {% else %}
+    <meta property="og:image" content="/.netlify/functions/og-png/?text={{ title | url_encode }}">
+  {% endif %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 {% endif %}
