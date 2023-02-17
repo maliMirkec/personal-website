@@ -1,7 +1,7 @@
 var base64 = require('base-64')
 const utf8 = require('utf8')
 
-exports.handler = function (event) {
+exports.handler = async function (event) {
   let fontSize = 60
   let lineHeight = 1.2
   let text = 'Home of fearless web developer Silvestar Bistrović'
