@@ -23,3 +23,4 @@
 /about-me/ /about/ 301!
 /no-advertisement/ /no-ads/ 301!
 /unskillful/ /no-skills/ 301!
+/og/og.png* /.netlify/functions/og-png:splat 200!
