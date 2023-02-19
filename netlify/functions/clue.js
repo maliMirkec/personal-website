@@ -1,7 +1,6 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
 exports.handler = async function (event) {
-  console.log(event);
   const now = new Date();
   const url = event.queryStringParameters.url;
   const ua = event.headers['user-agent'];

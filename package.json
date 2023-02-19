@@ -26,7 +26,7 @@
     "cp-dev": "npm run cp-redirects & npm run cp-headers & npm run cp-cv & npm run cp-robots-dev",
     "cp-prod": "npm run cp-redirects & npm run cp-headers & npm run cp-cv & npm run cp-robots-prod",
     "rm-critical": "rm -rf assets/src/scss/critical/*.css",
-    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
+    "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet --watch",
     "eleventy-preview": "env ELEVENTY_ENV=preview npx @11ty/eleventy --quiet",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
@@ -39,7 +39,7 @@
     "build-prod": "gulp build && gulp critical && npm run eleventy-build && npm run cp-prod"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^2.0.0-beta.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",

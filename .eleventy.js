@@ -9,6 +9,8 @@ const fs = require('fs')
 const package = require('./package.json')
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.ignores.add('site/_drafts/*')
+
   eleventyConfig.setWatchJavaScriptDependencies(200);
 
   eleventyConfig.setBrowserSyncConfig({
@@ -206,17 +208,25 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addWatchTarget("assets/dist/*");
-
   eleventyConfig.addPassthroughCopy({
     "assets/dist": "."
   })
+
+  eleventyConfig.addWatchTarget("./assets/src/**/*")
+  eleventyConfig.addWatchTarget("./assets/dist/**/*")
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     // Optional, default is "---"
     excerpt_separator: "<!-- more -->"
   })
+
+  eleventyConfig.setServerOptions({
+    port: 8080,
+    liveReload: true,
+    domDiff: true,
+    watchFiles: ["./site/**/*", "./assets/**/*"]
+  });
 
   return {
     dir: {
