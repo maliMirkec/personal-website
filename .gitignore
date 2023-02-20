@@ -4,6 +4,7 @@ node_modules
 .cache
 .env
 .vscode
+.netlify
 assets/dist
 public
 frontmatter.json

@@ -1,5 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const { Liquid } = require("liquidjs");
+const { Liquid } = require("liquidjs")
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
@@ -11,7 +11,7 @@ const package = require('./package.json')
 module.exports = (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
 
-  eleventyConfig.setWatchJavaScriptDependencies(200);
+  eleventyConfig.setWatchJavaScriptDependencies(300)
 
   eleventyConfig.setBrowserSyncConfig({
     open: true,
@@ -23,7 +23,7 @@ module.exports = (eleventyConfig) => {
     strictFilters: false,
     jsTruthy: true,
     root: ["site/_layouts"]
-  };
+  }
 
   eleventyConfig.setLibrary(
     'md',
@@ -35,7 +35,7 @@ module.exports = (eleventyConfig) => {
     })
   )
 
-  eleventyConfig.setLibrary("liquid", new Liquid(options));
+  eleventyConfig.setLibrary("liquid", new Liquid(options))
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
@@ -199,11 +199,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection("all", collection => {
     return collection.sort((a, b) => {
       if (a.url < b.url) {
-        return -1;
+        return -1
       } else if (a.url > b.url) {
-        return 1;
+        return 1
       } else {
-        return 0;
+        return 0
       }
     })
   })
@@ -211,6 +211,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
     "assets/dist": "."
   })
+
+  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough")
 
   eleventyConfig.addWatchTarget("./assets/src/**/*")
   eleventyConfig.addWatchTarget("./assets/dist/**/*")
@@ -226,7 +228,7 @@ module.exports = (eleventyConfig) => {
     liveReload: true,
     domDiff: true,
     watchFiles: ["./site/**/*", "./assets/**/*"]
-  });
+  })
 
   return {
     dir: {
