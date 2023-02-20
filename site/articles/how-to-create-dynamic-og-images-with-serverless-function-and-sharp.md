@@ -1,7 +1,7 @@
 ---
 layout: index
 title: How to create dynamic OG images with serverless function using Sharp library
-date: 2023-02-11 10:00:00
+date: 2023-02-21 10:00:00
 tags:
   - blog
   - netlify
