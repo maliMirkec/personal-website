@@ -39,8 +39,8 @@
   {% endif %}
   {% if thumbnail %}
     <meta property="twitter:image" content="{{ thumbnail | cldnrysrc }}">
-  {% elsif site.cover %}
-    <meta property="twitter:image" content="{{ site.cover | cldnrysrc }}">
+  {% elsif title %}
+    <meta property="twitter:image" content="{{ site.url }}/og/og.png?text={{ title | url_encode }}">
   {% endif %}
 {% endif %}
 {% if site.fb_id %}
