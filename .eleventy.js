@@ -59,13 +59,12 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-
   eleventyConfig.addLiquidFilter('criticalExists', (critical) => {
-    return fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
+    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`)
   })
 
   eleventyConfig.addLiquidFilter('getCritical', (critical) => {
-    return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
+    return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
   })
 
   eleventyConfig.addLiquidFilter('generator', () => {
@@ -209,7 +208,8 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addPassthroughCopy({
-    "assets/dist": "."
+    "assets/dist": ".",
+    "assets/critical": "css"
   })
 
   // eleventyConfig.setServerPassthroughCopyBehavior("passthrough")

@@ -22,14 +22,13 @@ const thisKssConfig = {
 // Will process KSS docs
 function kssStart(cb) {
   kss(thisKssConfig);
-  global.bs.reload();
 
   return cb();
 }
 
 // When Sass file is changed, it will process KSS docs, too
 function kssListen() {
-  return watch([helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.${ext}`), helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.html`)], global.config.watchConfig, kssStart, global.bs.reload);
+  return watch([helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.${ext}`), helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.html`)], global.config.watchConfig, kssStart);
 }
 
 exports.kss = {

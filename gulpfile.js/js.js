@@ -50,7 +50,6 @@ function jsStart() {
     .pipe(gulpif(global.config.js.uglify, rename(jsConfig.renameConfig)))
     .pipe(gulpif(global.config.js.sourcemaps, sourcemaps.write(helpers.trim(`${helpers.source()}/${global.config.js.dist}`))))
     .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.js.dist}`)))
-    .pipe(gulpif(global.config.sync.run, global.bs.stream()));
 }
 
 function jsStartDev() {
@@ -67,7 +66,7 @@ function jsStartProd() {
 
 // When JS file is changed, it will process JS file, too
 function jsListen() {
-  return watch(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`), global.config.watchConfig, jsStart, global.bs.reload);
+  return watch(helpers.trim(`${helpers.source()}/${global.config.js.src}/*.js`), global.config.watchConfig, jsStart);
 }
 
 exports.js = {

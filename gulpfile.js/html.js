@@ -68,7 +68,6 @@ function htmlStart() {
     .pipe(gulpif(global.config.html.minify, htmlmin(htmlConfig.htmlminConfig)))
     .pipe(rename(htmlConfig.renameConfig))
     .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.html.dist}`)))
-    .pipe(gulpif(global.config.sync.run, global.bs.stream()));
 }
 
 // When Pug, md, or config file is changed, it will process Pug file, too

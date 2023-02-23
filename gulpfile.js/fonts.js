@@ -10,7 +10,7 @@ function fontsStart() {
 
 // When font is changed, it will process font file, too
 function fontsListen() {
-  return watch(helpers.trim(`${helpers.source()}/${global.config.fonts.src}/**/*`), global.config.watchConfig, fontsStart, global.bs.reload);
+  return watch(helpers.trim(`${helpers.source()}/${global.config.fonts.src}/**/*`), global.config.watchConfig, fontsStart);
 }
 
 exports.fonts = {

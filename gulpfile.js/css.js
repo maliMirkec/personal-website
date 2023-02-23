@@ -40,7 +40,6 @@ function cssStart() {
     .pipe(gulpif(global.config.css.minify, rename(cssConfig.renameConfig)))
     .pipe(gulpif(global.config.css.sourcemaps, sourcemaps.write(helpers.trim(`${helpers.source()}/${global.config.css.dist}`))))
     .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
-    .pipe(gulpif(global.config.sync.run, global.bs.stream()));
 }
 
 // Will process non Critical Sass files
@@ -56,12 +55,11 @@ function cssStartListen() {
     .pipe(gulpif(global.config.css.minify, rename(cssConfig.renameConfig)))
     .pipe(gulpif(global.config.css.sourcemaps, sourcemaps.write(helpers.trim(`${helpers.source()}/${global.config.css.dist}`))))
     .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
-    .pipe(gulpif(global.config.sync.run, global.bs.stream()));
 }
 
 // When Sass file is changed, it will process Sass file, too
 function cssListen() {
-  return watch(helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.${ext}`), global.config.watchConfig, cssStartListen, global.bs.reload);
+  return watch(helpers.trim(`${helpers.source()}/${global.config.css.src}/**/*.${ext}`), global.config.watchConfig, cssStartListen);
 }
 
 exports.css = {

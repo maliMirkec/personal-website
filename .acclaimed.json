@@ -1,0 +1,374 @@
+[{
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/tags-item.critical.min.css",
+  "url": "http://localhost:8080/tags/css/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/tags.critical.min.css",
+  "url": "http://localhost:8080/tags/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/stories-item.critical.min.css",
+  "url": "http://localhost:8080/stories/9/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/stories.critical.min.css",
+  "url": "http://localhost:8080/stories/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/testimonials-item.critical.min.css",
+  "url": "http://localhost:8080/testimonials/john-ganotis/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/testimonials.critical.min.css",
+  "url": "http://localhost:8080/testimonials/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/hugo-item.critical.min.css",
+  "url": "http://localhost:8080/side-projects/hugo/lessons/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/hugo.critical.min.css",
+  "url": "http://localhost:8080/side-projects/hugo/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/side-projects-item.critical.min.css",
+  "url": "http://localhost:8080/side-projects/css-auditors/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/side-projects.critical.min.css",
+  "url": "http://localhost:8080/side-projects/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/favorite-item.critical.min.css",
+  "url": "http://localhost:8080/favorites/tv/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/favorite-concert.critical.min.css",
+  "url": "http://localhost:8080/favorites/concerts/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/favorites.critical.min.css",
+  "url": "http://localhost:8080/favorites/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/portfolio-item.critical.min.css",
+  "url": "http://localhost:8080/portfolio/westwing/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/portfolio.critical.min.css",
+  "url": "http://localhost:8080/portfolio/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/invalid-css.critical.min.css",
+  "url": "http://localhost:8080/side-projects/invalid-css/9/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/articles-item.critical.min.css",
+  "url": "http://localhost:8080/articles/overview-of-popular-static-site-generators/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/articles.critical.min.css",
+  "url": "http://localhost:8080/articles/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/about.critical.min.css",
+  "url": "http://localhost:8080/about/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/page.critical.min.css",
+  "url": "http://localhost:8080/contact/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/home.critical.min.css",
+  "url": "http://localhost:8080/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}]
