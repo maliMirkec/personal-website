@@ -75,7 +75,9 @@ sections2:
 
 A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](/side-projects/ui-dev-mentoring/reads/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
 
-If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story.
+{% note %}
+_If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story._
+{% endnote %}
 
 ## How it started
 
@@ -93,7 +95,9 @@ After a few posts, the idea of starting a newsletter came up, so I started resea
 
 The first thing was to choose my newsletter app. I thought about using Mailchimp, as I had previous experience with that platform. Then I learned about [Tinyletter](https://tinyletter.com/) (a more inferior version of Mailchimp). I decided it has everything I need, from a subscription list to a simple HTML editor.
 
+{% note %}
 _I discovered [ButtonDown](https://buttondown.email/) recently, and I am considering switching to this app. Not sure yet._
+{% endnote %}
 
 ## The script
 
@@ -107,7 +111,9 @@ As a part of the Node script, I am preparing the Markdown code for Dev.to post. 
 
 As the final part of my Node script, I prepare tweets that I share throughout the week. I am using [Apphi](https://apphi.com/) to schedule my tweets. I initially used Buffer, but I find Apphi to be more suitable for my needs. Again, I had to copy and paste the content from the terminal to the app.
 
+{% note %}
 _Any help automating copy-paste processes would be greatly appreciated. [Contact me](/contact/) if you know how to do it._
+{% endnote %}
 
 ## The tracking
 

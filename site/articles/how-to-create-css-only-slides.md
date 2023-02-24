@@ -79,7 +79,9 @@ To simulate the slides effect, we will limit the container’s height to the vie
 
 Slides items are flexbox items with centered content with a minimum height of 100% of the viewport height. That means the item will consume the whole viewport, which emulates a single slide.
 
-_Note that centered content means that you must wrap the inner content in a `div` if you have more than one child._
+{% note %}
+_Centered content means that you must wrap the inner content in a `div` if you have more than one child._
+{% endnote %}
 
 Every other slide has a different background color, distinguishing them from each other.
 
@@ -147,7 +149,9 @@ We could style scrollbars to make our slides feel more like an app. There are th
 - scrollbar foreground color, and
 - the width of the scrollbar.
 
-_Note that you must use prefixed selectors._
+{% note %}
+_You must use prefixed selectors._
+{% endnote %}
 
 ```css
 .slides {

@@ -35,6 +35,7 @@
     "dev": "killify && gulp build && npm run eleventy-dev",
     "watch": "killify && gulp build && (npm run eleventy-dev & gulp watch)",
     "prod": "killify && gulp build && (npm run eleventy-prod & gulp watch)",
+    "server": "npm run eleventy-dev",
     "build-dev": "gulp build && npm run eleventy-build && npm run cp-dev",
     "build-prod": "gulp build && npm run eleventy-build && npm run cp-prod"
   },

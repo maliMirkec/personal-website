@@ -22,11 +22,11 @@ This week Sam Magura, an active maintainer of [Emotion](https://emotion.sh/), a 
 
 Long story short, Sam emphasizes the problems of the CSS-in-JS approach:
 
--   CSS-in-JS adds runtime overhead,
--   CSS-in-JS increases your bundle size,
--   CSS-in-JS clutters the React DevTools,
--   **Frequently inserting CSS rules forces the browser to do a lot of extra work**, and
--   **With CSS-in-JS, there’s a lot more that can go wrong, especially when using SSR and/or component libraries**.
+- CSS-in-JS adds runtime overhead,
+- CSS-in-JS increases your bundle size,
+- CSS-in-JS clutters the React DevTools,
+- **Frequently inserting CSS rules forces the browser to do a lot of extra work**, and
+- **With CSS-in-JS, there’s a lot more that can go wrong, especially when using SSR and/or component libraries**.
 
 In short, the CSS-in-JS performance impact of Emotion was significant, so the Emotion team replaced it with Sass Modules and Bootstrap utility classes.
 
@@ -68,7 +68,7 @@ Did you know that you could [access CSS variables from JavaScript](https://devel
 
 ## The sixth problem
 
-> _“Many web developers, myself included, are quick to adopt the hottest new trends in the JavaScript community. Part of this is rationale, since in many cases, new libraries and frameworks have proven to be massive improvements... On the other hand, the other part of our obsession with shiny new tools is just that --- an obsession.”_
+> _“Many web developers, myself included, are quick to adopt the hottest new trends in the JavaScript community. Part of this is rationale, since in many cases, new libraries and frameworks have proven to be massive improvements... On the other hand, the other part of our obsession with shiny new tools is just that — an obsession.”_
 
 I’ve been in the web industry for more than ten years. Trends come and go, so stick to the logical stuff. If it smells funny, it will probably become a problem.
 

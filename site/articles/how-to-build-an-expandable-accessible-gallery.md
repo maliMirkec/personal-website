@@ -193,11 +193,13 @@ const setDataAttrs = ($elems, $parent) => {
 }
 ```
 
-### EXPANDING DIRECTION
+### Expanding direction
 
 To achieve the expandable effect, we should make some checks and calculations first. First, we should check if the item is in the last row and at the end of the row. If the item is in the last row, it should expand to the top. That means it should have the `transform-origin` property set to the `bottom` value.
 
-_Important: If the element should expand to one direction, its `transform-origin` property should be set to an “opposite” value. Note that vertical and horizontal values should be combined._
+{% note "Important" %}
+_If the element should expand to one direction, its `transform-origin` property should be set to an “opposite” value. Note that vertical and horizontal values should be combined._
+{% endnote %}
 
 ```js
 // Set active item
@@ -235,7 +237,7 @@ const activateElem = ($elems, $parent, $elem, $button, lengthOfElems, i) => {
 }
 ```
 
-### EXPANDING EFFECT
+### Expanding effect
 
 To enlarge the image without affecting the grid, we could use CSS transforms. In particular, we should use the scale transformation. I decided to make the image double in size, i.e. the factor is the ratio of the double width of the element plus grid-gap.
 
@@ -247,7 +249,7 @@ const scale = (width * 2 + gap) / width
 $elem.style.transform = `scale(${scale})`
 ```
 
-### KEYBOARD SUPPORT
+### Keyboard support
 
 Users who navigate sites by using a keyboard should be able to use the gallery. Going through the list works by default when using key **Tab**. Emulating the click works by default by pressing the **Enter** key while the item is focused. To enhance the default behavior, we should add support for **Esc** and the arrow keys.
 
@@ -299,7 +301,7 @@ const setKeyboardEvents = () => {
 }
 ```
 
-### TOGGLING
+### Toggling
 
 To make the gallery element expanded, we should deactivate all other elements first. Then, if we click on the expanded element, it should revert to the standard size.
 
@@ -361,7 +363,7 @@ const setClicks = ($elems, $parent) => {
 }
 ```
 
-### Z-INDEX ISSUES
+### Z-index issues
 
 To prevent issues with `z-index` and stacking context, we should use the timeout to delay the transform. That is the same timeout that we calculated in the preparation phase.
 
@@ -396,7 +398,7 @@ const activateElem = ($elems, $parent, $elem, $button, lengthOfElems, i) => {
 }
 ```
 
-### VIEWPORT RESIZING
+### Viewport resizing
 
 If the viewport changes the size, we need to recalculate defaults because we defined a fluid grid that allows items to fill the available space and move from row to row.
 

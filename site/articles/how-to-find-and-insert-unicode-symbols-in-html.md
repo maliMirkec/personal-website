@@ -42,12 +42,14 @@ A few months ago, I started to add snippets in my VS Code. The thing with snippe
 
 But, unfortunately, that also means you could forget them.
 
-> Here’s how to configure the snippet in VS Code:
->
-> 1. Press _Command + Shift + p_ and type _“snippets.”_
-> 2. Select _Preferences: Configure User Snippets_.
-> 3. Select _Global_ (or other, if you want file-based snippets).
-> 4. Add the following code:
+{% note %}
+Here’s how to configure the snippet in VS Code:
+
+1. Press _Command + Shift + p_ and type _“snippets.”_
+2. Select _Preferences: Configure User Snippets_.
+3. Select _Global_ (or other, if you want file-based snippets).
+4. Add the following code:
+{% endnote %}
 
 ```json
 {
@@ -66,4 +68,6 @@ Recently I found out an even better solution, the [**Insert Unicode extension**]
 
 ![An example of VS Code extension for inserting Unicode symbol.](https://res.cloudinary.com/starbist/image/upload/v1631130634/l_t0b40s.gif)
 
-**Update**: It was brought to my attention that macOS has this thing called Character Viewer. This might be the easiest way to insert Unicode. To open Character Viewer, press _Command + Control + Space_. You could search and insert most of the characters. You could [even customize the app](https://www.webnots.com/how-to-use-character-viewer-in-mac/) for easier usage.
+{% note "Important update" %}
+It was brought to my attention that macOS has this thing called Character Viewer. This might be the easiest way to insert Unicode. To open Character Viewer, press _Command + Control + Space_. You could search and insert most of the characters. You could [even customize the app](https://www.webnots.com/how-to-use-character-viewer-in-mac/) for easier usage.
+{% endnote %}

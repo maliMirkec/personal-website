@@ -35,9 +35,9 @@ While all major browsers are pushing new versions that support these new feature
 
 Šime Vidas put it nicely as a comment on Bramus Van Damme’s Twitter post on `:has` supported:
 
-> Forget Firefox. The :has() selector also doesn’t work in Safari 14, 13, and below, which combined currently have a 5 to 6 times higher usage share on mobile than Firefox.
+> _Forget Firefox. The :has() selector also doesn’t work in Safari 14, 13, and below, which combined currently have a 5 to 6 times higher usage share on mobile than Firefox._
 >
-> — [Šime Vidas](https://twitter.com/simevidas/status/1570773739721330691)
+> _— [Šime Vidas](https://twitter.com/simevidas/status/1570773739721330691)_
 
 {% cldnrylink "https://twitter.com/simevidas/status/1570773739721330691" "i-am-not-that-excited-about-new-css-features-tweet-sime-vidas_fbghjw" "Screenshot of a tweet from Šime Vidas." 800 262 %}
 
@@ -57,10 +57,11 @@ First, we read all the articles that showed us how to use it. Then we need to un
 
 Sacha Greif made a great point by asking a question on Twitter today:
 
-> Should we worry that CSS risks being overwhelmed by niche features and properties that end up make learning it a lot more confusing?
-> Or is it good to support as many use cases as possible?
+> _Should we worry that CSS risks being overwhelmed by niche features and properties that end up make learning it a lot more confusing?_
 >
-> — [Sacha Greif](https://twitter.com/SachaGreif/status/1574287874165702658)
+> _Or is it good to support as many use cases as possible?_
+>
+> _— [Sacha Greif](https://twitter.com/SachaGreif/status/1574287874165702658)_
 
 {% cldnrylink "https://twitter.com/SachaGreif/status/1574287874165702658" "i-am-not-that-excited-about-new-css-features-tweet-sacha-greif_j1jm5t" "Screenshot of a tweet from Sacha Greif." 800 400 %}
 

@@ -7,7 +7,6 @@ tags:
   - blog
   - atom
   - text editor
-
 ---
 
 Essential:

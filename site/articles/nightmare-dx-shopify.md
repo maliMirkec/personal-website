@@ -18,7 +18,9 @@ sections2:
 
 This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
 
-**Disclaimer:** This series intends not to rant but to educate developers about the limitations of the products, platforms, and frameworks. In the perfect world, these posts would contribute to building a better Developer Experience for everyone. That is also the reason why the title is deliberately controversial.
+{% note "Disclaimer" %}
+This series intends not to rant but to educate developers about the limitations of the products, platforms, and frameworks. In the perfect world, these posts would contribute to building a better Developer Experience for everyone. That is also the reason why the title is deliberately controversial.
+{% endnote %}
 
 ## What is DX  (Developer Experience)
 

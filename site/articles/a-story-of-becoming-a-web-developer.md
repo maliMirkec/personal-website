@@ -15,6 +15,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: The UI Development Mentoring Program
 ---
 
 Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
@@ -25,7 +26,7 @@ Silvestar never coded in his life. He thought he would work as an IT engineer. B
 
 In the beginning, Silvestar was overwhelmed and didn’t know where to start. The boss helped candidates by providing learning materials. The boss also gave the assignment to every candidate. Few times a month, the boss organized a class where he showed the solution, answered questions from candidates, and talked about programming.
 
-> Everybody has to start somewhere.
+> _“Everybody has to start somewhere.”_
 >
 > _I started from zero._
 
@@ -45,7 +46,7 @@ Then, after a couple of years, the company was acquired by some larger organizat
 
 During the time in a local startup, Silvestar heard of [Toptal], a network of talents working remotely as freelancers. Silvestar was tempted to give it a go, but his family and friends were suspicious that was the right call. He applied nevertheless. After a couple of attempts, Silvestar got in. He was lucky as he was one of the first of the talents that were accepted as UI developers. He got his first gig within a couple of months.
 
-> Fear is the compass.
+> _“Fear is the compass.”_
 >
 > _I made some bold choices at the given moment, but they all paid off._
 

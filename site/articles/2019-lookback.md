@@ -13,13 +13,16 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Lookbacks
 ---
 
 Last year I wrote [my first yearly look back], and now it is time for the 2019 lookback.
 
 <!-- more -->
 
-_Note: this article is written from a technology perspective, meaning that I wrote about technologies and tools used during this year._
+{% note %}
+_This article is written from a technology perspective, meaning that I wrote about technologies and tools used during this year._
+{% endnote %}
 
 ## WordPress
 
@@ -31,7 +34,7 @@ WordPress is not my favorite system. However, I am still motivated to find new w
 
 Static site generators, on the other hand, are so fast that rarely anybody concerns about the performance. The biggest challenge is to configure headless CMS and build systems. Luckily for us, we have services like [Netlify] and [Netlify CMS]. These two services are my go-to places when talking about SSGs.
 
-> “Netlify supports anything you could think of and a little bit more.”
+> _“Netlify supports anything you could think of and a little bit more.”_
 
 Netlify supports anything you could think of and a little bit more: from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favorite Netlify features].
 
@@ -62,7 +65,7 @@ Although SSGs are fast itself, I still try to optimize and shave any byte and mi
 
 Accessibility is still a massive problem as clients are either not aware of this or don’t have the budget for it. It is a complex topic, and I don’t want to get into it too much as I am not an expert. I just wanted to bring this to attention: try to add the necessary accessibility features, like skip-to-content links, inputs label, and descriptive links. You really don’t have to be the expert to do these things correctly.
 
-> “Remember that every plugin, every integration and every tool comes with a cost, especially when it loads extra scripts and styles. The least you could do is to educate your clients about potential costs whenever introducing a new tool.”
+> _“Remember that every plugin, every integration and every tool comes with a cost, especially when it loads extra scripts and styles. The least you could do is to educate your clients about potential costs whenever introducing a new tool.”_
 
 The second problem is third-party scripts. These are the worst. I was optimizing one site, but the scores were terrible. Then I made a simple test -- I disabled all third-party scripts, then I rerun the tests, and scores were superb. If third-party scripts are present, in most cases our hands are tied. I have noticed that Lighthouse introduced new terminology like “First Contentful Paint”, “Speed Index”, and “Time to Interactive”. These new metrics are almost always affected by third-party scripts, and web developers cannot influence what the code does, how does it work and why. That is quite frustrating.
 

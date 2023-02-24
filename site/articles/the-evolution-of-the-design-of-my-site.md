@@ -37,7 +37,9 @@ But the biggest game-changer for me was Netlify. It was free, it got everything 
 
 Netlify offers so many features. I even wrote a blog post [about my favorite parts of Netlify](/articles/my-favorite-netlify-features/). One of the features I find pretty convenient is [Deploy Preview](https://docs.netlify.com/site-deploys/deploy-previews/).
 
-> _Every deploy also has a permalink that starts with the deploy ID number. For example: 1234abcd12acde000111cdef--yoursitename.netlify.app. The contents of this URL never change, even after you redeploy your site._
+{% note %}
+_Every deploy also has a permalink that starts with the deploy ID number. For example: `1234abcd12acde000111cdef--yoursitename.netlify.app`. The contents of this URL never change, even after you redeploy your site._
+{% endnote %}
 
 Every deployment has a permalink that works forever. That means that you could see the version of my site from July 2017 until today. This feature allowed me to find all design updates. Let go over each one.
 
@@ -55,7 +57,9 @@ The site was responsive. There is no need to emphasize that today, but it was a 
 
 At that time, I coined my first tagline, which I am using today.
 
-> _Fearless web developer._
+{% note "Tagline" %}
+_Fearless web developer._
+{% endnote %}
 
 I used a single font family: [Exo 2](https://fonts.google.com/specimen/Exo+2).
 

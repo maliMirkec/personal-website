@@ -148,7 +148,9 @@ window.addEventListener("scroll", _.debounce(stickyHeader(), 15));
 
 In this example, [lodash debounce](https://lodash.com/docs/4.17.10#debounce) function is used to execute the task on scroll event.
 
+{% note %}
 _I am aware the I could write better JS code and avoid adding the `.fake-header` element, but I wanted to create a demo without too many calculations._
+{% endnote %}
 
 ## Extra
 

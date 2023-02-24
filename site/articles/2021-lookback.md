@@ -13,17 +13,14 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Lookbacks
 ---
 
 It is that time again, time for 2021 lookback.
 
-*If you want to read articles from previous years, see the following*:
-
-- [2018 lookback](/articles/2018-lookback/)
-- [2019 lookback](/articles/2019-lookback/)
-- [2020 lookback](/articles/2020-lookback/)
-
-*Note: this article is written from a technology perspective. I wrote about technologies and tools used during this year.*
+{% note %}
+_This article is written from a technology perspective. I wrote about technologies and tools used during this year._
+{% endnote %}
 
 ## WordPress
 

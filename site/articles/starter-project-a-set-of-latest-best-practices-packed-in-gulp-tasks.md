@@ -16,11 +16,15 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Starter Project
 ---
 
-⚠️ The package is deprecated. See [SPRO](/articles/introducing-spro/) instead.
 
 This article is the very first article in a series about [Starter Project], a set of the latest best practices packed in Gulp tasks. In this article, I am going to explain the idea behind this project, how it could help you on your project and how to use it.
+
+{% note %}
+⚠️ The package is deprecated. See [SPRO](/articles/introducing-spro/) instead.
+{% endnote %}
 
 <!-- more -->
 

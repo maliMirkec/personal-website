@@ -21,7 +21,9 @@ I know there are more than a few articles about this topic. And there are 2 basi
 
 I prefer the second approach, but without list or nested div structure.
 
+{% note %}
 _CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-accessibility/)._
+{% endnote %}
 
 ## HTML structure
 
@@ -81,7 +83,9 @@ After that we should define default variables which will help us write more cons
 * `$color--disabled` - text color for disabled tabs and
 * `$breakpoint` - width which will define our tabs layout.
 
+{% note %}
 _I really like BEM naming convention and I use it for defining `CSS` variables, too._
+{% endnote %}
 
 Wrapper element should be displayed as a wrapped flex.
 

@@ -13,18 +13,16 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Lookbacks
 ---
 
 Another year is over, and it is time for the annual lookback.
 
 <!-- more -->
 
-_If you want to read articles from the last couple of years, see the following_:
-
-* [2018 lookback]
-* [2019 lookback]
-
-_Note: this article is written from a technology perspective, meaning that I wrote about technologies and tools used last year._
+{% note %}
+_This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year._
+{% endnote %}
 
 ## Static Site Generators (SSG)
 

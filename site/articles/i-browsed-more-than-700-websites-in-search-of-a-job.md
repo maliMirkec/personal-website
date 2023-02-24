@@ -46,12 +46,14 @@ Finally, you should see some open positions. But our world is far from ideal, so
 
 Sometimes instead of a statement, there is a form to get either notified about or apply for future roles. I don’t know if filling out the last one works, but I hope it does. Also, it would be great to see the list of all roles the company might need in the future. Or at least list some expired or filled positions just to make it more clear what type of positions are in need with this company.
 
-> If you are not hiring, I have a few suggestions for you:
->
-> - lose the “We’re hiring” label,
-> - disable the “See open positions” button,
-> - if you’re accepting open applications, replace the “See open positions” button with the “Apply for future roles” button, and
-> - add a paragraph saying ”We’re not hiring” as higher as possible on the Careers page.
+{% note "Tip" %}
+_If you are not hiring, I have a few suggestions for you:_
+
+- _lose the “We’re hiring” label,_
+- _disable the “See open positions” button,_
+- _if you’re accepting open applications, replace the “See open positions” button with the “Apply for future roles” button, and_
+- _add a paragraph saying ”We’re not hiring” as higher as possible on the Careers page._
+{% endnote %}
 
 Regarding other information on the Careers page, like the company mission, values, and culture, these are only important information if I find the open position first. So, show me the available positions first, then display all the other information.
 

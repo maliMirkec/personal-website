@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Year of freelancing
 ---
 
 It is time for another yearly overview of my freelancing career: the third year.
@@ -73,7 +74,7 @@ Last year I published two side projects:
 
 [Code Line Daily] is a website dedicated to a single line of code that produces stunning results. The lines are mostly PHP, JavaScript, CSS, and HTML code. It is also available as a [Chrome extension], and it has an open API, which I used to develop a small widget on my [homepage].
 
-> As I am getting older, I appreciate the time away from the computer more, and I am trying to work on side projects only during my “office time”.
+> _As I am getting older, I appreciate the time away from the computer more, and I am trying to work on side projects only during my “office time”._
 
 [The UI Development Mentoring Program] is a new initiative in which I am trying to help beginners to get better in UI development. Besides the mentoring part, you could find other useful sources on the site, like [learning resources] and [daily reads]. You could [subscribe to the newsletter], too. The newsletter contains hand-picked frontend and UI articles and tools.
 
@@ -90,7 +91,7 @@ Whenever I start a new engagement, I tend to communicate the preferred way of wo
 
 For example, I like to establish an agreement that all tasks will be resolved within 24 hours period. If I am blocked within that time, I usually send my client an email or a message announcing what is blocking me—that way, the client respects my time and could plan tasks according to my schedule.
 
-> It is vital to establish trust from the very beginning. That way, my clients know all about my working habits and my preferred method of working.
+> _It is vital to establish trust from the very beginning. That way, my clients know all about my working habits and my preferred method of working._
 
 Another example of honest communication is when one client decides to do a significant update or a whole new project. In that case, I inform all other clients that my availability will be decreased for that period. That is often communicated at least a couple of weeks in advance. Again, other clients usually respect my availability and plan the tasks accordingly.
 
@@ -120,7 +121,7 @@ I do:
 - use Vanilla JavaScript, and
 - think React is overused.
 
-> I like to think that I am fair, and I give every client a chance to convince me why I should work on their project.
+> _I like to think that I am fair, and I give every client a chance to convince me why I should work on their project._
 
 The other reason why I reject proposals is that the client and I are not fit. Here are the most common reasons:
 

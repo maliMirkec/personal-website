@@ -104,7 +104,9 @@ First, we should create an element that is as tall as `:after` pseudo element. W
 }
 ```
 
+{% note %}
 _In order to make this work, don't forget to add `position: relative` and `overflow: hidden` on `.hero` element._
+{% endnote %}
 
 And here's the final solution:
 

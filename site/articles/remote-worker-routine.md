@@ -41,7 +41,7 @@ When you are your own boss, there is nobody who makes you work, and you could sp
 
 I don't have any particular method of how to handle those distractions. When I feel like taking a short break to check my Fantasy team or to watch Snooker World video, I stop working and that's it. I usually don't get caught in opening more than two or three links/tabs.
 
-> “Every Friday I start my workday by reading newsletters and saved articles.”
+> _“Every Friday I start my workday by reading newsletters and saved articles.”_
 
 But I do have a routine for keeping up with the latest technologies. Every Friday I start my workday by reading newsletters and saved articles. I feel perfectly fine if I don't read the most recent news immediately. What matters is that I read it eventually. New CSS specs probably couldn't help me at the moment anyway.
 
@@ -55,7 +55,7 @@ There are exceptions when interruptions ok, like when I am writing a draft for m
 
 When I feel especially exhausted, I just leave my MacBook in the office. Actually, I prefer to leave it there for most of the time. I realized that I cannot entirely rest if I use my computer at home, even just for fun. I relax best when I am bored. Boredom is underrated—you should appreciate the time when you don't have to do anything.
 
-> “Boredom is underrated—you should appreciate the time when you don't have to do anything.”
+> _“Boredom is underrated—you should appreciate the time when you don't have to do anything.”_
 
 ## Health
 

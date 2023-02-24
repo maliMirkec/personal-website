@@ -16,6 +16,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Starter Project
 ---
 
 **SPRO** <small>(pronounces /es-pro/)</small>, or Starter Project CLI, is the best starting point for your next project. SPRO aims to set up a perfect development environment by learning about your project architecture and then setting up Gulp tasks for all your needs.
@@ -24,7 +25,9 @@ It is very flexible, and it could save you a vast amount of time that you usuall
 
 <!-- more -->
 
-*👉 SPRO is in its early stages, and every suggestion, feedback or help would be appreciated!*
+{% note %}
+_SPRO is in its early stages, and every suggestion, feedback or help would be appreciated!_
+{% endnote %}
 
 ## Why Gulp
 
@@ -32,9 +35,9 @@ There has been a great discussion about the build tools in the Frontend Develope
 
 In another excellent article [Why npm scripts], Damon Bauer says it very nicely:
 
-> “...if you are happy with your current build system and it accomplishes all that you need it to do, you can keep using it!”
+> _“...if you are happy with your current build system and it accomplishes all that you need it to do, you can keep using it!”_
 >
-> — Damon Bauer, [Why npm scripts]
+> _— Damon Bauer, [Why npm scripts]_
 
 Amongst other great build tools, like Grunt, Webpack, Parcel or even npm scripts, my favorite is Gulp because I am most familiar with this fantastic tool. I like the idea that every task could be isolated, and project files could be used as separated entities. _Switching to npm scripts is something to consider, though._
 
@@ -42,7 +45,7 @@ Amongst other great build tools, like Grunt, Webpack, Parcel or even npm scripts
 
 About a year ago I started working on my side project, [Starter Project]. Starter Project is conceived as a boilerplate of the latest best practices packed in Gulp tasks. Instead of copy-pasting code from one project to another, why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.
 
-> “...why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.”
+> _“...why not have a single package that could be reused on various projects with a single configuration file that could be easily updated.”_
 
 Read more about the idea and possible problems that Starter Project package it is trying to solve [in the introduction article] from the last year.
 
@@ -56,9 +59,9 @@ When you answer all questions, SPRO will store information to the `.starter-proj
 
 Besides the main configuration file, SPRO would add Gulp task files and other configuration files in the `gulpfile.js` directory.
 
-> “Node's module resolution allows you to replace your `gulpfile.js` file with a directory named `gulpfile.js` that contains an `index.js` file which is treated as a `gulpfile.js`. This directory could then contain your individual modules for tasks.”
+> _“Node's module resolution allows you to replace your `gulpfile.js` file with a directory named `gulpfile.js` that contains an `index.js` file which is treated as a `gulpfile.js`. This directory could then contain your individual modules for tasks.”_
 >
-> — [Gulp.js 4 documentation]
+> _— [Gulp.js 4 documentation]_
 
 Tasks that are defined in the SPRO could process your HTML, CSS, JavaScript, font, favicon, and graphics files. Gulp tasks would handle all files based on the configuration files in the `gulpfile.js` directory.
 
@@ -74,7 +77,9 @@ SPRO is available as an npm module, and you could install it locally or globally
 npm install starter-project-cli
 ```
 
-*👉 Pro tip: [install using silent option], `--silent` or `-s`, because suppressed output could speed up the installation progress.*
+{% note "Tip" %}
+_[install using silent option](https://stackoverflow.com/questions/34426332/how-to-suppress-output-when-running-npm-scripts), `--silent` or `-s`, because suppressed output could speed up the installation progress._
+{% endnote %}
 
 Now you should be able to run the command from the terminal that would save you a significant amount of time in the future.
 
@@ -107,7 +112,9 @@ All subtasks are divided by the file type and primary function. Subtasks related
 
 Each subtask has its own configuration file. CSS specific configuration could be found in the `gulpfile.js/.css.json` file, and Critical CSS relevant configuration could be found in the `gulpfile.js/.critical.json` file.
 
-*👉 You could edit every individual configuration file manually. However, the main configuration file, `.starter-project.json` file, should not be manually edited. There is a good chance that your project wouldn't have all the dependencies for running Gulp tasks. Instead, start the `spro` command again.*
+{% note %}
+_You could edit every individual configuration file manually. However, the main configuration file, `.starter-project.json` file, should not be manually edited. There is a good chance that your project wouldn't have all the dependencies for running Gulp tasks. Instead, start the `spro` command again._
+{% endnote %}
 
 ## The Course
 

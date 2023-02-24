@@ -26,17 +26,17 @@ CSS style guides should be considered an equal citizen of every project requirem
 
 There is more than one definition of what the style guide is. For example, [Wikipedia] says:
 
-> “A style guide (or manual of style) is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization, or field. (…)
+> _“A style guide (or manual of style) is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization, or field. (…)_
 >
-> A style guide establishes and enforces style to improve communication. To do that, it ensures consistency within a document and across multiple documents and enforces best practice in usage and in language composition, visual composition, orthography and typography.”
+> _A style guide establishes and enforces style to improve communication. To do that, it ensures consistency within a document and across multiple documents and enforces best practice in usage and in language composition, visual composition, orthography and typography.”_
 
 [CSS Guidelines site/Harry Roberts] says:
 
-> “(CSS styleguide should contain) High-level advice and guidelines for writing sane, manageable, scalable CSS.”
+> _“(CSS styleguide should contain) High-level advice and guidelines for writing sane, manageable, scalable CSS.”_
 
 [Google HTML/CSS Style Guide] says:
 
-> “This document defines formatting and style rules for HTML and CSS. It aims at improving collaboration, code quality, and enabling supporting infrastructure.”
+> _“This document defines formatting and style rules for HTML and CSS. It aims at improving collaboration, code quality, and enabling supporting infrastructure.”_
 
 All of these definitions are telling us the primary mission of the style guide: to help each other understand how to read, write and use the code. It is vital to know that every style guide is unique and its definitions, principles, and structure should be a team effort, rather than a persuasive way to follow someone’s logic or idea.
 
@@ -60,9 +60,9 @@ For example, [Lonely Planet] uses BEM as a naming convention:
 
 {% cldnry "styleguide-lonely-planet-bem_lqcm24" "Lonely Planet Style Guide, BEM example." %}
 
-> “Naming things is hard but worth getting right. To make it somewhat simpler we use the BEM methodology within class names. BEM also helps us to avoid cross module collisions and to signify intent and relationships from the classnames.”
+> _“Naming things is hard but worth getting right. To make it somewhat simpler we use the BEM methodology within class names. BEM also helps us to avoid cross module collisions and to signify intent and relationships from the classnames.”_
 >
-> — [Lonely Planet, Naming]
+> _— [Lonely Planet, Naming]_
 
 Not every developer would agree about the naming convention, but as long as every developer follows it, that is all that matters. That is one of the reasons why style guides shouldn’t be the responsibility of a single developer, but a collaborative effort made with every developer in mind. It wouldn’t hurt to put a note about the naming convention decision somewhere like in the README file.
 

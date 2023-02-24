@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 In recent articles about Atom, I've talked about different packages that could help us make our daily jobs easier. Many of those packages have different keybindings. But what happens when a keybinding is already used by some other package?
@@ -21,7 +22,9 @@ In this tutorial I'll show you how you could fix this.
 
 <!-- more -->
 
-**_Windows based shortcuts will be used but the same analogy could be applied for other operating systems._**
+{% note %}
+_Windows based shortcuts will be used but the same analogy could be applied for other operating systems._
+{% endnote %}
 
 ## What are keybindings?
 

@@ -16,6 +16,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Starter Project
 ---
 
 This article is part of a series about [Starter Project], and this time I will explain all about Gulp tasks for CSS.
@@ -34,7 +35,9 @@ The first option is `run`. If set to true, CSS Gulp tasks will be executed. Ther
 - `dest` - a path to a folder where compiled CSS files will be saved, and
 - `clean` - a path to a folder which will be cleaned before Gulp execution (almost always the same as `dest` option).
 
+{% note %}
 _All paths are prepended with global `root` path._
+{% endnote %}
 
 Other options are for [gulp-cssimport], [gulp-autoprefixer], [gulp-rename], and [gulp-sourcemaps].
 
@@ -42,7 +45,7 @@ Other options are for [gulp-cssimport], [gulp-autoprefixer], [gulp-rename], and 
 
 Starter Project uses [Sass] as a preprocessor for CSS. As it's official website says, Sass is "CSS with superpowers." A significant number of developers are supporters and users of this robust program. It has useful features like variables, functions, and mixins.
 
-> “CSS with superpowers.”
+> _“CSS with superpowers.”_
 
 Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
@@ -97,9 +100,9 @@ Starter Project has three libraries imported:
 
 If your website looks inconsistent across different browsers, you probably want to use CSS technique to reset browser behavior. In Starter Project, [Normalize.css] is used for this task.
 
-> “Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”
+> _“Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”_
 >
-> Nicolas Gallagher
+> _Nicolas Gallagher_
 
 [Modular Scale] helps with font size consistency. [modularscale-sass] is a list of values that are used to size type and create a sense of harmony in design.
 
@@ -138,9 +141,9 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 ## Linting
 
-> “Linting is the process of running a program that will analyze code for potential errors.”
+> _“Linting is the process of running a program that will analyze code for potential errors.”_
 >
-> Source: [StackOverflow](https://stackoverflow.com/a/8503586)
+> _Source: [StackOverflow](https://stackoverflow.com/a/8503586)_
 
 In Starter Project, [gulp-stylelint] plugin is used to lint CSS files. You could configure the plugin in `config.json` file.
 

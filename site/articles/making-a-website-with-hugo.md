@@ -23,7 +23,9 @@ If you are starting a new website, consider using [Hugo]. Other than it is “th
 
 <!-- more -->
 
-__<small>This post serves as an intro for the course “[Making a website with Hugo].”</small>__
+{% note %}
+_This post serves as an intro for the course “[Making a website with Hugo](https://skl.sh/2q88Ij7).”_
+{% endnote %}
 
 ## CLI
 
@@ -57,7 +59,9 @@ I have highlighted only five features that make the process of developing a new 
 
 If you are interested in making a website with Hugo by now, I encourage you to take a look at [my Skillshare course].
 
-> The fastest twenty users would get the course for free. 🙌
+{% note %}
+_The fastest twenty users would get the course for free. 🙌_
+{% endnote %}
 
 [Making a website with Hugo]: https://skl.sh/2q88Ij7
 [Hugo]: https://gohugo.io

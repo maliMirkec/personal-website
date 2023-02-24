@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Lookbacks
 ---
 
 Another year has ended. This one was rough on me. I have experienced some serious life challenges, as well as work-related ones.

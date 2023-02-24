@@ -57,9 +57,9 @@ Now we could modify the style as we please and our classes wouldn't lose meaning
 
 There is a potential brain processing overhead here because you have to remember which letter stands for which version of an element. Try to reduce your brain usage by documenting your variables and modifiers and not using too many variations for a single component.
 
-> “Use `psi` and `omega` to name different or completely distinct variables or modifiers.”
+> _“Use `psi` and `omega` to name different or completely distinct variables or modifiers.”_
 
-Here's a tip for you: use `psi` and `omega` letters (last two letters of the alphabet) to name different or completely distinct variables or modifiers. For example, I am using `color-psi` for text color, and `color-omega` for white color. These are opposites of `color-alpha,` `color-beta,` and `color-gamma` which serves as theme/brand colors in my case.
+For example, I am using `color-psi` for text color, and `color-omega` for white color. These are opposites of `color-alpha,` `color-beta,` and `color-gamma` which serves as theme/brand colors in my case.
 
 ## Conclusion
 

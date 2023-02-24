@@ -26,11 +26,140 @@ Sometimes the amount of new frontend technologies feels really [overwhelming to 
 
 Let's go back to the code. Even better, let's consider model examples for this task:
 
-{% cldnry "first-model-for-angular-repeater_bmsaac" "First model for angular repeater." %}
+```json
+{
+  "boolean-true": true,
+  "boolean-false": false,
+  "string": "This is string.",
+  "array-of-strings": ["This is first string.", "This is second string.", "This is third string."],
+  "integer-negative": -1,
+  "integer-zero": 0,
+  "integer-positive": 1,
+  "array-of-integers": [-1, 0, 1],
+  "float-negative": -1.01,
+  "float-zero": 0.00,
+  "float-positive": 1.01,
+  "array-of-floats": [-1.01, 0, 1.01],
+  "object": {
+    "label": "This is label",
+    "value": 100
+  },
+  "array-of-objects": [
+    {
+      "label": "This is first label",
+      "value": 100
+    },
+    {
+      "label": "This is second label",
+      "value": 200
+    },
+    {
+      "label": "This is third label",
+      "value": 300
+    }
+  ]
+}
+```
 
-{% cldnry "second-model-for-angular-repeater_lxgczj" "Second model for angular repeater." %}
+```json
+[
+  {
+    "boolean-true": true,
+    "boolean-false": false,
+    "string": "This is string.",
+    "array-of-strings": ["This is first string.", "This is second string.", "This is third string."],
+    "integer-negative": -1,
+    "integer-zero": 0,
+    "integer-positive": 1,
+    "array-of-integers": [-1, 0, 1],
+    "float-negative": -1.01,
+    "float-zero": 0.00,
+    "float-positive": 1.01,
+    "array-of-floats": [-1.01, 0, 1.01],
+    "object": {
+      "label": "This is label",
+      "value": 100
+    },
+    "array-of-objects": [
+      {
+        "label": "This is first label",
+        "value": 100
+      },
+      {
+        "label": "This is second label",
+        "value": 200
+      },
+      {
+        "label": "This is third label",
+        "value": 300
+      }
+    ]
+  }
+]
+```
 
-{% cldnry "third-model-for-angular-repeater_dsleyg" "Third model for angular repeater." %}
+```json
+[
+  {
+    "boolean-true": true
+  },
+  {
+    "boolean-false": false
+  },
+  {
+    "string": "This is string."
+  },
+  {
+    "array-of-strings": ["This is first string.", "This is second string.", "This is third string."]
+  },
+  {
+    "integer-negative": -1
+  },
+  {
+    "integer-zero": 0
+  },
+  {
+    "integer-positive": 1
+  },
+  {
+    "array-of-integers": [-1, 0, 1]
+  },
+  {
+    "float-negative": -1.01
+  },
+  {
+    "float-zero": 0.00
+  },
+  {
+    "float-positive": 1.01
+  },
+  {
+    "array-of-floats": [-1.01, 0, 1.01]
+  },
+  {
+    "object": {
+      "label": "This is label",
+      "value": 100
+    }
+  },
+  {
+    "array-of-objects": [
+      {
+        "label": "This is first label",
+        "value": 100
+      },
+      {
+        "label": "This is second label",
+        "value": 200
+      },
+      {
+        "label": "This is third label",
+        "value": 300
+      }
+    ]
+  }
+]
+```
 
 These models contain typical types of data:
 
@@ -46,9 +175,27 @@ Since we need to iterate through these models to display labels and inputs, we s
 
 The solution lies in **recursion**. It is a programming principle when a function calls itself. In our case, we'll use a **recursive-repeater** directive that will call itself.
 
-{% cldnry "angular-repeater-template_pzfvoq" "Template for angular repeater." %}
+```html
+<div>
+  <div ng-if="!IsObject(jsonData)">
+    <div class="form-group" ng-if="label">
+      <label>{{label}}</label>
+      <input class="form-control" type="text" name="{{label}}" value="{{jsonData}}">
+    </div>
+  </div>
+  <div ng-if="IsObject(jsonData)">
+    <div ng-repeat="(objKey, objValue) in jsonData track by objKey">
+      <div ng-init="indexVar = (IsNumber(objKey) && (!IsObject(objValue))) ? '' : objKey"></div>
+      <div ng-init="label2 = label.length > 0 ? label + '[' + indexVar + ']' : objKey"></div>
+      <recursive-repeater json-data="objValue" label="label2"></recursive-repeater>
+    </div>
+  </div>
+</div>
+```
 
-_For now, ignore IsObject() and IsNumber() functions._
+{% note %}
+_For now, ignore `IsObject()` and `IsNumber()` functions._
+{% endnote %}
 
 If we run this code, we'll get an error. This is because Angular 1 doesn't support recursively included directives out of the box. But there is a solution.
 
@@ -58,7 +205,27 @@ The solution is [Mark Lagendijk's RecursionHelper service](https://github.com/ma
 
 I've already included this awesome service in **recursive-repeater** directive, like this:
 
-{% cldnry "angular-repeater-directive_rkx8sy" "Angular repeater directive." %}
+```js
+angular.module('Repeater', ['RecursionHelper'])
+  .directive('recursiveRepeater', ['RecursionHelper', function (RecursionHelper) {
+    return {
+      restrict: 'E',
+      replace: true,
+      scope: {
+        jsonData: '=',
+        label: '='
+      },
+      transclude: true,
+      templateUrl: './templates/repeater.html',
+      compile: function(element) {
+        return RecursionHelper.compile(element, function(scope, iElement, iAttrs, controller, transcludeFn){
+          scope.IsObject = angular.isObject;
+          scope.IsNumber = angular.isNumber;
+        });
+      }
+    };
+  }]);
+```
 
 As you could see, we're not using **link** property when defining directive, we are using **compile** instead.
 
@@ -66,8 +233,8 @@ This directive works only when **jsonData** is provided via **json-data** attrib
 
 In addition, there are 2 helper functions in a directive:
 
-* IsObject() - used to check model property type and
-* IsNumber() - used to check if model property key is a number.
+* `IsObject()` - used to check model property type and
+* `IsNumber()` - used to check if model property key is a number.
 
 ### Important notice
 

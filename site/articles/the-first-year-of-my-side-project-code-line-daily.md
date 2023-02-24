@@ -68,7 +68,7 @@ Another person suggested that it might be a good idea to build [a browser extens
 
 During the last year, I dedicated a lot of my time to this project. Most of the time, I was having fun developing these features, but I struggled with the content. Even if it was a single line per day, it was still a challenge for me. Writing content is hard.
 
-> Most of the time, I was having fun developing these features, but I struggled with the content.
+> _Most of the time, I was having fun developing these features, but I struggled with the content._
 
 On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the [UI Dev newsletter], which I am beginning to enjoy more and more with every new issue.
 

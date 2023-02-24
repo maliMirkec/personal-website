@@ -127,7 +127,9 @@ const calcPaths = (totalDur) => {
 calcPaths(5)
 ```
 
-> Pro tip: Be sure to check [the browser compability] before you use this technique.
+{% note "Tip" %}
+_Be sure to check [the browser compability](https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength#Browser_compatibility) before you use this technique._
+{% endnote %}
 
 ## CSS Animation
 

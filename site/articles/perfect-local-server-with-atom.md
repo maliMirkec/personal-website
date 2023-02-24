@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 I've been using all kind of local server solutions back in a day, from [WampServer](http://www.wampserver.com/en/) to [Vagrant](https://www.vagrantup.com/). I noticed that I had to spend large amount of time on learning and configuration. That was, not only time consuming, but also very frustrating, especially when you're a newby and you don't understand half of the instructions and problems.
@@ -33,7 +34,9 @@ Then select where you want to install **Bitnami WAMP Stack**. After that Setup w
 
 Next steps are to select Apache web server port, SSL port and MySQL Server port. Port 80 is the standard Apache web server port, but it may not be available on you machine. In that case, select another port or make sure port 80 is not in use. Port 443 is the standard SSL port, try to set it up. If in use, use another one. Do the same with MySQL Server port, the standard port is 3306\. Remember this settings, maybe you'll need it some day.
 
+{% note %}
 _If any port is available, Setup will automatically assign standard port and skip steps._
+{% endnote %}
 
 That's it, proceed with a installation, wait for process to finish and violà—you got yourself a local web server.
 
@@ -57,11 +60,15 @@ There are no shortcuts for this package, you'll have to call commands from comma
 
 When you start **php-server**, your browser will start automatically and try to open `index.php` or `index.html` file. If necessary, you could use different filename, but then you have to add that file to the URL. For example, if you create file with named `form.php`, then your URL should look like this: http://localhost:9000/form.php.
 
+{% note %}
 _When you run your **php-server** for the first time, Firewall window could pop out asking you to allow access to this feature. You should allow it. This depends of your system settings._
+{% endnote %}
 
 That's it! If you're more familiar with PHP, you could even create more advanced architecture for your development.
 
-_Pro tip: by default, PHP opcache is turned on. This means that you'll have to wait for new changes in PHP file to propagate every time. To turn off this feature, go to `php` folder in your Bitnami installation folder and open file named `php.ini`. Search for `opcache.enable` and set it to 0\. Now every change in PHP file should be immediately propagated to your browser._
+{% note "Tip" %}
+_By default, PHP opcache is turned on. This means that you'll have to wait for new changes in PHP file to propagate every time. To turn off this feature, go to `php` folder in your Bitnami installation folder and open file named `php.ini`. Search for `opcache.enable` and set it to 0\. Now every change in PHP file should be immediately propagated to your browser._
+{% endnote %}
 
 ## livereload
 
@@ -77,11 +84,15 @@ To start **livereload** server, you could use command palette or shortcut `ctrl 
 
 Nothing happens in your browser yet, because we need to install browser extension as well. Go to the **LiveReload** extension's website and install it. It works both on Chrome and Firefox.
 
+{% note %}
 _I prefer Atom solution for **LiveReload** because native solution didn't work well on my machine. Plus, I could use it directly from Atom and that is pretty awesome, if you ask me._
+{% endnote %}
 
 Assuming that you've started **livereload** server in Atom, now you could turn on your browser extension. Go ahead and save changes in CSS or JavaScript or PHP file and enjoy the magic.
 
-_Pro tip: if you're using [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/) or any other task runner, don't worry, it will work. More about that in the following articles._
+{% note "Tip" %}
+_If you're using [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/) or any other task runner, don't worry, it will work. More about that in the following articles._
+{% endnote %}
 
 ## Final thought
 

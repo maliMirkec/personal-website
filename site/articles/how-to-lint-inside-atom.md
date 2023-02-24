@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
@@ -81,7 +82,9 @@ In the examples above you could see that errors are displayed on 4 different pla
 
 This depends on your main **linter** settings, but you should see at least on of them.
 
+{% note %}
 _To see errors in a **minimap**, you should install [**minimap-linter**](https://atom.io/packages/minimap-linter) package. You could learn more about minimap packages [here](/articles/github-atom-minimap-packages/)._
+{% endnote %}
 
 You could use more advanced configuration options for each linters which are out of scope for this article. I encourage you to read full documentation for both [stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide.md) and [jshint](http://jshint.com/docs/), as they could be really useful for you.
 

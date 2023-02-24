@@ -32,7 +32,7 @@ According to Lombardo, there are five primary components of a roadmap:
 
 Making a roadmap disclaimer is essential.
 
->Therefore you should consider yourself informed that this roadmap is prone to changes. The content communicates information that is relevant only to me. Also, a person cannot be a project. ❗
+> _Therefore you should consider yourself informed that this roadmap is prone to changes. The content communicates information that is relevant only to me. Also, a person cannot be a project. ❗_
 
 Having that said, you are free to be inspired and make your own career plan and decisions.
 
@@ -40,29 +40,29 @@ Having that said, you are free to be inspired and make your own career plan and 
 
 Vision should answer questions like where are you going, or how the future should look for you, or where do you see yourself in a certain period of time.  It doesn't have to be a single thought, it could be a whole document or a blog post or something else.
 
-> My current visions are:
+> _My current visions are:_
 >
-> - to build more performant, reliable and accessible website for every client,
-> - to be better in delivering pixel-perfect, responsive and semantic user interface solutions,
-> - to become a more respectful and acknowledged developer, and
-> - to start a consulting agency.
+> - _to build more performant, reliable and accessible website for every client,_
+> - _to be better in delivering pixel-perfect, responsive and semantic user interface solutions,_
+> - _to become a more respectful and acknowledged developer, and_
+> - _to start a consulting agency._
 
 ## Objectives
 
 Objectives are outcomes that you could measure or compare. When setting your objectives, you should ask questions like what are you trying to accomplish, or what results you are expecting.
 
-> My current objectives are:
+> _My current objectives are:_
 >
-> - devote to all projects equally and with full attention,
-> - learn more about web tools, techniques, and principles,
-> - write more technical posts,
-> - write more career posts,
-> - attract more visitors to my website,
-> - build a bigger audience on social networks,
-> - land more challenging projects,
-> - increase the hourly rate,
-> - make a product of my own, and
-> - sell consulting services.
+> - _devote to all projects equally and with full attention,_
+> - _learn more about web tools, techniques, and principles,_
+> - _write more technical posts,_
+> - _write more career posts,_
+> - _attract more visitors to my website,_
+> - _build a bigger audience on social networks,_
+> - _land more challenging projects,_
+> - _increase the hourly rate,_
+> - _make a product of my own, and_
+> - _sell consulting services._
 
 I am aware that my objectives sound very idealistic, but that is precisely the purpose. Objectives should help you follow the vision. In my case, the ultimate aim is to help clients build better software by making decisions based on my expertise and experience without coding necessarily—to consult.
 
@@ -83,13 +83,13 @@ Lombardo talks about asking “why” repeatedly for a problem that you are tryi
 - Why don't visitors come from Google? Because the website is not on the first page on search results.
 - Why isn't the site on the first page? Because the SEO is not optimized.
 
-> My current themes are:
+> _My current themes are:_
 >
-> - Improve SEO to get higher Google ranking
-> - Add more content on the homepage to make a unique user experience
-> - Update portfolio to make potential clients want to hire you
-> - Publish an article for Smashing Magazine
-> - Publish a course about static page generators
+> - _Improve SEO to get higher Google ranking_
+> - _Add more content on the homepage to make a unique user experience_
+> - _Update portfolio to make potential clients want to hire you_
+> - _Publish an article for Smashing Magazine_
+> - _Publish a course about static page generators_
 
 I have created [a Trello board] with the complete roadmap. You could see that I have added the labels “Now,” “Next” and “Later” to define timeframes.
 

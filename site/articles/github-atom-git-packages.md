@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 Developers often rely on a version control system and one of the most popular is [Git](https://git-scm.com/).
@@ -32,7 +33,9 @@ Atom community provides us with plenty of [Git packages](https://atom.io/package
 
 When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
+{% note %}
 _I don't recommend using **git-plus** package for complicated Git structures. There are specific tools that are built for that, like [Git Extensions](https://gitextensions.github.io/) or [Tower](https://www.git-tower.com/), to name just a few._
+{% endnote %}
 
 **git-plus** could be installed via package manager, the instructions could be found in the article [First steps with Github Atom](/articles/github-atom-first-steps/).
 

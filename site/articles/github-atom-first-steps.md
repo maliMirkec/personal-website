@@ -11,6 +11,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
@@ -39,7 +40,9 @@ To install **sync-settings**, find package in a list (should be first on the lis
 
 ### sync-settings configuration
 
+{% note %}
 _To configure **sync-settings**, you should have [Github account](https://github.com/). If you don't have one already, create a new one, it's free._
+{% endnote %}
 
 After you've installed **sync-settings** package, click on _Settings_. In order to make your first backup, you should fill _Personal Access Token_ and _Gist Id_. If you're not familiar with this terms, please refer to [**sync-settings** Setup section](https://atom.io/packages/sync-settings).
 
@@ -55,7 +58,9 @@ Open [command palette](https://atom.io/packages/command-palette) by pressing `ct
 
 You've successfully created your first Atom settings backup.
 
+{% note "Tip" %}
 _Whenever you install new package, edit or add new snippet or change shortcut, don't forget to make a backup of your settings._
+{% endnote %}
 
 If you have Atom installed on different device, **sync-settings** package should prompt you to restore your latest settings. That way you're always in sync.
 

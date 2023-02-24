@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Atom
 ---
 
 One of the most popular features for Atom out there is a **minimap**. It's a code preview in a small sidebar window.

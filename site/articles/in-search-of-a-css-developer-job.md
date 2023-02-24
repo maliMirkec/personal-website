@@ -40,7 +40,9 @@ I also tried to use Twitter search, but I didn't find anything useful.
 
 After Twitter, I wanted to try my luck on search engines like Google and DuckDuckGo. The first search term I tried was "css developer job remote." The first two pages were full of job searching sites. Some of these sites, like Turing and Toptal, are freelancing platforms. You must undergo the screening process to be accepted to the network to apply for a job. Although I am a member of some of these platforms, [which were a significant part of my career](/articles/a-story-of-becoming-a-web-developer/), I didn’t want to use them since I tried to cut the middleman.
 
-_👉 Fun fact: if you enter the “css developer” term in the search engine, you might find [my Toptal article about CSS roles](https://www.toptal.com/css/why-you-need-a-css-developer) as a top result._
+{% note "Fun fact" %}
+_If you enter the “css developer” term in the search engine, you might find [my Toptal article about CSS roles](https://www.toptal.com/css/why-you-need-a-css-developer) as a top result._
+{% endnote %}
 
 Other results included sites like We Work Remotely, Arc, Jooble, SimplyHired, etc. Job postings on almost all of these sites had one of the following problems if not all of them:
 
@@ -63,7 +65,7 @@ In general, there are too many job postings. I am not sure how other people find
 
 ## LinkedIn
 
-The following location in my quest was a LinkedIn job search. It is no different than the rest of the sites --- it had the same problems. The only difference is that I saw a lot of job postings from countries like Poland, Ireland, and Norway, which I liked.
+The following location in my quest was a LinkedIn job search. It is no different than the rest of the sites — it had the same problems. The only difference is that I saw a lot of job postings from countries like Poland, Ireland, and Norway, which I liked.
 
 ## Job boards
 

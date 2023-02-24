@@ -107,7 +107,7 @@ Adding Gulp or Webpack to your build process is always helpful and recommended. 
 
 Netlify is a platform that provides hosting for websites and apps with blazing fast performance. It markets itself as a unified platform that automates code to create performant and easy to maintain websites.
 
-> “Simply push your code and let us take care of the rest.”
+> _“Simply push your code and let us take care of the rest.”_
 
 As you’d expect, configuring the website is straightforward:
   1. Set up the domain.

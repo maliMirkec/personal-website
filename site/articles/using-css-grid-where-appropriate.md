@@ -46,7 +46,7 @@ I wanted to try CSS Grid here, so I started by adding `display: grid` on my `ul`
 
 I discovered there's a property that could help me in this specific situation. And it is called [`grid-auto-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
 
-> “The grid-auto-flow CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.”
+> _“The `grid-auto-flow` CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.”_
 
 I'll set this property to `column` and grid will be smart enough to add new columns as necessary.
 
@@ -176,4 +176,6 @@ I really enjoyed building a navigation component using many different techniques
 
 Are you using CSS Grid? In what situations? Leave a comment below or [ping me on Twitter](https://twitter.com/malimirkeccita).
 
-> “I wrote a newer article on the same subject, [Using CSS Grid where appropriate (revisited)](/articles/using-css-grid-where-appropriate-revisited/).”
+{% note %}
+_“I wrote a newer article on the same subject, [Using CSS Grid where appropriate (revisited)](/articles/using-css-grid-where-appropriate-revisited/).”_
+{% endnote %}

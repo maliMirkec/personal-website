@@ -36,7 +36,7 @@ When creating a new project on Netlify, you start by either:
 
 The project should be ready in a matter of minutes and you could start configuring it for your needs right away. Start by choosing the site name.
 
-> “The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.”
+> _“The site name determines the default <abbr>URL</abbr> for your site. Only alphanumeric characters and hyphens are allowed.”_
 
 Netlify randomly creates a default name for a new project. If you don’t like the name, choose your own and make it one that would be much easier for you to remember.
 
@@ -57,7 +57,7 @@ For the first option, you could [read the full instructions on the official docu
 
 For the second option, you should add or update the nameservers on your domain registrar. If you didn’t buy the domain already, you could register it right from the dashboard.
 
-> Netlify has a service for provisioning DNS records called Netlify DNS.
+> _Netlify has a service for provisioning DNS records called Netlify DNS._
 
 Once you have set the custom domain, you could handle your <abbr>DNS</abbr> records from the Netlify dashboard.
 
@@ -85,9 +85,9 @@ Netlify creates a unique preview link for every successful build. That means you
 
 In his talk, Phil Hawksworth calls this feature [immutable, atomic deploys].
 
-> “They are immutable deployments that live on forever.”
+> _“They are immutable deployments that live on forever.”_
 >
-> — Phil Hawksworth
+> _— Phil Hawksworth_
 
 I found this feature useful when completing tasks and sending the preview links to the clients. If there is a person in charge of handling Git-related tasks, like publishing to production, these preview links could be convenient to understand what to expect during the merge. You could even set up the preview builds for every pull request.
 
@@ -99,9 +99,9 @@ If you ever wanted to run A/B tests on your site, you would find that Netlify ma
 
 All you have to do is create a separate branch, make changes, and publish the branch. Then you should be able to select the branch, set a split percentage, and start the test. You could even set a variable in analytics code to track which branch is currently displayed.
 
-> “Netlify’s Split Testing lets you divide traffic to your site between different deploys, straight from our CDN network, without losing any download performance, and without installing any third party JavaScript library.”
+> _“Netlify’s Split Testing lets you divide traffic to your site between different deploys, straight from our CDN network, without losing any download performance, and without installing any third party JavaScript library.”_
 >
-> — [Netlify documentation]
+> _— [Netlify documentation]_
 
 I have been using A/B testing on my site for a few different features so far:
 

@@ -56,11 +56,15 @@ To complete the integration, you should add JavaScript file at the bottom of you
 
 I am using [Hexo] static page generator for my site, but it works with other static site generators like [Hugo] or [Jekyll]. Since most of the static site generators support Markdown, you could paste the contact code directly in Markdown, and it would work, too. Otherwise, you could create a separate page or layout and paste the code there.
 
-> Pro tip: There is no need to add JavaScript file to pages that don't have a contact form.
+{% note "Tip" %}
+_There is no need to add JavaScript file to pages that don't have a contact form._
+{% endnote %}
 
 Next, we would add an HTML form to our contact page. To do this, start by adding the usual form tags.
 
-> Pro tip: Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible.
+{% note "Tip" %}
+_Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible._
+{% endnote %}
 
 Then add the Kwes attributes. Start by adding the wrapper div with the `kwes-from` class. Next, add the action link to the `form` element, and then add rules to your `input` fields. The code should look something like this:
 

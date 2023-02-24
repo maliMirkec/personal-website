@@ -15,6 +15,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: The UI Development Mentoring Program
 ---
 
 I had this idea for a while, and I have decided to give it a shot with mentoring. Last week I [asked a question about mentoring on dev.to] and the community responded positively. This encouraged me to start my own mentoring program for UI developers.
@@ -23,7 +24,9 @@ Since I work remotely, I am talking about remote mentoring here. That means I wo
 
 <!-- more -->
 
-> Note that I am located in Croatia, and I speak only English and Croatian. 🇭🇷
+{% note %}
+_I am located in Croatia, and I speak only English and Croatian. 🇭🇷_
+{% endnote %}
 
 ## Background
 

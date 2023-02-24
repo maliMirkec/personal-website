@@ -11,7 +11,7 @@ const package = require('./package.json')
 module.exports = (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
 
-  eleventyConfig.setWatchJavaScriptDependencies(300)
+  eleventyConfig.setWatchJavaScriptDependencies(500)
 
   eleventyConfig.setBrowserSyncConfig({
     open: true,
@@ -38,8 +38,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setLibrary("liquid", new Liquid(options))
 
   eleventyConfig.addPlugin(syntaxHighlight)
-
-  eleventyConfig.addPairedShortcode("codeblock", (str) => str)
 
   eleventyConfig.addLiquidFilter('markdownify', (str) => markdownItRenderer.render(str ? str.trim() : ''))
 
@@ -71,21 +69,6 @@ module.exports = (eleventyConfig) => {
     return `Eleventy ${package.dependencies['@11ty/eleventy'].replace('^', '')}`
   })
 
-  const cp_id = (id) => `cp_embed_${id.replace(/\//g, '_')}`
-
-  eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
-
-  eleventyConfig.addLiquidShortcode('codepen', (user, pen, theme, tab, height, width, lazy) => `<iframe id="${cp_id(pen || '')}" src="//codepen.io/${ user }/embed/${ pen }?height=${ height || '300' }&theme-id=${ theme || 'dark' }&slug-hash=${ pen }&default-tab=${ tab || 'result' }" scrolling="no" frameborder="no" height="${ height || '300' }" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:${ width || '100%' };overflow: hidden;"${lazy ? ' loading="lazy"' : ''}></iframe>`)
-
-  eleventyConfig.addLiquidShortcode('caniuse', (feature, periods) => `<p class="ciu_embed" data-feature="${ feature }" data-periods="${ periods }"><a href="http://caniuse.com/#feat=${ feature }">Can I Use ${ feature }?</a> Data on support for the ${ feature } feature across the major browsers from caniuse.com.</p><script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>`)
-
-  const cldnry = (src, alt, width, height, classes, classes2) => width ? `<span class="dib pic${ classes2 ? ' ' + classes2 : '' }"><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }" loading="lazy"></span>` :
-    `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" loading="lazy">`
-
-  eleventyConfig.addLiquidShortcode('cldnry', cldnry)
-
-  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`)
-
   const sortlist = (list) => {
     return list.sort((a, b) => {
       if (a.year > b.year) {
@@ -99,6 +82,26 @@ module.exports = (eleventyConfig) => {
   }
 
   eleventyConfig.addLiquidFilter('sortlist', sortlist)
+
+  const cp_id = (id) => `cp_embed_${id.replace(/\//g, '_')}`
+
+  eleventyConfig.addLiquidShortcode('codepen', (user, pen, theme, tab, height, width, lazy) => `<iframe id="${cp_id(pen || '')}" src="//codepen.io/${ user }/embed/${ pen }?height=${ height || '300' }&theme-id=${ theme || 'dark' }&slug-hash=${ pen }&default-tab=${ tab || 'result' }" scrolling="no" frameborder="no" height="${ height || '300' }" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width:${ width || '100%' };overflow: hidden;"${lazy ? ' loading="lazy"' : ''}></iframe>`)
+
+  eleventyConfig.addLiquidShortcode('caniuse', (feature, periods) => `<p class="ciu_embed" data-feature="${ feature }" data-periods="${ periods }"><a href="http://caniuse.com/#feat=${ feature }">Can I Use ${ feature }?</a> Data on support for the ${ feature } feature across the major browsers from caniuse.com.</p><script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>`)
+
+  eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
+
+  const cldnry = (src, alt, width, height, classes, classes2) => width ? `<span class="dib pic${ classes2 ? ' ' + classes2 : '' }"><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }" loading="lazy"></span>` :
+    `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" loading="lazy">`
+
+  eleventyConfig.addLiquidShortcode('cldnry', cldnry)
+
+  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`)
+
+  eleventyConfig.addPairedLiquidShortcode('note', (note, title) => {
+    let dataTitle = title ? ` data-title="${title}"` : ''
+    return `<div class="note"${dataTitle}>${ markdownItRenderer.render(note.trim()) }</div>`
+  })
 
   eleventyConfig.addCollection("my-stories", (collection) => {
     return collection.getFilteredByTag("story").sort((a, b) => {

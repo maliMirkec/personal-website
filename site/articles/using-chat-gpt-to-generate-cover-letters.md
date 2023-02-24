@@ -23,7 +23,9 @@ Let’s say you are applying for a job and want to write a cover letter that sta
 - then ask it to make it more optimistic,
 - then ask it to use fewer sentences starting with “I.”
 
-_The job description has been taken from the following link: [https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20][1]._
+{% note %}
+_The job description has been taken from the following link: [https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20](https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20)._
+{% endnote %}
 
 ```txt
 Me:
@@ -126,5 +128,3 @@ Yours sincerely,
 ```
 
 Tedious tasks like writing cover letters are less boring, thanks to ChatGPT. Just don’t forget to double-check the written output and edit it per your needs.
-
-[1]: https://jobs.lever.co/close.io/10a1e32b-1a59-48dc-b8f4-e6f0dfae4e20

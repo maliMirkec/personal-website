@@ -110,7 +110,7 @@ A long time ago, I bookmarked the article [“Images Are Not Static Content“].
 
 Since I am using [Cloudinary service] as my “Dynamic Media Platform”, as they like to call it, I decided to take advantage of the platform.
 
-> “Because images have such a high impact on website performance, images must be tailored according to the capabilities and context of the browser and user.”
+> _“Because images have such a high impact on website performance, images must be tailored according to the capabilities and context of the browser and user.”_
 
 I ditched the [hexo-cloudinary] package, a Hexo tag plugin I created before, and I developed a new Hexo tag plugin: [hexo-cldnry]. It uses the Cloudinary Node.js SDK, Cloudinary JavaScript library, and Clients Hints feature for creating the automated responsive images. You could learn more about it on by [reading the Responsive Images Guide].
 

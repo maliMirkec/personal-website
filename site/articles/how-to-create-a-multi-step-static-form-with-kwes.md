@@ -32,7 +32,9 @@ A multi-step form is a long-form that is broken into pieces. The reason for doin
 
 You might have seen multi-steps forms on checkout or shipping forms. Multi-steps forms are also used for wizards such as signing up forms, and there is an increased appearance of multi-step login forms recently. These are just common scenarios when to use them, but every longer form could be broken into pieces.
 
-> Pro tip: Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop.
+{% note "Tip" %}
+_Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop._
+{% endnote %}
 
 The conversion rate is one of the most substantial benefits of a multi-step form. It is believed that multi-step forms have a better conversion rate. Other benefits include the first impression, which is less overwhelming to users, and progress bars, which encourage users to proceed with the form.
 
@@ -68,7 +70,9 @@ Here’s how the code looks for now:
 
 To enable a multi-step form, I have added the `multi-step` attribute to the `form` element.
 
+{% note %}
 _I had to add `true` value to the `multi-step` attribute to make my HTML linter happy._
+{% endnote %}
 
 Next, I have divided the form into steps by wrapping related inputs with `form-step` elements. That’s it! To make a multi-step form with Kwes, all you need to do is to add a single wrapper div to every step. I never knew it would be that easy.
 

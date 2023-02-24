@@ -66,7 +66,9 @@ Making sticky elements in a CSS grid layout is pretty straightforward. We add `p
 
 Beware that there is a known issue with sticky positioning in Safari when it’s used with `overflow: auto`. It is documented over [at caniuse](https://caniuse.com/css-sticky) in the known issues section:
 
-> A parent with overflow set to auto will prevent position: sticky from working in Safari.
+{% note %}
+_A parent with overflow set to auto will prevent position: sticky from working in Safari._
+{% endnote %}
 
 Nice, that was easy. Let’s solve the challenge of full-bleed elements next.
 
@@ -102,7 +104,9 @@ In short, the negative offset is the width of the viewport, 100vw, minus the wid
 
 Beware that there is a known bug when using 100vw, that is also documented over [at caniuse](https://caniuse.com/viewport-units):
 
-> Currently all browsers but Firefox incorrectly consider 100vw to be the entire page width, including vertical scroll bar, which can cause a horizontal scroll bar when overflow: auto is set.
+{% note %}
+_Currently all browsers but Firefox incorrectly consider 100vw to be the entire page width, including vertical scroll bar, which can cause a horizontal scroll bar when overflow: auto is set._
+{% endnote %}
 
 Now let’s make full-bleed elements when the content is not centered. If you watch the video again, notice that there is no content below the sticky element. We don’t want our sticky element to overlap the content and that is the reason why we don’t have centered content in this particular layout.
 

@@ -13,15 +13,10 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Year of freelancing
 ---
 
 It's been more than four years since I started my freelance career. Here's the overview of the last year.
-
-*I wrote reviews of previous years which you can read here:*
-
-- [My first year of freelancing](/articles/my-first-year-of-freelancing/)
-- [My second year of freelancing](/articles/my-second-year-of-freelancing/)
-- [My third year of freelancing](/articles/my-third-year-of-freelancing/)
 
 ## Clients
 

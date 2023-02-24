@@ -84,9 +84,11 @@ For this demo, I've decided to use a new [`CSS` variables](https://developer.moz
 
 Using `CSS` variables we could define menu icon size, the number of lines, top offset, left offset and background color.
 
-_Note: I didn't find an efficient way how to _convert a _`CSS`_ variable into a _`SASS`_ variable_. If you know how to do this, please let me know._
+{% note %}
+_I didn't find an efficient way how to convert a `CSS` variable into a `SASS` variable. If you know how to do this, please let me know._
+{% endnote %}
 
-The number of lines could vary. If we want 3 hamburger lines, we should add 3 span elements: `<span class="menu-toggler__line"></span>`. We should also set `CSS` variables `--`toggler`-line-number` and `$total` to 3.
+The number of lines could vary. If we want 3 hamburger lines, we should add 3 span elements: `<span class="menu-toggler__line"></span>`. We should also set `CSS` variables `--toggler-line-number` and `$total` to `3`.
 
 I've tested this code with 3 and 4 hamburger lines and the code is working pretty good.
 
@@ -199,7 +201,7 @@ Our job is not done yet, we should implement keyboard interaction. I'll leave th
 
 ## Conclusion
 
-There are many ways how we could build UI components and there are no right way to do so. Some will disagree that the pure `CSS` solutions are usable in production environment, but that depends on project type and many other factors. I love to experiment with `CSS` because it gives me a new opportunity to learn and use the latest techniques out there. I don't know if you noticed, but beside `CSS` variables, I've used [`CSS` locks](https://css-tricks.com/css-locks/) and [system fonts](https://css-tricks.com/snippets/css/system-font-stack/) techniques in this demo. Pretty awesome, right?
+There are many ways how we could build UI components and there are no right way to do so. Some will disagree that the pure `CSS` solutions are usable in production environment, but that depends on project type and many other factors. I love to experiment with `CSS` because it gives me a new opportunity to learn and use the latest techniques out there. I don't know if you noticed, but beside `CSS` variables, I've used [CSS locks](https://css-tricks.com/css-locks/) and [system fonts](https://css-tricks.com/snippets/css/system-font-stack/) techniques in this demo. Pretty awesome, right?
 
 And there is accessibility, which is always hard. But hard doesn't mean we should avoid learning it and using it. I encourage every developer to read [this document](https://www.w3.org/TR/wai-aria-practices/) and then try to implement any part of accessibility in their newest project. Let's make Internet a better place.
 

@@ -30,7 +30,9 @@ I have 364 modified settings in my VS Code. To see these modified settings, go t
 
 {% cldnry "vs-modified-setttings_wju4zh" "Screenshot of modified VS Code Settings window." %}
 
-> Tip: you could see this file by clicking the “Open Settings” icon.
+{% note "Tip" %}
+_You could see this file by clicking the “Open Settings” icon._
+{% endnote %}
 
 I am not going to write about all these settings. I am going to describe my favorite settings:
 
@@ -116,7 +118,9 @@ I usually use [Beautify] plugin to format my code. Here are my settings for the 
 }
 ```
 
-> Tip: To prevent losing the unsaved changes on exit, set the “Files: Hot Exit” to `onExitAndWindowClose`.
+{% note "Tip" %}
+_To prevent losing the unsaved changes on exit, set the “Files: Hot Exit” to `onExitAndWindowClose`._
+{% endnote %}
 
 ### Window management
 
