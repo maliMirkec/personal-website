@@ -8,5 +8,5 @@ description: Discover tips and best practices for UI development through my UI d
 tagline:
   - "These tips have two purposes: to inspire you and to help you become a better UI developer."
   - You might not remember all of these, but try to read it at least—you might find some the tips quite helpful.
-type: mentor
+type: mentor-tips
 ---

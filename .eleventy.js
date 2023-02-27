@@ -61,8 +61,16 @@ module.exports = (eleventyConfig) => {
     return fs.existsSync(`./assets/critical/${critical}.critical.min.css`)
   })
 
+  eleventyConfig.addLiquidFilter('criticalExistsAlt', (critical) => {
+    return fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
+  })
+
   eleventyConfig.addLiquidFilter('getCritical', (critical) => {
     return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
+  })
+
+  eleventyConfig.addLiquidFilter('getCriticalAlt', (critical) => {
+    return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
   })
 
   eleventyConfig.addLiquidFilter('generator', () => {

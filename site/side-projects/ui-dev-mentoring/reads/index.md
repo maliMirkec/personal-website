@@ -11,6 +11,6 @@ ctaNewsletter: false
 # cta2:
 #   href: /rss2.xml
 #   title: Or subscribe to RSS feed
-type: mentor
+type: mentor-reads-index
 permalink: /side-projects/ui-dev-mentoring/reads/
 ---

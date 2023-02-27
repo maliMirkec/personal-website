@@ -8,6 +8,6 @@ tags:
   - slides
 tagline:
   - The UI Development Mentoring Program tips are available as slides, too.
-type: mentor
+type: mentor-slides-single
 slides: Useful
 ---

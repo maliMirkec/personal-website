@@ -51,6 +51,12 @@
   width: 80vw;
 }
 
+main + img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @supports (height: 100dvh) {
   .slides {
     --snap-height: 100dvh;

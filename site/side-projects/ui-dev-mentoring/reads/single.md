@@ -12,7 +12,7 @@ ctaNewsletter: true
 cta2:
   href: /rss2.xml
   title: Or subscribe to RSS feed
-type: mentor
+type: mentor-reads-single
 pagination:
   data: reads
   size: 1

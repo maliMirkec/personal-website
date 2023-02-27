@@ -1,7 +1,135 @@
 [{
   "css": "./assets/dist/css/mentor.css",
-  "out": "./assets/critical/mentor.critical.min.css",
+  "out": "./assets/critical/mentor-index.critical.min.css",
   "url": "http://localhost:8080/side-projects/ui-dev-mentoring/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-tips.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/tips/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-resources.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/resources/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-about.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/about/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-slides-index.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/slides/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-slides-single.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/slides/coding/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-reads-index.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/reads/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-reads-single.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/reads/2023-02-27/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-apply.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/apply/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,

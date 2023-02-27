@@ -5,7 +5,7 @@ descriptionAlt: The goal of The UI Development Mentoring Program is to help ever
 description: Learn about the UI Development Mentoring project and how it could help you create high-quality, visually appealing, modern user interfaces.
 thumbnailAlt: uidev_zn6018
 navTitle: "UI Dev"
-type: mentor
+type: mentor-index
 tags:
   - projects
   - css
