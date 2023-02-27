@@ -27,7 +27,7 @@
     "cp-prod": "npm run cp-redirects & npm run cp-headers & npm run cp-cv & npm run cp-robots-prod",
     "rm-critical": "rm -rf assets/critical/*.css",
     "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet --watch",
-    "eleventy-preview": "env ELEVENTY_ENV=preview npx @11ty/eleventy --quiet",
+    "eleventy-preview": "env ELEVENTY_ENV=development npx @11ty/eleventy --quiet",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
     "critical": "npm run eleventy-prod & (wait-on http://localhost:8080/ && node scripts/acclaimed.js)",
@@ -36,7 +36,7 @@
     "watch": "killify && gulp build && (npm run eleventy-dev & gulp watch)",
     "prod": "killify && gulp build && (npm run eleventy-prod & gulp watch)",
     "server": "npm run eleventy-dev",
-    "build-dev": "gulp build && npm run eleventy-dev && npm run cp-dev",
+    "build-dev": "gulp build && npm run eleventy-preview && npm run cp-dev",
     "build-prod": "gulp build && npm run eleventy-build && npm run cp-prod"
   },
   "dependencies": {
