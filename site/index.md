@@ -12,6 +12,35 @@ sections:
       href: /contact/
       title: Contact me
   - type: hero-beta
+    title: From the Blog
+    desc: >-
+      Here are the latest posts from my blog. I cover mostly **frontend**, **JAMstack**, and **freelancing** topics.
+  - type: cards-alpha
+    desc: Do you want to see all articles?
+    cta:
+      title: Read the article
+    cta2:
+      href: /articles/
+      title: Go to all articles
+    filter: my-articles
+    sorter: date
+    exclude: publications
+    limit: 5
+  - type: banner-beta
+    desc: Did you know that I am running **UI Dev Newsletter**?
+    code: >-
+      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
+        <input type="hidden" value="1" name="embed" />
+        <div class="margin-top">
+          <label for="bd-email">Subscribe here. Enter email.</label>
+          <div class="newsletter__input">
+            <input class="input" type="email" name="email" id="bd-email" />
+            <input class="button button--small" type="submit" value="Subscribe" />
+          </div>
+        </div>
+        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+      </form>
+  - type: hero-beta
     title: From the Portfolio
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
@@ -69,35 +98,6 @@ sections:
       title: Or see all publications
     filter: my-publications
     sorter: date
-    limit: 5
-  - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newsletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-      </form>
-  - type: hero-beta
-    title: From the Blog
-    desc: >-
-      Here are the latest posts from my blog. I cover mostly **frontend**, **JAMstack**, and **freelancing** topics.
-  - type: cards-alpha
-    desc: Do you want to see all articles?
-    cta:
-      title: Read the article
-    cta2:
-      href: /articles/
-      title: Go to all articles
-    filter: my-articles
-    sorter: date
-    exclude: publications
     limit: 5
   - type: banner-beta
     desc: Did you know that I blog since **2016**?

@@ -72,6 +72,7 @@
     "gulp-stylelint": "^13.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "^0.0.2",
+    "html-minifier": "^4.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "jstransformer-markdown-it": "^2.1.0",

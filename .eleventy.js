@@ -3,12 +3,27 @@ const { Liquid } = require("liquidjs")
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
+const htmlmin = require("html-minifier")
 const uslug = require('uslug')
-const env = require('./site/_data/env')
 const fs = require('fs')
+const env = require('./site/_data/env')
 const package = require('./package.json')
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+    if(env.production && outputPath && outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      })
+
+      return minified
+    }
+
+    return content
+  })
+
   eleventyConfig.ignores.add('site/_drafts/*')
 
   eleventyConfig.setWatchJavaScriptDependencies(500)
@@ -233,6 +248,7 @@ module.exports = (eleventyConfig) => {
     // Optional, default is "---"
     excerpt_separator: "<!-- more -->"
   })
+
 
   eleventyConfig.setServerOptions({
     port: 8080,
