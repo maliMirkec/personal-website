@@ -19,7 +19,7 @@ Here's how my OG images look now:
 
 
 
-![“OG image for the blog post titled “How to create dynamic OG images with serverless function using Sharp library”.](/og/og-png?text=How%20to%20create%20dynamic%20OG%20images%20with%20serverless%20function%20using%20Sharp%20library)
+![“OG image for the blog post titled “How to create dynamic OG images with serverless function using Sharp library”.](/og/og.png?text=How%20to%20create%20dynamic%20OG%20images%20with%20serverless%20function%20using%20Sharp%20library)
 
 ## Requirements and limitations
 
