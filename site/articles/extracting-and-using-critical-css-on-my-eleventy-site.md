@@ -63,6 +63,8 @@ Lastly, we must generate a configuration file called `.acclaimed.json` in the pr
 }]
 ```
 
+To run the script, you should use the `node scripts/acclaimed.js` command. Alternatively, you can use the command `acclaimed` directly in your terminal, but then you have to install Acclaimed globally using the following command: `npm install -g acclaimed`.
+
 Essentially, we're instructing the package to visit the <https://www.silvestar.codes/> webpage, use the <https://www.silvestar.codes/css/style.css> stylesheet, and save the extracted Critical CSS in a file named `home.critical.min.css`.
 
 {% note %}

@@ -305,3 +305,29 @@ const lastfm = () => {
 }
 
 lastfm()
+
+const perf = () => {
+  const $perf = document.querySelector('.js-perf')
+
+  if ($perf) {
+    window.onload = function () {
+      setTimeout(function () {
+        window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {}
+
+        const t = performance.timing || {}
+
+        if (!t) {
+          return
+        }
+
+        const start = t.navigationStart
+        const end = t.loadEventEnd
+        loadTime = (end - start) / 1000
+
+        $perf.innerHTML += `This page loaded in ${loadTime} seconds.</p>`
+      }, 0);
+    }
+  }
+}
+
+perf()

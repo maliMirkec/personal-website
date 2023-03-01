@@ -2,7 +2,6 @@
 layout: index
 title: How to find and insert Unicode symbols in HTML
 date: 2021-09-08 22:21:00
-updated: 2021-09-10 13:59:00
 tags:
   - blog
   - unicode

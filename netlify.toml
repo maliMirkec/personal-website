@@ -17,40 +17,6 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 [context.develop]
   command = "npm run build-dev"
 
-# [[plugins]]
-#   package = "@netlify/plugin-lighthouse"
-
-#   # optional, fails build when a category is below a threshold
-#   [plugins.inputs.thresholds]
-#     performance = 0.9
-#     accessibility = 0.9
-#     best-practices = 0.9
-#     seo = 0.9
-
-# [[plugins]]
-#   package = "netlify-plugin-checklinks"
-
-#   [plugins.inputs]
-#     skipPatterns = ["googletagmanager", "sb.js"]
-
-[[plugins]]
-  package = "netlify-plugin-minify-html"
-
-  # Specify which deploy contexts we'll minify HTML in.
-  # Supports any Deploy Contexts available in Netlify.
-  # https://docs.netlify.com/site-deploys/overview/#deploy-contexts
-  [plugins.inputs]
-    contexts = [
-      'production',
-      'staging'
-    ]
-
-  # Optionally, override the default options for the minification
-  # https://github.com/kangax/html-minifier#options-quick-reference
-  [plugins.inputs.minifierOptions]
-    removeComments = true
-    collapseInlineTagWhitespace = false
-
 [[plugins]]
   package = "@netlify/plugin-sitemap"
 
