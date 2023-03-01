@@ -47,7 +47,7 @@ Dropping events allow us to reorder columns by listening when _ghost_ column is 
 
 On `dragover` event, we want to determine a direction of dragging event and append _ghost_ column before or after current column. This means that we don't need to listen to `drop` event because we are responding with a live action on `dragover` event. That is desirable effect as we want to avoid unnecessary events. Again, we should set _timeout_ here, just like we did on `drag` event.
 
-## Usage
+## The usage
 
 To install **Angular dragtable**, clone the repository from Github or use bower installer: `bower install **angular-dragtable**`.
 
