@@ -141,10 +141,14 @@ First, I created an array of all words. Then I iterate through the array to chec
 Converting SVG to PNG was the easy part:
 
 ```js
-const img = await sharp(Buffer.from(svg))
+const img = await sharp(Buffer.from(utf8.decode(svg)))
   .png()
   .toBuffer()
 ```
+
+{% note %}
+We are decoding back to UTF8 to support all characters.
+{% endnote %}
 
 All that is left to do is to output the base64 encoded image:
 
