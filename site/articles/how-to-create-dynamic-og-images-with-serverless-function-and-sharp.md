@@ -21,8 +21,6 @@ Here's how my OG images look now:
 
 ![“OG image for the blog post titled “How to create dynamic OG images with serverless function using Sharp library”.](/og/og-png?text=How%20to%20create%20dynamic%20OG%20images%20with%20serverless%20function%20using%20Sharp%20library)
 
-{% cldnry "og-png_bmxknv" "OG image for the blog post titled “How to create dynamic OG images with serverless function using Sharp library”." %}
-
 ## Requirements and limitations
 
 First, let's review the requirements. I wanted to use SVG as a template. Unfortunately, SVG is not a supported format for OG images. Instead, SVG must be converted to another image format, like PNG or JPG. That means I will need some library for this.
