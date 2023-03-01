@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 2020 Lookback
+title: 2020 lookback
 date: 2021-01-18 13:10:42
 tags:
   - blog
@@ -38,7 +38,7 @@ The first WordPress project is an ongoing collaboration where I maintain and dev
 
 Last year I worked on only one Shopify project. I am not sure why Shopify is so popular. You have to be a magician to make some serious development in Shopify. I wish they allow more control to developers over the site in the near future because the [Developer Experience (DX)](https://css-tricks.com/what-is-developer-experience-dx/) is at the lower end.
 
-## Side Projects
+## Side projects
 
 Last year I stopped one side project after one year, [Code Line Daily]. The site is still running, but no new content has been added since August. My commitment to the project is no longer present. I still use [the browser extension] which shows a random line of code for me. ♡
 

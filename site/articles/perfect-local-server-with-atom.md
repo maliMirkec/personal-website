@@ -22,7 +22,7 @@ I've been using all kind of local server solutions back in a day, from [WampServ
 
 Even now, that I'm experienced developer, I don't need complicated solutions for more than half of my tasks, so I decided to find simpler solution for development inside my [Atom](https://atom.io/).
 
-## Bitnami WAMP Stack
+## Bitnami WAMP stack
 
 First things first—you'll need an actual local server. I've tried more than few solutions and finally decided to go with **Bitnami WAMP Stack** for Windows. Installation is pretty straightforward, but let's go through step by step.
 

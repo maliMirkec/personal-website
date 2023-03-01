@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Tools
 ---
 
 A web browser is one of the essential tools for web development. Besides awesome dev tools that come with the default installation, you might consider these Chrome extensions that could help you with your everyday tasks:

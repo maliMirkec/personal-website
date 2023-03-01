@@ -29,7 +29,7 @@ WordPress is still number one framework for building sites in the world. Buying 
 
 <a class="button button--small" href="/testimonials/">See testimonials</a>
 
-## PageSpeed Optimizations
+## PageSpeed optimizations
 
 Did you know that Google penalizes sites which are not very performant? For that reason, it is important have a fast site that follow the latest best practices, like Core Web Vitals. I have been optimizing PageSpeed score for several sites, including my own.
 

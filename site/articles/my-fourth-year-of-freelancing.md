@@ -1,6 +1,6 @@
 ---
 layout: index
-title: My Fourth Year Of Freelancing
+title: My fourth year of freelancing
 date: 2021-09-29 15:55:55
 tags:
   - blog

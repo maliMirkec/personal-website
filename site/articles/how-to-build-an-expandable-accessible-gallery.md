@@ -1,6 +1,6 @@
 ---
 layout: index
-title: How To Build An Expandable Accessible Gallery
+title: How to build an expandable accessible gallery
 tags:
   - blog
   - publications
@@ -418,7 +418,7 @@ const setResizeEvents = ($elems, $parent) => {
 
 <small>A preview of what the expandable accessible gallery demo can do. ([Try out on CodePen →](https://codepen.io/CiTA/pen/dyWdpeE))</small>
 
-## A Word About Accessibility And Credits
+## A word about accessibility and credits
 
 I had no problems building this demo except with the accessibility part. I was not sure what to do and which aria attributes to use at first. Even after figuring out which attributes to use, I could not be 100% sure it was right. So the first step was to **test everything with a keyboard**. That was the easy part. Then I used the VoiceOver application (since I am using a Mac) to test how it works for visually impaired persons. It sounded good enough to me.
 

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: A Story of Becoming a Web Developer
+title: A story of becoming a web developer
 date: 2020-04-20 17:27:03
 tags:
   - blog

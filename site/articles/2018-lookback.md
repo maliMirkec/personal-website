@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 2018 Lookback
+title: 2018 lookback
 date: 2019-01-05 16:06:38
 tags:
   - blog

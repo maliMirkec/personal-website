@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 2021 Lookback
+title: 2021 lookback
 date: 2021-12-31 12:00:00
 tags:
   - blog
@@ -40,7 +40,7 @@ Before I switched to the new position, I worked on another Jekyll site migrated 
 
 I acquired a HubSpot Developer certificate this year. I was helping the agency migrate away from Jekyll, so I had to. HubSpot is a great solution for marketers, but their CMS is awful. It is confusing, navigating is impossible, and the development process is unfriendly. When I started using their development tools, I immediately [thought of Shopify](/articles/nightmare-dx-shopify/) and its bad DX (Developer Experience). I just don't like these closed platforms that limit access to code. One thing that was better than Shopify is HubSpot's templating language/engine. However, it wasn't that straightforward to get used to it. Anyway, since my client decided to switch to HubSpot, switching to a new company was much easier to make.
 
-## Side Projects
+## Side projects
 
 This December, I started a new side project, [Advent of UI components](/side-projects/advent/). I built 24 different components and tried to expand my CSS knowledge using some less-used features.
 

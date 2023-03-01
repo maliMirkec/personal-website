@@ -1,6 +1,6 @@
 ---
 layout: index
-title: How to Make a “Raise the Curtains” Effect in CSS
+title: How to make a “Raise the Curtains” effect in CSS
 date: 2022-03-09 11:00:00
 tags:
   - blog

@@ -92,7 +92,7 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [Zeplin](https://zeplin.io/)
 - [Zoom](https://zoom.us/)
 
-## VS Code Extensions
+## VS Code extensions
 
 - [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -139,7 +139,7 @@ _Inspired by [Harry Robertson's setup](https://csswizardry.com/uses/) and [Wes B
 - [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 - [WordPress Snippets](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
 
-## Browser Extensions
+## Browser extensions
 
 - [Always Clear Downloads 2](https://chrome.google.com/webstore/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn)
 - [Buffer](https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh)

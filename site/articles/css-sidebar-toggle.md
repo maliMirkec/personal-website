@@ -42,7 +42,7 @@ We'll use checkbox's `:checked` pseudo class to determine whether to show or to 
 
 For a menu toggle indicator, we could use well know hamburger menu. There are [many](https://webdesign.tutsplus.com/tutorials/7-non-raster-approaches-for-making-the-hamburger-menu-icon--cms-21686) [simple](https://css-tricks.com/three-line-menu-navicon/) and [awesome](https://jonsuh.com/hamburgers/) ways how we could do it. I've decided to use pure `CSS` solution, well, because this is a pure CSS sidebar toggle solution.
 
-### First Demo
+### First demo
 
 {% codepen "CiTA" "YNbKpo" "dark" "result" "300" false true %}
 
@@ -105,7 +105,7 @@ We are using transitions and transforms to animate the icon.
 
 There are many ways how a sidebar could be displayed. I've decided to go with a full-width sidebar containing just a menu list.
 
-### Second Demo
+### Second demo
 
 {% codepen "CiTA" "bgjKKE" "dark" "result" "500" false true %}
 

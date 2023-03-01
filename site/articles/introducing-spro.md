@@ -116,7 +116,7 @@ Each subtask has its own configuration file. CSS specific configuration could be
 _You could edit every individual configuration file manually. However, the main configuration file, `.starter-project.json` file, should not be manually edited. There is a good chance that your project wouldn't have all the dependencies for running Gulp tasks. Instead, start the `spro` command again._
 {% endnote %}
 
-## The Course
+## The course
 
 I have created [a course] where you could learn more about SPRO.
 

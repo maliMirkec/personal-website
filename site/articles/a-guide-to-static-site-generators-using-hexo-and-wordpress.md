@@ -24,7 +24,7 @@ Static site generators are systems that compile templates into static HTML pages
 
 <!-- more -->
 
-## From Optimizing WordPress to Going Static
+## From optimizing WordPress to going static
 
 Speaking of efficient revenue generators, WordPress comes to mind. It powers 28 percent of the internet and is a potent platform with lots of great features, including extensive user and content management backed by an array of plugins, themes, APIs, etc.
 
@@ -80,7 +80,7 @@ The only thing left to do is to check the result. Run the hexo server command to
 hexo server
 ```
 
-## Markdown and Its Limitations
+## Markdown and its limitations
 Hexo supports Markdown out of the box. [Markdown is a markup language](https://www.toptal.com/web/markdown-the-writing-tool-for-software-developers#trust-nothing-but-brilliant-freelancers) that many use to format README files, comments, and posts. But it could be used for writing your article as well. Its syntax is intuitive and easy to learn.
 
 Another advantage for Markdown is that it generates clean and valid HTML. That allows developers to create clean and maintainable CSS rules for styling blog articles and pages.
@@ -91,7 +91,7 @@ For example, Codepen demos didn’t load. I searched for a Hexo plugin, and foun
 
 Similar problems occurred with CanIUse embeds. Now that I knew how to create a Hexo plugin, there was no excuse not to do so. My [hexo-caniuse plugin](https://github.com/maliMirkec/hexo-caniuse) was also published, as was my [hexo-cloudinary plugin](https://github.com/maliMirkec/hexo-cloudinary) for responsive images loaded from Cloudinary CDN.
 
-## Redesign and Optimization
+## Redesign and optimization
 
 The design of the website is rather fundamental. Hexo offers a handful of themes for free on the official website, but I wanted a unique theme for my Hexo site. After I read the [documentation](https://hexo.io/docs/themes.html) and learned how to customize Hexo, I started to develop an original theme from scratch.
 
@@ -123,7 +123,7 @@ Despite the excellent scores, I wanted to try CloudFlare, just to see how much i
 
 The final test was [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/). The score was almost 100% both for mobile and desktop versions. The problem was Google Analytics browser caching. [I managed to fix the issue](/articles/fixing-google-analytics-caching-issue/) by using CloudFlare App for Google Analytics.
 
-## How Much Does It Cost?
+## How much does it cost?
 
 Using Hexo on Netlify with CloudFlare costs nothing.
 
@@ -137,7 +137,7 @@ Serving cached files means CPU and bandwidth usage is reduced, which in turn mea
 
 All this means that you could spend part of your budget elsewhere—for example, on promoting your website or creating additional content, which will help gain a tad more revenue.
 
-## The Case for Static Site Generators
+## The case for Static Site Generators
 
 Migrating from WordPress to a static page generator is no simple task, and it’s definitely not something every WordPress user should do. However, Hexo made this transition relatively painless, thanks to its plugins, excellent documentation, and a simple API.
 

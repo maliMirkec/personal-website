@@ -1,6 +1,6 @@
 ---
 layout: index
-title: First Year of UI Dev Newsletter
+title: First year of UI Dev Newsletter
 date: 2021-05-20 09:13:35
 tags:
   - blog

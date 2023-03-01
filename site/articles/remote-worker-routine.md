@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Just My Routine As A Remote Worker
+title: Just my routine as a remote worker
 date: 2019-02-14 18:32:42
 tags:
   - blog
@@ -21,13 +21,13 @@ The inspiration for writing this article comes from [an article about remote lif
 
 <!-- more -->
 
-## The Office
+## The office
 
 Moving from the home office to an actual office changed my daily routine the most. Getting up, dressing, driving/cycling to work makes me feel like I have a regular job. Not to mention that working from actual office makes me more productive and focused. There are no distractions, just the working environment set up for delivering the best possible work.
 
 {% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." "847" "635" %}
 
-## In-office Hours
+## In-office hours
 
 As a remote worker, it could be challenging to have strict work hours. If you are your own boss, you could arrange work hours by your preference. The important part is to stick with it. I noticed that having a clear schedule when I begin and finish with the work helped me tremendously to organize my workday.
 
@@ -45,13 +45,13 @@ I don't have any particular method of how to handle those distractions. When I f
 
 But I do have a routine for keeping up with the latest technologies. Every Friday I start my workday by reading newsletters and saved articles. I feel perfectly fine if I don't read the most recent news immediately. What matters is that I read it eventually. New CSS specs probably couldn't help me at the moment anyway.
 
-## Out-of-office Hours
+## Out-of-office hours
 
 There are situations when I work from home. Sometimes I just don't feel like leaving home (usually when it is rainy). I know I would struggle to get the job done, but these days I don't have complicated tasks anyway. Working without my 2 external screens could take much more time, too. It is essential to have an understanding with your household members to be left alone during that time.
 
 There are exceptions when interruptions ok, like when I am writing a draft for my new blog post, or when I am playing with a CodePen demo. If the situation doesn't require my full attention, I like to “watch and work.” Sometimes it is my favorite TV show, and sometimes it is just sport (any sport, really) that is playing in the background while I am working. And there are situations when I like to talk to my wife or watch my daughter play while I work.
 
-## Away-from-computer Hours
+## Away-from-computer hours
 
 When I feel especially exhausted, I just leave my MacBook in the office. Actually, I prefer to leave it there for most of the time. I realized that I cannot entirely rest if I use my computer at home, even just for fun. I relax best when I am bored. Boredom is underrated—you should appreciate the time when you don't have to do anything.
 
@@ -65,15 +65,15 @@ Mental health is important, too, if not the most important. I think you couldn't
 
 I go to a pub with my friends regularly. All my work problems magically disappear when I am with my friends watching sports, bowling, playing darts or cards, or just drinking beer and enjoying the conversation. Most of my friends are not developers, so talking about work is rarely an issue.
 
-### Fighting the Loneliness
+### Fighting the loneliness
 
 Working alone in the office could lead to some issues, too. That's why I try to keep in touch with my friends by going to coffee in the middle of work hours (preferably in the morning). I also like to have a quick video call with my wife and daughter just to see what they are up to. I don't like any sort of messaging, but I could see how that could be helpful, too.
 
-### Find a Hobby
+### Find a hobby
 
 You could improve your mental health by having a hobby. I like to work around the house as some sort of handymen. I enjoy fixing and improving my home while my dog keeps me entertained. A simple fix of squeaky doors or loose screw could do wonders for me. I also like to watch a lot of sports. I don't consider this as an actual hobby, but it keeps me relaxed, and I do it daily.
 
-### Go to Fresh Air
+### Go to fresh air
 
 Approximately once a month my family is taking a trip to the countryside to see the family. I often go there to help with some domestic chores, and that usually implies physical work. Spending time on fresh air is precious. It feels so rewarding to go to bed after a day-long physical job.
 

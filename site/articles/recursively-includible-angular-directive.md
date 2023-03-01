@@ -22,7 +22,7 @@ I've been working on a complex Angular [CRUD](https://en.wikipedia.org/wiki/Crea
 
 Sometimes the amount of new frontend technologies feels really [overwhelming to me](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.h9purwu1w). Everybody is writing about these shinny new frameworks, but there are plenty of applications that are still using "old" technologies (that are not _that_ old). Nobody is writing about them anymore. This is a solution for Angular 1.
 
-## Angular Model
+## Angular model
 
 Let's go back to the code. Even better, let's consider model examples for this task:
 

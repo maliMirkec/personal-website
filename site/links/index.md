@@ -18,7 +18,7 @@ sections2:
       title: Hire me
 ---
 
-## Social Networks
+## Social networks
 
 - [Twitter](https://twitter.com/malimirkeccita)
 - [LinkedIn](https://www.linkedin.com/in/starbist/)

@@ -49,7 +49,7 @@ Hugo allows you to define variables that don't depend on the context. This varia
 
 There is the global context, too. You could access the global context from every template file or partial in any time.
 
-## Support and Community
+## Support and community
 
 Hugo has a great community. On their community website, you could search for an answer for almost your problem. If you cannot find the solution, you could open a new discussion and someone would help you.
 

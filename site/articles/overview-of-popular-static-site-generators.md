@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Overview of Popular Static Site Generators
+title: Overview of popular Static Site Generators
 date: 2018-08-07 13:00:33
 tags:
   - blog
@@ -32,7 +32,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
-## Overview of Popular Static Page Frameworks
+## Overview of popular Static Page Frameworks
 
 In this post, we will take a closer look at the following static page frameworks: Jekyll, Middleman, Hugo, and Hexo. These are by no means the only generators out there, but they are the most commonly used ones, backed by large communities and lots of useful resources.
 
@@ -226,7 +226,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 _It is a good practice to check if a variable exists to prevent a build process from failing. It could save you hours of debugging and testing._
 {% endnote %}
 
-## Using Variables
+## Using variables
 
 A static page generator provides global variables available for handing in templates. Different variable type holds different information. For example, a global variable site in Hexo holds information about posts, pages, categories, and tags of a site.
 
@@ -234,7 +234,7 @@ Knowing the available variables and how to use them could make a developer's lif
 
 Middleman doesn't have global variables. However, you could turn on the [middleman-blog] extension that would allow you to get access to some variables, like a list of articles. If you want to add global variables, you could do that by extracting data to data files.
 
-## Data Files
+## Data files
 
 When you want to store data that are not available in Markdown files, you should use data files. For example, if you need to save the list of your social links that you want to display in the footer of your site. All static page generators support YAML and JSON files. Additionally, Jekyll supports CSV files, and Hugo supports TOML files.
 
@@ -343,7 +343,7 @@ Hexo has different syntax, but the result is the same.
 ```
 {% endraw %}
 
-## How Static Page Generators Handle Assets
+## How Static Page Generators handle assets
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
@@ -361,7 +361,7 @@ If you want to use modern JavaScript features of es6, then you should install a 
 
 Image optimization is not supported by default either. Also, like es6 plugins, there is more than one plugin to optimize images. Do your homework and try to find the best plugin for the job. Alternatively, you could use a third party solution. In my blog that is build with Hexo, I am using [Cloudinary free plan]. I developed a [cloudinary tag], and I am providing responsive and optimized images via Cloudinary transformations.
 
-## Plugins, Extensions
+## Plugins, extensions
 
 Static page generators have potent libraries that allow you to customize your website. Each plugin serves a different purpose. You could find a wide range of plugins, from LiveReload for a better development environment to generating Sitemap or RSS feed.
 
@@ -390,7 +390,7 @@ If you cannot find a proper shortcode, you could create a new one. For example, 
 
 Static page generators could be overhead for a non-technical person. Learning how to use commands or Markdown is not something that is easy for everybody. In that case, a user could benefit from [Content Management System for JAMstack sites]. In this list, you could find a system that best suits your needs. Know that it takes some time to configure the CMS, but longterm you and other users could benefit from publishing content more efficiently.
 
-## Bonus: JAMstack Templates
+## Bonus: JAMstack templates
 
 If you don't want to spend too much time on configuring your project, you could benefit from [JAMstack templates]. Some of these templates are already preconfigured with CMS which could save you much time.
 

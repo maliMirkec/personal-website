@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Tools for Auditing CSS
+title: Tools for auditing CSS
 date: 2021-03-29 18:08:55
 tags:
   - blog

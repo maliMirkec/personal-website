@@ -28,15 +28,15 @@ This article is the very first article in a series about [Starter Project], a se
 
 <!-- more -->
 
-## First Scenario
+## First scenario
 
 Every project has its environment. Switching between projects means switching environments. Switching environments means remembering commands for running project tasks, like Gulp or webpack. But too often commands are forgotten. This scenario happens to me daily, even when working on similar projects.
 
-## Second Scenario
+## Second scenario
 
 Consider two different projects. First is custom WordPress theme development, second is Middleman blog. Both projects use Gulp task runner to compile and optimize assets. Setting up Gulp tasks for either project is time-consuming work. And every project has its architecture which disables a developer to copy Gulp tasks from one project to another without spending the time to reconfigure every Gulp task individually.
 
-## Third Scenario
+## Third scenario
 
 Working on a project without a coding convention could be a nightmare. Git conflicts on every merge, endless discussion about tabs versus spaces, ugly and inconsistent code are just some of the problems that could emerge as a consequence.
 
@@ -46,7 +46,7 @@ I am sure these scenarios sound familiar. These happened to me a lot of times. I
 
 Starter Project is an effort of mine to fix these problems. It is a collection of Gulp tasks with the latest best practices in front-end development. But not only Gulp tasks. It contains every asset for building a successful project, from HTML and CSS to JavaScript and images.
 
-## The Package
+## The package
 
 The package is available on [npm]. You could find instructions for the installation in [official documentation][Starter Project]. Once installed, you will have the copy of the package's website for the Starter project. It could be a good starting point for your new project.
 
@@ -56,7 +56,7 @@ The package should be used as a development dependency. That will allow you to u
 
 {% cldnry "code_g0esoz" "package.json file." %}
 
-## The Usage
+## The usage
 
 Starter project has three different Gulp commands for different environments:
 - `gulp dev` and `gulp dist` for a development build,
@@ -74,7 +74,7 @@ With Starter Project you get the architecture for:
 
 You could find all assets in `new_src` folder. Once you run one of the build commands, `new_dist` folder will be created with compiled static contents.
 
-## The Config file
+## The config file
 
 Starter Project is configurable and should be able to run in every project, no matter the architecture. The main configuration file could be found in the root of the project, `config.json`. For every task, there is an option `run`. If set to true, the task will run. For example, you could turn off [`penthouse`](https://www.npmjs.com/package/gulp-penthouse), a library for generating Critical CSS.
 

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'My Favorite VS Code Settings'
+title: 'My favorite VS Code settings'
 date: 2020-03-22 15:32:07
 tags:
   - blog
@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Tools
 ---
 
 Last week I saw [an interesting tweet about showing modified tabs in the VS Code] from Matt Bierner. Although I already knew about this super useful setting, it made me revisit my VS Code settings.

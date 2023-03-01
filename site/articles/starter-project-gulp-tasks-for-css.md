@@ -84,7 +84,7 @@ You could add `includePaths` option to the `sassConfig` settings to avoid writin
 },
 ```
 
-## Sass Libraries
+## Sass libraries
 
 Starter Project has three libraries imported:
 - Normalize.css,

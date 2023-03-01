@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Custom WordPress Theme Development with SPRO
+title: Custom WordPress theme development with SPRO
 date: 2019-03-05 11:13:42
 tags:
   - blog
@@ -25,7 +25,7 @@ series: Starter Project
 
 If you want to learn more about SPRO, [read the introduction article from the last week].
 
-## The Video Lesson
+## The video lesson
 
 If you prefer watching a video over reading an article, you could proceed to [the Skillshare lesson] that I recorded for this occasion.
 

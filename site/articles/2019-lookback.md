@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 2019 Lookback
+title: 2019 lookback
 date: 2019-12-20 16:10:42
 tags:
   - blog
@@ -71,7 +71,7 @@ The second problem is third-party scripts. These are the worst. I was optimizing
 
 Here is an advice: Remember that every plugin, every integration and every tool comes with a cost, especially when it loads extra scripts and styles. The least you could do is to educate your clients about potential costs whenever introducing a new tool.
 
-## Side Projects
+## Side projects
 
 Although this has been the busiest year so far, I had some time to work on my side projects. It has been challenging to coordinate my time sometimes, but I find side projects very useful. It is a place to improve my skills and test new techniques.
 

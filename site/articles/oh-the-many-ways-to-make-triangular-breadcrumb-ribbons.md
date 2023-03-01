@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!'
+title: 'Oh, the many ways to make triangular breadcrumb ribbons!'
 date: 2019-05-15 19:04:01
 tags:
   - blog

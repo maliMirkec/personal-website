@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Building an Animated Sticky Header With Custom Offset
+title: Building an animated sticky header with custom offset
 date: 2018-12-07 18:08:55
 tags:
   - blog

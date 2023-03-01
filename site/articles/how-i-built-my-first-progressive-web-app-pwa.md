@@ -135,7 +135,7 @@ self.addEventListener('fetch', (event) => {
 })
 ```
 
-## Final Results
+## Final results
 
 After the deployment, I run the audit for the site and now I have it looks like this:
 

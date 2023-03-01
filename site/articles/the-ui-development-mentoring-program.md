@@ -1,6 +1,6 @@
 ---
 layout: index
-title: The UI Development Mentoring Program
+title: The UI Development Mentoring program
 date: 2020-01-20 06:03:47
 tags:
   - blog
@@ -50,7 +50,7 @@ As a UI developer, you should be able to create modern, responsive and optimized
 
 UI skills are often overlooked, as I already [wrote about last year], but it is, or at least it should be, a vital part of every project. These skills could be combined with other skills, and you could become a frontend or full-stack developer or even a UI designer—you are the one who decides.
 
-## The Programs
+## The programs
 
 There are two kinds of mentoring programs: one that is career-based and one that is skill-based.
 

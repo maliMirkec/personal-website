@@ -22,7 +22,7 @@ This article is the first article in a series about poor developer experience. I
 This series intends not to rant but to educate developers about the limitations of the products, platforms, and frameworks. In the perfect world, these posts would contribute to building a better Developer Experience for everyone. That is also the reason why the title is deliberately controversial.
 {% endnote %}
 
-## What is DX  (Developer Experience)
+## What is DX (Developer Experience)
 
 I like to think of DX as a meter of happiness for developers during the development process. I first heard of this term last year in [Chris Coyier's article](https://css-tricks.com/what-is-developer-experience-dx/), and I keep thinking about it. DX even affects which projects I accept nowadays.
 

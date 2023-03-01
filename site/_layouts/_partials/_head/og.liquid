@@ -15,13 +15,9 @@
 {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
 {% endif %}
-{% if thumbnail %}
-  <meta property="og:image" content="{{ thumbnail | cldnrysrc }}">
-{% elsif title %}
-  <meta property="og:image" content="{{ site.url }}/og/og.png?text={{ title | url_encode }}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-{% endif %}
+<meta property="og:image" content="{{ site.url }}/og/og.png?text={{ title | url_encode }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 {% if site.twitter %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ site.twitter }}">
@@ -37,11 +33,7 @@
   {% elsif description %}
     <meta name="twitter:description" content="{{ description | escape }}">
   {% endif %}
-  {% if thumbnail %}
-    <meta property="twitter:image" content="{{ thumbnail | cldnrysrc }}">
-  {% elsif title %}
-    <meta property="twitter:image" content="{{ site.url }}/og/og.png?text={{ title | url_encode }}">
-  {% endif %}
+  <meta property="twitter:image" content="{{ site.url }}/og/og.png?text={{ title | url_encode }}">
 {% endif %}
 {% if site.fb_id %}
   <meta name="fb:app_id" content="{{ site.fb_id }}">

@@ -99,7 +99,7 @@ Of course, that’s not all. Kwes is packed with other impressive features. Thes
 - logic visibility toggling, and
 - [animated SVG progress bar].
 
-### Custom Headers
+### Custom headers
 
 {% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." %}
 
@@ -118,7 +118,7 @@ Simple headers are used for textual headers. I have added simple headings to my 
 
 If you like to add icons, graphics or anything other than just title text, then you could use a complex header. All of the custom header content should be added inside `<div slot="heading"></div>` element. It is advisable to place this element as a first child of the `form-step` element.
 
-### Custom Styling
+### Custom styling
 
 Adding custom styling to Kwes forms are quite straightforward. You could use classes with `kw-` prefix to add custom styling.
 
@@ -134,7 +134,7 @@ I have used [the cloaking technique] provided by Kwes to hide the uncompiled for
 }
 ```
 
-### Logic Visibility Toggling
+### Logic visibility toggling
 
 Another great feature of Kwes form builder is the ability to toggle the visibility of an input field based on other field values. This show/hide logic behaviour is what I needed to create the second step dynamically. The visibility is achieved by adding `kw-show` attribute to the element. In my case, I am hiding mentoring related fields if the contact type is “General”.
 
@@ -142,7 +142,7 @@ Another great feature of Kwes form builder is the ability to toggle the visibili
 <div kw-show="fields.step == 'Mentoring'">...</div>
 ```
 
-### Animated SVG Progress Bar
+### Animated SVG progress bar
 
 Progress bars often help users understand how much steps are left until the submission. Since this element only serves as a visual indicator, I decided to make [a little SVG that is animated] on click. The animation is a CSS animation of the stroke of the SVG path.
 

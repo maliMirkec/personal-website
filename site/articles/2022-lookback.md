@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 2022 Lookback
+title: 2022 lookback
 date: 2023-01-09 12:00:00
 tags:
   - blog

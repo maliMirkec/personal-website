@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Tips On Learning Web Development
+title: Tips on learning web development
 date: 2020-05-20 12:11:18
 tags:
   - blog
@@ -27,7 +27,7 @@ If you are a beginner, where would you begin these days? Would you learn backend
 
 There are so many choices these days, and I believe some people might be overwhelmed and discouraged at the beginning. I got some ideas about how to start and where to begin, especially if you are interested in the frontend user interface development.
 
-## Learn The Basics
+## Learn the basics
 
 I noticed a lot of people are confused about the basics: the servers, the databases, the client, the browsers. As a web developer, your responsibility is:
 

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: The CSS from-font Value Explained in 4 Demos
+title: The CSS from-font value explained in 4 demos
 date: 2022-02-07 11:00:00
 tags:
   - blog

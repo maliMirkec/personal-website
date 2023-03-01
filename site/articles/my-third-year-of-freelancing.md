@@ -1,6 +1,6 @@
 ---
 layout: index
-title: My Third Year Of Freelancing
+title: My third year of freelancing
 date: 2020-06-03 19:27:07
 tags:
   - blog
@@ -32,7 +32,7 @@ All clients but one had more than one project where they needed my expertise.
 
 Only one client came from Europe, Germany, while others came from the United States. I have a continuous agreement with all my clients. Some clients need my services more often, some only a few times a year. The important thing is that my schedule is almost always full, with very few windows opened for new opportunities.
 
-## Tasks and Assignments
+## Tasks and assignments
 
 The tasks for the last year could be summarized in two main categories:
 
@@ -65,7 +65,7 @@ I realized that I don’t have a preference for technology stack. I have been wo
 
 If the project is frontend related, I am quite positive I could work on it as long as it is not a JavaScript-heavy application.
 
-## Side Projects
+## Side projects
 
 Last year I published two side projects:
 

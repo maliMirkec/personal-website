@@ -6,14 +6,15 @@ tags:
   - blog
   - cross-browser
   - testing
-description:
+description: You want to test your website on a Windows machine but hate switching your computers? See how to use the Microsoft Remote Desktop app to mitigate this problem.
 type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+series: Tools
 ---
 
-Say you want to test your website on a Windows machine, but you hate it to switch your computers. Let me show you how to use the Microsoft Remote Desktop app for macOS in this scenario.
+Say you want to test your website on a Windows machine but hate switching your computers. Let me show you how to use the Microsoft Remote Desktop app for macOS to mitigate this problem.
 
 ## Microsoft Remote Desktop app
 
@@ -25,7 +26,7 @@ So, to avoid these inconveniences, I discovered the [Microsoft Remote Desktop](h
 _I will reference the Microsoft Remote Desktop app as the Remote Desktop app in the rest of the article for simplicity._
 {% endnote %}
 
-## Usage
+## The usage
 
 Let’s see how we could control a Windows machine from a macOS device. First, open the Remote Desktop app, click the plus (+) icon, and select the “Add PC” option. Then enter the exact name of your Windows machine. If you don’t know it, you could use the IP address instead. To find out your local IP address, use [the following instructions](https://www.ipconfig.in/what-is-my-local-ip-address/).
 

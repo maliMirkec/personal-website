@@ -22,7 +22,7 @@ Let’s see how to animate SVG signature with a little bit of JavaScript and CSS
 
 ![Animated SVG signature - S.Bistrović.](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1578317221/gif-signature3_jiyf17.gif)
 
-## SVG Signature
+## SVG signature
 
 Let’s start by creating an SVG signature. I am using Sketch to make SVG paths for letters. Here’s how it looks in Edit mode:
 
@@ -131,9 +131,9 @@ calcPaths(5)
 _Be sure to check [the browser compability](https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength#Browser_compatibility) before you use this technique._
 {% endnote %}
 
-## CSS Animation
+## CSS animation
 
-CSS Animation consists of setting the final `stroke-dashoffset` back to zero.
+CSS animation consists of setting the final `stroke-dashoffset` back to zero.
 
 I have used `linear` for `animation-timing-function` and `forwards` for `animation-fill-mode`. The first attribute makes the animation linear, which seemed the most natural to me. The second one tells the animation to stay at 100% state.
 
