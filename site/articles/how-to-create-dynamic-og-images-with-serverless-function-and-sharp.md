@@ -147,7 +147,7 @@ const img = await sharp(Buffer.from(utf8.decode(svg)))
 ```
 
 {% note %}
-We are decoding back to UTF8 to support all characters.
+We are decoding the SVG string back to UTF8 to support all characters.
 {% endnote %}
 
 All that is left to do is to output the base64 encoded image:
