@@ -14,30 +14,22 @@
     }, {
       "href": "/testimonials/",
       "title": "Testimonials"
-    }, {
-      "href": "/hire-me/",
-      "title": "Hire me"
     }]
   }, {
     "href": "/articles/",
     "title": "Blog",
     "list": [{
-      "href": "/stories/",
-      "title": "Stories"
-    }, {
       "href": "/publications/",
       "title": "Publications"
     }, {
       "href": "/side-projects/ui-dev-mentoring/reads/#newsletter",
-      "title": "Newsletter"
+      "title": "Newsletter",
+      "newsletter": true
     }]
   }, {
     "href": "/links/",
     "title": "My Links",
     "list": [{
-      "href": "/uses/",
-      "title": "My Setup"
-    }, {
       "href": "/slides/",
       "title": "My Slides"
     }, {
@@ -49,13 +41,11 @@
     "title": "About",
     "list": [{
       "href": "/contact/",
-      "title": "Contact"
+      "title": "Contact",
+      "contact": true
     }, {
       "href": "/services/",
       "title": "Services"
-    }, {
-      "href": "/no-ads/",
-      "title": "No ads"
     }]
   }]
 }

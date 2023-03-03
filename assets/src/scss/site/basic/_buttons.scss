@@ -124,6 +124,26 @@
   }
 }
 
+.button--border {
+  box-shadow: 0 0 0 .15rem currentColor;
+
+  &:not(.df):not(.db) {
+    margin: .4em;
+  }
+
+  &[href],
+  &[type] {
+    &:hover {
+      box-shadow: 0 0 0 .3rem currentColor;
+    }
+
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 .3rem var(--color-alpha);
+    }
+  }
+}
+
 .button--invisible {
   background-color: transparent;
   box-shadow: none;

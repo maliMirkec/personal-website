@@ -27,12 +27,14 @@ sections2:
 - [Reddit](https://www.reddit.com/user/starbist)
 - [Facebook](https://www.facebook.com/silvestar.codes/)
 - [Last.fm](https://last.fm/user/maliMirkec)
+
 ## Development
 
 - [GitHub](https://github.com/maliMirkec)
 - [CodePen](https://codepen.io/CiTA/)
 - [NPM](https://www.npmjs.com/~starbist)
 - [CodersRank](https://profile.codersrank.io/user/malimirkec/)
+
 ## Freelance
 
 - [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers)
@@ -45,6 +47,7 @@ sections2:
 - [UI Dev Mentoring](/side-projects/ui-dev-mentoring/)
 - [Starter Project](/side-projects/starter-project/)
 - [Making a website with Hugo](/side-projects/hugo/)
+- [Acclaimed](/side-projects/acclaimed/)
 
 ## Publications
 
@@ -55,3 +58,9 @@ sections2:
 - [Practical Dev](https://dev.to/starbist)
 - [Medium](https://medium.com/@malimirkeccita)
 - [Hacker Noon](https://hackernoon.com/@malimirkeccita)
+
+## Other
+
+- [My setup](/uses/)
+- [What I don’t allow?](/no-ads/)
+- [What I don’t do?](/no-skills/)

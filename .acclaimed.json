@@ -178,40 +178,6 @@
   }
 }, {
   "css": "./assets/dist/css/style.css",
-  "out": "./assets/critical/stories-item.critical.min.css",
-  "url": "http://localhost:8080/stories/9/?cache=1",
-  "width": 1920,
-  "height": 1800,
-  "keepLargerMediaQueries": true,
-  "strict": false,
-  "blockJSRequests": true,
-  "renderWaitTime": 300,
-  "timeout": 60000,
-  "forceExclude": ["@font-face"],
-  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
-  "phantomJsOptions": {
-    "ssl-protocol": "any",
-    "ignore-ssl-errors": true
-  }
-}, {
-  "css": "./assets/dist/css/style.css",
-  "out": "./assets/critical/stories.critical.min.css",
-  "url": "http://localhost:8080/stories/?cache=1",
-  "width": 1920,
-  "height": 1800,
-  "keepLargerMediaQueries": true,
-  "strict": false,
-  "blockJSRequests": true,
-  "renderWaitTime": 300,
-  "timeout": 60000,
-  "forceExclude": ["@font-face"],
-  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
-  "phantomJsOptions": {
-    "ssl-protocol": "any",
-    "ignore-ssl-errors": true
-  }
-}, {
-  "css": "./assets/dist/css/style.css",
   "out": "./assets/critical/testimonials-item.critical.min.css",
   "url": "http://localhost:8080/testimonials/john-ganotis/?cache=1",
   "width": 1920,

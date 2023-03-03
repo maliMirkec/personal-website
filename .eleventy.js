@@ -126,18 +126,6 @@ module.exports = (eleventyConfig) => {
     return `<div class="note"${dataTitle}>${ markdownItRenderer.render(note.trim()) }</div>`
   })
 
-  eleventyConfig.addCollection("my-stories", (collection) => {
-    return collection.getFilteredByTag("story").sort((a, b) => {
-      if (a.date < b.date) {
-        return 1
-      } else if (a.date > b.date) {
-        return -1
-      } else {
-        return 0
-      }
-    })
-  })
-
   eleventyConfig.addCollection("my-slides", (collection) => {
     return collection.getFilteredByTag("slides").sort((a, b) => {
       if (a.date < b.date) {

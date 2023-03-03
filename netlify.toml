@@ -31,7 +31,6 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/404/*",
       "**/docs/**",
       "**/contact/thank-you/*",
-      "**/my-stories/*",
       "**/my-slides/*",
       "**/my-css/*",
       "**/my-advent/*",
