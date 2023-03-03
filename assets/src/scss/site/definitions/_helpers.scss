@@ -14,6 +14,23 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  scrollbar-color: var(--color-alpha) var(--color-alpha-lighter);
+
+  &::-webkit-scrollbar {
+    width: var(--snap-inline);
+    height: var(--snap-inline);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-alpha);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--color-alpha-lighter);
+  }
+}
+
 img {
   display: block;
   max-width: 100%;

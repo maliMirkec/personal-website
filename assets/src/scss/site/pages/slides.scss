@@ -1,8 +1,5 @@
 .slides {
-  --snap-height: 100vh;
-  --snap-inline: 10px;
-
-  color: var(--snap-dark);
+  color: var(--color-dark);
   max-height: var(--snap-height);
   overflow-y: auto;
   scrollbar-color: var(--color-alpha-light) var(--color-beta-light);
@@ -13,11 +10,11 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background: var(--color-alpha);
+    background: var(--color-alpha-light);
   }
 
   &::-webkit-scrollbar-track {
-    background: var(--color-beta);
+    background: var(--color-beta-light);
   }
 
   li {

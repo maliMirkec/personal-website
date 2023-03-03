@@ -62,6 +62,10 @@ $ggap: 4px;
 // Tilt
 $angle: .5deg;
 
+// Scrollbar
+$snap-height: 100vh;
+$snap-inline: 10px;
+
 :root {
   // Breakpoints
   --bp: #{$bp};
@@ -122,6 +126,10 @@ $angle: .5deg;
 
   // Tilt
   --angle: #{$angle};
+
+  // Scrollbar
+  --snap-height: #{$snap-height};
+  --snap-inline: #{$snap-inline};
 
   @include mq($until: bp1) {
     // Typography
