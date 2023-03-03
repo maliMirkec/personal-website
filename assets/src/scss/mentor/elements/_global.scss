@@ -35,6 +35,7 @@ body {
     left: 0;
     transform: translateX(-100%);
     opacity: 0.85;
+    pointer-events: none;
     animation: wow 1s ease-out 1s forwards;
   }
 }
