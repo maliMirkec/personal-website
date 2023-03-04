@@ -129,7 +129,7 @@ sections:
         href: https://www.last.fm/music/Hot+Chip
         src: hot-chip_yewutg
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/

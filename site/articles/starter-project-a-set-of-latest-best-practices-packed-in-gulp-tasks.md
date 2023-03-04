@@ -44,7 +44,7 @@ Working on a project without a coding convention could be a nightmare. Git confl
 
 I am sure these scenarios sound familiar. These happened to me a lot of times. I cannot even remember how many times I created a Sass mixin or a JavaScript function on a project that I wanted to use on another project but I was too lazy to search for the code, and eventually, I started from the beginning.
 
-Starter Project is an effort of mine to fix these problems. It is a collection of Gulp tasks with the latest best practices in front-end development. But not only Gulp tasks. It contains every asset for building a successful project, from HTML and CSS to JavaScript and images.
+Starter Project is an effort of mine to fix these problems. It is a collection of Gulp tasks with the latest best practices in frontend development. But not only Gulp tasks. It contains every asset for building a successful project, from HTML and CSS to JavaScript and images.
 
 ## The package
 

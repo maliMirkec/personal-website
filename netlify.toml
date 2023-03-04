@@ -53,6 +53,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/*",
       "**/articles/a-comparison-of-static-form-providers/*",
       "**/hire-me-2018/*",
+      "**/hire-me/*",
       "./public/mentoring/*",
     ]
 

@@ -12,7 +12,7 @@ sections:
     narrow: true
 sections2:
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
@@ -29,7 +29,7 @@ The website is super fast. Check the scores on [PageSpeed Insights](https://deve
 
 Articles about [CSS tabs](http://css-weekly.com/issue-237/), [CSS sidebar toggle](http://css-weekly.com/issue-258/), [Using CSS Grid where appropriate](http://css-weekly.com/issue-277/), [writing styleguides](https://css-weekly.com/issue-361/) and [making CSS ribbons](https://css-weekly.com/issue-362/) are featured in [CSS Weekly newsletter](http://css-weekly.com/) curated by [Zoran Jambor](https://twitter.com/ZoranJambor).
 
-If you want a website that is as awesome as this one, [hire me](/hire-me/) or [contact me](/contact/).
+If you want a website that is as awesome as this one, [contact me](/contact/).
 
 I provide a wide range of services. [Find out which ones](/services/).
 

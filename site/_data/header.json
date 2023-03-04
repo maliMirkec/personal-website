@@ -6,46 +6,32 @@
     "title": "Home"
   },
   "menu": [{
+    "href": "/articles/",
+    "title": "My blog",
+    "list": [{
+      "href": "/side-projects/ui-dev-mentoring/reads/#newsletter",
+      "title": "Newsletter❗"
+    }]
+  }, {
     "href": "/portfolio/",
-    "title": "Portfolio",
+    "title": "My portfolio",
     "list": [{
       "href": "/side-projects/",
       "title": "My projects"
-    }, {
-      "href": "/testimonials/",
-      "title": "Testimonials"
-    }]
-  }, {
-    "href": "/articles/",
-    "title": "Blog",
-    "list": [{
-      "href": "/publications/",
-      "title": "Publications"
-    }, {
-      "href": "/side-projects/ui-dev-mentoring/reads/#newsletter",
-      "title": "Newsletter",
-      "newsletter": true
     }]
   }, {
     "href": "/links/",
     "title": "My Links",
     "list": [{
-      "href": "/slides/",
-      "title": "My Slides"
-    }, {
       "href": "/favorites/",
       "title": "My Favorites"
     }]
   }, {
     "href": "/about/",
-    "title": "About",
+    "title": "About me",
     "list": [{
       "href": "/contact/",
-      "title": "Contact",
-      "contact": true
-    }, {
-      "href": "/services/",
-      "title": "Services"
+      "title": "Contact me 📮"
     }]
   }]
 }

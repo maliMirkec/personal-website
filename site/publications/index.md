@@ -35,7 +35,7 @@ sections:
         <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
       </form>
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/

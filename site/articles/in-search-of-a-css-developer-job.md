@@ -51,7 +51,7 @@ Other results included sites like We Work Remotely, Arc, Jooble, SimplyHired, et
 - not a remote position, or
 - salary is too low.
 
-When arriving at these sites, you're thinking: "Wow, there are a lot of CSS jobs." But when taking a closer look, you realize that most listings are not CSS jobs. Instead, most of them are React, Vue, or other forms of full-stack or front-end positions. Unfortunately, I don’t possess any JavaScript framework skills, and I think [you don’t need React for building websites](/articles/you-don-t-need-react-for-building-websites/).
+When arriving at these sites, you're thinking: "Wow, there are a lot of CSS jobs." But when taking a closer look, you realize that most listings are not CSS jobs. Instead, most of them are React, Vue, or other forms of full-stack or frontend positions. Unfortunately, I don’t possess any JavaScript framework skills, and I think [you don’t need React for building websites](/articles/you-don-t-need-react-for-building-websites/).
 
 Some sites, like Arc, show job postings from a few months ago or last year. I mean, these sure cannot still be open now.
 
@@ -83,7 +83,7 @@ I also searched other prominent companies, like Netlify, GitHub, Airbnb, etc., t
 
 After spending the whole day trying to find a CSS developer job, I wonder if there is one. It might be that my searching skills are not good enough or that I was looking at the wrong places. On the other hand, it might be that these jobs are not something to be advertised. Maybe the job descriptions are incorrect. Maybe the list of skills required for the job is wrong. I don't know, but it made me quite frustrated.
 
-Don't get me wrong, I think we developers are lucky, and [I really appreciate my job](/articles/appreciation-for-being-a-web-developer/), and this is not a rant, but there is still room for improvement. Recently I wrote [about roles in the front-end development department](/articles/about-roles-in-the-front-end-development-department/), which might be a good read for all employers. I urge everyone to list only the absolute most necessary skills for the job. Let's start writing better job ads.
+Don't get me wrong, I think we developers are lucky, and [I really appreciate my job](/articles/appreciation-for-being-a-web-developer/), and this is not a rant, but there is still room for improvement. Recently I wrote [about roles in the frontend development department](/articles/about-roles-in-the-front-end-development-department/), which might be a good read for all employers. I urge everyone to list only the absolute most necessary skills for the job. Let's start writing better job ads.
 
 Generally, one could easily get lost in a sea of job posting sites and job postings. That is why I decided to write this post. The main goal of this article is to find me a perfect employer. So, [feel free to contact me](/contact/).
 

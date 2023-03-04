@@ -23,7 +23,7 @@
                 {% if item.list %}
                   {% for subitem in item.list %}
                     <li>
-                      <a href="{{ subitem.href }}">{{ subitem.title }}{% if subitem.newsletter %}❗{% elsif subitem.contact %} 📮{% endif %}</a>
+                      <a href="{{ subitem.href }}">{{ subitem.title }}</a>
                     </li>
                   {% endfor %}
                 {% endif %}

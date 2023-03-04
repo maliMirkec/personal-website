@@ -39,4 +39,4 @@ Do you have the perfect score? Do you have an alternative solution?
 
 Let me know in the comments below or on my Twitter page.
 
-_If you want me to help you with your score, I'm available for [hire](/hire-me/)._
+_If you want me to help you with your score, I'm available for [hire](/contact/)._

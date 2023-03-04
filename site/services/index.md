@@ -1,42 +1,43 @@
 ---
 layout: index
-title: Services
+title: My services
 description: Silvestar have been working with web technologies since 2012. During this period, he acquired a certain set of skills for building better websites.
 type: page
 sections:
   - type: hero-alpha
-    title: Services I provide
-    desc: I have been working with web technologies **since 2012**. During this period, I acquired a certain set of skills for building websites.
+    title: Frontend dev services to enhance your project's user experience
+    desc: My passion for web technologies began in 2012, and since then, I've acquired an arsenal of skills for creating top-quality websites.
     narrow: true
+    cta:
+      href: /contact/
+      title: Hire me
 sections2:
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
       title: Hire me
 ---
 
+## Frontend
+
+Over the past decade, I've had the privilege of working on a wide range of web development projects, including static site generators, WordPress websites, and page speed optimizations. Through these experiences, I've honed my skills and become highly proficient in a variety of web technologies. Ultimately, though, my greatest strengths lie in HTML, CSS, and JavaScript - the foundational building blocks of any successful website. So if you're looking for a frontend developer with deep expertise in these areas, look no further!
+
 ## Static Site Generators
 
-There has been a global trend for static sites in recent few years. I have been lucky to recognize that trend and started to learn more about it back in 2017. I have build more than a few static site using **Jekyll**, **Hugo**, **Hexo**, and **11ty**, like [Westwing](/portfolio/westwing/), [Domino Data Lab](/portfolio/dominodatalab/), and [Han Han Xue](/portfolio/hanhanxue/).
-
-<a class="button button--small" href="/portfolio/">See my portfolio</a>
+With a keen eye on the ever-evolving tech landscape, I recognized the growing trend for static sites several years ago. So, starting in 2017, I began working with static site generators like **Jekyll**, **Hugo**, **Hexo**, and **11ty**, building a portfolio of impressive static sites, including [Westwing](/portfolio/westwing/), [Domino Data Lab](/portfolio/dominodatalab/), and [Wunder Mobility](/portfolio/wundermobility/).
 
 ## WordPress
 
-WordPress is still number one framework for building sites in the world. Buying a theme for WordPress is easy, but I always recommend developing a **new theme** from scratch. I have build several custom themes, like the ones for [Credit Card Insider](/portfolio/creditcardinsider/), [Irina & Matej](/portfolio/irinaandmatej/), and [Trase Yearbook 2018](/portfolio/yearbook-trase/).
+WordPress is undoubtedly a go-to choice for many businesses as the top framework for building websites. However, I firmly believe that custom themes are always a better option than pre-made themes. I have considerable experience building custom themes from scratch and have successfully developed themes for [Credit Card Insider](/portfolio/creditcardinsider/), [Irina & Matej](/portfolio/irinaandmatej/), and [Trase Yearbook 2018](/portfolio/yearbook-trase/).
 
-<a class="button button--small" href="/testimonials/">See testimonials</a>
+## Page speed optimizations
 
-## PageSpeed optimizations
+Did you know that a slow website can hurt your business? Google now penalizes sites with suboptimal performance, so it's more important than ever to have a fast, well-optimized website. As a web development professional, I have extensive experience optimizing PageSpeed scores and implementing the latest best practices, including Core Web Vitals. Let me help ensure your website is performing at its best.
 
-Did you know that Google penalizes sites which are not very performant? For that reason, it is important have a fast site that follow the latest best practices, like Core Web Vitals. I have been optimizing PageSpeed score for several sites, including my own.
-
-<a class="button button--small" href="/portfolio/">See my portfolio</a>
-
-## Writing
-
-In 2016, I started to blog about my work. Since then, my writing skills improved greatly and I have been publishing articles for publications like **[Smashing Magazine](https://www.smashingmagazine.com/author/silvestar-bistrovic//)**, **[CSS Tricks](https://css-tricks.com/author/silvestar/)**, **[LogRocket](https://blog.logrocket.com/author/silvestarbistrovic/)**, and **[Toptal](https://www.toptal.com/resume/silvestar-bistrovic#Experience)**.
-
-<a class="button button--small" href="/publications/">See all publications</a>
+<div class="text-center">
+  <a class="button button--small button--border" href="/contact/">Contact me</a>
+  <a class="button button--small button--invisible" href="/portfolio/">See my portfolio</a>
+  <a class="button button--small button--invisible" href="/testimonials/">See testimonials</a>
+</div>

@@ -23,13 +23,13 @@ Take JavaScript engineers as an example. Does a JavaScript engineer need to know
 
 Take UX engineers as an example. Does a UX engineer need to know SEO basics?
 
-Take web developer, full-stack, and front-end developer positions. You couldn’t possibly tell what these positions imply. These terms are just too broad, and they assume too many things.
+Take web developer, full-stack, and frontend developer positions. You couldn’t possibly tell what these positions imply. These terms are just too broad, and they assume too many things.
 
 So, I’ll call myself a website developer from now on. That means I know SEO, accessibility, DNS basics, HTML, CSS,  presentational JavaScript, the Open Graph Protocol, etc. I just build websites. I don’t know how to make web apps, and I don’t use any JavaScript frameworks anymore.
 
 For me, it doesn’t matter which technology is in the background. I know my way around WordPress, Hugo, Jekyll, Eleventy, Hexo, Shopify, HubSpot, and whatever, but that doesn’t matter. What matters is that the final code should be the same. It should have functional code that could be processed by users, browsers, screenreaders, crawlers, and who knows what else. As a website developer, all I care about is that my sites are performant, optimized, and easily consumed.
 
-Although I am not looking for a new position, I like to browse available jobs and read the requirements. Some companies do a great job explaining the role in detail. On the other hand, some companies don’t even state which team is hiring. For example, a front-end developer part of a product team has an entirely different job than one part of the marketing team.
+Although I am not looking for a new position, I like to browse available jobs and read the requirements. Some companies do a great job explaining the role in detail. On the other hand, some companies don’t even state which team is hiring. For example, a frontend developer part of a product team has an entirely different job than one part of the marketing team.
 
 I guess what I am trying to say is that we live in 2022, and we still don’t have a system for making distinctions between these roles. No wonder we have so many bad sites, no wonder it is hard to find a good developer, no wonder we have developers arguing over the usage of frameworks, be it CSS or JavaScript ones, and no wonder wrong persons do wrong jobs.
 

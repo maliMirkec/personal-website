@@ -25,7 +25,7 @@ sections:
       title: Read the testimonial
     filter: testimonials
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/

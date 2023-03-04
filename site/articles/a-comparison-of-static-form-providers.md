@@ -44,7 +44,7 @@ Before moving forward, just a note that the information for these comparisons ca
 
 <div class="table-wrapper">
 
-|Name|Custom Components|Front-End Validation|Back-End Validation|
+|Name|Custom Components|Frontend Validation|Back-End Validation|
 |--- |--- |--- |--- |
 |Kwes|✅|✅|✅|
 |Basin|❌|❌|❌|
@@ -63,9 +63,9 @@ Components for building a form are HTML input elements, like text inputs, textar
 
 If you are looking for a form builder, FormKeep has a form designer feature. That means you embed custom HTML and JavaScript files in the page, and you get a styled form. Otherwise, you have to style the form by yourself.
 
-If you need custom components, like a date picker or card inputs, Kwes and FormKeep are the only providers with this feature. If you want to validate input fields in the browser, you might use third-party libraries or writing your code which means adding additional JavaScript code to the site. Kwes is the only provider that supports front-end validation based on the rules you set in each input component. To enable this feature, you should include additional JavaScript file, which you might do nevertheless. Other static form providers rely only on HTML5 validation.
+If you need custom components, like a date picker or card inputs, Kwes and FormKeep are the only providers with this feature. If you want to validate input fields in the browser, you might use third-party libraries or writing your code which means adding additional JavaScript code to the site. Kwes is the only provider that supports frontend validation based on the rules you set in each input component. To enable this feature, you should include additional JavaScript file, which you might do nevertheless. Other static form providers rely only on HTML5 validation.
 
-Kwes is the only provider with back-end validation, too. The rules you set in the front end are passed to the back end side. In case when front-end validation fails, you are safe, the backend validation would work. Other providers don't have this feature; they rely only on spam protection.
+Kwes is the only provider with back-end validation, too. The rules you set in the front end are passed to the back end side. In case when frontend validation fails, you are safe, the backend validation would work. Other providers don't have this feature; they rely only on spam protection.
 
 ### Spam protection
 

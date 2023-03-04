@@ -42,7 +42,7 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
@@ -50,7 +50,7 @@ sections2:
 excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 
-> _Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from front-end engineers._
+> _Silvestar is amazing. He is fast, and the work he produces is among the highest quality work I've seen from frontend engineers._
 >
 > _In our time working together he's been extremely reliable, with quick daily calls to give progress updates, but also having flexibility to work independently and provide updates on his progress on days when we skip those calls._
 >

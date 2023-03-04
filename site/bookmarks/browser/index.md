@@ -74,7 +74,7 @@ sections:
 - [c0bra/deviceframe: Put device frames around your mobile/web/progressive app screenshots.](https://github.com/c0bra/deviceframe)
 - [Formspree](https://formspree.io/)
 - [AOS - Animate on scroll library](https://michalsnik.github.io/aos/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly)
-- [A Directory of design and front-end resources](http://uigoodies.com/index.html)
+- [A Directory of design and frontend resources](http://uigoodies.com/index.html)
 - [Dynamic SVG image placeholders](https://codepen.io/jesstelford/pen/PaBMrL)
 - [5 Ways to Handle Forms on Your Static Site | Forestry.io](https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/)
 - [Screely - Generate Beautiful Images](https://www.screely.com/)

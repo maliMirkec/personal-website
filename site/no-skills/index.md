@@ -7,12 +7,12 @@ type: stories
 thumbnail: What_I_don_t_do_oszvwu
 sections:
   - type: hero-alpha
-    title: I am a front-end user interface developer.
+    title: I am a frontend user interface developer.
     desc: >-
       I specialize in developing websites.
 sections2:
   - type: banner-alpha
-    title: I am available for consultation services.
+    title: Get professional web development advice
     desc: I specialize in technologies related to frontend, user interface, and website development.
     cta:
       href: /contact/
@@ -21,7 +21,7 @@ sections2:
 
 ## What I don’t do?
 
-This is the list of the things I don’t do because I don’t know how to.
+This is the list of the things I don’t do because *I don’t know how to*.
 
 I don’t do:
 - full-stack development
@@ -31,8 +31,8 @@ I don’t do:
   - Angular development
 - Next.js, Nuxt, or Gatsby development
 - backend development of any kind, including
-  - WordPress backend development
   - web application development
+  - WordPress backend development
   - Shopify backend development
   - eCommerce development
 - mobile development
