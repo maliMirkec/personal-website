@@ -15,11 +15,11 @@
             <div>
               {% if resource.slink or resource.link %}
                 <p>
-                  <a class="href" href="{% if resource.slink %}{{ resource.slink }}{% elsif resource.link %}{{ resource.slink }}
+                  <a class="href" href="{% if resource.slink %}{{ resource.slink }}{% elsif resource.link %}{{ resource.link }}
                     {% endif %}" target="_blank" rel="noopener">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</a>
                 </p>
                 <p>
-                  <a class="href" href="{% if resource.slink %}{{ resource.slink }}{% elsif resource.link %}{{ resource.slink }}
+                  <a class="href" href="{% if resource.slink %}{{ resource.slink }}{% elsif resource.link %}{{ resource.link }}
                     {% endif %}" target="_blank" rel="noopener"><small>{{ resource.link }}</small></a>
                 </p>
               {% else %}
