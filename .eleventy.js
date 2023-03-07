@@ -126,6 +126,10 @@ module.exports = (eleventyConfig) => {
     return `<div class="note"${dataTitle}>${ markdownItRenderer.render(note.trim()) }</div>`
   })
 
+  eleventyConfig.addPairedLiquidShortcode('twrapper', (table) => {
+    return `<div class="table-wrapper">${ markdownItRenderer.render(table.trim()) }</div>`
+  })
+
   eleventyConfig.addCollection("my-slides", (collection) => {
     return collection.getFilteredByTag("slides").sort((a, b) => {
       if (a.date < b.date) {
