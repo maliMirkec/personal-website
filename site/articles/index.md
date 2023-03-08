@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Blog
+title: My blog
 description: Here are the latest posts from Silvestar's blog. He covers mostly frontend, JAMstack, WordPress, and freelancing topics.
 type: articles
 sections:
