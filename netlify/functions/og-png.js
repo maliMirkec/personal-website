@@ -5,7 +5,7 @@ exports.handler = async function (event) {
   try {
     let textArray = []
     let line = ''
-    const offset = 33
+    const offset = 30
     let text = 'Home of fearless web developer Silvestar Bistrović'
 
     if(event.queryStringParameters && event.queryStringParameters.text) {
