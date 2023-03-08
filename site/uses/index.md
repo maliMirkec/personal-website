@@ -97,16 +97,16 @@ _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) an
 | Package | Website |
 | ------- | ------- |
 | acclaimed [♥️](#footnote) | [Link](https://www.npmjs.com/package/acclaimed) |
-| concurrently | [Link](https://www.npmjs.com/package/concurrently) |
-| contentful-cli@ | [Link](https://www.npmjs.com/package/contentful-cli@) |
 | deviceframe | [Link](https://www.npmjs.com/package/deviceframe) |
 | gulp | [Link](https://www.npmjs.com/package/gulp) |
 | killify [♥️](#footnote) | [Link](https://www.npmjs.com/package/killify) |
-| netlify-cli@ | [Link](https://www.npmjs.com/package/netlify-cli@) |
+| netlify-cli | [Link](https://www.npmjs.com/package/netlify-cli) |
 | nodemon | [Link](https://www.npmjs.com/package/nodemon) |
 | npkill | [Link](https://www.npmjs.com/package/npkill) |
 | starter-project-cli [♥️](#footnote) | [Link](https://www.npmjs.com/package/starter-project-cli) |
 {% endtwrapper %}
+
+Read more about [my favorite NPM packages](/articles/my-favorite-npm-packages/) and [my favorite bash scripts](/articles/my-favorite-bash-scripts-and-shortcuts/).
 
 ## VS Code extensions
 
