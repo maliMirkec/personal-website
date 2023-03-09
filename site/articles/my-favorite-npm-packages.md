@@ -1,7 +1,7 @@
 ---
 layout: index
 title: My favorite NPM packages in 2023
-date: 2023-03-08 10:00:00
+date: 2023-03-09 11:00:00
 tags:
   - blog
   - productivity
@@ -20,8 +20,6 @@ When you run `npm list -g --depth=0` command, you get all the globally installed
 
 [Acclaimed CSS](https://www.npmjs.com/package/acclaimed) is a package that I developed. It is a wrapper for penthouse, a package to extract Critical CSS. Ever since I used it, I use it to generate Critical CSS seamlessly. All I need to do is to quickly create `.acclaimed.json` file in the folder where I will run the command and I get the above-the-fold CSS extracted within seconds.
 
-YT here
-
 ## deviceframe
 
 I have been using [deviceframe](https://www.npmjs.com/package/deviceframe) package for years. It puts device frames around website screenshots. I use it for creating [my portfolio](/portfolio/) screenshots.
@@ -34,7 +32,7 @@ I have been using [deviceframe](https://www.npmjs.com/package/deviceframe) packa
 
 [Killify](https://www.npmjs.com/package/killify) is another package that I developed. I was annoyed by the hanging processes in my terminal, so I created a package that helps kill every hanging process.
 
-{% embed '<iframe width="792" height="476" src="https://www.youtube-nocookie.com/embed/gQMsVdOc88s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>' '792' '476' %}
+{% embed '<iframe width="792" height="476" src="https://www.youtube-nocookie.com/embed/8gjzPBxCd_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>' '792' '476' %}
 
 ## Netlify CLI
 

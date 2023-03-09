@@ -1,7 +1,7 @@
 ---
 layout: index
 title: My favorite VS Code extensions in 2023
-date: 2023-03-08 10:00:00
+date: 2023-03-09 12:00:00
 tags:
   - blog
   - productivity
