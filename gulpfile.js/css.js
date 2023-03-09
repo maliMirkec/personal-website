@@ -2,7 +2,7 @@ const { src, dest, watch } = require('gulp');
 const gulpif = require('gulp-if');
 const cssimport = require('gulp-cssimport');
 const gulpStylelint = global.config.css.lint ? require('gulp-stylelint') : () => true;
-const sass = global.config.css.sass ? require('gulp-sass') : () => true;
+const sass = global.config.css.sass ? require('gulp-sass')(require('node-sass')) : () => true;
 const autoprefixer = global.config.css.autoprefix ? require('gulp-autoprefixer') : () => true;
 const sourcemaps = global.config.css.sourcemaps ? require('gulp-sourcemaps') : () => true;
 const cleanCSS = global.config.css.minify ? require('gulp-clean-css') : () => true;

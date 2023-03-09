@@ -90,9 +90,8 @@ If you want to learn or improve your Frontend or User Interface skills like HTML
 
 This post is available in the form of slides, too:
 
-<div class="embed">
-  <iframe src="https://slides.com/starbist/mentoring-tips2/embed?style=light" width="960" height="700" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>
-</div>
+
+{% embed '<iframe src="https://slides.com/starbist/mentoring-tips2/embed?style=light" width="792" height="423" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>' '792' '423' %}
 
 Happy coding!
 

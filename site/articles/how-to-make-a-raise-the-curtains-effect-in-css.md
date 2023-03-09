@@ -21,8 +21,8 @@ sections2:
 
 Here's an example where I used the effect on a [real-life project](https://www.wundermobility.com/sharing-ready-vehicles/):
 
-<iframe width="1120" height="650" src="https://videopress.com/embed/VJgwbTsL" frameborder="0" allowfullscreen loading="lazy"></iframe>
-<script src="https://videopress.com/videopress-iframe.js" defer></script>
+
+{% embed '<iframe width="792" height="457" src="https://videopress.com/embed/VJgwbTsL" frameborder="0" allowfullscreen loading="lazy"></iframe><script src="https://videopress.com/videopress-iframe.js" defer></script>' '792' '457' %}
 
 Want to know how it's done? I will take you behind the curtain and show you how to raise it, with nothing but HTML and CSS.
 

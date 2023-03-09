@@ -39,6 +39,7 @@ But after that, the more I thought about it, the more I realized that I’m stil
 
 That reminds me of one of my favorite scenes from one of [my favorite shows](/favorites/tv/), Peep Show. In it, Mark has a good hand in poker, but, Mark being Mark, he folds because _“there’s just no way of knowing for sure (if someone else has a better hand).”_ He is just not comfortable with the situation, and he gives up. On the other hand, Jez has a pretty bad hand, but, Jez being Jez, he goes all-in and bluffs the other guy with a stronger hand. He then says to himself: _“I’m really good at this without realizing how.”_ I love that quote, and I’ve been using it in my email signatures forever.
 
-<iframe width="1120" height="630" src="https://www.youtube-nocookie.com/embed/6mSleXflIq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+
+{% embed '<iframe width="792" height="600" src="https://www.youtube-nocookie.com/embed/6mSleXflIq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>' '792' '600' %}
 
 Getting comfortable with coding is definitively tricky and individual. So how long did it take you to get comfortable with coding?

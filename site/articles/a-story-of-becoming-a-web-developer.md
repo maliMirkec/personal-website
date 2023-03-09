@@ -71,9 +71,7 @@ I would like to hear your story one day. That is why I started [The UI Developme
 
 If you need more inspiration, read these tips I gathered during my career:
 
-<div class="embed">
-  <iframe src="https://slides.com/starbist/mentoring-tips1/embed?style=light" width="960" height="700" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>
-</div>
+{% embed '<iframe src="https://slides.com/starbist/mentoring-tips1/embed?style=light" width="792" height="423" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>' '792' '423' %}
 
 Happy coding!
 
