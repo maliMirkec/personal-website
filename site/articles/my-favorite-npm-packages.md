@@ -34,7 +34,7 @@ I have been using [deviceframe](https://www.npmjs.com/package/deviceframe) packa
 
 [Killify](https://www.npmjs.com/package/killify) is another package that I developed. I was annoyed by the hanging processes in my terminal, so I created a package that helps kill every hanging process.
 
-YT here
+{% embed '<iframe width="792" height="476" src="https://www.youtube-nocookie.com/embed/gQMsVdOc88s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>' '792' '476' %}
 
 ## Netlify CLI
 
@@ -46,11 +46,11 @@ Since my site runs on Netlify, I often use [Netlify CLI](https://www.npmjs.com/p
 
 ## npkill
 
-[npkill](https://www.npmjs.com/package/npkill) is another package that I use from time to time. Since I work on many projects, either personal and client-based, I tend to have many `node_modules` folders on my computer and we all know how heavy they can be. With `npkill` command you could find all `node_modules` folders and delete them easily.
+[npkill](https://www.npmjs.com/package/npkill) is another package that I use from time to time. Since I work on many projects, either personal and client-based, I tend to have many `node_modules` folders on my computer and we all know how heavy they can be.
 
 ![Heaviest objects in universe meme - node_modules.](https://i.imgflip.com/4iuwew.jpg)
 
-Easily find and remove old and heavy node_modules folders ✨
+With `npkill` command you could find all `node_modules` folders and delete them easily.
 
 ## Starter Project CLI
 

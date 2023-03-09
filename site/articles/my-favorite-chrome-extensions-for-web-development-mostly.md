@@ -1,6 +1,6 @@
 ---
 layout: index
-title: My favorite extensions for web development
+title: My favorite Chrome extensions for web development
 date: 2019-09-11 14:23:33
 tags:
   - blog

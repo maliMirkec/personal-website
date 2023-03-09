@@ -106,7 +106,7 @@ _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) an
 | starter-project-cli [♥️](#footnote) | [Link](https://www.npmjs.com/package/starter-project-cli) |
 {% endtwrapper %}
 
-Read more about [my favorite NPM packages](/articles/my-favorite-npm-packages/) and [my favorite bash scripts](/articles/my-favorite-bash-scripts-and-shortcuts/).
+Read more about [my favorite NPM packages](/articles/my-favorite-npm-packages/) and [my favorite bash scripts](/articles/my-favorite-bash-shortcuts/).
 
 ## VS Code extensions
 
@@ -164,7 +164,6 @@ Read more about [my favorite VS Code settings](/articles/my-favorite-vs-code-set
 | Code Line Daily [♥️](#footnote) | [Link](https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg) |
 | Grammarly | [Link](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) |
 | Grammarly to Markdown | [Link](https://chrome.google.com/webstore/detail/grammarly-to-markdown/bjodbpcjeogaihbekannledankhcjbgo) |
-| Inspect Canonical | [Link](https://chrome.google.com/webstore/detail/inspect-canonical/glkngfenfpegejlggjfcmdobodjlfann) |
 | Keywords Everywhere - Keyword Tool | [Link](https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) |
 | SEO META in 1 CLICK | [Link](https://chrome.google.com/webstore/detail/seo-meta-in-1-click/bjogjfinolnhfhkbipphpdlldadpnmhc) |
 | SEO Minion | [Link](https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi) |
