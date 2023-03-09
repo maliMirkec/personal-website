@@ -7,7 +7,7 @@ tags:
   - gulp
   - starter project
 thumbnail: Custom_WordPress_Theme_Development_with_SPRO_ypnnfh
-descriptionAlt: "SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development."
+descriptionAlt: SPRO is a boilerplate of predefined Gulp tasks. The mission is to set up the development environment for your project without writing Gulp tasks again and again. In this article, I am going to show you how to configure SPRO for custom WordPress theme development.
 description: Learn how to create a custom WordPress theme with the Starter Project CLI (SPRO) package and improve your development process.
 project:
   name: Starter Project

@@ -5,8 +5,8 @@ date: 2023-03-08 10:00:00
 tags:
   - blog
   - productivity
-  - devtools
-description:
+  - extensions
+description: These Chrome extensions have helped me streamline my workflow and improve my coding experience.
 type: articles-item
 sections2:
   - type: banner-beta
@@ -18,7 +18,7 @@ I wrote about [my favorite Chrome extensions for web development](/articles/my-f
 
 ## Grammarly to Markdown
 
-Before discovering the [Grammarly to Markdown](https://chrome.google.com/webstore/detail/grammarly-to-markdown/bjodbpcjeogaihbekannledankhcjbgo) extension, I used [the Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/) online tool. That implied I had to copy the text from Grammarly, paste it in Paste to Markdown, copy it again, and then paste it into my Markdown file. With Grammarly to Markdown, I cut the middleman and paste it directly to Markdown.
+Before discovering the [Grammarly to Markdown](https://chrome.google.com/webstore/detail/grammarly-to-markdown/bjodbpcjeogaihbekannledankhcjbgo) extension, I used [the Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/) online tool. That implied I had to copy the text from Grammarly, paste it into Paste to Markdown, copy it again, and then paste it into my Markdown file. With Grammarly to Markdown, I cut the middleman and paste it directly to Markdown.
 
 ## SEO META in 1 CLICK
 

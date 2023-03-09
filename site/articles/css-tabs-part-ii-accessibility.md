@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'CSS tabs, part II: Accessibility'
+title: "CSS tabs, part II: Accessibility"
 tags:
   - blog
   - css

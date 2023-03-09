@@ -1,12 +1,12 @@
 ---
 layout: index
-title: 'My favorite NPM packages'
+title: My favorite NPM packages in 2023
 date: 2023-03-08 10:00:00
 tags:
   - blog
-  - vs code
-  - editor
-description:
+  - productivity
+  - npm
+description: I’ve compiled a list of my favorite npm packages that I use on a daily basis.
 type: articles-item
 sections2:
   - type: banner-beta

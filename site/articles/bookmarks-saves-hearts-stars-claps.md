@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Bookmarks, Saves, Hearts, Stars, Claps'
+title: Bookmarks, Saves, Hearts, Stars, Claps
 date: 2019-04-11 18:10:34
 tags:
   - blog

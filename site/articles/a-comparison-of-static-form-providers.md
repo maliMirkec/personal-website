@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'A Comparison of Static Form Providers'
+title: A Comparison of Static Form Providers
 date: 2019-09-26 22:08:09
 tags:
   - blog

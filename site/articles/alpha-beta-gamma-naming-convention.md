@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Alpha, Beta, Gamma naming convention'
+title: Alpha, Beta, Gamma naming convention
 date: 2018-11-06 21:39:00
 tags:
   - blog

@@ -7,7 +7,7 @@ tags:
   - freelance
   - remote work
 thumbnail: Just_My_Routine_As_A_Remote_Worker_ggjr05
-descriptionAlt: "As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker."
+descriptionAlt: As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker.
 description: Successful remote work requires routine and discipline. Here's my recipe for balancing clients, projects, and skills.
 type: articles-item
 sections2:

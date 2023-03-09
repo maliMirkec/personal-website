@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Nightmare DX (Developer Experience): Shopify'
+title: "Nightmare DX (Developer Experience): Shopify"
 date: 2021-08-13 14:00:00
 tags:
   - blog

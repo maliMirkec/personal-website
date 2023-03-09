@@ -5,10 +5,10 @@ date: 2019-09-11 14:23:33
 tags:
   - blog
   - productivity
-  - devtools
+  - extensions
 thumbnail: My_favorite_extensions_for_web_development_erf5gg
-descriptionAlt: "A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer."
-description: "Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions."
+descriptionAlt: A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer.
+description: Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions.
 type: articles-item
 sections2:
   - type: banner-beta
@@ -104,6 +104,8 @@ These extensions are installed on my Chrome, but I am not using it that often or
 - [Buffer]. It is an essential tool for scheduling social shares. I am using it every day.
 - [Pablo]. It creates engaging social images with overflow text and custom effects.
 - [Emoji Keyboard]. Sometimes you just need to search for an emoji to express yourself. It shows the emojis by categories, and it has a powerful search.
+
+Update: you could read about [my favorite Chrome extensions in 2023](/articles/my-favorite-chrome-extensions-for-web-development-mostly-2023/).
 
 [Octotree]: https://www.octotree.io/
 [Wappalizer]: https://www.wappalyzer.com/download

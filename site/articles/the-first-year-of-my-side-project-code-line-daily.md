@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'The first year of my side project: Code Line Daily'
+title: "The first year of my side project: Code Line Daily"
 date: 2020-07-21 09:33:35
 tags:
   - blog

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Roadmap, September 2018.'
+title: Roadmap, September 2018.
 date: 2018-09-27 12:11:55
 tags:
   - blog

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Migrating to Eleventy 2.0'
+title: Migrating to Eleventy 2.0
 date: 2023-02-14 13:00:00
 tags:
   - blog

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "First steps with Github Atom"
+title: First steps with Github Atom
 tags:
   - blog
   - atom

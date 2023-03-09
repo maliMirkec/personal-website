@@ -175,6 +175,8 @@ Read more about [my favorite VS Code settings](/articles/my-favorite-vs-code-set
 | Workona Tab Suspender | [Link](https://chrome.google.com/webstore/detail/workona-tab-suspender/kkahjkjjcepelnnikconblkonolboiok) |
 {% endtwrapper %}
 
+I've written about my favorite Chrome extensions in [2023](/articles/my-favorite-chrome-extensions-for-web-development-mostly-2023/) and [2019](/articles/my-favorite-chrome-extensions-for-web-development-mostly/).
+
 ### Footnote
 
 <small>♥️ - developed by me.</small>

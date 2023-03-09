@@ -1,12 +1,12 @@
 ---
 layout: index
-title: 'My favorite bash shortcuts'
+title: My favorite bash shortcuts in 2023
 date: 2023-03-08 10:00:00
 tags:
   - blog
-  - vs code
-  - editor
-description:
+  - productivity
+  - bash
+description: Take a look at my favorite Bash shortcuts that have saved me a ton of time.
 type: articles-item
 sections2:
   - type: banner-beta

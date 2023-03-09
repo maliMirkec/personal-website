@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 'Using CSS Grid where appropriate (revisited)'
+title: Using CSS Grid where appropriate (revisited)
 date: 2018-09-05 11:01:11
 tags:
   - blog
