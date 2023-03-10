@@ -2,7 +2,7 @@
 layout: devcards-index
 title: Dev Cards 360
 description: Discover the web development skills and weaknesses with Dev Cards 360, a comprehensive Vue.js project showcase.
-type: side-projects-item
+type: devcards
 tags:
   - projects
   - developers

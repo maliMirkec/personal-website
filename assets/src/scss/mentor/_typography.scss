@@ -10,7 +10,7 @@ body {
   font-weight: 400;
   line-height: $line-height;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @for $i from 1 through 6 {

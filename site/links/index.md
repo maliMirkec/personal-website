@@ -62,5 +62,6 @@ sections2:
 ## Other
 
 - [My setup](/uses/)
+- [My branding](/branding/)
 - [What I don’t allow?](/no-ads/)
 - [What I don’t do?](/no-skills/)

@@ -1,4 +1,4 @@
-{% assign devcardsCritical = 'devcards' | criticalExists %}
+{% assign devcardsCritical = 'devcards' | criticalExistsAlt %}
 {% if devcardsCritical %}
-  <style>{{ 'devcards' | getCritical }}</style>
+  <style>{{ 'devcards' | getCriticalAlt }}</style>
 {% endif %}

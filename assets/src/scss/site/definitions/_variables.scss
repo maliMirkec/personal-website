@@ -14,6 +14,8 @@ $mq-breakpoints: (
 $color-alpha: hsl(161, 85%, 67%);
 $color-alpha-hover: hsl(161, 85%, 57%);
 $color-alpha-dark: hsl(161, 85%, 27%);
+$color-alpha-darker: hsl(161, 85%, 17%);
+$color-alpha-darkest: hsl(161, 85%, 7%);
 $color-alpha-light: hsl(161, 85%, 77%);
 $color-alpha-lighter: transparentize($color-alpha, .8125);
 $color-beta: hsl(345, 100%, 60%);

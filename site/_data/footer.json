@@ -1,7 +1,7 @@
 {
   "logo": {
     "href": "/",
-    "src": "/gfx/svg/logo-2021.svg",
+    "src": "/gfx/svg/logo-12E09F-000.svg",
     "title": "Silvestar Bistrović"
   },
   "menu": [{
@@ -16,6 +16,9 @@
   }, {
     "href": "/contact/",
     "title": "Contact"
+  }, {
+    "href": "/services/",
+    "title": "Services"
   }, {
     "href": "/rss.xml",
     "title": "Feed"

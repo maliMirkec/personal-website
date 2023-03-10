@@ -1,16 +1,16 @@
 ---
 layout: index
-title: Adam Maschek
+title: Denise Weidlich
 titlePrefix: "Testimional by "
-description: Read testimonial by Adam Maschek in which he talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Denise Weidlich in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
-avatar: am_zanda5
+avatar: dw_wbnba8
 date: 2005-01-02
-position: CTO
+position: Product Manager eCommerce
 company: Westwing
 sections:
   - type: hero-alpha
@@ -18,9 +18,9 @@ sections:
     alt: Logo of Westwing.
     width: 219
     height: 30
-    avatar: am_zanda5
-    title: Adam Maschek
-    desc: CTO at Westwing Home & Living
+    avatar: dw_wbnba8
+    title: Denise Weidlich
+    desc: Product Manager eCommerce at Westwing Home & Living
     tag:
       href: /testimonials/
       title: Testimonials
@@ -47,7 +47,7 @@ sections2:
     cta:
       href: /contact/
       title: Hire me
-excerpt: It was a pleasure to work with Silvestar. He delivered the project on time with good quality...
+excerpt: It was a pleasure to work with Silvestar. The collaboration between us during our...
 ---
 
-> _It was a pleasure to work with Silvestar. He was available on a short notice, he closely collaborated with the PM on the project and delivered it on time with good quality. I would work with him again, and actually we are considering to kick off our next project with him._
+> _It was a pleasure to work with Silvestar. The collaboration between us during our several projects was really good and the results are always is super good quality. I would work with him again._

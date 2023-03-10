@@ -1,16 +1,19 @@
 .dark {
   --color-alpha: #{$color-alpha-dark};
-  --color-alpha-hover: #{$color-alpha-dark};
+  --color-alpha-hover: #{$color-alpha-darker};
+  --color-alpha-light: #{$color-alpha-darker};
+  --color-alpha-lighter: #{$color-alpha-darkest};
   --color-beta: #{$color-beta-dark};
   --color-light: #{$color-dark};
   --color-lightish: #{$color-darkish};
   --color-dark: #{$color-light};
   --color-darkish: #{$color-lightish};
+  --color-beta-light: #{$color-beta-light};
   --color-xmas-alpha: #{$color-darkish};
   --color-xmas-beta: #{$color-xmas-beta-dark};
   --color-xmas-gamma: #{$color-xmas-gamma-dark};
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 
   img {
     filter: brightness(.8) contrast(1.2);
