@@ -11,11 +11,6 @@ sections:
 
 
       These are my open-source side projects.
-    banner:
-      desc: Did you know that I am **available for hire**?
-      cta:
-        href: /contact/
-        title: Hire me
   - type: cards-gamma
     # cta:
     #   title: Go to project

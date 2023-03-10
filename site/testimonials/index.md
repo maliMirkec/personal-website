@@ -15,11 +15,6 @@ sections:
 
 
       All testimonials are available on [LinkedIn](https://www.linkedin.com/in/starbist/), too.
-    banner:
-      desc: Did you know that I am **available for hire**?
-      cta:
-        href: /contact/
-        title: Hire me
   - type: cards-beta
     cta:
       title: Read the testimonial

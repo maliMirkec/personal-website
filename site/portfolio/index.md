@@ -11,11 +11,11 @@ sections:
 
 
       Built with WordPress, Shopify, Jekyll, and Hugo, among others.
-    banner:
-      desc: Did you know that I am **available for hire**?
-      cta:
-        href: /contact/
-        title: Hire me
+  - type: banner-beta
+    desc: Did you know that over 20 professionals from several companies vouched for me?
+    cta:
+      href: /testimonials/
+      title: See all testimonials
   - type: cards-gamma
     # cta:
     #   title: Go to project

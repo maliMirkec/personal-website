@@ -10,11 +10,6 @@ sections:
     title: From Slides
     desc: >-
       Here is the collection of all slides on my site.
-    banner:
-      desc: Did you know that I am **available for hire**?
-      cta:
-        href: /contact/
-        title: Hire me
   - type: cards-alpha
     # cta:
     #   title: Go to project
