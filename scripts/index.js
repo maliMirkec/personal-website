@@ -11,13 +11,23 @@ try {
   let list3 = '';
   let list4 = '';
   let list5 = '';
+  let adsTwitter = '';
+  let adsMastodon = '';
 
   if(doc[0].list && doc[0].list.length) {
-    doc[0].list.forEach(item => {
+    doc[0].list.forEach((item, i) => {
+
       list1 += `
       <li>
         <p><span><a href="${item.link}" target="_blank" style="text-decoration:none"><strong style="color:#FF3366">${item.title}</strong><br><small style="color:#FF3366">${item.link}</small></a></span><br><span>${item.desc}</span></p>
       </li>`
+
+      if(doc[0].topAd && i === 0) {
+        list1 += `
+        <li>
+          <p><small>Sponsor</small><br><span><a href="${doc[0].topAd.link}" target="_blank" style="text-decoration:none"><strong style="color:#FF3366">${doc[0].topAd.title}</strong><br><small style="color:#FF3366">${doc[0].topAd.link}</small></a></span><br><span>${doc[0].topAd.desc}</span></p>
+        </li>`
+      }
 
       list2 += `
 [${item.title}](${item.slink || item.link})
@@ -46,6 +56,14 @@ ${item.handle2 ? 'Via ' + item.handle2 : ''}
       list5 += `
 ${item.desc}`
     })
+  }
+
+  if(doc[0].topAd) {
+    const twitterHandle = doc[0].topAd.handle ? doc[0].topAd.handle : doc[0].topAd.name
+    const mastodonHandle = doc[0].topAd.handle2 ? doc[0].topAd.handle2 : doc[0].topAd.name
+
+    adsTwitter = `A big thanks to this week's sponsor ${twitterHandle}.`
+    adsMastodon = `A big thanks to this week's sponsor ${mastodonHandle}.`
   }
 
   if(doc[0].promotion && doc[0].promotion.length) {
@@ -127,6 +145,8 @@ https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
 
+${adsTwitter}
+
 -------------`)
 
   console.log(list3);
@@ -149,6 +169,8 @@ Featuring${arr3.join(' ')}
 https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
 
 Featuring${arr5.join(' ')}
+
+${adsMastodon}
 
 -------------`)
 
