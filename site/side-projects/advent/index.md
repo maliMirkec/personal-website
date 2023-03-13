@@ -8,7 +8,7 @@ type: articles
 tags:
   - projects
   - ui
-date: 2005-03-01
+date: 2005-06-01
 sections:
   - type: hero-alpha
     title: Advent of UI components

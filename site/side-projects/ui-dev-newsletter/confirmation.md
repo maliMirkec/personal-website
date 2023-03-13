@@ -1,5 +1,5 @@
 ---
-layout: reads-confirmation
+layout: newsletter-confirmation
 title: Thank you for subscribing
 noindex: true
 eleventyExcludeFromCollections: true
@@ -14,5 +14,5 @@ Please check your email and confirm your subscription to UI Dev Newsletter.
 <small>Psst. Check your spam folder, too.</small>
 
 <div>
-  <a href="/side-projects/ui-dev-mentoring/reads/" class="link">Go back</a>
+  <a href="/side-projects/ui-dev-newsletter/list/" class="link">Go back</a>
 </div>

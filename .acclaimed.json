@@ -97,7 +97,7 @@
 }, {
   "css": "./assets/dist/css/mentor.css",
   "out": "./assets/critical/mentor-reads-index.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/reads/?cache=1",
+  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -113,7 +113,7 @@
 }, {
   "css": "./assets/dist/css/mentor.css",
   "out": "./assets/critical/mentor-reads-single.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/reads/2023-02-27/?cache=1",
+  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/2023-02-27/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,

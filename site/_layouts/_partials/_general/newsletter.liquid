@@ -1,0 +1,25 @@
+<section class="wrapper wrapper--gamma margin-top-alpha margin-bottom-alpha" id="newsletter">
+  <article class="form padding">
+    <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')" class="newsletter">
+      <img class="margin-bottom" src="/gfx/svg/ui-dev-FF3366.svg" alt="UI Dev Newsletter." width="100" height="100">
+      {% if newsletter.title %}
+        <h1 class="text-center no-margin-bottom">{{ newsletter.title }}</h1>
+      {% endif %}
+      {% if newsletter.desc %}
+        <p class="text-center">{{ newsletter.desc }}</p>
+      {% endif %}
+      <label class="fz-step--1" for="bd-email"><b>Enter your email address</b></label>
+      <div class="newsletter__input margin-bottom">
+        <input class="input" type="email" name="email" id="bd-email" />
+        <input class="button button--small" type="submit" value="Subscribe" />
+      </div>
+      <div class="copy text-center">
+        <p class="fz-step--2 no-margin">No spam, only quality content. Trusted by <b>400+</b> subscribers.</p>
+        <p class="fz-step--3 no-margin">Don't like newsletters? <a href="/rss2.xml">Subscribe to RSS feed instead.</a></p>
+        <a class="margin-top-alpha" href="/">
+          <img src="/gfx/svg/logo-SB-000-12E09F.svg" alt="UI Dev Newsletter." width="60" height="60">
+        </a>
+      </div>
+    </form>
+  </article>
+</section>

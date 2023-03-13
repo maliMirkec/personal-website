@@ -28,10 +28,16 @@
 {% elsif section.type == 'cards-eta' %}
   {% assign cards6 = section %}
   {% include _partials/_general/cards-eta %}
+{% elsif section.type == 'cards-zeta' %}
+  {% assign cards7 = section %}
+  {% include _partials/_general/cards-zeta %}
 {% elsif section.type == 'content-beta' %}
   {% assign content2 = section %}
   {% include _partials/_general/content-beta %}
 {% elsif section.type == 'contact' %}
   {% assign contact = section %}
   {% include _partials/_general/contact %}
+{% elsif section.type == 'newsletter' %}
+  {% assign newsletter = section %}
+  {% include _partials/_general/newsletter %}
 {% endif %}

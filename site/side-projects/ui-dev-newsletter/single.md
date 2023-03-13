@@ -1,5 +1,5 @@
 ---
-layout: reads-single
+layout: newsletter-single
 title: UI Dev Newsletter
 navTitle: Reads
 descriptionAlt: UI Dev Newsletter is a hand-curated list of articles, tutorials, and tools related to User Interface development delivered to your inbox every two weeks.
@@ -17,5 +17,5 @@ pagination:
   data: reads
   size: 1
   alias: thisRead
-permalink: "/side-projects/ui-dev-mentoring/reads/{{ thisRead.date | slug }}/"
+permalink: "/side-projects/ui-dev-newsletter/{{ thisRead.date | slug }}/"
 ---

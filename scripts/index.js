@@ -84,7 +84,7 @@ ${item.desc}`
   })
   }
 
-  const docLink = `https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/`
+  const docLink = `https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/`
 
   console.log('~~~~~~~~~~~~~')
   console.log('UI Newsletter')
@@ -141,7 +141,7 @@ ${list2}
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
 
@@ -154,7 +154,7 @@ ${adsTwitter}
   console.log(`
 🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
 `)
@@ -166,7 +166,7 @@ Featuring${arr3.join(' ')}
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr5.join(' ')}
 
@@ -179,7 +179,7 @@ ${adsMastodon}
   console.log(`
 🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr5.join(' ')}
 `)

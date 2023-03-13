@@ -148,8 +148,8 @@ My third year of freelancing is undoubtedly the most successful one. With my fam
 [homepage]: /
 [The UI Development Mentoring Program]: /side-projects/ui-dev-mentoring/
 [learning resources]: /side-projects/ui-dev-mentoring/resources/
-[daily reads]: /side-projects/ui-dev-mentoring/reads/
-[subscribe to the newsletter]: /side-projects/ui-dev-mentoring/reads/#newsletter
+[daily reads]: /side-projects/ui-dev-newsletter/
+[subscribe to the newsletter]: /side-projects/ui-dev-newsletter/
 [Starter Project]: https://www.npmjs.com/package/starter-project
 [Starter Project CLI]: https://www.npmjs.com/package/starter-project-cli
 [LinkedIn]: https://www.linkedin.com/in/starbist/

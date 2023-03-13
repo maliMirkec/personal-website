@@ -20,7 +20,7 @@
           {% endif %}
         {% endif %}
         {% unless cards1.exclude == 'title' and title == card1.data.title %}
-          <a class="card card--flex tilt text-center bg-lightish" href="{{ card1.url }}">
+          <a class="card card--flex tilt text-center bg-lightish padding" href="{{ card1.url }}">
             <div class="tilt__inner padding">
               {% if card1.data.title %}
                 <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">{{ card1.data.title }}</h3>
@@ -36,14 +36,11 @@
                     {% endif %}
                   </div>
                 {% endif %}
-                {% if cards1.cta and cards1.noDesc != true %}
+                {% if cards1.noDesc != true %}
                   <div class="copy">{{ card1.data.description }}</div>
                 {% endif %}
               </div>
             </div>
-            {% if cards1.cta %}
-              <span class="button df padding">{{ cards1.cta.title }}</span>
-            {% endif %}
           </a>
         {% endunless %}
         {% assign i1 = i1 | plus: 1 %}
