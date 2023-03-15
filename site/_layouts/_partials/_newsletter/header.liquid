@@ -1,0 +1,19 @@
+{% if newsletter %}
+  <header class="text-center padding">
+    {% if newsletter.logo1 %}
+      <a class="dib margin-top margin-bottom hover-beta" href="{{ newsletter.logo1.href }}"><img class="margin-auto" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.title }}" width="100" height="100"></a>
+    {% endif %}
+    {% if newsletter.menu %}
+      <nav class="margin-bottom" aria-label="Primary">
+        <ul class="list-style-none no-margin-top">
+          {% for item in newsletter.menu %}
+            <li class="margin-right margin-left">
+              <a href="{{ item.href }}" class="padding-y-1">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </header>
+  <hr class="text-beta hr">
+{% endif %}

@@ -8,6 +8,7 @@ const uslug = require('uslug')
 const fs = require('fs')
 const env = require('./site/_data/env')
 const package = require('./package.json')
+const { log } = require("console")
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
@@ -73,19 +74,19 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addLiquidFilter('criticalExists', (critical) => {
-    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`)
-  })
-
-  eleventyConfig.addLiquidFilter('criticalExistsAlt', (critical) => {
-    return fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
+    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`) || fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
   })
 
   eleventyConfig.addLiquidFilter('getCritical', (critical) => {
-    return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
-  })
+    if(fs.existsSync(`./assets/critical/${critical}.critical.min.css`) ) {
+      return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
+    }
 
-  eleventyConfig.addLiquidFilter('getCriticalAlt', (critical) => {
-    return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
+    if(fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`) ) {
+      return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
+    }
+
+    return false
   })
 
   eleventyConfig.addLiquidFilter('generator', () => {

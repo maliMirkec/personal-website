@@ -1,0 +1,22 @@
+<section class="hero margin-top-alpha margin-bottom-alpha">
+  <div class="wrapper wrapper--beta text-center">
+    <div class="padding">
+      {% if hero.title %}
+        <h1 class="fz-step-5 fw-bold no-margin-top margin-bottom">{{ hero.title | markdownifyi }}</h1>
+      {% endif %}
+      {% if hero.desc %}
+        <div class="fz-step-1 copy">{{ hero.desc | markdownify }}</div>
+      {% endif %}
+      {% if hero.cta %}
+        <div class="margin-top-beta">
+          <a class="button" href="{{ hero.cta.href }}">{{ hero.cta.title }}</a>
+        </div>
+      {% endif %}
+      {% if hero.cta2 %}
+        <div class="margin-top">
+          <a href="{{ hero.cta2.href }}">{{ hero.cta2.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

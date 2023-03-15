@@ -1,3 +1,7 @@
+---
+isNewsletter: true
+---
+
 {% if theme and theme.site and theme.site.language %}
   {% assign lang = theme.site.language %}
 {% else if config and config.language %}
@@ -9,8 +13,11 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   {% include _partials/_general/head %}
-  <body{% if title == 'UI Dev Newsletter' %} class="bg-lightish"{% endif %}>
+  <body class="uidev{% if page.url == '/side-projects/ui-dev-newsletter/' %} bg-lightish{% endif %}">
     {% include _partials/_general/skip-link %}
+    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
+      {% include _partials/_newsletter/header %}
+    {% endunless %}
     <div class="inner">
       <main id="main">
         {% block content %}
@@ -19,8 +26,12 @@
               {% include _partials/_general/sections %}
             {% endfor %}
           {% endif %}
-          {% if content != blank and content != '' %}
-            {% include _partials/_general/content-alpha %}
+          {% if pagination %}
+            {% include _partials/_newsletter/issue %}
+          {% else %}
+            {% if content != blank and content != '' %}
+              {% include _partials/_general/content-alpha %}
+            {% endif %}
           {% endif %}
           {% if sections2 %}
             {% for section in sections2 %}
@@ -30,6 +41,9 @@
         {% endblock %}
       </main>
     </div>
+    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
+      {% include _partials/_newsletter/footer %}
+    {% endunless %}
     {% include _partials/_general/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}

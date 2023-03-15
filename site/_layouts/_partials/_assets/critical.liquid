@@ -4,10 +4,13 @@
   {% else %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css">
+    {% elsif isSlides %}
+      <link rel="stylesheet" href="/css/slides.critical.min.css">
+    {% elsif is360 %}
+      <link rel="stylesheet" href="/css/devcards.critical.min.css">
     {% else %}
       <link rel="stylesheet" href="/css/style.min.css">
     {% endif %}
-
     {% if type == 'articles-item' %}
       <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
     {% endif %}
@@ -15,6 +18,10 @@
 {% else %}
   {% if isMentor %}
     <link rel="stylesheet" href="/css/mentor.min.css">
+  {% elsif isSlides %}
+    <link rel="stylesheet" href="/css/slides.critical.min.css">
+  {% elsif is360 %}
+    <link rel="stylesheet" href="/css/devcards.critical.min.css">
   {% else %}
     <link rel="stylesheet" href="/css/style.min.css">
   {% endif %}

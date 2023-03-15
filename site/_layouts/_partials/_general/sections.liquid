@@ -37,7 +37,10 @@
 {% elsif section.type == 'contact' %}
   {% assign contact = section %}
   {% include _partials/_general/contact %}
-{% elsif section.type == 'newsletter' %}
-  {% assign newsletter = section %}
-  {% include _partials/_general/newsletter %}
+{% elsif section.type == 'form' %}
+  {% assign form = section %}
+  {% include _partials/_newsletter/form %}
+{% elsif section.type == 'hero' %}
+  {% assign hero = section %}
+  {% include _partials/_newsletter/hero %}
 {% endif %}
