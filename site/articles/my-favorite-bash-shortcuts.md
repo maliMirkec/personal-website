@@ -159,6 +159,12 @@ _Use `rm -rf` with extreme caution. The action cannot be reverted, and all delet
 
 I am using a lot of Git shortcuts, but here are my favorites.
 
+To check the git status, I use the `gs` shortcut.
+
+```bash
+alias gs="git status -s"
+```
+
 To view the git log, I use the `gl` shortcut.
 
 ```bash
@@ -168,7 +174,7 @@ alias gl="git log --oneline --graph"
 To stash every new, removed, or changed file in the current repository, I use the `ga.` shortcut.
 
 ```bash
-alias gs="alias ga.="git add ."
+alias ga.="git add ."
 ```
 
 To commit the changes, I use the `gc` shortcut with an additional argument, the message, like so `gc "My message"`.

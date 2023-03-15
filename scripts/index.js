@@ -157,6 +157,9 @@ ${adsTwitter}
 https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
+
+${adsTwitter}
+
 `)
 
   console.log('~~~~~~~~~~~~~')
