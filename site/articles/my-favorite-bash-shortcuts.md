@@ -294,6 +294,6 @@ I use similar shortcuts to start and finish the `hotfix` and `release` branches.
 
 ## Conclusion
 
-If you want to see my complete fish configuration, I have it [versioned on GitHub](https://github.com/maliMirkec/fish).
+If you want to see my complete fish configuration, I have it [versioned on GitHub](https://gist.github.com/maliMirkec/aa3f042f7fd2c55b265a78a9d9795d5d).
 
 You could check [my setup page](/uses/) to learn what other software and hardware I use.
