@@ -1,0 +1,52 @@
+---
+isNewsletter: true
+---
+
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% else if config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  {% include _partials/_general/head %}
+  <body class="uidev{% if page.url == '/side-projects/ui-dev-newsletter/' %} bg-lightish{% endif %}">
+    {% include _partials/_general/skip-link %}
+    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
+      {% include _partials/_newsletter/header %}
+    {% endunless %}
+    <div class="inner">
+      <main id="main">
+        {% block content %}
+          {% if sections %}
+            {% for section in sections %}
+              {% include _partials/_general/sections %}
+            {% endfor %}
+          {% endif %}
+          {% if pagination %}
+            {% include _partials/_newsletter/issue %}
+          {% else %}
+            {% if content != blank and content != '' %}
+              {% include _partials/_general/content-alpha %}
+            {% endif %}
+          {% endif %}
+          {% if sections2 %}
+            {% for section in sections2 %}
+              {% include _partials/_general/sections %}
+            {% endfor %}
+          {% endif %}
+        {% endblock %}
+      </main>
+    </div>
+    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
+      {% include _partials/_newsletter/footer %}
+    {% endunless %}
+    {% include _partials/_general/toggle-button %}
+    {% include _partials/_assets/style %}
+    {% include _partials/_assets/scripts %}
+    {% include _partials/_assets/analytics %}
+  </body>
+</html>

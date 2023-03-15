@@ -6,9 +6,9 @@
   },
   "menu": [{
     "href": "/articles/",
-    "title": "My blog",
+    "title": "Blog",
     "list": [{
-      "href": "/side-projects/ui-dev-mentoring/reads/#newsletter",
+      "href": "/side-projects/ui-dev-newsletter/",
       "title": "Newsletter❗"
     }]
   }, {
@@ -17,20 +17,26 @@
     "list": [{
       "href": "/side-projects/",
       "title": "My projects"
+    }, {
+      "href": "/testimonials/",
+      "title": "Testimonials"
     }]
   }, {
     "href": "/links/",
     "title": "My Links",
     "list": [{
-      "href": "/favorites/",
-      "title": "My Favorites"
+      "href": "/slides/",
+      "title": "My slides"
+    }, {
+      "href": "/services/",
+      "title": "My services"
     }]
   }, {
     "href": "/about/",
     "title": "About me",
     "list": [{
       "href": "/contact/",
-      "title": "Contact me 📮"
+      "title": "Contact 📮"
     }]
   }]
 }

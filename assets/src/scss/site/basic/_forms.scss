@@ -14,7 +14,7 @@
   @extend .fw-normal;
   @extend .lsp;
   @extend .brad;
-  background-color: transparent;
+  background-color: var(--color-light);
   background-size: 100%;
   color: currentColor;
   box-sizing: border-box;

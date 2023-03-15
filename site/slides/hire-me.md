@@ -9,7 +9,7 @@ date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
 tags:
   - slides
-customCSS: slides
+type: slides
 slides:
   - html: >-
       # Hi there!

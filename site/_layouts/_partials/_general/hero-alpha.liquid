@@ -2,20 +2,19 @@
   <div class="wrapper{% unless hero1.narrow %} wrapper--beta{% endunless %} text-center">
     <div class="padding">
       {% if hero1.tag or tags %}
-        <div class="margin-bottom">
-          {% if hero1.tag %}
-            <a class="button button--small button--invisible with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
-          {% endif %}
-          {% unless hero1.notags %}
-            {% if tags %}
+        {% unless hero1.notags %}
+          <div class="margin-bottom">
+            {% if hero1.tag %}
+              <a class="button button--small button--invisible with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
+            {% elsif tags %}
               <br>
               {% assign myTags = tags | tagify %}
               {% for tag in myTags %}
                 <a class="button button--small button--invisible" href="/tags/{{ tag }}/"><span class="fz-step--2">{{ tag }}</span></a>
               {% endfor %}
             {% endif %}
-          {% endunless %}
-        </div>
+          </div>
+        {% endunless %}
       {% endif %}
       {% if hero1.avatar %}
         <div class="margin-top avatar">

@@ -7,6 +7,7 @@ date: 2022-10-26 10:00:00
 thumbnail: Why_I_never_understood_CSS-in-JS_ndpbnb
 tags:
   - slides
+type: slides
 slides:
   - html: >-
       # Why I never understood CSS-in-JS

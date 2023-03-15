@@ -1,0 +1,32 @@
+{% if newsletter %}
+  <hr class="text-beta hr">
+  <footer class="text-center padding">
+    {% if newsletter.tagline or newsletter.description %}
+      <div class="wrapper wrapper--gamma padding margin-top copy">
+        {% if newsletter.tagline %}
+          <p class="fz-step--0 fw-bold">{{ newsletter.tagline }}</p>
+        {% endif %}
+        {% if newsletter.tagline or newsletter.description %}
+          <p class="fz-step--3">{{ newsletter.description }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+    {% if newsletter.menu %}
+      <nav class="margin-bottom" aria-label="Secondary">
+        <ul class="list-style-none padding no-margin-top">
+          {% for item in newsletter.menu %}
+            <li class="margin-right margin-left">
+              <a href="{{ item.href }}" class="padding-y-1">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+    {% if newsletter.author %}
+      <p class="fz-step--3 margin-top margin-bottom">Curated by <a class="tdu" href="{{ newsletter.author.href }}">{{ newsletter.author.title }}</a></p>
+    {% endif %}
+    {% if newsletter.logo2 %}
+      <a class="dib margin-top margin-bottom" href="{{ newsletter.logo2.href }}"><img class="margin-auto" src="{{ newsletter.logo2.src }}" alt="{{ newsletter.logo2.title }}" width="50" height="50" loading="lazy"></a>
+    {% endif %}
+  </footer>
+{% endif %}

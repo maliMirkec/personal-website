@@ -4,14 +4,8 @@
   {% unless devcards %}
     {% include _partials/_general/toggle-check %}
   {% endunless %}
-  {% if slides %}
-    {% include _partials/_assets/slides-css %}
-  {% elsif devcards %}
-    {% include _partials/_assets/devcards-css %}
-  {% else %}
-    {% include _partials/_head/link %}
-    {% include _partials/_assets/critical %}
-  {% endif %}
+  {% include _partials/_head/link %}
+  {% include _partials/_assets/critical %}
   {% include _partials/_assets/favicon %}
   {% include _partials/_head/og %}
 </head>

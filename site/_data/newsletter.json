@@ -1,0 +1,28 @@
+{
+  "tagline": "Stay ahead of the latest UI Dev news",
+  "description": "Every second Monday, get a shiny list of up to ten free links to stay ahead in the evolving world of User Interface development!",
+  "author": {
+    "href": "/",
+    "title": "Silvestar Bistrović"
+  },
+  "logo1": {
+    "href": "/side-projects/ui-dev-newsletter/",
+    "src": "/gfx/svg/ui-dev-FF3366.svg",
+    "title": "UI Dev Newsletter."
+  },
+  "logo2": {
+    "href": "/",
+    "src": "/gfx/svg/logo-SB-000-12E09F.svg",
+    "title": "Silvestar Bistrović."
+  },
+  "menu": [{
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Subscribe"
+  }, {
+    "href": "/side-projects/ui-dev-newsletter/archive/",
+    "title": "Archive"
+  }, {
+    "href": "/rss2.xml",
+    "title": "Feed"
+  }]
+}

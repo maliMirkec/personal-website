@@ -2,6 +2,10 @@
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
+    {% elsif isSlides %}
+      <link rel="stylesheet" href="/css/slides.critical.min.css" media="print" onload='this.media="all"'>
+    {% elsif is360 %}
+      <link rel="stylesheet" href="/css/devcards.critical.min.css" media="print" onload='this.media="all"'>
     {% else %}
       <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
     {% endif %}

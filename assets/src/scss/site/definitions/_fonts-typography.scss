@@ -77,7 +77,7 @@ h6 {
   font-size: var(--font-size);
 }
 
-@for $i from -2 through 6 {
+@for $i from -3 through 6 {
   [class*="fz-step-#{$i}"] {
     --font-size: var(--step-#{$i});
   }

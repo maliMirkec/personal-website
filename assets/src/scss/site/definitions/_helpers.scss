@@ -115,6 +115,10 @@ img {
   display: flex;
 }
 
+.jcc {
+  justify-content: center;
+}
+
 .aic {
   align-items: center;
 }
@@ -216,4 +220,8 @@ p {
     position: relative;
     top: -0.1em;
   }
+}
+
+.w-auto {
+  width: auto;
 }

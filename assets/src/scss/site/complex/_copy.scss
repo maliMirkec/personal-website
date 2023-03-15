@@ -194,6 +194,7 @@
 }
 
 .note {
+  box-sizing: border-box;
   background-color: var(--color-alpha-lighter);
   border: .125rem dotted var(--color-alpha-light);
   border-radius: 1rem;

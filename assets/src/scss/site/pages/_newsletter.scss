@@ -1,0 +1,41 @@
+.uidev {
+  $color-beta-lighter: hsl(345, 100%, 80%);
+  --color-beta-lighter: #{$color-beta-lighter};
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+.hover-beta {
+  &:not(.button) {
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 .15rem var(--color-beta-lighter);
+    }
+
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 .15rem var(--color-beta-lighter) inset, 0 0 0 .15rem var(--color-dark);
+    }
+
+    &:not(.glow) {
+      &:hover,
+      &:focus {
+        background-color: var(--color-beta-lighter);
+      }
+    }
+  }
+}
+
+.note {
+  flex-direction: column;
+  overflow: visible;
+  min-width: 100%;
+}
+
+.margin-top-beta {
+  margin-top: calc(var(--space) * 2);
+}

@@ -11,8 +11,9 @@
 /categories/side-projects /side-projects/ 301!
 /categories/side-projects/* /side-projects/:splat 301!
 /mentoring /side-projects/ui-dev-mentoring/ 301!
-/newsletter /side-projects/ui-dev-mentoring/reads#newsletter 301!
-/newsletter/ /side-projects/ui-dev-mentoring/reads/#newsletter 301!
+/newsletter /side-projects/ui-dev-newsletter/ 301!
+/newsletter/ /side-projects/ui-dev-newsletter/ 301!
+/side-projects/ui-dev-mentoring/reads/* /side-projects/ui-dev-newsletter/:splat 301!
 /portfolio/huggable /portfolio/little-bundle/ 301!
 /portfolio/littlebundle /portfolio/little-bundle/ 301!
 /portfolio/moddings /portfolio/moodings/ 301!

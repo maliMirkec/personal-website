@@ -1,0 +1,26 @@
+{% if reads %}
+  <section id="reads" class="margin-top-alpha margin-bottom-alpha">
+    <div class="wrapper wrapper--alpha grid padding">
+      {% for read in reads %}
+        {% assign now = 'now' | date: "%Y-%m-%d" %}
+        {% assign readDate = read.date | date: "%Y-%m-%d" %}
+        {% assign readHref = '/side-projects/ui-dev-newsletter/' | append: read.date | append: '/' %}
+        <a class="card card--flex tilt text-center bg-lightish padding" href="{{ readHref }}">
+          <div class="tilt__inner padding">
+            <h2 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right">
+              Issue {{ reads | size | plus: 1 | minus: forloop.index | prepend: '#' }}
+            </h2>
+            <div class="margin-bottom margin-left margin-right">
+              {% if readDate %}
+                <time class="button button--small button--invisible" datetime="{{ readDate }}">{{ readDate }}</time>
+              {% endif %}
+              <div class="copy">
+                <p>Read about {{ read.description }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
