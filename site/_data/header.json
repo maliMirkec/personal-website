@@ -7,13 +7,17 @@
   "menu": [{
     "href": "/articles/",
     "title": "Blog",
+    "class": "tdu",
     "list": [{
-      "href": "/side-projects/ui-dev-newsletter/",
+      "href": "/slides/",
+      "title": "Slides"
+    }, {
+      "href": "/side-projects/ui-dev-newsletter/archive/",
       "title": "Newsletter❗"
     }]
   }, {
     "href": "/portfolio/",
-    "title": "My portfolio",
+    "title": "Portfolio",
     "list": [{
       "href": "/side-projects/",
       "title": "My projects"
@@ -23,20 +27,24 @@
     }]
   }, {
     "href": "/links/",
-    "title": "My Links",
+    "title": "My links",
     "list": [{
-      "href": "/slides/",
-      "title": "My slides"
+      "href": "/uses/",
+      "title": "My setup"
     }, {
-      "href": "/services/",
-      "title": "My services"
+      "href": "/favorites/",
+      "title": "My favorites"
     }]
   }, {
     "href": "/about/",
     "title": "About me",
     "list": [{
+      "href": "/services/",
+      "title": "My services"
+    }, {
       "href": "/contact/",
-      "title": "Contact 📮"
+      "title": "Contact me",
+      "class": "fw-bold"
     }]
   }]
 }

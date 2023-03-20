@@ -22,7 +22,7 @@ I was doing my [Advent of UI components](/side-projects/advent/), and I stumbled
 
 Here's how [MDN defines the `from-font` value](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness):
 
-> _If the font file includes information about a preferred thickness, use that value. If the font file doesn't include this information, behave as if `auto` was set, with the browser choosing an appropriate thickness._
+> If the font file includes information about a preferred thickness, use that value. If the font file doesn't include this information, behave as if `auto` was set, with the browser choosing an appropriate thickness.
 
 So, the `from-font` value is used only if the font file has the definition for the thickness of the line. Otherwise, browsers use the `auto` value, which tells the browser to choose the thickness. I wanted to find out how that works, so I made a few demos comparing it to the other values.
 

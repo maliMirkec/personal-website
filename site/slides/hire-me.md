@@ -24,7 +24,7 @@ slides:
   - html: >-
       ## [Download my CV](/silvestar-bistrovic-cv.pdf).
   - html: >-
-      ## [Hire me](/contact/#form)!
+      ## [Get in touch](/contact/)!
   - html: >-
       [Go back to the site](/)
 ---

@@ -12,17 +12,11 @@ sections:
 
 
       I collaborated with clients from more than 10 countries, from Germany and Spain to **The United States**.
-
-
-      All testimonials are available on [LinkedIn](https://www.linkedin.com/in/starbist/), too.
+    footnote: _All endorsements have been verified on [my LinkedIn profile](https://www.linkedin.com/in/starbist/)._
   - type: cards-beta
     cta:
       title: Read the testimonial
     filter: testimonials
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---

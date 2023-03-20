@@ -22,7 +22,7 @@ Last week I saw [an interesting tweet about showing modified tabs in the VS Code
 
 By the way, the setting could be found as “Workbench > Editor: Highlight Modified Tabs” in VS Code Settings. If you also want to see the modified indicator in your current VS Code window, go to Settings, search “Window: Title”, and add `${dirty}` option. Here is how it looks in my settings:
 
-``` js
+```js
 ${dirty} ${activeEditorMedium}${separator}${rootName}
 ```
 
@@ -33,7 +33,7 @@ I have 364 modified settings in my VS Code. To see these modified settings, go t
 {% cldnry "vs-modified-setttings_wju4zh" "Screenshot of modified VS Code Settings window." %}
 
 {% note "Tip" %}
-_You could see this file by clicking the “Open Settings” icon._
+You could see this file by clicking the “Open Settings” icon.
 {% endnote %}
 
 I am not going to write about all these settings. I am going to describe my favorite settings:
@@ -90,7 +90,7 @@ I also turned off all settings related to formatting:
 
 I usually use [Beautify] plugin to format my code. Here are my settings for the plugin:
 
-``` json
+```json
 {
   "beautify.language": {
     "css": [
@@ -121,14 +121,14 @@ I usually use [Beautify] plugin to format my code. Here are my settings for the 
 ```
 
 {% note "Tip" %}
-_To prevent losing the unsaved changes on exit, set the “Files: Hot Exit” to `onExitAndWindowClose`._
+To prevent losing the unsaved changes on exit, set the “Files: Hot Exit” to `onExitAndWindowClose`.
 {% endnote %}
 
 ### Window management
 
 VS Code allows you to configure the window behaviour. I prefer the following VS Code window settings:
 
-``` json
+```json
 {
   "window.closeWhenEmpty": false,
   "window.newWindowDimensions": "inherit",

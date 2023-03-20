@@ -16,14 +16,6 @@
   }
 }
 
-@mixin ls($tracking: 0) {
-  letter-spacing: tracking(#{strip-unit($tracking)});
-}
-
-@mixin ws($tracking: 0) {
-  word-spacing: tracking(#{strip-unit($tracking)});
-}
-
 @mixin zero-box() {
   margin: 0;
   padding: 0;

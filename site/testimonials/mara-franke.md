@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: mf_jkcuyp
-date: 1999-01-02
+date: 1999-01-03
 position: Head of Marketing
 company: Wunder Mobility
 sections:
@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I helped rebuild the whole Wunder Mobility site?
-    ctas:
-      - href: /portfolio/wundermobility/
-        title: Wunder Mobility
+    banner: wunder-mobility
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,18 +38,14 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar is a talented, dedicated, and knowledgeable web developer...
 ---
 
-> _Silvestar is a talented, dedicated, and knowledgeable web developer – I really enjoy having him on my team! He is a highly motivated professional and a terrific team player with solid technical skills._
+> Silvestar is a talented, dedicated, and knowledgeable web developer – I really enjoy having him on my team! He is a highly motivated professional and a terrific team player with solid technical skills.
 >
-> _He not only helped us to overcome several technical issues on our old setup but also fully migrated our website to a new CMS. Further together with the Creative team he completely redesigned the website by implementing our new company branding._
+> He not only helped us to overcome several technical issues on our old setup but also fully migrated our website to a new CMS. Further together with the Creative team he completely redesigned the website by implementing our new company branding.
 >
-> _Silvestar gets ahead of issues before they happen so that work is executed smoothly. In addition, he is always proactively thinking outside of the box on ways to further improve business operations by finding ways to automate processes with his exceptional engineering and coding skills. This was especially helpful in regard to our lead gen activities._
+> Silvestar gets ahead of issues before they happen so that work is executed smoothly. In addition, he is always proactively thinking outside of the box on ways to further improve business operations by finding ways to automate processes with his exceptional engineering and coding skills. This was especially helpful in regard to our lead gen activities.
 >
-> _I look forward to more opportunities to work with Silvestar and recommend him for technical or web dev projects – particularly those that require careful planning._
+> I look forward to more opportunities to work with Silvestar and recommend him for technical or web dev projects – particularly those that require careful planning.

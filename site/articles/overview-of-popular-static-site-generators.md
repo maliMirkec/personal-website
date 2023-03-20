@@ -52,7 +52,7 @@ Let's take a closer look at each of them and compare their basic features:
   - supports EJS and Pug out of the box.
 
 {% note %}
-_It is worth pointing out that each of these static page generators can be customized and extended using plugins and extensions, allowing you to cover most or all of your needs._
+It is worth pointing out that each of these static page generators can be customized and extended using plugins and extensions, allowing you to cover most or all of your needs.
 {% endnote %}
 
 ## Setting up Static Site Generators
@@ -223,7 +223,7 @@ Let's try to display a list of tags from the front matter in our post in Jekyll.
 {% endraw %}
 
 {% note %}
-_It is a good practice to check if a variable exists to prevent a build process from failing. It could save you hours of debugging and testing._
+It is a good practice to check if a variable exists to prevent a build process from failing. It could save you hours of debugging and testing.
 {% endnote %}
 
 ## Using variables

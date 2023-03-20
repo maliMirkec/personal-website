@@ -27,7 +27,7 @@ What was even more surprising were comments about accessibility. Although my ini
 CSS tabs are very old topic apparently, I've even found [an article dating back in 2003](http://daniel.glazman.free.fr/weblog/archived/2003_01_05_glazblogarc.html#87183885). And it is a very popular topic, too, search results returned dozens of articles. I decided to document every article in [this Github repository](https://github.com/maliMirkec/css-tabs-list).
 
 {% note %}
-_If you have an article that is not in the list, please add it by making a pull request._
+If you have an article that is not in the list, please add it by making a pull request.
 {% endnote %}
 
 ## Accessibility

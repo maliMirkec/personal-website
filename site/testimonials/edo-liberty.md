@@ -27,15 +27,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I built a site powered by Hugo, the world’s fastest framework for building websites, for Edo?
-    ctas:
-      - href: /portfolio/pinecone/
-        title: Pinecone
+    banner: pinecone
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -43,12 +39,8 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 
-> _Super fast and responsive, great eye for esthetics, quality web development. What else can you ask for?_
+> Super fast and responsive, great eye for esthetics, quality web development. What else can you ask for?

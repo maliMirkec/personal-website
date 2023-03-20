@@ -22,7 +22,7 @@ I know there are more than a few articles about this topic. And there are 2 basi
 I prefer the second approach, but without list or nested div structure.
 
 {% note %}
-_CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-accessibility/)._
+CSS tabs could be accessible, [read about it here](/articles/css-tabs-part-ii-accessibility/).
 {% endnote %}
 
 ## HTML structure
@@ -51,7 +51,7 @@ Next we'll add the following classes on every element:
 
 To make sure every `input type="radio"` element is a part of the same block, we'll add `name` attribute with same value on it like this:
 
-``` html
+```html
 <input class="tabs__radio" name="myTabs" />
 ```
 
@@ -59,7 +59,7 @@ Labels are generally used to define an `input` element. If `for` attribute is pr
 
 With that clarified, we'll add unique `id` attributes on every `input type="radio"` and matching `for` attributes to every `label` like this:
 
-``` html
+```html
 <input class="tabs__radio" id="myTab1" name="myTabs" />
 <label class="tabs__label for="myTab1">
 ```
@@ -84,7 +84,7 @@ After that we should define default variables which will help us write more cons
 * `$breakpoint` - width which will define our tabs layout.
 
 {% note %}
-_I really like BEM naming convention and I use it for defining `CSS` variables, too._
+I really like BEM naming convention and I use it for defining `CSS` variables, too.
 {% endnote %}
 
 Wrapper element should be displayed as a wrapped flex.

@@ -5,7 +5,7 @@ date: 2021-07-19 10:00:00
 tags:
   - blog
   - javascript
-  - web development
+  - web dev
 thumbnail: you-don-t-need-react-for-building-websites_bs5djk
 descriptionAlt: As I get more experienced, I use fewer libraries and frameworks and rely on good old HTML, CSS, and vanilla JavaScript. I think you should consider doing the same.
 description: As I gain experience, I use less libraries/frameworks and rely on HTML, CSS, and JavaScript. I suggest considering doing the same.

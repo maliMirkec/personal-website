@@ -17,45 +17,45 @@ slides:
   - html: >-
       ## CSS code in JavaScript file?
 
-      ### No, please.
+      No, please.
   - html: >-
       ## Afraid of applying styles elsewhere?
 
-      ### Embrace the cascade.
+      Embrace the cascade.
   - html: >-
       ## Class name conflicts?
 
-      ### Not anymore, thanks to naming convention and project structure.
+      Not anymore, thanks to naming convention and project structure.
   - html: >-
       ## Cannot find CSS file?
 
-      ### Document and adapt to the project architecture.
+      Document and adapt to the project architecture.
   - html: >-
       ## Wanna read and use CSS variables in JavaScript?
 
-      ### [Of course you can](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#values_in_javascript).
+      [Of course you can](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#values_in_javascript).
   - html: >-
       ## Wanna adopt the hottest new trends?
 
-      ### Yes, but without reinventing the wheel.
+      Yes, but without reinventing the wheel.
   - html: >-
       ## “Serializing” styles before inserting into the document?
 
-      ### What? I mean, what?
+      What? I mean, what?
   - html: >-
       ## To load styles I need JavaScript?
 
-      ### No, I don’t.
+      No, I don’t.
   - html: >-
       ## Performance issues with CSS-in-JS?
 
-      ### Plain CSS doesn’t have them.
+      Plain CSS doesn’t have them.
   - html: >-
       ## Utility classes?
 
-      ### Yes, but not the whole framework.
+      Yes, but not the whole framework.
   - html: >-
       ## CSS-in-JS?
 
-      ### No.
+      No.
 ---

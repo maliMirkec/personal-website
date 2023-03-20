@@ -48,7 +48,7 @@ For a menu toggle indicator, we could use well know hamburger menu. There are [m
 
 ### HTML for the first demo
 
-``` html
+```html
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
 <label for="menuToggler" class="menu-toggler">
   <span class="menu-toggler__line"></span>
@@ -63,7 +63,7 @@ Make sure to add `**id**` attribute on a `checkbox` input and matching **`for`**
 
 ### CSS for the first demo
 
-``` scss
+```scss
 // variables
 :root {
   --toggler-size: 30px;
@@ -85,7 +85,7 @@ For this demo, I've decided to use a new [`CSS` variables](https://developer.moz
 Using `CSS` variables we could define menu icon size, the number of lines, top offset, left offset and background color.
 
 {% note %}
-_I didn't find an efficient way how to convert a `CSS` variable into a `SASS` variable. If you know how to do this, please let me know._
+I didn't find an efficient way how to convert a `CSS` variable into a `SASS` variable. If you know how to do this, please let me know.
 {% endnote %}
 
 The number of lines could vary. If we want 3 hamburger lines, we should add 3 span elements: `<span class="menu-toggler__line"></span>`. We should also set `CSS` variables `--toggler-line-number` and `$total` to `3`.
@@ -113,7 +113,7 @@ There are many ways how a sidebar could be displayed. I've decided to go with a 
 
 In order to create CSS sidebar toggle, we should use the following `HTML` structure:
 
-``` html
+```html
 <input type="checkbox" id="menuToggler" class="input-toggler"/>
 <label for="menuToggler" class="menu-toggler">
   ...
@@ -130,7 +130,7 @@ Notice that `checkbox` input, `label`, `sidebar` and content are all siblings.
 
 ### CSS for the second demo
 
-``` scss
+```scss
 :root {
   --sidebar-width: 100%;
 }
@@ -165,7 +165,7 @@ The final element is a [menubar](https://www.w3.org/TR/wai-aria#menubar) with 2 
 
 Finally, we should add `JavaScript` snippet to change states of this elements:
 
-``` js
+```js
 let menuToggler = document.getElementById('menuToggler')
 let menuTogglerLabel = document.getElementById('menuTogglerLabel');
 let sidebar = document.getElementById('sidebar');

@@ -194,7 +194,7 @@ The solution lies in **recursion**. It is a programming principle when a functio
 ```
 
 {% note %}
-_For now, ignore `IsObject()` and `IsNumber()` functions._
+For now, ignore `IsObject()` and `IsNumber()` functions.
 {% endnote %}
 
 If we run this code, we'll get an error. This is because Angular 1 doesn't support recursively included directives out of the box. But there is a solution.

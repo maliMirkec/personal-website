@@ -6,11 +6,11 @@
       <div class="padding">
         <div class="margin-bottom text-center">
           {% if thisRead.date %}
-            <time class="button button--small button--invisible" datetime="{{ thisRead.date | date: '%Y-%m-%d' }}"><span class="fz-step--2">{{ thisRead.date | date: '%Y-%m-%d' }}</span></time>
+            <time class="button button--invisible button--small" datetime="{{ thisRead.date | date: '%Y-%m-%d' }}"><span class="fz-step--2">{{ thisRead.date | date: '%Y-%m-%d' }}</span></time>
           {% endif %}
         </div>
         {% if title %}
-          <h1 class="fz-step-6 fw-bold no-margin-top margin-bottom text-center">{{ title }}</h1>
+          <h1 class="fz-step-5 fw-bolder ffss no-margin-top margin-bottom text-center">{{ title }}</h1>
         {% endif %}
         {% if thisRead.description %}
           <p class="fz-step-0 no-margin-top margin-bottom text-center"><b>In this issue:</b> {{ thisRead.description }}</p>
@@ -22,10 +22,10 @@
                 <li>
                   <a class="note tdn" href="{{ resource.link }}" rel="noopener" data-title="Link">
                     {% if resource.title %}
-                      <p class="no-margin fz-step-1 fw-bold">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
+                      <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
                     {% endif %}
                     {% if resource.desc %}
-                      <p>{{ resource.desc }}</p>
+                      <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
                     {% endif %}
                   </a>
                 </li>

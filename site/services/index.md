@@ -10,14 +10,10 @@ sections:
     narrow: true
     cta:
       href: /contact/
-      title: Hire me
+      title: Get in touch
 sections2:
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---
 
 ## Frontend
@@ -37,7 +33,7 @@ WordPress is undoubtedly a go-to choice for many businesses as the top framework
 Did you know that a slow website can hurt your business? Google now penalizes sites with suboptimal performance, so it's more important than ever to have a fast, well-optimized website. As a web development professional, I have extensive experience optimizing PageSpeed scores and implementing the latest best practices, including Core Web Vitals. Let me help ensure your website is performing at its best.
 
 <div class="text-center">
-  <a class="button button--small button--border" href="/contact/">Contact me</a>
-  <a class="button button--small button--invisible" href="/portfolio/">See my portfolio</a>
-  <a class="button button--small button--invisible" href="/testimonials/">See testimonials</a>
+  <a class="button button--inverse button--small" href="/contact/">Contact me</a>
+  <a class="button button--small" href="/portfolio/">See my portfolio</a>
+  <a class="button button--small" href="/testimonials/">See testimonials</a>
 </div>

@@ -44,9 +44,9 @@ Now, to make the gallery accessible, we need to make some adjustments:
 - Use the `aria-expanded` attribute which informs assistive technologies if the image is expanded or not;
 - Include `role="list"` to make sure assistive technologies announce the list because some screen readers might remove the list announcement.
 
-> _“It’s not just using `list-style: none`, but any CSS that would remove the bullet or number indicators of a list’s items will also remove the semantics.”_
+> “It’s not just using `list-style: none`, but any CSS that would remove the bullet or number indicators of a list’s items will also remove the semantics.”
 >
-> _— [“Fixing” Lists](https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html), Scott O’Hara_
+> — [“Fixing” Lists](https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html), Scott O’Hara
 
 Finally, let’s add a paragraph with helpful text on how to use the gallery, and wrap the whole code in a landmark (in this case, the `main` element).
 
@@ -198,7 +198,7 @@ const setDataAttrs = ($elems, $parent) => {
 To achieve the expandable effect, we should make some checks and calculations first. First, we should check if the item is in the last row and at the end of the row. If the item is in the last row, it should expand to the top. That means it should have the `transform-origin` property set to the `bottom` value.
 
 {% note "Important" %}
-_If the element should expand to one direction, its `transform-origin` property should be set to an “opposite” value. Note that vertical and horizontal values should be combined._
+If the element should expand to one direction, its `transform-origin` property should be set to an “opposite” value. Note that vertical and horizontal values should be combined.
 {% endnote %}
 
 ```js
@@ -428,6 +428,6 @@ I’m grateful to have the Internet and developer communities where we can all a
 
 And finally, I wanted to share the greatest lesson:
 
-> _“If you can use a native HTML element [[HTML51](https://www.w3.org/TR/using-aria/#bib-html51/)] or attribute with the semantics and behavior you require already built-in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so.”_
+> “If you can use a native HTML element [[HTML51](https://www.w3.org/TR/using-aria/#bib-html51/)] or attribute with the semantics and behavior you require already built-in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so.”
 >
-> _— [First Rule of ARIA Use](https://www.w3.org/TR/using-aria/#firstrule/), W3C Working Draft 27 (Sept. 2018)_
+> — [First Rule of ARIA Use](https://www.w3.org/TR/using-aria/#firstrule/), W3C Working Draft 27 (Sept. 2018)

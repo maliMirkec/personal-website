@@ -43,7 +43,7 @@ I have reorganized the code in the theme. First, I have created a new folder cal
 
 The project structure looks like this:
 
-``` text
+```text
 |-- src
     |   |-- css
     |   |   |-- style.scss
@@ -62,7 +62,7 @@ To install SPRO, run `npm install starter-project-cli -s` command, and then run 
 
 Here are my (shortened) answers:
 
-``` text
+```text
     GENERAL | Do you want to override the project? Yes
     GENERAL | What is the root folder of the project? ./
     GENERAL | Where is the folder with the source code of the project? src
@@ -106,7 +106,7 @@ Now that we have all required Gulp tasks and dependencies, we could configure SP
 
 Let's start with BrowserSync. I want to use the BrowserSync to preview the changes in the browser. Local by FlyWheel tool have configured the local site domain for me. In my case, it is `spro-wp.v`. I am going to use the local domain as a proxy for BrowserSync.
 
-``` json
+```json
 {
   "proxy": "http://spro-wp.v"
 }
@@ -114,7 +114,7 @@ Let's start with BrowserSync. I want to use the BrowserSync to preview the chang
 
 Next, we should update the URL for extracting Critical CSS to match our development domain in the `.critical.json` file.
 
-``` json
+```json
 [{
   "src": "style.css",
   "settings": {
@@ -149,7 +149,7 @@ If you run `default` Gulp task, the site should open in the browser.
 
 Since our compiled code is stored in the `build` folder, we should update the path for CSS and JavaScript files. In the `functions.php` file, update the `twentynineteen_scripts` function:
 
-``` php
+```php
 <?php
 /**
  * Enqueue scripts and styles.
@@ -180,7 +180,7 @@ We are removing the main style file, and we are updating the path to the JavaScr
 
 In the `footer.php` file, add a link to the main style file just before the closing body tag:
 
-``` php
+```php
 <link rel="stylesheet" href="<?php echo get_theme_file_uri('/build/css/style.css'); ?>">
 ```
 
@@ -190,7 +190,7 @@ Ideally, we should defer the loading of the uncritical CSS file, [as suggested b
 
 Next, let's inline Critical CSS in the head of the HTML document, in the `header.php` file.
 
-``` php
+```php
 <?php
 $critical = get_template_directory() . '/build/css/style.critical.css';
 if ( file_exists( $critical ) ) {

@@ -10,20 +10,7 @@ description: After the first anniversary of the UI Dev Newsletter, I wanted to s
 type: articles-item
 sections3:
   - type: banner-beta
-    desc: To receive the latest news about User Interface development, subscribe here.
-    id: subscribe-now
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-      </form>
+    banner: newsletter
   - type: content-beta
     id: original-q-and-a
     desc: >-
@@ -76,7 +63,7 @@ sections2:
 A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
 
 {% note %}
-_If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story._
+If you want to see the questions and answers, [skip to the end of the article](#original-q-and-a). Otherwise, enjoy the whole story.
 {% endnote %}
 
 ## How it started
@@ -96,7 +83,7 @@ After a few posts, the idea of starting a newsletter came up, so I started resea
 The first thing was to choose my newsletter app. I thought about using Mailchimp, as I had previous experience with that platform. Then I learned about [Tinyletter](https://tinyletter.com/) (a more inferior version of Mailchimp). I decided it has everything I need, from a subscription list to a simple HTML editor.
 
 {% note %}
-_I discovered [ButtonDown](https://buttondown.email/) recently, and I am considering switching to this app. Not sure yet._
+I discovered [ButtonDown](https://buttondown.email/) recently, and I am considering switching to this app. Not sure yet.
 {% endnote %}
 
 ## The script
@@ -112,7 +99,7 @@ As a part of the Node script, I am preparing the Markdown code for Dev.to post. 
 As the final part of my Node script, I prepare tweets that I share throughout the week. I am using [Apphi](https://apphi.com/) to schedule my tweets. I initially used Buffer, but I find Apphi to be more suitable for my needs. Again, I had to copy and paste the content from the terminal to the app.
 
 {% note %}
-_Any help automating copy-paste processes would be greatly appreciated. [Contact me](/contact/) if you know how to do it._
+Any help automating copy-paste processes would be greatly appreciated. [Contact me](/contact/) if you know how to do it.
 {% endnote %}
 
 ## The tracking

@@ -11,21 +11,15 @@ sections:
     narrow: true
 sections2:
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---
 
 ## Social networks
 
+- [Mastodon](https://mastodon.social/@cita)
 - [Twitter](https://twitter.com/malimirkeccita)
 - [LinkedIn](https://www.linkedin.com/in/starbist/)
-- [Hacker News](https://news.ycombinator.com/user?id=starbist)
-- [Lobsters](https://lobste.rs/u/starbist)
 - [Reddit](https://www.reddit.com/user/starbist)
-- [Facebook](https://www.facebook.com/silvestar.codes/)
 - [Last.fm](https://last.fm/user/maliMirkec)
 
 ## Development
@@ -42,12 +36,21 @@ sections2:
 - [About.me](https://about.me/starbist)
 ## Projects
 
+- [Invalid CSS](/side-projects/invalid-css/)
 - [CSS Auditors](/side-projects/css-auditors/)
 - [Code Line Daily](/side-projects/code-line-daily/)
 - [UI Dev Mentoring](/side-projects/ui-dev-mentoring/)
+- [Advent of UI components](/side-projects/advent/)
 - [Starter Project](/side-projects/starter-project/)
 - [Making a website with Hugo](/side-projects/hugo/)
-- [Acclaimed](/side-projects/acclaimed/)
+
+## Other
+
+- [My setup](/uses/)
+- [My branding](/branding/)
+- [My favorites](/favorites/)
+- [What I don’t do?](/no-skills/)
+- [What I don’t allow?](/no-ads/)
 
 ## Publications
 
@@ -58,10 +61,3 @@ sections2:
 - [Practical Dev](https://dev.to/starbist)
 - [Medium](https://medium.com/@malimirkeccita)
 - [Hacker Noon](https://hackernoon.com/@malimirkeccita)
-
-## Other
-
-- [My setup](/uses/)
-- [My branding](/branding/)
-- [What I don’t allow?](/no-ads/)
-- [What I don’t do?](/no-skills/)

@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I rebuild the whole site for CodeScan on Hugo framework?
-    ctas:
-      - href: /portfolio/codescan/
-        title: See the project
+    banner: codescan
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,14 +38,10 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
-excerpt: Worked with Silvestar to optimize our website! He did a great job implementing changes quickly...
+    banner: consultation
+excerpt: Worked with Silvestar to optimize our website! He did a great job implementing...
 ---
 
-> _Worked with Silvestar to optimize our website! He did a great job implementing changes quickly. Through his experience he was able to also make some beneficial suggestions to how we fix our website foundation and set it up for success for future site management._
+> Worked with Silvestar to optimize our website! He did a great job implementing changes quickly. Through his experience he was able to also make some beneficial suggestions to how we fix our website foundation and set it up for success for future site management.
 >
-> _I appreciate working with Silvestar. He's able to complete tasks and think out of the box about how to really optimize web development._
+> I appreciate working with Silvestar. He's able to complete tasks and think out of the box about how to really optimize web development.

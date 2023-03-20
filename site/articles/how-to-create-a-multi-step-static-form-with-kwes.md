@@ -33,7 +33,7 @@ A multi-step form is a long-form that is broken into pieces. The reason for doin
 You might have seen multi-steps forms on checkout or shipping forms. Multi-steps forms are also used for wizards such as signing up forms, and there is an increased appearance of multi-step login forms recently. These are just common scenarios when to use them, but every longer form could be broken into pieces.
 
 {% note "Tip" %}
-_Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop._
+Before switching to a multi-step form, you might want to make A/B tests to make sure your conversion rate doesn’t drop.
 {% endnote %}
 
 The conversion rate is one of the most substantial benefits of a multi-step form. It is believed that multi-step forms have a better conversion rate. Other benefits include the first impression, which is less overwhelming to users, and progress bars, which encourage users to proceed with the form.
@@ -55,7 +55,7 @@ Before that, let’s refresh our memory [how to add the static form using Kwes]:
 
 Here’s how the code looks for now:
 
-``` html
+```html
 <html>
   <body>
     <div class="kwes-form">
@@ -71,14 +71,14 @@ Here’s how the code looks for now:
 To enable a multi-step form, I have added the `multi-step` attribute to the `form` element.
 
 {% note %}
-_I had to add `true` value to the `multi-step` attribute to make my HTML linter happy._
+I had to add `true` value to the `multi-step` attribute to make my HTML linter happy.
 {% endnote %}
 
 Next, I have divided the form into steps by wrapping related inputs with `form-step` elements. That’s it! To make a multi-step form with Kwes, all you need to do is to add a single wrapper div to every step. I never knew it would be that easy.
 
 My form has only two steps, so I have only two `form-step` elements. On the first step, I am asking a question about the contact type, and on the next step, I am gathering contact information.
 
-``` html
+```html
 <div class="kwes-form">
   <form method="POST" action="path/to/kwes" multistep="true">
     <form-step>
@@ -107,7 +107,7 @@ Kwes provides adding custom headers to each step—a title of the current step. 
 
 Simple headers are used for textual headers. I have added simple headings to my form.
 
-``` html
+```html
 <form-step heading="1. Contact type">
   // form code
 </form-step>
@@ -128,7 +128,7 @@ For example, you could use `kw-multistep-footer` class to customize the step sec
 
 I have used [the cloaking technique] provided by Kwes to hide the uncompiled form. That means the form wouldn’t be visible until it is compiled by Kwes JavaScript file. To do this, add `v-cloak` attribute to the `kwes-form` wrapper element and then use the following CSS snippet to hide the form:
 
-``` css
+```css
 [v-cloak] {
   display: none;
 }
@@ -138,7 +138,7 @@ I have used [the cloaking technique] provided by Kwes to hide the uncompiled for
 
 Another great feature of Kwes form builder is the ability to toggle the visibility of an input field based on other field values. This show/hide logic behaviour is what I needed to create the second step dynamically. The visibility is achieved by adding `kw-show` attribute to the element. In my case, I am hiding mentoring related fields if the contact type is “General”.
 
-``` html
+```html
 <div kw-show="fields.step == 'Mentoring'">...</div>
 ```
 
@@ -150,7 +150,7 @@ Progress bars often help users understand how much steps are left until the subm
 
 Here’s the complete form, including the SVG and JavaScript code:
 
-``` html
+```html
 <div class="kwes-form form" v-cloak="true">
   <svg class="steps" viewBox="0 0 850 250" xmlns="http://www.w3.org/2000/svg">
     <path d="m225 125c0 50-50 100-100 100s-100-50-100-100 50-100 100-100 100 50 100 100h400c0-50 50-100 100-100s100 50 100 100-50 100-100 100-100-50-100-100" fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="50"/>

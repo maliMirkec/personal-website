@@ -111,8 +111,6 @@
 
 .profile__position {
   text-transform: uppercase;
-  @include ls(50);
-  @include ws(150);
 }
 
 .profile__link {

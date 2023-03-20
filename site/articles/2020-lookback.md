@@ -21,7 +21,7 @@ Another year is over, and it is time for the annual lookback.
 <!-- more -->
 
 {% note %}
-_This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year._
+This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year.
 {% endnote %}
 
 ## Static Site Generators (SSG)

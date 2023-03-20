@@ -95,8 +95,8 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
-  "out": "./assets/critical/mentor-reads-index.critical.min.css",
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/newsletter-index.critical.min.css",
   "url": "http://localhost:8080/side-projects/ui-dev-newsletter/?cache=1",
   "width": 1920,
   "height": 1800,
@@ -111,9 +111,41 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
-  "out": "./assets/critical/mentor-reads-single.critical.min.css",
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/newsletter-archive.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/archive/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/newsletter-single.critical.min.css",
   "url": "http://localhost:8080/side-projects/ui-dev-newsletter/2023-02-27/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/newsletter-page.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/confirmation/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,

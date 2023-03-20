@@ -1,5 +1,16 @@
 const doc = require('../site/_data/reads.json');
 
+console.log(123);
+
+const generateNewsletter = () => {
+  console.log(1234);
+}
+
+module.exports = {
+  generateNewsletter
+}
+
+/*
 // Get document, or throw exception on error
 try {
   if(!doc || !doc.length) {
@@ -203,3 +214,4 @@ ${list5}`);
 } catch (e) {
   console.log(e);
 }
+*/

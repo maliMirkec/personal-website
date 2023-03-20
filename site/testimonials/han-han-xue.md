@@ -7,7 +7,6 @@ tags:
   - testimonials
 type: testimonials-item
 projectThumbnail: hhx_p45br6
-logo: hhx_nntltz
 avatar: hhx_iu8agl
 date: 2009-01-01
 position: Product Designer
@@ -17,10 +16,6 @@ projects:
     link:
 sections:
   - type: hero-alpha
-    src: hhx_nntltz
-    alt: Logo of Han Han Xue.
-    width: 60
-    height: 60
     avatar: hhx_iu8agl
     title: Han Han Xue
     desc: Product Designer at Lyft
@@ -29,15 +24,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I built the whole site for Han Han Xue on Middleman framework?
-    cta:
-      href: /portfolio/hanhanxue/
-      title: See the project
+    banner: hanhanxue
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -45,18 +36,14 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 
-> _I collaborated closely with Silvestar on a project._
+> I collaborated closely with Silvestar on a project.
 >
-> _Throughout the span of the project, Silvestar was able to consistently meet if not exceed expectations. He has the impressive ability to not only readily undertake direct requests, but also intuitively distill ambiguous asks in order to execute solves in a self-sufficient manner._
+> Throughout the span of the project, Silvestar was able to consistently meet if not exceed expectations. He has the impressive ability to not only readily undertake direct requests, but also intuitively distill ambiguous asks in order to execute solves in a self-sufficient manner.
 >
-> _Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions._
+> Silvestar’s can-do attitude and palpable passion for the work combined with his extended knowledge makes for a highly effective problem solver who always strives to provide the best solutions.
 >
-> _If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project._
+> If you aim for not only high standard in the result but also elegance in the process, then I would highly recommend considering Silvestar for your project.

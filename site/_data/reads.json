@@ -2,7 +2,7 @@
   "date": "2023-03-13",
   "description": "responsive images and container queries, subgrid usage, native .visually-hidden solution, and more.",
   "topAd": {
-      "link": "porkbun.com/event/freeappdevdomain?coupon=SILVERSTAR&utm_source=silverstar&utm_medium=newsletter&utm_campaign=2023",
+      "link": "https://porkbun.com/event/freeappdevdomain?coupon=SILVERSTAR&utm_source=silverstar&utm_medium=newsletter&utm_campaign=2023",
       "title": "Get a FREE .dev or .app domain name from Porkbun",
       "desc": "Every domain comes with free WHOIS Privacy, URL forwarding, hosting trials and more. All backed by incredible support and 5-star reviews.",
       "name": "Porkbun",
@@ -5152,7 +5152,7 @@
     },
     {
       "link": "https://css-doodle.com/",
-      "title": "<css-doodle />",
+      "title": "css-doodle",
       "desc": "A web component for drawing patterns with CSS."
     }
   ]

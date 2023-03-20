@@ -27,11 +27,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.ignores.add('site/_drafts/*')
 
-  eleventyConfig.setWatchJavaScriptDependencies(500)
-
-  eleventyConfig.setBrowserSyncConfig({
-    open: true,
-  })
+  eleventyConfig.setWatchThrottleWaitTime(2000)
 
   let options = {
     extname: ".liquid",
@@ -115,12 +111,12 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
 
-  const cldnry = (src, alt, width, height, classes, classes2) => width ? `<span class="dib pic${ classes2 ? ' ' + classes2 : '' }"><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }" loading="lazy"></span>` :
-    `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" loading="lazy">`
+  const cldnry = (src, alt, width, height, classes, classes2, instant) => width ? `<span class="db pic${ classes2 ? ' ' + classes2 : '' }"${ width && height ? ' style="aspect-ratio:' + width + '/' + height + ';max-width:' + width + 'px"' : '' }><svg width="${ width || '' }" height="${ height || '' }"><rect width="${ width || '' }" height="${ height || '' }" fill="transparent"/></svg><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}></span>` :
+    `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="${ alt || '' }"${ instant ? '' : ' loading="lazy"'}>`
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
-  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2)}</a>`)
+  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2, instant) => `<a class="link-block" href="${link}">${cldnry(src, alt, width, height, classes, classes2, instant)}</a>`)
 
   eleventyConfig.addPairedLiquidShortcode('note', (note, title) => {
     let dataTitle = title ? ` data-title="${title}"` : ''
