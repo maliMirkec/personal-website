@@ -6,8 +6,8 @@ type: page
 sections:
   - type: hero-alpha
     elementClass: bg-alpha2
-    title: Tools, apps and devices I use
-    desc: These are devices, applications and tools, which I use daily, that make my job easier.
+    title: Tools, apps, and devices I use
+    desc: These are devices, applications, and tools, which I use daily, that make my job easier.
     narrow: true
 sections2:
   - type: banner-alpha
