@@ -43,8 +43,7 @@
 }
 
 .card {
-  @extend .brad;
-  // filter: drop-shadow(0 0 .25rem #{transparentize($color-alpha, .9)});
+  border-radius: var(--border-radius);
 
   blockquote {
     display: flex;
@@ -65,7 +64,7 @@
   display: flex;
   flex-direction: column;
 
-  > :last-child {
+  > :last-child:not(:only-child) {
     margin-top: auto;
   }
 }

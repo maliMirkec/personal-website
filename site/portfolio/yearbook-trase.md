@@ -24,19 +24,22 @@ sections:
     title: Trase Yearbook 2018
     desc: >-
       The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-
-
-      _This site has been taken down._
     subtitle: Responsibilities
     desc2: >-
       - Developed a new WordPress theme from scratch based on a design.
+
+
+      _The site has been taken down._
+
+
+      _Here's [the snapshot](https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/) of the site._
     tag:
       href: /portfolio/
       title: Portfolio
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -53,9 +56,5 @@ sections:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---

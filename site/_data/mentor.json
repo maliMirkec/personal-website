@@ -63,10 +63,6 @@
         "href": "/side-projects/ui-dev-mentoring/resources/"
       },
       {
-        "title": "Reads",
-        "href": "/side-projects/ui-dev-mentoring/reads/"
-      },
-      {
         "title": "Tips",
         "href": "/side-projects/ui-dev-mentoring/tips/"
       },
@@ -77,25 +73,22 @@
       }
     ],
     "social": [{
-        "title": "Twitter",
-        "href": "https://twitter.com/malimirkeccita"
-      },
-      {
-        "title": "LinkedIn",
-        "href": "https://www.linkedin.com/in/starbist/"
-      },
-      {
-        "title": "GitHub",
-        "href": "https://github.com/maliMirkec"
-      },
-      {
-        "title": "CodePen",
-        "href": "https://codepen.io/CiTA/"
-      },
-      {
-        "title": "Web",
-        "href": "/"
-      }
-    ]
+      "href": "https://www.linkedin.com/in/starbist/",
+      "title": "LinkedIn"
+    }, {
+      "href": "https://twitter.com/malimirkeccita",
+      "title": "Twitter"
+    }, {
+      "href": "https://mastodon.social/@cita",
+      "title": "Mastodon",
+      "rel": "me"
+    }, {
+      "href": "https://github.com/maliMirkec",
+      "title": "GitHub",
+      "rel": "me"
+    }, {
+      "href": "https://codepen.io/CiTA/",
+      "title": "CodePen"
+    }]
   }
 }

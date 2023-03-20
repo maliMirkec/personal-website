@@ -26,9 +26,9 @@ Silvestar never coded in his life. He thought he would work as an IT engineer. B
 
 In the beginning, Silvestar was overwhelmed and didn’t know where to start. The boss helped candidates by providing learning materials. The boss also gave the assignment to every candidate. Few times a month, the boss organized a class where he showed the solution, answered questions from candidates, and talked about programming.
 
-> _“Everybody has to start somewhere.”_
+> “Everybody has to start somewhere.”
 >
-> _I started from zero._
+> I started from zero.
 
 After a few months, Silvestar started to like programming. He didn’t sleep many nights because he had new ideas about how to solve problems. For every issue he addressed, he thought he is ready for work. But with every new assignment, he also learned he is not ready yet. Finally, after about a half a year, the boss decided to give him and a couple of other candidates a chance to prove themselves on a project. He was hired, he became a developer.
 
@@ -46,9 +46,9 @@ Then, after a couple of years, the company was acquired by some larger organizat
 
 During the time in a local startup, Silvestar heard of [Toptal], a network of talents working remotely as freelancers. Silvestar was tempted to give it a go, but his family and friends were suspicious that was the right call. He applied nevertheless. After a couple of attempts, Silvestar got in. He was lucky as he was one of the first of the talents that were accepted as UI developers. He got his first gig within a couple of months.
 
-> _“Fear is the compass.”_
+> “Fear is the compass.”
 >
-> _I made some bold choices at the given moment, but they all paid off._
+> I made some bold choices at the given moment, but they all paid off.
 
 It has been three years since Silvestar started with freelance work. He invested a lot of time in his professional development, and he decided to improve his skillset by learning new technologies and techniques. He decided to share his findings on his blog. He had the opportunity to prove his worth on challenging project, and he collaborated with amazing clients and developers from all over the world.
 

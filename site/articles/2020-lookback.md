@@ -21,7 +21,7 @@ Another year is over, and it is time for the annual lookback.
 <!-- more -->
 
 {% note %}
-_This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year._
+This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year.
 {% endnote %}
 
 ## Static Site Generators (SSG)
@@ -63,4 +63,4 @@ Since I wasn't that active, I didn't gain much recognition from the community. T
 [2019 lookback]: /articles/2019-lookback/
 [Code Line Daily]: /articles/the-first-year-of-my-side-project-code-line-daily/
 [the browser extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
-[a newsletter]: /side-projects/ui-dev-mentoring/reads/#newsletter
+[a newsletter]: /side-projects/ui-dev-newsletter/

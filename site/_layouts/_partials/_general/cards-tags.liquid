@@ -9,8 +9,7 @@
     <div class="wrapper">
       <div class="padding no-padding-top">
         {% assign cardListSize = cardListTag | size %}
-        {% assign cardListModulo = cardListSize | modulo: 10 %}
-        {% if cardListModulo == '1' %}
+        {% if cardListSize == 1 %}
           <p>There is {{ cardListSize }} link tagged as “{{ tag }}”.</p>
         {% else %}
           <p>There are {{ cardListSize }} links tagged as “{{ tag }}”.</p>
@@ -28,10 +27,10 @@
                   {% endif %}
                   {% assign myTags = cardTag.data.tags %}
                   {% for tag in myTags %}
-                    <a class="button button--small button--inverse" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
+                    <a class="button button--inverse button--small" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
                   {% endfor %}
                   {% if cardTag.data.date and cardTag.data.type == 'articles-item' %}
-                    <time class="button button--small button--invisible" datetime="{{ cardTag.data.date | date: "%Y-%m-%d" }}">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
+                    <time class="button button--invisible button--small" datetime="{{ cardTag.data.date | date: "%Y-%m-%d" }}">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
                   {% endif %}
                   {% if cards1.cta %}
                     <div class="copy margin-top">{{ cardTag.data.description }}</div>

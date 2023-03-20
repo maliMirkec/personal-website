@@ -1,3 +1,7 @@
+---
+isSlides: true
+---
+
 {% if theme and theme.site and theme.site.language %}
   {% assign lang = theme.site.language %}
 {% else if config and config.language %}
@@ -10,7 +14,7 @@
 <html lang="{{ lang }}">
   {% include _partials/_general/head %}
   <body>
-    {% if type == 'mentor-slides-single' %}
+    {% if version == 'mentor' %}
       {% include _partials/_slides/mentor %}
     {% else %}
       {% include _partials/_slides/general %}

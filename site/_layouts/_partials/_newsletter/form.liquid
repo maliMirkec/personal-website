@@ -1,0 +1,29 @@
+<section class="wrapper wrapper--gamma margin-top-alpha margin-bottom-alpha" id="newsletter">
+  <article class="form padding">
+    <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')" class="newsletter">
+      {% if newsletter.logo1 %}
+        <img class="margin-bottom" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.title }}" width="100" height="100">
+      {% endif %}
+      {% if newsletter.tagline %}
+        <h1 class="text-center fw-bolder no-margin-bottom ffss">{{ newsletter.tagline }}</h1>
+      {% endif %}
+      {% if newsletter.description %}
+        <p class="text-center">{{ newsletter.description }}</p>
+      {% endif %}
+      <label class="fz-step--1 fw-bold" for="bd-email">Enter your email address</label>
+      <div class="newsletter__input margin-bottom">
+        <input class="input" type="email" name="email" id="bd-email" />
+        <input class="button button--small" type="submit" value="Subscribe" />
+      </div>
+      <div class="copy text-center">
+        <p class="fz-step--2 no-margin">No spam, only quality content. Trusted by <span class="fw-bold">400+</span> subscribers.</p>
+        <p class="fz-step--2 no-margin">Don't like newsletters? <a href="/rss2.xml">Subscribe to RSS feed instead.</a></p>
+        {% if newsletter.logo2 %}
+          <a class="margin-top-alpha" href="{{ newsletter.logo2.href }}">
+            <img src="{{ newsletter.logo2.src }}" alt="{{ newsletter.logo2.alt }}" width="50" height="50">
+          </a>
+        {% endif %}
+      </div>
+    </form>
+  </article>
+</section>

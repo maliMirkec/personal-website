@@ -9,7 +9,7 @@ tags:
   - audit
 thumbnail: cssa_jwbova
 display: true
-date: 2005-05-01
+date: 2005-03-01
 sections:
   - type: hero-alpha
     src: cssa_jwbova
@@ -26,7 +26,7 @@ sections:
       title: Go to the Project
     cta2:
       href: /side-projects/
-      title: See other projects
+      title: Discover other projects
   - type: hero-beta
     title: From My Projects
     desc: >-
@@ -37,10 +37,6 @@ sections:
     filter: projects
     exclude: true
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 
 ---

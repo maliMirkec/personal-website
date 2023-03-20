@@ -7,14 +7,13 @@ date: 2021-11-05 08:00:00
 thumbnail: Screen_Shot_2021-11-05_at_9.40.22_AM_teyz7p
 type: favorite-item
 tags:
-  - favorite
+  - favorites
 sections:
   - type: hero-alpha
     title: My TV show favorites
     desc: >-
       Just my random favorite TV shows and characters.
-
-
+    footnote: >-
       [See my other favorites](/favorites/).
   - type: cards-epsilon
     list:
@@ -145,9 +144,5 @@ sections:
         href: https://www.imdb.com/title/tt5669272/
         src: 041whas_itx6yc
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href:  /contact/
-      title: Hire me
+    banner: consultation
 ---

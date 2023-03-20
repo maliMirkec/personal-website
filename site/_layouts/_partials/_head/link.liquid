@@ -9,10 +9,16 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-{% if loadCritical %}
-  {% if isMentor %}
-    <link rel="preload" href="/css/mentor.min.css" as="style">
-  {% else %}
-    <link rel="preload" href="/css/style.min.css" as="style">
+{% if env.production %}
+  {% if loadCritical %}
+    {% if isMentor %}
+      <link rel="preload" href="/css/mentor.min.css" as="style">
+    {% elsif isSlides %}
+      <link rel="preload" href="/css/slides.critical.min.css" as="style">
+    {% elsif is360 %}
+      <link rel="preload" href="/css/devcards.critical.min.css" as="style">
+    {% else %}
+      <link rel="preload" href="/css/style.min.css" as="style">
+    {% endif %}
   {% endif %}
 {% endif %}

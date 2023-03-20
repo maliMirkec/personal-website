@@ -38,7 +38,7 @@ I have been using [deviceframe](https://www.npmjs.com/package/deviceframe) packa
 
 Since my site runs on Netlify, I often use [Netlify CLI](https://www.npmjs.com/package/netlify-cli) package. It allows me to develop lambda and edge functions on my computer.
 
-## [nodemon](https://www.npmjs.com/package/nodemon)
+## nodemon
 
 [nodemon](https://www.npmjs.com/package/nodemon) is a very popular package that runs Node.js applications and can automatically restart the node application when file changes in the directory are detected. I use it when I develop Node.js scripts.
 

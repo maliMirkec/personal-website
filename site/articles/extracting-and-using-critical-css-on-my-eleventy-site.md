@@ -68,7 +68,7 @@ To run the script, you should use the `node scripts/acclaimed.js` command. Alter
 Essentially, we're instructing the package to visit the <https://www.silvestar.codes/> webpage, use the <https://www.silvestar.codes/css/style.css> stylesheet, and save the extracted Critical CSS in a file named `home.critical.min.css`.
 
 {% note %}
-_You can find all other options on_ [_the Penthouse's page_](https://github.com/pocketjoso/penthouse#options)_._
+You can find all other options on [the Penthouse's page](https://github.com/pocketjoso/penthouse#options).
 {% endnote %}
 
 Once the Critical CSS is stored and prepared, it is time to update the code and include the files correctly. Below, I'll explain how I accomplished this on my Eleventy and Liquid-based website.

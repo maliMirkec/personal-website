@@ -1,4 +1,4 @@
-{% if pagination.pageNumber > -1 %}
+{% if pagination.pageNumber > -1 and layout != 'tags' %}
   {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
   {% assign title = title | append: ' #'| append: pageNumber %}
 {% endif %}

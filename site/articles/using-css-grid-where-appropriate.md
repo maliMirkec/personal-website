@@ -23,7 +23,7 @@ Recently I've redesigned my blog, as some of you could notice. During this proce
 
 Every time I'm doing a new (re)design, I usually start with the header. The first component in a header is navigation. My website architecture is not complicated, just a few pages, blog category and posts.
 
-``` html
+```html
 <header class="header">
   <ul class="nav">
     <li class="nav__item">
@@ -46,11 +46,11 @@ I wanted to try CSS Grid here, so I started by adding `display: grid` on my `ul`
 
 I discovered there's a property that could help me in this specific situation. And it is called [`grid-auto-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
 
-> _“The `grid-auto-flow` CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.”_
+> “The `grid-auto-flow` CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.”
 
 I'll set this property to `column` and grid will be smart enough to add new columns as necessary.
 
-``` css
+```css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -78,7 +78,7 @@ I was playing around with various CSS Grid properties to achieve desired behavio
 
 Then I've tried a different approach: instead of trying to define a grid, I'll try to position grid items individually. I'll place first grid item in the first column of the first row and then second grid item in the second column of the first row and so on.
 
-``` css
+```css
 @media screen and (min-width: 320px) {
   .nav__item:nth-child(1) {
     grid-area: 1 / 1 / 2 / 2;
@@ -102,7 +102,7 @@ I couldn't be satisfied with that kind of a solution. By looking at the compiled
 
 After studying every grid property I finally got the answer. I should create desired grid, but use `auto` for sizing.
 
-``` css
+```css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -131,7 +131,7 @@ I needed a decent fallback for CSS grid. Because I'm a huge fan of Flexbox and b
 
 I first heard about this method when [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) from [Smashing Magazine](https://www.smashingmagazine.com/) had a workshop in Osijek earlier this year. The principle is that we should first define Flexbox and than add CSS Grid using `@supports` rule.
 
-``` css
+```css
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -177,5 +177,5 @@ I really enjoyed building a navigation component using many different techniques
 Are you using CSS Grid? In what situations? Leave a comment below or [ping me on Twitter](https://twitter.com/malimirkeccita).
 
 {% note %}
-_“I wrote a newer article on the same subject, [Using CSS Grid where appropriate (revisited)](/articles/using-css-grid-where-appropriate-revisited/).”_
+I wrote a newer article on the same subject, [Using CSS Grid where appropriate (revisited)](/articles/using-css-grid-where-appropriate-revisited/).
 {% endnote %}

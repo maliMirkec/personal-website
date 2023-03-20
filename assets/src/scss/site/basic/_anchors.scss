@@ -11,13 +11,13 @@
 // Styleguide Anchors
 
 a {
-  @extend .brad;
   display: inline-flex;
   color: currentColor;
   text-decoration: none;
   position: relative;
   overflow: hidden;
   outline: none;
+  border-radius: var(--border-radius);
   transition: all var(--duration2);
 
   &:not(.button) {

@@ -28,19 +28,7 @@ sections:
     exclude: publications
     limit: 5
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newsletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
-      </form>
+    banner: newsletter
   - type: hero-beta
     title: From the Portfolio
     desc: >-
@@ -51,21 +39,18 @@ sections:
     #   title: Go to project
     cta2:
       href: /contact/
-      title: Hire me
+      title: Get in touch
     cta3:
       href: /portfolio/
       title: Or see my portfolio
     filter: portfolio
     limit: 5
   - type: banner-beta
-    desc: Did you know that I work as a freelance contractor since **2017**?
-    cta:
-      href: /articles/a-story-of-becoming-a-web-developer/
-      title: Read the full story
+    banner: freelance
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     desc: Do you want to be my next client?
     cta:
@@ -79,10 +64,7 @@ sections:
     filter: testimonials
     limit: 5
   - type: banner-beta
-    desc: Did you know that I gave an interview for the **Remote Working Hub**?
-    cta:
-      href: /articles/interview-for-remote-working-hub/
-      title: Read the full interview
+    banner: interview
   - type: hero-beta
     title: From Publications
     desc: >-
@@ -101,10 +83,7 @@ sections:
     sorter: date
     limit: 5
   - type: banner-beta
-    desc: Did you know that I blog since **2016**?
-    cta:
-      href: /articles/
-      title: View all articles
+    banner: blog
   - type: hero-beta
     title: From My Projects
     desc: >-
@@ -115,18 +94,11 @@ sections:
     #   title: Go to project
     cta2:
       href: /contact/
-      title: Hire me
+      title: Get in touch
     filter: projects
     limit: 5
   - type: banner-beta
-    desc: Did you know that I started **CSS Auditors**, a site dedicated to **auditing CSS**?
-    cta:
-      href: https://css-auditors.com
-      title: Learn more about CSS Auditors
+    banner: css-auditors
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---

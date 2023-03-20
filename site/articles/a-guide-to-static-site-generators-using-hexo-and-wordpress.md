@@ -61,7 +61,7 @@ The first step was to decide which static page generator to use. I wasn’t awar
 
 Hexo installation is as simple as it could be. Install hexo-cli globally using npm, run the hexo init command, install npm dependencies, and voilà:
 
-``` bash
+```bash
 npm i -g hexo-cli
 hexo init <blog-name>
 cd <blog-name>
@@ -70,13 +70,13 @@ npm install
 
 To make the migration, install the [hexo-migrator-wordpress plugin](https://github.com/hexojs/hexo-migrator-wordpress). This plugin expects XML files as a source. XML files could be exported via the WordPress export tool, which can be found in administration panel under Tools -> Export -> WordPress. Finally, type the hexo migrate command to finish the import.
 
-``` bash
+```bash
 hexo migrate wordpress <source>
 ```
 
 The only thing left to do is to check the result. Run the hexo server command to start the server and open the browser at given address.
 
-``` bash
+```bash
 hexo server
 ```
 
@@ -107,7 +107,7 @@ Adding Gulp or Webpack to your build process is always helpful and recommended. 
 
 Netlify is a platform that provides hosting for websites and apps with blazing fast performance. It markets itself as a unified platform that automates code to create performant and easy to maintain websites.
 
-> _“Simply push your code and let us take care of the rest.”_
+> “Simply push your code and let us take care of the rest.”
 
 As you’d expect, configuring the website is straightforward:
   1. Set up the domain.

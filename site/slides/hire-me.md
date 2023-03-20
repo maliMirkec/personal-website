@@ -9,7 +9,7 @@ date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
 tags:
   - slides
-customCSS: slides
+type: slides
 slides:
   - html: >-
       # Hi there!
@@ -24,7 +24,7 @@ slides:
   - html: >-
       ## [Download my CV](/silvestar-bistrovic-cv.pdf).
   - html: >-
-      ## [Hire me](/contact/#form)!
+      ## [Get in touch](/contact/)!
   - html: >-
       [Go back to the site](/)
 ---

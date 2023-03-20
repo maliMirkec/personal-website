@@ -8,22 +8,25 @@
 
 /* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-.ffss,
+h6 {
+  font-family: var(--font-beta);
+}
+
+body,
 .body-copy {
   font-family: var(--font-alpha);
+  text-wrap: balance;
 }
 
 body {
   font-size: var(--step-0);
   line-height: var(--line-height2);
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: var(--letter-spacing-alpha);
 }
 
 ::selection {
@@ -44,9 +47,8 @@ h4,
 h5,
 h6 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   line-height: var(--line-height1);
-  letter-spacing: -0.02em;
 }
 
 h1 {
@@ -77,13 +79,15 @@ h6 {
   font-size: var(--font-size);
 }
 
-@for $i from -2 through 6 {
+@for $i from -3 through 6 {
   [class*="fz-step-#{$i}"] {
     --font-size: var(--step-#{$i});
   }
 }
 
 blockquote {
+  font-family: var(--font-beta);
+  font-style: oblique;
   padding: 0;
   margin: 0;
 }
@@ -101,7 +105,12 @@ blockquote {
 }
 
 .fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
   font-weight: 900;
+  letter-spacing: var(--letter-spacing-beta);
 }
 
 .text-center {
@@ -126,10 +135,14 @@ blockquote {
   text-underline-offset: 0.125em;
 }
 
-.ttuc {
-  text-transform: uppercase;
+.ffss {
+  font-family: var(--font-alpha);
 }
 
-.lsp {
-  letter-spacing: .06em;
+.ffs {
+  font-family: var(--font-beta);
+}
+
+.ffm {
+  font-family: var(--font-gamma);
 }

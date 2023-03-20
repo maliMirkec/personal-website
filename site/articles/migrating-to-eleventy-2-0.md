@@ -90,5 +90,5 @@ eleventyConfig.addLiquidFilter('getCritical', (critical) => {
 And that's it. After resolving these issues, I could finally use the new version of the Eleventy static site generator.
 
 {% note %}
-_For anyone interested, here's the full commit: <https://github.com/maliMirkec/personal-website/commit/f18c059ead7abf166f99715261638ccf9944cf5f>._
+For anyone interested, here's the full commit: <https://github.com/maliMirkec/personal-website/commit/f18c059ead7abf166f99715261638ccf9944cf5f>.
 {% endnote %}

@@ -68,7 +68,7 @@ Another person suggested that it might be a good idea to build [a browser extens
 
 During the last year, I dedicated a lot of my time to this project. Most of the time, I was having fun developing these features, but I struggled with the content. Even if it was a single line per day, it was still a challenge for me. Writing content is hard.
 
-> _Most of the time, I was having fun developing these features, but I struggled with the content._
+> “Most of the time, I was having fun developing these features, but I struggled with the content.”
 
 On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the [UI Dev newsletter], which I am beginning to enjoy more and more with every new issue.
 
@@ -89,5 +89,5 @@ P.S. I am aware my project is not very popular. I always wanted to learn more ab
 [personal site’s homepage]: /
 [in the CodePen]: https://codepen.io/CiTA/pen/eYNMvOa
 [a browser extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg
-[UI Dev newsletter]: /side-projects/ui-dev-mentoring/reads/
+[UI Dev newsletter]: /side-projects/ui-dev-newsletter/
 [contact me]: /contact/

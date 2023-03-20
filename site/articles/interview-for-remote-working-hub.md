@@ -38,7 +38,7 @@ When I am not coding, I like to write new articles on my blog.
 
 {% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." %}
 
-_Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw](https://unsplash.com/photos/iM6Gm-cdBuw)_
+Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw](https://unsplash.com/photos/iM6Gm-cdBuw)
 
 ## What motivated you to choose remote working?
 
@@ -64,7 +64,7 @@ This helped me gain more audience and more confidence. So, I also began publishi
 
 {% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." %}
 
-_Image credit: [https://unsplash.com/photos/qFH7-yKoxik](https://unsplash.com/photos/qFH7-yKoxik)_
+Image credit: [https://unsplash.com/photos/qFH7-yKoxik](https://unsplash.com/photos/qFH7-yKoxik)
 
 ## What have been the best, good and worst aspects of remote working for you?
 

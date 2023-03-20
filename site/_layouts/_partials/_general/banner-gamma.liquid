@@ -15,34 +15,36 @@
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: site.url | append: page.url %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
         <div class="margin-top margin-bottom-alpha">
-          <a class="button button--small button--outline margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
-          <a class="button button--small button--outline margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
-          <a class="button button--small button--outline margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
+          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
+          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
+          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
         </div>
-        <h3 class="fz-step-2 no-margin-top">About the Author</h3>
+        <h3 class="fz-step-2 no-margin-top margin-bottom">About the author</h3>
         <div class="copy">
           <p>{{ site.about }}</p>
         </div>
         <div class="margin-top margin-bottom-alpha">
-          <a class="button button--small button--outline margin-left margin-right" href="/about/">About</a>
-          <a class="button button--small button--outline margin-left margin-right" href="/portfolio/">Portfolio</a>
-          <a class="button button--small button--outline margin-left margin-right" href="/contact/">Contact</a>
+          <a class="button button--inverse button--small button--outline margin-left margin-right" href="/about/">About</a>
+          <a class="button button--inverse button--small button--outline margin-left margin-right" href="/portfolio/">Portfolio</a>
+          <a class="button button--inverse button--small button--outline margin-left margin-right" href="/contact/">Contact</a>
         </div>
         {% assign articles = collections['blog'] %}
         <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
         <div class="margin-top margin-bottom{% unless env.development %}-alpha{% endunless %}">
           {% assign i = 0 %}
-          {% for article in articles %}
-            {% if title != article.data.title %}
-              <div class="margin-bottom">
-                <a class="tdu" href="{{ article.url }}">{{ article.data.title }}</a>
-              </div>
-              {% assign i = i | plus: 1 %}
-            {% endif %}
-            {% if i >= 3 %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
+          <ul class="list-style-none">
+            {% for article in articles %}
+              {% if title != article.data.title %}
+                <li class="margin-bottom fz-step--1">
+                  <a class="tdu" href="{{ article.url }}">{{ article.data.title }}</a>
+                </li>
+                {% assign i = i | plus: 1 %}
+              {% endif %}
+              {% if i >= 3 %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
         {% unless env.development %}
           <h3 class="fz-step-2 no-margin-top text-center" id="comments">Comments</h3>

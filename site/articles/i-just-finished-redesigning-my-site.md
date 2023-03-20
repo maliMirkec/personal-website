@@ -54,7 +54,7 @@ I wanted to add the dark mode to my site, so I introduced CSS Variables to my Sc
 - `mixed-mode`, and
 - `comment-mode`.
 
-``` scss
+```scss
 @mixin light-mode {
  --color-alpha: #12e09f;
  --color-beta: #e01258;
@@ -100,7 +100,7 @@ The first two are used globally. The third one, `mixed-mode`, is used for pages 
 
 I published an article [about page builders] recently, and it gained many responses. I noticed strange behaviour with my Disqus comments: different comments appeared based on different URL parameters. To fix that, I had to use [URL Mapper] to merge all comments based on the correct URL and set the unique identifier:
 
-``` js
+```js
 this.page.identifier = UNIQUE_PAGE_IDENTIFIER
 ```
 
@@ -110,7 +110,7 @@ A long time ago, I bookmarked the article [“Images Are Not Static Content“].
 
 Since I am using [Cloudinary service] as my “Dynamic Media Platform”, as they like to call it, I decided to take advantage of the platform.
 
-> _“Because images have such a high impact on website performance, images must be tailored according to the capabilities and context of the browser and user.”_
+> “Because images have such a high impact on website performance, images must be tailored according to the capabilities and context of the browser and user.”
 
 I ditched the [hexo-cloudinary] package, a Hexo tag plugin I created before, and I developed a new Hexo tag plugin: [hexo-cldnry]. It uses the Cloudinary Node.js SDK, Cloudinary JavaScript library, and Clients Hints feature for creating the automated responsive images. You could learn more about it on by [reading the Responsive Images Guide].
 
@@ -120,7 +120,7 @@ If you need help setting the Hexo plugin, feel free to [contact me] or [open a n
 
 To be able to use [Client Hints], I had to enable it on Netlify:
 
-``` text
+```text
 Accept-CH: Downlink,RTT,Device-Memory,Save-Data,DPR,Width
 ```
 

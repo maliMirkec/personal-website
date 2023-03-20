@@ -35,7 +35,7 @@ By looking at the PWA report, I realised my site is ready for PWA. There were on
 
 As my starting point, I decided to follow the [“Your First Progressive Web App” tutorial]. The very first step was to update my `webmanifest.json` file. I have added `start_url` and `display` options and some required meta tags, like `<meta name="apple-mobile-web-app-capable" content="yes">`.
 
-``` json
+```json
 {
   "name": "SB site - Silvestar Bistrović website",
   "short_name": "SB site - Silvestar Bistrović website",
@@ -51,7 +51,7 @@ As my starting point, I decided to follow the [“Your First Progressive Web App
 
 Next, I created `sw.js` file for Service Worker. To register service worker, there is a small snippet that needs to be added to your index page:
 
-``` js
+```js
 // CODELAB: Register service worker.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -74,7 +74,7 @@ The `sw.js` file could be broken into four segments:
 
 First, I defined the cache name and which files to cache.
 
-``` js
+```js
 // constants
 const CACHE_NAME = 'sb-cache-v1.3'
 const FILES_TO_CACHE = [
@@ -92,7 +92,7 @@ const FILES_TO_CACHE = [
 
 Next, I created the `install` event which opens cache with given cache name and caches the files.
 
-``` js
+```js
 self.addEventListener('install', (event) => {
   // CODELAB: Precache static resources here.
   event.waitUntil(
@@ -106,7 +106,7 @@ self.addEventListener('install', (event) => {
 
 After that, I created the `activate` event, which cleans cached files from disk.
 
-``` js
+```js
 self.addEventListener('activate', (event) => {
   // CODELAB: Remove previous cached data from disk.
   event.waitUntil(
@@ -122,7 +122,7 @@ self.addEventListener('activate', (event) => {
 
 Finally, I created the `fetch` event, which handles page navigations only when request `.mode` is `navigate`. If the request fails to fetch the item from the network, it tries to fetch the `offline.html` file.
 
-``` js
+```js
 self.addEventListener('fetch', (event) => {
   // CODELAB: Add fetch event handler here.
   if (event.request.mode === 'navigate') {

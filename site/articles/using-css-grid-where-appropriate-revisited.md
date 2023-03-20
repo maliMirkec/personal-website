@@ -24,14 +24,14 @@ This solution is a follow-up post on my last year's article ["Using CSS Grid whe
 Creating navigation with CSS Grid is arguably not the best solution. However, if one wants to use CSS Grid, two options were suggested:
 - Using `grid-auto-flow: row;` and placing each item in the grid, like this:
 
-``` css
+```css
 .nav__item:nth-child(1) {
   grid-area: 1 / 1 / 2 / 2;
 }
 ```
 - Defining a definite grid using keyword auto for setting width of the rows and columns:
 
-``` css
+```css
 .nav {
   display: grid;
   grid-auto-flow: row;
@@ -63,7 +63,7 @@ I have forked the previous solution and updated it with the features mentioned a
 
 {% codepen "CiTA" "pOgGqv" "dark" "result" "300" false true %}
 
-``` css
+```css
 .nav--grid2 {
   display: grid;
   grid-auto-flow: dense;

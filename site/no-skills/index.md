@@ -3,7 +3,7 @@ layout: index
 title: What I don't do
 descriptionAlt: This is the list of the things I don’t do because I don’t know how to.
 description: Very often I am being asked to do things I don't know how to do. Here is the list of skills that I still need to acquire.
-type: stories
+type: page
 thumbnail: What_I_don_t_do_oszvwu
 sections:
   - type: hero-alpha
@@ -12,11 +12,7 @@ sections:
       I specialize in developing websites.
 sections2:
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---
 
 ## What I don’t do?

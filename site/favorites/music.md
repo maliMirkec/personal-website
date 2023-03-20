@@ -5,19 +5,15 @@ descriptionAlt: Silvestar's favorite music bands and artists.
 description: Explore my favorite music bands and artists. There are many many more, but these are the first ones that come up to my mind.
 type: side-projects-item
 tags:
-  - favorite
+  - favorites
 thumbnail: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg
 sections:
   - type: hero-alpha
     title: My music favorites
     desc: >-
       Just my random favorite music bands and artists.
-
-
-      [See my Last.fm profile](https://www.last.fm/user/maliMirkec/library/artists?date_preset=ALL).
-
-
-      [Or see my other favorites](/favorites/).
+    footnote: >-
+      [Explore my Last.fm profile](https://www.last.fm/user/maliMirkec/library/artists?date_preset=ALL) or [check my other favorites](/favorites/).
   - type: cards-epsilon
     list:
       - title: Björk
@@ -129,9 +125,5 @@ sections:
         href: https://www.last.fm/music/Hot+Chip
         src: hot-chip_yewutg
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---

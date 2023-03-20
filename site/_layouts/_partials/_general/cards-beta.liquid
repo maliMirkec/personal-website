@@ -9,42 +9,33 @@
           {% break %}
         {% endif %}
         {% unless cards2.exclude == 'true' or title == card2.data.title %}
-          <a class="card bg-lightish" href="{{ card2.url }}">
-            <blockquote cite="{{ card2.url }}">
-              <div class="tilt">
-                <div class="tilt__inner">
-                  {% if card2.data.title %}
-                    <header class="padding copy">
-                      {% if card2.data.avatar and cards2.cta %}
-                        <div class="df aic">
-                          {% if card2.data.avatar %}
-                            <span class="db margin-right avatar">
-                              {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto circle" "db" %}
-                            </span>
-                          {% endif %}
-                          <div class="db">
-                            <h3 class="fz-step--1 no-margin">{{ card2.data.title }}</h3>
-                            <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
-                          </div>
+          <a class="card bg-lightish padding" href="{{ card2.url }}">
+            <div class="tilt">
+              <div class="tilt__inner">
+                {% if card2.data.title %}
+                  <header class="padding copy">
+                    {% if card2.data.avatar %}
+                      <div class="df aic">
+                        {% if card2.data.avatar %}
+                          <span class="db margin-right avatar">
+                            {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto " %}
+                          </span>
+                        {% endif %}
+                        <div>
+                          <h3 class="fz-step-0 no-margin">{{ card2.data.title }}</h3>
+                          <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
                         </div>
-                      {% endif %}
-                    </header>
-                  {% endif %}
-                  {% if card2.data.excerpt %}
-                    <div class="padding copy fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
-                  {% else if card2.template.frontMatter.content %}
-                    <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
-                  {% endif %}
-                  {% if cards2.cta %}
-                    <footer class="text-center">
-                      <div class="margin-top margin-bottom">
-                        <span class="dib button button--small">{{ cards2.cta.title }}</span>
                       </div>
-                    </footer>
-                  {% endif %}
-                </div>
+                    {% endif %}
+                  </header>
+                {% endif %}
+                {% if card2.data.excerpt %}
+                  <div class="padding copy fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
+                {% else if card2.template.frontMatter.content %}
+                  <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
+                {% endif %}
               </div>
-            </blockquote>
+            </div>
           </a>
           {% assign i2 = i2 | plus: 1 %}
         {% endunless %}

@@ -5,11 +5,11 @@
     "title": "Silvestar Bistrović"
   },
   "menu": [{
-    "href": "/portfolio/",
-    "title": "Portfolio"
-  }, {
     "href": "/articles/",
     "title": "Blog"
+  }, {
+    "href": "/portfolio/",
+    "title": "Portfolio"
   }, {
     "href": "/about/",
     "title": "About"

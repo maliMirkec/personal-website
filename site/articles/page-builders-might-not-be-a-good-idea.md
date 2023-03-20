@@ -24,11 +24,11 @@ Here’s what I think: page builder might not be a good idea. In this post, I wa
 <!-- more -->
 
 {% note %}
-_The observations are subjective but based on my experience. I am referring to the WordPress and Shopify ecosystems here, but these problems could be found on other platforms, too._
+The observations are subjective but based on my experience. I am referring to the WordPress and Shopify ecosystems here, but these problems could be found on other platforms, too.
 {% endnote %}
 
 {% note "Disclaimer" %}
-_If you use page builders and you don’t have these problems, please let me know in the comment section. I would very much like to learn how you manage to do it._
+If you use page builders and you don’t have these problems, please let me know in the comment section. I would very much like to learn how you manage to do it.
 {% endnote %}
 
 ## TL;DR

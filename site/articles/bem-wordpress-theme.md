@@ -61,7 +61,7 @@ I knew it will be a daunting project to deal with. Going through all the templat
 
 For example, comments. WordPress provides you with a commenting system out of the box. It is a great feature used by many people out there. But adding custom classes to comment components could not be done easily. As I found out later, it should be done by using callback of [wp_list_comments](https://codex.wordpress.org/Function_Reference/wp_list_comments) function and writing custom callback function. Here is an example code:
 
-``` html
+```php
 <div class="comment-list _comments__list">
 <?php
   wp_list_comments( array(
@@ -77,7 +77,7 @@ If you're interested in a custom callback function `_bem_comments` you could see
 
 Another example of how difficult it is to add classes to post navigation links.
 
-``` php
+```php
 /**
   * Custom _bem post links
   *
@@ -87,7 +87,7 @@ add_filter( 'next_post_link', '_bem_next_post_link' );
 add_filter( 'previous_post_link', '_bem_previous_post_link' );
 ```
 
-``` php
+```php
 /**
   * Custom next post link
   *
@@ -98,7 +98,7 @@ function _bem_next_post_link( $format ) {
 }
 ```
 
-``` php
+```php
 /**
   * Custom previous post link
   *
@@ -138,11 +138,13 @@ Web typography is hard. That's why I'm using [Gutenberg](http://matejlatin.githu
 
 Writing media queries could be a tedious and boring task. And it could lead to many inconsistencies in a code. To avoid all that, I'm using [Sass MQ](http://sass-mq.github.io/sass-mq/), a `Sass` mixin with configuration for media queries. Usage is pretty simple, but if you want to make it even simpler, create a snippet for your favorite text editor. This is how it looks in Atom:
 
-``` text
-'.source.scss':
-  'mq.scss':
-    'prefix': 'mq'
-    'body': '@include mq(${1:\$from}: ${2:desktop}) {\n\t$3\n}'
+```json
+{
+  '.source.scss':
+    'mq.scss':
+      'prefix': 'mq'
+      'body': '@include mq(${1:\$from}: ${2:desktop}) {\n\t$3\n}'
+}
 ```
 
 ### CSS locks

@@ -55,9 +55,9 @@ In his article, Oliver uses MongoDB, which I am unfamiliar with, so I figured I 
 The first step was to create an actual Google Sheets doc. Then I had to [make a Google Cloud project](https://developers.google.com/workspace/guides/create-project) and [enable Google Sheets APIs](https://developers.google.com/workspace/guides/enable-apis). Then I had to [set up the service account authentication](https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account) to be able to make any requests.
 
 {% note %}
-_Don't forget to execute the third step while setting the authentication._
+Don't forget to execute the third step while setting the authentication.
 
-_“Share the doc with your service account using the email noted above.”_
+“Share the doc with your service account using the email noted above.”
 {% endnote %}
 
 Finally, I could write the script and see the visitors. I learned that `headers.referer` wasn't working for me, so I decided that I would log only the date, path, and user agent string.

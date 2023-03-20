@@ -81,7 +81,7 @@ LastPass is a password manager. It could store passwords, and it could automatic
 
 LastPass could save you a lot of time when testing forms, too. You could create a profile with dummy data and then use the “Fill” option to populate the form. I use this feature for registration forms quite often.
 
-_Fun fact: I have more than 20 Slack logins._ 😵
+Fun fact: I have more than 20 Slack logins._ 😵
 
 ## [Code Line Daily]
 
@@ -95,7 +95,7 @@ One of the followers suggested it could be used as a browser plugin. This week C
 
 These extensions are installed on my Chrome, but I am not using it that often or I don’t pay that much attention to it:
 
-- [Codopen]. An extension that shows enables preview Codepen snippets in a separate window for easier debugging in your favorite tool. _Fun fact: Sarah Drasner’s husband made this extension as a present for her._
+- [Codopen]. An extension that shows enables preview Codepen snippets in a separate window for easier debugging in your favorite tool. _Fun fact: Sarah Drasner’s husband made this extension as a present for her.
 - [Keywords Everywhere]. An extension used for SEO research. It shows keywords in sites, like Google Search, Google Search Console, and Google Analytics. It is useful for basic research.
 - [Block Yourself from Analytics]. It prevents recording your visit to Google Analytics. It is useful when working with low-traffic sites.
 - [Always Clear Downloads 2]. It clears download list after completion automatically and, most importantly, closes the download bar.

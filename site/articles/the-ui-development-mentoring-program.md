@@ -25,7 +25,7 @@ Since I work remotely, I am talking about remote mentoring here. That means I wo
 <!-- more -->
 
 {% note %}
-_I am located in Croatia, and I speak only English and Croatian. 🇭🇷_
+I am located in Croatia, and I speak only English and Croatian. 🇭🇷
 {% endnote %}
 
 ## Background

@@ -28,10 +28,6 @@
 // Styleguide Buttons
 
 .button {
-  @extend .fw-normal;
-  @extend .ttuc;
-  @extend .lsp;
-  @extend .brad;
   background-color: var(--color-alpha);
   color: var(--color-dark);
   box-sizing: border-box;
@@ -39,17 +35,21 @@
   align-items: center;
   appearance: none;
   font-size: var(--step-0);
-  line-height: 1.66;
+  font-weight: normal;
+  line-height: 1.3;
+  letter-spacing: var(--letter-spacing-beta);
+  text-transform: uppercase;
   min-height: 3em;
   padding: .25em 2em;
   border: none;
+  border-radius: var(--border-radius);
   outline: none;
   transition: all var(--duration2);
 
   &:not(.df):not(.db) {
-    @extend .brad;
     display: inline-flex;
     margin: .2em;
+    border-radius: var(--border-radius);
   }
 
   &[href] {
@@ -73,6 +73,7 @@
 
 .button--small {
   font-size: var(--step--1);
+  line-height: 1.1;
   padding: .25em .5em;
   min-height: 1.75em;
 
@@ -120,26 +121,6 @@
     &:focus,
     &:active {
       box-shadow: 0 0 0 .15rem var(--color-dark);
-    }
-  }
-}
-
-.button--border {
-  box-shadow: 0 0 0 .15rem currentColor;
-
-  &:not(.df):not(.db) {
-    margin: .4em;
-  }
-
-  &[href],
-  &[type] {
-    &:hover {
-      box-shadow: 0 0 0 .3rem currentColor;
-    }
-
-    &:focus,
-    &:active {
-      box-shadow: 0 0 0 .3rem var(--color-alpha);
     }
   }
 }
@@ -198,8 +179,9 @@
 
     @include mq($until: bp1) {
       position: absolute;
-      top: calc(var(--space) + .3rem);
+      top: calc((var(--space) * 4 + 55px) / 2);
       right: var(--space);
+      transform: translateY(-50%);
       z-index: 1;
 
       nav.active & {

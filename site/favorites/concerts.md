@@ -5,16 +5,16 @@ descriptionAlt: Silvestar's favorite concerts.
 description: Explore the exhausting list of music concerts and festivals I attended. The list is long, so I grouped them into Epic, Favotite, and Others groups.
 type: favorite-concert
 tags:
-  - favorite
+  - favorites
 thumbnail: concerts_smzvcy
 sections:
   - type: hero-alpha
     title: My concert favorites
     desc: >-
       Just my list of all concerts that I attended (that I could remember).
-
-
+    footnote: >-
       Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
+    narrow: true
   - type: cards-eta
     list:
       - title: The Stooges
@@ -1356,9 +1356,5 @@ sections:
         location: Varaždin
         year: 2021
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---

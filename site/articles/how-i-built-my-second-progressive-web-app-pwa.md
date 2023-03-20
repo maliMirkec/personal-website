@@ -28,11 +28,11 @@ In my previous attempt to make PWA, I handled everything manually. I learned abo
 
 This time, I decided to use [Workbox] to make PWA. Workbox is Google’s tool for making PWA more smoothly.
 
-> _“Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build [Progressive Web Apps].”_
+> “Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build [Progressive Web Apps].”
 
 There is an excellent [“Getting Started” guide] which I followed and set up the initial version in a matter of minutes. Workbox is providing [predefined caching strategies], like “CacheFirst” or “StaleWhileRevalidate”. You could set the caching strategy in a single line, like this:
 
-``` js
+```js
 // Serve all CSS files with StaleWhileRevalidate strategy
 workbox.routing.registerRoute(
   /\.css$/,
@@ -48,13 +48,13 @@ You could see all the strategies for Code Line Daily [in the GitHub repository].
 
 After setting the strategies, I have created the list of files to precache using [Workbox CLI]. I have installed Workbox CLI as a global `npm` package.
 
-``` bash
+```bash
 npm i -g workbox-cli
 ```
 
 After that, `workbox` command was available in my terminal. I have run the command to bring up the wizard.
 
-``` bash
+```bash
 workbox wizard --injectManifest
 ```
 
@@ -62,7 +62,7 @@ I have selected configured paths and selected files to precache, and Workbox CLI
 
 To be able to inject the files into the Service Worker file, I have added the following line to it:
 
-``` js
+```js
 workbox.precaching.precacheAndRoute([]);
 ```
 
@@ -74,11 +74,11 @@ I was quite happy how everything was working, but I realised that I would need t
 
 There is a `generateSW` mode that creates a service worker with a precaching setup which seemed like a logical option for my needs.
 
-> _“This will generate a service worker with precaching setup for all of the files picked up by your configuration.”_
+> “This will generate a service worker with precaching setup for all of the files picked up by your configuration.”
 
 Here is the configuration for my project.
 
-``` json
+```json
 {
   "globDirectory": "dist/",
   "globPatterns": [
@@ -103,7 +103,7 @@ where:
 
 After running the Gulp tasks, I got the final Service Worker file which looks like this:
 
-``` js
+```js
 // load workbox
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
 

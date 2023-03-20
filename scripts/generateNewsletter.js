@@ -1,5 +1,16 @@
 const doc = require('../site/_data/reads.json');
 
+console.log(123);
+
+const generateNewsletter = () => {
+  console.log(1234);
+}
+
+module.exports = {
+  generateNewsletter
+}
+
+/*
 // Get document, or throw exception on error
 try {
   if(!doc || !doc.length) {
@@ -84,7 +95,7 @@ ${item.desc}`
   })
   }
 
-  const docLink = `https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/`
+  const docLink = `https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/`
 
   console.log('~~~~~~~~~~~~~')
   console.log('UI Newsletter')
@@ -141,7 +152,7 @@ ${list2}
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
 
@@ -154,7 +165,7 @@ ${adsTwitter}
   console.log(`
 🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr3.join(' ')}
 
@@ -169,7 +180,7 @@ ${adsTwitter}
   console.log(`
 🆕 UI Dev Newsletter Issue ${doc.length} is out! 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr5.join(' ')}
 
@@ -182,7 +193,7 @@ ${adsMastodon}
   console.log(`
 🆕 Read the latest UI Dev Newsletter Issue ${doc.length}. 🗞️
 
-https://www.silvestar.codes/side-projects/ui-dev-mentoring/reads/${doc[0].date}/
+https://www.silvestar.codes/side-projects/ui-dev-newsletter/${doc[0].date}/
 
 Featuring${arr5.join(' ')}
 `)
@@ -203,3 +214,4 @@ ${list5}`);
 } catch (e) {
   console.log(e);
 }
+*/

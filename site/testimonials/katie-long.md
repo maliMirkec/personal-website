@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: kl_bpiofq
-date: 1999-01-03
+date: 1999-01-04
 position: Product Marketing Manager
 company: Wunder Mobility
 sections:
@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I helped rebuild the whole Wunder Mobility site?
-    ctas:
-      - href: /portfolio/wundermobility/
-        title: Wunder Mobility
+    banner: wunder-mobility
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,12 +38,8 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: It has been a pleasure working with Silvestar on various web development projects...
 ---
 
-> _It has been a pleasure working with Silvestar on various web development projects. He is not only technically skilled at his job, I am also continuously impressed with how proactive he approaches his work. In addition to finding and responding to issues, he is always looking for ways to optimise and make changes on his own. On top of his skillset, he is excellent at explaining what he is doing in a straightforward way, is always ready to help when needed and easy to work with. I can strongly recommend working with him!_
+> It has been a pleasure working with Silvestar on various web development projects. He is not only technically skilled at his job, I am also continuously impressed with how proactive he approaches his work. In addition to finding and responding to issues, he is always looking for ways to optimise and make changes on his own. On top of his skillset, he is excellent at explaining what he is doing in a straightforward way, is always ready to help when needed and easy to work with. I can strongly recommend working with him!

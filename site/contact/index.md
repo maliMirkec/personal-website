@@ -12,9 +12,5 @@ sections:
     title: Fill the form
 sections2:
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /services/
-      title: See all services
+    banner: services
 ---

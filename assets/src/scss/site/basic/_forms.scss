@@ -11,21 +11,21 @@
 // Styleguide Forms
 
 .input {
-  @extend .fw-normal;
-  @extend .lsp;
-  @extend .brad;
-  background-color: transparent;
+  background-color: var(--color-light);
   background-size: 100%;
   color: currentColor;
+  font-weight: normal;
   box-sizing: border-box;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   appearance: none;
   line-height: 1.66;
+  letter-spacing: var(--letter-spacing-beta);
   min-height: 2.75em;
   padding: .25em .5em;
   border: .1em solid currentColor;
+  border-radius: var(--border-radius);
   outline: none;
   width: 100%;
   cursor: pointer;
@@ -42,11 +42,6 @@
   &:active {
     box-shadow: 0 0 0 .15rem currentColor;
   }
-
-  // &:focus,
-  // &:active {
-  //   @extend .bsh--alpha2;
-  // }
 }
 
 form {
