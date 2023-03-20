@@ -50,25 +50,25 @@ After signing up, add a new website, and a new form from Kwes dashboard.
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 
-``` html
+```html
 <script src="https://kwes.io/js/kwes.js"></script>
 ```
 
 I am using [Hexo] static page generator for my site, but it works with other static site generators like [Hugo] or [Jekyll]. Since most of the static site generators support Markdown, you could paste the contact code directly in Markdown, and it would work, too. Otherwise, you could create a separate page or layout and paste the code there.
 
 {% note "Tip" %}
-_There is no need to add JavaScript file to pages that don't have a contact form._
+There is no need to add JavaScript file to pages that don't have a contact form.
 {% endnote %}
 
 Next, we would add an HTML form to our contact page. To do this, start by adding the usual form tags.
 
 {% note "Tip" %}
-_Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible._
+Don't forget to add labels with for attributes with matching input's IDs to make your form more accessible.
 {% endnote %}
 
 Then add the Kwes attributes. Start by adding the wrapper div with the `kwes-from` class. Next, add the action link to the `form` element, and then add rules to your `input` fields. The code should look something like this:
 
-``` html
+```html
 <div class="kwes-form">
   <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
     <label for="name">Name</label>

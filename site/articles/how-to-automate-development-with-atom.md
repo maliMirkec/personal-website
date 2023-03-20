@@ -38,7 +38,7 @@ But that doesn't feel right, too. Who has the time to copy-paste code back and f
 We should use **[editorconfig](http://editorconfig.org/)**, a set of rules which define how our code should be formatted. These rules should be written in `.editorconfig` file which should be placed in a root folder of our project. **editorconfig** provides plugins for almost every popular text editor. That's awesome, because our plugin will be beautiful no matter who works on it. Yaay!
 
 {% note %}
-_**editorconfig** rules are out of scope of this article. For full documentation, refer to [**editorconfig** official page](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)._
+**editorconfig** rules are out of scope of this article. For full documentation, refer to [**editorconfig** official page](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
 {% endnote %}
 
 What about `CSS` files?
@@ -73,7 +73,7 @@ Our source code is beautiful, now's the time to compress our files. Compressed f
 What we want is a tool which creates compressed versions of our source code files in a separate files automatically. And for that task we should use tools like **[Gulp](http://gulpjs.com/)**. **Gulp** is a task runner based on [**Node.js**](https://nodejs.org/en/). **Gulp** community created and shared quite a large number of plugins. For our tasks to compress our files, let's use [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin) and [gulp-uglify](https://www.npmjs.com/package/gulp-uglify).
 
 {% note %}
-_**Gulp** tasks are out of scope of this article, please refer to official [**Gulp** documentation](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)._
+**Gulp** tasks are out of scope of this article, please refer to official [**Gulp** documentation](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 {% endnote %}
 
 After we installed **Gulp** and defined **Gulp** tasks, we should run it from console by typing "gulp" and the name of our task. For example, `gulp cssmin`. When **Gulp** finishes with a task, our `CSS` file should be compressed. The same is with `JS` files, run `gulp uglify` inside console.

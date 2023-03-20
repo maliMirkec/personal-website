@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Cross-browser testing with the Microsoft Remote Desktop app
-date: 2023-03-14 10:00:00
+date: 2023-03-31 10:00:00
 tags:
   - blog
   - cross-browser
@@ -25,7 +25,7 @@ Although I have a reliable desktop machine, I used to refrain from using it due 
 To avoid these inconveniences, I started to use the [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) app for macOS. This fantastic app is available for free on the Mac App Store.
 
 {% note %}
-_I will refer the Microsoft Remote Desktop app as the Remote Desktop app for simplicity throughout this article._
+I will refer the Microsoft Remote Desktop app as the Remote Desktop app for simplicity throughout this article.
 {% endnote %}
 
 ## The usage
@@ -33,7 +33,7 @@ _I will refer the Microsoft Remote Desktop app as the Remote Desktop app for sim
 Let’s examine how you can effortlessly control a Windows machine from your macOS device. First, launch the Remote Desktop app, click the plus (+) icon, and select the “Add PC” option. Then enter the exact name of your Windows machine. If you don’t know it, you could use the IP address instead. To find out your local IP address, use [the following instructions](https://www.ipconfig.in/what-is-my-local-ip-address/).
 
 {% note %}
-_Your Windows machine must be connected to the same local network with or without a cable._
+Your Windows machine must be connected to the same local network with or without a cable.
 {% endnote %}
 
 Next, add a new user account associated with your Windows operating system or Microsoft website. This account will be utilized when establishing a remote connection. You can enter the credentials whenever you wish to connect or store them for future use. For more information on managing user accounts, refer to [the official documentation](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac#manage-your-user-accounts).
@@ -45,6 +45,10 @@ Take a look at what my remote connection setup looks like:
 Once everything is set up, you can easily access your Windows machine using the “Connect” option or double-clicking on the new item in the dashboard.
 
 For more detailed information on using the Remote Desktop app on macOS, check out the comprehensive documentation available at: <https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac>.
+
+## The testing
+
+Testing localhost could be done on various ways, but when testing across devices,
 
 ## Conclusion
 

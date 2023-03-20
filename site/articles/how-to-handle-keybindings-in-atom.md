@@ -23,7 +23,7 @@ In this tutorial I'll show you how you could fix this.
 <!-- more -->
 
 {% note %}
-_Windows based shortcuts will be used but the same analogy could be applied for other operating systems._
+Windows based shortcuts will be used but the same analogy could be applied for other operating systems.
 {% endnote %}
 
 ## What are keybindings?

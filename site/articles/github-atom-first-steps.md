@@ -32,7 +32,7 @@ After you've installed Atom, you should install your first package—**[sync-set
 
 ### sync-settings installation
 
-First, open Atom settings. I'm a Windows user and default shortcut for Windows is `ctrl-,`. Go to _Install_, make sure you're on _Packages_ tab, type in "sync-settings" and press _Enter._
+First, open Atom settings. I'm a Windows user and default shortcut for Windows is `ctrl-,`. Go to _Install_, make sure you're on _Packages_ tab, type in "sync-settings" and press _Enter.
 
 To install **sync-settings**, find package in a list (should be first on the list) and then click _Install_ button.
 
@@ -41,7 +41,7 @@ To install **sync-settings**, find package in a list (should be first on the lis
 ### sync-settings configuration
 
 {% note %}
-_To configure **sync-settings**, you should have [Github account](https://github.com/). If you don't have one already, create a new one, it's free._
+To configure **sync-settings**, you should have [Github account](https://github.com/). If you don't have one already, create a new one, it's free.
 {% endnote %}
 
 After you've installed **sync-settings** package, click on _Settings_. In order to make your first backup, you should fill _Personal Access Token_ and _Gist Id_. If you're not familiar with this terms, please refer to [**sync-settings** Setup section](https://atom.io/packages/sync-settings).
@@ -59,7 +59,7 @@ Open [command palette](https://atom.io/packages/command-palette) by pressing `ct
 You've successfully created your first Atom settings backup.
 
 {% note "Tip" %}
-_Whenever you install new package, edit or add new snippet or change shortcut, don't forget to make a backup of your settings._
+Whenever you install new package, edit or add new snippet or change shortcut, don't forget to make a backup of your settings.
 {% endnote %}
 
 If you have Atom installed on different device, **sync-settings** package should prompt you to restore your latest settings. That way you're always in sync.

@@ -38,4 +38,4 @@ This period overlapped with the job search, which made it worse. For a few weeks
 
 We moved last week, and I am over the moon now. I learned that my mental health is not worth any materialistic thing in this world. All that it matters is not non-materialist anyway: my daughters, my wife, my friends, my health, and our happiness.
 
-P.S. I am still looking for a job. If you want me on your team, feel free to [contact me](/contact/#form).
+P.S. I am still looking for a job. If you want me on your team, feel free to [contact me](/contact/).

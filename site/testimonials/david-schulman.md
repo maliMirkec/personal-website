@@ -26,19 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I helped migrate Domino Data Lab site from Jekyll to HubSpot CMS?
-    ctas:
-      - href: /portfolio/dominodatalab/
-        title: Domino Data Lab
-      - href: /portfolio/dominodatalab-pop/
-        title: Domino Data Lab Pop-up
-      - href: /portfolio/dominodatalab-rev/
-        title: Domino Data Lab Rev
+    banner: dominodatalab
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -46,14 +38,10 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar was INSTRUMENTAL in some of my first big wins...
 ---
 
-> _I worked with Silvestar for when I first started at Domino Data Lab, he was INSTRUMENTAL in some of my first big wins as Head of Partner Marketing, including launching the Domino Partner Network - a massive milestone for us!_
+> I worked with Silvestar for when I first started at Domino Data Lab, he was INSTRUMENTAL in some of my first big wins as Head of Partner Marketing, including launching the Domino Partner Network - a massive milestone for us!
 >
-> _Silvestar is detail-oriented, extremely responsive, and VERY CREATIVE with bringing solutions to work around dependencies and constraints. I have no doubts that Silvestar will be a KEY RESOURCE for any organization he joins!_
+> Silvestar is detail-oriented, extremely responsive, and VERY CREATIVE with bringing solutions to work around dependencies and constraints. I have no doubts that Silvestar will be a KEY RESOURCE for any organization he joins!

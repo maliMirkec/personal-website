@@ -40,9 +40,9 @@ alias pls=fuck
 
 Recently Josie posted on Twitter how she cannot remember how to add the SSH key.
 
-> _“I have been a software engineer for 7 years and I will never remember the steps to adding a SSH key to my Github profile I'm so sorry.”_
+> “I have been a software engineer for 7 years and I will never remember the steps to adding a SSH key to my Github profile I'm so sorry.”
 >
-> – [_Josie on Twitter_](https://twitter.com/javavvitch/status/1630651324420218880?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1630651324420218880%7Ctwgr%5Efeebce5c4c4b51e9286a355229bc8c45cc7efb96%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpaperusercontent.com%2Fintegrations%2Fembed%2Fiframe%2Ftweet%3Fid%3D1630651324420218880)
+>  – [_Josie on Twitter_](https://twitter.com/javavvitch/status/1630651324420218880?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1630651324420218880%7Ctwgr%5Efeebce5c4c4b51e9286a355229bc8c45cc7efb96%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpaperusercontent.com%2Fintegrations%2Fembed%2Fiframe%2Ftweet%3Fid%3D1630651324420218880)
 
 It reminded me of the SSH shortcuts that I configured many years ago. So here are my SSH shortcuts.
 
@@ -152,7 +152,7 @@ alias rrr="rm -rf"
 ```
 
 {% note %}
-_Use `rm -rf` with extreme caution. The action cannot be reverted, and all deleted files and folders are permanently gone._
+Use `rm -rf` with extreme caution. The action cannot be reverted, and all deleted files and folders are permanently gone.
 {% endnote %}
 
 ## Git shortcuts
@@ -200,7 +200,7 @@ alias gcam=commitAmend
 ```
 
 {% note %}
-_Remember to add quotation marks when using the `gc` and `gcam` shortcuts._
+Remember to add quotation marks when using the `gc` and `gcam` shortcuts.
 {% endnote %}
 
 To view all local and remote branches, I use the `gba` shortcut.

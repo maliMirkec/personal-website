@@ -36,7 +36,7 @@ The first option is `run`. If set to true, CSS Gulp tasks will be executed. Ther
 - `clean` - a path to a folder which will be cleaned before Gulp execution (almost always the same as `dest` option).
 
 {% note %}
-_All paths are prepended with global `root` path._
+All paths are prepended with global `root` path.
 {% endnote %}
 
 Other options are for [gulp-cssimport], [gulp-autoprefixer], [gulp-rename], and [gulp-sourcemaps].
@@ -45,7 +45,7 @@ Other options are for [gulp-cssimport], [gulp-autoprefixer], [gulp-rename], and 
 
 Starter Project uses [Sass] as a preprocessor for CSS. As it's official website says, Sass is "CSS with superpowers." A significant number of developers are supporters and users of this robust program. It has useful features like variables, functions, and mixins.
 
-> _“CSS with superpowers.”_
+> “CSS with superpowers.”
 
 Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
@@ -55,7 +55,7 @@ Starter Project uses [gulp-sass] plugin for compiling Sass to CSS.
 
 To use this plugin, add `@import` statement in Sass file.
 
-``` sass
+```sass
 // Plugins
 @import 'normalize';
 @import 'modularscale';
@@ -72,7 +72,7 @@ To use this plugin, add `@import` statement in Sass file.
 
 You could add `includePaths` option to the `sassConfig` settings to avoid writing full paths of the included libraries.
 
-``` json
+```json
 "sassConfig": {
   "includePaths": [
      "./node_modules/modularscale-sass/stylesheets/",
@@ -92,7 +92,7 @@ Starter Project has three libraries imported:
 - Modular Scale, and
 - Media Queries.
 
-``` sass
+```sass
 @import 'normalize';
 @import 'modularscale';
 @import 'mq';
@@ -100,9 +100,9 @@ Starter Project has three libraries imported:
 
 If your website looks inconsistent across different browsers, you probably want to use CSS technique to reset browser behavior. In Starter Project, [Normalize.css] is used for this task.
 
-> _“Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”_
+> “Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.”
 >
-> _Nicolas Gallagher_
+> — Nicolas Gallagher
 
 [Modular Scale] helps with font size consistency. [modularscale-sass] is a list of values that are used to size type and create a sense of harmony in design.
 
@@ -112,7 +112,7 @@ If your website looks inconsistent across different browsers, you probably want 
 
 Starter Project uses [gulp-autoprefixer] plugin to add vendor prefixes to CSS files. This plugin is handy as developers don't have to add these prefixes manually. In `config.json`, you could add [Autoprefixer options] to `autoprefixedConfig` settings.
 
-``` json
+```json
 "autoprefixedConfig": {
     "browsers": ["last 5 versions"],
     "cascade": false
@@ -123,7 +123,7 @@ Starter Project uses [gulp-autoprefixer] plugin to add vendor prefixes to CSS fi
 
 Source maps allow developers to see the source code for compressed assets. In Starter Project, [gulp-sourcemaps] plugin is used to create source maps for CSS and JavaScript files. If your environment doesn't require source maps, you could disable it by setting `run` option to `false` in `sourcemapsConfig`.
 
-``` json
+```json
 "sourcemapsConfig": {
   "run": true
 }
@@ -133,7 +133,7 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 [gulp-clean-css] is a Gulp plugin that acts as a wrapper for [clean-css](https://github.com/jakubpawlowicz/clean-css). In Starter Project, this plugin is used for CSS minification. To create less confusion with file names, `gulp-rename` plugin is used to rename minified assets by adding prefix or suffix to the file name.
 
-``` json
+```json
 "renameConfig": {
   "suffix": ".min"
 }
@@ -141,13 +141,13 @@ Source maps allow developers to see the source code for compressed assets. In St
 
 ## Linting
 
-> _“Linting is the process of running a program that will analyze code for potential errors.”_
+> “Linting is the process of running a program that will analyze code for potential errors.”
 >
-> _Source: [StackOverflow](https://stackoverflow.com/a/8503586)_
+> Source: [StackOverflow](https://stackoverflow.com/a/8503586)
 
 In Starter Project, [gulp-stylelint] plugin is used to lint CSS files. You could configure the plugin in `config.json` file.
 
-``` json
+```json
 "styleLintConfig": {
   "reporters": [{
     "formatter": "string",
@@ -160,7 +160,7 @@ Default settings output error in a console as a string. See all available settin
 
 Stylelint options are stored in `.stylelintrc` file.
 
-``` json
+```json
 {
   "plugins": [
     "stylelint-scss",
@@ -180,7 +180,7 @@ For all the VS Code users, here is the tip how to use Stylelint inside the edito
 
 When you open the workspace settings, add these settings.
 
-``` json
+```json
 {
   "emeraldwalk.runonsave": {
     "commands": [{

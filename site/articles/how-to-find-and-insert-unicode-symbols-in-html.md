@@ -11,18 +11,7 @@ description: I will show you a few ways how you could find and insert the Unicod
 type: articles-item
 sections2:
   - type: banner-beta
-    desc: Did you know that I am running **UI Dev Newsletter**?
-    code: >-
-      <form class="embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')">
-        <input type="hidden" value="1" name="embed" />
-        <div class="margin-top">
-          <label for="bd-email">Subscribe here. Enter email.</label>
-          <div class="newsletter__input">
-            <input class="input" type="email" name="email" id="bd-email" />
-            <input class="button button--small" type="submit" value="Subscribe" />
-          </div>
-        </div>
-        <p class="no-margin"><small><a href="https://buttondown.email" target="_blank" rel="noreferrer">Powered by Buttondown</a></small></p>
+    banner: newsletter
 ---
 
 When I started using MacBook, I couldn’t remember how to type the _right arrow_ (→) symbol. I had a very inefficient process. First, I opened the Keyboard settings on my Mac, and then I inspected sources by pressing _Shift_ or _Option_ or other functional keys until I found the character.
@@ -44,9 +33,9 @@ But, unfortunately, that also means you could forget them.
 {% note %}
 Here’s how to configure the snippet in VS Code:
 
-1. Press _Command + Shift + p_ and type _“snippets.”_
-2. Select _Preferences: Configure User Snippets_.
-3. Select _Global_ (or other, if you want file-based snippets).
+1. Press `Command + Shift + p` and type “snippets.”
+2. Select “Preferences: Configure User Snippets.”
+3. Select “Global” (or other, if you want file-based snippets).
 4. Add the following code:
 {% endnote %}
 

@@ -18,7 +18,7 @@ series: Searching for a job
 For the past year, I have been employed on a full-time basis. I am no longer employed, so I am actively searching for a new job. Unfortunately, it's been around a month, and I didn't land any job. So here are my observations (read: issues) about searching for a fully remote frontend UI developer job.
 
 {% note %}
-_You might remember that [I wrote about searching for a CSS developer job](/articles/in-search-of-a-css-developer-job/) last month. This article might be considered a sequel to this topic._
+You might remember that [I wrote about searching for a CSS developer job](/articles/in-search-of-a-css-developer-job/) last month. This article might be considered a sequel to this topic.
 {% endnote %}
 
 ## Problem #1: Not remote
@@ -29,10 +29,10 @@ Many job ads advertise that the role is remote, but they are not. They are:
 - hybrids, like you have to come to the office once a month,
 - not specified, like you cannot be sure if they are fully remote or not.
 
-The general issue is with the UI and the format of these job ads. I don't want to spend a few minutes searching for information about the remote nature of the job. Make better interfaces. **Even better, [hire me to do it](/contact/#form)!**
+The general issue is with the UI and the format of these job ads. I don't want to spend a few minutes searching for information about the remote nature of the job. Make better interfaces. **Even better, [hire me to do it](/contact/)!**
 
 {% note "About me" %}
-_I am from Croatia and always search for fully-remote jobs. I could adapt to meetings and standups, but I prefer to work in my time zone._
+I am from Croatia and always search for fully-remote jobs. I could adapt to meetings and standups, but I prefer to work in my time zone.
 {% endnote %}
 
 ## Problem #2: Skillset too specific
@@ -44,7 +44,7 @@ Stop trying to find a unicorn developer.
 Instead of listing every skill you could think of, list only relevant ones. If developers are skillful enough, they will eventually pick up on other technologies. Even better, hire another developer for other specific jobs.
 
 {% note "About me" %}
-_I have experience with PHP, NodeJS, Chrome extensions, and whatnot, but I don't list all of these in my CV. I learned those out of necessity, and I don't consider myself an expert in these fields._
+I have experience with PHP, NodeJS, Chrome extensions, and whatnot, but I don't list all of these in my CV. I learned those out of necessity, and I don't consider myself an expert in these fields.
 {% endnote %}
 
 ## Problem #3: React/TypeScript everywhere
@@ -52,7 +52,7 @@ _I have experience with PHP, NodeJS, Chrome extensions, and whatnot, but I don't
 [I wrote about this topic before](/articles/you-don-t-need-react-for-building-websites/), so I will be very brief here. I feel like every single job ad requires React and TypeScript. Stop listing React just because you think you will get a better developer on your team, or you might need a React developer sometime in the future. Many developers don't use React and could do much more without it.
 
 {% note "About me" %}
-_I have tried to learn React, and every time I started, I realized that I didn't need it to build websites. I worked with AngularJS in 2016, but that was the web application where the JavaScript framework makes sense if you ask me. As you might have guessed, I am a website developer, which I [tried to explain in another post](/articles/about-roles-in-the-front-end-development-department/)._
+I have tried to learn React, and every time I started, I realized that I didn't need it to build websites. I worked with AngularJS in 2016, but that was the web application where the JavaScript framework makes sense if you ask me. As you might have guessed, I am a website developer, which I [tried to explain in another post](/articles/about-roles-in-the-front-end-development-department/).
 {% endnote %}
 
 ## Too many applicants
@@ -65,7 +65,7 @@ Instead of accepting every application, there should be a quick test or survey o
 
 ## Problem #4: Outdated job ads
 
-I don't think job ads older than a month should be listed on job board sites. Or jobs that are canceled, filled, not existing, or inactive. Stop displaying these jobs. Instead, make a little effort to mark positions stale automatically and hide them from search. **Even better, [hire me to do it](/contact/#form).**
+I don't think job ads older than a month should be listed on job board sites. Or jobs that are canceled, filled, not existing, or inactive. Stop displaying these jobs. Instead, make a little effort to mark positions stale automatically and hide them from search. **Even better, [hire me to do it](/contact/).**
 
 ## Problem #5: Less volume
 
@@ -76,11 +76,11 @@ I got a sense that there are fewer jobs than usual this fall, and I am not alone
 The biggest problem I have at the moment is that I am finishing the biggest project in my life, building a brand new house from the ground up. Coordinating all these workers, taking care of the paperwork, and ensuring everyone's job is done correctly is very stressful. It is quite time-consuming, too. So is the job searching. I spend a few hours everyday browsing, reading, and applying. Although I managed to write a few blog posts and start my new side project, [Invalid CSS](/side-projects/invalid-css/), I feel like I should've invested more time in these activities instead of looking for a job. That's how I landed a few jobs before so you can expect more posts from me.
 
 {% note "About me" %}
-_If you’re wondering, the house will be finished in the next few weeks._
+If you’re wondering, the house will be finished in the next few weeks.
 {% endnote %}
 
 ## Conclusion
 
-I am not looking for a perfect job, but I will not accept anything outside my comfort zone. I had a trial for the developer advocate position, but I quickly realized that is not for me. So, [contact me](/contact/#form) if you want a developer with 10+ years of experience that could help you make better websites in your team.
+I am not looking for a perfect job, but I will not accept anything outside my comfort zone. I had a trial for the developer advocate position, but I quickly realized that is not for me. So, [contact me](/contact/) if you want a developer with 10+ years of experience that could help you make better websites in your team.
 
 P.S. [Check my portfolio](/portfolio/), too.

@@ -47,18 +47,6 @@
   p {
     margin: 0;
   }
-
-  a {
-
-    &:hover,
-    &:focus,
-    &:active {
-      text-decoration: underline;
-      text-decoration-style: wavy;
-      text-decoration-thickness: from-font;
-      text-underline-offset: 0.25em;
-    }
-  }
 }
 
 .advent-banner {

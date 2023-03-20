@@ -60,6 +60,7 @@ img {
     left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    border-radius: var(--border-radius);
 
     &:not([src]) {
       display: none;
@@ -78,25 +79,29 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  &:not([class*="wrapper-"]) {
+  &:not([class*="wrapper--"]) {
     max-width: calc(var(--bp) + 2rem);
   }
 }
 
 .wrapper--alpha {
-  max-width: calc(var(--bp3) + 2rem);
+  @include mq($from: bp2) {
+    max-width: calc(var(--bp2) + 2rem);
+  }
+
+  @include mq($from: bp3) {
+    max-width: calc(var(--bp3) + 2rem);
+  }
 }
 
 .wrapper--beta {
-  max-width: calc(var(--bp2) + 2rem);
+  @include mq($from: bp2) {
+    max-width: calc(var(--bp2) + 2rem);
+  }
 }
 
 .wrapper--gamma {
   max-width: calc(var(--bp1) + 2rem);
-}
-
-.circle {
-  border-radius: 50%;
 }
 
 .brad {
@@ -154,8 +159,8 @@ hr {
     padding-bottom: 1rem;
 
     &:before {
-      content: "★";
-      font-size: .5rem;
+      content: " ★ ";
+      font-size: var(--step--2);
       position: absolute;
       top: 50%;
       left: 50%;
@@ -191,16 +196,6 @@ p {
 @include mq($until: bp1) {
   .hidden-sm {
     display: none;
-  }
-}
-
-.avatar {
-  min-width: 60px;
-
-  a:hover & {
-    img {
-      filter: brightness(110%);
-    }
   }
 }
 

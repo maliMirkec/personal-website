@@ -20,7 +20,7 @@ GitHub profile is often recognised as a developer’s portfolio. It reveals how 
 <!-- more -->
 
 {% note %}
-_This analysis doesn't include repositories from my clients._
+This analysis doesn't include repositories from my clients.
 {% endnote %}
 
 ## GitHub profile
@@ -41,7 +41,7 @@ Here are some facts from [my Contribution activity graph]:
 
 Sourcerer is an open-source project that gives a visual overview of your GitHub profile.
 
-> _“Sourcerer is a visual profile for SWEs that analyzes and derives your abilities, preferences, and habits from your commits and source code.”_
+> “Sourcerer is a visual profile for SWEs that analyzes and derives your abilities, preferences, and habits from your commits and source code.”
 
 Here are some facts from [my Sourcerer profile]:
 

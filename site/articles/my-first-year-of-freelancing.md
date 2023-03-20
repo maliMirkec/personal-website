@@ -18,7 +18,7 @@ series: Year of freelancing
 About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 
 {% note %}
-_I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization._
+I am writing this article from a frontend developer perspective, as I am one. I have specialized in User Interface, Static Page Generators, WordPress, and page speed optimization.
 {% endnote %}
 
 <!-- more -->
@@ -27,7 +27,7 @@ _I am writing this article from a frontend developer perspective, as I am one. I
 
 I am a member of [Toptal] talent network, and most of my clients are part of this [formidable networks] as well. I worked with seven Toptal clients. I also worked with a couple of [Upwork] clients. Two of my clients engaged me via my website. I worked as a mentor on [Codementor]. I also worked on a couple of projects with my friends, pro bono.
 
-> _“Toptal is a private, elite talent network with thousands of members across 100+ countries. Of the hundreds of thousands who apply each year, fewer than 3% gain admission to the network.”_
+> “Toptal is a private, elite talent network with thousands of members across 100+ countries. Of the hundreds of thousands who apply each year, fewer than 3% gain admission to the network.”
 
 In total, I worked with thirteen clients and seventeen mentees.
 
@@ -35,7 +35,7 @@ Clients came from all over the world: United States, Canada, United Kingdom, Ger
 
 In my opinion, investing in the relationship with a client is the most critical part. Earning trust from a remote position is not easy. Being kind could take you a long way with your client, and it doesn't cost you a thing.
 
-> _“During my first year of freelancing, I didn't have a single negative experience with any client.”_
+> “During my first year of freelancing, I didn't have a single negative experience with any client.”
 
 Getting the job done is also important. Never promise what you cannot deliver. It is okay to say that you need a couple of hours to do research. It is okay to say that you are not the right person for that task. It depends on a project type and the team.
 

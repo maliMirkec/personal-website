@@ -1,10 +1,124 @@
 {
   "newsletter": {
-    "desc": "Did you know that I am running **UI Dev Newsletter**?",
-    "code": "<form class=\"embeddable-buttondown-form newsletter wrapper wrapper--gamma margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://buttondown.email/starbist', 'popupwindow')\">  <input type=\"hidden\" value=\"1\" name=\"embed\" />\n  <div class=\"margin-top\">\n    <label for=\"bd-email\">Subscribe here. Enter email.</label>\n    <div class=\"newsletter__input\">\n      <input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n      <input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n    </div>\n  </div>\n  <p class=\"no-margin\"><small><a href=\"https://buttondown.email\" target=\"_blank\" rel=\"noreferrer\">Powered by Buttondown</a></small></p>\n</form>"
+    "desc": "Stay ahead of the latest **UI Dev** news and subscribe to my newsletter.",
+    "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://buttondown.email/starbist', 'popupwindow')\"><input type=\"hidden\" value=\"1\" name=\"embed\" />\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n</div>\n</div>\n\n</form>"
   },
   "job": {
     "desc": "I am open for new projects.",
-    "code": "<a class=\"button button--small\" href=\"/contact/#form\">Contact me</a>"
+    "code": "<a class=\"button button--small\" href=\"/contact/\">Contact me</a>"
+  },
+  "testimonials": {
+    "desc": "Over **20 professionals** from several companies vouched for me.",
+    "cta": {
+      "href": "/testimonials/",
+      "title": " See all testimonials"
+    }
+  },
+  "freelance": {
+    "desc": "I have been working as a freelance contractor since **2017**.",
+    "cta": {
+      "href": "/articles/a-story-of-becoming-a-web-developer/",
+      "title": "Read the full story"
+    }
+  },
+  "interview": {
+    "desc": "**Remote Working Hub** interviewed me about my remote working.",
+    "cta": {
+      "href": "/articles/interview-for-remote-working-hub/",
+      "title": "Read the interview"
+    }
+  },
+  "blog": {
+    "desc": "I have been writing about frontend, web dev, and freelancing since **2016**.",
+    "cta": {
+      "href": "/articles/",
+      "title": "View all articles"
+    }
+  },
+  "css-auditors": {
+    "desc": "I started **CSS Auditors**, a site dedicated to analyzing CSS code.",
+    "cta": {
+      "href": "https://css-auditors.com",
+      "title": "Learn more about CSS Auditors"
+    }
+  },
+  "codescan": {
+    "desc": "I rebuild the whole site for CodeScan using **the Hugo framework**.",
+    "cta": {
+      "href": "/portfolio/codescan/",
+      "title": "See the project"
+    }
+  },
+  "dominodatalab": {
+    "desc": "I helped migrate Domino Data Lab site from **Jekyll** to **HubSpot CMS**.",
+    "cta": {
+      "href": "/portfolio/dominodatalab/",
+      "title": "See the project"
+    }
+  },
+  "wunder-mobility": {
+    "desc": "I helped rebuild the whole Wunder Mobility site using **Jekyll** and **Contentful**.",
+    "cta": {
+      "href": "/portfolio/wundermobility/",
+      "title": "See the project"
+    }
+  },
+  "westwing": {
+    "desc": "I build the whole site for Westwing using **the Hugo framework**.",
+    "cta": {
+      "href": "/portfolio/westwing/",
+      "title": "See the project"
+    }
+  },
+  "pinecone": {
+    "desc": "I built a site for Pinecone, powered by **Hugo**, “the world’s fastest framework.”",
+    "cta": {
+      "href": "/portfolio/pinecone/",
+      "title": "See the project"
+    }
+  },
+  "bozzuto": {
+    "desc": "I developed a library of **reusable UI components** for Bozzuto.",
+    "cta": {
+      "href": "/portfolio/bozzuto/",
+      "title": "See the project"
+    }
+  },
+  "creditcardinsider": {
+    "desc": "I built **the WordPress theme** for the Credit Card Insider website.",
+    "cta": {
+      "href": "/portfolio/creditcardinsider/",
+      "title": "See the project"
+    }
+  },
+  "hanhanxue": {
+    "desc": "I built the whole site for Han Han Xue on **Middleman framework**?",
+    "cta": {
+      "href": "/portfolio/hanhanxue/",
+      "title": "See the project"
+    }
+  },
+  "yearbook-trase": {
+    "desc": "I built **the WordPress template** for the Trase Yearbook 2018?",
+    "cta": {
+      "href": "/portfolio/yearbook-trase/",
+      "title": "See the project"
+    }
+  },
+  "consultation": {
+    "title": "Get professional web development advice",
+    "desc": "I specialize in technologies related to frontend, user interface, and website development.",
+    "cta": {
+      "href": "/contact/",
+      "title": "Get in touch"
+    }
+  },
+  "services": {
+    "title": "Get professional web development advice",
+    "desc": "I specialize in technologies related to frontend, user interface, and website development.",
+    "cta": {
+      "href": "/services/",
+      "title": "Explore all services"
+    }
   }
 }

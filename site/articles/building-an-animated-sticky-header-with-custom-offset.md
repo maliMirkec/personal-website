@@ -37,7 +37,7 @@ For a better understanding of how this code works, we should examine the HTML st
 
 Here's the simplified preview of the HTML structure:
 
-``` html
+```html
 <main>
   <header>
     <div class="header header--alpha">
@@ -64,7 +64,7 @@ Header holds two elements:
 
 First, let's style our wrapper element. It should have position relative by default, and sticky once the offset is reached.
 
-``` css
+```css
 header {
   top: 0;
   position: relative;
@@ -80,7 +80,7 @@ The property `top: 0` would make sure our header is stuck to the top, and the pr
 
 Next, we should define the behavior of the header parts.
 
-``` css
+```css
 .header--alpha {
   transition: .225s ease-out;
 }
@@ -94,7 +94,7 @@ Next, we should define the behavior of the header parts.
 
 `.header--alpha`, our static header is visible by default. When the user scrolls past the offset, and the wrapper `header` element becomes sticky, it will be translated outside of the wrapper element instantaneously without any transition effect. Note that element will be transitioned when it goes to the original position when sticky effect won't be active.
 
-``` css
+```css
 .header--beta {
   position: absolute;
   top: 0;
@@ -117,7 +117,7 @@ Next, we should define the behavior of the header parts.
 
 You might have noticed the `.fake-header` element.
 
-``` css
+```css
 .fake-header {
   height: 1px;
   position: relative;
@@ -126,7 +126,7 @@ You might have noticed the `.fake-header` element.
 
 This element serves as an offset for the scroll. When it reaches the top of the viewport, the header becomes sticky. And when the header becomes sticky, the fake element will be pushed up by the height of the header plus one extra pixel. When the user scrolls up and reaches the fake element in its new position, the sticky effect will be turned off.
 
-``` js
+```js
 const $realSticky = document.querySelector("header");
 const $fakeSticky = document.querySelector(".fake-header");
 
@@ -149,7 +149,7 @@ window.addEventListener("scroll", _.debounce(stickyHeader(), 15));
 In this example, [lodash debounce](https://lodash.com/docs/4.17.10#debounce) function is used to execute the task on scroll event.
 
 {% note %}
-_I am aware the I could write better JS code and avoid adding the `.fake-header` element, but I wanted to create a demo without too many calculations._
+I am aware the I could write better JS code and avoid adding the `.fake-header` element, but I wanted to create a demo without too many calculations.
 {% endnote %}
 
 ## Extra
@@ -158,7 +158,7 @@ Since the static header determines the height of the wrapper element, we have a 
 
 We could use pointer-events to fix this issue:
 
-``` css
+```css
 header {
   pointer-events: none;
 }

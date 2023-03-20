@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I build the whole site for Westwing on Hugo framework?
-    ctas:
-      - href: /portfolio/westwing/
-        title: See the project
+    banner: westwing
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,12 +38,8 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: It was a pleasure to work with Silvestar. The collaboration between us during our...
 ---
 
-> _It was a pleasure to work with Silvestar. The collaboration between us during our several projects was really good and the results are always is super good quality. I would work with him again._
+> It was a pleasure to work with Silvestar. The collaboration between us during our several projects was really good and the results are always is super good quality. I would work with him again.

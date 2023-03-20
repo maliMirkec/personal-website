@@ -31,7 +31,7 @@ When I got back to that particular code to update the names of the modifiers, I 
 
 After a while, I started using the same with Sass variables. Here is how color variables for my site look:
 
-``` sass
+```css
 $color-alpha: #12e09f;
 $color-beta: #e01258;
 $color-gamma: #f5f5f5;
@@ -57,7 +57,7 @@ Now we could modify the style as we please and our classes wouldn't lose meaning
 
 There is a potential brain processing overhead here because you have to remember which letter stands for which version of an element. Try to reduce your brain usage by documenting your variables and modifiers and not using too many variations for a single component.
 
-> _“Use `psi` and `omega` to name different or completely distinct variables or modifiers.”_
+> “Use `psi` and `omega` to name different or completely distinct variables or modifiers.”
 
 For example, I am using `color-psi` for text color, and `color-omega` for white color. These are opposites of `color-alpha,` `color-beta,` and `color-gamma` which serves as theme/brand colors in my case.
 

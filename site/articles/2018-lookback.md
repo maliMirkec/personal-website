@@ -59,7 +59,7 @@ What I did notice is that React is a top requirement, even for jobs that don't u
 Having that said, I think this year showed us that frontend role is separating in two directions: engineering and user interface. The problem is that some employers don't know the difference. Therefore developers who didn't know the answer to [Max's question] try to solve the problem by introducing `CSS-in-JS` techniques.
 
 {% note %}
-_I am generalizing here, but I do think the CSS is underrated._
+I am generalizing here, but I do think the CSS is underrated.
 {% endnote %}
 
 I also didn't see much HTML/CSS roles, besides quick roles for converting designs to pages. What I did see are roles for UX/UI designers where you need to know how to design and how to translate designs to HTML/CSS code. From my experience, there aren't many designers who know how to code and vice versa. I mean, I know how to use Photoshop, Sketch, and InVision, but I am not a designer.
@@ -78,7 +78,7 @@ Another trend that is common when talking about static sites is CMS. Although I 
 
 I have developed a couple of custom solutions for static sites, like integrating third-party software, creating Lambda functions, and adding custom build hooks. Static sites might not be so “static.”
 
-> _“It is interesting that every client that needed static site approached me directly. I haven't seen many job posts about static sites, too. I guess finding a developer for the static site is not that easy yet.”_
+> “It is interesting that every client that needed static site approached me directly. I haven't seen many job posts about static sites, too. I guess finding a developer for the static site is not that easy yet.”
 
 ## Blogging
 

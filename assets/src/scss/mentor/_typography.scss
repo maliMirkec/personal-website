@@ -20,22 +20,11 @@ body {
     font-size: ms(7 - $i);
     font-weight: bold;
     text-transform: uppercase;
-    @include ls(25);
-    @include ws(100);
     position: relative;
 
     &:first-letter {
       font-size: 1.5em;
       line-height: 0.75;
-    }
-
-    &:not(.plain):after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      width: 20%;
-      max-width: 2em;
-      height: .15em;
     }
 
     &:target {
@@ -51,18 +40,16 @@ body {
       margin-top: 2em;
     }
 
-    @include mq($until: desktop) {
-      &:not(.plain):after {
-        left: 40%;
-        background-image: linear-gradient(to right, transparent, $color-delta 50%, transparent);
-      }
-    }
-
     @include mq($from: desktop) {
       &:not(.plain):after {
+        content: "";
+        background-image: linear-gradient(to right, $color-delta 50%, transparent);
+        position: absolute;
         top: 100%;
         left: 0;
-        background-image: linear-gradient(to right, $color-delta 50%, transparent);
+        width: 20%;
+        max-width: 2em;
+        height: .15em;
       }
     }
   }
@@ -75,5 +62,9 @@ body {
 pre,
 code,
 .code {
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: $font-beta;
+}
+
+.tac {
+  text-align: center;
 }

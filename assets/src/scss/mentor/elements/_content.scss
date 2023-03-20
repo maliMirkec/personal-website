@@ -77,7 +77,6 @@ section {
       justify-content: center;
       color: $color-delta;
       font-size: ms(-3);
-      @include ws(500);
     }
   }
 
@@ -198,7 +197,6 @@ img {
   left: rem(3);
   margin-top: rem(30);
   border-radius: rem(3);
-  @include ls(50);
 
   &:after {
     content: "⤑";

@@ -19,7 +19,7 @@ I am here to take a stand and defend CSS, my most favorite programming language.
 {% cldnry "In_defense_of_CSS_cgqzds" "In defense of CSS." 824 412%}
 
 {% note %}
-_I asked [a question about respecting CSS on Dev.to](https://dev.to/starbist/so-how-many-of-you-respect-css-as-a-programming-language-1mj4) earlier this year. Unfortunately, the discussion escalated and went in the entirely wrong direction._
+I asked [a question about respecting CSS on Dev.to](https://dev.to/starbist/so-how-many-of-you-respect-css-as-a-programming-language-1mj4) earlier this year. Unfortunately, the discussion escalated and went in the entirely wrong direction.
 {% endnote %}
 
 If you started to learn CSS in the last couple of years, consider yourself lucky. I have been kind of lucky, too, and I have avoided *table layouts*, but I had to deal with *float layout*. Today, CSS is much nicer and friendlier, and you don't need to use too many "hacks." No matter what, I always loved it.
@@ -40,7 +40,7 @@ What I did not do was **complain** all over the Internet about it. Instead, I go
 
 ---
 
-> _And remember, it is not CSS' fault that you don't know how to use it._
+> And remember, it is not CSS' fault that you don't know how to use it.
 
 Before you decide to write something terrible about CSS, try to understand what is going on first. Mastering CSS is all about understanding the context and concept and everything in between. It is not CSS' fault that you don't know how to use it.
 

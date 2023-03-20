@@ -34,7 +34,7 @@ Let's break this into smaller modules:
 
 First three are easy to create, especially if using flexbox to center the content.
 
-``` html
+```html
 <a class="hero" href="//www.silvestar.codes" target="_blank">
   <div class="hero__content">
     <h1 class="hero__text">
@@ -47,7 +47,7 @@ First three are easy to create, especially if using flexbox to center the conten
 </a>
 ```
 
-``` css
+```css
 .hero {
   position: relative;
   overflow: hidden;
@@ -66,7 +66,7 @@ To create the crooked border, we will use CSS triangle. It's pretty old techniqu
 
 In our case, we'll use `:after` pseudo element to create a crooked solid bottom border. Here's the code:
 
-``` css
+```css
 .hero:after {
   content: "";
   position: absolute;
@@ -90,7 +90,7 @@ Then it hit me—I should use a crooked transparent gradient on a box that is as
 
 First, we should create an element that is as tall as `:after` pseudo element. We could use `:before` pseudo element for this purpose. Then we should add linear gradient at the correct angle and percentage. In our case, linear gradient should go to the top left corner until 50%. Finally, we should scale and translate element to make it visible.
 
-``` css
+```css
 .hero:before {
   content: "";
   position: absolute;
@@ -105,7 +105,7 @@ First, we should create an element that is as tall as `:after` pseudo element. W
 ```
 
 {% note %}
-_In order to make this work, don't forget to add `position: relative` and `overflow: hidden` on `.hero` element._
+In order to make this work, don't forget to add `position: relative` and `overflow: hidden` on `.hero` element.
 {% endnote %}
 
 And here's the final solution:

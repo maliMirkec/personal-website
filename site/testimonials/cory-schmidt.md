@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: cs_tru73j
-date: 1999-01-01
+date: 1999-01-02
 position: Chief Revenue Officer
 company: Wunder Mobility
 sections:
@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I helped rebuild the whole Wunder Mobility site?
-    ctas:
-      - href: /portfolio/wundermobility/
-        title: Wunder Mobility
+    banner: wunder-mobility
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,18 +38,14 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 
-> _Silvestar has been our web developer at Wunder Mobility for the past year. In that time, I’ve found him to be diligent, highly talented, hard working, collaborative and self-motivated._
+> Silvestar has been our web developer at Wunder Mobility for the past year. In that time, I’ve found him to be diligent, highly talented, hard working, collaborative and self-motivated.
 >
-> _When Silvestar took over our domain, it had multiple technical issues and was on an outdated CMS. He quickly made progress and improved our technical set up making iterative gains each week. At the same time, he worked together with our Creative team to improve the design of the website. He was able to not only collaborate with designers but had synergy and helped improve the overall UI and UX._
+> When Silvestar took over our domain, it had multiple technical issues and was on an outdated CMS. He quickly made progress and improved our technical set up making iterative gains each week. At the same time, he worked together with our Creative team to improve the design of the website. He was able to not only collaborate with designers but had synergy and helped improve the overall UI and UX.
 >
-> _Silvestar is a thought-leader in web development, and his work reflects it. His knowledge goes beyond development of websites and extends into areas like technical SEO and backend development. He assisted on Google Ads and CRM connection projects that were vital to our success._
+> Silvestar is a thought-leader in web development, and his work reflects it. His knowledge goes beyond development of websites and extends into areas like technical SEO and backend development. He assisted on Google Ads and CRM connection projects that were vital to our success.
 >
-> _Silvestar is a great developer to work with, and I recommend him to any Marketing team._
+> Silvestar is a great developer to work with, and I recommend him to any Marketing team.

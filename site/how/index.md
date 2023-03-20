@@ -12,11 +12,7 @@ sections:
     narrow: true
 sections2:
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 ---
 
 This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It's featured on [JAMStack as an example](https://jamstack.org/examples/). I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate cta. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.

@@ -29,25 +29,25 @@ Before we see the plugin in action, let's see how to install it.
 
 You could install Classily.js by cloning a repository from GitHub:
 
-``` bash
+```bash
 git clone https://github.com/maliMirkec/Classily.js.git
 ```
 
 or by installing using npm:
 
-``` bash
+```bash
 npm install classily.js
 ```
 
 or using yarn:
 
-``` bash
+```bash
 yarn add classily.js
 ```
 
 or using Bower:
 
-``` bash
+```bash
 bower install classily.js
 ```
 
@@ -56,7 +56,7 @@ bower install classily.js
 To initialize Classily.js, add `script` tag to your `HTML` document with path to Classily.js.
 Next, make new Classily instance and you are good to go!
 
-``` javascript
+```javascript
 new Classily ({
   selector: '.my-selector'
 })
@@ -96,7 +96,7 @@ Enough theory, let's see this plugin in action.
 
 To trigger class toggle action, you should add the following code:
 
-``` html
+```html
 <button type="button"
   class="js-classily"
   data-target=".my-class"
@@ -123,7 +123,7 @@ If you click on the "Toggle button" in the example below, you should see that bo
 
 Here's the code:
 
-``` html
+```html
 <button class="js-classily"
   type="button"
   data-target=".my-class"
@@ -147,7 +147,7 @@ In the example below, we are toggling two different classes on two separate elem
 
 The number of comma-separated selectors must match the number of comma-separated classes. Notice that second element is toggling two different classes, `hidden` and `blue`—we could provide more that one class by using space as separator.
 
-``` html
+```html
 <button type="button"
   class="js-classily"
   data-target=".my-first-target, .my-second-target"
@@ -176,7 +176,7 @@ Once we activate "blue", "red" or "gold" state, the heading could never go back 
 
 To create the same effect, think how many lines of `JavaScript` code you should write. And now let's look how we could achieve this effect using Classily.js:
 
-``` html
+```html
 <button type="button"
   class="js-classily"
   data-target=".my-class.red, .my-class.gold, .my-class:not(.blue)"
@@ -199,7 +199,7 @@ Often there is a need to switch the state of the element itself, like the button
 
 To avoid usage of complicated selectors, we could use the keyword `this`.
 
-``` html
+```html
 <a href="https://github.com/maliMirkec/Classily.js"
   class="button-switch js-classily"
   data-target="this"

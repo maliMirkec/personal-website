@@ -26,15 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I rebuild the whole site for CodeScan on Hugo framework?
-    ctas:
-      - href: /portfolio/codescan/
-        title: See the project
+    banner: codescan
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -42,12 +38,8 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile...
 ---
 
-> _Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project out the door. I would definitely look to hire him for any future web work._
+> Silvestar is knowledgeable, easy to work with and will always go the extra mile to get a time sensitive project out the door. I would definitely look to hire him for any future web work.

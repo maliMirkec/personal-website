@@ -5,7 +5,7 @@ date: 2021-07-07 15:00:00
 tags:
   - blog
   - web design
-  - web development
+  - web dev
 thumbnail: The_evolution_of_the_design_of_my_site_oa5pqh
 description: As any self-respected developer, I redesigned my site many times. I thought it would be fun to document all these designs and see the evolution.
 type: articles-item
@@ -38,7 +38,7 @@ But the biggest game-changer for me was Netlify. It was free, it got everything 
 Netlify offers so many features. I even wrote a blog post [about my favorite parts of Netlify](/articles/my-favorite-netlify-features/). One of the features I find pretty convenient is [Deploy Preview](https://docs.netlify.com/site-deploys/deploy-previews/).
 
 {% note %}
-_Every deploy also has a permalink that starts with the deploy ID number. For example: `1234abcd12acde000111cdef--yoursitename.netlify.app`. The contents of this URL never change, even after you redeploy your site._
+Every deploy also has a permalink that starts with the deploy ID number. For example: `1234abcd12acde000111cdef--yoursitename.netlify.app`. The contents of this URL never change, even after you redeploy your site.
 {% endnote %}
 
 Every deployment has a permalink that works forever. That means that you could see the version of my site from July 2017 until today. This feature allowed me to find all design updates. Let go over each one.
@@ -58,7 +58,7 @@ The site was responsive. There is no need to emphasize that today, but it was a 
 At that time, I coined my first tagline, which I am using today.
 
 {% note "Tagline" %}
-_Fearless web developer._
+Fearless web developer.
 {% endnote %}
 
 I used a single font family: [Exo 2](https://fonts.google.com/specimen/Exo+2).

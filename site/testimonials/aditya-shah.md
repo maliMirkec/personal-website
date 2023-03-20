@@ -26,19 +26,11 @@ sections:
       title: Testimonials
 sections2:
   - type: banner-beta
-    desc: >-
-      Did you know that I helped migrate Domino Data Lab site from Jekyll to HubSpot CMS?
-    ctas:
-      - href: /portfolio/dominodatalab/
-        title: Domino Data Lab
-      - href: /portfolio/dominodatalab-pop/
-        title: Domino Data Lab Pop-up
-      - href: /portfolio/dominodatalab-rev/
-        title: Domino Data Lab Rev
+    banner: dominodatalab
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them come from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
   - type: cards-beta
     cta:
       title: Read the testimonial
@@ -46,12 +38,8 @@ sections2:
     exclude: true
     limit: 6
   - type: banner-alpha
-    title: Get professional web development advice
-    desc: I specialize in technologies related to frontend, user interface, and website development.
-    cta:
-      href: /contact/
-      title: Hire me
+    banner: consultation
 excerpt: Silvestar was an outstanding collaborator, supremely dependable doer...
 ---
 
-> _Silvestar was an outstanding collaborator, supremely dependable doer, and an absolutely crucial partner in our most critical web projects. We simply couldn't have accomplished everything we did without him. Any team lucky enough to work with Silvestar will be as thrilled, impressed, and grateful as we are._
+> Silvestar was an outstanding collaborator, supremely dependable doer, and an absolutely crucial partner in our most critical web projects. We simply couldn't have accomplished everything we did without him. Any team lucky enough to work with Silvestar will be as thrilled, impressed, and grateful as we are.

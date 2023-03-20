@@ -32,7 +32,7 @@ It contains eight different paths for different paths of signature. For example,
 
 Once I have exported the SVG from Sketch, I reordered paths in such a way that they appear as I want them to animate: first the letter “S”, then the dot, then the letter “B” and so on. Also, I have added `autograph` and `autograph__path` classes for easier JavaScript manipulation and styling. Here's the final file:
 
-``` html
+```html
 <svg class="autograph" height="103" viewBox="0 0 424 103" width="424" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(2 2)">
     <path class="autograph__path"
@@ -71,7 +71,7 @@ These two properties should be equal to make it work. Now we could try to guess 
 
 Here's the whole JavaScript function (with comments for easier understanding):
 
-``` js
+```js
 const calcPaths = (totalDur) => {
   // unset 'animated' class to body which will reset the animation
   document.body.classList.add('animated')
@@ -128,7 +128,7 @@ calcPaths(5)
 ```
 
 {% note "Tip" %}
-_Be sure to check [the browser compability](https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength#Browser_compatibility) before you use this technique._
+Be sure to check [the browser compability](https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getTotalLength#Browser_compatibility) before you use this technique.
 {% endnote %}
 
 ## CSS animation
@@ -137,7 +137,7 @@ CSS animation consists of setting the final `stroke-dashoffset` back to zero.
 
 I have used `linear` for `animation-timing-function` and `forwards` for `animation-fill-mode`. The first attribute makes the animation linear, which seemed the most natural to me. The second one tells the animation to stay at 100% state.
 
-``` scss
+```scss
 .autograph__path {
   opacity: 0;
   animation-timing-function: linear;

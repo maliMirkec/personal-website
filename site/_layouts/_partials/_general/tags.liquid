@@ -12,18 +12,12 @@
           <p>There are {{ cardTagsSize }} tags overall.</p>
         {% endif %}
       </div>
-      <div class="card">
-        <div class="padding">
-          {% for cardTag in cardTags %}
-            <a class="button button--small button--inverse" href="/tags/{{ cardTag | downcase }}/">{{ cardTag }}</a>
-          {% endfor %}
-        </div>
+      <div class="margin-bottom-alpha">
+        {% for cardTag in cardTags %}
+          <a class="button button--invisible button--small" href="/tags/{{ cardTag | downcase }}/">{{ cardTag }}</a>
+        {% endfor %}
       </div>
-      <div class="card">
-        <div class="padding">
-          <a class="button button--small" href="/tags/all/">See all content</a>
-        </div>
-      </div>
+      <a class="button" href="/tags/all/">Explore content</a>
     </div>
   </section>
 {% endif %}

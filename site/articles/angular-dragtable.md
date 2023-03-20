@@ -53,7 +53,7 @@ To install **Angular dragtable**, clone the repository from Github or use bower 
 
 Include **Angular dragtable** in your project.
 
-``` js
+```js
 (function (DemoApp) {
   'use strict';
 
@@ -65,7 +65,7 @@ Include **Angular dragtable** in your project.
 
 To enable reorder of table header cells, use `drag-me` and `drop-me` directives.
 
-``` html
+```html
 <table>
   <thead>
     <tr>
@@ -89,7 +89,7 @@ To enable reorder of table header cells, use `drag-me` and `drop-me` directives.
 
 If you want to use a custom handle for _drag_ events, you should provide selector via `data-handle` attribute.
 
-``` html
+```html
 <th drag-me drop-me data-handle=".my-handle">
   <span class="my-handle drag-icon"></span> Column name
 </th>
@@ -99,7 +99,7 @@ Be sure to place handle element inside header cell.
 
 To make **Angular dragtable** more performant, especially when using a large table, we should use `data-limit` option. When this option is provided, a number of _ghost_ column elements are limited. That means less iteration during `drag` event.
 
-``` html
+```html
 <th drag-me drop-me data-limit="50"><th>
 ```
 

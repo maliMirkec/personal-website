@@ -29,7 +29,7 @@ It is a quite straightforward project: a new line of code would be introduced ev
 
 To build this project, I have used [Starter Project]. It is a Gulp based boilerplate that I created last year. It has grown a lot, and for this project, I have introduced JSON data files.
 
-``` json
+```json
 {
   "list": [
     {
@@ -52,36 +52,36 @@ To build this project, I have used [Starter Project]. It is a Gulp based boilerp
 }
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/api/lines.json)._
+[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/api/lines.json).
 
 Here is the basic JSON structure—an array of object items. [gulp-data] plugin is used to include, parse, and display the data on the homepage, archive, and author pages.
 
-``` pug
+```pug
 - var list = locals.data.list ? locals.data.list.filter(item => new Date(item.date) < new Date()) : [];
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/mixins/variables.pug)._
+[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/mixins/variables.pug).
 
 To display only current lines and not future ones, I have used `filter` function with a date condition. That way, future lines won't be displayed. Also, I have set up Zapier to trigger a new build every day in the morning.
 
-``` pug
+```pug
 - thisItem = list.slice(-1).pop()
 
 h3= thisItem.line
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/index.pug)._
+[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/index.pug).
 
 To display only a single line on the homepage, I have extracted the last item from an array of lines.
 
-``` pug
+```pug
 ul
   each listValue, listIndex in list.reverse()
     li
       h3= listValue.line
 ```
 
-_[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/archive.pug)._
+[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/archive.pug).
 
 To display the list of lines, I have reversed the array and then iterated over each item using `each` loop.
 
