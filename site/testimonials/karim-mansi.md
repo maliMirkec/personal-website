@@ -12,6 +12,8 @@ avatar: km_ivecgh
 date: 2005-01-03
 position: eCommerce Product Manager
 company: Westwing
+projects:
+  - Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy

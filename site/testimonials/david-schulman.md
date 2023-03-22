@@ -12,6 +12,10 @@ avatar: ds_ste3yw
 date: 2000-01-04
 position: Senior Manager of Partner Marketing
 company: DDL
+projects:
+  - Domino Data Lab
+  - Domino Data Lab Pop-up
+  - Domino Data Lab Rev
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd

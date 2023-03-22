@@ -12,6 +12,10 @@ avatar: bl_krlunh
 date: 2000-01-03
 position: Sr. Director of Product Marketing
 company: DDL
+projects:
+  - Domino Data Lab
+  - Domino Data Lab Pop-up
+  - Domino Data Lab Rev
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd

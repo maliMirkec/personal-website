@@ -18,7 +18,7 @@ sections2:
 
 ## Frontend
 
-Over the past decade, I've had the privilege of working on a wide range of web development projects, including static site generators, WordPress websites, and page speed optimizations. Through these experiences, I've honed my skills and become highly proficient in a variety of web technologies. Ultimately, though, my greatest strengths lie in HTML, CSS, and JavaScript - the foundational building blocks of any successful website. So if you're looking for a frontend developer with deep expertise in these areas, look no further!
+Over the past decade, I've worked on a wide range of web development projects, including static site generators, WordPress websites, and page speed optimizations. Through these experiences, I've honed my skills and become proficient in various web technologies. But ultimately, my greatest strengths lie in HTML, CSS, and JavaScript - the foundational building blocks of any successful website. So if you're looking for a frontend developer with deep expertise in these areas, look no further!
 
 ## Static Site Generators
 
@@ -26,14 +26,18 @@ With a keen eye on the ever-evolving tech landscape, I recognized the growing tr
 
 ## WordPress
 
-WordPress is undoubtedly a go-to choice for many businesses as the top framework for building websites. However, I firmly believe that custom themes are always a better option than pre-made themes. I have considerable experience building custom themes from scratch and have successfully developed themes for [Credit Card Insider](/portfolio/creditcardinsider/), [Irina & Matej](/portfolio/irinaandmatej/), and [Trase Yearbook 2018](/portfolio/yearbook-trase/).
+WordPress is undoubtedly a go-to choice for many businesses as the top framework for building websites. However, custom themes are always a better option than pre-made themes. I have considerable experience building custom themes from scratch and have successfully developed themes for [Credit Card Insider](/portfolio/creditcardinsider/), [Irina & Matej](/portfolio/irinaandmatej/), and [Trase Yearbook 2018](/portfolio/yearbook-trase/).
+
+## Shopify
+
+Shopify is one of the most popular e-commerce platforms. Although many non-developers like to use Shopify for its flexibility, when things start to get heavy, developers are the ones called to the rescue. I have been working on several Shopify projects, including [Little Bundle](/portfolio/little-bundle/) and [Moodings](/portfolio/moodings/), where I helped clients optimize and develop features.
 
 ## Page speed optimizations
 
 Did you know that a slow website can hurt your business? Google now penalizes sites with suboptimal performance, so it's more important than ever to have a fast, well-optimized website. As a web development professional, I have extensive experience optimizing PageSpeed scores and implementing the latest best practices, including Core Web Vitals. Let me help ensure your website is performing at its best.
 
-<div class="text-center">
-  <a class="button button--inverse button--small" href="/contact/">Contact me</a>
-  <a class="button button--small" href="/portfolio/">See my portfolio</a>
-  <a class="button button--small" href="/testimonials/">See testimonials</a>
-</div>
+***
+
+My work speaks for itself, so go ahead and [explore my portfolio](/portfolio/).
+
+If you need more proof, check [what others say about my work](/testimonials/).

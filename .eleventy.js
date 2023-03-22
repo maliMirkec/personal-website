@@ -63,6 +63,18 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('tagify2', (tags) => tags.filter(tag => exclude_tags.indexOf(tag) !== -1))
 
+  eleventyConfig.addLiquidFilter('sortItemsFirst', (array, key, value) => {
+    const array1 = array.filter(item => {
+      return item.data[key].indexOf(value) !== -1
+    })
+
+    const array2 = array.filter(item => {
+      return item.data[key].indexOf(value) === -1
+    })
+
+    return array1.concat(array2)
+  })
+
   eleventyConfig.addLiquidFilter('findItem', (array, key, value) => {
     return array.filter(item => {
       return item.data[key] === value

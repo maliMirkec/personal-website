@@ -13,8 +13,7 @@ date: 2008-01-01
 position: Project Manager
 company: Vizzuality
 projects:
-  - name: Trase Yearbook 2018
-    link: /portfolio/yearbook-trase/
+  - Trase Yearbook 2018
 sections:
   - type: hero-alpha
     src: yt_iyy37j

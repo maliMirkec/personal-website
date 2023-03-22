@@ -1,15 +1,20 @@
-{% assign card2List = collections[cards2.filter] %}
+{% if cards2.other %}
+  {% assign card2List = collections[cards2.filter] | sortItemsFirst: 'projects', title %}
+{% else %}
+  {% assign card2List = collections[cards2.filter] %}
+{% endif %}
+
 {% assign i2 = 1 %}
 
 {% if card2List %}
-  <section id="{{ cards2.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <section id="{{ cards2.filter }}" class="margin-top-beta margin-bottom-beta">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card2 in card2List %}
         {% if cards2.limit and i2 > cards2.limit %}
           {% break %}
         {% endif %}
         {% unless cards2.exclude == 'true' or title == card2.data.title %}
-          <a class="card bg-lightish padding" href="{{ card2.url }}">
+          <a class="card bg-lightish padding{% if cards2.other and card2.data.projects contains title %} border-alpha{% endif %}" href="{{ card2.url }}">
             <div class="tilt">
               <div class="tilt__inner">
                 {% if card2.data.title %}

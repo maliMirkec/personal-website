@@ -12,6 +12,8 @@ avatar: mf_jkcuyp
 date: 1999-01-03
 position: Head of Marketing
 company: Wunder Mobility
+projects:
+  - Wunder Mobility
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

@@ -12,6 +12,8 @@ avatar: dw_wbnba8
 date: 2005-01-02
 position: Product Manager eCommerce
 company: Westwing
+projects:
+  - Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy

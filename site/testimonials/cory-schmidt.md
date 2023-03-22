@@ -12,6 +12,8 @@ avatar: cs_tru73j
 date: 1999-01-02
 position: Chief Revenue Officer
 company: Wunder Mobility
+projects:
+  - Wunder Mobility
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

@@ -1,7 +1,7 @@
 {% if cards6.list %}
   {% assign cards6sorted = cards6.list | sortlist %}
   <section class="wrapper wrapper--alpha padding">
-    <h2 class="text-center margin-bottom-alpha">These are the most epic concerts I attended.</h2>
+    <h2 class="text-center margin-bottom-beta">These are the most epic concerts I attended.</h2>
     <ul class="list-style-none grid">
       {% for item in cards6sorted %}
         {% if item.epic %}
@@ -16,8 +16,8 @@
       {% endfor %}
     </ul>
   </section>
-  <section class="wrapper wrapper--alpha margin-top-alpha padding">
-    <h2 class="text-center margin-top-alpha margin-bottom-alpha">These are my favorite concerts.</h2>
+  <section class="wrapper wrapper--alpha margin-top-beta padding">
+    <h2 class="text-center margin-top-beta margin-bottom-beta">These are my favorite concerts.</h2>
     <ul class="list-style-none grid">
       {% for item in cards6sorted %}
         {% if item.fav %}
@@ -32,8 +32,8 @@
       {% endfor %}
     </ul>
   </section>
-  <section class="wrapper wrapper--alpha margin-top-alpha padding">
-    <h2 class="text-center margin-top-alpha margin-bottom-alpha">These are all other concerts I attended.</h2>
+  <section class="wrapper wrapper--alpha margin-top-beta padding">
+    <h2 class="text-center margin-top-beta margin-bottom-beta">These are all other concerts I attended.</h2>
     <ul class="list-style-none grid">
       {% for item in cards6sorted %}
         {% unless item.epic or item.fav %}

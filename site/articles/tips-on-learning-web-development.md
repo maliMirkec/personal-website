@@ -95,7 +95,7 @@ This post is available in the form of slides, too:
 
 Happy coding!
 
-<hr class="text-alpha hr margin-top-alpha margin-bottom-alpha">
+<hr class="text-alpha hr margin-top-beta margin-bottom-beta">
 
 This post is part of **The UI Development Mentoring Program** series:
 

@@ -1,4 +1,4 @@
-<section class="wrapper wrapper--gamma margin-top-alpha margin-bottom-alpha" id="newsletter">
+<section class="wrapper wrapper--gamma margin-top-beta margin-bottom-beta" id="newsletter">
   <article class="form padding">
     <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')" class="newsletter">
       {% if newsletter.logo1 %}
@@ -19,7 +19,7 @@
         <p class="fz-step--2 no-margin">No spam, only quality content. Trusted by <span class="fw-bold">400+</span> subscribers.</p>
         <p class="fz-step--2 no-margin">Don't like newsletters? <a href="/rss2.xml">Subscribe to RSS feed instead.</a></p>
         {% if newsletter.logo2 %}
-          <a class="margin-top-alpha" href="{{ newsletter.logo2.href }}">
+          <a class="margin-top-beta" href="{{ newsletter.logo2.href }}">
             <img src="{{ newsletter.logo2.src }}" alt="{{ newsletter.logo2.alt }}" width="50" height="50">
           </a>
         {% endif %}

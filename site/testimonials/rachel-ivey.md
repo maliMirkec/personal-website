@@ -12,6 +12,8 @@ avatar: ri_bekodu
 date: 2005-01-03
 position: Product Manager
 company: Westwing
+projects:
+  - Westwing
 sections:
   - type: hero-alpha
     src: ww_pm2rwy

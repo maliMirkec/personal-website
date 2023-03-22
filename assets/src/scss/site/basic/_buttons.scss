@@ -92,6 +92,11 @@
     &:focus {
       background-color: var(--color-alpha);
       color: var(--color-dark);
+      box-shadow: 0 0 0 .15rem var(--color-darkish);
+    }
+
+    &:active {
+      box-shadow: 0 0 0 .15rem var(--color-alpha);
     }
   }
 }

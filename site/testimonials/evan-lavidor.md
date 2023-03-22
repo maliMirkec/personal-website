@@ -12,6 +12,12 @@ avatar: el_keb12t
 date: 1998-01-01
 position: Partner & Executive Director
 company: BEAM
+projects:
+  - Bozzuto
+  - Flexera
+  - Flexera Software
+  - Calvert
+  - Franciscan Children's
 sections:
   - type: hero-alpha
     src: bm_qlnuvi

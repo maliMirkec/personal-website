@@ -2,9 +2,6 @@
   {% assign pageNumber = pagination.pages | size | minus: pagination.pageNumber %}
   {% assign title = title | append: ' #'| append: pageNumber %}
 {% endif %}
-{%- if type == 'stories-item' -%}
-  {%- assign title = 'Story #' | append: page.fileSlug -%}
-{%- endif -%}
 {% if titlePrefix %}
   {%- assign title = titlePrefix | append: title -%}
 {% endif %}

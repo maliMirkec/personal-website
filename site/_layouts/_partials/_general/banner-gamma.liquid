@@ -1,5 +1,5 @@
 <section class="padding" id="share-the-article">
-  <div class="banner margin-top-alpha margin-bottom-alpha">
+  <div class="banner margin-top-beta">
     <div class="wrapper margin-top margin-bottom text-center">
       <div class="padding">
         {% if title %}
@@ -14,7 +14,7 @@
         {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: textEscaped | append: "&url=" | append: site.url | append: page.url %}
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: site.url | append: page.url %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
-        <div class="margin-top margin-bottom-alpha">
+        <div class="margin-top margin-bottom-beta">
           <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
           <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
           <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
@@ -23,7 +23,7 @@
         <div class="copy">
           <p>{{ site.about }}</p>
         </div>
-        <div class="margin-top margin-bottom-alpha">
+        <div class="margin-top margin-bottom-beta">
           <a class="button button--inverse button--small button--outline margin-left margin-right" href="/about/">About</a>
           <a class="button button--inverse button--small button--outline margin-left margin-right" href="/portfolio/">Portfolio</a>
           <a class="button button--inverse button--small button--outline margin-left margin-right" href="/contact/">Contact</a>

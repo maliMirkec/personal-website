@@ -7,11 +7,16 @@ thumbnailAlt: SB_ga86yw
 type: home
 sections:
   - type: hero-alpha
-    title: I am Silvestar, and I have been building _modern_, _performant_, and _SEO-optimized_ websites since 2012
-    desc: using **the best coding practices** to deliver **the best experience** for every user.
+    src: PSX_20210122_073856_fdz5qg
+    alt: A profile photo of Silvestar Bistrović.
+    width: 160
+    height: 160
+    title: Crafting exceptional websites that engage and delight users since 2012
+    desc: Transform your digital presence with Silvestar’s expert development services
     cta:
       href: /contact/
-      title: Contact me
+      title: Get in touch
+    narrow: true
   - type: hero-beta
     title: From the Blog
     desc: >-

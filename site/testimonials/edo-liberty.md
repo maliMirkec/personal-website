@@ -13,6 +13,8 @@ order: 400
 date: 2004-01-01
 position: Founder, CEO, and Scientist
 company: Pinecone
+projects:
+  - Pinecone
 sections:
   - type: hero-alpha
     src: pinecone-logo_ybycgg

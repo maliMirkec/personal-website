@@ -2,45 +2,47 @@
 {% assign i3 = 1 %}
 
 {% if card3List %}
-  <section id="{{ cards3.filter }}" class="margin-top-alpha margin-bottom-alpha">
+  <section id="{{ cards3.filter }}" class="margin-top-beta margin-bottom-beta">
     <div class="wrapper wrapper--alpha grid">
       {% for card3 in card3List %}
-        {% if cards3.limit and i3 > cards3.limit %}
-          {% break %}
-        {% endif %}
-        {% unless cards3.exclude == 'true' or title == card3.data.title %}
-          {% if card3.data.thumbnail or card3.data.thumbnailAlt %}
-            <div class="card text-center">
-              <a class="db margin no-margin-bottom" href="{{ card3.url }}">
-                {% if cards3.width %}
-                  {% assign card3Width = cards3.width %}
-                {% else %}
-                  {% assign card3Width = 552 %}
-                {% endif %}
-                {% if cards3.height %}
-                  {% assign card3Height = cards3.height %}
-                {% else %}
-                  {% assign card3Height = 304 %}
-                {% endif %}
-                {% if card3.data.thumbnail %}
-                  {% cldnry card3.data.thumbnail card3.data.title card3Width card3Height %}
-                {% endif %}
-                {% if card3.data.thumbnailAlt %}
-                  {% cldnry card3.data.thumbnailAlt card3.data.title card3Width card3Height %}
-                {% endif %}
-                {% if card3.data.title %}
-                  <span class="db padding no-padding-top margin-top">
-                    <h3 class="fz-step-3 no-spacing">{% if card3.data.projectTitle %}{{ card3.data.projectTitle }}{% else %}{{ card3.data.title }}{% endif %}</h3>
-                  </span>
-                {% endif %}
-                {% if cards3.cta %}
-                  <span class="button button--outline button--small">{{ cards3.cta.title }}</span>
-                {% endif %}
-              </a>
-            </div>
+        {% if card3.data.display != false %}
+          {% if cards3.limit and i3 > cards3.limit %}
+            {% break %}
           {% endif %}
-          {% assign i3 = i3 | plus: 1 %}
-        {% endunless %}
+          {% unless cards3.exclude == 'true' or title == card3.data.title %}
+            {% if card3.data.thumbnail or card3.data.thumbnailAlt %}
+              <div class="card text-center">
+                <a class="db margin no-margin-bottom" href="{{ card3.url }}">
+                  {% if cards3.width %}
+                    {% assign card3Width = cards3.width %}
+                  {% else %}
+                    {% assign card3Width = 552 %}
+                  {% endif %}
+                  {% if cards3.height %}
+                    {% assign card3Height = cards3.height %}
+                  {% else %}
+                    {% assign card3Height = 304 %}
+                  {% endif %}
+                  {% if card3.data.thumbnail %}
+                    {% cldnry card3.data.thumbnail card3.data.title card3Width card3Height %}
+                  {% endif %}
+                  {% if card3.data.thumbnailAlt %}
+                    {% cldnry card3.data.thumbnailAlt card3.data.title card3Width card3Height %}
+                  {% endif %}
+                  {% if card3.data.title %}
+                    <span class="db padding no-padding-top margin-top">
+                      <h3 class="fz-step-3 no-spacing">{% if card3.data.projectTitle %}{{ card3.data.projectTitle }}{% else %}{{ card3.data.title }}{% endif %}</h3>
+                    </span>
+                  {% endif %}
+                  {% if cards3.cta %}
+                    <span class="button button--outline button--small">{{ cards3.cta.title }}</span>
+                  {% endif %}
+                </a>
+              </div>
+            {% endif %}
+            {% assign i3 = i3 | plus: 1 %}
+          {% endunless %}
+        {% endif %}
       {% endfor %}
       {% if cards3.desc %}
         <div class="card card--flex text-center padding">

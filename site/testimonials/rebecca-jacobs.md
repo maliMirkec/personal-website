@@ -12,6 +12,8 @@ avatar: rj_tducdx
 date: 2006-01-01
 position: Marketing Manager
 company: CodeScan
+projects:
+  - CodeScan
 sections:
   - type: hero-alpha
     src: cs_zg7xpc

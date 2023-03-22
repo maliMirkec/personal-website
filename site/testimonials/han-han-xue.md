@@ -12,8 +12,7 @@ date: 2009-01-01
 position: Product Designer
 company: Lyft
 projects:
-  - name:
-    link:
+  - Han Han Xue website
 sections:
   - type: hero-alpha
     avatar: hhx_iu8agl

@@ -12,6 +12,8 @@ avatar: jb_w08g20
 date: 1999-01-01
 position: Chief Operating Officer
 company: Wunder Mobility
+projects:
+  - Wunder Mobility
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

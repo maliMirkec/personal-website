@@ -1,5 +1,5 @@
 // Breakpoints
-$bp: 66ch;
+$bp: 67ch;
 $bp1: 600px;
 $bp2: 1200px;
 $bp3: 1600px;
@@ -35,7 +35,7 @@ $color-xmas-gamma-dark: hsl(122, 20%, 66%);
 $font-alpha: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 $font-beta: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 $font-gamma: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-$font-size-sm: 14px;
+$font-size-sm: 16px;
 $font-size-lg: 20px;
 $lh1: 1.33;
 $lh2: 1.66;
@@ -56,6 +56,7 @@ $brad-alpha: $brad * $brad-factor;
 // Transitions
 $duration: .3s;
 $duration2: $duration / 2;
+$duration3: $duration * 2500;
 $delay: $duration / 2;
 
 // Grid
@@ -124,6 +125,7 @@ $snap-inline: 10px;
   // Transitions
   --duration: #{$duration};
   --duration2: #{$duration2};
+  --duration3: #{$duration3};
   --delay: #{$delay};
 
   // Grid
@@ -140,6 +142,33 @@ $snap-inline: 10px;
   --snap-height: #{$snap-height};
   --snap-inline: #{$snap-inline};
 
+  // Backgrounds and wavy shapes
+  --s: 1rem;
+  --c1: #{$color-lightish};
+  --c2: #{$color-light};
+
+  --_s: 37.5% 12.5% at 62.5%;
+  --_g: 34% 99%, transparent 101%;
+  --g1: radial-gradient(var(--_s) 100%, transparent 32%, var(--c1) var(--_g));
+  --g2: radial-gradient(var(--_s) 0, transparent 32%, var(--c1) var(--_g));
+  --g3: radial-gradient(var(--_s) 100%, transparent 32%, var(--c2) var(--_g));
+  --g4: radial-gradient(var(--_s) 0, transparent 32%, var(--c2) var(--_g));
+
+  --mask:
+    radial-gradient(1.93rem at 50% 2.65rem, var(--color-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 51% repeat-x,
+    radial-gradient(1.93rem at 50% -1.65rem, transparent 99%, var(--color-dark) 101%) 50% 1rem / 4rem calc(51% - 1rem) repeat-x,
+    radial-gradient(1.93rem at 50% calc(100% - 2.65rem), var(--color-dark) 99%, transparent 101%) calc(50% - 2rem) 100% / 4rem 51% repeat-x,
+    radial-gradient(1.93rem at 50% calc(100% + 1.65rem), transparent 99%, var(--color-dark) 101%) 50% calc(100% - 1rem) / 4rem calc(51% - 1rem) repeat-x;
+
+  --mask-top:
+    radial-gradient(1.93rem at 50% 2.65rem, var(--color-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 100%,
+    radial-gradient(1.93rem at 50% -1.65rem, transparent 99%, var(--color-dark) 101%) 50% 1rem / 4rem 100% repeat-x;
+
+
+  --mask-bottom:
+    radial-gradient(1.93rem at 50% calc(100% - 2.65rem), var(--color-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 100%,
+    radial-gradient(1.93rem at 50% calc(100% + 1.65rem), transparent 99%, var(--color-dark) 101%) 50% calc(100% - 1rem) / 4rem 100% repeat-x;
+
   @include mq($until: bp1) {
     // Grid
     --cols: #{$cols-bp1};
@@ -148,6 +177,7 @@ $snap-inline: 10px;
   @media (prefers-reduced-motion: reduce) {
     --duration: .05s;
     --duration2: .05s;
+    --duration3: 0s;
     --delay: .05s;
   }
 }

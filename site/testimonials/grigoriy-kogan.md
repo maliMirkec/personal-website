@@ -12,6 +12,8 @@ avatar: gk_i7hj6p
 date: 2004-01-02
 position: VP of Marketing
 company: Pinecone
+projects:
+  - Pinecone
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd

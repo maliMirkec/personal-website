@@ -43,7 +43,7 @@
     }
   },
   "codescan": {
-    "desc": "I rebuild the whole site for CodeScan using **the Hugo framework**.",
+    "desc": "I rebuild the whole site for CodeScan using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/codescan/",
       "title": "See the project"
@@ -64,7 +64,7 @@
     }
   },
   "westwing": {
-    "desc": "I build the whole site for Westwing using **the Hugo framework**.",
+    "desc": "I build the whole site for Westwing using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/westwing/",
       "title": "See the project"
@@ -85,21 +85,21 @@
     }
   },
   "creditcardinsider": {
-    "desc": "I built **the WordPress theme** for the Credit Card Insider website.",
+    "desc": "I built the **WordPress theme** for the Credit Card Insider website.",
     "cta": {
       "href": "/portfolio/creditcardinsider/",
       "title": "See the project"
     }
   },
   "hanhanxue": {
-    "desc": "I built the whole site for Han Han Xue on **Middleman framework**?",
+    "desc": "I built the whole site for Han Han Xue using the **Middleman framework**?",
     "cta": {
       "href": "/portfolio/hanhanxue/",
       "title": "See the project"
     }
   },
   "yearbook-trase": {
-    "desc": "I built **the WordPress template** for the Trase Yearbook 2018?",
+    "desc": "I built the **WordPress template** for the Trase Yearbook 2018?",
     "cta": {
       "href": "/portfolio/yearbook-trase/",
       "title": "See the project"

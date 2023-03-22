@@ -12,6 +12,8 @@ avatar: rc_iahbe8
 date: 1999-01-05
 position: Marketing manager
 company: Wunder Mobility
+projects:
+  - Wunder Mobility
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

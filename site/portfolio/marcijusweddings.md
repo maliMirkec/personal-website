@@ -50,6 +50,7 @@ sections:
       title: Read the testimonial
     filter: testimonials
     limit: 6
+    other: true
   - type: hero-beta
     title: From the Portfolio
     desc: >-

@@ -1,7 +1,7 @@
 {% assign readIndex = 1 %}
 {% for findRead in reads %}{% if findRead == thisRead %}{% assign readIndex = forloop.index %}{% endif %}{% endfor %}
 {% if thisRead %}
-  <section class="hero margin-top-alpha">
+  <section class="hero margin-top-beta">
     <div class="wrapper">
       <div class="padding">
         <div class="margin-bottom text-center">
@@ -15,7 +15,7 @@
         {% if thisRead.description %}
           <p class="fz-step-0 no-margin-top margin-bottom text-center"><b>In this issue:</b> {{ thisRead.description }}</p>
         {% endif %}
-        <div class="copy margin-top-alpha">
+        <div class="copy margin-top-beta">
           <ul class="list-style-none">
             {% for resource in thisRead.list %}
               {% if resource.link %}

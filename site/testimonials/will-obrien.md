@@ -12,6 +12,8 @@ avatar: wo_s4ocq4
 date: 2006-01-02
 position: DevOps Consultant
 company: CodeScan
+projects:
+  - CodeScan
 sections:
   - type: hero-alpha
     src: cs_zg7xpc

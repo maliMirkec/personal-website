@@ -1,13 +1,12 @@
-<section class="hero margin-top-alpha margin-bottom-alpha">
-  <div class="wrapper{% unless hero1.narrow %} wrapper--beta{% endunless %} text-center">
+<section class="hero hero--fancy">
+  <div class="wrapper{% unless hero1.narrow %} wrapper--alpha{% endunless %} text-center">
     <div class="padding">
       {% if hero1.tag or tags %}
         {% unless hero1.notags %}
-          <div class="margin-bottom">
+          <div class="margin-bottom-alpha">
             {% if hero1.tag %}
               <a class="button button--invisible button--small with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
             {% elsif tags %}
-              <br>
               {% assign myTags = tags | tagify %}
               {% for tag in myTags %}
                 <a class="button button--invisible button--small" href="/tags/{{ tag }}/"><span class="fz-step--2">{{ tag }}</span></a>
@@ -17,12 +16,12 @@
         {% endunless %}
       {% endif %}
       {% if hero1.avatar %}
-        <div class="margin-top avatar">
+        <div class="margin-top margin-bottom-alpha avatar">
           {% cldnry hero1.avatar hero1.title 80 80 "margin-auto" "" true %}
         </div>
       {% endif %}
       {% if hero1.src %}
-        <div class="margin-top margin-bottom">
+        <div class="margin-top margin-bottom-alpha">
           {% if hero1.width %}
             {% assign hwidth = hero1.width %}
           {% else %}
@@ -40,7 +39,7 @@
         <h1 class="copy--invalid">{{ hero1.code }}</h1>
       {% endif %}
       {% if hero1.title %}
-        <h1 class="fz-step-5 no-margin-top {% if hero1.left %}margin-bottom-alpha{% else %}margin-bottom{% endif %}">{{ hero1.title | markdownifyi }}</h1>
+        <h1 class="fz-step-5 no-margin-top margin-bottom-alpha">{{ hero1.title | markdownifyi }}</h1>
       {% endif %}
       {% if hero1.desc %}
         <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc | markdownify }}</div>
@@ -49,10 +48,10 @@
         <div class="fz-step--1 copy margin-top">{{ hero1.footnote | markdownify }}</div>
       {% endif %}
       {% if hero1.subtitle %}
-        <h2 class="fz-step-2 margin-top margin-bottom{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
+        <h2 class="fz-step-2 margin-top-alpha margin-bottom-alpha{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
       {% endif %}
       {% if hero1.src2 %}
-        <div class="margin-top margin-bottom">
+        <div class="margin-top-alpha margin-bottom-alpha">
           {% if hero1.width %}
             {% assign hwidth2 = hero1.2 %}
           {% else %}
@@ -70,12 +69,12 @@
         <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
       {% endif %}
       {% if hero1.cta %}
-        <div class="margin-top">
-          <a class="button" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
+        <div class="margin-top-alpha">
+          <a class="button button--inverse" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
         </div>
       {% endif %}
       {% if hero1.cta2 %}
-        <div class="margin-top">
+        <div class="margin-top-alpha">
           <a href="{{ hero1.cta2.href }}">{{ hero1.cta2.title }}</a>
         </div>
       {% endif %}

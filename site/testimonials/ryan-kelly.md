@@ -12,6 +12,10 @@ avatar: rk_vbck3b
 date: 2000-01-05
 position: Vice President Growth Marketing
 company: DDL
+projects:
+  - Domino Data Lab
+  - Domino Data Lab Pop-up
+  - Domino Data Lab Rev
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd

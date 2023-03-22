@@ -75,7 +75,7 @@ If you need more inspiration, read these tips I gathered during my career:
 
 Happy coding!
 
-<hr class="text-alpha hr margin-top-alpha margin-bottom-alpha">
+<hr class="text-alpha hr margin-top-beta margin-bottom-beta">
 
 This post is part of **The UI Development Mentoring Program** series:
 

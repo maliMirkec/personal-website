@@ -12,6 +12,8 @@ avatar: jg_lqw7xd
 date: 1997-01-01
 position: Founder
 company: Credit Card Insider
+projects:
+  - Credit Card Insider
 sections:
   - type: hero-alpha
     src: cci_xk4gjk

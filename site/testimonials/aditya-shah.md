@@ -12,6 +12,10 @@ avatar: as_roazni
 date: 2000-01-06
 position: MarketingOps Leader
 company: DDL
+projects:
+  - Domino Data Lab
+  - Domino Data Lab Pop-up
+  - Domino Data Lab Rev
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd

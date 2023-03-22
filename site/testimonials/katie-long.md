@@ -12,6 +12,8 @@ avatar: kl_bpiofq
 date: 1999-01-04
 position: Product Marketing Manager
 company: Wunder Mobility
+projects:
+  - Wunder Mobility
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

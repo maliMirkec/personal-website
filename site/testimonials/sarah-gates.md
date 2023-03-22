@@ -12,6 +12,10 @@ avatar: sg_ensdvf
 date: 2000-01-02
 position: Director of Product Marketing
 company: DDL
+projects:
+  - Domino Data Lab
+  - Domino Data Lab Pop-up
+  - Domino Data Lab Rev
 sections:
   - type: hero-alpha
     src: ddl_rj0jfd
