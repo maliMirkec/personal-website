@@ -40,7 +40,7 @@
 }
 
 .margin-top-beta {
-  margin-top: calc(var(--space) * 3);
+  margin-top: calc(var(--space) * 2);
 
   @include mq($from: bp1) {
     margin-top: calc(var(--space) * 5);
@@ -48,7 +48,7 @@
 }
 
 .margin-bottom-beta {
-  margin-bottom: calc(var(--space) * 3);
+  margin-bottom: calc(var(--space) * 2);
 
   @include mq($from: bp1) {
     margin-bottom: calc(var(--space) * 5);
