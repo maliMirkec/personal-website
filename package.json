@@ -30,6 +30,7 @@
     "eleventy-preview": "env ELEVENTY_ENV=development npx @11ty/eleventy --quiet",
     "eleventy-prod": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
+    "eleventy-staging": "env ELEVENTY_ENV=staging npx @11ty/eleventy --quiet",
     "critical": "npm run eleventy-prod & (wait-on http://localhost:8080/ && node scripts/acclaimed.js)",
     "critical-rebuild": "npm run rm-critical && npm run critical",
     "dev": "killify && gulp build && npm run eleventy-dev",
@@ -37,7 +38,8 @@
     "prod": "killify && gulp build && (npm run eleventy-prod & gulp watch)",
     "server": "npm run eleventy-dev",
     "build-dev": "gulp build && npm run eleventy-preview && npm run cp-dev",
-    "build-prod": "gulp build && npm run eleventy-build && npm run cp-prod"
+    "build-prod": "gulp build && npm run eleventy-build && npm run cp-prod",
+    "build-staging": "gulp build && npm run eleventy-staging && npm run cp-prod"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-beta.3",

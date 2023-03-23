@@ -12,7 +12,7 @@ const { log } = require("console")
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-    if(env.production && outputPath && outputPath.endsWith(".html")) {
+    if((env.production || env.staging) && outputPath && outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,

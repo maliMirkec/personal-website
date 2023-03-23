@@ -1,4 +1,4 @@
-{% if env.production %}
+{% if env.production or env.staging %}
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>

@@ -30,7 +30,7 @@
         </div>
         {% assign articles = collections['blog'] %}
         <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
-        <div class="margin-top margin-bottom{% unless env.development %}-alpha{% endunless %}">
+        <div class="margin-top margin-bottom{% if env.production %}-alpha{% endif %}">
           {% assign i = 0 %}
           <ul class="list-style-none">
             {% for article in articles %}
@@ -46,10 +46,10 @@
             {% endfor %}
           </ul>
         </div>
-        {% unless env.development %}
+        {% if env.production %}
           <h3 class="fz-step-2 no-margin-top text-center" id="comments">Comments</h3>
           {% include _partials/_general/comments %}
-        {% endunless %}
+        {% endif %}
       </div>
     </div>
   </div>
