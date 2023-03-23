@@ -20,6 +20,9 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 [context.staging]
   command = "npm run build-staging"
 
+[context.a11y]
+  command = "npm run build-a11y"
+
 [[plugins]]
   package = "@netlify/plugin-sitemap"
 
