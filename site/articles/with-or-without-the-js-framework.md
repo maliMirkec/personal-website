@@ -29,7 +29,7 @@ Is it really that unusual for a frontend developer not to use a JS framework?
 
 I’m sure Mr. Comeau didn’t mean harm (really, I have the utmost respect for Mr. Comeau and his work), but his statement raises questions about the current state of frontend development. Are JS frameworks now considered the standard, and are developers who don’t use them rare? In my experience of over ten years, I have never used a JS framework to build a website, only for web apps. Web app - sure (although a long time ago), but websites - never.
 
-According to my research (an actual [job](https://www.silvestar.codes/articles/in-search-of-a-css-developer-job/) [search](https://www.silvestar.codes/articles/in-search-of-a-frontend-ui-developer-job/)), finding a frontend position that doesn’t require JS framework knowledge is a true rarity. Nine of ten frontend job ads require some JS framework skill, maybe even more. Perhaps the reason is that these [JS frameworks are taking us as hostages](https://emnudge.dev/blog/react-hostage), as noted by EmNudge.
+According to my research (an actual [job](/articles/in-search-of-a-css-developer-job/) [search](/articles/in-search-of-a-frontend-ui-developer-job/)), finding a frontend position that doesn’t require JS framework knowledge is a true rarity. Nine of ten frontend job ads require some JS framework skill, maybe even more. Perhaps the reason is that these [JS frameworks are taking us as hostages](https://emnudge.dev/blog/react-hostage), as noted by EmNudge.
 
 > “And so my current job is React. My next job will be React. The one after might as well.”
 >
