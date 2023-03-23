@@ -40,6 +40,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
