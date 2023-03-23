@@ -38,6 +38,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Silvestar was very quick to respond to requests, dependable, and communicated well...

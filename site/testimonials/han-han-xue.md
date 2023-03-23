@@ -31,6 +31,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Silvestar was able to consistently meet if not exceed expectations...

@@ -9,6 +9,7 @@ const fs = require('fs')
 const env = require('./site/_data/env')
 const package = require('./package.json')
 const { log } = require("console")
+const { LibManifestPlugin } = require("webpack")
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
@@ -79,6 +80,10 @@ module.exports = (eleventyConfig) => {
     return array.filter(item => {
       return item.data[key] === value
     })
+  })
+
+  eleventyConfig.addLiquidFilter('randomItems', (array) => {
+    return array.sort((a, b) => 0.5 - Math.random())
   })
 
   eleventyConfig.addLiquidFilter('criticalExists', (critical) => {

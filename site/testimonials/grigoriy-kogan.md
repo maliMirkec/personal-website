@@ -36,6 +36,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...

@@ -36,6 +36,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Silvestar was extremely professional, capable, responsive, and very pleasant to work with...

@@ -36,6 +36,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...

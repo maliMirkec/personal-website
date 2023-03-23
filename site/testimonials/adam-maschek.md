@@ -36,6 +36,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: It was a pleasure to work with Silvestar. He delivered the project on time with good quality...

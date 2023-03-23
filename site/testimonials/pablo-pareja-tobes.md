@@ -36,6 +36,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Silvestar was professional and had a very good attitude during all time...

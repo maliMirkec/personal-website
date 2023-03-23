@@ -57,6 +57,7 @@ sections:
     filter: portfolio
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 ---
