@@ -33,9 +33,6 @@ sections:
 
 
       _Here's [the snapshot](https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/) of the site._
-    tag:
-      href: /portfolio/
-      title: Portfolio
   - type: hero-beta
     title: From Testimonials
     desc: >-

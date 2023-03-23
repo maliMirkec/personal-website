@@ -31,9 +31,6 @@ sections:
       - Upgraded a responsive navigation style.
 
       - Updated a layout on several pages.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //franciscanchildrens.org
       title: Go to site

@@ -23,9 +23,6 @@ sections:
     height: 30
     title: Will O'Brien
     desc: DevOps Consultant at CodeScan
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: codescan

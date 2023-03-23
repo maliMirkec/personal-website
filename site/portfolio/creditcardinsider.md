@@ -40,9 +40,6 @@ sections:
 
 
       _Here's [the snapshot](https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/) of the site._
-    tag:
-      href: /portfolio/
-      title: Portfolio
   - type: hero-beta
     title: From Testimonials
     desc: >-

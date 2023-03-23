@@ -23,9 +23,6 @@ sections:
     avatar: mf_jkcuyp
     title: Mara Franke
     desc: Head of Marketing at Wunder Mobility.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: wunder-mobility

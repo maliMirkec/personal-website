@@ -24,9 +24,6 @@ sections:
     avatar: el2_ptyk3k
     title: Edo liberty
     desc: Founder, CEO, Scientist at Pinecone.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: pinecone

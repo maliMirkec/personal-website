@@ -29,9 +29,6 @@ sections:
       - Built a living styleguide.
 
       - Created more than 20 pages from designs using reusable styleguide components.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.flexera.com
       title: Go to site

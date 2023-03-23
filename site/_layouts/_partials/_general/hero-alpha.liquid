@@ -2,18 +2,32 @@
   <div class="wrapper{% unless hero1.narrow %} wrapper--alpha{% endunless %} text-center">
     <div class="padding">
       {% if hero1.tag or tags %}
-        {% unless hero1.notags %}
-          <div class="margin-bottom-alpha">
-            {% if hero1.tag %}
-              <a class="button button--invisible button--small with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
-            {% elsif tags %}
-              {% assign myTags = tags | tagify %}
-              {% for tag in myTags %}
-                <a class="button button--invisible button--small" href="/tags/{{ tag }}/"><span class="fz-step--2">{{ tag }}</span></a>
-              {% endfor %}
+        <div class="margin-bottom-alpha">
+          {% if hero1.tag %}
+            <a class="button button--invisible button--small with-slash" href="{{ hero1.tag.href }}">{{ hero1.tag.title }}</a>
+          {% elsif tags %}
+            {% assign firstTag = tags | first %}
+            {% if firstTag == 'portfolio' %}
+              <a class="button button--invisible button--small with-slash" href="/portfolio/">Portfolio</a>
             {% endif %}
-          </div>
-        {% endunless %}
+            {% if firstTag == 'testimonials' %}
+              <a class="button button--invisible button--small with-slash" href="/testimonials/">Testimonials</a>
+            {% endif %}
+            {% if firstTag == 'projects' %}
+              <a class="button button--invisible button--small with-slash" href="/side-projects/">My projects</a>
+            {% endif %}
+            {% if firstTag == 'invalid css' %}
+              <a class="button button--invisible button--small with-slash" href="/side-projects/invalid-css/">Invalid CSS</a>
+            {% endif %}
+            {% if firstTag == 'favorites' %}
+              <a class="button button--invisible button--small with-slash" href="/favorites/">My favorites</a>
+            {% endif %}
+            {% assign myTags = tags | tagify %}
+            {% for tag in myTags %}
+              <a class="button button--invisible button--small" href="/tags/{{ tag }}/"><span class="fz-step--2">{{ tag }}</span></a>
+            {% endfor %}
+          {% endif %}
+        </div>
       {% endif %}
       {% if hero1.avatar %}
         <div class="margin-top margin-bottom-alpha avatar">

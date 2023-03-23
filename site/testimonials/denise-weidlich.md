@@ -23,9 +23,6 @@ sections:
     avatar: dw_wbnba8
     title: Denise Weidlich
     desc: Product Manager eCommerce at Westwing Home & Living
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: westwing

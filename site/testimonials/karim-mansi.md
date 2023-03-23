@@ -23,9 +23,6 @@ sections:
     avatar: km_ivecgh
     title: Karim Mansi
     desc: eCommerce Product Manager at Westwing Home & Living
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: westwing

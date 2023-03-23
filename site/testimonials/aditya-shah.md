@@ -25,9 +25,6 @@ sections:
     avatar: as_roazni
     title: Aditya Shah
     desc: MarketingOps Leader at Domino Data Lab.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: dominodatalab

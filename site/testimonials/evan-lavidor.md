@@ -27,9 +27,6 @@ sections:
     avatar: el_keb12t
     title: Evan Lavidor
     desc: Partner & Executive Director at BEAM Interactive
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: bozzuto

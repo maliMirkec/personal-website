@@ -31,9 +31,6 @@ sections:
       - Optimized assets delivery.
 
       - Used the latest best practices for boosting the site speed.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //netki.com
       title: Go to site

@@ -31,9 +31,6 @@ sections:
       - Used the latest best practices for boosting the site speed.
 
       - Optimized assets delivery.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //moodings.com
       title: Go to site

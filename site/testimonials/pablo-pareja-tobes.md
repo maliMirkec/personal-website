@@ -23,9 +23,6 @@ sections:
     avatar: ppt_bvwjey
     title: Pablo Pareja Tobes
     desc: Project Manager at Vizzuality
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: yearbook-trase

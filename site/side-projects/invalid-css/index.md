@@ -7,7 +7,6 @@ thumbnail: Invalid_CSS_jeizo0
 type: articles
 tags:
   - projects
-  - css
 date: 2005-02-01
 sections:
   - type: hero-alpha

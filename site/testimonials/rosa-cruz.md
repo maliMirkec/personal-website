@@ -23,9 +23,6 @@ sections:
     avatar: rc_iahbe8
     title: Rosa Cruz
     desc: Marketing manager at Wunder Mobility.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: wunder-mobility

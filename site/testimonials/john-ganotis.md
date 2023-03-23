@@ -23,9 +23,6 @@ sections:
     avatar: jg_lqw7xd
     title: John Ganotis
     desc: Founder at Credit Card Insider
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: creditcardinsider

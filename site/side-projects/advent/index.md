@@ -7,7 +7,6 @@ thumbnail: Advent_of_UI_components_nvaz4h
 type: articles
 tags:
   - projects
-  - ui
 date: 2005-06-01
 sections:
   - type: hero-alpha

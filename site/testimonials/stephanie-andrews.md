@@ -25,9 +25,6 @@ sections:
     avatar: sa_mmdbrl
     title: Stephanie (Annie) Andrews
     desc: Senior Lifecycle Marketing Manager at Domino Data Lab.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: dominodatalab

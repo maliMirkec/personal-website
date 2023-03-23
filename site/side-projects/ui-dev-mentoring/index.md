@@ -8,8 +8,6 @@ navTitle: UI Dev
 type: mentor-index
 tags:
   - projects
-  - css
-  - audit
 ctaApply: true
 display: true
 date: 2005-05-01

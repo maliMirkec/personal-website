@@ -34,9 +34,6 @@ sections:
       - Helped configure Webpack for development and production environments.
 
       - Implemented and optimized SVG assets.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.contiamo.com
       title: Go to site

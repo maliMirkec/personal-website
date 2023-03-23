@@ -18,9 +18,6 @@ sections:
     avatar: hhx_iu8agl
     title: Han Han Xue
     desc: Product Designer at Lyft
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: hanhanxue

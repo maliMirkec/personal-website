@@ -41,9 +41,6 @@ sections:
       - Used the latest best practices for boosting the site speed.
 
       - Hosted the website on Netlify.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.hanhanxue.com
       title: Go to site

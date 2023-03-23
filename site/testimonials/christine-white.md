@@ -25,9 +25,6 @@ sections:
     avatar: cw_cdvokw
     title: Christine White
     desc: Director of Web Strategy at Domino Data Lab.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: dominodatalab

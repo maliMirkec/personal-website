@@ -29,9 +29,6 @@ sections:
     subtitle: Responsibilities
     desc2: >-
       - Maintained frontend of the website.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.codescan.io
       title: Go to site

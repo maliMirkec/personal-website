@@ -5,7 +5,6 @@ description: Discover the web development skills and weaknesses with Dev Cards 3
 type: devcards
 tags:
   - projects
-  - developers
 thumbnail: Dev_cards_sfygfo
 display: true
 devcards: true

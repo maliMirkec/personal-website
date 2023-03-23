@@ -23,9 +23,6 @@ sections:
     avatar: am_zanda5
     title: Adam Maschek
     desc: CTO at Westwing Home & Living
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: westwing

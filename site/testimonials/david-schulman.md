@@ -25,9 +25,6 @@ sections:
     avatar: ds_ste3yw
     title: David Schulman
     desc: Senior Manager of Partner Marketing at Domino Data Lab.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: dominodatalab

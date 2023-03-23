@@ -5,8 +5,6 @@ description: CSS Auditors is a project which mission is to put the CSS under the
 type: side-projects-item
 tags:
   - projects
-  - css
-  - audit
 thumbnail: cssa_jwbova
 display: true
 date: 2005-03-01
@@ -18,9 +16,6 @@ sections:
     height: 448
     title: CSS Auditors
     desc: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
-    tag:
-      href: /side-projects/
-      title: Side Projects
     cta:
       href: //css-auditors.com/
       title: Go to the Project

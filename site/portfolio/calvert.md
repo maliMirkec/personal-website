@@ -28,9 +28,6 @@ sections:
       - Converted designs to cross-browser, responsive pages.
 
       - Created custom animations.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.calvert.com/invest-with-purpose.php
       title: Go to site

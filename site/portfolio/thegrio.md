@@ -33,9 +33,6 @@ sections:
 
 
       _Here's [the snapshot](https://web.archive.org/web/20210831013052/https://thegrio.com/) of the site._
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //thegrio.com
       title: Go to site

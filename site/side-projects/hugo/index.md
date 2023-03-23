@@ -6,9 +6,6 @@ description: “Making a website with Hugo” is a course about using Hugo for m
 type: hugo
 tags:
   - projects
-  - learning
-  - course
-  - tutorial
 thumbnail: hugo_qkfxp9
 display: true
 date: 2005-08-01

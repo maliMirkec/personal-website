@@ -32,9 +32,6 @@ sections:
       - Rebuilt the website.
 
       - Migrated content to Contentful.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //www.wundermobility.com
       title: Go to site

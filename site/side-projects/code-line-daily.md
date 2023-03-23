@@ -6,7 +6,6 @@ description: Code Line Daily is a side project dedicated to providing daily sing
 type: side-projects-item
 tags:
   - projects
-  - jamstack
 thumbnail: cld_jrsdct
 display: true
 date: 2005-04-01
@@ -18,9 +17,6 @@ sections:
     height: 448
     title: Code Line Daily
     desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
-    tag:
-      href: /side-projects/
-      title: Side Projects
     cta:
       href: //cld.silvestar.codes
       title: Go to the Project

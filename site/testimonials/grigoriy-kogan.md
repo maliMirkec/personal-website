@@ -23,9 +23,6 @@ sections:
     avatar: gk_i7hj6p
     title: Grigoriy Kogan
     desc: VP of Marketing at Pinecone
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: pinecone

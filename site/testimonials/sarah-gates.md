@@ -25,9 +25,6 @@ sections:
     avatar: sg_ensdvf
     title: Sarah Gates
     desc: Director of Product Marketing at Domino Data Lab.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: dominodatalab

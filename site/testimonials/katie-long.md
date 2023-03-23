@@ -23,9 +23,6 @@ sections:
     avatar: kl_bpiofq
     title: Katie Long
     desc: Product Marketing Manager at Wunder Mobility.
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: wunder-mobility

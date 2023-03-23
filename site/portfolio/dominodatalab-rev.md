@@ -35,9 +35,6 @@ sections:
       - Created all pages from designs.
 
       - Hosted the website on Netlify.
-    tag:
-      href: /portfolio/
-      title: Portfolio
     cta:
       href: //rev.dominodatalab.com
       title: Go to site

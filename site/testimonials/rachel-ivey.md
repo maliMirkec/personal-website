@@ -23,9 +23,6 @@ sections:
     avatar: ri_bekodu
     title: Rachel Ivey
     desc: Product Manager at Westwing Home & Living
-    tag:
-      href: /testimonials/
-      title: Testimonials
 sections2:
   - type: banner-beta
     banner: westwing

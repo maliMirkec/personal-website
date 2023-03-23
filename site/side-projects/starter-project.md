@@ -6,8 +6,6 @@ description: Learn about the Starter Project, a set of the latest and best pract
 type: side-projects-item
 tags:
   - projects
-  - starter
-  - gulp
 thumbnail: spro_aej3o2
 display: true
 date: 2005-07-01
@@ -19,9 +17,6 @@ sections:
     height: 448
     title: Starter Project
     desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
-    tag:
-      href: /side-projects/
-      title: Side Projects
     cta:
       href: //starter.silvestar.codes
       title: Go to the Project
