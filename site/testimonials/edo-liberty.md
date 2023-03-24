@@ -37,6 +37,7 @@ sections2:
     filter: testimonials
     exclude: true
     limit: 6
+    random: true
   - type: banner-alpha
     banner: consultation
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...

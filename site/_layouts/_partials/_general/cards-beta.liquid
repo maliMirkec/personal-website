@@ -1,5 +1,7 @@
 {% if cards2.other %}
   {% assign card2List = collections[cards2.filter] | sortItemsFirst: 'projects', title %}
+{% elsif cards2.random %}
+  {% assign card2List = collections[cards2.filter] | randomItems %}
 {% else %}
   {% assign card2List = collections[cards2.filter] %}
 {% endif %}

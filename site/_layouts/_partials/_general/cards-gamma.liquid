@@ -1,4 +1,8 @@
-{% assign card3List = collections[cards3.filter] %}
+{% if cards3.random %}
+  {% assign card3List = collections[cards3.filter] | randomItems %}
+{% else %}
+  {% assign card3List = collections[cards3.filter] %}
+{% endif %}
 {% assign i3 = 1 %}
 
 {% if card3List %}
