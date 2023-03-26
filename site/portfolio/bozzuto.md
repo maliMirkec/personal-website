@@ -2,7 +2,7 @@
 layout: index
 title: Bozzuto
 description: I've worked on Bozzuto website. Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company.
-thumbnail: b_hkqm0j
+thumbnail: bozzuto_nzfu62
 link: //www.bozzuto.com
 display: true
 date: 2010-01-06
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: b_hkqm0j
+    src: bozzuto_nzfu62
     alt: Screenshot of Bozzuto website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Bozzuto
     desc: >-

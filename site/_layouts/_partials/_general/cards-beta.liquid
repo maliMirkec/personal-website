@@ -15,7 +15,7 @@
         {% if cards2.limit and i2 > cards2.limit %}
           {% break %}
         {% endif %}
-        {% unless cards2.exclude == 'true' or title == card2.data.title %}
+        {% unless cards2.exclude == 'true' or title contains card2.data.title %}
           <a class="card bg-lightish padding{% if cards2.other and card2.data.projects contains title %} border-alpha{% endif %}" href="{{ card2.url }}">
             <div class="tilt">
               <div class="tilt__inner">

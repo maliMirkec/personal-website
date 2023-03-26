@@ -2,7 +2,7 @@
 layout: index
 title: Trase Yearbook 2018
 description: I've worked on The Trase Yearbook website. The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains.
-thumbnail: yb_mgssbz
+thumbnail: yearbook-trase_sqnp0z
 link: //yearbook2018.trase.earth
 display: true
 date: 2010-01-11
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: yb_mgssbz
+    src: yearbook-trase_sqnp0z
     alt: Screenshot of Trase Yearbook 2018 website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Trase Yearbook 2018
     desc: >-

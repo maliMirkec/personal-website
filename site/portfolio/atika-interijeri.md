@@ -2,7 +2,7 @@
 layout: index
 title: Atika Interijeri
 description: I've worked on Atika Interijeri website. Atika Interijeri is a carpentry company specialized in creating different kinds of custom furniture.
-thumbnail: ai_u5b34y
+thumbnail: atika-interijeri_s67jlg
 link: //atika-interijeri.hr
 display: false
 date: 2010-01-20
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: ai_u5b34y
+    src: atika-interijeri_s67jlg
     alt: Screenshot of Atika Interijeri website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Atika Interijeri
     desc: >-

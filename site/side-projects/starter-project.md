@@ -13,8 +13,8 @@ sections:
   - type: hero-alpha
     src: spro_aej3o2
     alt: Screenshot of Starter Project website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     title: Starter Project
     desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
     cta:

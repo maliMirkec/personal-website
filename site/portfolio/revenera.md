@@ -2,8 +2,8 @@
 layout: index
 title: Flexera Software
 description: I've worked on Flexera Software website. Flexera Software helps you as a software developer to control costs, grow and protect your business.
-thumbnail: f2_yibqhl
-link: //www.flexerasoftware.com
+thumbnail: revenera_nv7gag
+link: //www.revenera.com
 display: true
 date: 2010-01-08
 type: portfolio-item
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: f2_yibqhl
+    src: revenera_nv7gag
     alt: Screenshot of Flexera Software website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Flexera Software
     desc: >-
@@ -30,7 +30,7 @@ sections:
 
       - Created more than 10 pages from designs using reusable styleguide components.
     cta:
-      href: //www.flexerasoftware.com
+      href: //www.revenera.com
       title: Go to site
   - type: hero-beta
     title: From Testimonials

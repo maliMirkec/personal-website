@@ -12,8 +12,8 @@ sections:
   - type: hero-alpha
     src: cssa_jwbova
     alt: Screenshot of Code Line Daily website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     title: CSS Auditors
     desc: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
     cta:

@@ -13,8 +13,8 @@ sections:
   - type: hero-alpha
     src: cld_jrsdct
     alt: Screenshot of Code Line Daily website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     title: Code Line Daily
     desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
     cta:

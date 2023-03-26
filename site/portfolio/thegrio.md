@@ -2,7 +2,7 @@
 layout: index
 title: TheGrio
 description: I've worked on TheGrio website. TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives.
-thumbnail: tg_r1peey
+thumbnail: the-grio_mauddb
 link: //thegrio.com
 display: true
 date: 2010-01-19
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: tg_r1peey
+    src: the-grio_mauddb
     alt: Screenshot of TheGrio website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: TheGrio
     desc: >-

@@ -2,7 +2,7 @@
 layout: index
 title: Domino Data Lab Pop-up
 description: I've worked on DDL Pop-up website. Pop-up is a series of events that bring together the data science leaders of today and tomorrow.
-thumbnail: ddlp_mjllzg
+thumbnail: domino-datalab-popup_iv7ya6
 link: //popup.dominodatalab.com
 display: true
 date: 2010-01-03
@@ -16,10 +16,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: ddlp_mjllzg
+    src: domino-datalab-popup_iv7ya6
     alt: Screenshot of Domino Data Lab Pop-up website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Domino Data Lab Pop-up
     desc: >-
