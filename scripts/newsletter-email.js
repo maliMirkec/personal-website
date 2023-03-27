@@ -111,13 +111,13 @@ const footer = () => {
       <hr>
       <p>
         <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/archive/" style="text-decoration:none">
-          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Archive</span>
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding-top:0.25rem;padding-bottom:0.25rem;padding-right:1rem">Archive</span>
         </a>
         <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/sponsorship/" style="text-decoration:none">
-          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Become a sponsor</span>
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding-top:0.25rem;padding-bottom:0.25rem;padding-right:1rem">Become a sponsor</span>
         </a>
         <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/contact/" style="text-decoration:none">
-          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Feedback</span>
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding-top:0.25rem;padding-bottom:0.25rem;padding-right:1rem">Feedback</span>
         </a>
         <a href="https://www.silvestar.codes/about/" style="text-decoration:none">
           <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">About the author</span>
@@ -137,11 +137,7 @@ const generateNewsletter = async () => {
   output += generateList()
   output += footer()
 
-  const clipboardy = (await import("clipboardy")).default
-
   console.log(output);
-
-  clipboardy.writeSync(output);
 }
 
 generateNewsletter()
