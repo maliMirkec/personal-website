@@ -3,7 +3,7 @@ const latest = doc[0]
 
 const generateTitle = () => {
   return `<h1>
-      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/2023-03-13/" target="_blank" style="text-decoration:none">
+      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${latest.date}/" target="_blank" style="text-decoration:none">
         <span style="display:block;color:#222;font-size:1.5rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em">UI Dev Newsletter - Issue #${doc.length}</span>
       </a>
     </h1>`
@@ -97,7 +97,7 @@ const generateList = () => {
 const header = () => {
   headerCode = `<div style="font-family:Inter,Roboto,'Helvetica Neue','Arial Nova','Nimbus Sans',Arial,sans-serif">
     <div style="background:#eee;padding:2rem">
-      <a style="display:block;text-align:center" href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/2023-03-13/">
+      <a style="display:block;text-align:center" href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${latest.date}/">
         <img style="margin:auto" alt="UI Dev Newsletter logo" src="https://res.cloudinary.com/starbist/image/upload/v1678903553/UI_Dev_Newsletter_FF3366_pv7tdb.png" width="150" height="150">
       </a>
     </div>
@@ -107,25 +107,22 @@ const header = () => {
 }
 
 const footer = () => {
-  footerCode = `<p>Happy coding!</p>`
-
-  footerCode += `<hr>
-    <p>
-      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/archive/" style="text-decoration:none">
-        <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Archive</span>
-      </a>
-      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/sponsorship/" style="text-decoration:none">
-        <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Become a sponsor</span>
-      </a>
-      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/contact/" style="text-decoration:none">
-        <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Feedback</span>
-      </a>
-      <a href="https://www.silvestar.codes/about/" style="text-decoration:none">
-        <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">About the author</span>
-      </a>
-    </p>`
-
-  footerCode +=`
+  footerCode = `<p>Happy coding!</p>
+      <hr>
+      <p>
+        <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/archive/" style="text-decoration:none">
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Archive</span>
+        </a>
+        <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/sponsorship/" style="text-decoration:none">
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Become a sponsor</span>
+        </a>
+        <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/contact/" style="text-decoration:none">
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0;margin-right: 2rem">Feedback</span>
+        </a>
+        <a href="https://www.silvestar.codes/about/" style="text-decoration:none">
+          <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">About the author</span>
+        </a>
+      </p>
     </div>
   </div>`
 
