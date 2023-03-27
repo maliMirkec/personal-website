@@ -30,4 +30,10 @@
 {% if noindex %}
   <meta name="robots" content="noindex,nofollow">
 {% endif %}
-<title>{{ title }} \m/ {{ site.title }}</title>
+{% if isNewsletter %}
+  {% assign siteTitle = newsletter.title %}
+{% else %}
+  {% assign siteTitle = site.title %}
+{% endif %}
+
+<title>{{ title }} \m/ {{ siteTitle }}</title>

@@ -39,3 +39,26 @@
 .margin-top-beta {
   margin-top: calc(var(--space) * 2);
 }
+
+.hero {
+  .copy {
+    p {
+      margin-bottom: 1rem;
+    }
+
+    p + p {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.copy {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-alpha;
+  }
+}

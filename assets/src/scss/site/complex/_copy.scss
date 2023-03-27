@@ -220,7 +220,8 @@
   }
 
   &[data-title*="important" i],
-  &[data-title*="danger" i] {
+  &[data-title*="danger" i],
+  &[data-title*="sponsor" i] {
     background-color: transparent;
     border-color: var(--color-beta-light);
 
