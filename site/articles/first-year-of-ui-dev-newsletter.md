@@ -83,7 +83,7 @@ After a few posts, the idea of starting a newsletter came up, so I started resea
 The first thing was to choose my newsletter app. I thought about using Mailchimp, as I had previous experience with that platform. Then I learned about [Tinyletter](https://tinyletter.com/) (a more inferior version of Mailchimp). I decided it has everything I need, from a subscription list to a simple HTML editor.
 
 {% note %}
-I discovered [ButtonDown](https://buttondown.email/) recently, and I am considering switching to this app. Not sure yet.
+I discovered [ButtonDown](https://buttondown.email/refer/starbist) recently, and I am considering switching to this app. Not sure yet.
 {% endnote %}
 
 ## The script

@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "desc": "Stay ahead of the latest **UI Dev** news and subscribe to my newsletter.",
-    "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://buttondown.email/starbist', 'popupwindow')\"><input type=\"hidden\" value=\"1\" name=\"embed\" />\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n</div>\n</div>\n\n</form>"
+    "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\"><input type=\"hidden\" value=\"1\" name=\"embed\" />\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n</div>\n</div>\n\n</form>"
   },
   "job": {
     "desc": "I am open for new projects.",
