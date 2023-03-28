@@ -129,7 +129,7 @@ const footer = () => {
   return footerCode
 }
 
-const generateNewsletter = async () => {
+const generateNewsletter = () => {
   let output = header()
   output += generateTitle()
   output += generateDate()
