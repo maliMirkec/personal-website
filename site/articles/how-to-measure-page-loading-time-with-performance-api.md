@@ -1,7 +1,7 @@
 ---
 layout: index
 title: How to measure page loading time with Performance API
-date: 2023-03-31 10:00:02
+date: 2023-04-17 10:00:02
 tags:
   - blog
   - javascript

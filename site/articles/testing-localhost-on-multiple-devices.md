@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Testing localhost on multiple devices
-date: 2023-03-31 10:00:00
+date: 2023-04-03 10:00:00
 tags:
   - blog
   - cross-browser
