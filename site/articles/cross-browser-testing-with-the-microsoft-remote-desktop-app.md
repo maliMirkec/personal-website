@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Cross-browser testing with the Microsoft Remote Desktop app
-date: 2023-03-31 10:00:00
+date: 2023-03-31 10:00:01
 tags:
   - blog
   - cross-browser
@@ -12,15 +12,13 @@ sections2:
   - type: banner-beta
     banner: newsletter
 series: Tools
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 Imagine you are working on your Mac and want to test your website on a Windows machine but hate switching computers. Let me show you how to use the Microsoft Remote Desktop app for macOS to mitigate this problem. With this handy app, you can seamlessly connect and control your Windows machine without physically switching between devices.
 
 ## Microsoft Remote Desktop
 
-Although I have a reliable desktop machine, I used to refrain from using it due to the inconvenience of switching the source on my monitors or using an external one. Furthermore, changing the source usually messes with my external monitor setup on my MacBook, which is a real bother.
+Although I have a reliable desktop machine, I used to refrain from using it due to the inconvenience of switching the source on my monitors or using an external one. Furthermore, changing the source usually messes with my external monitor setup on my MacBook, which is a real bother. Not only that, switching a keyboard, mouse, and sometimes desk is so inconvenient and so annoying.
 
 To avoid these inconveniences, I started to use the [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) app for macOS. This fantastic app is available for free on the Mac App Store.
 
@@ -48,7 +46,7 @@ For more detailed information on using the Remote Desktop app on macOS, check ou
 
 ## The testing
 
-Testing localhost could be done on various ways, but when testing across devices,
+Imagine you have a site up and running on your macOS and want to test it without the hassle of re-running it on a Windows machine while connected to it. Personally, I prefer using the “external” IP address, which can be found using the `ifconfig | grep inet` command on my macOS. You can then utilize this IP address on your other machines. There are also [other methods to test localhost](/articles/testing-localhost-on-multiple-devices/) that I have discussed in detail, so feel free to check them out.
 
 ## Conclusion
 

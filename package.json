@@ -87,6 +87,7 @@
     "node-fetch": "^3.3.0",
     "node-sass": "^8.0.0",
     "normalize.css": "^8.0.1",
+    "page-loaded-in": "0.0.3",
     "penthouse": "^2.3.3",
     "sass-mq": "5.0.1",
     "sharp": "^0.31.3",
