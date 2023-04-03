@@ -2,7 +2,11 @@
 layout: index
 title: Wunder Mobility
 description: I've worked on Wunder Mobility website. Wunder Mobility provides software, vehicles and services helping everyone launch and scale new mobility services.
-thumbnail: wunder-mobility_qv9mcn
+thumbnail:
+  src: wunder-mobility_qv9mcn
+  alt: Screenshot of Wunder Mobility website.
+  width: 844
+  height: 511
 link: //www.wundermobility.com
 display: true
 date: 2009-01-31

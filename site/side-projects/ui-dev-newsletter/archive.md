@@ -6,7 +6,11 @@ description: Archive of articles, tutorials, and tools related to User Interface
 type: newsletter-archive
 tags:
   - projects
-thumbnail: UI_Dev_Newsletter_qfpto1
+thumbnail:
+  src: newsletter_cp5kc0
+  alt: Screenshot of the UI Dev Newsletter archive page.
+  width: 844
+  height: 511
 date: 2000-04-01
 display: true
 sections:

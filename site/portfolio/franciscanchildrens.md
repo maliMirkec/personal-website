@@ -2,7 +2,11 @@
 layout: index
 title: Franciscan Children's
 description: I've worked on Franciscan Children’s website. Franciscan Children’s serve children and adolescents with complex medical, mental health and educational needs.
-thumbnail: franciscan-children_s_ktoqdt
+thumbnail:
+  src: franciscan-children_s_ktoqdt
+  alt: Screenshot of Franciscan Children’s website.
+  width: 844
+  height: 511
 link: //franciscanchildrens.org
 display: false
 date: 2010-01-18

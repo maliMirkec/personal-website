@@ -1,15 +1,19 @@
 ---
 layout: index
-title: My music favorites
+title: My favorite music
 descriptionAlt: Silvestar's favorite music bands and artists.
 description: Explore my favorite music bands and artists. There are many many more, but these are the first ones that come up to my mind.
 type: side-projects-item
 tags:
   - favorites
-thumbnail: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg
+thumbnail:
+  src: Screen_Shot_2021-11-06_at_11.45.26_AM_xc8vpg
+  alt: Screenshot of my favorite music.
+  width: 490
+  height: 294
 sections:
   - type: hero-alpha
-    title: My music favorites
+    title: My favorite music
     desc: >-
       Just my random favorite music bands and artists.
     footnote: >-

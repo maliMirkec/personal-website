@@ -2,7 +2,11 @@
 layout: index
 title: Han Han Xue website
 description: I've worked on Han Han Xue website. Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
-thumbnail: han-han-xue_oo7wab
+thumbnail:
+  src: han-han-xue_oo7wab
+  alt: Screenshot of Han Han Xue website.
+  width: 844
+  height: 511
 link: //www.hanhanxue.com
 display: true
 date: 2010-01-14

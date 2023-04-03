@@ -2,7 +2,11 @@
 layout: index
 title: Credit Card Insider
 description: I've worked on Credit Card Insider website. Credit Card Insider is company whose mission is to empower people to use credit cards to their advantage.
-thumbnail: credit-card-insider_qixfic
+thumbnail:
+  src: credit-card-insider_qixfic
+  alt: Screenshot of CCredit Card Insider website.
+  width: 844
+  height: 511
 link: //www.creditcardinsider.com
 display: true
 date: 2010-01-01

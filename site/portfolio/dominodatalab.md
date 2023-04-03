@@ -2,7 +2,11 @@
 layout: index
 title: Domino Data Lab
 description: I've worked on Domino Data Lab website. Domino Data Lab is a data science platform that enables teams to rapidly develop and deploy breakthrough models.
-thumbnail: domino-data-lab_nbvhcy
+thumbnail:
+  src: domino-data-lab_nbvhcy
+  alt: Screenshot of Domino Data Lab website.
+  width: 844
+  height: 511
 link: //www.dominodatalab.com
 display: true
 date: 2010-01-02

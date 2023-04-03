@@ -2,7 +2,11 @@
 layout: index
 title: Calvert
 description: I've worked on Calvert website. Calvert is leader in responsible investing for analyzing company performance from finances to environmental policy to diversity.
-thumbnail: calvert_uv2mxh
+thumbnail:
+  src: calvert_uv2mxh
+  alt: Screenshot of Calvert website.
+  width: 844
+  height: 511
 link: //www.calvert.com/invest-with-purpose.php
 display: true
 date: 2010-01-09

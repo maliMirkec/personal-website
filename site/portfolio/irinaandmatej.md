@@ -2,7 +2,11 @@
 layout: index
 title: Irina & Matej
 description: I've worked on Irina and Matej website. Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world.
-thumbnail: irina-and-matej_rju1et
+thumbnail:
+  src: irina-and-matej_rju1et
+  alt: Screenshot of Irina and Matej website.
+  width: 844
+  height: 511
 link: //irinaandmatej.com
 display: true
 date: 2010-01-16

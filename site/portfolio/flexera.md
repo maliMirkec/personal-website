@@ -2,7 +2,11 @@
 layout: index
 title: Flexera
 description: I've worked on Flexera website. Flexera control and manage software and IT costs, to grow and protect your business.
-thumbnail: flexera_mu5r7y
+thumbnail:
+  src: flexera_mu5r7y
+  alt: Screenshot of Flexera website.
+  width: 844
+  height: 511
 link: //www.flexera.com
 display: true
 date: 2010-01-07

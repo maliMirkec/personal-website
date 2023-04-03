@@ -4,7 +4,6 @@ title: My favorites
 descriptionAlt: Silvestar's favorite TV shows, characters, writers, books, bands, artists, and more.
 description: Explore my favorite TV shows, characters, writers, books, bands, artists, and more. Mostly stuff unrelated to my professional career.
 type: favorites
-thumbnail:
 favorites:
   - date: '2021-11-03'
     content: |
@@ -25,8 +24,7 @@ sections:
       title: Go to the homepage
     filter: favorites
     limit: 10
-    height: 297
-    width: 490
+    extraPadding: true
   - type: banner-alpha
     banner: consultation
 ---

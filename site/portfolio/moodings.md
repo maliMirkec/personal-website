@@ -2,7 +2,11 @@
 layout: index
 title: Moodings
 description: I've worked on Moodings webshop. Moodings is an e-commerce company that helps designers and artists compete on the market.
-thumbnail: moodings_o7mxvp
+thumbnail:
+  src: moodings_o7mxvp
+  alt: Screenshot of Moodings website.
+  width: 844
+  height: 511
 link: //moodings.com
 display: true
 date: 2010-01-13

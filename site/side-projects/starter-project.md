@@ -6,12 +6,16 @@ description: Learn about the Starter Project, a set of the latest and best pract
 type: side-projects-item
 tags:
   - projects
-thumbnail: spro_aej3o2
+thumbnail:
+  src: spro_lz9fow
+  alt: Screenshot of the Starter Project website.
+  width: 844
+  height: 511
 display: true
 date: 2005-07-01
 sections:
   - type: hero-alpha
-    src: spro_aej3o2
+    src: spro_lz9fow
     alt: Screenshot of Starter Project website.
     width: 844
     height: 511

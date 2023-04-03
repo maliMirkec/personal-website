@@ -5,12 +5,16 @@ description: CSS Auditors is a project which mission is to put the CSS under the
 type: side-projects-item
 tags:
   - projects
-thumbnail: cssa_jwbova
+thumbnail:
+  src: css-auditors_fozunn
+  alt: Screenshot of Code Line Daily website.
+  width: 844
+  height: 511
 display: true
 date: 2005-03-01
 sections:
   - type: hero-alpha
-    src: cssa_jwbova
+    src: css-auditors_fozunn
     alt: Screenshot of Code Line Daily website.
     width: 844
     height: 511
@@ -33,5 +37,4 @@ sections:
     exclude: true
   - type: banner-alpha
     banner: consultation
-
 ---

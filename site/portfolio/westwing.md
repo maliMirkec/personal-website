@@ -2,7 +2,11 @@
 layout: index
 title: Westwing
 description: I've worked on Westwing website. Westwing is "curated shoppable magazine", inspiring customers with the newest trends, themes, stories, brands and products.
-thumbnail: westwing_erzgqc
+thumbnail:
+  src: westwing_erzgqc
+  alt: Screenshot of Westwing website.
+  width: 844
+  height: 511
 link: //www.westwing.com
 display: true
 date: 2010-01-01

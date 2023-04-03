@@ -2,7 +2,11 @@
 layout: index
 title: Contiamo
 description: I've worked on Contiamo website. Contiamo is a company that uses ML and AI to drive better decision making and process optimization.
-thumbnail: contiamo_skce0n
+thumbnail:
+  src: contiamo_skce0n
+  alt: Screenshot of Contiamo website.
+  width: 844
+  height: 511
 link: //www.contiamo.com
 display: true
 date: 2010-01-12

@@ -25,7 +25,8 @@
                       <div class="df aic">
                         {% if card2.data.avatar %}
                           <span class="db margin-right avatar">
-                            {% cldnry card2.data.avatar card2.data.title 60 60 "margin-auto " %}
+                            {% assign altTextAvatar = card2.data.title | append: ' profile photo.' %}
+                            {% cldnry card2.data.avatar altTextAvatar 60 60 "margin-auto " %}
                           </span>
                         {% endif %}
                         <div>

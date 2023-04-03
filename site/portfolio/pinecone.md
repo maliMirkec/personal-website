@@ -2,7 +2,11 @@
 layout: index
 title: Pinecone
 description: I've worked on Pinecone website. Pinecone is a managed database that provides the infrastructure for ML applications to search and rank results on similarities.
-thumbnail: pinecone_tkubew
+thumbnail:
+  src: pinecone_tkubew
+  alt: Screenshot of Pinecone website.
+  width: 844
+  height: 511
 link: //www.pinecone.io
 display: true
 date: 2010-01-01

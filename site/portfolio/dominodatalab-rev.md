@@ -2,7 +2,11 @@
 layout: index
 title: Domino Data Lab Rev
 description: I've worked on DDL Rev website. Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
-thumbnail: domino-data-lab-rev_nsqmdn
+thumbnail:
+  src: domino-data-lab-rev_nsqmdn
+  alt: Screenshot of Domino Data Lab Rev website.
+  width: 844
+  height: 511
 link: //rev.dominodatalab.com
 display: true
 date: 2010-01-04

@@ -2,7 +2,11 @@
 layout: index
 title: Little Bundle
 description: I've worked on Little Bundle webshop. Little Bundle is a company with a mission to maximize children's' health by making high-quality formula easily accessible.
-thumbnail: little-bundle_bg5oh9
+thumbnail:
+  src: little-bundle_bg5oh9
+  alt: Screenshot of Little Bundle website.
+  width: 844
+  height: 511
 link: //littlebundle.com
 display: true
 date: 2010-01-10

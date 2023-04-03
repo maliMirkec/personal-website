@@ -307,5 +307,3 @@ const lastfm = () => {
 }
 
 lastfm()
-
-perf()
