@@ -56,4 +56,4 @@ With `npkill` command you could find all `node_modules` folders and delete them 
 
 ## Conclusion
 
-I also wrote about [my bash scripts](/articles/my-bash-scripts-and-shortcuts/). If you want to know what other software and hardware I use, check [my setup page](/uses/).
+I also wrote about [my bash scripts](/articles/my-favorite-bash-shortcuts/). If you want to know what other software and hardware I use, check [my setup page](/uses/).
