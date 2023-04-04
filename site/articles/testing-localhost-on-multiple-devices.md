@@ -60,10 +60,10 @@ Make sure to check the [ngrok pricing](https://ngrok.com/pricing). A free plan i
 
 [cloudflared](https://www.npmjs.com/package/cloudflared) is the most recent addition to [my favorite npm packages](/articles/my-favorite-npm-packages/). It is a Node.js version of the Cloudflare Tunnel client. Installation and usage are pretty straightforward, as you can see in Wes Bos’ tweet.
 
-<a class="db" href="https://twitter.com/wesbos/status/1634310926219333642">{% cldnry "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." 825 518 %}</a>
+<a class="db padding" href="https://twitter.com/wesbos/status/1634310926219333642">{% cldnry "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." 818 523 %}</a>
 
 {% note %}
-cloudflared is free for everyone.
+cloudflared is free for everyone at the time of writing.
 {% endnote %}
 
 ## Local by Flywheel
@@ -80,10 +80,10 @@ The Local app works only with WordPress.
 
 On rare occasions, when I need to test on a “real” server, I go to Netlify and use drag’n’drop to put my site online. I have a live site that I can test in a matter of seconds.
 
-{% embed '<iframe width="792" height="446" src="https://www.youtube-nocookie.com/embed/etZ9HSUoTPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>' '792' '446' %}
+{% embed '<iframe width="844" height="475" src="https://www.youtube-nocookie.com/embed/etZ9HSUoTPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>' 844 475 %}
 
 {% note %}
-Netlify doesn’t expose localhost, but I wanted to show you this exciting option here.
+Netlify doesn’t expose localhost, but I wanted to show you this exciting option.
 {% endnote %}
 
 ## Conclusion

@@ -63,10 +63,10 @@ See more [examples for buttons with non-empty accessible names](https://www.w3.o
 
 ## Alternative image text
 
-Always use alternative text to your images and try to write it as a sentence.
+Always add alternative text to your images and try to write it as a sentence.
 
 ```html
-<img src=”/tree.jpg” alt= “A single oak three in the meadow.”>
+<img src="/tree.jpg" alt="A single oak three in the meadow.">
 ```
 
 Read more about [how to provide the best alternative text for images](https://webaim.org/techniques/alttext/).
