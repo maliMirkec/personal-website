@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Testing localhost on multiple devices
-date: 2023-04-11 10:00:00
+date: 2023-04-04 10:00:00
 tags:
   - blog
   - cross-browser
@@ -12,8 +12,6 @@ sections2:
   - type: banner-beta
     banner: newsletter
 series: Tools
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 Developers usually use localhost when developing websites or web apps on local computers. Localhost is a hostname of a current device, and it has a loopback address of `127.0.0.1`. So how can you test the localhost on different devices, like another computer, tablet, or smartphone? Let me show you a few ways how I do it.
