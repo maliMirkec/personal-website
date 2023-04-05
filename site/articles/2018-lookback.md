@@ -109,7 +109,7 @@ I could easily say that 2018 was a great year for me. I hope the next one will b
 [Netlify CMS]: https://www.netlifycms.org/
 [dev.to]: https://dev.to/starbist
 [medium.com]: https://medium.com/@malimirkeccita
-[codementor.io]: https://www.codementor.io/malimirkeccita
+[codementor.io]: https://www.codementor.io/@malimirkeccita
 [Reddit]: https://www.reddit.com/user/starbist
 [Hacker News]: https://news.ycombinator.com/user?id=starbist
 [Lobsters]: https://lobste.rs/u/starbist

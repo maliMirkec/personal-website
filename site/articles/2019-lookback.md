@@ -124,4 +124,4 @@ Let’s make the web an even better place!
 [on Remote Working Hub]: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 [dev.to]: https://dev.to/starbist
 [medium.com]: https://medium.com/@malimirkeccita
-[codementor.io]: https://www.codementor.io/malimirkeccita
+[codementor.io]: https://www.codementor.io/@malimirkeccita
