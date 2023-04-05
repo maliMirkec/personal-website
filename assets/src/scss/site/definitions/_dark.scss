@@ -4,11 +4,16 @@
   --color-alpha-light: #{$color-alpha-darker};
   --color-alpha-lighter: #{$color-alpha-darkest};
   --color-beta: #{$color-beta-dark};
+  --color-beta-light: #{$color-beta-darker};
+  --color-beta-lightest: #{$color-beta-darkest};
+
+  --color-beta-darker: #{$color-beta-light};
+  --color-beta-darkest: #{$color-beta-lightest};
+
   --color-light: #{$color-dark};
   --color-lightish: #{$color-darkish};
   --color-dark: #{$color-light};
   --color-darkish: #{$color-lightish};
-  --color-beta-light: #{$color-beta-light};
   --color-xmas-alpha: #{$color-darkish};
   --color-xmas-beta: #{$color-xmas-beta-dark};
   --color-xmas-gamma: #{$color-xmas-gamma-dark};

@@ -39,7 +39,7 @@ While all major browsers are pushing new versions that support these new feature
 >
 > — [Šime Vidas](https://twitter.com/simevidas/status/1570773739721330691)
 
-{% cldnrylink "https://twitter.com/simevidas/status/1570773739721330691" "i-am-not-that-excited-about-new-css-features-tweet-sime-vidas_fbghjw" "Screenshot of a tweet from Šime Vidas." 800 262 %}
+{% cldnrylink "https://twitter.com/simevidas/status/1570773739721330691" "i-am-not-that-excited-about-new-css-features-tweet-sime-vidas_fbghjw" "Screenshot of a tweet from Šime Vidas." 840 274 %}
 
 ## Problem #2
 
@@ -63,6 +63,6 @@ Sacha Greif made a great point by asking a question on Twitter today:
 >
 > — [Sacha Greif](https://twitter.com/SachaGreif/status/1574287874165702658)
 
-{% cldnrylink "https://twitter.com/SachaGreif/status/1574287874165702658" "i-am-not-that-excited-about-new-css-features-tweet-sacha-greif_j1jm5t" "Screenshot of a tweet from Sacha Greif." 800 400 %}
+{% cldnrylink "https://twitter.com/SachaGreif/status/1574287874165702658" "i-am-not-that-excited-about-new-css-features-tweet-sacha-greif_j1jm5t" "Screenshot of a tweet from Sacha Greif." 840 420 %}
 
 I honestly don’t know, but I predict that using all these features will be a slow process. We are in the early phase of learning how to use it, but we are fortunate that we don’t need to wait for major browser support that long.

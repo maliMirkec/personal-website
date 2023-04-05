@@ -5,6 +5,7 @@ node_modules
 .env
 .vscode
 .netlify
+netlify/edge-functions/_generated
 assets/dist
 public
 .frontmatter

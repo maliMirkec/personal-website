@@ -46,7 +46,7 @@ Since we are going to add Kwes form to our site, we should sign up for free firs
 
 After signing up, add a new website, and a new form from Kwes dashboard.
 
-{% cldnry "kwes-dashboard_nfctyx" "Kwes Dashboard screenshot." %}
+{% cldnry "kwes-dashboard_nfctyx" "Kwes Dashboard screenshot." 840 463 %}
 
 To complete the integration, you should add JavaScript file at the bottom of your body tag of your contact page.
 

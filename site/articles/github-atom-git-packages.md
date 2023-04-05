@@ -29,7 +29,7 @@ Atom community provides us with plenty of [Git packages](https://atom.io/package
 
 ## git-plus
 
-{% cldnry "git-plus_hi3gmm" "Git-plus in action." %}
+{% cldnry "git-plus_hi3gmm" "Git-plus in action." 840 477 %}
 
 When terminal is not accessible or when I'm too lazy to open it, I use **git-plus**. **git-plus** package allows you to use most of the Git commands from Atom directly.
 
@@ -55,7 +55,7 @@ Installation could be done via package manager. Configuration is straightforward
 
 ## git-history
 
-{% cldnry "git-history_whbavd" "Git-history in action." %}
+{% cldnry "git-history_whbavd" "Git-history in action." 840 476 %}
 
 This package allows you to view history of the file.
 
@@ -65,7 +65,7 @@ To view file history, open command palette and type in "git history" and select 
 
 ## git-log
 
-{% cldnry "git-log_npntsy" "Git-log in action." %}
+{% cldnry "git-log_npntsy" "Git-log in action." 840 475 %}
 
 **git-log** helps you see pretty Git log directly from Atom.
 
