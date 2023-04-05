@@ -38,7 +38,7 @@ Static site generators, on the other hand, are so fast that rarely anybody conce
 
 Netlify supports anything you could think of and a little bit more: from continuous deployment to split testing. All my clients (and myself) use Netlify for their sites. I even wrote [a post about my favorite Netlify features].
 
-{% cldnrylink "/articles/my-favorite-netlify-features/" "My_favorite_Netlify_features-2x_inepie" "Cover for My Favorite Netlify features article." %}
+{% cldnrylink "/articles/my-favorite-netlify-features/" "My_favorite_Netlify_features-2x_inepie" "Cover for My Favorite Netlify features article." 840 472 %}
 
 I noticed a trend of moving sites to SSGs. Most enquiries I had this year were about Gatsby. Since I am not able to produce production-ready React code, I haven’t had the opportunity to work with Gatsby yet. I was using mostly Jekyll, Hugo, and Hexo this year. I am very interested to learn more about Gatsby and Eleventy, as I hear great things about it wherever I look.
 
@@ -52,7 +52,7 @@ On the other hand, working with the Liquid template engine has its advantages. T
 
 Styleguides are the number one thing this year for me. All big projects that I have been part of were built using styleguides, usually on my proposal. Developing standalone components helps in creating a better product in terms of robustness and maintainability. It also helps with understanding templates and layouts by reusing the parts that are repeating. I wrote [an article about style guides], too.
 
-{% cldnrylink "/articles/5-things-to-consider-when-creating-your-css-style-guide/" "5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck" "Cover for 5 Things To Consider When Creating Your First CSS Style Guide article." %}
+{% cldnrylink "/articles/5-things-to-consider-when-creating-your-css-style-guide/" "5_things_to_consider_when_creating_your_CSS_style_guide-2x_gfuzck" "Cover for 5 Things To Consider When Creating Your First CSS Style Guide article." 840 472 %}
 
 But the most notable advantage of a styleguide is the ability to see all definitions and components in one place. If this is hosted as a website or web app, then it is easily accessible from every device. That means every member of the team can be included in the testing or reviewing phase from the very beginning. It has been proven to be the most significant benefit on all my projects.
 
@@ -81,7 +81,7 @@ Although this has been the busiest year so far, I had some time to work on my si
 
 [Code Line Daily] is a side project where I introduce a new line of code every day. It covers mostly HTML, CSS, JS and PHP one-liners. To my great surprise, it was launched on Product Hunt earlier this year. I have made it [available as a Progressive Web App recently], and it is available as [a Chrome extension], too. I learned how to build a PWA and Chrome extension while developing this project. It runs on Starter Project.
 
-{% cldnrylink "/articles/how-i-built-my-second-progressive-web-app-pwa/" "How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr" "Cover for How I Built My Second Progressive Web App article." %}
+{% cldnrylink "/articles/how-i-built-my-second-progressive-web-app-pwa/" "How_I_built_my_second_Progressive_Web_App_PWA_-2x_jwj4rr" "Cover for How I Built My Second Progressive Web App article." 840 472 %}
 
 Finally, the most challenging side project this year was mentorship. Helping someone that comes from a non-IT job to become a developer is hard. For the past few months, I am working closely with my mentee, and I am very proud to say that everything is working well so far. I am teaching him not only how to code better, but how to use all modern tools. I believe every professional should know at least basics in project management tools and versioning control systems. As he is mastering some advanced stuff like BEM and Sass, I firmly believe he will be able to start his job hunt soon.
 
@@ -124,4 +124,4 @@ Let’s make the web an even better place!
 [on Remote Working Hub]: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 [dev.to]: https://dev.to/starbist
 [medium.com]: https://medium.com/@malimirkeccita
-[codementor.io]: https://www.codementor.io/malimirkeccita
+[codementor.io]: https://www.codementor.io/@malimirkeccita

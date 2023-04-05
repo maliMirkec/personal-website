@@ -23,7 +23,7 @@ Recently I was working on a very interesting and challenging project. I was told
 
 Here's the desired design for the hero section with crooked border (notice the crooked shadow at the bottom):
 
-{% cldnry "crooked-shadow_rozyr7" "Crooked background example." %}
+{% cldnry "crooked-shadow_rozyr7" "Crooked background example." 840 262 %}
 
 Let's break this into smaller modules:
 - hero block

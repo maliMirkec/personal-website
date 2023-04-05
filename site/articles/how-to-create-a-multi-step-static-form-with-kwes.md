@@ -101,7 +101,7 @@ Of course, that’s not all. Kwes is packed with other impressive features. Thes
 
 ### Custom headers
 
-{% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." %}
+{% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." 840 414 %}
 
 Kwes provides adding custom headers to each step—a title of the current step. There are two types of headers: simple and complex.
 
@@ -146,7 +146,7 @@ Another great feature of Kwes form builder is the ability to toggle the visibili
 
 Progress bars often help users understand how much steps are left until the submission. Since this element only serves as a visual indicator, I decided to make [a little SVG that is animated] on click. The animation is a CSS animation of the stroke of the SVG path.
 
-![Animated SVG progress bar.](https://res.cloudinary.com/starbist/image/upload/c_thumb,w_200,g_face/v1580360464/ping-pong_sxrlf7.gif)
+{% gif "https://res.cloudinary.com/starbist/image/upload/c_thumb,w_200,g_face/v1580360464/ping-pong_sxrlf7.gif" "Animated SVG progress bar." 200 80 %}
 
 Here’s the complete form, including the SVG and JavaScript code:
 

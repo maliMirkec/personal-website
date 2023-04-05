@@ -92,7 +92,7 @@ We should see a new dock with 3 main sections:
 
 If we want to run a task, we could click it from task list. On the right side we could see a console output for these task. It is very useful when debugging invalid or failed task. Alternatively, we could write the name of the task inside input field and then press _Enter_.
 
-{% cldnry "gulp-manager-in-action_np6g5y" "Gulp manager in action." %}
+{% cldnry "gulp-manager-in-action_np6g5y" "Gulp manager in action." 840 349 %}
 
 Our files are now compressed and tasks are run from Atom. We don't need a console anymore.
 

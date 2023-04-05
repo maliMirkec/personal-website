@@ -19,9 +19,11 @@ $color-alpha-darkest: hsl(161, 85%, 7%);
 $color-alpha-light: hsl(161, 85%, 77%);
 $color-alpha-lighter: transparentize($color-alpha, .8125);
 $color-beta: hsl(345, 100%, 60%);
-$color-beta-darker: hsl(345, 80%, 37%);
 $color-beta-dark: hsl(345, 80%, 50%);
+$color-beta-darker: hsl(345, 80%, 37%);
+$color-beta-darkest: hsl(345, 80%, 17%);
 $color-beta-light: hsl(345, 100%, 70%);
+$color-beta-lightest: hsl(345, 100%, 96%);
 $color-light: hsl(161, 85%, 98%);
 $color-lightish: hsl(161, 85%, 96%);
 $color-dark: hsl(161, 85%, 5%);
@@ -51,7 +53,7 @@ $space: $space-default * $space-factor;
 
 // Border Radius
 $brad: .25rem;
-$brad-factor: 4;
+$brad-factor: 3;
 $brad-alpha: $brad * $brad-factor;
 
 // Transitions
@@ -90,6 +92,7 @@ $snap-inline: 10px;
   --color-alpha-lighter: #{$color-alpha-lighter};
   --color-beta: #{$color-beta};
   --color-beta-light: #{$color-beta-light};
+  --color-beta-lightest: #{$color-beta-lightest};
   --color-beta-darker: #{$color-beta-darker};
   --color-light: #{$color-light};
   --color-lightish: #{$color-lightish};

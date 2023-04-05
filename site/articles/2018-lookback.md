@@ -37,7 +37,7 @@ What an excellent year for CSS developers last year was. I enjoyed solving probl
 
 In the time when more than 50% of the developers didn't know how to solve the famous [Twitter puzzle], I wanted to write about the importance of the cascade.
 
-{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" "400" "607" %}
+{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" 600 910 %}
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
 
@@ -86,7 +86,7 @@ To have a broader audience for my blog, I reshare every post from my blog on [de
 
 I have reached almost 2,5k followers on the dev.to platform. I have more than 700 followers on Twitter. I have a modest reputation on Reddit, Hacker News, and Lobsters.
 
-{% cldnry "devto-stats_zj90eq" "dev.to stats." %}
+{% cldnry "devto-stats_zj90eq" "dev.to stats." 840 191 %}
 
 Around 35,000 readers visited my blog with almost 50,000 pageviews. On dev.to, I have more than 17,000 post views, and nearly 700 reactions. On medium.com, I had around 10k post views, and on codementor.io, I had around 4,5k.
 
@@ -109,7 +109,7 @@ I could easily say that 2018 was a great year for me. I hope the next one will b
 [Netlify CMS]: https://www.netlifycms.org/
 [dev.to]: https://dev.to/starbist
 [medium.com]: https://medium.com/@malimirkeccita
-[codementor.io]: https://www.codementor.io/malimirkeccita
+[codementor.io]: https://www.codementor.io/@malimirkeccita
 [Reddit]: https://www.reddit.com/user/starbist
 [Hacker News]: https://news.ycombinator.com/user?id=starbist
 [Lobsters]: https://lobste.rs/u/starbist

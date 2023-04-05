@@ -9,12 +9,12 @@
   "logo1": {
     "href": "/side-projects/ui-dev-newsletter/",
     "src": "/gfx/svg/ui-dev-FF3366.svg",
-    "title": "UI Dev Newsletter."
+    "alt": "UI Dev Newsletter."
   },
   "logo2": {
     "href": "/",
     "src": "/gfx/svg/logo-SB-000-12E09F.svg",
-    "title": "Silvestar Bistrović."
+    "alt": "Silvestar Bistrović."
   },
   "menu": [{
     "href": "/side-projects/ui-dev-newsletter/",

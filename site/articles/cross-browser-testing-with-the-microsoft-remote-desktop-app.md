@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Cross-browser testing with the Microsoft Remote Desktop app
-date: 2023-04-11 10:00:01
+date: 2023-04-18 10:00:01
 tags:
   - blog
   - cross-browser
@@ -40,7 +40,7 @@ Next, add a new user account associated with your Windows operating system or Mi
 
 Take a look at what my remote connection setup looks like:
 
-{% cldnry "Microsoft_Remote_Desktop_app_g8mjr1" "Screenshot of Microsoft Remote Desktop app." %}
+{% cldnry "Microsoft_Remote_Desktop_app_g8mjr1" "Screenshot of Microsoft Remote Desktop app." 840 792 %}
 
 Once everything is set up, you can easily access your Windows machine using the “Connect” option or double-clicking on the new item in the dashboard.
 

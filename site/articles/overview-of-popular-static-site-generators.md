@@ -28,7 +28,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." %}
+{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." 840 385 %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -111,7 +111,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." %}
+{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." 840 320 %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -149,7 +149,7 @@ Front matter is a block of data on top of the Markdown file. You could set custo
 
 For example, this is how you could add tags to your article.
 
-```md
+```yml
 tags:
   - web
   - dev
@@ -161,7 +161,7 @@ tags:
 Static page generators use a templating language to process templates. To insert data into a template, you need to use tags. For example, to display the page title in Jekyll, you could write:
 
 {% raw %}
-```html
+```liquid
 {{ page.title }}
 ```
 {% endraw %}
@@ -169,7 +169,7 @@ Static page generators use a templating language to process templates. To insert
 Let's try to display a list of tags from the front matter in our post in Jekyll. You need to check if a variable is available. Then, you need to loop through tags and display them in an unordered list.
 
 {% raw %}
-```html
+```liquid
 {%- if page.tags -%}
  <ul>
    {%- for tag in page.tags -%}
@@ -240,7 +240,7 @@ When you want to store data that are not available in Markdown files, you should
 
 Let's store those social links in our data file. Since all generators support YAML format, let's save the data in the social.yml file:
 
-```md
+```yml
 - name: Twitter
   href: https://twitter.com/malimirkeccita
 - name: LinkedIn
@@ -256,7 +256,7 @@ To output the data, you could use the following code:
 **Jekyll**
 
 {% raw %}
-```html
+```liquid
 {%- if site.data.social -%}
  <ul>
    {% for social in site.data.social %}
@@ -314,7 +314,7 @@ To output the data, you could use the following code:
 Templates often support data filtering. For example, if you want to make the title uppercase, you could do it like so:
 
 {% raw %}
-```html
+```liquid
 {{ page.title | upcase }}
 ```
 {% endraw %}
@@ -322,7 +322,7 @@ Templates often support data filtering. For example, if you want to make the tit
 Middleman has similar syntax:
 
 {% raw %}
-```html
+```go
 <%= current_page.data.title.upcase %>
 ```
 {% endraw %}
@@ -330,7 +330,7 @@ Middleman has similar syntax:
 Hugo uses the following command:
 
 {% raw %}
-```html
+```go
 {{ .Title | upper }}
 ```
 {% endraw %}
@@ -338,7 +338,7 @@ Hugo uses the following command:
 Hexo has different syntax, but the result is the same.
 
 {% raw %}
-```html
+```go
 <%= page.title.toUpperCase() %>
 ```
 {% endraw %}
@@ -347,7 +347,7 @@ Hexo has different syntax, but the result is the same.
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." %}
+{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." 840 384 %}
 
 ## SASS
 
@@ -371,7 +371,7 @@ You could write a new plugin or extension. Before you do, check if a similar plu
 Shortcodes are code snippets that you could place in Markdown documents. Those snippets output HTML code. Hugo and Hexo support shortcodes. There are built-in shortcodes, like figure in Hugo:
 
 {% raw %}
-```html
+```liquid
 {{< figure src="/lint/to/image.jpg" title="My image" >}}
 ```
 {% endraw %}
@@ -379,7 +379,7 @@ Shortcodes are code snippets that you could place in Markdown documents. Those s
 Hexo youtube shortcode:
 
 {% raw %}
-```html
+```liquid
 {% youtube video_id %}
 ```
 {% endraw %}

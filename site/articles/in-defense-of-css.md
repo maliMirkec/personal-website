@@ -16,7 +16,7 @@ sections2:
 
 I am here to take a stand and defend CSS, my most favorite programming language. I don't care if it is a proper programming language or not, and I don't think the authors cared, too. However, I do care about its beauty, power, simplicity, and complexity.
 
-{% cldnry "In_defense_of_CSS_cgqzds" "In defense of CSS." 824 412%}
+{% cldnry "In_defense_of_CSS_cgqzds" "In defense of CSS." 840 420 %}
 
 {% note %}
 I asked [a question about respecting CSS on Dev.to](https://dev.to/starbist/so-how-many-of-you-respect-css-as-a-programming-language-1mj4) earlier this year. Unfortunately, the discussion escalated and went in the entirely wrong direction.
