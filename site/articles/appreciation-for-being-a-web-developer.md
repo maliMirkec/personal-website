@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 When I was just a kid, like 3 or 4, when someone asked me what I wanted to be when I grew up, my answer was a postman. When someone asked me the same question when I was 7 or 8, I answered that I wanted to become a director, like a company director. So here I am now, I am the director of a company, but only because it is the only way to do freelance business here in Croatia.

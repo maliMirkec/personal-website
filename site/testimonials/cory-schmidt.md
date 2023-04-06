@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 

@@ -11,6 +11,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Do you know of CSS media feature [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)? In short, `prefers-reduced-motion` is a setting that tells us if the user has set the system to remove or minimize animations and transitions.

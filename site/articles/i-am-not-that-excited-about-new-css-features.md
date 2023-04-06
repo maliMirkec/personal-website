@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 I have a confession: I am not that excited about all these new CSS features. Let me tell you why.

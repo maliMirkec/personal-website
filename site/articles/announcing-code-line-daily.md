@@ -17,6 +17,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Last week I released my side project: [Code Line Daily].

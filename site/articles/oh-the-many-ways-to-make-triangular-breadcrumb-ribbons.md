@@ -20,6 +20,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.

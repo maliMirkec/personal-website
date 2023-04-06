@@ -15,3 +15,87 @@
     background-position: 100% 0;
   }
 }
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.975, 0.975, 0.975) rotate3d(0, 0, 1, -0.33deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.025, 1.025, 1.025) rotate3d(0, 0, 1, 0.33deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.025, 1.025, 1.025) rotate3d(0, 0, 1, -0.33deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada2 {
+  10%,
+  20% {
+    transform: rotate3d(0, 0, 1, -0.66deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate3d(0, 0, 1, 0.66deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: rotate3d(0, 0, 1, -0.66deg);
+  }
+}
+
+@keyframes tada3 {
+  10%,
+  20% {
+    transform: rotate3d(0, 0, 1, -0.33deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate3d(0, 0, 1, 0.33deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: rotate3d(0, 0, 1, -0.33deg);
+  }
+}
+
+[class*="animate"] {
+  transition: all var(--duration2);
+  animation-duration: var(--duration3);
+  animation-delay: var(--duration4);
+  animation-fill-mode: both;
+  backface-visibility: visible;
+}
+
+.animate--alpha {
+  animation-name: tada2;
+}
+
+.animate--beta {
+  animation-name: tada3;
+}

@@ -21,5 +21,6 @@ sections:
     cta:
       href: /side-projects/ui-dev-newsletter/
       title: Subscribe
+      animate: true
   - type: cards-zeta
 ---

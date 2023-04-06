@@ -84,7 +84,7 @@
       {% endif %}
       {% if hero1.cta %}
         <div class="margin-top-alpha">
-          <a class="button button--inverse" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
+          <a class="button button--inverse{% if hero1.cta.animate and site.animate %} js-animate{% endif %}" href="{{ hero1.cta.href }}">{{ hero1.cta.title }}</a>
         </div>
       {% endif %}
       {% if hero1.cta2 %}

@@ -18,4 +18,5 @@ sections:
       title: Go home
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

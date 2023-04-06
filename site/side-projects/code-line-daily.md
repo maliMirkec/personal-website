@@ -24,6 +24,7 @@ sections:
     cta:
       href: //cld.silvestar.codes
       title: Go to the Project
+      animate: true
     cta2:
       href: /side-projects/
       title: Discover other projects
@@ -38,4 +39,5 @@ sections:
     exclude: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

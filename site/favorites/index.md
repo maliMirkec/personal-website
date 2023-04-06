@@ -27,4 +27,5 @@ sections:
     extraPadding: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

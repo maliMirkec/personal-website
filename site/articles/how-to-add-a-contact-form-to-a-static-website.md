@@ -17,6 +17,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with [Kwes form builder].

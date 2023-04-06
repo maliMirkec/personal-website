@@ -40,6 +40,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 

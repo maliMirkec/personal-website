@@ -29,4 +29,5 @@ sections:
     noDesc: true
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---

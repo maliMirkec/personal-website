@@ -1361,4 +1361,5 @@ sections:
         year: 2021
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

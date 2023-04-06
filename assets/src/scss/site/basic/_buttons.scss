@@ -2,6 +2,7 @@
 //
 // Markup: _buttons.html
 //
+// .js-animate - Animated.
 // :hover - Hover.
 // :focus - Focus.
 // :focus:active - Active.
@@ -61,6 +62,10 @@
     cursor: pointer;
 
     &:hover {
+      animation-name: tada;
+      animation-duration: var(--duration3);
+      animation-fill-mode: both;
+      backface-visibility: visible;
       box-shadow: 0 0 0 .15rem var(--color-alpha);
     }
 
@@ -208,5 +213,3 @@
     }
   }
 }
-
-

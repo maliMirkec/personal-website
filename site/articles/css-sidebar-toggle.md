@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 CSS sidebar toggle presented in this post is made with `CSS` only. These days accessibility is pretty important stuff and, because changing the state of the elements cannot be done without `JavaScript`, I've added a small snippet for this feature.

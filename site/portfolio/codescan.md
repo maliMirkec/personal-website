@@ -36,6 +36,7 @@ sections:
     cta:
       href: //www.codescan.io
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -59,4 +60,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

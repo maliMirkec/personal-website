@@ -18,4 +18,5 @@ sections:
     noDate: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

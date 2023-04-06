@@ -41,6 +41,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar was always responsive, proactive, and his work product was top-notch...
 ---
 

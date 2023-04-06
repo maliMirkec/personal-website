@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 GitHub profile is often recognised as a developer’s portfolio. It reveals how often do you contribute, and what kind of projects do you like. But what else could we discover from a GitHub profile? Here is what I learned.

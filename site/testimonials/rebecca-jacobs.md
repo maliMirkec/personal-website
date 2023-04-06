@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Worked with Silvestar to optimize our website! He did a great job implementing...
 ---
 

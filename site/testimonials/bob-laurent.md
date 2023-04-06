@@ -41,6 +41,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar is a highly talented web developer that I was fortunate enough to work with...
 ---
 

@@ -14,6 +14,7 @@ sections:
 sections2:
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
 
 ## Frontend

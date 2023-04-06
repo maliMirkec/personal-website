@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar was professional and had a very good attitude during all time...
 ---
 

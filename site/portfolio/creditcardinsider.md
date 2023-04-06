@@ -67,4 +67,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
