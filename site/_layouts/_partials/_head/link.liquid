@@ -9,7 +9,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-{% if env.production %}
+{% if env.production or env.staging %}
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="preload" href="/css/mentor.min.css" as="style">

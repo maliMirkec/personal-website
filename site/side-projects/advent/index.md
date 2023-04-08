@@ -1,9 +1,14 @@
 ---
 layout: index
 title: Advent of UI components
+projectTitle: Advent of UI components
 descriptionAlt: For every day of advent I am showcasing a new UI Component. The theme? You guessed it ― Christmas. 🎄
 description: During every day of the Advent of UI components, I am building a new UI Component. The theme? You guessed it ― Christmas. 🎄
-thumbnail: Advent_of_UI_components_nvaz4h
+thumbnail:
+  src: advent_usqyhu
+  alt: Screenshot of the “Advent of UI components” home page.
+  width: 844
+  height: 511
 type: articles
 tags:
   - projects
@@ -23,4 +28,5 @@ sections:
     sorter: date
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---

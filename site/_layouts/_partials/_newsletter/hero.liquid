@@ -9,7 +9,7 @@
       {% endif %}
       {% if hero.cta %}
         <div class="margin-top-beta">
-          <a class="button" href="{{ hero.cta.href }}">{{ hero.cta.title }}</a>
+          <a class="button{% if hero.cta.animate and site.animate %} js-animate{% endif %}" href="{{ hero.cta.href }}">{{ hero.cta.title }}</a>
         </div>
       {% endif %}
       {% if hero.cta2 %}

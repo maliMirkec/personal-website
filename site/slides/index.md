@@ -3,7 +3,6 @@ layout: index
 title: My slides
 descriptionAlt: Collection of all slides available on my site.
 description: Discover the latest presentations on various web development topics and explore the latest ideas and best practices in the field.
-thumbnailAlt: Slides_kke7ow
 type: articles
 sections:
   - type: hero-alpha
@@ -19,4 +18,5 @@ sections:
     noDate: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

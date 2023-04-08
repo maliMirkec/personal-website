@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 GitHub profile is often recognised as a developer’s portfolio. It reveals how often do you contribute, and what kind of projects do you like. But what else could we discover from a GitHub profile? Here is what I learned.
@@ -25,7 +26,7 @@ This analysis doesn't include repositories from my clients.
 
 ## GitHub profile
 
-!["Contribution activity graph on my GitHub profile."](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif)
+{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif" "Contribution activity graph on my GitHub profile." 720 155 null "padding" %}
 
 Here are some facts from [my Contribution activity graph]:
 

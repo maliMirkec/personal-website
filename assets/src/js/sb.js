@@ -1,3 +1,5 @@
+require('page-loaded-in')
+
 if(window.cloudinary) {
   const cl = window.cloudinary.Cloudinary.new({cloud_name: "starbist"})
   cl.responsive()
@@ -306,28 +308,35 @@ const lastfm = () => {
 
 lastfm()
 
-const perf = () => {
-  const $perf = document.querySelector('.js-perf')
+const animate = () => {
+  const $animates = document.querySelectorAll('.js-animate')
 
-  if ($perf) {
-    window.onload = function () {
-      setTimeout(function () {
-        window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {}
+  if ($animates.length) {
+    const options = {
+      root: null,
+      rootMargin: "0%",
+      threshold: 1.0,
+    };
 
-        const t = performance.timing || {}
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if(entry.isIntersecting) {
+          const className = entry.target.classList.contains('button') ? 'animate--alpha' : 'animate--beta'
 
-        if (!t) {
-          return
+          entry.target.classList.remove(className)
+          setTimeout(() => {
+            entry.target.classList.add(className)
+          }, 1000)
         }
+      });
+    };
 
-        const start = t.navigationStart
-        const end = t.loadEventEnd
-        loadTime = (end - start) / 1000
+    const observer = new IntersectionObserver(callback, options);
 
-        $perf.innerHTML += `This page loaded in ${loadTime} seconds.</p>`
-      }, 0);
-    }
+    $animates.forEach($animate => {
+      observer.observe($animate);
+    })
   }
 }
 
-perf()
+animate()

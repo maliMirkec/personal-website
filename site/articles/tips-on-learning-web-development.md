@@ -16,6 +16,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 series: The UI Development Mentoring Program
 ---
 
@@ -52,7 +53,7 @@ When you start learning, you might be quite overwhelmed by the number of new ter
 
 You might want to make a list or a plan or a schedule to avoid wasting time as much as possible. A simple schedule or Trello board could help you focus on getting there, especially if you set up deadlines for yourself.
 
-{% cldnry "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." %}
+{% cldnry "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." 844 563 %}
 
 <small>_Image Credit: [Kaleidico on Unsplash](https://unsplash.com/photos/26MJGnCM0Wc)_</small>
 

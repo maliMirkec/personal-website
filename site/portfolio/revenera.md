@@ -2,7 +2,11 @@
 layout: index
 title: Revenera
 description: I've worked on Revenera website. Revenera helps you as a software developer to control costs, grow and protect your business.
-thumbnail: f2_yibqhl
+thumbnail:
+  src: revenera_nv7gag
+  alt: Screenshot of Revenera website.
+  width: 844
+  height: 511
 link: //www.revenera.com
 display: true
 date: 2010-01-08
@@ -16,10 +20,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: f2_yibqhl
+    src: revenera_nv7gag
     alt: Screenshot of Revenera website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Revenera
     desc: >-
@@ -32,6 +36,7 @@ sections:
     cta:
       href: //www.revenera.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -55,4 +60,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

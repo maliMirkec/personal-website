@@ -1,12 +1,16 @@
 ---
 layout: newsletter
-title: UI Dev Newsletter archive
+title: Archive
 projectTitle: UI Dev Newsletter
 description: Archive of articles, tutorials, and tools related to User Interface development delivered to your inbox every two weeks.
 type: newsletter-archive
 tags:
   - projects
-thumbnail: UI_Dev_Newsletter_qfpto1
+thumbnail:
+  src: newsletter_cp5kc0
+  alt: Screenshot of the UI Dev Newsletter archive page.
+  width: 844
+  height: 511
 date: 2000-04-01
 display: true
 sections:
@@ -17,5 +21,6 @@ sections:
     cta:
       href: /side-projects/ui-dev-newsletter/
       title: Subscribe
+      animate: true
   - type: cards-zeta
 ---

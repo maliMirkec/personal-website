@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 series: Atom
 ---
 
@@ -47,7 +48,7 @@ This settings should turn on **linter** errors in Atom, so you could fix the pro
 
 You can see full configuration of my **linter** package here:
 
-{% cldnry "linter-settings-full_uchhit" "Linter settings." %}
+{% cldnry "linter-settings-full_uchhit" "Linter settings." 600 981 %}
 
 Basic **linter** is installed and configured, now we need actual linter plugins for specific programming languages. There are many plugins available, full list is available [here](http://atomlinter.github.io/). Because I'm a frontend developer, I'll show you how to install linters for `CSS` and `JavaScript`.
 
@@ -55,23 +56,23 @@ Basic **linter** is installed and configured, now we need actual linter plugins 
 
 One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https://atom.io/packages/linter-jshint)**. It is an interface for [JSHint](http://jshint.com/), a tool that helps to detect errors and potential problems in your `JavaScript` code. Installation could be done via Atom package manager. There are few configuration options. The most important is to provide of executable `jshint` node script. Here are my settings:
 
-{% cldnry "linter-jshint-settings_i3w9mm" "JSHint settings." %}
+{% cldnry "linter-jshint-settings_i3w9mm" "JSHint settings." 840 353 %}
 
 ### CSS linter
 
 [**linter-stylelint**](https://atom.io/packages/linter-stylelint) is an interface for [stylelint](http://stylelint.io/), CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets. It is available on Atom package manager and it has only 3 configuration options. Here you can see my** linter-stylelint** configuration:
 
-{% cldnry "linter-stylelint-settings_t5ebdp" "Stylelint settings." %}
+{% cldnry "linter-stylelint-settings_t5ebdp" "Stylelint settings." 600 339 %}
 
 ## How to use it?
 
 To see **linter-jshint** in action, open any `JavaScript` file and see if any errors exists. You could see errors in different places, depending on your main **linter** package configuration.
 
-{% cldnry "linter-jshint_nkkmny" "JSHint in action." %}
+{% cldnry "linter-jshint_nkkmny" "JSHint in action." 840 472 %}
 
 You could see `CSS` lint errors by opening and `CSS` file.
 
-{% cldnry "linter-stylelint_uzvqwj" "Stylelint in action." %}
+{% cldnry "linter-stylelint_uzvqwj" "Stylelint in action." 840 473 %}
 
 In the examples above you could see that errors are displayed on 4 different places:
 

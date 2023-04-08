@@ -4,7 +4,7 @@
       <ul>
         {% for val in mentor.data.nav %}
           <li{% if val.title == title or val.title == page.data.navTitle %} class="highlight"{% endif %}>
-            <a href="{{ val.href }}" class="{{ val.class }}">
+            <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>
               <span>{{ val.title }}</span>
             </a>
           </li>
@@ -17,7 +17,7 @@
     <ul>
       {% for val in mentor.data.social %}
         <li>
-          <a href="{{ val.href }}" class="{{ val.class }}">{{ val.title }}</a>
+          <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>{{ val.title }}</a>
         </li>
       {% endfor %}
     </ul>

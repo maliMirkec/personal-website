@@ -2,7 +2,11 @@
 layout: index
 title: Westwing
 description: I've worked on Westwing website. Westwing is "curated shoppable magazine", inspiring customers with the newest trends, themes, stories, brands and products.
-thumbnail: ww_jkpf8l
+thumbnail:
+  src: westwing_erzgqc
+  alt: Screenshot of Westwing website.
+  width: 844
+  height: 511
 link: //www.westwing.com
 display: true
 date: 2010-01-01
@@ -18,10 +22,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: ww_jkpf8l
+    src: westwing_erzgqc
     alt: Screenshot of Westwing website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Westwing
     desc: >-
@@ -32,6 +36,7 @@ sections:
     cta:
       href: //www.westwing.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -55,4 +60,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

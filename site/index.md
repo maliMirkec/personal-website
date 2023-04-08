@@ -3,7 +3,6 @@ layout: index
 title: My home
 ogTitle: Home of fearless web developer Silvestar Bistrović
 description: Silvestar is building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
-thumbnailAlt: SB_ga86yw
 type: home
 sections:
   - type: hero-alpha
@@ -16,6 +15,7 @@ sections:
     cta:
       href: /contact/
       title: Get in touch
+      animate: true
     narrow: true
   - type: hero-beta
     title: From the Blog
@@ -34,6 +34,7 @@ sections:
     limit: 5
   - type: banner-beta
     banner: newsletter
+    animate: true
   - type: hero-beta
     title: From the Portfolio
     desc: >-
@@ -106,4 +107,5 @@ sections:
     banner: css-auditors
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

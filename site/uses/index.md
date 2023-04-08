@@ -12,6 +12,7 @@ sections:
 sections2:
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
 
 Most developers often spend time on their setup, and I am no exception. I like organizing my computer and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
@@ -20,7 +21,7 @@ I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome
 
 _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) and [Wes Bos’s setup](https://wesbos.com/uses/) pages. My setup is also featured on [the /uses site](http://uses.tech/)._
 
-{% cldnry "Office%202023" "My office 2023." "847" "635" %}
+{% cldnry "Office%202023" "My office 2023." 840 630 %}
 
 ## Hardware
 

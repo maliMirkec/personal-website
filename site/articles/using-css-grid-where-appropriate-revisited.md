@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 This solution is a follow-up post on my last year's article ["Using CSS Grid where appropriate"]. The goal is to find a solution for navigation with an unknown number of items.

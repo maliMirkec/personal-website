@@ -2,7 +2,11 @@
 layout: index
 title: Marcijuš Studio
 description: I've worked on Marcijuš Studio website. Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography.
-thumbnail: mw_gtapmb
+thumbnail:
+  src: marcijus-studio_tsr7lg
+  alt: Screenshot of Marcijuš Studio website.
+  width: 844
+  height: 511
 link: //marcijus-studio.com
 display: false
 date: 2010-01-21
@@ -16,10 +20,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: mw_gtapmb
+    src: marcijus-studio_tsr7lg
     alt: Screenshot of Marcijuš Studio website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Marcijuš Studio
     desc: >-
@@ -38,6 +42,7 @@ sections:
     cta:
       href: //marcijus-studio.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -61,4 +66,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

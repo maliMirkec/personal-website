@@ -16,6 +16,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 series: Starter Project
 ---
 
@@ -27,7 +28,7 @@ This article is part of a series about [Starter Project], and this time I will e
 
 The idea of Starter Project is to have a single config file for all Gulp tasks. If you open `config.json` file, you could see a section for CSS.
 
-{% cldnry "config-json-css_ha2n75" "config.json file, CSS part." %}
+{% cldnry "config-json-css_ha2n75" "config.json file, CSS part." 600 783 %}
 
 The first option is `run`. If set to true, CSS Gulp tasks will be executed. There are three other mandatory options for CSS:
 
@@ -176,7 +177,7 @@ Stylelint also has its plugins. In Starter Project, [stylelint-scss] and [stylel
 
 For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Then call command palette by pressing `cmd + shift + p`, and type `open workspace settings`.
 
-{% cldnry "open-workspace-settings_luw5ru" "Open workspace settings example." %}
+{% cldnry "open-workspace-settings_luw5ru" "Open workspace settings example." 840 91 %}
 
 When you open the workspace settings, add these settings.
 

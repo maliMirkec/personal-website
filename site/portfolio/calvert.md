@@ -2,7 +2,11 @@
 layout: index
 title: Calvert
 description: I've worked on Calvert website. Calvert is leader in responsible investing for analyzing company performance from finances to environmental policy to diversity.
-thumbnail: ev-c_vgm0ws
+thumbnail:
+  src: calvert_uv2mxh
+  alt: Screenshot of Calvert website.
+  width: 844
+  height: 511
 link: //www.calvert.com/invest-with-purpose.php
 display: true
 date: 2010-01-09
@@ -15,10 +19,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: ev-c_vgm0ws
+    src: calvert_uv2mxh
     alt: Screenshot of Calvert website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Calvert
     desc: >-
@@ -31,6 +35,7 @@ sections:
     cta:
       href: //www.calvert.com/invest-with-purpose.php
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -54,4 +59,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

@@ -1,7 +1,7 @@
 {
   "newsletter": {
     "desc": "Stay ahead of the latest **UI Dev** news and subscribe to my newsletter.",
-    "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('https://buttondown.email/starbist', 'popupwindow')\"><input type=\"hidden\" value=\"1\" name=\"embed\" />\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n</div>\n</div>\n\n</form>"
+    "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\"><input type=\"hidden\" value=\"1\" name=\"embed\" />\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\" />\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\" />\n</div>\n</div>\n\n</form>"
   },
   "job": {
     "desc": "I am open for new projects.",
@@ -11,7 +11,8 @@
     "desc": "Over **20 professionals** from several companies vouched for me.",
     "cta": {
       "href": "/testimonials/",
-      "title": " See all testimonials"
+      "title": " See all testimonials",
+      "animate": true
     }
   },
   "freelance": {
@@ -46,63 +47,72 @@
     "desc": "I rebuild the whole site for CodeScan using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/codescan/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "dominodatalab": {
     "desc": "I helped migrate Domino Data Lab site from **Jekyll** to **HubSpot CMS**.",
     "cta": {
       "href": "/portfolio/dominodatalab/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "wunder-mobility": {
     "desc": "I helped rebuild the whole Wunder Mobility site using **Jekyll** and **Contentful**.",
     "cta": {
       "href": "/portfolio/wundermobility/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "westwing": {
     "desc": "I build the whole site for Westwing using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/westwing/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "pinecone": {
     "desc": "I built a site for Pinecone, powered by **Hugo**, “the world’s fastest framework.”",
     "cta": {
       "href": "/portfolio/pinecone/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "bozzuto": {
     "desc": "I developed a library of **reusable UI components** for Bozzuto.",
     "cta": {
       "href": "/portfolio/bozzuto/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "creditcardinsider": {
     "desc": "I built the **WordPress theme** for the Credit Card Insider website.",
     "cta": {
       "href": "/portfolio/creditcardinsider/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "hanhanxue": {
     "desc": "I built the whole site for Han Han Xue using the **Middleman framework**?",
     "cta": {
       "href": "/portfolio/hanhanxue/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "yearbook-trase": {
     "desc": "I built the **WordPress template** for the Trase Yearbook 2018?",
     "cta": {
       "href": "/portfolio/yearbook-trase/",
-      "title": "See the project"
+      "title": "See the project",
+      "animate": true
     }
   },
   "consultation": {
@@ -110,7 +120,8 @@
     "desc": "I specialize in technologies related to frontend, user interface, and website development.",
     "cta": {
       "href": "/contact/",
-      "title": "Get in touch"
+      "title": "Get in touch",
+      "animate": true
     }
   },
   "services": {
@@ -118,7 +129,8 @@
     "desc": "I specialize in technologies related to frontend, user interface, and website development.",
     "cta": {
       "href": "/services/",
-      "title": "Explore all services"
+      "title": "Explore all services",
+      "animate": "true"
     }
   }
 }

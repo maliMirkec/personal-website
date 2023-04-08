@@ -11,6 +11,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 I wanted to develop a serverless function for generating dynamic Open Graph images for so long, and I finally did it last week.

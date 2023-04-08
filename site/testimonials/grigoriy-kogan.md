@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
 ---
 

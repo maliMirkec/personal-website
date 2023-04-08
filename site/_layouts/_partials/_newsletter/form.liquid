@@ -1,8 +1,8 @@
 <section class="wrapper wrapper--gamma margin-top-beta margin-bottom-beta" id="newsletter">
   <article class="form padding">
-    <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/starbist', 'popupwindow')" class="newsletter">
+    <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" class="newsletter">
       {% if newsletter.logo1 %}
-        <img class="margin-bottom" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.title }}" width="100" height="100">
+        <img class="margin-bottom" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="100" height="100">
       {% endif %}
       {% if newsletter.tagline %}
         <h1 class="text-center fw-bolder no-margin-bottom ffss">{{ newsletter.tagline }}</h1>

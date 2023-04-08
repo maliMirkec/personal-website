@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Recently I was working on a very interesting and challenging project. I was told to use CSS wherever possible. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border. I know it doesn't sound either glamorous or complicated, but it kinda is.
@@ -23,7 +24,7 @@ Recently I was working on a very interesting and challenging project. I was told
 
 Here's the desired design for the hero section with crooked border (notice the crooked shadow at the bottom):
 
-{% cldnry "crooked-shadow_rozyr7" "Crooked background example." %}
+{% cldnry "crooked-shadow_rozyr7" "Crooked background example." 840 262 %}
 
 Let's break this into smaller modules:
 - hero block

@@ -2,7 +2,11 @@
 layout: index
 title: CodeScan
 description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
-thumbnail: cs_ghbiql
+thumbnail:
+  src: codescan_hydjwq
+  alt: Screenshot of CodeScan website.
+  width: 844
+  height: 511
 link: //www.codescan.io
 display: true
 date: 2010-01-05
@@ -18,10 +22,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: cs_ghbiql
+    src: codescan_hydjwq
     alt: Screenshot of CodeScan website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: CodeScan
     desc: >-
@@ -32,6 +36,7 @@ sections:
     cta:
       href: //www.codescan.io
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -55,4 +60,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

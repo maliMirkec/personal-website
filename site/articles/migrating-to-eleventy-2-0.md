@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Last week I finally upgraded my [Eleventy](https://www.11ty.dev/) instance after using version 0.12.1 for over a year. I tried to do this earlier but always gave up because I stumbled upon this or that issue. This time was no different, but I was determined to resolve all problems.

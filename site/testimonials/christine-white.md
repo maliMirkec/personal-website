@@ -41,6 +41,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar is diligent, focused, quick, and always willing to go the extra mile...
 ---
 

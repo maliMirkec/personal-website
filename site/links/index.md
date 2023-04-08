@@ -12,6 +12,7 @@ sections:
 sections2:
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
 
 ## Social networks
@@ -32,7 +33,7 @@ sections2:
 ## Freelance
 
 - [Toptal](https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers)
-- [Codementor](https://www.codementor.io/malimirkeccita)
+- [Codementor](https://www.codementor.io/@malimirkeccita)
 - [About.me](https://about.me/starbist)
 ## Projects
 

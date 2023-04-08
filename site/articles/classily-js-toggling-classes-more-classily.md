@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 I created a `JavaScript` plugin for toggling classes more __classily__, and I called it **[Classily.js](https://github.com/maliMirkec/Classily.js)**. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.
@@ -86,7 +87,7 @@ We can provide multiple targets and classes by separating them with comma charac
 
 When a number of selectors and classes are equal, then each selector could be toggled with a different set of classes. For example, if we pass two selectors separated with comma character and two classes separated with comma character, the first class will be toggled on elements targeted with the first selector, and the second class will be toggled on elements targeted with the second selector.
 
-{% cldnry "Classily-example_a31spq" "Classily.js graphic." %}
+{% cldnry "Classily-example_a31spq" "Classily.js graphic." 840 420 %}
 
 When a number of selectors and classes are not equal, then all provided classes will be toggled on every element targeted by every selector. For example, if we pass two selectors separated with comma character and three classes separated with comma character, all three classes will be toggled on every element targeted by two selectors.
 

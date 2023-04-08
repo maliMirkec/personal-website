@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
