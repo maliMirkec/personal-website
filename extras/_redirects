@@ -10,6 +10,7 @@
 /categories/portfolio/* /portfolio/:splat 301!
 /categories/side-projects /side-projects/ 301!
 /categories/side-projects/* /side-projects/:splat 301!
+/portfolio/flexerasoftware/ /portfolio/revenera/ 301!
 /mentoring /side-projects/ui-dev-mentoring/ 301!
 /newsletter /side-projects/ui-dev-newsletter/ 301!
 /newsletter/ /side-projects/ui-dev-newsletter/ 301!
