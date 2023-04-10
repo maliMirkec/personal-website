@@ -44,7 +44,6 @@
   padding-top: calc(var(--space) * 6.5);
   padding-bottom: calc(var(--space) * 6.5);
   margin-top: -2.5rem;
-  -webkit-mask: var(--mask);
   mask: var(--mask);
 
   &:before {

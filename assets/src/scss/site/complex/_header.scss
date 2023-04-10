@@ -58,7 +58,6 @@ header {
   .inner > & {
     background-color: var(--color-lightish);
     padding-bottom: calc(var(--space) * 2.5);
-    -webkit-mask: var(--mask-bottom);
     mask: var(--mask-bottom);
   }
 }
@@ -76,7 +75,6 @@ footer {
       repeating-linear-gradient(var(--c1) 0 25%, var(--c2) 0 50%);
     background-size: calc(4 * var(--s)) calc(12 * var(--s));
     padding-top: calc(var(--space) * 2.5);
-    -webkit-mask: var(--mask-top);
     mask: var(--mask-top);
   }
 }

@@ -1,6 +1,7 @@
 ---
 layout: newsletter
 title: Archive
+ogTitle: UI Dev Newsletter archive
 projectTitle: UI Dev Newsletter
 description: Archive of articles, tutorials, and tools related to User Interface development delivered to your inbox every two weeks.
 type: newsletter-archive

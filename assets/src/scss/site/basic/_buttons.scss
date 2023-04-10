@@ -2,7 +2,6 @@
 //
 // Markup: _buttons.html
 //
-// .js-animate - Animated.
 // :hover - Hover.
 // :focus - Focus.
 // :focus:active - Active.
@@ -44,12 +43,13 @@
   padding: .25em 2em;
   border: none;
   border-radius: var(--border-radius);
-  outline: none;
-  transition: all var(--duration2);
+  outline: .3rem solid transparent;
+  transition: all var(--duration2) ease-in-out;
+  position: relative;
 
   &:not(.df):not(.db) {
     display: inline-flex;
-    margin: .2em;
+    margin: .3em;
     border-radius: var(--border-radius);
   }
 
@@ -61,17 +61,24 @@
   &[type] {
     cursor: pointer;
 
+    &:hover,
+    &:focus,
+    &:active {
+      outline-offset: 0;
+    }
+
     &:hover {
-      animation-name: tada;
-      animation-duration: var(--duration3);
-      animation-fill-mode: both;
-      backface-visibility: visible;
-      box-shadow: 0 0 0 .15rem var(--color-alpha);
+      outline: .15rem solid var(--color-alpha-dark);
     }
 
     &:focus,
     &:active {
-      box-shadow: 0 0 0 .15rem var(--color-dark);
+      outline: .15rem inset var(--color-dark);
+      outline-offset: 0;
+    }
+
+    &:active {
+      transform: translateY(1px);
     }
   }
 }
@@ -90,47 +97,49 @@
 .button--inverse {
   background-color: var(--color-dark);
   color: var(--color-light);
+  outline-offset: .1rem;
 
   &[href],
   &[type] {
+    cursor: pointer;
+
     &:hover,
-    &:focus {
-      background-color: var(--color-alpha);
-      color: var(--color-dark);
-      box-shadow: 0 0 0 .15rem var(--color-darkish);
+    &:focus,
+    &:active {
+      outline-offset: .15rem;
     }
 
+    &:focus,
     &:active {
-      box-shadow: 0 0 0 .15rem var(--color-alpha);
+      outline-color: var(--color-alpha-dark);
     }
   }
 }
 
 .button--outline {
   background-color: transparent;
-  box-shadow: 0 0 0 .15rem currentColor;
+  border: .15rem solid currentColor;
 
   &.button--inverse {
+    border-color: var(--color-alpha);
     color: var(--color-dark);
-    box-shadow: 0 0 0 .15rem var(--color-alpha);
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline-offset: 0;
+    }
   }
 
   &[href],
   &[type] {
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: var(--color-alpha);
-      color: currentColor;
-    }
-
     &:hover {
-      box-shadow: 0 0 0 .15rem var(--color-alpha);
+      border-color: var(--color-alpha-dark);
     }
 
     &:focus,
     &:active {
-      box-shadow: 0 0 0 .15rem var(--color-dark);
+      border-color: currentColor;
     }
   }
 }
@@ -138,15 +147,6 @@
 .button--invisible {
   background-color: transparent;
   box-shadow: none;
-
-  &[href],
-  &[type] {
-    &:hover,
-    &:focus {
-      background-color: transparent;
-      color: currentColor;
-    }
-  }
 }
 
 .button--toggle {
