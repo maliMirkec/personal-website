@@ -1,17 +1,17 @@
 [{
   "date": "2023-04-10",
-  "description": "",
+  "description": "CSS masking, sticky page header shadow, Non-Text Contrast tests, and more.",
   "list": [{
       "link": "https://ishadeed.com/article/css-masking/",
       "title": "CSS Masking",
-      "desc": "Ahmad Shadeed explains everything you need to know about masking in CSS with some interesting examples.",
+      "desc": "Ahmad Shadeed explains everything you need to know about masking in CSS with some compelling examples.",
       "handle": "@shadeed9",
       "handle2": "@shadeed9@front-end.social"
     },
     {
       "link": "https://expensive.toys/blog/fancy-css-reveal-effects",
       "title": "Fancy reveal animations with CSS masks and @property",
-      "desc": "Artur Bień demonstrates how CSS masks and custom properties can be combined to create a range of impressive reveal effects.",
+      "desc": "Artur Bień demonstrates how CSS masks and custom properties can be combined to create impressive reveal effects.",
       "handle": "@artur_bien",
       "handle2": ""
     },
@@ -25,7 +25,7 @@
     {
       "link": "https://ryanmulligan.dev/blog/sticky-header-scroll-shadow/",
       "title": "Sticky Page Header Shadow on Scroll",
-      "desc": "Ryan Mulligan sharing one solution that adds a box-shadow to the sticky header as soon as the page is scrolled.",
+      "desc": "Ryan Mulligan is sharing one solution that adds a box-shadow to the sticky header as soon as the page is scrolled.",
       "handle": "@hexagoncircle",
       "handle2": "@hexagoncircle@fosstodon.org"
     },
@@ -46,7 +46,7 @@
     {
       "link": "https://www.tpgi.com/when-i-get-that-low-contrast-feeling-i-need-non-textual-healing/",
       "title": "When I Get That Low Contrast Feeling, I Need Non-Textual Healing",
-      "desc": "Ian Lloyd shares a quiz that tests your Non Text Contrast knowledge.",
+      "desc": "Ian Lloyd shares a quiz that tests your Non-Text Contrast knowledge.",
       "handle": "@lloydi @tpginteractive",
       "handle2": "@lloydi@mastodon.social"
     },
