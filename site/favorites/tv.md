@@ -149,4 +149,5 @@ sections:
         src: 041whas_itx6yc
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

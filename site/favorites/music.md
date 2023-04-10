@@ -130,4 +130,5 @@ sections:
         src: hot-chip_yewutg
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

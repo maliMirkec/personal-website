@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 During the last week, I have been working on redesigning my site. Here is the list of all changes:

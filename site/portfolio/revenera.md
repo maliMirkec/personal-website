@@ -1,10 +1,10 @@
 ---
 layout: index
-title: Flexera Software
-description: I've worked on Flexera Software website. Flexera Software helps you as a software developer to control costs, grow and protect your business.
+title: Revenera
+description: I've worked on Revenera website. Revenera helps you as a software developer to control costs, grow and protect your business.
 thumbnail:
   src: revenera_nv7gag
-  alt: Screenshot of Flexera Software website.
+  alt: Screenshot of Revenera website.
   width: 844
   height: 511
 link: //www.revenera.com
@@ -21,13 +21,13 @@ sections:
   - type: hero-alpha
     narrow: true
     src: revenera_nv7gag
-    alt: Screenshot of Flexera Software website.
+    alt: Screenshot of Revenera website.
     width: 844
     height: 511
     left: true
-    title: Flexera Software
+    title: Revenera
     desc: >-
-      Flexera Software can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business. The website runs on Adobe Experience Manager.
+      Revenera can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business. The website runs on Adobe Experience Manager.
     subtitle: Responsibilities
     desc2: >-
       - Built a living styleguide.
@@ -36,6 +36,7 @@ sections:
     cta:
       href: //www.revenera.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -59,4 +60,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Being a developer requires specific skills and tools. I have put an effort to make a list of all the skills, tools, and techniques that I acquired during my career, and I was surprised by the number of them. During this process, I realized what the essential skill for one developer is.

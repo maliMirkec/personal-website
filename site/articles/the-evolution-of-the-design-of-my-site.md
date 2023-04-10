@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 As any self-respected developer, I redesigned my site many times. To be more precise, there were 6 significant redesigns. I thought it would be fun to document all these designs and see the evolution. In this review, I will focus mainly on the homepage.

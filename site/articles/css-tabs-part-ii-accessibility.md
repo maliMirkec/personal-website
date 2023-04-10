@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Recently I've been writing about [CSS tabs](/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.

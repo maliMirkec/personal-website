@@ -34,6 +34,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 

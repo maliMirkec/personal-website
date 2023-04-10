@@ -42,6 +42,7 @@ sections:
     cta:
       href: //littlebundle.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -66,4 +67,5 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

@@ -41,6 +41,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar was INSTRUMENTAL in some of my first big wins...
 ---
 

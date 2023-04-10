@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 

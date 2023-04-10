@@ -28,4 +28,5 @@ sections:
     sorter: date
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---

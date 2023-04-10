@@ -41,6 +41,7 @@ sections:
     cta:
       href: //www.dominodatalab.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -64,4 +65,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

@@ -17,4 +17,5 @@ sections:
     filter: projects
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

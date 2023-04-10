@@ -13,6 +13,7 @@ sections:
       I cover mostly frontend, JAMstack, WordPress, and freelancing topics.
   - type: banner-beta
     banner: newsletter
+    animate: true
   - type: cards-alpha
     cta:
       title: Read the article

@@ -19,4 +19,5 @@ sections:
     filter: portfolio
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

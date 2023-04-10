@@ -11,6 +11,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 As of today, my site is available as a Progressive Web App. Yaay! 💯

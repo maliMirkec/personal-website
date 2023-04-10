@@ -17,6 +17,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Here’s what I think: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).

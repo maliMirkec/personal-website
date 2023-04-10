@@ -35,6 +35,7 @@ sections:
     cta:
       href: //www.calvert.com/invest-with-purpose.php
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -58,4 +59,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

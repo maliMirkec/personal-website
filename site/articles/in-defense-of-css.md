@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 I am here to take a stand and defend CSS, my most favorite programming language. I don't care if it is a proper programming language or not, and I don't think the authors cared, too. However, I do care about its beauty, power, simplicity, and complexity.

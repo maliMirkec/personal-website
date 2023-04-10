@@ -1,7 +1,7 @@
 <section class="banner margin-top-beta margin-bottom-beta"{% if banner2.id %} id="{{ banner2.id }}"{% endif %}>
   <div class="wrapper margin-top margin-bottom text-center">
     <div class="padding">
-      <div class="border-alpha brad-alpha padding">
+      <div class="border-alpha brad-alpha padding{% if banner2.animate and site.animate %} js-animate{% endif %}">
         <div class="padding margin-top margin-bottom">
           {% if banner2.banner and cta[banner2.banner] %}
             {% assign banner2 = cta[banner2.banner] %}
@@ -14,7 +14,7 @@
           {% endif %}
           {% if banner2.cta %}
             <div class="margin-top">
-              <a class="button button--small" href="{{ banner2.cta.href }}">{{ banner2.cta.title }}</a>
+              <a class="button button--small{% if banner2.cta.animate and site.animate %} js-animate{% endif %}" href="{{ banner2.cta.href }}">{{ banner2.cta.title }}</a>
             </div>
           {% endif %}
           {% if banner2.ctas %}

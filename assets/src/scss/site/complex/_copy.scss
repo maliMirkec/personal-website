@@ -155,11 +155,11 @@
 
   p ~ iframe {
     border: .125rem solid var(--color-alpha-light);
-    border-radius: var(--border-radius-alpha);
   }
 
   iframe {
     background-color: var(--color-lightish);
+    border-radius: var(--border-radius-alpha);
     max-width: 100%;
   }
 

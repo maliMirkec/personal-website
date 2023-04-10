@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Communication with Silvestar was straightforward, clear and reliable. He was...
 ---
 

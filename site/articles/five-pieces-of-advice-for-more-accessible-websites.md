@@ -10,6 +10,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 On March 29, WebAIM published [an annual accessibility report](https://webaim.org/projects/million/). Unfortunately, the results are devastating, as usual. To improve stats for the next year, start with these five quick wins that will make your site much more accessible.

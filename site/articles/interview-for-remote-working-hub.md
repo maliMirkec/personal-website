@@ -16,6 +16,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not.

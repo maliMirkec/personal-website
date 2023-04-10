@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 When I started using MacBook, I couldn’t remember how to type the _right arrow_ (→) symbol. I had a very inefficient process. First, I opened the Keyboard settings on my Mac, and then I inspected sources by pressing _Shift_ or _Option_ or other functional keys until I found the character.

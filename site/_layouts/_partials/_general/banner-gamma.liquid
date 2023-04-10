@@ -13,7 +13,7 @@
         {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: site.url | append: page.url %}
         {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: textEscaped | append: "&url=" | append: site.url | append: page.url %}
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: site.url | append: page.url %}
-        <h3 class="fz-step-2 no-margin-top no-margin-bottom">Share the article</h3>
+        <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the article</h3>
         <div class="margin-top margin-bottom-beta">
           <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
           <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>

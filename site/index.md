@@ -15,6 +15,7 @@ sections:
     cta:
       href: /contact/
       title: Get in touch
+      animate: true
     narrow: true
   - type: hero-beta
     title: From the Blog
@@ -33,6 +34,7 @@ sections:
     limit: 5
   - type: banner-beta
     banner: newsletter
+    animate: true
   - type: hero-beta
     title: From the Portfolio
     desc: >-
@@ -105,4 +107,5 @@ sections:
     banner: css-auditors
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
