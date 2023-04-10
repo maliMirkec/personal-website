@@ -1,4 +1,72 @@
 [{
+  "date": "2023-04-10",
+  "description": "",
+  "list": [{
+      "link": "https://ishadeed.com/article/css-masking/",
+      "title": "CSS Masking",
+      "desc": "Ahmad Shadeed explains everything you need to know about masking in CSS with some interesting examples.",
+      "handle": "@shadeed9",
+      "handle2": "@shadeed9@front-end.social"
+    },
+    {
+      "link": "https://expensive.toys/blog/fancy-css-reveal-effects",
+      "title": "Fancy reveal animations with CSS masks and @property",
+      "desc": "Artur Bień demonstrates how CSS masks and custom properties can be combined to create a range of impressive reveal effects.",
+      "handle": "@artur_bien",
+      "handle2": ""
+    },
+    {
+      "link": "https://sebastiandedeyne.com/a-css-selector-to-highlight-clickable-elements/",
+      "title": "A CSS selector to highlight clickable elements",
+      "desc": "Sebastian De Deyne shows how to use :has and :is selectors to add an outline to clickable elements when clicking on non-interactive elements.",
+      "handle": "@sebdedeyne",
+      "handle2": "@sebdd@mastodon.social"
+    },
+    {
+      "link": "https://ryanmulligan.dev/blog/sticky-header-scroll-shadow/",
+      "title": "Sticky Page Header Shadow on Scroll",
+      "desc": "Ryan Mulligan sharing one solution that adds a box-shadow to the sticky header as soon as the page is scrolled.",
+      "handle": "@hexagoncircle",
+      "handle2": "@hexagoncircle@fosstodon.org"
+    },
+    {
+      "link": "https://kilianvalkhof.com/2023/javascript/a-small-javascript-pattern-i-enjoy-using/",
+      "title": "A small JavaScript pattern I enjoy using",
+      "desc": "Kilian Valkhof shares a couple of JavaScript patterns for checking more than one value of the same variable.",
+      "handle": "@kilianvalkhof",
+      "handle2": "@Kilian@mastodon.social"
+    },
+    {
+      "link": "https://webaim.org/projects/million/",
+      "title": "The WebAIM Million",
+      "desc": "WebAIM shares an overview of and insight into the current state of web accessibility for individuals with disabilities and trends over time.",
+      "handle": "@webaim",
+      "handle2": ""
+    },
+    {
+      "link": "https://www.tpgi.com/when-i-get-that-low-contrast-feeling-i-need-non-textual-healing/",
+      "title": "When I Get That Low Contrast Feeling, I Need Non-Textual Healing",
+      "desc": "Ian Lloyd shares a quiz that tests your Non Text Contrast knowledge.",
+      "handle": "@lloydi @tpginteractive",
+      "handle2": "@lloydi@mastodon.social"
+    },
+    {
+      "link": "https://dev.to/disukharev/opencommit-gpt-cli-to-auto-generate-impressive-commits-in-1-second-46dh",
+      "title": "OpenCommit: GPT generates impressive commits in 1 second 🤯🔫",
+      "desc": "Dima Sukharev announces his open-source project auto-generates impressive commits in 1 second.",
+      "handle": "@io_Y_oi",
+      "handle2": ""
+    }
+  ],
+  "promotion": [{
+    "type": "Self-promotion",
+    "link": "https://www.silvestar.codes/articles/five-pieces-of-advice-for-more-accessible-websites/",
+    "title": "Five pieces of advice for more accessible websites",
+    "desc": "To improve stats for an annual accessibility report, start with these five quick wins that will make your site much more accessible.",
+    "handle": "",
+    "handle2": ""
+  }]
+}, {
   "date": "2023-03-27",
   "description": "CSS snippets, :has() selector examples, better CSS transitions, and more.",
   "list": [{
