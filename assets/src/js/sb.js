@@ -21,6 +21,7 @@ if ($toggle) {
   })
 }
 
+// 10up
 const gallery = () => {
   // Set defaults
   let $activeElem = false
