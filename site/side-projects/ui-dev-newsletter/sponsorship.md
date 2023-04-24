@@ -27,7 +27,11 @@ I am open to suggestions if you have specific requirements, like displaying grap
 
 ## Benefits
 
-With your link sent to more than 400 subscribers, your product or company will get big reach and recommendation from a trustworthy professional.
+With your link sent to more than 500 subscribers, your product or company will get broather reach and recommendation from a trustworthy professional.
+
+## Stats
+
+The usual open rate is 40-50%, and the click rate is 10-15%.
 
 ## Contact
 
