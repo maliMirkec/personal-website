@@ -15,6 +15,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 series: The UI Development Mentoring Program
 ---
 
@@ -36,7 +37,7 @@ In about a few months, as project complexity increased, Silvestar figured out wh
 
 He was working on different projects for a few years. Then a new opportunity arose. A local startup was hiring a frontend developer, and Silvestar decided to give it a shot. After completing a challenging task that he thought he could not do, he was hired. The company was big, with more than 20 people organized in different teams. He was part of a development team working on a solid product. He was quite happy and satisfied.
 
-{% cldnry "dan-meyers-hluOJZjLVXc-unsplash_j0sub4" "Three banners with inspirational messages: don't give up, you are not alone, and you matter." %}
+{% cldnry "dan-meyers-hluOJZjLVXc-unsplash_j0sub4" "Three banners with inspirational messages: don't give up, you are not alone, and you matter." 840 560 %}
 
 <small>_Image Credit: [Dan Meyers on Unsplash](https://unsplash.com/photos/hluOJZjLVXc)_</small>
 

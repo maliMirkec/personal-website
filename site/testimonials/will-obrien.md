@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile...
 ---
 

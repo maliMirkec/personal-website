@@ -39,6 +39,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: It was a pleasure to work with Silvestar. The collaboration between us during our...
 ---
 

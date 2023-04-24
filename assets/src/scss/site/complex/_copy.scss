@@ -35,7 +35,21 @@
     }
   }
 
+  .pic,
+  .piclink {
+    border-radius: var(--border-radius-alpha);
+  }
+
+  .pic {
+    border: .125rem solid var(--color-alpha-light);
+    overflow: hidden;
+  }
+
   pre {
+    &[class*="language-"] {
+      border-radius: var(--border-radius-alpha);
+    }
+
     code {
       font-size: .9em;
     }
@@ -52,7 +66,7 @@
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 1rem 2rem;
-    border: .125rem dotted var(--color-alpha-light);
+    // border: .125rem solid var(--color-alpha-light);
     border-radius: var(--border-radius-alpha);
     position: relative;
 
@@ -61,7 +75,7 @@
       background-color: var(--color-alpha-light);
       color: var(--color-dark);
       font-family: var(--font-alpha);
-      font-size: var(--step--1);
+      font-size: var(--step--2);
       font-style: normal;
       line-height: 1.5;
       letter-spacing: var(--letter-spacing-gamma);
@@ -85,6 +99,45 @@
       table-layout: fixed;
     }
 
+    thead {
+      background-color: var(--color-alpha-lighter);
+
+      &:first-child {
+        tr {
+          &:first-child {
+            td,
+            th {
+              border-top: none;
+            }
+          }
+        }
+      }
+    }
+
+    tbody {
+      &:last-child {
+        tr {
+          &:last-child {
+            td,
+            th {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+
+    td,
+    th {
+      &:first-child {
+        border-left: none;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
     th {
       font-family: var(--font-beta);
       font-size: var(--step-0);
@@ -100,7 +153,13 @@
     }
   }
 
+  p ~ iframe {
+    border: .125rem solid var(--color-alpha-light);
+  }
+
   iframe {
+    background-color: var(--color-lightish);
+    border-radius: var(--border-radius-alpha);
     max-width: 100%;
   }
 
@@ -125,25 +184,6 @@
     left: -0.2em;
   }
 
-  .embed {
-    max-height: 0;
-    padding-bottom: var(--padding-bottom);
-    position: relative;
-    overflow: hidden;
-    margin: 1em 0;
-    border-radius: var(--border-radius);
-
-    > * {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
   .grid & {
     p {
       word-break: break-word;
@@ -151,11 +191,31 @@
   }
 }
 
+.embed {
+  max-height: 0;
+  padding-bottom: var(--padding-bottom);
+  position: relative;
+  overflow: hidden;
+  margin: 1em 0;
+  border: .125rem solid var(--color-alpha-light);
+  border-radius: var(--border-radius-alpha);
+
+  > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .copy--invalid {
   font-family: var(--font-gamma);
   background-color: var(--color-alpha-lighter);
   font-size: var(--step-2);
-  border: .125rem dotted var(--color-alpha-light);
+  // border: .125rem solid var(--color-alpha-light);
   border-radius: var(--border-radius-alpha);
   padding: 4rem 2rem;
   margin-top: 4rem;
@@ -167,7 +227,7 @@
     background-color: var(--color-alpha-light);
     color: var(--color-dark);
     font-family: var(--font-alpha);
-    font-size: var(--step--1);
+    font-size: var(--step--2);
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
@@ -188,7 +248,7 @@
   font-family: var(--font-beta);
   font-size: var(--step-1);
   font-style: oblique;
-  border: .125rem dotted var(--color-alpha-light);
+  // border: .125rem solid var(--color-alpha-light);
   border-radius: var(--border-radius-alpha);
   padding: 1.5rem 2rem;
   margin-top: 2.5rem;
@@ -220,8 +280,9 @@
   }
 
   &[data-title*="important" i],
-  &[data-title*="danger" i] {
-    background-color: transparent;
+  &[data-title*="danger" i],
+  &[data-title*="sponsor" i] {
+    background-color: var(--color-beta-lightest);
     border-color: var(--color-beta-light);
 
     &:before {
@@ -233,6 +294,6 @@
 .table-wrapper {
   max-width: 100%;
   overflow: auto;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-alpha);
   border: .125rem solid var(--color-alpha-light);
 }

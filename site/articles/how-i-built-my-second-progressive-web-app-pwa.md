@@ -14,6 +14,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 As of today, my side project [Code Line Daily] is available as a Progressive Web App.
@@ -162,7 +163,7 @@ workbox.routing.registerRoute(
 
 Code Line Daily is now Progressive Web App. That is my second PWA, and I would recommend everyone to learn more about it. The site is now available offline, but it is also saving bandwidth for my users by serving cached assets whenever possible. Go ahead and try to install [Code Line Daily] and let me know what do you think.
 
-![Lighthouse showing fireworks for perfect scores.](https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif)
+{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" "Lighthouse showing fireworks for perfect scores." 720 205 %}
 
 As a bonus point, I have run the audit for Code Line Daily site, and I see fireworks again, just like on my personal site. 💯
 

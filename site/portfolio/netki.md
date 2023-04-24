@@ -2,7 +2,11 @@
 layout: index
 title: Netki
 description: I've worked on Netki website. Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States.
-thumbnail: n_gcmcap
+thumbnail:
+  src: netki_yfvgoe
+  alt: Screenshot of Netki website.
+  width: 844
+  height: 511
 link: //netki.com
 display: true
 date: 2010-01-15
@@ -16,10 +20,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: n_gcmcap
+    src: netki_yfvgoe
     alt: Screenshot of Netki website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Netki
     desc: >-
@@ -34,6 +38,7 @@ sections:
     cta:
       href: //netki.com
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -57,4 +62,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

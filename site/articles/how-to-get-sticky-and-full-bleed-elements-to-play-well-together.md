@@ -14,13 +14,14 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top. This ended up being rather tricky to pull off so I’m documenting it here in case anyone needs to re-create this same effect. Part of the trickiness was dealing with logical positioning on small screens as well.
 
 It’s tough to describe the effect, so I recorded my screen to show what I mean. Pay special attention to the main call to action section, the one with the “Try Domino Today” header.
 
-![Demo.](https://res.cloudinary.com/starbist/image/upload/v1610699818/sc_bkuzrb.gif)
+{% gif "https://res.cloudinary.com/starbist/image/upload/v1610699818/sc_bkuzrb.gif" "Demo." 800 375 %}
 
 The idea is to display the main call to action on the right side while users scroll past other sections on larger viewports. On smaller viewports, the call to action element has to display after the main hero section with the “Start your trial” header.
 

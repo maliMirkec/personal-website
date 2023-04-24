@@ -15,6 +15,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 "Raise the curtains" is what I call an effect where the background goes from dark to light on scroll, and the content on top also goes from light to dark while in a sticky position.
@@ -30,7 +31,7 @@ Want to know how it's done? I will take you behind the curtain and show you how 
 
 What we're making is sort of a simplified "raise the curtain" effect like this:
 
-{% cldnry "curtain-effect_vmncby" "Showing the raise the curtains effect from dark blue to wheat." %}
+{% cldnry "curtain-effect_vmncby" "Showing the raise the curtains effect from dark blue to wheat." 840 378 %}
 
 The background and text both change color while scrolling over the element.
 

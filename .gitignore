@@ -7,4 +7,5 @@ node_modules
 .netlify
 assets/dist
 public
+.frontmatter
 frontmatter.json

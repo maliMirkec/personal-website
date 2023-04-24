@@ -1,15 +1,19 @@
 ---
 layout: index
-title: My concert favorites
+title: My favorite concerts
 descriptionAlt: Silvestar's favorite concerts.
 description: Explore the exhausting list of music concerts and festivals I attended. The list is long, so I grouped them into Epic, Favotite, and Others groups.
 type: favorite-concert
 tags:
   - favorites
-thumbnail: concerts_smzvcy
+thumbnail:
+  src: concerts_smzvcy
+  alt: Screenshot of my favorite concerts.
+  width: 490
+  height: 297
 sections:
   - type: hero-alpha
-    title: My concert favorites
+    title: My favorite concerts
     desc: >-
       Just my list of all concerts that I attended (that I could remember).
     footnote: >-
@@ -1357,4 +1361,5 @@ sections:
         year: 2021
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

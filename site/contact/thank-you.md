@@ -17,4 +17,5 @@ sections:
       title: Go home
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---

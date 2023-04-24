@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 series: Atom
 ---
 
@@ -40,7 +41,9 @@ If any port is available, Setup will automatically assign standard port and skip
 
 That's it, proceed with a installation, wait for process to finish and violà—you got yourself a local web server.
 
-![Bitnami WAMP installation example.](https://res.cloudinary.com/starbist/image/upload/v1497509507/bitnami-wamp-installation_p0sgui.gif)
+![]()
+
+{% gif "https://res.cloudinary.com/starbist/image/upload/v1497509507/bitnami-wamp-installation_p0sgui.gif" "Bitnami WAMP installation example." 496 421 %}
 
 ## php-server for Atom
 
@@ -54,7 +57,7 @@ Imagine you need to create a form or a jQuery plugin. It is part of some complic
 
 **php-server** is available on Atom package manager. After installation, you'll have to configure package. The most important settings are _Path to PHP executable_ and _Default port to bind to_. This is why we had to install **Bitnami WAMP Stack** (or any other local server). In the installation folder of **Bitnami WAMP Stack**, find `php` folder. You should find executable PHP file there, `php.exe`. This is your path. Default port cannot be the same as Bitnami's, so use another one, like 9000. There are other advanced options, but they are out of scope of this article.
 
-{% cldnry "php-server-settings_htpxrt" "PHP-server settings." %}
+{% cldnry "php-server-settings_htpxrt" "PHP-server settings." 840 595 %}
 
 There are no shortcuts for this package, you'll have to call commands from command palette. The most common commands are _Php server: Start_ and _Php server: stop_. For all available commands, please refer to [**php-server** package page](https://atom.io/packages/php-server).
 
@@ -78,7 +81,7 @@ Back in the day every developer dreamed about live reloading in browser on file 
 
 Go ahead and install **livereload** package from Atom package manager. After installation, you should configure package. There nothing much here, this is how my configuration looks like:
 
-{% cldnry "livereload-settings_u6h4bx" "Livereload settings." %}
+{% cldnry "livereload-settings_u6h4bx" "Livereload settings." 840 656 %}
 
 To start **livereload** server, you could use command palette or shortcut `ctrl + shift + R`.
 

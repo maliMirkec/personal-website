@@ -15,7 +15,7 @@ company: BEAM
 projects:
   - Bozzuto
   - Flexera
-  - Flexera Software
+  - Revenera
   - Calvert
   - Franciscan Children's
 sections:
@@ -43,6 +43,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 

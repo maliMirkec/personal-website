@@ -20,4 +20,5 @@ sections:
     sorter: date
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

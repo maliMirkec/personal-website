@@ -2,7 +2,11 @@
 layout: index
 title: Empirical Wealth
 description: I've worked on Empirical Wealth Management website. EWM is a wealth management team specializing in investments, taxes, financial, and estate planning.
-thumbnail: ewm_aikxon
+thumbnail:
+  src: empirical_vrw0y8
+  alt: Screenshot of Empirical Wealth Management website.
+  width: 844
+  height: 511
 link: //www.empirical.net
 display: false
 date: 2010-01-17
@@ -16,10 +20,10 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: ewm_aikxon
+    src: empirical_vrw0y8
     alt: Screenshot of Empirical Wealth Management website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     left: true
     title: Empirical Wealth Management
     desc: >-
@@ -36,6 +40,7 @@ sections:
     cta:
       href: //www.empirical.net
       title: Go to site
+      animate: true
   - type: hero-beta
     title: From Testimonials
     desc: >-
@@ -59,4 +64,5 @@ sections:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

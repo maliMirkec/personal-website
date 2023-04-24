@@ -12,6 +12,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 An enabling selector is what I call a selector that does a job without disabling the particular rule. I'll explain using the following example.

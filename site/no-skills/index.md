@@ -4,7 +4,6 @@ title: What I don't do
 descriptionAlt: This is the list of the things I don’t do because I don’t know how to.
 description: Very often I am being asked to do things I don't know how to do. Here is the list of skills that I still need to acquire.
 type: page
-thumbnail: What_I_don_t_do_oszvwu
 sections:
   - type: hero-alpha
     title: I am a frontend user interface developer.
@@ -13,6 +12,7 @@ sections:
 sections2:
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---
 
 ## What I don’t do?

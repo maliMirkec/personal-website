@@ -39,27 +39,12 @@ img {
 }
 
 .pic {
-  display: inline-block;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 
-  svg {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
   img {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 100%;
     border-radius: var(--border-radius);
 
     &:not([src]) {
@@ -106,6 +91,10 @@ img {
 
 .brad {
   border-radius: var(--border-radius);
+}
+
+.brad-alpha {
+  border-radius: var(--border-radius-alpha);
 }
 
 .db {

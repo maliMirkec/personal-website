@@ -1,4 +1,208 @@
 [{
+  "date": "2023-04-24",
+  "description": "CSS text balancing, CSS tips, accessibility and SEO tactics, and more.",
+  "list": [{
+      "link": "https://ishadeed.com/article/css-text-wrap-balance/",
+      "title": "CSS text balancing with text-wrap:balance",
+      "desc": "Ahmad Shadeed explores text-wrap: balance and explains how it works in various scenarios.",
+      "handle": "@shadeed9",
+      "handle2": "@shadeed9@front-end.social"
+    },
+    {
+      "link": "https://jonneal.dev/blog/observing-css/",
+      "title": "Observing CSS",
+      "desc": "Jonathan Neal explains how JavaScript observing CSS changes works.",
+      "handle": "@jon_neal",
+      "handle2": ""
+    },
+    {
+      "link": "https://css-tip.com/",
+      "title": "CSS Tip",
+      "desc": "Temani Afif shares a small website where you can learn one-minute CSS tricks.",
+      "handle": "@ChallengesCss",
+      "handle2": "@css@front-end.social"
+    },
+    {
+      "link": "https://timkadlec.com/remembers/2023-04-10-the-golden-rule-revisited/",
+      "title": "The Performance Golden Rule Revisited",
+      "desc": "Tim Kadlec explains all about 80 / 20 rule of web performance and provides some helpful advice related to the user experience.",
+      "handle": "@tkadlec",
+      "handle2": "@tkadlec@mastodon.social"
+    },
+    {
+      "link": "https://www.stefanjudis.com/notes/slice-an-app-to-remove-variable-font-axes/",
+      "title": "Slice — an app to remove variable font axes",
+      "desc": "Stefan Judis describes how to shave off bytes by limiting font axis range values or removing axes entirely.",
+      "handle": "@stefanjudis",
+      "handle2": "@stefan@front-end.social"
+    },
+    {
+      "link": "https://www.deque.com/blog/7-tactics-that-benefit-both-accessibility-and-seo/",
+      "title": "7 tactics that benefit both accessibility and SEO",
+      "desc": "Matthew Luken covers seven areas of optimization that legitimately benefit accessibility and SEO.",
+      "handle": "@dequesystems",
+      "handle2": "@dequesystems@mstdn.social"
+    },
+    {
+      "link": "https://build.washingtonpost.com/resources/accessibility",
+      "title": "The Washington Post Design System: Accessibility",
+      "desc": "The Washington Post shares its accessibility guidelines that include an accessibility checklist, testing strategies, and considerations to make when creating online content.",
+      "handle": "@washingtonpost",
+      "handle2": "@washingtonpost@mstdn.social"
+    },
+    {
+      "link": "https://gradient.style/",
+      "title": "CSS HD Gradients",
+      "desc": "Adam Argyle creates a modern #CSS gradient and color-picking tool for next-gen gradients.",
+      "handle": "@argyleink",
+      "handle2": "@argyleink@front-end.social"
+    }
+  ],
+  "promotion": [{
+    "type": "Self-promotion",
+    "link": "https://www.silvestar.codes/articles/testing-localhost-on-multiple-devices/",
+    "title": "Testing localhost on multiple devices",
+    "desc": "Learn how to test your website or web app on various devices with these tools by finding your external IP address or using third-party apps.",
+    "handle": "",
+    "handle2": ""
+  }]
+}, {
+  "date": "2023-04-10",
+  "description": "CSS masking, sticky page header shadow, Non-Text Contrast tests, and more.",
+  "list": [{
+      "link": "https://ishadeed.com/article/css-masking/",
+      "title": "CSS Masking",
+      "desc": "Ahmad Shadeed explains everything you need to know about masking in CSS with some compelling examples.",
+      "handle": "@shadeed9",
+      "handle2": "@shadeed9@front-end.social"
+    },
+    {
+      "link": "https://expensive.toys/blog/fancy-css-reveal-effects",
+      "title": "Fancy reveal animations with CSS masks and @property",
+      "desc": "Artur Bień demonstrates how CSS masks and custom properties can be combined to create impressive reveal effects.",
+      "handle": "@artur_bien",
+      "handle2": ""
+    },
+    {
+      "link": "https://sebastiandedeyne.com/a-css-selector-to-highlight-clickable-elements/",
+      "title": "A CSS selector to highlight clickable elements",
+      "desc": "Sebastian De Deyne shows how to use :has and :is selectors to add an outline to clickable elements when clicking on non-interactive elements.",
+      "handle": "@sebdedeyne",
+      "handle2": "@sebdd@mastodon.social"
+    },
+    {
+      "link": "https://ryanmulligan.dev/blog/sticky-header-scroll-shadow/",
+      "title": "Sticky Page Header Shadow on Scroll",
+      "desc": "Ryan Mulligan is sharing one solution that adds a box-shadow to the sticky header as soon as the page is scrolled.",
+      "handle": "@hexagoncircle",
+      "handle2": "@hexagoncircle@fosstodon.org"
+    },
+    {
+      "link": "https://kilianvalkhof.com/2023/javascript/a-small-javascript-pattern-i-enjoy-using/",
+      "title": "A small JavaScript pattern I enjoy using",
+      "desc": "Kilian Valkhof shares a couple of JavaScript patterns for checking more than one value of the same variable.",
+      "handle": "@kilianvalkhof",
+      "handle2": "@Kilian@mastodon.social"
+    },
+    {
+      "link": "https://webaim.org/projects/million/",
+      "title": "The WebAIM Million",
+      "desc": "WebAIM shares an overview of and insight into the current state of web accessibility for individuals with disabilities and trends over time.",
+      "handle": "@webaim",
+      "handle2": ""
+    },
+    {
+      "link": "https://www.tpgi.com/when-i-get-that-low-contrast-feeling-i-need-non-textual-healing/",
+      "title": "When I Get That Low Contrast Feeling, I Need Non-Textual Healing",
+      "desc": "Ian Lloyd shares a quiz that tests your Non-Text Contrast knowledge.",
+      "handle": "@lloydi @tpginteractive",
+      "handle2": "@lloydi@mastodon.social"
+    },
+    {
+      "link": "https://dev.to/disukharev/opencommit-gpt-cli-to-auto-generate-impressive-commits-in-1-second-46dh",
+      "title": "OpenCommit: GPT generates impressive commits in 1 second",
+      "desc": "Dima Sukharev announces his open-source project auto-generates impressive commits in 1 second.",
+      "handle": "@io_Y_oi",
+      "handle2": ""
+    }
+  ],
+  "promotion": [{
+    "type": "Self-promotion",
+    "link": "https://www.silvestar.codes/articles/five-pieces-of-advice-for-more-accessible-websites/",
+    "title": "Five pieces of advice for more accessible websites",
+    "desc": "To improve stats for an annual accessibility report, start with these five quick wins that will make your site much more accessible.",
+    "handle": "",
+    "handle2": ""
+  }]
+}, {
+  "date": "2023-03-27",
+  "description": "CSS snippets, :has() selector examples, better CSS transitions, and more.",
+  "list": [{
+      "link": "https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/",
+      "title": "6 CSS snippets every front-end developer should know in 2023",
+      "desc": "Adam Argyle shares CSS handy snippets about container queries, scroll snap, cascade layers, and more.",
+      "handle": "@argyleink @ChromiumDev",
+      "handle2": "@argyleink@front-end.social"
+    },
+    {
+      "link": "https://tobiasahlin.com/blog/previous-sibling-css-has/",
+      "title": "Selecting previous siblings with CSS :has()",
+      "desc": "Tobias Ahlin Bjerrome demonstrates how to select any previous sibling of an element using :has() selector.",
+      "handle": "@tobiasahlin",
+      "handle2": ""
+    },
+    {
+      "link": "https://joshcollinsworth.com/blog/great-transitions",
+      "title": "Ten tips for better CSS transitions and animations",
+      "desc": "Josh Collinsworth assembles a collection of advice about crafting transitions and animations on the web.",
+      "handle": "",
+      "handle2": "@collinsworth@hachyderm.io"
+    },
+    {
+      "link": "https://dev.to/jh3y/circular-text-with-css-57jf",
+      "title": "Circular Text with CSS?",
+      "desc": "Jhey Tompkins explores a few options how to create text which letters form a circle.",
+      "handle": "@jh3yy",
+      "handle2": "@jhey@front-end.social"
+    },
+    {
+      "link": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element",
+      "title": "The search element",
+      "desc": "Domenic Denicola and Scott O'Hara add the search element to HTML Standard - an element that contains a set of form controls or other content related to performing a search or filtering operation.",
+      "handle": "@domenic @scottohara",
+      "handle2": "@domenic@schelling.pt @scottohara@mastodon.social"
+    },
+    {
+      "link": "https://slack.design/articles/what-weve-learned-about-designing-for-accessibility-from-our-users/",
+      "title": "What we've learned about designing for accessibility from our users",
+      "desc": "Andrew Gosine shares learning from designing improved Slack's navigation with accessibility in mind.",
+      "handle": "@AndrewGosine",
+      "handle2": "@kizu@front-end.social"
+    },
+    {
+      "link": "https://www.joshwcomeau.com/blog/the-end-of-frontend-development/",
+      "title": "The End of Front-End Development",
+      "desc": "Josh Comeau shares his hypothesis for what will happen with developers jobs in AI era.",
+      "handle": "@joshwcomeau",
+      "handle2": ""
+    },
+    {
+      "link": "https://modernfontstacks.com/",
+      "title": "Modern Font Stacks",
+      "desc": "Dan Klammer shares Modern Font Stacks - a copy-paste place for system font typefaces for every modern OS.",
+      "handle": "@danklammer",
+      "handle2": "@dan@webperf.social"
+    }
+  ],
+  "promotion": [{
+    "type": "Self-promotion",
+    "link": "https://www.silvestar.codes/articles/with-or-without-the-js-framework/",
+    "title": "With or without the JS framework",
+    "desc": "Is it really that unusual for a frontend developer not to use a JS framework?",
+    "handle": "",
+    "handle2": ""
+  }]
+}, {
   "date": "2023-03-13",
   "description": "responsive images and container queries, subgrid usage, native .visually-hidden solution, and more.",
   "topAd": {

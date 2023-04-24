@@ -2,7 +2,7 @@
   <hr class="text-beta hr">
   <footer class="text-center padding">
     {% if newsletter.tagline or newsletter.description %}
-      <div class="wrapper wrapper--gamma padding margin-top copy">
+      <div class="wrapper wrapper--gamma padding margin-top">
         {% if newsletter.tagline %}
           <p class="fz-step--0 fw-bold">{{ newsletter.tagline }}</p>
         {% endif %}
@@ -16,7 +16,7 @@
         <ul class="list-style-none padding no-margin-top">
           {% for item in newsletter.menu %}
             <li class="margin-right margin-left">
-              <a href="{{ item.href }}">{{ item.title }}</a>
+              <a href="{{ item.href }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -26,7 +26,7 @@
       <p class="fz-step--2 margin-top margin-bottom">Curated by <a class="tdu" href="{{ newsletter.author.href }}">{{ newsletter.author.title }}</a></p>
     {% endif %}
     {% if newsletter.logo2 %}
-      <a class="dib margin-top margin-bottom" href="{{ newsletter.logo2.href }}"><img class="margin-auto" src="{{ newsletter.logo2.src }}" alt="{{ newsletter.logo2.title }}" width="50" height="50" loading="lazy"></a>
+      <a class="dib margin-top margin-bottom" href="{{ newsletter.logo2.href }}"><img class="margin-auto" src="{{ newsletter.logo2.src }}" alt="{{ newsletter.logo2.alt }}" width="50" height="50" loading="lazy"></a>
     {% endif %}
   </footer>
 {% endif %}

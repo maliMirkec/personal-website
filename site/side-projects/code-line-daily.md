@@ -6,20 +6,25 @@ description: Code Line Daily is a side project dedicated to providing daily sing
 type: side-projects-item
 tags:
   - projects
-thumbnail: cld_jrsdct
+thumbnail:
+  src: cld_eweklc
+  alt: Screenshot of the Code Line Daily website.
+  width: 844
+  height: 511
 display: true
 date: 2005-04-01
 sections:
   - type: hero-alpha
-    src: cld_jrsdct
+    src: cld_eweklc
     alt: Screenshot of Code Line Daily website.
-    width: 815
-    height: 448
+    width: 844
+    height: 511
     title: Code Line Daily
     desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
     cta:
       href: //cld.silvestar.codes
       title: Go to the Project
+      animate: true
     cta2:
       href: /side-projects/
       title: Discover other projects
@@ -34,4 +39,5 @@ sections:
     exclude: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

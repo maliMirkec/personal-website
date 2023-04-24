@@ -41,6 +41,7 @@ sections2:
     random: true
   - type: banner-alpha
     banner: consultation
+    animate: true
 excerpt: Silvestar was very quick to respond to requests, dependable, and communicated well...
 ---
 

@@ -19,4 +19,5 @@ sections:
     filter: testimonials
   - type: banner-alpha
     banner: consultation
+    animate: true
 ---

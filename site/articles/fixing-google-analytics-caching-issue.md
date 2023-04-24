@@ -13,13 +13,14 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. What does that one point mean anyway? And you go to sleep every night knowing that one point is still missing. My friend, the solution is here.
 
 <!-- more -->
 
-{% cldnry "Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx" "Google Analytics browser caching issue." %}
+{% cldnry "Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx" "Google Analytics browser caching issue." 840 259 %}
 
 ## The solution
 The answer is pretty simple—use [CloudFlare Google Analytics app](https://www.cloudflare.com/apps/google-analytics). As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.

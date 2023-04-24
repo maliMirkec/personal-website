@@ -56,14 +56,31 @@ a {
 
   .copy & {
     &:not([class]) {
+      color: var(--color-beta-darker);
       text-decoration: underline;
+      text-decoration-color: var(--color-beta-dark);
       text-decoration-thickness: from-font;
+      text-underline-offset: 0.25em;
       display: inline;
       word-break: break-word;
 
-      // &:hover {
-      //   text-decoration: none;
-      // }
+      &:hover,
+      &:focus {
+        box-shadow: 0 0 0 .15rem var(--color-beta-light);
+      }
+
+      &:focus,
+      &:active {
+        box-shadow: 0 0 0 .15rem var(--color-beta-light) inset, 0 0 0 .15rem var(--color-dark);
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: var(--color-dark);
+        background-color: var(--color-beta-light);
+        text-decoration-color: var(--color-beta-light);
+      }
 
       // &:focus,
       // &:active {

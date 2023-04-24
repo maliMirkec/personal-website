@@ -33,7 +33,7 @@
     &:not([class]) {
       text-decoration: underline;
       text-decoration-thickness: from-font;
-      text-underline-offset: 0.125em;
+      text-underline-offset: 0.25em;
     }
   }
 }
@@ -44,7 +44,6 @@
   padding-top: calc(var(--space) * 6.5);
   padding-bottom: calc(var(--space) * 6.5);
   margin-top: -2.5rem;
-  -webkit-mask: var(--mask);
   mask: var(--mask);
 
   &:before {

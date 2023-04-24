@@ -13,6 +13,7 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 Being a developer requires specific skills and tools. I have put an effort to make a list of all the skills, tools, and techniques that I acquired during my career, and I was surprised by the number of them. During this process, I realized what the essential skill for one developer is.
@@ -27,7 +28,7 @@ I am writing this article from a frontend developer perspective, but it could be
 
 I have created a [mindmap] of the skills and tools I acquired during my career. It was inspired by [Kamran Ahmed]'s [Web Developer Roadmap]. Kamran's roadmap made me think what did I learned, how many skills do I have, and are those skills still valid and required. I have used my [Toptal profile] as a reference of skills and tools because I am trying to keep my profile up to date there.
 
-{% cldnrylink "https://coggle.it/diagram/Wy9XDVsxfi3TaCnK/t/silvestar-bistrovi%C4%87-web-developer%2C-coder-toptal-freelancer" "mm_ujclvz" "Mindmap containing skills learned as a developer." %}
+{% cldnrylink "https://coggle.it/diagram/Wy9XDVsxfi3TaCnK/t/silvestar-bistrovi%C4%87-web-developer%2C-coder-toptal-freelancer" "mm_ujclvz" "Mindmap containing skills learned as a developer." 840 956 %}
 
 Once I reviewed all skills, I decided to divide my career into three parts, depending on my employment status.
 

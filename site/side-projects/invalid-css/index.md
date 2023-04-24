@@ -1,9 +1,14 @@
 ---
 layout: index
 title: Invalid CSS
+projectTitle: Invalid CSS
 old_escription: CSS declarations that are not valid and that I wish existed.
 description: “Invalid CSS” is a project that features CSS declarations that are not valid and non-existing. None of CSS code provided was valid at the time of publishing.
-thumbnail: Invalid_CSS_jeizo0
+thumbnail:
+  src: invalid-css_bplltq
+  alt: Screenshot of the Invalid CSS home page.
+  width: 844
+  height: 511
 type: articles
 tags:
   - projects
@@ -24,4 +29,5 @@ sections:
     noDesc: true
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---

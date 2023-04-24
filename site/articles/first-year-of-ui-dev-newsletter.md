@@ -58,6 +58,7 @@ sections3:
 sections2:
   - type: banner-beta
     banner: newsletter
+    animate: true
 ---
 
 A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
@@ -83,7 +84,7 @@ After a few posts, the idea of starting a newsletter came up, so I started resea
 The first thing was to choose my newsletter app. I thought about using Mailchimp, as I had previous experience with that platform. Then I learned about [Tinyletter](https://tinyletter.com/) (a more inferior version of Mailchimp). I decided it has everything I need, from a subscription list to a simple HTML editor.
 
 {% note %}
-I discovered [ButtonDown](https://buttondown.email/) recently, and I am considering switching to this app. Not sure yet.
+I discovered [ButtonDown](https://buttondown.email/refer/starbist) recently, and I am considering switching to this app. Not sure yet.
 {% endnote %}
 
 ## The script
@@ -132,11 +133,11 @@ At the moment, there are 170 subscribers, but I never invested in marketing. I t
 
 What I did found are some lists where I included my newsletter, like [this Github repo](https://github.com/markodenic/web-development-resources#newsletters). It also helps when people share the newsletter, mainly on Twitter. [Manuel Matuzović](https://twitter.com/mmatuzo) and [Marko Denic](https://twitter.com/denicmarko) did it, and I am very thankful they did.
 
-{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." %}
+{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." 840 536 %}
 
 If you like the UI Dev Newsletter, you could [share it](#share-the-article), too. I would appreciate it greatly.
 
-{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." %}
+{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." 840 461 %}
 
 ## Conclusion
 

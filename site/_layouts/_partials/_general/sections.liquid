@@ -43,4 +43,7 @@
 {% elsif section.type == 'hero' %}
   {% assign hero = section %}
   {% include _partials/_newsletter/hero %}
+{% elsif section.type == 'feedback' %}
+  {% assign feedback = section %}
+  {% include _partials/_newsletter/feedback %}
 {% endif %}
