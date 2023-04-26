@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Cross-browser testing with the Microsoft Remote Desktop app
-date: 2023-04-18 10:00:01
+date: 2023-04-26 08:00:00
 tags:
   - blog
   - cross-browser
@@ -13,8 +13,6 @@ sections2:
     banner: newsletter
     animate: true
 series: Tools
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 Imagine you are working on your Mac and want to test your website on a Windows machine but hate switching computers. Let me show you how to use the Microsoft Remote Desktop app for macOS to mitigate this problem. With this handy app, you can seamlessly connect and control your Windows machine without physically switching between devices.
