@@ -15,6 +15,7 @@ sections2:
   - type: banner-beta
     banner: newsletter
     animate: true
+series: Nightmare DX
 ---
 
 This article is the first article in a series about poor developer experience. In this particular article, I am going to write about Shopify and its (un)friendliness for developers.
@@ -29,7 +30,7 @@ I like to think of DX as a meter of happiness for developers during the developm
 
 When discussing DX, many different factors affect the outcome, from development and CLI to documentation and support. So let's see how Shopify stands on these things.
 
-## The development
+## Development
 
 ### Local development
 
@@ -59,7 +60,7 @@ Shopify supports Sass, and you could even use Liquid variables inside it. That i
 
 Shopify provides a lot of plugins that could extend the functionality of your shop. Although these plugins are verified, they introduce extra code that you cannot control. I have been in a situation when I had to replace the plugin functionality because the shop started to act slow and unreliable. I'm not particularly eager to rely on some else's code in general, so I wouldn't suggest using too many plugins anyway.
 
-## The documentation
+## Documentation
 
 Shopify documentation is massive. It gets everything covered, I am sure, but that has its downsides. For one, it could be a lengthy task to find what you need. I sometimes find it too technical, and I need to go down a rabbit hole to understand how to do something.
 
