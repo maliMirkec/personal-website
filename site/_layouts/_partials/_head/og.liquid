@@ -2,7 +2,7 @@
 <meta property="og:type" content="website">
 <meta name="generator" content="{{ 'generator' | generator }}">
 {% if title %}
-  <meta property="og:title" content="{{ title }} | {{ site.title }}">
+  <meta property="og:title" content="{{ title }} \m/ {{ siteTitle }}">
 {% endif %}
 {% if page.description %}
   <meta property="og:description" content="{{ page.description | escape }}">
@@ -26,7 +26,7 @@
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
   {% if title %}
-    <meta name="twitter:title" content="{{ title }} | {{ site.title }}">
+    <meta name="twitter:title" content="{{ title }} \m/ {{ siteTitle }}">
   {% endif %}
   {% if page.description %}
     <meta name="twitter:description" content="{{ page.description | escape }}">
@@ -51,7 +51,7 @@
         "@type": "WebSite",
         "@id": "{{ page.url }}"
       },
-      "headline": "{{ title }} | {{ site.title }}",
+      "headline": "{{ title }} \m/ {{ siteTitle }}",
       "image": [
         "{{ thumbnail | cldnrysrc }}"
       ],
@@ -109,7 +109,7 @@
           "position": 2,
           "item": {
             "@id": "{{ site.url }}{{ page.url }}",
-            "name": "{{ title }} | {{ site.title }}"
+            "name": "{{ title }} \m/ {{ siteTitle }}"
           }
         }
       ]

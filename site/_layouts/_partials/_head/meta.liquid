@@ -3,7 +3,10 @@
   {% assign title = title | append: ' #'| append: pageNumber %}
 {% endif %}
 {% if titlePrefix %}
-  {%- assign title = titlePrefix | append: title -%}
+  {% assign title = titlePrefix | append: title %}
+{% endif %}
+{% if ogTitlePrefix %}
+  {% assign ogTitle = ogTitlePrefix | append: title %}
 {% endif %}
 {% if descriptionPrefix and thisRead.description %}
   {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
