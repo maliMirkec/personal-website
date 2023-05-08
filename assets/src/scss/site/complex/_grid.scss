@@ -20,3 +20,60 @@
   }
 }
 
+.grid--alpha {
+  @include mq($from: bp2) {
+    --cols: 1fr 1fr 1fr;
+
+    &:after {
+      content: "";
+      grid-column: 1 / -1;
+      min-height: 50dvh;
+    }
+  }
+}
+
+.grid__item {
+  @include mq($from: bp2) {
+    --aspect-ratio: 1;
+    display: flex;
+    position: sticky;
+    pointer-events: none;
+    aspect-ratio: var(--aspect-ratio);
+
+    &:hover {
+      z-index: 1;
+    }
+
+    @for $i from 1 through 6 {
+      $col: $i % 3;
+
+      @if $col == 0 {
+        $col: 3;
+      }
+
+      &:nth-child(#{$i}) {
+        grid-column-start: #{$col};
+        grid-row-start: #{$i};
+        top: var(--gap);
+
+        @if $i > 1 {
+          margin-top: calc(100% / var(--aspect-ratio) + var(--gap));
+        }
+
+        @if $i > 3 {
+          margin-top: 0;
+          padding-top: calc(100% / var(--aspect-ratio) + var(--gap));
+        }
+      }
+    }
+
+    .card {
+      pointer-events: initial;
+      justify-content: center;
+    }
+  }
+
+  @include mq($from: bp3) {
+    --aspect-ratio: 1.5;
+  }
+}

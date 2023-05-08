@@ -1,0 +1,69 @@
+{% assign card8List = collections[cards8.filter] | reverse %}
+{% assign i1 = 1 %}
+
+{% if card8List %}
+  <section id="{{ cards8.filter }}" class="margin-top-beta margin-bottom-beta">
+    <div class="wrapper wrapper--alpha grid grid--alpha padding">
+      {% for card8 in card8List %}
+        {% assign now = 'now' | date: "%Y-%m-%d" %}
+        {% assign card8Date = card8.data.date | date: "%Y-%m-%d" %}
+        {% if card8Date > now %}
+          {% continue %}
+        {% endif %}
+        {% if cards8.limit and i1 > cards8.limit %}
+          {% break %}
+        {% endif %}
+        {% if cards8.exclude %}
+          {% assign tags = card8.data.tags | join: ', ' %}
+          {% if tags contains cards8.exclude %}
+            {% continue %}
+          {% endif %}
+        {% endif %}
+        {% unless cards8.exclude == 'title' and title == card8.data.title %}
+          <div class="grid__item">
+            <a class="card card--flex tilt text-center bg-lightish padding" href="{{ card8.url }}">
+              <div class="tilt__inner padding">
+                {% if card8.data.title %}
+                  <h3 class="{% if cards8.filter == 'my-css' %}ffm fz-step-1 margin-top {% else %}fz-step-3 no-margin-top {% endif %}no-margin-bottom margin-left margin-right">{{ card8.data.title }}</h3>
+                {% endif %}
+                <div class="margin-left margin-right{% if cards8.noDate %} margin-top{% endif %}{% unless cards8.filter == 'my-css' %} margin-bottom{% endunless %}">
+                  {% if card8.data.publication or card8Date %}
+                    <div{% if card8.data.publication %} class="margin-top margin-bottom"{% endif %}>
+                      {% if card8.data.publication %}
+                        <span class="button button--small">{{ card8.data.publication }}</span>
+                      {% endif %}
+                      {% if card8Date and cards8.noDate != true %}
+                        <time class="button button--invisible button--small" datetime="{{ card8Date }}">{{ card8Date }}</time>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if cards8.noDesc != true %}
+                    <div class="copy">{{ card8.data.description }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endunless %}
+        {% assign i1 = i1 | plus: 1 %}
+      {% endfor %}
+      {% if cards8.desc %}
+        <div class="card card--flex text-center padding">
+          <div class="margin-auto">
+            <div class="copy">{{ cards8.desc | markdownify }}</div>
+            {% if cards8.cta2 %}
+              <div class="margin-top">
+                <a class="button" href="{{ cards8.cta2.href }}">{{ cards8.cta2.title }}</a>
+              </div>
+            {% endif %}
+            {% if cards8.cta3 %}
+              <div class="margin-top">
+                <a class="tdu" href="{{ cards8.cta3.href }}">{{ cards8.cta3.title }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}

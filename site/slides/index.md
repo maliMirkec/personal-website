@@ -9,7 +9,10 @@ sections:
     title: From Slides
     desc: >-
       Here is the collection of all slides on my site.
-  - type: cards-alpha
+
+
+      Scroll down to see all slides.
+  - type: cards-theta
     # cta:
     #   title: Go to project
     filter: my-slides
