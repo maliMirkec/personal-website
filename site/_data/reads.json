@@ -30,7 +30,7 @@
       "handle2": "@cferdinandi@mastodon.social"
     },
     {
-      "link": "https://www.joshwcomeau.com/javascript/the-const-deception/?from=newsletter",
+      "link": "https://www.joshwcomeau.com/javascript/the-const-deception/",
       "title": "The “const” Deception",
       "desc": "Josh Comeau explains the difference between let and const in JavaScript and how they work with variables, labels, re-assignment, and mutation.",
       "handle": "@joshwcomeau",
@@ -5363,7 +5363,7 @@
       "desc": "Will Boyd teaches how to handle text selection using CSS only."
     },
     {
-      "link": "https://www.udemy.com/courses/development/?course_label=6368&price=price-free&sort=popularity",
+      "link": "https://www.udemy.com/courses/development/",
       "title": "Free Udemy Development courses",
       "desc": "There are 71 free development courses on Udemy."
     },

@@ -27,7 +27,7 @@
             {% for resource in read.list %}
               {% if j < 4 and resource.title %}
                 <li>
-                  <a href={{ resource.link }} target="_blank" rel="noopener">{{ resource.title }}</a>
+                  <a href="{{ resource.link }}" target="_blank" rel="noopener">{{ resource.title }}</a>
                 </li>
               {% endif %}
               {% assign j = j | plus: 1 %}
