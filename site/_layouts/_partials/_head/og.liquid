@@ -2,7 +2,7 @@
 <meta property="og:type" content="website">
 <meta name="generator" content="{{ 'generator' | generator }}">
 {% if title %}
-  <meta property="og:title" content="{{ title }} \m/ {{ siteTitle }}">
+  <meta property="og:title" content="{{ longTitle }}">
 {% endif %}
 {% if page.description %}
   <meta property="og:description" content="{{ page.description | escape }}">
@@ -15,7 +15,7 @@
 {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
 {% endif %}
-<meta property="og:image" content="{{ site.url }}/og/og.png?text={% if ogTitle %}{{ ogTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
+<meta property="og:image" content="{{ site.url }}/og/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 {% if site.twitter %}
@@ -26,14 +26,14 @@
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
   {% if title %}
-    <meta name="twitter:title" content="{{ title }} \m/ {{ siteTitle }}">
+    <meta name="twitter:title" content="{{ longTitle }}">
   {% endif %}
   {% if page.description %}
     <meta name="twitter:description" content="{{ page.description | escape }}">
   {% elsif description %}
     <meta name="twitter:description" content="{{ description | escape }}">
   {% endif %}
-  <meta property="twitter:image" content="{{ site.url }}/og/og.png?text={% if ogTitle %}{{ ogTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
+  <meta property="twitter:image" content="{{ site.url }}/og/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
 {% endif %}
 {% if site.fb_id %}
   <meta name="fb:app_id" content="{{ site.fb_id }}">
@@ -51,7 +51,7 @@
         "@type": "WebSite",
         "@id": "{{ page.url }}"
       },
-      "headline": "{{ title }} \m/ {{ siteTitle }}",
+      "headline": "{% if ogImageTitle %}{{ ogImageTitle }}{% else %}{{ title }}{% endif %}",
       "image": [
         "{{ thumbnail | cldnrysrc }}"
       ],
@@ -59,7 +59,8 @@
       "dateModified": "{{ date | date: '%Y-%m-%d' }}",
       "author": {
         "@type": "Person",
-        "name": "{{ site.author }}"
+        "name": "{{ site.author }}",
+        "url": "{{ site.url }}"
       },
       "publisher": {
         "@type": "Organization",
@@ -109,7 +110,7 @@
           "position": 2,
           "item": {
             "@id": "{{ site.url }}{{ page.url }}",
-            "name": "{{ title }} \m/ {{ siteTitle }}"
+            "name": "{% if ogImageTitle %}{{ ogImageTitle }}{% else %}{{ title }}{% endif %}"
           }
         }
       ]

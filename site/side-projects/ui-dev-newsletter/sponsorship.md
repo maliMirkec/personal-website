@@ -1,7 +1,7 @@
 ---
 layout: newsletter
 title: Sponsorship
-ogTitle: UI Dev Newsletter sponsorship
+ogImageTitle: UI Dev Newsletter sponsorship
 description: Thank you for considering sponsoring the UI Dev Newsletter! Your sponsorship will play a key role in keeping this newsletter up and running.
 type: newsletter-page
 sections:

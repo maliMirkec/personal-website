@@ -1,7 +1,7 @@
 ---
 layout: newsletter
 title: Feedback
-ogTitle: UI Dev Newsletter feedback
+ogImageTitle: UI Dev Newsletter feedback
 description: I am working hard to make UI Dev Newsletter the best possible. Please provide any feedback or just contact me if you want to say something nice.
 type: page
 sections2:
