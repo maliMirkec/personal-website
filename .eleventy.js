@@ -146,6 +146,18 @@ module.exports = (eleventyConfig) => {
     return `<div class="table-wrapper">${ markdownItRenderer.render(table.trim()) }</div>`
   })
 
+  eleventyConfig.addCollection("my-reads", (collection) => {
+    return collection.getFilteredByTag("reads").sort((a, b) => {
+      if (a.date < b.date) {
+        return 1
+      } else if (a.date > b.date) {
+        return -1
+      } else {
+        return 0
+      }
+    })
+  })
+
   eleventyConfig.addCollection("my-slides", (collection) => {
     return collection.getFilteredByTag("slides").sort((a, b) => {
       if (a.date < b.date) {
@@ -243,7 +255,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy({
     "assets/dist": ".",
-    "assets/critical": "css"
+    "assets/critical": "css",
+    "site/side-projects/ui-dev-newsletter/admin/config.yml": "/side-projects/ui-dev-newsletter/admin/config.yml",
   })
 
   // eleventyConfig.setServerPassthroughCopyBehavior("passthrough")

@@ -78,6 +78,7 @@
     "html-minifier": "^4.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
+    "json2yaml": "^1.1.0",
     "jstransformer-markdown-it": "^2.1.0",
     "killify": "^0.0.6",
     "kss": "^3.0.1",

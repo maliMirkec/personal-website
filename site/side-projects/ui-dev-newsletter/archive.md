@@ -23,5 +23,9 @@ sections:
       href: /side-projects/ui-dev-newsletter/
       title: Subscribe
       animate: true
-  - type: cards-zeta
+  - type: cards-alpha
+    # cta:
+    #   title: Go to project
+    filter: my-reads
+    # noDate: true
 ---

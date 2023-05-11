@@ -1,56 +1,85 @@
-{% assign readIndex = 1 %}
-{% assign j = 1 %}
-{% for findRead in reads %}{% if findRead == thisRead %}{% assign readIndex = forloop.index %}{% endif %}{% endfor %}
-{% if thisRead %}
-  <section class="hero margin-top-beta">
-    <div class="wrapper">
-      <div class="padding">
-        <div class="margin-bottom text-center">
-          {% if thisRead.date %}
-            <time class="button button--invisible button--small" datetime="{{ thisRead.date | date: '%Y-%m-%d' }}"><span class="fz-step--2">{{ thisRead.date | date: '%Y-%m-%d' }}</span></time>
-          {% endif %}
-        </div>
-        {% if title %}
-          <h1 class="ffss no-margin-top margin-bottom text-center">
-            <span class="db fz-step-2 fw-bold">{{ newsletter.title }}</span>
-            <span class="db fz-step-5 fw-bolder">{{ title }}</span>
-          </h1>
+<section class="margin-top-beta">
+  <div class="wrapper">
+    <div class="padding">
+      <div class="margin-bottom text-center">
+        <a class="button button--invisible button--small with-slash" href="/side-projects/ui-dev-newsletter/archive/">Archive</a>
+        {% if date %}
+          <time class="button button--invisible button--small" datetime="{{ date | date: '%Y-%m-%d' }}"><span class="fz-step--2">{{ date | date: '%Y-%m-%d' }}</span></time>
         {% endif %}
-        {% if thisRead.description %}
-          <p class="fz-step-0 no-margin-top margin-bottom text-center"><b>In this issue:</b> {{ thisRead.description }}</p>
-        {% endif %}
-        <div class="copy margin-top-beta">
-          <ul class="list-style-none">
-            {% for resource in thisRead.list %}
-              {% if resource.link %}
+      </div>
+      {% if title %}
+        <h1 class="ffss no-margin-top margin-bottom text-center">
+          <span class="db fz-step-2 fw-bold">{{ newsletter.title }}</span>
+          <span class="db fz-step-5 fw-bolder">{{ title }}</span>
+        </h1>
+      {% endif %}
+      {% if description %}
+        <p class="fz-step-0 no-margin-top margin-bottom text-center">{{ description }}</p>
+      {% endif %}
+      <div class="copy margin-top-beta">
+        <ul class="list-style-none">
+          {% assign j = 1 %}
+          {% for resource in list %}
+            {% if resource.link %}
+              <li>
+                <a class="note tdn" href="{{ resource.link }}" rel="noopener" data-title="Link">
+                  {% if resource.title %}
+                    <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
+                  {% endif %}
+                  {% if resource.desc %}
+                    <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
+                  {% endif %}
+                </a>
+              </li>
+              {% if j == 1 and topAd %}
                 <li>
-                  <a class="note tdn" href="{{ resource.link }}" rel="noopener" data-title="Link">
-                    {% if resource.title %}
-                      <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
+                  <a class="note tdn" href="{{ topAd.link }}" rel="noopener" data-title="Sponsor">
+                    {% if topAd.title %}
+                      <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if topAd.title %}{{ topAd.title }}{% else %}{{ topAd.link }}{% endif %}</p>
                     {% endif %}
-                    {% if resource.desc %}
-                      <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
+                    {% if topAd.desc %}
+                      <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ topAd.desc }}</p>
                     {% endif %}
                   </a>
                 </li>
-                {% if j == 1 and thisRead.topAd %}
-                  <li>
-                    <a class="note tdn" href="{{ thisRead.topAd.link }}" rel="noopener" data-title="Sponsor">
-                      {% if thisRead.topAd.title %}
-                        <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if thisRead.topAd.title %}{{ thisRead.topAd.title }}{% else %}{{ thisRead.topAd.link }}{% endif %}</p>
-                      {% endif %}
-                      {% if thisRead.topAd.desc %}
-                        <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ thisRead.topAd.desc }}</p>
-                      {% endif %}
-                    </a>
-                  </li>
-                {% endif %}
-                {% assign j = j | plus: 1 %}
               {% endif %}
-            {% endfor %}
-          </ul>
+              {% assign j = j | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="padding" id="share-the-article">
+  <div class="banner margin-top-beta">
+    <div class="wrapper margin-top margin-bottom text-center">
+      <div class="padding">
+        {% assign text = 'Read the latest UI Dev Newsletter.\n' %}
+        {% assign textEncoded = 'Read the latest UI Dev Newsletter.\n' %}
+        {% if description %}
+          {% assign text = text | append: description %}
+          {% assign textEncoded = textEncoded | append: description | strip_html | strip | url_encode %}
+          {% assign textEscaped = textEncoded | replace: '+', '%20' %}
+        {% elsif title %}
+          {% assign text = text | append: title %}
+          {% assign textEncoded = textEncoded | append: title | strip_html | strip | url_encode %}
+          {% assign textEscaped = textEncoded | replace: '+', '%20' %}
+        {% else %}
+          {% assign textEncoded = textEncoded | append: content | strip_html | strip | url_encode %}
+          {% assign textEscaped = textEncoded | replace: '+', '%20' %}
+        {% endif %}
+        {% assign pageUrl = site.url | append: page.url | url_encode %}
+        {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: pageUrl %}
+        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: " " | append: pageUrl | append: " via @cita@mastodon.social" %}
+        {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: pageUrl %}
+        <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the newsletter</h3>
+        <div class="margin-top margin-bottom-beta">
+          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
+          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
+          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
         </div>
       </div>
     </div>
-  </section>
-{% endif %}
+  </div>
+</section>
