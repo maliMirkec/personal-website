@@ -11,6 +11,9 @@ collections:
     name: "newsletter"
     folder: "site/side-projects/ui-dev-newsletter"
     slug: "{{year}}-{{month}}-{{day}}"
+    filter:
+      field: type
+      value: newsletter-single
     create: true
     fields:
       - label: "Layout"
