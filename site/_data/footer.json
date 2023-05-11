@@ -8,6 +8,9 @@
     "href": "/articles/",
     "title": "Blog"
   }, {
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Newsletter❗"
+  }, {
     "href": "/portfolio/",
     "title": "Portfolio"
   }, {
@@ -16,9 +19,6 @@
   }, {
     "href": "/contact/",
     "title": "Contact"
-  }, {
-    "href": "/services/",
-    "title": "Services"
   }, {
     "href": "/rss.xml",
     "title": "Feed"

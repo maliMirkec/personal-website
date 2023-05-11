@@ -56,12 +56,11 @@ Place the following code into your `<head>` and include the `.js-page-loaded-in`
 
 ```html
 <head>
-  <script src="https://unpkg.com/page-loaded-in@0.0.3/dist/index.js"></script>
+  <script src="https://unpkg.com/page-loaded-in@0.0.4/dist/index.js"></script>
 </head>
 <body>
   <p class="js-page-loaded-in"></p>
 </body>
-
 ```
 
 ## Conclusion

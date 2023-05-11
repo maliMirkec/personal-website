@@ -322,7 +322,8 @@ const animate = () => {
         if(entry.isIntersecting) {
           const className = entry.target.classList.contains('button') ? 'animate--alpha' : 'animate--beta'
 
-          entry.target.classList.remove(className)
+          // entry.target.classList.remove(className)
+
           setTimeout(() => {
             entry.target.classList.add(className)
           }, 1000)

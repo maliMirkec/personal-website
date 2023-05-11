@@ -10,9 +10,10 @@
           {% assign textEncoded = content | strip_html | strip | url_encode %}
           {% assign textEscaped = textEncoded | replace: '+', '%20' %}
         {% endif %}
-        {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: site.url | append: page.url %}
-        {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: textEscaped | append: "&url=" | append: site.url | append: page.url %}
-        {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: site.url | append: page.url %}
+        {% assign pageUrl = site.url | append: page.url | url_encode %}
+        {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: pageUrl %}
+        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: " " | append: pageUrl | append: " via @cita@mastodon.social" %}
+        {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: pageUrl %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the article</h3>
         <div class="margin-top margin-bottom-beta">
           <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
@@ -26,7 +27,7 @@
           <a class="button button--inverse button--small button--outline margin-left margin-right" href="/portfolio/">Portfolio</a>
           <a class="button button--inverse button--small button--outline margin-left margin-right" href="/contact/">Contact</a>
         </div>
-        {% assign articles = collections['blog'] %}
+        {% assign articles = collections['blog'] | reverse %}
         <h3 class="fz-step-2 no-margin-top">Read more articles</h3>
         <div class="margin-top margin-bottom{% if env.production %}-alpha{% endif %}">
           {% assign i = 0 %}
