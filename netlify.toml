@@ -31,6 +31,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
     # Exclude files from sitemap
     exclude = [
       "**/404.html",
+      "**/side-projects/ui-dev-newsletter/admin/*",
       "**/404/*",
       "**/docs/**",
       "**/contact/thank-you/*",
@@ -58,7 +59,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/articles/a-comparison-of-static-form-providers/*",
       "**/hire-me-2018/*",
       "**/hire-me/*",
-      "./public/mentoring/*",
+      "**/mentoring/*"
     ]
 
     # Enable pretty URLS and remove `index.html` & trailing `.html` file references in paths
