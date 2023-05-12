@@ -41,9 +41,7 @@ isNewsletter: true
         {% endblock %}
       </main>
     </div>
-    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
-      {% include _partials/_newsletter/footer %}
-    {% endunless %}
+    {% include _partials/_newsletter/footer %}
     {% include _partials/_general/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}

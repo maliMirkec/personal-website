@@ -1,16 +1,18 @@
 {% if newsletter %}
   <hr class="text-beta hr">
   <footer class="text-center padding">
-    {% if newsletter.tagline or newsletter.description %}
-      <div class="wrapper wrapper--gamma padding margin-top">
-        {% if newsletter.tagline %}
-          <p class="fz-step--0 fw-bold">{{ newsletter.tagline }}</p>
-        {% endif %}
-        {% if newsletter.tagline or newsletter.description %}
-          <p class="fz-step--2">{{ newsletter.description }}</p>
-        {% endif %}
-      </div>
-    {% endif %}
+    {% unless type == 'newsletter-index' %}
+      {% if newsletter.tagline or newsletter.description %}
+        <div class="wrapper wrapper--gamma padding margin-top">
+          {% if newsletter.tagline %}
+            <p class="fz-step--0 fw-bold">{{ newsletter.tagline }}</p>
+          {% endif %}
+          {% if newsletter.tagline or newsletter.description %}
+            <p class="fz-step--2">{{ newsletter.description }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endunless %}
     {% if newsletter.menu %}
       <nav class="margin-bottom" aria-label="Secondary">
         <ul class="list-style-none padding no-margin-top">

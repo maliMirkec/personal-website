@@ -6,4 +6,5 @@ description: UI Dev Newsletter is a hand-curated list of articles, tutorials, an
 type: newsletter-index
 sections:
   - type: form
+  - type: quotes
 ---

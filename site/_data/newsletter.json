@@ -16,6 +16,31 @@
     "src": "/gfx/svg/logo-SB-000-12E09F.svg",
     "alt": "Silvestar Bistrović."
   },
+  "quotes": [{
+    "name": "Manuel Matuzović",
+    "avatar": "mm_lprmjx",
+    "links": [{
+      "name": "Website",
+      "href": "https://www.matuzo.at/"
+    }, {
+      "name": "Mastodon",
+      "href": "https://mastodon.social/@matuzo@front-end.social"
+    }],
+    "position": "Frontend developer and consultant, creator of HTMHell",
+    "text": "Right now, I have 647 unread items in my RSS reader; it’s hard to keep track of what’s happening in the world of web development. I’m grateful for Silvestar’s UI Dev newsletter, which provides me with a hand-curated list of the most relevant posts twice a month."
+  }, {
+    "name": "Bart Veneman",
+    "avatar": "bv_w3vt1d",
+    "links": [{
+      "name": "Website",
+      "href": "https://www.veneman.dev/"
+    }, {
+      "name": "Twitter",
+      "href": "https://mastodon.social/@matuzo@front-end.social"
+    }],
+    "position": "Frontend architect, creator of Project Wallace",
+    "text": "This newsletter is what you would hope your timeline would be: the best articles from around the community summarized in a couple sentences."
+  }],
   "menu": [{
     "href": "/side-projects/ui-dev-newsletter/",
     "title": "Subscribe",

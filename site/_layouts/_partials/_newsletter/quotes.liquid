@@ -1,0 +1,42 @@
+{% if newsletter.quotes %}
+  <section class="wrapper wrapper--gamma padding margin-bottom-alpha">
+    {% for quote in newsletter.quotes %}
+      <div class="card bg-light padding{% unless forloop.first %} margin-top{% endunless %}">
+        <div class="tilt">
+          <div class="tilt__inner">
+            {% if quote.name %}
+              <header class="padding copy">
+                {% if quote.avatar %}
+                  <div class="df aic">
+                    {% if quote.avatar %}
+                      <span class="db margin-right avatar">
+                        {% assign altTextAvatar = quote.name | append: ' profile photo.' %}
+                        {% cldnry quote.avatar altTextAvatar 60 60 "margin-auto " "" true %}
+                      </span>
+                    {% endif %}
+                    <div>
+                      <h3 class="fz-step--1 no-margin">{{ quote.name }}</h3>
+                      {% if quote.position %}
+                        <p class="fz-step--2 no-margin">{{ quote.position }}</p>
+                      {% endif %}
+                      {% if quote.links %}
+                        <div class="df">
+                          {% for plink in quote.links %}
+                            <a class="dib fz-step--2 tdu{% unless forloop.first %} margin-left{% endunless %}" href="{{ plink.href }}">{{ plink.name }}</a>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endif %}
+              </header>
+            {% endif %}
+            {% if quote.text %}
+              <div class="padding copy fs-italic fz-step--1">{{ quote.text | prepend: "“" | append: "”" | markdownify }}</div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}
