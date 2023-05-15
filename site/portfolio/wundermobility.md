@@ -5,8 +5,8 @@ description: I've worked on Wunder Mobility website. Wunder Mobility provides so
 thumbnail:
   src: wunder-mobility_qv9mcn
   alt: Screenshot of Wunder Mobility website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.wundermobility.com
 display: true
 date: 2009-01-31
@@ -25,8 +25,8 @@ sections:
     narrow: true
     src: wunder-mobility_qv9mcn
     alt: Screenshot of Wunder Mobility website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Wunder Mobility
     desc: >-
@@ -55,8 +55,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

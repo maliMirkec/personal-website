@@ -1,8 +1,4 @@
 require('page-loaded-in')
-const { Cloudinary } = require('cloudinary-core')
-
-const cl = Cloudinary.new({cloud_name: "starbist"})
-cl.responsive()
 
 // Theme toggle
 const $toggle = document.querySelector('.js-toggle')

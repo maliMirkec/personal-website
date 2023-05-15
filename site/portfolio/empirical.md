@@ -5,8 +5,8 @@ description: I've worked on Empirical Wealth Management website. EWM is a wealth
 thumbnail:
   src: empirical_vrw0y8
   alt: Screenshot of Empirical Wealth Management website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.empirical.net
 display: false
 date: 2010-01-17
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: empirical_vrw0y8
     alt: Screenshot of Empirical Wealth Management website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Empirical Wealth Management
     desc: >-
@@ -56,8 +56,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

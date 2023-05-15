@@ -8,16 +8,16 @@ tags:
 thumbnail:
   src: css-auditors_fozunn
   alt: Screenshot of Code Line Daily website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 display: true
 date: 2005-03-01
 sections:
   - type: hero-alpha
     src: css-auditors_fozunn
     alt: Screenshot of Code Line Daily website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     title: CSS Auditors
     desc: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
     cta:
@@ -32,8 +32,6 @@ sections:
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: projects
     exclude: true
   - type: banner-alpha

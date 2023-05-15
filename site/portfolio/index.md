@@ -14,8 +14,6 @@ sections:
   - type: banner-beta
     banner: testimonials
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
   - type: banner-alpha
     banner: consultation

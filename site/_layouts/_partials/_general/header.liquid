@@ -9,7 +9,7 @@
         {% if header.logo %}
           <li class="df jcc margin-top margin-bottom">
             <a class="padding" href="{{ header.logo.href }}">
-              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="55" height="55">
+              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="55" height="55" fetchpriority="high">
             </a>
           </li>
         {% endif %}

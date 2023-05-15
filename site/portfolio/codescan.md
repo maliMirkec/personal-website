@@ -5,8 +5,8 @@ description: I've worked on CodeScan website. CodeScan is Salesforce platform pr
 thumbnail:
   src: codescan_hydjwq
   alt: Screenshot of CodeScan website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.codescan.io
 display: true
 date: 2010-01-05
@@ -24,8 +24,8 @@ sections:
     narrow: true
     src: codescan_hydjwq
     alt: Screenshot of CodeScan website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: CodeScan
     desc: >-
@@ -52,8 +52,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

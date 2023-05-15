@@ -5,8 +5,8 @@ description: I've worked on Marcijuš Studio website. Marcijuš Studio are weddi
 thumbnail:
   src: marcijus-studio_tsr7lg
   alt: Screenshot of Marcijuš Studio website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //marcijus-studio.com
 display: false
 date: 2010-01-21
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: marcijus-studio_tsr7lg
     alt: Screenshot of Marcijuš Studio website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Marcijuš Studio
     desc: >-
@@ -58,8 +58,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

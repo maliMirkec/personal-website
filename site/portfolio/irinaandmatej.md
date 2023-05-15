@@ -5,8 +5,8 @@ description: I've worked on Irina and Matej website. Irina and Matej are wedding
 thumbnail:
   src: irina-and-matej_rju1et
   alt: Screenshot of Irina and Matej website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //irinaandmatej.com
 display: true
 date: 2010-01-16
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: irina-and-matej_rju1et
     alt: Screenshot of Irina and Matej website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Irina and Matej
     desc: >-
@@ -60,8 +60,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

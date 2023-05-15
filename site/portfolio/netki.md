@@ -5,8 +5,8 @@ description: I've worked on Netki website. Netki is a provider of tools to foste
 thumbnail:
   src: netki_yfvgoe
   alt: Screenshot of Netki website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //netki.com
 display: true
 date: 2010-01-15
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: netki_yfvgoe
     alt: Screenshot of Netki website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Netki
     desc: >-
@@ -54,8 +54,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

@@ -9,16 +9,16 @@ tags:
 thumbnail:
   src: spro_lz9fow
   alt: Screenshot of the Starter Project website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 display: true
 date: 2005-07-01
 sections:
   - type: hero-alpha
     src: spro_lz9fow
     alt: Screenshot of Starter Project website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     title: Starter Project
     desc: Starter Project is a Gulp-based boilterplate of the latest best practices for frontend development.
     cta:
@@ -33,8 +33,6 @@ sections:
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: projects
     exclude: true
   - type: banner-alpha

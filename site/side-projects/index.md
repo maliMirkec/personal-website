@@ -12,8 +12,6 @@ sections:
 
       These are my open-source side projects.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: projects
   - type: banner-alpha
     banner: consultation

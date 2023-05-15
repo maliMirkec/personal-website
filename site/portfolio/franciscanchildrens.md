@@ -5,8 +5,8 @@ description: I've worked on Franciscan Children’s website. Franciscan Children
 thumbnail:
   src: franciscan-children_s_ktoqdt
   alt: Screenshot of Franciscan Children’s website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //franciscanchildrens.org
 display: false
 date: 2010-01-18
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: franciscan-children_s_ktoqdt
     alt: Screenshot of Franciscan Children’s website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Franciscan Children’s
     desc: >-
@@ -54,8 +54,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

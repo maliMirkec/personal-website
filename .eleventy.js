@@ -128,12 +128,33 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
 
-  const cldnry = (src, alt, width, height, classes, classes2, instant) => width ? `<span class="db pic${ classes2 ? ' ' + classes2 : '' }"${ width && height ? ' style="aspect-ratio:' + width + '/' + height + ';max-width:calc(' + width + 'px + .25rem)"' : '' }><img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}></span>` :
-    `<img class="cld-responsive${ classes ? ' ' + classes : '' }" data-src="${'https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/' + src}" alt="${ alt || '' }"${ instant ? '' : ' loading="lazy"'}>`
+  const cldnry = (img, alt, width, height, classes, instant) => {
+    let attr = ''
+
+    if(width) {
+      attr += ` width="${ width }"`
+    }
+
+    if(height) {
+      attr += ` height="${ height }"`
+    }
+
+    if(instant) {
+      attr += ` fetchpriority="high"`
+    } else {
+      attr += ` loading="lazy"`
+    }
+
+    const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+
+    const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
+
+    return `<img class="brad ${classes || ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+  }
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
-  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, classes2, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, classes2, instant)}</a>`)
+  eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, instant)}</a>`)
 
   eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, classes2, instant) => `<span class="db pic${ classes2 ? ' ' + classes2 : '' }"${ width && height ? ' style="aspect-ratio:' + width + '/' + height + ';max-width:calc(' + width + 'px + .25rem)"' : '' }><img class="${ classes ? classes : '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}></span>`)
 

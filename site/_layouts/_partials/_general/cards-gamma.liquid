@@ -15,27 +15,16 @@
           {% endif %}
           {% unless cards3.exclude == 'true' or title contains card3.data.title %}
             {% if card3.data.thumbnail %}
-              <a class="card text-center db{% if cards3.extraPadding %} padding{% endif %}" href="{{ card3.url }}">
-                {% if cards3.width %}
-                  {% assign card3Width = cards3.width %}
-                {% else %}
-                  {% assign card3Width = 501 %}
-                {% endif %}
-                {% if cards3.height %}
-                  {% assign card3Height = cards3.height %}
-                {% else %}
-                  {% assign card3Height = 304 %}
-                {% endif %}
+              <a class="card text-center db padding-top-alpha padding-bottom-alpha" href="{{ card3.url }}">
+                {% assign card3Width = 603 %}
+                {% assign card3Height = 365 %}
                 {% if card3.data.thumbnail %}
                   {% if card3.data.thumbnail.src %}
-                    {% cldnry card3.data.thumbnail.src card3.data.thumbnail.alt card3.data.thumbnail.width card3.data.thumbnail.height "margin-top-alpha" %}
+                    {% cldnry card3.data.thumbnail.src card3.data.thumbnail.alt 600 363 %}
                   {% endif %}
                 {% endif %}
                 {% if card3.data.title %}
-                  <h3 class="fz-step-3 no-margin-top margin-bottom-alpha">{% if card3.data.projectTitle %}{{ card3.data.projectTitle }}{% else %}{{ card3.data.title }}{% endif %}</h3>
-                {% endif %}
-                {% if cards3.cta %}
-                  <span class="button button--outline button--small">{{ cards3.cta.title }}</span>
+                  <h3 class="fz-step-3 no-margin">{% if card3.data.projectTitle %}{{ card3.data.projectTitle }}{% else %}{{ card3.data.title }}{% endif %}</h3>
                 {% endif %}
               </a>
             {% endif %}
@@ -47,14 +36,14 @@
         <div class="card card--flex text-center padding">
           <div class="margin-auto">
             <div class="copy">{{ cards3.desc | markdownify }}</div>
-            {% if cards3.cta2 %}
+            {% if cards3.cta %}
               <div class="margin-top">
-                <a class="button" href="{{ cards3.cta2.href }}">{{ cards3.cta2.title }}</a>
+                <a class="button" href="{{ cards3.cta.href }}">{{ cards3.cta.title }}</a>
               </div>
             {% endif %}
-            {% if cards3.cta3 %}
+            {% if cards3.cta2 %}
               <div class="margin-top">
-                <a class="tdu" href="{{ cards3.cta3.href }}">{{ cards3.cta3.title }}</a>
+                <a class="tdu" href="{{ cards3.cta2.href }}">{{ cards3.cta2.title }}</a>
               </div>
             {% endif %}
           </div>

@@ -9,8 +9,8 @@ tags:
 thumbnail:
   src: dev-cards_a5dbyo
   alt: Screenshot of the Dev Cards 360 project.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 display: true
 devcards: true
 date: 2005-09-01

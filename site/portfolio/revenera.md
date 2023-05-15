@@ -5,8 +5,8 @@ description: I've worked on Revenera website. Revenera helps you as a software d
 thumbnail:
   src: revenera_nv7gag
   alt: Screenshot of Revenera website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.revenera.com
 display: true
 date: 2010-01-08
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: revenera_nv7gag
     alt: Screenshot of Revenera website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Revenera
     desc: >-
@@ -52,8 +52,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

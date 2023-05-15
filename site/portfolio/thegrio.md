@@ -5,8 +5,8 @@ description: I've worked on TheGrio website. TheGrio is the first video-centric 
 thumbnail:
   src: the-grio_mauddb
   alt: Screenshot of TheGrio website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //thegrio.com
 display: true
 date: 2010-01-19
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: the-grio_mauddb
     alt: Screenshot of TheGrio website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: TheGrio
     desc: >-
@@ -56,8 +56,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

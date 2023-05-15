@@ -1,7 +1,9 @@
 {% if newsletter %}
   <header class="text-center padding">
     {% if newsletter.logo1 %}
-      <a class="dib margin-top margin-bottom hover-beta" href="{{ newsletter.logo1.href }}"><img class="margin-auto" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="100" height="100"></a>
+      <a class="dib margin-top margin-bottom hover-beta" href="{{ newsletter.logo1.href }}">
+        <img class="margin-auto" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="100" height="100" fetchpriority="high">
+      </a>
     {% endif %}
     {% if newsletter.menu %}
       <nav class="margin-bottom" aria-label="Primary">

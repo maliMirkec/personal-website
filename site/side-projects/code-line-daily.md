@@ -9,16 +9,16 @@ tags:
 thumbnail:
   src: cld_eweklc
   alt: Screenshot of the Code Line Daily website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 display: true
 date: 2005-04-01
 sections:
   - type: hero-alpha
     src: cld_eweklc
     alt: Screenshot of Code Line Daily website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     title: Code Line Daily
     desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
     cta:
@@ -33,8 +33,6 @@ sections:
     desc: >-
       Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: projects
     exclude: true
   - type: banner-alpha

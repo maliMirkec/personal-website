@@ -38,7 +38,7 @@ const perf = () => {
       const pageEnd = performance.mark('pageEnd')
       const loadTime = pageEnd.startTime / 1000
 
-      $perf.innerHTML += `Page loaded in ${loadTime}s.</p>`
+      $perf.innerHTML += `Page loaded in ${loadTime}s.`
     })
   }
 }

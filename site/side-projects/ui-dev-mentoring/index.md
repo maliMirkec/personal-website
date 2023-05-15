@@ -7,8 +7,8 @@ description: Learn about the UI Development Mentoring project and how it could h
 thumbnail:
   src: mentoring_vlkamb
   alt: Screenshot of the “UI Dev Mentoring Program” home page.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 navTitle: UI Dev
 type: mentor-index
 tags:

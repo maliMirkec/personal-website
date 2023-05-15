@@ -10,8 +10,8 @@ tags:
 thumbnail:
   src: newsletter_cp5kc0
   alt: Screenshot of the UI Dev Newsletter archive page.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 date: 2000-04-01
 display: true
 sections:
@@ -24,8 +24,6 @@ sections:
       title: Subscribe
       animate: true
   - type: cards-alpha
-    # cta:
-    #   title: Go to project
     filter: my-reads
     # noDate: true
 ---

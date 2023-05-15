@@ -5,8 +5,8 @@ description: I've worked on Contiamo website. Contiamo is a company that uses ML
 thumbnail:
   src: contiamo_skce0n
   alt: Screenshot of Contiamo website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.contiamo.com
 display: true
 date: 2010-01-12
@@ -23,8 +23,8 @@ sections:
     narrow: true
     src: contiamo_skce0n
     alt: Screenshot of Contiamo website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Contiamo
     desc: >-
@@ -57,8 +57,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

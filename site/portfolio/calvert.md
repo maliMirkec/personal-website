@@ -5,8 +5,8 @@ description: I've worked on Calvert website. Calvert is leader in responsible in
 thumbnail:
   src: calvert_uv2mxh
   alt: Screenshot of Calvert website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.calvert.com/invest-with-purpose.php
 display: true
 date: 2010-01-09
@@ -21,8 +21,8 @@ sections:
     narrow: true
     src: calvert_uv2mxh
     alt: Screenshot of Calvert website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Calvert
     desc: >-
@@ -51,8 +51,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

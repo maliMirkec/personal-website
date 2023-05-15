@@ -19,12 +19,11 @@ sections:
     desc:
     # cta:
     #   title: Check favorites
-    cta2:
+    cta:
       href: /
       title: Go to the homepage
     filter: favorites
     limit: 10
-    extraPadding: true
   - type: banner-alpha
     banner: consultation
     animate: true

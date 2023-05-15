@@ -10,8 +10,6 @@ sections:
     desc: >-
       Here is the collection of all slides on my site.
   - type: cards-alpha
-    # cta:
-    #   title: Go to project
     filter: my-slides
     cta:
       title: View slides

@@ -5,8 +5,8 @@ description: I've worked on Bozzuto website. Bozzuto is a generationally-owned, 
 thumbnail:
   src: bozzuto_nzfu62
   alt: Screenshot of Bozzuto website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.bozzuto.com
 display: true
 date: 2010-01-06
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: bozzuto_nzfu62
     alt: Screenshot of Bozzuto website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Bozzuto
     desc: >-
@@ -52,8 +52,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

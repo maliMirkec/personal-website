@@ -5,8 +5,8 @@ description: I've worked on DDL Pop-up website. Pop-up is a series of events tha
 thumbnail:
   src: domino-datalab-popup_iv7ya6
   alt: Screenshot of Domino Data Lab Pop-up website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //popup.dominodatalab.com
 display: true
 date: 2010-01-03
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: domino-datalab-popup_iv7ya6
     alt: Screenshot of Domino Data Lab Pop-up website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Domino Data Lab Pop-up
     desc: >-
@@ -52,8 +52,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

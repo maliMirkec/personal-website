@@ -7,8 +7,8 @@ description: During every day of the Advent of UI components, I am building a ne
 thumbnail:
   src: advent_usqyhu
   alt: Screenshot of the “Advent of UI components” home page.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 type: articles
 tags:
   - projects

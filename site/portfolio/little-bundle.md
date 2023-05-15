@@ -5,8 +5,8 @@ description: I've worked on Little Bundle webshop. Little Bundle is a company wi
 thumbnail:
   src: little-bundle_bg5oh9
   alt: Screenshot of Little Bundle website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //littlebundle.com
 display: true
 date: 2010-01-10
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: little-bundle_bg5oh9
     alt: Screenshot of Little Bundle website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Little Bundle
     desc: >-
@@ -59,8 +59,6 @@ sections2:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

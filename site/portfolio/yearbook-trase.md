@@ -5,8 +5,8 @@ description: I've worked on The Trase Yearbook website. The Trase Yearbook prese
 thumbnail:
   src: yearbook-trase_sqnp0z
   alt: Screenshot of Trase Yearbook 2018 website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //yearbook2018.trase.earth
 display: true
 date: 2010-01-11
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: yearbook-trase_sqnp0z
     alt: Screenshot of Trase Yearbook 2018 website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Trase Yearbook 2018
     desc: >-
@@ -52,8 +52,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

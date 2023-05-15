@@ -5,8 +5,8 @@ description: I've worked on Han Han Xue website. Han Han Xue is a Designer and F
 thumbnail:
   src: han-han-xue_oo7wab
   alt: Screenshot of Han Han Xue website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.hanhanxue.com
 display: true
 date: 2010-01-14
@@ -24,8 +24,8 @@ sections:
     narrow: true
     src: han-han-xue_oo7wab
     alt: Screenshot of Han Han Xue website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Han Han Xue
     desc: >-
@@ -64,8 +64,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

@@ -5,8 +5,8 @@ description: I've worked on Atika Interijeri website. Atika Interijeri is a carp
 thumbnail:
   src: atika-interijeri_s67jlg
   alt: Screenshot of Atika Interijeri website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //atika-interijeri.hr
 display: false
 date: 2010-01-20
@@ -22,8 +22,8 @@ sections:
     narrow: true
     src: atika-interijeri_s67jlg
     alt: Screenshot of Atika Interijeri website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Atika Interijeri
     desc: >-
@@ -56,8 +56,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

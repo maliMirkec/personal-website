@@ -11,6 +11,22 @@
   padding: var(--space);
 }
 
+.padding-top-alpha {
+  padding-top: calc(var(--space) * 2);
+
+  @include mq($from: bp1) {
+    padding-top: calc(var(--space) * 3);
+  }
+}
+
+.padding-bottom-alpha {
+  padding-bottom: calc(var(--space) * 2);
+
+  @include mq($from: bp1) {
+    padding-bottom: calc(var(--space) * 3);
+  }
+}
+
 .margin {
   margin: var(--space);
 }

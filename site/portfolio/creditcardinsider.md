@@ -5,8 +5,8 @@ description: I've worked on Credit Card Insider website. Credit Card Insider is 
 thumbnail:
   src: credit-card-insider_qixfic
   alt: Screenshot of CCredit Card Insider website.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 link: //www.creditcardinsider.com
 display: true
 date: 2010-01-01
@@ -23,8 +23,8 @@ sections:
     narrow: true
     src: credit-card-insider_qixfic
     alt: Screenshot of CCredit Card Insider website.
-    width: 844
-    height: 511
+    width: 759
+    height: 459
     left: true
     title: Credit Card Insider
     desc: >-
@@ -59,8 +59,6 @@ sections:
     desc: >-
       Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
-    # cta:
-    #   title: Go to project
     filter: portfolio
     exclude: true
     limit: 6

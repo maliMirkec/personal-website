@@ -21,7 +21,7 @@ I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome
 
 _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) and [Wes Bos’s setup](https://wesbos.com/uses/) pages. My setup is also featured on [the /uses site](http://uses.tech/)._
 
-{% cldnry "Office%202023" "My office 2023." 840 630 %}
+{% cldnry "Office%202023" "My office 2023." 840 630 "" true %}
 
 ## Hardware
 

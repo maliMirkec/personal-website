@@ -7,8 +7,8 @@ description: “Invalid CSS” is a project that features CSS declarations that 
 thumbnail:
   src: invalid-css_bplltq
   alt: Screenshot of the Invalid CSS home page.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 type: articles
 tags:
   - projects

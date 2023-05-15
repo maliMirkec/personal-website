@@ -10,8 +10,8 @@ tags:
 thumbnail:
   src: hugo_fx5fjy
   alt: Screenshot of the “Making a website with Hugo” home page.
-  width: 844
-  height: 511
+  width: 759
+  height: 459
 display: true
 date: 2005-08-01
 ---
