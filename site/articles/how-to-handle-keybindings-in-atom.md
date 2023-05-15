@@ -41,7 +41,7 @@ We need to fix this. First step is to find out which command is currently used. 
 
 Go on and search `ctrl-up` to see all related commands.
 
-{% cldnry "keybindings-settings-1_lq79lw" "Keybindings settings." 840 243 %}
+{% cldnry "keybindings-settings-1_lq79lw" "Keybindings settings." 759 220 %}
 
 Let say we couldn't determine which command should we remove or update. What to do then?
 
@@ -49,7 +49,7 @@ In this case you should use [keybinding-resolver](https://atom.io/packages/keybi
 
 Now try to press `ctrl-up` and see what happens. **keybinding-resolver** shows us which command is used in what order. In our case, we could see that `editor:move-line-up` command is the first in line. We'll should remove it.
 
-{% cldnry "keybindings-resolver_xuy5tk" "Keybindings resolver in action." 840 164 %}
+{% cldnry "keybindings-resolver_xuy5tk" "Keybindings resolver in action." 759 148 %}
 
 ## How to remove keybindings?
 
@@ -57,17 +57,17 @@ When multiple commands for the same keybinding exist, we need to remove ones tha
 
 Paste the copied keybinding command. You should see the command selector and keybinding command.
 
-{% cldnry "keybindings-keymap-copy_mqcnuz" "Keybindings keymap copy command." 840 144 %}
+{% cldnry "keybindings-keymap-copy_mqcnuz" "Keybindings keymap copy command." 759 130 %}
 
 To remove the keybinding, use "unset!" command.
 
-{% cldnry "keybindings-keymap-unset_xfhlkt" "Keybindings keymap unset command." 840 144 %}
+{% cldnry "keybindings-keymap-unset_xfhlkt" "Keybindings keymap unset command." 759 130 %}
 
 ## How to use custom keybindings?
 
 So far we've managed to remove keybinding. To replace it, we need to copy the emmet command in Keybindings settings. Copy that command and replace current command, like this:
 
-{% cldnry "keybindings-keymap-replace_dmqrfn" "Keybindings keymap replace command." 840 144 %}
+{% cldnry "keybindings-keymap-replace_dmqrfn" "Keybindings keymap replace command." 759 130 %}
 
 Now we could use `ctrl-up` to increment number by 1.
 

@@ -37,7 +37,7 @@ My focus is always on delivering the best experience for users on every device. 
 
 When I am not coding, I like to write new articles on my blog.
 
-{% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." 840 560 %}
+{% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." 759 506 %}
 
 Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw](https://unsplash.com/photos/iM6Gm-cdBuw)
 
@@ -63,7 +63,7 @@ Since, I have invested a lot of time to post meaningful content on my site by pu
 
 This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless—clients began to contact me directly!
 
-{% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." 840 630 %}
+{% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." 759 569 %}
 
 Image credit: [https://unsplash.com/photos/qFH7-yKoxik](https://unsplash.com/photos/qFH7-yKoxik)
 
@@ -85,7 +85,7 @@ There are other tools that I use on my daily basis that are related to my progra
 
 I made a list of my current hardware setup and my preferred software. You can find it here: [https://www.silvestar.codes/uses/](/uses/).
 
-{% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." 840 630 %}
+{% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." 759 569 %}
 
 ## Your most exciting/ hilarious experience since you started working remotely.
 
@@ -97,7 +97,7 @@ If I had to give only one piece of advice to a new remote worker, it would be to
 
 Related to this advice, I would also tell a new remote worker to start finding new gigs on time. You don’t have to wait for your current gig to be finished to start looking for a new one. This could help you avoid significant periods without a job.
 
-{% cldnry "michael-longmire-lhltMGdohc8-unsplash_nyrjzz" "Spilled piggy bank." 840 605 %}
+{% cldnry "michael-longmire-lhltMGdohc8-unsplash_nyrjzz" "Spilled piggy bank." 759 605 %}
 
 Image credit: [https://unsplash.com/photos/lhltMGdohc8](https://unsplash.com/photos/lhltMGdohc8)
 

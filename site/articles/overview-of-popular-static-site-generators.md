@@ -29,7 +29,7 @@ There are many obvious benefits to serving a static HTML file, such as easier ca
 
 <!-- more -->
 
-{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." 840 385 %}
+{% cldnry "Static_site_generators_illustrated_echczp" "Static site generators illustrated." 759 348 %}
 
 However, the purpose of this post is not to dive in and discuss the intricacies of their mechanism, but to compare the feature set each framework offers and highlight the unique aspects and features of every framework.
 
@@ -112,7 +112,7 @@ The principle is nearly identical and quite straightforward—first export all c
 ## Content
 Static page generators use [Markdown] for the main content. Markdown is powerful and one can learn it quickly. Writing content in Markdown feels natural because of its simple syntax. The document looks clean and organized.
 
-{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." 840 320 %}
+{% cldnry "Content_in_Static_page_generators_cnkviv" "Content in Static page generators." 759 289 %}
 
 You should place articles in a folder specified in the global configuration file. Article names should follow convention specified by the generator.
 
@@ -348,7 +348,7 @@ Hexo has different syntax, but the result is the same.
 
 Asset management is handled differently across static page generators. Jekyll compiles assets files wherever they are placed. Middleman handles only assets stored in source folder. The default location for assets in Hugo is assets directory. Hexo suggests placing assets in global sourcedirectory.
 
-{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." 840 384 %}
+{% cldnry "Assets_of_Static_page_generator_i43ch9" "Assets of Static page generator." 759 347 %}
 
 ## SASS
 

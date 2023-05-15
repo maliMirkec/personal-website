@@ -43,7 +43,7 @@ In the second demo, I wanted to see how the text works with thin lines.
 
 The lines work with paragraphs or smaller text, but the thin strikethrough line doesn't work very well with large text as the strikethrough line is hard to detect.
 
-{% cldnry "text_decoration_line-through_dotted_ku3yy3" "Showing the from-font value on larger text. The text is black and the line through the text is thin and barely noticeable." 840 95 %}
+{% cldnry "text_decoration_line-through_dotted_ku3yy3" "Showing the from-font value on larger text. The text is black and the line through the text is thin and barely noticeable." 759 86 %}
 
 I also learned that you cannot set the line thickness below `1px`. In the demo, the line thickness is set to `0px`, but the browser renders a `1px` line anyway.
 

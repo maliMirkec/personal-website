@@ -16,7 +16,7 @@ sections2:
 
 A while ago, I stumbled across a blog post by [Tim Kadlec](https://timkadlec.com/). Although the blog post was intriguing, something else caught my attention. In Tim’s footer, there’s a text saying how much time did it take to load the page. Naturally, I wanted to incorporate this feature into my website, so I “borrowed” Tim’s code _(Mr. Kadlec is aware of this, by the way)_. However, while adjusting the code for my site, I noticed numerous deprecation warnings popping up. Needless to say, it bothered me so much that I had to find a way to eliminate these warnings.
 
-{% cldnry "vs-code-timing-is-deprecated_z5v20h" "Screenshot of VS Code showing deprecation warning for the performance.timing." 840 391 %}
+{% cldnry "vs-code-timing-is-deprecated_z5v20h" "Screenshot of VS Code showing deprecation warning for the performance.timing." 759 353 %}
 
 ## The new way
 
@@ -24,7 +24,7 @@ MDN recommends using the [Performance API](https://developer.mozilla.org/en-US/d
 
 Check out the GIF below, demonstrating how the “old” and “new” versions produce almost identical outcomes.
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1680258036/page-load_iknj8x.gif" "Page reloading multiple times showing different results for the “old” and “new” way of calculating page load time." 840 420 %}
+{% gif "https://res.cloudinary.com/starbist/image/upload/v1680258036/page-load_iknj8x.gif" "Page reloading multiple times showing different results for the “old” and “new” way of calculating page load time." 759 379 %}
 
 Here’s the final code for getting the page load time:
 

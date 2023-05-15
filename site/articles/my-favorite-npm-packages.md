@@ -33,7 +33,7 @@ I have been using [deviceframe](https://www.npmjs.com/package/deviceframe) packa
 
 [Killify](https://www.npmjs.com/package/killify) is another package that I developed. I was annoyed by the hanging processes in my terminal, so I created a package that helps kill every hanging process.
 
-{% embed '<iframe width="792" height="476" src="https://www.youtube-nocookie.com/embed/8gjzPBxCd_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>' '792' '476' %}
+{% embed '<iframe width="759" height="476" src="https://www.youtube-nocookie.com/embed/8gjzPBxCd_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>' '759' '476' %}
 
 ## Netlify CLI
 

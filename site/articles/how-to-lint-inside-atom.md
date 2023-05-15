@@ -56,7 +56,7 @@ Basic **linter** is installed and configured, now we need actual linter plugins 
 
 One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https://atom.io/packages/linter-jshint)**. It is an interface for [JSHint](http://jshint.com/), a tool that helps to detect errors and potential problems in your `JavaScript` code. Installation could be done via Atom package manager. There are few configuration options. The most important is to provide of executable `jshint` node script. Here are my settings:
 
-{% cldnry "linter-jshint-settings_i3w9mm" "JSHint settings." 840 353 %}
+{% cldnry "linter-jshint-settings_i3w9mm" "JSHint settings." 759 319 %}
 
 ### CSS linter
 
@@ -68,11 +68,11 @@ One of the most popular `JavaScript` linters for Atom is **[linter-jshint](https
 
 To see **linter-jshint** in action, open any `JavaScript` file and see if any errors exists. You could see errors in different places, depending on your main **linter** package configuration.
 
-{% cldnry "linter-jshint_nkkmny" "JSHint in action." 840 472 %}
+{% cldnry "linter-jshint_nkkmny" "JSHint in action." 759 426 %}
 
 You could see `CSS` lint errors by opening and `CSS` file.
 
-{% cldnry "linter-stylelint_uzvqwj" "Stylelint in action." 840 473 %}
+{% cldnry "linter-stylelint_uzvqwj" "Stylelint in action." 759 427 %}
 
 In the examples above you could see that errors are displayed on 4 different places:
 

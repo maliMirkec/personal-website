@@ -54,7 +54,7 @@ Read more about the idea and possible problems that Starter Project package it i
 
 SPRO is conceived a bit differently. Instead of manually tweaking the configuration file, I have built a command that would start a questionary about the project structure840 .
 
-{% cldnry "spro-questions_dcflmw" "SPRO questions in terminal." 840 436 %}
+{% cldnry "spro-questions_dcflmw" "SPRO questions in terminal." 759 394 %}
 
 When you answer all questions, SPRO will store information to the `.starter-project.json` file. It would also prepare a command to install all dependencies based on your answers.
 
@@ -121,7 +121,7 @@ You could edit every individual configuration file manually. However, the main c
 
 I have created [a course] where you could learn more about SPRO.
 
-{% cldnrylink "https://skl.sh/2EcUlRt" "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" 840 525 %}
+{% cldnrylink "https://skl.sh/2EcUlRt" "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" 759 474 %}
 
 The course is free, but you need to have a [Skillshare] account to view all lessons. Be sure to complete the class project and to rate the course. 🆓
 

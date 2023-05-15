@@ -27,7 +27,7 @@ ifconfig | grep inet
 
 You should see something like this:
 
-{% cldnry "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." 840 428 %}
+{% cldnry "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 387 %}
 
 On Windows, run the following command:
 
@@ -37,7 +37,7 @@ ipconfig
 
 You should see something like this:
 
-{% cldnry "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." 840 547 %}
+{% cldnry "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 494 %}
 
 Now that you have the address, you can test it on any other device but don’t forget to add the port that your website or web app is running.
 
@@ -61,7 +61,7 @@ Make sure to check the [ngrok pricing](https://ngrok.com/pricing). A free plan i
 
 [cloudflared](https://www.npmjs.com/package/cloudflared) is the most recent addition to [my favorite npm packages](/articles/my-favorite-npm-packages/). It is a Node.js version of the Cloudflare Tunnel client. Installation and usage are pretty straightforward, as you can see in [Wes Bos’ tweet](https://twitter.com/wesbos/status/1634310926219333642).
 
-{% cldnrylink "https://twitter.com/wesbos/status/1634310926219333642" "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." 840 538 %}
+{% cldnrylink "https://twitter.com/wesbos/status/1634310926219333642" "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." 759 486 %}
 
 {% note %}
 cloudflared is free for everyone at the time of writing.
@@ -71,7 +71,7 @@ cloudflared is free for everyone at the time of writing.
 
 One other app that I occasionally use for WordPress is [Local by Flywheel](https://localwp.com/). This app comes with [Live Links](https://localwp.com/live-links/), which enables you to “test your site with provisioned site tunnels from your Local account.”
 
-{% cldnry "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." 840 599 %}
+{% cldnry "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." 759 541 %}
 
 {% note "Important" %}
 The Local app works only with WordPress.
@@ -81,7 +81,7 @@ The Local app works only with WordPress.
 
 On rare occasions, when I need to test on a “real” server, I go to Netlify and use drag’n’drop to put my site online. I have a live site that I can test in a matter of seconds.
 
-{% embed '<iframe width="844" height="475" src="https://www.youtube-nocookie.com/embed/etZ9HSUoTPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>' 844 475 %}
+{% embed '<iframe width="759" height="475" src="https://www.youtube-nocookie.com/embed/etZ9HSUoTPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>' 759 475 %}
 
 {% note %}
 Netlify doesn’t expose localhost, but I wanted to show you this exciting option.

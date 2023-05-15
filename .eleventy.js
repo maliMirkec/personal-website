@@ -126,7 +126,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('caniuse', (feature, periods) => `<p class="ciu_embed" data-feature="${ feature }" data-periods="${ periods }"><a href="http://caniuse.com/#feat=${ feature }">Can I Use ${ feature }?</a> Data on support for the ${ feature } feature across the major browsers from caniuse.com.</p><script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>`)
 
-  eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="--padding-bottom: calc(${height}/${width}*100%)">${ code }</div>`)
+  eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="aspect-ratio:${width}/${height}">${ code }</div>`)
 
   const cldnry = (img, alt, width, height, classes, instant) => {
     let attr = ''
@@ -156,7 +156,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, instant)}</a>`)
 
-  eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, classes2, instant) => `<span class="db pic${ classes2 ? ' ' + classes2 : '' }"${ width && height ? ' style="aspect-ratio:' + width + '/' + height + ';max-width:calc(' + width + 'px + .25rem)"' : '' }><img class="${ classes ? classes : '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}></span>`)
+  eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, instant) => `<img class="brad ${ classes || '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}>`)
 
   eleventyConfig.addPairedLiquidShortcode('note', (note, title) => {
     let dataTitle = title ? ` data-title="${title}"` : ''

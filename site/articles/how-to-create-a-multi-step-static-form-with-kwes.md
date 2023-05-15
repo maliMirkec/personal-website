@@ -102,7 +102,7 @@ Of course, that’s not all. Kwes is packed with other impressive features. Thes
 
 ### Custom headers
 
-{% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." 840 414 %}
+{% cldnry "Multi_step_form_example_fykjm0" "A multi-step form example." 759 374 %}
 
 Kwes provides adding custom headers to each step—a title of the current step. There are two types of headers: simple and complex.
 

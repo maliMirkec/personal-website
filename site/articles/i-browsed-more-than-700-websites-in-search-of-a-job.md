@@ -29,20 +29,20 @@ So, what happens when there is no Careers link on the homepage? Well, then you p
 
 Back to the Careers link. Did you ever see that little thing, that label, saying “We’re hiring” (or something that simple) next to the Careers link? That’s my favorite. Especially if it is accurate and the company actually has open job positions.
 
-{% cldnry "Screen_Shot_2023-01-26_at_12.15.07_PM_fctjuq" "Screenshot of a website footer with “We're hiring” label next to the Careers link." 840 302 %}
+{% cldnry "Screen_Shot_2023-01-26_at_12.15.07_PM_fctjuq" "Screenshot of a website footer with “We're hiring” label next to the Careers link." 759 273 %}
 
 Now I’m on the Careers page. The first thing I want to see is open positions. Common practice are you see a button saying ”See open positions” or something similar at the top of the page, and when you click the button, one of the two things usually happens:
 
 - the page gets scrolled to the part where you see open positions, or
 - another page is opened in a new tab (usually a website specialized for hiring with a list of positions).
 
-{% cldnry "Screen_Shot_2023-01-26_at_12.13.55_PM_gtomug" "Screenshot of a website button saying “View job openings”." 840 328 %}
+{% cldnry "Screen_Shot_2023-01-26_at_12.13.55_PM_gtomug" "Screenshot of a website button saying “View job openings”." 759 296 %}
 
 I prefer the first option. I don’t even mind if you embed the list of positions on the Careers page. Just show me the list as soon as possible. And another option is fine. It is acceptable to me to have another browser tab. I am not that nitpicky.
 
 Finally, you should see some open positions. But our world is far from ideal, so you might not see the links. Instead, you may find a statement that says there are no positions at the moment. That is all good only if that little label saying “We’re hiring” is not there. If it is, you just made me say some naughty words.
 
-{% cldnry "Screen_Shot_2023-01-26_at_12.22.24_PM_ifzkwf" "Screenshot of a website with “No open roles” statement." 840 286 %}
+{% cldnry "Screen_Shot_2023-01-26_at_12.22.24_PM_ifzkwf" "Screenshot of a website with “No open roles” statement." 759 258 %}
 
 Sometimes instead of a statement, there is a form to get either notified about or apply for future roles. I don’t know if filling out the last one works, but I hope it does. Also, it would be great to see the list of all roles the company might need in the future. Or at least list some expired or filled positions just to make it more clear what type of positions are in need with this company.
 

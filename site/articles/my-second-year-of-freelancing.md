@@ -51,7 +51,7 @@ I have been working on developing, maintaining, and optimizing WordPress themes 
 
 I could say that building static sites, pages, and styleguides are the main requirements for my services.
 
-{% cldnry "i_do_css_html_for_a_living2_n3llxk" "I do CSS and HTML for a living sticker." 840 555 %}
+{% cldnry "i_do_css_html_for_a_living2_n3llxk" "I do CSS and HTML for a living sticker." 759 501 %}
 
 I would even go that far and say that my primary skills are HTML and CSS, just like my favorite sticker says.
 
@@ -65,7 +65,7 @@ During the last year, I have put a lot of effort into my website. I have rebrand
 
 Away from the computer, I like to do stuff around my house. My favorite is carpentry.
 
-{% cldnry "gazebo_rqxkif" "Playhouse in my backyard." 840 672 %}
+{% cldnry "gazebo_rqxkif" "Playhouse in my backyard." 759 607 %}
 
 This year I have built a playhouse for my daughter. It is something that I enjoy doing. Getting away from code and getting my hand dirty from time to time makes me appreciate my everyday job even more.
 

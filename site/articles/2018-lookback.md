@@ -87,7 +87,7 @@ To have a broader audience for my blog, I reshare every post from my blog on [de
 
 I have reached almost 2,5k followers on the dev.to platform. I have more than 700 followers on Twitter. I have a modest reputation on Reddit, Hacker News, and Lobsters.
 
-{% cldnry "devto-stats_zj90eq" "dev.to stats." 840 191 %}
+{% cldnry "devto-stats_zj90eq" "dev.to stats." 759 173 %}
 
 Around 35,000 readers visited my blog with almost 50,000 pageviews. On dev.to, I have more than 17,000 post views, and nearly 700 reactions. On medium.com, I had around 10k post views, and on codementor.io, I had around 4,5k.
 

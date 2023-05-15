@@ -158,6 +158,7 @@
   }
 
   iframe {
+    display: block;
     background-color: var(--color-lightish);
     border-radius: var(--border-radius-alpha);
     max-width: 100%;
@@ -192,23 +193,10 @@
 }
 
 .embed {
-  max-height: 0;
-  padding-bottom: var(--padding-bottom);
-  position: relative;
   overflow: hidden;
   margin: 1em 0;
-  border: .125rem solid var(--color-alpha-light);
+  box-shadow: 0 0 0 .125rem var(--color-alpha-light);
   border-radius: var(--border-radius-alpha);
-
-  > * {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 }
 
 .copy--invalid {

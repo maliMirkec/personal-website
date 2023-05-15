@@ -133,11 +133,11 @@ At the moment, there are 170 subscribers, but I never invested in marketing. I t
 
 What I did found are some lists where I included my newsletter, like [this Github repo](https://github.com/markodenic/web-development-resources#newsletters). It also helps when people share the newsletter, mainly on Twitter. [Manuel Matuzović](https://twitter.com/mmatuzo) and [Marko Denic](https://twitter.com/denicmarko) did it, and I am very thankful they did.
 
-{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." 840 536 %}
+{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." 759 484 %}
 
 If you like the UI Dev Newsletter, you could [share it](#share-the-article), too. I would appreciate it greatly.
 
-{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." 840 461 %}
+{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." 759 416 %}
 
 ## Conclusion
 

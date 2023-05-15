@@ -20,7 +20,7 @@ Getting the perfect score from Google PageSpeed Insights could be a tedious task
 
 <!-- more -->
 
-{% cldnry "Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx" "Google Analytics browser caching issue." 840 259 %}
+{% cldnry "Google_PageSpeed_Insights_-_Leverage_browser_caching_bs5wcx" "Google Analytics browser caching issue." 759 234 %}
 
 ## The solution
 The answer is pretty simple—use [CloudFlare Google Analytics app](https://www.cloudflare.com/apps/google-analytics). As simple as that! For those of you who are unfamiliar with CloudFlare, I'll to guide you how to do this.
