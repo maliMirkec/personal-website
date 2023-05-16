@@ -46,6 +46,7 @@
   outline: .3rem solid transparent;
   transition: all var(--duration2) ease-in-out;
   position: relative;
+  will-change: translate, border-color, outline, outline-offset;
 
   &:not(.df):not(.db) {
     display: inline-flex;
