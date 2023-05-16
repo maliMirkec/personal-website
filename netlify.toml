@@ -90,7 +90,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
   # to audit a specific absolute url
   [[plugins.inputs.audits]]
-    url = "https://staging.silvestar.codes"
+    url = "https://www.silvestar.codes"
     output_path = "docs/lighthouse.html"
 
     # you can specify thresholds per audit
