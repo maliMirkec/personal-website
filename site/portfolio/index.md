@@ -15,6 +15,8 @@ sections:
     banner: testimonials
   - type: cards-gamma
     filter: portfolio
+    instant: 3
+    h2: true
   - type: banner-alpha
     banner: consultation
     animate: true

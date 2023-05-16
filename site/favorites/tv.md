@@ -20,6 +20,7 @@ sections:
     footnote: >-
       [See my other favorites](/favorites/).
   - type: cards-epsilon
+    instant: 3
     list:
       - title: Curb Your Enthusiasm
         href: https://www.imdb.com/title/tt0264235/

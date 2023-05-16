@@ -139,20 +139,56 @@ module.exports = (eleventyConfig) => {
       attr += ` height="${ height }"`
     }
 
+    const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+
+    const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
+
+    return `<img class="brad${classes ? ' ' + classes : ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+  }
+
+  eleventyConfig.addLiquidShortcode('cldnry', cldnry)
+
+  const cldnry2 = (img, alt, width, height, sizes, instant) => {
+    let attr = ''
+
+    if(width) {
+      attr += ` width="${ width }"`
+    }
+
+    if(height) {
+      attr += ` height="${ height }"`
+    }
+
     if(instant) {
       attr += ` fetchpriority="high"`
     } else {
       attr += ` loading="lazy"`
     }
 
+    let srcset = ''
+    let srcsetArray = []
+    let szs = []
+    let sizesArray = []
+
+    if(sizes) {
+      sizes.split(';').forEach(size => {
+        const s = size.split(':')
+
+        srcsetArray.push(`${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + s[0] + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} ${s[0]}w`)
+
+        sizesArray.push(s[2] ? `(min-width: ${s[2]}) ${s[1]}` : s[1])
+      })
+
+      srcset = srcsetArray.join(', ')
+      szs = sizesArray.reverse().join(', ')
+    }
+
     const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
-
-    return `<img class="brad ${classes || ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+    return `<img class="brad" srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
   }
 
-  eleventyConfig.addLiquidShortcode('cldnry', cldnry)
+  eleventyConfig.addLiquidShortcode('cldnry2', cldnry2)
 
   eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, instant)}</a>`)
 

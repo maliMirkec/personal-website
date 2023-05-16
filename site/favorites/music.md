@@ -19,6 +19,7 @@ sections:
     footnote: >-
       [Explore my Last.fm profile](https://www.last.fm/user/maliMirkec/library/artists?date_preset=ALL) or [check my other favorites](/favorites/).
   - type: cards-epsilon
+    instant: 3
     list:
       - title: Björk
         href: https://www.last.fm/music/Bj%C3%B6rk

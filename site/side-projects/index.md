@@ -13,6 +13,8 @@ sections:
       These are my open-source side projects.
   - type: cards-gamma
     filter: projects
+    instant: 3
+    h2: true
   - type: banner-alpha
     banner: consultation
     animate: true

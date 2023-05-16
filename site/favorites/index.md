@@ -23,7 +23,8 @@ sections:
       href: /
       title: Go to the homepage
     filter: favorites
-    limit: 10
+    instant: 3
+    h2: true
   - type: banner-alpha
     banner: consultation
     animate: true

@@ -39,14 +39,18 @@
           {% if hero1.width %}
             {% assign hwidth = hero1.width %}
           {% else %}
-            {% assign hwidth = "300" %}
+            {% assign hwidth = 300 %}
           {% endif %}
           {% if hero1.height %}
             {% assign hheight = hero1.height %}
           {% else %}
-            {% assign hheight = "300" %}
+            {% assign hheight = 300 %}
           {% endif %}
-          {% cldnry hero1.src hero1.alt hwidth hheight "" true %}
+          {% if hwidth < 300 %}
+            {% cldnry hero1.src hero1.alt hwidth hheight "" true %}
+          {% else %}
+            {% cldnry2 hero1.src hero1.alt hwidth hheight '400:100vw;600:75vw:62.5em;760:50vw:100em' true %}
+          {% endif %}
         </div>
       {% endif %}
       {% if hero1.code %}

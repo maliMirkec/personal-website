@@ -53,7 +53,6 @@
     "base-64": "^1.0.0",
     "browser-sync": "^2.27.11",
     "cheerio": "^1.0.0-rc.12",
-    "cloudinary-core": "^2.13.0",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.0",
