@@ -303,36 +303,36 @@ const lastfm = () => {
 
 lastfm()
 
-const animate = () => {
-  const $animates = document.querySelectorAll('.js-animate')
+// const animate = () => {
+//   const $animates = document.querySelectorAll('.js-animate')
 
-  if ($animates.length) {
-    const options = {
-      root: null,
-      rootMargin: "0%",
-      threshold: 1.0,
-    };
+//   if ($animates.length) {
+//     const options = {
+//       root: null,
+//       rootMargin: "0%",
+//       threshold: 1.0,
+//     };
 
-    const callback = (entries) => {
-      entries.forEach((entry) => {
-        if(entry.isIntersecting) {
-          const className = entry.target.classList.contains('button') ? 'animate--alpha' : 'animate--beta'
+//     const callback = (entries) => {
+//       entries.forEach((entry) => {
+//         if(entry.isIntersecting) {
+//           const className = entry.target.classList.contains('button') ? 'animate--alpha' : 'animate--beta'
 
-          // entry.target.classList.remove(className)
+//           // entry.target.classList.remove(className)
 
-          setTimeout(() => {
-            entry.target.classList.add(className)
-          }, 1000)
-        }
-      });
-    };
+//           setTimeout(() => {
+//             entry.target.classList.add(className)
+//           }, 1000)
+//         }
+//       });
+//     };
 
-    const observer = new IntersectionObserver(callback, options);
+//     const observer = new IntersectionObserver(callback, options);
 
-    $animates.forEach($animate => {
-      observer.observe($animate);
-    })
-  }
-}
+//     $animates.forEach($animate => {
+//       observer.observe($animate);
+//     })
+//   }
+// }
 
-animate()
+// animate()
