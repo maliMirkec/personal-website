@@ -88,14 +88,12 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
 
-  # to audit a specific absolute url
-  [[plugins.inputs.audits]]
-    url = "https://staging.silvestar.codes"
-    output_path = "docs/lighthouse.html"
+  [plugins.inputs.thresholds]
+    performance = 0.9
+    accessibility = 0.9
+    best-practices = 0.9
+    seo = 0.9
 
-    # you can specify thresholds per audit
-    [plugins.inputs.audits.thresholds]
-      performance = 0.9
-      accessibility = 0.9
-      best-practices = 0.9
-      seo = 0.9
+  # optional, deploy the lighthouse report to a path under your site
+  [plugins.inputs.audits]
+    output_path = "docs/lighthouse.html"

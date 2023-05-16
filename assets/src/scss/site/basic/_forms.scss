@@ -29,13 +29,12 @@
   outline: none;
   width: 100%;
   cursor: pointer;
-  transition: all var(--duration2);
+  // transition: all var(--duration2);
 
   &:hover,
   &:focus,
   &:active {
     border-color: var(--color-alpha);
-    box-shadow: 0 0 0 .15rem var(--color-alpha);
   }
 
   &:focus,

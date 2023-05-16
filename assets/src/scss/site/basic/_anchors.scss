@@ -18,8 +18,7 @@ a {
   overflow: hidden;
   outline: none;
   border-radius: var(--border-radius);
-  transition: all var(--duration2);
-  will-change: box-shadow, z-index, text-decoration, background-color, color;
+  // transition: all var(--duration2);
 
   &:not(.button) {
     &:hover,
