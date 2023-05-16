@@ -101,5 +101,8 @@
     "wait-on": "^7.0.1",
     "webpack": "^5.76.0",
     "webpack-stream": "^6.1.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-lighthouse": "^4.1.1"
   }
 }
