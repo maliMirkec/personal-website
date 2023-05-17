@@ -16,10 +16,10 @@ projects:
   - Pinecone
 sections:
   - type: hero-alpha
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
+    src: pinecone-logo_ybycgg
+    alt: Logo of Pinecone.
     width: 128
-    height: 40
+    height: 27
     avatar: gk_i7hj6p
     title: Grigoriy Kogan
     desc: VP of Marketing at Pinecone

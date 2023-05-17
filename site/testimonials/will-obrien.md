@@ -18,9 +18,9 @@ sections:
   - type: hero-alpha
     src: cs_zg7xpc
     alt: Logo of CodeScan.
-    avatar: wo_s4ocq4
     width: 219
-    height: 30
+    height: 64
+    avatar: wo_s4ocq4
     title: Will O'Brien
     desc: DevOps Consultant at CodeScan
 sections2:

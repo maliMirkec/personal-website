@@ -18,9 +18,9 @@ sections:
   - type: hero-alpha
     src: cs_zg7xpc
     alt: Logo of CodeScan.
-    avatar: rj_tducdx
     width: 219
-    height: 30
+    height: 64
+    avatar: rj_tducdx
     title: Rebecca Jacobs
     desc: Marketing Manager at CodeScan
 sections2:

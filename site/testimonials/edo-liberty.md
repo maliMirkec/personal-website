@@ -20,7 +20,7 @@ sections:
     src: pinecone-logo_ybycgg
     alt: Logo of Pinecone.
     width: 128
-    height: 40
+    height: 27
     avatar: el2_ptyk3k
     title: Edo liberty
     desc: Founder, CEO, Scientist at Pinecone.
