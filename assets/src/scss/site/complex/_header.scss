@@ -64,7 +64,7 @@ header {
 
 footer {
   .inner > & {
-    background: var(--bg1);
+    background-color: var(--color-lightish);
     padding-top: calc(var(--space) * 2.5);
     mask: var(--mask-top);
   }

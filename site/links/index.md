@@ -56,7 +56,7 @@ sections2:
 ## Publications
 
 - [CSS Tricks: Oh, the Many Ways to Make Triangular Breadcrumb Ribbons!](https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/)
-- [LogRocket blog: 5 things to consider when creating your CSS style guide](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d)
+- [LogRocket blog: 5 things to consider when creating your CSS style guide](https://blog.logrocket.com/5-things-to-consider-when-creating-your-css-style-guide-7b85fa70039d/)
 - [Toptal blog: Overview of Popular Static Site Generators](https://www.toptal.com/front-end/static-site-generators-comparison-2018)
 - [Toptal blog: A Guide to Static Site Generators Using Hexo and WordPres](https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog)
 - [Practical Dev](https://dev.to/starbist)
