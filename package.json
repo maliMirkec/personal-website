@@ -46,6 +46,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
+    "@netlify/functions": "^1.6.0",
     "acclaimed": "^1.0.12",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
