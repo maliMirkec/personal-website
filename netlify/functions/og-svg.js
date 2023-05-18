@@ -46,7 +46,7 @@ exports.handler = async function (event) {
       statusCode: 200,
       body: base64.encode(svg),
       headers: {
-        "content-type": "image/svg+xml"
+        'content-type': 'image/svg+xml'
       },
       isBase64Encoded: true,
     }
@@ -57,7 +57,7 @@ exports.handler = async function (event) {
       statusCode: 200,
       body: 'Error!',
       headers: {
-        "content-type": "text"
+        'content-type': 'text'
       }
     }
   }

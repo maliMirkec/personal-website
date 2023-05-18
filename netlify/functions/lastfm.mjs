@@ -1,4 +1,4 @@
-import fetch from "node-fetch"
+import fetch from 'node-fetch'
 import * as cheerio from 'cheerio'
 
 exports.handler = async function (event) {
@@ -20,7 +20,7 @@ exports.handler = async function (event) {
         statusCode: 200,
         body: JSON.stringify(tracks),
         headers: {
-          "content-type": "text"
+          'content-type': 'text'
         }
       }
     })
