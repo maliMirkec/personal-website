@@ -14,6 +14,7 @@
 /mentoring /side-projects/ui-dev-mentoring/ 301!
 /newsletter /side-projects/ui-dev-newsletter/ 301!
 /newsletter/ /side-projects/ui-dev-newsletter/ 301!
+/side-projects/ui-dev-mentoring/start/ /side-projects/ui-dev-newsletter/ 301!
 /side-projects/ui-dev-mentoring/reads/ /side-projects/ui-dev-newsletter/archive/ 301!
 /side-projects/ui-dev-mentoring/reads/* /side-projects/ui-dev-newsletter/:splat 301!
 /portfolio/huggable /portfolio/little-bundle/ 301!
