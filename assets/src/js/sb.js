@@ -294,7 +294,7 @@ const lastfm = () => {
                 if (i < 5) {
                   const a = document.createElement('a')
                   a.href = item.trackUrl
-                  a.innerHTML = `${item.artist} - ${item.track}`
+                  a.innerHTML = `${item.artist} - ${item.song}`
                   $tracks.appendChild(a)
                 }
               })
