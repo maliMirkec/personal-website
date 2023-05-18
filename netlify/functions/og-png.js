@@ -49,7 +49,7 @@ exports.handler = async function (event) {
       statusCode: 200,
       body: img.toString('base64'),
       headers: {
-        "content-type": "image/png"
+        'content-type': 'image/png'
       },
       isBase64Encoded: true,
     }
@@ -60,7 +60,7 @@ exports.handler = async function (event) {
       statusCode: 200,
       body: 'Error!',
       headers: {
-        "content-type": "text"
+        'content-type': 'text'
       }
     }
   }

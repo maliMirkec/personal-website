@@ -10,7 +10,7 @@ exports.handler = async function (event) {
 
     await doc.useServiceAccountAuth({
       client_email: process.env.GGL_SHTS_EMAIL,
-      private_key: process.env.GGL_SHTS_KEY.replace(/\\n/gm, "\n"),
+      private_key: process.env.GGL_SHTS_KEY.replace(/\\n/gm, '\n'),
     });
 
     await doc.loadInfo();
@@ -28,9 +28,9 @@ exports.handler = async function (event) {
 
   return {
     statusCode: 200,
-    body: "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    body: 'R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
     headers: {
-      "content-type": "image/gif"
+      'content-type': 'image/gif'
     },
     isBase64Encoded: true,
   };

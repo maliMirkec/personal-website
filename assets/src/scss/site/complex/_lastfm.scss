@@ -1,28 +1,21 @@
-// .lastfm {
-//   font-size: var(--step--2);
-//   text-align: center;
+.lastfm {
+  font-size: var(--step--2);
+  text-align: center;
+  padding-left: var(--space);
+  padding-right: var(--space);
+}
 
-//   p {
-//     a {
-//       margin-left: .25em;
-//       margin-right: .25em;
+.lastfm__tracks {
+  a {
+    display: inline;
 
-//       &:before {
-//         content: "♪";
-//         margin-left: .5em;
-//         margin-right: .5em;
-//       }
-//     }
-//   }
-// }
+    &:not(:last-of-type) {
+      margin-right: .25em;
+    }
 
-// .lastfm__tracks {
-//   &:empty {
-//     display: block;
-
-//     &:before {
-//       content: "Waiting...";
-//       animation: waiting var(--duration4) linear infinite alternate;
-//     }
-//   }
-// }
+    &:before {
+      content: "♪";
+      margin-right: .25em;
+    }
+  }
+}
