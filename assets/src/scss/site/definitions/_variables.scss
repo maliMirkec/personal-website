@@ -63,6 +63,7 @@ $duration: .3s;
 $duration2: $duration / 2;
 $duration3: $duration * 2;
 $duration4: $duration * 3;
+$duration5: $duration * 6;
 $delay: $duration / 2;
 
 // Grid
@@ -137,6 +138,8 @@ $snap-inline: 10px;
   --duration: #{$duration};
   --duration2: #{$duration2};
   --duration3: #{$duration3};
+  --duration4: #{$duration4};
+  --duration5: #{$duration5};
   --delay: #{$delay};
 
   // Grid
