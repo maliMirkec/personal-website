@@ -1,7 +1,15 @@
-{%- if env.production and site.lastfm -%}
-  <div class="lastfm wrapper wrapper--beta">
-    <p class="no-margin">Latest Last.fm tracks:</p>
-    <p class="lastfm__tracks js-lastfm no-margin"></p>
-    <a class="tdu" href="https://www.last.fm/user/maliMirkec">♬ See the full Last.fm profile</a>
+{%- if site.lastfm and lastfm -%}
+  <div class="lastfm no-margin js-lastfm">
+    <div>
+      <span class="no-margin"><a class="tdu" href="https://www.last.fm/user/maliMirkec">My latest Last.fm tracks</a>:</span>
+      <span class="lastfm__tracks no-margin js-lastfm-tracks">
+        {% for track in lastfm %}
+          {% if forloop.index < 6 %}
+            <a href="{{ track.trackUrl }}">{{ track.artist }} - {{ track.song }}</a>
+          {% endif %}
+        {% endfor %}
+      </span>
+    </div>
+    <button type="button" class="button button--invisible button--small js-lastfm-refresh"><span class="fz-step--2">♬ Refresh</span></button>
   </div>
 {%- endif -%}

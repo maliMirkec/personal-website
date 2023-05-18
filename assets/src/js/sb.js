@@ -275,33 +275,37 @@ const gallery = () => {
 
 gallery()
 
-// const lastfm = () => {
-//   const $lastfm = document.querySelector('.js-lastfm')
+const lastfm = () => {
+  const $lastfm = document.querySelector('.js-lastfm')
 
-//   if ($lastfm) {
-//     fetch('/api/lastfm.js')
-//       .then(response => response.json())
-//       .then(data => {
-//         if (data) {
-//           data.forEach((item, i) => {
-//             if (i < 5) {
-//               const a = document.createElement('a')
-//               a.href = item.trackUrl
-//               a.innerHTML = `${item.artist} - ${item.track}`
-//               $lastfm.appendChild(a)
-//             }
-//           })
-//         }
-//       })
-//       .catch(err => {
-//         const span = document.createElement('span')
-//         span.innerHTML = 'Cannot load data.'
-//         $lastfm.appendChild(span)
-//       })
-//   }
-// }
+  if ($lastfm) {
+    const $tracks = document.querySelector('.js-lastfm-tracks')
+    const $refresh = document.querySelector('.js-lastfm-refresh')
 
-// lastfm()
+    if ($tracks && $refresh) {
+      $refresh.addEventListener('click', () => {
+        fetch('/api/lastfm.js')
+          .then(response => response.json())
+          .then(data => {
+            if (data) {
+              $tracks.innerHTML = '';
+
+              data.forEach((item, i) => {
+                if (i < 5) {
+                  const a = document.createElement('a')
+                  a.href = item.trackUrl
+                  a.innerHTML = `${item.artist} - ${item.track}`
+                  $tracks.appendChild(a)
+                }
+              })
+            }
+          })
+      })
+    }
+  }
+}
+
+lastfm()
 
 const animate = () => {
   const $animates = document.querySelectorAll('.js-animate')
