@@ -1,7 +1,10 @@
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-const cheerio = require('cheerio');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args))
+const cheerio = require('cheerio')
+const fs = require('fs')
 
 exports.handler = async function (event) {
+  const tracksFile = './netlify/functions/lastfm.json'
+
   return await fetch('https://www.last.fm/user/maliMirkec')
     .then((response) => response.text())
     .then((data) => {
@@ -16,9 +19,13 @@ exports.handler = async function (event) {
         })
       })
 
+      const tracksString = JSON.stringify(tracks)
+
+      fs.writeFileSync(tracksFile, tracksString);
+
       return {
         statusCode: 200,
-        body: JSON.stringify(tracks),
+        body: tracksString,
         headers: {
           'content-type': 'text'
         }
