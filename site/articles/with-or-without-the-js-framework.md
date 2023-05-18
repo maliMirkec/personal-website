@@ -40,7 +40,7 @@ JS frameworks have their purpose and place, but I don’t think a regular websit
 
 Zach Leatherman’s recent [chronologically ordered list of React’s criticisms](https://www.zachleat.com/web/react-criticism/) highlights performance as a central pain point when using React. I wish every React developer reads this. Not only reads - understands.
 
-> “An analysis of Core Web Vitals across 9.3 million websites as of February 6, 2023 shows that Core Web Vitals for both [React and Next.js shows that both perform **worse**](https://lookerstudio.google.com/s/lD9m_MQgyGU) **than the aggregation of all other sites** in the archive for both mobile and desktop.”
+> “An analysis of Core Web Vitals across 9.3 million websites as of February 6, 2023 shows that Core Web Vitals for both [React and Next.js shows that both perform **worse**](https://lookerstudio.google.com/reporting/55bc8fad-44c2-4280-aa0b-5f3f0cd3d2be?s=lD9m_MQgyGU) **than the aggregation of all other sites** in the archive for both mobile and desktop.”
 >
 > — [Zach Leatherman](https://www.zachleat.com/web/react-criticism/)
 

@@ -84,7 +84,7 @@ This post is part of **The UI Development Mentoring Program** series:
 - [Tips About Learning Web Development]
 
 [Toptal]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
-[The UI Development Mentoring Program]: https://mentor.silvestar.codes
+[The UI Development Mentoring Program]: /side-projects/ui-dev-mentoring/
 [apply to become a mentee]: /side-projects/ui-dev-mentoring/apply/
 [find useful resources]: /side-projects/ui-dev-mentoring/resources/
 [tips]: /side-projects/ui-dev-mentoring/tips/

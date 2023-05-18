@@ -142,9 +142,9 @@ Read more about [my favorite NPM packages](/articles/my-favorite-npm-packages/) 
 | Prettify JSON | [Link](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) |
 | Remove empty lines | [Link](https://marketplace.visualstudio.com/items?itemName=usernamehw.remove-empty-lines) |
 | Project Manager | [Link](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) |
-| Sass | [Link](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented) |
+| Sass | [Link](https://github.com/robinbentley/vscode-sass-indented) |
 | Shopify Liquid Template Snippets | [Link](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets) |
-| SVG Viewer | [Link](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) |
+| SVG Viewer | [Link](https://github.com/cssho/vscode-svgviewer) |
 | SVG | [Link](https://marketplace.visualstudio.com/items?itemName=jock.svg) |
 | WakaTime | [Link](https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime) |
 {% endtwrapper %}

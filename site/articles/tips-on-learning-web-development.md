@@ -105,7 +105,7 @@ This post is part of **The UI Development Mentoring Program** series:
 
 [“The essential skill of a developer”]: /articles/modern-frontend-developer-skills-and-tools/
 [Developer Roadmap]: https://github.com/kamranahmedse/developer-roadmap
-[The UI Development Mentoring Program]: https://mentor.silvestar.codes
+[The UI Development Mentoring Program]: /side-projects/ui-dev-mentoring/
 [apply to become a mentee]: /side-projects/ui-dev-mentoring/apply/
 [find useful resources]: /side-projects/ui-dev-mentoring/resources/
 [tips]: /side-projects/ui-dev-mentoring/tips/

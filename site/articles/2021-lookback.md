@@ -29,7 +29,7 @@ For the first half of the year, I was working on maintaining a long-term WordPre
 
 ## Static Site Generators
 
-My site runs on Eleventy, and I couldn't be happier for that. I also migrated my other site, [mentor.silvestar.codes](https://mentor.silvestar.codes), to Eleventy. There is also my new side project, [CSS Auditors](https://www.css-auditors.com), that runs on Eleventy. I am excited about the Eleventy progress, so this week, during the holidays, I have successfully updated my projects to version `1.0.0-beta9` to be prepared for the `1.0.0` release.
+My site runs on Eleventy, and I couldn't be happier for that. I also migrated my other site, [mentor.silvestar.codes](/side-projects/ui-dev-mentoring/), to Eleventy. There is also my new side project, [CSS Auditors](https://www.css-auditors.com), that runs on Eleventy. I am excited about the Eleventy progress, so this week, during the holidays, I have successfully updated my projects to version `1.0.0-beta9` to be prepared for the `1.0.0` release.
 
 I have been part of two Hugo projects. One project was to build a new category for the existing site where the data for the category came from Contentful. Using multiple headless CMS solutions in one project was a successful concept. I have built one completely new site on Hugo. It was quite basic, but I had fun developing Greenhouse integration and the pricing calculator (which we decided not to use in the end).
 

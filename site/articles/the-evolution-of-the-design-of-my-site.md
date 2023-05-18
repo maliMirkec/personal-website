@@ -44,7 +44,7 @@ Every deploy also has a permalink that starts with the deploy ID number. For exa
 
 Every deployment has a permalink that works forever. That means that you could see the version of my site from July 2017 until today. This feature allowed me to find all design updates. Let go over each one.
 
-## [The first design](https://59750acd8ebdd937c56dd166--silvestarcodes.netlify.app/)
+## The first design
 
 The first design of the homepage was straightforward. I have listed all articles and showed featured images, titles, dates, and excerpts.
 
@@ -64,7 +64,7 @@ Fearless web developer.
 
 I used a single font family: [Exo 2](https://fonts.google.com/specimen/Exo+2).
 
-## [The second redesign](https://5a7392997b6ee877c9ddb19b--silvestarcodes.netlify.app/)
+## The second redesign
 
 In 2018, I released the second redesign. The homepage consisted of pink and gray tiles with personal info and links.
 
@@ -74,7 +74,7 @@ The mobile navigation collapsed under the hamburger menu.
 
 I used a couple of font families: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Vollkorn](https://fonts.google.com/specimen/Vollkorn).
 
-## [The third redesign](https://5ae01056b31274544521a1cf--silvestarcodes.netlify.app/)
+## The third redesign
 
 Soon after the second redesign, I released the next one. This time I was providing more information about myself. I kept the tiles, but this time they were light gray with pink borders. I was using an outlined logo for a background.
 
@@ -86,7 +86,7 @@ I used a couple of font families: [Playfair Display](https://fonts.google.com/sp
 
 ## The fourth redesign
 
-### [The first iteration](https://5b680b6cb13fb1329da5699a--silvestarcodes.netlify.app/)
+### The first iteration
 
 In August of 2018, I released another major redesign. This time my homepage contained short info about me, featured articles and projects, and some helpful links. There was also a little info icon that showed basic information and links on hover.
 
@@ -98,37 +98,37 @@ I redesigned my logo, too. I was using it to indicate the current page in the he
 
 The hamburger menu was gone, and I listed all navigation links on every device.
 
-### [The second iteration](https://5baccc0c73f2cf64429d0488--silvestarcodes.netlify.app/)
+### The second iteration
 
 In September, I introduced testimonials on my homepage.
 
-### [The third iteration](https://5bb75c4e792f896c8179f75a--silvestarcodes.netlify.app/)
+### The third iteration
 
 In October, I introduced call-to-action boxes with contact links. I wanted to engage potential clients to hire me more quickly. I also displayed the earliest available date to help them decide if my availability suits them.
 
 Later, these call-to-action boxes were used to engage visitors to go to my Hugo course, to explore my side projects, and so on. I still use them and find them convenient.
 
-### [The fourth iteration](https://5c333811e2b27a0008ff4663--silvestarcodes.netlify.app/)
+### The fourth iteration
 
 In January of 2019, I fixed the contrast of the green color by making it a bit darker. I also featured my image on the homepage. I wanted to make the site more personal.
 
-### [The fifth iteration](https://5c9a239b089a12000900bc68--silvestarcodes.netlify.app/)
+### The fifth iteration
 
 This new darker green color never felt right to me. So I decided to make my header dark. I made the buttons dark, too.
 
-### [The sixth iteration](https://5cf375382eb72f00075a86a9--silvestarcodes.netlify.app/)
+### The sixth iteration
 
 In June, I introduced a new section on the homepage: publications. I thought it would be nice to inform my visitors that I wrote some pieces for other sites, too.
 
 I also added a dot above the link in the header to inform visitors about the current page.
 
-### [The seventh iteration](https://5d4be4c75c9da3000ab2d687--silvestarcodes.netlify.app/)
+### The seventh iteration
 
 In August, I decided to feature my side projects on the homepage. I thought it would be interesting to show what I am working on in my free time.
 
 ## The fifth design
 
-### [The first iteration](https://5e58cd84d1d6ff0008f0509d--silvestarcodes.netlify.app/)
+### The first iteration
 
 In February of 2020, I made another major redesign. This time I introduced cards to the homepage:
 
@@ -142,17 +142,17 @@ I decided to remove the logo from the header entirely. Not sure why, but I did. 
 
 One other significant change was the light gray background throughout the site. This was used to emphasize cards and call-to-action boxes, which were plain white.
 
-### [The second iteration](https://5e6dda08331f4e0008adf3a9--silvestarcodes.netlify.app/)
+### The second iteration
 
 In March, I introduced the Code Line Daily widget on my homepage. [Code Line Daily](https://cld.silvestar.codes) was a project of mine where I highlighted a single line of codes every day. The project is still alive, but I am [not adding new content anymore](/articles/the-first-year-of-my-side-project-code-line-daily/).
 
-### [The second iteration](https://5e9ca7170a57580008073b56--silvestarcodes.netlify.app/)
+### The second iteration
 
 In April, I made a slight adjustment to the homepage. I made the profile card smaller, and I have updated the intro text.
 
 ## The sixth design
 
-### [The first iteration](https://5fff6979fe88f00007a3c008--silvestarcodes.netlify.app/)
+### The first iteration
 
 At the start of this year, I decided to switch to Eleventy. Of course, that meant a new version of the design. I switched back to white background. Instead of using pink, I used green color for branding. I redesigned all aspects of my site, including my logo. I was aiming for a cleaner and more polished look.
 
@@ -166,7 +166,7 @@ Call-to-action boxes were redesigned, too. This time I wanted to inform my visit
 
 This update wasn't only visual. It was textual, too. So I updated the text throughout the site. This was the biggest challenge, as always, when editing or adding new content.
 
-### [The second iteration](https://6066f687a93a4e0007058fbb--silvestarcodes.netlify.app/)
+### The second iteration
 
 In April, I have updated the sections on my homepage based on the smashing [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) comments in one of his auditing events. Vitaly asked what do I want to achieve when a visitor comes to my homepage. So I figured I wanted to land a client rather than making someone read my blog posts (which I don't publish that often anymore). That's why I put the Portfolio section first and then Testimonials. Testimonials should convince potential clients about the quality of my work. That is something I learned from the legendary [Paul Boag](https://boagworld.com/about/).
 
@@ -174,7 +174,7 @@ Vitaly also pointed that my name isn't showing anywhere on the homepage. So I fi
 
 I made other updates, like adding gray background on cards and different colors on tags.
 
-### [The third iteration](https://60a23d519020c60008705afa--silvestarcodes.netlify.app/)
+### The third iteration
 
 In May, I added my logo as a repeating image throughout the site because I think the plain white background was too bright. This way, I highlighted the brand and fixed the brightness.
 
