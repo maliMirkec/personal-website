@@ -8,8 +8,6 @@ const uslug = require('uslug')
 const fs = require('fs')
 const env = require('./site/_data/env')
 const package = require('./package.json')
-const { log } = require("console")
-const { LibManifestPlugin } = require("webpack")
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
