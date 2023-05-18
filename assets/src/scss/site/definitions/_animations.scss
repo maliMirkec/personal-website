@@ -1,12 +1,6 @@
 @keyframes waiting {
-  0% {
-    content: "Waiting.";
-  }
-  33% {
-    content: "Waiting..";
-  }
-  66% {
-    content: "Waiting...";
+  to {
+    opacity: .1;
   }
 }
 
