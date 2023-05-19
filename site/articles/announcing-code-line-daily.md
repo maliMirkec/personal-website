@@ -98,5 +98,5 @@ If you have an exciting line of code to share, feel free to [contribute] to the 
 
 [Code Line Daily]: https://cld.silvestar.codes
 [contribute]: https://cld.silvestar.codes/about
-[Starter Project]: https://starter.silvestar.codes
+[Starter Project]: /side-projects/starter-project/
 [gulp-data]: https://www.npmjs.com/package/gulp-data

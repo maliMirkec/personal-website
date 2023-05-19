@@ -95,6 +95,22 @@
     "ignore-ssl-errors": true
   }
 }, {
+  "css": "./assets/dist/css/mentor.css",
+  "out": "./assets/critical/mentor-apply.critical.min.css",
+  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/apply/?cache=1",
+  "width": 1920,
+  "height": 1800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 300,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
   "css": "./assets/dist/css/style.css",
   "out": "./assets/critical/newsletter-index.critical.min.css",
   "url": "http://localhost:8080/side-projects/ui-dev-newsletter/?cache=1",
@@ -159,9 +175,26 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
-  "out": "./assets/critical/mentor-apply.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/apply/?cache=1",
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/articles-item.critical.min.css",
+  "url": "http://localhost:8080/articles/how-to-measure-page-loading-time-with-performance-api/?cache=1",
+  "width": 1920,
+  "height": 2800,
+  "keepLargerMediaQueries": true,
+  "strict": false,
+  "blockJSRequests": true,
+  "renderWaitTime": 1500,
+  "timeout": 60000,
+  "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
+  "phantomJsOptions": {
+    "ssl-protocol": "any",
+    "ignore-ssl-errors": true
+  }
+}, {
+  "css": "./assets/dist/css/style.css",
+  "out": "./assets/critical/articles.critical.min.css",
+  "url": "http://localhost:8080/articles/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -170,6 +203,7 @@
   "renderWaitTime": 300,
   "timeout": 60000,
   "forceExclude": ["@font-face"],
+  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
   "phantomJsOptions": {
     "ssl-protocol": "any",
     "ignore-ssl-errors": true
@@ -416,40 +450,6 @@
   "css": "./assets/dist/css/style.css",
   "out": "./assets/critical/invalid-css.critical.min.css",
   "url": "http://localhost:8080/side-projects/invalid-css/9/?cache=1",
-  "width": 1920,
-  "height": 1800,
-  "keepLargerMediaQueries": true,
-  "strict": false,
-  "blockJSRequests": true,
-  "renderWaitTime": 300,
-  "timeout": 60000,
-  "forceExclude": ["@font-face"],
-  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
-  "phantomJsOptions": {
-    "ssl-protocol": "any",
-    "ignore-ssl-errors": true
-  }
-}, {
-  "css": "./assets/dist/css/style.css",
-  "out": "./assets/critical/articles-item.critical.min.css",
-  "url": "http://localhost:8080/articles/how-to-make-a-raise-the-curtains-effect-in-css/?cache=1",
-  "width": 1920,
-  "height": 2800,
-  "keepLargerMediaQueries": true,
-  "strict": false,
-  "blockJSRequests": true,
-  "renderWaitTime": 1500,
-  "timeout": 60000,
-  "forceExclude": ["@font-face"],
-  "forceInclude": [".pic", ".pic svg", ".pic img", ".dark", ".dark .inner:not([id*=\"kss\"])", ".dark img"],
-  "phantomJsOptions": {
-    "ssl-protocol": "any",
-    "ignore-ssl-errors": true
-  }
-}, {
-  "css": "./assets/dist/css/style.css",
-  "out": "./assets/critical/articles.critical.min.css",
-  "url": "http://localhost:8080/articles/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,

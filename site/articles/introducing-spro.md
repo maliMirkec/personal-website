@@ -11,7 +11,7 @@ descriptionAlt: SPRO, or Starter Project CLI, is the best starting point for you
 description: SPRO, a Starter Project CLI, sets up your next project's perfect dev environment by understanding architecture and creating Gulp tasks.
 project:
   name: Starter Project
-  href: https://starter.silvestar.codes
+  href: /side-projects/starter-project/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -135,7 +135,7 @@ Please show your support by starring the project on [Github], or by sharing on [
 
 Or contribute to the project by creating [a new issue] or [a pull request].
 
-[Starter Project]: https://starter.silvestar.codes/
+[Starter Project]: /side-projects/starter-project/
 [in the introduction article]: https://www.silvestar.codes/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
 [Gulp.js 4 documentation]: https://gulpjs.com/docs/en/getting-started/javascript-and-gulpfiles#splitting-a-gulpfile
 [Discord]: https://discord.gg/aBx8dcu

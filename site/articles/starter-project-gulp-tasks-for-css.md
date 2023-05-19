@@ -11,7 +11,7 @@ thumbnail: Starter_Project_-_Gulp_tasks_for_CSS_qzmrjw
 description: This article is part of a series about Starter Project, and this time I will explain all about Gulp tasks for CSS.
 project:
   name: Starter Project
-  href: https://starter.silvestar.codes
+  href: /side-projects/starter-project/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -203,7 +203,7 @@ This should run stylelint when you save `.scss` files. If it doesn't work, [cont
 Please share! 🙏
 
 [In the previous article]: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
-[Starter Project]: https://starter.silvestar.codes/
+[Starter Project]: /side-projects/starter-project/
 [npm]: https://www.npmjs.com/package/starter-project
 [Sass]: https://sass-lang.com/
 [gulp-sass]: https://www.npmjs.com/package/gulp-sass

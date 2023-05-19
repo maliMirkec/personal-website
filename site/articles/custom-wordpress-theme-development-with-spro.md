@@ -11,7 +11,7 @@ descriptionAlt: SPRO is a boilerplate of predefined Gulp tasks. The mission is t
 description: Learn how to create a custom WordPress theme with the Starter Project CLI (SPRO) package and improve your development process.
 project:
   name: Starter Project
-  href: https://starter.silvestar.codes
+  href: /side-projects/starter-project/
 type: articles-item
 sections2:
   - type: banner-beta

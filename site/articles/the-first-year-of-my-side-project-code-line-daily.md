@@ -77,7 +77,7 @@ P.S. I am aware my project is not very popular. I always wanted to learn more ab
 
 [Code Line Daily]: https://cld.silvestar.codes
 [featured on the Product Hunt]: https://www.producthunt.com/posts/code-line-daily
-[Starter Project]: https://starter.silvestar.codes
+[Starter Project]: /side-projects/starter-project/
 [built over a weekend]: /articles/announcing-code-line-daily/
 [asked the community]: https://dev.to/starbist/could-you-review-my-design-please-3fc6
 [on the design]: https://projects.invisionapp.com/prototype/Code-Line-Daily-cjzlr00lz002fan01i2i608k3/play/a9d28b19

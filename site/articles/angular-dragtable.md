@@ -22,7 +22,6 @@ I've been searching for a similar solution, including JavaScript libraries, jQue
 <!-- more -->
 
 The package is available [here](https://github.com/maliMirkec/angular-dragtable).
-And the demo is available [here.](https://frontend-developer.xyz/angular-dragtable/)
 
 ## Angular dragtable events
 

@@ -16,7 +16,7 @@ display: true
 date: 2005-10-01
 ---
 
-## Ribbons
+# Ribbons
 
 Learn how to build a ribbon component with CSS and SVG backgrounds that could serve as styled breadcrumbs element for your site.
 
@@ -85,7 +85,7 @@ The CSS code:
 A ribbon component showed in these examples should be used as a breadcrumb element. However, if you want to use it for something else, be sure to update or remove the aria attributes. The HTML code for accessible breadcrumbs could be found on the [A11y Style Guide website](https://a11y-style-guide.com/style-guide/section-navigation.html), under Option #2.
 {% endnote %}
 
-### Ribbons Alpha
+## Ribbons Alpha
 
 <nav class="ribbon ribbon--alpha" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -155,7 +155,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Beta
+## Ribbons Beta
 
 <nav class="ribbon ribbon--beta" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -226,7 +226,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Gamma
+## Ribbons Gamma
 
 <nav class="ribbon ribbon--gamma" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">
@@ -308,7 +308,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Delta
+## Ribbons Delta
 
 <nav class="ribbon ribbon--delta" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -350,7 +350,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Shadow
+## Ribbons Shadow
 
 <nav class="ribbon ribbon--alpha ribbon--shadow" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -382,7 +382,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Gradient
+## Ribbons Gradient
 
 <nav class="ribbon ribbon--alpha ribbon--gradient" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -430,7 +430,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Small
+## Ribbons Small
 
 <nav class="ribbon ribbon--alpha ribbon--small" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -461,7 +461,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Big
+## Ribbons Big
 
 <nav class="ribbon ribbon--alpha ribbon--big" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>
@@ -492,7 +492,7 @@ The CSS code:
 }
 ```
 
-### Ribbons Auto
+## Ribbons Auto
 
 <nav class="ribbon ribbon--alpha ribbon--auto" role="navigation" aria-label="breadcrumbs">
   <span class="ribbon__element">Home</span>

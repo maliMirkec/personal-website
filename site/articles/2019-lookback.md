@@ -114,8 +114,8 @@ Let’s make the web an even better place!
 [Netlify CMS]: https://www.netlifycms.org/
 [a post about my favorite Netlify features]: /articles/my-favorite-netlify-features/
 [an article about style guides]: /articles/5-things-to-consider-when-creating-your-css-style-guide/
-[SPRO (or Starter Project CLI)]: https://starter.silvestar.codes/
-[Starter Project]: https://starter.silvestar.codes/starter-project/
+[SPRO (or Starter Project CLI)]: /side-projects/starter-project/
+[Starter Project]: /side-projects/starter-project/
 [Code Line Daily]: https://cld.silvestar.codes/
 [available as a Progressive Web App recently]: /articles/how-i-built-my-second-progressive-web-app-pwa/
 [a Chrome extension]: https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg

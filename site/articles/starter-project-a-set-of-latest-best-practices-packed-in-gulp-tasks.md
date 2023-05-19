@@ -11,7 +11,7 @@ descriptionAlt: This article is the very first article in a series about Starter
 description: Discover the latest best practices for web dev with Starter Project. A set of Gulp tasks that simplify the process and help you get up and running quickly.
 project:
   name: Starter Project
-  href: https://starter.silvestar.codes
+  href: /side-projects/starter-project/
 type: articles-item
 sections2:
   - type: banner-beta
@@ -81,7 +81,7 @@ Starter Project is configurable and should be able to run in every project, no m
 
 {% cldnry "code2_mxkqcq" "Penthouse plugin config example." 759 291 %}
 
-Read more about configuration [here](https://starter.silvestar.codes/).
+Read more about configuration [here](/side-projects/starter-project/).
 
 ## Features
 
@@ -115,9 +115,9 @@ Starter Project is not conceived as a strict set of rules. This package should b
 
 Show your support: provide feedback, open [a new issue](https://github.com/maliMirkec/starter-project/issues/new), create [a new pull request](https://github.com/maliMirkec/starter-project/compare), or leave a comment.
 
-[Starter Project]: https://starter.silvestar.codes/
+[Starter Project]: /side-projects/starter-project/
 [npm]: https://www.npmjs.com/package/starter-project
-[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstarter.silvestar.codes%2F&tab=desktop
+[PageSpeed Insights]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%www.silvestar.codes%2F&tab=desktop
 [WebPageTest]: https://www.webpagetest.org/result/180323_7F_8cd32d6a04d395ff01839c921d82047d/
 [Silvestar Bistrović website]: https://www.silvestar.codes
 [Han Han Xue website]: https://hanhanxue.com/
