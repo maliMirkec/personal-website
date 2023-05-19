@@ -2,6 +2,8 @@
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
+    {% elsif isRibbons %}
+      <link rel="stylesheet" href="/css/ribbons.min.css" media="print" onload='this.media="all"'>
     {% elsif isSlides %}
       <link rel="stylesheet" href="/css/slides.critical.min.css" media="print" onload='this.media="all"'>
     {% elsif is360 %}
@@ -11,6 +13,6 @@
     {% endif %}
   {% endif %}
 {% endif %}
-{% if type == 'articles-item' %}
+{% if type == 'articles-item' or type == 'ribbons' %}
   <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
 {% endif %}

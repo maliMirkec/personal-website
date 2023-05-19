@@ -159,31 +159,6 @@ $snap-inline: 10px;
   --snap-inline: #{$snap-inline};
 
   // Backgrounds and wavy shapes
-  --s1: 8rem; /* control the size */
-  --s2: 8vmax; /* control the size */
-  --c1: var(--color-lightish);
-  --c2: var(--color-lighter);
-  --c3: var(--color-light);
-
-  --_g1: var(--s1) var(--s1) radial-gradient(var(--c1) 17%,var(--c3) 18% 35%,#0000 36.5%);
-  --_g2: var(--s2) var(--s2) radial-gradient(var(--c1) 17%,var(--c2) 18% 35%,#0000 36.5%);
-
-  --bg1:
-    calc(var(--s1)/-4) calc(var(--s1)/-4)/var(--_g1),
-    calc(var(--s1)/ 4) calc(var(--s1)/ 4)/var(--_g1),
-    radial-gradient(var(--c3) 34%,var(--c1) 36% 68%,#0000 70%)
-     0 0/calc(var(--s1)/2) calc(var(--s1)/2),
-    repeating-linear-gradient(45deg,var(--c1) -12.5% 12.5%,var(--c3) 0 37.5%)
-     0 0/var(--s1) var(--s1);
-
-  --bg2:
-    calc(var(--s2)/-4) calc(var(--s2)/-4)/var(--_g2),
-    calc(var(--s2)/ 4) calc(var(--s2)/ 4)/var(--_g2),
-    radial-gradient(var(--c2) 34%,var(--c1) 36% 68%,#0000 70%)
-     0 0/calc(var(--s2)/2) calc(var(--s2)/2),
-    repeating-linear-gradient(45deg,var(--c1) -12.5% 12.5%,var(--c2) 0 37.5%)
-     0 0/var(--s2) var(--s2);
-
   --mask:
     radial-gradient(1.93rem at 50% 2.65rem, var(--color-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 51% repeat-x,
     radial-gradient(1.93rem at 50% -1.65rem, transparent 99%, var(--color-dark) 101%) 50% 1rem / 4rem calc(51% - 1rem) repeat-x,

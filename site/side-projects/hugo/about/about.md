@@ -1,5 +1,5 @@
 ---
-layout: hugo
+layout: project
 title: "Making a website with Hugo: About"
 description: “Making a website with Hugo” is a course about using Hugo, a static site generator written in Go, for making a lightweight, fast and secure website.
 type: hugo

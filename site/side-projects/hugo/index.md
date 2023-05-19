@@ -1,5 +1,5 @@
 ---
-layout: hugo
+layout: project
 title: Making a website with Hugo
 projectTitle: Making a website with Hugo
 descriptionAlt: Making a website with Hugo is a course for learning how to use Hugo.

@@ -1,5 +1,5 @@
 ---
-layout: hugo
+layout: project
 title: "Making a website with Hugo: Lessons"
 descriptionAlt: Making a website with Hugo is a course for learning how to use Hugo.
 description: Discover lessons you will learn in the “Making a website with Hugo” course. Learn why Hugo is a great solution for making lightweight, fast and secure sites.
