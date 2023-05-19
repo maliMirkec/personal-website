@@ -4,6 +4,8 @@
   {% else %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css">
+    {% elsif isRibbons %}
+      <link rel="stylesheet" href="/css/ribbons.min.css">
     {% elsif isSlides %}
       <link rel="stylesheet" href="/css/slides.critical.min.css">
     {% elsif is360 %}
@@ -11,13 +13,15 @@
     {% else %}
       <link rel="stylesheet" href="/css/style.min.css">
     {% endif %}
-    {% if type == 'articles-item' %}
+    {% if type == 'articles-item' or type == 'ribbons' %}
       <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" media='print' onload='this.media="all"'>
     {% endif %}
   {% endif %}
 {% else %}
   {% if isMentor %}
     <link rel="stylesheet" href="/css/mentor.min.css">
+  {% elsif isRibbons %}
+    <link rel="stylesheet" href="/css/ribbons.min.css">
   {% elsif isSlides %}
     <link rel="stylesheet" href="/css/slides.critical.min.css">
   {% elsif is360 %}

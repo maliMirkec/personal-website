@@ -420,7 +420,7 @@ Making custom elements using different CSS techniques is a great way how each on
 
 We looked at four different approaches for drawing ribbon triangles. Have you used a different approach or know of one we haven’t considered here? Let me know in the comments!
 
-[a demo page]: https://play.silvestar.codes/ribbon/
+[a demo page]: /side-projects/ribbons/
 [CSS triangles]: https://css-tricks.com/snippets/css/css-triangle/
 [A11y Style Guide website]: https://a11y-style-guide.com/style-guide/section-navigation.html
 [CSS Grid]: https://css-tricks.com/snippets/css/complete-guide-grid/

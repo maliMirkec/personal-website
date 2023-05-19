@@ -9,6 +9,8 @@
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="preload" href="/css/mentor.min.css" as="style">
+    {% elsif isRibbons %}
+      <link rel="preload" href="/css/ribbons.min.css" as="style">
     {% elsif isSlides %}
       <link rel="preload" href="/css/slides.critical.min.css" as="style">
     {% elsif is360 %}
