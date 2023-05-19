@@ -106,8 +106,6 @@ spro start
 
 SPRO would prompt you to ask a few questions about the project structure.
 
-![Starter Project CLI in action](/gfx/png/starter-project-questions.png)
-
 Once you answer all questions, SPRO would do two things:
 
 * copy all required files (Gulp task files and configuration files), and
