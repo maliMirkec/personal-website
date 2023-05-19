@@ -8,7 +8,7 @@ type: ribbons
 tags:
   - projects
 thumbnail:
-  src: hugo_fx5fjy
+  src: ribbons_isjkzh
   alt: Screenshot of the “Ribbons” project page.
   width: 759
   height: 459
