@@ -2,12 +2,12 @@
   "name": "Silvestar Bistrović",
   "short_name": "Silvestar Bistrović",
   "icons": [{
-      "src": "/android-chrome-192x192.png?v=2023",
+      "src": "/favicon/android-chrome-192x192.png?v=2023",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/android-chrome-512x512.png?v=2023",
+      "src": "/favicon/android-chrome-512x512.png?v=2023",
       "sizes": "512x512",
       "type": "image/png"
     }
