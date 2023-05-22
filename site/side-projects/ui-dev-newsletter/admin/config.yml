@@ -10,7 +10,7 @@ collections:
   - label: "Newsletter"
     name: "newsletter"
     folder: "site/side-projects/ui-dev-newsletter"
-    slug: "{{year}}-{{month}}-{{day}}"
+    slug: "{{date}}"
     filter:
       field: type
       value: newsletter-single
@@ -26,6 +26,11 @@ collections:
         widget: "hidden"
         required: false
         default: newsletter-single
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        default: reads
       - label: "Title"
         name: "title"
         widget: "string"
@@ -49,6 +54,8 @@ collections:
       - label: "List"
         name: "list"
         widget: "list"
+        collapsed: false
+        label_singular: "item"
         required: false
         summary: "{{fields.title}}"
         fields:
@@ -61,7 +68,7 @@ collections:
             widget: "string"
             required: false
           - label: "Description"
-            name: "description"
+            name: "desc"
             widget: "string"
             required: false
           - label: "Twitter"
@@ -75,6 +82,8 @@ collections:
       - label: "Promotion"
         name: "promotion"
         widget: "list"
+        collapsed: false
+        label_singular: "item"
         required: false
         summary: "{{fields.title}}"
         fields:
@@ -92,7 +101,7 @@ collections:
             widget: "string"
             required: false
           - label: "Description"
-            name: "description"
+            name: "desc"
             widget: "string"
             required: false
           - label: "Twitter"
@@ -107,6 +116,7 @@ collections:
         name: topAd
         widget: object
         required: false
+        collapsed: true
         summary: '{{fields.name}}'
         fields:
           - label: "Name"
@@ -122,7 +132,7 @@ collections:
             widget: "string"
             required: false
           - label: "Description"
-            name: "description"
+            name: "desc"
             widget: "string"
             required: false
           - label: "Twitter"

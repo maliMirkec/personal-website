@@ -1,20 +1,39 @@
-const doc = require('../site/_data/reads.json')
-const latest = doc[0]
+const fs = require('fs');
+const YAML = require('js-yaml');
+
+const getLatestFile = () => {
+  const dir = './site/side-projects/ui-dev-newsletter'
+  const ignoreFilenames = ['admin', 'archive.md', 'confirmation.md', 'contact.md', 'index.md', 'sponsorship.md']
+
+  filenames = fs.readdirSync(dir);
+
+  const latestFile = filenames.filter(file => ignoreFilenames.indexOf(file) == -1).pop();
+
+  const latest = fs.readFileSync(`${dir}/${latestFile}`, 'utf8')
+
+  return YAML.loadAll(latest)[0]
+}
+
+const latest = getLatestFile()
+
+const generateDateString = () => {
+  return new Date(latest.date).toISOString().split('T')[0]
+}
+
+const generateDate = () => {
+  return `<p style="margin-bottom:2rem">${generateDateString()}</p>`
+}
 
 const generateTitle = () => {
   return `<h1>
-      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${latest.date}/" target="_blank" style="text-decoration:none">
-        <span style="display:block;color:#222;font-size:1.5rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em">UI Dev Newsletter - Issue #${doc.length}</span>
+      <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${generateDateString()}/" target="_blank" style="text-decoration:none">
+        <span style="display:block;color:#222;font-size:1.5rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em">UI Dev Newsletter - ${latest.title}</span>
       </a>
     </h1>`
 }
 
-const generateDate = () => {
-  return `<p style="margin-bottom:2rem">${latest.date}</p>`
-}
-
 const generateDescription = () => {
-  return `<p style="margin-bottom:2rem">In this issue: ${latest.description}</p>`
+  return `<p style="margin-bottom:2rem">${latest.description}</p>`
 }
 
 const addSponsors = () => {
@@ -97,7 +116,7 @@ const generateList = () => {
 const header = () => {
   headerCode = `<div style="font-family:Inter,Roboto,'Helvetica Neue','Arial Nova','Nimbus Sans',Arial,sans-serif">
     <div style="background:#eee;padding:2rem">
-      <a style="display:block;text-align:center" href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${latest.date}/">
+      <a style="display:block;text-align:center" href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${generateDateString()}/">
         <img style="margin:auto" alt="UI Dev Newsletter logo" src="https://res.cloudinary.com/starbist/image/upload/v1678903553/UI_Dev_Newsletter_FF3366_pv7tdb.png" width="150" height="150">
       </a>
     </div>

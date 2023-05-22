@@ -660,7 +660,7 @@ If you need more help understanding the configuration, please open [a new issue]
 
 The default helpers configuration is defined as follows:
 
-```.helpers.json
+```json
 {
   "wait": 20000
 }
