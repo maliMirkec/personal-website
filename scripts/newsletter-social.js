@@ -1,12 +1,31 @@
-const doc = require('../site/_data/reads.json')
-const latest = doc[0]
+const fs = require('fs');
+const YAML = require('js-yaml');
+
+const getLatestFile = () => {
+  const dir = './site/side-projects/ui-dev-newsletter'
+  const ignoreFilenames = ['admin', 'archive.md', 'confirmation.md', 'contact.md', 'index.md', 'sponsorship.md']
+
+  filenames = fs.readdirSync(dir);
+
+  const latestFile = filenames.filter(file => ignoreFilenames.indexOf(file) == -1).pop();
+
+  const latest = fs.readFileSync(`${dir}/${latestFile}`, 'utf8')
+
+  return YAML.loadAll(latest)[0]
+}
+
+const latest = getLatestFile()
+
+const generateDateString = () => {
+  return new Date(latest.date).toISOString().split('T')[0]
+}
 
 const getDivider = (name) => {
   return `\n~~~~~~~~~~~${name ? name : 'UI Dev Newsletter'}~~~~~~~~~~~\n\n`
 }
 
 const getArticleLink = () => {
-  return `https://www.silvestar.codes/side-projects/ui-dev-newsletter/${latest.date}/\n\n`
+  return `https://www.silvestar.codes/side-projects/ui-dev-newsletter/${generateDateString()}/\n\n`
 }
 
 const getSubscriptionLink = () => {
@@ -34,7 +53,8 @@ const getMastodon = () => {
 }
 
 const getDescription = () => {
-  return `UI Dev Newsletter #${doc.length} is out! In this issue: ${latest.description}\n\n`
+  return `${latest.title} of UI Dev Newsletter is out!
+In this issue: ${latest.description}\n\n`
 }
 
 const getSponsors = () => {
