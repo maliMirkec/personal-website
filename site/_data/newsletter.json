@@ -17,6 +17,21 @@
     "alt": "Silvestar Bistrović."
   },
   "quotes": [{
+    "name": "Eric Bailey",
+    "avatar": "ewb_n0evno",
+    "links": [{
+      "name": "Website",
+      "href": "https://ericwbailey.website/"
+    }, {
+      "name": "Mastodon",
+      "href": "https://social.ericwbailey.website/@eric"
+    }, {
+      "name": "Twitter",
+      "href": "https://twitter.com/ericwbailey"
+    }],
+    "position": "Inclusive design advocate, maintainer of the A11y Project",
+    "text": "I’m a big fan of Silvestar’s UI Dev Newsletter. It has a thoughtfully-curated mix of blog posts that are essential to staying on top of all the industry news. I’d enthusiastically recommend subscribing if you’re a frontend-savvy designer or developer looking to learn from the best."
+  }, {
     "name": "Manuel Matuzović",
     "avatar": "mm_lprmjx",
     "links": [{

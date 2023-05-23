@@ -1,13 +1,12 @@
 ---
 layout: index
 title: "Nightmare DX (Developer Experience): HubSpot"
-date: 2023-05-25 10:00:00
+date: 2023-06-20 10:00:00
 tags:
   - blog
   - dx
   - hubspot
   - web dev
-thumbnail:
 description: I had to work with HubSpot after a couple of years, and it reminded me to write this article about its nightmare developer experience.
 type: articles-item
 sections2:
