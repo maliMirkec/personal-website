@@ -14,8 +14,6 @@ sections2:
 series: Searching for a job
 ---
 
-# If you would have told me…
-
 If you had told me 12 years ago that I would be doing web development for a living, I would laugh at you.
 
 If you had told me 11 years ago that I would be doing frontend development for a living, I would laugh at you.
