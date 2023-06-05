@@ -1,11 +1,11 @@
 <section class="hero margin-top-beta margin-bottom-beta">
-  <div class="wrapper wrapper--beta text-center">
+  <div class="wrapper text-center">
     <div class="padding">
       {% if hero.title %}
         <h1 class="fz-step-5 fw-bolder ffss no-margin-top margin-bottom">{{ hero.title | markdownifyi }}</h1>
       {% endif %}
       {% if hero.desc %}
-        <div class="fz-step-1 copy">{{ hero.desc | markdownify }}</div>
+        <div class="copy balance fz-step-0">{{ hero.desc | markdownify }}</div>
       {% endif %}
       {% if hero.cta %}
         <div class="margin-top-beta">

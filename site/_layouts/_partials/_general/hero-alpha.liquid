@@ -60,16 +60,16 @@
         <h1 class="fz-step-5 no-margin-top margin-bottom-alpha">{{ hero1.title | markdownifyi }}</h1>
       {% endif %}
       {% if hero1.desc %}
-        <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc | markdownify }}</div>
+        <div class="copy balance{% if hero1.left %} text-left{% endif %}">{{ hero1.desc | markdownify }}</div>
       {% endif %}
       {% if hero1.footnote %}
-        <div class="fz-step--1 copy margin-top">{{ hero1.footnote | markdownify }}</div>
+        <div class="copy balance fz-step--1 margin-top">{{ hero1.footnote | markdownify }}</div>
       {% endif %}
       {% if hero1.subtitle %}
         <h2 class="fz-step-2 margin-top-alpha margin-bottom-alpha{% if hero1.left %} text-left{% endif %}">{{ hero1.subtitle | markdownifyi }}</h2>
       {% endif %}
       {% if hero1.desc2 %}
-        <div class="copy{% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
+        <div class="copy {% if hero1.left %} text-left{% endif %}">{{ hero1.desc2 | markdownify }}</div>
       {% endif %}
       {% if hero1.cta %}
         <div class="margin-top-alpha">

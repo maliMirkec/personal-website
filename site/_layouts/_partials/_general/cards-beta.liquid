@@ -38,9 +38,9 @@
                   </header>
                 {% endif %}
                 {% if card2.data.excerpt %}
-                  <div class="padding copy fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
+                  <div class="copy padding fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
                 {% else if card2.template.frontMatter.content %}
-                  <div class="padding copy fs-italic fz-step-0">{{ card2.template.frontMatter.content | markdownify }}</div>
+                  <div class="copy padding fs-italic fz-step-0">{{  card2.template.frontMatter.content | markdownify }}</div>
                 {% endif %}
               </div>
             </div>
@@ -51,7 +51,7 @@
       {% if cards2.desc %}
         <div class="card card--flex text-center padding">
           <div class="margin-auto">
-            <div class="copy">{{ cards2.desc | markdownify }}</div>
+            <div class="copy balance">{{ cards2.desc | markdownify }}</div>
             {% if cards2.cta2 %}
               <div class="margin-top">
                 <a class="button" href="{{ cards2.cta2.href }}">{{ cards2.cta2.title }}</a>
