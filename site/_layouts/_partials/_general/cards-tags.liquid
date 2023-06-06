@@ -33,7 +33,7 @@
                     <time class="button button--invisible button--small" datetime="{{ cardTag.data.date | date: "%Y-%m-%d" }}">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
                   {% endif %}
                   {% if cards1.cta %}
-                    <div class="copy margin-top">{{ cardTag.data.description }}</div>
+                    <div class="copy balance margin-top">{{ cardTag.data.description }}</div>
                   {% endif %}
                 </div>
               {% endif %}
@@ -47,7 +47,7 @@
       {% if cards1.desc %}
         <div class="card card--flex text-center padding">
           <div class="margin-auto">
-            <div class="copy">{{ cards1.desc | markdownify }}</div>
+            <div class="copy balance">{{ cards1.desc | markdownify }}</div>
             {% if cards1.cta2 %}
               <div class="margin-top">
                 <a class="button" href="{{ cards1.cta2.href }}">{{ cards1.cta2.title }}</a>

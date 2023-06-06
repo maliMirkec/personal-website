@@ -21,10 +21,19 @@ h6 {
   font-family: var(--font-beta);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.balance {
+  text-wrap: balance;
+}
+
 body,
 .body-copy {
   font-family: var(--font-alpha);
-  text-wrap: balance;
 }
 
 body {

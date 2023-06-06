@@ -5,7 +5,7 @@
         <div class="tilt">
           <div class="tilt__inner">
             {% if quote.name %}
-              <header class="padding copy">
+              <header class="copy padding">
                 {% if quote.avatar %}
                   <div class="df aic">
                     {% if quote.avatar %}
@@ -32,7 +32,7 @@
               </header>
             {% endif %}
             {% if quote.text %}
-              <div class="padding copy fs-italic fz-step--1">{{ quote.text | prepend: "“" | append: "”" | markdownify }}</div>
+              <div class="copy padding fs-italic fz-step--1">{{ quote.text | prepend: "“" | append: "”" | markdownify }}</div>
             {% endif %}
           </div>
         </div>

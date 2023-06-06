@@ -1095,7 +1095,7 @@ sections:
 - [http://soulwire.github.io/fit.js/](http://soulwire.github.io/fit.js/)
 - [https://www.namecheap.com/hosting/shared.aspx](https://www.namecheap.com/hosting/shared.aspx)
 - [http://demosthenes.info/blog/807/SVG-Optimisation-The-Basics?utm_source=CSS-Weekly&amp;utm_campaign=Issue-92&amp;utm_medium=email](http://demosthenes.info/blog/807/SVG-Optimisation-The-Basics?utm_source=CSS-Weekly&amp;utm_campaign=Issue-92&amp;utm_medium=email)
-- [http://www.hipsterlogogenerator.com/](http://www.hipsterlogogenerator.com/)
+- [https://turbologo.com/](https://turbologo.com/)
 - [http://www.feedthebot.com/pagespeed/critical-render-path.html](http://www.feedthebot.com/pagespeed/critical-render-path.html)
 - [http://www.smashingmagazine.com/2013/12/27/open-sourcing-projects-guide-getting-started/](http://www.smashingmagazine.com/2013/12/27/open-sourcing-projects-guide-getting-started/)
 - [https://github.com/leemunroe/html-email-template](https://github.com/leemunroe/html-email-template)
