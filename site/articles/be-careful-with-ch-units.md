@@ -12,11 +12,9 @@ sections2:
   - type: banner-beta
     banner: newsletter
     animate: true
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-Recently I discovered some weird issues with CLS, although my Lighthouse CLS results were perfect. Me being me, I started to investigate this odd behavior, and I learned a lot about system fonts and CSS ch unit along the way.
+Recently I discovered some weird issues with CLS, although my Lighthouse CLS results were perfect. Me being me, I started to investigate this odd behavior, and I learned a lot about system fonts and CSS `ch` unit along the way.
 
 ## System fonts
 
@@ -30,7 +28,7 @@ It wasn’t until recently that I noticed a Cumulative Layout Shift issue on my 
 
 I thought it had to do with my critical CSS, as it usually does, so I rerun [my script for extracting critical CSS](https://www.npmjs.com/package/acclaimed), but that didn’t fix the CLS issue.
 
-Next, I tried to manually find which CSS affects the CLS issue, but I could not find anything. After that, as a diligent frontend developer, I tried to replicate the issue on other browsers, but the problem wasn’t there. Everything worked perfectly, no CLS flicks and everything seemed perfect.
+Next, I tried to manually find which CSS affects the CLS issue, but I could not find anything. After that, as a diligent frontend developer, I tried to replicate the issue on other browsers, but the problem wasn’t there. Everything worked perfectly—no CLS flicks or any other issues.
 
 Because this kind of stuff makes me crazy, and I couldn’t just let it go, I was determined to find the real cause of my issue. My first guess was that some browser extension might be the cause, as I use quite a few. So I manually turned every extension off one by one and finally discovered that the Grammarly browser extension was the cause. When turned off, there were no CLS issues. This didn’t make sense, so I had to look under the hood to understand the issue.
 
@@ -44,7 +42,7 @@ I opened the network tab in Chrome DevTools and discovered that Inter font was d
 }
 ```
 
-So the browser used the first available font defined in the font stack. In my case, that was Roboto.
+So the browser used the first available font defined in the font stack. That was Roboto because I didn’t have Inter font installed on my machine (Firefox DevTools tells you which fonts are used on specific elements).
 
 {% cldnry "firefox-devtools_owp9s3" "Screenshot of Firefox DevTools showing Roboto font inspector." 759 242 %}
 
