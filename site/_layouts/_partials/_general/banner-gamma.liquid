@@ -12,13 +12,13 @@
         {% endif %}
         {% assign pageUrl = site.url | append: page.url | url_encode %}
         {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: pageUrl %}
-        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: " " | append: pageUrl | append: " via @cita@mastodon.social" %}
+        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: " " | append: pageUrl | append: " via @cita@mastodon.social" | url_encode %}
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: pageUrl %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the article</h3>
         <div class="margin-top margin-bottom-beta">
-          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
-          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
-          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
+          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank" rel="noopener">Twitter</a>
+          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank" rel="noopener">Mastodon</a>
+          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank" rel="noopener">Reddit</a>
         </div>
         <h3 class="fz-step-2 no-margin-top margin-bottom">About the author</h3>
         <p class="fz-step--1 margin-left">{{ site.about }}</p>

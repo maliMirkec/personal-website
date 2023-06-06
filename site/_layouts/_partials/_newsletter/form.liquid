@@ -1,5 +1,5 @@
 <section class="wrapper wrapper--gamma margin-top-beta margin-bottom-beta" id="newsletter">
-  <article class="form padding">
+  <div class="form padding">
     <form action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post" class="newsletter">
       {% if newsletter.logo1 %}
         <img class="margin-bottom" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="100" height="100">
@@ -12,8 +12,8 @@
       {% endif %}
       <label class="fz-step--1 fw-bold" for="bd-email">Enter your email address</label>
       <div class="newsletter__input margin-bottom">
-        <input class="input" type="email" name="email" id="bd-email" />
-        <input class="button button--small" type="submit" value="Subscribe" />
+        <input class="input" type="email" name="email" id="bd-email">
+        <input class="button button--small" type="submit" value="Subscribe">
       </div>
       <div class="copy text-center">
         <p class="fz-step--2 no-margin">No spam, only quality content. Trusted by <span class="fw-bold">500+</span> subscribers.</p>
@@ -27,5 +27,5 @@
         {%- endcomment -%}
       </div>
     </form>
-  </article>
+  </div>
 </section>

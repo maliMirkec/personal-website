@@ -75,9 +75,9 @@
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: pageUrl %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the newsletter</h3>
         <div class="margin-top margin-bottom-beta">
-          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank">Twitter</a>
-          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank">Mastodon</a>
-          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank">Reddit</a>
+          <a class="button button--small margin-left margin-right" href="{{ twitterLink }}" target="_blank" rel="noopener">Twitter</a>
+          <a class="button button--small margin-left margin-right" href="{{ mastodonLink }}" target="_blank" rel="noopener">Mastodon</a>
+          <a class="button button--small margin-left margin-right" href="{{ redditLink }}" target="_blank" rel="noopener">Reddit</a>
         </div>
       </div>
     </div>
