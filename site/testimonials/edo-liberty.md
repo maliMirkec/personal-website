@@ -1,8 +1,8 @@
 ---
 layout: index
-title: Edo liberty
+title: Edo Liberty
 titlePrefix: "Testimional by "
-description: Read testimonial by Edo liberty in which he talks about his positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Edo Liberty in which he talks about his positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
@@ -22,7 +22,7 @@ sections:
     width: 128
     height: 27
     avatar: el2_ptyk3k
-    title: Edo liberty
+    title: Edo Liberty
     desc: Founder, CEO, Scientist at Pinecone.
 sections2:
   - type: banner-beta
