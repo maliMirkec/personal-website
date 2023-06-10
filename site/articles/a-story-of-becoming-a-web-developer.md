@@ -39,8 +39,6 @@ He was working on different projects for a few years. Then a new opportunity aro
 
 {% cldnry "dan-meyers-hluOJZjLVXc-unsplash_j0sub4" "Three banners with inspirational messages: don't give up, you are not alone, and you matter." 759 506 %}
 
-<small>_Image Credit: [Dan Meyers on Unsplash](https://unsplash.com/photos/hluOJZjLVXc)_</small>
-
 During this time, Silvestar learned a lot by attending meetings, collaborating with colleagues, working in teams, and presenting his work to other team members. He worked on challenging user interface parts, and he learned a lot about different Git workflows, project management techniques and tools, and coding principles and standards. Everyone was friendly and helpful.
 
 Then, after a couple of years, the company was acquired by some larger organization which led to shutting down the company in a few months because the product showed as not being sustainable. Silvestar and all workers were let go.

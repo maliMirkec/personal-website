@@ -39,8 +39,6 @@ When I am not coding, I like to write new articles on my blog.
 
 {% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." 759 506 %}
 
-Image credit: [https://unsplash.com/photos/iM6Gm-cdBuw](https://unsplash.com/photos/iM6Gm-cdBuw)
-
 ## What motivated you to choose remote working?
 
 Remote working was something that was always on my mind. In 2017, the company I was working for had to shut down, which was like a sign that I should try my luck in freelancing. So, after a few short gigs, I realised I was capable of working remotely. After that, I have joined a formidable talent network as a UI developer (one of the first ones) and landed a great gig within a month.
@@ -64,8 +62,6 @@ Since, I have invested a lot of time to post meaningful content on my site by pu
 This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless—clients began to contact me directly!
 
 {% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." 759 569 %}
-
-Image credit: [https://unsplash.com/photos/qFH7-yKoxik](https://unsplash.com/photos/qFH7-yKoxik)
 
 ## What have been the best, good and worst aspects of remote working for you?
 
@@ -98,8 +94,6 @@ If I had to give only one piece of advice to a new remote worker, it would be to
 Related to this advice, I would also tell a new remote worker to start finding new gigs on time. You don’t have to wait for your current gig to be finished to start looking for a new one. This could help you avoid significant periods without a job.
 
 {% cldnry "michael-longmire-lhltMGdohc8-unsplash_nyrjzz" "Spilled piggy bank." 759 605 %}
-
-Image credit: [https://unsplash.com/photos/lhltMGdohc8](https://unsplash.com/photos/lhltMGdohc8)
 
 Secondly, making your own schedule is a good aspect of remote working. Although I thought I wouldn’t work out of an office again after I worked from home, I was wrong.
 

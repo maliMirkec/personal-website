@@ -55,8 +55,6 @@ You might want to make a list or a plan or a schedule to avoid wasting time as m
 
 {% cldnry "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." 844 563 %}
 
-<small>_Image Credit: [Kaleidico on Unsplash](https://unsplash.com/photos/26MJGnCM0Wc)_</small>
-
 Following courses or tutorials is a challenge, but writing code alongside might be even more challenging. You might be tempted to copy-paste the code, but that could turn out to be a devastating decision. If you copy-paste the code, you won’t learn anything. Even worse, you might not even understand how it works. That might have severe consequences in the future, like overpromise and providing incorrect estimates to your client or boss, which might affect your reputation or even a job.
 
 The best way to learn is to type every word. Understanding every line and getting familiar with the code is useful not only to make the code work but also for finding bugs and fixing problems.
