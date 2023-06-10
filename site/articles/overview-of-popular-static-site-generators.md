@@ -418,7 +418,7 @@ I hope this overview of static page frameworks helped you realize their potentia
 [the context]: https://gohugo.io/templates/introduction/#context-aka-the-dot
 [middleman-blog]: https://middlemanapp.com/basics/blogging/
 [some rules]: https://jekyllrb.com/docs/assets/
-[Hugo Pipes for Sass]: https://gohugo.io/hugo-pipes/scss-sass/
+[Hugo Pipes for Sass]: https://gohugo.io/hugo-pipes/transform-to-css/
 [plugin]: https://github.com/knksmith57/hexo-renderer-sass
 [Cloudinary free plan]: https://cloudinary.com/documentation/upload_images
 [cloudinary tag]: https://www.npmjs.com/package/hexo-cloudinary

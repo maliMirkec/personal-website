@@ -159,6 +159,6 @@ Now, what are your favorite VS Code settings?
 [an interesting tweet about showing modified tabs in the VS Code]: https://twitter.com/mattbierner/status/1241039298750746624
 [Project Manager extension]: https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
 [Wakatime extension]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
-[BrowserSync]: https://www.browsersync.io/
+[BrowserSync]: https://browsersync.io/
 [Live Server extension]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 [Beautify]: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify

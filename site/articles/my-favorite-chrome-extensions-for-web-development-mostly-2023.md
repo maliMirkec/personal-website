@@ -15,7 +15,7 @@ sections2:
 series: Tools
 ---
 
-I wrote about [my favorite Chrome extensions for web development](/articles/my-favorite-chrome-extensions-for-web-development-mostly) four years ago. This time I wanted to share a few of my favorites that I discovered since then (that may or may not be related to web development).
+I wrote about [my favorite Chrome extensions for web development](/articles/my-favorite-chrome-extensions-for-web-development-mostly/) four years ago. This time I wanted to share a few of my favorites that I discovered since then (that may or may not be related to web development).
 
 ## Grammarly to Markdown
 

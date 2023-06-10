@@ -1406,7 +1406,7 @@ sections:
 - [https://github.com/gajus/wholly](https://github.com/gajus/wholly)
 - [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [http://jwt.io/](http://jwt.io/)
-- [http://www.browsersync.io/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-105&amp;utm_medium=email](http://www.browsersync.io/?utm_source=CSS-Weekly&amp;utm_campaign=Issue-105&amp;utm_medium=email)
+- [https://browsersync.io/](https://browsersync.io/)
 - [https://meetfinch.com/](https://meetfinch.com/)
 - [https://github.com/phalcon/vagrant#software-suggestions](https://github.com/phalcon/vagrant#software-suggestions)
 - [http://ixdchecklist.com/](http://ixdchecklist.com/)
