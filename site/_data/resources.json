@@ -851,27 +851,9 @@
         ]
       },
       {
-        "name": "MVP Factory",
-        "resources": [
-          "https://mvpfactory.co/company/careers/"
-        ]
-      },
-      {
         "name": "Remote",
         "resources": [
           "https://remote.com/"
-        ]
-      },
-      {
-        "name": "Fountain",
-        "resources": [
-          "https://get.fountain.com/"
-        ]
-      },
-      {
-        "name": "Triplebyte",
-        "resources": [
-          "https://triplebyte.com/"
         ]
       },
       {
@@ -881,15 +863,9 @@
         ]
       },
       {
-        "name": "CodersClan",
-        "resources": [
-          "https://www.codersclan.com/"
-        ]
-      },
-      {
         "name": "Upwork",
         "resources": [
-          "https://www.upwork.com/"
+          "https://www.upwork.com/work"
         ]
       },
       {
@@ -920,12 +896,6 @@
         "name": "Yeeply",
         "resources": [
           "https://en.yeeply.com/"
-        ]
-      },
-      {
-        "name": "Hired",
-        "resources": [
-          "https://hired.com/"
         ]
       },
       {
