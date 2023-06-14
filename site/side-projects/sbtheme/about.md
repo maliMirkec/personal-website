@@ -21,7 +21,7 @@ description: SB is a clean and simple theme for Hexo blog framework based on pin
     <div class="content">
       <p>Hexo Theme SB is a theme for
         <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo blog framework</a> built by
-        <a href="https://www.silvestar.codes/">Silvestar Bistrović</a>.<br>This particular website is using Hexo Theme SB, too. To learn more how to use this theme, go to
+        <a href="/">Silvestar Bistrović</a>.<br>This particular website is using Hexo Theme SB, too. To learn more how to use this theme, go to
         <a href="/side-projects/sbtheme/docs/">documentation</a>.</p>
       <p>If you’re having issues, please
         <a href="https://github.com/maliMirkec/hexo-theme-sb/issues" target="_blank" rel="noopener">search for issues</a>

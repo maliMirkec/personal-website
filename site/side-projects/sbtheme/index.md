@@ -29,7 +29,7 @@ date: 2005-10-01
       <h1>Author</h1>
       <p>Silvestar Bistrović</p>
       <ul>
-        <li><a href="https://www.silvestar.codes/">Website</a></li>
+        <li><a href="/">Website</a></li>
         <li><a href="mailto:me@silvestar.codes?Subject=Hello">Mail</a></li>
       </ul>
     </div>
