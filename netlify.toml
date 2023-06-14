@@ -85,15 +85,15 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "yandex"
     ]
 
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-
-  [plugins.inputs.thresholds]
-    performance = 0.9
-    accessibility = 0.9
-    best-practices = 0.9
-    seo = 0.9
-
-  # optional, deploy the lighthouse report to a path under your site
-  [plugins.inputs.audits]
-    output_path = "docs/lighthouse.html"
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"
+#
+#   [plugins.inputs.thresholds]
+#     performance = 0.9
+#     accessibility = 0.9
+#     best-practices = 0.9
+#     seo = 0.9
+#
+#   # optional, deploy the lighthouse report to a path under your site
+#   [plugins.inputs.audits]
+#     output_path = "docs/lighthouse.html"
