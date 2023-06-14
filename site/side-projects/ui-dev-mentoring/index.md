@@ -14,6 +14,6 @@ type: mentor-index
 tags:
   - projects
 ctaApply: true
-display: true
+display: false
 date: 2005-05-01
 ---

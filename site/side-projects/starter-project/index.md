@@ -11,7 +11,7 @@ thumbnail:
   alt: Screenshot of the Starter Project website.
   width: 759
   height: 459
-display: true
+display: false
 date: 2005-07-01
 ---
 

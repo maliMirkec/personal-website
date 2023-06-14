@@ -7,9 +7,9 @@
     {% elsif isRibbons %}
       <link rel="stylesheet" href="/css/ribbons.min.css">
     {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.critical.min.css">
+      <link rel="stylesheet" href="/css/slides.min.css">
     {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.critical.min.css">
+      <link rel="stylesheet" href="/css/devcards.min.css">
     {% else %}
       <link rel="stylesheet" href="/css/style.min.css">
     {% endif %}
@@ -20,9 +20,11 @@
   {% elsif isRibbons %}
     <link rel="stylesheet" href="/css/ribbons.min.css">
   {% elsif isSlides %}
-    <link rel="stylesheet" href="/css/slides.critical.min.css">
+    <link rel="stylesheet" href="/css/slides.min.css">
   {% elsif is360 %}
-    <link rel="stylesheet" href="/css/devcards.critical.min.css">
+    <link rel="stylesheet" href="/css/devcards.min.css">
+  {% elsif isHexo %}
+    <link rel="stylesheet" href="/css/hexo.min.css">
   {% else %}
     <link rel="stylesheet" href="/css/style.min.css">
   {% endif %}

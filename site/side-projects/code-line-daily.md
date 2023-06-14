@@ -12,7 +12,7 @@ thumbnail:
   width: 759
   height: 459
 display: true
-date: 2005-04-01
+date: 2005-01-03
 sections:
   - type: hero-alpha
     src: cld_eweklc

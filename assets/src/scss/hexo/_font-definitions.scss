@@ -1,0 +1,15 @@
+@font-face {
+  font-family: $font-alpha;
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Vollkorn/Vollkorn-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-beta;
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff') format('woff');
+}

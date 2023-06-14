@@ -11,7 +11,7 @@ thumbnail:
   alt: Screenshot of the Dev Cards 360 project.
   width: 759
   height: 459
-display: true
+display: false
 devcards: true
 date: 2005-09-01
 ---

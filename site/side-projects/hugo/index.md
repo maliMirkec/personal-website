@@ -12,7 +12,7 @@ thumbnail:
   alt: Screenshot of the “Making a website with Hugo” home page.
   width: 759
   height: 459
-display: true
+display: false
 date: 2005-08-01
 ---
 

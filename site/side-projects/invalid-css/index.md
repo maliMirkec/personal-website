@@ -12,7 +12,7 @@ thumbnail:
 type: articles
 tags:
   - projects
-date: 2005-02-01
+date: 2005-01-04
 sections:
   - type: hero-alpha
     title: Invalid CSS

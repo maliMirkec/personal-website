@@ -28,7 +28,7 @@ I created this site back in 2016. The first site was built on my custom PHP-base
 
 ## The background
 
-Unfortunately, I don't have any versions of the initial design. Since my site was relatively small, even the [Wayback Machine site](https://web.archive.org/web/20160901000000*/https://silvestarbistrovic.from.hr/) didn't record it. The only thing I remember was that I wanted to develop my PHP-based drag-n-drop CMS. How young and optimistic was I, right?
+Unfortunately, I don't have any versions of the initial design. Since my site was relatively small, even the [Wayback Machine site](https://web.archive.org/web/20160901000000*/https://silvestar.codes/) didn't record it. The only thing I remember was that I wanted to develop my PHP-based drag-n-drop CMS. How young and optimistic was I, right?
 
 In 2017, I moved to WordPress briefly. I dropped out of the idea of making my own CMS and moved to the most famous player out there. However, I was never happy with it as I found it hard to develop and deploy new features.
 

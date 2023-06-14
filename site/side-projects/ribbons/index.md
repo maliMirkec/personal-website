@@ -12,7 +12,7 @@ thumbnail:
   alt: Screenshot of the “Ribbons” project page.
   width: 759
   height: 459
-display: true
+display: false
 date: 2005-10-01
 ---
 

@@ -11,7 +11,7 @@ thumbnail:
   width: 759
   height: 459
 display: true
-date: 2005-03-01
+date: 2005-01-02
 sections:
   - type: hero-alpha
     src: css-auditors_fozunn

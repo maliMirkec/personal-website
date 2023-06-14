@@ -5,9 +5,11 @@
     {% elsif isRibbons %}
       <link rel="stylesheet" href="/css/ribbons.min.css" media="print" onload='this.media="all"'>
     {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.critical.min.css" media="print" onload='this.media="all"'>
+      <link rel="stylesheet" href="/css/slides.min.css" media="print" onload='this.media="all"'>
     {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.critical.min.css" media="print" onload='this.media="all"'>
+      <link rel="stylesheet" href="/css/devcards.min.css" media="print" onload='this.media="all"'>
+    {% elsif isHexo %}
+      <link rel="stylesheet" href="/css/hexo.min.css" media="print" onload='this.media="all"'>
     {% else %}
       <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
     {% endif %}
