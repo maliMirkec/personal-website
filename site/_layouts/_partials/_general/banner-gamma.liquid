@@ -10,9 +10,10 @@
           {% assign textEncoded = content | strip_html | strip | url_encode %}
           {% assign textEscaped = textEncoded | replace: '+', '%20' %}
         {% endif %}
+        {% assign textMastodon = " via @cita@mastodon.social" | strip_html | strip | url_encode %}
         {% assign pageUrl = site.url | append: page.url | url_encode %}
         {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: textEncoded | append: "&via=" | append: site.twitter | append: "&url=" | append: pageUrl %}
-        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: " " | append: pageUrl | append: " via @cita@mastodon.social" | url_encode %}
+        {% assign mastodonLink = "https://s2f.kytta.dev/?text=" | append: textEscaped | append: textMastodon | append: pageUrl %}
         {% assign redditLink = "https://www.reddit.com/submit?title=" | append: textEncoded | append: "&url=" | append: pageUrl %}
         <h3 class="fz-step-2 no-margin-top no-margin-bottom js-animate">Share the article</h3>
         <div class="margin-top margin-bottom-beta">

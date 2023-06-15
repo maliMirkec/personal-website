@@ -339,7 +339,6 @@
           "https://www.experte.com/pagespeed",
           "https://www.webpagetest.org/",
           "https://tools.pingdom.com/",
-          "https://webhint.io/scanner/",
           "https://www.dotcom-tools.com/website-speed-test.aspx",
           "https://webspeedtest.cloudinary.com/",
           "https://securityheaders.com/",
@@ -492,7 +491,6 @@
           "https://www.csswand.dev/",
           "https://extra-css.netlify.com/",
           "https://grid.layoutit.com/",
-          "https://csslayout.io/patterns",
           "https://getwaves.io/",
           "https://www.gradientmagic.com/",
           "https://www.grabient.com/",
@@ -509,7 +507,7 @@
         "resources": [
           "http://fontfamily.io/",
           "https://transfonter.org/",
-          "https://devfonts.gafi.dev/l",
+          "https://devfonts.gafi.dev/",
           "https://www.notion.so/e873b52e0cc54f2981acc430417ba61d?v=05acdd40b0564920be69f5347f619bc3",
           "https://www.reliablepsd.com/ultimate-google-font-pairings/"
         ]
@@ -641,7 +639,6 @@
         "resources": [
           "https://www.freecodecamp.org/news/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217/",
           "https://www.omnesgroup.com/online-presence-as-junior-developer/",
-          "https://codeup.com/what-developers-need-to-have-for-their-online-presence/",
           "https://simpleprogrammer.com/online-presence-programmer/",
           "https://www.freecodecamp.org/news/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217/"
         ]
@@ -656,7 +653,7 @@
         "name": "Inspiration",
         "resources": [
           "https://inspiration-bits.com/archives/",
-          "https://github.com/sw-yx/spark-joy"
+          "https://github.com/swyxio/spark-joy"
         ]
       }
     ]
@@ -759,12 +756,6 @@
         "name": "CSS-Tricks",
         "resources": [
           "https://css-tricks.com/jobs/"
-        ]
-      },
-      {
-        "name": "CodePen",
-        "resources": [
-          "https://codepen.io/jobs/"
         ]
       },
       {

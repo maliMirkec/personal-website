@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of Calvert website.
   width: 759
   height: 459
-link: //www.calvert.com/invest-with-purpose.php
+link: //www.calvert.com/?DM=invest-with-purpose
 display: true
 date: 2010-01-09
 type: portfolio-item
@@ -33,7 +33,7 @@ sections:
 
       - Created custom animations.
     cta:
-      href: //www.calvert.com/invest-with-purpose.php
+      href: //www.calvert.com/?DM=invest-with-purpose
       title: Go to site
       animate: true
   - type: hero-beta
