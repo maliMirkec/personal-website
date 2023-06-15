@@ -12,6 +12,7 @@ thumbnail:
   alt: Screenshot of my favorite TV shows.
   width: 490
   height: 294
+js: gallery
 sections:
   - type: hero-alpha
     title: My favorite TV shows

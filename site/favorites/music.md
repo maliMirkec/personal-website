@@ -11,6 +11,7 @@ thumbnail:
   alt: Screenshot of my favorite music.
   width: 490
   height: 294
+js: gallery
 sections:
   - type: hero-alpha
     title: My favorite music

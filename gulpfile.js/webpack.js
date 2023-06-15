@@ -8,6 +8,7 @@ module.exports = {
   entry: {
     sb: helpers.parse('helpers.source/config.js.src/sb.js'),
     gallery: helpers.parse('helpers.source/config.js.src/gallery.js'),
+    'masonry': helpers.parse('helpers.source/config.js.src/masonry.js'),
     devcards: helpers.parse('helpers.source/config.js.src/devcards.js')
   },
   output: {

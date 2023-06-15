@@ -15,6 +15,7 @@ music:
 pagination:
   data: music
   size: 12
+js: gallery
 sections:
   - type: hero-alpha
     title: My TV favorites

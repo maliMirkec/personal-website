@@ -3,6 +3,6 @@
   <script src="https://kwes.io/js/kwes.js" defer></script>
 {% endif %}
 {% assign checkGallery = sections | concat: sections2 | where: "type", "cards-epsilon" %}
-{% if checkGallery %}
-  <script src="/js/gallery.js" defer></script>
+{% if js %}
+  <script src="/js/{{ js }}.js" defer></script>
 {% endif %}
