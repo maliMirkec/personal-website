@@ -4,7 +4,7 @@ title: Browser bookmarks
 descriptionAlt: Browser bookmarks export file.
 description: Discover a collection of curated browser bookmarks, from web development tools to online resources, find everything you need boost your productivity.
 date: 2017-08-02 20:08:06
-type: page
+type: articles-item
 sections:
   - type: hero-alpha
     title: Browser Bookmarks
@@ -14,210 +14,420 @@ sections:
 
 ## Browser links
 
-- <a href="https://extendsclass.com/xpath-tester.html" rel="nofollow">Xpath tester</a>
-- <a href="https://extendsclass.com/sqlite-browser.html" rel="nofollow">SQLite fiddle</a>
-- <a href="https://extendsclass.com/regex-tester.html" rel="nofollow">RegEx Tester</a>
-- <a href="https://extendsclass.com/javascript-fiddle.html" rel="nofollow">JavaScript fiddle</a>
-- <a href="https://extendsclass.com/jsonpath-tester.html" rel="nofollow">JSONPath Tester</a>
-- <a href="https://extendsclass.com/php-tester.html" rel="nofollow">PHP code checker</a>
-- <a href="https://extendsclass.com/python-tester.html" rel="nofollow">Python code checker</a>
-- <a href="https://extendsclass.com/rest-client-online.html" rel="nofollow">REST client</a>
-- <a href="https://extendsclass.com/soap-client-online.html" rel="nofollow">SOAP client</a>
-- <a href="https://extendsclass.com/web-service-tester.html" rel="nofollow">Web service testing</a>
-- <a href="https://extendsclass.com/mock-rest-api.html" rel="nofollow">Mock REST API</a>
-- <a href="https://extendsclass.com/json-validator.html" rel="nofollow">JSON formatter and validator</a>
-- <a href="https://extendsclass.com/xml-formatter-online.html" rel="nofollow">XML formatter and validator</a>
-- <a href="https://extendsclass.com/sql-formatter.html" rel="nofollow">SQL formatter</a>
-- <a href="https://extendsclass.com/xml-to-json.html" rel="nofollow">XML to JSON</a>
-- <a href="https://extendsclass.com/json-to-csv.html" rel="nofollow">JSON to CSV</a>
-- <a href="https://extendsclass.com/csv-to-excel.html" rel="nofollow">CSV to Excel</a>
-- <a href="https://extendsclass.com/image-to-base64.html" rel="nofollow">Base64 image encoder / decoder</a>
-- <a href="https://extendsclass.com/base64-decode-encode.html" rel="nofollow">Base64 encoder / decoder</a>
-- <a href="https://extendsclass.com/css-minifier.html" rel="nofollow">CSS minifier</a>
-- <a href="https://extendsclass.com/html-minifier.html" rel="nofollow">HTML minifier</a>
-- <a href="https://extendsclass.com/javascript-minifier.html" rel="nofollow">JavaScript minifier</a>
-- <a href="https://extendsclass.com/text-compare.html" rel="nofollow">Text diff</a>
-- <a href="https://extendsclass.com/xml-diff.html" rel="nofollow">XML diff</a>
-- <a href="https://extendsclass.com/json-diff.html" rel="nofollow">JSON diff</a>
-- <a href="https://codepen.io/shshaw/pen/rrOZQQ" rel="nofollow">SVG bg</a>
-- <a href="http://ruyadorno.github.io/simple-slider/" rel="nofollow">simple-slider</a>
-- <a href="https://quokkajs.com/" rel="nofollow">Quokka - Live Scratchpad for JavaScript</a>
-- <a href="https://codepen.io/shshaw/pen/LVKEdv" rel="nofollow">JPNG.svg (Transparent PNG with JPEG Compression)</a>
-- <a href="https://codepen.io/anthonydugois/pen/mewdyZ" rel="nofollow">SVG Path Builder</a>
-- <a href="http://kenwheeler.github.io/slick/" rel="nofollow">slick - the last carousel you&#39;ll ever need</a>
-- <a href="https://www.grabient.com/?utm_source=CSS-Weekly&utm_campaign=Issue-280&utm_medium=email" rel="nofollow">Grabient</a>
-- <a href="https://www.sitelocity.com/critical-path-css-generator" rel="nofollow">Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity</a>
-- <a href="https://nordicapis.com/7-helpful-http-tools/" rel="nofollow">7 Helpful HTTP Tools | Nordic APIs |</a>
-- <a href="https://regexly.chipto.io/" rel="nofollow">Regexly | Chipto</a>
-- <a href="http://code.thisarmy.com/fontsinfo/" rel="nofollow">Google Font OpenType Feature Preview</a>
-- <a href="https://palette.okaybueno.com/p/59ce420a3a5905064c32b6b4" rel="nofollow">palette - an okay bueno experience</a>
-- <a href="http://animejs.com/" rel="nofollow">anime.js</a>
-- <a href="https://codepen.io/jarmie/full/1ba718e2b7c02c6310671716128fc5d2/" rel="nofollow">CodePen - Hero Trouble</a>
-- <a href="https://gethead.info/" rel="nofollow">HEAD - A free guide to &lt;head&gt; elements</a>
-- <a href="https://mobile.twitter.com/i/moments/880688233641848832" rel="nofollow">Little UI Details</a>
-- <a href="http://animista.net/play/basic/scale-up" rel="nofollow">Animista</a>
-- <a href="https://gruntwork.io/why-prod-is-down/" rel="nofollow">Why Prod is Down</a>
-- <a href="http://fontfamily.io/" rel="nofollow">fontfamily.io</a>
-- <a href="https://stackoverflow.com/questions/12616011/google-map-polyline-with-shadow" rel="nofollow">Google map polyline with shadow - Stack Overflow</a>
-- <a href="http://html5pattern.com/" rel="nofollow">html5pattern.com</a>
-- <a href="https://wkhtmltopdf.org/?utm_source=CSS-Weekly&utm_campaign=Issue-293&utm_medium=email" rel="nofollow">wkhtmltopdf</a>
-- <a href="https://trackchanges.mikerogers.io/?utm_source=CSS-Weekly&utm_campaign=Issue-294&utm_medium=email" rel="nofollow">TrackChanges for Google Chrome™</a>
-- <a href="https://isellsoap.github.io/specificity-visualizer/?utm_source=CSS-Weekly&utm_campaign=Issue-294&utm_medium=email" rel="nofollow">Specificity Visualizer</a>
-- <a href="http://bennettfeely.com/clippy/" rel="nofollow">Clippy—CSS clip-path maker</a>
-- <a href="https://createjs.com/" rel="nofollow">CreateJS | A suite of JavaScript libraries and tools designed for working with HTML5</a>
-- <a href="https://ui.toast.com/tui-editor/" rel="nofollow">TOAST UI Editor by FE Development Lab / NHN Entertainment</a>
-- <a href="https://www.cockos.com/licecap/" rel="nofollow">LICEcap | GIF Screen Captures</a>
-- <a href="http://www.heymeta.com/url/irinaandmatej.com" rel="nofollow">HEY META - Website Meta Tag Check</a>
-- <a href="https://www.browserling.com/tools/image-to-base64" rel="nofollow">Image to Base64 Converter - Encode Images to Base64 - Online - Browserling Web Developer Tools</a>
-- <a href="https://jakearchibald.github.io/svgomg/" rel="nofollow">SVGOMG - SVGO&#39;s Missing GUI</a>
-- <a href="https://www.getoutline.com/#features" rel="nofollow">Outline - Team wiki &amp; documentation</a>
-- <a href="https://spotify.github.io/coordinator/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">Coördinator</a>
-- <a href="https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22" rel="nofollow">Witeboard</a>
-- <a href="https://github.com/c0bra/deviceframe" rel="nofollow">c0bra/deviceframe: Put device frames around your mobile/web/progressive app screenshots.</a>
-- <a href="https://formspree.io/" rel="nofollow">Formspree</a>
-- <a href="https://michalsnik.github.io/aos/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">AOS - Animate on scroll library</a>
-- <a href="http://uigoodies.com/index.html" rel="nofollow">A Directory of design and frontend resources</a>
-- <a href="https://codepen.io/jesstelford/pen/PaBMrL" rel="nofollow">Dynamic SVG image placeholders</a>
-- <a href="https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/" rel="nofollow">5 Ways to Handle Forms on Your Static Site | Forestry.io</a>
-- <a href="https://www.screely.com/" rel="nofollow">Screely - Generate Beautiful Images</a>
-- <a href="https://cssduotone.com/" rel="nofollow">CSS Duotone Generator</a>
-- <a href="https://streamlineicons.com/" rel="nofollow">Streamline 3.0—The World&#39;s Largest Icon Library</a>
-- <a href="https://scroll-out.github.io/?utm_source=CSS-Weekly&utm_campaign=Issue-331&utm_medium=web" rel="nofollow">ScrollOut</a>
-- <a href="https://www.colorbox.io/?utm_source=CSS-Weekly&utm_campaign=Issue-334&utm_medium=web" rel="nofollow">ColorBox by Lyft Design</a>
-- <a href="https://frontendchecklist.io/" rel="nofollow">The Front-End Checklist - ✨ Your best Front-End Tool ✨</a>
-- <a href="https://yoksel.github.io/svg-gradient-map/#/" rel="nofollow">SVG Gradient Map Filter</a>
-- <a href="https://mailtolink.me/" rel="nofollow">mailtolink.me | markup generator for mailto links</a>
-- <a href="https://gitexplorer.com/" rel="nofollow">Git Explorer</a>
-- <a href="https://remote.tools/" rel="nofollow">Remote Tools—A repository of handpicked tools for remote teams</a>
-- <a href="https://github.com/faressoft/terminalizer?utm_source=CSS-Weekly&utm_campaign=Issue-336&utm_medium=web" rel="nofollow">faressoft/terminalizer: 🦄 Record your terminal and generate animated gif images or share a web player</a>
-- <a href="https://9elements.github.io/fancy-border-radius/?utm_source=CSS-Weekly&utm_campaign=Issue-335&utm_medium=web#41.30.30.30--." rel="nofollow">Fancy Border Radius Generator</a>
-- <a href="https://cloudflare.design/color/" rel="nofollow">Color - Cloudflare Design</a>
-- <a href="https://www.24sata.hr/" rel="nofollow">Najnovije vijesti iz Hrvatske i svijeta | 24sata</a>
-- <a href="https://flawlessapp.io/designtools" rel="nofollow">Awesome Design Tools</a>
-- <a href="http://speakhuman.today/" rel="nofollow">Speak Human</a>
-- <a href="http://www.jstips.co/en/calculate-the-max-min-value-from-an-array/" rel="nofollow">Calculate the Max/Min value from an array</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" rel="nofollow">Array - JavaScript | MDN</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger" rel="nofollow">Number.isInteger() - JavaScript | MDN</a>
-- <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray" rel="nofollow">Array.isArray() - JavaScript | MDN</a>
-- <a href="http://www.w3schools.com/jsref/jsref_match.asp" rel="nofollow">JavaScript String match() Method</a>
-- <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Expressions_and_Operators" rel="nofollow">Expressions and operators - JavaScript | MDN</a>
-- <a href="https://a11yproject.com/" rel="nofollow">The A11Y Project</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" rel="nofollow">Using ARIA - Accessibility | MDN</a>
-- <a href="https://www.w3.org/TR/wai-aria-practices/#intro" rel="nofollow">WAI-ARIA Authoring Practices 1.1</a>
-- <a href="https://www.w3.org/TR/wai-aria/" rel="nofollow">Accessible Rich Internet Applications (WAI-ARIA) 1.0</a>
-- <a href="http://webaim.org/resources/contrastchecker/" rel="nofollow">WebAIM: Color Contrast Checker</a>
-- <a href="https://bitsofco.de/pa11y/" rel="nofollow">Accessibility Testing with pa11y</a>
-- <a href="https://www.accesslint.com/?utm_source=CSS-Weekly&utm_campaign=Issue-282&utm_medium=email" rel="nofollow">AccessLint - Automated and continuous web accessibility testing</a>
-- <a href="http://html5accessibility.com/" rel="nofollow">HTML5 accessibility</a>
-- <a href="http://accessible-colors.com/" rel="nofollow">Accessible Colors | WCAG 2.0 AA and AAA color contrast checker</a>
-- <a href="https://axe-core.org/" rel="nofollow">Easy Accessibility Testing with aXe</a>
-- <a href="https://tenon.io/" rel="nofollow">Tenon.io</a>
-- <a href="https://wave.webaim.org/" rel="nofollow">WAVE Web Accessibility Tool</a>
-- <a href="https://www.google.hr/search?q=eslint+plugin+jsx+a11y&oq=eslint+plugin+jsx+a&aqs=chrome.0.0j69i57.2779j0j1&sourceid=chrome&ie=UTF-8" rel="nofollow">eslint plugin jsx a11y - Google Search</a>
-- <a href="https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a" rel="nofollow">Which accessibility testing tool should you use?—Pulsar—Medium</a>
-- <a href="http://pa11y.org/" rel="nofollow">Pa11y</a>
-- <a href="http://a11y-style-guide.com/style-guide/" rel="nofollow">A11Y Style Guide</a>
-- <a href="https://www.ssa.gov/accessibility/andi/help/install.html" rel="nofollow">ANDI - Accessibility Testing Tool - Install</a>
-- <a href="https://a11y-style-guide.com/style-guide/" rel="nofollow">A11Y Style Guide</a>
-- <a href="https://webpack.js.org/concepts/" rel="nofollow">Webpack Concepts</a>
-- <a href="https://github.com/webpack-contrib/awesome-webpack" rel="nofollow">webpack-contrib/awesome-webpack: A curated list of awesome Webpack resources, libraries and tools</a>
-- <a href="https://github.com/jantimon/html-webpack-plugin/issues/218" rel="nofollow">Multiple entry points -&gt; multiple html outputs? · Issue #218 · jantimon/html-webpack-plugin</a>
-- <a href="https://www.npmjs.com/package/directory-named-webpack-plugin" rel="nofollow">directory-named-webpack-plugin</a>
-- <a href="https://webpack.jakoblind.no/" rel="nofollow">Webpack config tool</a>
-- <a href="https://roots.io/sage/" rel="nofollow">Sage | WordPress Starter Theme | Roots</a>
-- <a href="https://github.com/timber/starter-theme" rel="nofollow">timber/starter-theme: The &quot;_s&quot; for Timber: a dead-simple theme that you can build from</a>
-- <a href="https://docs.flothemes.com/recommended-plug-ins/" rel="nofollow">Recommended Plug-ins—Flothemes Documentation</a>
-- <a href="https://openlitespeed.org/kb/digitalocean-1-click-wordpress-installation-upgrade/" rel="nofollow">Upgrade Digital Ocean WordPress Droplet to OpenLiteSpeed • OpenLiteSpeed</a>
-- <a href="https://www.toptal.com/wordpress/wordpress-roots-stack?utm_campaign=Toptal%20Engineering%20Blog&utm_source=hs_email&utm_medium=email&utm_content=71405532&_hsenc=p2ANqtz--FyMUPbCT5s2PJDOXbhNRzdQ2gu6ofYGPhkj093qd0Oplc8J1xBCD9b6_cJjYbv11np3-Aw2M2Zri3Nz1k8twLtJV-6bqNwJzlHeifnv9T1s-yC54&_hsmi=71405532" rel="nofollow">WordPress Roots Stack Explained | Toptal</a>
-- <a href="https://gist.github.com/sgergely/3793166" rel="nofollow">Midnight Commander Keyboard Shortcuts for Mac OSX</a>
-- <a href="https://validator.w3.org/" rel="nofollow">The W3C Markup Validation Service</a>
-- <a href="https://search.google.com/test/mobile-friendly" rel="nofollow">Mobile-Friendly Test - Google Search Console</a>
-- <a href="https://developers.google.com/speed/pagespeed/insights/" rel="nofollow">PageSpeed Insights</a>
-- <a href="https://www.webpagetest.org/" rel="nofollow">WebPagetest - Website Performance and Optimization Test</a>
-- <a href="https://tools.pingdom.com/" rel="nofollow">Website speed test</a>
-- <a href="https://www.dotcom-tools.com/website-speed-test.aspx" rel="nofollow">Website Speed Test | Check Web Performance » Dotcom-Tools</a>
-- <a href="https://webspeedtest.cloudinary.com/" rel="nofollow">Website Speed Test - Image Analysis Tool by Cloudinary</a>
-- <a href="https://securityheaders.com/" rel="nofollow">Analyse your HTTP response headers</a>
-- <a href="https://webbkoll.dataskydd.net/en" rel="nofollow">Analyze | Webbkoll - dataskydd.net</a>
-- <a href="https://developers.google.com/web/tools/lighthouse/" rel="nofollow">Lighthouse</a>
-- <a href="https://www.dareboost.com/en/analysis" rel="nofollow">Analyze your Website and Test Page Speed | Dareboost</a>
-- <a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/" rel="nofollow">Winning on Mobile</a>
-- <a href="https://mxtoolbox.com/Public/FreeInvestigator.aspx" rel="nofollow">https://mxtoolbox.com/Public/FreeInvestigator.aspx</a>
-- <a href="https://progressivetooling.com/" rel="nofollow">Progressive Tooling</a>
-- <a href="https://www.statuscake.com/" rel="nofollow">Website Monitoring &amp; Downtime Updates | StatusCake</a>
-- <a href="https://www.scamadviser.com/" rel="nofollow"> scam</a>
-- <a href="https://fontfaceobserver.com/" rel="nofollow">Font Face Observer—fast and simple web font loading</a>
-- <a href="https://meowni.ca/font-style-matcher/" rel="nofollow">Font style matcher</a>
-- <a href="https://transfonter.org/" rel="nofollow">Transfonter—online @font-face generator</a>
-- <a href="https://rsms.me/inter/" rel="nofollow">Inter UI font family</a>
-- <a href="https://www.zachleat.com/web/23-minutes/" rel="nofollow">23 Minutes of Work for Better Font Loading—zachleat.com</a>
-- <a href="https://jonathan-harrell.com/experiment/typographic-details-cheat-sheet/" rel="nofollow">Typographic Details Cheat Sheet</a>
-- <a href="https://keyes.ie/things/baseliner/" rel="nofollow">Baseliner—keyes.ie</a>
-- <a href="https://fontdrop.info/" rel="nofollow">FontDrop!</a>
-- <a href="https://www.graphicdesignfreebies.com/home/2018/5/28/mouleyscript" rel="nofollow">Mouley Script—Graphic Design Freebies</a>
-- <a href="https://github.com/Munter/subfont?utm_source=CSS-Weekly&utm_campaign=Issue-318&utm_medium=email" rel="nofollow">elf-hosting of Google fonts and preloading</a>
-- <a href="https://www.zachleat.com/web/font-checklist/" rel="nofollow">The Font Loading Checklist—zachleat.com</a>
-- <a href="https://javascript.info/" rel="nofollow">The Modern Javascript Tutorial</a>
-- <a href="http://exercism.io/languages/javascript/exercises" rel="nofollow">JavaScript - exercism.io</a>
-- <a href="https://github.com/AllThingsSmitty/must-watch-javascript" rel="nofollow">AllThingsSmitty/must-watch-javascript: A useful list of must-watch talks about JavaScript</a>
-- <a href="https://github.com/AllThingsSmitty/must-watch-css" rel="nofollow">AllThingsSmitty/must-watch-css: A useful list of must-watch talks about CSS</a>
-- <a href="https://www.toptal.com/resources" rel="nofollow">How to Find Great Software Developers (Or Be Found) | Toptal</a>
-- <a href="https://github.com/Chalarangelo/30-seconds-of-code" rel="nofollow">econds or less.</a>
-- <a href="https://cssgrid.io/" rel="nofollow">CSS Grid—Learn all about CSS Grid with Wes Bos in this free video series!</a>
-- <a href="https://scrimba.com/g/gcssvariables" rel="nofollow">Learn CSS Variables for free | Scrimba.com</a>
-- <a href="https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/" rel="nofollow">How to Write CSS That Works in Every Browser, Even the Old Ones—Mozilla Hacks—the Web developer blog</a>
-- <a href="https://www.vuemastery.com/" rel="nofollow">Vue Mastery | The Ultimate Learning Resource for Vue.js Developers</a>
-- <a href="http://www.gridtoflex.com/" rel="nofollow">gridtoflex.com</a>
-- <a href="https://cssgr.id/" rel="nofollow">cssgr.id | An interactive CSS Grid code tool and generator</a>
-- <a href="https://justmarkup.com/log/2018/03/collection-of-css-snippets/" rel="nofollow">Collection of CSS snippets | justmarkup</a>
-- <a href="https://www.learnenough.com/javascript-tutorial" rel="nofollow">Learn Enough JavaScript to Be Dangerous | Learn Enough to Be Dangerous</a>
-- <a href="https://3dtransforms.desandro.com/" rel="nofollow">Intro to CSS 3D transforms</a>
-- <a href="https://github.com/cssanimation/css-animation-101?utm_source=CSS-Weekly&utm_campaign=Issue-342&utm_medium=web" rel="nofollow">cssanimation/css-animation-101: Learn how to bring animation to your web projects</a>
-- <a href="https://www.toptal.com/tracker/" rel="nofollow">TopTracker - Time Tracking App. Free Forever.</a>
-- <a href="https://toggl.com/" rel="nofollow">Toggl - Free Time Tracking Software</a>
-- <a href="https://timingapp.com/" rel="nofollow">Timing: the best automatic Mac time tracker for productive professionals and freelancers</a>
-- <a href="https://codepen.io/giana/pen/YZWjQy" rel="nofollow">CSS-only directionally aware hover</a>
-- <a href="https://tympanus.net/codrops2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">2017: A round-up of all Codrops resources</a>
-- <a href="https://lawsofux.com/" rel="nofollow">Home | Laws of UX</a>
-- <a href="https://codemyui.com/tag/link/" rel="nofollow">link Design Inspiration - HTML &amp; CSS Snippets | Web Design Inspiration with Code Snippets</a>
-- <a href="https://codemyui.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">Web Design Inspiration - CSS Snippets Ξ ℂ𝕠𝕕𝕖𝕄𝕪𝕌𝕀</a>
-- <a href="https://uimovement.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">UI Movement - The best UI design inspiration, every day</a>
-- <a href="https://daneden.github.io/animate.css/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=CSS%20Animation%20Weekly" rel="nofollow">Animate.css</a>
-- <a href="https://coolbackgrounds.io/" rel="nofollow">Cool Backgrounds</a>
-- <a href="https://tympanus.net/Development/GridMenu/index2.html" rel="nofollow">Grid Menu | Demo 2 | Codrops</a>
-- <a href="https://webkul.github.io/coolhue/" rel="nofollow">CoolHue 2.0 - Coolest Gradient Hues and Swatches</a>
-- <a href="https://codepen.io/collection/nMgKxJ/" rel="nofollow">Useful Pens for Everyday Front End Development - a Collection by Sarah Drasner on CodePen</a>
-- <a href="https://flothemes.com/make-website-gdpr-ready/" rel="nofollow">Make website gdpr ready</a>
-- <a href="http://www.wpbeginner.com/beginners-guide/the-ultimate-guide-to-wordpress-and-gdpr-compliance-everything-you-need-to-know/?utm_source=wpdashboard&utm_medium=amnotification&utm_campaign=gdprguide" rel="nofollow">The Ultimate Guide to WordPress and GDPR Compliance (in Plain English)</a>
-- <a href="https://faq.getstation.com/data-and-privacy" rel="nofollow">Data &amp; Privacy | Station&#39;s Frequently Asked Questions</a>
-- <a href="https://www.jeffalytics.com/google-analytics-spring-cleaning/?utm_source=Jeffalytics&utm_medium=email&utm_campaign=Let%27s+Perform+a+Google+Analytics+Spring+Cleaning+on+Your+Accounts&utm_content=Google+Analytics+Spring+Cleaning-+2018-05-22+&utm_source=Analytics%20Course&utm_medium=email&utm_campaign=Analytics+News+-+5-24-18+-+Google+Analytics+Spring+Cleaning&utm_content=GDPR+or+not%2C+it%E2%80%99s+time+to+take+out+your+analytics+trash" rel="nofollow">Google Analytics Spring Cleaning: GDPR or not, it&#39;s time to take out your analytics trash - Jeffalytics</a>
-- <a href="https://gdprhallofshame.com/" rel="nofollow">GDPR Hall of Shame</a>
-- <a href="https://www.control-alt-del.org/blog/serverless-blog-howto/" rel="nofollow">Serverless blog HOWTO · Cogito Interruptus Vulgaris</a>
-- <a href="https://www.onegraph.com/" rel="nofollow">Dashboard - Build Integrations 10x-100x Faster</a>
-- <a href="https://snipcart.com/blog/jamstack-clients-static-site-cms" rel="nofollow">JAMstack for Clients: Benefits, Static Site CMS, &amp; Limitations - Snipcart</a>
-- <a href="https://humanwhocodes.com/blog/2018/03/scheduling-jekyll-posts-netlify/" rel="nofollow">Scheduling Jekyll posts with Netlify and AWS - Human Who Codes</a>
-- <a href="https://www.seocentro.com/tools/search-engines/keyword-position.html" rel="nofollow">Rank Checker</a>
-- <a href="https://www.wordstream.com/wordstream-graders?camplink=mainnavbar&campname=OurSoftware" rel="nofollow">WordStream Free Graders</a>
-- <a href="https://serpstat.com/" rel="nofollow">Serpstat—Growth hacking tool for SEO, PPC and content marketing</a>
-- <a href="https://www.similarweb.com/" rel="nofollow">SimilarWeb | Website Traffic Statistics &amp; Market Intelligence</a>
-- <a href="https://moz.com/free-seo-tools" rel="nofollow">Moz - World&#39;s Best SEO Tools and Free Search Software</a>
-- <a href="https://www.mariehaynes.com/algo-changes-and-more/" rel="nofollow">Google Algorithm Update History - Penguin, Panda and more.</a>
-- <a href="https://css-tricks.com/snippets/php/automatic-copyright-year/" rel="nofollow">Automatic Copyright Year | CSS-Tricks</a>
-- <a href="http://youmightnotneedjquery.com/" rel="nofollow">You Might Not Need jQuery</a>
-- <a href="http://youmightnotneedjs.com/" rel="nofollow">You Might Not Need JavaScript</a>
-- <a href="http://blogs.quovantis.com/browser-specific-hacks-for-frontend-developers/?ref=webdesignernews.com" rel="nofollow">Browser specific hacks for Frontend developers | Humble Bits</a>
-- <a href="https://dotfiles.github.io/" rel="nofollow">GitHub does dotfiles - dotfiles.github.io</a>
-- <a href="https://github.com/mathiasbynens/dotfiles" rel="nofollow">mathiasbynens/dotfiles: .files, including ~/.macos—sensible hacker defaults for macOS</a>
-- <a href="https://webdesign.tutsplus.com/tutorials/how-to-hand-code-svg--cms-30368" rel="nofollow">How to Hand Code SVG</a>
-- <a href="https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/" rel="nofollow">Front-End Performance Checklist 2018 - [PDF, Apple Pages]—Smashing Magazine</a>
-- <a href="https://24ways.org/2017/wcag-for-people-who-havent-read-them/?utm_source=CSS-Weekly&utm_campaign=Issue-294&utm_medium=email" rel="nofollow">Web Content Accessibility Guidelines—for People Who Haven&#39;t Read Them ◆ 24 ways</a>
-- <a href="https://css-tricks.com/improving-accessibility-24-ways/?utm_source=CSS-Weekly&utm_campaign=Issue-297&utm_medium=email" rel="nofollow">Improving the Accessibility of 24 ways | CSS-Tricks</a>
-- <a href="https://www.virustotal.com/en/" rel="nofollow">https://www.virustotal.com/en/</a>
-- <a href="https://www.smashingmagazine.com/membership/" rel="nofollow">https://www.smashingmagazine.com/membership/</a>
-- <a href="https://doesmysitedeserverecognition.com/" rel="nofollow">https://doesmysitedeserverecognition.com/</a>
-- <a href="https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5" rel="nofollow">https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5</a>
-- <a href="https://www.photopea.com/" rel="nofollow">https://www.photopea.com/</a>
-- <a href="https://www.ilovepdf.com/?ref=BetaPage" rel="nofollow">https://www.ilovepdf.com/?ref=BetaPage</a>
-- <a href="https://wiki.csswg.org/ideas/mistakes" rel="nofollow">https://wiki.csswg.org/ideas/mistakes</a>
-- <a href="https://undraw.co/illustrations" rel="nofollow">Illustrations | unDraw</a>
-- <a href="https://vectr.com/" rel="nofollow">Vectr - Free Online Vector Graphics Editor</a>
+```txt
+
+https://extendsclass.com/xpath-tester.html
+
+https://extendsclass.com/sqlite-browser.html
+
+https://extendsclass.com/regex-tester.html
+
+https://extendsclass.com/javascript-fiddle.html
+
+https://extendsclass.com/jsonpath-tester.html
+
+https://extendsclass.com/php-tester.html
+
+https://extendsclass.com/python-tester.html
+
+https://extendsclass.com/rest-client-online.html
+
+https://extendsclass.com/soap-client-online.html
+
+https://extendsclass.com/web-service-tester.html
+
+https://extendsclass.com/mock-rest-api.html
+
+https://extendsclass.com/json-validator.html
+
+https://extendsclass.com/xml-formatter-online.html
+
+https://extendsclass.com/sql-formatter.html
+
+https://extendsclass.com/xml-to-json.html
+
+https://extendsclass.com/json-to-csv.html
+
+https://extendsclass.com/csv-to-excel.html
+
+https://extendsclass.com/image-to-base64.html
+
+https://extendsclass.com/base64-decode-encode.html
+
+https://extendsclass.com/css-minifier.html
+
+https://extendsclass.com/html-minifier.html
+
+https://extendsclass.com/javascript-minifier.html
+
+https://extendsclass.com/text-compare.html
+
+https://extendsclass.com/xml-diff.html
+
+https://extendsclass.com/json-diff.html
+
+https://codepen.io/shshaw/pen/rrOZQQ
+
+http://ruyadorno.github.io/simple-slider/
+
+https://quokkajs.com/
+
+https://codepen.io/shshaw/pen/LVKEdv
+
+https://codepen.io/anthonydugois/pen/mewdyZ
+
+http://kenwheeler.github.io/slick/
+
+https://www.grabient.com/
+
+https://www.sitelocity.com/critical-path-css-generator
+
+https://nordicapis.com/7-helpful-http-tools/
+
+https://regexly.chipto.io/
+
+http://code.thisarmy.com/fontsinfo/
+
+https://palette.okaybueno.com/p/59ce420a3a5905064c32b6b4
+
+http://animejs.com/
+
+https://codepen.io/jarmie/full/1ba718e2b7c02c6310671716128fc5d2/
+
+https://gethead.info/
+
+https://mobile.twitter.com/i/moments/880688233641848832
+
+http://animista.net/play/basic/scale-up
+
+https://gruntwork.io/why-prod-is-down/
+
+http://fontfamily.io/
+
+https://stackoverflow.com/questions/12616011/google-map-polyline-with-shadow
+
+http://html5pattern.com/
+
+https://wkhtmltopdf.org/
+
+https://trackchanges.mikerogers.io/
+
+https://isellsoap.github.io/specificity-visualizer/
+
+http://bennettfeely.com/clippy/
+
+https://createjs.com/
+
+https://ui.toast.com/tui-editor/
+
+https://www.cockos.com/licecap/
+
+http://www.heymeta.com/url/irinaandmatej.com
+
+https://www.browserling.com/tools/image-to-base64
+
+https://jakearchibald.github.io/svgomg/
+
+https://www.getoutline.com/#features
+
+https://spotify.github.io/coordinator/
+
+https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22
+
+https://github.com/c0bra/deviceframe
+
+https://formspree.io/
+
+https://michalsnik.github.io/aos/
+
+http://uigoodies.com/index.html
+
+https://codepen.io/jesstelford/pen/PaBMrL
+
+https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/
+
+https://www.screely.com/
+
+https://cssduotone.com/
+
+https://streamlineicons.com/
+
+https://scroll-out.github.io/
+
+https://www.colorbox.io/
+
+https://frontendchecklist.io/
+
+https://yoksel.github.io/svg-gradient-map/#/
+
+https://mailtolink.me/
+
+https://gitexplorer.com/
+
+https://remote.tools/
+
+https://github.com/faressoft/terminalizer
+
+https://9elements.github.io/fancy-border-radius/
+
+https://cloudflare.design/color/
+
+https://www.24sata.hr/
+
+https://flawlessapp.io/designtools
+
+http://speakhuman.today/
+
+http://www.jstips.co/en/calculate-the-max-min-value-from-an-array/
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
+
+https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
+
+http://www.w3schools.com/jsref/jsref_match.asp
+
+https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+https://a11yproject.com/
+
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques
+
+https://www.w3.org/TR/wai-aria-practices/#intro
+
+https://www.w3.org/TR/wai-aria/
+
+http://webaim.org/resources/contrastchecker/
+
+https://bitsofco.de/pa11y/
+
+https://www.accesslint.com/
+
+http://html5accessibility.com/
+
+http://accessible-colors.com/
+
+https://axe-core.org/
+
+https://tenon.io/
+
+https://wave.webaim.org/
+
+https://www.google.hr/search
+
+https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a
+
+http://pa11y.org/
+
+http://a11y-style-guide.com/style-guide/
+
+https://www.ssa.gov/accessibility/andi/help/install.html
+
+https://a11y-style-guide.com/style-guide/
+
+https://webpack.js.org/concepts/
+
+https://github.com/webpack-contrib/awesome-webpack
+
+https://github.com/jantimon/html-webpack-plugin/issues/218
+
+https://www.npmjs.com/package/directory-named-webpack-plugin
+
+https://webpack.jakoblind.no/
+
+https://roots.io/sage/
+
+https://github.com/timber/starter-theme
+
+https://docs.flothemes.com/recommended-plug-ins/
+
+https://openlitespeed.org/kb/digitalocean-1-click-wordpress-installation-upgrade/
+
+https://www.toptal.com/wordpress/wordpress-roots-stack
+
+https://gist.github.com/sgergely/3793166
+
+https://validator.w3.org/
+
+https://search.google.com/test/mobile-friendly
+
+https://developers.google.com/speed/pagespeed/insights/
+
+https://www.webpagetest.org/
+
+https://tools.pingdom.com/
+
+https://www.dotcom-tools.com/website-speed-test.aspx
+
+https://webspeedtest.cloudinary.com/
+
+https://securityheaders.com/
+
+https://webbkoll.dataskydd.net/en
+
+https://developers.google.com/web/tools/lighthouse/
+
+https://www.dareboost.com/en/analysis
+
+https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/
+
+https://mxtoolbox.com/Public/FreeInvestigator.aspx
+
+https://progressivetooling.com/
+
+https://www.statuscake.com/
+
+https://www.scamadviser.com/
+
+https://fontfaceobserver.com/
+
+https://meowni.ca/font-style-matcher/
+
+https://transfonter.org/
+
+https://rsms.me/inter/
+
+https://www.zachleat.com/web/23-minutes/
+
+https://jonathan-harrell.com/experiment/typographic-details-cheat-sheet/
+
+https://keyes.ie/things/baseliner/
+
+https://fontdrop.info/
+
+https://www.graphicdesignfreebies.com/home/2018/5/28/mouleyscript
+
+https://github.com/Munter/subfont
+
+https://www.zachleat.com/web/font-checklist/
+
+https://javascript.info/
+
+http://exercism.io/languages/javascript/exercises
+
+https://github.com/AllThingsSmitty/must-watch-javascript
+
+https://github.com/AllThingsSmitty/must-watch-css
+
+https://www.toptal.com/resources
+
+https://github.com/Chalarangelo/30-seconds-of-code
+
+https://cssgrid.io/
+
+https://scrimba.com/g/gcssvariables
+
+https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/
+
+https://www.vuemastery.com/
+
+http://www.gridtoflex.com/
+
+https://cssgr.id/
+
+https://justmarkup.com/log/2018/03/collection-of-css-snippets/
+
+https://www.learnenough.com/javascript-tutorial
+
+https://3dtransforms.desandro.com/
+
+https://github.com/cssanimation/css-animation-101
+
+https://www.toptal.com/tracker/
+
+https://toggl.com/
+
+https://timingapp.com/
+
+https://codepen.io/giana/pen/YZWjQy
+
+https://tympanus.net/codrops2017/
+
+https://lawsofux.com/
+
+https://codemyui.com/tag/link/
+
+https://codemyui.com/
+
+https://uimovement.com/
+
+https://daneden.github.io/animate.css/
+
+https://coolbackgrounds.io/
+
+https://tympanus.net/Development/GridMenu/index2.html
+
+https://webkul.github.io/coolhue/
+
+https://codepen.io/collection/nMgKxJ/
+
+https://flothemes.com/make-website-gdpr-ready/
+
+http://www.wpbeginner.com/beginners-guide/the-ultimate-guide-to-wordpress-and-gdpr-compliance-everything-you-need-to-know/
+
+https://faq.getstation.com/data-and-privacy
+
+https://www.jeffalytics.com/google-analytics-spring-cleaning/
+
+https://gdprhallofshame.com/
+
+https://www.control-alt-del.org/blog/serverless-blog-howto/
+
+https://www.onegraph.com/
+
+https://snipcart.com/blog/jamstack-clients-static-site-cms
+
+https://humanwhocodes.com/blog/2018/03/scheduling-jekyll-posts-netlify/
+
+https://www.seocentro.com/tools/search-engines/keyword-position.html
+
+https://www.wordstream.com/wordstream-graders
+
+https://serpstat.com/
+
+https://www.similarweb.com/
+
+https://moz.com/free-seo-tools
+
+https://www.mariehaynes.com/algo-changes-and-more/
+
+https://css-tricks.com/snippets/php/automatic-copyright-year/
+
+http://youmightnotneedjquery.com/
+
+http://youmightnotneedjs.com/
+
+http://blogs.quovantis.com/browser-specific-hacks-for-frontend-developers/
+
+https://dotfiles.github.io/
+
+https://github.com/mathiasbynens/dotfiles
+
+https://webdesign.tutsplus.com/tutorials/how-to-hand-code-svg--cms-30368
+
+https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/
+
+https://24ways.org/2017/wcag-for-people-who-havent-read-them/
+
+https://css-tricks.com/improving-accessibility-24-ways/
+
+https://www.virustotal.com/en/
+
+https://www.smashingmagazine.com/membership/
+
+https://doesmysitedeserverecognition.com/
+
+https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5
+
+https://www.photopea.com/
+
+https://www.ilovepdf.com/
+
+https://wiki.csswg.org/ideas/mistakes
+
+https://undraw.co/illustrations
+
+https://vectr.com/
+
+```
