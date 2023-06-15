@@ -61,7 +61,7 @@ Here is the basic JSON structure—an array of object items. [gulp-data] plugin 
 - var list = locals.data.list ? locals.data.list.filter(item => new Date(item.date) < new Date()) : [];
 ```
 
-[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/mixins/variables.pug).
+[See the full code](https://github.com/maliMirkec/code-line-daily/blob/master/src/html/_variables/variables.pug).
 
 To display only current lines and not future ones, I have used `filter` function with a date condition. That way, future lines won't be displayed. Also, I have set up Zapier to trigger a new build every day in the morning.
 

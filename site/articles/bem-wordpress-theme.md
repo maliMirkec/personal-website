@@ -156,7 +156,7 @@ When I first read about [CSS locks](https://css-tricks.com/css-locks/), I wasn't
 
 This is a tough one. And frankly, it needs more work.
 
-[Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) as a technique is valid and it comes with great intentions. But man, to make it work out of the box was a real pain in the ass, pardon my french. For months I was trying to make it work using different tools. Finally, I end up using [gulp-critical-css](https://mscharl.github.io/gulp-critical-css/), a `Gulp` task that extracts critical `CSS` into a separate stylesheet. But that also didn't work at first, so I [forked the project](https://github.com/maliMirkec/gulp-critical-css), made some tweaks and it's working now.
+[Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) as a technique is valid and it comes with great intentions. But man, to make it work out of the box was a real pain in the ass, pardon my french. For months I was trying to make it work using different tools. Finally, I end up using [gulp-critical-css](https://mscharl.github.io/gulp-critical-css/), a `Gulp` task that extracts critical `CSS` into a separate stylesheet. But that also didn't work at first, so I forked the project, made some tweaks and it's working now.
 
 ## Final thoughts
 
