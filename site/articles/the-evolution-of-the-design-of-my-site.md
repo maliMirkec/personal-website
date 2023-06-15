@@ -80,7 +80,7 @@ Soon after the second redesign, I released the next one. This time I was providi
 
 The logo in the header wasn't rounded anymore, and I added a tagline to the footer.
 
-In May, I decided to use frames to display every project on desktop, tablet, and mobile view in my [Portfolio page](https://5b057107b13fb17eacec6477--silvestarcodes.netlify.app/portfolio/). This will be the default style for portfolio and side project items from now on.
+In May, I decided to use frames to display every project on desktop, tablet, and mobile view in my Portfolio page. This will be the default style for portfolio and side project items from now on.
 
 I used a couple of font families: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Barlow](https://fonts.google.com/specimen/Barlow). I am using this combination ever since.
 

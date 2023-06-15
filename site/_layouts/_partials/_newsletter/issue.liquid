@@ -22,14 +22,26 @@
           {% for resource in list %}
             {% if resource.link %}
               <li>
-                <a class="note tdn" href="{{ resource.link }}" rel="noopener" data-title="Link">
-                  {% if resource.title %}
-                    <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
-                  {% endif %}
-                  {% if resource.desc %}
-                    <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
-                  {% endif %}
-                </a>
+                {% if resource.dead %}
+                  <div class="note tdn" rel="noopener" data-title="404">
+                    {% if resource.title %}
+                      <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% endif %}</p>
+                    {% endif %}
+                    {% if resource.desc %}
+                      <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
+                    {% endif %}
+                    <p class="fz-step--2 fs-normal ffss margin-top no-margin-bottom">Link: <code>{{ resource.link }}</code></p>
+                  </div>
+                {% else %}
+                  <a class="note tdn" href="{{ resource.link }}" rel="noopener" data-title="Link">
+                    {% if resource.title %}
+                      <p class="fz-step-1 fw-bolder fs-normal ffss no-margin">{% if resource.title %}{{ resource.title }}{% else %}{{ resource.link }}{% endif %}</p>
+                    {% endif %}
+                    {% if resource.desc %}
+                      <p class="fz-step-0 fs-normal ffss margin-top no-margin-bottom">{{ resource.desc }}</p>
+                    {% endif %}
+                  </a>
+                {% endif %}
               </li>
               {% if j == 1 and topAd %}
                 <li>
