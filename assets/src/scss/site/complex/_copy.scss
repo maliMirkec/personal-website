@@ -277,6 +277,16 @@
       background-color: var(--color-beta-light);
     }
   }
+
+  &[data-title*="404"] {
+    background-color: var(--color-alpha-lightest);
+    color: var(--color-darkish);
+    cursor: no-drop;
+
+    &:before {
+      background-color: var(--color-alpha-lighter);
+    }
+  }
 }
 
 .table-wrapper {

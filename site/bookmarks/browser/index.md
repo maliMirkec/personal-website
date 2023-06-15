@@ -133,7 +133,6 @@ sections:
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 - [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
 - [Website speed test](https://tools.pingdom.com/)
-- [webhint&#39;s online scanner](https://webhint.io/scanner/)
 - [Website Speed Test | Check Web Performance » Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
 - [Website Speed Test - Image Analysis Tool by Cloudinary](https://webspeedtest.cloudinary.com/)
 - [Analyse your HTTP response headers](https://securityheaders.com/)
