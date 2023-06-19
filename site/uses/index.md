@@ -168,7 +168,7 @@ Read more about [my favorite VS Code settings](/articles/my-favorite-vs-code-set
 | Twitter Links | [Link](https://github.com/round/Twitter-Links-beta) |
 | WakaTime | [Link](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi) |
 | Wappalyzer | [Link](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) |
-| Workona Tab Manager | [Link](https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542&utm_campaign=wkna-referral) |
+| Workona Tab Manager | [Link](https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542) |
 | Workona Tab Suspender | [Link](https://chrome.google.com/webstore/detail/workona-tab-suspender/kkahjkjjcepelnnikconblkonolboiok) |
 {% endtwrapper %}
 
