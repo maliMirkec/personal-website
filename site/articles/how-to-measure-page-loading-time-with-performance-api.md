@@ -24,7 +24,7 @@ MDN recommends using the [Performance API](https://developer.mozilla.org/en-US/d
 
 Check out the GIF below, demonstrating how the “old” and “new” versions produce almost identical outcomes.
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1680258036/page-load_iknj8x.gif" "Page reloading multiple times showing different results for the “old” and “new” way of calculating page load time." 759 379 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1680258036/page-load_iknj8x" 759 379 'autoplay' 'loop' 'mute' true %}
 
 Here’s the final code for getting the page load time:
 

@@ -32,13 +32,13 @@ Next, I tried to manually find which CSS affects the CLS issue, but I could not 
 
 Because this kind of stuff makes me crazy, and I couldn’t just let it go, I was determined to find the real cause of my issue. My first guess was that some browser extension might be the cause, as I use quite a few. So I manually turned every extension off one by one and finally discovered that the Grammarly browser extension was the cause. When turned off, there were no CLS issues. This didn’t make sense, so I had to look under the hood to understand the issue.
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1684846670/cls-issue4_kznqfh.gif" "CLS flick on my site." 900 797 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1684846670/cls-issue4_kznqfh" 759 671 'autoplay' 'loop' 'mute' true %}
 
-I opened the network tab in Chrome DevTools and discovered that Inter font was downloaded. My copy switched to Inter font, but why was there a flick. Nothing made sense until I remembered that my wrapper’s `max-width` was `67ch`.
+I opened the network tab in Chrome DevTools and discovered that Inter font was downloaded. My copy switched to Inter font, but why was there a flick. Nothing made sense until I remembered that my wrapper’s `max-width` was `60ch`.
 
 ```css
 .wrapper {
-  max-width: 67ch;
+  max-width: 60ch;
 }
 ```
 
@@ -57,7 +57,7 @@ I tried to debug this specific behavior by inspecting the source code of the Gra
 So, here’s the breakdown of my CLS issue:
 
 - I defined two system fonts for my site: serif and sans-serif, which uses Inter as the first font in the font stack.
-- I set up my content wrapper to `max-width: 67ch`.
+- I set up my content wrapper to `max-width: 60ch`.
 - The width was defined by the width of my local font Roboto since I don’t have Inter installed on my computer.
 - Grammarly downloaded the Inter font from the extension directory (which I cannot figure out why).
 - When the Inter font was loaded, it made my wrapper wider.

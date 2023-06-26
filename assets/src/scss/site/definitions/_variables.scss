@@ -1,5 +1,5 @@
 // Breakpoints
-$bp: 67ch;
+$bp: 60.2ch;
 $bp1: 600px;
 $bp2: 1200px;
 $bp3: 1600px;
@@ -11,7 +11,7 @@ $mq-breakpoints: (
 );
 
 // Colors
-$color-alpha: hsl(161, 85%, 67%);
+$color-alpha: #63f2c5;
 $color-alpha-hover: hsl(161, 85%, 57%);
 $color-alpha-dark: hsl(161, 85%, 27%);
 $color-alpha-darker: hsl(161, 85%, 17%);
@@ -19,7 +19,7 @@ $color-alpha-darkest: hsl(161, 85%, 7%);
 $color-alpha-light: hsl(161, 85%, 77%);
 $color-alpha-lighter: hsla(161, 85%, 67%, .1875);
 $color-alpha-lightest: hsla(161, 85%, 67%, .05);
-$color-beta: hsl(345, 100%, 60%);
+$color-beta: #ff3366;
 $color-beta-dark: hsl(345, 80%, 50%);
 $color-beta-darker: hsl(345, 80%, 37%);
 $color-beta-darkest: hsl(345, 80%, 17%);

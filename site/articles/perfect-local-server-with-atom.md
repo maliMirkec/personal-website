@@ -41,9 +41,7 @@ If any port is available, Setup will automatically assign standard port and skip
 
 That's it, proceed with a installation, wait for process to finish and violà—you got yourself a local web server.
 
-![]()
-
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1497509507/bitnami-wamp-installation_p0sgui.gif" "Bitnami WAMP installation example." 496 421 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759/v1497509507/bitnami-wamp-installation_p0sgui" 759 643 'autoplay' 'loop' 'mute' true %}
 
 ## php-server for Atom
 

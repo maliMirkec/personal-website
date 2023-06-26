@@ -16,7 +16,7 @@ sections2:
 
 As of today, my site is available as a Progressive Web App. Yaay! 💯
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" "Lighthouse showing fireworks for perfect scores." 720 205 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 'autoplay' 'loop' 'mute' true %}
 
 In this post, you would learn more about how and why I added this exciting feature to my site.
 
@@ -144,7 +144,7 @@ After the deployment, I run the audit for the site and now I have it looks like 
 
 I think fireworks deserve another appearance. 💯
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1574166140/pwa-after2_cbz06b.gif" "Lighthouse showing fireworks for perfect scores." 720 205 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 'autoplay' 'loop' 'mute' true %}
 
 ## Next steps
 

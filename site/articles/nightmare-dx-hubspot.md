@@ -1,7 +1,7 @@
 ---
 layout: index
 title: "Nightmare DX (Developer Experience): HubSpot"
-date: 2023-06-20 10:00:00
+date: 2023-07-20 10:00:00
 tags:
   - blog
   - dx

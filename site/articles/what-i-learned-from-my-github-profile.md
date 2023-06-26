@@ -26,7 +26,7 @@ This analysis doesn't include repositories from my clients.
 
 ## GitHub profile
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj.gif" "Contribution activity graph on my GitHub profile." 720 155 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1571392266/GitHub_profile_Contribution_activity_graph_ridiqj" 759 163 'autoplay' 'loop' 'mute' true %}
 
 Here are some facts from [my Contribution activity graph]:
 

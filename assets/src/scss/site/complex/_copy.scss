@@ -47,7 +47,7 @@
 
   pre {
     &[class*="language-"] {
-      border-radius: var(--border-radius-alpha);
+      border-radius: var(--border-radius);
     }
 
     code {
@@ -151,6 +151,11 @@
       border: .125rem solid var(--color-alpha-light);
       text-align: left;
     }
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
   }
 
   p ~ iframe {

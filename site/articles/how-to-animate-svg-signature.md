@@ -21,7 +21,7 @@ Let’s see how to animate SVG signature with a little bit of JavaScript and CSS
 
 <!-- more -->
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/w_720,q_100/v1578317221/gif-signature3_jiyf17.gif" "Animated SVG signature - S.Bistrović." 720 174 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1578317221/gif-signature3_jiyf17" 759 184 'autoplay' 'loop' 'mute' true %}
 
 ## SVG signature
 

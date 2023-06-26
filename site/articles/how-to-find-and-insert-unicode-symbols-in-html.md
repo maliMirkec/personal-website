@@ -17,7 +17,7 @@ sections2:
 
 When I started using MacBook, I couldn’t remember how to type the _right arrow_ (→) symbol. I had a very inefficient process. First, I opened the Keyboard settings on my Mac, and then I inspected sources by pressing _Shift_ or _Option_ or other functional keys until I found the character.
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1631130629/k_riufmr.gif" "An example of three-step action on MacOs for inspecting keyboard symbols: 1. searching for keyboard settings; 2. opening keyboard settings; 3. finding the right arrow character." 640 571 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1687771538/k_riufmr" 759 676 'autoplay' 'loop' 'mute' true %}
 
 Later, I learned that I could type _“arrow right alt code”_ in Google and copy-paste the symbol.
 
@@ -55,7 +55,7 @@ Here’s how to configure the snippet in VS Code:
 
 Recently I found out an even better solution, the [**Insert Unicode extension**](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for VS Code. This extension allows you to search and insert any Unicode character. To do so, press _Command + Shift + p_, type _“insert unicode,”_ and select _Insert Unicode: Insert_ command. After that, search for the character, select it, and that’s it!
 
-{% gif "https://res.cloudinary.com/starbist/image/upload/v1631130634/l_t0b40s.gif" "An example of VS Code extension for inserting Unicode symbol." 640 332 %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1687771538/l_t0b40s" 759 394 'autoplay' 'loop' 'mute' true %}
 
 {% note "Important update" %}
 It was brought to my attention that macOS has this thing called Character Viewer. This might be the easiest way to insert Unicode. To open Character Viewer, press _Command + Control + Space_. You could search and insert most of the characters. You could [even customize the app](https://www.webnots.com/how-to-use-character-viewer-in-mac/) for easier usage.
