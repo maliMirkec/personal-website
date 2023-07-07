@@ -51,6 +51,7 @@ const animate = () => {
 setTimeout(() => {
   animate()
 }, 0)
+
 animate()
 
 const lastfm = () => {
