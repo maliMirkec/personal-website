@@ -1,8 +1,4 @@
 <script src="/js/sb.js" defer></script>
-{% if formId %}
-  <script src="https://kwes.io/js/kwes.js" defer></script>
-{% endif %}
-{% assign checkGallery = sections | concat: sections2 | where: "type", "cards-epsilon" %}
 {% if js %}
   <script src="/js/{{ js }}.js" defer></script>
 {% endif %}

@@ -12,6 +12,6 @@
   "fb_admins": "malimirkeccita",
   "analytics": false,
   "lastfm": true,
-  "animate": true,
+  "animate": false,
   "delimiter": " ✣ "
 }

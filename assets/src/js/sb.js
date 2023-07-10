@@ -16,44 +16,6 @@ if ($toggle) {
   })
 }
 
-const animate = () => {
-  const $animates = document.querySelectorAll('.js-animate')
-
-  if ($animates.length) {
-    const options = {
-      root: null,
-      rootMargin: "0%",
-      threshold: 1.0,
-    };
-
-    const callback = (entries) => {
-      entries.forEach((entry) => {
-        if(entry.isIntersecting) {
-          const className = entry.target.classList.contains('button') ? 'animate--alpha' : 'animate--beta'
-
-          // entry.target.classList.remove(className)
-
-          setTimeout(() => {
-            entry.target.classList.add(className)
-          }, 1000)
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
-
-    $animates.forEach($animate => {
-      observer.observe($animate);
-    })
-  }
-}
-
-setTimeout(() => {
-  animate()
-}, 0)
-
-animate()
-
 const lastfm = () => {
   const $lastfm = document.querySelector('.js-lastfm')
 
