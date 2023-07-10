@@ -15,3 +15,7 @@
     {% endif %}
   {% endif %}
 {% endif %}
+<link rel="preload" href="/js/sb.js" as="script">
+{% if env.staging and type == "home" %}
+  <link rel="preload" href="https://identity.netlify.com/v1/netlify-identity-widget.js" as="script">
+{% endif %}

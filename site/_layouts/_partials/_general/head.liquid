@@ -7,10 +7,10 @@
   {% endunless %}
   {% include _partials/_assets/critical %}
   {% include _partials/_head/preload %}
-  {% include _partials/_head/meta-other %}
-  {% include _partials/_assets/favicon %}
-  {% include _partials/_head/og %}
   {% if env.staging and type == "home" %}
     {% include _partials/_head/netlify %}
   {% endif %}
+  {% include _partials/_head/meta-other %}
+  {% include _partials/_assets/favicon %}
+  {% include _partials/_head/og %}
 </head>
