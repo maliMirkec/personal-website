@@ -198,7 +198,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, instant) => `<img class="brad ${ classes || '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}>`)
 
-  eleventyConfig.addLiquidShortcode('video', (src, width, height, autoplay, loop, muted, gif) => `<video class="brad" width="${ width || '' }" height="${ height || '' }"${autoplay ? ' autoplay': ''}${loop ? ' loop': ''}${muted ? ' muted="muted"': ''} poster="${src}.jpg"><source type="video/mp4" src="${src}.mp4"><source type="video/webm" src="${src}.webm">${gif ? 'Your browser does not support HTML5 video tag. <a href="' + src + '.gif">Click here to view original GIF</a>' : ''}</video>`)
+  eleventyConfig.addLiquidShortcode('video', (src, width, height, autoplay, loop, muted, gif) => `<video class="brad" width="${ width || '' }" height="${ height || '' }"${autoplay ? ' autoplay': ''}${loop ? ' loop': ''}${muted ? ' muted': ''} poster="${src}.jpg"><source type="video/mp4" src="${src}.mp4"><source type="video/webm" src="${src}.webm">${gif ? 'Your browser does not support HTML5 video tag. <a href="' + src + '.gif">Click here to view original GIF</a>.' : ''}</video>`)
 
   eleventyConfig.addPairedLiquidShortcode('note', (note, title) => {
     let dataTitle = title ? ` data-title="${title}"` : ''
