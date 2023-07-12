@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Developer’s research process
-date: 2023-07-11 10:00:00
+date: 2023-07-12 10:00:00
 tags:
   - blog
   - web dev
