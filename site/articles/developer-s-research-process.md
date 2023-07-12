@@ -5,7 +5,7 @@ date: 2023-07-12 10:00:00
 tags:
   - blog
   - web dev
-description:
+description: Read how I research and find possible solutions to estimate the required effort before I start developing.
 type: articles-item
 sections2:
   - type: banner-beta
