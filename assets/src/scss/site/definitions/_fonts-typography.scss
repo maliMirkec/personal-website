@@ -47,6 +47,16 @@ main {
   font-size: var(--step-0);
 }
 
+:root::selection {
+  --color-light: #{$color-light};
+  --color-dark: #{$color-dark};
+}
+
+.dark::selection {
+  --color-light: #{$color-dark};
+  --color-dark: #{$color-light};
+}
+
 ::selection {
   background-color: var(--color-dark);
   color: var(--color-light);
