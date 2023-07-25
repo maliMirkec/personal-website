@@ -53,8 +53,8 @@ const getMastodon = () => {
 }
 
 const getDescription = () => {
-  return `${latest.title} of UI Dev Newsletter is out!
-In this issue: ${latest.description}\n\n`
+  return `${latest.title} of the UI Dev Newsletter is out!
+${latest.description}\n\n`
 }
 
 const getSponsors = () => {
