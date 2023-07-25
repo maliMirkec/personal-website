@@ -52,11 +52,11 @@ main {
   color: var(--color-light);
 }
 
-a::selection,
-button::selection,
-pre ::selection {
-  text-shadow: none;
-}
+// a::selection,
+// button::selection,
+// pre ::selection {
+//   text-shadow: none;
+// }
 
 h1,
 h2,
