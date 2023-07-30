@@ -72,6 +72,8 @@ eleventyConfig.addLiquidShortcode(
   return `<video
       width="${ width || '' }"
       height="${ height || '' }"
+      controls
+      playsinline
       ${autoplay ? ' autoplay' : ''}
       ${loop ? ' loop' : ''}
       ${muted ? ' muted' : ''}
@@ -97,7 +99,7 @@ The first parameter is the link to the original GIF but without an extension. It
 Here’s the final HTML:
 
 ```html
-<video width="759" height="477" autoplay loop muted poster="https://res.cloudinary.com/.../my-gfx.jpg">
+<video width="759" height="477" controls playsinline autoplay loop muted poster="https://res.cloudinary.com/.../my-gfx.jpg">
   <source type="video/mp4" src="https://res.cloudinary.com/.../my-gfx.mp4">
   <source type="video/webm" src="https://res.cloudinary.com/.../my-gfx.webm">
   Your browser does not support HTML5 video tag. <a href="https://res.cloudinary.com/.../my-gfx.gif">Click here to view original GIF</a>.
