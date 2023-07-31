@@ -45,12 +45,12 @@
               </li>
               {% if j == 1 and topAd %}
                 <li>
-                  <a class="note tdn" href="{{ topAd.link }}" rel="noopener" data-title="{% if topAd.friend %}Friend{% else %}Sponsor{% endif %}">
+                  <a class="note tdn" href="{{ topAd.link }}" rel="noopener" data-title="{% if topAd.type %}{{ topAd.type }}{% else %}Sponsor{% endif %}">
                     {% if topAd.title %}
-                      <p class="{% if topAd.friend %}fz-step-0{% else %}fz-step-1{% endif %} fw-bolder fs-normal ffss no-margin">{% if topAd.title %}{{ topAd.title }}{% else %}{{ topAd.link }}{% endif %}</p>
+                      <p class="fz-step-0 fw-bolder fs-normal ffss no-margin">{% if topAd.title %}{{ topAd.title }}{% else %}{{ topAd.link }}{% endif %}</p>
                     {% endif %}
                     {% if topAd.desc %}
-                      <p class="{% if topAd.friend %}fz-step--1{% else %}fz-step-0{% endif %} fs-normal ffss margin-top no-margin-bottom">{{ topAd.desc }}</p>
+                      <p class="fz-step--1 fs-normal ffss margin-top no-margin-bottom">{{ topAd.desc }}</p>
                     {% endif %}
                   </a>
                 </li>

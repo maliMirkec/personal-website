@@ -58,7 +58,7 @@ ${latest.description}\n\n`
 }
 
 const getSponsors = () => {
-  if(!latest.topAd) {
+  if(!latest.topAd || latest.topAd.type) {
     return ''
   }
 
