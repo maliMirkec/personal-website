@@ -6,6 +6,7 @@ node_modules
 .vscode
 .netlify
 .yarn
+.yarnrc.yml
 assets/dist
 public
 .frontmatter
