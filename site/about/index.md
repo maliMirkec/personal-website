@@ -25,7 +25,7 @@ I started my career in a local web development company where I worked as a backe
 
 Since then, I've built websites for many top-notch companies, like [Westwing](https://www.westwing.com/), [Domino Data Lab](https://domino.ai/), [Bozzuto](https://www.bozzuto.com/), and [Wunder Mobility](https://www.wundermobility.com/), and I have enjoyed every aspect of my remote career.
 
-When I am not coding, I like to write new articles on my blog.
+When I am not coding, I like to write new articles [on my blog](/articles/).
 
 If you want to get in touch, please [fill out the contact form](/contact/), or [send me an email](mailto:me@silvestar.codes).
 For more information [check my portfolio](/portfolio/) or [download my CV here](/silvestar-bistrovic-cv.pdf).
