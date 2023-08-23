@@ -5,6 +5,7 @@ node_modules
 .env
 .vscode
 .netlify
+.yarn
 assets/dist
 public
 .frontmatter

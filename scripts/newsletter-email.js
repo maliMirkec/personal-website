@@ -43,7 +43,7 @@ const addSponsors = () => {
 
   return `<li style="display:block;padding:0;margin:0">
         <p style="margin:0">
-          <span style="display:block;color:#444;font-size:0.8rem;font-weight:700;line-height:1.4;word-break:break-word;margin-bottom:.25rem">${latest.topAd.friend ? 'Our friend' : 'Sponsor'}</span>
+          <span style="display:block;color:#444;font-size:0.8rem;font-weight:700;line-height:1.4;word-break:break-word;margin-bottom:.25rem">${latest.topAd.type ? latest.topAd.type : 'Sponsor'}</span>
           <span>
             <a href="${latest.topAd.link}" target="_blank" style="text-decoration:none">
               <span style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">${latest.topAd.title}</span>

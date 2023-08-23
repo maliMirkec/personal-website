@@ -52,6 +52,16 @@ const getMastodon = () => {
   return `Featuring ${list}\n\n`
 }
 
+const getBluesky = () => {
+  let list = ''
+
+  latest.list.forEach((item, i) => {
+    list += item.handle3 ? `${item.handle3} ` : ''
+  })
+
+  return `Featuring ${list}\n\n`
+}
+
 const getDescription = () => {
   return `${latest.title} of the UI Dev Newsletter is out!
 ${latest.description}\n\n`
@@ -106,6 +116,16 @@ const generateMastodon = () => {
   return output
 }
 
+const generateBluesky = () => {
+  let output = getDescription()
+  output += getBluesky()
+  output += getSponsors()
+  output += getArticleLink()
+  output += getSubscriptionLink()
+
+  return output
+}
+
 // const generateToots = () => {
 //   return latest.list.map((item, i) => {
 //     return `${item.title}\n${item.desc}\n${item.link}\n\n`
@@ -119,6 +139,8 @@ const generateSocial = async () => {
   output += generateLinkedIn()
   output += getDivider('Mastodon')
   output += generateMastodon()
+  output += getDivider('Bluesky')
+  output += generateBluesky()
 
   console.log(output);
 }

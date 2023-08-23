@@ -21,7 +21,9 @@ sections2:
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.
 
-I started my career in a local web development company where I worked as a backend PHP developer. My career took a turn when I began to work for a local startup as a frontend developer. In the spring of 2017, I began to work remotely as a freelance web developer from my office in Osijek, Croatia. I have enjoyed every aspect of my remote career since.
+I started my career in a local web development company where I worked as a backend PHP developer. My career took a turn when I began to work for a local startup as a frontend developer. In the spring of 2017, I began to work remotely as a freelance web developer from my office in Osijek, Croatia.
+
+Since then, I've built websites for many top-notch companies, like [Westwing](https://www.westwing.com/), [Domino Data Lab](https://domino.ai/), [Bozzuto](https://www.bozzuto.com/), and [Wunder Mobility](https://www.wundermobility.com/), and I have enjoyed every aspect of my remote career.
 
 When I am not coding, I like to write new articles on my blog.
 
