@@ -16,33 +16,35 @@
         {% endif %}
       </div>
       {% for cardTag in cardListTag %}
-        {% if cardTag.data.title and cardTag.url %}
-          <div class="card">
-            <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="margin-top" href="{{ cardTag.url }}">{{  cardTag.data.title }}{% if cardTag.data.title == 'UI Dev Newsletter' and cardTag.data.pagination %} latest issue{% endif %}</a></h3>
-            <div class="padding">
-              {% if cardTag.data.tags %}
-                <div class="margin-bottom">
-                  {% if cardTag.data.publication %}
-                    <a class="button button--small" href="{{ cardTag.data.canonical }}">{{ cardTag.data.publication }}</a>
-                  {% endif %}
-                  {% assign myTags = cardTag.data.tags %}
-                  {% for tag in myTags %}
-                    <a class="button button--inverse button--small" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
-                  {% endfor %}
-                  {% if cardTag.data.date and cardTag.data.type == 'articles-item' %}
-                    <time class="button button--invisible button--small" datetime="{{ cardTag.data.date | date: "%Y-%m-%d" }}">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
-                  {% endif %}
-                  {% if cards1.cta %}
-                    <div class="copy balance margin-top">{{ cardTag.data.description }}</div>
-                  {% endif %}
-                </div>
+        {% unless cardTag.data.noindex == true %}
+          {% if cardTag.data.title and cardTag.url %}
+            <div class="card">
+              <h3 class="fz-step-3 no-margin-top no-margin-bottom margin-left margin-right"><a class="margin-top" href="{{ cardTag.url }}">{{  cardTag.data.title }}{% if cardTag.data.title == 'UI Dev Newsletter' and cardTag.data.pagination %} latest issue{% endif %}</a></h3>
+              <div class="padding">
+                {% if cardTag.data.tags %}
+                  <div class="margin-bottom">
+                    {% if cardTag.data.publication %}
+                      <a class="button button--small" href="{{ cardTag.data.canonical }}">{{ cardTag.data.publication }}</a>
+                    {% endif %}
+                    {% assign myTags = cardTag.data.tags %}
+                    {% for tag in myTags %}
+                      <a class="button button--inverse button--small" href="/tags/{{ tag | replace: ' ', '%20' }}/">{{ tag }}</a>
+                    {% endfor %}
+                    {% if cardTag.data.date and cardTag.data.type == 'articles-item' %}
+                      <time class="button button--invisible button--small" datetime="{{ cardTag.data.date | date: "%Y-%m-%d" }}">{{ cardTag.data.date | date: "%Y-%m-%d" }}</time>
+                    {% endif %}
+                    {% if cards1.cta %}
+                      <div class="copy balance margin-top">{{ cardTag.data.description }}</div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+              {% if cards1.cta %}
+                <a class="button df padding" href="{{ cardTag.url }}">{{ cards1.cta.title }}</a>
               {% endif %}
             </div>
-            {% if cards1.cta %}
-              <a class="button df padding" href="{{ cardTag.url }}">{{ cards1.cta.title }}</a>
-            {% endif %}
-          </div>
-        {% endif %}
+          {% endif %}
+        {% endunless %}
       {% endfor %}
       {% if cards1.desc %}
         <div class="card card--flex text-center padding">
