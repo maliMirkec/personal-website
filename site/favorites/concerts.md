@@ -1366,6 +1366,10 @@ sections:
         location: Osijek
         year: 2023
         epic: true
+      - title: Urban
+        location: Osijek
+        year: 2023
+        epic: true
   - type: banner-alpha
     banner: consultation
     animate: true
