@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: ri_bekodu
-date: 2005-01-03
+date: 2005-01-05
 position: Product Manager
 company: Westwing
 projects:
@@ -29,7 +29,7 @@ sections2:
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: cards-beta
     cta:
       title: Read the testimonial

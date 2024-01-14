@@ -1,3 +1,6 @@
 Sitemap: https://www.silvestar.codes/sitemap.xml
 User-agent: *
 Disallow: /docs/*
+
+User-agent: GPTBot
+Disallow: /

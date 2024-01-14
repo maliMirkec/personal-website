@@ -3,7 +3,7 @@ layout: index
 title: Westwing
 description: I've worked on Westwing website. Westwing is "curated shoppable magazine", inspiring customers with the newest trends, themes, stories, brands and products.
 thumbnail:
-  src: westwing_erzgqc
+  src: westwing_ykf9yi
   alt: Screenshot of Westwing website.
   width: 759
   height: 459
@@ -22,14 +22,14 @@ tags:
 sections:
   - type: hero-alpha
     narrow: true
-    src: westwing_erzgqc
+    src: westwing_ykf9yi
     alt: Screenshot of Westwing website.
     width: 759
     height: 459
     left: true
     title: Westwing
     desc: >-
-      Westwing is "curated shoppable magazine", inspiring customers every day with the newest trends, themes, stories, brands and products from the world of Home & Living. The website runs on Hexo, Netlify CMS, Netlify, and GitHub.
+      Westwing is the European leader in inspiration-based Home & Living eCommerce. They offer their customers carefully selected products from the full range of Home & Living categories in an inspirational environment.
     subtitle: Responsibilities
     desc2: >-
       - Built a static part of the corporate website.
@@ -40,7 +40,7 @@ sections:
   - type: hero-beta
     title: From Testimonials
     desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States**.
+      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: cards-beta
     cta:
       title: Read the testimonial
