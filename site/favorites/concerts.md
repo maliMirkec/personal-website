@@ -1359,6 +1359,13 @@ sections:
         venue: Špancirfest
         location: Varaždin
         year: 2021
+      - title: Majke
+        location: Osijek
+        year: 2023
+      - title: Manu Chao
+        location: Osijek
+        year: 2023
+        epic: true
   - type: banner-alpha
     banner: consultation
     animate: true
