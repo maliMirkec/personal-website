@@ -19,6 +19,10 @@ series: Lookbacks
 
 Another year has ended. This one was rough on me. I have experienced some serious life challenges, as well as work-related ones.
 
+{% note %}
+This article is written from professional and personal perspectives.
+{% endnote %}
+
 ## Professional life
 
 For most of 2022, I have been fully employed. I was working as a website developer, and I have been part of a promising marketing team. We worked on the company website and launched it to a whole new level. I was planning to stay fully employed, but the company changed its vision, and the majority of my team has been let go. After my one-year contract expired, I expected to prolong it, but it didn’t happen.

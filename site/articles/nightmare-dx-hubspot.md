@@ -1,7 +1,7 @@
 ---
 layout: index
 title: "Nightmare DX (Developer Experience): HubSpot"
-date: 2023-07-20 10:00:00
+date: 2024-01-19 10:00:00
 tags:
   - blog
   - dx
@@ -14,8 +14,6 @@ sections2:
     banner: newsletter
     animate: true
 series: Nightmare DX
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 I meant to write about HubSpot’s terrible developer experience (DX) right after my first article about [Shopify’s nightmare DX](/articles/nightmare-dx-shopify/) two years ago, but it wasn’t until recently that I had to work with HubSpot again. Although the project was short and sweet, it reminded me to write this article.

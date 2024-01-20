@@ -22,7 +22,7 @@ Last year I wrote [my first yearly look back], and now it is time for the 2019 l
 <!-- more -->
 
 {% note %}
-This article is written from a technology perspective, meaning that I wrote about technologies and tools used during this year.
+This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year.
 {% endnote %}
 
 ## WordPress

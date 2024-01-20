@@ -20,7 +20,7 @@ series: Lookbacks
 It is that time again, time for 2021 lookback.
 
 {% note %}
-This article is written from a technology perspective. I wrote about technologies and tools used during this year.
+This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year.
 {% endnote %}
 
 ## WordPress

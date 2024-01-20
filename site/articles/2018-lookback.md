@@ -18,6 +18,10 @@ series: Lookbacks
 
 It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 
+{% note %}
+This article is written from a technology perspective, meaning that I wrote about technologies and tools used last year.
+{% endnote %}
+
 <!-- more -->
 
 ## WordPress
@@ -57,7 +61,7 @@ I have learned a lot about `es6` this year, but I am still not proficient enough
 
 What I did notice is that React is a top requirement, even for jobs that don't use React at all. I have never learned React framework, but I do have some basic knowledge about it. I was working with Angular for a couple of years, and I have read a significant number of articles about React. I just never had the opportunity to learn it on an actual project. Same goes for new Angular versions or Vue.js.
 
-Having that said, I think this year showed us that frontend role is separating in two directions: engineering and user interface. The problem is that some employers don't know the difference. Therefore developers who didn't know the answer to [Max's question] try to solve the problem by introducing `CSS-in-JS` techniques.
+Having said that, I think this year showed us that frontend role is separating in two directions: engineering and user interface. The problem is that some employers don't know the difference. Therefore developers who didn't know the answer to [Max's question] try to solve the problem by introducing `CSS-in-JS` techniques.
 
 {% note %}
 I am generalizing here, but I do think the CSS is underrated.
@@ -91,7 +95,7 @@ I have reached almost 2,5k followers on the dev.to platform. I have more than 70
 
 Around 35,000 readers visited my blog with almost 50,000 pageviews. On dev.to, I have more than 17,000 post views, and nearly 700 reactions. On medium.com, I had around 10k post views, and on codementor.io, I had around 4,5k.
 
-I have redesigned my site this year (with [a little help] from my friends). I am finally happy and I don't think I will be redesigning it again this year. But I may move it to Hugo, it time allows. 🥇
+I have redesigned my site this year (with [a little help] from my friends). I am finally happy and I don't think I will be redesigning it again this year. But I may move it to Hugo, if time allows. 🥇
 
 ## Conclusion
 
