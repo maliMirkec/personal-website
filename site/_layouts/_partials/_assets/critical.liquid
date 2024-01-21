@@ -1,34 +1,34 @@
 <style>/*https://pqina.nl/blog/fix-google-mobile-usability-issues/*/:where(body,iframe,pre,img,svg,video,canvas,select){max-width:100%;overflow:auto;word-break:break-word}</style>
-{% if env.production or env.staging %}
+{% if env.production %}
   {% if loadCritical %}
     <style>{{ type | getCritical }}</style>
   {% else %}
     {% if isMentor %}
-      <link rel="stylesheet" href="/css/mentor.min.css">
+      <link rel="stylesheet" href="/critical/mentor.min.css">
     {% elsif isRibbons %}
-      <link rel="stylesheet" href="/css/ribbons.min.css">
+      <link rel="stylesheet" href="/critical/ribbons.min.css">
     {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.min.css">
+      <link rel="stylesheet" href="/critical/slides.min.css">
     {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.min.css">
+      <link rel="stylesheet" href="/critical/devcards.min.css">
     {% elsif isHexo %}
-      <link rel="stylesheet" href="/css/hexo.min.css">
+      <link rel="stylesheet" href="/critical/hexo.min.css">
     {% else %}
-      <link rel="stylesheet" href="/css/style.min.css">
+      <link rel="stylesheet" href="/critical/style.min.css">
     {% endif %}
   {% endif %}
 {% else %}
   {% if isMentor %}
-    <link rel="stylesheet" href="/css/mentor.min.css">
+    <link rel="stylesheet" href="/css/mentor.css">
   {% elsif isRibbons %}
-    <link rel="stylesheet" href="/css/ribbons.min.css">
+    <link rel="stylesheet" href="/css/ribbons.css">
   {% elsif isSlides %}
-    <link rel="stylesheet" href="/css/slides.min.css">
+    <link rel="stylesheet" href="/css/slides.css">
   {% elsif is360 %}
-    <link rel="stylesheet" href="/css/devcards.min.css">
+    <link rel="stylesheet" href="/css/devcards.css">
   {% elsif isHexo %}
-    <link rel="stylesheet" href="/css/hexo.min.css">
+    <link rel="stylesheet" href="/css/hexo.css">
   {% else %}
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/style.css">
   {% endif %}
 {% endif %}

@@ -1,7 +1,7 @@
 [{
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-index.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -15,9 +15,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-tips.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/tips/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/tips/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -31,9 +31,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-resources.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/resources/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/resources/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -47,9 +47,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-about.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/about/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/about/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -63,9 +63,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-slides-index.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/slides/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/slides/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -79,9 +79,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-slides-single.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/slides/coding/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/slides/coding/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -95,9 +95,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/mentor.css",
+  "css": "https://develop.silvestar.codes/css/mentor.css",
   "out": "./assets/critical/mentor-apply.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-mentoring/apply/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-mentoring/apply/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -111,9 +111,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/newsletter-index.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-newsletter/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -127,9 +127,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/newsletter-archive.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/archive/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-newsletter/archive/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -143,9 +143,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/newsletter-single.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/2023-02-27/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-newsletter/2023-02-27/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -159,9 +159,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/newsletter-page.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ui-dev-newsletter/confirmation/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ui-dev-newsletter/confirmation/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -175,9 +175,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/articles-item.critical.min.css",
-  "url": "http://localhost:8080/articles/how-to-measure-page-loading-time-with-performance-api/?cache=1",
+  "url": "https://develop.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/?cache=1",
   "width": 1920,
   "height": 2800,
   "keepLargerMediaQueries": true,
@@ -192,9 +192,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/articles.critical.min.css",
-  "url": "http://localhost:8080/articles/?cache=1",
+  "url": "https://develop.silvestar.codes/articles/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -209,9 +209,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/tags-item.critical.min.css",
-  "url": "http://localhost:8080/tags/css/?cache=1",
+  "url": "https://develop.silvestar.codes/tags/css/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -226,9 +226,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/tags.critical.min.css",
-  "url": "http://localhost:8080/tags/?cache=1",
+  "url": "https://develop.silvestar.codes/tags/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -243,9 +243,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/testimonials-item.critical.min.css",
-  "url": "http://localhost:8080/testimonials/john-ganotis/?cache=1",
+  "url": "https://develop.silvestar.codes/testimonials/john-ganotis/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -260,9 +260,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/testimonials.critical.min.css",
-  "url": "http://localhost:8080/testimonials/?cache=1",
+  "url": "https://develop.silvestar.codes/testimonials/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -277,9 +277,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/hugo-item.critical.min.css",
-  "url": "http://localhost:8080/side-projects/hugo/lessons/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/hugo/lessons/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -294,9 +294,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/hugo.critical.min.css",
-  "url": "http://localhost:8080/side-projects/hugo/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/hugo/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -311,9 +311,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/ribbons.css",
+  "css": "https://develop.silvestar.codes/css/ribbons.css",
   "out": "./assets/critical/ribbons.critical.min.css",
-  "url": "http://localhost:8080/side-projects/ribbons/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/ribbons/?cache=1",
   "width": 1920,
   "height": 2800,
   "keepLargerMediaQueries": true,
@@ -328,9 +328,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/side-projects-item.critical.min.css",
-  "url": "http://localhost:8080/side-projects/css-auditors/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/css-auditors/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -345,9 +345,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/side-projects.critical.min.css",
-  "url": "http://localhost:8080/side-projects/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -362,9 +362,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/favorite-item.critical.min.css",
-  "url": "http://localhost:8080/favorites/tv/?cache=1",
+  "url": "https://develop.silvestar.codes/favorites/tv/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -379,9 +379,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/favorite-concert.critical.min.css",
-  "url": "http://localhost:8080/favorites/concerts/?cache=1",
+  "url": "https://develop.silvestar.codes/favorites/concerts/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -396,9 +396,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/favorites.critical.min.css",
-  "url": "http://localhost:8080/favorites/?cache=1",
+  "url": "https://develop.silvestar.codes/favorites/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -413,9 +413,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/portfolio-item.critical.min.css",
-  "url": "http://localhost:8080/portfolio/westwing/?cache=1",
+  "url": "https://develop.silvestar.codes/portfolio/westwing/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -430,9 +430,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/portfolio.critical.min.css",
-  "url": "http://localhost:8080/portfolio/?cache=1",
+  "url": "https://develop.silvestar.codes/portfolio/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -447,9 +447,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/invalid-css.critical.min.css",
-  "url": "http://localhost:8080/side-projects/invalid-css/9/?cache=1",
+  "url": "https://develop.silvestar.codes/side-projects/invalid-css/9/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -464,9 +464,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/about.critical.min.css",
-  "url": "http://localhost:8080/about/?cache=1",
+  "url": "https://develop.silvestar.codes/about/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -481,9 +481,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/page.critical.min.css",
-  "url": "http://localhost:8080/contact/?cache=1",
+  "url": "https://develop.silvestar.codes/contact/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,
@@ -498,9 +498,9 @@
     "ignore-ssl-errors": true
   }
 }, {
-  "css": "./assets/dist/css/style.css",
+  "css": "https://develop.silvestar.codes/css/style.css",
   "out": "./assets/critical/home.critical.min.css",
-  "url": "http://localhost:8080/?cache=1",
+  "url": "https://develop.silvestar.codes/?cache=1",
   "width": 1920,
   "height": 1800,
   "keepLargerMediaQueries": true,

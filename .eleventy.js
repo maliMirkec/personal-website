@@ -85,16 +85,12 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addLiquidFilter('criticalExists', (critical) => {
-    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`) || fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`)
+    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`)
   })
 
   eleventyConfig.addLiquidFilter('getCritical', (critical) => {
     if(fs.existsSync(`./assets/critical/${critical}.critical.min.css`) ) {
       return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
-    }
-
-    if(fs.existsSync(`./assets/dist/css/${critical}.critical.min.css`) ) {
-      return fs.readFileSync(`./assets/dist/css/${critical}.critical.min.css`)
     }
 
     return false
@@ -317,8 +313,7 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addPassthroughCopy({
-    "assets/dist": ".",
-    "assets/critical": "css",
+    "assets/": ".",
     "site/side-projects/ui-dev-newsletter/admin/config.yml": "/side-projects/ui-dev-newsletter/admin/config.yml",
   })
 

@@ -59,7 +59,6 @@ To use this plugin, add `@import` statement in Sass file.
 ```sass
 // Plugins
 @import 'normalize';
-@import 'modularscale';
 @import 'mq';
 
 // Configuration
@@ -95,7 +94,6 @@ Starter Project has three libraries imported:
 
 ```sass
 @import 'normalize';
-@import 'modularscale';
 @import 'mq';
 ```
 

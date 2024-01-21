@@ -7,8 +7,7 @@ node_modules
 .netlify
 .yarn
 .yarnrc.yml
-assets/dist
 public
+assets/scss
 .frontmatter
 frontmatter.json
-netlify/functions/lastfm.json
