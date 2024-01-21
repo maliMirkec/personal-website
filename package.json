@@ -27,7 +27,7 @@
     "eleventy-dev": "npx @11ty/eleventy --serve --quiet --watch",
     "eleventy-build": "npx @11ty/eleventy --quiet",
     "dev": "npm run clean & npm run eleventy-dev",
-    "build": "npm run clean & npm run css & npm run js && npm run eleventy-prod",
+    "build": "npm run clean & npm run css & npm run js && npm run eleventy-build",
     "critical": "node scripts/acclaimed.js"
   },
   "dependencies": {
