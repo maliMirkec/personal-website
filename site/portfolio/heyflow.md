@@ -34,6 +34,7 @@ sections:
     subtitle: Responsibilities
     desc2: >-
       - Built the whole website.
+      
       - Migrated content to Contentful.
     cta:
       href: //heyflow.com
