@@ -1,21 +1,19 @@
-<style>/*https://pqina.nl/blog/fix-google-mobile-usability-issues/*/:where(body,iframe,pre,img,svg,video,canvas,select){max-width:100%;overflow:auto;word-break:break-word}</style>
-<script>console.log({{ env | json }})</script>
 {% if env.production or env.staging %}
   {% if loadCritical %}
     <style>{{ type | getCritical }}</style>
   {% else %}
     {% if isMentor %}
-      <link rel="stylesheet" href="/critical/mentor.min.css">
+      <link rel="stylesheet" href="/css/mentor.min.css">
     {% elsif isRibbons %}
-      <link rel="stylesheet" href="/critical/ribbons.min.css">
+      <link rel="stylesheet" href="/css/ribbons.min.css">
     {% elsif isSlides %}
-      <link rel="stylesheet" href="/critical/slides.min.css">
+      <link rel="stylesheet" href="/css/slides.min.css">
     {% elsif is360 %}
-      <link rel="stylesheet" href="/critical/devcards.min.css">
+      <link rel="stylesheet" href="/css/devcards.min.css">
     {% elsif isHexo %}
-      <link rel="stylesheet" href="/critical/hexo.min.css">
+      <link rel="stylesheet" href="/css/hexo.min.css">
     {% else %}
-      <link rel="stylesheet" href="/critical/style.min.css">
+      <link rel="stylesheet" href="/css/style.min.css">
     {% endif %}
   {% endif %}
 {% else %}
