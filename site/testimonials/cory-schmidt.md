@@ -14,6 +14,7 @@ position: Chief Revenue Officer
 company: Wunder Mobility
 projects:
   - Wunder Mobility
+  - Heyflow
 sections:
   - type: hero-alpha
     src: wm_ysj8e4

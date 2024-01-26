@@ -1,40 +1,41 @@
 ---
 layout: index
-title: CodeScan
-description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
+title: Approximately Blue
+description: I've worked on Approx Blue website. Approx Blue is an art brokerage and management service mainly dealing with blue-chip fine art prints.
 thumbnail:
-  src: codescan_hydjwq
-  alt: Screenshot of CodeScan website.
+  src: approx-blue_rpmoll
+  alt: Screenshot of Approximately Blue website.
   width: 759
   height: 459
-link: //www.codescan.io
+link: //approx.blue
 display: true
-date: 2010-01-05
+date: 2008-01-31
 type: portfolio-item
 tags:
   - portfolio
   - spg
   - ssg
-  - hugo
+  - eleventy
+  - contentful
   - html
   - css
   - javascript
 sections:
   - type: hero-alpha
     narrow: true
-    src: codescan_hydjwq
-    alt: Screenshot of CodeScan website.
+    src: approx-blue_rpmoll
+    alt: Screenshot of Approximately Blue website.
     width: 759
     height: 459
     left: true
-    title: CodeScan
+    title: Approximately Blue
     desc: >-
-      CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
+      Approximately Blue is an independent, post-brick-and-mortar company and art brokerage and management service that mainly deals with blue-chip fine art prints in the primary market and advises on art transactions.
     subtitle: Responsibilities
     desc2: >-
-      - Maintained frontend of the website.
+      - Built the whole website.
     cta:
-      href: //www.codescan.io
+      href: //approx.blue
       title: Go to site
       animate: true
   - type: hero-beta

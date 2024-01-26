@@ -1,40 +1,42 @@
 ---
 layout: index
-title: CodeScan
-description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
+title: Heyflow
+description: I've worked on Heyflow website. Heyflow allows you to build interactive flows and forms effortlessly without the need for any coding expertise.
 thumbnail:
-  src: codescan_hydjwq
-  alt: Screenshot of CodeScan website.
+  src: heyflow_g83eap
+  alt: Screenshot of Heyflow website.
   width: 759
   height: 459
-link: //www.codescan.io
+link: //heyflow.com
 display: true
-date: 2010-01-05
+date: 2007-01-31
 type: portfolio-item
 tags:
   - portfolio
   - spg
   - ssg
-  - hugo
+  - eleventy
+  - contentful
   - html
   - css
   - javascript
 sections:
   - type: hero-alpha
     narrow: true
-    src: codescan_hydjwq
-    alt: Screenshot of CodeScan website.
+    src: heyflow_g83eap
+    alt: Screenshot of Heyflow website.
     width: 759
     height: 459
     left: true
-    title: CodeScan
+    title: Heyflow
     desc: >-
-      CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
+      Heyflow is a user-friendly platform that allows you to effortlessly build interactive flows, multi-step forms, lead funnels, and customized landing pages to engage your website visitors and drive conversions - all without the need for any coding expertise.
     subtitle: Responsibilities
     desc2: >-
-      - Maintained frontend of the website.
+      - Built the whole website.
+      - Migrated content to Contentful.
     cta:
-      href: //www.codescan.io
+      href: //heyflow.com
       title: Go to site
       animate: true
   - type: hero-beta
