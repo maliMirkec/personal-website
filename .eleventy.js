@@ -1,17 +1,17 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const { Liquid } = require("liquidjs")
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const { Liquid } = require('liquidjs')
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
-const htmlmin = require("html-minifier")
+const htmlmin = require('html-minifier')
 const uslug = require('uslug')
 const fs = require('fs')
 const env = require('./site/_data/env')
 const package = require('./package.json')
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-    if((env.production || env.staging) && outputPath && outputPath.endsWith(".html")) {
+  eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
+    if((env.production || env.staging) && outputPath && outputPath.endsWith('.html')) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
@@ -26,14 +26,30 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.ignores.add('site/_drafts/*')
 
+  // eleventyConfig.setServerPassthroughCopyBehavior('passthrough')
+
+  let passthroughCopy = {
+    'assets/': '.',
+    'site/side-projects/ui-dev-newsletter/admin/config.yml': '/side-projects/ui-dev-newsletter/admin/config.yml'
+  }
+
+
+  if(env.production) {
+    passthroughCopy['extras/robots_prod.txt'] = './robots.txt'
+  } else {
+    passthroughCopy['extras/robots_dev.txt'] = './robots.txt'
+  }
+
+  eleventyConfig.addPassthroughCopy(passthroughCopy)
+
   eleventyConfig.setWatchThrottleWaitTime(2000)
 
   let options = {
-    extname: ".liquid",
+    extname: '.liquid',
     dynamicPartials: false,
     strictFilters: false,
     jsTruthy: true,
-    root: ["site/_layouts"]
+    root: ['site/_layouts']
   }
 
   eleventyConfig.setLibrary(
@@ -46,7 +62,7 @@ module.exports = (eleventyConfig) => {
     })
   )
 
-  eleventyConfig.setLibrary("liquid", new Liquid(options))
+  eleventyConfig.setLibrary('liquid', new Liquid(options))
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
@@ -205,8 +221,8 @@ module.exports = (eleventyConfig) => {
     return `<div class="table-wrapper">${ markdownItRenderer.render(table.trim()) }</div>`
   })
 
-  eleventyConfig.addCollection("my-reads", (collection) => {
-    return collection.getFilteredByTag("reads").sort((a, b) => {
+  eleventyConfig.addCollection('my-reads', (collection) => {
+    return collection.getFilteredByTag('reads').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -217,8 +233,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("my-slides", (collection) => {
-    return collection.getFilteredByTag("slides").sort((a, b) => {
+  eleventyConfig.addCollection('my-slides', (collection) => {
+    return collection.getFilteredByTag('slides').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -229,8 +245,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("my-css", (collection) => {
-    return collection.getFilteredByTag("invalid css").sort((a, b) => {
+  eleventyConfig.addCollection('my-css', (collection) => {
+    return collection.getFilteredByTag('invalid css').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -241,8 +257,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("my-advent", (collection) => {
-    return collection.getFilteredByTag("advent").sort((a, b) => {
+  eleventyConfig.addCollection('my-advent', (collection) => {
+    return collection.getFilteredByTag('advent').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -253,8 +269,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("my-articles", (collection) => {
-    return collection.getFilteredByTag("blog").sort((a, b) => {
+  eleventyConfig.addCollection('my-articles', (collection) => {
+    return collection.getFilteredByTag('blog').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -265,8 +281,8 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("my-publications", (collection) => {
-    return collection.getFilteredByTag("publications").sort((a, b) => {
+  eleventyConfig.addCollection('my-publications', (collection) => {
+    return collection.getFilteredByTag('publications').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {
@@ -277,7 +293,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("all-articles", (collection) => {
+  eleventyConfig.addCollection('all-articles', (collection) => {
     return collection.sort((a, b) => {
       if (a.date < b.date) {
         return 1
@@ -289,7 +305,7 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addCollection("all-tags", collection => {
+  eleventyConfig.addCollection('all-tags', collection => {
     const tagsSet = new Set()
     collection.getAll().forEach(item => {
       if (!item.data.tags) return
@@ -300,7 +316,7 @@ module.exports = (eleventyConfig) => {
     return Array.from(tagsSet).sort()
   })
 
-  eleventyConfig.addCollection("all", collection => {
+  eleventyConfig.addCollection('all', collection => {
     return collection.sort((a, b) => {
       if (a.url < b.url) {
         return -1
@@ -312,20 +328,13 @@ module.exports = (eleventyConfig) => {
     })
   })
 
-  eleventyConfig.addPassthroughCopy({
-    "assets/": ".",
-    "site/side-projects/ui-dev-newsletter/admin/config.yml": "/side-projects/ui-dev-newsletter/admin/config.yml",
-  })
-
-  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough")
-
-  eleventyConfig.addWatchTarget("./assets/src/**/*")
-  eleventyConfig.addWatchTarget("./assets/dist/**/*")
+  eleventyConfig.addWatchTarget('./assets/src/**/*')
+  eleventyConfig.addWatchTarget('./assets/dist/**/*')
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
-    // Optional, default is "---"
-    excerpt_separator: "<!-- more -->"
+    // Optional, default is '---'
+    excerpt_separator: '<!-- more -->'
   })
 
 
@@ -333,7 +342,7 @@ module.exports = (eleventyConfig) => {
     port: 8080,
     liveReload: true,
     domDiff: true,
-    watchFiles: ["./site/**/*", "./assets/**/*"]
+    watchFiles: ['./site/**/*', './assets/**/*']
   })
 
   return {
