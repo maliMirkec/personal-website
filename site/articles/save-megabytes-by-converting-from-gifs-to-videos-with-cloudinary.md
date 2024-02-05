@@ -60,7 +60,7 @@ To load the GIF to my blog post, all I had to do was to call the shortcode like 
 This code will produce the following HTML:
 
 ```html
-<img class= "brad true" src=" https://res.cloudinary.com/starbist/image/upload/v1687771538/Large_GIF_1458x916_qd6iqv" alt=" Demonstration how CSS View Transition works on my site." width= "759" height= "477" loading= "lazy">
+<img class="brad true" src=" https://res.cloudinary.com/starbist/image/upload/v1687771538/Large_GIF_1458x916_qd6iqv" alt=" Demonstration how CSS View Transition works on my site." width="759" height="477" loading="lazy">
 ```
 
 To load videos instead GIFs, I introduced a new shortcode:
@@ -106,4 +106,4 @@ Here’s the final HTML:
 
 ## Conclusion
 
-The savings from switching from GIF to video are tremendous. For this particular video, it goes from 3 MB to less than 0.3 MB, with an additional .08MB for the poster image. That’s pretty awesome, if you ask me. From now on, I am using only videos on my site.
+The savings from switching from GIF to video are tremendous. For this particular video, it goes from 3 MB to less than 0.3 MB, with an additional 0.08 MB for the poster image. That’s pretty awesome, if you ask me. From now on, I am using only videos on my site.

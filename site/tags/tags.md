@@ -7,7 +7,6 @@ pagination:
   data: collections
   size: 1
   alias: tag
-  filter:
   addAllPagesToCollections: true
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/

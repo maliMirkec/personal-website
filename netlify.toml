@@ -42,7 +42,7 @@ ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
       "**/my-publications/*",
       "**/all-articles/*",
       "**/all-tags/*",
-      "**/side-projects/ui-dev-newsletter/confirmation/",
+      "**/side-projects/ui-dev-newsletter/confirmation/*",
       "**/articles/overview-of-popular-static-site-generators/*",
       "**/articles/how-to-build-an-expandable-accessible-gallery/*",
       "**/articles/how-to-make-a-raise-the-curtains-effect-in-css/*",
