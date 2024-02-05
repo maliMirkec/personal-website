@@ -58,7 +58,7 @@ sections:
   - type: hero-beta
     title: From the Portfolio
     desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Jekyll**, and **Hugo**, among others.
+      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
   - type: cards-gamma
     filter: portfolio
     exclude: true
