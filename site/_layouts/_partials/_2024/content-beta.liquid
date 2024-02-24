@@ -1,0 +1,11 @@
+<section class="padding"{% if content2.id %} id="{{ content2.id }}"{% endif %}>
+  <div class="banner margin-top-beta margin-bottom-beta">
+    <div class="wrapper margin-top margin-bottom">
+      <div class="padding">
+        {% if content2.desc %}
+          <div class="copy balance">{{ content2.desc | markdownify }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

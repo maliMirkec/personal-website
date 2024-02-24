@@ -51,7 +51,7 @@ Here are some alternative options using third-party apps if you cannot connect y
 
 ## ngrok
 
-The first software I heard of that could expose localhost to an external address was [ngrok](https://ngrok.com/). ngrok documentation has [an excellent guide](https://ngrok.com/docs/getting-started/) on how you could use it to expose your localhost to public internet over a secure channel. After you connect ngrok to your account, run the command `ngrok http 8080` and get the publically available forwarding URL.
+The first software I heard of that could expose localhost to an external address was [ngrok](https://ngrok.com/). ngrok documentation has [an excellent guide](https://ngrok.com/docs/getting-started/) on how you could use it to expose your localhost to public internet over a secure channel. After you connect ngrok to your account, run the command `ngrok http 8080` and get the publicly available forwarding URL.
 
 {% note %}
 Make sure to check the [ngrok pricing](https://ngrok.com/pricing). A free plan is available for every developer, but there are some restrictions on bandwidth and usage.

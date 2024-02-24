@@ -1,0 +1,23 @@
+{% assign cardTags = collections.all-tags %}
+
+{% if cardTags %}
+  <section id="{{ cards1.filter }}" class="margin-top-beta margin-bottom-beta">
+    <div class="wrapper text-center">
+      <div class="padding">
+        {% assign cardTagsSize = cardTags | size %}
+        {% assign cardTagsModulo = cardTagsSize | modulo: 10 %}
+        {% if cardTagsModulo == '1' %}
+          <p>There is {{ cardTagsSize }} tag overall.</p>
+        {% else %}
+          <p>There are {{ cardTagsSize }} tags overall.</p>
+        {% endif %}
+      </div>
+      <div class="margin-bottom-beta">
+        {% for cardTag in cardTags %}
+          <a class="button button--invisible button--small" href="/tags/{{ cardTag | downcase }}/">{{ cardTag }}</a>
+        {% endfor %}
+      </div>
+      <a class="button" href="/tags/all/">Explore content</a>
+    </div>
+  </section>
+{% endif %}

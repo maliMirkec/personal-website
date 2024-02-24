@@ -1,0 +1,23 @@
+{% if header %}
+  <header>
+    <nav aria-label="Main" id="MainNavigation">
+      <ul>
+        {% if header.logo %}
+          <li>
+            <a href="{{ header.logo.href }}">
+              {% cldnry header.logo.src header.logo.alt header.logo.width header.logo.height false %}
+            </a>
+          </li>
+        {% endif %}
+        {% if header.menu %}
+          {% for item in header.menu %}
+            <li>
+              <a href="{{ item.href }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </nav>
+  </header>
+{% endif %}
+

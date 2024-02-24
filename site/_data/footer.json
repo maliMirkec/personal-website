@@ -1,24 +1,35 @@
 {
   "logo": {
     "href": "/",
-    "src": "/gfx/svg/logo-12E09F-000.svg",
-    "title": "Silvestar Bistrović"
+    "src": "Logo_043A73_DDEDFE_vlnar7",
+    "alt": "Home",
+    "height": 100,
+    "width": 100
   },
   "menu": [{
-    "href": "/articles/",
-    "title": "Blog"
-  }, {
     "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter❗"
+    "title": "Newsletter"
   }, {
-    "href": "/portfolio/",
-    "title": "Portfolio"
+    "href": "/services/",
+    "title": "Services"
   }, {
-    "href": "/about/",
-    "title": "About"
+    "href": "/testimonials/",
+    "title": "Testimonials"
   }, {
-    "href": "/contact/",
-    "title": "Contact"
+    "href": "/side-projects/",
+    "title": "Side projects"
+  }, {
+    "href": "/links/",
+    "title": "Links"
+  }, {
+    "href": "/favorites/",
+    "title": "Favorites"
+  }, {
+    "href": "/uses/",
+    "title": "Setup"
+  }, {
+    "href": "/slides/",
+    "title": "Slides"
   }, {
     "href": "/rss.xml",
     "title": "Feed"
@@ -28,7 +39,7 @@
     "title": "LinkedIn"
   }, {
     "href": "https://twitter.com/malimirkeccita",
-    "title": "Twitter"
+    "title": "X (Twitter)"
   }, {
     "href": "https://mastodon.social/@cita",
     "title": "Mastodon",
