@@ -7,8 +7,8 @@
   {%- endif -%}
   <form class="banner__form" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post">
     <label class="banner__label" for="bd-email">Enter your email address</label>
-    <input class="banner__input" type="email" name="email" id="bd-email">
-    <button class="cta banner__submit" type="submit">Subscribe</button>
+    <input class="input" type="email" name="email" id="bd-email" autocomplete="off">
+    <button class="cta cta--gamma" type="submit">Subscribe</button>
   </form>
   <div class="banner__details">
     {%- if newsletter.logo1 -%}
