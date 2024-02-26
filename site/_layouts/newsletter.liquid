@@ -14,35 +14,31 @@ isNewsletter: true
 <html lang="{{ lang }}" dir="ltr">
   {% include _partials/_general/head %}
   <body class="uidev{% if page.url == '/side-projects/ui-dev-newsletter/' %} bg-lightish{% endif %}">
-    {% include _partials/_general/skip-link %}
     {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
       {% include _partials/_newsletter/header %}
     {% endunless %}
-    <div class="inner">
-      <main id="main">
-        {% block content %}
-          {% if sections %}
-            {% for section in sections %}
-              {% include _partials/_general/sections %}
-            {% endfor %}
+    <main id="main">
+      {% block content %}
+        {% if sections %}
+          {% for section in sections %}
+            {% include _partials/_general/sections %}
+          {% endfor %}
+        {% endif %}
+        {% if type == 'newsletter-single' %}
+          {% include _partials/_newsletter/issue %}
+        {% else %}
+          {% if content != blank and content != '' %}
+            {% include _partials/_general/content-alpha %}
           {% endif %}
-          {% if type == 'newsletter-single' %}
-            {% include _partials/_newsletter/issue %}
-          {% else %}
-            {% if content != blank and content != '' %}
-              {% include _partials/_general/content-alpha %}
-            {% endif %}
-          {% endif %}
-          {% if sections2 %}
-            {% for section in sections2 %}
-              {% include _partials/_general/sections %}
-            {% endfor %}
-          {% endif %}
-        {% endblock %}
-      </main>
-    </div>
+        {% endif %}
+        {% if sections2 %}
+          {% for section in sections2 %}
+            {% include _partials/_general/sections %}
+          {% endfor %}
+        {% endif %}
+      {% endblock %}
+    </main>
     {% include _partials/_newsletter/footer %}
-    {% include _partials/_general/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
     {% include _partials/_assets/analytics %}

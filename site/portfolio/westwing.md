@@ -9,13 +9,17 @@ thumbnail:
   height: 459
 link: //www.westwing.com
 display: true
-date: 2010-01-01
+date: 2010-01-02
 type: portfolio-item
+tech:
+  - hugo
+  - contentful
 tags:
   - portfolio
   - spg
   - ssg
   - hugo
+  - contentful cms
   - html
   - css
   - javascript

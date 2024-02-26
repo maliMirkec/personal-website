@@ -1,0 +1,15 @@
+<section class="hero margin-top-beta margin-bottom-beta">
+  <div class="wrapper text-center">
+    <div class="padding">
+      <h1 class="fz-step-5 no-margin-top margin-bottom">{{ title }}</h1>
+      <div class="fz-step-1 copy{% if hero1.left %} text-left{% endif %}">
+        <p>{{ subtitle }}</p>
+      </div>
+      {% if tag %}
+        <div class="margin-top">
+          <a class="button" href="/tags/">See all tags</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -138,7 +138,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('embed', (code, width, height) => `<div class="embed" style="aspect-ratio:${width}/${height}">${ code }</div>`)
 
-  const cldnry = (img, alt, width, height, classes, instant) => {
+  const cldnry = (img, alt, width, height, instant) => {
     let attr = ''
 
     if(width) {
@@ -159,7 +159,7 @@ module.exports = (eleventyConfig) => {
 
     const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
 
-    return `<img class="brad${classes ? ' ' + classes : ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+    return `<img srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
   }
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
@@ -201,7 +201,7 @@ module.exports = (eleventyConfig) => {
 
     const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    return `<img class="brad" srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
+    return `<img srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
   }
 
   eleventyConfig.addLiquidShortcode('cldnry2', cldnry2)

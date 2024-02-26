@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.pinecone.io
 display: true
-date: 2010-01-01
+date: 2010-01-06
 type: portfolio-item
+tech:
+  - hugo
 tags:
   - portfolio
   - spg

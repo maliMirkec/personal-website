@@ -11,6 +11,9 @@ link: //heyflow.com
 display: true
 date: 2007-01-31
 type: portfolio-item
+tech:
+  - eleventy
+  - contentful
 tags:
   - portfolio
   - spg
@@ -34,7 +37,7 @@ sections:
     subtitle: Responsibilities
     desc2: >-
       - Built the whole website.
-      
+
       - Migrated content to Contentful.
     cta:
       href: //heyflow.com

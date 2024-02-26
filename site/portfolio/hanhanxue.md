@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.hanhanxue.com
 display: true
-date: 2010-01-14
+date: 2010-01-16
 type: portfolio-item
+tech:
+  - middleman
 tags:
   - portfolio
   - spg

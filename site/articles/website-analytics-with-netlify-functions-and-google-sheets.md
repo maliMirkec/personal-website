@@ -97,7 +97,7 @@ await sheet.addRow({
 });
 ```
 
-The complete code can be found on [my website repository](https://github.com/maliMirkec/personal-website/blob/master/netlify/functions/clue.js) (which is publically exposed).
+The complete code can be found on [my website repository](https://github.com/maliMirkec/personal-website/blob/master/netlify/functions/clue.js) (which is publicly exposed).
 
 ## Gotchas
 

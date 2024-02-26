@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //yearbook2018.trase.earth
 display: true
-date: 2010-01-11
+date: 2010-01-13
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

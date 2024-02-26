@@ -1,0 +1,21 @@
+<section class="banner">
+  {%- if newsletter.tagline -%}
+    <h2 class="banner__title">{{ newsletter.tagline }}</h2>
+  {%- endif -%}
+  {%- if newsletter.description -%}
+    <p class="banner__text">{{ newsletter.description }}</p>
+  {%- endif -%}
+  <form class="banner__form" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post">
+    <label class="banner__label" for="bd-email">Enter your email address</label>
+    <input class="input" type="email" name="email" id="bd-email" autocomplete="off">
+    <button class="cta cta--gamma" type="submit">Subscribe</button>
+  </form>
+  <div class="banner__details">
+    {%- if newsletter.logo1 -%}
+      <a href="/side-projects/ui-dev-newsletter/">
+        <img class="banner__logo" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="50" height="50">
+      </a>
+    {%- endif -%}
+    <p class="banner__info">{{ newsletter.rss_text }}</p>
+  </div>
+</section>

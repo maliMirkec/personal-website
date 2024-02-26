@@ -1,0 +1,16 @@
+<section class="hero">
+  {%- if component.img -%}
+    {%- cldnry component.img.src component.img.alt component.img.width component.img.height true -%}
+  {%- endif -%}
+  {%- if component.title -%}
+    <h1 class="hero__title">{{ component.title | markdownifyi }}</h1>
+  {%- endif -%}
+  {%- if component.desc -%}
+    <div class="hero__text">{{ component.desc | markdownify }}</div>
+  {%- endif -%}
+  {%- if component.cta -%}
+    <div class="hero__action">
+      {%- include _partials/_2024/cta cta: component.cta -%}
+    </div>
+  {%- endif -%}
+</section>

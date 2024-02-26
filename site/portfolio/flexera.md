@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.flexera.com
 display: true
-date: 2010-01-07
+date: 2010-01-09
 type: portfolio-item
+tech:
+  - aem
 tags:
   - portfolio
   - styleguide

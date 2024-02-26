@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //thegrio.com
 display: true
-date: 2010-01-19
+date: 2010-01-20
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

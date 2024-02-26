@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //franciscanchildrens.org
 display: false
-date: 2010-01-18
+date: 2010-01-19
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.revenera.com
 display: true
-date: 2010-01-08
+date: 2010-01-10
 type: portfolio-item
+tech:
+  - aem
 tags:
   - portfolio
   - styleguide

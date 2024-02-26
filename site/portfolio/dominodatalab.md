@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.dominodatalab.com
 display: true
-date: 2010-01-02
+date: 2010-01-03
 type: portfolio-item
+tech:
+  - jekyll
 tags:
   - portfolio
   - spg

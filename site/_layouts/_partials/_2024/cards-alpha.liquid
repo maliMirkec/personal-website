@@ -1,0 +1,56 @@
+{%- assign list = collections[component.filter] -%}
+{%- assign i1 = 1 -%}
+
+{%- if list -%}
+  <section class="box box--alpha">
+    {%- if component.title -%}
+      <h2 class="box__title">
+        {%- if component.href -%}
+          <a href="{{ component.href }}">{{ component.title }}</a>
+        {%- else -%}
+          {{ component.title }}
+        {%- endif -%}
+      </h2>
+    {%- endif -%}
+    <ul class="box__list">
+      {%- for card in list -%}
+        {% liquid
+          assign now = 'now' | date: "%Y-%m-%d"
+          assign cardDate = card.data.date | date: "%Y-%m-%d"
+          if cardDate > now
+            continue
+          endif
+          if component.limit and i1 > component.limit
+            break
+          endif
+          if component.exclude
+            assign tags = card.data.tags | join: ', '
+            if tags contains component.exclude
+              continue
+            endif
+          endif
+        %}
+        {%- unless component.exclude == 'title' and title == card.data.title -%}
+          <li class="box__item">
+            <a class="card" href="{{ card.url }}">
+              {%- if card.data.title -%}
+                <h3 class="card__title">{{ card.data.title }}</h3>
+              {%- endif -%}
+              {%- if card.data.publication or cardDate -%}
+                <span class="card__tags">
+                  {%- if cardDate -%}
+                    <time class="card__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
+                  {%- endif -%}
+                  {%- if card.data.publication -%}
+                    <span class="card__tag">{{ card.data.publication }}</span>
+                  {%- endif -%}
+                </span>
+              {%- endif -%}
+            </a>
+          </li>
+        {%- endunless -%}
+        {%- assign i1 = i1 | plus: 1 -%}
+      {%- endfor -%}
+    </ul>
+  </section>
+{%- endif -%}
