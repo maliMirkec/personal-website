@@ -39,7 +39,7 @@ sections2:
   - type: banner-alpha
     banner: consultation
     animate: true
-excerpt: Excited to have worked alongside Silvestar during our implementation of a new ATS...
+excerpt: The partnership was smooth, and Silvestar’s contribution supported the successful launch....
 ---
 
 > Excited to have worked alongside Silvestar during our implementation of a new ATS! He supported us with setting up our careers page integration and revamp our candidate facing pages. The partnership was smooth, and his contribution greatly supported the successful launch. Thank you Silvestar for your support!

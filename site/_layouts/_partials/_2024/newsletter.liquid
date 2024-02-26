@@ -13,7 +13,7 @@
   <div class="banner__details">
     {%- if newsletter.logo1 -%}
       <a href="/side-projects/ui-dev-newsletter/">
-        <img class="banner__logo" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="50" height="50">
+        {% cldnry newsletter.logo1.src newsletter.logo1.alt 100 100 %}
       </a>
     {%- endif -%}
     <p class="banner__info">{{ newsletter.rss_text }}</p>
