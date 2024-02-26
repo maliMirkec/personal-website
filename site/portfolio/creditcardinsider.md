@@ -7,9 +7,10 @@ thumbnail:
   alt: Screenshot of CCredit Card Insider website.
   width: 759
   height: 459
+featured: true
 link: //www.creditcardinsider.com
 display: true
-date: 2010-01-01
+date: 2021-09-01
 type: portfolio-item
 tech:
   - wordpress

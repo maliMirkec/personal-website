@@ -1,7 +1,8 @@
 :root {
   --serif: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
   --sans-serif: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-  --size-base: 9px;
+  --quote: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  --size-base: clamp(0.563rem, 0.384rem + 0.476vw, 0.813rem);
   --size-2: calc(var(--size-base) * 2);
   --size-3: calc(var(--size-base) * 3);
   --size-4: calc(var(--size-base) * 4);
@@ -24,7 +25,8 @@
   --fz4: var(--size-5);
   --lh4: var(--size-6);
 
-  --size-logo: calc(100px + var(--size-2) * 2);
+  --size-logo-width: 120px;
+  --size-logo: calc(var(--size-logo-width) + var(--size-2) * 2);
 
   --color-s: 93;
   --color-l: 73;
@@ -39,6 +41,8 @@
 
   --color-delta-h: 60;
   --color-delta: hsl(var(--color-delta-h) var(--color-s) var(--color-l));
+
+  --tr-duration: 234ms;
 }
 
 * {
@@ -59,6 +63,14 @@ img {
   block-size: auto;
 }
 
+:where(a, input, button) {
+  outline-color: transparent;
+  outline-offset: 1px;
+  outline-style: groove;
+  outline-width: thin;
+  transition: all var(--tr-duration);
+}
+
 :where(a:not([class])) {
   color: inherit;
 }
@@ -68,9 +80,6 @@ img {
 :where(a:not([class])):active,
 :where(a:not([class])):focus-visible {
   outline-color: currentColor;
-  outline-offset: 1px;
-  outline-style: groove;
-  outline-width: thin;
 }
 
 body {
@@ -95,11 +104,11 @@ body {
 @media screen and (min-width: 481px) {
   body {
     grid-template-areas:
-      "header header"
-      "sidebar main"
-      "footer footer";
+      "header header header"
+      "sidebar main aside"
+      "footer footer footer";
     grid-template-rows: var(--size-logo) 1fr auto;
-    grid-template-columns: var(--size-logo) 1fr;
+    grid-template-columns: var(--size-logo) 1fr auto;
   }
 }
 
@@ -127,7 +136,7 @@ header:has(nav) img {
 }
 
 aside:has(nav) {
-  grid-area: sidebar;
+  grid-area: aside;
   display: grid;
   place-content: start;
   gap: var(--size-2);
@@ -153,11 +162,22 @@ header nav ul {
 
 aside nav ul {
   flex-direction: column;
+  text-align: right;
 }
+
+/* header nav li:first-of-type {
+  margin-inline-end: auto;
+} */
 
 header a,
 aside a {
   display: block;
+}
+
+header a,
+aside a,
+footer a {
+  transition: all var(--tr-duration);
 }
 
 header a,
@@ -168,13 +188,13 @@ footer p {
   color: hsl(var(--color-alpha-h) var(--color-s) var(--color-l));
 }
 
-header a {
+header a,
+aside a {
   font-size: var(--fz2);
   line-height: var(--lh2);
   text-decoration: none;
 }
 
-aside a,
 footer a,
 footer p {
   font-size: var(--fz1);
@@ -193,11 +213,15 @@ footer a:active {
   --color-l: 33;
 }
 
+header img {
+  transform: rotate(-45deg);
+}
+
 main {
   grid-area: main;
   display: grid;
   gap: var(--size-10);
-  padding: var(--size-6) var(--size-2);
+  padding: var(--size-2);
 }
 
 section {
@@ -226,6 +250,13 @@ section {
   line-height: var(--lh3);
 }
 
+.hero__text2 {
+  --color-l: 23;
+  color: hsl(var(--hero-color) var(--color-s) var(--color-l));
+  font-size: var(--fz2);
+  line-height: var(--lh2);
+}
+
 .cta {
   --cta-color: var(--color-alpha-h);
   --color-l1: 23;
@@ -245,6 +276,7 @@ section {
   padding: var(--size-base) var(--size-2);
   border: unset;
   cursor: pointer;
+  transition: all var(--tr-duration);
 }
 
 .cta[href] {
@@ -264,9 +296,6 @@ section {
 .cta:active,
 .cta:focus-visible {
   outline-color: hsl(var(--cta-color) var(--color-s) var(--color-l1));
-  outline-offset: 3px;
-  outline-style: groove;
-  outline-width: thin;
 }
 
 .input {
@@ -280,6 +309,7 @@ section {
   padding: var(--size-base);
   border: unset;
   border-block-end: 1px solid;
+  transition: all var(--tr-duration);
 }
 
 .input:hover,
@@ -295,9 +325,6 @@ section {
 .input:active,
 .input:focus-visible {
   outline-color: hsl(var(--input-color) var(--color-s) var(--color-l1));
-  outline-offset: 3px;
-  outline-style: groove;
-  outline-width: thin;
 }
 
 .cta--gamma {
@@ -305,19 +332,34 @@ section {
 }
 
 .box {
-  --box-color: var(--color-beta-h);
   --color-l: 23;
   color: hsl(var(--box-color) var(--color-s) var(--color-l));
   display: grid;
   gap: var(--size-3);
 }
 
+.box:not([class*="box--"]) {
+  --box-color: var(--color-alpha-h);
+}
+
 .box--alpha {
   --box-color: var(--color-alpha-h);
 }
 
+.box--beta {
+  --box-color: var(--color-beta-h);
+}
+
+.box--gamma {
+  --box-color: var(--color-gamma-h);
+}
+
+.box--delta {
+  --box-color: var(--color-delta-h);
+}
+
 .box__title {
-  --color-l: 23;
+  --color-l: 13;
   color: hsl(var(--box-color) var(--color-s) var(--color-l));
   font-family: var(--serif);
   font-size: var(--fz3);
@@ -330,12 +372,13 @@ section {
 .box__title a {
   display: block;
   text-decoration: none;
+  transition: all var(--tr-duration);
 }
 
 .box__title:hover,
 .box__title:focus,
 .box__title:active {
-  --color-l: 33;
+  --color-l: 23;
 }
 
 .box__list {
@@ -352,14 +395,29 @@ section {
 }
 
 .card {
-  --card-color: var(--color-beta-h);
-  --color-l: 23;
+  --color-l: 20;
   color: hsl(var(--card-color) var(--color-s) var(--color-l));
   display: grid;
 }
 
+.card:not([class*="card--"]) {
+  --card-color: var(--color-alpha-h);
+}
+
 .card--alpha {
   --card-color: var(--color-alpha-h);
+}
+
+.card--beta {
+  --card-color: var(--color-beta-h);
+}
+
+.card--gamma {
+  --card-color: var(--color-gamma-h);
+}
+
+.card--delta {
+  --card-color: var(--color-delta-h);
 }
 
 .card:has(img) {
@@ -368,22 +426,14 @@ section {
 
 .card[href] {
   text-decoration: none;
+  transition: all var(--tr-duration);
 }
 
 .card[href]:hover,
 .card[href]:focus,
 .card[href]:active,
 .card[href]:focus-visible {
-  outline-color: hsl(var(--cta-color) var(--color-s) var(--color-l1));
-  outline-offset: 3px;
-  outline-style: groove;
-  outline-width: thin;
-}
-
-.card:hover .card__title,
-.card:focus .card__title,
-.card:active .card__title {
-  --color-l: 33;
+  outline-color: hsl(var(--card-color) var(--color-s) var(--color-l));
 }
 
 .card__title {
@@ -391,6 +441,13 @@ section {
   font-size: var(--fz2);
   font-weight: 700;
   line-height: var(--lh2);
+  transition: all var(--tr-duration);
+}
+
+.card:hover .card__title,
+.card:focus .card__title,
+.card:active .card__title {
+  --color-l: 30;
 }
 
 .card__tags {
@@ -408,8 +465,134 @@ section {
   line-height: var(--lh1);
 }
 
+.card img {
+  margin-inline: auto;
+}
+
+.quote {
+  --color-l1: 100;
+  --color-l2: 23;
+  --color-l3: 93;
+  background-color: hsl(var(--quote-color) var(--color-s) var(--color-l1));
+  color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
+  display: grid;
+  grid-template-areas:
+    "avatar person"
+    "avatar position"
+    "avatar company"
+    "quote quote";
+  grid-template-columns: auto 1fr;
+  column-gap: var(--size-2);
+  align-self: center;
+  padding: var(--size-2);
+}
+
+.quote:not([class*="quote--"]) {
+  --quote-color: var(--color-alpha-h);
+}
+
+.quote--alpha {
+  --quote-color: var(--color-alpha-h);
+}
+
+.quote--beta {
+  --quote-color: var(--color-beta-h);
+}
+
+.quote--gamma {
+  --quote-color: var(--color-gamma-h);
+}
+
+.quote--delta {
+  --quote-color: var(--color-delta-h);
+}
+
+.quote[href] {
+  text-decoration: none;
+  transition: all var(--tr-duration);
+}
+
+.quote[href]:hover,
+.quote[href]:focus,
+.quote[href]:active,
+.quote[href]:focus-visible {
+  outline-color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
+}
+
+.quote__person {
+  grid-area: person;
+  color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
+  font-family: var(--serif);
+  font-size: var(--fz1);
+  font-weight: 900;
+  line-height: var(--lh1);
+  transition: all var(--tr-duration);
+}
+
+.quote:hover,
+.quote:focus,
+.quote:active {
+  --color-l1: 97;
+}
+
+.quote:hover .quote__person,
+.quote:focus .quote__person,
+.quote:active .quote__person {
+  --color-l2: 33;
+}
+
+.quote__position {
+  grid-area: position;
+}
+
+.quote__company {
+  grid-area: company;
+}
+
+.quote__position,
+.quote__company {
+  color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
+  font-size: var(--fz0);
+  font-weight: 400;
+  line-height: var(--lh0);
+}
+
+.quote__text {
+  grid-area: quote;
+  color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
+  font-size: var(--fz1);
+  font-style: italic;
+  font-weight: 400;
+  line-height: var(--lh1);
+  margin-block-start: var(--size-2);
+  position: relative;
+  margin-inline-start: var(--size-2);
+}
+
+.quote__text::first-letter {
+  font-family: var(--quote);
+  font-size: 160%;
+  font-weight: 700;
+}
+
+.quote__text:before {
+  content: "“";
+  font-size: 240%;
+  font-family: var(--quote);
+  font-weight: 700;
+  position: absolute;
+  inset-inline-end: 100%;
+  inset-block-end: 100%;
+  transform: translateY(75%);
+}
+
+.quote img {
+  background-color: hsl(var(--quote-color) var(--color-s) var(--color-l3));
+  grid-area: avatar;
+  border-radius: 50%;
+}
+
 .banner {
-  --banner-color: var(--color-gamma-h);
   --color-l1: 100;
   --color-l2: 23;
   background-color: hsl(var(--banner-color) var(--color-s) var(--color-l1));
@@ -417,6 +600,26 @@ section {
   display: grid;
   gap: var(--size-2);
   padding: var(--size-5);
+}
+
+.banner:not([class*="banner--"]) {
+  --banner-color: var(--color-gamma-h);
+}
+
+.banner--alpha {
+  --banner-color: var(--color-alpha-h);
+}
+
+.banner--beta {
+  --banner-color: var(--color-beta-h);
+}
+
+.banner--gamma {
+  --banner-color: var(--color-gamma-h);
+}
+
+.banner--delta {
+  --banner-color: var(--color-delta-h);
 }
 
 .banner__title {

@@ -7,9 +7,10 @@ thumbnail:
   alt: Screenshot of Westwing website.
   width: 759
   height: 459
+featured: true
 link: //www.westwing.com
 display: true
-date: 2010-01-02
+date: 2024-01-01
 type: portfolio-item
 tech:
   - hugo

@@ -1,10 +1,10 @@
 {
   "logo": {
     "href": "/",
-    "src": "sb-simple-4_ammtbg",
+    "src": "sb-simple-4_ammtbg.svg",
     "alt": "Home",
-    "height": 100,
-    "width": 100
+    "height": 120,
+    "width": 120
   },
   "menu": [{
     "href": "/articles/",

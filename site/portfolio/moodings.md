@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //moodings.com
 display: true
-date: 2010-01-15
+date: 2018-04-01
 type: portfolio-item
 tech:
   - shopify

@@ -6,10 +6,9 @@ description: Read testimonial by Stephanie (Annie) Andrews in which she talks ab
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: sa_mmdbrl
-date: 2000-01-07
+date: 2021-10-01
 position: Senior Lifecycle Marketing Manager
 company: DDL
 projects:

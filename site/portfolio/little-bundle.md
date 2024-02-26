@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //littlebundle.com
 display: true
-date: 2010-01-12
+date: 2020-10-01
 type: portfolio-item
 tech:
   - shopify

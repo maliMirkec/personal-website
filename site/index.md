@@ -8,10 +8,12 @@ sections:
   - type: hero
     title: Crafting exceptional websites that engage and delight users since 2012
     desc: Transform your digital presence with Silvestar’s expert development services
+    desc2: Or just let me build the best possible website for you and your business
     cta:
       href: /contact/
       title: Get in touch
-  - type: cards-alpha
+  - type: article-list
+    color: beta
     title: Latest blog posts →
     href: /articles/
     filter: my-articles
@@ -19,34 +21,19 @@ sections:
     exclude: publications
     limit: 6
   - type: newsletter
-  - type: cards-beta
+  - type: project-list
+    color: alpha
     title: Featured projects →
     href: /portfolio/
     filter: portfolio
     limit: 6
-  # - type: cards-alpha
-  #   title: Publications →
-  #   filter: my-publications
-  #   sorter: date
-  #   limit: 5
-  # - type: banner-beta
-  #   banner: freelance
-  # - type: hero-beta
-  #   title: From Testimonials
-  #   desc: >-
-  #     Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  # - type: cards-beta
-  #   desc: Do you want to be my next client?
-  #   cta:
-  #     title: Read the testimonial
-  #   cta2:
-  #     href: /contact/
-  #     title: Contact me
-  #   cta3:
-  #     href: /testimonials/
-  #     title: Or see all testimonials
-  #   filter: testimonials
-  #   limit: 5
+    featured: true
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
+    filter: testimonials
+    limit: 6
   # # - type: banner-beta
   # #   banner: interview
   # # - type: hero-beta

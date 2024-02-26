@@ -7,9 +7,10 @@ thumbnail:
   alt: Screenshot of Heyflow website.
   width: 759
   height: 459
+featured: true
 link: //heyflow.com
 display: true
-date: 2007-01-31
+date: 2024-01-01
 type: portfolio-item
 tech:
   - eleventy

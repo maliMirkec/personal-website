@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //www.contiamo.com
 display: true
-date: 2010-01-14
+date: 2017-08-01
 type: portfolio-item
 tech:
   - html

@@ -7,9 +7,10 @@ thumbnail:
   alt: Screenshot of Domino Data Lab website.
   width: 759
   height: 459
+featured: true
 link: //www.dominodatalab.com
 display: true
-date: 2010-01-03
+date: 2021-09-03
 type: portfolio-item
 tech:
   - jekyll

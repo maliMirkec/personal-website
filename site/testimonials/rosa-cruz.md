@@ -6,10 +6,9 @@ description: Read testimonial by Rosa Cruz in which she talks about her positive
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: rc_iahbe8
-date: 1999-01-05
+date: 2023-01-12
 position: Marketing manager
 company: Wunder Mobility
 projects:

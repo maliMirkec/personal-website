@@ -6,10 +6,9 @@ description: Read testimonial by John Ganotis in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: cci_ohuha5
 logo: cci_xk4gjk
 avatar: jg_lqw7xd
-date: 1997-01-01
+date: 2019-11-20
 position: Founder
 company: Credit Card Insider
 projects:

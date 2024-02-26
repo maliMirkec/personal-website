@@ -51,6 +51,22 @@
       "animate": true
     }
   },
+  "javelin-bipod": {
+    "desc": "I've revamped a few **Shopify** templates, including homepage and PDP templates.",
+    "cta": {
+      "href": "/portfolio/javelin-bipod/",
+      "title": "See the project",
+      "animate": true
+    }
+  },
+  "approx-blue": {
+    "desc": "I've built the entire site with **Eleventy** and **Contentful**.",
+    "cta": {
+      "href": "/portfolio/approx-blue/",
+      "title": "See the project",
+      "animate": true
+    }
+  },
   "dominodatalab": {
     "desc": "I helped migrate Domino Data Lab site from **Jekyll** to **HubSpot CMS**.",
     "cta": {

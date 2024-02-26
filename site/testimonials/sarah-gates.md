@@ -6,10 +6,9 @@ description: Read testimonial by Sarah Gates in which she talks about her positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: sg_ensdvf
-date: 2000-01-02
+date: 2020-10-01
 position: Director of Product Marketing
 company: DDL
 projects:

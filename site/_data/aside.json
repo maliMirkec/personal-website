@@ -1,11 +1,4 @@
 {
-  "logo": {
-    "href": "/",
-    "src": "Logo_SB_043A73_DDEDFE_s3ppvr.svg",
-    "alt": "Home",
-    "height": 120,
-    "width": 120
-  },
   "menu": [{
     "href": "/side-projects/ui-dev-newsletter/",
     "title": "Newsletter"

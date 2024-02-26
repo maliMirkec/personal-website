@@ -6,10 +6,9 @@ description: Read testimonial by Christine White in which she talks about her po
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: cw_cdvokw
-date: 2000-01-01
+date: 2021-09-30
 position: Director of Web Strategy
 company: DDL
 projects:

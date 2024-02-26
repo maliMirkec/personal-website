@@ -6,11 +6,10 @@ description: Read testimonial by Adam Maschek in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: am_zanda5
-date: 2005-01-01
-position: CTO
+date: 2018-08-06
+position: Chief Technology Officer
 company: Westwing
 projects:
   - Westwing
@@ -22,7 +21,7 @@ sections:
     height: 30
     avatar: am_zanda5
     title: Adam Maschek
-    desc: CTO at Westwing Home & Living
+    desc: Chief Technology Officer at Westwing Home & Living
 sections2:
   - type: banner-beta
     banner: westwing

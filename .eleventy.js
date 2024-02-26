@@ -155,56 +155,60 @@ module.exports = (eleventyConfig) => {
       attr += ` loading="lazy"`
     }
 
-    const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+    if(img.includes('.svg')) {
+      return `<img src="${'https://res.cloudinary.com/starbist/image/upload/' + img}" alt="${ alt || '' }" ${attr}>`
+    } else {
+      const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
+      const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
 
-    return `<img srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+      return `<img srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+    }
   }
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
-  const cldnry2 = (img, alt, width, height, sizes, instant) => {
-    let attr = ''
+  // const cldnry = (img, alt, width, height, sizes, instant) => {
+  //   let attr = ''
 
-    if(width) {
-      attr += ` width="${ width }"`
-    }
+  //   if(width) {
+  //     attr += ` width="${ width }"`
+  //   }
 
-    if(height) {
-      attr += ` height="${ height }"`
-    }
+  //   if(height) {
+  //     attr += ` height="${ height }"`
+  //   }
 
-    if(instant) {
-      attr += ` fetchpriority="high"`
-    } else {
-      attr += ` loading="lazy"`
-    }
+  //   if(instant) {
+  //     attr += ` fetchpriority="high"`
+  //   } else {
+  //     attr += ` loading="lazy"`
+  //   }
 
-    let srcset = ''
-    let srcsetArray = []
-    let szs = []
-    let sizesArray = []
+  //   let srcset = ''
+  //   let srcsetArray = []
+  //   let szs = []
+  //   let sizesArray = []
 
-    if(sizes) {
-      sizes.split(';').forEach(size => {
-        const s = size.split(':')
+  //   if(sizes) {
+  //     sizes.split(';').forEach(size => {
+  //       const s = size.split(':')
 
-        srcsetArray.push(`${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + s[0] + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} ${s[0]}w`)
+  //       srcsetArray.push(`${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + s[0] + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} ${s[0]}w`)
 
-        sizesArray.push(s[2] ? `(min-width: ${s[2]}) ${s[1]}` : s[1])
-      })
+  //       sizesArray.push(s[2] ? `(min-width: ${s[2]}) ${s[1]}` : s[1])
+  //     })
 
-      srcset = srcsetArray.join(', ')
-      szs = sizesArray.reverse().join(', ')
-    }
+  //     srcset = srcsetArray.join(', ')
+  //     szs = sizesArray.reverse().join(', ')
+  //   }
 
-    const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+  //   const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    return `<img srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
-  }
+  //   return `<img srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
+  // }
 
-  eleventyConfig.addLiquidShortcode('cldnry2', cldnry2)
+  // eleventyConfig.addLiquidShortcode('cldnry', cldnry)
 
   eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, instant)}</a>`)
 

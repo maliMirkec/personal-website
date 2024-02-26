@@ -1,15 +1,15 @@
 ---
 layout: index
-title: Jana Bartels
+title: Devran Taskesen
 titlePrefix: "Testimional by "
-description: Read testimonial by Jana Bartels in which she talks about her positive experience in working with Silvestar Bistrović.
+description: Read testimonial by Devran Taskesen in which she talks about her positive experience in working with Silvestar Bistrović.
 tags:
   - testimonials
 type: testimonials-item
 logo: wm_ysj8e4
-avatar: jb_w08g20
-date: 2023-03-13
-position: Chief Operating Officer
+avatar: dt_kr9cmb
+date: 2023-08-14
+position: Brand/Visual Designer
 company: Wunder Mobility
 projects:
   - Wunder Mobility
@@ -19,9 +19,9 @@ sections:
     alt: Logo of Wunder Mobility.
     width: 236
     height: 30
-    avatar: jb_w08g20
-    title: Jana Bartels
-    desc: Chief Operating Officer at Wunder Mobility.
+    avatar: dt_kr9cmb
+    title: Devran Taskesen
+    desc: Brand/Visual Designer at Wunder Mobility.
 sections2:
   - type: banner-beta
     banner: wunder-mobility
@@ -39,7 +39,9 @@ sections2:
   - type: banner-alpha
     banner: consultation
     animate: true
-excerpt: Silvestar is a very accomplished web dev who always wants to find the best possible...
+excerpt: Working with Silvestar on various web projects was an absolute pleasure! He always found...
 ---
 
-> Silvestar is a very accomplished web dev who always wants to find the best possible solution. He worked as the freelancer within Wunder Mobility and was always responsive, proactive, and his results was from a very high quality.
+> Working with Silvestar on various web projects was an absolute pleasure!
+>
+> He always found an effective and efficient way to realize the ideas the team came up while also bringing more than just his exceptional work ethic to the table. Always enjoyed the humor and humanity while working with him!

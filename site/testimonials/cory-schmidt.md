@@ -6,10 +6,9 @@ description: Read testimonial by Cory Schmidt in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: cs_tru73j
-date: 1999-01-02
+date: 2022-09-08
 position: Chief Revenue Officer
 company: Wunder Mobility
 projects:

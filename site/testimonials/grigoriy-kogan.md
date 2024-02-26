@@ -6,10 +6,9 @@ description: Read testimonial by Grigoriy Kogan in which he talks about his posi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: gk_i7hj6p
-date: 2004-01-02
+date: 2020-03-07
 position: VP of Marketing
 company: Pinecone
 projects:

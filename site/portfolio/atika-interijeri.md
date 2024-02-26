@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //atika-interijeri.hr
 display: false
-date: 2010-01-23
+date: 2017-01-01
 type: portfolio-item
 tech:
   - wordpress

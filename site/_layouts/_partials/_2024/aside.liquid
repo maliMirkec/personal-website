@@ -1,0 +1,26 @@
+{% if aside %}
+  <aside>
+    {% if aside.menu %}
+      <nav aria-label="Secondary">
+        <ul>
+          {% for item in aside.menu %}
+            <li>
+              <a href="{{ item.href }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+    {% if aside.social %}
+      <nav aria-label="Social">
+        <ul>
+          {% for item in aside.social %}
+            <li>
+              <a href="{{ item.href }}" {% if item.rel %} rel="{{ item.rel }}"{% endif %}>{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </aside>
+{% endif %}

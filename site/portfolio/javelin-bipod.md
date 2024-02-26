@@ -1,43 +1,44 @@
 ---
 layout: index
-title: Bozzuto
-description: I've worked on Bozzuto website. Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company.
+title: Spartan Precision Equipment
+description: I've worked on Spartan Precision Equipment web sjop. Spartan Precision Equipment produce rifle and optic support systems that weigh less and achieve more.
 thumbnail:
-  src: bozzuto_nzfu62
-  alt: Screenshot of Bozzuto website.
+  src: javelin-bipod_pgmwsc
+  alt: Screenshot of Spartan Precision Equipment website.
   width: 759
   height: 459
-featured: true
-link: //www.bozzuto.com
+link: //javelinbipod.co.uk
 display: true
-date: 2017-11-01
+date: 2023-10-01
 type: portfolio-item
 tech:
-  - wordpress
+  - eleventy
+  - contentful
 tags:
   - portfolio
-  - styleguide
+  - spg
+  - ssg
+  - eleventy
+  - contentful
   - html
   - css
   - javascript
 sections:
   - type: hero-alpha
     narrow: true
-    src: bozzuto_nzfu62
-    alt: Screenshot of Bozzuto website.
+    src: javelin-bipod_pgmwsc
+    alt: Screenshot of Spartan Precision Equipment website.
     width: 759
     height: 459
     left: true
-    title: Bozzuto
+    title: Spartan Precision Equipment
     desc: >-
-      Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding. The website runs on WordPress.
+      Spartan Precision Equipment specializes in manufacturing lightweight and high-performance rifle and optic support systems. The team, driven by a passion for hunting, combines their expertise and experiences to create designs that meet the demands of various hunting environments worldwide.
     subtitle: Responsibilities
     desc2: >-
-      - Built a living styleguide.
-
-      - Created more than 30 pages from designs using reusable styleguide components.
+      - Built the whole website.
     cta:
-      href: //www.bozzuto.com
+      href: //javelinbipod.co.uk
       title: Go to site
       animate: true
   - type: hero-beta

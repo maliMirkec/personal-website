@@ -6,10 +6,9 @@ description: Read testimonial by Aditya Shah in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: as_roazni
-date: 2000-01-06
+date: 2021-09-29
 position: MarketingOps Leader
 company: DDL
 projects:

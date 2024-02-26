@@ -8,6 +8,9 @@
   {%- if component.desc -%}
     <div class="hero__text">{{ component.desc | markdownify }}</div>
   {%- endif -%}
+  {%- if component.desc2 -%}
+    <div class="hero__text2">{{ component.desc2 | markdownify }}</div>
+  {%- endif -%}
   {%- if component.cta -%}
     <div class="hero__action">
       {%- include _partials/_2024/cta cta: component.cta -%}

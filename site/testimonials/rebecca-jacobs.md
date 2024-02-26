@@ -6,10 +6,9 @@ description: Read testimonial by Rebecca Jacobs in which she talks about her pos
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: cs_zg7xpc
 logo: cs_zg7xpc
 avatar: rj_tducdx
-date: 2006-01-01
+date: 2021-04-06
 position: Marketing Manager
 company: CodeScan
 projects:

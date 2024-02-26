@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //marcijus-studio.com
 display: false
-date: 2010-01-22
+date: 2017-01-01
 type: portfolio-item
 tech:
   - wordpress

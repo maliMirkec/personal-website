@@ -7,9 +7,10 @@ thumbnail:
   alt: Screenshot of Wunder Mobility website.
   width: 759
   height: 459
+featured: true
 link: //www.wundermobility.com
 display: true
-date: 2009-01-31
+date: 2023-01-01
 type: portfolio-item
 tech:
   - jekyll

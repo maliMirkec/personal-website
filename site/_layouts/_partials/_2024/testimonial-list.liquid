@@ -1,8 +1,13 @@
-{%- assign list = collections[component.filter] -%}
+{%- assign list = collections[component.filter] | sort: "date" | reverse -%}
 {%- assign i1 = 1 -%}
 
+{%- if component.color -%}
+  {%- assign componentClass = ' box--' | append: component.color -%}
+  {%- assign cardClass = ' quote--' | append: component.color -%}
+{%- endif -%}
+
 {%- if list -%}
-  <section class="box box--alpha">
+  <section class="box{{ componentClass }}">
     {%- if component.title -%}
       <h2 class="box__title">
         {%- if component.href -%}
@@ -12,7 +17,7 @@
         {%- endif -%}
       </h2>
     {%- endif -%}
-    <ul class="box__list">
+    <ul class="box__grid">
       {%- for card in list -%}
         {% liquid
           assign now = 'now' | date: "%Y-%m-%d"
@@ -32,19 +37,21 @@
         %}
         {%- unless component.exclude == 'title' and title == card.data.title -%}
           <li class="box__item">
-            <a class="card" href="{{ card.url }}">
-              {%- if card.data.title -%}
-                <h3 class="card__title">{{ card.data.title }}</h3>
+            <a class="quote{{ cardClass }}" href="{{ card.url }}">
+              {%- if card.data.avatar -%}
+                {% cldnry card.data.avatar card.data.title 120 120 %}
               {%- endif -%}
-              {%- if card.data.publication or cardDate -%}
-                <span class="card__tags">
-                  {%- if cardDate -%}
-                    <time class="card__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
-                  {%- endif -%}
-                  {%- if card.data.publication -%}
-                    <span class="card__tag">{{ card.data.publication }}</span>
-                  {%- endif -%}
-                </span>
+              {%- if card.data.title -%}
+                <h3 class="quote__person">{{ card.data.title }}</h3>
+              {%- endif -%}
+              {%- if card.data.position -%}
+                <h4 class="quote__position">{{ card.data.position }}</h4>
+              {%- endif -%}
+              {%- if card.data.company -%}
+                <h5 class="quote__company">{{ card.data.company }}</h5>
+              {%- endif -%}
+              {%- if card.data.excerpt -%}
+                <p class="quote__text">{{ card.data.excerpt }}</p>
               {%- endif -%}
             </a>
           </li>
@@ -53,4 +60,4 @@
       {%- endfor -%}
     </ul>
   </section>
-{%- endif -%}
+{% endif %}
