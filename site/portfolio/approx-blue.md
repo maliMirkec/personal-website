@@ -11,6 +11,9 @@ link: //approx.blue
 display: true
 date: 2008-01-31
 type: portfolio-item
+tech:
+  - eleventy
+  - contentful
 tags:
   - portfolio
   - spg

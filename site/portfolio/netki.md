@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //netki.com
 display: true
-date: 2010-01-15
+date: 2010-01-17
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

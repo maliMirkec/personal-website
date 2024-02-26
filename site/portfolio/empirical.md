@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.empirical.net
 display: false
-date: 2010-01-17
+date: 2010-01-18
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

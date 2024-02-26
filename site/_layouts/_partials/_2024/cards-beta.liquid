@@ -1,15 +1,59 @@
-{% if cards2.other %}
-  {% assign card2List = collections[cards2.filter] | sortItemsFirst: 'projects', title %}
-{% elsif cards2.random %}
-  {% assign card2List = collections[cards2.filter] | randomItems %}
-{% else %}
-  {% assign card2List = collections[cards2.filter] | sort: 'data.date' %}
-{% endif %}
+{%- assign list = collections[component.filter] -%}
+{%- assign i1 = 1 -%}
 
-{% assign i2 = 1 %}
-
-{% if card2List %}
-  <section id="{{ cards2.filter }}" class="margin-top-beta margin-bottom-beta">
+{%- if list -%}
+  <section class="box box--alpha">
+    {%- if component.title -%}
+      <h2 class="box__title">
+        {%- if component.href -%}
+          <a href="{{ component.href }}">{{ component.title }}</a>
+        {%- else -%}
+          {{ component.title }}
+        {%- endif -%}
+      </h2>
+    {%- endif -%}
+    <ul class="box__grid">
+      {%- for card in list -%}
+        {% liquid
+          assign now = 'now' | date: "%Y-%m-%d"
+          assign cardDate = card.data.date | date: "%Y-%m-%d"
+          if cardDate > now
+            continue
+          endif
+          if component.limit and i1 > component.limit
+            break
+          endif
+          if component.exclude
+            assign tags = card.data.tags | join: ', '
+            if tags contains component.exclude
+              continue
+            endif
+          endif
+        %}
+        {%- unless component.exclude == 'title' and title == card.data.title -%}
+          <li class="box__item">
+            <a class="card card--alpha" href="{{ card.url }}">
+              {%- if card.data.thumbnail -%}
+                {% cldnry2 card.data.thumbnail.src card.data.thumbnail.alt 600 363 '400:100vw;600:50vw:37.5em;500:33vw:100em' %}
+              {%- endif -%}
+              {%- if card.data.title -%}
+                <h3 class="card__title">{{ card.data.title }}</h3>
+              {%- endif -%}
+              {%- if card.data.tech -%}
+                <span class="card__tags">
+                  {%- for tech in card.data.tech -%}
+                    <span class="card__tag">{{ tech }}</span>
+                  {%- endfor -%}
+                </span>
+              {%- endif -%}
+            </a>
+          </li>
+        {%- endunless -%}
+        {%- assign i1 = i1 | plus: 1 -%}
+      {%- endfor -%}
+    </ul>
+  </section>
+  {% comment %} <section id="{{ cards2.filter }}" class="margin-top-beta margin-bottom-beta">
     <div class="wrapper wrapper--alpha grid padding">
       {% for card2 in card2List %}
         {% if cards2.limit and i2 > cards2.limit %}
@@ -66,5 +110,5 @@
         </div>
       {% endif %}
     </div>
-  </section>
+  </section> {% endcomment %}
 {% endif %}

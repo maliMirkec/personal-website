@@ -16,6 +16,6 @@
         <img class="banner__logo" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="50" height="50">
       </a>
     {%- endif -%}
-    <p class="banner__info">No spam, only quality content. Trusted by more than 600 subscribers.<br>Don't like newsletters? <a href="/rss2.xml">Subscribe to RSS feed instead</a>.</p>
+    <p class="banner__info">{{ newsletter.rss_text }}</p>
   </div>
 </section>

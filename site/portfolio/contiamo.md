@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.contiamo.com
 display: true
-date: 2010-01-12
+date: 2010-01-14
 type: portfolio-item
+tech:
+  - html
 tags:
   - portfolio
   - spg

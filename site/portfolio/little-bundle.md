@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //littlebundle.com
 display: true
-date: 2010-01-10
+date: 2010-01-12
 type: portfolio-item
+tech:
+  - shopify
 tags:
   - portfolio
   - shopify

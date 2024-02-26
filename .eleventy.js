@@ -201,7 +201,7 @@ module.exports = (eleventyConfig) => {
 
     const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    return `<img class="brad" srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
+    return `<img srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
   }
 
   eleventyConfig.addLiquidShortcode('cldnry2', cldnry2)

@@ -11,12 +11,16 @@ link: //www.wundermobility.com
 display: true
 date: 2009-01-31
 type: portfolio-item
+tech:
+  - jekyll
+  - contentful
 tags:
   - portfolio
   - spg
   - ssg
   - jekyll
   - contentful
+  - forestry
   - html
   - css
   - javascript

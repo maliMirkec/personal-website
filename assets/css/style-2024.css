@@ -47,8 +47,16 @@
   padding: unset;
 }
 
+/*https://pqina.nl/blog/fix-google-mobile-usability-issues/*/
+:where(body, iframe, pre, img, svg, video, canvas, select) {
+  max-inline-size: 100%;
+  overflow: auto;
+  word-break: break-word;
+}
+
 img {
   display: block;
+  block-size: auto;
 }
 
 :where(a:not([class])) {
@@ -304,6 +312,10 @@ section {
   gap: var(--size-3);
 }
 
+.box--alpha {
+  --box-color: var(--color-alpha-h);
+}
+
 .box__title {
   --color-l: 23;
   color: hsl(var(--box-color) var(--color-s) var(--color-l));
@@ -332,11 +344,26 @@ section {
   gap: var(--size-3);
 }
 
+.box__grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--size-3);
+}
+
 .card {
   --card-color: var(--color-beta-h);
   --color-l: 23;
   color: hsl(var(--card-color) var(--color-s) var(--color-l));
   display: grid;
+}
+
+.card--alpha {
+  --card-color: var(--color-alpha-h);
+}
+
+.card:has(img) {
+  text-align: center;
 }
 
 .card[href] {
@@ -366,15 +393,19 @@ section {
   line-height: var(--lh2);
 }
 
-.card__tag {
-  font-size: var(--fz1);
-  line-height: var(--lh1);
-}
-
 .card__tags {
   display: flex;
   flex-wrap: wrap;
   gap: var(--size-2);
+}
+
+.card:has(img) .card__tags {
+  justify-content: center;
+}
+
+.card__tag {
+  font-size: var(--fz1);
+  line-height: var(--lh1);
 }
 
 .banner {

@@ -17,26 +17,17 @@ sections:
     filter: my-articles
     sorter: date
     exclude: publications
-    limit: 5
+    limit: 6
   - type: newsletter
+  - type: cards-beta
+    title: Featured projects →
+    href: /portfolio/
+    filter: portfolio
+    limit: 6
   # - type: cards-alpha
   #   title: Publications →
   #   filter: my-publications
   #   sorter: date
-  #   limit: 5
-  # - type: hero-beta
-  #   title: From the Portfolio
-  #   desc: >-
-  #     Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  # - type: cards-gamma
-  #   desc: Do you want to work with me?
-  #   cta:
-  #     href: /contact/
-  #     title: Get in touch
-  #   cta2:
-  #     href: /portfolio/
-  #     title: Or see my portfolio
-  #   filter: portfolio
   #   limit: 5
   # - type: banner-beta
   #   banner: freelance

@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //rev.dominodatalab.com
 display: true
-date: 2010-01-04
+date: 2010-01-05
 type: portfolio-item
+tech:
+  - jekyll
 tags:
   - portfolio
   - jekyll

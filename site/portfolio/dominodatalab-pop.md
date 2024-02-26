@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //popup.dominodatalab.com
 display: true
-date: 2010-01-03
+date: 2010-01-04
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

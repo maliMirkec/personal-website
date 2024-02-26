@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //irinaandmatej.com
 display: true
-date: 2010-01-16
+date: 2010-01-21
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress

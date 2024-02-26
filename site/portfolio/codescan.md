@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.codescan.io
 display: true
-date: 2010-01-05
+date: 2010-01-07
 type: portfolio-item
+tech:
+  - hugo
 tags:
   - portfolio
   - spg
