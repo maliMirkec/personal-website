@@ -35,7 +35,7 @@ But what about inherited properties? In the example below, the last button will 
 
 These things make sense to me, an experienced CSS developer who knows about inheritance. But for a beginner, these concepts are not trivial. I would dare say most beginners didn't even hear about inherited and non-inherited properties or might forget about them. They might learn about the cascade, which is not the same.
 
-Cascade is about specificity, inheritance, and more. MDN has a pretty solid article about [cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+The final styling is based on cascade, specificity, inheritance, and more. MDN has a pretty solid article about understanding [cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
 
 > Also significant here is the concept of inheritance, which means that some CSS properties by default inherit values set on the current element's parent element and some don't. This can also cause some behavior that you might not expect.
 >
