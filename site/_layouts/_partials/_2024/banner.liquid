@@ -1,0 +1,15 @@
+{%- if cta[component.banner] -%}
+  <section class="banner">
+    {% if cta[component.banner].title %}
+      <h2 class="banner__title">{{ cta[component.banner].title | markdownifyi }}</h2>
+    {% endif %}
+    {% if cta[component.banner].desc %}
+      <div class="banner__text">{{ cta[component.banner].desc | markdownify }}</div>
+    {% endif %}
+    {% if cta[component.banner].cta %}
+      <div class="banner__action">
+        <a class="cta" href="{{ cta[component.banner].cta.href }}">{{ cta[component.banner].cta.title }}</a>
+      </div>
+    {% endif %}
+  </section>
+{%- endif -%}

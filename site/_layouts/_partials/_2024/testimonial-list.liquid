@@ -38,8 +38,11 @@
         {%- unless component.exclude == 'title' and title == card.data.title -%}
           <li class="box__item">
             <a class="quote{{ cardClass }}" href="{{ card.url }}">
+              {%- if card.data.excerpt -%}
+                <p class="quote__text">{{ card.data.excerpt }}</p>
+              {%- endif -%}
               {%- if card.data.avatar -%}
-                {% cldnry card.data.avatar card.data.title 120 120 %}
+                {% cldnry card.data.avatar card.data.title 100 100 %}
               {%- endif -%}
               {%- if card.data.title -%}
                 <h3 class="quote__person">{{ card.data.title }}</h3>
@@ -49,9 +52,6 @@
               {%- endif -%}
               {%- if card.data.company -%}
                 <h5 class="quote__company">{{ card.data.company }}</h5>
-              {%- endif -%}
-              {%- if card.data.excerpt -%}
-                <p class="quote__text">{{ card.data.excerpt }}</p>
               {%- endif -%}
             </a>
           </li>

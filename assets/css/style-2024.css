@@ -2,7 +2,7 @@
   --serif: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
   --sans-serif: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --quote: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-  --size-base: clamp(0.563rem, 0.384rem + 0.476vw, 0.813rem);
+  --size-base: clamp(0.5625rem, 0.469rem + 0.25vw, 0.75rem);
   --size-2: calc(var(--size-base) * 2);
   --size-3: calc(var(--size-base) * 3);
   --size-4: calc(var(--size-base) * 4);
@@ -477,13 +477,16 @@ section {
   color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
   display: grid;
   grid-template-areas:
-    "avatar person"
-    "avatar position"
-    "avatar company"
-    "quote quote";
-  grid-template-columns: auto 1fr;
+    "quote quote"
+    "gap1 avatar"
+    "person avatar"
+    "position avatar"
+    "company avatar"
+    "gap2 avatar";
+  grid-template-columns: 1fr auto;
   column-gap: var(--size-2);
-  align-self: center;
+  align-items: center;
+  place-items: end;
   padding: var(--size-2);
 }
 
@@ -526,6 +529,7 @@ section {
   font-size: var(--fz1);
   font-weight: 900;
   line-height: var(--lh1);
+  text-align: right;
   transition: all var(--tr-duration);
 }
 
@@ -533,12 +537,6 @@ section {
 .quote:focus,
 .quote:active {
   --color-l1: 97;
-}
-
-.quote:hover .quote__person,
-.quote:focus .quote__person,
-.quote:active .quote__person {
-  --color-l2: 33;
 }
 
 .quote__position {
@@ -555,6 +553,7 @@ section {
   font-size: var(--fz0);
   font-weight: 400;
   line-height: var(--lh0);
+  text-align: right;
 }
 
 .quote__text {
@@ -564,7 +563,7 @@ section {
   font-style: italic;
   font-weight: 400;
   line-height: var(--lh1);
-  margin-block-start: var(--size-2);
+  margin-block-end: var(--size-2);
   position: relative;
   margin-inline-start: var(--size-2);
 }
@@ -657,4 +656,12 @@ section {
 .banner__info {
   font-size: var(--fz0);
   line-height: var(--lh0);
+}
+
+.banner__action {
+  margin-block-start: var(--size-base);
+}
+
+.banner .cta {
+  --cta-color: var(--banner-color);
 }
