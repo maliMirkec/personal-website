@@ -275,12 +275,12 @@ If we open the preview page with the page’s ID from Contentful as a URL parame
 
 {% video 'https://res.cloudinary.com/starbist/video/upload/v1710618807/live-preview-localhost_lnif2j' 759 480 %}
 
-## Bonus stuff
+<!-- ## Bonus stuff
 
 - loader - Afif’s site
 - reusing the contentful data
 - adding filter
-- adding assets
+- adding assets -->
 
 ###
 
