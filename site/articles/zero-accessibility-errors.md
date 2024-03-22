@@ -5,7 +5,7 @@ date: 2024-03-22 12:00:00
 tags:
   - blog
   - accessibility
-description: My site is included in the report for the first time and its zero accessibility errors.
+description: My site is included in The WebAIM Million report for the first time and its zero accessibility errors.
 type: articles-item
 sections2:
   - type: banner-beta
