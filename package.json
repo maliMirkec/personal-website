@@ -47,7 +47,7 @@
     "markdown-it-anchor": "8.6.7",
     "node-fetch": "3.3.1",
     "penthouse": "2.3.3",
-    "sharp": "0.32.1",
+    "sharp": "0.32.6",
     "uglify-js": "^3.17.4",
     "uslug": "1.0.4",
     "utf8": "3.0.0"
