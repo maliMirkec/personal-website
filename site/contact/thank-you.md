@@ -1,13 +1,13 @@
 ---
-layout: index
+layout: index-2024
 title: Thank you for contacting me
 description: I value your message and strive to respond as quickly as possible. You can expect to hear back from me within 24 hours or less.
 noindex: true
 type: page
 sections:
-  - type: hero-alpha
-    title: Thank you for contacting me.
-    desc: >-
+  - type: hero
+    title: Thank you for contacting me
+    desc2: >-
       I value your message and strive to respond as quickly as possible.
 
 
@@ -15,7 +15,4 @@ sections:
     cta:
       href: /
       title: Go home
-  - type: banner-beta
-    banner: newsletter
-    animate: true
 ---
