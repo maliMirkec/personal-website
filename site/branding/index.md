@@ -1,5 +1,5 @@
 ---
-layout: index-2024
+layout: default
 title: My branding
 description: All about my site's branding, from logos to colors to typography.
 type: about

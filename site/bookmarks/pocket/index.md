@@ -1,12 +1,11 @@
 ---
-layout: index
+layout: default
 title: Pocket bookmarks
-descriptionAlt: Pocket bookmarks export file.
 description: Discover my favorite articles and resources saved in Pocket for web development, frontend, user interface, design, and more.
 date: 2017-08-02 20:08:06
 type: articles-item
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Pocket Bookmarks
     desc: >-
       Pocket bookmarks export file.
@@ -15,7 +14,6 @@ sections:
 ## Pocket links
 
 ```txt
-
 https://www.youtube.com/watch?v=2Rn8an74khk&amp;feature=youtu.be
 
 https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/
@@ -4275,3 +4273,5 @@ http://www.biography.com/people/coco-chanel-9244165/videos/coco-chanel-mini-bio-
 http://flowplayer.org/tools/tooltip/slide.html
 
 ```
+
+Export date: 2017-08-02.

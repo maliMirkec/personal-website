@@ -1,12 +1,11 @@
 ---
-layout: index
+layout: default
 title: Browser bookmarks
-descriptionAlt: Browser bookmarks export file.
 description: Discover a collection of curated browser bookmarks, from web development tools to online resources, find everything you need boost your productivity.
 date: 2017-08-02 20:08:06
 type: articles-item
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Browser Bookmarks
     desc: >-
       Browser bookmarks export file.
@@ -15,7 +14,6 @@ sections:
 ## Browser links
 
 ```txt
-
 https://extendsclass.com/xpath-tester.html
 
 https://extendsclass.com/sqlite-browser.html
@@ -431,3 +429,5 @@ https://undraw.co/illustrations
 https://vectr.com/
 
 ```
+
+Export date: 2017-08-02.

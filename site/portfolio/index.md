@@ -1,23 +1,23 @@
 ---
-layout: index
+layout: default
 title: My portfolio
 description: Here are the projects that make Silvestar proud the most. Projects are built with WordPress, Shopify, Jekyll, and Hugo, among others.
 type: portfolio
 sections:
-  - type: hero-alpha
+  - type: hero
     title: From the Portfolio
     desc: >-
       Here are the projects that I am most proud.
 
 
       Built with WordPress, Shopify, Jekyll, and Hugo, among others.
-  - type: banner-beta
+  - type: banner
     banner: testimonials
-  - type: cards-gamma
+  - type: project-list
+    color: alpha
+    title: Recent projects →
+    href: /portfolio/
     filter: portfolio
-    instant: 3
-    h2: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

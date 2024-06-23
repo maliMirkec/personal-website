@@ -1,5 +1,5 @@
 ---
-layout: index-2024
+layout: default
 title: My home
 ogImageTitle: Home of fearless web developer Silvestar Bistrović
 description: Silvestar is building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
@@ -7,8 +7,8 @@ type: home
 sections:
   - type: hero
     title: Crafting exceptional websites that engage and delight users since 2012
-    desc: Transform your digital presence with Silvestar’s expert development services
-    desc2: Or just let me build the best possible website for you and your business
+    desc: Transform your digital presence with Silvestar’s expert development services.
+    desc2: Or just let me build the best possible website for you and your business.
     cta:
       href: /contact/
       title: Get in touch
@@ -27,7 +27,8 @@ sections:
     href: /portfolio/
     filter: portfolio
     limit: 6
-    featured: true
+    exclude: true
+sections2:
   - type: testimonial-list
     color: delta
     title: Testimonials →

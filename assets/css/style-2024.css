@@ -148,6 +148,7 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   gap: var(--size-4);
+  margin-block-start: var(--size-6);
 }
 
 nav ul {
@@ -233,7 +234,7 @@ main {
 }
 
 section {
-  max-inline-size: var(--size-100);
+  max-inline-size: 92ch;
 }
 
 .hero {
@@ -620,8 +621,9 @@ section {
 }
 
 .banner {
-  --color-l1: 100;
+  --color-l1: 99;
   --color-l2: 23;
+  --color-l3: 93;
   background-color: hsl(var(--banner-color) var(--color-s) var(--color-l1));
   color: hsl(var(--banner-color) var(--color-s) var(--color-l2));
   display: grid;
@@ -718,15 +720,62 @@ section {
 }
 
 .copy {
-  --color-l: 23;
-  color: hsl(var(--color-alpha-h) var(--color-s) var(--color-l));
+  --color-l1: 23;
+  --color-l2: 93;
+  color: hsl(var(--color-alpha-h) var(--color-s) var(--color-l1));
 }
 
-.copy p {
+.copy h2 {
+  font-size: var(--fz3);
+  line-height: var(--lh3);
+}
+
+.copy ul,
+.copy ol {
+  padding-inline-start: 1em;
+}
+
+.copy p,
+.copy ul {
   font-size: var(--fz2);
   line-height: var(--lh2);
 }
 
-.copy p:not(:last-child) {
+.copy :is(h2, h3) {
+  font-family: var(--serif);
+  font-weight: 900;
+}
+
+.copy :is(h2, h3):not(:first-child) {
+  margin-block-start: 1.5em;
+}
+
+.copy :is(h2, ul, pre):not(:last-child) {
   margin-block-end: 1em;
+}
+
+.copy :is(p, li):not(:last-child) {
+  margin-block-end: .5em;
+}
+
+.copy :is(ul ul) {
+  margin-block-start: .5em;
+}
+
+.copy hr {
+  border: unset;
+  border-top: var(--size-2) dotted hsl(var(--color-alpha-h) var(--color-s) var(--color-l2));
+  margin-block: var(--size-10);
+  margin-inline: var(--size-10);
+}
+
+.copy sup a {
+  text-decoration: none;
+}
+
+.copy pre {
+  font-size: var(--fz0);
+  line-height: var(--lh0);
+  border: 1px dashed;
+  padding: var(--size-2);
 }

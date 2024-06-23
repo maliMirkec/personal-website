@@ -1,6 +1,6 @@
 ---
-layout: index
-title: Han Han Xue website
+layout: default
+title: Han Han Xue
 description: I've worked on Han Han Xue website. Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
 thumbnail:
   src: han-han-xue_oo7wab
@@ -22,55 +22,43 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: han-han-xue_oo7wab
-    alt: Screenshot of Han Han Xue website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: han-han-xue_oo7wab
+      alt: Screenshot of Han Han Xue website.
+      width: 759
+      height: 459
     title: Han Han Xue
-    desc: >-
-      Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman and Netlify.
-    subtitle: Responsibilities
     desc2: >-
-      - Installed a new Middleman instance.
-
-      - Set up project architecture.
-
-      - Created all pages from designs.
-
-      - Used Cloudinary for delivering images.
-
-      - Optimized assets delivery.
-
-      - Used the latest best practices for boosting the site speed.
-
-      - Hosted the website on Netlify.
-    cta:
-      href: //www.hanhanxue.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      Han Han Xue is a designer and FX technical director from Montreal, Canada. The website runs on Middleman and Netlify.
+sections2:
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
     filter: testimonials
     limit: 6
     other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+  - type: project-list
+    color: alpha
+    title: Recent projects →
+    href: /portfolio/
     filter: portfolio
-    exclude: true
     limit: 6
-    random: true
-  - type: banner-alpha
+    exclude: true
+  - type: banner
     banner: consultation
     animate: true
 ---
+
+## Responsibilities
+
+- Installed a new Middleman instance.
+- Set up project architecture.
+- Created all pages from designs.
+- Used Cloudinary for delivering images.
+- Optimized assets delivery.
+- Used the latest best practices for boosting the site speed.
+- Hosted the website on Netlify.
+
+[Go to site →](//www.hanhanxue.com)

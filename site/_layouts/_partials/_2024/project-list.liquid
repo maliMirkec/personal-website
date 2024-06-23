@@ -1,4 +1,4 @@
-{%- assign list = collections[component.filter] | sort: "date" | reverse -%}
+{%- assign list = collections[component.filter] | where: 'data.display', true | sort: "date" | reverse -%}
 {%- assign i1 = 1 -%}
 
 {%- if component.color -%}
@@ -28,36 +28,31 @@
           if component.featured and card.data.featured != true
             continue
           endif
+          if component.exclude and card.url == page.url
+            continue
+          endif
           if component.limit and i1 > component.limit
             break
           endif
-          if component.exclude
-            assign tags = card.data.tags | join: ', '
-            if tags contains component.exclude
-              continue
-            endif
-          endif
+          assign i1 = i1 | plus: 1
         %}
-        {%- unless component.exclude == 'title' and title == card.data.title -%}
-          <li class="box__item">
-            <a class="card{{ cardClass }}" href="{{ card.url }}">
-              {%- if card.data.thumbnail -%}
-                {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 500 302 %}
-              {%- endif -%}
-              {%- if card.data.title -%}
-                <h3 class="card__title">{{ card.data.title }}</h3>
-              {%- endif -%}
-              {%- if card.data.tech -%}
-                <span class="card__tags">
-                  {%- for tech in card.data.tech -%}
-                    <span class="card__tag">{{ tech }}</span>
-                  {%- endfor -%}
-                </span>
-              {%- endif -%}
-            </a>
-          </li>
-        {%- endunless -%}
-        {%- assign i1 = i1 | plus: 1 -%}
+        <li class="box__item">
+          <a class="card{{ cardClass }}" href="{{ card.url }}">
+            {%- if card.data.thumbnail -%}
+              {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 500 302 %}
+            {%- endif -%}
+            {%- if card.data.title -%}
+              <h3 class="card__title">{{ card.data.title }}</h3>
+            {%- endif -%}
+            {%- if card.data.tech -%}
+              <span class="card__tags">
+                {%- for tech in card.data.tech -%}
+                  <span class="card__tag">{{ tech }}</span>
+                {%- endfor -%}
+              </span>
+            {%- endif -%}
+          </a>
+        </li>
       {%- endfor -%}
     </ul>
   </section>
