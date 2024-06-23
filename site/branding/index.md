@@ -1,107 +1,217 @@
 ---
-layout: index
+layout: index-2024
 title: My branding
 description: All about my site's branding, from logos to colors to typography.
 type: about
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Branding
     desc: >-
-      Here you could find different versions of my logo.
-    narrow: true
-sections2:
-  - type: banner-alpha
+      Here you could find different versions of my logos, profile images, and other.
+  - type: gallery
+    title: Logos (full)
+    list:
+      - img:
+          src: Logo_043A73_DDEDFE_vlnar7
+          alt: A blue version of my logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_024024_7AFACA_pug83f
+          alt: A green version of my logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_710412_FEDDE1_cspljm
+          alt: A red version of my logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_717104_FAFA7A_mpq9fx
+          alt: A yellow version of my logo in full details.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Logos (simple)
+    list:
+      - img:
+          src: Logo_SB_043A73_DDEDFE_s3ppvr
+          alt: A blue version of my logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_SB_024024_7AFACA_ilsznv
+          alt: A green version of my logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_SB_710412_FEDDE1_ocrnqs
+          alt: A red version of my logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: Logo_SB_717104_FAFA7A_eeweri
+          alt: A yellow version of my logo in less details.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Avatar (single tone version)
+    list:
+      - img:
+          src: sb-silhouette-4_upzyrb
+          alt: A blue version of my avatar in single tone.
+          width: 200
+          height: 200
+      - img:
+          src: sb-silhouette-3_ahjr1o
+          alt: A green version of my avatar in single tone.
+          width: 200
+          height: 200
+      - img:
+          src: sb-silhouette-5_h1ncje
+          alt: A red version of my avatar in single tone.
+          width: 200
+          height: 200
+      - img:
+          src: sb-silhouette-2_yvmjqp
+          alt: A yellow version of my avatar in single tone.
+          width: 200
+          height: 200
+      - img:
+          src: sb-silhouette-1_y2mpxo
+          alt: A black and white version of my avatar in single tone.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Avatar (dual tones version)
+    list:
+      - img:
+          src: sb-dual-colors-4_aymdnj
+          alt: A blue version of my avatar in dual tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-dual-colors-3_tgbpqw
+          alt: A green version of my avatar in dual tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-dual-colors-5_kxdbvj
+          alt: A red version of my avatar in dual tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-dual-colors-2_nx3fzs
+          alt: A yellow version of my avatar in dual tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-dual-colors-1_kvf1iq
+          alt: A black and white version of my avatar in dual tones.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Avatar (simple version)
+    list:
+      - img:
+          src: sb-simple-4_ammtbg
+          alt: A blue version of my avatar in triplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-simple-3_vo7yvq
+          alt: A green version of my avatar in triplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-simple-5_uqintg
+          alt: A red version of my avatar in triplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-simple-2_bjbb3o
+          alt: A yellow version of my avatar in triplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-simple-1_n2bklp
+          alt: A black and white version of my avatar in triplet tones.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Avatar (portrait version)
+    list:
+      - img:
+          src: sb-portrait-4_pisw70
+          alt: A blue version of my avatar in quadruplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-portrait-3_s3eyxu
+          alt: A green version of my avatar in quadruplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-portrait-5_iyxz8s
+          alt: A red version of my avatar in quadruplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-portrait-2_v29jvl
+          alt: A yellow version of my avatar in quadruplet tones.
+          width: 200
+          height: 200
+      - img:
+          src: sb-portrait-1_bnx9xy
+          alt: A black and white version of my avatar in quadruplet tones.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Newsletter logo (full)
+    list:
+      - img:
+          src: UI_Dev_Newsletter_12E09F_ftf610
+          alt: A green version of my newsletter logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_Newsletter_000_12E09F_c96lw1
+          alt: A green inverted version of my newsletter logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_Newsletter_FF3366_eccarb
+          alt: A red version of my newsletter logo in full details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_Newsletter_000_FF3366_pjg6gy
+          alt: A red inverted version of my newsletter logo in full details.
+          width: 200
+          height: 200
+  - type: gallery
+    title: Newsletter logo (simple)
+    list:
+      - img:
+          src: UI_Dev_12E09F_v7mvcw
+          alt: A green version of my newsletter logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_000_12E09F_lv441f
+          alt: A green inverted version of my newsletter logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_FF3366_efcpho
+          alt: A red version of my newsletter logo in less details.
+          width: 200
+          height: 200
+      - img:
+          src: UI_Dev_000_FF3366_psi4k2
+          alt: A red inverted version of my newsletter logo in less details.
+          width: 200
+          height: 200
+  - type: banner
     banner: consultation
-    animate: true
 ---
-
-<div class="text-center">
-  <h2>SVG</h2>
-  <p>Click on the image to download it.</p>
-  <div>
-    <a href="/gfx/svg/logo-SB-000-12E09F.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-SB-000-12E09F.svg" alt="Logo: Silvestar Bistrović." width="162" height="162">
-    </a>
-    <a href="/gfx/svg/logo-SB-000-FF3366.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-SB-000-FF3366.svg" alt="Logo: Silvestar Bistrović." width="162" height="162">
-    </a>
-    <a href="/gfx/svg/logo-SB-12E09F-000.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-SB-12E09F-000.svg" alt="Logo: Silvestar Bistrović." width="162" height="162">
-    </a>
-    <a href="/gfx/svg/logo-SB-FF3366-000.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-SB-FF3366-000.svg" alt="Logo: Silvestar Bistrović." width="162" height="162">
-    </a>
-  </div>
-  <div>
-    <a href="/gfx/svg/logo-000-12E09F.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-000-12E09F.svg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/svg/logo-000-FF3366.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-000-FF3366.svg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/svg/logo-12E09F-000.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-12E09F-000.svg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/svg/logo-FF3366-000.svg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/svg/logo-FF3366-000.svg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-  </div>
-  <h2>PNG</h2>
-  <div>
-    <a href="/gfx/png/logo-SB-000-12E09F.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-SB-000-12E09F.png" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-SB-000-FF3366.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-SB-000-FF3366.png" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-SB-12E09F-000.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-SB-12E09F-000.png" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-SB-FF3366-000.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-SB-FF3366-000.png" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-  </div>
-  <div>
-    <a href="/gfx/png/logo-000-12E09F.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-000-12E09F.png" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-000-FF3366.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-000-FF3366.png" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-12E09F-000.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-12E09F-000.png" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/png/logo-FF3366-000.png" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/png/logo-FF3366-000.png" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-  </div>
-  <h2>JPG</h2>
-  <div>
-    <a href="/gfx/jpg/logo-SB-000-12E09F.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-SB-000-12E09F.jpg" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-SB-000-FF3366.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-SB-000-FF3366.jpg" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-SB-12E09F-000.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-SB-12E09F-000.jpg" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-SB-FF3366-000.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-SB-FF3366-000.jpg" alt="Logo: Silvestar Bistrović." width="162" height="162" loading="lazy">
-    </a>
-  </div>
-  <div>
-    <a href="/gfx/jpg/logo-000-12E09F.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-000-12E09F.jpg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-000-FF3366.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-000-FF3366.jpg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-12E09F-000.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-12E09F-000.jpg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-    <a href="/gfx/jpg/logo-FF3366-000.jpg" class="dib margin-top margin-bottom margin-left margin-right" download>
-      <img src="/gfx/jpg/logo-FF3366-000.jpg" alt="Logo: Silvestar Bistrović." width="360" height="360" loading="lazy">
-    </a>
-  </div>
-</div>

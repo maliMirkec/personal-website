@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   {% include _partials/_general/head %}
-  <body>
+  <body class="page--{{ title | slugify }}">
     {% include _partials/_2024/header %}
     <main id="main">
       {% block content %}

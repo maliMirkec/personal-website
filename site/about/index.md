@@ -8,6 +8,15 @@ sections:
     title: About me
     desc2: >-
       I am Silvestar Bistrović, a fearless web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), founder of [CSS Auditors](https://css-auditors.com/) and [a dedicated dev](https://adedicated.dev/).
+    img:
+      src: PSX_20210122_073856_fdz5qg
+      alt: A profile photo of Silvestar Bistrović.
+      width: 240
+      height: 240
+    cta:
+      href: /contact/
+      title: Get in touch
+      animate: true
 sections2:
   - type: banner
     banner: consultation

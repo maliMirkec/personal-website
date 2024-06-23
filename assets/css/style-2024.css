@@ -228,6 +228,7 @@ main {
   grid-area: main;
   display: grid;
   gap: var(--size-10);
+  place-content: start;
   padding: var(--size-2);
 }
 
@@ -236,12 +237,12 @@ section {
 }
 
 .hero {
+  --hero-color: var(--color-alpha-h);
   display: grid;
   gap: var(--size-3);
 }
 
 .hero__title {
-  --hero-color: var(--color-alpha-h);
   --color-l: 23;
   color: hsl(var(--hero-color) var(--color-s) var(--color-l));
   font-family: var(--serif);
@@ -262,6 +263,16 @@ section {
   color: hsl(var(--hero-color) var(--color-s) var(--color-l));
   font-size: var(--fz2);
   line-height: var(--lh2);
+}
+
+.page--about-me .hero__image {
+  --color-l: 73;
+  order: -1;
+}
+
+.page--about-me .hero__image img {
+  border-radius: 50%;
+  box-shadow: 0 0 var(--size-5) calc(var(--size-2) * -1) hsl(var(--hero-color) var(--color-s) var(--color-l));
 }
 
 :is([class*="__form"]) {
@@ -679,6 +690,31 @@ section {
 
 .contact__cta {
   --cta-color: var(--color-beta-h);
+}
+
+.gallery {
+  --hero-color: var(--color-alpha-h);
+  display: grid;
+  gap: var(--size-3);
+}
+
+.gallery__title {
+  --color-l: 23;
+  color: hsl(var(--hero-color) var(--color-s) var(--color-l));
+  font-family: var(--serif);
+  font-size: var(--fz3);
+  font-weight: 900;
+  line-height: var(--lh3);
+}
+
+.gallery__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, var(--gallery-size));
+  gap: var(--size-2);
+}
+
+.page--my-branding .gallery__list {
+  --gallery-size: 200px;
 }
 
 .copy {

@@ -1,5 +1,5 @@
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const { Liquid } = require('liquidjs')
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
 const markdownItAnchor = require('markdown-it-anchor')
