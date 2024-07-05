@@ -11,7 +11,7 @@ descriptionAlt: A few months ago I started using Alpha, Beta, Gamma naming conve
 description: Discover the Alpha, Beta, Gamma naming convention and how it can help you in your web development projects in this in-depth article.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

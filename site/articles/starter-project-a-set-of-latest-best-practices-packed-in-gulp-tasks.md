@@ -14,7 +14,7 @@ project:
   href: /side-projects/starter-project/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Starter Project

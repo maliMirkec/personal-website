@@ -12,7 +12,7 @@ descriptionAlt: "I have been in numerous situations where my answer to a clientâ
 description: Discover the meaning behind "it depends" in web development and why it's often the answer to many questions in this field.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -11,7 +11,7 @@ descriptionAlt: I have spent a whole day in search of a CSS developer job withou
 description: Discover the unsuccessful journey of finding a CSS developer job on Twitter, search engines, LinkedIn, job boards, and company pages.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: job
 series: Searching for a job
 ---

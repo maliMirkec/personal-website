@@ -12,7 +12,7 @@ descriptionAlt: Recently I've been writing about CSS tabs. Topic was surprisingl
 description: I wrote about CSS tabs, which was popular and gained many visitors. Surprised by accessibility comments, I investigated and added accessibility to my solution.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

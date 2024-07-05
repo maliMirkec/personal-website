@@ -11,7 +11,7 @@ descriptionAlt: Developers often rely on a version control system and one of the
 description: Developers often rely on a version control system and one of the most popular is Git. Explore Git packages for the Atom IDE.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

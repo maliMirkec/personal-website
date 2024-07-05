@@ -13,7 +13,7 @@ publication: Smashing Magazine
 canonical: https://www.smashingmagazine.com/2021/10/build-expandable-accessible-gallery/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

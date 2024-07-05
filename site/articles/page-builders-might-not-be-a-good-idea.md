@@ -15,7 +15,7 @@ descriptionAlt: "Here’s what I think: page builder might not be a good idea. R
 description: Read my thoughts and concerns about page builders and why you might think twice before you consider using it (again).
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

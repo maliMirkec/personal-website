@@ -12,7 +12,7 @@ descriptionAlt: Let’s see how to animate SVG Signature with a little bit of Ja
 description: "Animate an SVG signature with JavaScript and CSS: calculate path length with JavaScript and animate strokes with CSS."
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

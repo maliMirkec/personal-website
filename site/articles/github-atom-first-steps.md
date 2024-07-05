@@ -9,7 +9,7 @@ thumbnail: First_steps_with_Github_Atom_tessgb
 description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

@@ -11,7 +11,7 @@ descriptionAlt: Last year I wrote my first yearly look back, and now it is time 
 description: Reflect on my past year with 2019 Lookback. Read about the challenges, accomplishments and lessons learned during the whole year.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Lookbacks

@@ -11,7 +11,7 @@ descriptionAlt: If you want to disable the fieldset element, you should do it af
 description: Discover the issue with form data and disabled fieldset elements in this comprehensive article. Learn how to effectively handle form data in web dev projects.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

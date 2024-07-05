@@ -10,7 +10,7 @@ descriptionAlt: I've been working on a complex Angular CRUD-ish project recently
 description: Recently I worked on an Angular project with a requirement for a form based on an MVC model. I created a directive to generate a form for every complex models.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

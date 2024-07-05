@@ -11,7 +11,7 @@ thumbnail: The_essential_skill_of_a_developer_cr4cev
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

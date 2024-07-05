@@ -266,6 +266,10 @@ section {
   line-height: var(--lh2);
 }
 
+.hero__text2 p:not(:last-child) {
+  margin-block-end: .5em;
+}
+
 .page--about-me .hero__image {
   --color-l: 73;
   order: -1;
@@ -555,9 +559,10 @@ section {
   grid-area: person;
   color: hsl(var(--quote-color) var(--color-s) var(--color-l2));
   font-family: var(--serif);
-  font-size: var(--fz1);
+  font-size: var(--fz0);
   font-weight: 900;
-  line-height: var(--lh1);
+  line-height: var(--lh0);
+  letter-spacing: .0125em;
   text-align: right;
   transition: all var(--tr-duration);
 }
@@ -605,13 +610,11 @@ section {
 
 .quote__text:before {
   content: "“";
-  font-size: 240%;
+  font-size: 200%;
   font-family: var(--quote);
   font-weight: 700;
   position: absolute;
-  inset-inline-end: 100%;
-  inset-block-end: 100%;
-  transform: translateY(75%);
+  transform: translateX(-100%) translateY(-5%);
 }
 
 .quote img {
@@ -684,6 +687,11 @@ section {
 
 .banner__cta {
   --cta-color: var(--banner-color);
+}
+
+.note {
+  display: grid;
+  gap: var(--size-2);
 }
 
 .contact__input {
@@ -760,6 +768,26 @@ section {
 
 .copy :is(ul ul) {
   margin-block-start: .5em;
+}
+
+.copy blockquote {
+  font-family: var(--sans-serif);
+  font-weight: 500;
+}
+
+.copy blockquote p:first-of-type:before,
+.copy blockquote p:last-of-type:after {
+  position: absolute;
+}
+
+.copy blockquote p:first-of-type:before {
+  content: open-quote;
+  transform: scale(1.75) translateX(-75%) translateY(5%);
+}
+
+.copy blockquote p:last-of-type:after {
+  content: close-quote;
+  transform: scale(1.75) translateX(25%) translateY(5%);
 }
 
 .copy hr {

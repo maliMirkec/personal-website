@@ -15,7 +15,7 @@ descriptionAlt: With the rise of the static site, developers need a service that
 description: Add a static website contact form with ease using Kwes form builder. Follow this tutorial to learn how.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

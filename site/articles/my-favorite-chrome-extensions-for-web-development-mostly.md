@@ -11,7 +11,7 @@ descriptionAlt: A web browser is one of the essential tools for web development.
 description: Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

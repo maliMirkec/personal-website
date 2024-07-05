@@ -14,7 +14,7 @@ descriptionAlt: CSS style guides should be considered an equal citizen of every 
 description: CSS style guides play a crucial role in any project. Keep these 5 things in mind when working with them for better results.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

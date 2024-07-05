@@ -9,7 +9,7 @@ sections:
     desc: >-
       However, other forms of collaboration are more than welcome.
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

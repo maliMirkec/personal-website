@@ -10,7 +10,7 @@ descriptionAlt: As a “vanilla CSS” guy, I had many questions and comments wh
 description: As a CSS purist, I had questions and comments on breaking up with CSS-in-JS and documented them in a blog post.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

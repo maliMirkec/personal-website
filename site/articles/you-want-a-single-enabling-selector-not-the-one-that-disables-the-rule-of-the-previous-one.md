@@ -10,7 +10,7 @@ descriptionAlt: An enabling selector is what I call selectors that do a job with
 description: Learn about the importance of using the correct CSS selector and avoid the common mistake of overwriting previous styles.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

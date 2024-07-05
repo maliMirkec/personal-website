@@ -12,7 +12,7 @@ descriptionAlt: CSS sidebar toggle presented in this post is made with CSS only.
 description: Making web components shouldn't be a hard task. Learn how to make CSS-only sidebar toggle accessibible by adding a small JavaScript code snippet.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

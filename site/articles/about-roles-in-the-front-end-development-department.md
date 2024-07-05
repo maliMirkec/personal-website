@@ -9,7 +9,7 @@ thumbnail: About_roles_in_the_front-end_development_department_ywntba
 description: Recently I figured that I’m going to call myself a website developer, emphasizing website heavily. It is because all other terms are somewhat vague. Here's why.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

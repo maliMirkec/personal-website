@@ -18,7 +18,7 @@ descriptionAlt: There are many obvious benefits to serving a static HTML file, s
 description: Discover why serving static HTML files is a smart move for improved caching, faster load times, and enhanced security. See how static page generators differ.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

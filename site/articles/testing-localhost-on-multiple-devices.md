@@ -9,7 +9,7 @@ tags:
 description: Learn how to test your website or web app on various devices with these tools by finding your external IP address or using third-party apps.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

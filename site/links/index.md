@@ -9,7 +9,7 @@ sections:
     desc: |
       Here are my links and profiles from all over the web, from social networks to projects and publications.
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

@@ -56,7 +56,7 @@ sections3:
 
         Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it.
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -10,7 +10,7 @@ descriptionAlt: Angular dragtable is an Angular directive that allows table colu
 description: Explore how to implement drag and drop functionality for tables with large amount of row in Angular with the Angular Dragtable library.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

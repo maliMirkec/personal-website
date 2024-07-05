@@ -8,7 +8,7 @@ tags:
 description: Read how I research and find possible solutions to estimate the required effort before I start developing.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

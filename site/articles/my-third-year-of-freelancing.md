@@ -10,7 +10,7 @@ thumbnail: My_Third_Year_Of_Freelancing_ency0u
 description: The third year of my freelancing career has been successful thanks to honest and open communication, quality time management and support from my family.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Year of freelancing

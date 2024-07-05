@@ -10,7 +10,7 @@ thumbnail: how-to-find-and-insert-unicode-symbols-in-html_chvqia
 description: I will show you a few ways how you could find and insert the Unicode symbol in HTML (or any other file).
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

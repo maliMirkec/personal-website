@@ -12,7 +12,7 @@ thumbnail: How_to_Get_Sticky_and_Full-Bleed_Elements_to_Play_Well_Together_o8ysw
 description: "I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top."
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

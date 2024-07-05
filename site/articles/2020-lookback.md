@@ -11,7 +11,7 @@ descriptionAlt: Another year is over and it is time for the annual lookback.
 description: Join me as I reflect on my experiences and lessons learned during 2020. Read my 2020 lookback article.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Lookbacks

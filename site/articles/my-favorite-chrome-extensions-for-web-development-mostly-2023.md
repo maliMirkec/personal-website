@@ -9,7 +9,7 @@ tags:
 description: These Chrome extensions have helped me streamline my workflow and improve my coding experience.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

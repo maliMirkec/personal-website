@@ -15,7 +15,7 @@ project:
   href: https://hugo.silvestar.codes
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

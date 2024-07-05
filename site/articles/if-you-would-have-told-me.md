@@ -8,7 +8,7 @@ tags:
 description: If you would have told me 12 years ago that I will be doing web developing for a living, I would laugh at you.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Searching for a job

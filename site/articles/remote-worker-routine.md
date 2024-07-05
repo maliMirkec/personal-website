@@ -11,7 +11,7 @@ descriptionAlt: As a remote worker, having a routine and self-discipline is crit
 description: Successful remote work requires routine and discipline. Here's my recipe for balancing clients, projects, and skills.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

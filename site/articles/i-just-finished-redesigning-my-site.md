@@ -12,7 +12,7 @@ descriptionAlt: During the last week, I have been working on redesigning my site
 description: Learn about my recent website redesign journey, including the challenges faced and the solutions implemented for a better user experience.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

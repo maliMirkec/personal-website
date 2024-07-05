@@ -11,7 +11,7 @@ descriptionAlt: Did you know that you could create slides with HTML and CSS only
 description: Discover how to create stunning CSS-only slides with my step-by-step guide. Learn how to use advanced CSS techniques to make engaging presentations.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -14,7 +14,7 @@ thumbnail: How_to_create_a_multi-step_form_the_easy_way_eas7lb
 description: Transform your long form into a manageable, user-friendly experience with this step-by-step tutorial on how to create a multi-step form.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

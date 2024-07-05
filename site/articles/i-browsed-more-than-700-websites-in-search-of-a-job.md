@@ -10,7 +10,7 @@ thumbnail: I_browsed_more_than_700_websites_in_search_for_a_job_e0mw2u
 description: I found a list of 700 remote-friendly companies and opened every link searching for a job. Read the suggestions about the Careers page and job listings.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: job
 series: Searching for a job
 ---

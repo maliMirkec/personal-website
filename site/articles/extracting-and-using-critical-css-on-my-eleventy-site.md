@@ -9,7 +9,7 @@ tags:
 description: This week I made some enhancements to extracting and implementing Critical CSS on my website that runs on Eleventy. Let's delve into its workings and features.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

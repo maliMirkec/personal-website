@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: John Ganotis
 titlePrefix: "Testimional by "
 description: Read testimonial by John Ganotis in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -14,7 +14,7 @@ company: Credit Card Insider
 projects:
   - Credit Card Insider
 sections:
-  - type: hero-alpha
+  - type: hero
     src: cci_xk4gjk
     alt: Logo of Credit Card Insider.
     width: 159
@@ -23,22 +23,18 @@ sections:
     title: John Ganotis
     desc: Founder at Credit Card Insider
 sections2:
-  - type: banner-beta
+  - type: note
     banner: creditcardinsider
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+    exclude: true
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 

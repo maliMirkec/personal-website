@@ -11,7 +11,7 @@ descriptionAlt: Recently I was working on a very interesting and challenging pro
 description: I recently worked on a challenging project and had to add a shadow on a crooked border. Here is how I made it.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

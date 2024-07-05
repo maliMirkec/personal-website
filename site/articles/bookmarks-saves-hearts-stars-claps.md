@@ -10,7 +10,7 @@ descriptionAlt: I realized that I rarely use bookmarks, but I still bookmark int
 description: Discover the benefits of keeping your online bookmarks organized and explore the different ways you can save, heart, star, and clap your favorite content.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

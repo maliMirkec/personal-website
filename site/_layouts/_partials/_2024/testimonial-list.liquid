@@ -1,5 +1,11 @@
-{%- assign list = collections[component.filter] | sort: "date" | reverse -%}
+{%- assign list = collections[component.filter] -%}
 {%- assign i1 = 1 -%}
+
+{% if component.random %}
+  {% assign list = list | randomItems %}
+{% else %}
+  {% assign list = list | sort: 'data.date' | reverse %}
+{% endif %}
 
 {%- if component.color -%}
   {%- assign componentClass = ' box--' | append: component.color -%}
@@ -35,7 +41,7 @@
             endif
           endif
         %}
-        {%- unless component.exclude == 'title' and title == card.data.title -%}
+        {%- unless component.exclude and page.url == card.url -%}
           <li class="box__item">
             <a class="quote{{ cardClass }}" href="{{ card.url }}">
               {%- if card.data.excerpt -%}

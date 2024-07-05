@@ -15,7 +15,7 @@ descriptionAlt: Static Form Providers do all tasks like validating, storing, sen
 description: Find the best static form provider for your needs with this review of the most popular options. Get help with validation, storage, notifications, and more.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -10,7 +10,7 @@ thumbnail: How_to_lint_inside_Atom_ufdwzt
 description: Lint, linter, linting? What is it and why you should use it? I'll try to show you how Atom linter packages could save you a lot of development time.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

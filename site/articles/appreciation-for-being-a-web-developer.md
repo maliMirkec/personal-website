@@ -10,7 +10,7 @@ thumbnail: Appreciation_for_being_a_web_developer_onlgx9
 description: I appreciate living comfortably while doing what I like and working on exciting projects with top professionals. Thank you, web development.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

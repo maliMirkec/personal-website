@@ -18,7 +18,7 @@ sections:
       title: Get in touch
       animate: true
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

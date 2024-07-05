@@ -35,7 +35,7 @@
             endif
           endif
         %}
-        {%- unless component.exclude == 'title' and title == card.data.title -%}
+        {%- unless component.exclude and page.url == card.url -%}
           <li class="box__item">
             <a class="card{{ cardClass }}" href="{{ card.url }}">
               {%- if card.data.title -%}

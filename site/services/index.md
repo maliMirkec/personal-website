@@ -11,7 +11,7 @@ sections:
       href: /contact/
       title: Get in touch
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

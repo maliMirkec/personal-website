@@ -1,23 +1,22 @@
 ---
-layout: index
+layout: default
 title: Testimonials
 description: Read kind words about Silvestar's work from clients worldwide, from Spain and Germany to the United States. Every testimonial are available on LinkedIn, too.
 type: testimonials
 sections:
-  - type: hero-alpha
+  - type: hero
     title: From Testimonials
-    narrow: true
-    desc: >-
+    desc2: >-
       Here are some kind words about my work from clients.
 
 
-      I collaborated with clients from more than 10 countries, from Germany and Spain to **The United States**.
-    footnote: _All endorsements have been verified on [my LinkedIn profile](https://www.linkedin.com/in/starbist/)._
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      I collaborated with clients from more than 10 countries, from Germany and Spain to The United States.
+
+
+      _All endorsements have been verified on [my LinkedIn profile](https://www.linkedin.com/in/starbist/)._
+  - type: testimonial-list
+    color: delta
     filter: testimonials
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

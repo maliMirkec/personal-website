@@ -9,7 +9,7 @@ tags:
 description: I’ve compiled a list of my favorite npm packages that I use on a daily basis.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

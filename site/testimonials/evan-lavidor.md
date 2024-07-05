@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Evan Lavidor
 titlePrefix: "Testimional by "
 description: Read testimonial by Evan Lavidor in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -18,7 +18,7 @@ projects:
   - Calvert
   - Franciscan Children's
 sections:
-  - type: hero-alpha
+  - type: hero
     src: bm_qlnuvi
     alt: Logo of BEAM Interactive.
     width: 258
@@ -27,22 +27,18 @@ sections:
     title: Evan Lavidor
     desc: Partner & Executive Director at BEAM Interactive
 sections2:
-  - type: banner-beta
+  - type: note
     banner: bozzuto
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+    exclude: true
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 

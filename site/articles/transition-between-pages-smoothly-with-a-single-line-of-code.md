@@ -9,7 +9,7 @@ tags:
 description: By adding a meta tag with the name ‘view-transition,’ you can enable smooth page transitions.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

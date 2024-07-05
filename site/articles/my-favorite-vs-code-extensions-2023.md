@@ -10,7 +10,7 @@ tags:
 description: Discover my favorite little VS Code extensions used in my everyday tasks.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

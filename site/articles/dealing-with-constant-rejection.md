@@ -9,7 +9,7 @@ tags:
 description: For whatever reason I am being rejected, which can be a challenging and painful experience, I remain optimistic about the right opportunity.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Searching for a job

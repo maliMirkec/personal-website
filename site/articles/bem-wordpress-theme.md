@@ -11,7 +11,7 @@ descriptionAlt: This is a post about building custom WordPress theme with BEM na
 description: Discover the power of BEM in building WordPress themes with this comprehensive guide. Learn how to create clean and organized code with BEM methodology.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

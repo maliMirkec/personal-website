@@ -8,7 +8,7 @@ tags:
 description: Optimize content delivery and web performance by switching from GIFs to videos with Cloudinary, saving MBs for faster loading.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

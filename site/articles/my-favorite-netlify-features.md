@@ -15,7 +15,7 @@ descriptionAlt: Being a JAMstack developer in 2019 makes me feel like I am livin
 description: Experience the magic of JAMstack development with Netlify. See why this platform is a standout choice for developers in 2019.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

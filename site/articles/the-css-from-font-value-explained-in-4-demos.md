@@ -12,7 +12,7 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/from-font-value-text-decoration-thickness/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

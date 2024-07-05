@@ -11,7 +11,7 @@ descriptionAlt: "With the appearance of the position: sticky property, we could 
 description: "Position: sticky allows for CSS-only sticky elements, but animating stucked element couldn't be done without JavaScript."
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

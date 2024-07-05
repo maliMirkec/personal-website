@@ -9,7 +9,7 @@ date: 2021-10-28 14:00:00
 description: Learn how to use CSS Variable and prefers-reduced-motion media feature to remove or minimize animations and transitions on global scale.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -14,7 +14,7 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/tools-for-auditing-css/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

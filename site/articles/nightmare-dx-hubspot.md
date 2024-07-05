@@ -10,7 +10,7 @@ tags:
 description: I had to work with HubSpot after a couple of years, and it reminded me to write this article about its nightmare developer experience.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Nightmare DX

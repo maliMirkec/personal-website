@@ -10,7 +10,7 @@ descriptionAlt: I am here to take a stand and defend CSS, my most favorite progr
 description: Discover why CSS is a crucial aspect of web deve and why it deserves more recognition. Read my defense of CSS and its importance in creating modern websites.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

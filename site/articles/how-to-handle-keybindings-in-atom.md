@@ -11,7 +11,7 @@ descriptionAlt: In recent articles about Atom, I've talked about different packa
 description: Recent Atom articles discussed packages for easier work. But what if a keybinding is already in use by another package?
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

@@ -9,7 +9,7 @@ tags:
 description: This post will demonstrate how to use the Performance API to measure page loading time.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -9,7 +9,7 @@ tags:
 description: You want to test your website on a Windows machine but hate switching your computers? See how to use the Microsoft Remote Desktop app to mitigate this problem.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

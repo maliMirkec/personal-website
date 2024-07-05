@@ -10,7 +10,7 @@ thumbnail: Github_Atom_minimap_packages_nqwd7i
 description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

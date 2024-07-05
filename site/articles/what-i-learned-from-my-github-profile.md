@@ -11,7 +11,7 @@ descriptionAlt: GitHub profile is often recognised as a developer's portfolio. I
 description: GitHub profile reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

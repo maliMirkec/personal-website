@@ -11,7 +11,7 @@ descriptionAlt: I created a JavaScript plugin for toggling classes more classily
 description: I made a Classily.js plugin for elegant class toggling. Simple yet powerful, it can solve complex tasks when used correctly.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

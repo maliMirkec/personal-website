@@ -13,7 +13,7 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/css-raise-the-curtains-effect/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

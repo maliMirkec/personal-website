@@ -18,7 +18,7 @@ project:
   href: https://play.silvestar.codes/ribbon/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

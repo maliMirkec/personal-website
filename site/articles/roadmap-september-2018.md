@@ -11,7 +11,7 @@ descriptionAlt: I have built this roadmap to remind myself how important is to h
 description: I built a career roadmap to remind myself of the importance of planning. Keeping track of the vision is key, even if not every goal is met.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

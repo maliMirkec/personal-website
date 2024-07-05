@@ -11,7 +11,7 @@ descriptionAlt: As I get more experienced, I use fewer libraries and frameworks 
 description: As I gain experience, I use less libraries/frameworks and rely on HTML, CSS, and JavaScript. I suggest considering doing the same.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

@@ -16,7 +16,7 @@ descriptionAlt: Static site generators are systems that compile templates into s
 description: Get a fast, lightweight website with a static site generator. Find out how these systems compile templates into static HTML pages.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

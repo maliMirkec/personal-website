@@ -9,7 +9,7 @@ tags:
 description: Is it really that unusual for a frontend developer not to use a JS framework?
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

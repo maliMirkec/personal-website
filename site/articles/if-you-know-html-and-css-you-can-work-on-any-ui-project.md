@@ -7,7 +7,7 @@ tags:
 description:
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 permalink: false

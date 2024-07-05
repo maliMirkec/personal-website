@@ -8,7 +8,7 @@ tags:
 description: To improve stats for an annual accessibility report, start with these five quick wins that will make your site much more accessible.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

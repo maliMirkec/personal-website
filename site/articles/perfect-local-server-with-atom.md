@@ -11,7 +11,7 @@ descriptionAlt: Even now, that I'm experienced developer, I don't need complicat
 description: As an experienced developer, I seek simple solutions for most tasks and found them in Atom for streamlined development.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

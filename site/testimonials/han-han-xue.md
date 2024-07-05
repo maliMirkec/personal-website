@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Han Han Xue
 titlePrefix: "Testimional by "
 description: Read testimonial by Han Han Xue in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -13,27 +13,23 @@ company: Lyft
 projects:
   - Han Han Xue website
 sections:
-  - type: hero-alpha
+  - type: hero
     avatar: hhx_iu8agl
     title: Han Han Xue
     desc: Product Designer at Lyft
 sections2:
-  - type: banner-beta
+  - type: note
     banner: hanhanxue
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+    exclude: true
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 

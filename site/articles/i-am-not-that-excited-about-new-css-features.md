@@ -10,7 +10,7 @@ descriptionAlt: "I have a confession: I am not that excited about all these new 
 description: Discover the reasons why I am not overly enthusiastic about the new CSS features in this thought-provoking article.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

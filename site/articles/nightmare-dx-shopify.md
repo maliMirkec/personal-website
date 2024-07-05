@@ -12,7 +12,7 @@ descriptionAlt: This article is the first article in a series about poor develop
 description: The first in a series about poor developer experience, this article covers Shopify and it's friendliness to developers.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Nightmare DX

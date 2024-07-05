@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Ryan Kelly
 titlePrefix: "Testimional by "
 description: Read testimonial by Ryan Kelly in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -16,7 +16,7 @@ projects:
   - Domino Data Lab Pop-up
   - Domino Data Lab Rev
 sections:
-  - type: hero-alpha
+  - type: hero
     src: ddl_rj0jfd
     alt: Logo of Domino Data Lab.
     width: 128
@@ -25,22 +25,18 @@ sections:
     title: Ryan Kelly
     desc: Vice President Growth Marketing at Domino Data Lab.
 sections2:
-  - type: banner-beta
+  - type: note
     banner: dominodatalab
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+  - type: testimonial-list
+    color: delta
+    title: Testimonials →
+    href: /testimonials/
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+    exclude: true
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar was always responsive, proactive, and his work product was top-notch...
 ---
 

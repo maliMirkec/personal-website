@@ -11,7 +11,7 @@ descriptionAlt: Getting the perfect score from Google PageSpeed Insights could b
 description: Achieving a perfect score on Google PageSpeed Insights can be challenging, especially with Google Analytics on the website. The solution is here.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

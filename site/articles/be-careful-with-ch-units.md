@@ -9,7 +9,7 @@ tags:
 description: Read more about peculiar CLS issues encountered on my site because I used system fonts, CSS ch unit, and Grammarly extension.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

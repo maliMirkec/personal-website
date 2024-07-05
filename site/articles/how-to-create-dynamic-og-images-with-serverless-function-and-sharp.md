@@ -9,7 +9,7 @@ tags:
 description: Improve your website's social media presence with dynamic Open Graph images. Learn how with serverless functions and Sharp in this tutorial.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

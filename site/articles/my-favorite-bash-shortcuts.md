@@ -9,7 +9,7 @@ tags:
 description: Take a look at my favorite Bash shortcuts that have saved me a ton of time.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Tools

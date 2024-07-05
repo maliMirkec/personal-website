@@ -10,7 +10,7 @@ descriptionAlt: We should automate our development process whenever possible. Bu
 description: Automating dev processes is key, but the multitude of tools available can be overwhelming and time-consuming to learn. Here's how to do it in Atom IDE.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Atom

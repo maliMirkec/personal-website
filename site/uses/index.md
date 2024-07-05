@@ -8,7 +8,7 @@ sections:
     title: Tools, apps, and devices I use
     desc: These are devices, applications, and tools, which I use daily, that make my job easier.
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

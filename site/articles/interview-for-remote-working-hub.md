@@ -14,7 +14,7 @@ descriptionAlt: Remote Working Hub is a place where you could find useful inform
 description: I shared my personal experiences to help you work remotely successfully on Remote Working Hub.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

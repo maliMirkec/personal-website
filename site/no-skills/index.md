@@ -9,7 +9,7 @@ sections:
     desc: >-
       I specialize in developing websites.
 sections2:
-  - type: banner
+  - type: note
     banner: consultation
 ---
 

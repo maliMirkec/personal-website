@@ -11,7 +11,7 @@ descriptionAlt: Recently I've redesigned my blog, as some of you could notice. D
 description: I recently redesigned my blog and learned many things about CSS Grid along the way. Read all about my findings.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

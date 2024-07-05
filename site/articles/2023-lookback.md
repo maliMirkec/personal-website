@@ -9,7 +9,7 @@ tags:
 description: 2023 was the most challenging year in my career. Read how global crisis affected me and learn which technologies I have worked with.
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: Lookbacks

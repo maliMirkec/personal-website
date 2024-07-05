@@ -13,7 +13,7 @@ project:
   href: /side-projects/ui-dev-mentoring/
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 series: The UI Development Mentoring Program

@@ -11,7 +11,7 @@ descriptionAlt: "I know there are more than a few articles about this topic. And
 description: "There are two basic approaches for developing CSS tabs: using target pseudo selector and list with checked pseudo selector."
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: newsletter
     animate: true
 ---

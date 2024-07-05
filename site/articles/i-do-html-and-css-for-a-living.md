@@ -12,7 +12,7 @@ thumbnail: I_do_HTML_and_CSS_for_a_living_mesx1b
 description: "I have a sticker from Smashing Magazine saying, “I do CSS/HTML for a living,” and that is what I genuinely do."
 type: articles-item
 sections2:
-  - type: banner-beta
+  - type: note-beta
     banner: job
 series: Searching for a job
 ---
