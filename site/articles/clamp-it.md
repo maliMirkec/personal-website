@@ -37,7 +37,7 @@ Next, type minimum and maximum sizes  (in pixels), highlight the typed sizes, an
 
 If you want, you can use the full definition, like so:
 
-```
+```txt
 16, 20, 16, 600, 1200
 ```
 
