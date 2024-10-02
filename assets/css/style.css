@@ -420,6 +420,11 @@ hr[class*="hr"]:before {
   opacity: 0.5;
 }
 
+.copy ul,
+.copy ol {
+  list-style: initial;
+}
+
 p:empty {
   display: none;
 }
