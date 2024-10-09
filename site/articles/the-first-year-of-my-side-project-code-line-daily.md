@@ -5,6 +5,7 @@ date: 2020-07-21 09:33:35
 tags:
   - blog
   - cld
+  - chrome extension
   - open source
 thumbnail: The_first_year_of_my_side_project_Code_Line_Daily_iwubhe
 descriptionAlt: "It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way."
