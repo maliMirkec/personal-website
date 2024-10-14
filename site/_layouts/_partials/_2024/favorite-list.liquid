@@ -1,0 +1,48 @@
+{%- assign list = collections[component.filter] | sort: "date" | reverse -%}
+{%- assign i1 = 1 -%}
+
+{%- if component.color -%}
+  {%- assign componentClass = ' box--' | append: component.color -%}
+  {%- assign cardClass = ' card--' | append: component.color -%}
+{%- endif -%}
+
+{%- if list -%}
+  <section class="box{{ componentClass }}">
+    {%- if component.title -%}
+      <h2 class="box__title">
+        {%- if component.href -%}
+          <a href="{{ component.href }}">{{ component.title }}</a>
+        {%- else -%}
+          {{ component.title }}
+        {%- endif -%}
+      </h2>
+    {%- endif -%}
+    <ul class="box__grid">
+      {%- for card in list -%}
+        {% liquid
+          if component.limit and i1 > component.limit
+            break
+          endif
+          assign i1 = i1 | plus: 1
+        %}
+        <li class="box__item">
+          <a class="card{{ cardClass }}" href="{{ card.url }}">
+            {%- if card.data.thumbnail -%}
+              {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 500 302 %}
+            {%- endif -%}
+            {%- if card.data.title -%}
+              <h3 class="card__title">{{ card.data.title }}</h3>
+            {%- endif -%}
+            {%- if card.data.tech -%}
+              <span class="card__tags">
+                {%- for tech in card.data.tech -%}
+                  <span class="card__tag">{{ tech }}</span>
+                {%- endfor -%}
+              </span>
+            {%- endif -%}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+{% endif %}

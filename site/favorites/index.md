@@ -1,7 +1,6 @@
 ---
-layout: index
+layout: default
 title: My favorites
-descriptionAlt: Silvestar's favorite TV shows, characters, writers, books, bands, artists, and more.
 description: Explore my favorite TV shows, characters, writers, books, bands, artists, and more. Mostly stuff unrelated to my professional career.
 type: favorites
 favorites:
@@ -11,21 +10,16 @@ favorites:
 
       I miss my monitors and my chair and my piece. -.-
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My favorites
     desc: >-
       Just my random favorite stuff, from TV shows and characters, to bands and artists.
-  - type: cards-gamma
-    desc:
-    # cta:
-    #   title: Check favorites
-    cta:
-      href: /
-      title: Go to the homepage
+  - type: favorite-list
+    color: beta
+    title: My favorite collections
     filter: favorites
-    instant: 3
-    h2: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    sorter: date
+    limit: 6
+  - type: banner
+    banner: blog
 ---
