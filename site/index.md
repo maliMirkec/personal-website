@@ -28,7 +28,6 @@ sections:
     filter: portfolio
     limit: 6
     exclude: true
-sections2:
   - type: testimonial-list
     color: delta
     title: Testimonials →

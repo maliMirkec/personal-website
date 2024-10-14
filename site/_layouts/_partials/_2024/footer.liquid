@@ -1,16 +1,20 @@
 {% if footer %}
   <footer>
-    {% if footer.logo %}
-      <a href="{{ footer.logo.href }}">
-        {% cldnry footer.logo.src footer.logo.alt footer.logo.width footer.logo.height true %}
-      </a>
-    {% endif %}
     <div>
-      {% if site.author %}
-        <p>&copy; {{ site.author }}, {{ site.established }}–{{ 'now' | date: '%Y'}}</p>
+      <div>
+        {% if site.author %}
+          <p><span>&copy;</span> {{ site.author }} {{ site.established }}–{{ 'now' | date: '%Y'}}</p>
+        {% endif %}
+        {% if footer.github %}
+          <p>{{ footer.github.text }} <a href="{{ footer.github.href }}">{{ footer.github.name }}</a>.</p>
+        {% endif %}
+        <p class="js-page-loaded-in">&nbsp;</p>
+      </div>
+      {% if footer.logo %}
+        <a href="{{ footer.logo.href }}">
+          {% cldnry footer.logo.src footer.logo.alt footer.logo.width footer.logo.height true %}
+        </a>
       {% endif %}
-      <p>The site is publicly available on <a href="https://github.com/maliMirkec/personal-website/">GitHub</a>.</p>
-      <p class="js-page-loaded-in">&nbsp;</p>
     </div>
   </footer>
 {% endif %}
