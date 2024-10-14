@@ -1,14 +1,21 @@
 :root {
-  --serif: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
-  --sans-serif: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  --cursive: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+  --serif: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+  --rounded: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+  --sans: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --quote: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
   --sidebar: 7.5rem;
-  --main: 60rem;
+  --main: clamp(40rem, calc(25.714rem + 38.095vw), 60rem);
 
   --size-05-10: clamp(0.313rem, calc(0.089rem + 0.595vw), 0.625rem);
   --size-10-20: clamp(0.625rem, calc(0.179rem + 1.19vw), 1.25rem);
+  --size-15-30: clamp(0.938rem, calc(0.268rem + 1.786vw), 1.875rem);
+  --size-20-30: clamp(1.25rem, calc(0.804rem + 1.19vw), 1.875rem);
   --size-20-40: clamp(1.25rem, calc(0.357rem + 2.381vw), 2.5rem);
+  --size-30-40: clamp(1.875rem, calc(1.429rem + 1.19vw), 2.5rem);
+  --size-30-60: clamp(1.875rem, calc(0.536rem + 3.571vw), 3.75rem);
+  --size-40-60: clamp(2.5rem, calc(1.607rem + 2.381vw), 3.75rem);
   --size-50-100: clamp(3.125rem, calc(0.893rem + 5.952vw), 6.25rem);
 
   --color-alpha: #63f2c5;
@@ -32,6 +39,12 @@
   max-inline-size: 100%;
   overflow: auto;
   word-break: break-word;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--serif);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
 }
 
 img {
@@ -60,7 +73,7 @@ img {
 
 body {
   color: var(--color-gamma);
-  font-family: var(--sans-serif);
+  font-family: var(--sans);
   line-height: 1.4;
   display: grid;
   grid-template-columns: 1fr var(--sidebar);
@@ -73,6 +86,7 @@ body {
 }
 
 header {
+  font-family: var(--rounded);
   background-image: linear-gradient(to right, var(--color-alpha), var(--color-light));
   grid-area: header;
   padding: var(--size-05-10);
@@ -145,7 +159,7 @@ footer > div > div {
 }
 
 footer p {
-  font-size: 13px;
+  font-size: 0.875rem;
 }
 
 footer > div > a:hover,
@@ -155,14 +169,82 @@ footer > div > a:active {
 }
 
 main {
+  background-color: var(--color-light);
+  background-clip: padding-box;
   grid-area: main;
   display: grid;
   grid-template-columns: min(90vw, var(--main)) 1fr;
   grid-auto-flow: dense;
+  gap: var(--size-30-60);
+  border-radius: var(--size-30-60);
+  border: var(--size-05-10) solid transparent;
+  position: relative;
+}
+
+main:before {
+  content: '';
+  background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) 5%, var(--color-light) 95%, var(--color-beta) 100%);
+  position: absolute;
+  inset: 0;
+  margin: calc(var(--size-05-10) * -1);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.button__cta {
+  background-image: linear-gradient(135deg, var(--color-gamma), var(--color-gamma), var(--color-gamma));
+  color: var(--color-alpha);
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--size-10-20);
+  font-family: var(--rounded);
+  font-size: var(--size-20-30);
+  text-decoration: none;
+  padding-block: var(--size-10-20);
+  padding-inline: var(--size-20-40);
+  border-radius: var(--size-30-60);
+  border: 0.25rem solid var(--color-alpha);
+  position: relative;
+  transition: var(--timing200);
+}
+
+.button__cta:hover,
+.button__cta:focus,
+.button__cta:active {
+  border-color: var(--color-gamma);
+}
+
+.button__cta:after {
+  content: '››››';
 }
 
 .hero {
   grid-column: 1 / -1;
+  display: grid;
+  gap: var(--size-10-20);
+  margin-inline: var(--size-30-60);
+  margin-block: var(--size-50-100);
+}
+
+.hero__title {
+  font-size: var(--size-40-60);
+  max-inline-size: 77vw;
+}
+
+.hero__text {
+  font-size: var(--size-30-40);
+  font-weight: 700;
+  line-height: 1.3;
+  max-inline-size: 55vw;
+}
+
+.hero__text2 {
+  font-size: var(--size-20-30);
+  max-inline-size: 44vw;
+}
+
+.hero a {
+  margin-block-start: var(--size-10-20);
 }
 
 .box {
