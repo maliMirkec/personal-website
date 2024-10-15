@@ -1,7 +1,7 @@
 {% if footer %}
-  <footer>
-    <div>
-      <div>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__content">
         {% if site.author %}
           <p><span>&copy;</span> {{ site.author }} {{ site.established }}–{{ 'now' | date: '%Y'}}</p>
         {% endif %}
@@ -11,7 +11,7 @@
         <p class="js-page-loaded-in">Page loaded in 0.001s.</p>
       </div>
       {% if footer.logo %}
-        <a href="{{ footer.logo.href }}">
+        <a class="footer__logo" href="{{ footer.logo.href }}">
           {% cldnry footer.logo.src footer.logo.alt footer.logo.width footer.logo.height true %}
         </a>
       {% endif %}

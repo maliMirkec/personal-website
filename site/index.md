@@ -7,8 +7,11 @@ type: home
 sections:
   - type: hero
     title: Crafting exceptional websites that engage and delight users since 2012
-    desc: Transform your digital presence with Silvestar’s expert development services.
-    desc2: Or just let me build the best possible website for you and your business.
+    title_width: 26
+    text: Transform your digital presence with Silvestar’s expert development services.
+    text_width: 29
+    text2: Or just let me build the best possible website for you and your business.
+    text2_width: 33
     cta:
       href: /contact/
       title: Get in touch

@@ -1,12 +1,12 @@
 <section class="hero">
   {%- if component.title -%}
-    <h1 class="hero__title">{{ component.title | markdownifyi }}</h1>
+    <h1 class="hero__title"{% if component.title_width %} style="--hero-title-width: {{ component.title_width }}ch;"{% endif %}>{{ component.title | markdownifyi }}</h1>
   {%- endif -%}
-  {%- if component.desc -%}
-    <div class="hero__text">{{ component.desc | markdownify }}</div>
+  {%- if component.text -%}
+    <div class="hero__text"{% if component.text_width %} style="--hero-text-width: {{ component.text_width }}ch;"{% endif %}>{{ component.text | markdownify }}</div>
   {%- endif -%}
-  {%- if component.desc2 -%}
-    <div class="hero__text2">{{ component.desc2 | markdownify }}</div>
+  {%- if component.text2 -%}
+    <div class="hero__text2"{% if component.text2_width %} style="--hero-text2-width: {{ component.text2_width }}ch;"{% endif %}>{{ component.text2 | markdownify }}</div>
   {%- endif -%}
   {%- if component.cta -%}
     <div class="hero__action">
