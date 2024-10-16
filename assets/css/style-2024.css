@@ -12,7 +12,10 @@
   --size-02-04: clamp(0.125rem, calc(0rem + 0.2vw), 0.25rem);
   --size-05-10: clamp(0.313rem, calc(0rem + 0.5vw), 0.625rem);
   --size-10-20: clamp(0.625rem, calc(0rem + 1vw), 1.25rem);
+  --size-13-16: clamp(0.813rem, calc(0.625rem + 0.3vw), 1rem);
   --size-15-30: clamp(0.938rem, calc(0rem + 1.5vw), 1.875rem);
+  --size-16-20: clamp(1rem, calc(0.75rem + 0.4vw), 1.25rem);
+  --size-20-24: clamp(1.25rem, calc(1rem + 0.4vw), 1.5rem);
   --size-20-30: clamp(1.25rem, calc(0.625rem + 1vw), 1.875rem);
   --size-20-40: clamp(1.25rem, calc(0rem + 2vw), 2.5rem);
   --size-30-40: clamp(1.875rem, calc(1.25rem + 1vw), 2.5rem);
@@ -50,6 +53,14 @@
   line-height: 1.2;
 }
 
+:where(label, input, button, [class*="cta"], [class*="link"]) {
+  font-family: var(--rounded);
+}
+
+:where(label, button, [class*="cta"], [class*="link"]) {
+  cursor: pointer;
+}
+
 img {
   display: block;
   block-size: auto;
@@ -60,7 +71,7 @@ img {
   outline-offset: 0;
   outline-style: solid;
   outline-width: 0.075em;
-  transition: all var(--tr-duration);
+  transition: all var(--timing200);
 }
 
 :where(a, button) {
@@ -103,7 +114,6 @@ body {
   display: inline-flex;
   align-items: baseline;
   gap: var(--size-10-20);
-  font-family: var(--rounded);
   font-size: var(--size-20-30);
   text-decoration: none;
   padding-block: var(--size-10-20);
@@ -117,12 +127,15 @@ body {
 .button__cta:after {
   content: '››››';
   transform: translateY(calc(var(--size-02-04) * -1));
+  transform-origin: left center;
   transition: inherit;
 }
 
-.button__cta:hover:after,
-.button__cta:focus:after,
-.button__cta:active:after {
+.button__cta:is(:hover, :focus, :active) {
+  box-shadow: 0 0 0 0.075em currentColor;
+}
+
+.button__cta:is(:hover, :focus, :active):after {
   transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1)) scale(110%);
 }
 
@@ -138,7 +151,6 @@ body {
 }
 
 .header {
-  font-family: var(--rounded);
   background-image: linear-gradient(to right, var(--color-alpha), var(--color-light) 105%);
   grid-area: header;
   padding: var(--size-05-10);
@@ -210,7 +222,7 @@ body {
 }
 
 .footer p {
-  font-size: 0.875rem;
+  font-size: var(--size-13-16);
 }
 
 .footer__logo:hover,
@@ -278,10 +290,17 @@ body {
   gap: var(--size-30-60);
 }
 
-.box a {
-  display: block;
+.box [href] {
+  display: inline-block;
   outline-offset: var(--size-02-04);
   border-radius: var(--size-02-04);
+  transition: var(--timing200);
+}
+
+.box [href]:hover,
+.box [href]:focus,
+.box [href]:active {
+  color: var(--color-beta);
 }
 
 .box__title {
@@ -305,7 +324,14 @@ body {
   font-size: var(--size-20-30);
 }
 
+.box__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-05-10);
+}
+
 .box__tag {
+  color: color-mix(in srgb, var(--color-gamma), var(--color-light) 20%);
   font-family: var(--rounded);
   font-size: 1rem;
 }
@@ -313,6 +339,8 @@ body {
 .banner {
   grid-column: 2;
   align-self: start;
+  display: grid;
+  gap: var(--size-05-10);
   padding: var(--size-20-40);
   border-radius: var(--size-20-40);
 }
@@ -325,4 +353,49 @@ body {
 
 .banner--beta {
   grid-column: 1 / -1;
+}
+
+.banner__title {
+  font-size: var(--size-20-24);
+}
+
+.banner__text,
+.banner__label,
+.banner__input,
+.banner__cta,
+.banner__info {
+  font-size: var(--size-13-16);
+}
+
+.banner__form {
+  display: grid;
+  gap: var(--size-05-10);
+}
+
+.banner__input,
+.banner__cta {
+  padding-block: var(--size-02-04);
+  padding-inline: var(--size-05-10);
+  min-block-size: var(--size-30-40);
+  border: .15em solid var(--color-gamma);
+}
+
+.banner__input {
+  background-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 40%);
+  color: var(--color-gamma);
+}
+
+.banner__input:is(:focus, :active) {
+  background-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 70%);
+}
+
+.banner__cta {
+  background-color: var(--color-gamma);
+  color: var(--color-alpha);
+}
+
+.banner__cta:hover,
+.banner__cta:focus,
+.banner__cta:active {
+  border-color: var(--color-alpha);
 }

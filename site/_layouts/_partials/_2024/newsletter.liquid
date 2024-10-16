@@ -8,16 +8,8 @@
     {%- endif -%}
     <form class="banner__form" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post">
       <label class="banner__label" for="bd-email">Enter your email address</label>
-      <input class="banner__input" type="email" name="email" id="bd-email" autocomplete="off">
+      <input class="banner__input" type="email" name="email" id="bd-email" autocomplete="off" required>
       <button class="banner__cta" type="submit">Subscribe</button>
     </form>
-    <div class="banner__details">
-      {%- if newsletter.logo1 -%}
-        <a href="/side-projects/ui-dev-newsletter/">
-          {% cldnry newsletter.logo1.src newsletter.logo1.alt 100 100 %}
-        </a>
-      {%- endif -%}
-      <p class="banner__info">{{ newsletter.rss_text }}</p>
-    </div>
   </section>
 {%- endif -%}
