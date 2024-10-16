@@ -6,13 +6,7 @@
 {%- if list -%}
   <section class="box">
     {%- if component.title -%}
-      <h2 class="box__title">
-        {%- if component.href -%}
-          <a href="{{ component.href }}">{{ component.title }}</a>
-        {%- else -%}
-          {{ component.title }}
-        {%- endif -%}
-      </h2>
+      <h2 class="box__title">{{ component.title }}</h2>
     {%- endif -%}
     <ul class="box__list">
       {%- for card in list -%}
@@ -57,5 +51,10 @@
         {%- assign i1 = i1 | plus: 1 -%}
       {%- endfor -%}
     </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include _partials/_2024/cta cta: component.cta -%}
+      </div>
+    {%- endif -%}
   </section>
 {%- endif -%}

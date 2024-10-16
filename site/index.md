@@ -18,19 +18,27 @@ sections:
   - type: article-list
     color: beta
     title: Latest blog posts
-    href: /articles/
     filter: my-articles
     sorter: date
     exclude: publications
     limit: 6
+    cta:
+      href: /articles/
+      title: View all articles
+      modifiers:
+        - small
   - type: newsletter
   - type: project-list
     color: alpha
     title: Featured projects
-    href: /portfolio/
     filter: portfolio
     limit: 6
     exclude: true
+    cta:
+      href: /portfolio/
+      title: View all projects
+      modifiers:
+        - small
   - type: testimonial-list
     color: delta
     title: Testimonials
