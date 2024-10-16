@@ -1,6 +1,6 @@
 :root {
   --cursive: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
-  --serif: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+  --serif: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   --rounded: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   --sans: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --quote: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
@@ -46,8 +46,8 @@
 
 :where(h1, h2, h3, h4, h5, h6) {
   font-family: var(--serif);
-  line-height: 1.1;
-  letter-spacing: 0.01em;
+  font-weight: 900;
+  line-height: 1.2;
 }
 
 img {
@@ -58,8 +58,8 @@ img {
 :where(a, input, button) {
   outline-color: transparent;
   outline-offset: 0;
-  outline-style: groove;
-  outline-width: thin;
+  outline-style: solid;
+  outline-width: 0.075em;
   transition: all var(--tr-duration);
 }
 
@@ -68,9 +68,23 @@ img {
   transition: var(--timing200);
 }
 
+:where(a) {
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.075em;
+}
+
 :where(a, button):hover,
 :where(a, button):focus,
-:where(a, button):active,
+:where(a, button):active {
+  text-underline-offset: 0.075em;
+}
+
+:is([class*="cta"]):hover,
+:is([class*="cta"]):focus,
+:is([class*="cta"]):active,
+:is([class*="link"]):hover,
+:is([class*="link"]):focus,
+:is([class*="link"]):active,
 :where(a, button):focus-visible {
   outline-color: currentColor;
 }
@@ -81,6 +95,35 @@ body {
   line-height: 1.4;
   min-block-size: 100dvh;
   padding: var(--size-10-20);
+}
+
+.button__cta {
+  background-color: var(--color-alpha);
+  color: var(--color-gamma);
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--size-10-20);
+  font-family: var(--rounded);
+  font-size: var(--size-20-30);
+  text-decoration: none;
+  padding-block: var(--size-10-20);
+  padding-inline: var(--size-20-40);
+  border-radius: var(--size-30-60);
+  border: var(--size-02-04) solid var(--color-gamma);
+  position: relative;
+  transition: var(--timing200);
+}
+
+.button__cta:after {
+  content: '››››';
+  transform: translateY(calc(var(--size-02-04) * -1));
+  transition: inherit;
+}
+
+.button__cta:hover:after,
+.button__cta:focus:after,
+.button__cta:active:after {
+  transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1)) scale(110%);
 }
 
 .wrapper {
@@ -107,7 +150,7 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: var(--size-05-10);
+  gap: var(--size-10-20);
   margin-inline-end: var(--size-20-40);
 }
 
@@ -184,6 +227,7 @@ body {
   grid-template-columns: min(90vw, var(--main)) 1fr;
   grid-auto-flow: dense;
   gap: var(--size-50-100);
+  place-items: start;
   padding: var(--size-30-60);
   border-radius: var(--size-30-60);
   border: var(--size-05-10) solid transparent;
@@ -200,45 +244,11 @@ body {
   z-index: -1;
 }
 
-.button__cta {
-  background-image: linear-gradient(135deg, var(--color-gamma), var(--color-gamma), var(--color-gamma));
-  color: var(--color-alpha);
-  display: inline-flex;
-  align-items: baseline;
-  gap: var(--size-10-20);
-  font-family: var(--rounded);
-  font-size: var(--size-20-30);
-  text-decoration: none;
-  padding-block: var(--size-10-20);
-  padding-inline: var(--size-20-40);
-  border-radius: var(--size-30-60);
-  border: var(--size-02-04) solid var(--color-alpha);
-  position: relative;
-  transition: var(--timing200);
-}
-
-.button__cta:hover,
-.button__cta:focus,
-.button__cta:active {
-  border-color: var(--color-gamma);
-}
-
-.button__cta:after {
-  content: '››››';
-  transform: translateY(calc(var(--size-02-04) * -1));
-  transition: inherit;
-}
-
-.button__cta:hover:after,
-.button__cta:focus:after,
-.button__cta:active:after {
-  transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1));
-}
-
 .hero {
   grid-column: 1 / -1;
   display: grid;
   gap: var(--size-10-20);
+  padding-block: var(--size-20-40);
 }
 
 .hero__title {
@@ -265,7 +275,39 @@ body {
 .box {
   grid-column: 1;
   display: grid;
-  gap: var(--size-10-20);
+  gap: var(--size-30-60);
+}
+
+.box a {
+  display: block;
+  outline-offset: var(--size-02-04);
+  border-radius: var(--size-02-04);
+}
+
+.box__title {
+  font-size: var(--size-40-60);
+}
+
+.box__list {
+  list-style: none;
+}
+
+.box__item {
+  display: grid;
+  gap: var(--size-05-10);
+}
+
+.box__item:not(:last-of-type) {
+  margin-block-end: var(--size-20-40);
+}
+
+.box__subtitle {
+  font-size: var(--size-20-30);
+}
+
+.box__tag {
+  font-family: var(--rounded);
+  font-size: 1rem;
 }
 
 .banner {

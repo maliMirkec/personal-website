@@ -17,7 +17,7 @@ sections:
       title: Get in touch
   - type: article-list
     color: beta
-    title: Latest blog posts →
+    title: Latest blog posts
     href: /articles/
     filter: my-articles
     sorter: date
@@ -26,14 +26,14 @@ sections:
   - type: newsletter
   - type: project-list
     color: alpha
-    title: Featured projects →
+    title: Featured projects
     href: /portfolio/
     filter: portfolio
     limit: 6
     exclude: true
   - type: testimonial-list
     color: delta
-    title: Testimonials →
+    title: Testimonials
     href: /testimonials/
     filter: testimonials
     limit: 6
