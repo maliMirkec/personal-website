@@ -576,7 +576,6 @@ body {
   }
 
   .main {
-    grid-template-columns: min(90vw, var(--main)) 1fr;
     padding: var(--size-30-60);
     position: relative;
   }
@@ -589,6 +588,10 @@ body {
     margin: calc(var(--size-05-10) * -1);
     border-radius: inherit;
     z-index: -1;
+  }
+
+  .page--home .main {
+    grid-template-columns: min(90vw, var(--main)) 1fr;
   }
 
   .box__grid--beta {
