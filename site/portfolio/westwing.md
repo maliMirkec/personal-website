@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Westwing
 description: I've worked on Westwing website. Westwing is "curated shoppable magazine", inspiring customers with the newest trends, themes, stories, brands and products.
 thumbnail:

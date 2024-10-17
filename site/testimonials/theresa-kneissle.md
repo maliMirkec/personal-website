@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Theresa Kneißle
 titlePrefix: "Testimional by "
 description: Read testimonial by Theresa Kneißle in which he talks about his positive experience in working with Silvestar Bistrović.

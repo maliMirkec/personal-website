@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Denise Weidlich
 titlePrefix: "Testimional by "
 description: Read testimonial by Denise Weidlich in which he talks about his positive experience in working with Silvestar Bistrović.

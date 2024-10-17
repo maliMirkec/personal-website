@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Rebecca Jacobs
 titlePrefix: "Testimional by "
 description: Read testimonial by Rebecca Jacobs in which she talks about her positive experience in working with Silvestar Bistrović.

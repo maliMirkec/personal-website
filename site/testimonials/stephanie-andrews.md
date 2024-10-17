@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Stephanie (Annie) Andrews
 titlePrefix: "Testimional by "
 description: Read testimonial by Stephanie (Annie) Andrews in which she talks about her positive experience in working with Silvestar Bistrović.

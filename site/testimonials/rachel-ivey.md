@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Rachel Ivey
 titlePrefix: "Testimional by "
 description: Read testimonial by Rachel Ivey in which she talks about her positive experience in working with Silvestar Bistrović.

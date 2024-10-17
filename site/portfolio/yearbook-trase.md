@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Trase Yearbook 2018
 description: I've worked on The Trase Yearbook website. The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains.
 thumbnail:

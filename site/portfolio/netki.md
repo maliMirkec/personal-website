@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Netki
 description: I've worked on Netki website. Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States.
 thumbnail:

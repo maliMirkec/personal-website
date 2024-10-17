@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Aditya Shah
 titlePrefix: "Testimional by "
 description: Read testimonial by Aditya Shah in which he talks about his positive experience in working with Silvestar Bistrović.

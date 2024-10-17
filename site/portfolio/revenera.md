@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Revenera
 description: I've worked on Revenera website. Revenera helps you as a software developer to control costs, grow and protect your business.
 thumbnail:

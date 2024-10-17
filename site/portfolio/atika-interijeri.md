@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Atika Interijeri
 description: I've worked on Atika Interijeri website. Atika Interijeri is a carpentry company specialized in creating different kinds of custom furniture.
 thumbnail:

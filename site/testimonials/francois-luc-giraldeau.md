@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: François-Luc Giraldeau
 titlePrefix: "Testimional by "
 description: Read testimonial by François-Luc Giraldeau in which she talks about her positive experience in working with Silvestar Bistrović.

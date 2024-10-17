@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: John Ganotis
 titlePrefix: "Testimional by "
 description: Read testimonial by John Ganotis in which he talks about his positive experience in working with Silvestar Bistrović.

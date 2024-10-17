@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Cory Schmidt
 titlePrefix: "Testimional by "
 description: Read testimonial by Cory Schmidt in which he talks about his positive experience in working with Silvestar Bistrović.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Approximately Blue
 description: I've worked on Approx Blue website. Approx Blue is an art brokerage and management service mainly dealing with blue-chip fine art prints.
 thumbnail:

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Nicholas Bailey
 titlePrefix: "Testimional by "
 description: Read testimonial by Nicholas Bailey in which she talks about her positive experience in working with Silvestar Bistrović.

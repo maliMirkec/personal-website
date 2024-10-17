@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: No advertisement at all
 description: Guest posts, backlinks, or any other form of advertisement is strictly prohibited on my site, but I am open to other forms of collaboration.
 type: page

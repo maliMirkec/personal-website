@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: About me
 description: I'm Silvestar Bistrović, web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of UI Dev Newsletter, and founder of CSS Auditors.
 type: about

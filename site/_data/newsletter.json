@@ -2,14 +2,13 @@
   "title": "UI Dev Newsletter",
   "tagline": "Stay ahead of the latest UI Dev news",
   "description": "Every second Monday, get a shiny list of up to ten free links to stay ahead in the evolving world of User Interface development!",
-  "rss_text": "No spam, only quality content. Trusted by more than 800 subscribers.<br>Don't like newsletters? <a href=\"/rss2.xml\">Subscribe to RSS feed instead</a>.",
   "author": {
     "href": "/",
     "title": "Silvestar Bistrović"
   },
   "logo1": {
     "href": "/side-projects/ui-dev-newsletter/",
-    "src": "UI_Dev_FF3366_efcpho.svg",
+    "src": "/gfx/svg/ui-dev-FF3366.svg",
     "alt": "UI Dev Newsletter."
   },
   "logo2": {

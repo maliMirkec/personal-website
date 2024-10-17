@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Devran Taskesen
 titlePrefix: "Testimional by "
 description: Read testimonial by Devran Taskesen in which she talks about her positive experience in working with Silvestar Bistrović.

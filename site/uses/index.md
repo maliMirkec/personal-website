@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: My setup
 description: Most developers often spend time on their setup, and I am no exception. These devices, tools, and software help me achieve that.
 type: page

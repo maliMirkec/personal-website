@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Katie Long
 titlePrefix: "Testimional by "
 description: Read testimonial by Katie Long in which she talks about her positive experience in working with Silvestar Bistrović.

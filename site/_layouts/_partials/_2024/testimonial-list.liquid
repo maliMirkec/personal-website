@@ -50,8 +50,8 @@
                 {%- endif -%}
               </div>
             </a>
-            {%- if card.data.excerpt -%}
-              <div class="box__quote">{{ card.data.content }}</div>
+            {%- if card.content -%}
+              <div class="box__quote">{{ card.content }}</div>
             {%- endif -%}
           </li>
         {%- endunless -%}

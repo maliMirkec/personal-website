@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Irina & Matej
 description: I've worked on Irina and Matej website. Irina and Matej are wedding and portrait photographers based in Croatia and travelling the world.
 thumbnail:

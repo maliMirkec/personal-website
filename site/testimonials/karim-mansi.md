@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Karim Mansi
 titlePrefix: "Testimional by "
 description: Read testimonial by Karim Mansi in which he talks about his positive experience in working with Silvestar Bistrović.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Wunder Mobility
 description: I've worked on Wunder Mobility website. Wunder Mobility provides software, vehicles and services helping everyone launch and scale new mobility services.
 thumbnail:

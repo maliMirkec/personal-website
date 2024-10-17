@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: TheGrio
 description: I've worked on TheGrio website. TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives.
 thumbnail:

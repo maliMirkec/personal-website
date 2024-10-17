@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Browser bookmarks
 description: Discover a collection of curated browser bookmarks, from web development tools to online resources, find everything you need boost your productivity.
 date: 2017-08-02 20:08:06

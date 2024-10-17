@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: What I don't do
 description: Very often I am being asked to do things I don't know how to do. Here is the list of skills that I still need to acquire.
 type: page

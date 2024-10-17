@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Moodings
 description: I've worked on Moodings webshop. Moodings is an e-commerce company that helps designers and artists compete on the market.
 thumbnail:

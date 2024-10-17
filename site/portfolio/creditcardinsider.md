@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Credit Card Insider
 description: I've worked on Credit Card Insider website. Credit Card Insider is company whose mission is to empower people to use credit cards to their advantage.
 thumbnail:

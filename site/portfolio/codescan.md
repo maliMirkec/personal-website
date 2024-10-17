@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: CodeScan
 description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
 thumbnail:

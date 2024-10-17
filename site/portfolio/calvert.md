@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Calvert
 description: I've worked on Calvert website. Calvert is leader in responsible investing for analyzing company performance from finances to environmental policy to diversity.
 thumbnail:

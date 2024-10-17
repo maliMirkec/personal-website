@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Domino Data Lab Pop-up
 description: I've worked on DDL Pop-up website. Pop-up is a series of events that bring together the data science leaders of today and tomorrow.
 thumbnail:

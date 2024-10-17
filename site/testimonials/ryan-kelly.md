@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Ryan Kelly
 titlePrefix: "Testimional by "
 description: Read testimonial by Ryan Kelly in which he talks about his positive experience in working with Silvestar Bistrović.

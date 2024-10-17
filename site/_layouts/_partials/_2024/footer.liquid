@@ -5,14 +5,14 @@
         {% if site.author %}
           <p><span>&copy;</span> {{ site.author }} {{ site.established }}–{{ 'now' | date: '%Y'}}</p>
         {% endif %}
-        {% if footer.github %}
-          <p>{{ footer.github.text }} <a href="{{ footer.github.href }}">{{ footer.github.name }}</a>.</p>
+        {% if footer2024.github %}
+          <p>{{ footer2024.github.text }} <a href="{{ footer2024.github.href }}">{{ footer2024.github.name }}</a>.</p>
         {% endif %}
         <p class="js-page-loaded-in">Page loaded in 0.001s.</p>
       </div>
-      {% if footer.logo %}
-        <a class="footer__logo" href="{{ footer.logo.href }}">
-          {% cldnry footer.logo.src footer.logo.alt footer.logo.width footer.logo.height true %}
+      {% if footer2024.logo %}
+        <a class="footer__logo" href="{{ footer2024.logo.href }}">
+          {% cldnry footer2024.logo.src footer2024.logo.alt footer2024.logo.width footer2024.logo.height true %}
         </a>
       {% endif %}
     </div>

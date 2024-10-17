@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Spartan Precision Equipment
 description: I've worked on Spartan Precision Equipment web sjop. Spartan Precision Equipment produce rifle and optic support systems that weigh less and achieve more.
 thumbnail:

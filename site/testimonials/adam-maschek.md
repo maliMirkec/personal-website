@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Adam Maschek
 titlePrefix: "Testimional by "
 description: Read testimonial by Adam Maschek in which he talks about his positive experience in working with Silvestar Bistrović.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Contact me
 description: Feel free to contact me if you have anything you want to discuss. I'm always eager to receive new messages and would love to connect with you!
 type: page

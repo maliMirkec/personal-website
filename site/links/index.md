@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: My links
 description: Here are Silvestar's links and profiles from all over the web, from social networks to projects and publications.
 type: page

@@ -1,40 +1,24 @@
 {
   "logo": {
     "href": "/",
-    "src": "Logo_SB_043A73_DDEDFE_s3ppvr.svg",
-    "alt": "Home",
-    "height": 100,
-    "width": 100
-  },
-  "github": {
-    "name": "GitHub",
-    "text": "The site is available on",
-    "href": "https://github.com/maliMirkec/personal-website/"
+    "src": "/gfx/svg/logo-12E09F-000.svg",
+    "title": "Silvestar Bistrović"
   },
   "menu": [{
+    "href": "/articles/",
+    "title": "Blog"
+  }, {
     "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter"
+    "title": "Newsletter❗"
   }, {
-    "href": "/services/",
-    "title": "Services"
+    "href": "/portfolio/",
+    "title": "Portfolio"
   }, {
-    "href": "/testimonials/",
-    "title": "Testimonials"
+    "href": "/about/",
+    "title": "About"
   }, {
-    "href": "/side-projects/",
-    "title": "Side projects"
-  }, {
-    "href": "/links/",
-    "title": "Links"
-  }, {
-    "href": "/favorites/",
-    "title": "Favorites"
-  }, {
-    "href": "/uses/",
-    "title": "Setup"
-  }, {
-    "href": "/slides/",
-    "title": "Slides"
+    "href": "/contact/",
+    "title": "Contact"
   }, {
     "href": "/rss.xml",
     "title": "Feed"
@@ -44,7 +28,7 @@
     "title": "LinkedIn"
   }, {
     "href": "https://twitter.com/malimirkeccita",
-    "title": "X (Twitter)"
+    "title": "Twitter"
   }, {
     "href": "https://mastodon.social/@cita",
     "title": "Mastodon",

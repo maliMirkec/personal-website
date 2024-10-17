@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Will O'Brien
 titlePrefix: "Testimional by "
 description: Read testimonial by Will O'Brien in which he talks about his positive experience in working with Silvestar Bistrović.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Han Han Xue
 titlePrefix: "Testimional by "
 description: Read testimonial by Han Han Xue in which he talks about his positive experience in working with Silvestar Bistrović.

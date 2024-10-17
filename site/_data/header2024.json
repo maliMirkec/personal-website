@@ -1,0 +1,22 @@
+{
+  "logo": {
+    "href": "/",
+    "src": "sb-simple-4_ammtbg.svg",
+    "alt": "Home",
+    "height": 98,
+    "width": 98
+  },
+  "menu": [{
+    "href": "/articles/",
+    "title": "Blog"
+  }, {
+    "href": "/portfolio/",
+    "title": "Portfolio"
+  }, {
+    "href": "/about/",
+    "title": "About"
+  }, {
+    "href": "/contact/",
+    "title": "Contact"
+  }]
+}

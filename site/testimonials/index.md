@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Testimonials
 description: Read kind words about Silvestar's work from clients worldwide, from Spain and Germany to the United States. Every testimonial are available on LinkedIn, too.
 type: testimonials

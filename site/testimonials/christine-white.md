@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Christine White
 titlePrefix: "Testimional by "
 description: Read testimonial by Christine White in which she talks about her positive experience in working with Silvestar Bistrović.

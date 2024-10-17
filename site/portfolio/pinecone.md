@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Pinecone
 description: I've worked on Pinecone website. Pinecone is a managed database that provides the infrastructure for ML applications to search and rank results on similarities.
 thumbnail:

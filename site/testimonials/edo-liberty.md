@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Edo Liberty
 titlePrefix: "Testimional by "
 description: Read testimonial by Edo Liberty in which he talks about his positive experience in working with Silvestar Bistrović.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Pablo Pareja Tobes
 titlePrefix: "Testimional by "
 description: Read testimonial by Pablo Pareja Tobes in which he talks about his positive experience in working with Silvestar Bistrović.

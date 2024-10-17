@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Marcijuš Studio
 description: I've worked on Marcijuš Studio website. Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography.
 thumbnail:

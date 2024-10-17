@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Flexera
 description: I've worked on Flexera website. Flexera control and manage software and IT costs, to grow and protect your business.
 thumbnail:

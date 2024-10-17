@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Grigoriy Kogan
 titlePrefix: "Testimional by "
 description: Read testimonial by Grigoriy Kogan in which he talks about his positive experience in working with Silvestar Bistrović.

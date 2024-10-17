@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Bozzuto
 description: I've worked on Bozzuto website. Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company.
 thumbnail:

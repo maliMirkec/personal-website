@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Heyflow
 description: I've worked on Heyflow website. Heyflow allows you to build interactive flows and forms effortlessly without the need for any coding expertise.
 thumbnail:

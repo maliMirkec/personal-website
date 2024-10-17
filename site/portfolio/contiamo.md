@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Contiamo
 description: I've worked on Contiamo website. Contiamo is a company that uses ML and AI to drive better decision making and process optimization.
 thumbnail:

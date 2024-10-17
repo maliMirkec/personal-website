@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: My services
 description: Silvestar have been working with web technologies since 2012. During this period, he acquired a certain set of skills for building better websites.
 type: page

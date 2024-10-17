@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Han Han Xue
 description: I've worked on Han Han Xue website. Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
 thumbnail:

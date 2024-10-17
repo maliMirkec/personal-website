@@ -1,10 +1,10 @@
-{%- if newsletter -%}
+{%- if newsletter2024 -%}
   <section class="banner banner--alpha">
-    {%- if newsletter.tagline -%}
-      <h2 class="banner__title">{{ newsletter.tagline }}</h2>
+    {%- if newsletter2024.tagline -%}
+      <h2 class="banner__title">{{ newsletter2024.tagline }}</h2>
     {%- endif -%}
-    {%- if newsletter.description -%}
-      <p class="banner__text">{{ newsletter.description }}</p>
+    {%- if newsletter2024.description -%}
+      <p class="banner__text">{{ newsletter2024.description }}</p>
     {%- endif -%}
     <form class="banner__form" action="https://buttondown.email/api/emails/embed-subscribe/starbist" method="post">
       <label class="banner__label" for="bd-email">Enter your email address</label>

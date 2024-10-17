@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Little Bundle
 description: I've worked on Little Bundle webshop. Little Bundle is a company with a mission to maximize children's' health by making high-quality formula easily accessible.
 thumbnail:

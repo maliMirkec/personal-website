@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Mara Franke
 titlePrefix: "Testimional by "
 description: Read testimonial by Mara Franke in which she talks about her positive experience in working with Silvestar Bistrović.
