@@ -7,23 +7,12 @@
   {% assign list = list | sort: 'data.date' | reverse %}
 {% endif %}
 
-{%- if component.color -%}
-  {%- assign componentClass = ' box--' | append: component.color -%}
-  {%- assign cardClass = ' quote--' | append: component.color -%}
-{%- endif -%}
-
 {%- if list -%}
-  <section class="box{{ componentClass }}">
+  <section class="box">
     {%- if component.title -%}
-      <h2 class="box__title">
-        {%- if component.href -%}
-          <a href="{{ component.href }}">{{ component.title }}</a>
-        {%- else -%}
-          {{ component.title }}
-        {%- endif -%}
-      </h2>
+      <h2 class="box__title">{{ component.title }}</h2>
     {%- endif -%}
-    <ul class="box__grid">
+    <ul class="box__grid box__grid--beta">
       {%- for card in list -%}
         {% liquid
           assign now = 'now' | date: "%Y-%m-%d"
@@ -43,27 +32,36 @@
         %}
         {%- unless component.exclude and page.url == card.url -%}
           <li class="box__item">
-            <a class="quote{{ cardClass }}" href="{{ card.url }}">
-              {%- if card.data.excerpt -%}
-                <p class="quote__text">{{ card.data.excerpt }}</p>
-              {%- endif -%}
+            <a class="box__link box__person" href="{{ card.url }}">
               {%- if card.data.avatar -%}
-                {% cldnry card.data.avatar card.data.title 100 100 %}
+                <span class="box__avatar">
+                  {% cldnry card.data.avatar card.data.title 100 100 %}
+                </span>
               {%- endif -%}
-              {%- if card.data.title -%}
-                <h3 class="quote__person">{{ card.data.title }}</h3>
-              {%- endif -%}
-              {%- if card.data.position -%}
-                <h4 class="quote__position">{{ card.data.position }}</h4>
-              {%- endif -%}
-              {%- if card.data.company -%}
-                <h5 class="quote__company">{{ card.data.company }}</h5>
-              {%- endif -%}
+              <div class="box__profile">
+                {%- if card.data.title -%}
+                  <h3 class="box__name">{{ card.data.title }}</h3>
+                {%- endif -%}
+                {%- if card.data.position -%}
+                  <h4 class="box__position">{{ card.data.position }}</h4>
+                {%- endif -%}
+                {%- if card.data.company -%}
+                  <h5 class="box__company">{{ card.data.company }}</h5>
+                {%- endif -%}
+              </div>
             </a>
+            {%- if card.data.excerpt -%}
+              <div class="box__quote">{{ card.data.content }}</div>
+            {%- endif -%}
           </li>
         {%- endunless -%}
         {%- assign i1 = i1 | plus: 1 -%}
       {%- endfor -%}
     </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include _partials/_2024/cta cta: component.cta -%}
+      </div>
+    {%- endif -%}
   </section>
 {% endif %}

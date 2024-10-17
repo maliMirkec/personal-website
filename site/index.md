@@ -24,7 +24,7 @@ sections:
     limit: 6
     cta:
       href: /articles/
-      title: View all articles
+      title: All articles
       modifiers:
         - small
   - type: newsletter
@@ -36,15 +36,19 @@ sections:
     exclude: true
     cta:
       href: /portfolio/
-      title: View all projects
+      title: All projects
       modifiers:
         - small
   - type: testimonial-list
     color: delta
     title: Testimonials
-    href: /testimonials/
     filter: testimonials
     limit: 6
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
     banner: consultation
 ---

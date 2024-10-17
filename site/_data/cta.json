@@ -121,10 +121,11 @@
   },
   "consultation": {
     "title": "Get professional web development advice",
-    "desc": "I specialize in technologies related to frontend, user interface, and website development.",
+    "desc": "I specialize in technologies related to frontend, user interface, and website development. In other words, I'm building website for everyone.",
     "cta": {
       "href": "/contact/",
-      "title": "Get in touch"
+      "title": "Get in touch",
+      "modifiers": ["inverse"]
     }
   },
   "services": {

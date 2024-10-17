@@ -6,7 +6,7 @@
     {%- if component.title -%}
       <h2 class="box__title">{{ component.title }}</h2>
     {%- endif -%}
-    <ul class="box__grid">
+    <ul class="box__grid box__grid--alpha">
       {%- for card in list -%}
         {% liquid
           assign now = 'now' | date: "%Y-%m-%d"
@@ -26,7 +26,7 @@
           assign i1 = i1 | plus: 1
         %}
         <li class="box__item">
-          <a class="box__panel" href="{{ card.url }}">
+          <a class="box__anchor box__panel" href="{{ card.url }}">
             {%- if card.data.thumbnail -%}
               {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 400 242 %}
             {%- endif -%}
@@ -39,7 +39,7 @@
           {%- if card.data.tech -%}
             <span class="box__tags">
               {%- for tech in card.data.tech -%}
-                <a class="box__tag" href="/tags/{{ tech | slugify }}">{{ tech }}</a>
+                <a class="box__anchor box__tag" href="/tags/{{ tech | slugify }}">{{ tech }}</a>
               {%- endfor -%}
             </span>
           {%- endif -%}
