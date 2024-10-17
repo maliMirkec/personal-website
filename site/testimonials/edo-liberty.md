@@ -10,7 +10,7 @@ projectThumbnail: pc_h99bkn
 logo: pinecone-logo_ybycgg
 avatar: el2_ptyk3k
 order: 400
-date: 2004-01-01
+date: 2021-01-28
 position: Founder, CEO, and Scientist
 company: Pinecone
 projects:

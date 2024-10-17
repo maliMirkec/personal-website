@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: ds_ste3yw
-date: 2000-01-04
+date: 2020-10-01
 position: Senior Manager of Partner Marketing
 company: DDL
 projects:

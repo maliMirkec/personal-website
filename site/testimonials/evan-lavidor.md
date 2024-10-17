@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: b_csao4p
 logo: bm_qlnuvi
 avatar: el_keb12t
-date: 1998-01-01
+date: 2019-03-25
 position: Partner & Executive Director
 company: BEAM
 projects:

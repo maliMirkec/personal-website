@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: ri_bekodu
-date: 2005-01-05
+date: 2020-04-28
 position: Product Manager
 company: Westwing
 projects:

@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: bl_krlunh
-date: 2000-01-03
+date: 2020-10-18
 position: Sr. Director of Product Marketing
 company: DDL
 projects:

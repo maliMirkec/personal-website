@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: jb_w08g20
-date: 1999-01-01
+date: 2023-03-13
 position: Chief Operating Officer
 company: Wunder Mobility
 projects:

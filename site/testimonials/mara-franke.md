@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: mf_jkcuyp
-date: 1999-01-03
+date: 2022-09-08
 position: Head of Marketing
 company: Wunder Mobility
 projects:

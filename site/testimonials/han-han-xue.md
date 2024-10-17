@@ -8,7 +8,7 @@ tags:
 type: testimonials-item
 projectThumbnail: hhx_p45br6
 avatar: hhx_iu8agl
-date: 2009-01-01
+date: 2018-03-17
 position: Product Designer
 company: Lyft
 projects:

@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: tk_h1maa2
-date: 2005-01-03
+date: 2023-12-15
 position: Product Manager eCommerce
 company: Westwing
 projects:

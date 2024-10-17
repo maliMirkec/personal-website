@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ww_hceizq
 logo: ww_pm2rwy
 avatar: am_zanda5
-date: 2005-01-01
+date: 2018-08-06
 position: CTO
 company: Westwing
 projects:

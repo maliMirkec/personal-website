@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: wm_wh4yse
 logo: wm_ysj8e4
 avatar: rc_iahbe8
-date: 1999-01-05
+date: 2023-01-12
 position: Marketing manager
 company: Wunder Mobility
 projects:

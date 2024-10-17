@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: yb_urvwkg
 logo: yt_iyy37j
 avatar: ppt_bvwjey
-date: 2008-01-01
+date: 2018-07-04
 position: Project Manager
 company: Vizzuality
 projects:

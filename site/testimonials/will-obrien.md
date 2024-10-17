@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: cs_zg7xpc
 logo: cs_zg7xpc
 avatar: wo_s4ocq4
-date: 2006-01-02
+date: 2021-04-20
 position: DevOps Consultant
 company: CodeScan
 projects:

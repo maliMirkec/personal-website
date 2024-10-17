@@ -9,7 +9,7 @@ type: testimonials-item
 projectThumbnail: ddl_mypfrt
 logo: ddl_rj0jfd
 avatar: rk_vbck3b
-date: 2000-01-05
+date: 2020-10-04
 position: Vice President Growth Marketing
 company: DDL
 projects:
