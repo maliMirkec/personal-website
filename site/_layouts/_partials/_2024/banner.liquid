@@ -1,15 +1,27 @@
 {%- if cta[component.banner] -%}
   <section class="banner banner--beta">
-    {% if cta[component.banner].title %}
+    {%- if cta[component.banner].logo -%}
+      {%- assign logo = cta[component.banner].logo -%}
+      {%- if cta[component.banner].cta -%}
+        <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </a>
+      {%- else -%}
+        <div class="banner__logo">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+    {%- if cta[component.banner].title -%}
       <h2 class="banner__title">{{ cta[component.banner].title | markdownifyi }}</h2>
-    {% endif %}
-    {% if cta[component.banner].desc %}
+    {%- endif -%}
+    {%- if cta[component.banner].desc -%}
       <div class="banner__text">{{ cta[component.banner].desc | markdownify }}</div>
-    {% endif %}
-    {% if cta[component.banner].cta %}
+    {%- endif -%}
+    {%- if cta[component.banner].cta -%}
       <div class="banner__action">
         {%- include _partials/_2024/cta cta: cta[component.banner].cta -%}
       </div>
-    {% endif %}
+    {%- endif -%}
   </section>
 {%- endif -%}

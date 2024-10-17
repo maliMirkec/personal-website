@@ -6,8 +6,6 @@ description: Read testimonial by Mara Franke in which she talks about her positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
-logo: wm_ysj8e4
 avatar: mf_jkcuyp
 date: 2022-09-08
 position: Head of Marketing
@@ -16,29 +14,30 @@ projects:
   - Wunder Mobility
 sections:
   - type: hero-testimonial
-    src: wm_ysj8e4
-    alt: Logo of Wunder Mobility.
-    width: 236
-    height: 30
-    avatar: mf_jkcuyp
+    avatar:
+      src: mf_jkcuyp
+      alt: Mara Franke avatar.
+      width: 140
+      height: 140
     title: Mara Franke
-    desc: Head of Marketing at Wunder Mobility.
+    text: Head of Marketing at Wunder Mobility
 sections2:
   - type: banner
     banner: wunder-mobility
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is a talented, dedicated, and knowledgeable web developer...
 ---
 

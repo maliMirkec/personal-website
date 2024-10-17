@@ -1,6 +1,6 @@
 {
   "newsletter": {
-    "desc": "Stay ahead of the latest **UI Dev** news and subscribe to my newsletter.",
+    "desc": "Stay ahead of the latest UI Dev news and subscribe to my newsletter.",
     "code": "<form class=\"embeddable-buttondown-form newsletter margin-top text-left\" action=\"https://buttondown.email/api/emails/embed-subscribe/starbist\" method=\"post\"><input type=\"hidden\" value=\"1\" name=\"embed\">\n<div class=\"margin-top\">\n<label class=\"fz-step--1 fw-bold\" for=\"bd-email\">Enter your email address</label>\n<div class=\"newsletter__input\">\n<input class=\"input\" type=\"email\" name=\"email\" id=\"bd-email\">\n<input class=\"button button--small\" type=\"submit\" value=\"Subscribe\">\n</div>\n</div>\n\n</form>"
   },
   "job": {
@@ -8,115 +8,198 @@
     "code": "<a class=\"button button--small\" href=\"/contact/\">Contact me</a>"
   },
   "testimonials": {
-    "desc": "Over **20 professionals** from several companies vouched for me.",
+    "desc": "Over 20 professionals from several companies vouched for me.",
     "cta": {
       "href": "/testimonials/",
-      "title": " See all testimonials"
+      "title": " See all testimonials",
+      "modifiers": ["small", "inverse"]
     }
   },
   "freelance": {
-    "desc": "I have been working as a freelance contractor since **2017**.",
+    "desc": "I have been working as a freelance contractor since 2017.",
     "cta": {
       "href": "/articles/a-story-of-becoming-a-web-developer/",
-      "title": "Read the full story"
+      "title": "Read the full story",
+      "modifiers": ["small", "inverse"]
     }
   },
   "interview": {
-    "desc": "**Remote Working Hub** interviewed me about my remote working.",
+    "desc": "Remote Working Hub interviewed me about my remote working.",
     "cta": {
       "href": "/articles/interview-for-remote-working-hub/",
-      "title": "Read the interview"
+      "title": "Read the interview",
+      "modifiers": ["small", "inverse"]
     }
   },
   "blog": {
-    "desc": "I have been writing about frontend, web dev, and freelancing since **2016**.",
+    "desc": "I have been writing about frontend, web dev, and freelancing since 2016.",
     "cta": {
       "href": "/articles/",
-      "title": "View all articles"
+      "title": "View all articles",
+      "modifiers": ["small", "inverse"]
     }
   },
   "css-auditors": {
-    "desc": "I started **CSS Auditors**, a site dedicated to analyzing CSS code.",
+    "desc": "I started CSS Auditors, a site dedicated to analyzing CSS code.",
     "cta": {
       "href": "https://css-auditors.com",
-      "title": "Learn more about CSS Auditors"
+      "title": "Learn more about CSS Auditors",
+      "modifiers": ["small", "inverse"]
     }
   },
   "codescan": {
-    "desc": "I rebuild the whole site for CodeScan using the **Hugo framework**.",
+    "desc": "I rebuild the whole site for CodeScan using the Hugo framework.",
     "cta": {
       "href": "/portfolio/codescan/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "cs_zg7xpc",
+      "alt": "CodeScan logo.",
+      "width": 123,
+      "height": 36
     }
   },
   "javelin-bipod": {
-    "desc": "I've revamped a few **Shopify** templates, including homepage and PDP templates.",
+    "desc": "I've revamped a few Shopify templates, including homepage and PDP templates.",
     "cta": {
       "href": "/portfolio/javelin-bipod/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "spe_u2xgvi",
+      "alt": "Spartan Precision Equipment logo.",
+      "width": 40,
+      "height": 40
     }
   },
   "approx-blue": {
-    "desc": "I've built the entire site with **Eleventy** and **Contentful**.",
+    "desc": "I've built the entire site with Eleventy and Contentful.",
     "cta": {
       "href": "/portfolio/approx-blue/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "ab_vvxzwu.svg",
+      "alt": "Approximately Blue logo.",
+      "width": 80,
+      "height": 50
     }
   },
   "dominodatalab": {
-    "desc": "I helped migrate Domino Data Lab site from **Jekyll** to **HubSpot CMS**.",
+    "desc": "I helped migrate Domino Data Lab site from Jekyll to HubSpot CMS.",
     "cta": {
       "href": "/portfolio/dominodatalab/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "ddl_rj0jfd",
+      "alt": "Domino Data Lab logo.",
+      "width": 96,
+      "height": 30
     }
   },
   "wunder-mobility": {
-    "desc": "I helped rebuild the whole Wunder Mobility site using **Jekyll** and **Contentful**.",
+    "desc": "I helped rebuild the whole Wunder Mobility site using Jekyll and Contentful.",
     "cta": {
       "href": "/portfolio/wundermobility/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "wm_ysj8e4",
+      "alt": "Wunder Mobility logo.",
+      "width": 158,
+      "height": 20
     }
   },
   "westwing": {
-    "desc": "I built the whole site for Westwing using the **Hugo framework**.",
+    "desc": "I built the whole site for Westwing using the Hugo framework.",
     "cta": {
       "href": "/portfolio/westwing/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "ww_pm2rwy",
+      "alt": "Westwing logo.",
+      "width": 146,
+      "height": 20
     }
   },
   "pinecone": {
-    "desc": "I built a site for Pinecone, powered by **Hugo**, “the world’s fastest framework.”",
+    "desc": "I built a site for Pinecone, powered by Hugo, “the world’s fastest framework.”",
     "cta": {
       "href": "/portfolio/pinecone/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "pinecone-logo_ybycgg",
+      "alt": "Pinecone logo.",
+      "width": 128,
+      "height": 27
     }
   },
   "bozzuto": {
-    "desc": "I developed a library of **reusable UI components** for Bozzuto.",
+    "desc": "I developed a library of reusable UI components for Bozzuto.",
     "cta": {
       "href": "/portfolio/bozzuto/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "bm_qlnuvi",
+      "alt": "BEAM Interactive logo.",
+      "width": 129,
+      "height": 20
     }
+
   },
   "creditcardinsider": {
-    "desc": "I built the **WordPress theme** for the Credit Card Insider website.",
+    "desc": "I built the WordPress theme for the Credit Card Insider website.",
     "cta": {
       "href": "/portfolio/creditcardinsider/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "cci_xk4gjk",
+      "alt": "Credit Card Insider logo.",
+      "width": 120,
+      "height": 30
     }
   },
   "hanhanxue": {
-    "desc": "I built the whole site for Han Han Xue using the **Middleman framework**.",
+    "desc": "I built the whole site for Han Han Xue using the Middleman framework.",
     "cta": {
       "href": "/portfolio/hanhanxue/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "hhx_iu8agl",
+      "alt": "Han Han Xue logo.",
+      "width": 30,
+      "height": 30
     }
   },
   "yearbook-trase": {
-    "desc": "I built the **WordPress template** for the Trase Yearbook 2018.",
+    "desc": "I built the WordPress template for the Trase Yearbook 2018.",
     "cta": {
       "href": "/portfolio/yearbook-trase/",
-      "title": "See the project"
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "yt_iyy37j",
+      "alt": "Vizzuality logo.",
+      "width": 106,
+      "height": 20
     }
   },
   "consultation": {
@@ -126,6 +209,15 @@
       "href": "/contact/",
       "title": "Get in touch",
       "modifiers": ["inverse"]
+    }
+  },
+  "consultation2": {
+    "title": "Get professional web development advice",
+    "desc": "I specialize in technologies related to frontend, user interface, and website development. In other words, I'm building website for everyone.",
+    "cta": {
+      "href": "/contact/",
+      "title": "Get in touch",
+      "modifiers": ["small", "inverse"]
     }
   },
   "services": {

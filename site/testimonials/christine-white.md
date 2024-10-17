@@ -6,8 +6,6 @@ description: Read testimonial by Christine White in which she talks about her po
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: cw_cdvokw
 date: 2021-09-30
 position: Director of Web Strategy
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: cw_cdvokw
+    avatar:
+      src: cw_cdvokw
+      alt: Christine White avatar.
+      width: 140
+      height: 140
     title: Christine White
-    desc: Director of Web Strategy at Domino Data Lab.
+    text: Director of Web Strategy at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is diligent, focused, quick, and always willing to go the extra mile...
 ---
 

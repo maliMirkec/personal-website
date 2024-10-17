@@ -6,8 +6,6 @@ description: Read testimonial by Rebecca Jacobs in which she talks about her pos
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: cs_zg7xpc
-logo: cs_zg7xpc
 avatar: rj_tducdx
 date: 2021-04-06
 position: Marketing Manager
@@ -16,29 +14,30 @@ projects:
   - CodeScan
 sections:
   - type: hero-testimonial
-    src: cs_zg7xpc
-    alt: Logo of CodeScan.
-    width: 219
-    height: 64
-    avatar: rj_tducdx
+    avatar:
+      src: rj_tducdx
+      alt: Rebecca Jacobs avatar.
+      width: 140
+      height: 140
     title: Rebecca Jacobs
-    desc: Marketing Manager at CodeScan
+    text: Marketing Manager at CodeScan
 sections2:
   - type: banner
     banner: codescan
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Worked with Silvestar to optimize our website! He did a great job implementing...
 ---
 

@@ -4,19 +4,14 @@
     {% include _partials/_2024/_general/hero-gamma %}
   {% endif %}
 {% endif %}
-<section class="wrapper margin-top-beta margin-bottom-beta">
-  <div class="padding">
+<section class="content">
+  <div class="copy">
     {% if canonical and publication %}
-      <div class="copy balance margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
-      </div>
+      <p>This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
     {% endif %}
-    <div class="copy">{{ content }}</div>
+    {{ content }}
   </div>
 </section>
-{% if sections3 %}
-  <hr class="text-alpha hr">
-{% endif %}
 {% if sections3 %}
   {% for section in sections3 %}
     {% include _partials/_2024/_general/sections %}

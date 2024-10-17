@@ -6,8 +6,6 @@ description: Read testimonial by Evan Lavidor in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: b_csao4p
-logo: bm_qlnuvi
 avatar: el_keb12t
 date: 2019-03-25
 position: Partner & Executive Director
@@ -20,29 +18,30 @@ projects:
   - Franciscan Children's
 sections:
   - type: hero-testimonial
-    src: bm_qlnuvi
-    alt: Logo of BEAM Interactive.
-    width: 258
-    height: 40
-    avatar: el_keb12t
+    avatar:
+      src: el_keb12t
+      alt: Evan Lavidor avatar.
+      width: 140
+      height: 140
     title: Evan Lavidor
-    desc: Partner & Executive Director at BEAM Interactive
+    text: Partner & Executive Director at BEAM Interactive
 sections2:
   - type: banner
     banner: bozzuto
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 

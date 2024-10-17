@@ -6,8 +6,6 @@ description: Read testimonial by Jana Bartels in which she talks about her posit
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
-logo: wm_ysj8e4
 avatar: jb_w08g20
 date: 2023-03-13
 position: Chief Operating Officer
@@ -16,29 +14,30 @@ projects:
   - Wunder Mobility
 sections:
   - type: hero-testimonial
-    src: wm_ysj8e4
-    alt: Logo of Wunder Mobility.
-    width: 236
-    height: 30
-    avatar: jb_w08g20
+    avatar:
+      src: jb_w08g20
+      alt: Jana Bartels avatar.
+      width: 140
+      height: 140
     title: Jana Bartels
-    desc: Chief Operating Officer at Wunder Mobility.
+    text: Chief Operating Officer at Wunder Mobility
 sections2:
   - type: banner
     banner: wunder-mobility
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is a very accomplished web dev who always wants to find the best possible...
 ---
 

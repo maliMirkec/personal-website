@@ -6,7 +6,6 @@ description: Read testimonial by Nicholas Bailey in which she talks about her po
 tags:
   - testimonials
 type: testimonials-item
-logo: spe_u2xgvi
 avatar: nb2_k5hsxu
 date: 2023-10-06
 position: Digital Media Manager
@@ -15,26 +14,30 @@ projects:
   - Spartan Precision Equipment
 sections:
   - type: hero-testimonial
-    src: spe_u2xgvi
-    alt: Logo of Spartan Precision Equipment.
-    width: 40
-    height: 40
-    avatar: nb2_k5hsxu
+    avatar:
+      src: nb2_k5hsxu
+      alt: Nicholas Bailey avatar.
+      width: 140
+      height: 140
     title: Nicholas Bailey
-    desc: Digital Media Manager at Spartan Precision Equipment.
+    text: Digital Media Manager at Spartan Precision Equipment
 sections2:
   - type: banner
     banner: javelin-bipod
   - type: testimonial-list
     color: delta
     title: More testimonials
-    href: /testimonials/
     filter: testimonials
     limit: 6
     random: true
     exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was great to work with on our recent website development project, forward-thinking...
 ---
 

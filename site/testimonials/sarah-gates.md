@@ -6,8 +6,6 @@ description: Read testimonial by Sarah Gates in which she talks about her positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: sg_ensdvf
 date: 2020-10-01
 position: Director of Product Marketing
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: sg_ensdvf
+    avatar:
+      src: sg_ensdvf
+      alt: Sarah Gates avatar.
+      width: 140
+      height: 140
     title: Sarah Gates
-    desc: Director of Product Marketing at Domino Data Lab.
+    text: Director of Product Marketing at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was very quick to respond to requests, dependable, and communicated well...
 ---
 

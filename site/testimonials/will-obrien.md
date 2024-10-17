@@ -6,8 +6,6 @@ description: Read testimonial by Will O'Brien in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: cs_zg7xpc
-logo: cs_zg7xpc
 avatar: wo_s4ocq4
 date: 2021-04-20
 position: DevOps Consultant
@@ -16,29 +14,30 @@ projects:
   - CodeScan
 sections:
   - type: hero-testimonial
-    src: cs_zg7xpc
-    alt: Logo of CodeScan.
-    width: 219
-    height: 64
-    avatar: wo_s4ocq4
+    avatar:
+      src: wo_s4ocq4
+      alt: Will O'Brien avatar.
+      width: 140
+      height: 140
     title: Will O'Brien
-    desc: DevOps Consultant at CodeScan
+    text: DevOps Consultant at CodeScan
 sections2:
   - type: banner
     banner: codescan
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile...
 ---
 

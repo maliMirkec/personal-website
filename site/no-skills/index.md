@@ -8,7 +8,7 @@ sections:
   - type: hero-alpha
     title: I am a frontend user interface developer.
     desc: >-
-      I specialize in developing websites.
+      I specialize in developing websites
 sections2:
   - type: banner-alpha
     banner: consultation

@@ -7,7 +7,7 @@ sections:
   - type: hero-alpha
     title: Any kind of advertisement is unacceptable.
     desc: >-
-      However, other forms of collaboration are more than welcome.
+      However, other forms of collaboration are more than welcome
 sections2:
   - type: banner-alpha
     banner: consultation

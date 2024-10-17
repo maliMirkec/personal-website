@@ -6,8 +6,6 @@ description: Read testimonial by Cory Schmidt in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
-logo: wm_ysj8e4
 avatar: cs_tru73j
 date: 2022-09-08
 position: Chief Revenue Officer
@@ -17,29 +15,30 @@ projects:
   - Heyflow
 sections:
   - type: hero-testimonial
-    src: wm_ysj8e4
-    alt: Logo of Wunder Mobility.
-    width: 236
-    height: 30
-    avatar: cs_tru73j
+    avatar:
+      src: cs_tru73j
+      alt: Cory Schmidt avatar.
+      width: 140
+      height: 140
     title: Cory Schmidt
-    desc: Chief Revenue Officer at Wunder Mobility.
+    text: Chief Revenue Officer at Wunder Mobility
 sections2:
   - type: banner
     banner: wunder-mobility
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 

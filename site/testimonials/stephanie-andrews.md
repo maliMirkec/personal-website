@@ -6,8 +6,6 @@ description: Read testimonial by Stephanie (Annie) Andrews in which she talks ab
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: sa_mmdbrl
 date: 2021-10-01
 position: Senior Lifecycle Marketing Manager
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: sa_mmdbrl
+    avatar:
+      src: sa_mmdbrl
+      alt: Stephanie (Annie) Andrews avatar.
+      width: 140
+      height: 140
     title: Stephanie (Annie) Andrews
-    desc: Senior Lifecycle Marketing Manager at Domino Data Lab.
+    text: Senior Lifecycle Marketing Manager at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar did a great job keeping up with all of the web updates we needed in a very timely fashion...
 ---
 

@@ -6,8 +6,6 @@ description: Read testimonial by Theresa Kneißle in which he talks about his po
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
-logo: ww_pm2rwy
 avatar: tk_h1maa2
 date: 2023-12-15
 position: Product Manager eCommerce
@@ -16,29 +14,30 @@ projects:
   - Westwing
 sections:
   - type: hero-testimonial
-    src: ww_pm2rwy
-    alt: Logo of Westwing.
-    width: 219
-    height: 30
-    avatar: tk_h1maa2
+    avatar:
+      src: tk_h1maa2
+      alt: Theresa Kneißle avatar.
+      width: 140
+      height: 140
     title: Theresa Kneißle
-    desc: Team Lead Talent Acquisition at Westwing Home & Living
+    text: Team Lead Talent Acquisition at Westwing Home & Living
 sections2:
   - type: banner
     banner: westwing
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation22
 excerpt: Excited to have worked alongside Silvestar during our implementation of a new ATS...
 ---
 

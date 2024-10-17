@@ -6,8 +6,6 @@ description: Read testimonial by Edo Liberty in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: pc_h99bkn
-logo: pinecone-logo_ybycgg
 avatar: el2_ptyk3k
 order: 400
 date: 2021-01-28
@@ -17,29 +15,30 @@ projects:
   - Pinecone
 sections:
   - type: hero-testimonial
-    src: pinecone-logo_ybycgg
-    alt: Logo of Pinecone.
-    width: 128
-    height: 27
-    avatar: el2_ptyk3k
+    avatar:
+      src: el2_ptyk3k
+      alt: Edo Liberty avatar.
+      width: 140
+      height: 140
     title: Edo Liberty
-    desc: Founder, CEO, Scientist at Pinecone.
+    teyt: Founder, CEO, Scientist at Pinecone
 sections2:
   - type: banner
     banner: pinecone
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 

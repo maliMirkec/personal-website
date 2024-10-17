@@ -6,8 +6,6 @@ description: Read testimonial by Aditya Shah in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: as_roazni
 date: 2021-09-29
 position: MarketingOps Leader
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: as_roazni
+    avatar:
+      src: as_roazni
+      alt: Aditya Shah avatar.
+      width: 140
+      height: 140
     title: Aditya Shah
-    desc: MarketingOps Leader at Domino Data Lab.
+    text: MarketingOps Leader at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was an outstanding collaborator, supremely dependable doer...
 ---
 

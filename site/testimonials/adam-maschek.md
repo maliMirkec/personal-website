@@ -6,8 +6,6 @@ description: Read testimonial by Adam Maschek in which he talks about his positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
-logo: ww_pm2rwy
 avatar: am_zanda5
 date: 2018-08-06
 position: CTO
@@ -16,29 +14,30 @@ projects:
   - Westwing
 sections:
   - type: hero-testimonial
-    src: ww_pm2rwy
-    alt: Logo of Westwing.
-    width: 219
-    height: 30
-    avatar: am_zanda5
+    avatar:
+      src: am_zanda5
+      alt: Adam Maschek avatar.
+      width: 140
+      height: 140
     title: Adam Maschek
-    desc: CTO at Westwing Home & Living
+    text: CTO at Westwing Home & Living
 sections2:
   - type: banner
     banner: westwing
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: It was a pleasure to work with Silvestar. He delivered the project on time with good quality...
 ---
 

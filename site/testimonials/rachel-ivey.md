@@ -6,8 +6,6 @@ description: Read testimonial by Rachel Ivey in which she talks about her positi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
-logo: ww_pm2rwy
 avatar: ri_bekodu
 date: 2020-04-28
 position: Product Manager
@@ -16,29 +14,30 @@ projects:
   - Westwing
 sections:
   - type: hero-testimonial
-    src: ww_pm2rwy
-    alt: Logo of Westwing.
-    width: 219
-    height: 30
-    avatar: ri_bekodu
+    avatar:
+      src: ri_bekodu
+      alt: Rachel Ivey avatar.
+      width: 140
+      height: 140
     title: Rachel Ivey
-    desc: Product Manager at Westwing Home & Living
+    text: Product Manager at Westwing Home & Living
 sections2:
   - type: banner
     banner: westwing
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was extremely professional, capable, responsive, and very pleasant to work with...
 ---
 

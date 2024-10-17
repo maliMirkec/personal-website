@@ -54,7 +54,7 @@ sections3:
       - **How much revenue do you have? What’s your goal?**
 
 
-        Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it.
+        Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it
 sections2:
   - type: banner-beta
     banner: newsletter

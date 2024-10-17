@@ -38,7 +38,7 @@
               {%- if card.data.publication -%}
                 <span class="box__tag box__tag--alpha">{{ card.data.publication }}</span>
               {%- endif -%}
-              {%- if card.data.tags -%}
+              {%- if card.data.tags and true == false -%}
                 {%- for tag in card.data.tags -%}
                   {%- unless tag == 'blog' -%}
                     <a href="/tags/{{ tag | slugify }}" class="box__anchor box__tag box__tag--beta">{{ tag }}</a>

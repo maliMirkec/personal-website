@@ -6,8 +6,6 @@ description: Read testimonial by Bob Laurent in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: bl_krlunh
 date: 2020-10-18
 position: Sr. Director of Product Marketing
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: bl_krlunh
+    avatar:
+      src: bl_krlunh
+      alt: Bob Laurent avatar.
+      width: 140
+      height: 140
     title: Bob Laurent
-    desc: Sr. Director of Product Marketing at Domino Data Lab.
+    text: Sr. Director of Product Marketing at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar is a highly talented web developer that I was fortunate enough to work with...
 ---
 

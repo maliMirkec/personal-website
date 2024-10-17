@@ -6,8 +6,6 @@ description: Read testimonial by Karim Mansi in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
-logo: ww_pm2rwy
 avatar: km_ivecgh
 date: 2018-08-06
 position: eCommerce Product Manager
@@ -16,29 +14,30 @@ projects:
   - Westwing
 sections:
   - type: hero-testimonial
-    src: ww_pm2rwy
-    alt: Logo of Westwing.
-    width: 219
-    height: 30
-    avatar: km_ivecgh
+    avatar:
+      src: km_ivecgh
+      alt: Karim Mansi avatar.
+      width: 140
+      height: 140
     title: Karim Mansi
-    desc: eCommerce Product Manager at Westwing Home & Living
+    text: eCommerce Product Manager at Westwing Home & Living
 sections2:
   - type: banner
     banner: westwing
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Communication with Silvestar was straightforward, clear and reliable. He was...
 ---
 

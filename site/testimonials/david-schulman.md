@@ -6,8 +6,6 @@ description: Read testimonial by David Schulman in which he talks about his posi
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: ds_ste3yw
 date: 2020-10-01
 position: Senior Manager of Partner Marketing
@@ -18,32 +16,33 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: ds_ste3yw
+    avatar:
+      src: ds_ste3yw
+      alt: David Schulman avatar.
+      width: 140
+      height: 140
     title: David Schulman
-    desc: Senior Manager of Partner Marketing at Domino Data Lab.
+    text: Senior Manager of Partner Marketing at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was INSTRUMENTAL in some of my first big wins...
 ---
 
-> I worked with Silvestar for when I first started at Domino Data Lab, he was INSTRUMENTAL in some of my first big wins as Head of Partner Marketing, including launching the Domino Partner Network - a massive milestone for us!
+> I worked with Silvestar for when I first started at Domino Data Lab, he was instrumental in some of my first big wins as Head of Partner Marketing, including launching the Domino Partner Network - a massive milestone for us!
 >
-> Silvestar is detail-oriented, extremely responsive, and VERY CREATIVE with bringing solutions to work around dependencies and constraints. I have no doubts that Silvestar will be a KEY RESOURCE for any organization he joins!
+> Silvestar is detail-oriented, extremely responsive, and very creative with bringing solutions to work around dependencies and constraints. I have no doubts that Silvestar will be a key resource for any organization he joins!

@@ -6,7 +6,6 @@ description: Read testimonial by Devran Taskesen in which she talks about her po
 tags:
   - testimonials
 type: testimonials-item
-logo: wm_ysj8e4
 avatar: dt_kr9cmb
 date: 2023-08-14
 position: Brand/Visual Designer
@@ -15,26 +14,30 @@ projects:
   - Wunder Mobility
 sections:
   - type: hero-testimonial
-    src: wm_ysj8e4
-    alt: Logo of Wunder Mobility.
-    width: 236
-    height: 30
-    avatar: dt_kr9cmb
+    avatar:
+      src: dt_kr9cmb
+      alt: Devran Taskesen avatar.
+      width: 140
+      height: 140
     title: Devran Taskesen
-    desc: Brand/Visual Designer at Wunder Mobility.
+    text: Brand/Visual Designer at Wunder Mobility
 sections2:
   - type: banner
     banner: wunder-mobility
   - type: testimonial-list
     color: delta
     title: More testimonials
-    href: /testimonials/
     filter: testimonials
     limit: 6
     random: true
     exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Working with Silvestar on various web projects was an absolute pleasure! He always found...
 ---
 

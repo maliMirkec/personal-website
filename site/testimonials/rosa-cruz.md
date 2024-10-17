@@ -6,8 +6,6 @@ description: Read testimonial by Rosa Cruz in which she talks about her positive
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: wm_wh4yse
-logo: wm_ysj8e4
 avatar: rc_iahbe8
 date: 2023-01-12
 position: Marketing manager
@@ -16,29 +14,30 @@ projects:
   - Wunder Mobility
 sections:
   - type: hero-testimonial
-    src: wm_ysj8e4
-    alt: Logo of Wunder Mobility.
-    width: 236
-    height: 30
-    avatar: rc_iahbe8
+    avatar:
+      src: rc_iahbe8
+      alt: Rosa Cruz avatar.
+      width: 140
+      height: 140
     title: Rosa Cruz
-    desc: Marketing manager at Wunder Mobility.
+    text: Marketing manager at Wunder Mobility
 sections2:
   - type: banner
     banner: wunder-mobility
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar demonstrated to be one of the most talented, efficient, motivated, and...
 ---
 

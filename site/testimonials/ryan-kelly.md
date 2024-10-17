@@ -6,8 +6,6 @@ description: Read testimonial by Ryan Kelly in which he talks about his positive
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ddl_mypfrt
-logo: ddl_rj0jfd
 avatar: rk_vbck3b
 date: 2020-10-04
 position: Vice President Growth Marketing
@@ -18,29 +16,30 @@ projects:
   - Domino Data Lab Rev
 sections:
   - type: hero-testimonial
-    src: ddl_rj0jfd
-    alt: Logo of Domino Data Lab.
-    width: 128
-    height: 40
-    avatar: rk_vbck3b
+    avatar:
+      src: rk_vbck3b
+      alt: Ryan Kelly avatar.
+      width: 140
+      height: 140
     title: Ryan Kelly
-    desc: Vice President Growth Marketing at Domino Data Lab.
+    text: Vice President Growth Marketing at Domino Data Lab
 sections2:
   - type: banner
     banner: dominodatalab
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was always responsive, proactive, and his work product was top-notch...
 ---
 

@@ -6,7 +6,6 @@ description: Read testimonial by Han Han Xue in which he talks about his positiv
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: hhx_p45br6
 avatar: hhx_iu8agl
 date: 2018-03-17
 position: Product Designer
@@ -15,25 +14,30 @@ projects:
   - Han Han Xue website
 sections:
   - type: hero-testimonial
-    avatar: hhx_iu8agl
+    avatar:
+      src: hhx_iu8agl
+      alt: Han Han Xue avatar.
+      width: 140
+      height: 140
     title: Han Han Xue
-    desc: Product Designer at Lyft
+    text: Product Designer at Lyft
 sections2:
   - type: banner
     banner: hanhanxue
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 

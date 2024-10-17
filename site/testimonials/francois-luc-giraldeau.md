@@ -6,7 +6,6 @@ description: Read testimonial by François-Luc Giraldeau in which she talks abou
 tags:
   - testimonials
 type: testimonials-item
-logo: ab_vvxzwu.svg
 avatar: flg_ynumsc
 date: 2024-02-11
 position: Founder
@@ -15,26 +14,30 @@ projects:
   - Approximately Blue
 sections:
   - type: hero-testimonial
-    src: ab_vvxzwu.svg
-    alt: Logo of Approximately Blue.
-    width: 236
-    height: 30
-    avatar: flg_ynumsc
+    avatar:
+      src: flg_ynumsc
+      alt: François-Luc Giraldeau avatar.
+      width: 140
+      height: 140
     title: François-Luc Giraldeau
-    desc: Founder at Approximately Blue.
+    text: Founder at Approximately Blue
 sections2:
   - type: banner
     banner: approx-blue
   - type: testimonial-list
     color: delta
     title: More testimonials
-    href: /testimonials/
     filter: testimonials
     limit: 6
     random: true
     exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: My partner and I teamed up with Silvestar this year. The work he did was top-notch...
 ---
 

@@ -6,8 +6,6 @@ description: Read testimonial by Denise Weidlich in which he talks about his pos
 tags:
   - testimonials
 type: testimonials-item
-projectThumbnail: ww_hceizq
-logo: ww_pm2rwy
 avatar: dw_wbnba8
 date: 2023-03-06
 position: Product Manager eCommerce
@@ -16,29 +14,30 @@ projects:
   - Westwing
 sections:
   - type: hero-testimonial
-    src: ww_pm2rwy
-    alt: Logo of Westwing.
-    width: 219
-    height: 30
-    avatar: dw_wbnba8
+    avatar:
+      src: dw_wbnba8
+      alt: Denise Weidlich avatar.
+      width: 140
+      height: 140
     title: Denise Weidlich
-    desc: Product Manager eCommerce at Westwing Home & Living
+    text: Product Manager eCommerce at Westwing Home & Living
 sections2:
   - type: banner
     banner: westwing
-  - type: hero-testimonial
-    title: More testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
   - type: testimonial-list
-    cta:
-      title: Read the testimonial
+    color: delta
+    title: More testimonials
     filter: testimonials
-    exclude: true
     limit: 6
     random: true
+    exclude: true
+    cta:
+      href: /testimonials/
+      title: All testimonials
+      modifiers:
+        - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 excerpt: It was a pleasure to work with Silvestar. The collaboration between us during our...
 ---
 
