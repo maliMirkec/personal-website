@@ -27,7 +27,7 @@ sections2:
     banner: wunder-mobility
   - type: testimonial-list
     color: delta
-    title: Testimonials →
+    title: More testimonials
     href: /testimonials/
     filter: testimonials
     limit: 6
