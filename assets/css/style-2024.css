@@ -576,6 +576,7 @@ body {
   }
 
   .main {
+    grid-template-columns: min(90vw, var(--main)) 1fr;
     padding: var(--size-30-60);
     position: relative;
   }
@@ -590,15 +591,12 @@ body {
     z-index: -1;
   }
 
-  .page--home .main {
-    grid-template-columns: min(90vw, var(--main)) 1fr;
-  }
-
   .box__grid--beta {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
-  .banner--alpha {
+  .banner--alpha,
+  body:not(.page--home) .banner--beta {
     grid-column: 2;
     position: sticky;
     inset-block-start: var(--size-20-40);

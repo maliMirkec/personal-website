@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Aditya Shah
 titlePrefix: "Testimional by "
 description: Read testimonial by Aditya Shah in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -17,7 +17,7 @@ projects:
   - Domino Data Lab Pop-up
   - Domino Data Lab Rev
 sections:
-  - type: hero-alpha
+  - type: hero-testimonial
     src: ddl_rj0jfd
     alt: Logo of Domino Data Lab.
     width: 128
@@ -26,22 +26,21 @@ sections:
     title: Aditya Shah
     desc: MarketingOps Leader at Domino Data Lab.
 sections2:
-  - type: banner-beta
+  - type: banner
     banner: dominodatalab
-  - type: hero-beta
-    title: From Testimonials
+  - type: hero-testimonial
+    title: More testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
+  - type: testimonial-list
     cta:
       title: Read the testimonial
     filter: testimonials
     exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar was an outstanding collaborator, supremely dependable doer...
 ---
 

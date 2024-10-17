@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Devran Taskesen
 titlePrefix: "Testimional by "
 description: Read testimonial by Devran Taskesen in which she talks about her positive experience in working with Silvestar Bistrović.
@@ -14,7 +14,7 @@ company: Wunder Mobility
 projects:
   - Wunder Mobility
 sections:
-  - type: hero
+  - type: hero-testimonial
     src: wm_ysj8e4
     alt: Logo of Wunder Mobility.
     width: 236
@@ -23,7 +23,7 @@ sections:
     title: Devran Taskesen
     desc: Brand/Visual Designer at Wunder Mobility.
 sections2:
-  - type: note
+  - type: banner
     banner: wunder-mobility
   - type: testimonial-list
     color: delta

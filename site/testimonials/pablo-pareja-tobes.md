@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Pablo Pareja Tobes
 titlePrefix: "Testimional by "
 description: Read testimonial by Pablo Pareja Tobes in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -15,7 +15,7 @@ company: Vizzuality
 projects:
   - Trase Yearbook 2018
 sections:
-  - type: hero-alpha
+  - type: hero-testimonial
     src: yt_iyy37j
     alt: Logo of Vizzuality.
     width: 212
@@ -24,22 +24,21 @@ sections:
     title: Pablo Pareja Tobes
     desc: Project Manager at Vizzuality
 sections2:
-  - type: banner-beta
+  - type: banner
     banner: yearbook-trase
-  - type: hero-beta
-    title: From Testimonials
+  - type: hero-testimonial
+    title: More testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
+  - type: testimonial-list
     cta:
       title: Read the testimonial
     filter: testimonials
     exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar was professional and had a very good attitude during all time...
 ---
 

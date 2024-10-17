@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: François-Luc Giraldeau
 titlePrefix: "Testimional by "
 description: Read testimonial by François-Luc Giraldeau in which she talks about her positive experience in working with Silvestar Bistrović.
@@ -14,7 +14,7 @@ company: Approximately Blue
 projects:
   - Approximately Blue
 sections:
-  - type: hero
+  - type: hero-testimonial
     src: ab_vvxzwu.svg
     alt: Logo of Approximately Blue.
     width: 236
@@ -23,7 +23,7 @@ sections:
     title: François-Luc Giraldeau
     desc: Founder at Approximately Blue.
 sections2:
-  - type: note
+  - type: banner
     banner: approx-blue
   - type: testimonial-list
     color: delta

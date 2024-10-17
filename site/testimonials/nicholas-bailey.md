@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Nicholas Bailey
 titlePrefix: "Testimional by "
 description: Read testimonial by Nicholas Bailey in which she talks about her positive experience in working with Silvestar Bistrović.
@@ -14,7 +14,7 @@ company: Spartan Precision Equipment
 projects:
   - Spartan Precision Equipment
 sections:
-  - type: hero
+  - type: hero-testimonial
     src: spe_u2xgvi
     alt: Logo of Spartan Precision Equipment.
     width: 40
@@ -23,7 +23,7 @@ sections:
     title: Nicholas Bailey
     desc: Digital Media Manager at Spartan Precision Equipment.
 sections2:
-  - type: note
+  - type: banner
     banner: javelin-bipod
   - type: testimonial-list
     color: delta

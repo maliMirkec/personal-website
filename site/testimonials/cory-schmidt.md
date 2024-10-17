@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Cory Schmidt
 titlePrefix: "Testimional by "
 description: Read testimonial by Cory Schmidt in which he talks about his positive experience in working with Silvestar Bistrović.
@@ -16,7 +16,7 @@ projects:
   - Wunder Mobility
   - Heyflow
 sections:
-  - type: hero-alpha
+  - type: hero-testimonial
     src: wm_ysj8e4
     alt: Logo of Wunder Mobility.
     width: 236
@@ -25,22 +25,21 @@ sections:
     title: Cory Schmidt
     desc: Chief Revenue Officer at Wunder Mobility.
 sections2:
-  - type: banner-beta
+  - type: banner
     banner: wunder-mobility
-  - type: hero-beta
-    title: From Testimonials
+  - type: hero-testimonial
+    title: More testimonials
     desc: >-
       Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
+  - type: testimonial-list
     cta:
       title: Read the testimonial
     filter: testimonials
     exclude: true
     limit: 6
     random: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 
