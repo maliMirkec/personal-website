@@ -1,0 +1,34 @@
+{%- assign lang = "en" -%}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include _partials/_2024/_general/head %}
+  <body class="page--{{ title | slugify }}">
+    <div class="wrapper">
+      {% include _partials/_2024/header %}
+      <main class="main" id="main">
+        {% block content %}
+          {% if sections %}
+            {% for section in sections %}
+              {% include _partials/_2024/sections %}
+            {% endfor %}
+          {% endif %}
+          {% if content != blank and content != '' %}
+            {% include _partials/_2024/content-alpha %}
+          {% endif %}
+          {% if sections2 %}
+            {% for section in sections2 %}
+              {% include _partials/_2024/sections %}
+            {% endfor %}
+          {% endif %}
+        {% endblock %}
+        {% include _partials/_2024/lastfm %}
+      </main>
+      {% comment %} {% include _partials/_2024/aside %} {% endcomment %}
+      {% include _partials/_2024/footer %}
+      {% include _partials/_2024/_assets/style %}
+      {% include _partials/_2024/_assets/scripts %}
+      {% include _partials/_2024/_assets/analytics %}
+    </div>
+  </body>
+</html>

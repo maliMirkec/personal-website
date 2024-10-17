@@ -1,0 +1,10 @@
+{%- liquid
+  assign cta_class = 'cta'
+  if cta.modifiers
+    for modifier in cta.modifiers
+      assign cta_class = cta_class | append: ' cta--' | append: modifier
+    endfor
+  endif
+-%}
+
+<a class="{{ cta_class }}" href="{{ cta.href }}">{{ cta.title }}</a>

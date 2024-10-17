@@ -13,5 +13,6 @@
   "analytics": false,
   "lastfm": true,
   "animate": false,
-  "delimiter": " ✣ "
+  "delimiter": " ✣ ",
+  "established": 2016
 }

@@ -1,0 +1,16 @@
+{% assign loadCritical = type | criticalExists %}
+<head>
+  {% include _partials/_2024/_head/meta-required %}
+  {% include _partials/_2024/_head/preconnect %}
+  {% unless devcards %}
+    {% include _partials/_2024/_general/toggle-check %}
+  {% endunless %}
+  {% include _partials/_2024/_assets/critical %}
+  {% include _partials/_2024/_head/preload %}
+  {% if env.staging and type == "home" %}
+    {% include _partials/_2024/_head/netlify %}
+  {% endif %}
+  {% include _partials/_2024/_head/meta-other %}
+  {% include _partials/_2024/_assets/favicon %}
+  {% include _partials/_2024/_head/og %}
+</head>

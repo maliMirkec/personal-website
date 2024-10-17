@@ -11,8 +11,7 @@
     "desc": "Over **20 professionals** from several companies vouched for me.",
     "cta": {
       "href": "/testimonials/",
-      "title": " See all testimonials",
-      "animate": true
+      "title": " See all testimonials"
     }
   },
   "freelance": {
@@ -47,81 +46,86 @@
     "desc": "I rebuild the whole site for CodeScan using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/codescan/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
+    }
+  },
+  "javelin-bipod": {
+    "desc": "I've revamped a few **Shopify** templates, including homepage and PDP templates.",
+    "cta": {
+      "href": "/portfolio/javelin-bipod/",
+      "title": "See the project"
+    }
+  },
+  "approx-blue": {
+    "desc": "I've built the entire site with **Eleventy** and **Contentful**.",
+    "cta": {
+      "href": "/portfolio/approx-blue/",
+      "title": "See the project"
     }
   },
   "dominodatalab": {
     "desc": "I helped migrate Domino Data Lab site from **Jekyll** to **HubSpot CMS**.",
     "cta": {
       "href": "/portfolio/dominodatalab/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "wunder-mobility": {
     "desc": "I helped rebuild the whole Wunder Mobility site using **Jekyll** and **Contentful**.",
     "cta": {
       "href": "/portfolio/wundermobility/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "westwing": {
-    "desc": "I build the whole site for Westwing using the **Hugo framework**.",
+    "desc": "I built the whole site for Westwing using the **Hugo framework**.",
     "cta": {
       "href": "/portfolio/westwing/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "pinecone": {
     "desc": "I built a site for Pinecone, powered by **Hugo**, “the world’s fastest framework.”",
     "cta": {
       "href": "/portfolio/pinecone/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "bozzuto": {
     "desc": "I developed a library of **reusable UI components** for Bozzuto.",
     "cta": {
       "href": "/portfolio/bozzuto/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "creditcardinsider": {
     "desc": "I built the **WordPress theme** for the Credit Card Insider website.",
     "cta": {
       "href": "/portfolio/creditcardinsider/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "hanhanxue": {
-    "desc": "I built the whole site for Han Han Xue using the **Middleman framework**?",
+    "desc": "I built the whole site for Han Han Xue using the **Middleman framework**.",
     "cta": {
       "href": "/portfolio/hanhanxue/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "yearbook-trase": {
-    "desc": "I built the **WordPress template** for the Trase Yearbook 2018?",
+    "desc": "I built the **WordPress template** for the Trase Yearbook 2018.",
     "cta": {
       "href": "/portfolio/yearbook-trase/",
-      "title": "See the project",
-      "animate": true
+      "title": "See the project"
     }
   },
   "consultation": {
     "title": "Get professional web development advice",
-    "desc": "I specialize in technologies related to frontend, user interface, and website development.",
+    "desc": "I specialize in technologies related to frontend, user interface, and website development. In other words, I'm building website for everyone.",
     "cta": {
       "href": "/contact/",
       "title": "Get in touch",
-      "animate": true
+      "modifiers": ["inverse"]
     }
   },
   "services": {
@@ -129,8 +133,7 @@
     "desc": "I specialize in technologies related to frontend, user interface, and website development.",
     "cta": {
       "href": "/services/",
-      "title": "Explore all services",
-      "animate": "true"
+      "title": "Explore all services"
     }
   }
 }

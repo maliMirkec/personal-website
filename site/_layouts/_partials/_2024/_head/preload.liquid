@@ -1,0 +1,20 @@
+{% if env.production or env.staging %}
+  {% if loadCritical %}
+    {% if isMentor %}
+      <link rel="preload" href="/css/mentor.min.css" as="style">
+    {% elsif isRibbons %}
+      <link rel="preload" href="/css/ribbons.min.css" as="style">
+    {% elsif isSlides %}
+      <link rel="preload" href="/css/slides.min.css" as="style">
+    {% elsif is360 %}
+      <link rel="preload" href="/css/devcards.min.css" as="style">
+    {% elsif isHexo %}
+      <link rel="preload" href="/css/hexo.min.css" as="style">
+    {% else %}
+      <link rel="preload" href="/css/style-2024.css" as="style">
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% if env.staging and type == "home" %}
+  <link rel="preload" href="https://identity.netlify.com/v1/netlify-identity-widget.js" as="script">
+{% endif %}

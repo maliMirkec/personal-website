@@ -1,0 +1,22 @@
+{% if header %}
+  <header class="header">
+    <nav aria-label="Main">
+      <ul class="header__list">
+        {% if header2024.logo %}
+          <li class="header__item header__item--alpha">
+            <a class="header__link header__link--alpha" href="{{ header2024.logo.href }}">
+              {% cldnry header2024.logo.src header2024.logo.alt header2024.logo.width header2024.logo.height false %}
+            </a>
+          </li>
+        {% endif %}
+        {% if header2024.menu %}
+          {% for item in header2024.menu %}
+            <li class="header__item">
+              <a class="header__link header__link--beta" href="{{ item.href }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </nav>
+  </header>
+{% endif %}

@@ -1,0 +1,60 @@
+{
+  "logo": {
+    "href": "/",
+    "src": "Logo_SB_043A73_DDEDFE_s3ppvr.svg",
+    "alt": "Home",
+    "height": 100,
+    "width": 100
+  },
+  "github": {
+    "name": "GitHub",
+    "text": "The site is available on",
+    "href": "https://github.com/maliMirkec/personal-website/"
+  },
+  "menu": [{
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Newsletter"
+  }, {
+    "href": "/services/",
+    "title": "Services"
+  }, {
+    "href": "/testimonials/",
+    "title": "Testimonials"
+  }, {
+    "href": "/side-projects/",
+    "title": "Side projects"
+  }, {
+    "href": "/links/",
+    "title": "Links"
+  }, {
+    "href": "/favorites/",
+    "title": "Favorites"
+  }, {
+    "href": "/uses/",
+    "title": "Setup"
+  }, {
+    "href": "/slides/",
+    "title": "Slides"
+  }, {
+    "href": "/rss.xml",
+    "title": "Feed"
+  }],
+  "social": [{
+    "href": "https://www.linkedin.com/in/starbist/",
+    "title": "LinkedIn"
+  }, {
+    "href": "https://twitter.com/malimirkeccita",
+    "title": "X (Twitter)"
+  }, {
+    "href": "https://mastodon.social/@cita",
+    "title": "Mastodon",
+    "rel": "me"
+  }, {
+    "href": "https://github.com/maliMirkec",
+    "title": "GitHub",
+    "rel": "me"
+  }, {
+    "href": "https://codepen.io/CiTA/",
+    "title": "CodePen"
+  }]
+}

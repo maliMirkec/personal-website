@@ -1,0 +1,34 @@
+{% if ogTitlePrefix %}
+  {% assign ogImageTitle = ogTitlePrefix | append: title %}
+{% endif %}
+
+{% if descriptionPrefix and thisRead.description %}
+  {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
+{% elsif descriptionPrefixAlt and pageNumber %}
+  {% assign description = descriptionPrefixAlt | append: ' #' | append: pageNumber | append: '.'  %}
+{% endif %}
+
+<meta name="referrer" content="no-referrer">
+{% if tags and tags[0] == 'blog' and site.author %}
+  <meta name="author" content="{{ site.author }}">
+{% endif %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}">
+{% elsif description %}
+  <meta name="description" content="{{ description | escape }}">
+{% endif %}
+{% if noindex %}
+  <meta name="robots" content="noindex,nofollow">
+{% endif %}
+
+<meta name="view-transition" content="same-origin">
+
+{% if canonical %}
+  <link rel="canonical" href="{{ canonical }}">
+{% elsif page.url %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% endif %}
+
+{% if type == "home" %}
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
+{% endif %}

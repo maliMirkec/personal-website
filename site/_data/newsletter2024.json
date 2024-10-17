@@ -1,0 +1,77 @@
+{
+  "title": "UI Dev Newsletter",
+  "tagline": "Stay ahead of the latest UI Dev news",
+  "description": "Every second Monday, get a shiny list of up to ten free links to stay ahead in the evolving world of User Interface development!",
+  "rss_text": "No spam, only quality content. Trusted by more than 800 subscribers.<br>Don't like newsletters? <a href=\"/rss2.xml\">Subscribe to RSS feed instead</a>.",
+  "author": {
+    "href": "/",
+    "title": "Silvestar Bistrović"
+  },
+  "logo1": {
+    "href": "/side-projects/ui-dev-newsletter/",
+    "src": "UI_Dev_FF3366_efcpho.svg",
+    "alt": "UI Dev Newsletter."
+  },
+  "logo2": {
+    "href": "/",
+    "src": "/gfx/svg/logo-SB-000-12E09F.svg",
+    "alt": "Silvestar Bistrović."
+  },
+  "quotes": [{
+    "name": "Eric Bailey",
+    "avatar": "ewb_n0evno",
+    "links": [{
+      "name": "Website",
+      "href": "https://ericwbailey.website/"
+    }, {
+      "name": "Mastodon",
+      "href": "https://social.ericwbailey.website/@eric"
+    }, {
+      "name": "Twitter",
+      "href": "https://twitter.com/ericwbailey"
+    }],
+    "position": "Inclusive design advocate, maintainer of the A11y Project",
+    "text": "I’m a big fan of Silvestar’s UI Dev Newsletter. It has a thoughtfully-curated mix of blog posts that are essential to staying on top of all the industry news. I’d enthusiastically recommend subscribing if you’re a frontend-savvy designer or developer looking to learn from the best."
+  }, {
+    "name": "Manuel Matuzović",
+    "avatar": "mm_lprmjx",
+    "links": [{
+      "name": "Website",
+      "href": "https://www.matuzo.at/"
+    }, {
+      "name": "Mastodon",
+      "href": "https://mastodon.social/@matuzo@front-end.social"
+    }],
+    "position": "Frontend developer and consultant, creator of HTMHell",
+    "text": "Right now, I have 647 unread items in my RSS reader; it’s hard to keep track of what’s happening in the world of web development. I’m grateful for Silvestar’s UI Dev newsletter, which provides me with a hand-curated list of the most relevant posts twice a month."
+  }, {
+    "name": "Bart Veneman",
+    "avatar": "bv_w3vt1d",
+    "links": [{
+      "name": "Website",
+      "href": "https://www.veneman.dev/"
+    }, {
+      "name": "Twitter",
+      "href": "https://mastodon.social/@matuzo@front-end.social"
+    }],
+    "position": "Frontend architect, creator of Project Wallace",
+    "text": "This newsletter is what you would hope your timeline would be: the best articles from around the community summarized in a couple sentences."
+  }],
+  "menu": [{
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Subscribe",
+    "class": "fw-bold"
+  }, {
+    "href": "/side-projects/ui-dev-newsletter/archive/",
+    "title": "Archive"
+  }, {
+    "href": "/side-projects/ui-dev-newsletter/sponsorship/",
+    "title": "Sponsorship"
+  }, {
+    "href": "/side-projects/ui-dev-newsletter/contact/",
+    "title": "Feedback"
+  }, {
+    "href": "/rss2.xml",
+    "title": "Feed"
+  }]
+}

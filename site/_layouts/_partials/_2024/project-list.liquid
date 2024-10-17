@@ -1,0 +1,55 @@
+{%- assign list = collections[component.filter] | where: 'data.display', true | sort: "date" | reverse -%}
+{%- assign i1 = 1 -%}
+
+{%- if list -%}
+  <section class="box">
+    {%- if component.title -%}
+      <h2 class="box__title">{{ component.title }}</h2>
+    {%- endif -%}
+    <ul class="box__grid box__grid--alpha">
+      {%- for card in list -%}
+        {% liquid
+          assign now = 'now' | date: "%Y-%m-%d"
+          assign cardDate = card.data.date | date: "%Y-%m-%d"
+          if cardDate > now
+            continue
+          endif
+          if component.featured and card.data.featured != true
+            continue
+          endif
+          if component.exclude and card.url == page.url
+            continue
+          endif
+          if component.limit and i1 > component.limit
+            break
+          endif
+          assign i1 = i1 | plus: 1
+        %}
+        <li class="box__item">
+          <a class="box__anchor box__panel" href="{{ card.url }}">
+            {%- if card.data.thumbnail -%}
+              {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 400 242 %}
+            {%- endif -%}
+            {%- if card.data.title -%}
+              <h3 class="box__subtitle">
+                {{ card.data.title }}
+              </h3>
+            {%- endif -%}
+          </a>
+          {%- if card.data.tech -%}
+            <span class="box__tags">
+              {%- for tech in card.data.tech -%}
+                <a class="box__anchor box__tag" href="/tags/{{ tech | slugify }}">{{ tech }}</a>
+              {%- endfor -%}
+            </span>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include _partials/_2024/cta cta: component.cta -%}
+      </div>
+    {%- endif -%}
+  </section>
+{% endif %}

@@ -1,0 +1,24 @@
+{% if cards5.list %}
+  <section id="gallery" class="margin-top-beta margin-bottom-beta">
+    <div class="wrapper wrapper--alpha">
+      <div class="padding">
+        <p>Click on the image to enlarge it. Use left and right arrows to browse the gallery. Use ESC to close larger picture.</p>
+        <ul class="gallery js-favs" role="list">
+          {% for item in cards5.list %}
+            <li>
+              <button aria-expanded="false">
+                {% if cards5.instant and forloop.index < cards5.instant %}
+                  {% assign instantLoad = true %}
+                {% else %}
+                  {% assign instantLoad = false %}
+                {% endif %}
+                {% cldnry item.src item.title 500 500 '300:100vw;420:50vw:37.5em;400:33vw:58em;320:20vw:100em' instantLoad %}
+                <p class="ffss fz-step-0">{{ item.title }}</p>
+              </button>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+{% endif %}
