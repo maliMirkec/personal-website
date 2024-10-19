@@ -1,0 +1,29 @@
+{%- if cta[component.banner] -%}
+  <section class="banner banner--beta">
+    {%- if cta[component.banner].logo -%}
+      {%- assign logo = cta[component.banner].logo -%}
+      {%- if cta[component.banner].cta -%}
+        <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </a>
+      {%- else -%}
+        <div class="banner__logo">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+    {%- if cta[component.banner].stack -%}
+      <h2 class="banner__title">Tech stack</h2>
+      <ul class="banner__list">
+        {%- for stack in cta[component.banner].stack -%}
+          <li>{{ stack }}</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    {%- if cta[component.banner].cta2 -%}
+      <div class="banner__action">
+        {%- include _partials/_2024/cta cta: cta[component.banner].cta2 -%}
+      </div>
+    {%- endif -%}
+  </section>
+{%- endif -%}

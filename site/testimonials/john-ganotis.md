@@ -25,7 +25,6 @@ sections2:
   - type: banner
     banner: creditcardinsider
   - type: testimonial-list
-    color: delta
     title: More testimonials
     filter: testimonials
     limit: 6

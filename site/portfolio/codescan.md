@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: CodeScan
 description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //www.codescan.io
 display: true
-date: 2010-01-05
+date: 2021-08-01
 type: portfolio-item
+tech:
+  - hugo
 tags:
   - portfolio
   - spg
@@ -20,43 +22,34 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: codescan_hydjwq
-    alt: Screenshot of CodeScan website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: codescan_hydjwq
+      alt: Screenshot of CodeScan website.
+      width: 759
+      height: 459
     title: CodeScan
-    desc: >-
-      CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
-    subtitle: Responsibilities
-    desc2: >-
-      - Maintained frontend of the website.
-    cta:
-      href: //www.codescan.io
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+    text: CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
+    text_width: 60
+    text2: I'v maintained frontend of the website.
+    text2_width: 75
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: CodeScan
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: tech-stack
+    banner: codescan
+  - type: banner
     banner: consultation
-    animate: true
 ---

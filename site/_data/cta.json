@@ -59,6 +59,12 @@
       "alt": "CodeScan logo.",
       "width": 123,
       "height": 36
+    },
+    "stack": ["Jeykll", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.dominodatalab.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "javelin-bipod": {
@@ -73,6 +79,12 @@
       "alt": "Spartan Precision Equipment logo.",
       "width": 40,
       "height": 40
+    },
+    "stack": ["Shopify", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://javelinbipod.co.uk",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "approx-blue": {
@@ -87,6 +99,12 @@
       "alt": "Approximately Blue logo.",
       "width": 80,
       "height": 50
+    },
+    "stack": ["Eleventy", "Contentful", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://approx.blue",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "dominodatalab": {
@@ -101,6 +119,12 @@
       "alt": "Domino Data Lab logo.",
       "width": 96,
       "height": 30
+    },
+    "stack": ["Jeykll", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.dominodatalab.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "wunder-mobility": {
@@ -115,6 +139,12 @@
       "alt": "Wunder Mobility logo.",
       "width": 158,
       "height": 20
+    },
+    "stack": ["Jeykll", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.wundermobility.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "westwing": {
@@ -129,6 +159,12 @@
       "alt": "Westwing logo.",
       "width": 146,
       "height": 20
+    },
+    "stack": ["Hugo", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.westwing.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "pinecone": {
@@ -143,6 +179,12 @@
       "alt": "Pinecone logo.",
       "width": 128,
       "height": 27
+    },
+    "stack": ["Hugo", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.pinecone.io",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "bozzuto": {
@@ -157,8 +199,13 @@
       "alt": "BEAM Interactive logo.",
       "width": 129,
       "height": 20
+    },
+    "stack": ["WordPress", "PHP", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.bozzuto.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
-
   },
   "creditcardinsider": {
     "desc": "I built the WordPress theme for the Credit Card Insider website.",
@@ -172,6 +219,12 @@
       "alt": "Credit Card Insider logo.",
       "width": 120,
       "height": 30
+    },
+    "stack": ["WordPress", "PHP", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "hanhanxue": {
@@ -186,6 +239,12 @@
       "alt": "Han Han Xue logo.",
       "width": 30,
       "height": 30
+    },
+    "stack": ["Middleman", "ERB", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://www.hanhanxue.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "yearbook-trase": {
@@ -200,6 +259,12 @@
       "alt": "Vizzuality logo.",
       "width": 106,
       "height": 20
+    },
+    "stack": ["WordPress", "PHP", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
     }
   },
   "consultation": {

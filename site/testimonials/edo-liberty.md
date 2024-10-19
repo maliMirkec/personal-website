@@ -26,7 +26,6 @@ sections2:
   - type: banner
     banner: pinecone
   - type: testimonial-list
-    color: delta
     title: More testimonials
     filter: testimonials
     limit: 6

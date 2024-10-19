@@ -1,0 +1,67 @@
+{%- assign list = collections[component.filter] | where: 'data.company', component.company -%}
+{%- assign i1 = 1 -%}
+
+{% if component.random %}
+  {% assign list = list | randomItems %}
+{% else %}
+  {% assign list = list | sort: 'data.date' | reverse %}
+{% endif %}
+
+{%- if list -%}
+  <section class="box">
+    {%- if component.title -%}
+      <h2 class="box__title">{{ component.title }}</h2>
+    {%- endif -%}
+    <ul class="box__grid box__grid--beta">
+      {%- for card in list -%}
+        {% liquid
+          assign now = 'now' | date: "%Y-%m-%d"
+          assign cardDate = card.data.date | date: "%Y-%m-%d"
+          if cardDate > now
+            continue
+          endif
+          if component.limit and i1 > component.limit
+            break
+          endif
+          if component.exclude
+            assign tags = card.data.tags | join: ', '
+            if tags contains component.exclude
+              continue
+            endif
+          endif
+        %}
+        {%- unless component.exclude and page.url == card.url -%}
+          <li class="box__item">
+            <a class="box__link box__person" href="{{ card.url }}">
+              {%- if card.data.avatar -%}
+                <span class="box__avatar">
+                  {% cldnry card.data.avatar card.data.title 100 100 %}
+                </span>
+              {%- endif -%}
+              <div class="box__profile">
+                {%- if card.data.title -%}
+                  <h3 class="box__name">{{ card.data.title }}</h3>
+                {%- endif -%}
+                {%- if card.data.position -%}
+                  <h4 class="box__position">{{ card.data.position }}</h4>
+                {%- endif -%}
+                {%- if card.data.company -%}
+                  <h5 class="box__company">{{ card.data.company }}</h5>
+                {%- endif -%}
+              </div>
+            </a>
+            {%- if card.content -%}
+              <div class="box__quote">{{ card.content }}</div>
+            {%- endif -%}
+          </li>
+        {%- endunless -%}
+        {%- assign i1 = i1 | plus: 1 -%}
+      {%- endfor -%}
+    </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include _partials/_2024/cta cta: component.cta -%}
+      </div>
+    {%- endif -%}
+  </section>
+{% endif %}

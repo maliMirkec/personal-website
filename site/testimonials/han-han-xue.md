@@ -25,7 +25,6 @@ sections2:
   - type: banner
     banner: hanhanxue
   - type: testimonial-list
-    color: delta
     title: More testimonials
     filter: testimonials
     limit: 6

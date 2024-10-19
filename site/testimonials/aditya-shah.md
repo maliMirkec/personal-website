@@ -27,7 +27,6 @@ sections2:
   - type: banner
     banner: dominodatalab
   - type: testimonial-list
-    color: delta
     title: More testimonials
     filter: testimonials
     limit: 6

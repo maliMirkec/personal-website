@@ -2,6 +2,11 @@
   {%- if component.title -%}
     <h1 class="hero__title"{% if component.title_width %} style="--hero-title-width: {{ component.title_width }}ch;"{% endif %}>{{ component.title | markdownifyi }}</h1>
   {%- endif -%}
+  {%- if component.img -%}
+    <div class="hero__image">
+      {%- cldnry component.img.src component.img.alt component.img.width component.img.height true -%}
+    </div>
+  {%- endif -%}
   {%- if component.text -%}
     <div class="hero__text"{% if component.text_width %} style="--hero-text-width: {{ component.text_width }}ch;"{% endif %}>{{ component.text | markdownify }}</div>
   {%- endif -%}
@@ -11,11 +16,6 @@
   {%- if component.cta -%}
     <div class="hero__action">
       {%- include _partials/_2024/cta cta: component.cta -%}
-    </div>
-  {%- endif -%}
-  {%- if component.img -%}
-    <div class="hero__image">
-      {%- cldnry component.img.src component.img.alt component.img.width component.img.height true -%}
     </div>
   {%- endif -%}
 </section>

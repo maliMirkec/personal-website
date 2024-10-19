@@ -1,5 +1,11 @@
-{%- assign list = collections[component.filter] | where: 'data.display', true | sort: "date" | reverse -%}
+{%- assign list = collections[component.filter] | where: 'data.display', true -%}
 {%- assign i1 = 1 -%}
+
+{% if component.random %}
+  {% assign list = list | randomItems %}
+{% else %}
+  {% assign list = list | sort: 'data.date' | reverse %}
+{% endif %}
 
 {%- if list -%}
   <section class="box">
