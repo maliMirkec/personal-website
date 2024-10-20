@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of CCredit Card Insider website.
   width: 759
   height: 459
-link: //www.creditcardinsider.com
+link: https://www.creditcardinsider.com
 display: true
 date: 2021-09-01
 type: portfolio-item
@@ -28,14 +28,16 @@ sections:
       width: 759
       height: 459
     title: Credit Card Insider
-    text: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence. The website runs on WordPress.
-    text_width: 60
+    text: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
+    text_width: 53
     text2: >-
       I've built a living styleguide, created custom WordPress theme, optimized assets delivery, and used the latest best practices for boosting the site speed.
 
 
       The company has been aquired, and the site has been redirected.
-    text2_width: 65
+    text2_width: 60
+  - type: tech-stack
+    banner: creditcardinsider
   - type: related-testimonials
     title: Testimonials
     filter: testimonials
@@ -51,8 +53,6 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: tech-stack
-    banner: creditcardinsider
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

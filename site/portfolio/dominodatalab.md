@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Domino Data Lab
 description: I've worked on Domino Data Lab website. Domino Data Lab is a data science platform that enables teams to rapidly develop and deploy breakthrough models.
 thumbnail:
@@ -7,10 +7,12 @@ thumbnail:
   alt: Screenshot of Domino Data Lab website.
   width: 759
   height: 459
-link: //www.dominodatalab.com
+link: https://www.dominodatalab.com
 display: true
-date: 2010-01-02
+date: 2021-09-03
 type: portfolio-item
+tech:
+  - jekyll
 tags:
   - portfolio
   - spg
@@ -21,47 +23,34 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: domino-data-lab_nbvhcy
-    alt: Screenshot of Domino Data Lab website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: domino-data-lab_nbvhcy
+      alt: Screenshot of Domino Data Lab website.
+      width: 759
+      height: 459
     title: Domino Data Lab
-    desc: >-
-      Domino Data Lab is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage. The website runs on Jekyll.
-    subtitle: Responsibilities
-    desc2: >-
-      - Managed Jekyll static page generator.
-
-      - Configured CMS settings.
-
-      - Maintained frontend of the website.
-    cta:
-      href: //www.dominodatalab.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+    text: Domino Data Lab is a data science platform that enables data science teams to rapidly develop and deploy models that drive breakthrough innovation and competitive advantage.
+    text_width: 55
+    text2: I've maintained the Jekyll website, configured CMS settings, and maintained frontend of the website.
+    text2_width: 45
+  - type: tech-stack
+    banner: dominodatalab
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: DDL
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

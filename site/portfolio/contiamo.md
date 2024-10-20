@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of Contiamo website.
   width: 759
   height: 459
-link: //www.contiamo.com
+link: https://www.contiamo.com
 display: true
 date: 2017-08-01
 type: portfolio-item
@@ -28,13 +28,13 @@ sections:
       width: 759
       height: 459
     title: Contiamo
-    text: Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization. The website runs on Middleman, Webpack, Netlify, and Github.
+    text: Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization.
     text_width: 55
     text2: I've built a living styleguide using KSS tool, created all 55from designs using reusable styleguide components, helped configure Webpack for development and production environments, and implemented and optimized SVG assets.
     text2_width: 70
     cta:
-      href: //www.contiamo.com
-      title: Go to site
+      href: https://www.contiamo.com
+      title: Go to website
       modifiers:
         - small
   - type: project-list
@@ -49,5 +49,5 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

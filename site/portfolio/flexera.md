@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Flexera
 description: I've worked on Flexera website. Flexera control and manage software and IT costs, to grow and protect your business.
 thumbnail:
@@ -7,10 +7,12 @@ thumbnail:
   alt: Screenshot of Flexera website.
   width: 759
   height: 459
-link: //www.flexera.com
+link: https://www.flexera.com
 display: true
-date: 2010-01-07
+date: 2019-04-02
 type: portfolio-item
+tech:
+  - aem
 tags:
   - portfolio
   - styleguide
@@ -18,45 +20,37 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: flexera_mu5r7y
-    alt: Screenshot of Flexera website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: flexera_mu5r7y
+      alt: Screenshot of Flexera website.
+      width: 759
+      height: 459
     title: Flexera
-    desc: >-
-      Flexera controls and manages software, and IT costs, to grow and protect your business. The website runs on Adobe Experience Manager.
-    subtitle: Responsibilities
-    desc2: >-
-      - Built a living styleguide.
-
-      - Created more than 20 pages from designs using reusable styleguide components.
+    text: Flexera controls and manages software, and IT costs, to grow and protect your business.
+    text_width: 40
+    text2: I've built a living styleguide, and created more than 20 pages from designs using reusable styleguide components.
+    text2_width: 45
     cta:
-      href: //www.flexera.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      href: https://www.flexera.com
+      title: Go to website
+      modifiers:
+        - small
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: BEAM
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

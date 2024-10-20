@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Franciscan Children's
 description: I've worked on Franciscan Children’s website. Franciscan Children’s serve children and adolescents with complex medical, mental health and educational needs.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //franciscanchildrens.org
 display: false
-date: 2010-01-18
+date: 2017-09-01
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress
@@ -18,47 +20,37 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: franciscan-children_s_ktoqdt
-    alt: Screenshot of Franciscan Children’s website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: franciscan-children_s_ktoqdt
+      alt: Screenshot of Franciscan Children’s website.
+      width: 759
+      height: 459
     title: Franciscan Children’s
-    desc: >-
-      Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs. The website runs on WordPress.
-    subtitle: Responsibilities
-    desc2: >-
-      - Updated existing WordPress project.
-
-      - Upgraded a responsive navigation style.
-
-      - Updated a layout on several pages.
+    text: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs.
+    text_width: 60
+    text2: I've updated existing WordPress project, upgraded a responsive navigation style, and updated a layout on several pages.
+    text2_width: 60
     cta:
-      href: //franciscanchildrens.org
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      href: https://franciscanchildrens.org
+      title: Go to website
+      modifiers:
+        - small
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: BEAM
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

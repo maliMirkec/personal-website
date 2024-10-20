@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Wunder Mobility
 description: I've worked on Wunder Mobility website. Wunder Mobility provides software, vehicles and services helping everyone launch and scale new mobility services.
 thumbnail:
@@ -7,10 +7,13 @@ thumbnail:
   alt: Screenshot of Wunder Mobility website.
   width: 759
   height: 459
-link: //www.wundermobility.com
+link: https://www.wundermobility.com
 display: true
-date: 2009-01-31
+date: 2023-01-01
 type: portfolio-item
+tech:
+  - jekyll
+  - contentful
 tags:
   - portfolio
   - spg
@@ -21,45 +24,34 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: wunder-mobility_qv9mcn
-    alt: Screenshot of Wunder Mobility website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: wunder-mobility_qv9mcn
+      alt: Screenshot of Wunder Mobility website.
+      width: 759
+      height: 459
     title: Wunder Mobility
-    desc: >-
-      Wunder Mobility provides software, vehicles and a full range of services to cities and companies, helping them launch and scale new mobility services.
-    subtitle: Responsibilities
-    desc2: >-
-      - Rebuilt the website.
-
-      - Migrated content to Contentful.
-    cta:
-      href: //www.wundermobility.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+    text: Wunder Mobility provides software, vehicles and a full range of services to cities and companies, helping them launch and scale new mobility services.
+    text_width: 55
+    text2: I've rebuilt the website, and migrated content to Contentful.
+    text2_width: 65
+  - type: tech-stack
+    banner: wunder-mobility
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: Wunder Mobility
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

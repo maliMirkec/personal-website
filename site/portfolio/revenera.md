@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Revenera
 description: I've worked on Revenera website. Revenera helps you as a software developer to control costs, grow and protect your business.
 thumbnail:
@@ -7,10 +7,12 @@ thumbnail:
   alt: Screenshot of Revenera website.
   width: 759
   height: 459
-link: //www.revenera.com
+link: https://www.revenera.com
 display: true
-date: 2010-01-08
+date: 2019-04-01
 type: portfolio-item
+tech:
+  - aem
 tags:
   - portfolio
   - styleguide
@@ -18,45 +20,33 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: revenera_nv7gag
-    alt: Screenshot of Revenera website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: revenera_nv7gag
+      alt: Screenshot of Revenera website.
+      width: 759
+      height: 459
     title: Revenera
-    desc: >-
-      Revenera can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business. The website runs on Adobe Experience Manager.
-    subtitle: Responsibilities
-    desc2: >-
-      - Built a living styleguide.
-
-      - Created more than 10 pages from designs using reusable styleguide components.
+    text: Revenera can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
+    text_width: 56
+    text2: I've built a living styleguide, and created more than 10 pages from designs using reusable styleguide components.
+    text2_width: 56
     cta:
-      href: //www.revenera.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
-    filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+      href: https://www.revenera.com
+      title: Go to website
+      modifiers:
+        - small
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

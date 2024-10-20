@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     const loadTime = pageLoadedIn.startTime / 1000
     const loadTimeRounded = loadTime.toLocaleString('en-US', {minimumFractionDigits: 3, maximumFractionDigits: 3})
 
-    $elem.innerHTML += `Page loaded in ${loadTimeRounded}s.`
+    $elem.innerHTML = `Page loaded in ${loadTimeRounded}s.`
   }
 })
 

@@ -62,7 +62,7 @@
     },
     "stack": ["Jeykll", "Liquid", "CSS", "JavaScript"],
     "cta2": {
-      "href": "https://www.dominodatalab.com",
+      "href": "https://www.codescan.io",
       "title": "Go to website",
       "modifiers": ["small", "inverse"]
     }
@@ -140,9 +140,29 @@
       "width": 158,
       "height": 20
     },
-    "stack": ["Jeykll", "Liquid", "CSS", "JavaScript"],
+    "stack": ["Jeykll", "Contentful", "Liquid", "CSS", "JavaScript"],
     "cta2": {
       "href": "https://www.wundermobility.com",
+      "title": "Go to website",
+      "modifiers": ["small", "inverse"]
+    }
+  },
+  "heyflow": {
+    "desc": "I helped rebuild the whole Heyflow site using Eleventy and Contentful.",
+    "cta": {
+      "href": "/portfolio/heyflow/",
+      "title": "See the project",
+      "modifiers": ["small", "inverse"]
+    },
+    "logo": {
+      "src": "heyflow-logo_ljp25m.svg",
+      "alt": "Heyflow logo.",
+      "width": 87,
+      "height": 30
+    },
+    "stack": ["Eleventy", "Contentful", "Liquid", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://heyflow.com",
       "title": "Go to website",
       "modifiers": ["small", "inverse"]
     }
@@ -223,7 +243,7 @@
     "stack": ["WordPress", "PHP", "CSS", "JavaScript"],
     "cta2": {
       "href": "https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/",
-      "title": "Go to website",
+      "title": "See the snapshot",
       "modifiers": ["small", "inverse"]
     }
   },
@@ -263,7 +283,7 @@
     "stack": ["WordPress", "PHP", "CSS", "JavaScript"],
     "cta2": {
       "href": "https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/",
-      "title": "Go to website",
+      "title": "See the snapshot",
       "modifiers": ["small", "inverse"]
     }
   },

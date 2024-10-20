@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Domino Data Lab Pop-up
 description: I've worked on DDL Pop-up website. Pop-up is a series of events that bring together the data science leaders of today and tomorrow.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //popup.dominodatalab.com
 display: true
-date: 2010-01-03
+date: 2021-09-01
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress
@@ -18,45 +20,37 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: domino-datalab-popup_iv7ya6
-    alt: Screenshot of Domino Data Lab Pop-up website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: domino-datalab-popup_iv7ya6
+      alt: Screenshot of Domino Data Lab Pop-up website.
+      width: 759
+      height: 459
     title: Domino Data Lab Pop-up
-    desc: >-
-      Pop-up is a series of events organized by Domino Data Lab that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value. The website runs on WordPress.
-    subtitle: Responsibilities
-    desc2: >-
-      - Configured CMS settings.
-
-      - Maintained frontend of the website.
+    text: Pop-up is a series of events organized by Domino Data Lab that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value.
+    text_width: 61
+    text2: I've configured CMS settings and maintained frontend of the website.
+    text2_width: 65
     cta:
-      href: //popup.dominodatalab.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      href: https://popup.dominodatalab.com
+      title: Go to website
+      modifiers:
+        - small
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: DDL
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

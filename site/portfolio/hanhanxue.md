@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Han Han Xue website
 description: I've worked on Han Han Xue website. Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
 thumbnail:
@@ -7,10 +7,12 @@ thumbnail:
   alt: Screenshot of Han Han Xue website.
   width: 759
   height: 459
-link: //www.hanhanxue.com
+link: https://www.hanhanxue.com
 display: true
-date: 2010-01-14
+date: 2019-02-01
 type: portfolio-item
+tech:
+  - middleman
 tags:
   - portfolio
   - spg
@@ -20,55 +22,34 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: han-han-xue_oo7wab
-    alt: Screenshot of Han Han Xue website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: han-han-xue_oo7wab
+      alt: Screenshot of Han Han Xue website.
+      width: 759
+      height: 459
     title: Han Han Xue
-    desc: >-
-      Han Han Xue is a Designer and FX Technical Director from Montreal, Canada. The website runs on Middleman and Netlify.
-    subtitle: Responsibilities
-    desc2: >-
-      - Installed a new Middleman instance.
-
-      - Set up project architecture.
-
-      - Created all pages from designs.
-
-      - Used Cloudinary for delivering images.
-
-      - Optimized assets delivery.
-
-      - Used the latest best practices for boosting the site speed.
-
-      - Hosted the website on Netlify.
-    cta:
-      href: //www.hanhanxue.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+    text: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
+    text_width: 60
+    text2: I've installed a new Middleman instance, set up project architecture, created all pages from designs, used Cloudinary for delivering images, optimized assets delivery, and used the latest best practices for boosting the site speed.
+    text2_width: 62
+  - type: tech-stack
+    banner: hanhanxue
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: Lyft
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

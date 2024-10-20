@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of CodeScan website.
   width: 759
   height: 459
-link: //www.codescan.io
+link: https://www.codescan.io
 display: true
 date: 2021-08-01
 type: portfolio-item
@@ -33,6 +33,8 @@ sections:
     text_width: 60
     text2: I'v maintained frontend of the website.
     text2_width: 75
+  - type: tech-stack
+    banner: codescan
   - type: related-testimonials
     title: Testimonials
     filter: testimonials
@@ -48,8 +50,6 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: tech-stack
-    banner: codescan
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

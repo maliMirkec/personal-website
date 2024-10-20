@@ -14,5 +14,5 @@ sections:
   - type: project-list
     filter: portfolio
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

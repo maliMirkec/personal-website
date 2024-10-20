@@ -27,14 +27,14 @@ sections:
       width: 759
       height: 459
     title: Atika Interijeri
-    text: Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture. The site runs on WordPress, DigitalOcean, and Cloudflare.
-    text_width: 55
+    text: Atika Interijeri is a carpentry company specialized for creating all kinds of custom furniture.
+    text_width: 45
     text2: >-
       I've installed a new WordPress instance, designed and developed a new WordPress theme from scratch, hosted the website on DigitalOcean, and used Cloudflare to improve the security and performance.
 
 
       This website was taken down.
-    text2_width: 75
+    text2_width: 51
   - type: project-list
     title: Other projects
     filter: portfolio
@@ -47,5 +47,5 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

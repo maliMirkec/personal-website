@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Moodings
 description: I've worked on Moodings webshop. Moodings is an e-commerce company that helps designers and artists compete on the market.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //moodings.com
 display: true
-date: 2010-01-13
+date: 2018-04-01
 type: portfolio-item
+tech:
+  - shopify
 tags:
   - portfolio
   - shopify
@@ -18,47 +20,33 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: moodings_o7mxvp
-    alt: Screenshot of Moodings website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: moodings_o7mxvp
+      alt: Screenshot of Moodings website.
+      width: 759
+      height: 459
     title: Moodings
-    desc: >-
-      Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market. The website runs on Shopify.
-    subtitle: Responsibilities
-    desc2: >-
-      - Improved Page Speed Insights score on mobile and desktop.
-
-      - Used the latest best practices for boosting the site speed.
-
-      - Optimized assets delivery.
+    text: Moodings is an e-commerce website from Copenhagen, Denmark. By curating upcoming and established design and art, they help designers and artists compete on the market.
+    text_width: 49
+    text2: I've improved Page Speed Insights score on mobile and desktop, used the latest best practices for boosting the site speed, and optimized assets delivery.
+    text2_width: 59
     cta:
-      href: //moodings.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
-    filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+      href: https://moodings.com
+      title: Go to website
+      modifiers:
+        - small
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

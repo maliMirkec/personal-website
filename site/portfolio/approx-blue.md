@@ -35,6 +35,8 @@ sections:
     text_width: 55
     text2: I've built the whole website with Eleventy and Contentful.
     text2_width: 75
+  - type: tech-stack
+    banner: approx-blue
   - type: related-testimonials
     title: Testimonials
     filter: testimonials
@@ -50,8 +52,6 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: tech-stack
-    banner: approx-blue
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

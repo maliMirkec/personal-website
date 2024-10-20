@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Trase Yearbook 2018
 description: I've worked on The Trase Yearbook website. The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //yearbook2018.trase.earth
 display: true
-date: 2010-01-11
+date: 2018-07-01
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress
@@ -18,45 +20,38 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: yearbook-trase_sqnp0z
-    alt: Screenshot of Trase Yearbook 2018 website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: yearbook-trase_sqnp0z
+      alt: Screenshot of Trase Yearbook 2018 website.
+      width: 759
+      height: 459
     title: Trase Yearbook 2018
-    desc: >-
-      The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation. The site runs on WordPress and Pantheon.
-    subtitle: Responsibilities
-    desc2: >-
-      - Developed a new WordPress theme from scratch based on a design.
+    text: The Trase Yearbook presents the latest insights on the sustainability of global agricultural commodity supply chains associated with tropical deforestation.
+    text_width: 60
+    text2: >-
+      I've developed a new WordPress theme from scratch based on a design.
 
 
-      _The site has been taken down._
-
-
-      _Here's [the snapshot](https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/) of the site._
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      The site has been taken down.
+    text2_width: 65
+  - type: tech-stack
+    banner: yearbook-trase
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: Vizzuality
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

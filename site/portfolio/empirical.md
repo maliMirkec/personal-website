@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Empirical Wealth
 description: I've worked on Empirical Wealth Management website. EWM is a wealth management team specializing in investments, taxes, financial, and estate planning.
 thumbnail:
@@ -7,10 +7,12 @@ thumbnail:
   alt: Screenshot of Empirical Wealth Management website.
   width: 759
   height: 459
-link: //www.empirical.net
+link: https://www.empirical.net
 display: false
-date: 2010-01-17
+date: 2018-07-01
 type: portfolio-item
+tech:
+  - wordpress
 tags:
   - portfolio
   - wordpress
@@ -18,49 +20,33 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: empirical_vrw0y8
-    alt: Screenshot of Empirical Wealth Management website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: empirical_vrw0y8
+      alt: Screenshot of Empirical Wealth Management website.
+      width: 759
+      height: 459
     title: Empirical Wealth Management
-    desc: >-
-      Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning. The website runs on WordPress and WPEngine.
-    subtitle: Responsibilities
-    desc2: >-
-      - Updated existing WordPress project.
-
-      - Upgraded a responsive navigation style.
-
-      - Updated a layout on several pages.
-
-      - Helped publishing site to a new server.
+    text: Empirical Wealth Management is a comprehensive wealth management team of experts specializing in investments, tax planning and preparation, financial planning, and estate planning.
+    text_width: 57
+    text2: I've updated existing WordPress project, upgraded a responsive navigation style, updated a layout on several pages, and helped publishing site to a new server.
+    text2_width: 63
     cta:
-      href: //www.empirical.net
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
-    filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+      href: https://www.empirical.net
+      title: Go to website
+      modifiers:
+        - small
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

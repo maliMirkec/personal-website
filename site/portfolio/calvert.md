@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of Calvert website.
   width: 759
   height: 459
-link: //www.calvert.com/?DM=invest-with-purpose
+link: https://www.calvert.com/?DM=invest-with-purpose
 display: true
 date: 2017-10-01
 type: portfolio-item
@@ -27,12 +27,12 @@ sections:
       width: 759
       height: 459
     title: Calvert
-    text: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity. The website runs on a custom CMS solution.
-    text_width: 55
+    text: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
+    text_width: 61
     text2: I've converted designs to cross-browser, responsive pages, and created custom animations.
     text2_width: 75
     cta:
-      href: //www.calvert.com/?DM=invest-with-purpose
+      href: https://www.calvert.com/?DM=invest-with-purpose
       title: Go to website
       modifiers:
         - small
@@ -52,5 +52,5 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: consultation2
 ---

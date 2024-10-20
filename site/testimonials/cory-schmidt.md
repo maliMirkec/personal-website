@@ -9,7 +9,7 @@ type: testimonials-item
 avatar: cs_tru73j
 date: 2022-09-08
 position: Chief Revenue Officer
-company: Wunder Mobility
+company: Heyflow
 projects:
   - Wunder Mobility
   - Heyflow

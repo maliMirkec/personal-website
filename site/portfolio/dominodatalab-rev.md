@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Domino Data Lab Rev
 description: I've worked on DDL Rev website. Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
 thumbnail:
@@ -9,8 +9,10 @@ thumbnail:
   height: 459
 link: //rev.dominodatalab.com
 display: true
-date: 2010-01-04
+date: 2021-09-02
 type: portfolio-item
+tech:
+  - jekyll
 tags:
   - portfolio
   - jekyll
@@ -20,49 +22,37 @@ tags:
   - css
   - javascript
 sections:
-  - type: hero-alpha
-    narrow: true
-    src: domino-data-lab-rev_nsqmdn
-    alt: Screenshot of Domino Data Lab Rev website.
-    width: 759
-    height: 459
-    left: true
+  - type: hero
+    img:
+      src: domino-data-lab-rev_nsqmdn
+      alt: Screenshot of Domino Data Lab Rev website.
+      width: 759
+      height: 459
     title: Domino Data Lab Rev
-    desc: >-
-      Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place. The website runs on Jekyll.
-    subtitle: Responsibilities
-    desc2: >-
-      - Managed Jekyll static page generator.
-
-      - Configured CMS settings.
-
-      - Created all pages from designs.
-
-      - Hosted the website on Netlify.
+    text: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
+    text_width: 50
+    text2: I've maintained the Jekyll website, configured CMS settings, and created all pages from designs.
+    text2_width: 45
     cta:
-      href: //rev.dominodatalab.com
-      title: Go to site
-      animate: true
-  - type: hero-beta
-    title: From Testimonials
-    desc: >-
-      Here are some kind words about my work from clients. Although I collaborated with clients from more than 10 countries, most of them came from **The United States** and **Germany**.
-  - type: cards-beta
-    cta:
-      title: Read the testimonial
+      href: https://rev.dominodatalab.com
+      title: Go to website
+      modifiers:
+        - small
+  - type: related-testimonials
+    title: Testimonials
     filter: testimonials
-    limit: 6
-    other: true
-  - type: hero-beta
-    title: From the Portfolio
-    desc: >-
-      Here are the projects that I am most proud. Built with **WordPress**, **Shopify**, **Eleventy**, **Jekyll**, and **Hugo**, among others.
-  - type: cards-gamma
+    company: DDL
+  - type: project-list
+    title: Other projects
     filter: portfolio
-    exclude: true
-    limit: 6
     random: true
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    limit: 6
+    exclude: true
+    cta:
+      href: /portfolio/
+      title: All projects
+      modifiers:
+        - small
+  - type: banner
+    banner: consultation2
 ---

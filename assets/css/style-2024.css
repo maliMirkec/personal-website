@@ -312,6 +312,10 @@ blockquote p:not(:first-of-type) {
   text-wrap: pretty;
 }
 
+.hero__text2 p + p {
+  margin-block-start: 0.5em;
+}
+
 .hero__action {
   margin-block-start: var(--size-10-20);
 }
@@ -599,6 +603,10 @@ body:not(.page--home) .banner--beta .banner__title {
 
   .hero__title {
     letter-spacing: -0.02em;
+  }
+
+  .page--portfolio-item .hero {
+    padding-block-end: unset;
   }
 
   .banner__form {
