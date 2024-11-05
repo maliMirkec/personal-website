@@ -1,18 +1,17 @@
 ---
-layout: index
+layout: default
 title: My services
-description: Silvestar have been working with web technologies since 2012. During this period, he acquired a certain set of skills for building better websites.
+description: I have been working with web technologies since 2012. During this period, I acquired a certain set of skills for building better websites.
 type: default
 sections:
   - type: hero
     title: Frontend dev services to enhance your project's user experience
-    desc: My passion for web technologies began in 2012, and since then, I've acquired an arsenal of skills for creating top-quality websites.
+    text: My passion for web technologies began in 2012, and since then, I've acquired an arsenal of skills for creating top-quality websites.
     cta:
       href: /contact/
       title: Get in touch
-sections2:
   - type: banner
-    banner: consultation
+    banner: portfolio
 ---
 
 ## Frontend
@@ -21,7 +20,7 @@ Over the past decade, I've worked on a wide range of web development projects, i
 
 ## Static Site Generators
 
-With a keen eye on the ever-evolving tech landscape, I recognized the growing trend for static sites several years ago. So, starting in 2017, I began working with static site generators like **Jekyll**, **Hugo**, **Hexo**, and **11ty**, building a portfolio of impressive static sites, including [Westwing](/portfolio/westwing/), [Domino Data Lab](/portfolio/dominodatalab/), and [Wunder Mobility](/portfolio/wundermobility/).
+With a keen eye on the ever-evolving tech landscape, I recognized the growing trend for static sites several years ago. So, starting in 2017, I began working with static site generators like **Jekyll**, **Hugo**, **Hexo**, and **11ty**, building a portfolio of impressive static sites, including [Westwing](/portfolio/westwing/), [Domino Data Lab](/portfolio/dominodatalab/), [Wunder Mobility](/portfolio/wundermobility/), and [Heyflow](/portfolio/heyflow/).
 
 ## WordPress
 
@@ -29,7 +28,7 @@ WordPress is undoubtedly a go-to choice for many businesses as the top framework
 
 ## Shopify
 
-Shopify is one of the most popular e-commerce platforms. Although many non-developers like to use Shopify for its flexibility, when things start to get heavy, developers are the ones called to the rescue. I have been working on several Shopify projects, including [Little Bundle](/portfolio/little-bundle/) and [Moodings](/portfolio/moodings/), where I helped clients optimize and develop features.
+Shopify is one of the most popular e-commerce platforms. Although many non-developers like to use Shopify for its flexibility, when things start to get heavy, developers are the ones called to the rescue. I have been working on several Shopify projects, including [Little Bundle](/portfolio/little-bundle/) and [Spartan Precision Equipment](/portfolio/javelin-bipod/), where I helped clients optimize and develop features.
 
 ## Page speed optimizations
 
@@ -39,4 +38,4 @@ Did you know that a slow website can hurt your business? Google now penalizes si
 
 My work speaks for itself, so go ahead and [explore my portfolio](/portfolio/).
 
-If you need more proof, check [what others say about my work](/testimonials/).
+If you need more proof, [check what more than twenty people say about my work](/testimonials/).

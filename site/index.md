@@ -2,13 +2,13 @@
 layout: default
 title: Home
 ogImageTitle: Home of fearless web developer Silvestar Bistrović
-description: Silvestar is building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
+description: I'm building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.
 type: home
 sections:
   - type: hero
     title: Crafting exceptional websites that engage and delight users since 2012
     title_width: 26
-    text: Transform your digital presence with Silvestar’s expert development services.
+    text: Transform your digital presence with professional development services.
     text_width: 29
     text2: Or just let me build the best possible website for you and your business.
     text2_width: 33

@@ -1,7 +1,7 @@
 ---
 layout: index
 title: My favorites
-descriptionAlt: Silvestar's favorite TV shows, characters, writers, books, bands, artists, and more.
+descriptionAlt: My favorite TV shows, characters, writers, books, bands, artists, and more.
 description: Explore my favorite TV shows, characters, writers, books, bands, artists, and more. Mostly stuff unrelated to my professional career.
 type: favorites
 favorites:
@@ -9,7 +9,7 @@ favorites:
     content: |
       I am really struggling to be productive working from home.
 
-      I miss my monitors and my chair and my piece. -.-
+      I miss my monitors and my chair and my peace. -.-
 sections:
   - type: hero
     title: My favorites
