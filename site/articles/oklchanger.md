@@ -29,7 +29,7 @@ The extension uses [the culori library](https://culorijs.org/) to convert colors
 
 To see it in action, select the code block containing colors you want to convert, and then choose `OKLCHanger!` command from the command palette:
 
-{% video “https://res.cloudinary.com/starbist/video/upload/v1730815094/oklchanger_bau00m" 759 278 'autoplay' 'loop' 'mute' true %}
+{% video 'https://res.cloudinary.com/starbist/video/upload/v1730815094/oklchanger_bau00m' 759 278 'autoplay' 'loop' 'mute' true %}
 
 I thoroughly enjoyed learning about Oklab colors and navigating the coding process with ChatGPT. I hope you find it helpful, too. Just remember to check if the Oklab color format is supported by using the following syntax:
 
