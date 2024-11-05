@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I recently got a LinkedIn invitation from a random person. After accepting it I got a message from this person. It said:

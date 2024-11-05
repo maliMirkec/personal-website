@@ -20,7 +20,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 All static page generators have a single and seemingly straightforward task: to produce a static HTML file and all its assets.

@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I gave up on analytics on my site a long time ago. I was using Google Analytics and Matomo (previously Piwik), but all it did to me was drive me crazy for two reasons:

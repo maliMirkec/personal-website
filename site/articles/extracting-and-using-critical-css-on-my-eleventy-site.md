@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 This week I made some enhancements to extracting and implementing Critical CSS on my website that runs on Eleventy. To achieve this, I created a new package called Acclaimed CSS, specializing in Critical CSS extraction. So without further ado, let's delve into its workings and features.

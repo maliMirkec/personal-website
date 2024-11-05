@@ -27,7 +27,7 @@ const generateDate = () => {
 const generateTitle = () => {
   return `<h1>
       <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${generateDateString()}/" target="_blank" style="text-decoration:none">
-        <span style="display:block;color:#222;font-size:1.5rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em">UI Dev Newsletter - ${latest.title}</span>
+        <span style="display:block;color:#222;font-size:1.5rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em">${latest.title}</span>
       </a>
     </h1>`
 }

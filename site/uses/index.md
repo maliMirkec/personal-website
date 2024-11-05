@@ -1,21 +1,17 @@
 ---
-layout: index
+layout: default
 title: My setup
 description: Most developers often spend time on their setup, and I am no exception. These devices, tools, and software help me achieve that.
-type: page
+type: default
 sections:
-  - type: hero-alpha
-    elementClass: bg-alpha2
+  - type: hero
     title: Tools, apps, and devices I use
-    desc: These are devices, applications, and tools, which I use daily, that make my job easier.
-    narrow: true
-sections2:
-  - type: banner-alpha
-    banner: consultation
-    animate: true
+    text: These are devices, applications, and tools, which I use daily, that make my job easier.
+  - type: banner
+    banner: consultation2
 ---
 
-Most developers often spend time on their setup, and I am no exception. I like organizing my computer and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
+Most developers spend time on setting up their workspace, and I am no exception. I like organizing my computers and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
 
 I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome-extensions-for-web-development-mostly/) and [VS Code settings](/articles/my-favorite-vs-code-settings/).
 

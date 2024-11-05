@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 [CSS View Transitions](https://developer.chrome.com/docs/web-platform/view-transitions/) is one of the latest additions to Chromium-based browsers, and I decided to try it.

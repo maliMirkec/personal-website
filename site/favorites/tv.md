@@ -14,7 +14,7 @@ thumbnail:
   height: 294
 js: gallery
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My favorite TV shows
     desc: >-
       Just my random favorite TV shows and characters.
@@ -149,7 +149,6 @@ sections:
       - title: "Wet Hot American Summer: Ten Years Later"
         href: https://www.imdb.com/title/tt5669272/
         src: 041whas_itx6yc
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

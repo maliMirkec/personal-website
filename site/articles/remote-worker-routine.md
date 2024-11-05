@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 As a remote worker, having a routine and self-discipline is critical. Keeping up with multiple clients, personal projects, and continually improving your skills is a challenging task. Here's my recipe on how to stay sane and be a more successful remote worker.

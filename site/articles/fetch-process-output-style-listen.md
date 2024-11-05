@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 In a sea of various possibilities for how to build a website, here’s my preferred way.

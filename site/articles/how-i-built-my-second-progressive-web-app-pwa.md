@@ -14,7 +14,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 As of today, my side project [Code Line Daily] is available as a Progressive Web App.

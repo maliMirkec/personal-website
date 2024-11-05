@@ -10,7 +10,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 series: Searching for a job
 ---
 

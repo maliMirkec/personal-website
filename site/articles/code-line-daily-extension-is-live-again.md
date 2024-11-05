@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Last week, ChatGPT helped me publish [my first VS Code extension](/articles/clamp-it/), so I thought it could assist me with updating [my old Code Line Daily Chrome extension](/articles/the-first-year-of-my-side-project-code-line-daily/).

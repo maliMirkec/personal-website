@@ -10,11 +10,12 @@ thumbnail:
   width: 759
   height: 459
 type: articles
+display: true
 tags:
   - projects
-date: 2005-01-05
+date: 2021-12-01
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Advent of UI components
     desc: >-
       For every day of advent I am building a new UI Component.
@@ -28,5 +29,4 @@ sections:
     sorter: date
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---

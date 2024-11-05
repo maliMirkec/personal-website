@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 This week Sam Magura, an active maintainer of [Emotion](https://emotion.sh/), a widely-popular CSS-in-JS library for React, published [an article about breaking up with CSS-in-JS](https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b). As a “pure CSS” guy, I had many questions and comments while reading the article, so I had to document them in this blog post.

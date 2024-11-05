@@ -10,7 +10,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 As I was going through my drafts, I stumbled upon this one about my score on The WebAIM Million report from last year. WebAIM conducted an accessibility evaluation of the home pages for the top 1,000,000 websites. [My site is included in the report](https://webaim.org/projects/million/lookup?domain=silvestar.codes) for the first time.

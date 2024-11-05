@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 When I see that people that have been in the web industry for decades still learn and want to learn new things, that amazes me. I am also learning constantly, but in a different fashion than before.

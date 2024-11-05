@@ -12,7 +12,7 @@ thumbnail:
   alt: Screenshot of the UI Dev Newsletter archive page.
   width: 759
   height: 459
-date: 2000-04-01
+date: 2020-04-20
 display: true
 sections:
   - type: hero

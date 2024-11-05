@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   {% include _partials/_2024/_general/head %}
-  <body class="page--{{ type | slugify }}">
+  <body class="page--{{ type | slugify }}{% if subtype %} page--{{ subtype | slugify }}{% endif %}">
     <div class="wrapper">
       {% include _partials/_2024/header %}
       <main class="main" id="main">

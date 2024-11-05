@@ -12,13 +12,12 @@ thumbnail:
   width: 490
   height: 297
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My favorite concerts
     desc: >-
       Just my list of all concerts that I attended (that I could remember).
     footnote: >-
       Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
-    narrow: true
   - type: cards-eta
     list:
       - title: The Stooges
@@ -1374,7 +1373,6 @@ sections:
         location: Wiener Konzerthaus, Vienna
         year: 2023
         epic: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

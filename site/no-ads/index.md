@@ -2,16 +2,15 @@
 layout: index
 title: No advertisement at all
 description: Guest posts, backlinks, or any other form of advertisement is strictly prohibited on my site, but I am open to other forms of collaboration.
-type: page
+type: default
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Any kind of advertisement is unacceptable.
     desc: >-
       However, other forms of collaboration are more than welcome
 sections2:
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---
 
 ## What is off the table?

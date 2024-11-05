@@ -1,433 +1,222 @@
 ---
-layout: index
+layout: default
 title: Browser bookmarks
 descriptionAlt: Browser bookmarks export file.
 description: Discover a collection of curated browser bookmarks, from web development tools to online resources, find everything you need boost your productivity.
 date: 2017-08-02 20:08:06
-type: articles-item
+type: default
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Browser Bookmarks
-    desc: >-
-      Browser bookmarks export file.
+    text: Browser bookmarks export file.
+  - type: banner
+    banner: consultation2
 ---
 
-## Browser links
-
-```txt
-
-https://extendsclass.com/xpath-tester.html
-
-https://extendsclass.com/sqlite-browser.html
-
-https://extendsclass.com/regex-tester.html
-
-https://extendsclass.com/javascript-fiddle.html
-
-https://extendsclass.com/jsonpath-tester.html
-
-https://extendsclass.com/php-tester.html
-
-https://extendsclass.com/python-tester.html
-
-https://extendsclass.com/rest-client-online.html
-
-https://extendsclass.com/soap-client-online.html
-
-https://extendsclass.com/web-service-tester.html
-
-https://extendsclass.com/mock-rest-api.html
-
-https://extendsclass.com/json-validator.html
-
-https://extendsclass.com/xml-formatter-online.html
-
-https://extendsclass.com/sql-formatter.html
-
-https://extendsclass.com/xml-to-json.html
-
-https://extendsclass.com/json-to-csv.html
-
-https://extendsclass.com/csv-to-excel.html
-
-https://extendsclass.com/image-to-base64.html
-
-https://extendsclass.com/base64-decode-encode.html
-
-https://extendsclass.com/css-minifier.html
-
-https://extendsclass.com/html-minifier.html
-
-https://extendsclass.com/javascript-minifier.html
-
-https://extendsclass.com/text-compare.html
-
-https://extendsclass.com/xml-diff.html
-
-https://extendsclass.com/json-diff.html
-
-https://codepen.io/shshaw/pen/rrOZQQ
-
-http://ruyadorno.github.io/simple-slider/
-
-https://quokkajs.com/
-
-https://codepen.io/shshaw/pen/LVKEdv
-
-https://codepen.io/anthonydugois/pen/mewdyZ
-
-http://kenwheeler.github.io/slick/
-
-https://www.grabient.com/
-
-https://www.sitelocity.com/critical-path-css-generator
-
-https://nordicapis.com/7-helpful-http-tools/
-
-https://regexly.chipto.io/
-
-http://code.thisarmy.com/fontsinfo/
-
-https://palette.okaybueno.com/p/59ce420a3a5905064c32b6b4
-
-http://animejs.com/
-
-https://codepen.io/jarmie/full/1ba718e2b7c02c6310671716128fc5d2/
-
-https://gethead.info/
-
-https://mobile.twitter.com/i/moments/880688233641848832
-
-http://animista.net/play/basic/scale-up
-
-https://gruntwork.io/why-prod-is-down/
-
-http://fontfamily.io/
-
-https://stackoverflow.com/questions/12616011/google-map-polyline-with-shadow
-
-http://html5pattern.com/
-
-https://wkhtmltopdf.org/
-
-https://trackchanges.mikerogers.io/
-
-https://isellsoap.github.io/specificity-visualizer/
-
-http://bennettfeely.com/clippy/
-
-https://createjs.com/
-
-https://ui.toast.com/tui-editor/
-
-https://www.cockos.com/licecap/
-
-http://www.heymeta.com/url/irinaandmatej.com
-
-https://www.browserling.com/tools/image-to-base64
-
-https://jakearchibald.github.io/svgomg/
-
-https://www.getoutline.com/#features
-
-https://spotify.github.io/coordinator/
-
-https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22
-
-https://github.com/c0bra/deviceframe
-
-https://formspree.io/
-
-https://michalsnik.github.io/aos/
-
-http://uigoodies.com/index.html
-
-https://codepen.io/jesstelford/pen/PaBMrL
-
-https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/
-
-https://www.screely.com/
-
-https://cssduotone.com/
-
-https://streamlineicons.com/
-
-https://scroll-out.github.io/
-
-https://www.colorbox.io/
-
-https://frontendchecklist.io/
-
-https://yoksel.github.io/svg-gradient-map/#/
-
-https://mailtolink.me/
-
-https://gitexplorer.com/
-
-https://remote.tools/
-
-https://github.com/faressoft/terminalizer
-
-https://9elements.github.io/fancy-border-radius/
-
-https://cloudflare.design/color/
-
-https://www.24sata.hr/
-
-https://flawlessapp.io/designtools
-
-http://speakhuman.today/
-
-http://www.jstips.co/en/calculate-the-max-min-value-from-an-array/
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
-
-https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
-
-http://www.w3schools.com/jsref/jsref_match.asp
-
-https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Expressions_and_Operators
-
-https://a11yproject.com/
-
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques
-
-https://www.w3.org/TR/wai-aria-practices/#intro
-
-https://www.w3.org/TR/wai-aria/
-
-http://webaim.org/resources/contrastchecker/
-
-https://bitsofco.de/pa11y/
-
-https://www.accesslint.com/
-
-http://html5accessibility.com/
-
-http://accessible-colors.com/
-
-https://axe-core.org/
-
-https://tenon.io/
-
-https://wave.webaim.org/
-
-https://www.google.hr/search
-
-https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a
-
-http://pa11y.org/
-
-http://a11y-style-guide.com/style-guide/
-
-https://www.ssa.gov/accessibility/andi/help/install.html
-
-https://a11y-style-guide.com/style-guide/
-
-https://webpack.js.org/concepts/
-
-https://github.com/webpack-contrib/awesome-webpack
-
-https://github.com/jantimon/html-webpack-plugin/issues/218
-
-https://www.npmjs.com/package/directory-named-webpack-plugin
-
-https://webpack.jakoblind.no/
-
-https://roots.io/sage/
-
-https://github.com/timber/starter-theme
-
-https://docs.flothemes.com/recommended-plug-ins/
-
-https://openlitespeed.org/kb/digitalocean-1-click-wordpress-installation-upgrade/
-
-https://www.toptal.com/wordpress/wordpress-roots-stack
-
-https://gist.github.com/sgergely/3793166
-
-https://validator.w3.org/
-
-https://search.google.com/test/mobile-friendly
-
-https://developers.google.com/speed/pagespeed/insights/
-
-https://www.webpagetest.org/
-
-https://tools.pingdom.com/
-
-https://www.dotcom-tools.com/website-speed-test.aspx
-
-https://webspeedtest.cloudinary.com/
-
-https://securityheaders.com/
-
-https://webbkoll.dataskydd.net/en
-
-https://developers.google.com/web/tools/lighthouse/
-
-https://www.dareboost.com/en/analysis
-
-https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/
-
-https://mxtoolbox.com/Public/FreeInvestigator.aspx
-
-https://progressivetooling.com/
-
-https://www.statuscake.com/
-
-https://www.scamadviser.com/
-
-https://fontfaceobserver.com/
-
-https://meowni.ca/font-style-matcher/
-
-https://transfonter.org/
-
-https://rsms.me/inter/
-
-https://www.zachleat.com/web/23-minutes/
-
-https://jonathan-harrell.com/experiment/typographic-details-cheat-sheet/
-
-https://keyes.ie/things/baseliner/
-
-https://fontdrop.info/
-
-https://www.graphicdesignfreebies.com/home/2018/5/28/mouleyscript
-
-https://github.com/Munter/subfont
-
-https://www.zachleat.com/web/font-checklist/
-
-https://javascript.info/
-
-http://exercism.io/languages/javascript/exercises
-
-https://github.com/AllThingsSmitty/must-watch-javascript
-
-https://github.com/AllThingsSmitty/must-watch-css
-
-https://www.toptal.com/resources
-
-https://github.com/Chalarangelo/30-seconds-of-code
-
-https://cssgrid.io/
-
-https://scrimba.com/g/gcssvariables
-
-https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/
-
-https://www.vuemastery.com/
-
-http://www.gridtoflex.com/
-
-https://cssgr.id/
-
-https://justmarkup.com/log/2018/03/collection-of-css-snippets/
-
-https://www.learnenough.com/javascript-tutorial
-
-https://3dtransforms.desandro.com/
-
-https://github.com/cssanimation/css-animation-101
-
-https://www.toptal.com/tracker/
-
-https://toggl.com/
-
-https://timingapp.com/
-
-https://codepen.io/giana/pen/YZWjQy
-
-https://tympanus.net/codrops2017/
-
-https://lawsofux.com/
-
-https://codemyui.com/tag/link/
-
-https://codemyui.com/
-
-https://uimovement.com/
-
-https://daneden.github.io/animate.css/
-
-https://coolbackgrounds.io/
-
-https://tympanus.net/Development/GridMenu/index2.html
-
-https://webkul.github.io/coolhue/
-
-https://codepen.io/collection/nMgKxJ/
-
-https://flothemes.com/make-website-gdpr-ready/
-
-http://www.wpbeginner.com/beginners-guide/the-ultimate-guide-to-wordpress-and-gdpr-compliance-everything-you-need-to-know/
-
-https://faq.getstation.com/data-and-privacy
-
-https://www.jeffalytics.com/google-analytics-spring-cleaning/
-
-https://gdprhallofshame.com/
-
-https://www.control-alt-del.org/blog/serverless-blog-howto/
-
-https://www.onegraph.com/
-
-https://snipcart.com/blog/jamstack-clients-static-site-cms
-
-https://humanwhocodes.com/blog/2018/03/scheduling-jekyll-posts-netlify/
-
-https://www.seocentro.com/tools/search-engines/keyword-position.html
-
-https://www.wordstream.com/wordstream-graders
-
-https://serpstat.com/
-
-https://www.similarweb.com/
-
-https://moz.com/free-seo-tools
-
-https://www.mariehaynes.com/algo-changes-and-more/
-
-https://css-tricks.com/snippets/php/automatic-copyright-year/
-
-http://youmightnotneedjquery.com/
-
-http://youmightnotneedjs.com/
-
-http://blogs.quovantis.com/browser-specific-hacks-for-frontend-developers/
-
-https://dotfiles.github.io/
-
-https://github.com/mathiasbynens/dotfiles
-
-https://webdesign.tutsplus.com/tutorials/how-to-hand-code-svg--cms-30368
-
-https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/
-
-https://24ways.org/2017/wcag-for-people-who-havent-read-them/
-
-https://css-tricks.com/improving-accessibility-24-ways/
-
-https://www.virustotal.com/en/
-
-https://www.smashingmagazine.com/membership/
-
-https://doesmysitedeserverecognition.com/
-
-https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5
-
-https://www.photopea.com/
-
-https://www.ilovepdf.com/
-
-https://wiki.csswg.org/ideas/mistakes
-
-https://undraw.co/illustrations
-
-https://vectr.com/
-
-```
+- `https://extendsclass.com/xpath-tester.html`
+- `https://extendsclass.com/sqlite-browser.html`
+- `https://extendsclass.com/regex-tester.html`
+- `https://extendsclass.com/javascript-fiddle.html`
+- `https://extendsclass.com/jsonpath-tester.html`
+- `https://extendsclass.com/php-tester.html`
+- `https://extendsclass.com/python-tester.html`
+- `https://extendsclass.com/rest-client-online.html`
+- `https://extendsclass.com/soap-client-online.html`
+- `https://extendsclass.com/web-service-tester.html`
+- `https://extendsclass.com/mock-rest-api.html`
+- `https://extendsclass.com/json-validator.html`
+- `https://extendsclass.com/xml-formatter-online.html`
+- `https://extendsclass.com/sql-formatter.html`
+- `https://extendsclass.com/xml-to-json.html`
+- `https://extendsclass.com/json-to-csv.html`
+- `https://extendsclass.com/csv-to-excel.html`
+- `https://extendsclass.com/image-to-base64.html`
+- `https://extendsclass.com/base64-decode-encode.html`
+- `https://extendsclass.com/css-minifier.html`
+- `https://extendsclass.com/html-minifier.html`
+- `https://extendsclass.com/javascript-minifier.html`
+- `https://extendsclass.com/text-compare.html`
+- `https://extendsclass.com/xml-diff.html`
+- `https://extendsclass.com/json-diff.html`
+- `https://codepen.io/shshaw/pen/rrOZQQ`
+- `http://ruyadorno.github.io/simple-slider/`
+- `https://quokkajs.com/`
+- `https://codepen.io/shshaw/pen/LVKEdv`
+- `https://codepen.io/anthonydugois/pen/mewdyZ`
+- `http://kenwheeler.github.io/slick/`
+- `https://www.grabient.com/`
+- `https://www.sitelocity.com/critical-path-css-generator`
+- `https://nordicapis.com/7-helpful-http-tools/`
+- `https://regexly.chipto.io/`
+- `http://code.thisarmy.com/fontsinfo/`
+- `https://palette.okaybueno.com/p/59ce420a3a5905064c32b6b4`
+- `http://animejs.com/`
+- `https://codepen.io/jarmie/full/1ba718e2b7c02c6310671716128fc5d2/`
+- `https://gethead.info/`
+- `https://mobile.twitter.com/i/moments/880688233641848832`
+- `http://animista.net/play/basic/scale-up`
+- `https://gruntwork.io/why-prod-is-down/`
+- `http://fontfamily.io/`
+- `https://stackoverflow.com/questions/12616011/google-map-polyline-with-shadow`
+- `http://html5pattern.com/`
+- `https://wkhtmltopdf.org/`
+- `https://trackchanges.mikerogers.io/`
+- `https://isellsoap.github.io/specificity-visualizer/`
+- `http://bennettfeely.com/clippy/`
+- `https://createjs.com/`
+- `https://ui.toast.com/tui-editor/`
+- `https://www.cockos.com/licecap/`
+- `http://www.heymeta.com/url/irinaandmatej.com`
+- `https://www.browserling.com/tools/image-to-base64`
+- `https://jakearchibald.github.io/svgomg/`
+- `https://www.getoutline.com/#features`
+- `https://spotify.github.io/coordinator/`
+- `https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22`
+- `https://github.com/c0bra/deviceframe`
+- `https://formspree.io/`
+- `https://michalsnik.github.io/aos/`
+- `http://uigoodies.com/index.html`
+- `https://codepen.io/jesstelford/pen/PaBMrL`
+- `https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/`
+- `https://www.screely.com/`
+- `https://cssduotone.com/`
+- `https://streamlineicons.com/`
+- `https://scroll-out.github.io/`
+- `https://www.colorbox.io/`
+- `https://frontendchecklist.io/`
+- `https://yoksel.github.io/svg-gradient-map/#/`
+- `https://mailtolink.me/`
+- `https://gitexplorer.com/`
+- `https://remote.tools/`
+- `https://github.com/faressoft/terminalizer`
+- `https://9elements.github.io/fancy-border-radius/`
+- `https://cloudflare.design/color/`
+- `https://www.24sata.hr/`
+- `https://flawlessapp.io/designtools`
+- `http://speakhuman.today/`
+- `http://www.jstips.co/en/calculate-the-max-min-value-from-an-array/`
+- `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array`
+- `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger`
+- `https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray`
+- `http://www.w3schools.com/jsref/jsref_match.asp`
+- `https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Expressions_and_Operators`
+- `https://a11yproject.com/`
+- `https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques`
+- `https://www.w3.org/TR/wai-aria-practices/#intro`
+- `https://www.w3.org/TR/wai-aria/`
+- `http://webaim.org/resources/contrastchecker/`
+- `https://bitsofco.de/pa11y/`
+- `https://www.accesslint.com/`
+- `http://html5accessibility.com/`
+- `http://accessible-colors.com/`
+- `https://axe-core.org/`
+- `https://tenon.io/`
+- `https://wave.webaim.org/`
+- `https://www.google.hr/search`
+- `https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a`
+- `http://pa11y.org/`
+- `http://a11y-style-guide.com/style-guide/`
+- `https://www.ssa.gov/accessibility/andi/help/install.html`
+- `https://a11y-style-guide.com/style-guide/`
+- `https://webpack.js.org/concepts/`
+- `https://github.com/webpack-contrib/awesome-webpack`
+- `https://github.com/jantimon/html-webpack-plugin/issues/218`
+- `https://www.npmjs.com/package/directory-named-webpack-plugin`
+- `https://webpack.jakoblind.no/`
+- `https://roots.io/sage/`
+- `https://github.com/timber/starter-theme`
+- `https://docs.flothemes.com/recommended-plug-ins/`
+- `https://openlitespeed.org/kb/digitalocean-1-click-wordpress-installation-upgrade/`
+- `https://www.toptal.com/wordpress/wordpress-roots-stack`
+- `https://gist.github.com/sgergely/3793166`
+- `https://validator.w3.org/`
+- `https://search.google.com/test/mobile-friendly`
+- `https://developers.google.com/speed/pagespeed/insights/`
+- `https://www.webpagetest.org/`
+- `https://tools.pingdom.com/`
+- `https://www.dotcom-tools.com/website-speed-test.aspx`
+- `https://webspeedtest.cloudinary.com/`
+- `https://securityheaders.com/`
+- `https://webbkoll.dataskydd.net/en`
+- `https://developers.google.com/web/tools/lighthouse/`
+- `https://www.dareboost.com/en/analysis`
+- `https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/`
+- `https://mxtoolbox.com/Public/FreeInvestigator.aspx`
+- `https://progressivetooling.com/`
+- `https://www.statuscake.com/`
+- `https://www.scamadviser.com/`
+- `https://fontfaceobserver.com/`
+- `https://meowni.ca/font-style-matcher/`
+- `https://transfonter.org/`
+- `https://rsms.me/inter/`
+- `https://www.zachleat.com/web/23-minutes/`
+- `https://jonathan-harrell.com/experiment/typographic-details-cheat-sheet/`
+- `https://keyes.ie/things/baseliner/`
+- `https://fontdrop.info/`
+- `https://www.graphicdesignfreebies.com/home/2018/5/28/mouleyscript`
+- `https://github.com/Munter/subfont`
+- `https://www.zachleat.com/web/font-checklist/`
+- `https://javascript.info/`
+- `http://exercism.io/languages/javascript/exercises`
+- `https://github.com/AllThingsSmitty/must-watch-javascript`
+- `https://github.com/AllThingsSmitty/must-watch-css`
+- `https://www.toptal.com/resources`
+- `https://github.com/Chalarangelo/30-seconds-of-code`
+- `https://cssgrid.io/`
+- `https://scrimba.com/g/gcssvariables`
+- `https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/`
+- `https://www.vuemastery.com/`
+- `http://www.gridtoflex.com/`
+- `https://cssgr.id/`
+- `https://justmarkup.com/log/2018/03/collection-of-css-snippets/`
+- `https://www.learnenough.com/javascript-tutorial`
+- `https://3dtransforms.desandro.com/`
+- `https://github.com/cssanimation/css-animation-101`
+- `https://www.toptal.com/tracker/`
+- `https://toggl.com/`
+- `https://timingapp.com/`
+- `https://codepen.io/giana/pen/YZWjQy`
+- `https://tympanus.net/codrops2017/`
+- `https://lawsofux.com/`
+- `https://codemyui.com/tag/link/`
+- `https://codemyui.com/`
+- `https://uimovement.com/`
+- `https://daneden.github.io/animate.css/`
+- `https://coolbackgrounds.io/`
+- `https://tympanus.net/Development/GridMenu/index2.html`
+- `https://webkul.github.io/coolhue/`
+- `https://codepen.io/collection/nMgKxJ/`
+- `https://flothemes.com/make-website-gdpr-ready/`
+- `http://www.wpbeginner.com/beginners-guide/the-ultimate-guide-to-wordpress-and-gdpr-compliance-everything-you-need-to-know/`
+- `https://faq.getstation.com/data-and-privacy`
+- `https://www.jeffalytics.com/google-analytics-spring-cleaning/`
+- `https://gdprhallofshame.com/`
+- `https://www.control-alt-del.org/blog/serverless-blog-howto/`
+- `https://www.onegraph.com/`
+- `https://snipcart.com/blog/jamstack-clients-static-site-cms`
+- `https://humanwhocodes.com/blog/2018/03/scheduling-jekyll-posts-netlify/`
+- `https://www.seocentro.com/tools/search-engines/keyword-position.html`
+- `https://www.wordstream.com/wordstream-graders`
+- `https://serpstat.com/`
+- `https://www.similarweb.com/`
+- `https://moz.com/free-seo-tools`
+- `https://www.mariehaynes.com/algo-changes-and-more/`
+- `https://css-tricks.com/snippets/php/automatic-copyright-year/`
+- `http://youmightnotneedjquery.com/`
+- `http://youmightnotneedjs.com/`
+- `http://blogs.quovantis.com/browser-specific-hacks-for-frontend-developers/`
+- `https://dotfiles.github.io/`
+- `https://github.com/mathiasbynens/dotfiles`
+- `https://webdesign.tutsplus.com/tutorials/how-to-hand-code-svg--cms-30368`
+- `https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/`
+- `https://24ways.org/2017/wcag-for-people-who-havent-read-them/`
+- `https://css-tricks.com/improving-accessibility-24-ways/`
+- `https://www.virustotal.com/en/`
+- `https://www.smashingmagazine.com/membership/`
+- `https://doesmysitedeserverecognition.com/`
+- `https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5`
+- `https://www.photopea.com/`
+- `https://www.ilovepdf.com/`
+- `https://wiki.csswg.org/ideas/mistakes`
+- `https://undraw.co/illustrations`
+- `https://vectr.com/`

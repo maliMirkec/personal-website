@@ -5,7 +5,7 @@ descriptionAlt: Collection of all slides available on my site.
 description: Discover the latest presentations on various web development topics and explore the latest ideas and best practices in the field.
 type: articles
 sections:
-  - type: hero-alpha
+  - type: hero
     title: From Slides
     desc: >-
       Here is the collection of all slides on my site.
@@ -14,7 +14,6 @@ sections:
     cta:
       title: View slides
     noDate: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

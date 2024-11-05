@@ -12,9 +12,9 @@ thumbnail:
   width: 759
   height: 459
 display: true
-date: 2005-01-03
+date: 2019-08-08
 sections:
-  - type: hero-alpha
+  - type: hero
     src: cld_eweklc
     alt: Screenshot of Code Line Daily website.
     width: 759
@@ -35,7 +35,6 @@ sections:
   - type: cards-gamma
     filter: projects
     exclude: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

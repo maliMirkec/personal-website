@@ -18,7 +18,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight, saving you and your users precious time and bandwidth. This increased efficiency is reflected in lower costs and, potentially, higher revenues.

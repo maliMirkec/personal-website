@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Recently I discovered some weird issues with CLS, although my Lighthouse CLS results were perfect. Me being me, I started to investigate this odd behavior, and I learned a lot about system fonts and CSS `ch` unit along the way.

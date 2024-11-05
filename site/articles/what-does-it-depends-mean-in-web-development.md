@@ -14,7 +14,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I have been in numerous situations where my answer to a client’s question was: “it depends.”

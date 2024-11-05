@@ -293,6 +293,10 @@ blockquote p:not(:first-of-type) {
   padding-block: var(--size-20-40);
 }
 
+.page--about .hero {
+  padding-block-end: unset;
+}
+
 .hero__title {
   font-size: var(--size-30-60);
   max-inline-size: var(--hero-title-width, 30ch);
@@ -542,6 +546,18 @@ body:not(.page--home) .banner--beta .banner__title {
   margin-block-start: var(--size-10-20);
 }
 
+.copy {
+  font-size: var(--size-20-24);
+}
+
+.copy > * + * {
+  margin-block-start: 1.25em;
+}
+
+.copy img {
+  border-radius: var(--size-10-20);
+}
+
 .copy blockquote p {
   font-size: var(--size-20-30);
   font-weight: 300;
@@ -550,6 +566,12 @@ body:not(.page--home) .banner--beta .banner__title {
 
 .copy blockquote:before {
   inline-size: .3em;
+}
+
+.page--branding .copy p:has(img) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--size-05-10);
 }
 
 @media screen and (max-width: 499px) {
@@ -642,7 +664,7 @@ body:not(.page--home) .banner--beta .banner__title {
 
   .main:before {
     content: '';
-    background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) 5%, var(--color-light) 95%, var(--color-beta) 100%);
+    background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-beta) 100%);
     position: absolute;
     inset: 0;
     margin: calc(var(--size-05-10) * -1);
@@ -660,6 +682,7 @@ body:not(.page--home) .banner--beta .banner__title {
   }
 
   .page--home .banner--alpha,
+  .page--default .banner--beta,
   body:not(.page--home) .banner--beta:last-of-type {
     position: sticky;
     inset-block-start: var(--size-20-40);

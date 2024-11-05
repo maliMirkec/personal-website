@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 My friends, who don't code, sometimes ask me what I do for a living, and I usually answer that I build websites.

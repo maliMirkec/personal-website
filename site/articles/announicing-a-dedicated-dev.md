@@ -14,7 +14,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Today I launched [A Dedicated Dev](https://www.producthunt.com/posts/a-dedicated-dev) - a subscription-based web development service. If you need a trustworthy and reliable web developer, you can subscribe and get web development services when you need them.

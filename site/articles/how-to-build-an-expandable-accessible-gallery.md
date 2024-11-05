@@ -15,7 +15,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 One of the use cases for using CSS Grid is to display a gallery of images, but a gallery on its own may not be that exciting. We could, for example, add a click effect to enlarge the image without affecting the grid to make it a little bit more fun. And of course, as to not exclude anybody from enjoying this feature, we should make it accessible, too.

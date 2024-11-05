@@ -17,7 +17,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Let’s attempt to coin a term here: "Static Form Provider." You bring your HTML `<form>`, but don’t worry about the back-end processing that makes it work. [There are a lot of these services out there!](https://serverless.css-tricks.com/services/forms)

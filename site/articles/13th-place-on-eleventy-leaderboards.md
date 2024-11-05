@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 If you run a site on Eleventy, you probably know about Speedlify. It’s a tool for “benchmarking the web performance and accessibility of sites over time.”

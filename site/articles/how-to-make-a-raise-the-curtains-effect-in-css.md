@@ -15,7 +15,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 "Raise the curtains" is what I call an effect where the background goes from dark to light on scroll, and the content on top also goes from light to dark while in a sticky position.

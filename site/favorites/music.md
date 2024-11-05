@@ -13,7 +13,7 @@ thumbnail:
   height: 294
 js: gallery
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My favorite music
     desc: >-
       Just my random favorite music bands and artists.
@@ -130,7 +130,6 @@ sections:
       - title: Hot Chip
         href: https://www.last.fm/music/Hot+Chip
         src: hot-chip_yewutg
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

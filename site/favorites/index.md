@@ -11,7 +11,7 @@ favorites:
 
       I miss my monitors and my chair and my piece. -.-
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My favorites
     desc: >-
       Just my random favorite stuff, from TV shows and characters, to bands and artists.
@@ -25,7 +25,6 @@ sections:
     filter: favorites
     instant: 3
     h2: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

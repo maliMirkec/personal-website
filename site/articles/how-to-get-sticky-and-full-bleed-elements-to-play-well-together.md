@@ -14,7 +14,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top. This ended up being rather tricky to pull off so I’m documenting it here in case anyone needs to re-create this same effect. Part of the trickiness was dealing with logical positioning on small screens as well.

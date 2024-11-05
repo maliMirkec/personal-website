@@ -2,7 +2,7 @@
 layout: index
 title: My other favorites
 description: Silvestar's favorite writers, books, games, sport teams and individuals, and more.
-type: page
+type: default
 tags:
   - favorites
 permalink: false
@@ -17,14 +17,13 @@ pagination:
   size: 12
 js: gallery
 sections:
-  - type: hero-alpha
+  - type: hero
     title: My TV favorites
     desc: >-
       Just my random favorite writers, books, games, sport teams and individuals, and other.
   - type: cards-epsilon
     cta:
       title: Read more
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

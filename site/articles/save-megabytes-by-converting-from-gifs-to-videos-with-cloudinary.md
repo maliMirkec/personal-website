@@ -10,7 +10,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I switched from GIFs to videos recently. I’ve been using Cloudinary to host my images for years, but I didn’t realize I could use it to convert GIFs to videos automatically. In this post, learn how Cloudinary helped me save megabytes of data by automatically converting GIFs to videos.

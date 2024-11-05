@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Here’s what I think: if you are building websites, you don’t need React (in most cases).

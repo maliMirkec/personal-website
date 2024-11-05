@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I know there are more than a few articles about this topic. And there are 2 basic approaches: [using `:target` pseudo selector](https://css-tricks.com/css3-tabs/) and [using list with `:checked` pseudo selector](https://css-tricks.com/functional-css-tabs-revisited/).

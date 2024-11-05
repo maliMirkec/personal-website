@@ -17,7 +17,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 If you are starting a new website, consider using [Hugo]. Other than it is “the world’s fastest framework for building websites,” it is packed with powerful features that would make the website development process more pleasable.

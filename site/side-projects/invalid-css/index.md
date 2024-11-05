@@ -9,12 +9,13 @@ thumbnail:
   alt: Screenshot of the Invalid CSS home page.
   width: 759
   height: 459
+display: true
 type: articles
 tags:
   - projects
-date: 2005-01-04
+date: 2021-12-01
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Invalid CSS
     desc: >-
       CSS declarations that are not valid and that I wish existed.
@@ -29,5 +30,4 @@ sections:
     noDesc: true
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---

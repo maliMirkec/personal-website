@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 When you disable the `fieldset` element **before** reading the form data using the `FormData` constructor, the data will be **empty**.

@@ -2,19 +2,17 @@
 layout: index
 title: My services
 description: Silvestar have been working with web technologies since 2012. During this period, he acquired a certain set of skills for building better websites.
-type: page
+type: default
 sections:
-  - type: hero-alpha
+  - type: hero
     title: Frontend dev services to enhance your project's user experience
     desc: My passion for web technologies began in 2012, and since then, I've acquired an arsenal of skills for creating top-quality websites.
-    narrow: true
     cta:
       href: /contact/
       title: Get in touch
 sections2:
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---
 
 ## Frontend

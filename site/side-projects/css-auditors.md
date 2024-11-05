@@ -11,9 +11,9 @@ thumbnail:
   width: 759
   height: 459
 display: true
-date: 2005-01-02
+date: 2021-02-18
 sections:
-  - type: hero-alpha
+  - type: hero
     src: css-auditors_fozunn
     alt: Screenshot of Code Line Daily website.
     width: 759
@@ -34,7 +34,6 @@ sections:
   - type: cards-gamma
     filter: projects
     exclude: true
-  - type: banner-alpha
+  - type: banner
     banner: consultation
-    animate: true
 ---

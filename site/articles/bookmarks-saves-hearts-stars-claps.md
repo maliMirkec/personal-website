@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools. I guess this is because my browser is displaying bookmarked pages first in the suggestions which could be very useful when you know only part of the title or a domain.

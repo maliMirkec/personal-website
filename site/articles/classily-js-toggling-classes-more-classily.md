@@ -13,7 +13,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 I created a `JavaScript` plugin for toggling classes more __classily__, and I called it **[Classily.js](https://github.com/maliMirkec/Classily.js)**. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.

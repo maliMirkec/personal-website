@@ -12,7 +12,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Today I published [my first VS Code extension - Clamp it](https://marketplace.visualstudio.com/items?itemName=starbist.clamp-it)! This extension makes it easy to generate the clamped sizes for your CSS code.

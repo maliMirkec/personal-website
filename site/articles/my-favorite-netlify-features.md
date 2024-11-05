@@ -17,7 +17,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. All these modern frameworks, tools, and services make our lives as JAMstack developers quite enjoyable. In fact, Chris would say [they give us superpowers].

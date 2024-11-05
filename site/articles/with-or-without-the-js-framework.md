@@ -11,7 +11,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 In his [recent article](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/), Josh Comeau predicts AI won’t overtake frontend development (at least not soon). I agree, but something else Mr. Comeau wrote made me write this post.

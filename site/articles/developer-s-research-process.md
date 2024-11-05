@@ -10,7 +10,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 ---
 
 When given a project or task you don’t know how to solve, you must research and find possible solutions to estimate the required effort. In this post, I will explain how I research before I start developing.

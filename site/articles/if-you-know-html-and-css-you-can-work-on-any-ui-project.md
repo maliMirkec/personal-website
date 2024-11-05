@@ -9,7 +9,6 @@ type: articles-item
 sections2:
   - type: banner-beta
     banner: newsletter
-    animate: true
 permalink: false
 eleventyExcludeFromCollections: true
 ---
