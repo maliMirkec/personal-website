@@ -310,7 +310,8 @@
     "desc": "I specialize in technologies related to frontend, user interface, and website development.",
     "cta": {
       "href": "/services/",
-      "title": "Explore all services"
+      "title": "Explore all services",
+      "modifiers": ["small", "inverse"]
     }
   }
 }
