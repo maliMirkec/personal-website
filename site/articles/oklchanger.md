@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Oklchanger VS Code extension
+title: OKLCHanger VS Code extension
 date: 2024-11-05 15:00:00
 tags:
   - blog
@@ -14,8 +14,6 @@ sections2:
     banner: newsletter
     animate: true
 ---
-
-{% video "https://res.cloudinary.com/starbist/video/upload/v1727895956/clamp-it_fng4a5" 759 278 'autoplay' 'loop' 'mute' true %}
 
 I was inspired by an article on the Oklab color format and decided to develop [a VS Code extension that effortlessly converts any color format to Oklab](https://marketplace.visualstudio.com/items?itemName=starbist.oklchanger).
 
