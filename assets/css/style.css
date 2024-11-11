@@ -420,6 +420,10 @@ hr[class*="hr"]:before {
   opacity: 0.5;
 }
 
+.copy :is(ul, ol):not([class]) {
+  list-style: initial;
+}
+
 p:empty {
   display: none;
 }

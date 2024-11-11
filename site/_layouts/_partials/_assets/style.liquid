@@ -16,5 +16,5 @@
   {% endif %}
 {% endif %}
 {% if type == 'articles-item' %}
-  <link rel="stylesheet" href="/css/prism-okaidia.min.css" media="print" onload='this.media="all"'>
+  <link rel="stylesheet" href="/css/prism-okaidia.{% if env.production or env.staging %}min.{% endif %}css" media="print" onload='this.media="all"'>
 {% endif %}
