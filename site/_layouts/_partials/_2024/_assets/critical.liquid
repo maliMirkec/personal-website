@@ -1,33 +1,13 @@
-{% if env.production %}
-  {% if loadCritical %}
-    <style>{{ type | getCritical }}</style>
-  {% else %}
-    {% if isMentor %}
-      <link rel="stylesheet" href="/critical/mentor.min.css">
-    {% elsif isRibbons %}
-      <link rel="stylesheet" href="/critical/ribbons.min.css">
-    {% elsif isSlides %}
-      <link rel="stylesheet" href="/critical/slides.min.css">
-    {% elsif is360 %}
-      <link rel="stylesheet" href="/critical/devcards.min.css">
-    {% elsif isHexo %}
-      <link rel="stylesheet" href="/critical/hexo.min.css">
-    {% else %}
-      <link rel="stylesheet" href="/critical/style-2024.css">
-    {% endif %}
-  {% endif %}
+{% if isMentor %}
+  <link rel="stylesheet" href="/css/mentor.css">
+{% elsif isRibbons %}
+  <link rel="stylesheet" href="/css/ribbons.css">
+{% elsif isSlides %}
+  <link rel="stylesheet" href="/css/slides.css">
+{% elsif is360 %}
+  <link rel="stylesheet" href="/css/devcards.css">
+{% elsif isHexo %}
+  <link rel="stylesheet" href="/css/hexo.css">
 {% else %}
-  {% if isMentor %}
-    <link rel="stylesheet" href="/css/mentor.css">
-  {% elsif isRibbons %}
-    <link rel="stylesheet" href="/css/ribbons.css">
-  {% elsif isSlides %}
-    <link rel="stylesheet" href="/css/slides.css">
-  {% elsif is360 %}
-    <link rel="stylesheet" href="/css/devcards.css">
-  {% elsif isHexo %}
-    <link rel="stylesheet" href="/css/hexo.css">
-  {% else %}
-    <link rel="stylesheet" href="/css/style-2024.css">
-  {% endif %}
+  <link rel="stylesheet" href="/css/style-2024.css">
 {% endif %}
