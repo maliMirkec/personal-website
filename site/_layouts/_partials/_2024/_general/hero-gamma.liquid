@@ -1,4 +1,4 @@
-<section class="hero{% if firstTag == 'blog' or firstTag == 'advent' %} hero--fancy{% endif %}">
+<section class="hero{% if firstTag == 'blog' or firstTag == 'advent' or firstTag == 'redesign-2024' %} hero--fancy{% endif %}">
   <div class="wrapper text-center">
     <div class="padding">
       <div class="margin-bottom">
@@ -7,6 +7,9 @@
         {% endif %}
         {% if firstTag == 'advent' %}
           <a class="button button--invisible button--small with-slash" href="/side-projects/advent/">Advent</a>
+        {% endif %}
+        {% if firstTag == 'redesign-2024 %}
+          <a class="button button--invisible button--small with-slash" href="/side-projects/redesign/">Advent of redesign</a>
         {% endif %}
         {% if tags %}
           {% assign myTags = tags | tagify %}

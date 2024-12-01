@@ -28,6 +28,7 @@
   --size-60-120: clamp(3.75rem, calc(0rem + 6vw), 7.5rem);
 
   --color-alpha: #63f2c5;
+  --color-alpha-op0: #63f2c500;
   --color-beta: #ff3366;
   --color-gamma: #043A73;
   --color-dark: #000;
@@ -45,6 +46,7 @@
 @supports (color: oklch(0.87 0.14 169.13 / 1)) {
   :root {
     --color-alpha: oklch(0.87 0.14 169.13 / 1);
+    --color-alpha-op0: oklch(0.87 0.14 169.13 / 0);
     --color-beta: oklch(0.66 0.23 13.34 / 1);
     --color-gamma: oklch(0.35 0.11 254.86 / 1);
     --color-dark: oklch(0 0 0 / 1);
@@ -433,6 +435,7 @@ blockquote p:not(:first-of-type) {
 .box__grid--alpha {
   grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
   place-items: center;
+  align-items: start;
 }
 
 .box__grid .box__tags {
@@ -444,7 +447,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .box__panel img {
-  filter: drop-shadow(0 var(--size-02-04) var(--size-05-10) transparent);
+  filter: drop-shadow(0 var(--size-02-04) var(--size-05-10) var(--color-alpha-op0));
   transition: var(--timing200);
 }
 
