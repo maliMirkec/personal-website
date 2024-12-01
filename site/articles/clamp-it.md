@@ -32,7 +32,7 @@ To start using it, first configure it by setting the following options in the gl
 
 Next, type minimum and maximum sizes  (in pixels), highlight the typed sizes, and then choose Clamp it! command from command palette:
 
-{% video "https://res.cloudinary.com/starbist/video/upload/v1727895956/clamp-it_fng4a5" 759 671 'autoplay' 'loop' 'mute' true %}
+{% video "https://res.cloudinary.com/starbist/video/upload/v1727895956/clamp-it_fng4a5" 759 325 'autoplay' 'loop' 'mute' true %}
 
 If you want, you can use the full definition, like so:
 
