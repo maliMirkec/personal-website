@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Invalid CSS
 projectTitle: Invalid CSS
 old_escription: CSS declarations that are not valid and that I wish existed.
@@ -17,17 +17,16 @@ date: 2021-12-01
 sections:
   - type: hero
     title: Invalid CSS
-    desc: >-
+    text: >-
       CSS declarations that are not valid and that I wish existed.
 
 
       If you want to subscribe to RSS feed for Invalid CSS, [check the feed](/rss3.xml).
-  - type: cards-alpha
-    cta:
-      title: See declaration
+  - type: newsletter
+    sticky: true
+  - type: article-list
     filter: my-css
     sorter: date
-    noDesc: true
-  - type: banner-beta
-    banner: newsletter
+  - type: banner
+    banner: consultation
 ---

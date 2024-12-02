@@ -27,5 +27,6 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---

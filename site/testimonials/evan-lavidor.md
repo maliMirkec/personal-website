@@ -28,6 +28,7 @@ sections:
 sections2:
   - type: banner
     banner: bozzuto
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -40,7 +41,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: We've worked with Silvestar on several projects, and he's been a pleasure to work with...
 ---
 

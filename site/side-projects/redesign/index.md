@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Advent of redesign
 projectTitle: Advent of redesign
 descriptionAlt: For every day of advent I am showcasing the progress of my website redesign.
@@ -17,13 +17,13 @@ date: 2024-12-01
 sections:
   - type: hero
     title: Advent of redesign
-    desc: >-
+    text: >-
       For every day of advent I am showcasing the progress of my website redesign.
-  - type: cards-alpha
-    cta:
-      title: Check the component
+  - type: newsletter
+    sticky: true
+  - type: article-list
     filter: my-redesign
     sorter: date
-  - type: banner-beta
-    banner: newsletter
+  - type: banner
+    banner: consultation
 ---

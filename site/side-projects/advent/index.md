@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Advent of UI components
 projectTitle: Advent of UI components
 descriptionAlt: For every day of advent I am showcasing a new UI Component. The theme? You guessed it ― Christmas. 🎄
@@ -17,16 +17,16 @@ date: 2021-12-01
 sections:
   - type: hero
     title: Advent of UI components
-    desc: >-
+    text: >-
       For every day of advent I am building a new UI Component.
 
 
       The theme? You guessed it ― Christmas. 🎄
-  - type: cards-alpha
-    cta:
-      title: Check the component
+  - type: newsletter
+    sticky: true
+  - type: article-list
     filter: my-advent
     sorter: date
-  - type: banner-beta
-    banner: newsletter
+  - type: banner
+    banner: consultation
 ---

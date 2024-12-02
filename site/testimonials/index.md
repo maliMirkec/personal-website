@@ -10,6 +10,9 @@ sections:
     text_width: 44
     text2: Every endorsement has been verified on [my LinkedIn profile](https://www.linkedin.com/in/starbist/).
     text2_width: 50
+  - type: newsletter
+
+    sticky: true
   - type: testimonial-list
     filter: testimonials
   - type: banner

@@ -171,6 +171,11 @@ body {
   color: var(--color-alpha);
 }
 
+[class*="cta--converse"] {
+  background-image: linear-gradient(to left, transparent -100%, var(--color-gamma) 1000%);
+  color: var(--color-gamma);
+}
+
 [class*="cta"]:after {
   content: '››››';
   transform: translateY(calc(var(--size-02-04) * -1));
@@ -400,6 +405,7 @@ blockquote p:not(:first-of-type) {
 .box__list {
   list-style: none;
   display: grid;
+  place-items: start;
   gap: var(--size-20-40);
 }
 
@@ -497,36 +503,48 @@ blockquote p:not(:first-of-type) {
 }
 
 .banner {
-  background-image: linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
   align-self: start;
   display: grid;
+  gap: var(--size-05-10);
   inline-size: 100%;
   padding: var(--size-20-40);
-}
-
-.banner--alpha {
-  gap: var(--size-05-10);
   border-radius: var(--size-20-40);
 }
 
+.banner--alpha {
+  background-image: linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
+}
+
 .banner--beta {
+  background-image: linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+}
+
+.banner--big {
   gap: var(--size-10-20);
   border-radius: var(--size-30-60);
 }
 
-.banner--alpha .banner__title {
+.banner__logo {
+  margin-block-end: var(--size-05-10);
+}
+
+.banner__title {
   font-size: var(--size-20-24);
 }
 
-.page--home .banner--beta .banner__title {
-  font-size: var(--size-30-40);
+.banner__text {
+  font-size: var(--size-16-20);
 }
 
-body:not(.page--home) .banner--beta .banner__title {
+.banner--medium .banner__title {
   font-size: var(--size-20-30);
 }
 
-.banner--beta .banner__text {
+.banner--big .banner__title {
+  font-size: var(--size-30-40);
+}
+
+.banner--big .banner__text {
   font-size: var(--size-20-24);
 }
 
@@ -534,7 +552,8 @@ body:not(.page--home) .banner--beta .banner__title {
   font-size: var(--size-16-20);
   display: flex;
   flex-wrap: wrap;
-  gap: var(--size-10-20);
+  column-gap: var(--size-10-20);
+  row-gap: var(--size-05-10);
   list-style-position: inside;
 }
 
@@ -749,19 +768,13 @@ body:not(.page--home) .banner--beta .banner__title {
     grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
   }
 
-  .page--home .banner--alpha,
-  body:not(.page--home) .banner--beta {
+  .banner.sticky {
+    position: sticky;
+    inset-block-start: var(--size-20-40);
     grid-column: 2;
   }
 
-  .page--home .banner--alpha,
-  .page--default .banner--beta,
-  body:not(.page--home) .banner--beta:last-of-type {
-    position: sticky;
-    inset-block-start: var(--size-20-40);
-  }
-
-  .banner--beta {
+  .banner:not(.sticky) {
     grid-column: 1;
   }
 

@@ -9,7 +9,8 @@ sections:
     title: Branding
     text: Here you could find different versions of my logo.
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---
 
 ## SVG

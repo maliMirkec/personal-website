@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Code Line Daily
 descriptionAlt: Code Line Daily is dedicated to highlighting awesome code single-liners.
 description: Code Line Daily is a side project dedicated to providing daily single-liners to help developers improve skills and knowledge in the field of web development.
@@ -20,20 +20,19 @@ sections:
     width: 759
     height: 459
     title: Code Line Daily
-    desc: Code Line Daily is dedicated to highlighting awesome code single-liners.
+    text: Code Line Daily is dedicated to highlighting awesome code single-liners.
     cta:
       href: //cld.silvestar.codes
       title: Go to the Project
-      animate: true
     cta2:
       href: /side-projects/
       title: Discover other projects
-  - type: hero-beta
-    title: From My Projects
-    desc: >-
-      Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
-  - type: cards-gamma
+  - type: newsletter
+    sticky: true
+  - type: project-list
+    title: Featured projects
     filter: projects
+    limit: 6
     exclude: true
   - type: banner
     banner: consultation

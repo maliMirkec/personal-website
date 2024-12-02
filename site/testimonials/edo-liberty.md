@@ -25,6 +25,7 @@ sections:
 sections2:
   - type: banner
     banner: pinecone
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -37,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 

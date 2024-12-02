@@ -8,7 +8,8 @@ sections:
     title: About me
     text: I am Silvestar Bistrović, a **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), and founder of [CSS Auditors](https://css-auditors.com/).
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.

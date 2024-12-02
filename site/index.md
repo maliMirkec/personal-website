@@ -26,7 +26,10 @@ sections:
       title: All articles
       modifiers:
         - small
+  - type: banner
+    banner: redesign
   - type: newsletter
+    sticky: true
   - type: project-list
     title: Featured projects
     filter: portfolio

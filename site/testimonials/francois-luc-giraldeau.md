@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: approx-blue
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: My partner and I teamed up with Silvestar this year. The work he did was top-notch...
 ---
 

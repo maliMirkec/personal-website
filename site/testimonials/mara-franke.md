@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: wunder-mobility
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Silvestar is a talented, dedicated, and knowledgeable web developer...
 ---
 

@@ -1,15 +1,16 @@
 ---
-layout: index
+layout: default
 title: My slides
 descriptionAlt: Collection of all slides available on my site.
 description: Discover the latest presentations on various web development topics and explore the latest ideas and best practices in the field.
 type: articles
 sections:
   - type: hero
-    title: From Slides
-    desc: >-
-      Here is the collection of all slides on my site.
-  - type: cards-alpha
+    title: My Slides
+    text: Here is the collection of all slides on my site.
+  - type: newsletter
+    sticky: true
+  - type: article-list
     filter: my-slides
     cta:
       title: View slides

@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: creditcardinsider
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Silvestar is amazing. He is fast, and the work he produces is among the highest quality work...
 ---
 

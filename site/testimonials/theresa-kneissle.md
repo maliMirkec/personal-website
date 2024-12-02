@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: westwing
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation22
+    banner: consultation2
 excerpt: Excited to have worked alongside Silvestar during our implementation of a new ATS...
 ---
 

@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: pinecone
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: When I'm asked to recommend a web developer, Silvestar is the first name that comes to mind...
 ---
 

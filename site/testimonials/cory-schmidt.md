@@ -25,6 +25,7 @@ sections:
 sections2:
   - type: banner
     banner: wunder-mobility
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -37,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 

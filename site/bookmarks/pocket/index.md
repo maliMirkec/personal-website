@@ -10,7 +10,8 @@ sections:
     title: Pocket Bookmarks
     text: Pocket bookmarks export file.
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---
 
 - `https://www.youtube.com/watch?v=2Rn8an74khk&amp;feature=youtu.be`

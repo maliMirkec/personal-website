@@ -13,4 +13,5 @@ sections:
   - type: contact
   - type: banner
     banner: services
+    sticky: true
 ---

@@ -26,6 +26,7 @@ sections:
 sections2:
   - type: banner
     banner: dominodatalab
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -38,7 +39,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Silvestar was an outstanding collaborator, supremely dependable doer...
 ---
 

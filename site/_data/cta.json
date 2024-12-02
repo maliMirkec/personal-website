@@ -9,6 +9,7 @@
   },
   "testimonials": {
     "desc": "Over 20 professionals from several companies vouched for me.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/testimonials/",
       "title": " See all testimonials",
@@ -17,6 +18,7 @@
   },
   "freelance": {
     "desc": "I have been working as a freelance contractor since 2017.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/articles/a-story-of-becoming-a-web-developer/",
       "title": "Read the full story",
@@ -25,6 +27,7 @@
   },
   "interview": {
     "desc": "Remote Working Hub interviewed me about my remote working.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/articles/interview-for-remote-working-hub/",
       "title": "Read the interview",
@@ -33,6 +36,7 @@
   },
   "blog": {
     "desc": "I have been writing about frontend, web dev, and freelancing since 2016.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/articles/",
       "title": "View all articles",
@@ -41,18 +45,20 @@
   },
   "css-auditors": {
     "desc": "I started CSS Auditors, a site dedicated to analyzing CSS code.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "https://css-auditors.com",
       "title": "Learn more about CSS Auditors",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "codescan": {
     "desc": "I rebuild the whole site for CodeScan using the Hugo framework.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/codescan/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "cs_zg7xpc",
@@ -64,15 +70,16 @@
     "cta2": {
       "href": "https://www.codescan.io",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "javelin-bipod": {
     "desc": "I've revamped a few Shopify templates, including homepage and PDP templates.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/javelin-bipod/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "spe_u2xgvi",
@@ -84,15 +91,16 @@
     "cta2": {
       "href": "https://javelinbipod.co.uk",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "approx-blue": {
     "desc": "I've built the entire site with Eleventy and Contentful.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/approx-blue/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "ab_vvxzwu.svg",
@@ -104,15 +112,16 @@
     "cta2": {
       "href": "https://approx.blue",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "dominodatalab": {
     "desc": "I helped migrate Domino Data Lab site from Jekyll to HubSpot CMS.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/dominodatalab/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "ddl_rj0jfd",
@@ -124,15 +133,16 @@
     "cta2": {
       "href": "https://www.dominodatalab.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "wunder-mobility": {
     "desc": "I helped rebuild the whole Wunder Mobility site using Jekyll and Contentful.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/wundermobility/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "wm_ysj8e4",
@@ -144,15 +154,16 @@
     "cta2": {
       "href": "https://www.wundermobility.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "heyflow": {
     "desc": "I helped rebuild the whole Heyflow site using Eleventy and Contentful.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/heyflow/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "heyflow-logo_ljp25m.svg",
@@ -164,15 +175,16 @@
     "cta2": {
       "href": "https://heyflow.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "westwing": {
     "desc": "I built the whole site for Westwing using the Hugo framework.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/westwing/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "ww_pm2rwy",
@@ -184,15 +196,16 @@
     "cta2": {
       "href": "https://www.westwing.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "pinecone": {
     "desc": "I built a site for Pinecone, powered by Hugo, “the world’s fastest framework.”",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/pinecone/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "pinecone-logo_ybycgg",
@@ -204,15 +217,16 @@
     "cta2": {
       "href": "https://www.pinecone.io",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "bozzuto": {
     "desc": "I developed a library of reusable UI components for Bozzuto.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/bozzuto/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "bm_qlnuvi",
@@ -224,15 +238,16 @@
     "cta2": {
       "href": "https://www.bozzuto.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "creditcardinsider": {
     "desc": "I built the WordPress theme for the Credit Card Insider website.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/creditcardinsider/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "cci_xk4gjk",
@@ -244,15 +259,16 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/",
       "title": "See the snapshot",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "hanhanxue": {
     "desc": "I built the whole site for Han Han Xue using the Middleman framework.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/hanhanxue/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "hhx_iu8agl",
@@ -264,15 +280,16 @@
     "cta2": {
       "href": "https://www.hanhanxue.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "yearbook-trase": {
     "desc": "I built the WordPress template for the Trase Yearbook 2018.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/yearbook-trase/",
       "title": "See the project",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     },
     "logo": {
       "src": "yt_iyy37j",
@@ -284,21 +301,23 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/",
       "title": "See the snapshot",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
+    }
+  },
+  "redesign": {
+    "title": "Advent of redesign",
+    "desc": "I'm redesigning my site out in the open. Join me on my journey to make this site beautiful.",
+    "modifiers": ["beta", "small"],
+    "cta": {
+      "href": "/side-projects/redesign/",
+      "title": "Go to project",
+      "modifiers": ["small", "converse"]
     }
   },
   "consultation": {
     "title": "Get professional web development advice",
     "desc": "I specialize in technologies related to frontend, user interface, and website development. In other words, I'm building website for everyone.",
-    "cta": {
-      "href": "/contact/",
-      "title": "Get in touch",
-      "modifiers": ["inverse"]
-    }
-  },
-  "consultation2": {
-    "title": "Get professional web development advice",
-    "desc": "I specialize in technologies related to frontend, user interface, and website development. In other words, I'm building website for everyone.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/contact/",
       "title": "Get in touch",
@@ -308,6 +327,7 @@
   "services": {
     "title": "Get professional web development advice",
     "desc": "I specialize in technologies related to frontend, user interface, and website development.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/services/",
       "title": "Explore all services",
@@ -317,6 +337,7 @@
   "portfolio": {
     "title": "Explore my best projects",
     "desc": "Built with WordPress, Shopify, Jekyll, 11ty, and Hugo, among others.",
+    "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/portfolio/",
       "title": "Explore all projects",

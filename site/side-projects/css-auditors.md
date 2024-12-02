@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: CSS Auditors
 description: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
 type: side-projects-item
@@ -19,20 +19,19 @@ sections:
     width: 759
     height: 459
     title: CSS Auditors
-    desc: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
+    text: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.
     cta:
       href: //css-auditors.com/
       title: Go to the Project
-      animate: true
     cta2:
       href: /side-projects/
       title: Discover other projects
-  - type: hero-beta
-    title: From My Projects
-    desc: >-
-      Sometimes I like to work on side projects in my spare time. These are my other open-source side projects.
-  - type: cards-gamma
+  - type: newsletter
+    sticky: true
+  - type: project-list
+    title: Featured projects
     filter: projects
+    limit: 6
     exclude: true
   - type: banner
     banner: consultation

@@ -13,5 +13,6 @@ sections:
   - type: project-list
     filter: projects
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---

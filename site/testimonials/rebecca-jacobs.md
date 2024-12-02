@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: codescan
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: Worked with Silvestar to optimize our website! He did a great job implementing...
 ---
 

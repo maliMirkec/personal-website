@@ -8,7 +8,7 @@ sections:
     title: Tools, apps, and devices I use
     text: These are devices, applications, and tools, which I use daily, that make my job easier.
   - type: banner
-    banner: consultation2
+    banner: consultation
 ---
 
 Most developers spend time on setting up their workspace, and I am no exception. I like organizing my computers and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.

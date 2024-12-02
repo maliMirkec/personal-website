@@ -12,6 +12,7 @@ sections:
       title: Get in touch
   - type: banner
     banner: portfolio
+    sticky: true
 ---
 
 ## Frontend

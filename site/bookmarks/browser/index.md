@@ -10,7 +10,8 @@ sections:
     title: Browser Bookmarks
     text: Browser bookmarks export file.
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---
 
 - `https://extendsclass.com/xpath-tester.html`

@@ -10,22 +10,24 @@
     {%- endif -%}
     <ul class="box__list">
       {%- for card in list -%}
-        {%- liquid
-          assign now = 'now' | date: "%Y-%m-%d"
-          assign cardDate = card.data.date | date: "%Y-%m-%d"
-          if cardDate > now
-            continue
-          endif
-          if component.limit and i1 > component.limit
-            break
-          endif
-          if component.exclude
-            assign tags = card.data.tags | join: ', '
-            if tags contains component.exclude
+        {%- unless component.noDate -%}
+          {%- liquid
+            assign now = 'now' | date: "%Y-%m-%d"
+            assign cardDate = card.data.date | date: "%Y-%m-%d"
+            if cardDate > now
               continue
             endif
-          endif
-        -%}
+            if component.limit and i1 > component.limit
+              break
+            endif
+            if component.exclude
+              assign tags = card.data.tags | join: ', '
+              if tags contains component.exclude
+                continue
+              endif
+            endif
+          -%}
+        {%- endunless -%}
         {%- unless component.exclude and page.url == card.url -%}
           <li class="box__item">
             {%- if card.data.title -%}

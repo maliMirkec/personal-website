@@ -5,7 +5,7 @@ description: Here are the projects that I am most proud of. Projects are built w
 type: portfolio
 sections:
   - type: hero
-    title: From the Portfolio
+    title: My portfolio
     text: >-
       Here are the projects that I am most proud of.
     text2: >-
@@ -14,5 +14,6 @@ sections:
   - type: project-list
     filter: portfolio
   - type: banner
-    banner: consultation2
+    banner: consultation
+    sticky: true
 ---

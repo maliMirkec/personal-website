@@ -24,6 +24,7 @@ sections:
 sections2:
   - type: banner
     banner: westwing
+    sticky: true
   - type: testimonial-list
     title: More testimonials
     filter: testimonials
@@ -36,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: consultation
 excerpt: It was a pleasure to work with Silvestar. He delivered the project on time with good quality...
 ---
 

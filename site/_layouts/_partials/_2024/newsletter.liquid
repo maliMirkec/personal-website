@@ -1,5 +1,5 @@
 {%- if newsletter2024 -%}
-  <section class="banner banner--alpha">
+  <section class="banner banner--alpha{% if section.sticky %} sticky{% endif %}">
     {%- if newsletter2024.tagline -%}
       <h2 class="banner__title">{{ newsletter2024.tagline }}</h2>
     {%- endif -%}
