@@ -14,6 +14,8 @@ sections:
     filter: my-slides
     cta:
       title: View slides
+      modifiers:
+        - small
     noDate: true
   - type: banner
     banner: consultation

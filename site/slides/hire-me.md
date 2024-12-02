@@ -6,7 +6,6 @@ descriptionAlt: I am specialized in HTML, CSS, JavaScript, WordPress, Shopify, a
 description: Discover my professional portfolio and learn why I am the perfect fit for your next web development project through my Hire Me presentation slides.
 date: 2022-10-25 10:00:00
 permalink: /slides/hire-me/
-display: true
 tags:
   - slides
 type: slides

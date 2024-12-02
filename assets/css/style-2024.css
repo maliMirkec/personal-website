@@ -405,7 +405,7 @@ blockquote p:not(:first-of-type) {
 .box__list {
   list-style: none;
   display: grid;
-  place-items: start;
+  place-content: start;
   gap: var(--size-20-40);
 }
 
