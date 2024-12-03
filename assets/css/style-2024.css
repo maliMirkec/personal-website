@@ -503,6 +503,9 @@ blockquote p:not(:first-of-type) {
 }
 
 .banner {
+  background-repeat: repeat;
+  background-size: 100px, 100%;
+  background-position: center;
   align-self: start;
   display: grid;
   gap: var(--size-05-10);
@@ -512,11 +515,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .banner--alpha {
-  background-image: linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
+  background-image: url(/gfx/png/sb-light.png), linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
 }
 
 .banner--beta {
-  background-image: linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+  background-image: url(/gfx/png/sb-light.png), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
 }
 
 .banner--big {
@@ -779,7 +782,10 @@ blockquote p:not(:first-of-type) {
   }
 
   .footer__inner {
-    background-image: linear-gradient(to bottom, var(--color-light), var(--color-beta));
+    background-repeat: repeat;
+    background-size: 100px, 100%;
+    background-position: center;
+    background-image: url(/gfx/png/sb-light.png), linear-gradient(to bottom, var(--color-light), var(--color-beta));
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
     position: sticky;
     inset-block-end: var(--size-10-20);
