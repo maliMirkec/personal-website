@@ -3,7 +3,7 @@ layout: index
 title: My favorite TV shows
 descriptionAlt: Silvestar's favorite TV shows and characters.
 description: Explore my favorite TV shows and characters. There are many many more, but these are the first ones that come up to my mind.
-date: 2021-11-05 08:00:00
+date: 2021-01-01 00:00:00
 type: favorite-item
 tags:
   - favorites
@@ -12,6 +12,7 @@ thumbnail:
   alt: Screenshot of my favorite TV shows.
   width: 490
   height: 294
+display: true
 js: gallery
 sections:
   - type: hero

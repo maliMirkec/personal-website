@@ -15,6 +15,8 @@ sections:
     cta:
       href: /contact/
       title: Get in touch
+  - type: newsletter
+    sticky: true
   - type: article-list
     title: Latest blog posts
     filter: my-articles
@@ -28,8 +30,6 @@ sections:
         - small
   - type: banner
     banner: redesign
-  - type: newsletter
-    sticky: true
   - type: project-list
     title: Featured projects
     filter: portfolio
@@ -40,6 +40,9 @@ sections:
       title: All projects
       modifiers:
         - small
+  - type: banner
+    banner: consultation
+    last: true
   - type: testimonial-list
     title: Testimonials
     filter: testimonials
@@ -49,6 +52,4 @@ sections:
       title: All testimonials
       modifiers:
         - small
-  - type: banner
-    banner: consultation
 ---

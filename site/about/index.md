@@ -7,9 +7,15 @@ sections:
   - type: hero
     title: About me
     text: I am Silvestar Bistrović, a **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), and founder of [CSS Auditors](https://css-auditors.com/).
+    img:
+      src: PSX_20210122_073856_fdz5qg
+      alt: A profile photo of Silvestar Bistrović.
+      width: 240
+      height: 240
+      clamp: clamp(10rem, calc(5rem + 8vw), 15rem)
+sections2:
   - type: banner
     banner: consultation
-    sticky: true
 ---
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.
@@ -22,7 +28,3 @@ When I am not coding, I like to write new articles [on my blog](/articles/).
 
 If you want to get in touch, please [fill out the contact form](/contact/), or [send me an email](mailto:me@silvestar.codes).
 For more information [check my portfolio](/portfolio/) or [download my CV here](/silvestar-bistrovic-cv.pdf).
-
-<div>
-  {%- cldnry "PSX_20210122_073856_fdz5qg" "A profile photo of Silvestar Bistrović." 160 160 -%}
-</div>
