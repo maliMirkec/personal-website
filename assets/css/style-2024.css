@@ -60,10 +60,6 @@
   padding: unset;
 }
 
-body {
-  --sb-size: 12px;
-}
-
 body::-webkit-scrollbar {
   width: var(--sb-size)
 }
@@ -230,7 +226,10 @@ blockquote p:not(:first-of-type) {
 }
 
 .header {
-  background-image: linear-gradient(to right, var(--color-alpha), var(--color-light) 105%);
+  background-repeat: repeat;
+  background-size: 77px, 100%;
+  background-position: center;
+  background-image: url(/gfx/png/sb-light.png), linear-gradient(to right, var(--color-alpha), var(--color-light) 105%);
   grid-area: header;
   padding: var(--size-05-10);
 }
@@ -414,7 +413,10 @@ blockquote p:not(:first-of-type) {
 
 .box__title:before {
   content: "";
-  background-image: linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
+  background-repeat: repeat;
+  background-size: 77px, 100%;
+  background-position: center;
+  background-image: url(/gfx/png/sb-light.png), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
   position: absolute;
   inset-block-start: calc(var(--size-05-10) * -1);
   inset-block-end: calc(var(--size-10-20) * -1);
@@ -525,7 +527,7 @@ blockquote p:not(:first-of-type) {
 
 .banner {
   background-repeat: repeat;
-  background-size: 100px, 100%;
+  background-size: 77px, 100%;
   background-position: center;
   align-self: start;
   display: grid;
@@ -794,7 +796,10 @@ blockquote p:not(:first-of-type) {
 
   .main:before {
     content: '';
-    background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
+    background-repeat: repeat;
+    background-size: 77px, 100%;
+    background-position: center;
+    background-image: url(/gfx/png/sb-light.png), linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
     position: absolute;
     inset: 0;
     margin: calc(var(--size-05-10) * -1);
@@ -849,7 +854,7 @@ blockquote p:not(:first-of-type) {
 
   .footer__inner {
     background-repeat: repeat;
-    background-size: 100px, 100%;
+    background-size: 77px, 100%;
     background-position: center;
     background-image: url(/gfx/png/sb-light.png), linear-gradient(to bottom, var(--color-light), var(--color-gamma) 250%);
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
