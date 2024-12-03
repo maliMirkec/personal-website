@@ -1,13 +1,19 @@
 {%- if cta[component.banner] -%}
   {%- liquid
     assign banner_class = 'banner'
+
     if cta[component.banner].modifiers
       for modifier in cta[component.banner].modifiers
         assign banner_class = banner_class | append: ' banner--' | append: modifier
       endfor
     endif
+
     if section.sticky
       assign banner_class = banner_class | append: ' sticky'
+    endif
+
+    if section.last
+      assign banner_class = banner_class | append: ' last'
     endif
   -%}
 

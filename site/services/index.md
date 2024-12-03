@@ -10,6 +10,7 @@ sections:
     cta:
       href: /contact/
       title: Get in touch
+sections2:
   - type: banner
     banner: portfolio
     sticky: true

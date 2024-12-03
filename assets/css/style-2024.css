@@ -332,6 +332,25 @@ blockquote p:not(:first-of-type) {
   padding-block-end: unset;
 }
 
+.hero:has(.hero__image) {
+  inline-size: 100%;
+  gap: var(--size-10-20);
+}
+
+.hero__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page--about .hero__image img {
+  border-radius: 50%;
+}
+
+.hero__image img {
+  max-inline-size: var(--max-inline-size);
+}
+
 .hero__title {
   font-size: var(--size-30-60);
   max-inline-size: var(--hero-title-width, 30ch);
@@ -395,9 +414,11 @@ blockquote p:not(:first-of-type) {
 
 .box__title:before {
   content: "";
-  background-image: linear-gradient(to right, transparent 25%, var(--color-dark) 1000%);
+  background-image: linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
   position: absolute;
-  inset: 0;
+  inset-block-start: calc(var(--size-05-10) * -1);
+  inset-block-end: calc(var(--size-10-20) * -1);
+  inset-inline: 0;
   border-radius: 0 var(--size-50-100) var(--size-50-100) 0;
   z-index: -1;
 }
@@ -655,11 +676,17 @@ blockquote p:not(:first-of-type) {
   gap: var(--size-05-10);
 }
 
+.copy ol,
+.copy ul {
+  padding-inline-start: 1em;
+  line-height: 2;
+}
+
 .contact {
   place-self: stretch;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (width < 500px) {
   .header {
     border-radius: var(--size-10-20);
   }
@@ -683,7 +710,7 @@ blockquote p:not(:first-of-type) {
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (width >= 500px) {
   .header {
     border-radius: var(--size-60-120);
   }
@@ -700,19 +727,23 @@ blockquote p:not(:first-of-type) {
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 599px) {
+@media screen and (500px <= width < 600px) {
   .header__link--alpha span {
     display: none;
     padding-inline-end: unset;
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (width < 1000px) {
   .wrapper {
     grid-template-areas:
       "header"
       "main"
       "sidebar";
+  }
+
+  .hero__image {
+    margin-block-start: var(--size-10-20);
   }
 
   .hero__title {
@@ -727,6 +758,10 @@ blockquote p:not(:first-of-type) {
     max-inline-size: max(20rem, 50%);
   }
 
+  .footer {
+    margin-block-start: var(--size-20-40);
+  }
+
   .footer__inner {
     place-items: start;
   }
@@ -736,7 +771,7 @@ blockquote p:not(:first-of-type) {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   :where(h1, h2, h3, h4, h5, h6) {
     font-weight: 900;
   }
@@ -756,12 +791,39 @@ blockquote p:not(:first-of-type) {
 
   .main:before {
     content: '';
-    background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-beta) 100%);
+    background-image: linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
     position: absolute;
     inset: 0;
     margin: calc(var(--size-05-10) * -1);
     border-radius: inherit;
     z-index: -1;
+  }
+
+  .hero:has(.hero__image) {
+    grid-template-columns: min(90vw, var(--main)) 1fr;
+    align-items: center;
+    column-gap: var(--size-50-100);
+  }
+
+  .hero__image {
+    grid-column: 2;
+    grid-row-start: 1;
+  }
+
+  .hero__image:nth-child(3) {
+    grid-row: 1 / span 2;
+  }
+
+  .hero__image:nth-child(3) {
+    grid-row: 1 / span 3;
+  }
+
+  .hero__image:nth-child(4) {
+    grid-row: 1 / span 4;
+  }
+
+  .hero__image:nth-child(5) {
+    grid-row: 1 / span 5;
   }
 
   .box__grid--beta {
@@ -778,8 +840,12 @@ blockquote p:not(:first-of-type) {
     grid-column: 1;
   }
 
+  .banner.last {
+    order: 99;
+  }
+
   .footer__inner {
-    background-image: linear-gradient(to bottom, var(--color-light), var(--color-beta));
+    background-image: linear-gradient(to bottom, var(--color-light), var(--color-gamma) 250%);
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
     position: sticky;
     inset-block-end: var(--size-10-20);

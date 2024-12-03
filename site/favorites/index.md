@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorites
 descriptionAlt: My favorite TV shows, characters, writers, books, bands, artists, and more.
 description: Explore my favorite TV shows, characters, writers, books, bands, artists, and more. Mostly stuff unrelated to my professional career.
@@ -13,18 +13,10 @@ favorites:
 sections:
   - type: hero
     title: My favorites
-    desc: >-
-      Just my random favorite stuff, from TV shows and characters, to bands and artists.
-  - type: cards-gamma
-    desc:
-    # cta:
-    #   title: Check favorites
-    cta:
-      href: /
-      title: Go to the homepage
-    filter: favorites
-    instant: 3
-    h2: true
+    text: Just some random favorite stuff, from TV shows and characters, to bands and artists.
   - type: banner
     banner: consultation
+    sticky: true
+  - type: project-list
+    filter: favorites
 ---
