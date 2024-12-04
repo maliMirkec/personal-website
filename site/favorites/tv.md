@@ -1,7 +1,6 @@
 ---
-layout: index
+layout: default
 title: My favorite TV shows
-descriptionAlt: Silvestar's favorite TV shows and characters.
 description: Explore my favorite TV shows and characters. There are many many more, but these are the first ones that come up to my mind.
 date: 2021-01-01 00:00:00
 type: favorite-item
@@ -17,11 +16,8 @@ js: gallery
 sections:
   - type: hero
     title: My favorite TV shows
-    desc: >-
-      Just my random favorite TV shows and characters.
-    footnote: >-
-      [See my other favorites](/favorites/).
-  - type: cards-epsilon
+    text: Just my random favorite TV shows and characters.
+  - type: gallery
     instant: 3
     list:
       - title: Curb Your Enthusiasm

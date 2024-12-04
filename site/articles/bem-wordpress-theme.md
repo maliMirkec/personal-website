@@ -7,7 +7,6 @@ tags:
   - bem
 date: 2017-05-27 07:39:05
 thumbnail: _bem_-_WordPress_theme_with_BEM_methodology_z7onq3
-descriptionAlt: This is a post about building custom WordPress theme with BEM naming methodology.
 description: Discover the power of BEM in building WordPress themes with this comprehensive guide. Learn how to create clean and organized code with BEM methodology.
 type: articles-item
 sections2:

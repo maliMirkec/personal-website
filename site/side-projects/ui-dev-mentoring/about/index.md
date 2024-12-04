@@ -3,7 +3,6 @@ layout: about
 title: About
 titlePrefix: "UI Dev Mentoring Program: "
 navTitle: About
-descriptionAlt: The goal of The UI Development Mentoring Program is to help everyone become a better UI developer.
 description: Learn about the UI Development Mentoring project, a project dedicated to helping individuals grow their skills in UI development.
 tagline:
   - The goal of **The UI Development Mentoring Program** is to help everyone become a better UI developer.

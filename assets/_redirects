@@ -33,3 +33,4 @@
 /og/og.png* /.netlify/functions/og-png:splat 200!
 /api/clue.js* /.netlify/functions/clue:splat 200!
 /api/lastfm.js* /.netlify/functions/lastfm:splat 200!
+/how/ / 301!

@@ -11,7 +11,6 @@ thumbnail: Page_builders_might_not_be_a_good_idea_z5hyli
 credit:
   text: John Duncan on Unsplash
   link: https://unsplash.com/photos/wFdCFmY-JS4
-descriptionAlt: "Here’s what I think: page builder might not be a good idea. Read my thoughts about page builders and why you might think twice before you consider using it (again)."
 description: Read my thoughts and concerns about page builders and why you might think twice before you consider using it (again).
 type: articles-item
 sections2:

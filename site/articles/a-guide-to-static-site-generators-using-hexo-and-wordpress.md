@@ -12,7 +12,6 @@ thumbnail: From_WordPress_to_Hexo_xxxdyj
 publication: Toptal
 canonical: https://www.toptal.com/front-end/wordpress-to-html-with-hexo-blog#trust-nothing-but-brilliant-freelancers
 date: 2017-10-19 08:53:11
-descriptionAlt: Static site generators are systems that compile templates into static HTML pages. If that sounds efficient—yes, it is. There is no server processing or rendering, so static websites tend to be very fast and lightweight.
 description: Get a fast, lightweight website with a static site generator. Find out how these systems compile templates into static HTML pages.
 type: articles-item
 sections2:

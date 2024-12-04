@@ -24,14 +24,17 @@
     "href": "/testimonials/",
     "title": "Testimonials"
   }, {
+    "href": "/publications/",
+    "title": "Publications"
+  }, {
     "href": "/side-projects/",
     "title": "Side work"
   }, {
-    "href": "/slides/",
-    "title": "Slides"
-  }, {
     "href": "/favorites/",
     "title": "Favorites"
+  }, {
+    "href": "/slides/",
+    "title": "Slides"
   }, {
     "href": "/links/",
     "title": "Links"

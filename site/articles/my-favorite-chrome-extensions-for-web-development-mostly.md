@@ -7,7 +7,6 @@ tags:
   - productivity
   - extensions
 thumbnail: My_favorite_extensions_for_web_development_erf5gg
-descriptionAlt: A web browser is one of the essential tools for web development. Besides default dev tools, there are extensions you could use to make a better web product. I am using Chrome most of the time and these are the extensions I prefer.
 description: Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions.
 type: articles-item
 sections2:
@@ -26,15 +25,7 @@ A web browser is one of the essential tools for web development. Besides awesome
 - [Workona](#workona)
 - [LastPass](#lastpass)
 - [Code Line Daily](#code-line-daily)
-- [Codopen]
-- [Keywords Everywhere]
-- [Block Yourself from Analytics]
-- [Always Clear Downloads 2]
-- [Grammarly for Chrome]
-- [Go Fucking Work]
-- [Buffer]
-- [Pablo]
-- [Emoji Keyboard]
+- [Honorable mentions](#honorable-mentions)
 
 ## [Octotree]
 

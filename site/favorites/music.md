@@ -1,7 +1,6 @@
 ---
-layout: index
+layout: default
 title: My favorite music
-descriptionAlt: Silvestar's favorite music bands and artists.
 description: Explore my favorite music bands and artists. There are many many more, but these are the first ones that come up to my mind.
 date: 2022-01-01 00:00:00
 type: side-projects-item
@@ -21,7 +20,7 @@ sections:
       Just my random favorite music bands and artists.
     footnote: >-
       [Explore my Last.fm profile](https://www.last.fm/user/maliMirkec/library/artists?date_preset=ALL) or [check my other favorites](/favorites/).
-  - type: cards-epsilon
+  - type: gallery
     instant: 3
     list:
       - title: Björk

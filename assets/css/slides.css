@@ -408,15 +408,16 @@ blockquote {
 }
 
 .slides__item:nth-child(odd) {
-  background-color: var(--color-alpha-light);
+  background-image: linear-gradient(45deg, transparent -50%, var(--color-alpha-light) 500%);
 }
 
 .slides__item:nth-child(even) {
-  background-color: var(--color-beta-light);
+  background-image: linear-gradient(45deg, transparent -50%, var(--color-beta-light) 500%);
 }
 
 .slides__item a {
   color: inherit;
+  text-decoration: underline;
 }
 
 .slides__inner {

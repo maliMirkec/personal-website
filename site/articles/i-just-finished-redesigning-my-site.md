@@ -8,7 +8,6 @@ tags:
   - serverless
   - hexo
 thumbnail: I_just_finished_redesigning_my_site_oy6djs
-descriptionAlt: During the last week, I have been working on redesigning my site. Read all about the changes.
 description: Learn about my recent website redesign journey, including the challenges faced and the solutions implemented for a better user experience.
 type: articles-item
 sections2:

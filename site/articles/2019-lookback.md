@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
 thumbnail: 2019_Lookback_a69k2x
-descriptionAlt: Last year I wrote my first yearly look back, and now it is time for the 2019 lookback.
 description: Reflect on my past year with 2019 Lookback. Read about the challenges, accomplishments and lessons learned during the whole year.
 type: articles-item
 sections2:

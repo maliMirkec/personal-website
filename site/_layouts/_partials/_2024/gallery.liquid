@@ -1,0 +1,20 @@
+{% if component.list %}
+  <section id="gallery" class="gallery">
+    <p>Click on the image to enlarge it. Use left and right arrows to browse the gallery. Use ESC to close larger picture.</p>
+    <ul class="gallery__grid js-favs" role="list">
+      {% for item in component.list %}
+        <li>
+          <button aria-expanded="false">
+            {% if component.instant and forloop.index < component.instant %}
+              {% assign instantLoad = true %}
+            {% else %}
+              {% assign instantLoad = false %}
+            {% endif %}
+            {% cldnry item.src item.title 400 400 '300:100vw;400:33vw' instantLoad %}
+            <p>{{ item.title }}</p>
+          </button>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

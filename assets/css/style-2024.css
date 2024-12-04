@@ -721,6 +721,77 @@ blockquote p:not(:first-of-type) {
   place-self: stretch;
 }
 
+.gallery {
+  grid-column: 1 / -1;
+  inline-size: 100%;
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2px;
+  text-align: center;
+  list-style: none;
+  padding: unset;
+  margin-block-start: var(--size-10-20);
+  margin-block-end: unset;
+}
+
+.gallery li {
+  position: relative;
+  transition: var(--timing200);
+}
+
+.gallery li:has([aria-expanded="true"]) p {
+  transform: none;
+  opacity: 1;
+}
+
+.gallery button {
+  font-family: inherit;
+  display: block;
+  aspect-ratio: 1;
+  inline-size: 100%;
+  padding: unset;
+  border: unset;
+  border-radius: unset;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery button:focus-visible {
+  outline: var(--size-02-04) solid var(--color-beta);
+}
+
+.gallery p {
+  color: var(--color-dark);
+  font-size: var(--size-16-20);
+  margin: unset;
+}
+
+.gallery__grid p {
+  background-color: var(--color-light);
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline: 0;
+  padding: var(--size-05-10);
+  opacity: 0;
+  z-index: 1;
+  transform: translateY(100%);
+  transition: var(--timing100);
+}
+
+.gallery button:hover p {
+  transform: none;
+  opacity: 1;
+}
+
+.gallery img {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+}
+
 @media screen and (width < 500px) {
   .header__nav {
     border-radius: var(--size-10-20);

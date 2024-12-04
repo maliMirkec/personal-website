@@ -8,7 +8,6 @@ tags:
   - remote work
   - mentoring
 thumbnail: what-does-it-depends-mean_hatduk
-descriptionAlt: "I have been in numerous situations where my answer to a client’s question was: “it depends.” But what does that seemingly simple phrase mean in web development? Let’s try to find out."
 description: Discover the meaning behind "it depends" in web development and why it's often the answer to many questions in this field.
 type: articles-item
 sections2:

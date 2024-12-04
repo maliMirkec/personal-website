@@ -7,7 +7,6 @@ tags:
   - grid
 thumbnail: Using_CSS_Grid_where_appropriate_avifto
 date: 2017-07-30 22:17:48
-descriptionAlt: Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about CSS Grid and actually use it. Here's what I learned.
 description: I recently redesigned my blog and learned many things about CSS Grid along the way. Read all about my findings.
 type: articles-item
 sections2:

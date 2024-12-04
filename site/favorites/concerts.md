@@ -1,7 +1,6 @@
 ---
 layout: default
 title: My favorite concerts
-descriptionAlt: Silvestar's favorite concerts.
 description: Explore the exhausting list of music concerts and festivals I attended. The list is long, so I grouped them into Epic, Favotite, and Others groups.
 date: 2023-01-01 00:00:00
 type: favorite-concert
@@ -21,7 +20,8 @@ sections:
     footnote: >-
       Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
 sections2:
-  - type: newsletter
+  - type: banner
+    banner: consultation
     sticky: true
 list:
   - title: The Stooges

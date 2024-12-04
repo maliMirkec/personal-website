@@ -2,7 +2,6 @@
 layout: default
 title: Advent of redesign
 projectTitle: Advent of redesign
-descriptionAlt: For every day of advent I am showcasing the progress of my website redesign.
 description: For every day of advent I am showcasing the progress of my website redesign.
 thumbnail:
   src: advent_usqyhu

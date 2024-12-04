@@ -2,7 +2,6 @@
 layout: slides
 title: Why I never understood CSS-in-JS slides
 ogImageTitle: Why I never understood CSS-in-JS
-descriptionAlt: I don't get CSS-in-JS. Here are the ten problems highlighted in a form of slides.
 description: Join me as I share the top ten reasons why I never quite grasped the concept of CSS-in-JS in this CSS-only slide presentation.
 date: 2022-10-26 10:00:00
 tags:

@@ -6,7 +6,6 @@ tags:
   - blog
   - productivity
 thumbnail: Bookmarks_Saves_Hearts_Stars_Claps_hnn9hc
-descriptionAlt: I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools.
 description: Discover the benefits of keeping your online bookmarks organized and explore the different ways you can save, heart, star, and clap your favorite content.
 type: articles-item
 sections2:

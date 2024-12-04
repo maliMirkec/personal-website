@@ -11,7 +11,6 @@ tags:
 publication: CSS Tricks
 canonical: https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
 thumbnail: Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons_pveunn
-descriptionAlt: Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.
 description: Create a stylish row of links that interconnect with chevron-like shapes and notches using this simple tutorial.
 project:
   name: Playground

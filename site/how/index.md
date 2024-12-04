@@ -1,9 +1,9 @@
 ---
-layout: index
+layout: default
 title: How I built this website
-descriptionAlt: This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
 description: This website is built with Hexo, hosted on Netlify and protected by Cloudflare. It's featured on JAMStack site as an example.
 type: default
+permalink: false
 sections:
   - type: hero
     title: How I built this website
@@ -12,6 +12,7 @@ sections:
 sections2:
   - type: banner
     banner: consultation
+    sticky: true
 ---
 
 This website is built using [Hexo](https://hexo.io/) static page generator and hosted on [Netlify](https://www.netlify.com/). [Cloudflare](https://www.cloudflare.com/) is used to speed up and protect this website. It was featured on JAMStack site as an example. I've set up project architecture and implemented coding standards. The layout is built using [CSS Grid](https://www.w3.org/TR/css3-grid-layout/) and [Flexbox](https://www.w3.org/TR/css-flexbox-1/). [BEM](http://getbem.com/) is used as a naming convention. [CSS Animations](https://www.w3.org/TR/css3-animations/) are used to animate cta. [Modular scale](https://github.com/modularscale/modularscale-sass) and [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/) are implemented for a more slicker reading experience.

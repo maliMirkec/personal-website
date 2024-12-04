@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Code Line Daily
-descriptionAlt: Code Line Daily is dedicated to highlighting awesome code single-liners.
 description: Code Line Daily is a side project dedicated to providing daily single-liners to help developers improve skills and knowledge in the field of web development.
 type: side-projects-item
 tags:

@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
 thumbnail: Roadmap_September_2018_njrqcl
-descriptionAlt: I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
 description: I built a career roadmap to remind myself of the importance of planning. Keeping track of the vision is key, even if not every goal is met.
 type: articles-item
 sections2:

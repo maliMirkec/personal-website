@@ -7,7 +7,6 @@ tags:
   - publications
   - css
 thumbnail: How_to_Make_a_Raise_the_Curtains_Effect_in_CSS_of8w99
-descriptionAlt: In this article, I am going to show you how to make the “raise the curtains” effect where the background and content both change color while scrolling over a sticky element.
 description: Learn how to create a visually stunning "raise the curtains" effect while scrolling over a sticky element in this step-by-step guide.
 publication: CSS Tricks
 canonical: https://css-tricks.com/css-raise-the-curtains-effect/

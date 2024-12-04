@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
 thumbnail: 2022_Lookback_jd4u40
-descriptionAlt: 2022 was a very challenging year for my family and me. Read why.
 description: I reflect on my experience and achievements in the web development industry in 2022. Read my insights on the latest trends and technologies in the field.
 type: articles-item
 sections2:

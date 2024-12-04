@@ -9,9 +9,9 @@ const gallery = () => {
   // Get the transition timeout from CSS
   const getTimeouts = () => {
     const durationOn = parseFloat(getComputedStyle(document.documentElement)
-      .getPropertyValue('--duration'))
+      .getPropertyValue('--timing100'))
 
-    timeout = parseFloat(durationOn) * 1000
+    timeout = parseFloat(durationOn)
   }
 
   // Get the top offset
@@ -27,8 +27,7 @@ const gallery = () => {
     let top = getTop($elems[0])
 
     // Set grid gap from CSS
-    const gridColumnGap = parseFloat(getComputedStyle(document.documentElement)
-      .getPropertyValue('--ggap'))
+    const gridColumnGap = 2
 
     $parent.setAttribute('data-gap', gridColumnGap)
 
@@ -58,14 +57,9 @@ const gallery = () => {
 
   // Deactivate grid items
   const deactiveElems = ($elems, $parent, $currentElem, $button) => {
-    // Unset parent class
-    $parent.classList.remove('is-zoomed')
-
     $elems.forEach($elem => {
       let $thisElem = $elem
 
-      // Unset item class
-      $thisElem.classList.remove('is-zoomed')
       // Unset item CSS transform
       $thisElem.style.transform = 'none'
 
@@ -92,7 +86,6 @@ const gallery = () => {
     const width = parseFloat($parent.getAttribute('data-width'))
     const height = parseFloat($parent.getAttribute('data-height'))
     const gap = parseFloat($parent.getAttribute('data-gap')) + 1
-
 
     // If there is only a single column, prevent from executing
     if (cols === 1) {
@@ -153,10 +146,6 @@ const gallery = () => {
       setTimeout(() => {
         // Set high CSS z-index to avoid overlay issues
         $currentElem.style.zIndex = 10
-        // Set parent class
-        $parent.classList.add('is-zoomed')
-        // Set item class
-        $currentElem.classList.add('is-zoomed')
         // Set item CSS transform
         $currentElem.style.transform = `scaleX(${scaleX}) scaleY(${scaleY})`
         // Set item aria expanded
