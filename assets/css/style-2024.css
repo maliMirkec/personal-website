@@ -264,7 +264,6 @@ blockquote p:not(:first-of-type) {
   justify-content: center;
   gap: var(--size-05-10);
   font-size: var(--size-13-16);
-  text-wrap: balance;
 }
 
 .header__item--alpha {
@@ -898,9 +897,10 @@ blockquote p:not(:first-of-type) {
     background-repeat: repeat;
     background-size: 77px, 100%;
     background-position: center;
-    background-image: url(/gfx/png/sb-light.png), linear-gradient(to bottom, var(--color-light), var(--color-gamma) 250%);
+    background-image: url(/gfx/png/sb-light.png), linear-gradient(to bottom, transparent 5%, var(--color-gamma) 500%);
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
     position: sticky;
+    padding-block-start: var(--size-10-20);
     inset-block-end: var(--size-10-20);
   }
 

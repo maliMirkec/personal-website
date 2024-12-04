@@ -20,6 +20,7 @@ sections:
       Just my list of all concerts that I attended (that I could remember).
     footnote: >-
       Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
+sections2:
   - type: newsletter
     sticky: true
 list:

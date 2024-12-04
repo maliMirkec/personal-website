@@ -14,9 +14,9 @@ sections:
   - type: hero
     title: My favorites
     text: Just some random favorite stuff, from TV shows and characters, to bands and artists.
+  - type: project-list
+    filter: favorites
   - type: banner
     banner: consultation
     sticky: true
-  - type: project-list
-    filter: favorites
 ---
