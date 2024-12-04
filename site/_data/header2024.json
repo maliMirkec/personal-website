@@ -21,16 +21,25 @@
     "title": "Contact"
   }],
   "menu2": [{
+    "href": "/testimonials/",
+    "title": "Testimonials"
+  }, {
     "href": "/side-projects/",
     "title": "Side work"
+  }, {
+    "href": "/slides/",
+    "title": "Slides"
   }, {
     "href": "/favorites/",
     "title": "Favorites"
   }, {
+    "href": "/links/",
+    "title": "Links"
+  }, {
     "href": "/uses/",
     "title": "Setup"
   }, {
-    "href": "/testimonials/",
-    "title": "Testimonials"
+    "href": "/services/",
+    "title": "Services"
   }]
 }
