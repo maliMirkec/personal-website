@@ -230,8 +230,13 @@ blockquote p:not(:first-of-type) {
 }
 
 .header {
-  background-image: linear-gradient(to right, var(--color-alpha), var(--color-light) 105%);
   grid-area: header;
+  display: grid;
+  gap: var(--size-10-20);
+}
+
+.header__nav--alpha {
+  background-image: linear-gradient(to right, var(--color-alpha), var(--color-light) 105%);
   padding: var(--size-05-10);
 }
 
@@ -687,7 +692,7 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (width < 500px) {
-  .header {
+  .header__nav--alpha {
     border-radius: var(--size-10-20);
   }
 
@@ -711,7 +716,7 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (width >= 500px) {
-  .header {
+  .header__nav--alpha {
     border-radius: var(--size-60-120);
   }
 

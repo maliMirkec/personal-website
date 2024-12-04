@@ -1,7 +1,8 @@
 {% if header %}
   <header class="header">
-    <nav aria-label="Main">
-      <ul class="header__list">
+    {% if header2024.logo or header2024.menu %}
+      <nav class="header__nav header__nav--alpha" aria-label="Main">
+        <ul class="header__list">
         {% if header2024.logo %}
           <li class="header__item header__item--alpha">
             <a class="header__link header__link--alpha" href="{{ header2024.logo.href }}">
@@ -16,8 +17,20 @@
               <a class="header__link header__link--beta" href="{{ item.href }}">{{ item.title }}</a>
             </li>
           {% endfor %}
+        </ul>
         {% endif %}
-      </ul>
-    </nav>
+      </nav>
+    {% endif %}
+    {% if header2024.menu2 %}
+      <nav class="header__nav header__nav--beta" aria-label="Other">
+        <ul class="header__list">
+          {% for item in header2024.menu2 %}
+            <li class="header__item">
+              <a class="header__link header__link--beta" href="{{ item.href }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
   </header>
 {% endif %}

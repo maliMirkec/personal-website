@@ -19,5 +19,18 @@
   }, {
     "href": "/contact/",
     "title": "Contact"
+  }],
+  "menu2": [{
+    "href": "/side-projects/",
+    "title": "Side work"
+  }, {
+    "href": "/favorites/",
+    "title": "Favorites"
+  }, {
+    "href": "/uses/",
+    "title": "Setup"
+  }, {
+    "href": "/testimonials/",
+    "title": "Testimonials"
   }]
 }
