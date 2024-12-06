@@ -448,8 +448,7 @@ blockquote p:not(:first-of-type) {
   background-position: center;
   background-image: url(/gfx/png/sb-light.png), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
   position: absolute;
-  inset-block-start: calc(var(--size-05-10) * -1);
-  inset-block-end: calc(var(--size-10-20) * -1);
+  inset-block: calc(var(--size-05-10) * -1);
   inset-inline: 0;
   border-radius: 0 var(--size-50-100) var(--size-50-100) 0;
   z-index: -1;
@@ -482,6 +481,11 @@ blockquote p:not(:first-of-type) {
   color: color-mix(in srgb, var(--color-gamma), var(--color-light) 20%);
   font-family: var(--rounded);
   font-size: 1rem;
+}
+
+.box__tag--omega {
+  color: var(--color-dark);
+  text-decoration-style: wavy;
 }
 
 .box__grid {

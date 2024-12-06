@@ -49,7 +49,7 @@
           {%- if card.data.tech and true == false -%}
             <span class="box__tags">
               {%- for tech in card.data.tech -%}
-                <a class="box__anchor box__tag" href="/tags/{{ tech | slugify }}">{{ tech }}</a>
+                <a class="box__anchor box__tag" href="/tags/{{ tech | slugify }}/">{{ tech }}</a>
               {%- endfor -%}
             </span>
           {%- endif -%}
