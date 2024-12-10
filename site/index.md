@@ -6,7 +6,8 @@ description: I'm building modern, performant, and SEO-optimized websites since 2
 type: home
 sections:
   - type: hero
-    title: Crafting exceptional websites that engage and delight users since 2012
+    title: I'm really good at this without realizing how
+    title2: Crafting exceptional websites that engage and delight users since 2012
     title_width: 26
     text: Transform your digital presence with professional development services.
     text_width: 29
