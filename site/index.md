@@ -6,16 +6,15 @@ description: I'm building modern, performant, and SEO-optimized websites since 2
 type: home
 sections:
   - type: hero
-    title: I'm really good at this without realizing how
-    title2: Crafting exceptional websites that engage and delight users since 2012
-    title_width: 26
-    text: Transform your digital presence with professional development services.
-    text_width: 29
-    text2: Or just let me build the best possible website for you and your business.
-    text2_width: 33
+    title: Hey, I'm really good at this _without realizing how_
+    title_width: 25
+    text: Not really — I have been making websites since 2012. I just wanted to use my favorite [Peep Show quote](https://youtu.be/6mSleXflIq8?si=naOp1-USH4B3e75I&t=85).
+    text_width: 38
+    text2: So, if you're looking for a professional website developer, you've come to the right place.
+    text2_width: 44
     cta:
       href: /contact/
-      title: Get in touch
+      title: Contact me
   - type: banner
     banner: redesign
     sticky: true
@@ -43,7 +42,6 @@ sections:
         - small
   - type: banner
     banner: consultation
-    last: true
   - type: testimonial-list
     title: Testimonials
     filter: testimonials

@@ -320,7 +320,7 @@
     "modifiers": ["alpha", "small"],
     "cta": {
       "href": "/contact/",
-      "title": "Get in touch",
+      "title": "Contact me",
       "modifiers": ["small", "inverse"]
     }
   },

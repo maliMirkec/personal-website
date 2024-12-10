@@ -163,6 +163,12 @@ body {
   padding-block: var(--size-05-10);
 }
 
+[class*="cta--tiny"] {
+  font-size: var(--size-12-14);
+  gap: var(--size-05-10);
+  padding-block: var(--size-02-04);
+}
+
 [class*="cta--inverse"] {
   background-image: linear-gradient(to right, var(--color-gamma) 50%, var(--color-alpha) 500%);
   color: var(--color-alpha);
@@ -622,6 +628,19 @@ blockquote p:not(:first-of-type) {
   font-weight: 600;
 }
 
+.banner--lastfm ul {
+  padding-inline-start: var(--size-05-10);
+  margin-block: var(--size-05-10);
+}
+
+.banner--lastfm li + li {
+  margin-block-start: var(--size-02-04);
+}
+
+.banner--lastfm .cta {
+  place-self: start;
+}
+
 [class*="__form"] {
   display: grid;
   gap: var(--size-05-10);
@@ -962,10 +981,6 @@ blockquote p:not(:first-of-type) {
 
   .banner:not(.sticky) {
     grid-column: 1;
-  }
-
-  .banner.last {
-    order: 99;
   }
 
   .footer__inner {

@@ -9,7 +9,7 @@ sections:
     text: My passion for web technologies began in 2012, and since then, I've acquired an arsenal of skills for creating top-quality websites.
     cta:
       href: /contact/
-      title: Get in touch
+      title: Contact me
 sections2:
   - type: banner
     banner: portfolio

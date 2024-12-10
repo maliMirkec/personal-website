@@ -1,15 +1,15 @@
 {%- if site.lastfm and lastfm -%}
-  <div class="lastfm no-margin js-lastfm">
-    <div>
-      <span class="no-margin"><a class="tdu" href="https://www.last.fm/user/maliMirkec">My latest Last.fm tracks</a>:</span>
-      <span class="lastfm__tracks no-margin js-lastfm-tracks">
-        {% for track in lastfm %}
-          {% if forloop.index < 6 %}
+  <div class="banner banner--beta banner--lastfm js-lastfm">
+    <h2>My latest <a href="https://www.last.fm/user/maliMirkec">Last.fm</a> tracks:</h2>
+    <ul class="js-lastfm-tracks">
+      {% for track in lastfm %}
+        {% if forloop.index < 6 %}
+          <li>
             <a href="{{ track.trackUrl }}">{{ track.artist }} - {{ track.song }}</a>
-          {% endif %}
-        {% endfor %}
-      </span>
-    </div>
-    <button type="button" class="button button--invisible button--small js-lastfm-refresh"><span class="fz-step--2">♬ Refresh</span></button>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <button class="cta cta--tiny cta--converse js-lastfm-refresh">♬ Refresh</button>
   </div>
 {%- endif -%}

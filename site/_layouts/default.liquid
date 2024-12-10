@@ -22,7 +22,9 @@
             {% endfor %}
           {% endif %}
         {% endblock %}
-        {% include _partials/_2024/lastfm %}
+        {%- if type == 'home' -%}
+          {% include _partials/_2024/lastfm %}
+        {%- endif -%}
       </main>
       {% comment %} {% include _partials/_2024/aside %} {% endcomment %}
       {% include _partials/_2024/footer %}
