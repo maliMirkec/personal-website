@@ -16,7 +16,8 @@ sections:
     cta:
       href: /contact/
       title: Get in touch
-  - type: newsletter
+  - type: banner
+    banner: redesign
     sticky: true
   - type: article-list
     title: Latest blog posts
@@ -29,8 +30,7 @@ sections:
       title: All articles
       modifiers:
         - small
-  - type: banner
-    banner: redesign
+  - type: newsletter
   - type: project-list
     title: Featured projects
     filter: portfolio

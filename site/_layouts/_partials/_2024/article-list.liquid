@@ -43,7 +43,7 @@
               {%- if card.data.tags and true == false -%}
                 {%- for tag in card.data.tags -%}
                   {%- unless tag == 'blog' -%}
-                    <a href="/tags/{{ tag | slugify }}" class="box__anchor box__tag box__tag--beta">{{ tag }}</a>
+                    <a href="/tags/{{ tag | slugify }}/" class="box__anchor box__tag box__tag--beta">{{ tag }}</a>
                   {%- endunless -%}
                 {%- endfor -%}
               {%- endif -%}

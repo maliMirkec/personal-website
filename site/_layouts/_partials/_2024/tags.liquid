@@ -1,0 +1,23 @@
+{%- liquid
+  assign list = collections['all-tags']
+  assign listSize = list | size
+-%}
+
+{% if list %}
+  <section class="copy">
+    <p>
+      {% if listSize == 1 %}
+        There is {{ listSize }} link tagged as “{{ tag }}”:
+      {% else %}
+        There are {{ listSize }} tags on this site:
+      {% endif %}
+    </p>
+    <ul>
+      {% for tagItem in list %}
+        <li>
+          <a href="/tags/{{ tagItem | slugify }}/">{{ tagItem }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

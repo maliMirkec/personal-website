@@ -1,0 +1,39 @@
+{%- liquid
+  assign list = collections[tag] | sort: 'data.tags'
+  assign listSize = list | size
+-%}
+
+{% if list %}
+  <section class="box">
+    <h2 class="box__title">
+      Tagged “{{ tag }}”
+    </h2>
+    <ul class="box__list">
+      {% for tagItem in list %}
+        <li class="box__item">
+          {%- if tagItem.data.title -%}
+            <h3 class="box__subtitle"><a class="box__anchor" href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h3>
+          {%- endif -%}
+          <div class="box__tags">
+            {%- if cardDate -%}
+              <time class="box__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
+            {%- endif -%}
+            {%- if tagItem.data.publication -%}
+              <span class="box__tag box__tag--alpha">{{ tagItem.data.publication }}</span>
+            {%- endif -%}
+            {%- if tagItem.data.tags -%}
+              {%- for dataTag in tagItem.data.tags -%}
+                <a href="/tags/{{ dataTag | slugify }}/" class="box__anchor box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include _partials/_2024/cta cta: component.cta -%}
+      </div>
+    {%- endif -%}
+  </section>
+{% endif %}
