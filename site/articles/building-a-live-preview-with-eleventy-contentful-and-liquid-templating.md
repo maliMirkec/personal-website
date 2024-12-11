@@ -95,7 +95,7 @@ Here's how to include the page components dynamically inside the Liquid template
   {%- include includePath, id: component.id -%}
 {%- endfor -%}
 ```
-{%- endraw -%}
+{% endraw %}
 
 Here's how to fetch hero sections from Contentful in the `_data/hero.js` file. Notice how I transform the CTA components object using only its `id`.
 
