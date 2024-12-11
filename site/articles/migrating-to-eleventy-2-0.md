@@ -6,7 +6,6 @@ tags:
   - blog
   - css
   - eleventy
-thumbnail: Migrating_to_Eleventy_2.0_chgmqn
 description: Last week I upgraded my Eleventy instance after using version 0.12.1 for over a year. I was determined to resolve and document all problems during the process.
 type: articles-item
 sections2:

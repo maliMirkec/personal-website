@@ -16,7 +16,6 @@ tech:
   - contentful
 tags:
   - portfolio
-  - spg
   - ssg
   - jekyll
   - contentful

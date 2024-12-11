@@ -5,7 +5,6 @@ tags:
   - blog
   - css
   - grid
-thumbnail: Using_CSS_Grid_where_appropriate_avifto
 date: 2017-07-30 22:17:48
 description: I recently redesigned my blog and learned many things about CSS Grid along the way. Read all about my findings.
 type: articles-item

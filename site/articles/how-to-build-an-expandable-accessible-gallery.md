@@ -6,7 +6,6 @@ tags:
   - publications
   - css
   - grid
-thumbnail: How_To_Build_An_Expandable_Accessible_Gallery_dhlg4d
 date: 2021-10-29 14:00:00
 description: In this article, you will learn how to set up a gallery that is expandable as well as accessible with a few tips and tricks along the way.
 publication: Smashing Magazine

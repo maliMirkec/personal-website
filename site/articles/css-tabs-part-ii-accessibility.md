@@ -7,7 +7,6 @@ tags:
   - tabs
   - accessibility
 date: 2016-11-01 08:39:30
-thumbnail: CSS_tabs_part_II_Accessibility_io11di
 description: I wrote about CSS tabs, which was popular and gained many visitors. Surprised by accessibility comments, I investigated and added accessibility to my solution.
 type: articles-item
 sections2:

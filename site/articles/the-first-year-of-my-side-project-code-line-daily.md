@@ -7,7 +7,6 @@ tags:
   - cld
   - chrome extension
   - open source
-thumbnail: The_first_year_of_my_side_project_Code_Line_Daily_iwubhe
 description: A year since launching my side project Code Line Daily, I wanted to reintroduce the project and discuss challenges faced.
 project:
   name: Code Line Daily

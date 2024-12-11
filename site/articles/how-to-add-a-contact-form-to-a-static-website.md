@@ -5,12 +5,10 @@ date: 2019-08-01 11:33:44
 tags:
   - blog
   - publications
-  - spg
   - ssg
   - kwes
 publication: Codementor
 canonical: https://www.codementor.io/@malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
-thumbnail: How_to_add_a_contact_form_to_a_static_website_q6q5hx
 description: Add a static website contact form with ease using Kwes form builder. Follow this tutorial to learn how.
 type: articles-item
 sections2:

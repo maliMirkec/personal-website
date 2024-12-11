@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: 2021_Lookback_un2wqn
 description: Discover my journey in web development and my reflections on the past year with my 2021 lookback article.
 type: articles-item
 sections2:

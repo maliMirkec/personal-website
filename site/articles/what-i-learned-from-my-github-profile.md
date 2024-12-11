@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: What_I_learned_from_my_GitHub_profile_t126k2
 description: GitHub profile reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
 type: articles-item
 sections2:

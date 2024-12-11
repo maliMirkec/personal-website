@@ -6,7 +6,6 @@ tags:
   - blog
   - pagespeed
   - optimization
-thumbnail: Fixing_Google_Analytics_caching_issue_h0bhqx
 description: Achieving a perfect score on Google PageSpeed Insights can be challenging, especially with Google Analytics on the website. The solution is here.
 type: articles-item
 sections2:

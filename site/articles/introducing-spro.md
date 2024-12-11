@@ -6,7 +6,6 @@ tags:
   - blog
   - gulp
   - starter project
-thumbnail: Introducing_SPRO_iucjd8
 description: SPRO, a Starter Project CLI, sets up your next project's perfect dev environment by understanding architecture and creating Gulp tasks.
 project:
   name: Starter Project

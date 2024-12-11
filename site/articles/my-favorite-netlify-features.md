@@ -5,12 +5,10 @@ date: 2019-08-05 11:12:34
 tags:
   - blog
   - publications
-  - spg
   - ssg
   - netlify
 publication: CSS Tricks
 canonical: https://css-tricks.com/my-favorite-netlify-features/
-thumbnail: My_favorite_Netlify_features_lied4i
 description: Experience the magic of JAMstack development with Netlify. See why this platform is a standout choice for developers in 2019.
 type: articles-item
 sections2:

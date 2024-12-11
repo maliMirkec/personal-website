@@ -6,7 +6,6 @@ tags:
   - blog
   - publications
   - css
-thumbnail: The_CSS_from-font_Value_Explained_in_4_Demos_mxgfto
 description: I found the CSS from-font value for the text-decoration-thickness property. I did a little research what I found (and learned) is interesting.
 publication: CSS Tricks
 canonical: https://css-tricks.com/from-font-value-text-decoration-thickness/

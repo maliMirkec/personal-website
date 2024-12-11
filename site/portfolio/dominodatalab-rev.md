@@ -16,7 +16,6 @@ tech:
 tags:
   - portfolio
   - jekyll
-  - spg
   - ssg
   - html
   - css

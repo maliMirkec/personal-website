@@ -6,7 +6,6 @@ tags:
   - blog
   - productivity
   - learning
-thumbnail: How_I_learn_things_after_10_years_wf8fjk
 description: Amazed by experienced web professionals constantly learning, I too learn but in a different manner than before.
 type: articles-item
 sections2:

@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: My_Fourth_Year_Of_Freelancing_eg13ch.jpg
 description: Reflect on my journey as a freelancer in the past four years and read insights on balancing clients, personal projects and learning as a remote worker.
 type: articles-item
 sections2:

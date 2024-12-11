@@ -6,7 +6,6 @@ tags:
   - blog
   - ui
   - mentoring
-thumbnail: The_UI_Development_Mentoring_Program_ggdme2
 description: I have decided to give it a shot with a brand new mentoring program for UI development. Fill out the form today!
 project:
   name: Mentoring

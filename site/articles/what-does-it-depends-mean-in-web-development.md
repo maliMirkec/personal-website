@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
   - mentoring
-thumbnail: what-does-it-depends-mean_hatduk
 description: Discover the meaning behind "it depends" in web development and why it's often the answer to many questions in this field.
 type: articles-item
 sections2:

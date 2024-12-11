@@ -6,7 +6,6 @@ tags:
   - blog
   - netlify
   - serverless
-thumbnail: Website_analytics_with_Netlify_Functions_and_Google_Sheets_me20qs
 description: I gave up on analytics on my site a long time ago, but I was interested to see if anyone visits my site these days, so I built my own simple analytics.
 type: articles-item
 sections2:

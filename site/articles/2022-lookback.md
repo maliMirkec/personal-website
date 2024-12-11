@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: 2022_Lookback_jd4u40
 description: I reflect on my experience and achievements in the web development industry in 2022. Read my insights on the latest trends and technologies in the field.
 type: articles-item
 sections2:

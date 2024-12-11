@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
   - frontend
-thumbnail: The_essential_skill_of_a_developer_cr4cev
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 type: articles-item
 sections2:

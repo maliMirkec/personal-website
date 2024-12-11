@@ -6,7 +6,6 @@ tags:
   - blog
   - javascript
   - web dev
-thumbnail: you-don-t-need-react-for-building-websites_bs5djk
 description: As I gain experience, I use less libraries/frameworks and rely on HTML, CSS, and JavaScript. I suggest considering doing the same.
 type: articles-item
 sections2:

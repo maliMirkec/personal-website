@@ -6,7 +6,6 @@ tags:
   - blog
   - gulp
   - starter project
-thumbnail: Starter_Project_-_A_set_of_the_latest_best_practices_packed_in_Gulp_tasks_ovmzob
 description: Discover the latest best practices for web dev with Starter Project. A set of Gulp tasks that simplify the process and help you get up and running quickly.
 project:
   name: Starter Project

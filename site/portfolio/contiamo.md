@@ -15,7 +15,6 @@ tech:
   - html
 tags:
   - portfolio
-  - spg
   - ssg
   - html
   - css

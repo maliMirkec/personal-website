@@ -5,7 +5,6 @@ tags:
   - blog
   - atom
 date: 2016-11-30 20:33:06
-thumbnail: How_to_automate_development_with_Atom_kaktwk
 description: Automating dev processes is key, but the multitude of tools available can be overwhelming and time-consuming to learn. Here's how to do it in Atom IDE.
 type: articles-item
 sections2:

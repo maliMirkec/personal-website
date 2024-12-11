@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - web dev
-thumbnail: How_do_I_explain_to_my_friends_what_I_do__yevnxy
 description: My friends, who don't code, sometimes ask me what I do for a living, and I usually answer that I build websites.
 type: articles-item
 sections2:

@@ -6,7 +6,6 @@ tags:
   - blog
   - css
   - javascript
-thumbnail: Building_an_Animated_Sticky_Header_With_Custom_Offset_trsnr5
 description: "Position: sticky allows for CSS-only sticky elements, but animating stucked element couldn't be done without JavaScript."
 type: articles-item
 sections2:

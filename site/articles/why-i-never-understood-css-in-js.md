@@ -5,7 +5,6 @@ date: 2022-10-20 10:00:00
 tags:
   - blog
   - css
-thumbnail: Why_I_never_understood_CSS-in-JS_ndpbnb
 description: As a CSS purist, I had questions and comments on breaking up with CSS-in-JS and documented them in a blog post.
 type: articles-item
 sections2:

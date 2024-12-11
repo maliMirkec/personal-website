@@ -7,7 +7,6 @@ tags:
   - gulp
   - css
   - starter project
-thumbnail: Starter_Project_-_Gulp_tasks_for_CSS_qzmrjw
 description: This article is part of a series about Starter Project, and this time I will explain all about Gulp tasks for CSS.
 project:
   name: Starter Project

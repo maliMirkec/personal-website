@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: In_search_of_a_frontend_UI_developer_job_w7suki
 description: I am actively searching for a new job. Here are my observations about searching for a fully remote frontend UI developer job.
 type: articles-item
 sections2:

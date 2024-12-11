@@ -5,7 +5,6 @@ date: 2021-12-17 14:00:00
 tags:
   - blog
   - css
-thumbnail: In_defense_of_CSS_cgqzds
 description: Discover why CSS is a crucial aspect of web deve and why it deserves more recognition. Read my defense of CSS and its importance in creating modern websites.
 type: articles-item
 sections2:

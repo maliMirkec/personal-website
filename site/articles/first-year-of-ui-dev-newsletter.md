@@ -5,7 +5,6 @@ date: 2021-05-20 09:13:35
 tags:
   - blog
   - newsletter
-thumbnail: first-year-of-ui-dev-newsletter_owiskt
 description: After the first anniversary of the UI Dev Newsletter, I wanted to share how and why I am running it. Read the whole story and get some useful links.
 type: articles-item
 sections3:

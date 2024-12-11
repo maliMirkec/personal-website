@@ -6,7 +6,6 @@ tags:
   - blog
   - ui
   - mentoring
-thumbnail: Tips_On_Learning_Web_Development_sb1pfy
 description: If you are a beginner, here are ideas about how to start learning web development, especially if you are into UI development.
 project:
   name: Mentoring

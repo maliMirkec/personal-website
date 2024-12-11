@@ -7,7 +7,6 @@ tags:
   - dx
   - shopify
   - web dev
-thumbnail: nightmare-dx-shopify_ejavvl
 description: The first in a series about poor developer experience, this article covers Shopify and it's friendliness to developers.
 type: articles-item
 sections2:

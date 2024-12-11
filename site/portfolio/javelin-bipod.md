@@ -15,7 +15,6 @@ tech:
   - shopify
 tags:
   - portfolio
-  - spg
   - ssg
   - eleventy
   - contentful

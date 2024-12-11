@@ -5,7 +5,6 @@ date: 2022-09-26 10:00:00
 tags:
   - blog
   - css
-thumbnail: i-am-not-that-excited-about-new-css-features_tb4ntp
 description: Discover the reasons why I am not overly enthusiastic about the new CSS features in this thought-provoking article.
 type: articles-item
 sections2:

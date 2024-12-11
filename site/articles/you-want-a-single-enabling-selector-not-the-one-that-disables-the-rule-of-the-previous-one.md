@@ -5,7 +5,6 @@ date: 2021-03-08 11:23:50
 tags:
   - blog
   - css
-thumbnail: you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one_rjvsoa
 description: Learn about the importance of using the correct CSS selector and avoid the common mistake of overwriting previous styles.
 type: articles-item
 sections2:

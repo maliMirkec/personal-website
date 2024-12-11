@@ -7,7 +7,6 @@ tags:
   - publications
   - css
   - javascript
-thumbnail: tools-for-auditing-css_ojcnov
 description: Streamline your CSS auditing process with this developer's guide. Discover the tools you need to tackle the task effectively.
 publication: CSS Tricks
 canonical: https://css-tricks.com/tools-for-auditing-css/

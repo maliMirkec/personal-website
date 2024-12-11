@@ -7,7 +7,6 @@ tags:
   - svg
   - css
   - javascript
-thumbnail: How_to_animate_SVG_signature_l1h5a8
 description: "Animate an SVG signature with JavaScript and CSS: calculate path length with JavaScript and animate strokes with CSS."
 type: articles-item
 sections2:

@@ -6,7 +6,6 @@ tags:
   - blog
   - css
   - grid
-thumbnail: Using_CSS_Grid_where_appropriate_revisited_kxxtlh
 description: Revisiting the “Using CSS Grid where appropriate” article where you'll find a solution for navigation with variable number of items.
 type: articles-item
 sections2:

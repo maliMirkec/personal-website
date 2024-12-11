@@ -10,7 +10,6 @@ tags:
   - ribbon
 publication: CSS Tricks
 canonical: https://css-tricks.com/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/
-thumbnail: Oh_the_Many_Ways_to_Make_Triangular_Breadcrumb_Ribbons_pveunn
 description: Create a stylish row of links that interconnect with chevron-like shapes and notches using this simple tutorial.
 project:
   name: Playground

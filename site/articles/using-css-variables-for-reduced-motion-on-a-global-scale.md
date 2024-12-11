@@ -4,7 +4,6 @@ title: Using CSS Variables for reduced motion on a global scale
 tags:
   - blog
   - css
-thumbnail: Using_CSS_Variables_for_reduced_motion_on_a_global_scale_az0hd2
 date: 2021-10-28 14:00:00
 description: Learn how to use CSS Variable and prefers-reduced-motion media feature to remove or minimize animations and transitions on global scale.
 type: articles-item

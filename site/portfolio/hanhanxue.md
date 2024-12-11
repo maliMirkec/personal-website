@@ -15,7 +15,6 @@ tech:
   - middleman
 tags:
   - portfolio
-  - spg
   - ssg
   - middleman
   - html

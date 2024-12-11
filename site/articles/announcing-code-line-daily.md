@@ -7,7 +7,6 @@ tags:
   - css
   - cld
   - open source
-thumbnail: Announcing_Code_Line_Daily_lty61j
 description: Last week I launched Code Line Daily, a project featuring new frontend, PHP, and WordPress code every day. Learn how I built it.
 project:
   name: Code Line Daily

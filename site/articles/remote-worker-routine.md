@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: Just_My_Routine_As_A_Remote_Worker_ggjr05
 description: Successful remote work requires routine and discipline. Here's my recipe for balancing clients, projects, and skills.
 type: articles-item
 sections2:

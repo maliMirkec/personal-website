@@ -6,7 +6,6 @@ tags:
   - blog
   - publications
   - css
-thumbnail: How_to_Make_a_Raise_the_Curtains_Effect_in_CSS_of8w99
 description: Learn how to create a visually stunning "raise the curtains" effect while scrolling over a sticky element in this step-by-step guide.
 publication: CSS Tricks
 canonical: https://css-tricks.com/css-raise-the-curtains-effect/

@@ -5,9 +5,7 @@ date: 2018-10-24 12:23:45
 tags:
   - blog
   - hugo
-  - spg
   - ssg
-thumbnail: If_you_are_starting_a_new_website_consider_using_Hugo_war4eb
 description: Not only Hugo is “the world’s fastest framework for building websites,” it is also packed with powerful features that makes website development very pleasable.
 project:
   name: Hugo

@@ -6,7 +6,6 @@ tags:
   - blog
   - javascript
   - forms
-thumbnail: FormData_doesn_t_include_disabled_fieldsets_vzyasd
 description: Discover the issue with form data and disabled fieldset elements in this comprehensive article. Learn how to effectively handle form data in web dev projects.
 type: articles-item
 sections2:

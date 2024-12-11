@@ -15,7 +15,6 @@ tech:
   - jekyll
 tags:
   - portfolio
-  - spg
   - ssg
   - jekyll
   - styleguide

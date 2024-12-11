@@ -6,7 +6,6 @@ tags:
   - blog
   - freelance
   - remote work
-thumbnail: 2020_Lookback_k4tip6
 description: Join me as I reflect on my experiences and lessons learned during 2020. Read my 2020 lookback article.
 type: articles-item
 sections2:

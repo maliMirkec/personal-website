@@ -7,7 +7,6 @@ tags:
   - sidebar
   - accessibility
 date: 2017-02-20 11:43:48
-thumbnail: CSS_sidebar_toggle_qzorac
 description: Making web components shouldn't be a hard task. Learn how to make CSS-only sidebar toggle accessibible by adding a small JavaScript code snippet.
 type: articles-item
 sections2:

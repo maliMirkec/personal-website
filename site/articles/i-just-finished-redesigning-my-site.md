@@ -7,7 +7,6 @@ tags:
   - redesign
   - serverless
   - hexo
-thumbnail: I_just_finished_redesigning_my_site_oy6djs
 description: Learn about my recent website redesign journey, including the challenges faced and the solutions implemented for a better user experience.
 type: articles-item
 sections2:

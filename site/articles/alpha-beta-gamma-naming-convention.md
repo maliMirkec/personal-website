@@ -6,7 +6,6 @@ tags:
   - blog
   - css
   - bem
-thumbnail: Alpha_Beta_Gamma_naming_convention_pzmg7m
 description: Discover the Alpha, Beta, Gamma naming convention and how it can help you in your web development projects in this in-depth article.
 type: articles-item
 sections2:

@@ -6,7 +6,6 @@ tags:
   - blog
   - productivity
   - extensions
-thumbnail: My_favorite_extensions_for_web_development_erf5gg
 description: Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions.
 type: articles-item
 sections2:

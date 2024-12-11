@@ -15,7 +15,6 @@ tech:
   - hugo
 tags:
   - portfolio
-  - spg
   - ssg
   - hugo
   - html

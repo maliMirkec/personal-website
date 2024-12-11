@@ -6,7 +6,6 @@ tags:
   - css
   - box-shadow
 date: 2017-07-25 16:10:31
-thumbnail: How_to_create_crooked_shadow_cpq1ze
 description: I recently worked on a challenging project and had to add a shadow on a crooked border. Here is how I made it.
 type: articles-item
 sections2:

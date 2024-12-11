@@ -5,7 +5,6 @@ tags:
   - blog
   - javascript
   - plugin
-thumbnail: Classily.js_-_Toggling_classes_more_classily_qarsp1
 date: 2017-11-28 10:28:28
 description: I made a Classily.js plugin for elegant class toggling. Simple yet powerful, it can solve complex tasks when used correctly.
 type: articles-item

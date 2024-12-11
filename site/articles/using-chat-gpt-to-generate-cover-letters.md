@@ -7,7 +7,6 @@ tags:
   - freelance
   - remote work
   - chatgpt
-thumbnail: Using_ChatGPT_to_generate_cover_letters_lghzxp
 description: Let’s say you are applying for a job and want to write a cover letter that stands out. ChatGPT could help you there, and here is how.
 type: articles-item
 sections2:

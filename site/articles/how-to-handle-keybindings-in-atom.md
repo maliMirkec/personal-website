@@ -6,7 +6,6 @@ tags:
   - atom
   - keybindings
 date: 2016-10-15 16:41:54
-thumbnail: How_to_handle_keybindings_in_Atom_h1wr50
 description: Recent Atom articles discussed packages for easier work. But what if a keybinding is already in use by another package?
 type: articles-item
 sections2:

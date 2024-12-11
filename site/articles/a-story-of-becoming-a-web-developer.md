@@ -6,7 +6,6 @@ tags:
   - blog
   - ui
   - mentoring
-thumbnail: A_Story_of_Becoming_a_Web_Developer_w5y1ca
 description: Let me tell you a story about Silvestar, a fellow who learned how to code, took some chances during his career and become a solid, confident web developer.
 project:
   name: Mentoring

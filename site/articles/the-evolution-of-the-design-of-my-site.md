@@ -6,7 +6,6 @@ tags:
   - blog
   - web design
   - web dev
-thumbnail: The_evolution_of_the_design_of_my_site_oa5pqh
 description: As any self-respected developer, I redesigned my site many times. I thought it would be fun to document all these designs and see the evolution.
 type: articles-item
 sections2:
