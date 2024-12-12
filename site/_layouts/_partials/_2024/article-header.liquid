@@ -1,4 +1,23 @@
-<section class="hero{% if firstTag == 'blog' or firstTag == 'advent' or firstTag == 'redesign-2024' %} hero--fancy{% endif %}">
+<section class="article-header">
+  <h1>{{ title }}</h1>
+  <div class="tags">
+    {% if firstTag and data2024[firstTag] %}
+      <p>Category: <a href="{{ data2024[firstTag].href }}">{{ data2024[firstTag].title }}</a></p>
+    {% endif %}
+    {% if tags %}
+      {% assign myTags = tags | tagify %}
+      {% if myTags != blank %}
+        <p>Tagged: {% for tag in myTags %}<a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      {% endif %}
+    {% endif %}
+    {% if canonical and publication %}
+      <p>Published in: <a href="{{ canonical }}">{{ publication }}</a></p>
+    {% endif %}
+    {% if date %}
+      <p>Published at: <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time></p>
+    {% endif %}
+  </div>
+{%- comment -%}
   <div class="wrapper text-center">
     <div class="padding">
       <div class="margin-bottom">
@@ -54,4 +73,5 @@
       {% endif %}
     </div>
   </div>
+{%- endcomment -%}
 </section>

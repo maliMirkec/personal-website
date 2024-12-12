@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Building a live preview with Eleventy and Contentful
 date: 2024-03-22 12:00:00
 tags:
@@ -12,9 +12,6 @@ publication: Frontend Masters
 canonical: https://frontendmasters.com/blog/building-a-live-preview-with-eleventy-contentful-and-liquid-templating/
 description: If you you're making a website with Eleventy, Contentful, and Liquid templating, you can set up the live preview by following this article.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 As a part of the marketing team at [Heyflow](https://heyflow.com/), I collaborate with people who work on the company's website. Although all team members are technically acquainted, sometimes they struggle to update the website. The struggle is not being able to visualize what will change on the page when updating the content. Saving the updates and waiting for the staging environment to build is inefficient (even though our site build is less than a minute... still). As a result, the team requested a live preview of our pages.

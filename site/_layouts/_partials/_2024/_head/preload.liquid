@@ -15,6 +15,9 @@
     {% endif %}
   {% endif %}
 {% endif %}
+{% if type == 'articles-item' %}
+  <link rel="preload" href="/css/prism-okaidia.{% if env.production or env.staging %}min.{% endif %}css" as="style">
+{% endif %}
 {% if env.staging and type == "home" %}
   <link rel="preload" href="https://identity.netlify.com/v1/netlify-identity-widget.js" as="script">
 {% endif %}

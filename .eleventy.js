@@ -159,7 +159,7 @@ module.exports = (eleventyConfig) => {
 
     const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
 
-    return `<img class="brad${classes ? ' ' + classes : ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
+    return `<img class="${classes || ''}" srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr}>`
   }
 
   eleventyConfig.addLiquidShortcode('cldnry', cldnry)
@@ -201,16 +201,16 @@ module.exports = (eleventyConfig) => {
 
     const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
 
-    return `<img class="brad" srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
+    return `<img srcset="${srcset}" src="${src}" sizes="${szs}" alt="${ alt || '' }" ${attr}>`
   }
 
   eleventyConfig.addLiquidShortcode('cldnry2', cldnry2)
 
   eleventyConfig.addLiquidShortcode('cldnrylink', (link, src, alt, width, height, classes, instant) => `<a class="db piclink" href="${link}">${cldnry(src, alt, width, height, classes, instant)}</a>`)
 
-  eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, instant) => `<img class="brad ${ classes || '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}>`)
+  eleventyConfig.addLiquidShortcode('gif', (src, alt, width, height, classes, instant) => `<img class="${ classes || '' }" src="${src || ''}" alt="${ alt || '' }" width="${ width || '' }" height="${ height || '' }"${ instant ? '' : ' loading="lazy"'}>`)
 
-  eleventyConfig.addLiquidShortcode('video', (src, width, height, autoplay, loop, muted, gif) => `<video class="brad" width="${ width || '' }" height="${ height || '' }" controls playsinline ${autoplay ? ' autoplay': ''}${loop ? ' loop': ''}${muted ? ' muted': ''} poster="${src}.jpg"><source type="video/mp4" src="${src}.mp4"><source type="video/webm" src="${src}.webm">${gif ? 'Your browser does not support HTML5 video tag. <a href="' + src + '.gif">Click here to view original GIF</a>.' : ''}</video>`)
+  eleventyConfig.addLiquidShortcode('video', (src, width, height, autoplay, loop, muted, gif) => `<video width="${ width || '' }" height="${ height || '' }" controls playsinline ${autoplay ? ' autoplay': ''}${loop ? ' loop': ''}${muted ? ' muted': ''} poster="${src}.jpg"><source type="video/mp4" src="${src}.mp4"><source type="video/webm" src="${src}.webm">${gif ? 'Your browser does not support HTML5 video tag. <a href="' + src + '.gif">Click here to view original GIF</a>.' : ''}</video>`)
 
   eleventyConfig.addPairedLiquidShortcode('note', (note, title) => {
     let dataTitle = title ? ` data-title="${title}"` : ''

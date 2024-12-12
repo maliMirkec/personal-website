@@ -1,16 +1,12 @@
 {% if tags %}
   {% assign firstTag = tags | first %}
   {% if firstTag == 'blog' or firstTag == 'advent' or firstTag == 'redesign-2024' %}
-    {% include _partials/_2024/_general/hero-gamma %}
+    {% include _partials/_2024/article-header %}
   {% endif %}
 {% endif %}
-<section class="content">
-  <div class="copy">
-    {% if canonical and publication %}
-      <p>This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
-    {% endif %}
-    {{ content }}
-  </div>
+<section class="content copy{% if type == 'articles-item' %}
+ article-content{% endif %}">
+  {{ content }}
 </section>
 {% if sections3 %}
   {% for section in sections3 %}
@@ -19,7 +15,6 @@
 {% endif %}
 {% if tags %}
   {% if firstTag == 'blog' %}
-    <hr class="text-alpha hr">
-    {% include _partials/_2024/_general/banner-gamma %}
+    {% include _partials/_2024/article-footer %}
   {% endif %}
 {% endif %}
