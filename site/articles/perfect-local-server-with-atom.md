@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Perfect local server with Atom
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2016-09-05 17:11:14
 description: As an experienced developer, I seek simple solutions for most tasks and found them in Atom for streamlined development.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 

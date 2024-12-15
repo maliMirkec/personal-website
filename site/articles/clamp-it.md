@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Clamp it! VS Code extension
 date: 2024-10-02 22:00:00
 tags:
@@ -9,9 +9,6 @@ tags:
   - productivity
 description: Today I published my first VS Code extension - Clamp it! This extension makes it easy to generate the clamped sizes for your CSS code.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Today I published [my first VS Code extension - Clamp it](https://marketplace.visualstudio.com/items?itemName=starbist.clamp-it)! This extension makes it easy to generate the clamped sizes for your CSS code.

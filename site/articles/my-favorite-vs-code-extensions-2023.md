@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite VS Code extensions in 2023
 date: 2023-03-09 12:00:00
 tags:
@@ -9,9 +9,6 @@ tags:
   - editor
 description: Discover my favorite little VS Code extensions used in my everyday tasks.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Five pieces of advice for more accessible websites
 date: 2023-04-03 10:00:02
 tags:
@@ -7,9 +7,6 @@ tags:
   - accessibility
 description: To improve stats for an annual accessibility report, start with these five quick wins that will make your site much more accessible.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 On March 29, WebAIM published [an annual accessibility report](https://webaim.org/projects/million/). Unfortunately, the results are devastating, as usual. To improve stats for the next year, start with these five quick wins that will make your site much more accessible.

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: The evolution of the design of my site
 date: 2021-07-07 15:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - web dev
 description: As any self-respected developer, I redesigned my site many times. I thought it would be fun to document all these designs and see the evolution.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 As any self-respected developer, I redesigned my site many times. To be more precise, there were 6 significant redesigns. I thought it would be fun to document all these designs and see the evolution. In this review, I will focus mainly on the homepage.

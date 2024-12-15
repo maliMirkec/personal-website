@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: In search of a frontend UI developer job
 date: 2022-10-12 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: I am actively searching for a new job. Here are my observations about searching for a fully remote frontend UI developer job.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: job
 series: Searching for a job
 ---
 

@@ -2,3 +2,5 @@
 - setup update
 - search
 - scrollbar
+- slugify
+- do another post like this http://localhost:8080/articles/what-i-learned-from-my-github-profile/, use https://postspark.app/github-contributions?username=maliMirkec

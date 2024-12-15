@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Using CSS Grid where appropriate
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2017-07-30 22:17:48
 description: I recently redesigned my blog and learned many things about CSS Grid along the way. Read all about my findings.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Recently I've redesigned my blog, as some of you could notice. During this process, I decided it is time to learn more about [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and actually use it. Here's what I learned.

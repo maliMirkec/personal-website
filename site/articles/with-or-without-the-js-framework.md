@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: With or without the JS framework
 date: 2023-03-21 12:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - web dev
 description: Is it really that unusual for a frontend developer not to use a JS framework?
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 In his [recent article](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/), Josh Comeau predicts AI won’t overtake frontend development (at least not soon). I agree, but something else Mr. Comeau wrote made me write this post.

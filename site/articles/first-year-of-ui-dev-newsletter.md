@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: First year of UI Dev Newsletter
 date: 2021-05-20 09:13:35
 tags:
@@ -7,56 +7,53 @@ tags:
   - newsletter
 description: After the first anniversary of the UI Dev Newsletter, I wanted to share how and why I am running it. Read the whole story and get some useful links.
 type: articles-item
-sections3:
-  - type: banner-beta
-    banner: newsletter
-  - type: content-beta
-    id: original-q-and-a
-    desc: >-
-      ## Original Q and A
+# sections3:
+#   - type: banner-beta
+#     banner: newsletter
+#   - type: content-beta
+#     id: original-q-and-a
+#     desc: >-
+#       ## Original Q and A
 
-      - **What are the typical topics you write about? Is there a recurring theme or style throughout your articles?**
-
-
-        Everything related to User Interface development, including HTML, CSS, JavaScript, Accessibility, tools, and apps.
-
-      - **I noticed that you use Tinyletter as your newsletter platform. Are you happy with this platform? What improvements would you want to see?**
+#       - **What are the typical topics you write about? Is there a recurring theme or style throughout your articles?**
 
 
-        I am ok with Tinyletter. It isn’t the best possible experience, but it is free, and it has what I need: a custom HTML. I would like to see an option to schedule the sending and automatically send the latest issue to the new subscribers.
+#         Everything related to User Interface development, including HTML, CSS, JavaScript, Accessibility, tools, and apps.
 
-      - **How much time do you spend on your newsletter each week? Does this newsletter encompass a full-time job, hobby, or somewhere in between?**
-
-
-        I am spending a few hours reading/finding articles during the week. I usually create the issue during the weekend. It takes between an hour and two. I would say this newsletter is my side project.
-
-      - **Who’s the typical reader? Who are you targeting?**
+#       - **I noticed that you use Tinyletter as your newsletter platform. Are you happy with this platform? What improvements would you want to see?**
 
 
-        Any frontend developer should enjoy reading the newsletter. I am targeting anyone who likes to create User Interfaces.
+#         I am ok with Tinyletter. It isn’t the best possible experience, but it is free, and it has what I need: a custom HTML. I would like to see an option to schedule the sending and automatically send the latest issue to the new subscribers.
 
-      - **Do you track (or have the ability to track) the types of readers for your newsletter? If yes, have you found any interesting trends in terms of geography, interests, career, etc.?**
-
-
-        I have basic analytics that my link-shortening service offers, but I rarely check the data. I don’t have time or interest in that thing now.
-
-      - **Do you monetize your newsletter today? If yes, how do you do it? If no, why not?**
+#       - **How much time do you spend on your newsletter each week? Does this newsletter encompass a full-time job, hobby, or somewhere in between?**
 
 
-        No. I don’t think anybody would pay. I asked my readers in the anniversary issue to buy me a coffee for support. Nobody did it.
+#         I am spending a few hours reading/finding articles during the week. I usually create the issue during the weekend. It takes between an hour and two. I would say this newsletter is my side project.
 
-      - **How much time is spent outside of creating content? What are those activities?**
-
-
-        Reading the articles and deciding which one to select is the only activity outside of creating content. I was doing it anyway before I started the newsletter.
-
-      - **How much revenue do you have? What’s your goal?**
+#       - **Who’s the typical reader? Who are you targeting?**
 
 
-        Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it
-sections2:
-  - type: banner-beta
-    banner: newsletter
+#         Any frontend developer should enjoy reading the newsletter. I am targeting anyone who likes to create User Interfaces.
+
+#       - **Do you track (or have the ability to track) the types of readers for your newsletter? If yes, have you found any interesting trends in terms of geography, interests, career, etc.?**
+
+
+#         I have basic analytics that my link-shortening service offers, but I rarely check the data. I don’t have time or interest in that thing now.
+
+#       - **Do you monetize your newsletter today? If yes, how do you do it? If no, why not?**
+
+
+#         No. I don’t think anybody would pay. I asked my readers in the anniversary issue to buy me a coffee for support. Nobody did it.
+
+#       - **How much time is spent outside of creating content? What are those activities?**
+
+
+#         Reading the articles and deciding which one to select is the only activity outside of creating content. I was doing it anyway before I started the newsletter.
+
+#       - **How much revenue do you have? What’s your goal?**
+
+
+#         Not sure, to be honest. I am considering stopping the newsletter, but every new subscriber makes me not do it
 ---
 
 A few weeks ago, I sent the first-anniversary issue of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/). Around that time, I got an email from a student with a list of questions about my newsletter. I am a polite person, so I answered these questions. I thought that more people would be interested in hearing these answers, so I figured I would write a blog post about it.
@@ -131,11 +128,11 @@ At the moment, there are 170 subscribers, but I never invested in marketing. I t
 
 What I did found are some lists where I included my newsletter, like [this Github repo](https://github.com/markodenic/web-development-resources#newsletters). It also helps when people share the newsletter, mainly on Twitter. [Manuel Matuzović](https://twitter.com/mmatuzo) and [Marko Denic](https://twitter.com/denicmarko) did it, and I am very thankful they did.
 
-{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." 759 484 %}
+{% cldnrylink "https://twitter.com/denicmarko/status/1383330776796651522" "denicmarko-tweet_auldjg" "Screenshot of Marko Denic's tweet." 759 484 'center' %}
 
 If you like the UI Dev Newsletter, you could [share it](#share-the-article), too. I would appreciate it greatly.
 
-{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." 759 416 %}
+{% cldnrylink "https://twitter.com/mmatuzo/status/1384136467841118209" "mmatuzo-tweet_oxxfrw" "Screenshot of Manuel Matuzović's tweet." 759 416 'center' %}
 
 ## Conclusion
 

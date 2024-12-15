@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to handle keybindings in Atom
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2016-10-15 16:41:54
 description: Recent Atom articles discussed packages for easier work. But what if a keybinding is already in use by another package?
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 

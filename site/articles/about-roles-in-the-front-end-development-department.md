@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: About roles in the front-end development department
 date: 2022-04-05 12:17:11
 tags:
@@ -7,9 +7,6 @@ tags:
   - frontend
 description: Recently I figured that I’m going to call myself a website developer, emphasizing website heavily. It is because all other terms are somewhat vague. Here's why.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Three years ago, Chris Coyier wrote about [The Great Divide](https://css-tricks.com/the-great-divide/). This article stuck with me for a long time since I always considered CSS my strongest skill. Then, last year Brad Frost wrote about [front-of-the-front-end and back-of-the-front-end web development](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/). This article also stuck with me, primarily because of the following definition: “A front-of-the-front-end developer is a web developer who specializes in writing HTML, CSS, and presentational JavaScript code.” That’s what I do.

@@ -1,0 +1,20 @@
+<section class="article-footer">
+  <div class="series">
+    {% if series %}
+      {% assign seriesList = collections['my-articles'] | findItem: 'series', series | reverse %}
+      {% assign seriesListLength = seriesList | size %}
+      {% if seriesList and seriesListLength > 1 %}
+        <p>Part of “{{ series }}” series:</p>
+        <ul>
+          {% for seriesItem in seriesList %}
+            {% if seriesItem.url != page.url %}
+              <li>
+                <a href="{{ seriesItem.url }}">{{ seriesItem.data.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  </div>
+</section>

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 2019 lookback
 date: 2019-12-20 16:10:42
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: Reflect on my past year with 2019 Lookback. Read about the challenges, accomplishments and lessons learned during the whole year.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Lookbacks
 ---
 

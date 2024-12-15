@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 2018 lookback
 date: 2019-01-05 16:06:38
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: It is the beginning of the new year, and it is time to look back to 2018, but from a technology perspective. I have learned a lot, here are my findings.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Lookbacks
 ---
 
@@ -40,7 +37,7 @@ What an excellent year for CSS developers last year was. I enjoyed solving probl
 
 In the time when more than 50% of the developers didn't know how to solve the famous [Twitter puzzle], I wanted to write about the importance of the cascade.
 
-{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" 600 910 %}
+{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" 600 910 'center space' %}
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
 

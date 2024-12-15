@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: You don’t need React for building websites
 date: 2021-07-19 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - web dev
 description: As I gain experience, I use less libraries/frameworks and rely on HTML, CSS, and JavaScript. I suggest considering doing the same.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Here’s what I think: if you are building websites, you don’t need React (in most cases).

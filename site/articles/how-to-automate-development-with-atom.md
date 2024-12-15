@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to automate development with Atom
 tags:
   - blog
@@ -7,9 +7,6 @@ tags:
 date: 2016-11-30 20:33:06
 description: Automating dev processes is key, but the multitude of tools available can be overwhelming and time-consuming to learn. Here's how to do it in Atom IDE.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 

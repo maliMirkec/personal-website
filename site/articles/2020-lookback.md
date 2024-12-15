@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 2020 lookback
 date: 2021-01-18 13:10:42
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: Join me as I reflect on my experiences and lessons learned during 2020. Read my 2020 lookback article.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Lookbacks
 ---
 

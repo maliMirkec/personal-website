@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Testing localhost on multiple devices
 date: 2023-04-04 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - testing
 description: Learn how to test your website or web app on various devices with these tools by finding your external IP address or using third-party apps.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

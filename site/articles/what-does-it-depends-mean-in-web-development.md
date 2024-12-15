@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: What does “it depends” mean in web development
 date: 2021-06-04 15:15:15
 tags:
@@ -9,9 +9,6 @@ tags:
   - mentoring
 description: Discover the meaning behind "it depends" in web development and why it's often the answer to many questions in this field.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I have been in numerous situations where my answer to a client’s question was: “it depends.”

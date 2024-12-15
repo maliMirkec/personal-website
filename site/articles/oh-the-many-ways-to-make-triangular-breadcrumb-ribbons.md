@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Oh, the many ways to make triangular breadcrumb ribbons!
 date: 2019-05-15 19:04:01
 tags:
@@ -15,9 +15,6 @@ project:
   name: Playground
   href: https://play.silvestar.codes/ribbon/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Let’s have a look at how we can create a row of links that sorta run into each other with a chevron-like shape and notch on each block like you might see in a hierarchical breadcrumb navigation.

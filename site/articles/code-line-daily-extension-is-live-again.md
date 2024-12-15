@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Code Line Daily extension is live again
 date: 2024-10-09 12:40:00
 tags:
@@ -9,9 +9,6 @@ tags:
   - open source
 description: Here's how ChatGPT helped me re-release my old Chrome extension, Code Line Daily.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Last week, ChatGPT helped me publish [my first VS Code extension](/articles/clamp-it/), so I thought it could assist me with updating [my old Code Line Daily Chrome extension](/articles/the-first-year-of-my-side-project-code-line-daily/).

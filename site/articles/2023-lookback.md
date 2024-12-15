@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 2023 lookback
 date: 2024-01-20 12:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: 2023 was the most challenging year in my career. Read how global crisis affected me and learn which technologies I have worked with.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Lookbacks
 ---
 

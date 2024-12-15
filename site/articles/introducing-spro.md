@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Introducing SPRO
 date: 2019-02-28 10:22:07
 tags:
@@ -11,9 +11,6 @@ project:
   name: Starter Project
   href: /side-projects/starter-project/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Starter Project
 ---
 
@@ -128,7 +125,7 @@ I encourage everyone to try SPRO. I would appreciate any feedback, even if SPRO 
 
 If SPRO is useful for you and your project, we could introduce more options or tasks that would create an even better experience for any developer. For example, I am currently considering adding [siteaudit] setting to the package.
 
-Please show your support by starring the project on [Github], or by sharing on [Twitter]. 🙏
+Please show your support by starring the project on [Github], or by sharing on [Twitter].
 
 Or contribute to the project by creating [a new issue] or [a pull request].
 

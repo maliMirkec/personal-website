@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Migrating to Eleventy 2.0
 date: 2023-02-14 13:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - eleventy
 description: Last week I upgraded my Eleventy instance after using version 0.12.1 for over a year. I was determined to resolve and document all problems during the process.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Last week I finally upgraded my [Eleventy](https://www.11ty.dev/) instance after using version 0.12.1 for over a year. I tried to do this earlier but always gave up because I stumbled upon this or that issue. This time was no different, but I was determined to resolve all problems.

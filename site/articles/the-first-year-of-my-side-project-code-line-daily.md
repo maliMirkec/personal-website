@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "The first year of my side project: Code Line Daily"
 date: 2020-07-21 09:33:35
 tags:
@@ -12,9 +12,6 @@ project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 It has been a year since I launched my side project: Code Line Daily. In this post, I wanted to reintroduce the project to the community and talk about the challenges along the way.
@@ -66,8 +63,6 @@ Another person suggested that it might be a good idea to build [a browser extens
 ## Conclusion
 
 During the last year, I dedicated a lot of my time to this project. Most of the time, I was having fun developing these features, but I struggled with the content. Even if it was a single line per day, it was still a challenge for me. Writing content is hard.
-
-> “Most of the time, I was having fun developing these features, but I struggled with the content.”
 
 On the other hand, if I could pinpoint a sole benefit from this project, it would be dedication. Running an ongoing project might be a real struggle, but sticking to it gave me much more satisfaction than regrets. Not only that, but I also started another project about mentoring. Part of that project is running the [UI Dev newsletter], which I am beginning to enjoy more and more with every new issue.
 

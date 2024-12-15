@@ -1,0 +1,11 @@
+{% if footer2024.social %}
+<section class="social">
+  <ul>
+    {% for social in footer2024.social %}
+      <li>
+        <a href="{{ social.href }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>{{ social.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Custom WordPress theme development with SPRO
 date: 2019-03-05 11:13:42
 tags:
@@ -11,9 +11,6 @@ project:
   name: Starter Project
   href: /side-projects/starter-project/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Starter Project
 ---
 
@@ -207,7 +204,7 @@ As you could see, I have never touched any of the Gulp tasks, just configuration
 
 If you have any feedback, it would be appreciated. SPRO is in its early stages, and more features could be added soon.
 
-Please spread the word. More lessons are coming soon! 📣
+Please spread the word. More lessons are coming soon!
 
 [SPRO]: https://npmjs.com/package/starter-project-cli
 [read the introduction article from the last week]: /articles/introducing-spro/

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: I am not that excited about new CSS features
 date: 2022-09-26 10:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - css
 description: Discover the reasons why I am not overly enthusiastic about the new CSS features in this thought-provoking article.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I have a confession: I am not that excited about all these new CSS features. Let me tell you why.
@@ -37,7 +34,7 @@ While all major browsers are pushing new versions that support these new feature
 >
 > — [Šime Vidas](https://twitter.com/simevidas/status/1570773739721330691)
 
-{% cldnrylink "https://twitter.com/simevidas/status/1570773739721330691" "i-am-not-that-excited-about-new-css-features-tweet-sime-vidas_fbghjw" "Screenshot of a tweet from Šime Vidas." 759 248 %}
+{% cldnrylink "https://twitter.com/simevidas/status/1570773739721330691" "i-am-not-that-excited-about-new-css-features-tweet-sime-vidas_fbghjw" "Screenshot of a tweet from Šime Vidas." 759 248 'center' %}
 
 ## Problem #2
 
@@ -61,6 +58,6 @@ Sacha Greif made a great point by asking a question on Twitter today:
 >
 > — [Sacha Greif](https://twitter.com/SachaGreif/status/1574287874165702658)
 
-{% cldnrylink "https://twitter.com/SachaGreif/status/1574287874165702658" "i-am-not-that-excited-about-new-css-features-tweet-sacha-greif_j1jm5t" "Screenshot of a tweet from Sacha Greif." 759 379 %}
+{% cldnrylink "https://twitter.com/SachaGreif/status/1574287874165702658" "i-am-not-that-excited-about-new-css-features-tweet-sacha-greif_j1jm5t" "Screenshot of a tweet from Sacha Greif." 759 379 'center' %}
 
 I honestly don’t know, but I predict that using all these features will be a slow process. We are in the early phase of learning how to use it, but we are fortunate that we don’t need to wait for major browser support that long.

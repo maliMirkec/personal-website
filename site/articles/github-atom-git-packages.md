@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Github Atom Git packages
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2016-08-22 20:21:37
 description: Developers often rely on a version control system and one of the most popular is Git. Explore Git packages for the Atom IDE.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 

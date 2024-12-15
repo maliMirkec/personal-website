@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: The UI Development Mentoring program
 date: 2020-01-20 06:03:47
 tags:
@@ -11,9 +11,6 @@ project:
   name: Mentoring
   href: /side-projects/ui-dev-mentoring/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: The UI Development Mentoring Program
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: If you are starting a new website, consider using Hugo
 date: 2018-10-24 12:23:45
 tags:
@@ -11,9 +11,6 @@ project:
   name: Hugo
   href: https://hugo.silvestar.codes
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 If you are starting a new website, consider using [Hugo]. Other than it is “the world’s fastest framework for building websites,” it is packed with powerful features that would make the website development process more pleasable.

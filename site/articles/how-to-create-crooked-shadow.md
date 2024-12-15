@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to create crooked shadow
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2017-07-25 16:10:31
 description: I recently worked on a challenging project and had to add a shadow on a crooked border. Here is how I made it.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Recently I was working on a very interesting and challenging project. I was told to use CSS wherever possible. That was actually the first time I've heard someone says those words and my heart was full of joy. One of the most challenging features to build was to add a shadow on a crooked border. I know it doesn't sound either glamorous or complicated, but it kinda is.

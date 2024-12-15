@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Classily.js - Toggling classes more classily
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2017-11-28 10:28:28
 description: I made a Classily.js plugin for elegant class toggling. Simple yet powerful, it can solve complex tasks when used correctly.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I created a `JavaScript` plugin for toggling classes more __classily__, and I called it **[Classily.js](https://github.com/maliMirkec/Classily.js)**. The plugin is simple yet powerful, and, if used correctly, it could solve tasks that are not so simple.

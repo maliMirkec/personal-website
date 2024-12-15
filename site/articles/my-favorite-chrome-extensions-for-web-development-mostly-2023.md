@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite Chrome extensions in 2023
 date: 2023-03-09 09:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - extensions
 description: These Chrome extensions have helped me streamline my workflow and improve my coding experience.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

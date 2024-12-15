@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How long did it take you to get comfortable with coding?
 date: 2022-04-03 11:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - productivity
 description: Getting comfortable with coding is definitively tricky and individual. It took me several years to get comfortable with HTML, CSS, and JavaScript.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I recently got a LinkedIn invitation from a random person. After accepting it I got a message from this person. It said:

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: You want enabling CSS selectors, not disabling ones
 date: 2021-03-08 11:23:50
 tags:
@@ -7,9 +7,6 @@ tags:
   - css
 description: Learn about the importance of using the correct CSS selector and avoid the common mistake of overwriting previous styles.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 An enabling selector is what I call a selector that does a job without disabling the particular rule. I'll explain using the following example.

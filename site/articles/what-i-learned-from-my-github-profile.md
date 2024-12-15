@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: What I learned from my GitHub profile
 date: 2019-10-18 11:30:27
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: GitHub profile reveals how often do you contribute, and what kind of projects do you like. Here's what I learned from my GitHub profile.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 GitHub profile is often recognised as a developer’s portfolio. It reveals how often do you contribute, and what kind of projects do you like. But what else could we discover from a GitHub profile? Here is what I learned.

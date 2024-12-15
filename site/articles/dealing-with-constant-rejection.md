@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "Dealing with constant rejection"
 date: 2023-05-23 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: For whatever reason I am being rejected, which can be a challenging and painful experience, I remain optimistic about the right opportunity.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Searching for a job
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Extracting and using Critical CSS on my Eleventy site
 date: 2023-02-24 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - critical css
 description: This week I made some enhancements to extracting and implementing Critical CSS on my website that runs on Eleventy. Let's delve into its workings and features.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 This week I made some enhancements to extracting and implementing Critical CSS on my website that runs on Eleventy. To achieve this, I created a new package called Acclaimed CSS, specializing in Critical CSS extraction. So without further ado, let's delve into its workings and features.

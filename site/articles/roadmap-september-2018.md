@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Roadmap, September 2018.
 date: 2018-09-27 12:11:55
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: I built a career roadmap to remind myself of the importance of planning. Keeping track of the vision is key, even if not every goal is met.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 The inspiration for creating a roadmap for myself came from [C. Todd Lombardo] and his talk on Smashing TV about roadmaps: [Roadmaps are dead! Long live roadmaps!]. I have built this roadmap to remind myself how important is to have a plan for a career. It doesn't matter if I don't fulfill every objective, as long as I am keeping track of the vision.
@@ -30,7 +27,9 @@ According to Lombardo, there are five primary components of a roadmap:
 
 Making a roadmap disclaimer is essential.
 
-> “Therefore you should consider yourself informed that this roadmap is prone to changes. The content communicates information that is relevant only to me. Also, a person cannot be a project.”
+{% note "Disclaimer" %}
+Therefore you should consider yourself informed that this roadmap is prone to changes. The content communicates information that is relevant only to me. Also, a person cannot be a project.
+{% endnote %}
 
 Having that said, you are free to be inspired and make your own career plan and decisions.
 

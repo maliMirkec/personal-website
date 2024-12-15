@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: The essential skill of a developer
 date: 2018-06-26 13:01:32
 tags:
@@ -9,9 +9,6 @@ tags:
   - frontend
 description: Being a developer requires specific skills and tools. I realized what the essential skill for one developer is.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Being a developer requires specific skills and tools. I have put an effort to make a list of all the skills, tools, and techniques that I acquired during my career, and I was surprised by the number of them. During this process, I realized what the essential skill for one developer is.
@@ -42,8 +39,6 @@ So it began, I started working as a PHP developer. With my basic knowledge, I fi
 
 After endless consultations with my mentor, and about billion bugs and issues, I finally started to produce the code that works. During this period the most important skill I have acquired was learning how to find an answer to the specific problem. I obtained a new set of skills, too, like setting up IDE to help me spend more time coding and less time finding typos, and how to use Composer, for example.
 
-> “I learned something new everytime I succeeded. I learned even more everytime I failed.”
-
 After I have worked on different projects for a few years, I was getting comfortable making decisions on my own. I was exploring different approaches how to solve problems. I learned something new everytime I succeeded. I learned even more everytime I failed.
 
 Suddenly knowing how to produce code was not enough. Using tools like Redmine, Git, and Bower was required to increase productivity. Sometimes learning how to use a tool felt worse than debugging Internet Explorer bugs. Moreover, it was time-consuming, too. I had to spend our precious time in learning instead of making money.
@@ -57,8 +52,6 @@ I learned how to present obtained knowledge to the rest of the team, too. Speaki
 ## Freelance years
 
 Last year I started a freelance career. It was [a great year] for me, I worked with extraordinary professionals on exceptional projects. Working remotely, and juggling projects continuously mean adapting to new surroundings and environments. That is where spending hours, days and months of learning about new tools come in beneficial.
-
-> “Learning and using new tools and applications are part of the job.”
 
 In my opinion, I learned more techniques, and tools in the past year than in all previous jobs. I didn't enjoy learning about all of them, but I didn't mind either. Learning and using new tools and applications is part of the job.
 

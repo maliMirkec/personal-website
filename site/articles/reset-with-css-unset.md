@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Reset with CSS unset
 date: 2024-02-25 12:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - unset
 description: Utilizing the CSS unset keyword with inheritance in mind.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Unset
 ---
 

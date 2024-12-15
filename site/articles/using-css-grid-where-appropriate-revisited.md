@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Using CSS Grid where appropriate (revisited)
 date: 2018-09-05 11:01:11
 tags:
@@ -8,9 +8,6 @@ tags:
   - grid
 description: Revisiting the “Using CSS Grid where appropriate” article where you'll find a solution for navigation with variable number of items.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 This solution is a follow-up post on my last year's article ["Using CSS Grid where appropriate"]. The goal is to find a solution for navigation with an unknown number of items.
@@ -100,7 +97,7 @@ As you could see, we haven't used media queries. Media queries are useful and wi
 
 ## Final thoughts
 
-CSS Grid still may not be the best approach for navigation element, but it works. Always try using CSS Grid where appropriate, even if it solves your problem. If you are a rebel, ignore this thought and use it nevertheless—there are no rules when building web solutions as long as your users are happy. 😎
+CSS Grid still may not be the best approach for navigation element, but it works. Always try using CSS Grid where appropriate, even if it solves your problem. If you are a rebel, ignore this thought and use it nevertheless—there are no rules when building web solutions as long as your users are happy.
 
 
 ["Using CSS Grid where appropriate"]: /articles/using-css-grid-where-appropriate/

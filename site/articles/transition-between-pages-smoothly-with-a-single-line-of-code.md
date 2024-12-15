@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Transition between pages smoothly with a single line of code
 date: 2023-06-26 10:00:00
 tags:
@@ -8,10 +8,11 @@ tags:
   - view transitions
 description: By adding a meta tag with the name ‘view-transition,’ you can enable smooth page transitions.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
+
+{% note %}
+This technique is deprecated. [See updated version](/articles/transition-between-pages-smoothly-with-a-single-line-of-code-2024/).
+{% endnote %}
 
 [CSS View Transitions](https://developer.chrome.com/docs/web-platform/view-transitions/) is one of the latest additions to Chromium-based browsers, and I decided to try it.
 

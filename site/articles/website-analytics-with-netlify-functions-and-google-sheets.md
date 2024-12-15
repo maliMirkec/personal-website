@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Website analytics with Netlify Functions and Google Sheets
 date: 2022-09-10 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - serverless
 description: I gave up on analytics on my site a long time ago, but I was interested to see if anyone visits my site these days, so I built my own simple analytics.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I gave up on analytics on my site a long time ago. I was using Google Analytics and Matomo (previously Piwik), but all it did to me was drive me crazy for two reasons:

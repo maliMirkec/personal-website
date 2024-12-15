@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Thirteenth place on Eleventy Leaderboards
 date: 2024-03-27 14:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - performance
 description: My site got to thirteenth place on Eleventy Leaderboards with perfect Lighthouse scores.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 If you run a site on Eleventy, you probably know about Speedlify. It’s a tool for “benchmarking the web performance and accessibility of sites over time.”

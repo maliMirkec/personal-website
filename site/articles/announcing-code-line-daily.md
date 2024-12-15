@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Announcing Code Line Daily
 date: 2019-08-08 14:34:23
 tags:
@@ -12,9 +12,6 @@ project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Last week I released my side project: [Code Line Daily].

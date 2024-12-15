@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Why I never understood CSS-in-JS
 date: 2022-10-20 10:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - css
 description: As a CSS purist, I had questions and comments on breaking up with CSS-in-JS and documented them in a blog post.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 This week Sam Magura, an active maintainer of [Emotion](https://emotion.sh/), a widely-popular CSS-in-JS library for React, published [an article about breaking up with CSS-in-JS](https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b). As a “pure CSS” guy, I had many questions and comments while reading the article, so I had to document them in this blog post.

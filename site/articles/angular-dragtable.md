@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Angular dragtable
 tags:
   - blog
@@ -7,9 +7,6 @@ tags:
 date: 2017-02-03 12:41:54
 description: Explore how to implement drag and drop functionality for tables with large amount of row in Angular with the Angular Dragtable library.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 **Angular dragtable** is an Angular directive that allows table column reorder.

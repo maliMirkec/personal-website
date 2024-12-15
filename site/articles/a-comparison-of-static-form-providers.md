@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: A Comparison of Static Form Providers
 date: 2019-09-26 22:08:09
 tags:
@@ -11,9 +11,6 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/a-comparison-of-static-form-providers/
 description: Find the best static form provider for your needs with this review of the most popular options. Get help with validation, storage, notifications, and more.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Let’s attempt to coin a term here: "Static Form Provider." You bring your HTML `<form>`, but don’t worry about the back-end processing that makes it work. [There are a lot of these services out there!](https://serverless.css-tricks.com/services/forms)

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: The CSS from-font value explained in 4 demos
 date: 2022-02-07 11:00:00
 tags:
@@ -10,9 +10,6 @@ description: I found the CSS from-font value for the text-decoration-thickness p
 publication: CSS Tricks
 canonical: https://css-tricks.com/from-font-value-text-decoration-thickness/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I was doing my [Advent of UI components](/side-projects/advent/), and I stumbled upon the [`from-font`](https://css-tricks.com/almanac/properties/t/text-decoration-thickness/#aa-values) value for the `text-decoration-thickness` CSS property. I was curious about it, so I did a little research and I think what I found (and learned) is both interesting and worth sharing.

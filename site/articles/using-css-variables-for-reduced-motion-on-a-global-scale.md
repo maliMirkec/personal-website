@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Using CSS Variables for reduced motion on a global scale
 tags:
   - blog
@@ -7,9 +7,6 @@ tags:
 date: 2021-10-28 14:00:00
 description: Learn how to use CSS Variable and prefers-reduced-motion media feature to remove or minimize animations and transitions on global scale.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Do you know of CSS media feature [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)? In short, `prefers-reduced-motion` is a setting that tells us if the user has set the system to remove or minimize animations and transitions.

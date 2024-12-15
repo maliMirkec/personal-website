@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Save MBs by converting from GIFs to videos with Cloudinary
 date: 2023-07-25 10:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - optimization
 description: Optimize content delivery and web performance by switching from GIFs to videos with Cloudinary, saving MBs for faster loading.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I switched from GIFs to videos recently. I’ve been using Cloudinary to host my images for years, but I didn’t realize I could use it to convert GIFs to videos automatically. In this post, learn how Cloudinary helped me save megabytes of data by automatically converting GIFs to videos.

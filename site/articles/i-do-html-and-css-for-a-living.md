@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: I do HTML and CSS for a living
 date: 2023-01-21 10:00:00
 tags:
@@ -10,9 +10,6 @@ tags:
   - remote work
 description: "I have a sticker from Smashing Magazine saying, “I do CSS/HTML for a living,” and that is what I genuinely do."
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: job
 series: Searching for a job
 ---
 

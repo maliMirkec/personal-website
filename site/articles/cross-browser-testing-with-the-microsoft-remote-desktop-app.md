@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Cross-browser testing with the Microsoft Remote Desktop app
 date: 2023-04-26 08:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - testing
 description: You want to test your website on a Windows machine but hate switching your computers? See how to use the Microsoft Remote Desktop app to mitigate this problem.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Bookmarks, Saves, Hearts, Stars, Claps
 date: 2019-04-11 18:10:34
 tags:
@@ -7,9 +7,6 @@ tags:
   - productivity
 description: Discover the benefits of keeping your online bookmarks organized and explore the different ways you can save, heart, star, and clap your favorite content.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I realized that I rarely use bookmarks, but I still bookmark interesting sites, projects, or tools. I guess this is because my browser is displaying bookmarked pages first in the suggestions which could be very useful when you know only part of the title or a domain.

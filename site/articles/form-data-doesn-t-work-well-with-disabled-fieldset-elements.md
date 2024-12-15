@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: FormData doesn’t include disabled fieldsets
 date: 2022-01-13 15:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - forms
 description: Discover the issue with form data and disabled fieldset elements in this comprehensive article. Learn how to effectively handle form data in web dev projects.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 When you disable the `fieldset` element **before** reading the form data using the `FormData` constructor, the data will be **empty**.

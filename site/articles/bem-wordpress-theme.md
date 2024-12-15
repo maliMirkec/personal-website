@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: _bem - WordPress theme with BEM methodology
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2017-05-27 07:39:05
 description: Discover the power of BEM in building WordPress themes with this comprehensive guide. Learn how to create clean and organized code with BEM methodology.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 **[BEM](https://en.bem.info/)** is great. It is simple, yet powerful. If you're not familiar with it, I highly recommend reading [this article](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts.

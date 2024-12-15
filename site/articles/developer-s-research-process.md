@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Developer’s research process
 date: 2023-07-12 10:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - web dev
 description: Read how I research and find possible solutions to estimate the required effort before I start developing.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 When given a project or task you don’t know how to solve, you must research and find possible solutions to estimate the required effort. In this post, I will explain how I research before I start developing.

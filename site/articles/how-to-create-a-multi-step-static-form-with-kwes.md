@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to create a multi-step form the easy way
 date: 2020-02-08 05:39:43
 tags:
@@ -11,9 +11,6 @@ publication: DEV.to
 canonical: https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp
 description: Transform your long form into a manageable, user-friendly experience with this step-by-step tutorial on how to create a multi-step form.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Building an animated sticky header with custom offset
 date: 2018-12-07 18:08:55
 tags:
@@ -8,9 +8,6 @@ tags:
   - javascript
 description: "Position: sticky allows for CSS-only sticky elements, but animating stucked element couldn't be done without JavaScript."
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Sticky elements are used all across the web. With the appearance of the `position: sticky` property, we could create sticky elements without JavaScript plugins. But creating sticky elements with animations couldn't be achieved without a little bit of JavaScript.
@@ -174,6 +171,4 @@ You could see the full demo [on my Codepen](https://codepen.io/CiTA/pen/BGQPBz).
 
 This demo uses [`position: sticky`](https://caniuse.com/#search=position%3A%20sticky), and [`pointer-events`](https://caniuse.com/#search=pointer-events) properties that have limited support.
 
-I am really excited to see how fast CSS is moving. Brand new properties, like `position: sticky` and `pointer-events` allows us to create better experience for the end user more easily and natively. And support is getting better and better every day. 🏆
-
-
+I am really excited to see how fast CSS is moving. Brand new properties, like `position: sticky` and `pointer-events` allows us to create better experience for the end user more easily and natively. And support is getting better and better every day.

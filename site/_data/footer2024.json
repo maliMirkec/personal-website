@@ -40,15 +40,15 @@
     "title": "Feed"
   }],
   "social": [{
-    "href": "https://www.linkedin.com/in/starbist/",
-    "title": "LinkedIn"
+    "href": "https://mastodon.social/@cita",
+    "title": "Mastodon",
+    "rel": "me"
   }, {
     "href": "https://bsky.app/profile/silvestar.codes",
     "title": "BlueSky"
   }, {
-    "href": "https://mastodon.social/@cita",
-    "title": "Mastodon",
-    "rel": "me"
+    "href": "https://www.linkedin.com/in/starbist/",
+    "title": "LinkedIn"
   }, {
     "href": "https://github.com/maliMirkec",
     "title": "GitHub",

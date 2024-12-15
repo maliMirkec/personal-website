@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  {% include _partials/_2024/_general/head %}
+  {% include _partials/_2024/head %}
   <body class="page--{{ type | slugify }}{% if subtype %} page--{{ subtype | slugify }}{% endif %}">
     <div class="wrapper">
       {% include _partials/_2024/header %}
@@ -26,7 +26,6 @@
           {% include _partials/_2024/lastfm %}
         {%- endif -%}
       </main>
-      {% comment %} {% include _partials/_2024/aside %} {% endcomment %}
       {% include _partials/_2024/footer %}
       {% include _partials/_2024/_assets/style %}
       {% include _partials/_2024/_assets/scripts %}

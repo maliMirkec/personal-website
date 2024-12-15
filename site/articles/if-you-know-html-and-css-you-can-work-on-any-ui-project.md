@@ -1,14 +1,11 @@
 ---
-layout: index
+layout: default
 title:
 date: 2024-01-25 12:00:00
 tags:
   - blog
 description:
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 permalink: false
 eleventyExcludeFromCollections: true
 ---

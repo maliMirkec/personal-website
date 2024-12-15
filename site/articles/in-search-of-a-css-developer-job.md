@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: In search of a CSS developer job
 date: 2022-09-01 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: Discover the unsuccessful journey of finding a CSS developer job on Twitter, search engines, LinkedIn, job boards, and company pages.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: job
 series: Searching for a job
 ---
 
@@ -30,7 +27,7 @@ As a first step, I tweeted that I was searching for a job. Some considerate peop
 
 If you think it will help, feel free to retweet [my tweet](https://twitter.com/malimirkeccita/status/1564583796762189826).
 
-{% cldnrylink "https://twitter.com/malimirkeccita/status/1564583796762189826" "in-search-of-a-css-developer-job-tweet_mfj6xf" "Screenshot of a tweet of mine about searching for a new role." 759 474 %}
+{% cldnrylink "https://twitter.com/malimirkeccita/status/1564583796762189826" "in-search-of-a-css-developer-job-tweet_mfj6xf" "Screenshot of a tweet of mine about searching for a new role." 759 474 'center space' %}
 
 I also tried to use Twitter search, but I didn't find anything useful.
 

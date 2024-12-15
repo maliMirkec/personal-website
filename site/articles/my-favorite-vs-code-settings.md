@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite VS Code settings
 date: 2020-03-22 15:32:07
 tags:
@@ -9,9 +9,6 @@ tags:
   - editor
 description: "These are my favorite VS Code settings: Breadcrumbs, Minimap, Saving and Formatting, Bars and Windows."
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

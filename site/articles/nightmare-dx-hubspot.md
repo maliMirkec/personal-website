@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "Nightmare DX (Developer Experience): HubSpot"
 date: 2024-01-19 10:00:00
 tags:
@@ -9,9 +9,6 @@ tags:
   - web dev
 description: I had to work with HubSpot after a couple of years, and it reminded me to write this article about its nightmare developer experience.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Nightmare DX
 ---
 

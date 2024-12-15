@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to create slides with HTML and CSS
 date: 2022-10-27 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - css
 description: Discover how to create stunning CSS-only slides with my step-by-step guide. Learn how to use advanced CSS techniques to make engaging presentations.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Did you know that you could create slides with HTML and CSS only? Let’s see how.

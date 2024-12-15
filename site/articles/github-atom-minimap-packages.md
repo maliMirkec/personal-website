@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Github Atom minimap packages
 tags:
   - blog
@@ -8,9 +8,6 @@ tags:
 date: 2016-08-30 18:00:19
 description: One of the most popular features for Atom out there is a minimap. It's a code preview in a small sidebar window.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 

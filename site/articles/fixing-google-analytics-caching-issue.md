@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Fixing Google Analytics caching issue
 date: 2017-09-07 16:20:04
 tags:
@@ -8,9 +8,6 @@ tags:
   - optimization
 description: Achieving a perfect score on Google PageSpeed Insights can be challenging, especially with Google Analytics on the website. The solution is here.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Getting the perfect score from Google PageSpeed Insights could be a tedious task, especially if Google Analytics is present on the website. You end up thinking that 99/100 is the perfect score. What does that one point mean anyway? And you go to sleep every night knowing that one point is still missing. My friend, the solution is here.

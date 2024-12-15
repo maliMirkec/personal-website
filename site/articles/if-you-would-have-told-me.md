@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "If you would have told me…"
 date: 2023-05-23 11:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - freelance
 description: If you would have told me 12 years ago that I will be doing web developing for a living, I would laugh at you.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Searching for a job
 ---
 

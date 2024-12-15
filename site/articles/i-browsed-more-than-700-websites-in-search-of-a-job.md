@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: I browsed more than 700 websites in search of a job
 date: 2023-01-26 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: I found a list of 700 remote-friendly companies and opened every link searching for a job. Read the suggestions about the Careers page and job listings.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: job
 series: Searching for a job
 ---
 

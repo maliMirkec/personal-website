@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How I built my second Progressive Web App (PWA)
 date: 2019-12-17 13:00:00
 tags:
@@ -10,9 +10,6 @@ project:
   name: Code Line Daily
   href: https://cld.silvestar.codes
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 As of today, my side project [Code Line Daily] is available as a Progressive Web App.

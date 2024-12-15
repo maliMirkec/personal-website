@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: First steps with Github Atom
 tags:
   - blog
@@ -7,9 +7,6 @@ tags:
 date: 2016-08-19 16:14:04
 description: This is the first article in a series about my perfect Atom setup. First topic is installation and initial setup.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Atom
 ---
 
@@ -31,7 +28,7 @@ After you've installed Atom, you should install your first package—**[sync-set
 
 ### sync-settings installation
 
-First, open Atom settings. I'm a Windows user and default shortcut for Windows is `ctrl-,`. Go to _Install_, make sure you're on _Packages_ tab, type in "sync-settings" and press _Enter.
+First, open Atom settings. I'm a Windows user and default shortcut for Windows is `ctrl-,`. Go to _Install_, make sure you're on _Packages_ tab, type in "sync-settings" and press _Enter_.
 
 To install **sync-settings**, find package in a list (should be first on the list) and then click _Install_ button.
 

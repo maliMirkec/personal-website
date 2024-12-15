@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Interview for Remote Working Hub
 date: 2019-11-09 15:36:14
 tags:
@@ -11,9 +11,6 @@ publication: Remote Work Hub
 canonical: https://content.remote.tools/creating-modern-pixel-perfect-websites-while-freelancing-remotely/
 description: I shared my personal experiences to help you work remotely successfully on Remote Working Hub.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Remote Working Hub is a place where you could find useful information about remote working. I have been asked to share my remote working experiences. I said to myself, why not.
@@ -58,8 +55,6 @@ Since, I have invested a lot of time to post meaningful content on my site by pu
 
 This helped me gain more audience and more confidence. So, I also began publishing articles for prominent publications like LogRocket, Toptal Blog and most recently, CSS-Tricks. All this effort was not useless—clients began to contact me directly!
 
-{% cldnry "pereanu-sebastian-qFH7-yKoxik-unsplash_yshfnx" "Old-school typewriter." 759 569 %}
-
 ## What have been the best, good and worst aspects of remote working for you?
 
 The best aspect of remote working is spending more time with my family. When I don’t have tasks, I stay home. When I complete all my tasks earlier, I go back to my family. That is something that a 9-to-5 job cannot ever replace.
@@ -89,8 +84,6 @@ The funniest experience since I started remote work was related to a daily meeti
 If I had to give only one piece of advice to a new remote worker, it would be to always have substantial savings. This is especially important at the beginning of your career. When you are struggling to find a new gig, and you don’t have savings, you might consider accepting a job that you don’t want to do. This is rarely a good scenario because you would never be happy with the job, and your client might not be satisfied with your performance.
 
 Related to this advice, I would also tell a new remote worker to start finding new gigs on time. You don’t have to wait for your current gig to be finished to start looking for a new one. This could help you avoid significant periods without a job.
-
-{% cldnry "michael-longmire-lhltMGdohc8-unsplash_nyrjzz" "Spilled piggy bank." 759 605 %}
 
 Secondly, making your own schedule is a good aspect of remote working. Although I thought I wouldn’t work out of an office again after I worked from home, I was wrong.
 

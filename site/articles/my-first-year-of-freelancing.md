@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My first year of freelancing
 date: 2018-05-21 13:53:01
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Year of freelancing
 ---
 
@@ -33,8 +30,6 @@ In total, I worked with thirteen clients and seventeen mentees.
 Clients came from all over the world: United States, Canada, United Kingdom, Germany, Denmark, Romania, and Croatia. Most of them were agencies, but I also worked with designers and developers, too.
 
 In my opinion, investing in the relationship with a client is the most critical part. Earning trust from a remote position is not easy. Being kind could take you a long way with your client, and it doesn't cost you a thing.
-
-> “During my first year of freelancing, I didn't have a single negative experience with any client.”
 
 Getting the job done is also important. Never promise what you cannot deliver. It is okay to say that you need a couple of hours to do research. It is okay to say that you are not the right person for that task. It depends on a project type and the team.
 
@@ -94,9 +89,9 @@ Working as a freelancer is hard, and it isn't for everyone. Many obstacles are o
 
 I am happy to be able to share my experience as a freelance developer. Successful freelancing takes time and patience. Luckily that is something that could be learned along the way.
 
-If you like this article, share it with your friends. 👋
+If you like this article, share it with your friends.
 
-If you want to become Toptal professional, use [this link] to join! 🔗
+If you want to become Toptal professional, use [this link] to join!
 
 [Toptal]: https://www.toptal.com/resume/silvestar-bistrovic#trust-nothing-but-brilliant-freelancers
 [formidable networks]: https://www.toptal.com/#trust-nothing-but-brilliant-freelancers

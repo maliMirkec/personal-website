@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to make tabs using only CSS
 tags:
   - blog
@@ -8,9 +8,7 @@ tags:
 date: 2016-10-07 19:01:40
 description: "There are two basic approaches for developing CSS tabs: using target pseudo selector and list with checked pseudo selector."
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
+series: CSS tabs
 ---
 
 I know there are more than a few articles about this topic. And there are 2 basic approaches: [using `:target` pseudo selector](https://css-tricks.com/css3-tabs/) and [using list with `:checked` pseudo selector](https://css-tricks.com/functional-css-tabs-revisited/).

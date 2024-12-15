@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: In defense of CSS
 date: 2021-12-17 14:00:00
 tags:
@@ -7,9 +7,6 @@ tags:
   - css
 description: Discover why CSS is a crucial aspect of web deve and why it deserves more recognition. Read my defense of CSS and its importance in creating modern websites.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I am here to take a stand and defend CSS, my most favorite programming language. I don't care if it is a proper programming language or not, and I don't think the authors cared, too. However, I do care about its beauty, power, simplicity, and complexity.

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: I just finished redesigning my site
 date: 2020-03-02 07:49:34
 tags:
@@ -9,9 +9,6 @@ tags:
   - hexo
 description: Learn about my recent website redesign journey, including the challenges faced and the solutions implemented for a better user experience.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 During the last week, I have been working on redesigning my site. Here is the list of all changes:
@@ -37,7 +34,7 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 
-{% cldnrylink "https://twitter.com/malimirkeccita/status/1231233665667149824" "tweetcyborg_dknyll" "Twitter screenshot containing the poll" 600 534 %}
+{% cldnrylink "https://twitter.com/malimirkeccita/status/1231233665667149824" "tweetcyborg_dknyll" "Twitter screenshot containing the poll" 600 534 "center" %}
 
 Finally, I have updated HTML and CSS code. I have removed hard-coded sections from the theme, and I used Hexo built-in features.
 

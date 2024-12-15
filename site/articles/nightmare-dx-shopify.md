@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "Nightmare DX (Developer Experience): Shopify"
 date: 2021-08-13 14:00:00
 tags:
@@ -9,9 +9,6 @@ tags:
   - web dev
 description: The first in a series about poor developer experience, this article covers Shopify and it's friendliness to developers.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Nightmare DX
 ---
 

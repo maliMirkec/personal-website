@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Starter Project - A set of the latest best practices packed in Gulp tasks
 date: 2018-03-23 11:20:00
 tags:
@@ -11,9 +11,6 @@ project:
   name: Starter Project
   href: /side-projects/starter-project/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Starter Project
 ---
 
@@ -52,7 +49,14 @@ Starter Package is also a static page generator, a very rudimental one. The orig
 
 The package should be used as a development dependency. That will allow you to update the package and maintain your project more efficiently.
 
-{% cldnry "code_g0esoz" "package.json file." 759 375 %}
+```json
+{
+  "name" : "hexo-theme-sb",
+  "devDependencies": {
+    "starter-project": "^1.1.53"
+  }
+}
+```
 
 ## The usage
 
@@ -76,7 +80,13 @@ You could find all assets in `new_src` folder. Once you run one of the build com
 
 Starter Project is configurable and should be able to run in every project, no matter the architecture. The main configuration file could be found in the root of the project, `config.json`. For every task, there is an option `run`. If set to true, the task will run. For example, you could turn off [`penthouse`](https://www.npmjs.com/package/gulp-penthouse), a library for generating Critical CSS.
 
-{% cldnry "code2_mxkqcq" "Penthouse plugin config example." 759 291 %}
+```json
+"penthouse": {
+  "run": false,
+  "src": "false",
+  "criticalssConfigs": []
+}
+```
 
 Read more about configuration [here](/side-projects/starter-project/).
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "CSS tabs, part II: Accessibility"
 tags:
   - blog
@@ -9,9 +9,7 @@ tags:
 date: 2016-11-01 08:39:30
 description: I wrote about CSS tabs, which was popular and gained many visitors. Surprised by accessibility comments, I investigated and added accessibility to my solution.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
+series: CSS tabs
 ---
 
 Recently I've been writing about [CSS tabs](/articles/how-to-make-tabs-using-only-css/). Topic was surprisingly popular, gaining several thousand users to my page.
@@ -94,4 +92,4 @@ But on the other hand, if you're making a solution for targeted audience and the
 
 What do you think? What are your experiences?
 
-Leave a comment below or send [me](https://twitter.com/malimirkeccita) a tweet.
+Leave a comment below or [send me a tweet](https://twitter.com/malimirkeccita).

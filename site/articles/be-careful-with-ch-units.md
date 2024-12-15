@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: "Be careful with ch units"
 date: 2023-06-06 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - performance
 description: Read more about peculiar CLS issues encountered on my site because I used system fonts, CSS ch unit, and Grammarly extension.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Recently I discovered some weird issues with CLS, although my Lighthouse CLS results were perfect. Me being me, I started to investigate this odd behavior, and I learned a lot about system fonts and CSS `ch` unit along the way.

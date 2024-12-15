@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My fourth year of freelancing
 date: 2021-09-29 15:55:55
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: Reflect on my journey as a freelancer in the past four years and read insights on balancing clients, personal projects and learning as a remote worker.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Year of freelancing
 ---
 

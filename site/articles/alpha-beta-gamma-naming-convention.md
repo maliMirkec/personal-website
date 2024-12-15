@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Alpha, Beta, Gamma naming convention
 date: 2018-11-06 21:39:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - bem
 description: Discover the Alpha, Beta, Gamma naming convention and how it can help you in your web development projects in this in-depth article.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 A few months ago I started using Alpha, Beta, Gamma naming convention. It began as a temporary thing, but it stuck eventually, and now I am using it all the time.
@@ -63,7 +60,7 @@ For example, I am using `color-psi` for text color, and `color-omega` for white 
 
 Alpha, Beta, Gamma naming convention works for me, and I am using it on all new projects. I am quite sure I haven't invented it, I just wanted to share this approach with you and see what do you think about it.
 
-Do you like this approach? Do you have a different naming convention that you want to share with the community? I would like to hear more about it. 💬
+Do you like this approach? Do you have a different naming convention that you want to share with the community? I would like to hear more about it.
 
 [BEM]: http://getbem.com/
 [the Greek alphabet]: https://en.wikipedia.org/wiki/Greek_alphabet

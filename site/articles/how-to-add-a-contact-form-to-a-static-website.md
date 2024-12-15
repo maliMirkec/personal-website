@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to add a contact form to a static website
 date: 2019-08-01 11:33:44
 tags:
@@ -11,9 +11,6 @@ publication: Codementor
 canonical: https://www.codementor.io/@malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha
 description: Add a static website contact form with ease using Kwes form builder. Follow this tutorial to learn how.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 With the rise of the static site, developers need a service that could handle forms. Static website contact form is the most common case, and in this article, you would learn how to add one with [Kwes form builder].

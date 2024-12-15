@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to make a “Raise the Curtains” effect in CSS
 date: 2022-03-09 11:00:00
 tags:
@@ -10,17 +10,13 @@ description: Learn how to create a visually stunning "raise the curtains" effect
 publication: CSS Tricks
 canonical: https://css-tricks.com/css-raise-the-curtains-effect/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 "Raise the curtains" is what I call an effect where the background goes from dark to light on scroll, and the content on top also goes from light to dark while in a sticky position.
 
 Here's an example where I used the effect on a [real-life project](https://www.wundermobility.com/sharing-ready-vehicles/):
 
-
-{% embed '<iframe width="759" height="457" src="https://videopress.com/embed/VJgwbTsL" frameborder="0" allowfullscreen loading="lazy"></iframe><script src="https://videopress.com/videopress-iframe.js" defer></script>' 759 457 %}
+{% video "https://res.cloudinary.com/starbist/video/upload/v1734294497/raise-curtains_u0pao2" 759 434 %}
 
 Want to know how it's done? I will take you behind the curtain and show you how to raise it, with nothing but HTML and CSS.
 

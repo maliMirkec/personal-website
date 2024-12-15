@@ -1,4 +1,4 @@
-{% if footer %}
+{% if footer2024 %}
   <footer class="footer">
     <div class="footer__inner">
       <div class="footer__content">
@@ -16,5 +16,18 @@
         </a>
       {% endif %}
     </div>
+    {% if footer2024.social %}
+      <ul class="footer__social">
+        {% for social in footer2024.social %}
+          <li>
+            <a href="{{ social.href }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>
+              {% assign iconPath = '_partials/_2024/_icons/' | append: social.title | append: '.svg' | downcase  %}
+              {% include {{ iconPath }} %}
+              <span class="sr-only">{{ social.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </footer>
 {% endif %}

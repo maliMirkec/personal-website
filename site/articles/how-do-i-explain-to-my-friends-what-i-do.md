@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How do I explain to my friends what I do?
 date: 2022-09-19 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - web dev
 description: My friends, who don't code, sometimes ask me what I do for a living, and I usually answer that I build websites.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 My friends, who don't code, sometimes ask me what I do for a living, and I usually answer that I build websites.

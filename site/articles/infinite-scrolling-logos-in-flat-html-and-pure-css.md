@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Infinite-Scrolling Logos In Flat HTML And Pure CSS
 tags:
   - blog
@@ -11,9 +11,6 @@ description: Here's a demonstration of a technique that makes it possible to ani
 publication: Smashing Magazine
 canonical: https://www.smashingmagazine.com/2024/04/infinite-scrolling-logos-html-css/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Remember the HTML `<marquee>` element? It's deprecated, so it's not like you're going to use it when you need some sort of horizontal auto-scrolling feature. That's where CSS comes in because it has all the tools we need to pull it off. Silvestar Bistrović demonstrates a technique that makes it possible with a set of images and as little HTML as possible.

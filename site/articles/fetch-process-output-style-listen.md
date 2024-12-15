@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Fetch, process, output, style, listen
 date: 2024-06-15 15:00:00
 tags:
@@ -10,9 +10,6 @@ tags:
   - js
 description: My favorites in 2024 for building a website are Contentful, Eleventy, LiquidJS, vanilla CSS, and vanilla JS.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 In a sea of various possibilities for how to build a website, here’s my preferred way.

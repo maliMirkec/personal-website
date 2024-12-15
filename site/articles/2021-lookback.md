@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 2021 lookback
 date: 2021-12-31 12:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - remote work
 description: Discover my journey in web development and my reflections on the past year with my 2021 lookback article.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Lookbacks
 ---
 

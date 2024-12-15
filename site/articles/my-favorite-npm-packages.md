@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite NPM packages in 2023
 date: 2023-03-09 11:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - npm
 description: I’ve compiled a list of my favorite npm packages that I use on a daily basis.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 
@@ -46,7 +43,7 @@ Since my site runs on Netlify, I often use [Netlify CLI](https://www.npmjs.com/p
 
 [npkill](https://www.npmjs.com/package/npkill) is another package that I use from time to time. Since I work on many projects, either personal and client-based, I tend to have many `node_modules` folders on my computer and we all know how heavy they can be.
 
-![Heaviest objects in universe meme - node_modules.](https://i.imgflip.com/4iuwew.jpg)
+{% cldnry "node-modules-weight_xhobi1" "Heaviest objects in universe meme - node_modules." 601 399 'center' %}
 
 With `npkill` command you could find all `node_modules` folders and delete them easily.
 

@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Tips on learning web development
 date: 2020-05-20 12:11:18
 tags:
@@ -11,9 +11,6 @@ project:
   name: Mentoring
   href: /side-projects/ui-dev-mentoring/
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: The UI Development Mentoring Program
 ---
 
@@ -90,13 +87,6 @@ This post is available in the form of slides, too:
 {% embed '<iframe src="https://slides.com/starbist/mentoring-tips2/embed?style=light" width="759" height="409" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>' 759 409 %}
 
 Happy coding!
-
-<hr class="text-alpha hr margin-top-beta margin-bottom-beta">
-
-This post is part of **The UI Development Mentoring Program** series:
-
-- [A Story of Becoming a Web Developer]
-- Tips About Learning Web Development
 
 [“The essential skill of a developer”]: /articles/modern-frontend-developer-skills-and-tools/
 [Developer Roadmap]: https://github.com/kamranahmedse/developer-roadmap

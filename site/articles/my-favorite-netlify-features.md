@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite Netlify features
 date: 2019-08-05 11:12:34
 tags:
@@ -11,9 +11,6 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/my-favorite-netlify-features/
 description: Experience the magic of JAMstack development with Netlify. See why this platform is a standout choice for developers in 2019.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Being a JAMstack developer in 2019 makes me feel like I am living in a wonderland. All these modern frameworks, tools, and services make our lives as JAMstack developers quite enjoyable. In fact, Chris would say [they give us superpowers].

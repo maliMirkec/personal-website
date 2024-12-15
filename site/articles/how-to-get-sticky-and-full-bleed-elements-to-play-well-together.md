@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to get sticky and full-bleed elements to play well together
 date: 2021-01-15 11:08:46
 tags:
@@ -10,9 +10,6 @@ publication: CSS Tricks
 canonical: https://css-tricks.com/how-to-get-sticky-and-full-bleed-elements-to-play-well-together/
 description: "I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top."
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I had a unique requirement the other day: to build a layout with full-bleed elements while one element stays stuck to the top. This ended up being rather tricky to pull off so I’m documenting it here in case anyone needs to re-create this same effect. Part of the trickiness was dealing with logical positioning on small screens as well.

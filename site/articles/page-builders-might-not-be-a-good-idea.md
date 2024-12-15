@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Page builders might not be a good idea
 date: 2020-02-20 17:17:11
 tags:
@@ -12,9 +12,6 @@ credit:
   link: https://unsplash.com/photos/wFdCFmY-JS4
 description: Read my thoughts and concerns about page builders and why you might think twice before you consider using it (again).
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 Here’s what I think: page builder might not be a good idea. In this post, I wanted to share my thoughts about page builders and why you might think twice before you consider using it (again).

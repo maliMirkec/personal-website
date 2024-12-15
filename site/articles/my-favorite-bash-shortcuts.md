@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My favorite bash shortcuts in 2023
 date: 2023-03-09 10:00:00
 tags:
@@ -8,9 +8,6 @@ tags:
   - bash
 description: Take a look at my favorite Bash shortcuts that have saved me a ton of time.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 series: Tools
 ---
 

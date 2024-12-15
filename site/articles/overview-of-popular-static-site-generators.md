@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Overview of popular Static Site Generators
 date: 2018-08-07 13:00:33
 tags:
@@ -14,9 +14,6 @@ publication: Toptal
 canonical: https://www.toptal.com/front-end/static-site-generators-comparison-2018
 description: Discover why serving static HTML files is a smart move for improved caching, faster load times, and enhanced security. See how static page generators differ.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 All static page generators have a single and seemingly straightforward task: to produce a static HTML file and all its assets.

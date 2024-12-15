@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: How to create dynamic OG images with serverless function using Sharp library
 date: 2023-02-20 10:00:00
 tags:
@@ -8,16 +8,11 @@ tags:
   - serverless
 description: Improve your website's social media presence with dynamic Open Graph images. Learn how with serverless functions and Sharp in this tutorial.
 type: articles-item
-sections2:
-  - type: banner-beta
-    banner: newsletter
 ---
 
 I wanted to develop a serverless function for generating dynamic Open Graph images for so long, and I finally did it last week.
 
 Here's how my OG images look now:
-
-
 
 ![“OG image for the blog post titled “How to create dynamic OG images with serverless function using Sharp library”.](/og/og.png?text=How%20to%20create%20dynamic%20OG%20images%20with%20serverless%20function%20using%20Sharp%20library)
 
