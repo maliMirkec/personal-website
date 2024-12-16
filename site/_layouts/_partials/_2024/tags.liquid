@@ -15,7 +15,7 @@
     <ul>
       {% for tagItem in list %}
         <li>
-          <a href="/tags/{{ tagItem | slugify }}/">{{ tagItem }}</a>
+          <a href="/tags/{{ tagItem | slug }}/">{{ tagItem }}</a>
         </li>
       {% endfor %}
     </ul>

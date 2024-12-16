@@ -8,7 +8,7 @@ pagination:
   size: 1
   alias: tag
   addAllPagesToCollections: true
-permalink: /tags/{{ tag | slugify }}/
+permalink: /tags/{{ tag | slug }}/
 type: tags-item
 sections:
   - type: tag

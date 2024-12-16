@@ -13,8 +13,6 @@
     {% include _partials/_2024/_general/sections %}
   {% endfor %}
 {% endif %}
-{% if tags %}
-  {% if firstTag == 'blog' %}
-    {% include _partials/_2024/article-footer %}
-  {% endif %}
+{% if firstTag == 'blog' or firstTag == 'redesign-2024' %}
+  {% include _partials/_2024/article-footer %}
 {% endif %}

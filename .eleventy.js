@@ -70,6 +70,39 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str.trim()))
 
+  eleventyConfig.addLiquidFilter('social', (str, type, title) => {
+    const social = [{
+      'name': 'Mastodon',
+      'url': 'https://s2f.kytta.dev/?text='
+    },
+    {
+      'name': 'BlueSky',
+      'url': 'https://bsky.app/intent/compose?text='
+    },
+    {
+      'name': 'LinkedIn',
+      'url': 'https://www.linkedin.com/shareArticle?mini=true&url='
+    },
+    {
+      'name': 'Reddit',
+      'url': 'https://www.reddit.com/submit?url='
+    }].find(link => {
+      return link.name === type
+    })
+
+    return `${social.url}${str}`
+  })
+
+  eleventyConfig.addLiquidFilter('slug', (data) => {
+    return data && data.length && data
+      .toLowerCase()
+      .trim()
+      .replace(/[\/]/g, '-')
+      .replace(/[^\w\s-]/g, '')
+      .replace(/[\s_-]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+  })
+
   eleventyConfig.addLiquidFilter('cldnrysrc', (name) => `https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/${ name }`)
 
   const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story', 'advent', 'redesign-2024', 'invalid css', 'favorites']

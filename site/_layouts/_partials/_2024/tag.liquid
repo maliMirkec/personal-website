@@ -23,7 +23,7 @@
             {%- endif -%}
             {%- if tagItem.data.tags -%}
               {%- for dataTag in tagItem.data.tags -%}
-                <a href="/tags/{{ dataTag | slugify }}/" class="box__anchor box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
+                <a href="/tags/{{ dataTag | slug }}/" class="box__anchor box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
               {%- endfor -%}
             {%- endif -%}
           </div>
