@@ -35,12 +35,17 @@
       {% endif %}
     </div>
   {% endif %}
-  {% if collections['my-articles'] %}
+  {% if collections[firstTag] %}
     <div class="article-footer__content">
-      <p>Read more articles:</p>
+      {% if firstTag and data2024[firstTag] %}
+        <p>More from {{ data2024[firstTag].title }}:</p>
+      {% else %}
+        <p>Read more articles:</p>
+      {% endif %}
       <ul>
+        {% assign related = collections[firstTag] | reverse %}
         {% assign i = 0 %}
-        {% for article in collections['my-articles'] %}
+        {% for article in related %}
           {% if title != article.data.title %}
             <li>
               <a href="{{ article.url }}">{{ article.data.title }}</a>

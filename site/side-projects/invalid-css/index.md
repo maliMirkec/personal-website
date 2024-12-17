@@ -22,6 +22,7 @@ sections:
 
 
       If you want to subscribe to RSS feed for Invalid CSS, [check the feed](/rss3.xml).
+    text_width: 50
   - type: newsletter
     sticky: true
   - type: article-list

@@ -1,4 +1,12 @@
 {
+  "blog": {
+    "title": "Blog",
+    "href": "/articles/"
+  },
+  "invalid-css": {
+    "title": "Invalid CSS",
+    "href": "/side-projects/invalid-css/"
+  },
   "redesign-2024": {
     "title": "Advent of redesign",
     "href": "/side-projects/redesign/"

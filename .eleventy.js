@@ -105,7 +105,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('cldnrysrc', (name) => `https://res.cloudinary.com/starbist/image/upload/w_auto,f_auto,q_auto:eco,dpr_auto,c_scale/${ name }`)
 
-  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story', 'advent', 'redesign-2024', 'invalid css', 'favorites']
+  const exclude_tags = ['blog', 'portfolio', 'projects', 'testimonials', 'story', 'advent', 'redesign-2024', 'invalid-css', 'favorites']
 
   eleventyConfig.addLiquidFilter('tagify', (tags) => tags.filter(tag => exclude_tags.indexOf(tag) === -1))
 
@@ -281,7 +281,7 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addCollection('my-css', (collection) => {
-    return collection.getFilteredByTag('invalid css').sort((a, b) => {
+    return collection.getFilteredByTag('invalid-css').sort((a, b) => {
       if (a.date < b.date) {
         return 1
       } else if (a.date > b.date) {

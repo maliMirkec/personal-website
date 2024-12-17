@@ -1,11 +1,12 @@
 {% if tags %}
   {% assign firstTag = tags | first %}
-  {% if firstTag == 'blog' or firstTag == 'advent' or firstTag == 'redesign-2024' %}
+  {% if type == 'articles-item' %}
     {% include _partials/_2024/article-header %}
   {% endif %}
 {% endif %}
 <section class="content copy{% if type == 'articles-item' %}
- article-content{% endif %}">
+ article-content{% endif %}{% if firstTag %}
+ {{ firstTag }}{% endif %}">
   {{ content }}
 </section>
 {% if sections3 %}
@@ -13,6 +14,6 @@
     {% include _partials/_2024/_general/sections %}
   {% endfor %}
 {% endif %}
-{% if firstTag == 'blog' or firstTag == 'redesign-2024' %}
+{% if type == 'articles-item' %}
   {% include _partials/_2024/article-footer %}
 {% endif %}
