@@ -10,5 +10,9 @@
   "redesign-2024": {
     "title": "Advent of redesign",
     "href": "/side-projects/redesign/"
+  },
+  "advent": {
+    "title": "Advent of UI components",
+    "href": "/side-projects/advent/"
   }
 }

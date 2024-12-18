@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: My other favorites
 description: Silvestar's favorite writers, books, games, sport teams and individuals, and more.
 type: default
@@ -19,11 +19,8 @@ js: gallery
 sections:
   - type: hero
     title: My TV favorites
-    desc: >-
+    text: >-
       Just my random favorite writers, books, games, sport teams and individuals, and other.
-  - type: cards-epsilon
-    cta:
-      title: Read more
   - type: banner
     banner: consultation
 ---

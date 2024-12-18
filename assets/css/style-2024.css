@@ -944,7 +944,7 @@ blockquote p:not(:first-of-type) {
 
 .article-content pre[class*="language-"] {
   background-color: transparent;
-  background-image: linear-gradient(to right, var(--color-dark) -250%, var(--color-gamma) 150%);
+  background-image: linear-gradient(to right, var(--color-gamma) -100%, var(--color-dark) 500%);
   font-weight: 400;
 }
 
@@ -1126,6 +1126,41 @@ blockquote p:not(:first-of-type) {
   object-fit: cover;
 }
 
+.masonry {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: var(--size-10-20);
+  place-self: stretch;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--size-10-20);
+}
+
+.column div {
+  background-color: var(--color-alpha);
+  color: var(--gap-gamma);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-10-20);
+  border-radius: var(--size-10-20);
+}
+
+.column:nth-child(1) div {
+  padding-block: var(--size-10-20);
+}
+
+.column:nth-child(2) div {
+  padding-block: var(--size-30-60);
+}
+
+.column:nth-child(3) div {
+  padding-block: var(--size-50-100);
+}
+
 @media screen and (width < 500px) {
   .header__nav {
     border-radius: var(--size-10-20);
@@ -1264,6 +1299,10 @@ blockquote p:not(:first-of-type) {
   .footer__content {
     flex-direction: column;
   }
+
+  .masonry {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
 }
 
 @media screen and (width >= 1000px) {
@@ -1365,5 +1404,9 @@ blockquote p:not(:first-of-type) {
 
   .footer__social {
     justify-content: center;
+  }
+
+  .masonry {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }

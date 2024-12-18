@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: CSS Masonry
 description: A JavaScript recalculation for the CSS Grid masonry layout.
 tags:
@@ -10,6 +10,12 @@ js: masonry
 sections:
   - type: hero
     title: CSS Masonry
-    desc: A JavaScript recalculation for the CSS Grid masonry layout.
-  - type: cards-zeta
+    text: A JavaScript recalculation for the CSS Grid masonry layout.
+    text_width: 60
+    text2: >-
+      <https://www.npmjs.com/package/css-masonry>
+
+
+      <https://github.com/maliMirkec/css-masonry>
+  - type: masonry
 ---
