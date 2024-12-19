@@ -214,7 +214,7 @@
           "https://gulpjs.com/",
           "https://webpack.js.org/",
           "https://parceljs.org/",
-          "https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/",
+          "https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/",
           "https://gruntjs.com/"
         ]
       },
@@ -438,7 +438,7 @@
           "https://github.com/sindresorhus/awesome",
           "https://dev.to/jatinrao/resources-for-frontend-developers-1l9i",
           "https://github.com/MarkoDenic/web-development-resources",
-          "https://github.com/sw-yx/spark-joym"
+          "https://github.com/swyxio/spark-joy"
         ]
       },
       {
@@ -489,7 +489,7 @@
         "name": "CSS tools",
         "resources": [
           "https://www.csswand.dev/",
-          "https://extra-css.netlify.com/",
+          "https://extra-css.netlify.app/",
           "https://grid.layoutit.com/",
           "https://getwaves.io/",
           "https://www.gradientmagic.com/",
@@ -555,7 +555,7 @@
           "https://github.com/c0bra/deviceframe",
           "https://witeboard.com/62168dd0-319a-11e8-b988-f164786e9c22",
           "https://spotify.github.io/coordinator/",
-          "https://svg-to-symbol.herokuapp.com/",
+          "https://svg-to-symbol-app.pages.dev/",
           "https://jakearchibald.github.io/svgomg/",
           "http://b64.io/",
           "https://wkhtmltopdf.org/",
@@ -703,12 +703,6 @@
     "name": "Jobs boards",
     "type": "jobs",
     "list": [{
-        "name": "Product Hunt",
-        "resources": [
-          "https://www.producthunt.com/jobs"
-        ]
-      },
-      {
         "name": "Indeed",
         "resources": [
           "https://www.indeed.com/hire"
@@ -759,21 +753,9 @@
         ]
       },
       {
-        "name": "Remote Masters",
-        "resources": [
-          "https://remotemasters.dev/jobs"
-        ]
-      },
-      {
         "name": "Remote Jobs",
         "resources": [
           "https://remote.jobs/"
-        ]
-      },
-      {
-        "name": "Codementor",
-        "resources": [
-          "https://www.codementor.io/jobs"
         ]
       },
       {

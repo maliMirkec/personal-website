@@ -106,7 +106,7 @@ I could easily say that 2018 was a great year for me. I hope the next one will b
 [The Cascade and Other Essential Unessentials]: https://timkadlec.com/remembers/2018-09-10-the-cascade-and-other-essential-unessentials/
 [Max's question]: https://twitter.com/mxstbr/status/1038073603311448064?lang=en
 [Netlify]: https://netlify.com
-[Netlify CMS]: https://www.netlifycms.org/
+[Netlify CMS]: https://decapcms.org/
 [dev.to]: https://dev.to/starbist
 [medium.com]: https://medium.com/@malimirkeccita
 [codementor.io]: https://www.codementor.io/@malimirkeccita

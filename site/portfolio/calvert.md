@@ -7,7 +7,7 @@ thumbnail:
   alt: Screenshot of Calvert website.
   width: 759
   height: 459
-link: https://www.calvert.com/?DM=invest-with-purpose
+link: https://www.calvert.com/Affirmation.php
 display: true
 date: 2017-10-01
 type: portfolio-item
@@ -32,7 +32,7 @@ sections:
     text2: I've converted designs to cross-browser, responsive pages, and created custom animations.
     text2_width: 75
     cta:
-      href: https://www.calvert.com/?DM=invest-with-purpose
+      href: https://www.calvert.com/Affirmation.php
       title: Go to website
       modifiers:
         - small

@@ -89,7 +89,7 @@
     },
     "stack": ["Shopify", "Liquid", "CSS", "JavaScript"],
     "cta2": {
-      "href": "https://javelinbipod.co.uk",
+      "href": "https://javelinbipod.co.uk/?country=GB",
       "title": "Go to website",
       "modifiers": ["small", "converse"]
     }

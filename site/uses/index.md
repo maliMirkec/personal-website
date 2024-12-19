@@ -26,11 +26,11 @@ _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) an
 {% twrapper %}
 | Product | Website |
 | ------- | ------- |
-| MacBook Pro 15'' 2017 | [Link](https://support.apple.com/kb/SP756?locale=en_US) |
-| MacBook Air 13'' M1, 2020 | [Link](https://support.apple.com/kb/SP825?locale=en_US) |
+| MacBook Pro 15'' 2017 | [Link](https://support.apple.com/en-us/111947) |
+| MacBook Air 13'' M1, 2020 | [Link](https://support.apple.com/en-us/111883) |
 | Windows machine, Intel i5-2400 | [Link](https://www.intel.com/content/www/us/en/products/sku/52207/intel-core-i52400-processor-6m-cache-up-to-3-40-ghz/specifications.html) |
-| Magic Trackpad 2 | [Link](https://www.apple.com/shop/product/MMMP3AM/A/magic-trackpad-black-multi-touch-surface) |
-| Magic keyboard | [Link](https://www.apple.com/shop/product/MK2A3LL/A/magic-keyboard-us-english) |
+| Magic Trackpad 2 | [Link](https://www.apple.com/shop/product/MXK93AM/A/magic-trackpad-usb%E2%80%91c-white-multi-touch-surface) |
+| Magic keyboard | [Link](https://www.apple.com/shop/product/MXCK3LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english) |
 | 2⨉Dell S2716DG 27'' | [Link](https://deals.dell.com/en-us/productdetail/g6b1) |
 | Snowball microphone | [Link](https://www.bluedesigns.com/products/snowball/) |
 | Bose Companion® 2 Series III | [Link](https://www.bose.com/en_us/products/speakers/computer_speakers/companion-2-series-iii-multimedia-speaker-system.html) |

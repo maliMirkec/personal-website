@@ -84,7 +84,7 @@ I discovered [ButtonDown](https://buttondown.email/refer/starbist) recently, and
 
 ## The script
 
-Next, I had to figure out how to prepare the email HTML code from my site. I am storing all links in a JSON file. That file is used to create single newsletter posts on my site, like [this one](/side-projects/ui-dev-newsletter/2021-05-17/). By the way, I am using [11ty](https://www.11ty.dev/authors/malimirkeccita/) to build the site, my new favorite static site generator.
+Next, I had to figure out how to prepare the email HTML code from my site. I am storing all links in a JSON file. That file is used to create single newsletter posts on my site, like [this one](/side-projects/ui-dev-newsletter/2021-05-17/). By the way, I am using [11ty](https://www.11ty.dev/authors/malimirkec/) to build the site, my new favorite static site generator.
 
 The same JSON file is used in a Node script that outputs the HTML for my newsletter. The script is quite simple, partly because I cannot do complicated ones, partly because it does the job.
 

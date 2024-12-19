@@ -64,7 +64,7 @@ The following location in my quest was a LinkedIn job search. It is no different
 
 ## Job boards
 
-I remembered that I had bookmarked some job boards back in the day. Unfortunately, I discovered some are no longer working, like CSS-Tricks's job board, Codepen's job board, and [Stack Overflow's job board](https://goodbyestackoverflowjobs.com/). Others, like Smashing Magazine's job board, are pretty outdated.
+I remembered that I had bookmarked some job boards back in the day. Unfortunately, I discovered some are no longer working, like CSS-Tricks's job board, Codepen's job board, and Stack Overflow's job board. Others, like Smashing Magazine's job board, are pretty outdated.
 
 I also searched [the HackerNews "Who is hiring?" thread](https://news.ycombinator.com/item?id=32306920). It was full of exciting companies, but there were no CSS developer postings.
 

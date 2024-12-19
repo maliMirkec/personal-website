@@ -122,7 +122,7 @@ If you want to set up a hook for third-party services, all you need is a URL (JW
 All of the features mentioned above are part of the free Netlify plan. I cannot even imagine the effort invested in providing a seamless experience as it is now. But Netlify doesn’t stop there. They are introducing more and more new and shiny features, like [Netlify Dev CLI] for local development and [deploy cancelations]. Netlify has established as an undoubtedly game-changing platform in modern web development of static websites, and it is a big part of the growth and popularity of static sites.
 
 [they give us superpowers]: https://css-tricks.com/the-all-powerful-front-end-developer/
-[silvestarcodes.netlify.com]: https://silvestarcodes.netlify.com
+[silvestarcodes.netlify.app]: https://silvestarcodes.netlify.app
 [read the full instructions on the official documentation for custom domains]: https://www.netlify.com/docs/custom-domains/#manual-dns-configuration-for-root-and-www-custom-domains
 [Webmention.io]: https://webmention.io/
 [here is the link to my website from January this year]: https://5c333811e2b27a0008ff4663--silvestarcodes.netlify.com/

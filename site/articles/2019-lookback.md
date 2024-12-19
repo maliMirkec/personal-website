@@ -105,7 +105,7 @@ Let’s make the web an even better place!
 [native lazy-loading]: https://web.dev/native-lazy-loading/
 [Theme Kit]: https://shopify.github.io/themekit/
 [Netlify]: https://netlify.com
-[Netlify CMS]: https://www.netlifycms.org/
+[Netlify CMS]: https://decapcms.org/
 [a post about my favorite Netlify features]: /articles/my-favorite-netlify-features/
 [an article about style guides]: /articles/5-things-to-consider-when-creating-your-css-style-guide/
 [SPRO (or Starter Project CLI)]: /side-projects/starter-project/

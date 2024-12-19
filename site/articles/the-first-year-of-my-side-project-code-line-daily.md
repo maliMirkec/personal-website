@@ -75,7 +75,7 @@ P.S. I am aware my project is not very popular. I always wanted to learn more ab
 [asked the community]: https://dev.to/starbist/could-you-review-my-design-please-3fc6
 [on the design]: https://projects.invisionapp.com/prototype/Code-Line-Daily-cjzlr00lz002fan01i2i608k3/play/a9d28b19
 [Pug]: https://pugjs.org/api/getting-started.html
-[Netlify CMS]: https://www.netlifycms.org/
+[Netlify CMS]: https://decapcms.org/
 [add new lines]: https://cld.silvestar.codes/commit/
 [Zapier]: https://zapier.com/
 [RSS feed]: https://cld.silvestar.codes/rss.xml

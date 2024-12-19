@@ -25,7 +25,7 @@ In this article, we are going to review some of the most popular [static form pr
 - [Basin](https://usebasin.com/)
 - [FieldGoal](https://fieldgoal.io/)
 - [Formcarry](https://formcarry.com/)
-- [FormKeep](https://formkeep.com/)
+- [FormKeep](https://formkeep.com)
 - [Formspree](https://formspree.io/)
 - [FormSubmit](https://formsubmit.co/)
 - [formX](https://formx.stream/)
