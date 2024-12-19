@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to get sticky and full-bleed elements to play well together
+title: Get sticky and full-bleed elements to play well together
 date: 2021-01-15 11:08:46
 tags:
   - blog

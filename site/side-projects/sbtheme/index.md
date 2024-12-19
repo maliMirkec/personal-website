@@ -26,7 +26,7 @@ date: 2005-10-01
       <p>Clean and simple theme for Hexo blog framework.</p>
     </div>
     <div class="home__box">
-      <h1>Author</h1>
+      <h2>Author</h2>
       <p>Silvestar Bistrović</p>
       <ul>
         <li><a href="/">Website</a></li>
@@ -34,14 +34,14 @@ date: 2005-10-01
       </ul>
     </div>
     <div class="home__box">
-      <h1>Docs</h1>
+      <h2>Docs</h2>
       <ul>
         <li><a href="/side-projects/sbtheme/getting-started/">Getting Started</a></li>
         <li><a href="/side-projects/sbtheme/about/">About</a></li>
       </ul>
     </div>
     <div class="home__box">
-      <h1>Links</h1>
+      <h2>Links</h2>
       <ul>
         <li><a href="https://github.com/maliMirkec/hexo-theme-sb">Github</a></li>
         <li><a href="/side-projects/starter-project/">Starter Project</a></li>

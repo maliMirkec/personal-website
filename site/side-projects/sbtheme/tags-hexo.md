@@ -20,8 +20,8 @@ description: SB is a clean and simple theme for Hexo blog framework based on pin
       <h1 class="article__title">
         <a class="link" href="/side-projects/sbtheme/getting-started/">Getting Started With Hexo Theme SB</a></h1>
       <div class="content">
-        <h1 id="hexo-theme-sb"><a href="#hexo-theme-sb" class="headerlink" title="hexo-theme-sb"></a>hexo-theme-sb
-        </h1>
+        <h2 id="hexo-theme-sb"><a href="#hexo-theme-sb" class="headerlink" title="hexo-theme-sb"></a>hexo-theme-sb
+        </h2>
         <p>Clean and simple theme for Hexo blog framework.</p>
         <h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2>
         <p>Npm installation:</p>

@@ -965,7 +965,7 @@ body {
   }
 }
 
-.home__box h1,
+.home__box h2,
 .home__box h3 {
   letter-spacing: calc(100 / 1000 * 1em);
 }
