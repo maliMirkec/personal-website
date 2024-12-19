@@ -34,3 +34,8 @@
 /api/clue.js* /.netlify/functions/clue:splat 200!
 /api/lastfm.js* /.netlify/functions/lastfm:splat 200!
 /how/ / 301!
+/portfolio/machine-learning-libraries/ /portfolio/ 301!
+/articles/how-to-use-acclaimed-package-to-extract-critical-css/ /articles/extracting-and-using-critical-css-on-my-eleventy-site/ 301!
+/tags/devtools/ /tags/extensions/ 301!
+/articles/developer-s-research- /articles/developer-s-research-process/ 301!
+/articles/my-favorite-chrome-%20extensions-for-web-development-mostly/ /articles/my-favorite-chrome-extensions-for-web-development-mostly/ 301!
