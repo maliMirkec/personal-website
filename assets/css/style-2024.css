@@ -1234,6 +1234,22 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (500px <= width < 1000px) {
+  .page--home .hero:has(.hero__image) {
+    grid-template-columns: 1fr clamp(10rem, calc(-10rem + 64vw), 20rem);
+    column-gap: var(--size-20-30);
+  }
+
+  .hero > div:not(.hero__image:has(svg)) {
+    grid-column: 1;
+  }
+
+  .hero > .hero__image:has(svg) {
+    grid-column: 2;
+    grid-row: 1 / span 5;
+  }
+}
+
+@media screen and (500px <= width < 1000px) {
   .article-content,
   .article-footer {
     display: grid;
@@ -1258,7 +1274,7 @@ blockquote p:not(:first-of-type) {
   }
 
   .hero__image svg {
-    max-inline-size: var(--max-inline-size);
+    max-inline-size: min(var(--max-inline-size), 100%);
   }
 
   .hero__title {

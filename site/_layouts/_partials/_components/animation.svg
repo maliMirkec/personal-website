@@ -1,52 +1,52 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg" class="tveye">
   <style>
     @media (prefers-reduced-motion: no-preference) {
-      .sbdesign, .sbcode, .sbcode code, .sbme, .sbme g, .sbwebsite, .sbwebsite :is(rect:not(:first-of-type), path) {
+      .active :is(.sbdesign, .sbcode, .sbcode code, .sbme, .sbme g, .sbwebsite, .sbwebsite :is(rect:not(:first-of-type), path)) {
         position: relative;
         transform-origin: center;
       }
-      .sbwebsite, .sbcode, .sbme {
+      .active :is(.sbwebsite, .sbcode, .sbme) {
         opacity: 0;
         pointer-events: none;
       }
-      .sbdesign {
+      .active .sbdesign {
         --tv-block: 100%
         --tv-inline: 100%;
       }
-      .sbfileext {
+      .active .sbfileext {
         animation: tv ease-in-out forwards;
         animation-delay: calc(-2s * var(--tv-delay));
         animation-duration: calc(3s + (2s * var(--tv-delay)));
         transform: translate(var(--tv-inline), var(--tv-block));
       }
-      .sbme {
+      .active .sbme {
         animation: go ease-in-out forwards;
         animation-delay: 1s;
         animation-duration: 3s;
       }
-      .sbme g {
+      .active .sbme g {
         animation: go1 ease-in-out forwards;
         animation-delay: 1s;
         animation-duration: 3s;
       }
-      .sbcode {
+      .active .sbcode {
         animation: go ease-in-out forwards;
         animation-delay: 3s;
         animation-duration: 3s;
       }
-      .sbcode path {
+      .active .sbcode path {
         opacity: 0;
         transform: translateX(6%);
         animation: go2 ease-in-out forwards;
         animation-delay: 3s;
         animation-duration: 3s;
       }
-      .sbwebsite {
+      .active .sbwebsite {
         animation: go ease-in-out forwards;
         animation-delay: 5s;
         animation-duration: 3s;
       }
-      .sbwebsite :is(rect:not(:first-of-type), path)  {
+      .active .sbwebsite :is(rect:not(:first-of-type), path)  {
         opacity: 0;
         transform: scale(0);
         animation: go3 ease-in-out forwards;
@@ -112,30 +112,30 @@
       }
       @keyframes go2 {
         0%,
-        75% {
+        82.5% {
           opacity: 0;
           transform: translateY(-50%);
         }
 
         87.5% {
           opacity: 1;
-          transform: translateY(-5%);
+          transform: translateY(5%);
         }
 
         90% {
-          transform: translateY(4%);
+          transform: translateY(-4%);
         }
 
         93% {
-          transform: translateY(-3%);
+          transform: translateY(3%);
         }
 
         95% {
-          transform: translateY(2%);
+          transform: translateY(-2%);
         }
 
         97% {
-          transform: translateY(-1%);
+          transform: translateY(1%);
         }
 
         98.5%,
@@ -309,3 +309,23 @@
     </defs>
   </g>
 </svg>
+<script>
+const $t = document.querySelector('.tveye');
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      } else {
+        entry.target.classList.remove('active');
+      }
+    })
+  },
+  {
+    threshold: 0.1,
+  }
+)
+
+observer.observe($t)
+</script>
