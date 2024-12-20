@@ -14,23 +14,23 @@
 
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="ltr">
-  {% include _partials/_general/head %}
+  {% include _partials/_legacy/head %}
   <body>
-    {% include _partials/_general/skip-link %}
+    {% include _partials/_legacy/skip-link %}
     <div class="inner">
-      {% include _partials/_general/header %}
+      {% include _partials/_legacy/header %}
       <main id="main">
-        {% include _partials/_general/hero-tags %}
+        {% include _partials/_legacy/hero-tags %}
         <hr class="text-alpha hr">
         {% if tag %}
-          {% include _partials/_general/cards-tags %}
+          {% include _partials/_legacy/cards-tags %}
         {% else %}
-          {% include _partials/_general/tags %}
+          {% include _partials/_legacy/tags %}
         {% endif %}
       </main>
-      {% include _partials/_general/footer %}
+      {% include _partials/_legacy/footer %}
     </div>
-    {% include _partials/_general/toggle-button %}
+    {% include _partials/_legacy/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
     {% include _partials/_assets/analytics %}

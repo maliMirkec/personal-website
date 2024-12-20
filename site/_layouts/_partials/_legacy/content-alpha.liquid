@@ -1,7 +1,7 @@
 {% if tags %}
   {% assign firstTag = tags | first %}
   {% if firstTag == 'blog' or firstTag == 'advent' or firstTag == 'redesign-2024' %}
-    {% include _partials/_general/hero-gamma %}
+    {% include _partials/_legacy/hero-gamma %}
   {% endif %}
 {% endif %}
 <section class="wrapper margin-top-beta margin-bottom-beta">
@@ -19,12 +19,12 @@
 {% endif %}
 {% if sections3 %}
   {% for section in sections3 %}
-    {% include _partials/_general/sections %}
+    {% include _partials/_legacy/sections %}
   {% endfor %}
 {% endif %}
 {% if tags %}
   {% if firstTag == 'blog' %}
     <hr class="text-alpha hr">
-    {% include _partials/_general/banner-gamma %}
+    {% include _partials/_legacy/banner-gamma %}
   {% endif %}
 {% endif %}

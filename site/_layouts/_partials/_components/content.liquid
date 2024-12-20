@@ -1,7 +1,7 @@
 {% if tags %}
   {% assign firstTag = tags | first %}
   {% if type == 'articles-item' %}
-    {% include _partials/_2024/article-header %}
+    {% include _partials/_components/article-header %}
   {% endif %}
 {% endif %}
 <section class="content copy{% if type == 'articles-item' %}
@@ -11,9 +11,9 @@
 </section>
 {% if sections3 %}
   {% for section in sections3 %}
-    {% include _partials/_2024/_general/sections %}
+    {% include _partials/_components/_legacy/sections %}
   {% endfor %}
 {% endif %}
 {% if type == 'articles-item' %}
-  {% include _partials/_2024/article-footer %}
+  {% include _partials/_components/article-footer %}
 {% endif %}

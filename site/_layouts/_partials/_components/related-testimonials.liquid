@@ -1,4 +1,4 @@
-{%- assign list = collections[component.filter] -%}
+{%- assign list = collections[component.filter] | where: 'data.company', component.company -%}
 {%- assign i1 = 1 -%}
 
 {% if component.random %}
@@ -60,7 +60,7 @@
     </ul>
     {%- if component.cta -%}
       <div class="box__action">
-        {%- include _partials/_2024/cta cta: component.cta -%}
+        {%- include _partials/_components/cta cta: component.cta -%}
       </div>
     {%- endif -%}
   </section>

@@ -2,34 +2,34 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  {% include _partials/_2024/head %}
+  {% include _partials/_components/head %}
   <body class="page--{{ type | slugify }}{% if subtype %} page--{{ subtype | slugify }}{% endif %}">
     <div class="wrapper">
-      {% include _partials/_2024/header %}
+      {% include _partials/_components/header %}
       <main class="main" id="main">
         {% block content %}
           {% if sections %}
             {% for section in sections %}
-              {% include _partials/_2024/sections %}
+              {% include _partials/_components/sections %}
             {% endfor %}
           {% endif %}
           {% if content != blank and content != '' %}
-            {% include _partials/_2024/content %}
+            {% include _partials/_components/content %}
           {% endif %}
           {% if sections2 %}
             {% for section in sections2 %}
-              {% include _partials/_2024/sections %}
+              {% include _partials/_components/sections %}
             {% endfor %}
           {% endif %}
         {% endblock %}
         {%- if type == 'home' -%}
-          {% include _partials/_2024/lastfm %}
+          {% include _partials/_components/lastfm %}
         {%- endif -%}
       </main>
-      {% include _partials/_2024/footer %}
-      {% include _partials/_2024/_assets/style %}
-      {% include _partials/_2024/_assets/scripts %}
-      {% include _partials/_2024/_assets/analytics %}
+      {% include _partials/_components/footer %}
+      {% include _partials/_components/_assets/style %}
+      {% include _partials/_components/_assets/scripts %}
+      {% include _partials/_components/_assets/analytics %}
     </div>
   </body>
 </html>

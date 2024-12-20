@@ -15,6 +15,9 @@ sections:
     cta:
       href: /contact/
       title: Contact me
+    gfx:
+      name: animation
+      clamp: clamp(18.75rem, calc(12.981rem + 19.231vw), 25rem)
   - type: banner
     banner: redesign
     sticky: true

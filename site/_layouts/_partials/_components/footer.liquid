@@ -1,5 +1,5 @@
 {% if footer2024 %}
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer__inner">
       <div class="footer__content">
         {% if site.author %}
@@ -21,7 +21,7 @@
         {% for social in footer2024.social %}
           <li>
             <a href="{{ social.href }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>
-              {% assign iconPath = '_partials/_2024/_icons/' | append: social.title | append: '.svg' | downcase  %}
+              {% assign iconPath = '_partials/_components/_icons/' | append: social.title | append: '.svg' | downcase  %}
               {% include {{ iconPath }} %}
               <span class="sr-only">{{ social.title }}</span>
             </a>

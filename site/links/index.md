@@ -26,7 +26,6 @@ sections2:
 - [GitHub](https://github.com/maliMirkec)
 - [CodePen](https://codepen.io/CiTA/)
 - [NPM](https://www.npmjs.com/~starbist)
-- [CodersRank](https://profile.codersrank.io/user/malimirkec/)
 
 ## Freelance
 

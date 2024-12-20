@@ -12,9 +12,9 @@ isNewsletter: true
 
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="ltr">
-  {% include _partials/_general/head %}
+  {% include _partials/_legacy/head %}
   <body class="uidev{% if page.url == '/side-projects/ui-dev-newsletter/' %} bg-lightish{% endif %}">
-    {% include _partials/_general/skip-link %}
+    {% include _partials/_legacy/skip-link %}
     {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
       {% include _partials/_newsletter/header %}
     {% endunless %}
@@ -23,26 +23,26 @@ isNewsletter: true
         {% block content %}
           {% if sections %}
             {% for section in sections %}
-              {% include _partials/_general/sections %}
+              {% include _partials/_legacy/sections %}
             {% endfor %}
           {% endif %}
           {% if type == 'newsletter-single' %}
             {% include _partials/_newsletter/issue %}
           {% else %}
             {% if content != blank and content != '' %}
-              {% include _partials/_general/content-alpha %}
+              {% include _partials/_legacy/content-alpha %}
             {% endif %}
           {% endif %}
           {% if sections2 %}
             {% for section in sections2 %}
-              {% include _partials/_general/sections %}
+              {% include _partials/_legacy/sections %}
             {% endfor %}
           {% endif %}
         {% endblock %}
       </main>
     </div>
     {% include _partials/_newsletter/footer %}
-    {% include _partials/_general/toggle-button %}
+    {% include _partials/_legacy/toggle-button %}
     {% include _partials/_assets/style %}
     {% include _partials/_assets/scripts %}
     {% include _partials/_assets/analytics %}
