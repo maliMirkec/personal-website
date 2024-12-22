@@ -12,7 +12,7 @@
       {% for tagItem in list %}
         <li class="box__item">
           {%- if tagItem.data.title -%}
-            <h3 class="box__subtitle"><a class="box__anchor" href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h3>
+            <h3 class="box__subtitle"><a href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h3>
           {%- endif -%}
           <div class="box__tags">
             {%- if cardDate -%}
@@ -23,7 +23,7 @@
             {%- endif -%}
             {%- if tagItem.data.tags -%}
               {%- for dataTag in tagItem.data.tags -%}
-                <a href="/tags/{{ dataTag | slug }}/" class="box__anchor box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
+                <a href="/tags/{{ dataTag | slug }}/" class="fancy-hover box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
               {%- endfor -%}
             {%- endif -%}
           </div>

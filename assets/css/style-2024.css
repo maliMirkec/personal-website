@@ -147,7 +147,8 @@ img {
   text-underline-offset: 0.075em;
 }
 
-:where(main a:not([class])) {
+/* https://css-tricks.com/cool-hover-effects-using-background-properties/ */
+:where(main a:not([class]), .fancy-hover) {
   background-image: linear-gradient(var(--link-color, var(--color-alpha-op33)) 0 0);
   background-position: right;
   background-repeat: no-repeat;
@@ -155,7 +156,7 @@ img {
   transition: var(--timing200), background-position 0s;
 }
 
-:where(main a:not([class])):is(:hover, :focus, :active) {
+:where(main a:not([class]), .fancy-hover):is(:hover, :focus, :active) {
   --p: 100%;
   background-position: left;
 }
@@ -559,7 +560,7 @@ blockquote p:not(:first-of-type) {
 
 .box__tag,
 .box__more {
-  color: color-mix(in srgb, var(--color-gamma), var(--color-light) 20%);
+  color: color-mix(in srgb, var(--color-gamma), var(--color-light) 10%);
   font-family: var(--rounded);
   font-size: 1rem;
 }

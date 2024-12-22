@@ -31,7 +31,7 @@
         {%- unless component.exclude and page.url == card.url -%}
           <li class="box__item">
             {%- if card.data.title -%}
-              <h3 class="box__subtitle"><a class="box__anchor" href="{{ card.url }}">{{ card.data.title }}</a></h3>
+              <h3 class="box__subtitle"><a href="{{ card.url }}">{{ card.data.title }}</a></h3>
             {%- endif -%}
             <div class="box__tags">
               {%- if cardDate -%}
@@ -43,7 +43,7 @@
               {%- if card.data.tags and true == false -%}
                 {%- for tag in card.data.tags -%}
                   {%- unless tag == 'blog' -%}
-                    <a href="/tags/{{ tag | slug }}/" class="box__anchor box__tag box__tag--beta">{{ tag }}</a>
+                    <a href="/tags/{{ tag | slug }}/" class="fancy-hover box__tag box__tag--beta">{{ tag }}</a>
                   {%- endunless -%}
                 {%- endfor -%}
               {%- endif -%}
