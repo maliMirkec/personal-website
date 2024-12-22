@@ -33,5 +33,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-<link rel="expect" blocking="render" href="#header">
+{% if tags %}
+  <link rel="expect" blocking="render" href="#header">
+{% endif %}
 <link rel="expect" blocking="render" href="#footer">

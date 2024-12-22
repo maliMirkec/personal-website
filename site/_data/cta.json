@@ -49,7 +49,7 @@
     "cta": {
       "href": "https://css-auditors.com",
       "title": "Learn more about CSS Auditors",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "codescan": {
@@ -58,7 +58,7 @@
     "cta": {
       "href": "/portfolio/codescan/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "cs_zg7xpc",
@@ -70,7 +70,7 @@
     "cta2": {
       "href": "https://www.codescan.io",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "javelin-bipod": {
@@ -79,7 +79,7 @@
     "cta": {
       "href": "/portfolio/javelin-bipod/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "spe_u2xgvi",
@@ -91,7 +91,7 @@
     "cta2": {
       "href": "https://javelinbipod.co.uk/?country=GB",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "approx-blue": {
@@ -100,7 +100,7 @@
     "cta": {
       "href": "/portfolio/approx-blue/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "ab_vvxzwu.svg",
@@ -112,7 +112,7 @@
     "cta2": {
       "href": "https://approx.blue",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "dominodatalab": {
@@ -121,7 +121,7 @@
     "cta": {
       "href": "/portfolio/dominodatalab/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "ddl_rj0jfd",
@@ -133,7 +133,7 @@
     "cta2": {
       "href": "https://www.dominodatalab.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "wunder-mobility": {
@@ -142,7 +142,7 @@
     "cta": {
       "href": "/portfolio/wundermobility/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "wm_ysj8e4",
@@ -154,7 +154,7 @@
     "cta2": {
       "href": "https://www.wundermobility.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "heyflow": {
@@ -163,7 +163,7 @@
     "cta": {
       "href": "/portfolio/heyflow/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "heyflow-logo_ljp25m.svg",
@@ -175,7 +175,7 @@
     "cta2": {
       "href": "https://heyflow.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "westwing": {
@@ -184,7 +184,7 @@
     "cta": {
       "href": "/portfolio/westwing/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "ww_pm2rwy",
@@ -196,7 +196,7 @@
     "cta2": {
       "href": "https://www.westwing.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "pinecone": {
@@ -205,7 +205,7 @@
     "cta": {
       "href": "/portfolio/pinecone/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "pinecone-logo_ybycgg",
@@ -217,7 +217,7 @@
     "cta2": {
       "href": "https://www.pinecone.io",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "bozzuto": {
@@ -226,7 +226,7 @@
     "cta": {
       "href": "/portfolio/bozzuto/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "bm_qlnuvi",
@@ -238,7 +238,7 @@
     "cta2": {
       "href": "https://www.bozzuto.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "creditcardinsider": {
@@ -247,7 +247,7 @@
     "cta": {
       "href": "/portfolio/creditcardinsider/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "cci_xk4gjk",
@@ -259,7 +259,7 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/",
       "title": "See the snapshot",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "hanhanxue": {
@@ -268,7 +268,7 @@
     "cta": {
       "href": "/portfolio/hanhanxue/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "hhx_iu8agl",
@@ -280,7 +280,7 @@
     "cta2": {
       "href": "https://www.hanhanxue.com",
       "title": "Go to website",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "yearbook-trase": {
@@ -289,7 +289,7 @@
     "cta": {
       "href": "/portfolio/yearbook-trase/",
       "title": "See the project",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     },
     "logo": {
       "src": "yt_iyy37j",
@@ -301,7 +301,7 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/",
       "title": "See the snapshot",
-      "modifiers": ["small", "converse"]
+      "modifiers": ["small", "inverse"]
     }
   },
   "redesign": {

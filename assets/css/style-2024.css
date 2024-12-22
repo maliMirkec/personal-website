@@ -32,6 +32,7 @@
 
   --color-alpha: #63f2c5;
   --color-alpha-op0: #63f2c500;
+  --color-alpha-op33: #63f2c554;
   --color-beta: #ff3366;
   --color-gamma: #043A73;
   --color-gamma-op06: #0439710f;
@@ -142,8 +143,21 @@ img {
   text-decoration-thickness: max(1px, 0.05em);
 }
 
-:where(a, button):is(:hover, :focus, :active) {
+:where(a):is(:hover, :focus, :active) {
   text-underline-offset: 0.075em;
+}
+
+:where(main a:not([class])) {
+  background-image: linear-gradient(var(--link-color, var(--color-alpha-op33)) 0 0);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: var(--p, 0%);
+  transition: var(--timing200), background-position 0s;
+}
+
+:where(main a:not([class])):is(:hover, :focus, :active) {
+  --p: 100%;
+  background-position: left;
 }
 
 :where(a, button):focus-visible,
@@ -198,12 +212,12 @@ body {
 }
 
 [class*="cta--inverse"] {
-  background-image: linear-gradient(to right, var(--color-gamma) 50%, var(--color-alpha) 500%);
+  background-image: linear-gradient(to right, var(--color-gamma) 50%, var(--color-alpha) 1000%);
   color: var(--color-alpha);
 }
 
 [class*="cta--converse"] {
-  background-image: linear-gradient(to left, transparent -100%, var(--color-gamma) 1000%);
+  background-image: linear-gradient(to left, transparent -100%, var(--color-gamma) 2000%);
   color: var(--color-gamma);
 }
 
@@ -233,6 +247,10 @@ body {
 blockquote {
   padding-inline-start: var(--size-10-20);
   position: relative;
+}
+
+.testimonials blockquote {
+  padding-inline-start: var(--size-30-60);
 }
 
 blockquote:before {
@@ -309,17 +327,17 @@ blockquote p:not(:first-of-type) {
   display: block;
 }
 
-.header__link--beta {
-  background-color: var(--color-light);
-  outline-offset: 0;
-}
-
 .header__link--alpha {
   display: flex;
   align-items: center;
   gap: var(--size-05-10);
   padding-inline-end: var(--size-15-30);
   border-radius: var(--size-50-100);
+}
+
+.header__link--beta {
+  background-color: var(--color-light);
+  outline-offset: 0;
 }
 
 .header__link--alpha img {
@@ -1348,30 +1366,30 @@ blockquote p:not(:first-of-type) {
     z-index: -1;
   }
 
-  .page:not(.page--portfolio-item) .hero:has(.hero__image) {
+  body:not(.page--portfolio-item) .hero:has(.hero__image) {
     grid-template-columns: min(90vw, var(--main)) 1fr;
     align-items: center;
     column-gap: var(--size-50-100);
   }
 
-  .page:not(.page--portfolio-item) .hero__image {
+  body:not(.page--portfolio-item) .hero__image {
     grid-column: 2;
     grid-row-start: 1;
   }
 
-  .page:not(.page--portfolio-item) .hero__image:nth-child(3) {
+  body:not(.page--portfolio-item) .hero__image:nth-child(3) {
     grid-row: 1 / span 2;
   }
 
-  .page:not(.page--portfolio-item) .hero__image:nth-child(3) {
+  body:not(.page--portfolio-item) .hero__image:nth-child(3) {
     grid-row: 1 / span 3;
   }
 
-  .page:not(.page--portfolio-item) .hero__image:nth-child(4) {
+  body:not(.page--portfolio-item) .hero__image:nth-child(4) {
     grid-row: 1 / span 4;
   }
 
-  .page:not(.page--portfolio-item) .hero__image:nth-child(5) {
+  body:not(.page--portfolio-item) .hero__image:nth-child(5) {
     grid-row: 1 / span 5;
   }
 
