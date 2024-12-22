@@ -36,6 +36,10 @@ sections:
       title: Go to website
       modifiers:
         - small
+  - type: related-testimonials
+    title: Testimonials
+    filter: testimonials
+    company: BEAM
   - type: project-list
     title: Other projects
     filter: portfolio

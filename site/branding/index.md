@@ -8,6 +8,7 @@ sections:
   - type: hero
     title: Branding
     text: Here you could find different versions of my logo.
+    text_width: 40
   - type: banner
     banner: consultation
     sticky: true

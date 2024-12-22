@@ -1,0 +1,49 @@
+---
+isMentor: true
+---
+
+{% assign readIndex = 1 %}
+{% for findRead in reads %}{% if findRead == thisRead %}{% assign readIndex = forloop.index %}{% endif %}{% endfor %}
+{% if thisRead %}
+  {% assign thisIssue = reads | size | plus: 1 | minus: readIndex | prepend: '#' %}
+  {% if thisRead.description %}
+    {% assign issueDesc = ' ' | append: thisRead.description %}
+  {% else %}
+    {% assign issueDesc = '.' %}
+  {% endif %}
+  {% assign thisTitle = 'UI Dev Newsletter ' | append: thisIssue %}
+  {% assign thisDesc = "UI Dev Newsletter Issue " | append: thisIssue | append: ' features' | append: issueDesc | escape %}
+  {% assign thisImage = thisRead.og %}
+{% elsif description %}
+  {% assign thisTitle = title %}
+  {% assign thisDesc = description | escape %}
+  {% if image != blank %}
+    {% assign thisImage = image %}
+  {% elsif description %}
+    {% assign thisImage = site.image %}
+  {% endif %}
+{% endif %}
+{% if description == blank %}
+  {% assign thisDesc = site.description | escape %}
+{% endif %}
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% elsif config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="ltr">
+  {% include '_includes/_legacy/head' %}
+  <body class="wrapper wrapper--omega">
+    {% include '_includes/_mentor/header' %}
+    <main class="main" id="main">
+      {{ content }}
+    </main>
+    {% include '_includes/_mentor/footer' %}
+    {% include '_includes/_assets/style' %}
+    {% include '_includes/_assets/scripts' %}
+    {% include '_includes/_assets/analytics' %}
+  </body>
+</html>

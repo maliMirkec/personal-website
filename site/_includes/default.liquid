@@ -1,0 +1,35 @@
+{%- assign lang = "en" -%}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include '_components/head' %}
+  <body class="page--{{ type | slugify }}{% if subtype %} page--{{ subtype | slugify }}{% endif %}">
+    <div class="wrapper">
+      {% include '_components/header' %}
+      <main class="main" id="main">
+        {% block content %}
+          {% if sections %}
+            {% for section in sections %}
+              {% include '_components/sections' %}
+            {% endfor %}
+          {% endif %}
+          {% if content != blank and content != '' %}
+            {% include '_components/content' %}
+          {% endif %}
+          {% if sections2 %}
+            {% for section in sections2 %}
+              {% include '_components/sections' %}
+            {% endfor %}
+          {% endif %}
+        {% endblock %}
+        {%- if type == 'home' -%}
+          {% include '_components/lastfm' %}
+        {%- endif -%}
+      </main>
+      {% include '_components/footer' %}
+      {% include '_components/_assets/style' %}
+      {% include '_components/_assets/scripts' %}
+      {% include '_components/_assets/analytics' %}
+    </div>
+  </body>
+</html>

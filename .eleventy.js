@@ -42,15 +42,13 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy(passthroughCopy)
 
-  eleventyConfig.setWatchThrottleWaitTime(2000)
-
-  let options = {
+  eleventyConfig.setLiquidOptions({
     extname: '.liquid',
-    dynamicPartials: false,
     strictFilters: false,
-    jsTruthy: true,
-    root: ['site/_layouts']
-  }
+    jsTruthy: true
+  })
+
+  // eleventyConfig.setWatchThrottleWaitTime(2000)
 
   eleventyConfig.setLibrary(
     'md',
@@ -61,8 +59,6 @@ module.exports = (eleventyConfig) => {
       slugify: uslug
     })
   )
-
-  eleventyConfig.setLibrary('liquid', new Liquid(options))
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
@@ -396,10 +392,10 @@ module.exports = (eleventyConfig) => {
     dir: {
       input: 'site',
       output: 'public',
-      layouts: '_layouts',
-      data: '_data',
-      htmlTemplateEngine: 'liquid',
-      markdownTemplateEngine: 'liquid'
+      // layouts: '_layouts',
+      // data: '_data',
+      // htmlTemplateEngine: 'liquid',
+      // markdownTemplateEngine: 'liquid'
     }
   }
 }

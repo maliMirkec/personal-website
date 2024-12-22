@@ -1,0 +1,62 @@
+{%- liquid
+  assign list = collections[component.filter] | sort: "date" | reverse
+  assign i1 = 1
+-%}
+
+{%- if list -%}
+  <section class="box">
+    {%- if component.title -%}
+      <h2 class="box__title">{{ component.title }}</h2>
+    {%- endif -%}
+    <ul class="box__list">
+      {% assign skip = false %}
+      {%- for card in list -%}
+        {%- unless component.noDate -%}
+          {%- liquid
+            assign now = 'now' | date: "%Y-%m-%d"
+            assign cardDate = card.data.date | date: "%Y-%m-%d"
+            if cardDate > now
+              continue
+            endif
+            if component.exclude
+              assign tags = card.data.tags | join: ', '
+              if tags contains component.exclude
+                continue
+              endif
+            endif
+          -%}
+        {%- endunless -%}
+        {%- unless component.limit and i1 > component.limit -%}
+          {%- unless component.exclude and page.url == card.url -%}
+            <li class="box__item">
+              {%- if card.data.title -%}
+                <h3 class="box__subtitle"><a href="{{ card.url }}">{{ card.data.title }}</a></h3>
+              {%- endif -%}
+              <div class="box__tags">
+                {%- if cardDate -%}
+                  <time class="box__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
+                {%- endif -%}
+                {%- if card.data.publication -%}
+                  <span class="box__tag box__tag--alpha">{{ card.data.publication }}</span>
+                {%- endif -%}
+                {%- if card.data.tags and true == false -%}
+                  {%- for tag in card.data.tags -%}
+                    {%- unless tag == 'blog' -%}
+                      <a href="/tags/{{ tag | slug }}/" class="fancy-hover box__tag box__tag--beta">{{ tag }}</a>
+                    {%- endunless -%}
+                  {%- endfor -%}
+                {%- endif -%}
+              </div>
+            </li>
+            {%- assign i1 = i1 | plus: 1 -%}
+          {%- endunless -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    </ul>
+    {%- if component.cta -%}
+      <div class="box__action">
+        {%- include '_includes/_components/cta', cta: component.cta -%}
+      </div>
+    {%- endif -%}
+  </section>
+{%- endif -%}

@@ -1,0 +1,16 @@
+{% assign loadCritical = type | criticalExists %}
+<head>
+  {% include '_head/meta-required' %}
+  {% include '_head/preconnect' %}
+  {% unless devcards %}
+    {% include '_legacy/toggle-check' %}
+  {% endunless %}
+  {% include '_assets/critical' %}
+  {% include '_head/preload' %}
+  {% if env.staging and type == "home" %}
+    {% include '_head/netlify' %}
+  {% endif %}
+  {% include '_head/meta-other' %}
+  {% include '_assets/favicon' %}
+  {% include '_head/og' %}
+</head>

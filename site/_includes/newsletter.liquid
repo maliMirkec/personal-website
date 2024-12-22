@@ -1,0 +1,50 @@
+---
+isNewsletter: true
+---
+
+{% if theme and theme.site and theme.site.language %}
+  {% assign lang = theme.site.language %}
+{% elsif config and config.language %}
+  {% assign lang = config.language %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="ltr">
+  {% include '_legacy/head' %}
+  <body class="uidev{% if page.url == '/side-projects/ui-dev-newsletter/' %} bg-lightish{% endif %}">
+    {% include '_legacy/skip-link' %}
+    {% unless page.url == '/side-projects/ui-dev-newsletter/' %}
+      {% include '_newsletter/header' %}
+    {% endunless %}
+    <div class="inner">
+      <main id="main">
+        {% block content %}
+          {% if sections %}
+            {% for section in sections %}
+              {% include '_legacy/sections' %}
+            {% endfor %}
+          {% endif %}
+          {% if type == 'newsletter-single' %}
+            {% include '_newsletter/issue' %}
+          {% else %}
+            {% if content != blank and content != '' %}
+              {% include '_legacy/content-alpha' %}
+            {% endif %}
+          {% endif %}
+          {% if sections2 %}
+            {% for section in sections2 %}
+              {% include '_legacy/sections' %}
+            {% endfor %}
+          {% endif %}
+        {% endblock %}
+      </main>
+    </div>
+    {% include '_newsletter/footer' %}
+    {% include '_legacy/toggle-button' %}
+    {% include '_assets/style' %}
+    {% include '_assets/scripts' %}
+    {% include '_assets/analytics' %}
+  </body>
+</html>

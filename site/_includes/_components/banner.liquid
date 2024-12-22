@@ -1,0 +1,45 @@
+{%- if cta[component.banner] -%}
+  {%- liquid
+    assign banner_class = 'banner'
+
+    if cta[component.banner].modifiers
+      for modifier in cta[component.banner].modifiers
+        assign banner_class = banner_class | append: ' banner--' | append: modifier
+      endfor
+    endif
+
+    if section.sticky
+      assign banner_class = banner_class | append: ' sticky'
+    endif
+
+    if section.last
+      assign banner_class = banner_class | append: ' last'
+    endif
+  -%}
+
+  <section class="{{ banner_class }}">
+    {%- if cta[component.banner].logo -%}
+      {%- assign logo = cta[component.banner].logo -%}
+      {%- if cta[component.banner].cta -%}
+        <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </a>
+      {%- else -%}
+        <div class="banner__logo">
+          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+    {%- if cta[component.banner].title -%}
+      <h2 class="banner__title">{{ cta[component.banner].title | markdownifyi }}</h2>
+    {%- endif -%}
+    {%- if cta[component.banner].desc -%}
+      <div class="banner__desc">{{ cta[component.banner].desc | markdownify }}</div>
+    {%- endif -%}
+    {%- if cta[component.banner].cta -%}
+      <div class="banner__action">
+        {%- include '_includes/_components/cta', cta: cta[component.banner].cta -%}
+      </div>
+    {%- endif -%}
+  </section>
+{%- endif -%}

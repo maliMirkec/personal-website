@@ -1,0 +1,69 @@
+{% if cards2.other %}
+  {% assign card2List = collections[cards2.filter] | sortItemsFirst: 'projects', title %}
+{% elsif cards2.random %}
+  {% assign card2List = collections[cards2.filter] | randomItems %}
+{% else %}
+  {% assign card2List = collections[cards2.filter] | sort: 'data.date' %}
+{% endif %}
+
+{% assign i2 = 1 %}
+
+{% if card2List %}
+  <section id="{{ cards2.filter }}" class="margin-top-beta margin-bottom-beta">
+    <div class="wrapper wrapper--alpha grid padding">
+      {% for card2 in card2List %}
+        {% unless cards2.limit and i2 > cards2.limit %}
+          {% unless cards2.exclude == 'true' or title contains card2.data.title %}
+            <a class="card bg-lightish padding{% if cards2.other and card2.data.projects contains title %} border-alpha{% endif %}" href="{{ card2.url }}">
+              <div class="tilt">
+                <div class="tilt__inner">
+                  {% if card2.data.title %}
+                    <header class="padding copy">
+                      {% if card2.data.avatar %}
+                        <div class="df aic">
+                          {% if card2.data.avatar %}
+                            <span class="db margin-right avatar">
+                              {% assign altTextAvatar = card2.data.title | append: ' profile photo.' %}
+                              {% cldnry card2.data.avatar altTextAvatar 60 60 %}
+                            </span>
+                          {% endif %}
+                          <div>
+                            <h3 class="fz-step-0 no-margin">{{ card2.data.title }}</h3>
+                            <p class="fz-step--1 no-margin">{% if card2.data.position %}{{ card2.data.position }}{% endif %} {% if card2.data.company %} at {{ card2.data.company }}{% endif %}</p>
+                          </div>
+                        </div>
+                      {% endif %}
+                    </header>
+                  {% endif %}
+                  {% if card2.data.excerpt %}
+                    <div class="copy padding fs-italic fz-step-0">{{ card2.data.excerpt | markdownify }}</div>
+                  {% elsif card2.template.frontMatter.content %}
+                    <div class="copy padding fs-italic fz-step-0">{{  card2.template.frontMatter.content | markdownify }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+            {% assign i2 = i2 | plus: 1 %}
+          {% endunless %}
+        {% endunless %}
+      {% endfor %}
+      {% if cards2.desc %}
+        <div class="card card--flex text-center padding">
+          <div class="margin-auto">
+            <div class="copy balance">{{ cards2.desc | markdownify }}</div>
+            {% if cards2.cta2 %}
+              <div class="margin-top">
+                <a class="button" href="{{ cards2.cta2.href }}">{{ cards2.cta2.title }}</a>
+              </div>
+            {% endif %}
+            {% if cards2.cta3 %}
+              <div class="margin-top">
+                <a class="tdu" href="{{ cards2.cta3.href }}">{{ cards2.cta3.title }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
