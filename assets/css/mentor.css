@@ -401,7 +401,7 @@ code,
 }
 
 body {
-  background-calc(1.66667 * 1rem), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(2.77778 * 1rem) calc(2.77778 * 1rem), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(1.66667 * 1rem)) calc(100% - calc(1.66667 * 1rem)), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(2.77778 * 1rem)) calc(100% - calc(2.77778 * 1rem)), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem));
+  background-image: radial-gradient(circle at calc(1.66667 * 1rem) calc(1.66667 * 1rem), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(2.77778 * 1rem) calc(2.77778 * 1rem), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(1.66667 * 1rem)) calc(100% - calc(1.66667 * 1rem)), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(2.77778 * 1rem)) calc(100% - calc(2.77778 * 1rem)), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem));
 }
 
 .wrapper {
