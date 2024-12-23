@@ -1,5 +1,5 @@
 {%- if site.lastfm and lastfm -%}
-  <div class="banner banner--beta banner--lastfm js-lastfm">
+  <div class="banner banner--beta banner--lastfm js-lastfm{% if section.sticky %} sticky{% endif %}">
     <h2>My latest <a href="https://www.last.fm/user/maliMirkec">Last.fm</a> tracks:</h2>
     <ul class="js-lastfm-tracks">
       {% for track in lastfm %}

@@ -15,7 +15,6 @@ sections:
     text: Just some random favorite stuff, from TV shows and characters, to bands and artists.
   - type: project-list
     filter: favorites
-  - type: banner
-    banner: consultation
+  - type: lastfm
     sticky: true
 ---

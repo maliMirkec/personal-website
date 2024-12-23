@@ -20,8 +20,7 @@ sections:
     footnote: >-
       Fun fact: during the 2014, I was part of the [independent booking collective Phonogram](https://www.facebook.com/phonogram.croatia/) which organized concerts in my home city.
 sections2:
-  - type: banner
-    banner: consultation
+  - type: lastfm
     sticky: true
 list:
   - title: The Stooges

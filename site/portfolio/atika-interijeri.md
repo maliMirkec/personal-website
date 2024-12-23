@@ -35,6 +35,9 @@ sections:
 
       This website was taken down.
     text2_width: 51
+  - type: banner
+    banner: consultation
+    sticky: true
   - type: project-list
     title: Other projects
     filter: portfolio
@@ -46,6 +49,4 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: banner
-    banner: consultation
 ---

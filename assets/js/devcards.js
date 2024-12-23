@@ -1,4 +1,4 @@
-const Vue = window.Vue
+const Vue2 = window.Vue
 let uri = window.location.search.substring(1)
 let params = new URLSearchParams(uri)
 let profile = {}
@@ -142,7 +142,7 @@ const getParamBool = (param, fallback) => {
 
 const checkMQ = window.matchMedia('screen and (max-width: 59.99em)')
 
-const app = Vue.createApp({
+const app = Vue2.createApp({
   data() {
     return {
       hideForm: checkMQ.matches || getParamBool('hideForm', true),

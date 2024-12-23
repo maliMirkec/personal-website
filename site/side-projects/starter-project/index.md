@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: Starter Project
 projectTitle: Starter Project
 description: Learn about the Starter Project, a set of the latest and best practices in web development, packed into Gulp tasks that fits into every project.
@@ -13,6 +13,7 @@ thumbnail:
   height: 459
 display: false
 date: 2005-07-01
+hideDate: true
 ---
 
 # SPRO / Starter Project CLI
@@ -38,30 +39,32 @@ If you would like to add a Gulp task, feel free to open [a pull request](https:/
 
 ## Table of Contents
 
-* [Resources](#resources)
-* [Installation](#installation)
-* [Getting started](#getting-started)
-* [Gulp tasks](#gulp-tasks)
-* [Configuration file](#configuration-files)
-* [Path Placeholders](#path-placeholders)
-* [Command](#command)
-* [Task Configuration](#task-configuration)
-  * [BrowserSync Configuration](#browsersync-configuration)
-  * [Favicon Configuration](#favicon-configuration)
-  * [HTML Configuration](#html-configuration)
-  * [CSS Configuration](#css-configuration)
-  * [JavaScript Configuration](#javascript-configuration)
-  * [Images Configuration](#images-configuration)
-  * [Critical CSS Configuration](#critical-css-configuration)
-  * [Semver Configuration](#semver-configuration)
-  * [KSS Configuration](#kss-configuration)
-  * [SassDoc Configuration](#sassdoc-configuration)
-  * [JSDoc Configuration](#jsdoc-configuration)
-  * [Helpers Configuration](#helpers-configuration)
-  * [Watch Configuration](#watch-configuration)
-* [Questions](#questions)
-* [Dependencies](#dependencies)
-* [Support](#support)
+- [SPRO / Starter Project CLI](#spro--starter-project-cli)
+  - [Table of Contents](#table-of-contents)
+  - [Resources](#resources)
+    - [Installation](#installation)
+    - [Getting started](#getting-started)
+    - [Gulp tasks](#gulp-tasks)
+    - [Configuration files](#configuration-files)
+    - [Path Placeholders](#path-placeholders)
+    - [Command](#command)
+    - [Task Configuration](#task-configuration)
+    - [BrowserSync Configuration](#browsersync-configuration)
+    - [Favicon Configuration](#favicon-configuration)
+    - [HTML Configuration](#html-configuration)
+    - [CSS Configuration](#css-configuration)
+    - [JavaScript Configuration](#javascript-configuration)
+    - [Images Configuration](#images-configuration)
+    - [Critical CSS Configuration](#critical-css-configuration)
+    - [Semver Configuration](#semver-configuration)
+    - [KSS Configuration](#kss-configuration)
+    - [SassDoc Configuration](#sassdoc-configuration)
+    - [JSDoc Configuration](#jsdoc-configuration)
+    - [Helpers Configuration](#helpers-configuration)
+    - [Watch Configuration](#watch-configuration)
+  - [Questions](#questions)
+  - [Dependencies](#dependencies)
+  - [Support](#support)
 
 ## Resources
 

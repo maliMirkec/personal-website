@@ -40,6 +40,9 @@ sections:
       title: See the snapshot
       modifiers:
         - small
+  - type: banner
+    banner: consultation
+    sticky: true
   - type: project-list
     title: Other projects
     filter: portfolio
@@ -51,6 +54,4 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: banner
-    banner: consultation
 ---

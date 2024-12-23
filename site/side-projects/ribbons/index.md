@@ -1,10 +1,9 @@
 ---
-isRibbons: true
-layout: project
+layout: default
 title: Ribbons
 projectTitle: Ribbons
 description: Learn how to build a ribbon component with CSS and SVG backgrounds that could serve as styled breadcrumbs element for your site.
-type: ribbons
+type: articles-item
 tags:
   - projects
 thumbnail:
@@ -14,17 +13,14 @@ thumbnail:
   height: 459
 display: false
 date: 2005-10-01
+hideDate: true
 ---
 
 # Ribbons
 
 Learn how to build a ribbon component with CSS and SVG backgrounds that could serve as styled breadcrumbs element for your site.
 
-<nav class="ribbon ribbon--alpha" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "moNQgY" "dark" "result" 400 false true %}
 
 You could find out how to build the ribbon component in the following examples. The HTML structure:
 
@@ -87,11 +83,7 @@ A ribbon component showed in these examples should be used as a breadcrumb eleme
 
 ## Ribbons Alpha
 
-<nav class="ribbon ribbon--alpha" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "moNQgY" "dark" "result" 400 false true %}
 
 A ribbon made with CSS triangles and pseudo-classes.
 
@@ -157,11 +149,7 @@ The CSS code:
 
 ## Ribbons Beta
 
-<nav class="ribbon ribbon--beta" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "jJgQoM" "dark" "result" 400 false true %}
 
 A ribbon made with SVG background and pseudo-classes.
 
@@ -228,23 +216,7 @@ The CSS code:
 
 ## Ribbons Gamma
 
-<nav class="ribbon ribbon--gamma" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">
-    <svg viewBox="0 0 10 40"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-    <span>Home</span>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 40" src="/gfx/svg/triangle.svg"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-  </span>
-  <span class="ribbon__element">
-    <svg viewBox="0 0 10 40"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-    <span>Blog</span>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 40" src="/gfx/svg/triangle.svg"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-  </span>
-  <span class="ribbon__element">
-    <svg viewBox="0 0 10 40"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-    <span aria-current="page">Post</span>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 40" src="/gfx/svg/triangle.svg"><path fill-rule="evenodd" d="M10 20L0 0v40z"></path></svg>
-  </span>
-</nav>
+{% codepen "CiTA" "axdpXe" "dark" "result" 400 false true %}
 
 A ribbon made with inline SVGs.
 
@@ -310,11 +282,7 @@ The CSS code:
 
 ## Ribbons Delta
 
-<nav class="ribbon ribbon--delta" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "YgmRbg" "dark" "result" 400 false true %}
 
 A ribbon made with CSS clip path and pseudo-classes.
 
@@ -352,11 +320,7 @@ The CSS code:
 
 ## Ribbons Shadow
 
-<nav class="ribbon ribbon--alpha ribbon--shadow" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "WmVYqx" "dark" "result" 400 false true %}
 
 A ribbon with a subtle drop shadow. Make sure the shadow is not visible on either side of the element. Also, don't forget to add `ribbon--alpha`, `ribbon--beta` or `ribbon--gamma` modifier.
 
@@ -384,11 +348,7 @@ The CSS code:
 
 ## Ribbons Gradient
 
-<nav class="ribbon ribbon--alpha ribbon--gradient" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "xBvQoz" "dark" "result" 400 false true %}
 
 A ribbon with a linear gradient. Be sure to match the end color with the color of the right arrow. Also, don't forget to add `ribbon--alpha`, `ribbon--beta` or `ribbon--gamma` modifier.
 
@@ -432,11 +392,7 @@ The CSS code:
 
 ## Ribbons Small
 
-<nav class="ribbon ribbon--alpha ribbon--small" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "aMeQeG" "dark" "result" 400 false true %}
 
 A small ribbon. The sizing of the ribbon elements is based on `em` units. Since the `em` unit is relative to parent element `font-size`, we could control the size of the ribbon elements on a single place. To make sure this approach is working, don't overwrite `em` size definitions. Also, don't forget to add `ribbon--alpha`, `ribbon--beta` or `ribbon--gamma` modifier.
 
@@ -463,11 +419,7 @@ The CSS code:
 
 ## Ribbons Big
 
-<nav class="ribbon ribbon--alpha ribbon--big" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "drxQxw" "dark" "result" 400 false true %}
 
 A big ribbon. The sizing of the ribbon elements is based on `em` units. Since the `em` unit is relative to parent element `font-size`, we could control the size of the ribbon elements on a single place. To make sure this approach is working, don't overwrite `em` size definitions. Also, don't forget to add `ribbon--alpha`, `ribbon--beta` or `ribbon--gamma` modifier.
 
@@ -494,11 +446,7 @@ The CSS code:
 
 ## Ribbons Auto
 
-<nav class="ribbon ribbon--alpha ribbon--auto" role="navigation" aria-label="breadcrumbs">
-  <span class="ribbon__element">Home</span>
-  <span class="ribbon__element">Blog</span>
-  <span class="ribbon__element" aria-current="page">Post</span>
-</nav>
+{% codepen "CiTA" "PgoNdJ" "dark" "result" 400 false true %}
 
 An auto ribbon has elements that doesn't fill out the entire available space. Don't forget to add `ribbon--alpha`, `ribbon--beta` or `ribbon--gamma` modifier.
 

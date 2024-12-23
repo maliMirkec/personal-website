@@ -1018,7 +1018,7 @@ blockquote p:not(:first-of-type) {
   padding-block: var(--size-05-10);
   padding-inline: var(--size-10-20);
   border: 1px solid var(--color-gamma-op06);
-  min-inline-size: 30dvw;
+  min-inline-size: 30%;
 }
 
 .table-wrapper th {
@@ -1152,20 +1152,9 @@ blockquote p:not(:first-of-type) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--size-10-20);
+  padding-block: var(--block-padding);
+  padding-inline: var(--size-10-20);
   border-radius: var(--size-10-20);
-}
-
-.column:nth-child(1) div {
-  padding-block: var(--size-10-20);
-}
-
-.column:nth-child(2) div {
-  padding-block: var(--size-30-60);
-}
-
-.column:nth-child(3) div {
-  padding-block: var(--size-50-100);
 }
 
 @media screen and (width < 500px) {
@@ -1259,11 +1248,11 @@ blockquote p:not(:first-of-type) {
     column-gap: var(--size-20-30);
   }
 
-  .hero > div:not(.hero__image:has(svg)) {
+  .hero > div:not(.hero__image) {
     grid-column: 1;
   }
 
-  .hero > .hero__image:has(svg) {
+  .hero > .hero__image {
     grid-column: 2;
     grid-row: 1 / span 5;
   }
@@ -1316,6 +1305,10 @@ blockquote p:not(:first-of-type) {
   .article-content pre[class*="language-"] {
     box-sizing: border-box;
     max-inline-size: calc(100dvw - var(--sb-size) - var(--size-30-60));
+  }
+
+  .article-footer {
+    padding-inline: var(--size-10-20);
   }
 
   .footer {

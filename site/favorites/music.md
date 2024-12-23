@@ -131,6 +131,4 @@ sections:
       - title: Hot Chip
         href: https://www.last.fm/music/Hot+Chip
         src: hot-chip_yewutg
-  - type: banner
-    banner: consultation
 ---

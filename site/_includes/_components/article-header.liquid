@@ -13,8 +13,10 @@
     {% if canonical and publication %}
       <p>Published in: <a href="{{ canonical }}">{{ publication }}</a></p>
     {% endif %}
-    {% if date %}
-      <p>Published at: <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time></p>
-    {% endif %}
+    {% unless hideDate %}
+      {% if date %}
+        <p>Published at: <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time></p>
+      {% endif %}
+    {% endunless %}
   </div>
 </section>

@@ -70,7 +70,7 @@
     "cta2": {
       "href": "https://www.codescan.io",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "javelin-bipod": {
@@ -91,7 +91,7 @@
     "cta2": {
       "href": "https://javelinbipod.co.uk/?country=GB",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "approx-blue": {
@@ -112,7 +112,7 @@
     "cta2": {
       "href": "https://approx.blue",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "dominodatalab": {
@@ -133,7 +133,7 @@
     "cta2": {
       "href": "https://www.dominodatalab.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "wunder-mobility": {
@@ -154,7 +154,7 @@
     "cta2": {
       "href": "https://www.wundermobility.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "heyflow": {
@@ -175,7 +175,7 @@
     "cta2": {
       "href": "https://heyflow.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "westwing": {
@@ -196,7 +196,7 @@
     "cta2": {
       "href": "https://www.westwing.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "pinecone": {
@@ -217,7 +217,7 @@
     "cta2": {
       "href": "https://www.pinecone.io",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "bozzuto": {
@@ -238,7 +238,7 @@
     "cta2": {
       "href": "https://www.bozzuto.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "creditcardinsider": {
@@ -259,7 +259,7 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210314213625/http://www.creditcardinsider.com/",
       "title": "See the snapshot",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "hanhanxue": {
@@ -280,7 +280,7 @@
     "cta2": {
       "href": "https://www.hanhanxue.com",
       "title": "Go to website",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "yearbook-trase": {
@@ -301,7 +301,7 @@
     "cta2": {
       "href": "https://web.archive.org/web/20210124212734/https://yearbook2018.trase.earth/",
       "title": "See the snapshot",
-      "modifiers": ["small", "inverse"]
+      "modifiers": ["small", "converse"]
     }
   },
   "redesign": {

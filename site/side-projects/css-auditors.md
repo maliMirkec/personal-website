@@ -23,16 +23,16 @@ sections:
     cta:
       href: //css-auditors.com/
       title: Go to the Project
+      modifiers: [small]
     cta2:
       href: /side-projects/
       title: Discover other projects
-  - type: newsletter
+  - type: banner
+    banner: consultation
     sticky: true
   - type: project-list
     title: Featured projects
     filter: projects
     limit: 6
     exclude: true
-  - type: banner
-    banner: consultation
 ---

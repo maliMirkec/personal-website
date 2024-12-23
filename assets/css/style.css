@@ -424,6 +424,20 @@ hr[class*="hr"]:before {
   list-style: initial;
 }
 
+.copy article > * + *,
+article.list__item div > * + *,
+article.list__item + article.list__item {
+  margin-top: 1em;
+}
+
+h1 + section.list {
+  margin-top: 1em;
+}
+
+a.block {
+  display: block;
+}
+
 p:empty {
   display: none;
 }

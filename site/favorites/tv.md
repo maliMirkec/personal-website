@@ -146,6 +146,4 @@ sections:
       - title: "Wet Hot American Summer: Ten Years Later"
         href: https://www.imdb.com/title/tt5669272/
         src: 041whas_itx6yc
-  - type: banner
-    banner: consultation
 ---

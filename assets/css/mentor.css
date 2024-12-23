@@ -401,7 +401,7 @@ code,
 }
 
 body {
-  background-image: radial-gradient(circle at calc(1.66667 * 1rem) calc(1.66667 * 1rem), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(2.77778 * 1rem) calc(2.77778 * 1rem), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(1.66667 * 1rem)) calc(100% - calc(1.66667 * 1rem)), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(2.77778 * 1rem)) calc(100% - calc(2.77778 * 1rem)), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem));
+  background-calc(1.66667 * 1rem), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(2.77778 * 1rem) calc(2.77778 * 1rem), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(1.66667 * 1rem)) calc(100% - calc(1.66667 * 1rem)), rgba(194, 250, 232, 0.25), rgba(194, 250, 232, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem)), radial-gradient(circle at calc(100% - calc(2.77778 * 1rem)) calc(100% - calc(2.77778 * 1rem)), rgba(250, 194, 212, 0.25), rgba(250, 194, 212, 0.25) calc(1.11111 * 1rem), transparent calc(1.11111 * 1rem));
 }
 
 .wrapper {
@@ -641,7 +641,7 @@ section:last-of-type {
 }
 
 section p {
-  margin: .5em 0;
+  margin: 1em 0;
 }
 
 section ul:not([class]) {
@@ -924,9 +924,13 @@ img {
   padding-bottom: calc(0.16667 * 1rem);
 }
 
+.hero h1 {
+  margin-bottom: .5em;
+}
+
 .hero p {
   max-width: 720px;
-  margin: calc(0.16667 * 1rem) 0;
+  margin: 1em 0;
 }
 
 .profile {
@@ -1051,14 +1055,14 @@ img {
 
 @media (min-width: 60em) {
   .profile__content {
-    padding: calc(0.55556 * 1rem) calc(1.66667 * 1rem) calc(1.66667 * 1rem);
+    padding: calc(1.66667 * 1rem);
   }
 }
 
 .card {
   flex: 1;
   background-color: #fafafa;
-  padding: calc(0.16667 * 1rem) calc(1.66667 * 1rem) calc(1.66667 * 1rem);
+  padding: calc(1.66667 * 1rem);
   margin-bottom: calc(0.33333 * 1rem);
   border-radius: calc(0.33333 * 1rem);
   box-shadow: 0 calc(0.33333 * 1rem) 0 0 #C2FAE8;
@@ -1067,6 +1071,10 @@ img {
 
 .card:not(:first-child) {
   margin-top: calc(1.66667 * 1rem);
+}
+
+.card h3 {
+  margin-bottom: .5em;
 }
 
 .card ul+a {
@@ -1079,6 +1087,10 @@ img {
 
 .card li:nth-child(even):before {
   color: #12de9d;
+}
+
+.intro h2 {
+  margin-bottom: .5em;
 }
 
 .form {

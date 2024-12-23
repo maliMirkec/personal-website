@@ -36,6 +36,9 @@ sections:
       title: Go to website
       modifiers:
         - small
+  - type: banner
+    banner: consultation
+    sticky: true
   - type: related-testimonials
     title: Testimonials
     filter: testimonials
@@ -51,6 +54,4 @@ sections:
       title: All projects
       modifiers:
         - small
-  - type: banner
-    banner: consultation
 ---
