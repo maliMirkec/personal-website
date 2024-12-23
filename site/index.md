@@ -8,10 +8,10 @@ sections:
   - type: hero
     title: Hey, I'm really good at this _without realizing how_
     title_width: 25
-    text: Not really — I have been making websites since 2012. I just wanted to use my favorite [Peep Show quote](https://youtu.be/6mSleXflIq8?si=naOp1-USH4B3e75I&t=85).
+    text: I've been making world-class websites since 2012.
     text_width: 38
-    text2: So, if you're looking for a professional website developer, you've come to the right place.
-    text2_width: 44
+    text2: If you're looking for a professional website developer, you've come to the right place.
+    text2_width: 40
     cta:
       href: /contact/
       title: Contact me
