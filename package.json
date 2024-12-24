@@ -35,6 +35,7 @@
     "@11ty/eleventy": "3",
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
     "@11ty/eleventy-upgrade-help": "3",
+    "@netlify/functions": "^3.0.0",
     "acclaimed": "^1.0.12",
     "base-64": "1.0.0",
     "cheerio": "1.0.0",

@@ -1,7 +1,7 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args))
 const cheerio = require('cheerio')
 
-exports.handler = async function (event) {
+export default async (req, context) => {
   return await fetch('https://www.last.fm/user/maliMirkec')
     .then((response) => response.text())
     .then((data) => {
@@ -18,12 +18,9 @@ exports.handler = async function (event) {
 
       const tracksString = JSON.stringify(tracks)
 
-      return {
-        statusCode: 200,
-        body: tracksString,
-        headers: {
-          'content-type': 'text'
-        }
-      }
+      return new Response(tracksString, {
+        status: 200,
+        headers: { 'Content-Type': 'application/text' },
+      })
     })
 }

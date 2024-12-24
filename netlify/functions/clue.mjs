@@ -1,9 +1,9 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
-exports.handler = async function (event) {
+export default async (req, context) => {
   const now = new Date();
-  const url = event.queryStringParameters.url;
-  const ua = event.headers['user-agent'];
+  const url = req.url;
+  const ua = req.headers['user-agent'];
 
   try {
     const doc = new GoogleSpreadsheet(process.env.GGL_SHTS_ID);
