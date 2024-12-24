@@ -36,7 +36,5 @@ export default async (req, context) => {
 
   let query = encodeURI(balancedText.replace(',', ''))
 
-  console.log(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_850,y_0/social_s4tndg.png`)
-
   return await fetch(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_850,y_-340/social_s4tndg.png`)
 }
