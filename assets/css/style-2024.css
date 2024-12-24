@@ -297,10 +297,10 @@ blockquote p:not(:first-of-type) {
 }
 
 .header__nav--beta {
+  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
   background-repeat: repeat;
   background-size: 77px, 100%;
   background-position: center;
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
 }
 
 .header__list {
@@ -511,6 +511,10 @@ blockquote p:not(:first-of-type) {
   border-radius: var(--size-02-04);
   outline-offset: var(--size-02-04);
   outline-width: 0.15em;
+}
+
+.box__link:has(.box__avatar) {
+  border-radius: var(--size-50-100);
 }
 
 .box__link:is(:hover, :focus, :active) {
@@ -1012,8 +1016,7 @@ blockquote p:not(:first-of-type) {
   border-collapse: collapse;
 }
 
-.table-wrapper th,
-.table-wrapper td {
+.table-wrapper :is(th, td) {
   text-align: left;
   padding-block: var(--size-05-10);
   padding-inline: var(--size-10-20);
@@ -1148,7 +1151,7 @@ blockquote p:not(:first-of-type) {
 
 .column div {
   background-color: var(--color-alpha);
-  color: var(--gap-gamma);
+  color: var(--color-gamma);
   display: flex;
   align-items: center;
   justify-content: center;

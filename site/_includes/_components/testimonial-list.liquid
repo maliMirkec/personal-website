@@ -7,8 +7,6 @@
   {% assign list = list | sort: 'data.date' | reverse %}
 {% endif %}
 
-<p>list: {{ list | size }}</p>
-
 {%- if list -%}
   <section class="box">
     {%- if component.title -%}
