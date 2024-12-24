@@ -293,11 +293,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .header__nav--alpha {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, var(--color-alpha) -50%, transparent 150%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, var(--color-alpha) -50%, transparent 150%);
 }
 
 .header__nav--beta {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
   background-repeat: repeat;
   background-size: 77px, 100%;
   background-position: center;
@@ -532,7 +532,7 @@ blockquote p:not(:first-of-type) {
   background-repeat: repeat;
   background-size: 77px, 100%;
   background-position: center;
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
   position: absolute;
   inset-block: calc(var(--size-05-10) * -1);
   inset-inline: 0;
@@ -658,11 +658,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .banner--alpha {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
 }
 
 .banner--beta {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
 }
 
 .banner--big {
@@ -794,7 +794,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-header {
-  background-image: url(/gfx/webp/sb-light.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
+  background-image: url(/gfx/webp/mc-light.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
   background-position: center;
   background-repeat: repeat;
   background-size: 77px, 100%;
@@ -816,7 +816,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-footer {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(transparent 25%, var(--color-gamma) 1000%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(transparent 25%, var(--color-gamma) 1000%);
   background-position: center;
   background-repeat: repeat;
   background-size: 77px, 100%;
@@ -916,7 +916,7 @@ blockquote p:not(:first-of-type) {
 
 .article-content blockquote,
 .note {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
   padding-inline: 2rem;
   margin-block-end: 1.25rem;
 }
@@ -949,7 +949,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-content :is(p, li) code {
-  background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to right, transparent -50%, var(--color-alpha) 750%);
+  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-alpha) 750%);
   font-weight: 600;
 }
 
@@ -1355,7 +1355,7 @@ blockquote p:not(:first-of-type) {
     background-repeat: repeat;
     background-size: 77px, 100%;
     background-position: center;
-    background-image: url(/gfx/webp/sb-light.webp), linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
+    background-image: url(/gfx/webp/mc-light.webp), linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
     position: absolute;
     inset: 0;
     margin: calc(var(--size-05-10) * -1);
@@ -1414,7 +1414,7 @@ blockquote p:not(:first-of-type) {
     background-repeat: repeat;
     background-size: 77px, 100%;
     background-position: center;
-    background-image: url(/gfx/webp/sb-light.webp), linear-gradient(to bottom, transparent 5%, var(--color-gamma) 500%);
+    background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to bottom, transparent 5%, var(--color-gamma) 500%);
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
     position: sticky;
     padding-block-start: var(--size-10-20);

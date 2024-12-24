@@ -52,11 +52,11 @@
   }
 
   .header__nav--alpha {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to right, var(--color-alpha) -500%, transparent 200%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -500%, transparent 200%);
   }
 
   .header__nav--beta {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 150%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 150%);
   }
 
   .header__link--beta {
@@ -68,7 +68,7 @@
   }
 
   .box__title:before {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
   }
 
   .box__tag,
@@ -89,11 +89,11 @@
   }
 
   .banner--alpha {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to bottom right, var(--color-alpha) -500%, transparent 150%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom right, var(--color-alpha) -500%, transparent 150%);
   }
 
   .banner--beta {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 200%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 200%);
   }
 
   .banner [class*="__input"],
@@ -110,7 +110,7 @@
   }
 
   .article-header {
-    background-image: url(/gfx/webp/sb-dark.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
+    background-image: url(/gfx/webp/mc-dark.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
   }
 
   .article-header h1 {
@@ -118,7 +118,7 @@
   }
 
   .article-footer {
-    background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(transparent 25%, var(--color-alpha) 1000%);
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(transparent 25%, var(--color-alpha) 1000%);
   }
 
   .table-wrapper :is(th, td) {
@@ -135,11 +135,11 @@
 
   @media screen and (width >= 1000px) {
     .main:before {
-      background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
+      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
     }
 
     .footer__inner {
-      background-image: url(/gfx/webp/sb-dark.webp), linear-gradient(to bottom, transparent 5%, var(--color-alpha) 500%);
+      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom, transparent 5%, var(--color-alpha) 500%);
     }
   }
 }
