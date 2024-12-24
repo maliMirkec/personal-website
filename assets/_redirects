@@ -30,7 +30,7 @@
 /no-advertisement/ /no-ads/ 301!
 /unskillful/ /no-skills/ 301!
 /portfolio/silvestar-bistrovic-cv.pdf /silvestar-bistrovic-cv.pdf 301!
-/og/og.png* /.netlify/functions/og-png:splat 200!
+/og* /.netlify/functions/og:splat 200!
 /api/clue.js* /.netlify/functions/clue:splat 200!
 /api/lastfm.js* /.netlify/functions/lastfm:splat 200!
 /how/ / 301!
