@@ -1,5 +1,5 @@
 {% if env.production or env.staging %}
-  {% if loadCritical %}
+  {% if loadCritical and true == false %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
     {% elsif isRibbons %}
@@ -12,7 +12,6 @@
       <link rel="stylesheet" href="/css/hexo.min.css" media="print" onload='this.media="all"'>
     {% else %}
       <link rel="stylesheet" href="/css/style-2024.min.css" media="print" onload='this.media="all"'>
-      <link rel="stylesheet" href="/css/style-2024-dark.min.css" media="(prefers-color-scheme: dark)">
     {% endif %}
   {% endif %}
 {% endif %}

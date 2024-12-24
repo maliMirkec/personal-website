@@ -1437,3 +1437,149 @@ blockquote p:not(:first-of-type) {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-light), transparent 90%);
+  }
+
+  body {
+    background-color: var(--color-gamma);
+    color: var(--color-light);
+  }
+
+  [class*="avatar"] img {
+    background-color: var(--color-gamma);
+  }
+
+  [class*="cta"] {
+    background-image: linear-gradient(to right, var(--color-alpha) 40%, var(--color-light) 400%);
+  }
+
+  [class*="cta--inverse"] {
+    background-image: linear-gradient(to right, var(--color-gamma) 50%, var(--color-alpha) 1000%);
+    border-color: var(--color-alpha);
+    color: var(--color-alpha);
+  }
+
+  [class*="cta--converse"] {
+    background-image: linear-gradient(to left, transparent -100%, var(--color-alpha) 2000%);
+    border-color: var(--color-alpha);
+    color: var(--color-alpha);
+  }
+
+  [class*="cta"]:after {
+    content: '››››';
+    transform: translateY(calc(var(--size-02-04) * -1));
+    transform-origin: left center;
+    transition: inherit;
+  }
+
+  :where([class*="cta"], [class*="__input"]):is(:hover, :focus, :active) {
+    box-shadow: 0 0 0 0.075em var(--color-gamma);
+    outline-color: var(--color-gamma);
+  }
+
+  [class*="cta"]:is(:hover, :focus, :active):after {
+    transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1)) scale(110%);
+  }
+
+  [class*="avatar"] img {
+    background-color: var(--color-light);
+    border: .15em solid currentColor;
+    border-radius: 50%;
+    transition: var(--timing100);
+  }
+
+  .header__nav--alpha {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -500%, transparent 200%);
+  }
+
+  .header__nav--beta {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 150%);
+  }
+
+  .header__link--beta {
+    background-color: var(--color-gamma);
+  }
+
+  .main {
+    background-color: var(--color-gamma);
+  }
+
+  .box__title:before {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
+  }
+
+  .box__tag,
+  .box__more {
+    color: color-mix(in srgb, var(--color-light), var(--color-gamma) 20%);
+  }
+
+  .box__tag--omega {
+    color: var(--color-light);
+  }
+
+  .box__panel:is(:hover, :focus, :active) img {
+    filter: drop-shadow(0 var(--size-02-04) var(--size-05-10) var(--color-dark));
+  }
+
+  .box__link:is(:hover, :focus, :active) {
+    background-color: color-mix(in srgb, var(--color-gamma), var(--color-light) 10%);
+  }
+
+  .banner--alpha {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom right, var(--color-alpha) -500%, transparent 150%);
+  }
+
+  .banner--beta {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 200%);
+  }
+
+  .banner [class*="__input"],
+  .contact [class*="__input"] {
+    background-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 20%);
+  }
+
+  .banner [class*="__input"]:is(:focus, :active) {
+    background-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 60%);
+  }
+
+  .contact [class*="__input"]:is(:focus, :active) {
+    background-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 100%);
+  }
+
+  .article-header {
+    background-image: url(/gfx/webp/mc-dark.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
+  }
+
+  .article-header h1 {
+    text-shadow: 1px 1px var(--color-gamma);
+  }
+
+  .article-footer {
+    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(transparent 25%, var(--color-alpha) 1000%);
+  }
+
+  .table-wrapper :is(th, td) {
+    border: 1px solid var(--color-alpha-op33);
+  }
+
+  .gallery  p {
+    color: var(--color-light);
+  }
+
+  .gallery__grid p {
+    background-color: var(--color-gamma);
+  }
+
+  @media screen and (width >= 1000px) {
+    .main:before {
+      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
+    }
+
+    .footer__inner {
+      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom, transparent 5%, var(--color-alpha) 500%);
+    }
+  }
+}

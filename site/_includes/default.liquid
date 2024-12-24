@@ -24,7 +24,9 @@
         {% endblock %}
       </main>
       {% include '_components/footer' %}
-      {% include '_components/_assets/style' %}
+      {%- comment -%}
+        {% include '_components/_assets/style' %}
+      {%- endcomment -%}
       {% include '_components/_assets/scripts' %}
       {% include '_components/_assets/analytics' %}
     </div>
