@@ -6,7 +6,7 @@
         {% if header2024.logo %}
           <li class="header__item header__item--alpha">
             <a class="header__link header__link--alpha" href="{{ header2024.logo.href }}">
-              {% cldnry header2024.logo.src header2024.logo.alt header2024.logo.width header2024.logo.height false %}
+              {% include '_components/logo.svg' %}
               <span>{{ header2024.name }}</span>
             </a>
           </li>

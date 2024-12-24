@@ -341,8 +341,10 @@ blockquote p:not(:first-of-type) {
   outline-offset: 0;
 }
 
-.header__link--alpha img {
+.header__link--alpha svg {
   background-color: var(--color-light);
+  block-size: 98px;
+  inline-size: 98px;
   border: 1px solid currentColor;
 }
 
@@ -353,7 +355,7 @@ blockquote p:not(:first-of-type) {
   line-height: 1.3;
 }
 
-.header__link--alpha img,
+.header__link--alpha svg,
 .footer__logo {
   border-radius: 50%;
   overflow: hidden;
