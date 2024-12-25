@@ -29,6 +29,7 @@
   --size-50-100: clamp(3.125rem, calc(0rem + 5vw), 6.25rem);
   --size-60-100: clamp(3.75rem, calc(1.25rem + 4vw), 6.25rem);
   --size-60-120: clamp(3.75rem, calc(0rem + 6vw), 7.5rem);
+  --min-block-size: 45px;
 
   --color-alpha: #63f2c5;
   --color-alpha-op0: #63f2c500;
@@ -1164,7 +1165,11 @@ blockquote p:not(:first-of-type) {
 
 @media screen and (width < 500px) {
   .header__nav {
-    border-radius: var(--size-10-20);
+    border-radius: var(--size-50-100) var(--size-30-60) var(--size-30-60) var(--size-50-100);
+  }
+
+  .header__nav--beta {
+    display: none;
   }
 
   .header__list--alpha {
@@ -1184,6 +1189,10 @@ blockquote p:not(:first-of-type) {
     transform: translateY(-50%);
   }
 
+  .header__item:not(.header__item--alpha) {
+    flex: 1 1 33%;
+  }
+
   .header__link--alpha span {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -1194,13 +1203,16 @@ blockquote p:not(:first-of-type) {
     white-space: nowrap;
   }
 
-  .header__link--beta {
-    padding-block: var(--size-15-30);
-    padding-inline: var(--size-15-30);
+  .header__link--beta,
+  .header__link--gamma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-block-size: var(--min-block-size);
   }
 
-  .header__link--gamma {
-    border-radius: var(--size-05-10);
+  .header__link--beta {
+    padding-inline: var(--size-02-04);
   }
 
   .hero__avatar {
