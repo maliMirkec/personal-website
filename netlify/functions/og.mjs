@@ -42,10 +42,9 @@ export default async (req, context) => {
 
   const img = await fetch(`https://res.cloudinary.com/starbist/image/upload/f_png/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`)
 
-  return new Response(base64.encode(img), {
+  return new Response(img, {
     status: 200,
-    headers: { 'Content-Type': 'application/png' },
-    isBase64Encoded: true
+    headers: { 'Content-Type': 'application/png' }
   })
 
   // return {
