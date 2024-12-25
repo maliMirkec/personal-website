@@ -280,6 +280,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .header {
+  --logo-size: 98px;
   grid-area: header;
   display: grid;
   gap: var(--size-10-20);
@@ -332,7 +333,6 @@ blockquote p:not(:first-of-type) {
   display: flex;
   align-items: center;
   gap: var(--size-05-10);
-  padding-inline-end: var(--size-15-30);
   border-radius: var(--size-50-100);
 }
 
@@ -343,8 +343,8 @@ blockquote p:not(:first-of-type) {
 
 .header__link--alpha svg {
   background-color: var(--color-light);
-  block-size: 98px;
-  inline-size: 98px;
+  block-size: var(--logo-size);
+  inline-size: var(--logo-size);
   border: 1px solid currentColor;
 }
 
@@ -369,7 +369,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .header__link--beta {
-  border-radius: var(--size-20-40);
+  border-radius: var(--size-30-60);
 }
 
 .footer {
@@ -1168,9 +1168,12 @@ blockquote p:not(:first-of-type) {
   }
 
   .header__list--alpha {
-    flex-direction: column;
-    align-items: end;
-    gap: var(--size-02-04);
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: end;
+    gap: var(--size-05-10);
+    padding-inline-start: calc(var(--logo-size) + var(--size-05-10));
+    min-block-size: var(--logo-size);
     position: relative;
   }
 
@@ -1179,6 +1182,21 @@ blockquote p:not(:first-of-type) {
     inset-block-start: 50%;
     inset-inline-start: 0;
     transform: translateY(-50%);
+  }
+
+  .header__link--alpha span {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    block-size: 1px;
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+
+  .header__link--beta {
+    padding-block: var(--size-15-30);
+    padding-inline: var(--size-15-30);
   }
 
   .header__link--gamma {
@@ -1208,6 +1226,10 @@ blockquote p:not(:first-of-type) {
 
   .header__link--gamma {
     border-radius: var(--size-20-40);
+  }
+
+  .header__link--alpha {
+    padding-inline-end: var(--size-15-30);
   }
 
   .hero--testimonial {
