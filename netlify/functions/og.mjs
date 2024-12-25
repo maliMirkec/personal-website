@@ -22,7 +22,7 @@ export default async (req, context) => {
   const urlParams = new URLSearchParams(req.url.split('?').pop())
   const text = urlParams.get('text') || ''
   const letterLimit = 28
-  let fontSize = 60
+  let fontSize = 44
 
   const balancedText = balanceText(text, letterLimit)
   // const linesLength = balancedText.split('\n').map(line => line.length)
@@ -38,9 +38,7 @@ export default async (req, context) => {
 
   let query = encodeURI(balancedText.replace(',', ''))
 
-  const img = await fetch(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_120,y_0/social_s4tndg.png`)
-
-  console.log('img', img);
+  const img = await fetch(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`)
 
   return new Response(base64.encode(img), {
     status: 200,
