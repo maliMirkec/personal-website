@@ -1193,16 +1193,6 @@ blockquote p:not(:first-of-type) {
     flex: 1 1 33%;
   }
 
-  .header__link--alpha span {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    block-size: 1px;
-    inline-size: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-  }
-
   .header__link--beta,
   .header__link--gamma {
     display: flex;
@@ -1240,10 +1230,6 @@ blockquote p:not(:first-of-type) {
     border-radius: var(--size-20-40);
   }
 
-  .header__link--alpha {
-    padding-inline-end: var(--size-15-30);
-  }
-
   .hero--testimonial {
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -1271,13 +1257,25 @@ blockquote p:not(:first-of-type) {
   }
 }
 
-@media screen and (500px <= width < 600px) {
+@media screen and (width < 600px) {
   .header__link--alpha {
     padding-inline-end: unset;
   }
 
   .header__link--alpha span {
-    display: none;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    block-size: 1px;
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (width >= 600px) {
+  .header__link--alpha {
+    padding-inline-end: var(--size-15-30);
   }
 }
 
