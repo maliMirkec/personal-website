@@ -1,3 +1,5 @@
+const base64 = require('base-64');
+
 const balanceText = (text, maxLineLength) => {
   const words = text.split(' ');
   let balancedText = '';
@@ -20,7 +22,7 @@ export default async (req, context) => {
   const urlParams = new URLSearchParams(req.url.split('?').pop())
   const text = urlParams.get('text') || ''
   const letterLimit = 28
-  let fontSize = 230
+  let fontSize = 60
 
   const balancedText = balanceText(text, letterLimit)
   // const linesLength = balancedText.split('\n').map(line => line.length)
@@ -36,5 +38,22 @@ export default async (req, context) => {
 
   let query = encodeURI(balancedText.replace(',', ''))
 
-  return await fetch(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_850,y_0/social_s4tndg.png`)
+  const img = await fetch(`https://res.cloudinary.com/starbist/image/upload/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_120,y_0/social_s4tndg.png`)
+
+  console.log('img', img);
+
+  return new Response(base64.encode(img), {
+    status: 200,
+    headers: { 'Content-Type': 'application/png' },
+    isBase64Encoded: true
+  })
+
+  // return {
+  //     statusCode: 200,
+  //     body: img.toString('base64'),
+  //     headers: {
+  //       'content-type': 'image/png'
+  //     },
+  //     isBase64Encoded: true,
+  //   }
 }
