@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import schedule from '@netlify/functions'
+import { schedule } from '@netlify/functions'
 
 const build = async (req, context) => {
   await fetch(process.env.BUILD_HOOK_MAIN, {
