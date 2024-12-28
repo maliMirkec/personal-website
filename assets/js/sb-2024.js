@@ -32,10 +32,12 @@ const lastfm = () => {
 
               data.forEach((item, i) => {
                 if (i < 5) {
+                  const li = document.createElement('li')
                   const a = document.createElement('a')
                   a.href = item.trackUrl
                   a.innerHTML = `${item.artist} - ${item.song}`
-                  $tracks.appendChild(a)
+                  li.appendChild(a)
+                  $tracks.appendChild(li)
                 }
               })
             }
