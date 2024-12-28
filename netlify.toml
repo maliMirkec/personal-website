@@ -2,7 +2,7 @@
 ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [functions]
-node_bundler = “esbuild”
+node_bundler = "esbuild"
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
