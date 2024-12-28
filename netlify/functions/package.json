@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "cheerio": "^1.0.0",
+    "google-spreadsheet": "^4.1.4",
+    "node-fetch": "^3.3.2"
+  }
+}
