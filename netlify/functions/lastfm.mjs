@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import cheerio from 'cheerio'
+import * as cheerio from 'cheerio'
 
 export default async (req, context) => {
   return await fetch('https://www.last.fm/user/maliMirkec')
