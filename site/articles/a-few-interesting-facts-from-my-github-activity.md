@@ -10,7 +10,6 @@ description: Here are some interesting facts from my GitHub activity.
 type: articles-item
 ---
 
-
 Here are some interesting facts from my GitHub activity according to my [PostSpark GitHub Contributions Chart Generator](https://postspark.app/github-contributions?username=maliMirkec):
 
 - In the first half of last year, [I faced a period of unemployment](/articles/2023-lookback/#the-bad-half), yet my activity graph remained consistently active. I was working on my side projects, site, and blog, which helped me stay sane during the rough period.

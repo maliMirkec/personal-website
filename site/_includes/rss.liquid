@@ -22,25 +22,29 @@
       {% endfor %}
     {% endif %}
     <atom:link href="{{ metadata.feedUrl }}" rel="self" type="application/rss+xml"/>
+    {% assign now = 'now' | date: "%Y-%m-%d" %}
     {% for article in articles %}
     {% unless article.noindex %}
-      <item>
-        <title><![CDATA[{{ article.data.title }}]]></title>
-        <link>{{ metadata.url | append: article.url }}</link>
-        <guid>{{ metadata.url | append: article.url }}</guid>
-        <pubDate>{{ article.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
-        <description><![CDATA[{{ article.data.description }}]]></description>
-        {% assign myTags2 = article.data.tags | tagify %}
-        {% if myTags2 %}
-          {% for tag in myTags2 %}
-            <category>{{ tag }}</category>
-          {% endfor %}
-        {% endif %}
-        <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
-        {% if article.data.thumbnail %}
-          <enclosure url="{{ article.data.thumbnail | cldnrysrc }}" length="0" type="image/png"/>
-        {% endif %}
-      </item>
+      {% assign checkDate = article.date | date: "%Y-%m-%d" %}
+      {% if checkDate <= now %}
+        <item>
+          <title><![CDATA[{{ article.data.title }}]]></title>
+          <link>{{ metadata.url | append: article.url }}</link>
+          <guid>{{ metadata.url | append: article.url }}</guid>
+          <pubDate>{{ article.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
+          <description><![CDATA[{{ article.data.description }}]]></description>
+          {% assign myTags2 = article.data.tags | tagify %}
+          {% if myTags2 %}
+            {% for tag in myTags2 %}
+              <category>{{ tag }}</category>
+            {% endfor %}
+          {% endif %}
+          <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
+          {% if article.data.thumbnail %}
+            <enclosure url="{{ article.data.thumbnail | cldnrysrc }}" length="0" type="image/png"/>
+          {% endif %}
+        </item>
+      {% endif %}
     {% endunless %}
     {% endfor %}
   </channel>
