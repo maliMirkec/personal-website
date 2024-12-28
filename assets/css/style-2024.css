@@ -7,6 +7,7 @@
 
   --sidebar: clamp(5rem, calc(2.5rem + 4vw), 7.5rem);
   --main: clamp(31.25rem, calc(0rem + 50vw), 62.5rem);
+  --narrow: clamp(30rem, calc(24.643rem + 14.286vw), 37.5rem);
   --viewport: 120rem;
 
   --size-02-04: clamp(0.125rem, calc(0rem + 0.2vw), 0.25rem);
@@ -1254,6 +1255,11 @@ blockquote p:not(:first-of-type) {
 
   .article-content p:has(img:is(.center.space)) {
     padding-inline: var(--size-50-100);
+  }
+
+  .picolo {
+    max-inline-size: var(--narrow);
+    margin-inline: auto;
   }
 }
 
