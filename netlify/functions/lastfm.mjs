@@ -1,5 +1,5 @@
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args))
-const cheerio = require('cheerio')
+import fetch from 'node-fetch'
+import cheerio from 'cheerio'
 
 export default async (req, context) => {
   return await fetch('https://www.last.fm/user/maliMirkec')
