@@ -8,11 +8,9 @@ const build = async (req, context) => {
     console.log('Build hook response:', response)
   })
 
-  // return new Response("Build triggered.")
-
-  return {
-    statusCode: 200
-  }
+  return new Response('OK', {
+    status: 200
+  })
 }
 
 export const handler = schedule('@daily', build);

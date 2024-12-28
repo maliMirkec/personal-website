@@ -26,12 +26,11 @@ export default async (req, context) => {
     console.log(error);
   }
 
-  return {
+  return new Response('R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', {
     statusCode: 200,
-    body: 'R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
     headers: {
       'content-type': 'image/gif'
     },
     isBase64Encoded: true,
-  };
+  })
 };
