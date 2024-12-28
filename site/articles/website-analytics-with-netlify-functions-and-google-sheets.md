@@ -15,6 +15,10 @@ I gave up on analytics on my site a long time ago. I was using Google Analytics 
 - I couldn't get the highest scores on page speed testing tools, and
 - I was obsessed with a number of pageviews and sessions.
 
+{% note %}
+The function described below is no longer in use.
+{% endnote %}
+
 Now that this is well behind me, I was interested to see if anyone visits my site these days.
 
 ## Netlify function
