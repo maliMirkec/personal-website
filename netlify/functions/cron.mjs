@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import { schedule } from '@netlify/functions'
 
 const build = async (req, context) => {
-  await fetch(process.env.BUILD_HOOK_MAIN, {
+  await fetch(process.env.BUILD_HOOK, {
     method: 'POST'
   }).then(response => {
     console.log('Build hook response:', response)
