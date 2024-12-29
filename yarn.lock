@@ -1721,7 +1721,7 @@ linkify-it@^5.0.0:
   dependencies:
     uc.micro "^2.0.0"
 
-liquidjs@10.19.1, liquidjs@^10.17.0:
+liquidjs@^10.17.0:
   version "10.19.1"
   resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.19.1.tgz#a39adc1bcb494217ba706d39577210d0d0014b35"
   integrity sha512-3xb+LAWB8/btUJIuqO52zTxoYovaCS5foaLjBaa/ntRh4yss4NxhZzMcJRYkcQDFGNGWbhcXzZlN7m+hSYIxcw==

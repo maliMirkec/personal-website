@@ -43,7 +43,6 @@
     "esbuild": "^0.24.2",
     "html-minifier": "4.0.0",
     "js-yaml": "4.1.0",
-    "liquidjs": "10.19.1",
     "markdown-it": "14.1.0",
     "markdown-it-anchor": "9.2.0",
     "node-fetch": "3.3.2",
