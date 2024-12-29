@@ -30,7 +30,7 @@ If you prefer watching a video over reading an article, you could proceed to [th
 
 I am going to use a default WordPress installation as my starting point. I am using [Local by FlyWheel] as my WordPress development tool.
 
-{% cldnry "local_hu1z2y" "Screenshot of Local by FlyWheel tool." 759 414 %}
+{% cldnryimg "local_hu1z2y" "Screenshot of Local by FlyWheel tool." 759 414 %}
 
 The aim is to add Gulp tasks to TwentyNineteen default theme for Sass, JavaScript, BrowserSync, and Critical CSS.
 

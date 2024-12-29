@@ -21,6 +21,6 @@ Then, after a few months, these friends ask me all these questions again. And th
 
 ## Conclusion
 
-{% cldnry "i_do_css_html_for_a_living2_n3llxk" "I do CSS and HTML for a living sticker." 759 501 %}
+{% cldnryimg "i_do_css_html_for_a_living2_n3llxk" "I do CSS and HTML for a living sticker." 759 501 %}
 
 I like my Smashing Magazine sticker that says it nicely: I do HTML and CSS for a living. I wish everyone knows what it means.

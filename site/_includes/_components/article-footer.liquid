@@ -4,22 +4,22 @@
     <p>Share the article:</p>
     <ul>
       <li>
-        <a href="{{ pageUrl | social: 'Mastodon', title }}">Mastodon</a>
+        <a href="{{ pageUrl | social: 'Mastodon' }}">Mastodon</a>
       </li>
       <li>
-        <a href="{{ pageUrl | social: 'BlueSky', title }}">BlueSky</a>
+        <a href="{{ pageUrl | social: 'BlueSky' }}">BlueSky</a>
       </li>
       <li>
-        <a href="{{ pageUrl | social: 'LinkedIn', title }}">LinkedIn</a>
+        <a href="{{ pageUrl | social: 'LinkedIn' }}">LinkedIn</a>
       </li>
       <li>
-        <a href="{{ pageUrl | social: 'Reddit', title }}">Reddit</a>
+        <a href="{{ pageUrl | social: 'Reddit' }}">Reddit</a>
       </li>
     </ul>
   </div>
   {% if series %}
     <div class="article-footer__content">
-      {% assign seriesList = collections['my-articles'] | findItem: 'series', series | reverse %}
+      {% assign seriesList = collections['my-articles'] | findItem: 'series', series %}
       {% assign seriesListLength = seriesList | size %}
       {% if seriesList and seriesListLength > 1 %}
         <p>Part of “{{ series }}” series:</p>

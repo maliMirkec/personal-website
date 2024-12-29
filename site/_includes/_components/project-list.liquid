@@ -31,7 +31,7 @@
           <li class="box__item">
             <a class="box__anchor box__panel" href="{{ card.url }}">
               {%- if card.data.thumbnail -%}
-                {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 400 242 %}
+                {% cldnryimg card.data.thumbnail.src card.data.thumbnail.alt 400 242 %}
               {%- endif -%}
               {%- if card.data.projectTitle -%}
                 <h3 class="box__subtitle">

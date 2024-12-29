@@ -4,11 +4,11 @@
       {%- assign logo = cta[component.banner].logo -%}
       {%- if cta[component.banner].cta -%}
         <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
-          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
         </a>
       {%- else -%}
         <div class="banner__logo">
-          {%- cldnry logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
         </div>
       {%- endif -%}
     {%- endif -%}

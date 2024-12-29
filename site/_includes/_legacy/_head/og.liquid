@@ -54,7 +54,7 @@
       },
       "headline": "{% if ogImageTitle %}{{ ogImageTitle }}{% else %}{{ title }}{% endif %}",
       "image": [
-        "{{ thumbnail | cldnrysrc }}"
+        "{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}"
       ],
       "datePublished": "{{ date | date: '%Y-%m-%d' }}",
       "dateModified": "{{ date | date: '%Y-%m-%d' }}",

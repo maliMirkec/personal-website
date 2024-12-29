@@ -11,7 +11,7 @@
                     {% if quote.avatar %}
                       <span class="db margin-right avatar">
                         {% assign altTextAvatar = quote.name | append: ' profile photo.' %}
-                        {% cldnry quote.avatar altTextAvatar 60 60 %}
+                        {% cldnryimg quote.avatar altTextAvatar 60 60 %}
                       </span>
                     {% endif %}
                     <div>
