@@ -163,7 +163,7 @@ Now for the fun stuff --- let's anchor some elements! We are going to define thr
 
 Here's the image so you can visualize the link elements more easily.
 
-{% cldnry "anchor-pos-viz1_o6zatq" "Screenshot showing linked elements." 759 372 'center' %}
+{% cldnryimg "anchor-pos-viz1_o6zatq" "Screenshot showing linked elements." 759 372 'center' %}
 
 Next, we need to define the offset for our element by using the anchor function. We want our first line (the left pink rectangle) to start outside and in the middle of the first word element and to end outside and in the middle of the second word element.
 
@@ -180,7 +180,7 @@ Next, we need to define the offset for our element by using the anchor function.
 I drew this crude diagram that follows to demonstrate how the placement of that pink rectangle works because it's totally fascinating to me!
 {% endnote %}
 
-{% cldnry "anchor-pos-viz2_of8ypx" "Screenshot showing linked elements and its CSS code." 759 639 'center' %}
+{% cldnryimg "anchor-pos-viz2_of8ypx" "Screenshot showing linked elements and its CSS code." 759 639 'center' %}
 
 It's the same setup for the second line, but we are the referencing the second and third word elements instead of the first and second.
 
@@ -210,7 +210,7 @@ To make the lines, I am using a linear gradient in the following fashion:
 
 Here's how it looks now.
 
-{% cldnry "anchor-pos-viz3_b8c1ub" "Screenshot showing linked elements fully styled." 759 374 'center' %}
+{% cldnryimg "anchor-pos-viz3_b8c1ub" "Screenshot showing linked elements fully styled." 759 374 'center' %}
 
 To generate different terms on each hover event and to automatically change the terms when no hover effects occur to make the whole component more appealing and inviting, we need to introduce a bit of JavaScript. Once the timeout expires, JavaScript will update the `data-col1`, `data-col2`, and `data-col3` attributes.
 

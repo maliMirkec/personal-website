@@ -13,7 +13,7 @@ I realized that I rarely use bookmarks, but I still bookmark interesting sites, 
 
 <!-- more -->
 
-{% cldnry "search-bar-bookmarks_namh9b" "Search bar with bookmark suggestions." 759 160 %}
+{% cldnryimg "search-bar-bookmarks_namh9b" "Search bar with bookmark suggestions." 759 160 %}
 
 Since I am using only dozens of bookmarked links, I thought I could share the exported bookmark file with the community, before I clean them up. There are many interesting, useful, and not-so-useful links here. You could <a href="/bookmarks/browser/">see it in your browser</a>.
 

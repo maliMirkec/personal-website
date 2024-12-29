@@ -35,7 +35,7 @@ Next, add a new user account associated with your Windows operating system or Mi
 
 Take a look at what my remote connection setup looks like:
 
-{% cldnry "Microsoft_Remote_Desktop_app_g8mjr1" "Screenshot of Microsoft Remote Desktop app." 759 715 %}
+{% cldnryimg "Microsoft_Remote_Desktop_app_g8mjr1" "Screenshot of Microsoft Remote Desktop app." 759 715 %}
 
 Once everything is set up, you can easily access your Windows machine using the “Connect” option or double-clicking on the new item in the dashboard.
 

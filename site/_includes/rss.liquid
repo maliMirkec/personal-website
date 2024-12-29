@@ -40,9 +40,7 @@
             {% endfor %}
           {% endif %}
           <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
-          {% if article.data.thumbnail %}
-            <enclosure url="{{ article.data.thumbnail | cldnrysrc }}" length="0" type="image/png"/>
-          {% endif %}
+          <enclosure url="{{ site.url }}/og.png?text={% if article.data.ogImageTitle %}{{ article.data.ogImageTitle | url_encode }}{% else %}{{ article.data.title | url_encode }}{% endif %}" length="0" type="image/png"/>
         </item>
       {% endif %}
     {% endunless %}

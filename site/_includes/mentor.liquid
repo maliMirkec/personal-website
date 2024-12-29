@@ -35,15 +35,15 @@ isMentor: true
 {% endif %}
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="ltr">
-  {% include '_includes/_legacy/head' %}
+  {% include '_legacy/head' %}
   <body class="wrapper wrapper--omega">
-    {% include '_includes/_mentor/header' %}
+    {% include '_mentor/header' %}
     <main class="main" id="main">
       {{ content }}
     </main>
-    {% include '_includes/_mentor/footer' %}
-    {% include '_includes/_assets/style' %}
-    {% include '_includes/_assets/scripts' %}
-    {% include '_includes/_assets/analytics' %}
+    {% include '_mentor/footer' %}
+    {% include '_legacy/_assets/style' %}
+    {% include '_legacy/_assets/scripts' %}
+    {% include '_legacy/_assets/analytics' %}
   </body>
 </html>

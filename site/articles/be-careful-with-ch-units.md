@@ -40,7 +40,7 @@ I opened the network tab in Chrome DevTools and discovered that Inter font was d
 
 So the browser used the first available font defined in the font stack. That was Roboto because I didn’t have Inter font installed on my machine (Firefox DevTools tells you which fonts are used on specific elements).
 
-{% cldnry "firefox-devtools_owp9s3" "Screenshot of Firefox DevTools showing Roboto font inspector." 759 242 %}
+{% cldnryimg "firefox-devtools_owp9s3" "Screenshot of Firefox DevTools showing Roboto font inspector." 759 242 %}
 
 Roboto’s character width, `ch`, differs from Inter’s. Since Grammarly downloaded the font after Roboto was applied, that caused the font change, the wrapper width change, and the CLS flick.
 

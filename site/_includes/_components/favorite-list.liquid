@@ -23,7 +23,7 @@
           <li class="box__item">
             <a class="card{{ cardClass }}" href="{{ card.url }}">
               {%- if card.data.thumbnail -%}
-                {% cldnry card.data.thumbnail.src card.data.thumbnail.alt 500 302 %}
+                {% cldnryimg card.data.thumbnail.src card.data.thumbnail.alt 500 302 %}
               {%- endif -%}
               {%- if card.data.title -%}
                 <h3 class="card__title">{{ card.data.title }}</h3>

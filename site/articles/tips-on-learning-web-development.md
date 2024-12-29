@@ -47,7 +47,7 @@ When you start learning, you might be quite overwhelmed by the number of new ter
 
 You might want to make a list or a plan or a schedule to avoid wasting time as much as possible. A simple schedule or Trello board could help you focus on getting there, especially if you set up deadlines for yourself.
 
-{% cldnry "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." 844 563 %}
+{% cldnryimg "kaleidico-26MJGnCM0Wc-unsplash_a6gj75" "A whiteboard with project structure." 844 563 %}
 
 Following courses or tutorials is a challenge, but writing code alongside might be even more challenging. You might be tempted to copy-paste the code, but that could turn out to be a devastating decision. If you copy-paste the code, you won’t learn anything. Even worse, you might not even understand how it works. That might have severe consequences in the future, like overpromise and providing incorrect estimates to your client or boss, which might affect your reputation or even a job.
 

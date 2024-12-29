@@ -16,13 +16,13 @@ When I started using MacBook, I couldn’t remember how to type the _right arrow
 
 Later, I learned that I could type _“arrow right alt code”_ in Google and copy-paste the symbol.
 
-{% cldnry "arrow-right-alt-code-google-search_zedjcz" "Screenshot of Google search for right arrow alt code." 759 444 'center' %}
+{% cldnryimg "arrow-right-alt-code-google-search_zedjcz" "Screenshot of Google search for right arrow alt code." 759 444 'center' %}
 
 There are also dedicated sites with a complete list of Unicode characters like the arrow right. I have bookmarked [this site](//xahlee.info/comp/unicode_index.html?q=). There are other ones, like [this one](//unicode-table.com/en/) or [this one](https://unicodearrows.com/), that are maybe more user-friendly. However, finding the character on these sites isn’t efficient, too.
 
 A few months ago, I started to add snippets in my VS Code. The thing with snippets is that you have to learn them.
 
-{% cldnry "arrow-right-vs-code-snippet-example_soumta" "Screenshot of right arrow Unicode symbol snippet in VS Code." 759 99 'center' %}
+{% cldnryimg "arrow-right-vs-code-snippet-example_soumta" "Screenshot of right arrow Unicode symbol snippet in VS Code." 759 99 'center' %}
 
 But, unfortunately, that also means you could forget them.
 

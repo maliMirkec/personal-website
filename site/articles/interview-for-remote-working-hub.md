@@ -31,7 +31,7 @@ My focus is always on delivering the best experience for users on every device. 
 
 When I am not coding, I like to write new articles on my blog.
 
-{% cldnry "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." 759 506 %}
+{% cldnryimg "dominik-lalic-iM6Gm-cdBuw-unsplash_x8bun6" "Pedestrian bridge in Osijek by night." 759 506 %}
 
 ## What motivated you to choose remote working?
 
@@ -73,7 +73,7 @@ There are other tools that I use on my daily basis that are related to my progra
 
 I made a list of my current hardware setup and my preferred software. You can find it here: [https://www.silvestar.codes/uses/](/uses/).
 
-{% cldnry "IMG_20190214_123144_eqcdi5" "Workstation in my office." 759 569 %}
+{% cldnryimg "IMG_20190214_123144_eqcdi5" "Workstation in my office." 759 569 %}
 
 ## Your most exciting/ hilarious experience since you started working remotely.
 

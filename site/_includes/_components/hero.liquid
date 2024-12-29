@@ -15,7 +15,7 @@
   {%- endif -%}
   {%- if component.img -%}
     <div class="hero__image"{% if component.img.clamp %} style="--max-inline-size: {{ component.img.clamp }}"{% endif %}>
-      {%- cldnry component.img.src component.img.alt component.img.width component.img.height true -%}
+      {%- cldnryimg component.img.src component.img.alt component.img.width component.img.height true -%}
     </div>
   {%- endif -%}
   {%- if component.gfx -%}

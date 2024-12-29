@@ -202,7 +202,7 @@ Stylelint also has its plugins. In Starter Project, [stylelint-scss] and [stylel
 
 For all the VS Code users, here is the tip how to use Stylelint inside the editor. First, install [stylefmt] and [Run On Save] extensions for VS Code. Then call command palette by pressing `cmd + shift + p`, and type `open workspace settings`.
 
-{% cldnry "open-workspace-settings_luw5ru" "Open workspace settings example." 759 82 %}
+{% cldnryimg "open-workspace-settings_luw5ru" "Open workspace settings example." 759 82 %}
 
 When you open the workspace settings, add these settings.
 

@@ -48,7 +48,7 @@ Read more about the idea and possible problems that Starter Project package it i
 
 SPRO is conceived a bit differently. Instead of manually tweaking the configuration file, I have built a command that would start a questionary about the project structure840 .
 
-{% cldnry "spro-questions_dcflmw" "SPRO questions in terminal." 759 394 %}
+{% cldnryimg "spro-questions_dcflmw" "SPRO questions in terminal." 759 394 %}
 
 When you answer all questions, SPRO will store information to the `.starter-project.json` file. It would also prepare a command to install all dependencies based on your answers.
 

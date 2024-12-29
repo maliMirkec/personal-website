@@ -19,7 +19,7 @@ One of the most popular features for Atom out there is a **minimap**. It's a cod
 
 **[minimap](https://atom.io/packages/minimap)** is a basic package for code preview and it's available on Atom's package manager. Settings let's you configure the **minimap** and here's my settings:
 
-{% cldnry "minimap-settings_qurgyc" "Atom General settings." 759 614 %}
+{% cldnryimg "minimap-settings_qurgyc" "Atom General settings." 759 614 %}
 
 ## useful minimap extensions
 
@@ -50,7 +50,7 @@ There's even a package that highlights search result occurrences in the **minima
 
 This is my **minimap** in action:
 
-{% cldnry "minimap-in-action_jopeok" "Atom Minimap settings." 759 378 %}
+{% cldnryimg "minimap-in-action_jopeok" "Atom Minimap settings." 759 378 %}
 
 ## Final thoughts
 

@@ -23,7 +23,7 @@ ifconfig | grep inet
 
 You should see something like this:
 
-{% cldnry "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 387 %}
+{% cldnryimg "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 387 %}
 
 On Windows, run the following command:
 
@@ -33,7 +33,7 @@ ipconfig
 
 You should see something like this:
 
-{% cldnry "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 494 %}
+{% cldnryimg "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 494 %}
 
 Now that you have the address, you can test it on any other device but don’t forget to add the port that your website or web app is running.
 
@@ -67,7 +67,7 @@ cloudflared is free for everyone at the time of writing.
 
 One other app that I occasionally use for WordPress is [Local by Flywheel](https://localwp.com/). This app comes with [Live Links](https://localwp.com/live-links/), which enables you to “test your site with provisioned site tunnels from your Local account.”
 
-{% cldnry "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." 759 541 %}
+{% cldnryimg "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." 759 541 %}
 
 {% note "Important" %}
 The Local app works only with WordPress.

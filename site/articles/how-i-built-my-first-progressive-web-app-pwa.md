@@ -23,7 +23,7 @@ I like to think of myself as a very pedantic person, and I was trying to make my
 
 Now my site gets top scores, but one thing was bothering me for some time. It was the Progressive Web App score.
 
-{% cldnry "pwa-before_cokho9" "Lighthouse score for Progressive Web App before optimisation." 600 722 'center' %}
+{% cldnryimg "pwa-before_cokho9" "Lighthouse score for Progressive Web App before optimisation." 600 722 'center' %}
 
 By looking at the PWA report, I realised my site is ready for PWA. There were only a few issues to resolve. I didn’t understand these issues, but that never stopped me before.
 
@@ -135,7 +135,7 @@ self.addEventListener('fetch', (event) => {
 
 After the deployment, I run the audit for the site and now I have it looks like this:
 
-{% cldnry "pwa-after_au0ip8" "Lighthouse score for Progressive Web App after optimisation." 600 707 'center' %}
+{% cldnryimg "pwa-after_au0ip8" "Lighthouse score for Progressive Web App after optimisation." 600 707 'center' %}
 
 I think fireworks deserve another appearance. 💯
 

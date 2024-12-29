@@ -34,7 +34,7 @@ The project should be ready in a matter of minutes and you could start configuri
 
 Netlify randomly creates a default name for a new project. If you don’t like the name, choose your own and make it one that would be much easier for you to remember.
 
-{% cldnry "netlify-dashboard-site-name_zqyqmg" "Netlify dashboard settings for custom site name" 759 334 %}
+{% cldnryimg "netlify-dashboard-site-name_zqyqmg" "Netlify dashboard settings for custom site name" 759 334 %}
 
 For example, my site name is `silvestarcodes`, and I could access my site by visiting [silvestarcodes.netlify.com].
 
@@ -55,11 +55,11 @@ For the second option, you should add or update the nameservers on your domain r
 
 Once you have set the custom domain, you could handle your <abbr>DNS</abbr> records from the Netlify dashboard.
 
-{% cldnry "netlify-dashboard-dns-records_jjg1tf" "Netlify DNS dashboard showing subdomains" 759 220 %}
+{% cldnryimg "netlify-dashboard-dns-records_jjg1tf" "Netlify DNS dashboard showing subdomains" 759 220 %}
 
 If you want to add a custom subdomain for a different branch, like develop subdomain for the develop branch, you could do it automatically from the Domain Management section in the Settings section of your site. All you have to do is select a branch and Netlify would add a new subdomain for you automagically.
 
-{% cldnry "netlify-dashboard-subdomains_zeq1df" "Netlify DNS dashboard branch subdomains" 759 188 %}
+{% cldnryimg "netlify-dashboard-subdomains_zeq1df" "Netlify DNS dashboard branch subdomains" 759 188 %}
 
 If you want to add a new subdomain for a different website, like play subdomain for a separate website, you could create a new Netlify site, add a new subdomain as a custom domain, and Netlify would automatically add the records for you.
 
@@ -69,7 +69,7 @@ As an icing on the <abbr>DNS</abbr> management cake, Netlify lets you create Let
 
 Snippet injection is another excellent feature. I am using it mostly for inserting analytics, but it could be done for so much more, like adding meta tags for responsive behavior, favicon tags, or [Webmention.io] tags.
 
-{% cldnry "netlify-dashboard-inject-snippet_ruimjq" "Netlify snippet injection" 759 617 %}
+{% cldnryimg "netlify-dashboard-inject-snippet_ruimjq" "Netlify snippet injection" 759 617 %}
 
 When inserting snippets, you could choose to append the code fragment at the end of the `<head>` block, or at the end of the `<body>` block.
 
@@ -89,7 +89,7 @@ I found this feature useful when completing tasks and sending the preview links 
 
 If you ever wanted to run A/B tests on your site, you would find that Netlify makes running A/B tests quite straightforward. Split testing on Netlify allows you to display different versions of your website from different Git branches without any hackery.
 
-{% cldnry "netlify-dashboard-split-testing_grzmlr" "Netlify dashboard for split testing" 759 290 %}
+{% cldnryimg "netlify-dashboard-split-testing_grzmlr" "Netlify dashboard for split testing" 759 290 %}
 
 All you have to do is create a separate branch, make changes, and publish the branch. Then you should be able to select the branch, set a split percentage, and start the test. You could even set a variable in analytics code to track which branch is currently displayed.
 
@@ -109,11 +109,11 @@ If you want track split testing information, you could set up the process enviro
 
 If you want to receive a notification when something happens with your Netlify project, you could choose from a wide variety of notification options. I prefer getting an email for every successful or failed build.
 
-{% cldnry "netlify-dashboard-deploy-notifications_hcmabx" "Netlify dashboard for notification section." 759 419 %}
+{% cldnryimg "netlify-dashboard-deploy-notifications_hcmabx" "Netlify dashboard for notification section." 759 419 %}
 
 If you are using Gmail, you could notice "See the changes live" link for every successful build when hovering your message in Gmail inbox. That means you could open a preview link without opening the email. There are other links like "See full deploy logs" when your build have any issues or "Check usage details" when your plan is near its limits. How awesome is that?
 
-{% cldnry "netlify-notification-gmail_dyim14" "Netlify notifications in Gmail" 759 149 %}
+{% cldnryimg "netlify-notification-gmail_dyim14" "Netlify notifications in Gmail" 759 149 %}
 
 If you want to set up a hook for third-party services, all you need is a URL (JWS secret token is optional). Slack hooks are built-in with Netlify and could be set up within seconds if you know your Slack incoming webhook URL.
 
