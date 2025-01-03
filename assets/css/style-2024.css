@@ -44,6 +44,9 @@
   --timing100: 111ms;
   --timing200: 222ms;
 
+  --bg-light: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAACqCAMAAAAKqCSwAAAAQlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////8IX9KGAAAAFnRSTlMAAgUHCAoMDg8RExUWGBobHR8hIiQmuOarsgAACRZJREFUeNrtndmW4ygMQANlHANFG9v4/391Em8BAkhgUpWaEz31dGe5EUIbwnO5fOQj/y/pBP0jpHqeZ/Y3dHojnfWfQJ3uqH9CrYtS/4ZaV6X+BbVuSv0Lat2V+vZqJfwgnTVBvYWqvvlxTib17MjYX8FYQO/LcP1hTjOHRAMY7fKqH2Rleo7KqCi8Da9vALqIIKDH+BFWoiyoqZe8u4vobf7xCjq3H2BtDxs1uqOe/T5cV8wKDtSZv5pUHvuHh1a5OVQ+UgB1Fq9d/H2VNYv7zV3pVwB11i9Mc+mwUfC0k0+obUH9t//il+XkdDPFHopL3RRlXVDVYUejeknoIhN6P+w/6hpDvQjLD7cNqYzar4uPSkvI+uK5iaFe2JRwzEadgl/1YLALpsJ+4EC9EJGMImdCVB7pzqqjqNb+C+USpw21zXjHELJsG/UG2+n6qDJ/Wda9ZWgC9f6LWqkHA6ESrm+vGRTCudHH+ymlJMdm+jRq5G0u6mMPCqThSbX//kGLliCXgp1GbTMsg0bSaGA9iHn68BJU6tjHN0apAVFpL8ufnGsJqvftLF+pmAplsTF5DnX99oHtnljCytmz6cmLM6kEaflwQ06hLt8+kuPjxtSb94Sq52zFIk2nLOBvkrZWloX65fHIh3smy9cRaP1730aaR9I/tkkrl1moxLNIZSU+yzdSoMocUtlevEBZVtNkoS4NW8sCJoscQv2XMGYIdrUAmoW6Vgo9tdMkgkMdki5CHF4vkCaTtWq8ZqFujbBR3Uth7Th+ABWyZfpIOUbJ3PC+/QzpBp4BFZFtaXCoX+Cnd7b70krwruPSdhG9u0UNWPHEslcAtYVDLxXpdov1Qw2qwdk6vltekKgo86IyVYCMnveCs1Er7bY94fIXQMRBZKrBNNko79MZtm98s3R1E8f6fddXinpP6nsnCZokI0+KMCeSfPWcABeiLriMi7syRLeVzD6qKC/z1rriWgv1SZ7MaypmXY0JiquqlJQ+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);
+  --bg-dark: url(data:image/png;base64,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);
+
   /* https://scrollbar.app/ */
   --sb-track-color: color-mix(in srgb, var(--color-alpha), var(--color-light) 80%);
   --sb-thumb-color: var(--color-alpha);
@@ -296,11 +299,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .header__nav--alpha {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, var(--color-alpha) -50%, transparent 150%);
+  background-image: var(--bg-light), linear-gradient(to right, var(--color-alpha) -50%, transparent 150%);
 }
 
 .header__nav--beta {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
+  background-image: var(--bg-light), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
   background-repeat: repeat;
   background-size: 77px, 100%;
   background-position: center;
@@ -541,7 +544,7 @@ blockquote p:not(:first-of-type) {
   background-repeat: repeat;
   background-size: 77px, 100%;
   background-position: center;
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
+  background-image: var(--bg-light), linear-gradient(to right, transparent 10%, var(--color-gamma) 1100%);
   position: absolute;
   inset-block: calc(var(--size-05-10) * -1);
   inset-inline: 0;
@@ -667,11 +670,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .banner--alpha {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
+  background-image: var(--bg-light), linear-gradient(to bottom right, var(--color-alpha), var(--color-light) 300%);
 }
 
 .banner--beta {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
 }
 
 .banner--big {
@@ -808,7 +811,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-header {
-  background-image: url(/gfx/webp/mc-light.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
+  background-image: var(--bg-light), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
   background-position: center;
   background-repeat: repeat;
   background-size: 77px, 100%;
@@ -830,7 +833,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-footer {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(transparent 25%, var(--color-gamma) 1000%);
+  background-image: var(--bg-light), linear-gradient(transparent 25%, var(--color-gamma) 1000%);
   background-position: center;
   background-repeat: repeat;
   background-size: 77px, 100%;
@@ -931,7 +934,7 @@ blockquote p:not(:first-of-type) {
 
 .article-content blockquote,
 .note {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
   padding-inline: 2rem;
   margin-block-end: 1.25rem;
 }
@@ -964,7 +967,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-content :is(p, li) code {
-  background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to right, transparent -50%, var(--color-alpha) 750%);
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-alpha) 750%);
   font-weight: 600;
 }
 
@@ -1402,7 +1405,7 @@ blockquote p:not(:first-of-type) {
     background-repeat: repeat;
     background-size: 77px, 100%;
     background-position: center;
-    background-image: url(/gfx/webp/mc-light.webp), linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
+    background-image: var(--bg-light), linear-gradient(135deg, var(--color-alpha), var(--color-light) min(5%, 20dvmax), var(--color-light) max(95%, calc(100% - 20dvmax)), var(--color-gamma) 100%);
     position: absolute;
     inset: 0;
     margin: calc(var(--size-05-10) * -1);
@@ -1461,7 +1464,7 @@ blockquote p:not(:first-of-type) {
     background-repeat: repeat;
     background-size: 77px, 100%;
     background-position: center;
-    background-image: url(/gfx/webp/mc-light.webp), linear-gradient(to bottom, transparent 5%, var(--color-gamma) 500%);
+    background-image: var(--bg-light), linear-gradient(to bottom, transparent 5%, var(--color-gamma) 500%);
     border-radius: 0 0 var(--size-60-120) var(--size-60-120);
     position: sticky;
     padding-block-start: var(--size-10-20);
@@ -1539,11 +1542,11 @@ blockquote p:not(:first-of-type) {
   }
 
   .header__nav--alpha {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -500%, transparent 200%);
+    background-image: var(--bg-dark), linear-gradient(to right, var(--color-alpha) -500%, transparent 200%);
   }
 
   .header__nav--beta {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 150%);
+    background-image: var(--bg-dark), linear-gradient(to right, var(--color-alpha) -1000%, transparent 150%);
   }
 
   .header__link--beta {
@@ -1555,7 +1558,7 @@ blockquote p:not(:first-of-type) {
   }
 
   .box__title:before {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
+    background-image: var(--bg-dark), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
   }
 
   .box__tag,
@@ -1576,11 +1579,11 @@ blockquote p:not(:first-of-type) {
   }
 
   .banner--alpha {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom right, var(--color-alpha) -500%, transparent 150%);
+    background-image: var(--bg-dark), linear-gradient(to bottom right, var(--color-alpha) -500%, transparent 150%);
   }
 
   .banner--beta {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to right, var(--color-alpha) -1000%, transparent 200%);
+    background-image: var(--bg-dark), linear-gradient(to right, var(--color-alpha) -1000%, transparent 200%);
   }
 
   .banner [class*="__input"],
@@ -1597,7 +1600,7 @@ blockquote p:not(:first-of-type) {
   }
 
   .article-header {
-    background-image: url(/gfx/webp/mc-dark.webp), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
+    background-image: var(--bg-dark), radial-gradient(ellipse closest-side at center, var(--color-alpha) -500%, transparent 200%);
   }
 
   .article-header h1 {
@@ -1605,7 +1608,7 @@ blockquote p:not(:first-of-type) {
   }
 
   .article-footer {
-    background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(transparent 25%, var(--color-alpha) 1000%);
+    background-image: var(--bg-dark), linear-gradient(transparent 25%, var(--color-alpha) 1000%);
   }
 
   .table-wrapper :is(th, td) {
@@ -1622,11 +1625,11 @@ blockquote p:not(:first-of-type) {
 
   @media screen and (width >= 1000px) {
     .main:before {
-      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
+      background-image: var(--bg-dark), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
     }
 
     .footer__inner {
-      background-image: url(/gfx/webp/mc-dark.webp), linear-gradient(to bottom, transparent 5%, var(--color-alpha) 500%);
+      background-image: var(--bg-dark), linear-gradient(to bottom, transparent 5%, var(--color-alpha) 500%);
     }
   }
 }
