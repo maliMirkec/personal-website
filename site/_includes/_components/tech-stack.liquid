@@ -24,7 +24,8 @@
     {%- endif -%}
     {%- if cta[component.banner].cta2 -%}
       <div class="banner__action">
-        {%- include '_includes/_components/cta', cta: cta[component.banner].cta2 -%}
+        {% assign cta_modifiers = 'small,converse' | split: ',' %}
+        {%- include '_includes/_components/cta', cta: cta[component.banner].cta2, modifiers: cta_modifiers -%}
       </div>
     {%- endif -%}
   </section>
