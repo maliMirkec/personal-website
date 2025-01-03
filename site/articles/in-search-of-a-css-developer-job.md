@@ -27,7 +27,7 @@ As a first step, I tweeted that I was searching for a job. Some considerate peop
 
 If you think it will help, feel free to retweet [my tweet](https://twitter.com/malimirkeccita/status/1564583796762189826).
 
-{% cldnrylink "https://twitter.com/malimirkeccita/status/1564583796762189826" "in-search-of-a-css-developer-job-tweet_mfj6xf" "Screenshot of a tweet of mine about searching for a new role." 759 474 'center space' %}
+{% cldnryfetch "in-search-of-a-css-developer-job-tweet_mfj6xf" "Screenshot of a tweet of mine about searching for a new role." false true "center" %}
 
 I also tried to use Twitter search, but I didn't find anything useful.
 

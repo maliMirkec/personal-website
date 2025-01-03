@@ -50,7 +50,7 @@ Here’s how to configure the snippet in VS Code:
 
 Recently I found out an even better solution, the [**Insert Unicode extension**](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for VS Code. This extension allows you to search and insert any Unicode character. To do so, press _Command + Shift + p_, type _“insert unicode,”_ and select _Insert Unicode: Insert_ command. After that, search for the character, select it, and that’s it!
 
-{% video "https://res.cloudinary.com/starbist/image/upload/v1687771538/l_t0b40s" 759 394 'autoplay' 'loop' 'mute' true 'center' %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1687771538/l_t0b40s" 759 394 "autoplay" "loop" "mute" true "center" %}
 
 {% note "Important update" %}
 It was brought to my attention that macOS has this thing called Character Viewer. This might be the easiest way to insert Unicode. To open Character Viewer, press _Command + Control + Space_. You could search and insert most of the characters. You could [even customize the app](https://www.webnots.com/how-to-use-character-viewer-in-mac/) for easier usage.

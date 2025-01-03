@@ -86,7 +86,7 @@ To simulate GIF behavior, we must autoplay the video, mute it, and play it in a 
 
 {% raw %}
 ```liquid
-{% video "https://res.cloudinary.com/.../my-gfx 759 477 'autoplay' 'loop' 'mute' 'gif' %}
+{% video "https://res.cloudinary.com/.../my-gfx 759 477 "autoplay" "loop" "mute" 'gif' %}
 ```
 {% endraw %}
 

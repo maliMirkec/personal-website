@@ -141,7 +141,7 @@ Another great feature of Kwes form builder is the ability to toggle the visibili
 
 Progress bars often help users understand how much steps are left until the submission. Since this element only serves as a visual indicator, I decided to make [a little SVG that is animated] on click. The animation is a CSS animation of the stroke of the SVG path.
 
- "https://res.cloudinary.com/starbist/image/upload/w_200,q_100/v1580360464/ping-pong_sxrlf7" 200 80 'autoplay' 'loop' 'mute' true %}
+ "https://res.cloudinary.com/starbist/image/upload/w_200,q_100/v1580360464/ping-pong_sxrlf7" 200 80 "autoplay" "loop" "mute" true %}
 
 Here’s the complete form, including the SVG and JavaScript code:
 

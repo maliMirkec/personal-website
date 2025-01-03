@@ -16,7 +16,7 @@ I had a unique requirement the other day: to build a layout with full-bleed elem
 
 It’s tough to describe the effect, so I recorded my screen to show what I mean. Pay special attention to the main call to action section, the one with the “Try Domino Today” header.
 
-{% video "https://res.cloudinary.com/starbist/image/upload/v1610699818/sc_bkuzrb" 759 356 'autoplay' 'loop' 'mute' true %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1610699818/sc_bkuzrb" 759 356 "autoplay" "loop" "mute" true %}
 
 The idea is to display the main call to action on the right side while users scroll past other sections on larger viewports. On smaller viewports, the call to action element has to display after the main hero section with the “Start your trial” header.
 

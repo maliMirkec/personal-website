@@ -18,6 +18,6 @@ This technique is deprecated. [See updated version](/articles/transition-between
 
 I was following [Dave's instructions](https://daverupert.com/2023/05/getting-started-view-transitions/), and I immediately noticed something that I liked a lot. As soon as I enabled the View Transitions in my browser (since it is still an experimental technology) and added `<meta name="view-transition" content="same-origin">` to every page of my site, I noticed the transition was already working.
 
-{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1687771538/Large_GIF_1458x916_qd6iqv" 759 477 'autoplay' 'loop' 'mute' true %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1687771538/Large_GIF_1458x916_qd6iqv" 759 477 "autoplay" "loop" "mute" true %}
 
 It works in the most basic mode, fading out the current page and fading in the visited page, which is a thousand times better than the default behavior (in my humble opinion). And there you have it—fully functional transitions between your website pages with a single line of code.

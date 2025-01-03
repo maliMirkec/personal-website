@@ -82,7 +82,7 @@ Now you should be able to run the command from the terminal that would save you 
 
 To check if the command is available, try running the following commands: `spro --version` and `node_modules/.bin/spro --version` for global and local installation, respectively. You should see the version number in your terminal.
 
-{% video "https://res.cloudinary.com/starbist/image/upload/v1551288910/spro-version_jyelxa" 759 263 'autoplay' 'loop' 'mute' true %}
+{% video "https://res.cloudinary.com/starbist/image/upload/v1551288910/spro-version_jyelxa" 759 263 "autoplay" "loop" "mute" true %}
 
 The command that you want to run is `spro start`. You should be prompted to answer the questions about the project structure, as mentioned earlier.
 
@@ -115,7 +115,7 @@ You could edit every individual configuration file manually. However, the main c
 
 I have created [a course] where you could learn more about SPRO.
 
-{% cldnrylink "https://skl.sh/2EcUlRt" "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" 759 474 %}
+[{% cldnryfetch "cover-2x_zheg7w" "SPRO course: Setting up development environment with Gulp" %}](https://skl.sh/2EcUlRt)
 
 The course is free, but you need to have a [Skillshare] account to view all lessons. Be sure to complete the class project and to rate the course. 🆓
 
