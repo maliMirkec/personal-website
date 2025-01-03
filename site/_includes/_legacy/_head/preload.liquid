@@ -1,4 +1,4 @@
-{% if env.production or env.staging %}
+{% if env.production %}
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="preload" href="/css/mentor.min.css" as="style">
@@ -15,6 +15,6 @@
     {% endif %}
   {% endif %}
 {% endif %}
-{% if env.staging and type == "home" %}
+{% if env.development and type == "home" %}
   <link rel="preload" href="https://identity.netlify.com/v1/netlify-identity-widget.js" as="script">
 {% endif %}

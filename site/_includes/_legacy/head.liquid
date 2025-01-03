@@ -7,7 +7,7 @@
   {% endunless %}
   {% include '_legacy/_assets/critical' %}
   {% include '_legacy/_head/preload' %}
-  {% if env.staging and type == "home" %}
+  {% if env.development and type == "home" %}
     {% include '_legacy/_head/netlify' %}
   {% endif %}
   {% include '_legacy/_head/meta-other' %}

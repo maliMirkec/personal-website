@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: staging
+  branch: develop
 
 media_folder: none
 

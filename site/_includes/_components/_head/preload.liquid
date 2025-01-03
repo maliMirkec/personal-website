@@ -1,4 +1,4 @@
-{% if env.production or env.staging %}
+{% if env.production %}
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="preload" href="/css/mentor.min.css" as="style">
@@ -11,14 +11,14 @@
     {% elsif isHexo %}
       <link rel="preload" href="/css/hexo.min.css" as="style">
     {% else %}
-      <link rel="preload" href="/css/style-2024{% if env.production or env.staging %}min.{% endif %}.css" as="style">
-      <link rel="preload" href="/css/style-2024-dark{% if env.production or env.staging %}min.{% endif %}.css" as="style" media="(prefers-color-scheme: dark)">
+      <link rel="preload" href="/css/style-2024{% if env.production %}min.{% endif %}.css" as="style">
+      <link rel="preload" href="/css/style-2024-dark{% if env.production %}min.{% endif %}.css" as="style" media="(prefers-color-scheme: dark)">
     {% endif %}
   {% endif %}
 {% endif %}
 {% if type == 'articles-item' %}
-  <link rel="preload" href="/css/prism-okaidia.{% if env.production or env.staging %}min.{% endif %}css" as="style">
+  <link rel="preload" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css" as="style">
 {% endif %}
-{% if env.staging and type == "home" %}
+{% if env.development and type == "home" %}
   <link rel="preload" href="https://identity.netlify.com/v1/netlify-identity-widget.js" as="script">
 {% endif %}

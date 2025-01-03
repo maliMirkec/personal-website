@@ -1,4 +1,4 @@
-{% if env.production or env.staging %}
+{% if env.production %}
   {% if loadCritical %}
     {% if isMentor %}
       <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
@@ -16,5 +16,5 @@
   {% endif %}
 {% endif %}
 {% if type == 'articles-item' %}
-  <link rel="stylesheet" href="/css/prism-okaidia.{% if env.production or env.staging %}min.{% endif %}css" media="print" onload='this.media="all"'>
+  <link rel="stylesheet" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css" media="print" onload='this.media="all"'>
 {% endif %}

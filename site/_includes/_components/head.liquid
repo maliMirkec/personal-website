@@ -9,7 +9,7 @@
   {% include '_components/_head/preload' %}
   {%- endcomment -%}
   {% include '_components/_assets/assets' %}
-  {% if env.staging and type == "home" %}
+  {% if env.development and type == "home" %}
     {% include '_components/_head/netlify' %}
   {% endif %}
   {% include '_components/_head/meta-other' %}

@@ -1,4 +1,4 @@
-{% if env.production or env.staging %}
+{% if env.production %}
   {% if loadCritical %}
     <style>{{ type | getCritical }}</style>
   {% else %}
