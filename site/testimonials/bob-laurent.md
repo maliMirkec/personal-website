@@ -19,8 +19,8 @@ sections:
     avatar:
       src: bl_krlunh
       alt: Bob Laurent avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Bob Laurent
     text: Sr. Director of Product Marketing at Domino Data Lab
 sections2:

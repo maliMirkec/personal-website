@@ -32,8 +32,9 @@
             <li class="box__item">
               <a class="box__link box__person" href="{{ card.url }}">
                 {%- if card.data.avatar -%}
+                  {% assign avatarWidths = '85, 170' | split: ',' %}
                   <span class="box__avatar">
-                    {% cldnryimg card.data.avatar card.data.title 100 100 %}
+                    {%- cldnryfetch card.data.avatar card.data.title avatarWidths true false -%}
                   </span>
                 {%- endif -%}
                 <div class="box__profile">

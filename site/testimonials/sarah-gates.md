@@ -19,8 +19,8 @@ sections:
     avatar:
       src: sg_ensdvf
       alt: Sarah Gates avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Sarah Gates
     text: Director of Product Marketing at Domino Data Lab
 sections2:

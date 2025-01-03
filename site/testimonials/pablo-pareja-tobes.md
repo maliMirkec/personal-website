@@ -17,8 +17,8 @@ sections:
     avatar:
       src: ppt_bvwjey
       alt: Pablo Pareja Tobes avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Pablo Pareja Tobes
     text: Project Manager at Vizzuality
 sections2:

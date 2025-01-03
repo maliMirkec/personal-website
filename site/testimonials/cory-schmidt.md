@@ -18,8 +18,8 @@ sections:
     avatar:
       src: cs_tru73j
       alt: Cory Schmidt avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Cory Schmidt
     text: Chief Revenue Officer at Wunder Mobility
 sections2:

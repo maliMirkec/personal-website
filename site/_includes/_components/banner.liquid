@@ -2,14 +2,10 @@
   {%- liquid
     assign banner_class = 'banner'
 
-    if cta[component.banner].modifiers
-      for modifier in cta[component.banner].modifiers
-        assign banner_class = banner_class | append: ' banner--' | append: modifier
-      endfor
-    endif
-
     if section.sticky
-      assign banner_class = banner_class | append: ' sticky'
+      assign banner_class = banner_class | append: ' banner--beta banner--small sticky'
+    else
+      assign banner_class = banner_class | append: ' banner--alpha banner--medium'
     endif
 
     if section.last
@@ -20,13 +16,15 @@
   <section class="{{ banner_class }}">
     {%- if cta[component.banner].logo -%}
       {%- assign logo = cta[component.banner].logo -%}
+      {% assign bannerWidth2x = logo.width | times: 2 %}
+      {% assign bannerWidths = logo.width | append: ',' | append: bannerWidth2x | split: ',' %}
       {%- if cta[component.banner].cta -%}
         <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
-          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryfetch logo.src logo.alt bannerWidths true false logo.svg -%}
         </a>
       {%- else -%}
         <div class="banner__logo">
-          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryfetch logo.src logo.alt bannerWidths true false logo.svg -%}
         </div>
       {%- endif -%}
     {%- endif -%}

@@ -19,8 +19,8 @@ sections:
     avatar:
       src: sa_mmdbrl
       alt: Stephanie (Annie) Andrews avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Stephanie (Annie) Andrews
     text: Senior Lifecycle Marketing Manager at Domino Data Lab
 sections2:

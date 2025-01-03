@@ -31,7 +31,8 @@
           <li class="box__item">
             <a class="box__anchor box__panel" href="{{ card.url }}">
               {%- if card.data.thumbnail -%}
-                {% cldnryimg card.data.thumbnail.src card.data.thumbnail.alt 400 242 %}
+                {% assign projectWidths = '320, 640' | split: ',' %}
+                {%- cldnryfetch card.data.thumbnail.src card.data.thumbnail.alt projectWidths false false -%}
               {%- endif -%}
               {%- if card.data.projectTitle -%}
                 <h3 class="box__subtitle">

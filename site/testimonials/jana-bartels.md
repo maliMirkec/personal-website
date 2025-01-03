@@ -17,8 +17,8 @@ sections:
     avatar:
       src: jb_w08g20
       alt: Jana Bartels avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Jana Bartels
     text: Chief Operating Officer at Wunder Mobility
 sections2:

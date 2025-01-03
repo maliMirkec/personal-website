@@ -18,8 +18,8 @@ sections:
     avatar:
       src: el2_ptyk3k
       alt: Edo Liberty avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Edo Liberty
     teyt: Founder, CEO, Scientist at Pinecone
 sections2:

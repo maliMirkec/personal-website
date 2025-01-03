@@ -19,8 +19,8 @@ sections:
     avatar:
       src: as_roazni
       alt: Aditya Shah avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Aditya Shah
     text: MarketingOps Leader at Domino Data Lab
 sections2:

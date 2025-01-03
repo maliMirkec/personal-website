@@ -462,6 +462,10 @@ p:empty {
   transform: skewY(var(--angle));
 }
 
+.avatar img {
+  max-width: 70px;
+}
+
 .with-slash:before {
   content: "/";
   display: inline-block;

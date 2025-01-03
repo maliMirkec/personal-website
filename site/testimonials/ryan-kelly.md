@@ -19,8 +19,8 @@ sections:
     avatar:
       src: rk_vbck3b
       alt: Ryan Kelly avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Ryan Kelly
     text: Vice President Growth Marketing at Domino Data Lab
 sections2:

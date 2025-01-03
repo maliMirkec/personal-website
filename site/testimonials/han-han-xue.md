@@ -17,8 +17,8 @@ sections:
     avatar:
       src: hhx_iu8agl
       alt: Han Han Xue avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Han Han Xue
     text: Product Designer at Lyft
 sections2:

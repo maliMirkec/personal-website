@@ -3,8 +3,9 @@
     "href": "/",
     "src": "Logo_SB_043A73_DDEDFE_s3ppvr.svg",
     "alt": "Home",
-    "height": 100,
-    "width": 100
+    "height": 90,
+    "width": 90,
+    "svg": true
   },
   "github": {
     "name": "GitHub",

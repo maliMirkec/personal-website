@@ -12,7 +12,9 @@
       </div>
       {% if footer2024.logo %}
         <a class="footer__logo" href="{{ footer2024.logo.href }}">
-          {% cldnryimg footer2024.logo.src footer2024.logo.alt footer2024.logo.width footer2024.logo.height true %}
+          {% assign footerWidth2x = footer2024.logo.width.width | times: 2 %}
+          {% assign footerWidths = footer2024.logo.width.width | append: ',' | append: footerWidth2x | split: ',' %}
+          {%- cldnryfetch footer2024.logo.src footer2024.logo.alt footerWidths false false footer2024.logo.svg -%}
         </a>
       {% endif %}
     </div>

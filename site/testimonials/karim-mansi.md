@@ -17,8 +17,8 @@ sections:
     avatar:
       src: km_ivecgh
       alt: Karim Mansi avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Karim Mansi
     text: eCommerce Product Manager at Westwing Home & Living
 sections2:

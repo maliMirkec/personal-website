@@ -21,8 +21,8 @@ sections:
     avatar:
       src: el_keb12t
       alt: Evan Lavidor avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Evan Lavidor
     text: Partner & Executive Director at BEAM Interactive
 sections2:

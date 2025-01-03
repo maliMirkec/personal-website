@@ -17,8 +17,8 @@ sections:
     avatar:
       src: dt_kr9cmb
       alt: Devran Taskesen avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Devran Taskesen
     text: Brand/Visual Designer at Wunder Mobility
 sections2:

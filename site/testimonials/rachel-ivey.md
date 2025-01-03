@@ -17,8 +17,8 @@ sections:
     avatar:
       src: ri_bekodu
       alt: Rachel Ivey avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Rachel Ivey
     text: Product Manager at Westwing Home & Living
 sections2:

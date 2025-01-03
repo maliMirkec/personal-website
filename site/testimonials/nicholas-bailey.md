@@ -17,8 +17,8 @@ sections:
     avatar:
       src: nb2_k5hsxu
       alt: Nicholas Bailey avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Nicholas Bailey
     text: Digital Media Manager at Spartan Precision Equipment
 sections2:

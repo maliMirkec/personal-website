@@ -17,8 +17,8 @@ sections:
     avatar:
       src: dw_wbnba8
       alt: Denise Weidlich avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Denise Weidlich
     text: Product Manager eCommerce at Westwing Home & Living
 sections2:

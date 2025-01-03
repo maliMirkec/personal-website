@@ -2,13 +2,15 @@
   <section class="banner banner--beta sticky">
     {%- if cta[component.banner].logo -%}
       {%- assign logo = cta[component.banner].logo -%}
+      {% assign techWidth2x = logo.width | times: 2 %}
+      {% assign techWidths = logo.width | append: ',' | append: techWidth2x | split: ',' %}
       {%- if cta[component.banner].cta -%}
         <a class="banner__logo" href="{{ cta[component.banner].cta.href }}">
-          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryfetch logo.src logo.alt techWidths true false logo.svg -%}
         </a>
       {%- else -%}
         <div class="banner__logo">
-          {%- cldnryimg logo.src logo.alt logo.width logo.height -%}
+          {%- cldnryfetch logo.src logo.alt bannerWidths true false true -%}
         </div>
       {%- endif -%}
     {%- endif -%}

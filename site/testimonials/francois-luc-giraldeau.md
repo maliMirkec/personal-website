@@ -17,8 +17,8 @@ sections:
     avatar:
       src: flg_ynumsc
       alt: François-Luc Giraldeau avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: François-Luc Giraldeau
     text: Founder at Approximately Blue
 sections2:

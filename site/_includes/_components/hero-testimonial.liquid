@@ -1,7 +1,9 @@
 <section class="hero hero--testimonial">
   {%- if component.avatar -%}
     <span class="hero__avatar">
-      {% cldnryimg component.avatar.src component.avatar.alt component.avatar.width component.avatar.height %}
+      {% assign avatarWidth2x = component.avatar.width | times: 2 %}
+      {% assign avatarWidths = component.avatar.width | append: ',' | append: avatarWidth2x | split: ',' %}
+      {%- cldnryfetch component.avatar.src component.avatar.alt avatarWidths false false -%}
     </span>
   {%- endif -%}
   <div class="hero__content">
@@ -17,11 +19,6 @@
     {%- if component.cta -%}
       <div class="hero__action">
         {%- include '_includes/_components/cta', cta: component.cta -%}
-      </div>
-    {%- endif -%}
-    {%- if component.img -%}
-      <div class="hero__image">
-        {%- cldnryimg component.img.src component.img.alt component.img.width component.img.height true -%}
       </div>
     {%- endif -%}
   </div>

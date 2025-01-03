@@ -17,8 +17,8 @@ sections:
     avatar:
       src: jg_lqw7xd
       alt: John Ganotis avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: John Ganotis
     text: Founder at Credit Card Insider
 sections2:

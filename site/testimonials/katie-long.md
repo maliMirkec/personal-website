@@ -17,8 +17,8 @@ sections:
     avatar:
       src: kl_bpiofq
       alt: Katie Long avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Katie Long
     text: Product Marketing Manager at Wunder Mobility
 sections2:

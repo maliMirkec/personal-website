@@ -17,8 +17,8 @@ sections:
     avatar:
       src: am_zanda5
       alt: Adam Maschek avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Adam Maschek
     text: CTO at Westwing Home & Living
 sections2:

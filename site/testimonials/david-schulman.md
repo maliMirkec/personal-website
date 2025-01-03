@@ -19,8 +19,8 @@ sections:
     avatar:
       src: ds_ste3yw
       alt: David Schulman avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: David Schulman
     text: Senior Manager of Partner Marketing at Domino Data Lab
 sections2:

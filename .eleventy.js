@@ -11,7 +11,7 @@ const package = require('./package.json')
 const social = require('./eleventy/social')
 const tagify = require('./eleventy/tagify')
 const { codepen, caniuse, twrapper, embed, video, note } = require('./eleventy/embeds')
-const { cldnryimg, cldnrylink } = require('./eleventy/cldnry')
+const { cldnryimg, cldnrylink, cldnryfetch } = require('./eleventy/cldnry')
 const { collections, tags } = require('./eleventy/collections')
 
 module.exports = (eleventyConfig) => {
@@ -76,6 +76,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidShortcode('cldnrylink', async (link, src, alt, width, height, classes, instant) => cldnrylink(link, src, alt, width, height, classes, instant))
 
+  eleventyConfig.addLiquidShortcode('cldnryfetch', async (src, alt, widths, lazy = true, classes = '', svg = false) => cldnryfetch(src, alt, widths, lazy, classes, svg))
+
   eleventyConfig.addPairedLiquidShortcode('note', async (str, title) => note(str, title))
 
   eleventyConfig.addPairedLiquidShortcode('twrapper', async (table) => twrapper(table))
@@ -108,7 +110,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addCollection('all-tags', async (collection) => tags(collection))
 
-  // eleventyConfig.addWatchTarget('./assets/src/**/*')
+  eleventyConfig.addWatchTarget('./assets/**/*')
   // eleventyConfig.addWatchTarget('./assets/dist/**/*')
 
   // eleventyConfig.setServerOptions({

@@ -17,8 +17,8 @@ sections:
     avatar:
       src: wo_s4ocq4
       alt: Will O'Brien avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Will O'Brien
     text: DevOps Consultant at CodeScan
 sections2:

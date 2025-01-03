@@ -17,8 +17,8 @@ sections:
     avatar:
       src: tk_h1maa2
       alt: Theresa Kneißle avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Theresa Kneißle
     text: Team Lead Talent Acquisition at Westwing Home & Living
 sections2:

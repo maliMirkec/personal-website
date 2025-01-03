@@ -6,11 +6,12 @@
         <li>
           <button aria-expanded="false">
             {% if component.instant and forloop.index < component.instant %}
-              {% assign instantLoad = true %}
+              {% assign lazyLoad = false %}
             {% else %}
-              {% assign instantLoad = false %}
+              {% assign lazyLoad = true %}
             {% endif %}
-            {% cldnryimg item.src item.title 400 400 '300:100vw;400:33vw' instantLoad %}
+            {% assign galleryWidths = '330, 660' | split: ',' %}
+            {%- cldnryfetch item.src item.title galleryWidths lazyLoad false -%}
             <p>{{ item.title }}</p>
           </button>
         </li>

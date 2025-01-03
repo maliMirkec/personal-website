@@ -19,8 +19,8 @@ sections:
     avatar:
       src: cw_cdvokw
       alt: Christine White avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Christine White
     text: Director of Web Strategy at Domino Data Lab
 sections2:

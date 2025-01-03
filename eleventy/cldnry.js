@@ -1,3 +1,47 @@
+const Image = require("@11ty/eleventy-img");
+const link = `https://res.cloudinary.com/starbist/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/`
+
+const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
+  const formats = svg ? ["svg"] : ["webp"]
+  const linkUrl = svg ? link.replace('f_auto,', '') : link
+
+  let metadata = await Image(`${linkUrl}${src}`, {
+    widths: widths || [400, 700, 1000, 1300, 1600],
+    formats: formats,
+    svgShortCircuit: true,
+    urlPath: '/gfx/cldnry/',
+    outputDir: './assets/gfx/cldnry/'
+  })
+
+  let imageAttributes = {
+    alt,
+    class: classes,
+    sizes: '100vw',
+    loading: lazy ? "lazy" : "eager",
+    decoding: lazy ? "async": "sync",
+  }
+
+  return Image.generateHTML(metadata, imageAttributes)
+
+  console.log('alt, width, height, classes, instant', alt, width, height, classes, instant);
+  // (src, alt, widths = [300, 600], sizes = "100vh") {
+	// 	let metadata = await Image(src, {
+	// 		widths,
+	// 		formats: ["avif", "jpeg"],
+	// 	});
+
+	// 	let imageAttributes = {
+	// 		alt,
+	// 		sizes,
+	// 		loading: "lazy",
+	// 		decoding: "async",
+	// 	};
+
+	// 	// You bet we throw an error on a missing alt (alt="" works okay)
+	// 	return Image.generateHTML(metadata, imageAttributes);
+	// }
+}
+
 const cldnryimg = async (img, alt, width, height, classes, instant) => {
   let attr = ''
 
@@ -30,5 +74,6 @@ const cldnrylink = async (link, src, alt, width, height, classes, instant) => {
 
 module.exports = {
   cldnryimg: cldnryimg,
-  cldnrylink: cldnrylink
+  cldnrylink: cldnrylink,
+  cldnryfetch: cldnryfetch
 }

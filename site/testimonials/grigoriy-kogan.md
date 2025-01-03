@@ -17,8 +17,8 @@ sections:
     avatar:
       src: gk_i7hj6p
       alt: Grigoriy Kogan avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Grigoriy Kogan
     text: VP of Marketing at Pinecone
 sections2:

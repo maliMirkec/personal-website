@@ -17,8 +17,8 @@ sections:
     avatar:
       src: rc_iahbe8
       alt: Rosa Cruz avatar.
-      width: 140
-      height: 140
+      width: 100
+      height: 100
     title: Rosa Cruz
     text: Marketing manager at Wunder Mobility
 sections2:

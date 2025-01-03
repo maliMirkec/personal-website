@@ -466,6 +466,10 @@ blockquote p:not(:first-of-type) {
   border-radius: var(--size-20-40);
 }
 
+.hero__avatar {
+  max-inline-size: var(--size-60-120);
+}
+
 .hero__title {
   font-size: var(--size-30-60);
   max-inline-size: var(--hero-title-width, 30ch);
@@ -529,6 +533,7 @@ blockquote p:not(:first-of-type) {
   font-size: var(--size-30-60);
   position: relative;
   z-index: 1;
+  margin-block-start: var(--size-05-10);
 }
 
 .box__title:before {
@@ -676,6 +681,11 @@ blockquote p:not(:first-of-type) {
 
 .banner__logo {
   margin-block-end: var(--size-05-10);
+}
+
+.banner__logo img {
+  max-block-size: 24px;
+  inline-size: auto;
 }
 
 .banner__title {
@@ -1204,10 +1214,6 @@ blockquote p:not(:first-of-type) {
 
   .header__link--beta {
     padding-inline: var(--size-02-04);
-  }
-
-  .hero__avatar {
-    max-inline-size: var(--size-60-100);
   }
 
   .article-footer {
