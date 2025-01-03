@@ -8,7 +8,6 @@ node_bundler = "esbuild"
   package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-
     # The base dir of the project
     buildDir = "public"
 
@@ -53,10 +52,12 @@ node_bundler = "esbuild"
     trailingSlash = true
 
 [[plugins]]
+  package = "netlify-plugin-cache"
+
+[[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
   [plugins.inputs]
-
     # The base url of your site (optional, default = main URL set in Netlify)
     baseUrl = "https://www.silvestar.codes"
 

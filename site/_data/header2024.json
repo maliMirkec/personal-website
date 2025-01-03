@@ -4,7 +4,8 @@
     "src": "sb-simple-4_ammtbg.svg",
     "alt": "Home",
     "height": 98,
-    "width": 98
+    "width": 98,
+    "svg": true
   },
   "name": "Silvestar<br>Bistrović",
   "menu": [{
