@@ -26,7 +26,7 @@ ${dirty} ${activeEditorMedium}${separator}${rootName}
 
 I have 364 modified settings in my VS Code. To see these modified settings, go to Settings, and select “Show modified settings” from the drop-down menu or type `@modified` in the input field. Some of these settings aren't modified in a way that they have a non-default value—they are just present in the `settings.json` file.
 
-{% cldnryimg "vs-modified-setttings_wju4zh" "Screenshot of modified VS Code Settings window." 759 168 %}
+{% cldnryfetch "vs-modified-setttings_wju4zh" "Screenshot of modified VS Code Settings window." false true "center" %}
 
 {% note "Tip" %}
 You could see this file by clicking the “Open Settings” icon.
@@ -44,13 +44,13 @@ I am not going to write about all these settings. I am going to describe my favo
 
 I like to have breadcrumbs turned on. However, I don't prefer cluttered breadcrumbs with unnecessary information. That's why I turned off all fancy settings, like showing icons or file contents (classes, constants, etc.) in my breadcrumbs. Here's how it looks:
 
-{% cldnryimg "vs-breadcrumbs_hempo7" "Screenshot of breadcrumbs in VS Code editor." 759 112 %}
+{% cldnryfetch "vs-breadcrumbs_hempo7" "Screenshot of breadcrumbs in VS Code editor." false true "center" %}
 
 ### Bars
 
 From the very start, I was quite fond of the VS Code interface. Activity bar, status bar and sidebar are handy features that hold a lot of information. I like to display the activity bar and sidebar on the right side. That way toggling the sidebar won't affect my primary window location which otherwise may cause distraction.
 
-{% cldnryimg "vs-bars_onlhxt" "Screenshot of Bar Settings in VS Code editor." 759 403 %}
+{% cldnryfetch "vs-bars_onlhxt" "Screenshot of Bar Settings in VS Code editor." false true "center" %}
 
 I particularly like my status bar. In it, I could see the following information:
 
@@ -66,7 +66,7 @@ I particularly like my status bar. In it, I could see the following information:
 - the depth of the indent of the current line, and
 - what is the current time.
 
-{% cldnryimg "vs-statusbar_prx3m1" "Screenshot of VS Code status bar." 759 40 %}
+{% cldnryfetch "vs-statusbar_prx3m1" "Screenshot of VS Code status bar." false true "center" %}
 
 Note that not all information is visible in the screenshot.
 
@@ -76,7 +76,7 @@ I prefer not to allow VS Code to format my code automatically. The main reason i
 
 I turned off the following settings: “Editor: Format on Save” and “Files: Auto Save”.
 
-{% cldnryimg "vs-save_jynrn6" "Screenshot of Saving Settings in VS Code editor." 759 304 %}
+{% cldnryfetch "vs-save_jynrn6" "Screenshot of Saving Settings in VS Code editor." false true "center" %}
 
 I also turned off all settings related to formatting:
 
@@ -143,7 +143,7 @@ Besides already mentioned Window Title settings, I like to open files in the cur
 
 I am using minimap since I first saw this feature in Sublime Text. I find it quite useful, especially with longer files. It makes it easier to find and navigate certain parts of code for me.
 
-{% cldnryimg "vs-minimap_yxslkw" "Screenshot of Minimap Settings in VS Code editor." 759 572 %}
+{% cldnryfetch "vs-minimap_yxslkw" "Screenshot of Minimap Settings in VS Code editor." false true "center" %}
 
 ## Conclusion
 

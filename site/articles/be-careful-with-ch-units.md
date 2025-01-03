@@ -28,7 +28,7 @@ Next, I tried to manually find which CSS affects the CLS issue, but I could not 
 
 Because this kind of stuff makes me crazy, and I couldn’t just let it go, I was determined to find the real cause of my issue. My first guess was that some browser extension might be the cause, as I use quite a few. So I manually turned every extension off one by one and finally discovered that the Grammarly browser extension was the cause. When turned off, there were no CLS issues. This didn’t make sense, so I had to look under the hood to understand the issue.
 
-{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1684846670/cls-issue4_kznqfh" 759 671 'autoplay' 'loop' 'mute' true %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1684846670/cls-issue4_kznqfh" 759 671 "autoplay" "loop" "mute" true "center" %}
 
 I opened the network tab in Chrome DevTools and discovered that Inter font was downloaded. My copy switched to Inter font, but why was there a flick. Nothing made sense until I remembered that my wrapper’s `max-width` was `60ch`.
 
@@ -40,7 +40,7 @@ I opened the network tab in Chrome DevTools and discovered that Inter font was d
 
 So the browser used the first available font defined in the font stack. That was Roboto because I didn’t have Inter font installed on my machine (Firefox DevTools tells you which fonts are used on specific elements).
 
-{% cldnryimg "firefox-devtools_owp9s3" "Screenshot of Firefox DevTools showing Roboto font inspector." 759 242 %}
+{% cldnryfetch "firefox-devtools_owp9s3" "Screenshot of Firefox DevTools showing Roboto font inspector." false true "center" %}
 
 Roboto’s character width, `ch`, differs from Inter’s. Since Grammarly downloaded the font after Roboto was applied, that caused the font change, the wrapper width change, and the CLS flick.
 

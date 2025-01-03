@@ -43,7 +43,7 @@ Since my site runs on Netlify, I often use [Netlify CLI](https://www.npmjs.com/p
 
 [npkill](https://www.npmjs.com/package/npkill) is another package that I use from time to time. Since I work on many projects, either personal and client-based, I tend to have many `node_modules` folders on my computer and we all know how heavy they can be.
 
-{% cldnryimg "node-modules-weight_xhobi1" "Heaviest objects in universe meme - node_modules." 601 399 'center' %}
+{% cldnryfetch "node-modules-weight_xhobi1" "Heaviest objects in universe meme - node_modules." false true "picolo" %}
 
 With `npkill` command you could find all `node_modules` folders and delete them easily.
 

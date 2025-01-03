@@ -46,11 +46,11 @@ What I never did was use it in Node.js to render files. In this project, that is
 
 The demo website uses Contentful, Eleventy, and Liquid — my favorite combination for building a static site. The Contentful content model is based on pages and components. Here's how it looks [in Visual Modeler](https://www.contentful.com/help/visual-modeler/).
 
-{% cldnryimg "contentful-content-model_aesncs" "Screenshot of content model in Contenful." 759 814 'center' %}
+{% cldnryfetch "contentful-content-model_aesncs" "Screenshot of content model in Contenful." false true "center" %}
 
 The pages consist of components that could include other components. For example, the homepage has a hero component with a call-to-action button (CTA), which is also a component.
 
-{% cldnryimg "11ty_Liquid_Live_Preview_hucife" "Screenshot of a demo site with page components highlighted." 759 501 'center' %}
+{% cldnryfetch "11ty_Liquid_Live_Preview_hucife" "Screenshot of a demo site with page components highlighted." false true "center" %}
 
 To fetch the data from Contentful, I'm using [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/) to fetch every entity separately. That means I'm fetching pages, hero components, and call-to-action (CTA) components separately, which allows me to handle components individually and reuse the data throughout the site.
 

@@ -2,15 +2,9 @@
 layout: default
 title: My setup
 description: Most developers often spend time on their setup, and I am no exception. These devices, tools, and software help me achieve that.
-type: default
-sections:
-  - type: hero
-    title: Tools, apps, and devices I use
-    text: These are devices, applications, and tools, which I use daily, that make my job easier.
-sections2:
-  - type: banner
-    banner: consultation
-    sticky: true
+type: articles-item
+tags:
+  - setup
 ---
 
 Most developers spend time on setting up their workspace, and I am no exception. I like organizing my computers and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
@@ -19,7 +13,7 @@ I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome
 
 _I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) and [Wes Bos’s setup](https://wesbos.com/uses/) pages. My setup is also featured on [the /uses site](http://uses.tech/)._
 
-{% cldnryimg "Office%202023" "My office 2023." 759 569 "" true %}
+{% cldnryfetch "Office%202023" "My office 2023." false %}
 
 ## Hardware
 

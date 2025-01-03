@@ -17,11 +17,11 @@ Every sponsor will be featured in the newsletter with a title, description, and 
 
 Here is how a sponsored newsletter issue looks as an email.
 
-{% cldnryimg "UI-Dev-Newsletter-screenshot_hyqoen" "Screenshot of UI Dev Newsletter with sponsor link example highlighted." 600 546 %}
+{% cldnryfetch "UI-Dev-Newsletter-screenshot_hyqoen" "Screenshot of UI Dev Newsletter with sponsor link example highlighted." %}
 
 Here is how a sponsored newsletter issue looks as a website page.
 
-{% cldnryimg "UI-Dev-Newsletter-screenshot-website_l3pwxb" "Screenshot of UI Dev Newsletter website with sponsor link example highlighted." 600 679 %}
+{% cldnryfetch "UI-Dev-Newsletter-screenshot-website_l3pwxb" "Screenshot of UI Dev Newsletter website with sponsor link example highlighted." %}
 
 I am open to suggestions if you have specific requirements, like displaying graphic assets or anything else.
 

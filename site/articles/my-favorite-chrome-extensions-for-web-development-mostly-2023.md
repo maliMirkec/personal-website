@@ -21,7 +21,7 @@ Before discovering the [Grammarly to Markdown](https://chrome.google.com/webstor
 
 When using frameworks that don’t support SEO out of the box, I often use [SEO META in 1 CLICK](https://chrome.google.com/webstore/detail/seo-meta-in-1-click/bjogjfinolnhfhkbipphpdlldadpnmhc) extension. It shows me all important meta information and highlights options that are ok, but also what is missing or could be better. The most valuable feature is the “Headers” tab, where I can see the heading structure of my page. Here’s an example from my home page:
 
-{% cldnryimg "SEO_META_in_1_CLICK_b2zge7" "Screenshot of SEO META in 1 CLICK extension showing heading structure for UI Dev Newsletter page." 759 451 %}
+{% cldnryfetch "SEO_META_in_1_CLICK_b2zge7" "Screenshot of SEO META in 1 CLICK extension showing heading structure for UI Dev Newsletter page." %}
 
 ## SEO Minion
 
@@ -36,25 +36,25 @@ Check Broken Links inspects all links on the page and categories them so you can
 
 I find these options essential for improving the site’s SEO health.
 
-{% cldnryimg "SEO_Minion_grebhh" "Screenshot of a UI Dev Newsletter page with SEO Minion extension highlighting page links." 759 483 %}
+{% cldnryfetch "SEO_Minion_grebhh" "Screenshot of a UI Dev Newsletter page with SEO Minion extension highlighting page links." %}
 
 ## Social Share Preview
 
 Last month I developed [a serverless function that generates OG images](/articles/how-to-create-dynamic-og-images-with-serverless-function-and-sharp/) on my site, and I have used Social Share Preview extension to make it easier to preview my OG image. This extension shows the page preview for Facebook, Twitter, and LinkedIn.
 
-{% cldnryimg "Social_Share_Preview_dzpysg" "Screenshot of a UI Dev Newsletter page with Social Share Preview extension highlighting preview on Facebook." 759 461 %}
+{% cldnryfetch "Social_Share_Preview_dzpysg" "Screenshot of a UI Dev Newsletter page with Social Share Preview extension highlighting preview on Facebook." %}
 
 ## Twitter Links
 
 Twitter Links isn’t available on Chrome Store, but you can [download it from GitHub](https://github.com/round/Twitter-Links-beta). I sometimes use it to check if someone shares my pages on Twitter.
 
-{% cldnryimg "Twitter_Links_xfjubj" "Screenshot of a Twitter Links extension showing a popup window with search results for UI Dev Newsletter link." 759 436 %}
+{% cldnryfetch "Twitter_Links_xfjubj" "Screenshot of a Twitter Links extension showing a popup window with search results for UI Dev Newsletter link." %}
 
 ## WakaTime
 
 I am a big fan of [Wakatime](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi), and I’ve been using it since 2016 (I discovered that while writing my article [I do HTML and CSS for a living](/articles/i-do-html-and-css-for-a-living/) earlier this year). This software measures how you spend time on your computer. I have it installed in my VS Code and browser. That way, I could understand how much time I spent working, coding, browsing, etc.
 
-{% cldnryimg "Wakatime" "Screenshot of my Twitter profile showing a post about using Wakatime." 759 462 %}
+{% cldnryfetch "Wakatime" "Screenshot of my Twitter profile showing a post about using Wakatime." %}
 
 ## Conclusion
 

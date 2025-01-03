@@ -11,7 +11,7 @@ type: articles-item
 
 As of today, my site is available as a Progressive Web App. Yaay! 💯
 
-{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 'autoplay' 'loop' 'mute' true 'center' %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 "autoplay" "loop" "mute" true "center" %}
 
 In this post, you would learn more about how and why I added this exciting feature to my site.
 
@@ -23,7 +23,7 @@ I like to think of myself as a very pedantic person, and I was trying to make my
 
 Now my site gets top scores, but one thing was bothering me for some time. It was the Progressive Web App score.
 
-{% cldnryimg "pwa-before_cokho9" "Lighthouse score for Progressive Web App before optimisation." 600 722 'center' %}
+{% cldnryfetch "pwa-before_cokho9" "Lighthouse score for Progressive Web App before optimisation." false true "center" %}
 
 By looking at the PWA report, I realised my site is ready for PWA. There were only a few issues to resolve. I didn’t understand these issues, but that never stopped me before.
 
@@ -135,11 +135,11 @@ self.addEventListener('fetch', (event) => {
 
 After the deployment, I run the audit for the site and now I have it looks like this:
 
-{% cldnryimg "pwa-after_au0ip8" "Lighthouse score for Progressive Web App after optimisation." 600 707 'center' %}
+{% cldnryfetch "pwa-after_au0ip8" "Lighthouse score for Progressive Web App after optimisation." false true "center" %}
 
 I think fireworks deserve another appearance. 💯
 
-{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 'autoplay' 'loop' 'mute' true 'center' %}
+{% video "https://res.cloudinary.com/starbist/image/upload/w_759,q_100/v1574166140/pwa-after2_cbz06b" 759 215 "autoplay" "loop" "mute" true "center" %}
 
 ## Next steps
 

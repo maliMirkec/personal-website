@@ -21,7 +21,7 @@ Instead of going through a hiring process for a web developer, all you need to d
 
 Subscriptions are based on 1, 3, and 6 months - a more extended subscription means a lower cost. With a 1-month subscription, you get the option to pause your subscription. The billing cycle lasts 31 days, and if you pause your subscription on day 14, you can use the remaining days in the later billing cycle.
 
-{% cldnryimg "plans_x9uxcg" "Screenshot of plans section on A Dedicated Dev website." 759 427 %}
+{% cldnryfetch "plans_x9uxcg" "Screenshot of plans section on A Dedicated Dev website." %}
 
 Once subscribed, you can access your Trello board, where you place your requests. No limit exists to how many people you invite to the Trello board or how many requests you submit. Every new request is converted into smaller tasks that are resolved one at a time. It takes a day or two to resolve a task. Remember that A Dedicated Dev is not about speed but about code quality.
 

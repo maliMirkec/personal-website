@@ -902,6 +902,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-content :is(img, p video) {
+  display: block;
   block-size: auto;
   inline-size: 100%;
   max-block-size: unset;

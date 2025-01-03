@@ -32,7 +32,7 @@ First, open Atom settings. I'm a Windows user and default shortcut for Windows i
 
 To install **sync-settings**, find package in a list (should be first on the list) and then click _Install_ button.
 
-{% cldnryimg "sync-settings-1_fdwmpf" "Sync-settings installation." 759 395 %}
+{% cldnryfetch "sync-settings-1_fdwmpf" "Sync-settings installation." false true "center" %}
 
 ### sync-settings configuration
 
@@ -42,7 +42,7 @@ To configure **sync-settings**, you should have [Github account](https://github.
 
 After you've installed **sync-settings** package, click on _Settings_. In order to make your first backup, you should fill _Personal Access Token_ and _Gist Id_. If you're not familiar with this terms, please refer to [**sync-settings** Setup section](https://atom.io/packages/sync-settings).
 
-{% cldnryimg "sync-settings-2_ojflpu" "Sync-settings configuration." 759 390 %}
+{% cldnryfetch "sync-settings-2_ojflpu" "Sync-settings configuration." false true "center" %}
 
 ### sync-settings usage
 
@@ -50,7 +50,7 @@ Now, you should make your first backup.
 
 Open [command palette](https://atom.io/packages/command-palette) by pressing `ctrl-shift-p`, enter "sync-settings", select _Sync Settings: Backup_ and press _Enter_.
 
-{% cldnryimg "sync-settings-3_pzezsi" "Sync-settings in action." 759 362 %}
+{% cldnryfetch "sync-settings-3_pzezsi" "Sync-settings in action." false true "center" %}
 
 You've successfully created your first Atom settings backup.
 

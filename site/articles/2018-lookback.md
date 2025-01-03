@@ -37,7 +37,7 @@ What an excellent year for CSS developers last year was. I enjoyed solving probl
 
 In the time when more than 50% of the developers didn't know how to solve the famous [Twitter puzzle], I wanted to write about the importance of the cascade.
 
-{% cldnrylink "https://twitter.com/mxstbr/status/1038416725182697472" "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" 600 910 'center space' %}
+{% cldnryfetch "tweetcyborg_fgqnev" "Twitter screenshot containing the poll" false true "picolo" %}
 
 I never had the time to write about it, but other amazing developers did (possibly better than I would have). To name just a few, I agree with:
 
@@ -86,7 +86,7 @@ To have a broader audience for my blog, I reshare every post from my blog on [de
 
 I have reached almost 2,5k followers on the dev.to platform. I have more than 700 followers on Twitter. I have a modest reputation on Reddit, Hacker News, and Lobsters.
 
-{% cldnryimg "devto-stats_zj90eq" "dev.to stats." 759 173 %}
+{% cldnryfetch "devto-stats_zj90eq" "dev.to stats." false true "picolo" %}
 
 Around 35,000 readers visited my blog with almost 50,000 pageviews. On dev.to, I have more than 17,000 post views, and nearly 700 reactions. On medium.com, I had around 10k post views, and on codementor.io, I had around 4,5k.
 

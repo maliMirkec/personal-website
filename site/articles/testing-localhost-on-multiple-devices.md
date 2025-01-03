@@ -23,7 +23,7 @@ ifconfig | grep inet
 
 You should see something like this:
 
-{% cldnryimg "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 387 %}
+{% cldnryfetch "Screen_Shot_2023-03-16_at_11.33.00_AM_oa478x" "macOS Screenshot of an output of a ifconfig command showing external IP address of a localhost." %}
 
 On Windows, run the following command:
 
@@ -33,7 +33,7 @@ ipconfig
 
 You should see something like this:
 
-{% cldnryimg "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." 759 494 %}
+{% cldnryfetch "Screen_Shot_2023-03-16_at_11.37.55_AM_qeptwn" "Windows 10 Screenshot of an output of a ifconfig command showing external IP address of a localhost." %}
 
 Now that you have the address, you can test it on any other device but don’t forget to add the port that your website or web app is running.
 
@@ -57,7 +57,7 @@ Make sure to check the [ngrok pricing](https://ngrok.com/pricing). A free plan i
 
 [cloudflared](https://www.npmjs.com/package/cloudflared) is the most recent addition to [my favorite npm packages](/articles/my-favorite-npm-packages/). It is a Node.js version of the Cloudflare Tunnel client. Installation and usage are pretty straightforward, as you can see in [Wes Bos’ tweet](https://twitter.com/wesbos/status/1634310926219333642).
 
-{% cldnrylink "https://twitter.com/wesbos/status/1634310926219333642" "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." 759 486 %}
+{% cldnryfetch "wes-bos-tweet_evrsri" "Screnshot of Wes Bos' tweet showing how to use cloudflared." false true "center" %}
 
 {% note %}
 cloudflared is free for everyone at the time of writing.
@@ -67,7 +67,7 @@ cloudflared is free for everyone at the time of writing.
 
 One other app that I occasionally use for WordPress is [Local by Flywheel](https://localwp.com/). This app comes with [Live Links](https://localwp.com/live-links/), which enables you to “test your site with provisioned site tunnels from your Local account.”
 
-{% cldnryimg "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." 759 541 %}
+{% cldnryfetch "Screen_Shot_2023-03-16_at_12.44.36_PM_pasyp1" "Screenshot of Local app showing Live Links feature." %}
 
 {% note "Important" %}
 The Local app works only with WordPress.

@@ -21,7 +21,7 @@ During the last week, I have been working on redesigning my site. Here is the li
 
 ## Refreshed design
 
-{% cldnryimg "light-mode_zpgxn1" "Screenshot of the redesigned site - the light mode" 759 480 %}
+{% cldnryfetch "light-mode_zpgxn1" "Screenshot of the redesigned site - the light mode" %}
 
 Since I am not a designer, I have started with a couple of prototypes on Codepen:
 
@@ -34,13 +34,13 @@ Since I am not a designer, I have started with a couple of prototypes on Codepen
 
 Then I have asked a question about which design is better on Twitter, and most people choose the centred version. I liked that one more, too.
 
-{% cldnrylink "https://twitter.com/malimirkeccita/status/1231233665667149824" "tweetcyborg_dknyll" "Twitter screenshot containing the poll" 600 534 "center" %}
+{% cldnryfetch "tweetcyborg_dknyll" "Twitter screenshot containing the poll" false true "picolo" %}
 
 Finally, I have updated HTML and CSS code. I have removed hard-coded sections from the theme, and I used Hexo built-in features.
 
 ## Added dark mode
 
-{% cldnryimg "dark-mode_lo1vph" "Screenshot of the redesigned site - the dark mode" 759 480 %}
+{% cldnryfetch "dark-mode_lo1vph" "Screenshot of the redesigned site - the dark mode" %}
 
 I wanted to add the dark mode to my site, so I introduced CSS Variables to my Scss codebase. I have four major modes:
 

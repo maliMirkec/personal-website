@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img");
-const link = `https://res.cloudinary.com/starbist/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/`
+const link = `https://res.cloudinary.com/starbist/image/upload/w_2400,f_auto,q_auto,c_scale/`
 
 const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
   const formats = svg ? ["svg"] : ["webp"]
