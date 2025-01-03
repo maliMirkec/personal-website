@@ -3,8 +3,10 @@
     assign banner_class = 'banner'
 
     if section.sticky
+      assign cta_modifiers = 'small,converse' | split: ','
       assign banner_class = banner_class | append: ' banner--beta banner--small sticky'
     else
+      assign cta_modifiers = 'small,inverse' | split: ','
       assign banner_class = banner_class | append: ' banner--alpha banner--medium'
     endif
 
@@ -36,7 +38,7 @@
     {%- endif -%}
     {%- if cta[component.banner].cta -%}
       <div class="banner__action">
-        {%- include '_includes/_components/cta', cta: cta[component.banner].cta -%}
+        {%- include '_includes/_components/cta', cta: cta[component.banner].cta, modifiers: cta_modifiers -%}
       </div>
     {%- endif -%}
   </section>
