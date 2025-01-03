@@ -461,7 +461,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .hero__image img {
-  max-inline-size: var(--max-inline-size);
+  max-inline-size: min(var(--main), 100%);
 }
 
 .hero__image svg {
