@@ -364,6 +364,9 @@ blockquote p:not(:first-of-type) {
 .footer__logo {
   border-radius: 50%;
   overflow: hidden;
+}
+
+.footer__logo {
   max-inline-size: var(--size-60-120);
   margin-inline: auto;
 }
