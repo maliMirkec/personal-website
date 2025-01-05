@@ -37,6 +37,7 @@
   --color-alpha-op33: #63f2c554;
   --color-beta: #ff3366;
   --color-gamma: #043A73;
+  --color-gamma-op50: #04397180;
   --color-gamma-op06: #0439710f;
   --color-dark: #000;
   --color-light: #fff;
@@ -889,9 +890,11 @@ blockquote p:not(:first-of-type) {
 }
 
 .copy hr {
-  background-image: linear-gradient(to right, transparent -50%, var(--color-gamma) 500%), linear-gradient(to left, transparent -50%, var(--color-alpha) 500%);
+  background-image: linear-gradient(to right, transparent, var(--color-gamma-op50), transparent);
   block-size: 1px;
   border: unset;
+  margin-block-start: 3em;
+  margin-block-end: 2em;
 }
 
 .page--branding .copy p:has(img) {
@@ -1070,6 +1073,10 @@ blockquote p:not(:first-of-type) {
 .article-footer__content {
   font-size: var(--size-15-18);
   font-weight: 300;
+}
+
+.article-footer__content p {
+  font-weight: 600;
 }
 
 .article-footer__content ul {
