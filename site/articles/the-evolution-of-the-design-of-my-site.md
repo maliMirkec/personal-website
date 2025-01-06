@@ -175,7 +175,7 @@ In May, I added my logo as a repeating image throughout the site because I think
 
 I also updated testimonial items. This time I added photos of persons, and I shrank the text. If a visitor wants to Read the testimonial, there is a separate dedicated page for doing that.
 
-One other significant change was that tags were actually linked to tag pages. I decided to create these pages to connect the content. For example, the [SPG tag page](/tags/spg/) holds all articles and portfolio items tagged as SPG. SPG stands for Static Page Generators, btw.
+One other significant change was that tags were actually linked to tag pages. I decided to create these pages to connect the content. For example, the [SPG tag page](/tags/ssg/) holds all articles and portfolio items tagged as SPG. SPG stands for Static Page Generators, btw.
 
 ## The next update
 
