@@ -5,14 +5,12 @@
 
 {% if list %}
   <section class="box">
-    <h2 class="box__title">
-      Tagged “{{ tag }}”
-    </h2>
+    <h1 class="box__title">Tagged “{{ tag }}”</h1>
     <ul class="box__list">
       {% for tagItem in list %}
         <li class="box__item">
-          {%- if tagItem.data.title -%}
-            <h3 class="box__subtitle"><a href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h3>
+          {%- if tagItem.data.title and tagItem.url -%}
+            <h2 class="box__subtitle"><a href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h2>
           {%- endif -%}
           <div class="box__tags">
             {%- if cardDate -%}

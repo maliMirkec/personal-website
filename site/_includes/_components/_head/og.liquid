@@ -4,7 +4,9 @@
 {% if title %}
   <meta property="og:title" content="{{ longTitle }}">
 {% endif %}
-{% if page.description %}
+{% if tag and description_placeholder %}
+  <meta property="og:description" content="{{ description_placeholder | replace: 'XXYY', tag }}">
+{% elsif page.description %}
   <meta property="og:description" content="{{ page.description | escape }}">
 {% elsif description %}
   <meta property="og:description" content="{{ description | escape }}">

@@ -16,8 +16,6 @@ date: 2005-10-01
 hideDate: true
 ---
 
-# Ribbons
-
 Learn how to build a ribbon component with CSS and SVG backgrounds that could serve as styled breadcrumbs element for your site.
 
 {% codepen "CiTA" "moNQgY" "dark" "result" 400 false true %}

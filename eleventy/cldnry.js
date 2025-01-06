@@ -15,7 +15,7 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
 
   let imageAttributes = {
     alt,
-    class: classes,
+    class: classes || '',
     sizes: '100vw',
     loading: lazy ? "lazy" : "eager",
     decoding: lazy ? "async": "sync",

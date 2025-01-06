@@ -41,6 +41,9 @@ node_bundler = "esbuild"
       "**/articles/a-guide-to-static-site-generators-using-hexo-and-wordpress/*",
       "**/articles/oh-the-many-ways-to-make-triangular-breadcrumb-ribbons/*",
       "**/articles/a-comparison-of-static-form-providers/*",
+      "**/articles/infinite-scrolling-logos-in-flat-html-and-pure-css/*",
+      "**/articles/drawing-a-line-to-connect-elements-with-css-anchor-positioning/*",
+      "**/articles/building-a-live-preview-with-eleventy-contentful-and-liquid-templating/*",
       "**/hire-me-2018/*",
       "**/hire-me/*",
       "**/mentoring/*"
