@@ -6,9 +6,9 @@ description: I'm building modern, performant, and SEO-optimized websites since 2
 type: home
 sections:
   - type: hero
-    title: Hey, I'm really good at this _without realizing how_
+    title: Hey, I can help you develop your new website!
     title_width: 25
-    text: I've been making world-class websites since 2012.
+    text: I've been making world-class sites since 2012.
     text_width: 38
     text2: If you're looking for a professional website developer, you've come to the right place.
     text2_width: 40
