@@ -18,8 +18,7 @@ sections:
     gfx:
       name: animation
       clamp: 400px
-  - type: banner
-    banner: redesign
+  - type: newsletter
     sticky: true
   - type: article-list
     title: Latest blog posts
@@ -27,31 +26,19 @@ sections:
     sorter: date
     exclude: publications
     limit: 6
-    cta:
-      href: /articles/
-      title: All articles
-      modifiers:
-        - small
-  - type: newsletter
+  - type: banner
+    banner: blog
   - type: project-list
     title: Featured projects
     filter: portfolio
     limit: 6
     exclude: true
-    cta:
-      href: /portfolio/
-      title: All projects
-      modifiers:
-        - small
   - type: banner
-    banner: consultation
+    banner: portfolio
   - type: testimonial-list
     title: Testimonials
     filter: testimonials
     limit: 6
-    cta:
-      href: /testimonials/
-      title: All testimonials
-      modifiers:
-        - small
+  - type: banner
+    banner: testimonials
 ---

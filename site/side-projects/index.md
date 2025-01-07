@@ -10,9 +10,10 @@ sections:
     text_width: 60
     text2: These are my open-source side projects.
     text2_width: 60
+  - type: newsletter
+    sticky: true
   - type: project-list
     filter: projects
   - type: banner
     banner: consultation
-    sticky: true
 ---

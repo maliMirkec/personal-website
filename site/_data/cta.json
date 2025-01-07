@@ -8,6 +8,7 @@
     "code": "<a class=\"button button--small\" href=\"/contact/\">Contact me</a>"
   },
   "testimonials": {
+    "title": "Working with me",
     "desc": "Over 20 professionals from several companies vouched for me.",
     "cta": {
       "href": "/testimonials/",
@@ -29,6 +30,7 @@
     }
   },
   "blog": {
+    "title": "Explore my blog",
     "desc": "I have been writing about frontend, web dev, and freelancing since 2016.",
     "cta": {
       "href": "/articles/",
@@ -287,7 +289,7 @@
     }
   },
   "portfolio": {
-    "title": "Explore my best projects",
+    "title": "Explore my projects",
     "desc": "Built with WordPress, Shopify, Jekyll, 11ty, and Hugo, among others.",
     "cta": {
       "href": "/portfolio/",
