@@ -5,7 +5,7 @@ date: 2025-01-05 17:00:00
 tags:
   - blog
   - freelance
-description:
+description: How I prepared my wife for the unexpected by sharing passwords, subscriptions, devices and financial tools in one document.
 type: articles-item
 ---
 
