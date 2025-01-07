@@ -13,7 +13,7 @@
     "title": "Blog"
   }, {
     "href": "/portfolio/",
-    "title": "Portfolio"
+    "title": "Work"
   }, {
     "href": "/about/",
     "title": "About"
@@ -22,28 +22,28 @@
     "title": "Contact"
   }],
   "menu2": [{
+    "href": "/services/",
+    "title": "Services"
+  }, {
     "href": "/testimonials/",
     "title": "Testimonials"
-  }, {
-    "href": "/publications/",
-    "title": "Publications"
   }, {
     "href": "/side-projects/",
     "title": "Side projects"
   }, {
-    "href": "/favorites/",
-    "title": "Favorites"
+    "href": "/publications/",
+    "title": "Publications"
   }, {
     "href": "/slides/",
     "title": "Slides"
   }, {
-    "href": "/links/",
-    "title": "Links"
+    "href": "/favorites/",
+    "title": "Favorites"
   }, {
     "href": "/uses/",
     "title": "Setup"
   }, {
-    "href": "/services/",
-    "title": "Services"
+    "href": "/links/",
+    "title": "Links"
   }]
 }
