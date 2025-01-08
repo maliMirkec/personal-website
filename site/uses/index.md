@@ -1,172 +1,236 @@
 ---
 layout: default
 title: My setup
-description: Most developers often spend time on their setup, and I am no exception. These devices, tools, and software help me achieve that.
+description: Many developers invest time in setting up their workspace, and I am no exception. These devices, tools, and software help me in maximizing my productivity.
 type: articles-item
+subtype: setup
 date: 2025-01-07
 tags:
   - setup
+  - productivity
 ---
 
-Most developers spend time on setting up their workspace, and I am no exception. I like organizing my computers and tools to make the most of my everyday tasks. These devices, tools, and software help me achieve that.
+Many developers invest a lot of time in setting up their workspace, and I am no exception.
+I like organizing my computers and tools to make the most of my everyday tasks.
+These devices, tools, and software help me in maximizing my productivity.
 
-I also wrote about [my favorite browser extensions](/articles/my-favorite-chrome-extensions-for-web-development-mostly/) and [VS Code settings](/articles/my-favorite-vs-code-settings/).
+{% cldnryfetch "IMG_2075_qe2rlg" "My office 2025." false false "bleed" %}
 
-_I was inspired by [Harry Robertson’s setup](https://csswizardry.com/uses/) and [Wes Bos’s setup](https://wesbos.com/uses/) pages. My setup is also featured on [the /uses site](http://uses.tech/)._
+{% note %}
+My setup is featured on [the /uses site](https://uses.tech/).
+{% endnote %}
 
-{% cldnryfetch "Office%202023" "My office 2023." false %}
+Explore my favorite:
+
+- [devices](#hardware),
+- [software](#macos-software),
+- [NPM packages](#npm-packages),
+- [Terminal packages](#terminal-packages),
+- [VS Code extensions](#vs-code-extensions), and
+- [Browser extensions](#browser-extensions).
+
+Find out which [tools I developed](#development), which are [my favorites](#favorites), and see [more images of my office](#more-images).
 
 ## Hardware
 
-{% twrapper %}
-| Product | Website |
-| ------- | ------- |
-| MacBook Pro 15'' 2017 | [Link](https://support.apple.com/en-us/111947) |
-| MacBook Air 13'' M1, 2020 | [Link](https://support.apple.com/en-us/111883) |
-| Windows machine, Intel i5-2400 | [Link](https://www.intel.com/content/www/us/en/products/sku/52207/intel-core-i52400-processor-6m-cache-up-to-3-40-ghz/specifications.html) |
-| Magic Trackpad 2 | [Link](https://www.apple.com/shop/product/MXK93AM/A/magic-trackpad-usb%E2%80%91c-white-multi-touch-surface) |
-| Magic keyboard | [Link](https://www.apple.com/shop/product/MXCK3LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english) |
-| 2⨉Dell S2716DG 27'' | [Link](https://deals.dell.com/en-us/productdetail/g6b1) |
-| Snowball microphone | [Link](https://www.bluedesigns.com/products/snowball/) |
-| Bose Companion® 2 Series III | [Link](https://www.bose.com/en_us/products/speakers/computer_speakers/companion-2-series-iii-multimedia-speaker-system.html) |
-| JBL T450 On-ear headphones | [Link](https://eu.jbl.com/JBL+T450BT.html) |
-| JBL Go 2 | [Link](https://eu.jbl.com/JBL+GO+2.html) |
-| Pioneer VSX-324 5.1-Channel Home Theatre | [Link](https://intl.pioneer-audiovisual.com/products/home_theater_system/htp-072/index.php) |
-| Logitech C922 Pro Stream Webcam | [Link](https://www.logitech.com/en-us/products/webcams/c922-pro-stream-webcam.960-001087.html) |
-| Desire2 Portable Riser Stand | [Link](https://desire2.co.uk/product/WTT-AS02SI) |
-| Steelcase Reply Office Chair | [Link](https://www.steelcase.com/products/office-chairs/reply/) |
-| Standing Desk Expander | [Link](https://webshop.schachermayer.com/cat/hr-HR/product/podizno-postolje-stola-expander-elektricno-podesavanje-vis-680-1180mm-ral9006/103327003) |
-{% endtwrapper %}
-
-## Web dev software
+Here is the list of all devices I use:
 
 {% twrapper %}
-| Application | Website |
-| ----------- | ------- |
-| Arc | [Link](https://arc.net/) |
-| Brave | [Link](https://brave.com/) |
-| Choosy | [Link](https://www.choosyosx.com/) |
-| Figma | [Link](https://www.figma.com/) |
-| FileZilla | [Link](https://filezilla-project.org/) |
-| iTerm2 | [Link](https://www.iterm2.com/index.html) |
-| - fish | [Link](https://fishshell.com/) |
-| - zsh | [Link](https://ohmyz.sh/) |
-| - git-flow | [Link](https://github.com/nvie/gitflow) |
-| Local | [Link](https://localwp.com/) |
-| Responsively | [Link](https://responsively.app/) |
-| Slack | [Link](https://slack.com/) |
-| Visual Studio Code | [Link](https://code.visualstudio.com/) |
+| Product                          | URL                                        |
+|----------------------------------|------------------------------------------------|
+| iMac M3 24'', 2023               | [Link](https://support.apple.com/en-us/117734) |
+| MacBook Air 13'' M1, 2020        | [Link](https://support.apple.com/en-us/111883) |
+| MacBook Pro 15'' 2017            | [Link](https://support.apple.com/en-us/111947) |
+| Magic Trackpad 2                 | [Link](https://www.apple.com/shop/product/MXK93AM/A/magic-trackpad-usb%E2%80%91c-white-multi-touch-surface) |
+| Magic Keyboard                   | [Link](https://www.apple.com/shop/product/MXCK3LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english) |
+| Soundcore Life Q30               | [Link](https://www.soundcore.com/products/A3028011?variant=37652049756350) |
+| Bose Companion® 2 Series III     | [Link](https://www.bose.com/en_us/products/speakers/computer_speakers/companion-2-series-iii-multimedia-speaker-system.html) |
+| Steelcase Reply Office Chair     | [Link](https://www.steelcase.com/products/office-chairs/reply/) |
+| Standing Desk Expander           | [Link](https://webshop.schachermayer.com/cat/hr-HR/product/podizno-postolje-stola-expander-elektricno-podesavanje-vis-680-1180mm-ral9006/103327003) |
 {% endtwrapper %}
 
-## Utility software
+## macOS software
+
+Here is the list of macOS applications I use:
 
 {% twrapper %}
-| Application | Website |
-| ----------- | ------- |
-| 1Password | [Link](https://1password.com/) |
-| coconutBattery 3 | [Link](https://www.coconut-flavour.com/coconutbattery/) |
-| Cron | [Link](https://cron.com/) |
-| f.lux | [Link](https://justgetflux.com/) |
-| GIPHY Capture | [Link](https://giphy.com/apps/giphycapture) |
-| Gifsky | [Link](https://gif.ski/) |
-| Grammarly | [Link](https://www.grammarly.com/) |
-| ImageOptim | [Link](https://imageoptim.com/mac) |
-| Itsycal | [Link](https://www.mowglii.com/itsycal/) |
-| Loom | [Link](https://www.loom.com/my-videos) |
-| Maccy | [Link](https://maccy.app/) |
-| Microsoft Remote Desktop | [Link](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) |
-| OpenInTerminal | [Link](https://github.com/Ji4n1ng/OpenInTerminal) |
-| Rectangle | [Link](https://rectangleapp.com/) |
-| Screaming Frog SEO Spider | [Link](https://www.screamingfrog.co.uk/seo-spider/) |
-| Zappy | [Link](https://zapier.com/zappy) |
+| Application Name                   | URL                               |
+|------------------------------------|------------------------------------|
+| 1Password                          | [Link](https://1password.com/downloads/mac/) |
+| AppCleaner                         | [Link](https://freemacsoft.net/appcleaner/) |
+| Arc                                | [Link](https://arc.net/) |
+| BetterDisplay                      | [Link](https://github.com/waydabber/BetterDisplay) |
+| Brave Browser                      | [Link](https://brave.com/download/) |
+| ChatGPT                            | [Link](https://chat.openai.com/) |
+| Choosy                             | [Link](https://www.choosyosx.com/) |
+| Figma                              | [Link](https://www.figma.com/downloads/) |
+| Firefox                            | [Link](https://www.mozilla.org/en-US/firefox/new/) |
+| GIPHY CAPTURE                      | [Link](https://giphy.com/apps/giphycapture) |
+| Grammarly Desktop                  | [Link](https://www.grammarly.com/native/mac) |
+| HazeOver                           | [Link](https://hazeover.com/) |
+| HEIC Converter                     | [Link](https://apps.apple.com/us/app/heic-converter-to-jpg-png/id1294126402) |
+| iTerm                              | [Link](https://iterm2.com/) |
+| Local                              | [Link](https://localwp.com/) |
+| Loom                               | [Link](https://www.loom.com/download) |
+| Maccy                              | [Link](https://maccy.app/) |
+| Marta                              | [Link](https://marta.sh/) |
+| Windows App                        | [Link](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) |
+| Notion Calendar                    | [Link](https://www.notion.so/) |
+| Only Switch                        | [Link](https://github.com/jacklandrin/OnlySwitch) |
+| ResponsivelyApp                    | [Link](https://responsively.app/) |
+| Screaming Frog SEO Spider          | [Link](https://www.screamingfrog.co.uk/seo-spider/) |
+| Shottr                             | [Link](https://shottr.cc/) |
+| Visual Studio Code - Insiders      | [Link](https://code.visualstudio.com/insiders/) |
+| VLC                                | [Link](https://www.videolan.org/vlc/download-macosx.html) |
+| Zoom                               | [Link](https://zoom.us/download) |
 {% endtwrapper %}
 
-## Npm packages
+## NPM packages
+
+Here is the list of NPM packages I use:
 
 {% twrapper %}
-| Package | Website |
-| ------- | ------- |
-| acclaimed [♥️](#footnote) | [Link](https://www.npmjs.com/package/acclaimed) |
-| deviceframe | [Link](https://www.npmjs.com/package/deviceframe) |
-| gulp | [Link](https://www.npmjs.com/package/gulp) |
-| killify [♥️](#footnote) | [Link](https://www.npmjs.com/package/killify) |
-| netlify-cli | [Link](https://www.npmjs.com/package/netlify-cli) |
-| nodemon | [Link](https://www.npmjs.com/package/nodemon) |
-| npkill | [Link](https://www.npmjs.com/package/npkill) |
-| starter-project-cli [♥️](#footnote) | [Link](https://www.npmjs.com/package/starter-project-cli) |
+| Package Name           | URL                                                   |
+|------------------------|-----------------------------------------------------------|
+| @hubspot/cli           | [Link](https://www.npmjs.com/package/@hubspot/cli) |
+| @shopify/cli           | [Link](https://www.npmjs.com/package/@shopify/cli) |
+| @vscode/vsce           | [Link](https://www.npmjs.com/package/@vscode/vsce) |
+| contentful-cli         | [Link](https://www.npmjs.com/package/contentful-cli) |
+| deviceframe            | [Link](https://www.npmjs.com/package/deviceframe) |
+| generator-code         | [Link](https://www.npmjs.com/package/generator-code) |
+| gulp                   | [Link](https://www.npmjs.com/package/gulp) |
+| killify [♥️ ](#footnote) |
+| netlify-cli            | [Link](https://www.npmjs.com/package/netlify-cli) |
+| nodemon                | [Link](https://www.npmjs.com/package/nodemon) |
+| npkill                 | [Link](https://www.npmjs.com/package/npkill) |
+| starter-project-cli [♥️ ](#footnote) | [Link](https://www.npmjs.com/package/starter-project-cli) |
+| yarn                   | [Link](https://www.npmjs.com/package/yarn) |
+| yo                     | [Link](https://www.npmjs.com/package/yo) |
 {% endtwrapper %}
 
-Read more about [my favorite NPM packages](/articles/my-favorite-npm-packages/) and [my favorite bash scripts](/articles/my-favorite-bash-shortcuts/).
+## Terminal packages
+
+Here is the list of terminal packages I use:
+
+{% twrapper %}
+| Package Name     | URL                            |
+|------------------|--------------------------------|
+| cloudflared      | [Link](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/) |
+| fish             | [Link](https://fishshell.com/) |
+| fzf              | [Link](https://github.com/junegunn/fzf) |
+| gh               | [Link](https://cli.github.com/) |
+| git              | [Link](https://git-scm.com/) |
+| git-flow         | [Link](https://github.com/nvie/gitflow) |
+| hugo             | [Link](https://gohugo.io/getting-started/installing/) |
+| jq               | [Link](https://stedolan.github.io/jq/) |
+| node             | [Link](https://nodejs.org/) |
+| thefuck          | [Link](https://github.com/nvbn/thefuck) |
+| tidy-html5       | [Link](https://www.html-tidy.org/) |
+| z                | [Link](https://github.com/rupa/z) |
+{% endtwrapper %}
 
 ## VS Code extensions
 
-{% twrapper %}
-| Extension | Website |
-| --------- | ------- |
-| :emojisense: | [Link](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense) |
-| Auto Rename Tag | [Link](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) |
-| Babel JavaScript | [Link](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) |
-| Beautify | [Link](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify) |
-| Change Case | [Link](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case) |
-| Color Highlight | [Link](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) |
-| CSS Peek | [Link](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) |
-| Cyberpunk + | [Link](https://marketplace.visualstudio.com/items?itemName=jbelford.cyberpunk-plus) |
-| Date & Time | [Link](https://marketplace.visualstudio.com/items?itemName=rid9.datetime) |
-| EditorConfig for VS Code | [Link](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) |
-| Error Lens | [Link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) |
-| File Utils | [Link](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils) |
-| Front Matter CMS | [Link](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter) |
-| Git Merger | [Link](https://marketplace.visualstudio.com/items?itemName=shaharkazaz.git-merger) |
-| GitLens — Git supercharged | [Link](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
-| Gremlins tracker for Visual Studio Code | [Link](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins) |
-| HTML CSS Support | [Link](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) |
-| Image preview | [Link](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) |
-| Import Cost | [Link](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) |
-| Insert Unicode | [Link](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) |
-| Indenticator | [Link](https://marketplace.visualstudio.com/items?itemName=sirtori.indenticator) |
-| IntelliCode AP I Usage Examples | [Link](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.intellicode-api-usage-examples) |
-| JavaScript Booster | [Link](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) |
-| Jekyll Syntax Support | [Link](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax) |
-| Live Server | [Link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver) |
-| Liquid | [Link](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) |
-| Markdown Preview Github Styling | [Link](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) |
-| Path Intellisense | [Link](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) |
-| Polacode | [Link](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) |
-| Prettify JSON | [Link](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) |
-| Remove empty lines | [Link](https://marketplace.visualstudio.com/items?itemName=usernamehw.remove-empty-lines) |
-| Project Manager | [Link](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) |
-| Sass | [Link](https://github.com/robinbentley/vscode-sass-indented) |
-| Shopify Liquid Template Snippets | [Link](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets) |
-| SVG Viewer | [Link](https://github.com/cssho/vscode-svgviewer) |
-| SVG | [Link](https://marketplace.visualstudio.com/items?itemName=jock.svg) |
-| WakaTime | [Link](https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime) |
-{% endtwrapper %}
+My VS Code theme is [Moegi Dawn](https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme), and here is the list of VS Code extensions I use:
 
-Read more about [my favorite VS Code settings](/articles/my-favorite-vs-code-settings/) and [my favorite VS Code extensions](/articles/my-favorite-vs-code-extensions-2023/).
+{% twrapper %}
+| Extension Name                                 | URL                                           |
+|------------------------------------------------|------------------------------------------------|
+| Auto Rename Tag                                | [Link](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)                     |
+| Beautify      | [Link](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify) |
+| Browserslist  | [Link](https://marketplace.visualstudio.com/items?itemName=webben.browserslist) |
+| Change Case   | [Link](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case) |
+| Clamp it! [♥️ ](#footnote)  | [Link](https://marketplace.visualstudio.com/items?itemName=starbist.clamp-it)|
+| CSS Variables | [Link](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables)                 |
+| DateTime      | [Link](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)    |
+| EditorConfig  | [Link](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) |
+| EmojiSense    | [Link](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense) |
+| Error Lens    | [Link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) |
+| File Utils    | [Link](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils) |
+| Front Matter  | [Link](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter)                    |
+| Git Graph     | [Link](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) |
+| Git Merger    | [Link](https://marketplace.visualstudio.com/items?itemName=shaharkazaz.git-merger) |
+| GitLens       | [Link](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)  |
+| Gremlins      | [Link](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins) |
+| Gutter Preview| [Link](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)               |
+| HTML CSS Support                               | [Link](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) |
+| Indenticator  | [Link](https://marketplace.visualstudio.com/items?itemName=sirtori.indenticator) |
+| Insert Unicode| [Link](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) |
+| Live Server   | [Link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver) |
+| Markdown All in One                            | [Link](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) |
+| Markdown Preview Github Styles                | [Link](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)            |
+| OKLChanger [♥️ ](#footnote) | [Link](https://marketplace.visualstudio.com/items?itemName=starbist.oklchanger) |
+| Path Intellisense                              | [Link](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)                |
+| PHP Tools     | [Link](https://marketplace.visualstudio.com/items?itemName=devsense.phptools-vscode) |
+| Prettify JSON | [Link](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) |
+| Project Manager                                | [Link](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) |
+| Remote Explorer                                | [Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer) |
+| Remote Server | [Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server) |
+| Remove Empty Lines                             | [Link](https://marketplace.visualstudio.com/items?itemName=usernamehw.remove-empty-lines)                     |
+| Shopify Liquid| [Link](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) |
+| WakaTime      | [Link](https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime) |
+{% endtwrapper %}
 
 ## Browser extensions
 
+Here is the list of browser extensions I use (also available as a collection on [webextension.net](https://webextension.net/shared/collections/BnWQdNf8cvolzRGyDrSRosqL2ED1GPwX)):
+
 {% twrapper %}
-| Extension | Website |
-| --------- | ------- |
-| 1Password Manager | [Link](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa) |
-| Always Clear Downloads 2 | [Link](https://chrome.google.com/webstore/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn) |
-| Code Line Daily [♥️](#footnote) | [Link](https://chrome.google.com/webstore/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg) |
-| Grammarly | [Link](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) |
-| Grammarly to Markdown | [Link](https://chrome.google.com/webstore/detail/grammarly-to-markdown/bjodbpcjeogaihbekannledankhcjbgo) |
-| Keywords Everywhere - Keyword Tool | [Link](https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) |
-| SEO META in 1 CLICK | [Link](https://chrome.google.com/webstore/detail/seo-meta-in-1-click/bjogjfinolnhfhkbipphpdlldadpnmhc) |
-| SEO Minion | [Link](https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi) |
-| Social Share Preview | [Link](https://chrome.google.com/webstore/detail/social-share-preview/ggnikicjfklimmffbkhknndafpdlabib) |
-| Twitter Links | [Link](https://github.com/round/Twitter-Links-beta) |
-| WakaTime | [Link](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi) |
-| Wappalyzer | [Link](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) |
-| Workona Tab Manager | [Link](https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542) |
-| Workona Tab Suspender | [Link](https://chrome.google.com/webstore/detail/workona-tab-suspender/kkahjkjjcepelnnikconblkonolboiok) |
+| Extension Name                    | URL                           |
+|-----------------------------------|-----------------------------------|
+| 1Password – Password Manager      | [Link](https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa) |
+| Accessibility Insights for Web    | [Link](https://chromewebstore.google.com/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) |
+| Always Clear Downloads 2          | [Link](https://chromewebstore.google.com/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn) |
+| Cloudinary Media Inspector        | [Link](https://chromewebstore.google.com/detail/cloudinary-media-inspecto/ehnkhkglbafecknplfmjklnnjimokpkg) |
+| Code Line Daily [♥️ ](#footnote)                | [Link](https://chromewebstore.google.com/detail/code-line-daily/jfgojeolhopchbgfdgodicnaimmkbpbg) |
+| Core Web Vitals History           | [Link](https://chromewebstore.google.com/detail/core-web-vitals-history/linoinhlmlapanldhngmmpiaaiofabea) |
+| Grammarly to Markdown             | [Link](https://chromewebstore.google.com/detail/grammarly-to-markdown/bjodbpcjeogaihbekannledankhcjbgo) |
+| Grammarly: AI Writing and Editing | [Link](https://chromewebstore.google.com/detail/grammarly-ai-writing-and/kbfnbcaeplbcioakkpcpgfkobkghlhen) |
+| HTMLtoDesign                      | [Link](https://chromewebstore.google.com/detail/htmltodesign/ldnheaepmnmbjjjahokphckbpgciiaed) |
+| Jam                               | [Link](https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci) |
+| Keyword Vitals                    | [Link](https://chromewebstore.google.com/detail/keyword-vitals/jkmbgmcdmfpdcfninbmgabkbhhlnabbh) |
+| SingleFile                        | [Link](https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle) |
+| Site Speed by DebugBear           | [Link](https://chromewebstore.google.com/detail/site-speed-by-debugbear/peomeonecjebolgekpnddgpgdigmpblc) |
+| Social Share Preview              | [Link](https://chromewebstore.google.com/detail/social-share-preview/ggnikicjfklimmffbkhknndafpdlabib) |
+| StreetPass for Mastodon           | [Link](https://chromewebstore.google.com/detail/streetpass-for-mastodon/fphjfedjhinpnjblomfebcjjpdpakhhn) |
+| Tab Manager by Workona            | [Link](https://workona.com/signup/?referral=f7d57c59-a19b-4133-9739-5e5249ec7542) |
+| Toggle JavaScript                 | [Link](https://chromewebstore.google.com/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo) |
+| WakaTime                          | [Link](https://chromewebstore.google.com/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi) |
+| Wappalyzer - Technology Profiler  | [Link](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) |
 {% endtwrapper %}
 
-I've written about my favorite Chrome extensions in [2023](/articles/my-favorite-chrome-extensions-for-web-development-mostly-2023/) and [2019](/articles/my-favorite-chrome-extensions-for-web-development-mostly/).
+## Development
+
+During my career, I've developed a few different [tools](/tags/tools/). In the following list you can read how I built the ones I still use to this day:
+
+- [Clamp it! VS Code extension](/articles/clamp-it/)
+- [OKLCHanger VS Code extension](/articles/oklchanger/)
+- [Code Line Daily Chrome extension](/articles/the-first-year-of-my-side-project-code-line-daily/)
+- [Acclaimed CSS NPM package](/articles/extracting-and-using-critical-css-on-my-eleventy-site/)
+- [page-loaded-in NPM package](/articles/how-to-measure-page-loading-time-with-performance-api/)
+- [killify NPM package](/articles/my-favorite-npm-packages/#killify)
+
+## Favorites
+
+I wrote about my favorite extensions, packages, and settings. Here are my favorite:
+
+- [Chrome extensions (2023)](/articles/my-favorite-chrome-extensions-for-web-development-mostly-2023/)
+- [Chrome extensions](/articles/my-favorite-chrome-extensions-for-web-development-mostly/)
+- [VS Code extensions](/articles/my-favorite-vs-code-extensions-2023/)
+- [VS Code settings](/articles/my-favorite-vs-code-settings/)
+- [NPM packages](/articles/my-favorite-npm-packages/)
+- [bash scripts](/articles/my-favorite-bash-shortcuts/)
+
+## More images
+
+Here are some more images of my office.
+
+{% cldnryfetch "IMG_2073_yldity" "My office 2025." false true "center" %}
+
+{% cldnryfetch "IMG_2074_pr1t3i" "My office 2025." false true "center" %}
+
+{% cldnryfetch "IMG_2071_xd8pi2" "My office 2025." false true "picolo" %}
 
 ### Footnote
 
-<small>♥️ - developed by me.</small>
+<small>♥️  - developed by me.</small>
