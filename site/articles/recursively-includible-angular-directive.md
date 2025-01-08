@@ -4,6 +4,7 @@ title: Recursively includible Angular directive
 tags:
   - blog
   - angular
+  - tools
 date: 2017-01-07 21:54:57
 description: Recently I worked on an Angular project with a requirement for a form based on an MVC model. I created a directive to generate a form for every complex models.
 type: articles-item

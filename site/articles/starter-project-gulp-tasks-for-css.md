@@ -6,6 +6,7 @@ tags:
   - blog
   - gulp
   - css
+  - tools
   - starter project
 description: This article is part of a series about Starter Project, and this time I will explain all about Gulp tasks for CSS.
 project:

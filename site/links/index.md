@@ -27,6 +27,7 @@ sections2:
 - [GitHub](https://github.com/maliMirkec)
 - [CodePen](https://codepen.io/CiTA/)
 - [NPM](https://www.npmjs.com/~starbist)
+- [VS Code](https://marketplace.visualstudio.com/publishers/starbist)
 
 ## Freelance
 

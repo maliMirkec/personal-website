@@ -6,6 +6,7 @@ tags:
   - blog
   - productivity
   - extensions
+  - tools
 description: Essential for web development, web browsers offer extensions to improve web products. I use Chrome and prefer these extensions.
 type: articles-item
 series: Tools

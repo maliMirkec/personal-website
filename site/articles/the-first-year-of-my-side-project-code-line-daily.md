@@ -7,6 +7,7 @@ tags:
   - cld
   - chrome extension
   - open source
+  - tools
 description: A year since launching my side project Code Line Daily, I wanted to reintroduce the project and discuss challenges faced.
 project:
   name: Code Line Daily

@@ -5,6 +5,7 @@ date: 2019-03-05 11:13:42
 tags:
   - blog
   - gulp
+  - tools
   - starter project
 description: Learn how to create a custom WordPress theme with the Starter Project CLI (SPRO) package and improve your development process.
 project:

@@ -3,6 +3,7 @@ layout: default
 title: My setup
 description: Most developers often spend time on their setup, and I am no exception. These devices, tools, and software help me achieve that.
 type: articles-item
+date: 2025-01-07
 tags:
   - setup
 ---

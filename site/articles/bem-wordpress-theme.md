@@ -5,6 +5,7 @@ tags:
   - blog
   - wordpress
   - bem
+  - tools
 date: 2017-05-27 07:39:05
 description: Discover the power of BEM in building WordPress themes with this comprehensive guide. Learn how to create clean and organized code with BEM methodology.
 type: articles-item

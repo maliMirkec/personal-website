@@ -5,6 +5,7 @@ date: 2018-03-23 11:20:00
 tags:
   - blog
   - gulp
+  - tools
   - starter project
 description: Discover the latest best practices for web dev with Starter Project. A set of Gulp tasks that simplify the process and help you get up and running quickly.
 project:

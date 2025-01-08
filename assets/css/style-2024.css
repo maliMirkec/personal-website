@@ -1051,9 +1051,32 @@ blockquote p:not(:first-of-type) {
   min-inline-size: 30%;
 }
 
+.table-wrapper tr:hover {
+  background-color: var(--color-gamma-op06);
+}
+
 .table-wrapper th {
   font-size: var(--size-20-24);
   font-weight: 400;
+}
+
+.page--setup td:first-of-type {
+  font-weight: 400;
+}
+
+.page--setup td:first-of-type a {
+  display: inline-block;
+  font-size: .75em;
+  transform: translateX(25%) translateY(-25%);
+  text-decoration: none;
+}
+
+.page--setup td:last-of-type {
+  inline-size: clamp(3.75rem, calc(2.857rem + 2.381vw), 5rem);
+}
+
+.table-wrapper tr:hover td:last-of-type a {
+  text-decoration-thickness: 2px;
 }
 
 .tags {
@@ -1274,6 +1297,10 @@ blockquote p:not(:first-of-type) {
   .article-content .note,
   .article-content .embed {
     grid-column: 2 / -2;
+  }
+
+  .article-content img:is(.bleed) {
+    grid-column: 1 / -1;
   }
 
   .article-content p:has(img:is(.center.space)) {

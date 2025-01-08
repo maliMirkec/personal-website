@@ -4,6 +4,7 @@ title: Angular dragtable
 tags:
   - blog
   - angular
+  - tools
 date: 2017-02-03 12:41:54
 description: Explore how to implement drag and drop functionality for tables with large amount of row in Angular with the Angular Dragtable library.
 type: articles-item

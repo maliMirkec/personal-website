@@ -7,6 +7,7 @@ tags:
   - css
   - vs code
   - productivity
+  - tools
 description: Today I published my first VS Code extension - Clamp it! This extension makes it easy to generate the clamped sizes for your CSS code.
 type: articles-item
 ---

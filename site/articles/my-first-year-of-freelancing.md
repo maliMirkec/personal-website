@@ -6,6 +6,7 @@ tags:
   - blog
   - freelance
   - remote work
+  - tools
 description: About a year ago, I started with a freelance career. This experience has changed me as a professional, but also as a person.
 type: articles-item
 series: Year of freelancing

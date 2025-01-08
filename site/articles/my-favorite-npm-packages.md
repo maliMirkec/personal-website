@@ -6,6 +6,7 @@ tags:
   - blog
   - productivity
   - npm
+  - tools
 description: I’ve compiled a list of my favorite npm packages that I use on a daily basis.
 type: articles-item
 series: Tools
