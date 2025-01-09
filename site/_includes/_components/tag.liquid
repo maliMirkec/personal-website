@@ -1,5 +1,5 @@
 {%- liquid
-  assign list = collections[tag] | sort: 'data.tags'
+  assign list = collections[tag] | sort: 'url'
   assign listSize = list | size
 -%}
 
@@ -8,24 +8,24 @@
     <h1 class="box__title">Tagged “{{ tag }}”</h1>
     <ul class="box__list">
       {% for tagItem in list %}
-        <li class="box__item">
-          {%- if tagItem.data.title and tagItem.url -%}
+        {%- if tagItem.data.title and tagItem.url -%}
+          <li class="box__item">
             <h2 class="box__subtitle"><a href="{{ tagItem.url }}">{{ tagItem.data.title }}</a></h2>
-          {%- endif -%}
-          <div class="box__tags">
-            {%- if cardDate -%}
-              <time class="box__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
-            {%- endif -%}
-            {%- if tagItem.data.publication -%}
-              <span class="box__tag box__tag--alpha">{{ tagItem.data.publication }}</span>
-            {%- endif -%}
-            {%- if tagItem.data.tags -%}
-              {%- for dataTag in tagItem.data.tags -%}
-                <a href="/tags/{{ dataTag | slug }}/" class="fancy-hover box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
-              {%- endfor -%}
-            {%- endif -%}
-          </div>
-        </li>
+            <div class="box__tags">
+              {%- if cardDate -%}
+                <time class="box__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
+              {%- endif -%}
+              {%- if tagItem.data.publication -%}
+                <span class="box__tag box__tag--alpha">{{ tagItem.data.publication }}</span>
+              {%- endif -%}
+              {%- if tagItem.data.tags -%}
+                {%- for dataTag in tagItem.data.tags -%}
+                  <a href="/tags/{{ dataTag | slug }}/" class="fancy-hover box__tag box__tag--beta{% if dataTag == tag %} box__tag--omega{% endif %}">{{ dataTag }}</a>
+                {%- endfor -%}
+              {%- endif -%}
+            </div>
+          </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
     {%- if component.cta -%}

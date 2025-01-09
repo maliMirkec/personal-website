@@ -76,6 +76,10 @@
   padding: unset;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar,
 .table-wrapper::-webkit-scrollbar,
 .copy pre[class*="language-"]::-webkit-scrollbar {

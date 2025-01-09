@@ -10,14 +10,14 @@ tags:
   - productivity
 ---
 
-Many developers invest a lot of time in setting up their workspace, and I am no exception.
+Many developers invest a lot of time setting up their workspace, and I am no exception.
 I like organizing my computers and tools to make the most of my everyday tasks.
 These devices, tools, and software help me in maximizing my productivity.
 
 {% cldnryfetch "IMG_2075_qe2rlg" "My office 2025." false false "bleed" %}
 
 {% note %}
-My setup is featured on [the /uses site](https://uses.tech/).
+My setup is showcased on [the /uses site](https://uses.tech/) alongside other fantastic setups.
 {% endnote %}
 
 Explore my favorite:
@@ -29,7 +29,7 @@ Explore my favorite:
 - [VS Code extensions](#vs-code-extensions), and
 - [Browser extensions](#browser-extensions).
 
-Find out which [tools I developed](#development), which are [my favorites](#favorites), and see [more images of my office](#more-images).
+Find out which [tools I developed](#development), what [my favorites](#favorites) are, and [more photos of my office](#more-photos).
 
 ## Hardware
 
@@ -201,7 +201,7 @@ Here is the list of browser extensions I use (also available as a collection on 
 
 ## Development
 
-During my career, I've developed a few different [tools](/tags/tools/). In the following list you can read how I built the ones I still use to this day:
+During my career, I've developed a few different [tools](/tags/tools/). In the following list, you can read how I built the ones I still use to this day:
 
 - [Clamp it! VS Code extension](/articles/clamp-it/)
 - [OKLCHanger VS Code extension](/articles/oklchanger/)
@@ -212,7 +212,7 @@ During my career, I've developed a few different [tools](/tags/tools/). In the f
 
 ## Favorites
 
-I wrote about my favorite extensions, packages, and settings. Here are my favorite:
+I wrote about my favorite extensions, packages, and settings. Here are my favorites:
 
 - [Chrome extensions (2023)](/articles/my-favorite-chrome-extensions-for-web-development-mostly-2023/)
 - [Chrome extensions](/articles/my-favorite-chrome-extensions-for-web-development-mostly/)
@@ -221,9 +221,9 @@ I wrote about my favorite extensions, packages, and settings. Here are my favori
 - [NPM packages](/articles/my-favorite-npm-packages/)
 - [bash scripts](/articles/my-favorite-bash-shortcuts/)
 
-## More images
+## More photos
 
-Here are some more images of my office.
+Here are some more photos of my office.
 
 {% cldnryfetch "IMG_2073_yldity" "My office 2025." false true "center" %}
 
