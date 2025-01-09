@@ -38,8 +38,8 @@ Here is the list of all devices I use:
 {% twrapper %}
 | Product                          | URL                                        |
 |----------------------------------|------------------------------------------------|
-| iMac M3 24'', 2023               | [Link](https://support.apple.com/en-us/117734) |
-| MacBook Air 13'' M1, 2020        | [Link](https://support.apple.com/en-us/111883) |
+| iMac M3 24'' 2023               | [Link](https://support.apple.com/en-us/117734) |
+| MacBook Air 13'' M1 2020        | [Link](https://support.apple.com/en-us/111883) |
 | MacBook Pro 15'' 2017            | [Link](https://support.apple.com/en-us/111947) |
 | Magic Trackpad 2                 | [Link](https://www.apple.com/shop/product/MXK93AM/A/magic-trackpad-usb%E2%80%91c-white-multi-touch-surface) |
 | Magic Keyboard                   | [Link](https://www.apple.com/shop/product/MXCK3LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english) |
