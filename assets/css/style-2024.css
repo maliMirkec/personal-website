@@ -1064,19 +1064,15 @@ blockquote p:not(:first-of-type) {
   font-weight: 400;
 }
 
-.page--setup td:first-of-type {
+.page--setup li a:first-of-type {
   font-weight: 400;
 }
 
-.page--setup td:first-of-type a {
+.page--setup li a + a {
   display: inline-block;
   font-size: .75em;
   transform: translateX(25%) translateY(-25%);
   text-decoration: none;
-}
-
-.page--setup td:last-of-type {
-  inline-size: clamp(3.75rem, calc(2.857rem + 2.381vw), 5rem);
 }
 
 .table-wrapper tr:hover td:last-of-type a {
