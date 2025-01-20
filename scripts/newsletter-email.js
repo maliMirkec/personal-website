@@ -36,31 +36,50 @@ const generateDescription = () => {
   return `<p style="margin-bottom:2rem">${latest.description}</p>`
 }
 
-const generateQuestions = () => {
+const generateQs = () => {
   if(!latest.questions) {
     return ''
   }
 
   let questions = `
-    <p style="margin-bottom:1rem">${latest.questions.text}</p>
+    <hr style="border-color:#ccc;">
+    <p style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin:2em 0 1em">Quiz questions</p>
+    <p style="margin:1em 0">${latest.questions.text}</p>
   `
 
   questions += `
-    <ul style="list-style:none;margin:0 0 2rem;padding:0;">
+    <ul style="list-style:none;margin:0 0 2em;padding:0">
   `
 
   latest.questions.list.forEach((item, i) => {
-    questions += `<li style="color:#333;font-size:1rem;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em"><details><summary style="font-weight:600;margin-bottom:.5em;cursor:pointer">${item.question}</summary><div style="margin-bottom:.5em">${item.short}</div><div style="margin-bottom:.5em">${item.long}</div></details></li>
+    questions += `<li style="color:#333;font-size:1rem;font-weight:700;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em">${item.question}</li>
     `
   })
 
-  questions += '</ul>'
+  questions += '</ul><hr style="border-color:#ccc;margin-bottom:2em">'
 
   return questions
 }
 
-const generateQuestionsAndAnswers = () => {
-  return `<p style="margin-bottom:2rem">${latest.description}</p>`
+const generateQandAs = () => {
+  if(!latest.questions) {
+    return ''
+  }
+
+  questions = `
+    <hr style="border-color:#ccc;">
+    <p style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-top:2em;margin-bottom:1em">Quiz answers</p>
+    <ul style="list-style:none;margin:0 0 2rem;padding:0">
+  `
+
+  latest.questions.list.forEach((item, i) => {
+    questions += `<li style="color:#333;font-size:1rem;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em"><p style="font-weight:700;margin-bottom:.5em;cursor:pointer">${item.question}</p><p style="margin-bottom:.5em">${item.short}</p><p style="margin-bottom:.5em">${item.long}</p></li>
+    `
+  })
+
+  questions += '</ul><hr style="border-color:#ccc;">'
+
+  return questions
 }
 
 const addSponsors = () => {
@@ -154,7 +173,7 @@ const header = () => {
 
 const footer = () => {
   footerCode = `<p>Happy coding!</p>
-      <hr>
+      <hr style="border-color:#ccc;">
       <p>
         <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/archive/" style="text-decoration:none">
           <span style="display:inline-block;color:#FF3366;font-size:0.875rem;font-weight:500;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding-top:0.25rem;padding-bottom:0.25rem;padding-right:1rem">Archive</span>
@@ -180,9 +199,9 @@ const generateNewsletter = () => {
   output += generateTitle()
   output += generateDate()
   output += generateDescription()
-  output += generateQuestions()
+  output += generateQs()
   output += generateList()
-  output += generateQuestionsAndAnswers()
+  output += generateQandAs()
   output += footer()
 
   console.log(output);

@@ -75,6 +75,22 @@ const getSponsors = () => {
   return `Special thanks to this week's sponsor ${latest.topAd.handle}!\n\n`
 }
 
+
+
+const getQandA = () => {
+  if(!latest.questions) {
+    return ''
+  }
+
+  let questions = `${latest.questions.text}\n`
+
+  latest.questions.list.forEach((item, i) => {
+    questions += `\n${item.question}\n${item.short}\n${item.long}\n`
+  })
+
+  return questions
+}
+
 const generateTwitter = () => {
   let output = getDescription()
   output += getTwitter()
@@ -141,6 +157,8 @@ const generateSocial = async () => {
   output += generateMastodon()
   output += getDivider('Bluesky')
   output += generateBluesky()
+  output += getDivider('Q and A')
+  output += getQandA()
 
   console.log(output);
 }
