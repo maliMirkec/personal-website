@@ -52,7 +52,7 @@ const generateQs = () => {
   `
 
   latest.questions.list.forEach((item, i) => {
-    questions += `<li style="color:#333;font-size:1rem;font-weight:700;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em">${item.question}</li>
+    questions += `<li style="color:#333;font-size:1rem;font-weight:700;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin:0 0 1em">${item.question}</li>
     `
   })
 
@@ -73,7 +73,7 @@ const generateQandAs = () => {
   `
 
   latest.questions.list.forEach((item, i) => {
-    questions += `<li style="color:#333;font-size:1rem;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em"><p style="font-weight:700;margin-bottom:.5em;cursor:pointer">${item.question}</p><p style="margin-bottom:.5em">${item.short}</p><p style="margin-bottom:.5em">${item.long}</p></li>
+    questions += `<li style="color:#333;font-size:1rem;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin:0 0 1em"><p style="font-weight:700;margin:0 0 1em;cursor:pointer">${item.question}</p><p style="margin:0 0 1em">${item.short}</p><p style="margin:0">${item.long}</p></li>
     `
   })
 
