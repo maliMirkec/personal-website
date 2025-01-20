@@ -36,6 +36,33 @@ const generateDescription = () => {
   return `<p style="margin-bottom:2rem">${latest.description}</p>`
 }
 
+const generateQuestions = () => {
+  if(!latest.questions) {
+    return ''
+  }
+
+  let questions = `
+    <p style="margin-bottom:1rem">${latest.questions.text}</p>
+  `
+
+  questions += `
+    <ul style="list-style:none;margin:0 0 2rem;padding:0;">
+  `
+
+  latest.questions.list.forEach((item, i) => {
+    questions += `<li style="color:#333;font-size:1rem;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-bottom:1em"><details><summary style="font-weight:600;margin-bottom:.5em;cursor:pointer">${item.question}</summary><div style="margin-bottom:.5em">${item.short}</div><div style="margin-bottom:.5em">${item.long}</div></details></li>
+    `
+  })
+
+  questions += '</ul>'
+
+  return questions
+}
+
+const generateQuestionsAndAnswers = () => {
+  return `<p style="margin-bottom:2rem">${latest.description}</p>`
+}
+
 const addSponsors = () => {
   if(!latest.topAd) {
     return ''
@@ -153,7 +180,9 @@ const generateNewsletter = () => {
   output += generateTitle()
   output += generateDate()
   output += generateDescription()
+  output += generateQuestions()
   output += generateList()
+  output += generateQuestionsAndAnswers()
   output += footer()
 
   console.log(output);
