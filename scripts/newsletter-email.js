@@ -21,7 +21,7 @@ const generateDateString = () => {
 }
 
 const generateDate = () => {
-  return `<p style="margin-bottom:2rem">${generateDateString()}</p>`
+  return `<p style="font-size:1rem;margin-bottom:2rem">${generateDateString()}</p>`
 }
 
 const generateTitle = () => {
@@ -33,7 +33,7 @@ const generateTitle = () => {
 }
 
 const generateDescription = () => {
-  return `<p style="margin-bottom:2rem">${latest.description}</p>`
+  return `<p style="font-size:1rem;margin-bottom:2rem">${latest.description}</p>`
 }
 
 const generateQs = () => {
@@ -96,7 +96,7 @@ const addSponsors = () => {
             </a>
           </span>
         </p>
-        <p style="margin:0;padding-bottom:0.25rem">${latest.topAd.desc}</p>
+        <p style="font-size:1rem;margin:0;padding-bottom:0.25rem">${latest.topAd.desc}</p>
         <p style="margin:0;padding-bottom:2rem">
           <a href="${latest.topAd.link}">
             <span style="display:inline-block;color:#666;font-size:1rem;font-weight:700;line-height:1.4;text-decoration:underline;padding:0.25rem 0">Read more</span>
@@ -119,7 +119,7 @@ const addPromotions = () => {
             <span style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">${item.title}</span>
           </a>
         </p>
-        <p style="margin:0;padding-bottom:0.25rem">${item.desc}</p>
+        <p style="font-size:1rem;margin:0;padding-bottom:0.25rem">${item.desc}</p>
         <p style="margin:0;padding-bottom:2rem">
           <a href="${item.link}">
             <span style="display:inline-block;color:#666;font-size:1rem;font-weight:700;line-height:1.4;text-decoration:underline;padding:0.25rem 0">Read more</span>
@@ -139,7 +139,7 @@ const generateList = () => {
             <span style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;padding:0.25rem 0">${item.title}</span>
           </a>
         </p>
-        <p style="margin:0;padding-bottom:0.25rem">${item.desc}</p>
+        <p style="font-size:1rem;margin:0;padding-bottom:0.25rem">${item.desc}</p>
         <p style="margin:0;padding-bottom:2rem">
           <a href="${item.link}">
             <span style="display:inline-block;color:#666;font-size:1rem;font-weight:700;line-height:1.4;text-decoration:underline;padding:0.25rem 0">Read more</span>
