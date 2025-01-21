@@ -7,7 +7,7 @@ tags:
   - testimonials
 type: testimonials-item
 avatar: nk_lcpxxg
-date: 2025-01-07
+date: 2025-01-06
 position: Senior Content Manager
 company: Heyflow
 projects:
