@@ -44,7 +44,11 @@
                   {%- endif -%}
                 </div>
               </a>
-              {%- if card.content -%}
+              {%- if card.data.excerpt -%}
+                <div class="box__quote">
+                  <blockquote><p>{{ card.data.excerpt }}</p></blockquote>
+                </div>
+              {%- else -%}
                 <div class="box__quote">{{ card.content }}</div>
               {%- endif -%}
             </li>

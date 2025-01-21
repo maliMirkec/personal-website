@@ -14,7 +14,7 @@ Many developers invest a lot of time setting up their workspace, and I am no exc
 I like organizing my computers and tools to make the most of my everyday tasks.
 These devices, tools, and software help me in maximizing my productivity.
 
-{% cldnryfetch "IMG_2075_qe2rlg" "My office 2025." false false "bleed" %}
+{% cldnryfetch "office1_zeigdx" "My office 2025." false false "bleed" %}
 
 {% note %}
 My setup is showcased on [the /uses site](https://uses.tech/) alongside other fantastic setups.
@@ -201,11 +201,11 @@ I wrote about my favorite extensions, packages, and settings. Here are my favori
 
 Here are some more photos of my office.
 
-{% cldnryfetch "IMG_2073_yldity" "My office 2025." false true "center" %}
+{% cldnryfetch "office3_eili40" "My office 2025." false true "center" %}
 
-{% cldnryfetch "IMG_2074_pr1t3i" "My office 2025." false true "center" %}
+{% cldnryfetch "office4_v9cerf" "My office 2025." false true "center" %}
 
-{% cldnryfetch "IMG_2071_xd8pi2" "My office 2025." false true "picolo" %}
+{% cldnryfetch "office5_t9jidu" "My office 2025." false true "center" %}
 
 ### Footnote
 
