@@ -19,29 +19,6 @@
 <meta property="og:image:secure" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-{% if site.twitter %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@{{ site.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.twitter }}">
-  {% if page.url %}
-    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
-  {% endif %}
-  {% if title %}
-    <meta name="twitter:title" content="{{ longTitle }}">
-  {% endif %}
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description | escape }}">
-  {% elsif description %}
-    <meta name="twitter:description" content="{{ description | escape }}">
-  {% endif %}
-  <meta property="twitter:image" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
-{% endif %}
-{% if site.fb_id %}
-  <meta name="fb:app_id" content="{{ site.fb_id }}">
-{% endif %}
-{% if site.fb_admins %}
-  <meta name="fb:admins" content="{{ site.fb_admins }}">
-{% endif %}
 {% if tags and tags[0] == 'blog' %}
   <meta property="article:author" content="{{ site.author }}">
   <script type="application/ld+json">
