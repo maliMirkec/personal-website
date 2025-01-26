@@ -844,7 +844,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .article-footer {
-  background-image: var(--bg-light), linear-gradient(transparent 25%, var(--color-gamma) 1000%);
+  background-image: var(--bg-light), linear-gradient(transparent 25%, var(--color-alpha) 250%);
   background-position: center;
   background-repeat: repeat;
   background-size: var(--bg-size), 100%;
