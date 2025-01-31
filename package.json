@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/maliMirkec/hexo-sb/issues"
   },
+  "type": "module",
   "scripts": {
     "clean-css": "rm -rf assets/css/*.min.css",
     "clean-js": "rm -rf assets/js/*.min.js",

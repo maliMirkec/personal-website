@@ -26,7 +26,7 @@ Noticing the rapidly changing tech landscape, I identified the rising trend of s
 
 ## Shopify
 
-Shopify is one of the most popular e-commerce platforms, known for its flexibility, especially among non-developers. However, developers are often called in to assist when projects become more complex. I have worked on several Shopify projects, including [Little Bundle](/portfolio/little-bundle/) and [Spartan Precision Equipment](/portfolio/javelin-bipod/), where I helped clients optimize their stores and develop new features.
+Shopify is one of the most popular e-commerce platforms, known for its flexibility, especially among non-developers. However, developers are often called to assist when projects become more complex. I have worked on several Shopify projects, including [Little Bundle](/portfolio/little-bundle/) and [Spartan Precision Equipment](/portfolio/javelin-bipod/), where I helped clients optimize their stores and develop new features.
 
 ## WordPress
 

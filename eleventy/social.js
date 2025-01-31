@@ -15,7 +15,7 @@ const sharing = [{
   'url': 'https://www.reddit.com/submit?url='
 }]
 
-module.exports = async (str, type) => {
+export default async (str, type) => {
   const social = sharing.find(link => {
     return link.name === type
   })
