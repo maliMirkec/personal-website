@@ -980,6 +980,10 @@ blockquote p:not(:first-of-type) {
   letter-spacing: -0.0125em;
 }
 
+.article-content p code {
+  display: inline-block;
+}
+
 .article-content :is(p, li) code {
   background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-alpha) 750%);
   font-weight: 600;
