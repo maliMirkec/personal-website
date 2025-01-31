@@ -467,12 +467,13 @@ blockquote p:not(:first-of-type) {
   justify-content: center;
 }
 
-.page--about .hero__image img {
-  border-radius: 50%;
-}
-
 .hero__image img {
   max-inline-size: min(var(--main), 100%);
+}
+
+.page--about .hero__image img {
+  max-inline-size: min(240px, 100%);
+  border-radius: 50%;
 }
 
 .hero__image svg {
