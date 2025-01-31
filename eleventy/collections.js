@@ -23,7 +23,7 @@ const tags = async (collection) => {
   return Array.from(tagsSet).sort()
 }
 
-module.exports = {
-  collections: collections,
-  tags: tags
+export {
+  collections,
+  tags
 }

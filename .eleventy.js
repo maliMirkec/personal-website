@@ -1,20 +1,19 @@
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const markdownIt = require('markdown-it')
-const markdownItRenderer = new markdownIt()
-const markdownItAnchor = require('markdown-it-anchor')
-const uslug = require('uslug')
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import markdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
+import uslug from 'uslug';
+import fs from 'fs';
 
-const fs = require('fs')
-const env = require('./site/_data/env')
-const package = require('./package.json')
+import env from './site/_data/env.js';
+import social from './eleventy/social.js';
+import tagify from './eleventy/tagify.js';
+import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js';
+import { cldnryimg, cldnrylink, cldnryfetch } from './eleventy/cldnry.js';
+import { collections, tags } from './eleventy/collections.js';
 
-const social = require('./eleventy/social')
-const tagify = require('./eleventy/tagify')
-const { codepen, caniuse, twrapper, embed, video, note } = require('./eleventy/embeds')
-const { cldnryimg, cldnrylink, cldnryfetch } = require('./eleventy/cldnry')
-const { collections, tags } = require('./eleventy/collections')
+const markdownItRenderer = new markdownIt();
 
-module.exports = (eleventyConfig) => {
+export default async (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
 
   let passthroughCopy = {
@@ -62,7 +61,10 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('randomItems', async (array) => array.sort((a, b) => 0.5 - Math.random()))
 
-  eleventyConfig.addLiquidFilter('generator', async () => `Eleventy ${package.dependencies['@11ty/eleventy'].replace('^', '')}`)
+  eleventyConfig.addLiquidFilter('generator', async () => {
+    const packageJson = await import('./package.json', { assert: { type: 'json' } });
+    return `Eleventy ${packageJson.default.dependencies['@11ty/eleventy'].replace('^', '')}`;
+  });
 
   eleventyConfig.addLiquidShortcode('codepen', async (user, pen, theme, tab, height, width, lazy) => codepen(user, pen, theme, tab, height, width, lazy))
 

@@ -1,4 +1,4 @@
-const markdownIt = require('markdown-it')
+import markdownIt from 'markdown-it';
 const markdownItRenderer = new markdownIt()
 
 const cp_id = (id) => `cp_embed_${id.replace(/\//g, '_')}`
@@ -18,11 +18,11 @@ const note = async (str, title) => {
   return `<div class="note"${dataTitle}>${ markdownItRenderer.render(str.trim()) }</div>`
 }
 
-module.exports = {
-  codepen: codepen,
-  caniuse: caniuse,
-  twrapper: twrapper,
-  embed: embed,
-  video: video,
-  note: note
-}
+export {
+  codepen,
+  caniuse,
+  twrapper,
+  embed,
+  video,
+  note
+};

@@ -1,3 +1,3 @@
-const acclaimed = require('acclaimed')
+import acclaimed from 'acclaimed';
 
-acclaimed.critical()
+acclaimed.critical();

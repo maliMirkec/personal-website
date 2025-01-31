@@ -1,4 +1,4 @@
-const Image = require("@11ty/eleventy-img");
+import Image from '@11ty/eleventy-img';
 const link = `https://res.cloudinary.com/starbist/image/upload/w_2400,f_auto,q_auto,c_scale/`
 
 const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
@@ -72,8 +72,8 @@ const cldnrylink = async (link, src, alt, width, height, classes, instant) => {
   return `<a href="${link}">${await cldnryimg(src, alt, width, height, classes, instant)}</a>`
 }
 
-module.exports = {
-  cldnryimg: cldnryimg,
-  cldnrylink: cldnrylink,
-  cldnryfetch: cldnryfetch
-}
+export {
+  cldnryimg,
+  cldnrylink,
+  cldnryfetch
+};
