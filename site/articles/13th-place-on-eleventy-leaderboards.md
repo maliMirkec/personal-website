@@ -26,21 +26,12 @@ I guess the [recent Lighthouse updates](https://github.com/GoogleChrome/lighthou
 
 If you built a site with Eleventy and Liquid, you can add the following snippet to get the badge on the Eleventy Leaderboards site.
 
-```js
-// .eleventy.js
-module.exports = (eleventyConfig) => {
-  eleventyConfig.addLiquidFilter('generator', () => {
-    return `Eleventy ${package.dependencies['@11ty/eleventy'].replace('^', '')}`
-  })
-}
-```
-
 {% raw %}
 ```html
 <!-- head partial -->
 <head>
   ...
-  <meta name="generator" content="{{ 'generator' | generator }}">
+  <meta name="generator" content="{{ eleventy.generator }}">
 </head>
 ```
 {% endraw %}

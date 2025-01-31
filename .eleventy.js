@@ -11,8 +11,6 @@ import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embed
 import { cldnryimg, cldnrylink, cldnryfetch } from './eleventy/cldnry.js';
 import { collections, tags } from './eleventy/collections.js';
 
-const packageJson = await import('./package.json', { assert: { type: 'json' } });
-
 const markdownItRenderer = new markdownIt();
 
 export default async (eleventyConfig) => {
@@ -62,10 +60,6 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidFilter('findItem', async (array, key, value) => array.filter(item => item.data[key] === value))
 
   eleventyConfig.addLiquidFilter('randomItems', async (array) => array.sort((a, b) => 0.5 - Math.random()))
-
-  eleventyConfig.addLiquidFilter('generator', async () => {
-    return `Eleventy ${packageJson.default.dependencies['@11ty/eleventy'].replace('^', '')}`;
-  });
 
   eleventyConfig.addLiquidShortcode('codepen', async (user, pen, theme, tab, height, width, lazy) => codepen(user, pen, theme, tab, height, width, lazy))
 
