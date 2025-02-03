@@ -21,7 +21,7 @@ Once again, I redesigned my site. I did it this December and documented my progr
 
 After a year of pause from writing on publications, I returned with two articles for [Frontend Masters](https://frontendmasters.com/blog/author/silvestarbistrovic/) and one for [Smashing Magazine](https://www.smashingmagazine.com/2024/04/infinite-scrolling-logos-html-css/).
 
-One other great thing happened this year - the BlueSky social network. It is so great to have a feed full of web dev, CSS, accessibility, and other related topics. In fact, it made me restart my [UI Dev Newsletter](http://localhost:8080/side-projects/ui-dev-newsletter/). I hope it stays like this as long as possible. Here's my BlueSky profile: <https://bsky.app/profile/silvestar.codes>.
+One other great thing happened this year - the BlueSky social network. It is so great to have a feed full of web dev, CSS, accessibility, and other related topics. In fact, it made me restart my [UI Dev Newsletter](/side-projects/ui-dev-newsletter/). I hope it stays like this as long as possible. Here's my BlueSky profile: <https://bsky.app/profile/silvestar.codes>.
 
 There's nothing new on a personal level besides a lot of new gray hair. Someone told me it is “in” to have white hair. I choose to believe that's true.
 

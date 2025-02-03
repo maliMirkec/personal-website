@@ -27,7 +27,7 @@ I spent the majority of my free time on finding a job. I discovered so many site
 Always have money in a piggy bank for at least 3 to 6 months if you are a freelancer. You never know when the next crisis will arrive.
 {% endnote %}
 
-I knew I needed to keep myself busy, so I worked on my side projects. I polished my website and tried many new techniques and technologies. I wrote more than 20 articles in the first half of the year. I restarted and rebuilt [my newsletter](http://localhost:8080/side-projects/ui-dev-newsletter/archive/), which now has more than 600 subscribers (I even got a sponsor for a short time). I even tried a new approach where you rent my UI development services called [A Dedicated Dev](https://adedicated.dev/), but it has yet to catch up.
+I knew I needed to keep myself busy, so I worked on my side projects. I polished my website and tried many new techniques and technologies. I wrote more than 20 articles in the first half of the year. I restarted and rebuilt [my newsletter](/side-projects/ui-dev-newsletter/archive/), which now has more than 600 subscribers (I even got a sponsor for a short time). I even tried a new approach where you rent my UI development services called [A Dedicated Dev](https://adedicated.dev/), but it has yet to catch up.
 
 The first part of the year was just horrible.
 

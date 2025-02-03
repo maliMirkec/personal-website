@@ -131,7 +131,7 @@ Please show your support by starring the project on [Github], or by sharing on [
 Or contribute to the project by creating [a new issue] or [a pull request].
 
 [Starter Project]: /side-projects/starter-project/
-[in the introduction article]: https://www.silvestar.codes/articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
+[in the introduction article]: /articles/starter-project-a-set-of-latest-best-practices-packed-in-gulp-tasks/
 [Gulp.js 4 documentation]: https://gulpjs.com/docs/en/getting-started/javascript-and-gulpfiles#splitting-a-gulpfile
 [Discord]: https://discord.gg/aBx8dcu
 [Why npm scripts]: https://css-tricks.com/why-npm-scripts/

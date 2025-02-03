@@ -106,5 +106,5 @@ If you are interested, please [fill out the form]. Let's start this journey toge
 [wrote about last year]: https://www.toptal.com/css/why-you-need-a-css-developer
 [to open applications]: /side-projects/ui-dev-mentoring/apply/
 [The full specification of the program stages could be found here.]: https://docs.google.com/document/d/1fqhbu3zX1V4LBjPxParJNzDjJwFecx3cQ3-b0vXHwBE/edit?usp=sharing
-[a developer's job requires constant learning]: https://www.silvestar.codes/articles/modern-frontend-developer-skills-and-tools/
+[a developer's job requires constant learning]: /articles/modern-frontend-developer-skills-and-tools/
 [fill out the form]: /side-projects/ui-dev-mentoring/apply/

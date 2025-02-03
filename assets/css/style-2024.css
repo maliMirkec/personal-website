@@ -167,6 +167,19 @@ img {
   transition: var(--timing200), background-position 0s;
 }
 
+.content a:not([class]):is([href^="/"]):after {
+    content: "";
+    display: inline-block;
+    width: 1ch;
+    height: 1ch;
+    background-image: url(/gfx/svg/logo-SB-12E09F-000.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 0.1em;
+    vertical-align: super;
+}
+
 :where(main a:not([class]), .fancy-hover):is(:hover, :focus, :active) {
   --p: 100%;
   background-position: left;

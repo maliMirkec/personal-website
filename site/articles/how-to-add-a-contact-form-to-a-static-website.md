@@ -111,6 +111,6 @@ Update: I decided to switch to a different provider, but only for convenience re
 [Jekyll]: https://jekyllrb.com/
 [Kwes official documentation]: https://kwes.io/docs/validation-rules
 [the testing mode]: https://kwes.io/docs/form-mode
-[on my site]: https://www.silvestar.codes/contact/
+[on my site]: /contact/
 [logic for showing or hiding any content on a condition]: https://kwes.io/docs/hide-show-logic
 [Kwes API]: https://documenter.getpostman.com/view/7275049/S1ERwd7y?version=latest

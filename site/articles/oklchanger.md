@@ -16,7 +16,7 @@ I was inspired by an article on the Oklab color format and decided to develop [a
 
 Earlier this year, Andrey Sitnik from Evil Martians published [an article explaining why they transitioned from RGB and HSL to the new Oklab color format](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl). Oklab uses a cylindrical coordinate system incorporating a hue angle (C) and chroma (H). This approach makes representing and manipulating colors easier based on human perception, especially for color picking and blending.
 
-The same company also created [a tool for picking and converting Oklch colors](https://oklch.com/). I started using this tool while working on a project, and just like the Clamp generator, I found that constantly switching between my code editor and browser to copy and paste was time-consuming. This led me to another idea: I should also build an extension for this task, given that I had already developed one to [generate clamp values](https://www.silvestar.codes/articles/clamp-it/).
+The same company also created [a tool for picking and converting Oklch colors](https://oklch.com/). I started using this tool while working on a project, and just like the Clamp generator, I found that constantly switching between my code editor and browser to copy and paste was time-consuming. This led me to another idea: I should also build an extension for this task, given that I had already developed one to [generate clamp values](/articles/clamp-it/).
 
 Once again, I relied on ChatGPT to help prepare and guide the script until we reached the final result.
 

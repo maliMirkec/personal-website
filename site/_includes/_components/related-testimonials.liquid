@@ -4,8 +4,10 @@
 {% if component.random %}
   {% assign list = list | randomItems %}
 {% else %}
-  {% assign list = list | sort: 'data.date' | reverse %}
+  {% assign list = list | sort: 'content.size' | reverse %}
 {% endif %}
+
+
 
 {%- if list -%}
   <section class="box">
