@@ -64,7 +64,7 @@ const generateQandAs = () => {
     return '';
   }
 
-  questions = `
+  let questions = `
     <hr style="border-color:#ccc;">
     <p style="display:block;color:#FF3366;font-size:1.125rem;font-weight:900;line-height:1.4;letter-spacing:0.0125em;word-break:break-word;margin-top:2em;margin-bottom:1em">Quiz answers</p>
     <ul style="list-style:none;margin:0 0 2rem;padding:0">
@@ -158,7 +158,7 @@ const generateList = () => {
 };
 
 const header = () => {
-  headerCode = `<div style="font-family:Inter,Roboto,'Helvetica Neue','Arial Nova','Nimbus Sans',Arial,sans-serif">
+  let headerCode = `<div style="font-family:Inter,Roboto,'Helvetica Neue','Arial Nova','Nimbus Sans',Arial,sans-serif">
     <div style="background:#eee;padding:2rem">
       <a style="display:block;text-align:center" href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/${generateDateString()}/">
         <img style="margin:auto" alt="UI Dev Newsletter logo" src="https://res.cloudinary.com/starbist/image/upload/v1678903553/UI_Dev_Newsletter_FF3366_pv7tdb.png" width="150" height="150">
@@ -170,7 +170,7 @@ const header = () => {
 };
 
 const footer = () => {
-  footerCode = `<p>Happy coding!</p>
+  let footerCode = `<p>Happy coding!</p>
       <hr style="border-color:#ccc;">
       <p>
         <a href="https://www.silvestar.codes/side-projects/ui-dev-newsletter/archive/" style="text-decoration:none">

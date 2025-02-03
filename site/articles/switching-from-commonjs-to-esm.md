@@ -5,7 +5,7 @@ date: 2025-01-31 11:00:00
 tags:
   - blog
   - eleventy
-description:
+description: Learn how I transitioned my Eleventy website from CommonJS to ESM.
 type: articles-item
 ---
 
@@ -29,8 +29,10 @@ If you are wondering why I included `package.json`, it is because I parsed the E
 
 But Zach told me that this data is provided by Eleventy so I removed the import and added the following line:
 
+{% raw %}
 ```html
 <meta name="generator" content="{{ eleventy.generator }}">
 ```
+{% endraw %}
 
 You can see all changes in [this commit on GitHub](https://github.com/maliMirkec/personal-website/commit/050d7e1886b62687f38a26d58ad1cb68f0c65d37.).
