@@ -434,6 +434,10 @@ blockquote p:not(:first-of-type) {
   list-style: none;
 }
 
+.footer__social :is(a, svg) {
+  display: block;
+}
+
 .footer__social svg {
   stroke: var(--color-gamma);
   block-size: 2rem;
