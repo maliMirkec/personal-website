@@ -14,7 +14,7 @@
     </div>
   {%- endif -%}
   {%- if component.img -%}
-    <div class="hero__image"{% if component.img.clamp or component.img.bg %} style="{% if component.img.clamp %}--max-inline-size: {{ component.img.clamp }};{% endif %}{% if component.img.bg %}--hero-bg: url({{ component.img.bg }});{% endif %}"{% endif %}>
+    <div class="hero__image">
       {% assign heroWidth2x = component.img.width | times: 2 %}
       {% assign heroWidths = component.img.width | append: ',' | append: heroWidth2x | split: ',' %}
       {%- cldnryfetch component.img.src component.img.alt heroWidths false -%}
