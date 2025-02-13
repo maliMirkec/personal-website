@@ -489,8 +489,23 @@ blockquote p:not(:first-of-type) {
 }
 
 .page--about .hero__image img {
-  max-inline-size: min(240px, 100%);
-  border-radius: 50%;
+  --s: min(600px, 90vw);
+  background-image: var(--hero-bg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  inline-size: var(--s);
+  padding-inline: calc(var(--s) / 10) 0;
+  transform: perspective(100vmax) rotateY(calc(var(--_i , 1) * 10deg));
+  transition: 555ms;
+  cursor: pointer;
+}
+
+.page--about .hero__image img:hover {
+  --_i: -1;
+  padding-inline: 0 calc(var(--s) / 10);
 }
 
 .hero__image svg {
@@ -859,6 +874,8 @@ blockquote p:not(:first-of-type) {
   text-shadow: 1px 1px var(--color-alpha);
   max-inline-size: 30ch;
   text-wrap: balance;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
 }
 
 .article-footer {
@@ -1510,6 +1527,10 @@ blockquote p:not(:first-of-type) {
 
   .box__grid--beta {
     grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
+  }
+
+  .page--about .hero__image img {
+    max-inline-size: var(--max-inline-size, 100%);
   }
 
   .banner.sticky {

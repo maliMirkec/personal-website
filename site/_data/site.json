@@ -18,5 +18,6 @@
   "lastfm": true,
   "animate": false,
   "delimiter": " ✣ ",
-  "established": 2016
+  "established": 2016,
+  "mastodon": "@cita@mastodon.social"
 }

@@ -9,11 +9,12 @@ sections:
     text: I am Silvestar Bistrović, a **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), and founder of [CSS Auditors](https://css-auditors.com/).
     text_width: 40
     img:
-      src: PSX_20210122_073856_fdz5qg
+      bg: https://res.cloudinary.com/starbist/image/upload/q_auto/v1737446172/office1_zeigdx.jpg
+      src: b_j5p02q
       alt: A profile photo of Silvestar Bistrović.
       width: 240
       height: 240
-      clamp: clamp(10rem, calc(5rem + 8vw), 15rem)
+      clamp: clamp(18.75rem, calc(4.545rem + 22.727vw), 25rem);
 sections2:
   - type: banner
     banner: consultation

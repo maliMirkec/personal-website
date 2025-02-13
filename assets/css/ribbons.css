@@ -65,6 +65,8 @@ textarea {
 
 :where(h1, h2, h3, h4, h5, h6) {
   text-wrap: balance;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
 }
 
 :where(p, li) {
@@ -478,6 +480,8 @@ h5,
 h6,
 .balance {
   text-wrap: balance;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
 }
 
 body,
