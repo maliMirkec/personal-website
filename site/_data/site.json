@@ -2,8 +2,15 @@
   "url": "https://www.silvestar.codes",
   "title": "S.Bistrović",
   "author": "Silvestar Bistrović",
-  "about": "Silvestar is a fearless web developer with a passion for all things frontend.",
+  "alias": "Cita",
+  "id": "cita",
+  "about": "Silvestar Bistrović is a fearless web developer who has been creating modern, high-performance, and SEO-optimized websites since 2012, applying the best coding practices to ensure an excellent experience for every user.",
   "cover": "SB_ga86yw",
+  "avatars": [
+    "https://res.cloudinary.com/starbist/image/upload/f_jpg,w_1000,ar_1:1,c_fill,g_auto/v1638533826/PSX_20210122_073856_fdz5qg.jpg",
+    "https://res.cloudinary.com/starbist/image/upload/f_jpg,w_1000,ar_4:3,c_fill,g_auto/v1638533826/PSX_20210122_073856_fdz5qg.jpg",
+    "https://res.cloudinary.com/starbist/image/upload/f_jpg,w_1000,ar_16:9,c_fill,g_auto/v1638533826/PSX_20210122_073856_fdz5qg.jpg"
+  ],
   "limit": 10,
   "cldnry": "starbist",
   "placeholder": "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAQAAABeK7cBAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII=",
