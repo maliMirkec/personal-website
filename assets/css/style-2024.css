@@ -840,7 +840,7 @@ blockquote p:not(:first-of-type) {
   inline-size: var(--s);
   padding-inline: calc(var(--s) / 10) 0;
   border-radius: var(--size-05-10);
-  transform: perspective(100vmax) rotateY(calc(var(--_y , 1) * 10deg));
+  transform: perspective(var(--viewport)) rotateY(calc(var(--_y , 1) * 10deg));
   transition: 555ms;
   cursor: pointer;
 }
