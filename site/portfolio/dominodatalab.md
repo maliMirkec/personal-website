@@ -39,7 +39,7 @@ sections:
     title: Testimonials
     filter: testimonials
     company: DDL
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

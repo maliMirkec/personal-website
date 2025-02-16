@@ -5,7 +5,7 @@ description: SB is a clean and simple theme for Hexo blog framework based on pin
 tags:
   - projects
 display: false
-date: 2005-10-01
+date: 2005-04-01
 ---
 
 <header class="header">

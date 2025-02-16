@@ -467,7 +467,6 @@ blockquote p:not(:first-of-type) {
   grid-column: 1 / -1;
   display: grid;
   gap: var(--size-10-20);
-  padding-block: var(--size-20-40);
 }
 
 .page--about .hero {
@@ -591,6 +590,10 @@ blockquote p:not(:first-of-type) {
 
 .box__subtitle {
   font-size: var(--size-20-30);
+}
+
+.box__text {
+  font-size: var(--size-15-18);
 }
 
 .box__tags {
@@ -1413,6 +1416,10 @@ blockquote p:not(:first-of-type) {
       "sidebar";
   }
 
+  .hero {
+    padding-block-start: var(--size-20-40);
+  }
+
   .hero__image {
     margin-block-start: var(--size-10-20);
   }
@@ -1497,6 +1504,10 @@ blockquote p:not(:first-of-type) {
     margin: calc(var(--size-05-10) * -1);
     border-radius: inherit;
     z-index: -1;
+  }
+
+  .hero {
+    padding-block: var(--size-20-40);
   }
 
   body:not(.page--portfolio-item) .hero:has(.hero__image) {

@@ -1,59 +1,34 @@
-{%- assign list = collections[component.filter] | where: 'data.display', true -%}
-{%- assign i1 = 1 -%}
-
-{% if component.random %}
-  {% assign list = list | randomItems %}
-{% else %}
-  {% assign list = list | sort: 'data.date' | reverse %}
-{% endif %}
+{%- liquid
+  assign list = collections[component.filter] | sort: 'date' | reverse
+  assign i1 = 1
+-%}
 
 {%- if list -%}
   <section class="box">
     {%- if component.title -%}
       <h2 class="box__title">{{ component.title }}</h2>
     {%- endif -%}
-    <ul class="box__grid box__grid--alpha">
+    <ul class="box__list">
       {%- for card in list -%}
-        {% liquid
-          assign now = 'now' | date: "%Y-%m-%d"
-          assign cardDate = card.data.date | date: "%Y-%m-%d"
-          if cardDate > now
-            continue
-          endif
-          if component.featured and card.data.featured != true
-            continue
-          endif
-          if component.exclude and card.url == page.url
-            continue
-          endif
-        %}
-        {% unless component.limit and i1 > component.limit %}
-          <li class="box__item">
-            <a class="box__anchor box__panel" href="{{ card.url }}">
-              {%- if card.data.thumbnail -%}
-                {% assign projectWidths = '320, 640' | split: ',' %}
-                {%- cldnryfetch card.data.thumbnail.src card.data.thumbnail.alt projectWidths false false -%}
+        {%- if card.data.projectName -%}
+          {%- assign projectTitle = card.data.projectName -%}
+        {%- elsif card.data.title -%}
+          {%- assign projectTitle = card.data.title -%}
+        {%- endif -%}
+        {%- if card.data.year -%}
+          {%- assign projectTitle = projectTitle | append: ' ' | append: card.data.year -%}
+        {%- endif -%}
+        {%- unless component.limit and i1 > component.limit -%}
+          {%- unless component.exclude and page.url == card.url -%}
+            <li class="box__item">
+              <h3 class="box__subtitle"><a href="{{ card.url }}">{{ projectTitle }}</a></h3>
+              {%- if card.data.description -%}
+                <p class="box__text">{{ card.data.description }}</p>
               {%- endif -%}
-              {%- if card.data.projectTitle -%}
-                <h3 class="box__subtitle">
-                  {{ card.data.projectTitle }}
-                </h3>
-              {%- elsif card.data.title -%}
-                <h3 class="box__subtitle">
-                  {{ card.data.title }}
-                </h3>
-              {%- endif -%}
-            </a>
-            {%- if card.data.tech and true == false -%}
-              <span class="box__tags">
-                {%- for tech in card.data.tech -%}
-                  <a class="box__anchor box__tag" href="/tags/{{ tech | slug }}/">{{ tech }}</a>
-                {%- endfor -%}
-              </span>
-            {%- endif -%}
-          </li>
-          {% assign i1 = i1 | plus: 1 %}
-        {% endunless %}
+            </li>
+            {%- assign i1 = i1 | plus: 1 -%}
+          {%- endunless -%}
+        {%- endunless -%}
       {%- endfor -%}
     </ul>
     {%- if component.cta -%}
@@ -62,4 +37,4 @@
       </div>
     {%- endif -%}
   </section>
-{% endif %}
+{%- endif -%}

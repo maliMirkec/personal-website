@@ -11,7 +11,7 @@ sections:
     text2: >-
       Built with WordPress, Shopify, Jekyll, 11ty, and Hugo, among others.
     text2_width: 50
-  - type: project-list
+  - type: project-cards
     filter: portfolio
   - type: banner
     banner: consultation

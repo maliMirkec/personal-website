@@ -11,7 +11,7 @@ thumbnail:
   width: 759
   height: 459
 display: true
-date: 2021-02-18
+date: 2022-01-01
 sections:
   - type: hero
     src: css-auditors_fozunn
@@ -30,7 +30,7 @@ sections:
   - type: banner
     banner: consultation
     sticky: true
-  - type: project-list
+  - type: project-cards
     title: Featured projects
     filter: projects
     limit: 6

@@ -38,7 +38,7 @@ sections:
   - type: banner
     banner: consultation
     sticky: true
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

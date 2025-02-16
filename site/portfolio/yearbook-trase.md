@@ -41,7 +41,7 @@ sections:
     title: Testimonials
     filter: testimonials
     company: Vizzuality
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

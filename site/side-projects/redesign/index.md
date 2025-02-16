@@ -8,6 +8,7 @@ thumbnail:
   alt: Screenshot of the “Advent of UI components” home page.
   width: 759
   height: 459
+year: 2024
 type: articles
 display: true
 tags:

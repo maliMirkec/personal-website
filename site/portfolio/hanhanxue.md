@@ -38,7 +38,7 @@ sections:
     title: Testimonials
     filter: testimonials
     company: Lyft
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

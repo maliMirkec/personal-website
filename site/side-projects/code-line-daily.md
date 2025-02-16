@@ -30,7 +30,7 @@ sections:
   - type: banner
     banner: consultation
     sticky: true
-  - type: project-list
+  - type: project-cards
     title: Featured projects
     filter: projects
     limit: 6

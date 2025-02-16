@@ -28,7 +28,7 @@ sections:
     limit: 6
   - type: banner
     banner: blog
-  - type: project-list
+  - type: project-cards
     title: Featured projects
     filter: portfolio
     limit: 6

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Advent of UI components
+year: 2021
 projectTitle: Advent of UI components
 description: During every day of the Advent of UI components, I am building a new UI Component. The theme? You guessed it ― Christmas. 🎄
 thumbnail:

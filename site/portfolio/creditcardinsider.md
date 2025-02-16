@@ -42,7 +42,7 @@ sections:
     title: Testimonials
     filter: testimonials
     company: Credit Card Insider
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

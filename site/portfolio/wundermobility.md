@@ -40,7 +40,7 @@ sections:
     title: Testimonials
     filter: testimonials
     company: Wunder Mobility
-  - type: project-list
+  - type: project-cards
     title: Other projects
     filter: portfolio
     random: true

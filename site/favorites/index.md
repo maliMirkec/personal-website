@@ -13,7 +13,7 @@ sections:
   - type: hero
     title: My favorites
     text: Just some random favorite stuff, from TV shows and characters, to bands and artists.
-  - type: project-list
+  - type: project-cards
     filter: favorites
   - type: lastfm
     sticky: true
