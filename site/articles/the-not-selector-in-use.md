@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The :not selectors in use"
+title: "The :not selector in use"
 date: 2025-02-16 14:00:00
 tags:
   - blog
