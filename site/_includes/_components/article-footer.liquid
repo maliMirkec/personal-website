@@ -47,8 +47,13 @@
         <ul>
           {% assign related = collections[firstTag] | reverse %}
           {% assign i = 0 %}
+          {% if firstTag == 'zoo' %}
+            {% assign iLimit = 15 %}
+          {% else %}
+            {% assign iLimit = 3 %}
+          {% endif %}
           {% for article in related %}
-            {% unless i >= 3 %}
+            {% unless i >= iLimit %}
               {% if title != article.data.title %}
                 <li>
                   <a href="{{ article.url }}">{{ article.data.title }}</a>

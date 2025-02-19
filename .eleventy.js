@@ -105,6 +105,8 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addCollection('my-advent', async (collection) => collections('advent', collection))
 
+  eleventyConfig.addCollection('my-zoo', async (collection) => collections('zoo', collection))
+
   eleventyConfig.addCollection('all-tags', async (collection) => tags(collection))
 
   eleventyConfig.addWatchTarget('./assets/**/*')

@@ -967,6 +967,9 @@ blockquote p:not(:first-of-type) {
   block-size: auto;
   inline-size: 100%;
   max-block-size: unset;
+}
+
+.article-content :is(img, p video):not(.plain) {
   box-shadow: 0 var(--size-05-10) var(--size-15-30) var(--color-gamma-op06);
 }
 
