@@ -16,7 +16,7 @@ sections:
       height: 336
     title: Welcome to Web Dev Zoo
     text: You can learn a lot about web development by listening to these wise animals.
-    text2: Listen what they have to say and apply these words of wisdom to your everyday routine.
+    text2: Listen to what they say and apply these words of wisdom to your everyday routine.
   - type: banner
     banner: services
     sticky: true
