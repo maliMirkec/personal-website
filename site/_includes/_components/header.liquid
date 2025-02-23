@@ -4,10 +4,10 @@
       <nav class="header__nav header__nav--alpha" aria-label="Main">
         <ul class="header__list header__list--alpha">
         {% if header2024.logo %}
-          <li class="header__item header__item--alpha">
-            <a class="header__link header__link--alpha" href="{{ header2024.logo.href }}">
+          <li class="header__item header__item--alpha h-card">
+            <a class="header__link header__link--alpha u-url" href="{{ header2024.logo.href }}">
               {% include '_components/logo.svg' %}
-              <span>{{ header2024.name }}</span>
+              <span class="p-name{% if type == 'articles-item' %} p-author{% endif %}">{{ header2024.name }}</span>
             </a>
           </li>
         {% endif %}

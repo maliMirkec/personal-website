@@ -15,6 +15,7 @@ const markdownItRenderer = new markdownIt();
 
 export default async (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
+  eleventyConfig.ignores.add('assets/gfx/cldnry/*')
 
   let passthroughCopy = {
     'assets/': '.',

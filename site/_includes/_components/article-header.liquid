@@ -1,5 +1,5 @@
 <section class="article-header" id="header">
-  <h1>{{ title }}</h1>
+  <h1 class="p-name">{{ title }}</h1>
   <div class="tags">
     {% if firstTag and data2024[firstTag] %}
       <p>Category: <a href="{{ data2024[firstTag].href }}">{{ data2024[firstTag].title }}</a></p>
@@ -7,7 +7,7 @@
     {% if tags %}
       {% assign myTags = tags | tagify %}
       {% if myTags != blank %}
-        <p>Tagged: {% for tag in myTags %}<a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        <p>Tagged: {% for tag in myTags %}<a class="p-category" rel="category tag" href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
       {% endif %}
     {% endif %}
     {% if canonical and publication %}
@@ -15,7 +15,7 @@
     {% endif %}
     {% unless hideDate %}
       {% if date %}
-        <p>Published at: <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time></p>
+        <p>Published at: <time class="dt-published" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%Y-%m-%d' }}</time></p>
       {% endif %}
     {% endunless %}
   </div>

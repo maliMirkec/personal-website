@@ -4,9 +4,9 @@
 -%}
 
 {%- if list -%}
-  <section class="box">
+  <section class="box h-feed">
     {%- if component.title -%}
-      <h2 class="box__title">{{ component.title }}</h2>
+      <h2 class="box__title p-name">{{ component.title }}</h2>
     {%- endif -%}
     <ul class="box__list">
       {% assign skip = false %}
@@ -28,13 +28,13 @@
         {%- endunless -%}
         {%- unless component.limit and i1 > component.limit -%}
           {%- unless component.exclude and page.url == card.url -%}
-            <li class="box__item">
+            <li class="box__item h-entry">
               {%- if card.data.title -%}
-                <h3 class="box__subtitle"><a href="{{ card.url }}">{{ card.data.title }}</a></h3>
+                <h3 class="box__subtitle"><a class="u-url p-name entry-title" rel="bookmark" href="{{ card.url }}">{{ card.data.title }}</a></h3>
               {%- endif -%}
               <div class="box__tags">
                 {%- if cardDate -%}
-                  <time class="box__tag" datetime="{{ cardDate }}">{{ cardDate }}</time>
+                  <time class="box__tag dt-published" datetime="{{ cardDate }}">{{ cardDate }}</time>
                 {%- endif -%}
                 {%- if card.data.publication -%}
                   <span class="box__tag box__tag--alpha">{{ card.data.publication }}</span>
@@ -42,7 +42,7 @@
                 {%- if card.data.tags and true == false -%}
                   {%- for tag in card.data.tags -%}
                     {%- unless tag == 'blog' -%}
-                      <a href="/tags/{{ tag | slug }}/" class="fancy-hover box__tag box__tag--beta">{{ tag }}</a>
+                      <a href="/tags/{{ tag | slug }}/" class="fancy-hover box__tag box__tag--beta p-category" rel="category tag">{{ tag }}</a>
                     {%- endunless -%}
                   {%- endfor -%}
                 {%- endif -%}
