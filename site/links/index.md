@@ -9,6 +9,7 @@ sections:
     text: Here are my links and profiles from all over the web, from social networks to projects and publications.
     text_width: 40
 sections2:
+  - type: webrings
   - type: banner
     banner: consultation
     sticky: true

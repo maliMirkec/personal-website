@@ -771,6 +771,11 @@ blockquote p:not(:first-of-type) {
   place-self: start;
 }
 
+.banner nav {
+  display: grid;
+  gap: var(--size-05-10);
+}
+
 [class*="__form"] {
   display: grid;
   gap: var(--size-05-10);

@@ -1,4 +1,5 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none">
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" aria-labelledby="anTitle" role="img">
+  <title id="anTitle">A client comes with an idea, I come with the code, we build a site, and the client is happy.</title>
   <style>
   :root {
     --trdur: 777ms;
