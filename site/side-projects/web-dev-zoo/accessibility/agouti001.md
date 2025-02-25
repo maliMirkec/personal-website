@@ -4,6 +4,7 @@ title: "Always write meaningful alt attributes"
 date: 2025-02-11 08:00:00
 tags:
   - zoo
+  - accessibility
 description: "Accessibility Agouti says: Always write meaningful alt attributes for images."
 type: articles-item
 ---
@@ -27,5 +28,5 @@ Here are some tips on how to write good `alt` attributes.
 - Use clear and simple words.
 - Describe the image in a useful way.
 - Write naturally, not just for search engines.
-- If an image is just for design, leave the `alt` empty so screen readers skip it.
+- If an image is for design only, leave the `alt` text empty so screen readers skip it.
 {% endnote %}
