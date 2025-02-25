@@ -10,4 +10,12 @@ type: articles-item
 
 {% cldnryfetch "cc_eytojl" "CSS Coati says: Use display: contents with great caution." false true "picolo plain" %}
 
-CSS Coati says: Use display: contents with great caution.
+CSS Coati says: Use `display: contents` with great caution.
+
+{% note "Side effects" %}
+- It removes elements from the accessibility tree, making them invisible to screen readers, which can harm usability.
+- Some interactive elements (like buttons or links) may stop working as expected because their structure is altered.
+- Child elements lose inheritance from their parent (like flex, grid, or positioning), which can lead to layout issues.
+- Some scripts or CSS selectors relying on parent-child relationships might break because the parent element is removed visually.
+- Many use cases for `display: contents` can be handled better with other CSS techniques like flex or grid adjustments.
+{% endnote %}

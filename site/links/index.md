@@ -74,3 +74,7 @@ sections2:
 - [Practical Dev](https://dev.to/starbist)
 - [Medium](https://medium.com/@malimirkeccita)
 - [Hacker Noon](https://hackernoon.com/@malimirkeccita)
+
+## Web clubs
+
+- This site is part of [The 512KB Club](https://512kb.club/).
