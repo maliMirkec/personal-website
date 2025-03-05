@@ -2,7 +2,7 @@
 <meta property="og:type" content="website">
 <meta name="generator" content="{{ eleventy.generator }}">
 {% if title %}
-  <meta property="og:title" content="{{ longTitle }}">
+  <meta property="og:title" content="{{ longTitle | escape }}">
 {% endif %}
 {% if tag and description_placeholder %}
   <meta property="og:description" content="{{ description_placeholder | replace: 'XXYY', tag }}">
