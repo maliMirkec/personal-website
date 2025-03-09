@@ -21,16 +21,16 @@
         {% endif %}
       </nav>
     {% endif %}
-    {% if header2024.menu2 %}
-      <nav class="header__nav header__nav--beta" aria-label="Other">
-        <ul class="header__list header__list--beta">
-          {% for item in header2024.menu2 %}
-            <li class="header__item">
-              <a class="header__link header__link--gamma" href="{{ item.href }}">{{ item.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    {% endif %}
   </header>
+  {% if header2024.menu2 %}
+    <nav class="header__nav header__nav--beta" aria-label="Other">
+      <ul class="header__list header__list--beta">
+        {% for item in header2024.menu2 %}
+          <li class="header__item">
+            <a class="header__link header__link--gamma" href="{{ item.href }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
 {% endif %}

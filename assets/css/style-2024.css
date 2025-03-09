@@ -323,6 +323,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .header__nav--beta {
+  grid-area: links;
   background-image: var(--bg-light), linear-gradient(to right, var(--color-gamma) -1000%, transparent 150%);
   background-repeat: repeat;
   background-size: var(--bg-size), 100%;
@@ -1272,12 +1273,8 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (width < 500px) {
-  .header__nav {
+  .header__nav--alpha {
     border-radius: var(--size-50-100) var(--size-30-60) var(--size-30-60) var(--size-50-100);
-  }
-
-  .header__nav--beta {
-    display: none;
   }
 
   .header__list--alpha {
@@ -1298,7 +1295,7 @@ blockquote p:not(:first-of-type) {
   }
 
   .header__item:not(.header__item--alpha) {
-    flex: 1 1 33%;
+    flex: 1 1 auto;
   }
 
   .header__link--beta,
@@ -1311,6 +1308,10 @@ blockquote p:not(:first-of-type) {
 
   .header__link--beta {
     padding-inline: var(--size-02-04);
+  }
+
+  .header__link--gamma {
+    border-radius: var(--size-15-30);
   }
 
   .article-footer {
@@ -1328,10 +1329,6 @@ blockquote p:not(:first-of-type) {
     align-items: center;
     gap: var(--size-10-20);
     margin-inline-end: var(--size-20-40);
-  }
-
-  .header__link--gamma {
-    border-radius: var(--size-20-40);
   }
 
   .hero--testimonial {
@@ -1409,6 +1406,10 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (500px <= width < 1000px) {
+  .header__link--gamma {
+    border-radius: var(--size-05-10);
+  }
+
   .article-content,
   .article-footer {
     display: grid;
@@ -1417,10 +1418,16 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (width < 1000px) {
+  .header__nav--beta {
+    margin-inline: var(--size-05-10);
+    border-radius: var(--size-20-40);
+  }
+
   .wrapper {
     grid-template-areas:
       "header"
       "main"
+      "links"
       "sidebar";
   }
 
@@ -1484,6 +1491,10 @@ blockquote p:not(:first-of-type) {
 }
 
 @media screen and (width >= 1000px) {
+  .header__link--gamma {
+    border-radius: var(--size-20-40);
+  }
+
   :where(h1, h2, h3, h4, h5, h6) {
     font-weight: 900;
   }
@@ -1492,6 +1503,7 @@ blockquote p:not(:first-of-type) {
     grid-template-columns: 1fr var(--sidebar);
     grid-template-areas:
       "header header"
+      "links links"
       "main sidebar";
   }
 
