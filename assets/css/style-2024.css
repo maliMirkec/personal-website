@@ -1296,7 +1296,11 @@ blockquote p:not(:first-of-type) {
     transform: translateY(-50%);
   }
 
-  .header__item:not(.header__item--alpha) {
+  .header__item--beta {
+    flex: 1 1 33%;
+  }
+
+  .header__item--gamma {
     flex: 1 1 auto;
   }
 
