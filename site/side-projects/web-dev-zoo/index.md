@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Dev Zoo
-description: Listen to these wise animals they say and apply these words of wisdom to your everyday routine.
+description: Discover valuable insights about web development.
 type: side-projects-item
 tags:
   - projects
@@ -15,8 +15,8 @@ sections:
       width: 451
       height: 336
     title: Welcome to Web Dev Zoo
-    text: You can learn a lot about web development from these wise animals.
-    text2: Listen to what they say and apply these words of wisdom to your everyday routine.
+    text: Discover valuable insights about web development from these animals.
+    text2: Remember to subscribe to the [RSS feed](/rss4.xml) so you don't miss these wise words.
   - type: banner
     banner: services
     sticky: true

@@ -1055,6 +1055,8 @@ blockquote p:not(:first-of-type) {
 
 .article-content :is(code[class*="language-"], pre[class*="language-"]) {
   line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: 0.005em;
 }
 
 .invalid-css pre[class*="language-"]:first-of-type {

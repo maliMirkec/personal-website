@@ -7,7 +7,7 @@ tags:
   - web dev
   - html
   - css
-  - js
+  - javascript
 description: My favorites in 2024 for building a website are Contentful, Eleventy, LiquidJS, vanilla CSS, and vanilla JS.
 type: articles-item
 ---
