@@ -17,8 +17,13 @@
 {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
 {% endif %}
-<meta property="og:image" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
-<meta property="og:image:secure_url" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
+{% if og_img %}
+  <meta property="og:image" content="{%- cldnrysrc og_img 1200 630 -%}">
+  <meta property="og:image:secure_url" content="{%- cldnrysrc og_img 1200 630 -%}">
+{% else %}
+  <meta property="og:image" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
+  <meta property="og:image:secure_url" content="{{ site.url }}/og.png?text={% if ogImageTitle %}{{ ogImageTitle | url_encode }}{% else %}{{ title | url_encode }}{% endif %}">
+{% endif %}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 {% if tags and tags[0] == 'blog' %}

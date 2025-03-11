@@ -8,7 +8,7 @@ import env from './site/_data/env.js';
 import social from './eleventy/social.js';
 import tagify from './eleventy/tagify.js';
 import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js';
-import { cldnryimg, cldnrylink, cldnryfetch } from './eleventy/cldnry.js';
+import { cldnryimg, cldnrylink, cldnryfetch, cldnrysrc } from './eleventy/cldnry.js';
 import { collections, tags } from './eleventy/collections.js';
 
 const markdownItRenderer = new markdownIt();
@@ -75,6 +75,8 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode('cldnrylink', async (link, src, alt, width, height, classes, instant) => cldnrylink(link, src, alt, width, height, classes, instant))
 
   eleventyConfig.addLiquidShortcode('cldnryfetch', async (src, alt, widths, lazy = true, classes = '', svg = false) => cldnryfetch(src, alt, widths, lazy, classes, svg))
+
+  eleventyConfig.addLiquidShortcode('cldnrysrc', async (img, width) => cldnrysrc(img, width))
 
   eleventyConfig.addPairedLiquidShortcode('note', async (str, title) => note(str, title))
 

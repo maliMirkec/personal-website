@@ -72,8 +72,15 @@ const cldnrylink = async (link, src, alt, width, height, classes, instant) => {
   return `<a href="${link}">${await cldnryimg(src, alt, width, height, classes, instant)}</a>`
 }
 
+const cldnrysrc = async (img, width = 1200) => {
+  const src = `${'https://res.cloudinary.com/starbist/image/upload/w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+
+  return src
+}
+
 export {
   cldnryimg,
   cldnrylink,
-  cldnryfetch
+  cldnryfetch,
+  cldnrysrc
 };

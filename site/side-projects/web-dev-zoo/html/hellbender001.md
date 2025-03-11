@@ -2,6 +2,7 @@
 layout: default
 title: "Don’t forget the lang attribute"
 date: 2025-02-13 08:00:00
+og_img: hh1_pehhab
 tags:
   - zoo
   - html
@@ -9,9 +10,13 @@ description: "HTML hellbender says: Don’t forget the lang attribute to define 
 type: articles-item
 ---
 
-{% cldnryfetch "hh1_t5etcj" "Poorly drawn hellbender with a text in a speech bubble: “HTML hellbender says: Don’t forget the lang attribute to define the default language.”" false true "picolo plain" %}
+{% cldnryfetch "hh1_pehhab" "Poorly drawn hellbender with a text in a speech bubble: “HTML hellbender says: Don’t forget the lang attribute to define the default language.”" false true "center plain" %}
 
-HTML hellbender says: Don’t forget the `lang` attribute to define the default language.
+HTML hellbender says:
+
+> Don’t forget the `lang` attribute to define the default language.
+
+And here’s why:
 
 {% note "Benefits" %}
 - Screen readers use the `lang` attribute to pronounce words correctly and adjust voice settings, making content easier to understand.

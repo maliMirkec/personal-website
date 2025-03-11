@@ -279,16 +279,6 @@ blockquote {
   padding-inline-start: var(--size-30-60);
 }
 
-blockquote:before {
-  content: '';
-  background-image: linear-gradient(var(--color-gamma), var(--color-alpha));
-  border-radius: var(--size-02-04);
-  position: absolute;
-  inset-block: 0;
-  inset-inline-start: 0;
-  inline-size: 0.15em;
-}
-
 blockquote p {
   font-size: var(--size-16-20);
 }
@@ -678,7 +668,14 @@ blockquote p:not(:first-of-type) {
   max-inline-size: max(60ch, 75%);
 }
 
-.box__quote blockquote:before {
+:is(.box__quote, .testimonials) blockquote:before {
+  content: '';
+  background-image: linear-gradient(var(--color-gamma), var(--color-alpha));
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 0.15em;
+  border-radius: var(--size-02-04);
   transform: translate(-50%);
 }
 
@@ -1001,9 +998,16 @@ blockquote p:not(:first-of-type) {
 
 .article-content blockquote,
 .note {
-  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
   padding-inline: 2rem;
   margin-block-end: 1.25rem;
+}
+
+.article-content .note {
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
+}
+
+.article-content blockquote {
+  background-image: var(--bg-light), linear-gradient(to right, transparent -100%, var(--color-alpha) 500%);
 }
 
 .article-content blockquote {
@@ -1023,8 +1027,17 @@ blockquote p:not(:first-of-type) {
   font-size: var(--size-20-30);
 }
 
-.copy blockquote:before {
-  inline-size: .3em;
+.article-content blockquote:before {
+  content: "Quote";
+  background-color: var(--color-light);
+  font-family: var(--cursive);
+  font-size: var(--size-15-18);
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 2rem;
+  padding-inline: var(--size-10-20);
+  border-radius: var(--size-10-20);
+  transform: translateY(-50%);
 }
 
 .article-content :is(p code, li code, code[class*="language-"], pre[class*="language-"]) {

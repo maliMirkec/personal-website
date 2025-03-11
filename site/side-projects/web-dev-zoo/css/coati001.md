@@ -2,6 +2,7 @@
 layout: default
 title: "Use display: contents with great caution"
 date: 2025-02-18 08:00:00
+og_img: cc1_ygc7wj
 tags:
   - zoo
   - css
@@ -9,9 +10,13 @@ description: "CSS Coati says: Use display: contents with great caution."
 type: articles-item
 ---
 
-{% cldnryfetch "cc_eytojl" "CSS Coati says: Use display: contents with great caution." false true "picolo plain" %}
+{% cldnryfetch "cc1_ygc7wj" "CSS Coati says: Use display: contents with great caution." false true "center plain" %}
 
-CSS Coati says: Use `display: contents` with great caution.
+CSS Coati says:
+
+> Use `display: contents` with great caution.
+
+And here’s why:
 
 {% note "Side effects" %}
 - It removes elements from the accessibility tree, making them invisible to screen readers and harming usability.

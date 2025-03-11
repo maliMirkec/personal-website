@@ -2,6 +2,7 @@
 layout: default
 title: "Don't save sensitive data in localStorage"
 date: 2025-02-25 08:00:00
+og_img: jj1_kuhwyg
 tags:
   - zoo
   - javascript
@@ -9,9 +10,13 @@ description: "JavaScript Jerboa says: Don't forget the lang attribute to define 
 type: articles-item
 ---
 
-{% cldnryfetch "jj_ppkxcp" "Poorly drawn jerboa with a text in a speech bubble: “Don't save sensitive data in localStorage because it never expires.”" false true "picolo plain" %}
+{% cldnryfetch "jj1_kuhwyg" "Poorly drawn jerboa with a text in a speech bubble: “Don't save sensitive data in localStorage because it never expires.”" false true "center plain" %}
 
-JavaScript Jerboa says: Don't save sensitive data in `localStorage` because it never expires.
+JavaScript Jerboa says:
+
+> Don't save sensitive data in `localStorage` because it never expires.
+
+And here’s why:
 
 {% note "Side effects" %}
 - Data in `localStorage` remains there until you manually delete it, making it a long-term target for attackers.

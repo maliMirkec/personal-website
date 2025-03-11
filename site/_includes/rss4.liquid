@@ -26,6 +26,15 @@
     {% for article in articles %}
     {% unless article.noindex %}
       {% assign checkDate = article.date | date: "%Y-%m-%d" %}
+      {% if article.data.og_img %}
+        {% capture ogImg %}
+          {% cldnrysrc article.data.og_img 1200 630 %}
+        {% endcapture %}
+      {% else %}
+        {% capture ogImg %}
+          {{ site.url }}/og.png?text={% if article.data.ogImageTitle %}{{ article.data.ogImageTitle | url_encode }}{% else %}{{ article.data.title | url_encode }}{% endif %}
+        {% endcapture %}
+      {% endif %}
       {% if checkDate <= now %}
         <item>
           <title><![CDATA[{{ article.data.title }}]]></title>
@@ -40,7 +49,7 @@
             {% endfor %}
           {% endif %}
           <author>{{ metadata.author.email }} ({{ metadata.author.name }})</author>
-          <enclosure url="{{ site.url }}/og.png?text={% if article.data.ogImageTitle %}{{ article.data.ogImageTitle | url_encode }}{% else %}{{ article.data.title | url_encode }}{% endif %}" length="0" type="image/png"/>
+          <enclosure url="{{ ogImg }}" length="0" type="image/png"/>
         </item>
       {% endif %}
     {% endunless %}
