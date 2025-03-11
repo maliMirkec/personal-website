@@ -14,10 +14,10 @@ display: true
 date: 2019-08-08
 sections:
   - type: hero
-    src: cld_eweklc
-    alt: Screenshot of Code Line Daily website.
-    width: 759
-    height: 459
+    img:
+      src: cld_eweklc
+      alt: Screenshot of Code Line Daily website.
+      width: 543
     title: Code Line Daily
     text: Code Line Daily is dedicated to highlighting awesome code single-liners.
     cta:
@@ -30,9 +30,8 @@ sections:
   - type: banner
     banner: consultation
     sticky: true
-  - type: project-cards
-    title: Featured projects
+  - type: project-list
+    title: Other projects
     filter: projects
-    limit: 6
     exclude: true
 ---
