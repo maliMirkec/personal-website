@@ -14,5 +14,9 @@
   "advent": {
     "title": "Advent of UI components",
     "href": "/side-projects/advent/"
+  },
+  "zoo": {
+    "title": "Web Dev Zoo",
+    "href": "/side-projects/web-dev-zoo/"
   }
 }
