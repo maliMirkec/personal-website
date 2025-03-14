@@ -28,11 +28,11 @@
     "href": "/testimonials/",
     "title": "Testimonials"
   }, {
-    "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter"
-  }, {
     "href": "/side-projects/web-dev-zoo/",
     "title": "Web Dev Zoo"
+  }, {
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Newsletter"
   }, {
     "href": "/side-projects/",
     "title": "Side projects"
