@@ -235,8 +235,8 @@ When you want to store data that are not available in Markdown files, you should
 Let's store those social links in our data file. Since all generators support YAML format, let's save the data in the social.yml file:
 
 ```yml
-- name: Twitter
-  href: https://twitter.com/malimirkeccita
+- name: BlueSky
+  href: https://bsky.app/profile/silvestar.codes
 - name: LinkedIn
   href: https://github.com/maliMirkec/
 - name: GitHub

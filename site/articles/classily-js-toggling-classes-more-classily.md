@@ -212,7 +212,7 @@ For more Classily.js examples, check this [Codepen collection](https://codepen.i
 
 Classily.js is helping me with my everyday job. I no longer have to jump from template file to script file to execute simple tasks like class toggling. And I'm able to achieve some pretty nifty tricks with it.
 
-[Share it](https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/), [like it](https://www.npmjs.com/package/classily.js), [star it](https://github.com/maliMirkec/Classily.js), [tweet it](https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/&text=Classily.js%20-%20Toggling%20classes%20more%20classily&via=malimirkeccita)!
+[Share it](https://facebook.com/sharer.php?u=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/), [like it](https://www.npmjs.com/package/classily.js), [star it](https://github.com/maliMirkec/Classily.js), [tweet it](https://twitter.com/intent/tweet?url=https://www.silvestar.codes/articles/classily-js-toggling-classes-more-classily/&text=Classily.js%20-%20Toggling%20classes%20more%20classily)!
 
 Also, don't hesitate [to report an issue](https://github.com/maliMirkec/Classily.js/issues/new), if you find any. And if you know how to make tests for this plugin, let me know how.
 

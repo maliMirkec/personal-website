@@ -103,5 +103,3 @@ To make **Angular dragtable** more performant, especially when using a large tab
 In this article, I wanted to provide detailed insight of the creation process of this Angular directive.
 
 I really enjoyed building it and I'm hoping you will enjoy using it.
-
-Share your thoughts by commenting on this article or [tweet me](https://twitter.com/malimirkeccita).

@@ -111,8 +111,6 @@ And here's the final solution:
 
 I really enjoyed solving this problem and I'm quite happy with the solution. And it is a fully responsive solution, which is great.
 
-If you like this article or you have a different solution, let me know in the comments or on [twitter](//twitter.com/malimirkeccita).
-
 ## Update
 
 After I posted the article on [Reddit](https://www.reddit.com/r/Frontend/comments/6pihl9/how_to_create_crooked_shadow/), Martijn Hermans provided alternative and perhaps even more elegant solution using `skew` and a single pseudo element:

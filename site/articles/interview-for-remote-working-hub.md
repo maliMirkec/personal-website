@@ -109,7 +109,7 @@ I hope more people realise the benefits of remote working. I would be thrilled t
 
 * [https://www.silvestar.codes](/)
 * [https://www.silvestar.codes/links/](/links/)
-* [https://twitter.com/malimirkeccita](https://twitter.com/malimirkeccita)
+* [https://bsky.app/profile/silvestar.codes](https://bsky.app/profile/silvestar.codes)
 * [https://www.linkedin.com/in/starbist/](https://www.linkedin.com/in/starbist/)
 * [https://github.com/maliMirkec](https://github.com/maliMirkec)
 * [https://codepen.io/CiTA/](https://codepen.io/CiTA/)

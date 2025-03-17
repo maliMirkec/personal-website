@@ -134,7 +134,7 @@ description: SB is a clean and simple theme for Hexo blog framework based on pin
         <li class="details__item"><a class="tally" href="/side-projects/sbtheme/tags-hexo/">hexo</a></li>
       </ul>
       <div class="social">
-        <a class="tally" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/side-projects/sbtheme/getting-started/&amp;text=Getting Started With Hexo Theme SB&amp;via=malimirkeccita" target="_blank">Share on Twitter</a><a class="tally" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/side-projects/sbtheme/getting-started/" target="_blank">Share on Facebook</a>
+        <a class="tally" href="https://twitter.com/intent/tweet?url=https://www.silvestar.codes/side-projects/sbtheme/getting-started/&amp;text=Getting Started With Hexo Theme SB&amp" target="_blank">Share on Twitter</a><a class="tally" href="https://facebook.com/sharer.php?u=https://www.silvestar.codes/side-projects/sbtheme/getting-started/" target="_blank">Share on Facebook</a>
       </div>
     </div>
   </div>

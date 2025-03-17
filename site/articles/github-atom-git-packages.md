@@ -72,4 +72,4 @@ There is no shortcut for **git-log**, therefore you should use command palette a
 
 Atom package manager has many Git packages. Which ones are your favorite?
 
-For more articles, you should follow me on [Twitter](https://twitter.com/malimirkeccita) or checkout [my Medium page](https://medium.com/@malimirkeccita).
+For more articles, you could check [my Medium page](https://medium.com/@malimirkeccita).

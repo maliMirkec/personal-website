@@ -156,5 +156,3 @@ This is a tough one. And frankly, it needs more work.
 ## Final thoughts
 
 There you have it, a WordPress starter theme. All you need to do is download [the project](https://github.com/maliMirkec/_bem) and start developing new shiny WordPress theme.
-
-As always, any comments or [tweets](https://twitter.com/malimirkeccita) are appreciated.

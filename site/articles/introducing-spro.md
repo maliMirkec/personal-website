@@ -143,6 +143,6 @@ Or contribute to the project by creating [a new issue] or [a pull request].
 [SkillShare]: https://skl.sh/2EcUlRt
 [siteaudit]: https://github.com/thecreazy/siteaudit
 [GitHub]: https://github.com/maliMirkec/starter-project-cli
-[Twitter]: https://twitter.com/intent/tweet?url=https://github.com/maliMirkec/starter-project-cli/&text=Starter%20Project%20CLI%20creates%20a%20perfect%20Gulp%20development%20environment%20for%20everyone%20within%20a%20few%20minutes.%20🔥%20Try%20it%20today!%20💯&via=malimirkeccita
+[Twitter]: https://twitter.com/intent/tweet?url=https://github.com/maliMirkec/starter-project-cli/&text=Starter%20Project%20CLI%20creates%20a%20perfect%20Gulp%20development%20environment%20for%20everyone%20within%20a%20few%20minutes.%20🔥%20Try%20it%20today!%20💯
 [a new issue]: https://github.com/maliMirkec/starter-project-cli/issues/new
 [a pull request]: https://github.com/maliMirkec/starter-project-cli/compare

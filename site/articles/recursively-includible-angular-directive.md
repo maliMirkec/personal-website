@@ -243,5 +243,3 @@ There you have it, recursively includible Angular directive.
 This particular directive is used to display label and input for every model property. I'm considering to extend this functionality and allow user to define any other output.
 
 I'm also considering to compare this technique with other popular frameworks, like [Vue.js](https://vuejs.org/), [Angular 2](https://angular.io/) and [React](https://facebook.github.io/react/).
-
-Please let me know what do you think, leave a comment bellow or [tweet me](https://twitter.com/malimirkeccita).

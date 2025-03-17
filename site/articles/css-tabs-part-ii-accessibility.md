@@ -89,7 +89,3 @@ Also, we should add trigger to help users jump to content from tabs. If a user p
 Accessibility is hard to implement, but non accessible content is even harder to interpret for impaired users. We should try our best and make our content accessible.
 
 But on the other hand, if you're making a solution for targeted audience and there are no special request for accessibility, aria attributes may not be necessary. They are hard to implement and very time consuming.
-
-What do you think? What are your experiences?
-
-Leave a comment below or [send me a tweet](https://twitter.com/malimirkeccita).

@@ -89,5 +89,3 @@ You could use more advanced configuration options for each linters which are out
 Linters are very useful and simple solution for basic syntax checking. Linters will not only save you time, but will also make you write better code.
 
 Are you using linters? Which one are your favorite?
-
-Follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).

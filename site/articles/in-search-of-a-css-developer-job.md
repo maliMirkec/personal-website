@@ -25,8 +25,6 @@ My requirements are simple:
 
 As a first step, I tweeted that I was searching for a job. Some considerate people retweeted it, and I got some initial contacts, which made me happy. Yet, I wonder if I would have gotten more contacts if I had more followers. Probably yes, but we will never know because I have had around 980 followers for the past few years. Thanks, Twitter algorithm.
 
-If you think it will help, feel free to retweet [my tweet](https://twitter.com/malimirkeccita/status/1564583796762189826).
-
 {% cldnryfetch "in-search-of-a-css-developer-job-tweet_mfj6xf" "Screenshot of a tweet of mine about searching for a new role." false true "center" %}
 
 I also tried to use Twitter search, but I didn't find anything useful.

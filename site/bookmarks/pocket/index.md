@@ -507,7 +507,6 @@ sections:
 - `http://www.heropatterns.com/`
 - `https://medium.freecodecamp.com/i-reviewed-fifty-portfolios-on-reddit-and-this-is-what-i-learned-e5d2b43150bc#.taetf9s54`
 - `http://silvestar.codes.hypestat.com/`
-- `https://www.facebook.com/silvestar.codes/`
 - `https://plus.google.com/`
 - `https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.l81hujyr1`
 - `https://www.producthunt.com/faq#how-do-i-submit-things-to-product-hunt`

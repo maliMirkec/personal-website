@@ -82,7 +82,7 @@ I have developed a couple of custom solutions for static sites, like integrating
 
 ## Blogging
 
-To have a broader audience for my blog, I reshare every post from my blog on [dev.to], [medium.com], and [codementor.io], alongside on social platforms like [Reddit], [Hacker News], [Lobsters], and [Twitter].
+To have a broader audience for my blog, I reshare every post from my blog on [dev.to], [medium.com], and [codementor.io], alongside on social platforms like [Reddit], [Hacker News], [Lobsters], and Twitter.
 
 I have reached almost 2,5k followers on the dev.to platform. I have more than 700 followers on Twitter. I have a modest reputation on Reddit, Hacker News, and Lobsters.
 
@@ -113,5 +113,4 @@ I could easily say that 2018 was a great year for me. I hope the next one will b
 [Reddit]: https://www.reddit.com/user/starbist
 [Hacker News]: https://news.ycombinator.com/user?id=starbist
 [Lobsters]: https://lobste.rs/u/starbist
-[Twitter]: https://twitter.com/malimirkeccita
 [a little help]: https://dev.to/starbist/lets-make-my-website-even-better-37a5

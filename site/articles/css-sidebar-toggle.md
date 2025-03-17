@@ -87,7 +87,7 @@ The number of lines could vary. If we want 3 hamburger lines, we should add 3 sp
 
 I've tested this code with 3 and 4 hamburger lines and the code is working pretty good.
 
-For deeper understanding how this hamburger menu is working, check the source code. If you don't get it, leave a comment below or ask a question on [Twitter](https://twitter.com/malimirkeccita).
+For deeper understanding how this hamburger menu is working, check the source code. If you don't get it, leave a comment below.
 
 The logic is straightforward:
 
@@ -199,5 +199,3 @@ Our job is not done yet, we should implement keyboard interaction. I'll leave th
 There are many ways how we could build UI components and there are no right way to do so. Some will disagree that the pure `CSS` solutions are usable in production environment, but that depends on project type and many other factors. I love to experiment with `CSS` because it gives me a new opportunity to learn and use the latest techniques out there. I don't know if you noticed, but beside `CSS` variables, I've used [CSS locks](https://css-tricks.com/css-locks/) and [system fonts](https://css-tricks.com/snippets/css/system-font-stack/) techniques in this demo. Pretty awesome, right?
 
 And there is accessibility, which is always hard. But hard doesn't mean we should avoid learning it and using it. I encourage every developer to read [this document](https://www.w3.org/TR/wai-aria-practices/) and then try to implement any part of accessibility in their newest project. Let's make Internet a better place.
-
-I'm always opened for discussion so leave a comment or ping me on [Twitter](https://twitter.com/malimirkeccita).

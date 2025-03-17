@@ -122,5 +122,3 @@ Below you could see the full solution with disabled tabs 2 and 10.
 Full demo is available on [Github](https://github.com/maliMirkec/csstabs) and via bower: `bower install csstabs`.
 
 Do you find this solution usable, because I really like how we could do even more complex things with `CSS` only nowdays?
-
-Make sure you follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita), more posts are coming soon.

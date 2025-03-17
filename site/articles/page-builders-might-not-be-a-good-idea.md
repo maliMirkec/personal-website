@@ -75,5 +75,3 @@ I don’t want to offend anyone here, but building pages is more than just writi
 Page builders are useful tools for playing around and maybe even learning how pages work. But page builders are imagined as a universal tool for all possible scenarios, and that usually doesn’t work.
 
 So cherish your data, it is the essential part of your website. You might think it is the design, but users get back for content, not design. Leave your content in the hands of a professional instead of page builder.
-
-[Twitter page still exists]: https://twitter.com/citacms

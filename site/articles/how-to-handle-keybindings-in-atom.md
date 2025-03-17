@@ -72,5 +72,3 @@ Keybindings are easy now, no more conflicts.
 You could learn more about keybindings in [Atom flight manual](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/#removing-bindings). As of [Atom 1.12 Beta](http://blog.atom.io/2016/10/11/atom-1-11.html), keybinding usability is further simplified.
 
 I hope you'll find this tutorial useful. Please feel free to comment below.
-
-Follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).

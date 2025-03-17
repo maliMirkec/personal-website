@@ -92,5 +92,3 @@ If you're using [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/) or an
 ## Final thought
 
 There you have it—a perfect local server. It may not be adequate for complicated architectures, but it's perfect for quick and simple development. All you need to do is turn on your Atom, start **php-server** and **livereload** and start digging in. Isn't that just prefect?
-
-Stay tuned, follow me on [Twitter](https://twitter.com/malimirkeccita) and [Medium](https://medium.com/@malimirkeccita).

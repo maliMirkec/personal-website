@@ -56,4 +56,4 @@ This is my **minimap** in action:
 
 Although not crucial, **minimap** packages could be great benefit for developer as they allow quick scan of the file. It sure did help me a lot. How about you?
 
-Follow me on [Twitter](https://twitter.com/malimirkeccita) or [Medium](https://medium.com/@malimirkeccita) and never miss a post again.
+For more articles, you could check [my Medium page](https://medium.com/@malimirkeccita) and never miss a post again.

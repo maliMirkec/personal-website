@@ -62,4 +62,4 @@ If you have Atom installed on different device, **sync-settings** package should
 
 ## Final thought
 
-I hope you found this article useful. For more articles, you should follow me on [Twitter](https://twitter.com/malimirkeccita) or checkout [my Medium page](https://medium.com/@malimirkeccita).
+I hope you found this article useful. For more articles, you could check [my Medium page](https://medium.com/@malimirkeccita).

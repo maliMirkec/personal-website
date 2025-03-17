@@ -98,5 +98,3 @@ Most of this tools are available as a standalone solutions. But why use them sep
 Once when you get comfortable with this kind of automation, you won't think of manual tasks again.
 
 Which Atom packages are you using to automate your development process? Do you like ones mentioned in this article?
-
-Don't be a stranger, leave a comment or [send me a tweet](https://twitter.com/malimirkeccita).

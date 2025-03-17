@@ -775,4 +775,4 @@ Every possible package for Gulp tasks:
 
 ## Support
 
-Show your support by starring the project on [GitHub](https://github.com/maliMirkec/starter-project-cli), or by [sharing on Twitter](https://twitter.com/intent/tweet?url=https://github.com/maliMirkec/starter-project-cli/&text=Starter%20Project%20CLI%20creates%20a%20perfect%20Gulp%20development%20environment%20for%20everyone%20within%20a%20few%20minutes.%20🔥%20Try%20it%20today!%20💯&via=malimirkeccita).
+Show your support by starring the project on [GitHub](https://github.com/maliMirkec/starter-project-cli), or by [sharing on Twitter](https://twitter.com/intent/tweet?url=https://github.com/maliMirkec/starter-project-cli/&text=Starter%20Project%20CLI%20creates%20a%20perfect%20Gulp%20development%20environment%20for%20everyone%20within%20a%20few%20minutes.%20🔥%20Try%20it%20today!%20💯).
