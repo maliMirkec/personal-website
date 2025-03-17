@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Use meta referrer tag to control referrer information"
-date: 2025-03-14 12:00:00
+date: 2025-03-17 12:00:00
 og_img: hh2_mpsl6b
 tags:
   - zoo
