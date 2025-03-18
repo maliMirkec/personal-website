@@ -1,0 +1,30 @@
+---
+layout: default
+title: Be careful with logical properties and transpiling CSS
+date: 2025-03-17 12:00:00
+tags:
+  - blog
+  - css
+description:
+type: articles-item
+---
+
+At Heyflow, we started to use many modern CSS features, and logical properties are one of them. Since not all visitors use the most recent browser versions, we must transpile our CSS code. To achieve that, we are using PostCSS and its PostCSS Logical Properties and Values plugin. Recently, we noticed a bug when using logical properties and writing mode.
+
+## The bug
+
+[Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) have a component that shows side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
+
+Screenshot of side-by-side videos with error
+
+## The problem
+
+The bug started to show when we introduced PostCSS to our project. The PostCSS Logical Properties and Values plugin transpiles logical properties to physical properties. We are using writing-mode: vertical-lr, and the PostCSS Logical Properties and Values plugin is unaware that we switched the axis. It uses the default setting because the site uses the right-to-left mode.
+
+## The fix
+
+We found out that the easiest way to fix this problem is to switch to physical properties in this particular case. It isn't the most elegant fix, but it works.
+
+## Conclusion
+
+We often rely on tools like PostCSS for better workflow, but sometimes, we need to adjust our code for specific situations. So be careful when using tools like PostCSS and be ready to adapt to edge-case scenarios.
