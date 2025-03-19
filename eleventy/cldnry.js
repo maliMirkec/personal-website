@@ -61,9 +61,21 @@ const cldnryimg = async (img, alt, width, height, classes, instant) => {
 
   const classList = classes ? ` class="${classes}"` : ''
 
-  const src = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+  let ar = ''
+  let ar2 = ''
 
-  const srcset = `${'https://res.cloudinary.com/starbist/image/upload/ar_' + width + ':' + height + ',w_' + width * 2 + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img} 2x, ${src}`
+  if(width && width !== 'auto' && height && height !== 'auto') {
+    ar = `ar_${width}:${height},w_${width},`
+    ar2 = `ar_${width}:${height},w_${width * 2},`
+  }
+
+  if(img.includes('heyflow-bug')) {
+    console.log(img, width, height, classes, instant);
+  }
+
+  const src = `https://res.cloudinary.com/starbist/image/upload/${ar}f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
+
+  const srcset = `https://res.cloudinary.com/starbist/image/upload/${ar2}f_auto,q_auto:eco,dpr_auto,c_scale/${img} 2x, ${src}`
 
   return `<img srcset="${srcset}" src="${src}" alt="${ alt || '' }" ${attr} ${classList}>`
 }

@@ -15,7 +15,7 @@ At Heyflow, we started to use many modern CSS features, and logical properties a
 
 [Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) have a component that shows side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
 
-Screenshot of side-by-side videos with error
+{% cldnryfetch "heyflow-bug_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## The problem
 
@@ -24,6 +24,8 @@ The bug started to show when we introduced PostCSS to our project. The PostCSS L
 ## The fix
 
 We found out that the easiest way to fix this problem is to switch to physical properties in this particular case. It isn't the most elegant fix, but it works.
+
+{% cldnryfetch "heyflow-fix_kkbcqh" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## Conclusion
 
