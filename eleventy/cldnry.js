@@ -69,10 +69,6 @@ const cldnryimg = async (img, alt, width, height, classes, instant) => {
     ar2 = `ar_${width}:${height},w_${width * 2},`
   }
 
-  if(img.includes('heyflow-bug')) {
-    console.log(img, width, height, classes, instant);
-  }
-
   const src = `https://res.cloudinary.com/starbist/image/upload/${ar}f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
 
   const srcset = `https://res.cloudinary.com/starbist/image/upload/${ar2}f_auto,q_auto:eco,dpr_auto,c_scale/${img} 2x, ${src}`

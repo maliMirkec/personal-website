@@ -75,9 +75,6 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode('cldnrylink', async (link, src, alt, width, height, classes, instant) => cldnrylink(link, src, alt, width, height, classes, instant))
 
   eleventyConfig.addLiquidShortcode('cldnryfetch', async (src, alt, widths, lazy = true, classes = '', svg = false) => {
-    if(src.includes('heyflow-bug')) {
-      console.log(src, alt, 'auto', 'auto', classes, !lazy);
-    }
     return env.development ? cldnryimg(src, alt, 'auto', 'auto', classes, !lazy) : cldnryfetch(src, alt, widths, lazy, classes, svg)
   })
 
