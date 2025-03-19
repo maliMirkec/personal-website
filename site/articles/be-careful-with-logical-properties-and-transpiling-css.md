@@ -13,7 +13,7 @@ At Heyflow, we started to use many modern CSS features, and logical properties a
 
 ## The bug
 
-[Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) have a component that shows side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
+[Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) had a component that showed side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
 
 {% cldnryfetch "heyflow-bug_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
