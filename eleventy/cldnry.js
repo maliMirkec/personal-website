@@ -10,7 +10,7 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
     formats: formats,
     svgShortCircuit: true,
     urlPath: '/gfx/cldnry/',
-    outputDir: './assets/gfx/cldnry/'
+    outputDir: '.cache/cldnry/'
   })
 
   let imageAttributes = {
@@ -22,24 +22,6 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
   }
 
   return Image.generateHTML(metadata, imageAttributes)
-
-  console.log('alt, width, height, classes, instant', alt, width, height, classes, instant);
-  // (src, alt, widths = [300, 600], sizes = "100vh") {
-	// 	let metadata = await Image(src, {
-	// 		widths,
-	// 		formats: ["avif", "jpeg"],
-	// 	});
-
-	// 	let imageAttributes = {
-	// 		alt,
-	// 		sizes,
-	// 		loading: "lazy",
-	// 		decoding: "async",
-	// 	};
-
-	// 	// You bet we throw an error on a missing alt (alt="" works okay)
-	// 	return Image.generateHTML(metadata, imageAttributes);
-	// }
 }
 
 const cldnryimg = async (img, alt, width, height, classes, instant) => {

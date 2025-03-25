@@ -27,9 +27,9 @@
     "js": "cd assets/js; for f in *.js; do short=${f%.js}; npx uglifyjs $f > $short.min.js; done",
     "eleventy-serve": "npx @11ty/eleventy --serve --quiet --watch",
     "eleventy-build": "npx @11ty/eleventy --quiet",
-    "dev": "npm run clean & npm run eleventy-serve",
-    "prod": "npm run clean & npm run css & npm run js && npm run eleventy-serve",
-    "build": "npm run clean & npm run css & npm run js && npm run eleventy-build",
+    "dev": "npm run clean && npm run eleventy-serve",
+    "prod": "npm run clean && npm run css & npm run js && npm run eleventy-serve",
+    "build": "npm run clean && npm run css & npm run js && npm run eleventy-build",
     "critical": "node scripts/acclaimed.js"
   },
   "dependencies": {

@@ -1,5 +1,4 @@
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img"
 import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import uslug from 'uslug'
@@ -25,6 +24,7 @@ export default async (eleventyConfig) => {
 
   if(env.production) {
     passthroughCopy['extras/robots_prod.txt'] = './robots.txt'
+    passthroughCopy['.cache/cldnry/'] = './gfx/cldnry/'
   } else {
     passthroughCopy['extras/robots_dev.txt'] = './robots.txt'
   }
@@ -32,9 +32,6 @@ export default async (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy(passthroughCopy)
 
   eleventyConfig.addPlugin(syntaxHighlight)
-
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin)
-
 
   eleventyConfig.setLiquidOptions({
     extname: '.liquid',
