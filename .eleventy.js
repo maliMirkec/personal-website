@@ -1,17 +1,17 @@
-import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
-import markdownIt from 'markdown-it';
-import markdownItAnchor from 'markdown-it-anchor';
-import uslug from 'uslug';
-import fs from 'fs';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import markdownIt from 'markdown-it'
+import markdownItAnchor from 'markdown-it-anchor'
+import uslug from 'uslug'
+import fs from 'fs'
 
-import env from './site/_data/env.js';
-import social from './eleventy/social.js';
-import tagify from './eleventy/tagify.js';
-import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js';
-import { cldnryimg, cldnrylink, cldnryfetch, cldnrysrc } from './eleventy/cldnry.js';
-import { collections, tags } from './eleventy/collections.js';
+import env from './site/_data/env.js'
+import social from './eleventy/social.js'
+import tagify from './eleventy/tagify.js'
+import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js'
+import { cldnryimg, cldnrylink, cldnryfetch, cldnrysrc } from './eleventy/cldnry.js'
+import { collections, tags } from './eleventy/collections.js'
 
-const markdownItRenderer = new markdownIt();
+const markdownItRenderer = new markdownIt()
 
 export default async (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
@@ -24,6 +24,7 @@ export default async (eleventyConfig) => {
 
   if(env.production) {
     passthroughCopy['extras/robots_prod.txt'] = './robots.txt'
+    passthroughCopy['.cache/cldnry/'] = './gfx/cldnry/'
   } else {
     passthroughCopy['extras/robots_dev.txt'] = './robots.txt'
   }
