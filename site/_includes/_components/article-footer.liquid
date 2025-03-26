@@ -37,8 +37,7 @@
         </ul>
       {% endif %}
     </div>
-  {% endif %}
-  {% if collections[firstTag] %}
+  {% elsif collections[firstTag] %}
     {% assign collectionSize = collections[firstTag] | size %}
     {% if collectionSize > 1 %}
       <div class="article-footer__content">
@@ -50,11 +49,7 @@
         <ul>
           {% assign related = collections[firstTag] | reverse %}
           {% assign i = 0 %}
-          {% if firstTag == 'zoo' %}
-            {% assign iLimit = 15 %}
-          {% else %}
-            {% assign iLimit = 3 %}
-          {% endif %}
+          {% assign iLimit = 3 %}
           {% for article in related %}
             {% unless i >= iLimit %}
               {% if title != article.data.title %}
@@ -68,5 +63,10 @@
         </ul>
       </div>
     {% endif %}
+  {% endif %}
+  {% if site.feed[firstTag] %}
+    <div class="article-footer__content">
+      <p><a href="{{ site.feed[firstTag] }}">Subscribe to the RSS feed</a>.</p>
+    </div>
   {% endif %}
 </section>

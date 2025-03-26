@@ -19,5 +19,11 @@
   "animate": false,
   "delimiter": " ✣ ",
   "established": 2016,
-  "mastodon": "@cita@mastodon.social"
+  "mastodon": "@cita@mastodon.social",
+  "feed": {
+    "blog": "/rss.xml",
+    "newsletter": "/rss2.xml",
+    "invalid-css": "/rss3.xml",
+    "zoo": "/rss4.xml"
+  }
 }

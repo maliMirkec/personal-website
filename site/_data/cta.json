@@ -37,6 +37,14 @@
       "title": "View all articles"
     }
   },
+  "web-dev-zoo": {
+    "title": "Explore Web Dev Zoo",
+    "desc": "Discover valuable advices about web development coming from rare animals.",
+    "cta": {
+      "href": "/side-projects/web-dev-zoo/",
+      "title": "View all advices"
+    }
+  },
   "css-auditors": {
     "desc": "I started CSS Auditors, a site dedicated to analyzing CSS code.",
     "cta": {

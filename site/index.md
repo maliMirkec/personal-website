@@ -41,4 +41,11 @@ sections:
     limit: 6
   - type: banner
     banner: testimonials
+  - type: article-list
+    title: Web Dev Zoo
+    filter: zoo
+    sorter: date
+    limit: 6
+  - type: banner
+    banner: web-dev-zoo
 ---

@@ -17,12 +17,11 @@ date: 2022-02-01
 sections:
   - type: hero
     title: Invalid CSS
-    text: >-
-      CSS declarations that are not valid and that I wish existed.
-
-
-      If you want to subscribe to RSS feed for Invalid CSS, [check the feed](/rss3.xml).
+    text: CSS declarations that are not valid and that I wish existed.
     text_width: 50
+    text2: >-
+      [Subscribe to the RSS feed for Invalid CSS](/rss3.xml).
+    text2_width: 50
   - type: newsletter
     sticky: true
   - type: article-list
