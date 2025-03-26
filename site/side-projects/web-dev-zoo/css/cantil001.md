@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Respect the user’s motion settings and reduce animations"
-date: 2025-03-25 12:00:00
+date: 2025-03-25 10:00:00
 og_img: cc2_sxfo9c
 tags:
   - zoo
