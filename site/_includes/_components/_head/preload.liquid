@@ -1,21 +1,23 @@
-{% if env.production %}
-  {% if loadCritical %}
-    {% if isMentor %}
-      <link rel="preload" href="/css/mentor.min.css" as="style">
-    {% elsif isRibbons %}
-      <link rel="preload" href="/css/ribbons.min.css" as="style">
-    {% elsif isSlides %}
-      <link rel="preload" href="/css/slides.min.css" as="style">
-    {% elsif is360 %}
-      <link rel="preload" href="/css/devcards.min.css" as="style">
-    {% elsif isHexo %}
-      <link rel="preload" href="/css/hexo.min.css" as="style">
-    {% else %}
-      <link rel="preload" href="/css/style-2024{% if env.production %}min.{% endif %}.css" as="style">
-      <link rel="preload" href="/css/style-2024-dark{% if env.production %}min.{% endif %}.css" as="style" media="(prefers-color-scheme: dark)">
+{% if true == false %}
+  {% if env.production %}
+    {% if loadCritical %}
+      {% if isMentor %}
+        <link rel="preload" href="/css/mentor.min.css" as="style">
+      {% elsif isRibbons %}
+        <link rel="preload" href="/css/ribbons.min.css" as="style">
+      {% elsif isSlides %}
+        <link rel="preload" href="/css/slides.min.css" as="style">
+      {% elsif is360 %}
+        <link rel="preload" href="/css/devcards.min.css" as="style">
+      {% elsif isHexo %}
+        <link rel="preload" href="/css/hexo.min.css" as="style">
+      {% else %}
+        <link rel="preload" href="/css/style-2024{% if env.production %}min.{% endif %}.css" as="style">
+        <link rel="preload" href="/css/style-2024-dark{% if env.production %}min.{% endif %}.css" as="style" media="(prefers-color-scheme: dark)">
+      {% endif %}
     {% endif %}
   {% endif %}
-{% endif %}
-{% if type == 'articles-item' %}
-  <link rel="preload" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css" as="style">
+  {% if type == 'articles-item' %}
+    <link rel="preload" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css" as="style">
+  {% endif %}
 {% endif %}

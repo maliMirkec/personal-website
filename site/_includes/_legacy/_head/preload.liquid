@@ -1,17 +1,19 @@
-{% if env.production %}
-  {% if loadCritical %}
-    {% if isMentor %}
-      <link rel="preload" href="/css/mentor.min.css" as="style">
-    {% elsif isRibbons %}
-      <link rel="preload" href="/css/ribbons.min.css" as="style">
-    {% elsif isSlides %}
-      <link rel="preload" href="/css/slides.min.css" as="style">
-    {% elsif is360 %}
-      <link rel="preload" href="/css/devcards.min.css" as="style">
-    {% elsif isHexo %}
-      <link rel="preload" href="/css/hexo.min.css" as="style">
-    {% else %}
-      <link rel="preload" href="/css/style.min.css" as="style">
+{% if true == false %}
+  {% if env.production %}
+    {% if loadCritical %}
+      {% if isMentor %}
+        <link rel="preload" href="/css/mentor.min.css" as="style">
+      {% elsif isRibbons %}
+        <link rel="preload" href="/css/ribbons.min.css" as="style">
+      {% elsif isSlides %}
+        <link rel="preload" href="/css/slides.min.css" as="style">
+      {% elsif is360 %}
+        <link rel="preload" href="/css/devcards.min.css" as="style">
+      {% elsif isHexo %}
+        <link rel="preload" href="/css/hexo.min.css" as="style">
+      {% else %}
+        <link rel="preload" href="/css/style.min.css" as="style">
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}

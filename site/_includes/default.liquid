@@ -4,6 +4,7 @@
 <html lang="en" dir="ltr">
   {% include '_components/head' %}
   <body class="page--{{ type | slugify }}{% if subtype %} page--{{ subtype | slugify }}{% endif %}{% if type == 'articles-item' %} h-entry{% endif %}">
+    <p>Happy <a href="https://css-naked-day.org/">CSS Naked Day!</a></p>
     <div class="wrapper">
       {% include '_components/header' %}
       <main class="main" id="main">

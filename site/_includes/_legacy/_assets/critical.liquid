@@ -1,33 +1,35 @@
-{% if env.production %}
-  {% if loadCritical %}
-    <style>{{ type | getCritical }}</style>
+{% if true == false %}
+  {% if env.production %}
+    {% if loadCritical %}
+      <style>{{ type | getCritical }}</style>
+    {% else %}
+      {% if isMentor %}
+        <link rel="stylesheet" href="/css/mentor.min.css">
+      {% elsif isRibbons %}
+        <link rel="stylesheet" href="/css/ribbons.min.css">
+      {% elsif isSlides %}
+        <link rel="stylesheet" href="/css/slides.min.css">
+      {% elsif is360 %}
+        <link rel="stylesheet" href="/css/devcards.min.css">
+      {% elsif isHexo %}
+        <link rel="stylesheet" href="/css/hexo.min.css">
+      {% else %}
+        <link rel="stylesheet" href="/css/style.min.css">
+      {% endif %}
+    {% endif %}
   {% else %}
     {% if isMentor %}
-      <link rel="stylesheet" href="/css/mentor.min.css">
+      <link rel="stylesheet" href="/css/mentor.css">
     {% elsif isRibbons %}
-      <link rel="stylesheet" href="/css/ribbons.min.css">
+      <link rel="stylesheet" href="/css/ribbons.css">
     {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.min.css">
+      <link rel="stylesheet" href="/css/slides.css">
     {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.min.css">
+      <link rel="stylesheet" href="/css/devcards.css">
     {% elsif isHexo %}
-      <link rel="stylesheet" href="/css/hexo.min.css">
+      <link rel="stylesheet" href="/css/hexo.css">
     {% else %}
-      <link rel="stylesheet" href="/css/style.min.css">
+      <link rel="stylesheet" href="/css/style.css">
     {% endif %}
-  {% endif %}
-{% else %}
-  {% if isMentor %}
-    <link rel="stylesheet" href="/css/mentor.css">
-  {% elsif isRibbons %}
-    <link rel="stylesheet" href="/css/ribbons.css">
-  {% elsif isSlides %}
-    <link rel="stylesheet" href="/css/slides.css">
-  {% elsif is360 %}
-    <link rel="stylesheet" href="/css/devcards.css">
-  {% elsif isHexo %}
-    <link rel="stylesheet" href="/css/hexo.css">
-  {% else %}
-    <link rel="stylesheet" href="/css/style.css">
   {% endif %}
 {% endif %}
