@@ -1,17 +1,15 @@
-{% if true == false %}
-  {% if loadCritical %}
-    {% if isMentor %}
-      <link rel="stylesheet" href="/css/mentor.css">
-    {% elsif isRibbons %}
-      <link rel="stylesheet" href="/css/ribbons.css">
-    {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.css">
-    {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.css">
-    {% elsif isHexo %}
-      <link rel="stylesheet" href="/css/hexo.css">
-    {% else %}
-      <link rel="stylesheet" href="/css/style-2024.css">
-    {% endif %}
+{% if loadCritical %}
+  {% if isMentor %}
+    <link rel="stylesheet" href="/css/mentor.css">
+  {% elsif isRibbons %}
+    <link rel="stylesheet" href="/css/ribbons.css">
+  {% elsif isSlides %}
+    <link rel="stylesheet" href="/css/slides.css">
+  {% elsif is360 %}
+    <link rel="stylesheet" href="/css/devcards.css">
+  {% elsif isHexo %}
+    <link rel="stylesheet" href="/css/hexo.css">
+  {% else %}
+    <link rel="stylesheet" href="/css/style-2024.css">
   {% endif %}
 {% endif %}
