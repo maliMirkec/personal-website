@@ -26,12 +26,16 @@ content:
       - name: series
         label: Series
         type: string
+      - name: body
+        label: Body
+        type: rich-text
       - name: type
         type: string
         default: articles-item
         hidden: true
-      - name: body
-        label: Body
-        type: rich-text
+      - name: layout
+        type: string
+        default: default
+        hidden: true
         
         
