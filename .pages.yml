@@ -17,5 +17,5 @@ content:
         label: Date
         type: date
         time: true
-        format: 'yyyy-MM-dd HH:mm'
+        format: 'yyyy-MM-dd HH:mm:ss'
         
