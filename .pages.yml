@@ -23,8 +23,8 @@ content:
       - name: description
         label: Description
         type: string
-      - name: Tags
-        label: Description
+      - name: tags
+        label: Tags
         type: string
         list: true
       - name: series
