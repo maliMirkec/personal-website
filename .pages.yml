@@ -7,8 +7,15 @@ content:
     label: Posts
     path: site/articles
     type: collection
+    view:
+      fields: [ title, date ]
     fields:
-      - name: Title
-        label: title
+      - name: title
+        label: Title
         type: string
+      - name: date
+        label: Date
+        type: date
+        time: true
+        format: 'yyyy-MM-dd HH:mm'
         
