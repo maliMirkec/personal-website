@@ -19,7 +19,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd HH:mm:s
+          format: yyyy-MM-dd HH:mm:ss
       - name: description
         label: Description
         type: string
