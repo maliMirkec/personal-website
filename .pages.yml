@@ -9,10 +9,4 @@ content:
     type: collection
     view:
       fields: [ title, date ]
-      primary: title
-      sort: [ date, title, tags ]
-      default:
-        search: ''
-        sort: date
-        order: desc
     fields:
