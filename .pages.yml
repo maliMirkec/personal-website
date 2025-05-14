@@ -1,0 +1,10 @@
+media:
+  input: assets
+  output: /
+
+content:
+  - name: posts
+    label: Posts
+    path: site/articles
+    type: collection
+    fields:
