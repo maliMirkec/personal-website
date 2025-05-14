@@ -36,6 +36,16 @@ content:
       - name: canonical
         label: Canonical URL
         type: string
+      - name: project
+        label: Project
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: href
+            label: Href
+            type: string
       - name: body
         label: Body
         type: rich-text
