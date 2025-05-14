@@ -23,8 +23,18 @@ content:
       - name: description
         label: Description
         type: string
+      - name: Tags
+        label: Description
+        type: string
+        list: true
       - name: series
         label: Series
+        type: string
+      - name: publication
+        label: Publication
+        type: string
+      - name: canonical
+        label: Canonical URL
         type: string
       - name: body
         label: Body
