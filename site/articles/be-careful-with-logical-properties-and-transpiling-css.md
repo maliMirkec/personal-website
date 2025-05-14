@@ -15,7 +15,7 @@ At Heyflow, we started to use many modern CSS features, and logical properties a
 
 [Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) had a component that showed side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
 
-{% cldnryfetch "heyflow-bug\_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
+{% cldnryfetch "heyflow-bug_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## The problem
 
@@ -56,7 +56,7 @@ We found out that the easiest way to fix this problem is to switch to physical p
 }
 ```
 
-{% cldnryfetch "heyflow-fix\_kkbcqh" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
+{% cldnryfetch "heyflow-fix_kkbcqh" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## Conclusion
 
