@@ -29,7 +29,7 @@ content:
         list: true
       - name: body
         label: Body
-        type: rich-text
+        type: code
       - name: series
         label: Series
         type: string
