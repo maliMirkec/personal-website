@@ -1,6 +1,6 @@
 ---
 title: Be careful with logical properties and transpiling CSS
-date: 2025-03-17 12:00:0
+date: 2025-03-17 11:00:00
 description: Read how we resolved a bug with logical properties, writing mode,
   and transpiled code.
 tags:
