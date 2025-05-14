@@ -27,6 +27,9 @@ content:
         label: Tags
         type: string
         list: true
+      - name: body
+        label: Body
+        type: rich-text
       - name: series
         label: Series
         type: string
@@ -52,9 +55,6 @@ content:
       - name: eleventyExcludeFromCollections
         label: Exclude from collections
         type: string
-      - name: body
-        label: Body
-        type: rich-text
       - name: type
         type: string
         default: articles-item
