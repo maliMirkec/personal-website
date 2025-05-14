@@ -1,6 +1,7 @@
 media:
-  input: assets
-  output: /
+  - input: assets/gfx
+    label: gfx
+    output: /gfx/
 
 content:
   - name: posts
@@ -8,3 +9,4 @@ content:
     path: site/articles
     type: collection
     fields:
+      
