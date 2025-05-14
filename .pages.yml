@@ -20,4 +20,21 @@ content:
         options:
           time: true
           format: yyyy-MM-dd HH:mm:s
+      - name: description
+        label: Description
+        type: text
+      - name: description
+        label: Description
+        type: text
+      - name: series
+        label: Series
+        type: text
+      - name: type
+        type: string
+        default: articles-item
+        hidden: true
+      - name: body
+        label: Body
+        type: rich-text
+        
         
