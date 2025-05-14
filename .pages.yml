@@ -9,6 +9,7 @@ content:
     type: collection
     view:
       fields: [ title, date ]
+      sort: [ date, title ]
     fields:
       - name: title
         label: Title
