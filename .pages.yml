@@ -8,7 +8,7 @@ content:
     path: site/articles
     type: collection
     view:
-      fields: [ title, data, tags, series ]
+      fields: [ title, date ]
       primary: title
       sort: [ date, title, tags ]
       default:
