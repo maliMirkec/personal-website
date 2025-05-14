@@ -16,6 +16,7 @@ content:
       - name: date
         label: Date
         type: date
-        time: true
-        format: 'yyyy-MM-dd HH:mm:S'
+        options:
+          time: true
+          format: 'yyyy-MM-dd HH:mm:S'
         
