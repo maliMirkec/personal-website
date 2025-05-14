@@ -10,3 +10,7 @@ content:
     view:
       fields: [ title, date ]
     fields:
+      - name: Title
+        label: title
+        type: string
+        
