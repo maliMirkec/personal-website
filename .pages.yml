@@ -7,8 +7,6 @@ content:
     label: Posts
     path: site/articles
     type: collection
-    view:
-      fields: [ title, date ]
     fields:
       - name: Title
         label: title
