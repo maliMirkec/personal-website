@@ -1,7 +1,6 @@
 media:
-  - input: assets/gfx
-    label: gfx
-    output: /gfx/
+  input: assets/gfx
+  output: /gfx/
 
 content:
   - name: posts
