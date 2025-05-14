@@ -1,21 +1,21 @@
 ---
-layout: default
 title: Be careful with logical properties and transpiling CSS
-date: 2025-03-17 12:00:00
+date: 2025-03-17 12:00:0
+description: Read how we resolved a bug with logical properties, writing mode,
+  and transpiled code.
 tags:
   - blog
   - css
-description:
 type: articles-item
+layout: default
 ---
-
 At Heyflow, we started to use many modern CSS features, and logical properties are one of them. Since not all visitors use the most recent browser versions, we must transpile our CSS code. To achieve that, we are using PostCSS and its [PostCSS Logical Properties and Values plugin](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-logical). Recently, we noticed a bug when using logical properties and writing mode.
 
 ## The bug
 
 [Our competitor's pages](https://heyflow.com/heyflow-vs-typeform/) had a component that showed side-by-side videos. To distinguish products, we placed a vertical text next to each video. We noticed the text was misplaced.
 
-{% cldnryfetch "heyflow-bug_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
+{% cldnryfetch "heyflow-bug\_pflgdg" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## The problem
 
@@ -56,7 +56,7 @@ We found out that the easiest way to fix this problem is to switch to physical p
 }
 ```
 
-{% cldnryfetch "heyflow-fix_kkbcqh" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
+{% cldnryfetch "heyflow-fix\_kkbcqh" "Screenshot of Heyflow vs Typeform page with incorrectly placed labels." false true %}
 
 ## Conclusion
 
