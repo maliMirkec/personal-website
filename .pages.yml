@@ -22,13 +22,10 @@ content:
           format: yyyy-MM-dd HH:mm:s
       - name: description
         label: Description
-        type: text
-      - name: description
-        label: Description
-        type: text
+        type: string
       - name: series
         label: Series
-        type: text
+        type: string
       - name: type
         type: string
         default: articles-item
