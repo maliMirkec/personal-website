@@ -7,5 +7,12 @@ content:
     label: Posts
     path: site/articles
     type: collection
+    view:
+      fields: [ title, data, tags, series ]
+      primary: title
+      sort: [ date, title, tags ]
+      default:
+        search: ''
+        sort: date
+        order: desc
     fields:
-      
