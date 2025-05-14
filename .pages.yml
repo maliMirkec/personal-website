@@ -46,6 +46,12 @@ content:
           - name: href
             label: Href
             type: string
+      - name: permalink
+        label: Permalink
+        type: string
+      - name: eleventyExcludeFromCollections
+        label: Exclude from collections
+        type: string
       - name: body
         label: Body
         type: rich-text
