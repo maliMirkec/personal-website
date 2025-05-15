@@ -3,6 +3,9 @@ title: Use requestIdleCallback for time-consuming, low-priority tasks
 date: 2025-06-06 14:00:00
 description: "JavaScript john dory says: Use requestIdleCallback for
   time-consuming, low-priority tasks."
+tags:
+  - zoo
+  - javascript
 og_img: jj3_butzhb
 type: articles-item
 layout: default
