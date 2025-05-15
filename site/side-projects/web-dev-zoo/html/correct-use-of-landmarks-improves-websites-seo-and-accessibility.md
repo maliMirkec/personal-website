@@ -19,8 +19,8 @@ HTML heron says:
 And here’s why:
 
 {% note "Benefits" %}
-- Screen readers use landmarks to help people jump to different parts of your page quickly.
-- Landmarks make your website easier to use for people with disabilities, which is both kind and often required by law.
-- Search engines also use landmarks to understand what's important on your page.
-- They also create a clearer structure for your website, making it easier to update and maintain.
+- Screen readers use landmarks to help individuals quickly navigate to different sections of your page.  
+- Landmarks enhance the usability of your website for people with disabilities, which is both considerate and often required by law.  
+- Search engines use landmarks to identify the important elements on your page.  
+- Landmarks establish a clearer structure for your website, making it easier to update and maintain.
 {% endnote %}
