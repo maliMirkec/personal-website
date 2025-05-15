@@ -1,18 +1,17 @@
 ---
-layout: default
-title: "Always write meaningful alt attributes"
+title: Always write meaningful alt attributes
 date: 2025-02-11 08:00:00
-og_img: aa1_tshuab
+description: "Accessibility agouti says: Always write meaningful alt attributes for images."
 tags:
   - zoo
   - accessibility
-description: "Accessibility Agouti says: Always write meaningful alt attributes for images."
+og_img: aa1_tshuab
 type: articles-item
+layout: default
 ---
+{% cldnryfetch "aa1_tshuab" "Poorly drawn agouti with a text in a speech bubble: “Always write meaningful alt attributes for images.”" false true "center plain" %}
 
-{% cldnryfetch "aa1_tshuab" "Poorly drawn agouti with a text in a speech bubble: “Accessibility Agouti says: Always write meaningful alt attributes for images.”" false true "center plain" %}
-
-Accessibility Agouti says:
+Accessibility agouti says:
 
 > Always write meaningful `alt` attributes for images.
 

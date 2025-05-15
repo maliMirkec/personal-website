@@ -1,18 +1,18 @@
 ---
-layout: default
-title: "Font weight affects the color contrast"
+title: Font weight affects the color contrast
 date: 2025-03-12 18:00:00
-og_img: aa2_ceziqh
+description: "Accessibility aardwolf says: Sometimes font weight might affect
+  the color contrast score."
 tags:
   - zoo
   - accessibility
-description: "Accessibility Aardwolf says: Sometimes font weight might affect the color contrast score."
+og_img: aa2_ceziqh
 type: articles-item
+layout: default
 ---
+{% cldnryfetch "aa2_ceziqh" "Poorly drawn aardwolf with a text in a speech bubble: “Sometimes font weight might affect the color contrast score.”" false true "center plain" %}
 
-{% cldnryfetch "aa2_ceziqh" "Poorly drawn agouti with a text in a speech bubble: “Accessibility Aardwolf says: Sometimes font weight might affect the color contrast score.”" false true "center plain" %}
-
-Accessibility Aardwolf says:
+Accessibility aardwolf says:
 
 > Sometimes font weight might affect the color contrast score.
 
