@@ -1,5 +1,6 @@
 ---
 title: Using logical properties makes your site bulletproof for writing modes
+date: 2025-05-29 14:00:00
 description: "CSS chamois says: Using logical properties makes your site
   bulletproof for writing modes."
 og_img: cc3_exp0x4
