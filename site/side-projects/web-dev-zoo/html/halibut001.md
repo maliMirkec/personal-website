@@ -10,7 +10,7 @@ og_img: hh2_mpsl6b
 type: articles-item
 layout: default
 ---
-{% cldnryfetch "hh2_mpsl6b" "Poorly drawn halibut with a text in a speech bubble: “HTML halibut says: Use meta referrer tag to control how much referrer information your site shares.”" false true "center plain" %}
+{% cldnryfetch "hh2_mpsl6b" "Poorly drawn halibut with a text in a speech bubble: “Use meta referrer tag to control how much referrer information your site shares.”" false true "center plain" %}
 
 HTML halibut says:
 
