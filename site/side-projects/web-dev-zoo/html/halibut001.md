@@ -1,16 +1,16 @@
 ---
-layout: default
-title: "Use meta referrer tag to control referrer information"
+title: Use meta referrer tag to control referrer information
 date: 2025-03-16 10:00:00
-og_img: hh2_mpsl6b
+description: "HTML halibut says: Use meta referrer tag to control how much
+  referrer information your site shares."
 tags:
   - zoo
   - html
-description: "HTML Halibut says: Use meta referrer tag to control how much referrer information your site shares."
+og_img: hh2_mpsl6b
 type: articles-item
+layout: default
 ---
-
-{% cldnryfetch "hh2_mpsl6b" "Poorly drawn halibut with a text in a speech bubble: “HTML Halibut says: Use meta referrer tag to control how much referrer information your site shares.”" false true "center plain" %}
+{% cldnryfetch "hh2_mpsl6b" "Poorly drawn halibut with a text in a speech bubble: “HTML halibut says: Use meta referrer tag to control how much referrer information your site shares.”" false true "center plain" %}
 
 HTML halibut says:
 
