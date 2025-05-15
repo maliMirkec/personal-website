@@ -12,7 +12,7 @@ layout: default
 ---
 {% cldnryfetch "jj2_qm26kn" "Poorly drawn jack crevalle with a text in a speech bubble: “Don't forget the lang attribute to define the default language.”" false true "center plain" %}
 
-JavaScript Jack Crevalle says:
+JavaScript jack crevalle says:
 
 > Use `requestAnimationFrame` to sync updates with the browser’s refresh rate.
 
