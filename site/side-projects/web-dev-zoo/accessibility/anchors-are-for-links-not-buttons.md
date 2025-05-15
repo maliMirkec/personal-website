@@ -1,5 +1,5 @@
 ---
-title: Anchors are for links, not buttons.
+title: Anchors are for links, not buttons
 date: 2025-05-15 14:00:00
 description: "Accessibility aurochs says:  Anchors are for links, not buttons."
 tags:
