@@ -1,7 +1,7 @@
 ---
 title: Anchors are for links, not buttons.
 date: 2025-05-15 14:00:00
-description: "Accessibility Aurochs says:  Anchors are for links, not buttons."
+description: "Accessibility aurochs says:  Anchors are for links, not buttons."
 tags:
   - zoo
   - accessibility
@@ -9,9 +9,9 @@ og_img: aa3_g0hdvy
 type: articles-item
 layout: default
 ---
-{% cldnryfetch "aa3_g0hdvy" "Poorly drawn aurochs with a text in a speech bubble: “Accessibility Aurochs says:  Anchors are for links, not buttons.”" false true "center plain" %}
+{% cldnryfetch "aa3_g0hdvy" "Poorly drawn aurochs with a text in a speech bubble: “ Anchors are for links, not buttons.”" false true "center plain" %}
 
-Accessibility Aurochs says:
+Accessibility aurochs says:
 
 > Anchors are for links, not buttons.
 
