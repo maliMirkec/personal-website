@@ -65,7 +65,7 @@ content:
         type: string
         default: default
         hidden: true
-  - name: invalidcss
+  - name: invalid-css
     label: Invalid CSS
     path: site/side-projects/invalid-css
     type: collection
@@ -90,6 +90,47 @@ content:
         label: Tags
         type: string
         list: true
+      - name: body
+        label: Body
+        type: code
+        options:
+          language: markdown
+      - name: type
+        type: string
+        default: articles-item
+        hidden: true
+      - name: layout
+        type: string
+        default: default
+        hidden: true
+  - name: web-dev-zoo
+    label: Web Dev Zoo
+    path: site/side-projects/web-dev-zoo
+    type: collection
+    exclude: [index.md]
+    view:
+      fields: [ title, date ]
+      sort: [ date, title ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+          format: yyyy-MM-dd HH:mm:ss
+      - name: description
+        label: Description
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: og_img
+        label: OG image
+        type: string
       - name: body
         label: Body
         type: code
