@@ -1,18 +1,18 @@
 ---
-layout: default
-title: "Respect the user’s motion settings and reduce animations"
+title: Respect the user’s motion settings and reduce animations
 date: 2025-03-25 10:00:00
-og_img: cc2_sxfo9c
+description: "CSS cantil says: Respect the user’s motion settings and reduce the
+  animations accordingly."
 tags:
   - zoo
   - css
-description: "CSS Cantil says: Respect the user’s motion settings and reduce the animations accordingly."
+og_img: cc2_sxfo9c
 type: articles-item
+layout: default
 ---
+{% cldnryfetch "cc2_sxfo9c" "Poorly drawn cantil with a text in a speech bubble: “Respect the user’s motion settings and reduce the animations accordingly.”" false true "center plain" %}
 
-{% cldnryfetch "cc2_sxfo9c" "CSS Cantil says: Respect the user’s motion settings and reduce the animations accordingly." false true "center plain" %}
-
-CSS Cantil says:
+CSS cantil says:
 
 > Respect the user’s motion settings and reduce the animations accordingly.
 

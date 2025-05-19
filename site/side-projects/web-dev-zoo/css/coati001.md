@@ -1,18 +1,17 @@
 ---
-layout: default
 title: "Use display: contents with great caution"
 date: 2025-02-18 08:00:00
-og_img: cc1_ygc7wj
+description: "CSS coati says: Use display: contents with great caution."
 tags:
   - zoo
   - css
-description: "CSS Coati says: Use display: contents with great caution."
+og_img: cc1_ygc7wj
 type: articles-item
+layout: default
 ---
+{% cldnryfetch "cc1_ygc7wj" "Poorly drawn coati with a text in a speech bubble: “Use display: contents with great caution.”" false true "center plain" %}
 
-{% cldnryfetch "cc1_ygc7wj" "CSS Coati says: Use display: contents with great caution." false true "center plain" %}
-
-CSS Coati says:
+CSS coati says:
 
 > Use `display: contents` with great caution.
 

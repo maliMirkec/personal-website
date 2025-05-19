@@ -7,8 +7,11 @@ content:
     label: Posts
     path: site/articles
     type: collection
+    filename: '{primary}.md'
+    exclude: [index.md]
     view:
       fields: [ title, date ]
+      primary: title
       sort: [ date, title ]
     fields:
       - name: title
@@ -70,8 +73,10 @@ content:
     path: site/side-projects/invalid-css
     type: collection
     exclude: [index.md]
+    filename: '{primary}.md'
     view:
       fields: [ title, date ]
+      primary: title
       sort: [ date, title ]
     fields:
       - name: title
@@ -108,8 +113,10 @@ content:
     path: site/side-projects/web-dev-zoo
     type: collection
     exclude: [index.md]
+    filename: '{primary}.md'
     view:
       fields: [ title, date ]
+      primary: title
       sort: [ date, title ]
     fields:
       - name: title

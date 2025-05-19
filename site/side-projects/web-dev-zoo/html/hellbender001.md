@@ -1,16 +1,16 @@
 ---
-layout: default
-title: "Don’t forget the lang attribute"
+title: Don’t forget the lang attribute
 date: 2025-02-13 08:00:00
-og_img: hh1_pehhab
+description: "HTML hellbender says: Don’t forget the lang attribute to define
+  the default language."
 tags:
   - zoo
   - html
-description: "HTML hellbender says: Don’t forget the lang attribute to define the default language."
+og_img: hh1_pehhab
 type: articles-item
+layout: default
 ---
-
-{% cldnryfetch "hh1_pehhab" "Poorly drawn hellbender with a text in a speech bubble: “HTML hellbender says: Don’t forget the lang attribute to define the default language.”" false true "center plain" %}
+{% cldnryfetch "hh1_pehhab" "Poorly drawn hellbender with a text in a speech bubble: “Don’t forget the lang attribute to define the default language.”" false true "center plain" %}
 
 HTML hellbender says:
 
