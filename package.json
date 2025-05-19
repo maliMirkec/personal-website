@@ -22,7 +22,7 @@
     "clean-css": "rm -rf assets/css/*.min.css",
     "clean-js": "rm -rf assets/js/*.min.js",
     "clean-public": "rm -rf public",
-    "fix-sharp": "npx install --platform=linux --arch=x64 sharp",
+    "fix-sharp": "npm install --include=optional sharp && npx install --platform=linux --arch=x64 sharp",
     "clean": "npm run clean-css & npm run clean-js & npm run clean-public",
     "css": "npx cleancss --batch --batch-suffix '.min' assets/css/*.css  -o assets/css",
     "js": "cd assets/js; for f in *.js; do short=${f%.js}; npx uglifyjs $f > $short.min.js; done",
