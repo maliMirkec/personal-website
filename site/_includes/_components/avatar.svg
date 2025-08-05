@@ -8,6 +8,7 @@
 
     .fill--10 {
       --c: hsl(352, 93%, 83%);
+      transform: translateX(var(--size-10-20));
       animation-delay: 111ms, 1111ms;
     }
 
@@ -15,16 +16,19 @@
     .fill--30,
     .fill--40 {
       --c: hsl(352, 93%, 63%);
+      transform: translateX(calc(var(--size-10-20) * -1));
       animation-delay: 222ms, 2222ms;
     }
 
     .fill--50 {
       --c: hsl(352, 93%, 43%);
+      transform: translateX(var(--size-10-20));
       animation-delay: 333ms, 3333ms;
     }
 
     .fill--60 {
       --c: hsl(352, 93%, 23%);
+      transform: translateX(calc(var(--size-10-20) * -1));
       animation-delay: 444ms, 4444ms;
     }
 
@@ -41,6 +45,7 @@
     @keyframes op {
       to {
         opacity: 1;
+        transform: none;
         fill: var(--c);
       }
     }
