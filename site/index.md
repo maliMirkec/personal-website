@@ -16,7 +16,7 @@ sections:
       href: /contact/
       title: Contact me
     gfx:
-      name: animation
+      name: avatar
       clamp: 400px
   - type: newsletter
     sticky: true

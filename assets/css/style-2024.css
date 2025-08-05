@@ -481,7 +481,7 @@ blockquote p:not(:first-of-type) {
 
 .hero__image svg {
   block-size: auto;
-  border-radius: var(--size-20-40);
+  border-radius: 50%;
 }
 
 .hero__avatar {
@@ -526,6 +526,10 @@ blockquote p:not(:first-of-type) {
   display: inline-block;
   border-radius: var(--size-02-04);
   outline-offset: var(--size-02-04);
+}
+
+:where(.box__subtitle, .box__anchor):is(:hover, :focus, :active) {
+  color: var(--color-beta);
 }
 
 .box__anchor:is(:hover, :focus, :active) {
@@ -1287,6 +1291,26 @@ blockquote p:not(:first-of-type) {
   border-radius: var(--size-10-20);
 }
 
+.page--favorite-concert .favorites {
+  grid-column: 1 / -1;
+  column-gap: 2rem;
+}
+
+.page--favorite-concert .copy > * + * {
+  margin-block-start: 1em;
+}
+
+.page--favorite-concert .copy h2 {
+  font-size: var(--size-30-40);
+  break-before: column;
+  margin-block-start: unset;
+}
+
+.page--favorite-concert .copy :is(p, li) {
+  font-size: var(--size-16-20);
+  line-height: 1.66;
+}
+
 @media screen and (width < 500px) {
   .header__nav--alpha {
     border-radius: var(--size-50-100) var(--size-30-60) var(--size-30-60) var(--size-50-100);
@@ -1433,6 +1457,10 @@ blockquote p:not(:first-of-type) {
   .article-footer {
     display: grid;
     grid-template-columns: 1fr 2fr min(90vw, var(--main)) 2fr 1fr;
+  }
+
+  .page--favorite-concert .favorites {
+    column-count: 2;
   }
 }
 
@@ -1625,6 +1653,10 @@ blockquote p:not(:first-of-type) {
 
   .masonry {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .page--favorite-concert .favorites {
+    column-count: 3;
   }
 }
 

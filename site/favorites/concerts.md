@@ -7,7 +7,7 @@ type: favorite-concert
 tags:
   - favorites
 thumbnail:
-  src: concerts_smzvcy
+  src: concerts_sgcl5h
   alt: Screenshot of my favorite concerts.
   width: 490
   height: 297
@@ -1381,332 +1381,354 @@ list:
 
 These are the most epic concerts I attended:
 
-- **Röyksopp** | InMusic festival | Zagreb | 2024
-- **M.O.R.T.** | Urban fest | Osijek | 2024
-- **Air** | Air play Moon Safari | Wiener Konzerthaus | Vienna | 2024
-- **King Krule** | Tvornica | Zagreb | 2023
-- **Manu Chao** | Katakombe | Osijek | 2023
-- **Josipa Lisac** | Ferragosto Jam | Orahovica | 2019
-- **Max and Igor Cavalera** | Return to Roots | Orahovica | 2017
-- **Kojoti** | Urban fest | Osijek | 2017
-- **Arcade Fire** | InMusic festival | Zagreb | 2017
-- **Devendra Banhart** | SuperUho | Primošten | 2016
-- **Mark Lanegan** | SuperUho | Primošten | 2016
-- **Florence + The Machine** | InMusic festival | Zagreb | 2016
-- **PJ Harvey** | InMusic festival | Zagreb | 2016
-- **Motörhead** | Exit | Petrovaradin | Novi Sad | 2015
-- **Manu Chao** | Exit | Petrovaradin | Novi Sad | 2015
-- **Faithless** | Exit | Petrovaradin | Novi Sad | 2015
-- **Zadruga** | InMusic festival | Zagreb | 2015
-- **Queens of the Stone Age** | Petrovaradin | Novi Sad | 2014
-- **Digitalism** | InMusic festival | Zagreb | 2014
-- **Pixies** | InMusic festival | Zagreb | 2014
-- **Kuzma i Shaka Zulu** | Exit club | Osijek | 2013
-- **The Prodigy** | Exit | Petrovaradin | Novi Sad | 2013
-- **Fatboy Slim** | Exit | Petrovaradin | Novi Sad | 2013
-- **Snoop Dogg** | Exit | Petrovaradin | Novi Sad | 2013
-- **Iggy and The Stooges** | InMusic festival | Zagreb | 2013
-- **Hot Chip** | Electronic Beats | Zagreb | 2012
-- **Digitalism** | Electronic Beats | Zagreb | 2011
-- **Animal Collective** | Tvornica Jedinstvo | Zagreb | 2011
-- **Crystal Castles** | Terraneo Festival | Šibenik | 2011
-- **Kuzma i Shaka zulu** | Terraneo Festival | Šibenik | 2011
-- **Arcade Fire** | Exit | Petrovaradin | Novi Sad | 2011
-- **Portishead** | Exit | Petrovaradin | Novi Sad | 2011
-- **Senna M** | Tufna | Osijek | 2010
-- **Simian Mobile Disco** | Hartera5 | Rijeka | 2009
-- **Trentemøller** | Hartera7 | Rijeka | 2015
-- **Röyksopp** | Hartera5 | Rijeka | 2009
-- **Yeah Yeah Yeahs** | InMusic festival | Zagreb | 2009
-- **Lily Allen** | InMusic festival | Zagreb | 2009
-- **Kraftwerk** | InMusic festival | Zagreb | 2009
-- **Moby** | InMusic festival | Zagreb | 2009
-- **Hot Chip** | InMusic festival | Zagreb | 2008
-- **The Prodigy** | InMusic festival | Zagreb | 2008
-- **Nick Cave & the Bad Seeds** | InMusic festival | Zagreb | 2008
-- **Sonic Youth** | InMusic festival | Zagreb | 2007
-- **The Stooges** | InMusic festival | Zagreb | 2007
+- **Guns N'Roses**<br>Puskás Aréna | Budapest | 2025
+- **Kim Deal**<br>InMusic festival | Zagreb | 2025
+- **St. Vincent**<br>InMusic festival | Zagreb | 2025
+- **Kasabian**<br>InMusic festival | Zagreb | 2025
+- **Fontaines D.C.**<br>InMusic festival | Zagreb | 2025
+- **Air**<br>InMusic festival | Zagreb | 2025
+- **nipplepeople**<br>Galoop | Đakovo | 2025
+- **Röyksopp**<br>InMusic festival | Zagreb | 2024
+- **M.O.R.T.**<br>Urban fest | Osijek | 2024
+- **Air**<br>Air play Moon Safari | Wiener Konzerthaus | Vienna | 2024
+- **King Krule**<br>Tvornica | Zagreb | 2023
+- **Manu Chao**<br>Katakombe | Osijek | 2023
+- **Josipa Lisac**<br>Ferragosto Jam | Orahovica | 2019
+- **Max and Igor Cavalera**<br>Return to Roots | Orahovica | 2017
+- **Kojoti**<br>Urban fest | Osijek | 2017
+- **Arcade Fire**<br>InMusic festival | Zagreb | 2017
+- **Devendra Banhart**<br>SuperUho | Primošten | 2016
+- **Mark Lanegan**<br>SuperUho | Primošten | 2016
+- **Florence + The Machine**<br>InMusic festival | Zagreb | 2016
+- **PJ Harvey**<br>InMusic festival | Zagreb | 2016
+- **Motörhead**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Manu Chao**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Faithless**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Zadruga**<br>InMusic festival | Zagreb | 2015
+- **Queens of the Stone Age**<br>Petrovaradin | Novi Sad | 2014
+- **Digitalism**<br>InMusic festival | Zagreb | 2014
+- **Pixies**<br>InMusic festival | Zagreb | 2014
+- **Kuzma i Shaka Zulu**<br>Exit club | Osijek | 2013
+- **The Prodigy**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Fatboy Slim**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Snoop Dogg**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Iggy and The Stooges**<br>InMusic festival | Zagreb | 2013
+- **Hot Chip**<br>Electronic Beats | Zagreb | 2012
+- **Digitalism**<br>Electronic Beats | Zagreb | 2011
+- **Animal Collective**<br>Tvornica Jedinstvo | Zagreb | 2011
+- **Crystal Castles**<br>Terraneo Festival | Šibenik | 2011
+- **Kuzma i Shaka zulu**<br>Terraneo Festival | Šibenik | 2011
+- **Arcade Fire**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Portishead**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Senna M**<br>Tufna | Osijek | 2010
+- **Simian Mobile Disco**<br>Hartera5 | Rijeka | 2009
+- **Trentemøller**<br>Hartera7 | Rijeka | 2015
+- **Röyksopp**<br>Hartera5 | Rijeka | 2009
+- **Yeah Yeah Yeahs**<br>InMusic festival | Zagreb | 2009
+- **Lily Allen**<br>InMusic festival | Zagreb | 2009
+- **Kraftwerk**<br>InMusic festival | Zagreb | 2009
+- **Moby**<br>InMusic festival | Zagreb | 2009
+- **Hot Chip**<br>InMusic festival | Zagreb | 2008
+- **The Prodigy**<br>InMusic festival | Zagreb | 2008
+- **Nick Cave & the Bad Seeds**<br>InMusic festival | Zagreb | 2008
+- **Sonic Youth**<br>InMusic festival | Zagreb | 2007
+- **The Stooges**<br>InMusic festival | Zagreb | 2007
 
 ## Favorite concerts
 
 These are some other favorite concerts:
 
-- **TBF** | Urban fest | Osijek | 2024
-- **Ibibio Sound Machine** | InMusic festival | Zagreb | 2024
-- **Smashing Pumpkins** | InMusic festival | Zagreb | 2024
-- **Bombay Bicycle Club** | InMusic festival | Zagreb | 2024
-- **Repetitor** | InMusic festival | Zagreb | 2017
-- **Darko Rundek** | InMusic festival | Zagreb | 2017
-- **Žen** | SuperUho | Primošten | 2016
-- **Peter Hook (ex Joy Divison)** | SuperUho | Primošten | 2016
-- **Django Django** | InMusic festival | Zagreb | 2016
-- **Gutterdämmerung featuring Henry Rollins** | InMusic festival | Zagreb | 2016
-- **Napalm Death** | Exit | Petrovaradin | Novi Sad | 2015
-- **Hudson Mohawke** | Exit | Petrovaradin | Novi Sad | 2015
-- **Leftfield** | Exit | Petrovaradin | Novi Sad | 2015
-- **Emeli Sandé** | Exit | Petrovaradin | Novi Sad | 2015
-- **La Roux** | InMusic festival | Zagreb | 2015
-- **Foals** | InMusic festival | Zagreb | 2014
-- **MGMT** | InMusic festival | Zagreb | 2014
-- **The Black Keys** | InMusic festival | Zagreb | 2014
-- **SBTRKT** | Exit | Petrovaradin | Novi Sad | 2013
-- **Chic** | Exit | Petrovaradin | Novi Sad | 2013
-- **Nick Cave and the Bad Seeds** | Exit | Petrovaradin | Novi Sad | 2013
-- **Arctic Monkeys** | InMusic festival | Zagreb | 2013
-- **Kiril Džajkovski** | Špancirfest | Varaždin | 2012
-- **Modeselektor** | Electronic Beats | Zagreb | 2012
-- **New Order** | InMusic festival | Zagreb | 2012
-- **Josipa Lisac** | Vega | Osijek | 2011
-- **Morcheeba** | Špancirfest | Varaždin | 2011
-- **Róisín Murphy** | Electronic Beats | Zagreb | 2011
-- **Hercules and Love Affair** | Hartera7 | Rijeka | 2011
-- **Hudson Mohawke** | Hartera7 | Rijeka | 2011
-- **Nosaj Thing** | Exit | Petrovaradin | Novi Sad | 2011
-- **Digitalism** | Exit | Petrovaradin | Novi Sad | 2011
-- **Underworld** | Exit | Petrovaradin | Novi Sad | 2011
-- **Grinderman** | Exit | Petrovaradin | Novi Sad | 2011
-- **Santigold** | Exit | Petrovaradin | Novi Sad | 2011
-- **M.I.A.** | Exit | Petrovaradin | Novi Sad | 2011
-- **Grinderman** | InMusic festival | Zagreb | 2011
-- **Arcade Fire** | InMusic festival | Zagreb | 2011
-- **Dan Deacon** | Teatar &TD | Zagreb | 2010
-- **Erol Alkan** | Hartera5 | Rijeka | 2010
-- **Duke Dumont** | Hartera5 | Rijeka | 2010
-- **Moderat** | Hartera5 | Rijeka | 2010
-- **Nosaj Thing** | Hartera5 | Rijeka | 2010
-- **Klaxons** | Hartera5 | Rijeka | 2010
-- **Sleigh Bells** | Hartera5 | Rijeka | 2010
-- **Digitalism** | Hartera5 | Rijeka | 2010
-- **Atari Teenage Riot** | Hartera5 | Rijeka | 2010
-- **Caribou** | InMusic festival | Zagreb | 2010
-- **The Flaming Lips** | InMusic festival | Zagreb | 2010
-- **LCD Soundsystem** | InMusic festival | Zagreb | 2010
-- **Metallica** | Hipodrom | Zagreb | 2010
-- **Ivan Hrvatska** | Mini Teatar | Osijek | 2009
-- **Let 3** | Hartera5 | Rijeka | 2009
-- **Laka** | Tuborg Green Fest | Osijek | 2008
-- **Kiril Džajkovski** | InMusic festival | Zagreb | 2008
-- **Stereo MC's** | InMusic festival | Zagreb | 2008
-- **The Go! Team** | InMusic festival | Zagreb | 2008
-- **New York Dolls** | InMusic festival | Zagreb | 2007
-- **!!!** | InMusic festival | Zagreb | 2007
-- **Róisín Murphy** | InMusic festival | Zagreb | 2007
+- **The Streets**<br>InMusic festival | Zagreb | 2025
+- **Massive Attack**<br>InMusic festival | Zagreb | 2025
+- **TBF**<br>Urban fest | Osijek | 2024
+- **Ibibio Sound Machine**<br>InMusic festival | Zagreb | 2024
+- **Smashing Pumpkins**<br>InMusic festival | Zagreb | 2024
+- **Bombay Bicycle Club**<br>InMusic festival | Zagreb | 2024
+- **Red Hot Chilli Peppers**<br>Puskás Aréna | Budapest | 2022
+- **Repetitor**<br>InMusic festival | Zagreb | 2017
+- **Darko Rundek**<br>InMusic festival | Zagreb | 2017
+- **Žen**<br>SuperUho | Primošten | 2016
+- **Peter Hook (ex Joy Divison)**<br>SuperUho | Primošten | 2016
+- **Django Django**<br>InMusic festival | Zagreb | 2016
+- **Gutterdämmerung featuring Henry Rollins**<br>InMusic festival | Zagreb | 2016
+- **Napalm Death**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Hudson Mohawke**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Leftfield**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Emeli Sandé**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **La Roux**<br>InMusic festival | Zagreb | 2015
+- **Foals**<br>InMusic festival | Zagreb | 2014
+- **MGMT**<br>InMusic festival | Zagreb | 2014
+- **The Black Keys**<br>InMusic festival | Zagreb | 2014
+- **SBTRKT**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Chic**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Nick Cave and the Bad Seeds**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Arctic Monkeys**<br>InMusic festival | Zagreb | 2013
+- **Let3**<br>Medium | Osijek | 2012
+- **Gustafi**<br>Medium | Osijek | 2012
+- **Jinx**<br>Medium | Osijek | 2012
+- **Kiril Džajkovski**<br>Špancirfest | Varaždin | 2012
+- **Modeselektor**<br>Electronic Beats | Zagreb | 2012
+- **New Order**<br>InMusic festival | Zagreb | 2012
+- **Josipa Lisac**<br>Vega | Osijek | 2011
+- **Morcheeba**<br>Špancirfest | Varaždin | 2011
+- **Róisín Murphy**<br>Electronic Beats | Zagreb | 2011
+- **Hercules and Love Affair**<br>Hartera7 | Rijeka | 2011
+- **Hudson Mohawke**<br>Hartera7 | Rijeka | 2011
+- **Nosaj Thing**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Digitalism**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Underworld**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Grinderman**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Santigold**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **M.I.A.**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Grinderman**<br>InMusic festival | Zagreb | 2011
+- **Arcade Fire**<br>InMusic festival | Zagreb | 2011
+- **Dan Deacon**<br>Teatar &TD | Zagreb | 2010
+- **Erol Alkan**<br>Hartera5 | Rijeka | 2010
+- **Duke Dumont**<br>Hartera5 | Rijeka | 2010
+- **Moderat**<br>Hartera5 | Rijeka | 2010
+- **Nosaj Thing**<br>Hartera5 | Rijeka | 2010
+- **Klaxons**<br>Hartera5 | Rijeka | 2010
+- **Sleigh Bells**<br>Hartera5 | Rijeka | 2010
+- **Digitalism**<br>Hartera5 | Rijeka | 2010
+- **Atari Teenage Riot**<br>Hartera5 | Rijeka | 2010
+- **Caribou**<br>InMusic festival | Zagreb | 2010
+- **The Flaming Lips**<br>InMusic festival | Zagreb | 2010
+- **LCD Soundsystem**<br>InMusic festival | Zagreb | 2010
+- **Metallica**<br>Hipodrom | Zagreb | 2010
+- **Ivan Hrvatska**<br>Mini Teatar | Osijek | 2009
+- **Let 3**<br>Hartera5 | Rijeka | 2009
+- **Laka**<br>Tuborg Green Fest | Osijek | 2008
+- **Kiril Džajkovski**<br>InMusic festival | Zagreb | 2008
+- **Stereo MC's**<br>InMusic festival | Zagreb | 2008
+- **The Go! Team**<br>InMusic festival | Zagreb | 2008
+- **New York Dolls**<br>InMusic festival | Zagreb | 2007
+- **!!!**<br>InMusic festival | Zagreb | 2007
+- **Róisín Murphy**<br>InMusic festival | Zagreb | 2007
 
 ## Honorable mentions
 
 All other concerts that were great that I could remember attending:
 
-- **Idem** | Urban fest | Osijek | 2024
-- **Portman** | Urban fest | Osijek | 2024
-- **Zabranjeno pušenje** | Zrinjevac | Osijek | 2023
-- **Urban** | Gradski vrt | Osijek | 2023
-- **Majke** | Špancirfest | Varaždin | 2021
-- **Nipplepeople** | Ferragosto Jam | Orahovica | 2019
-- **Urban & 4** | Ferragosto Jam | Orahovica | 2019
-- **Goran Bare** | Ferragosto Jam | Orahovica | 2019
-- **Porto Morto** | Urban fest | Osijek | 2019
-- **Repetitor** | Urban fest | Osijek | 2019
-- **Darko Rundek** | Urban fest | Osijek | 2019
-- **Gužva u 16ercu** | Školjka | Osijek | 2018
-- **Kasabian** | InMusic festival | Zagreb | 2017
-- **Kings of Leon** | InMusic festival | Zagreb | 2017
-- **Alt-J** | InMusic festival | Zagreb | 2017
-- **Baden-Badena** | SuperUho | Primošten | 2016
-- **Pips Chips & Videoclips** | SuperUho | Primošten | 2016
-- **Lightning Bolt** | SuperUho | Primošten | 2016
-- **Mudhoney** | SuperUho | Primošten | 2016
-- **Courtney Barns** | InMusic festival | Zagreb | 2016
-- **Jake Bugg** | InMusic festival | Zagreb | 2016
-- **Yeasayer** | InMusic festival | Zagreb | 2016
-- **The Kooks** | InMusic festival | Zagreb | 2016
-- **Wilco** | InMusic festival | Zagreb | 2016
-- **Skunk Anansie** | InMusic festival | Zagreb | 2016
-- **The Coral** | InMusic festival | Zagreb | 2016
-- **Rambo Amadeus** | Exit | Petrovaradin | Novi Sad | 2015
-- **Fear Factory** | Exit | Petrovaradin | Novi Sad | 2015
-- **Tom Odell** | Exit | Petrovaradin | Novi Sad | 2015
-- **Milky Chance** | Exit | Petrovaradin | Novi Sad | 2015
-- **Eagles of Death Metal** | Exit | Petrovaradin | Novi Sad | 2015
-- **Clean Bandit** | Exit | Petrovaradin | Novi Sad | 2015
-- **John Newman** | Exit | Petrovaradin | Novi Sad | 2015
-- **Aziza Brahim** | InMusic festival | Zagreb | 2015
-- **Of Monsters and Men** | InMusic festival | Zagreb | 2015
-- **Capital Cities** | Exit | Petrovaradin | Novi Sad | 2015
-- **Black Rebel Motorcycle Club** | InMusic festival | Zagreb | 2015
-- **Future Islands** | InMusic festival | Zagreb | 2015
-- **Eagles Of Death Metal** | InMusic festival | Zagreb | 2015
-- **Rudimental** | InMusic festival | Zagreb | 2015
-- **Frank Turner and the Sleeping Souls** | InMusic festival | Zagreb | 2015
-- **Placebo** | InMusic festival | Zagreb | 2015
-- **Hollywoodfun Downstairs** | Phonogram | Osijek | 2014
-- **Baden Baden** | Phonogram | Osijek | 2014
-- **Portman** | Phonogram | Osijek | 2014
-- **Virvel** | Phonogram | Osijek | 2014
-- **Joe 4** | Phonogram | Osijek | 2014
-- **Hidden by the Grapes** | Phonogram | Osijek | 2014
-- **Žen** | Phonogram | Osijek | 2014
-- **Ti** | Phonogram | Osijek | 2014
-- **Street Eaters** | Phonogram | Osijek | 2014
-- **US Lights** | Phonogram | Osijek | 2014
-- **Robotra** | Phonogram | Osijek | 2014
-- **Vlasta Popić** | Phonogram | Osijek | 2014
-- **Gone Bald** | Phonogram | Osijek | 2014
-- **ManMachine** | Phonogram | Osijek | 2014
-- **Kimekai** | Phonogram | Osijek | 2014
-- **Analena** | Phonogram | Osijek | 2014
-- **Naadyn** | Phonogram | Osijek | 2014
-- **Jinx** | Ferragosto Jam | Orahovica | 2014
-- **Hladno pivo** | Ferragosto Jam | Orahovica | 2014
-- **Rambo Amadeus** | InMusic festival | Zagreb | 2014
-- **Partibrejkers** | InMusic festival | Zagreb | 2014
-- **Wolfmother** | InMusic festival | Zagreb | 2014
-- **Bombay Bicycle Club** | InMusic festival | Zagreb | 2014
-- **Vitalic** | InMusic festival | Zagreb | 2014
-- **Denis & Denis** | Korzo | Rijeka | 2013
-- **Đubrivo** | Urban fest | Osijek | 2013
-- **Lollobrigida** | Exit | Petrovaradin | Novi Sad | 2013
-- **Rambo Amadeus** | Exit | Petrovaradin | Novi Sad | 2013
-- **Repetitor** | Exit | Petrovaradin | Novi Sad | 2013
-- **Atoms for Peace** | Exit | Petrovaradin | Novi Sad | 2013
-- **CeeLo Green** | Exit | Petrovaradin | Novi Sad | 2013
-- **Bloc Party** | Exit | Petrovaradin | Novi Sad | 2013
-- **Gatuzo** | InMusic festival | Zagreb | 2013
-- **Editors** | InMusic festival | Zagreb | 2013
-- **Basemant Jaxx** | InMusic festival | Zagreb | 2013
-- **Bloc Party** | InMusic festival | Zagreb | 2013
-- **Partibrejkersi** | Špancirfest | Varaždin | 2012
-- **Disciplin'A Kitschme** | Špancirfest | Varaždin | 2012
-- **Let 3** | InMusic festival | Zagreb | 2012
-- **Gogol Bordello** | InMusic festival | Zagreb | 2012
-- **Mando Diao** | InMusic festival | Zagreb | 2012
-- **Gorillaz Sound System** | InMusic festival | Zagreb | 2012
-- **Franz Ferdinand** | InMusic festival | Zagreb | 2012
-- **Jinx** | Špancirfest | Varaždin | 2011
-- **Asian Dub Foundation** | Špancirfest | Varaždin | 2011
-- **Psihomodo Pop** | OLJM | Osijek | 2011
-- **Hugh Cornwell** | Pozitivan koncert! | Zagreb | 2011
-- **KinoKlub** | Pozitivan koncert! | Zagreb | 2011
-- **TBF** | Pozitivan koncert! | Zagreb | 2011
-- **Lollobrigida** | Pozitivan koncert! | Zagreb | 2011
-- **Let 3** | Pozitivan koncert! | Zagreb | 2011
-- **Laibach** | Pozitivan koncert! | Zagreb | 2011
-- **Urban & 4** | Mini Teatar | Osijek | 2011
-- **NoMeansNo** | Mini Teatar | Osijek | 2011
-- **Rundek Cargo Trio** | Mini Teatar | Osijek | 2011
-- **Let 3** | Urban fest | Osijek | 2011
-- **When Saints Go Machine** | Electronic Beats | Zagreb | 2011
-- **Totally Enormous Extinct Dinosaurs** | Electronic Beats | Zagreb | 2011
-- **Goribor** | Hartera7 | Rijeka | 2011
-- **Lollobrigida** | Hartera7 | Rijeka | 2011
-- **Kawasaki 3p** | Hartera7 | Rijeka | 2011
-- **Električni Orgazam** | Hartera7 | Rijeka | 2011
-- **Petar Dundov** | Hartera7 | Rijeka | 2011
-- **Brodinski** | Hartera7 | Rijeka | 2011
-- **Nina Romić** | Terraneo Festival | Šibenik | 2011
-- **ABOP** | Terraneo Festival | Šibenik | 2011
-- **Petrol** | Terraneo Festival | Šibenik | 2011
-- **Peach Pit** | Terraneo Festival | Šibenik | 2011
-- **Lollobrigida** | Terraneo Festival | Šibenik | 2011
-- **Leut Magnetik** | Terraneo Festival | Šibenik | 2011
-- **Nipplepeople** | Terraneo Festival | Šibenik | 2011
-- **The Bambi Molesters** | Terraneo Festival | Šibenik | 2011
-- **Nežni Dalibor** | Terraneo Festival | Šibenik | 2011
-- **Repetitor** | Terraneo Festival | Šibenik | 2011
-- **Handsome Furs** | Terraneo Festival | Šibenik | 2011
-- **Woven Hand** | Terraneo Festival | Šibenik | 2011
-- **The Raveonettes** | Terraneo Festival | Šibenik | 2011
-- **The Baseball Project** | Terraneo Festival | Šibenik | 2011
-- **Nouvelle Vague** | Terraneo Festival | Šibenik | 2011
-- **Mogwai** | Terraneo Festival | Šibenik | 2011
-- **Janelle Monáe** | Terraneo Festival | Šibenik | 2011
-- **Frank Turner** | Terraneo Festival | Šibenik | 2011
-- **Destroyer** | Terraneo Festival | Šibenik | 2011
-- **La Roux** | Terraneo Festival | Šibenik | 2011
-- **Dan Deacon** | Terraneo Festival | Šibenik | 2011
-- **Nežni Dalibor** | Exit | Petrovaradin | Novi Sad | 2011
-- **Laibach** | Exit | Petrovaradin | Novi Sad | 2011
-- **Hadouken!** | Exit | Petrovaradin | Novi Sad | 2011
-- **Beirut** | Exit | Petrovaradin | Novi Sad | 2011
-- **Groove Armada** | Exit | Petrovaradin | Novi Sad | 2011
-- **Magnetic Man** | Exit | Petrovaradin | Novi Sad | 2011
-- **Deadmau5** | Exit | Petrovaradin | Novi Sad | 2011
-- **House of Pain** | Exit | Petrovaradin | Novi Sad | 2011
-- **Pulp** | Exit | Petrovaradin | Novi Sad | 2011
-- **Jamiroquai** | Exit | Petrovaradin | Novi Sad | 2011
-- **Jinx** | Urban fest | Osijek | 2011
-- **Goribor** | InMusic festival | Zagreb | 2011
-- **The Orange Strips** | InMusic festival | Zagreb | 2011
-- **Partibrejkers** | InMusic festival | Zagreb | 2011
-- **Overflow** | InMusic festival | Zagreb | 2011
-- **Mika Male** | InMusic festival | Zagreb | 2011
-- **Elemental** | InMusic festival | Zagreb | 2011
-- **Dubioza Kolektiv** | InMusic festival | Zagreb | 2011
-- **Dječaci** | InMusic festival | Zagreb | 2011
-- **The Dø** | InMusic festival | Zagreb | 2011
-- **Mastodon** | InMusic festival | Zagreb | 2011
-- **Buraka Som Sistema** | InMusic festival | Zagreb | 2011
-- **Cypress Hill** | InMusic festival | Zagreb | 2011
-- **TV on the Radio** | InMusic festival | Zagreb | 2011
-- **The Streets** | InMusic festival | Zagreb | 2011
-- **Jamiroquai** | InMusic festival | Zagreb | 2011
-- **Yann Tiersen** | Tvornica | Zagreb | 2010
-- **Darko Rundek & Cargo Orkestar** | DORF 2010 | Osijek | 2010
-- **Kandžija** | Tuborg Green Beat | Osijek | 2010
-- **Dubioza Kolektiv** | Tuborg Green Beat | Osijek | 2010
-- **Let 3** | Tuborg Green Beat | Osijek | 2010
-- **Deerhoof** | Teatar &TD | Zagreb | 2010
-- **High Places** | Teatar &TD | Zagreb | 2010
-- **Bambi Molesters** | Hartera5 | Rijeka | 2010
-- **The Beat Fleet** | Hartera5 | Rijeka | 2010
-- **Quasarr** | Hartera5 | Rijeka | 2010
-- **Nina Romić** | Hartera5 | Rijeka | 2010
-- **Fuck Buttons** | Hartera5 | Rijeka | 2010
-- **New Young Pony Club** | InMusic festival | Zagreb | 2010
-- **Audio Bullys** | InMusic festival | Zagreb | 2010
-- **Alice in Chains** | InMusic festival | Zagreb | 2010
-- **Broken Social Scene** | InMusic festival | Zagreb | 2010
-- **Pendulum** | InMusic festival | Zagreb | 2010
-- **Billy Idol** | InMusic festival | Zagreb | 2010
-- **!!!** | InMusic festival | Zagreb | 2010
-- **Morcheeba** | InMusic festival | Zagreb | 2010
-- **Damir Urban** | Vega | Osijek | 2009
-- **David Morales** | Vega | Osijek | 2009
-- **Darko Rundek** | Mini Teatar | Osijek | 2009
-- **Darko Rundek & Cargo Orkestar** | Tvornica | Zagreb | 2009
-- **Fakofbolan** | Dirty Old Fest | Velika | 2009
-- **Dubioza Kolektiv** | Dirty Old Fest | Velika | 2009
-- **Debeli Precjednik** | Dirty Old Fest | Velika | 2009
-- **Bud Spencer** | Dirty Old Fest | Velika | 2009
-- **Bernays Propaganda** | Dirty Old Fest | Velika | 2009
-- **The Bambi Molesters** | Dirty Old Fest | Velika | 2009
-- **Antenat** | Dirty Old Fest | Velika | 2009
-- **U2** | Maksimir | Zagreb | 2009
-- **Repetitor** | Hartera5 | Rijeka | 2009
-- **Boys Noize** | Hartera5 | Rijeka | 2009
-- **Editors** | InMusic festival | Zagreb | 2009
-- **Tricky** | InMusic festival | Zagreb | 2009
-- **Franz Ferdinand** | InMusic festival | Zagreb | 2009
-- **Majke, Majke Unplugged** | Osijek | 2008**
-- **TBF** | Osječko Ljeto Mladih | Osijek | 2008
-- **Pips, Chips & Videoclips** | Tuborg Green Fest | Osijek | 2008
-- **Zabranjeno pušenje** | Jesen uz Osječko | Osijek | 2008
-- **Partibrejkers** | Jesen uz Osječko | Osijek | 2008
-- **KUD Idijoti** | Jesen uz Osječko | Osijek | 2008
-- **White Flag** | Dirty Old Fest | Velika | 2008
-- **Debeli Precjednik** | Dirty Old Fest | Velika | 2008
-- **Električni Orgazam** | Urban fest | Osijek | 2008
-- **Amadou & Mariam** | InMusic festival | Zagreb | 2008
-- **Tinariwen** | InMusic festival | Zagreb | 2008
-- **Gužva u 16-ercu** | Mini Teatar | Osijek | 2007
-- **Jinx** | Tuborg Green Fest | Osijek | 2007
-- **The Bambi Molesters** | Copacabana | Osijek | 2007
-- **Belfast Food** | Jesen uz Osječko | Osijek | 2007
-- **Let 3** | Urban fest | Osijek | 2007
-- **Atheist Rap** | Dirty Old Fest | Velika | 2007
-- **Hladno Pivo** | Dirty Old Fest | Velika | 2007
-- **NoMeansNo** | Dirty Old Fest | Velika | 2007
-- **The Hold Steady** | InMusic festival | Zagreb | 2007
-- **Asian Dub Foundation** | InMusic festival | Zagreb | 2007
-- **Banco De Gaia** | InMusic festival | Zagreb | 2007
-- **Gilles Peterson** | InMusic festival | Zagreb | 2007
-- **Happy Mondays** | InMusic festival | Zagreb | 2007
+- **Dunije**<br>InMusic festival | Zagreb | 2025
+- **Michael Kiwanuka**<br>InMusic festival | Zagreb | 2025
+- **Buč Kesidi**<br>Galoop | Đakovo | 2025
+- **Let3**<br>Galoop | Đakovo | 2025
+- **IDEM**<br>Galoop | Đakovo | 2025
+- **Porto Morto**<br>Galoop | Đakovo | 2025
+- **Neno Belan**<br>Wine & Walk | Osijek | 2025
+- **Natali Dizdar**<br>Oxygene | Osijek | 2024
+- **IDEM**<br>Urban fest | Osijek | 2024
+- **Portman**<br>Urban fest | Osijek | 2024
+- **Zabranjeno pušenje**<br>Urban fest | Osijek | 2024
+- **Urban**<br>Gradski vrt | Osijek | 2023
+- **Majke**<br>Špancirfest | Varaždin | 2021
+- **Nipplepeople**<br>Ferragosto Jam | Orahovica | 2019
+- **Urban & 4**<br>Ferragosto Jam | Orahovica | 2019
+- **Goran Bare**<br>Ferragosto Jam | Orahovica | 2019
+- **Porto Morto**<br>Urban fest | Osijek | 2019
+- **Repetitor**<br>Urban fest | Osijek | 2019
+- **Darko Rundek**<br>Urban fest | Osijek | 2019
+- **Gužva u 16ercu**<br>Školjka | Osijek | 2018
+- **Kasabian**<br>InMusic festival | Zagreb | 2017
+- **Kings of Leon**<br>InMusic festival | Zagreb | 2017
+- **Alt-J**<br>InMusic festival | Zagreb | 2017
+- **Baden-Badena**<br>SuperUho | Primošten | 2016
+- **Pips Chips & Videoclips**<br>SuperUho | Primošten | 2016
+- **Lightning Bolt**<br>SuperUho | Primošten | 2016
+- **Mudhoney**<br>SuperUho | Primošten | 2016
+- **Courtney Barns**<br>InMusic festival | Zagreb | 2016
+- **Jake Bugg**<br>InMusic festival | Zagreb | 2016
+- **Yeasayer**<br>InMusic festival | Zagreb | 2016
+- **The Kooks**<br>InMusic festival | Zagreb | 2016
+- **Wilco**<br>InMusic festival | Zagreb | 2016
+- **Skunk Anansie**<br>InMusic festival | Zagreb | 2016
+- **The Coral**<br>InMusic festival | Zagreb | 2016
+- **Rambo Amadeus**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Fear Factory**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Tom Odell**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Milky Chance**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Eagles of Death Metal**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Clean Bandit**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **John Newman**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Aziza Brahim**<br>InMusic festival | Zagreb | 2015
+- **Of Monsters and Men**<br>InMusic festival | Zagreb | 2015
+- **Capital Cities**<br>Exit | Petrovaradin | Novi Sad | 2015
+- **Black Rebel Motorcycle Club**<br>InMusic festival | Zagreb | 2015
+- **Future Islands**<br>InMusic festival | Zagreb | 2015
+- **Eagles Of Death Metal**<br>InMusic festival | Zagreb | 2015
+- **Rudimental**<br>InMusic festival | Zagreb | 2015
+- **Frank Turner and the Sleeping Souls**<br>InMusic festival | Zagreb | 2015
+- **Placebo**<br>InMusic festival | Zagreb | 2015
+- **Hollywoodfun Downstairs**<br>Phonogram | Osijek | 2014
+- **Baden Baden**<br>Phonogram | Osijek | 2014
+- **Portman**<br>Phonogram | Osijek | 2014
+- **Virvel**<br>Phonogram | Osijek | 2014
+- **Joe 4**<br>Phonogram | Osijek | 2014
+- **Hidden by the Grapes**<br>Phonogram | Osijek | 2014
+- **Žen**<br>Phonogram | Osijek | 2014
+- **Ti**<br>Phonogram | Osijek | 2014
+- **Street Eaters**<br>Phonogram | Osijek | 2014
+- **US Lights**<br>Phonogram | Osijek | 2014
+- **Robotra**<br>Phonogram | Osijek | 2014
+- **Vlasta Popić**<br>Phonogram | Osijek | 2014
+- **Gone Bald**<br>Phonogram | Osijek | 2014
+- **ManMachine**<br>Phonogram | Osijek | 2014
+- **Kimekai**<br>Phonogram | Osijek | 2014
+- **Analena**<br>Phonogram | Osijek | 2014
+- **Naadyn**<br>Phonogram | Osijek | 2014
+- **Jinx**<br>Ferragosto Jam | Orahovica | 2014
+- **Hladno pivo**<br>Ferragosto Jam | Orahovica | 2014
+- **Rambo Amadeus**<br>InMusic festival | Zagreb | 2014
+- **Partibrejkers**<br>InMusic festival | Zagreb | 2014
+- **Wolfmother**<br>InMusic festival | Zagreb | 2014
+- **Bombay Bicycle Club**<br>InMusic festival | Zagreb | 2014
+- **Vitalic**<br>InMusic festival | Zagreb | 2014
+- **Denis & Denis**<br>Korzo | Rijeka | 2013
+- **Đubrivo**<br>Urban fest | Osijek | 2013
+- **Lollobrigida**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Rambo Amadeus**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Repetitor**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Atoms for Peace**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **CeeLo Green**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Bloc Party**<br>Exit | Petrovaradin | Novi Sad | 2013
+- **Gatuzo**<br>InMusic festival | Zagreb | 2013
+- **Editors**<br>InMusic festival | Zagreb | 2013
+- **Basemant Jaxx**<br>InMusic festival | Zagreb | 2013
+- **Bloc Party**<br>InMusic festival | Zagreb | 2013
+- **Partibrejkersi**<br>Špancirfest | Varaždin | 2012
+- **Disciplin'A Kitschme**<br>Špancirfest | Varaždin | 2012
+- **Let 3**<br>InMusic festival | Zagreb | 2012
+- **Gogol Bordello**<br>InMusic festival | Zagreb | 2012
+- **Mando Diao**<br>InMusic festival | Zagreb | 2012
+- **Gorillaz Sound System**<br>InMusic festival | Zagreb | 2012
+- **Franz Ferdinand**<br>InMusic festival | Zagreb | 2012
+- **Jinx**<br>Špancirfest | Varaždin | 2011
+- **Vatrogasci**<br>Medium | Osijek | 2011
+- **Asian Dub Foundation**<br>Špancirfest | Varaždin | 2011
+- **Psihomodo Pop**<br>OLJM | Osijek | 2011
+- **Hugh Cornwell**<br>Pozitivan koncert! | Zagreb | 2011
+- **KinoKlub**<br>Pozitivan koncert! | Zagreb | 2011
+- **TBF**<br>Pozitivan koncert! | Zagreb | 2011
+- **Lollobrigida**<br>Pozitivan koncert! | Zagreb | 2011
+- **Let 3**<br>Pozitivan koncert! | Zagreb | 2011
+- **Laibach**<br>Pozitivan koncert! | Zagreb | 2011
+- **Urban & 4**<br>Mini Teatar | Osijek | 2011
+- **NoMeansNo**<br>Mini Teatar | Osijek | 2011
+- **Rundek Cargo Trio**<br>Mini Teatar | Osijek | 2011
+- **Let 3**<br>Urban fest | Osijek | 2011
+- **When Saints Go Machine**<br>Electronic Beats | Zagreb | 2011
+- **Totally Enormous Extinct Dinosaurs**<br>Electronic Beats | Zagreb | 2011
+- **Goribor**<br>Hartera7 | Rijeka | 2011
+- **Lollobrigida**<br>Hartera7 | Rijeka | 2011
+- **Kawasaki 3p**<br>Hartera7 | Rijeka | 2011
+- **Električni Orgazam**<br>Hartera7 | Rijeka | 2011
+- **Petar Dundov**<br>Hartera7 | Rijeka | 2011
+- **Brodinski**<br>Hartera7 | Rijeka | 2011
+- **Nina Romić**<br>Terraneo Festival | Šibenik | 2011
+- **ABOP**<br>Terraneo Festival | Šibenik | 2011
+- **Petrol**<br>Terraneo Festival | Šibenik | 2011
+- **Peach Pit**<br>Terraneo Festival | Šibenik | 2011
+- **Lollobrigida**<br>Terraneo Festival | Šibenik | 2011
+- **Leut Magnetik**<br>Terraneo Festival | Šibenik | 2011
+- **Nipplepeople**<br>Terraneo Festival | Šibenik | 2011
+- **The Bambi Molesters**<br>Terraneo Festival | Šibenik | 2011
+- **Nežni Dalibor**<br>Terraneo Festival | Šibenik | 2011
+- **Repetitor**<br>Terraneo Festival | Šibenik | 2011
+- **Handsome Furs**<br>Terraneo Festival | Šibenik | 2011
+- **Woven Hand**<br>Terraneo Festival | Šibenik | 2011
+- **The Raveonettes**<br>Terraneo Festival | Šibenik | 2011
+- **The Baseball Project**<br>Terraneo Festival | Šibenik | 2011
+- **Nouvelle Vague**<br>Terraneo Festival | Šibenik | 2011
+- **Mogwai**<br>Terraneo Festival | Šibenik | 2011
+- **Janelle Monáe**<br>Terraneo Festival | Šibenik | 2011
+- **Frank Turner**<br>Terraneo Festival | Šibenik | 2011
+- **Destroyer**<br>Terraneo Festival | Šibenik | 2011
+- **La Roux**<br>Terraneo Festival | Šibenik | 2011
+- **Dan Deacon**<br>Terraneo Festival | Šibenik | 2011
+- **Nežni Dalibor**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Laibach**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Hadouken!**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Beirut**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Groove Armada**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Magnetic Man**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Deadmau5**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **House of Pain**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Pulp**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Jamiroquai**<br>Exit | Petrovaradin | Novi Sad | 2011
+- **Jinx**<br>Urban fest | Osijek | 2011
+- **Goribor**<br>InMusic festival | Zagreb | 2011
+- **The Orange Strips**<br>InMusic festival | Zagreb | 2011
+- **Partibrejkers**<br>InMusic festival | Zagreb | 2011
+- **Overflow**<br>InMusic festival | Zagreb | 2011
+- **Mika Male**<br>InMusic festival | Zagreb | 2011
+- **Elemental**<br>InMusic festival | Zagreb | 2011
+- **Dubioza Kolektiv**<br>InMusic festival | Zagreb | 2011
+- **Dječaci**<br>InMusic festival | Zagreb | 2011
+- **The Dø**<br>InMusic festival | Zagreb | 2011
+- **Mastodon**<br>InMusic festival | Zagreb | 2011
+- **Buraka Som Sistema**<br>InMusic festival | Zagreb | 2011
+- **Cypress Hill**<br>InMusic festival | Zagreb | 2011
+- **TV on the Radio**<br>InMusic festival | Zagreb | 2011
+- **The Streets**<br>InMusic festival | Zagreb | 2011
+- **Jamiroquai**<br>InMusic festival | Zagreb | 2011
+- **Yann Tiersen**<br>Tvornica | Zagreb | 2010
+- **Darko Rundek & Cargo Orkestar**<br>DORF 2010 | Osijek | 2010
+- **Kandžija**<br>Tuborg Green Beat | Osijek | 2010
+- **Dubioza Kolektiv**<br>Tuborg Green Beat | Osijek | 2010
+- **Let 3**<br>Tuborg Green Beat | Osijek | 2010
+- **Deerhoof**<br>Teatar &TD | Zagreb | 2010
+- **High Places**<br>Teatar &TD | Zagreb | 2010
+- **Bambi Molesters**<br>Hartera5 | Rijeka | 2010
+- **The Beat Fleet**<br>Hartera5 | Rijeka | 2010
+- **Quasarr**<br>Hartera5 | Rijeka | 2010
+- **Nina Romić**<br>Hartera5 | Rijeka | 2010
+- **Fuck Buttons**<br>Hartera5 | Rijeka | 2010
+- **New Young Pony Club**<br>InMusic festival | Zagreb | 2010
+- **Audio Bullys**<br>InMusic festival | Zagreb | 2010
+- **Alice in Chains**<br>InMusic festival | Zagreb | 2010
+- **Broken Social Scene**<br>InMusic festival | Zagreb | 2010
+- **Pendulum**<br>InMusic festival | Zagreb | 2010
+- **Billy Idol**<br>InMusic festival | Zagreb | 2010
+- **!!!**<br>InMusic festival | Zagreb | 2010
+- **Morcheeba**<br>InMusic festival | Zagreb | 2010
+- **Damir Urban**<br>Vega | Osijek | 2009
+- **David Morales**<br>Vega | Osijek | 2009
+- **Darko Rundek**<br>Mini Teatar | Osijek | 2009
+- **Darko Rundek & Cargo Orkestar**<br>Tvornica | Zagreb | 2009
+- **Fakofbolan**<br>Dirty Old Fest | Velika | 2009
+- **Dubioza Kolektiv**<br>Dirty Old Fest | Velika | 2009
+- **Debeli Precjednik**<br>Dirty Old Fest | Velika | 2009
+- **Bud Spencer**<br>Dirty Old Fest | Velika | 2009
+- **Bernays Propaganda**<br>Dirty Old Fest | Velika | 2009
+- **The Bambi Molesters**<br>Dirty Old Fest | Velika | 2009
+- **Antenat**<br>Dirty Old Fest | Velika | 2009
+- **U2**<br>Maksimir | Zagreb | 2009
+- **Repetitor**<br>Hartera5 | Rijeka | 2009
+- **Boys Noize**<br>Hartera5 | Rijeka | 2009
+- **Editors**<br>InMusic festival | Zagreb | 2009
+- **Tricky**<br>InMusic festival | Zagreb | 2009
+- **Franz Ferdinand**<br>InMusic festival | Zagreb | 2009
+- **Majke, Majke Unplugged**<br>Osijek | 2008**
+- **TBF**<br>Osječko Ljeto Mladih | Osijek | 2008
+- **Pips, Chips & Videoclips**<br>Tuborg Green Fest | Osijek | 2008
+- **Zabranjeno pušenje**<br>Jesen uz Osječko | Osijek | 2008
+- **Partibrejkers**<br>Jesen uz Osječko | Osijek | 2008
+- **KUD Idijoti**<br>Jesen uz Osječko | Osijek | 2008
+- **White Flag**<br>Dirty Old Fest | Velika | 2008
+- **Debeli Precjednik**<br>Dirty Old Fest | Velika | 2008
+- **Električni Orgazam**<br>Urban fest | Osijek | 2008
+- **Amadou & Mariam**<br>InMusic festival | Zagreb | 2008
+- **Tinariwen**<br>InMusic festival | Zagreb | 2008
+- **Gužva u 16-ercu**<br>Mini Teatar | Osijek | 2007
+- **Jinx**<br>Tuborg Green Fest | Osijek | 2007
+- **The Bambi Molesters**<br>Copacabana | Osijek | 2007
+- **Belfast Food**<br>Jesen uz Osječko | Osijek | 2007
+- **Let 3**<br>Urban fest | Osijek | 2007
+- **Atheist Rap**<br>Dirty Old Fest | Velika | 2007
+- **Hladno Pivo**<br>Dirty Old Fest | Velika | 2007
+- **NoMeansNo**<br>Dirty Old Fest | Velika | 2007
+- **The Hold Steady**<br>InMusic festival | Zagreb | 2007
+- **Asian Dub Foundation**<br>InMusic festival | Zagreb | 2007
+- **Banco De Gaia**<br>InMusic festival | Zagreb | 2007
+- **Gilles Peterson**<br>InMusic festival | Zagreb | 2007
+- **Happy Mondays**<br>InMusic festival | Zagreb | 2007

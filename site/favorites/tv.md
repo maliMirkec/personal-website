@@ -140,6 +140,12 @@ sections:
       - title: Freaks and Geeks
         href: https://www.imdb.com/title/tt0193676/
         src: 039fg_z0ovdh
+      - title: "The Penguin"
+        href: https://www.imdb.com/title/tt15435876/
+        src: penguin_1_gfqemy
+      - title: "The Righteous Gemstones"
+        href: https://www.imdb.com/title/tt8634332/
+        src: rg_kyuohk
       - title: "Wet Hot American Summer: First Day of Camp"
         href: https://www.imdb.com/title/tt4341500/
         src: 040whas_mrcofz
