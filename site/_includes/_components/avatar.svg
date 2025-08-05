@@ -3,7 +3,7 @@
     .fill {
       fill: transparent;
       opacity: 0;
-      animation: hue 11111ms infinite, op ease-out 1616ms forwards;
+      animation: hue 11111ms linear infinite, op ease-out 1616ms forwards;
     }
 
     .fill--10 {
