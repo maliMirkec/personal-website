@@ -11,10 +11,6 @@ sections:
     sticky: true
   - type: article-list
     filter: my-slides
-    cta:
-      title: View slides
-      modifiers:
-        - small
     noDate: true
   - type: banner
     banner: consultation
