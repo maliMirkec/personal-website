@@ -505,6 +505,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .hero__image svg {
+  inline-size: 100%;
   block-size: auto;
   border-radius: 50%;
 }
