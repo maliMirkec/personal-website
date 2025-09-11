@@ -299,6 +299,31 @@ blockquote p:not(:first-of-type) {
   grid-area: header;
   display: grid;
   gap: var(--size-10-20);
+  position: relative;
+}
+
+.skip {
+  background-color: var(--color-gamma);
+  color: var(--color-light);
+  font-size: var(--size-20-30);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.skip:not(:focus) {
+  display: block;
+  block-size: 1px;
+  inline-size: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+  z-index: -1;
 }
 
 .header__nav {
