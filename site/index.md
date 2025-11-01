@@ -17,7 +17,7 @@ sections:
       title: Contact me
     gfx:
       name: avatar
-      clamp: 400px
+      clamp: clamp(7.5rem, calc(5.714rem + 4.762vw), 10rem)
   - type: newsletter
     sticky: true
   - type: article-list

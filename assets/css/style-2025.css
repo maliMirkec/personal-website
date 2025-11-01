@@ -1,0 +1,195 @@
+:root {
+  --sans: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+}
+
+@supports (color: oklch(0.87 0.14 169.13 / 1)) {
+
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {transparent 90%);
+}
+
+/*https://pqina.nl/blog/fix-google-mobile-usability-issues/*/
+:where(body, iframe, pre, img, svg, video, canvas, select) {
+  max-inline-size: 100%;
+  overflow: auto;
+  word-break: break-word;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--serif);
+  line-height: 1.2;
+}
+
+:where(label, input, textarea, button, [class*="cta"], [class*="link"]) {
+  font-family: var(--rounded);
+}
+
+:where(label, input, button, [class*="cta"], [class*="link"]) {
+  border: unset;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+:where(a, input, textarea, button) {
+  color: inherit;
+  outline-color: transparent;
+  outline-offset: 0;
+  outline-style: solid;
+  outline-width: 0.075em;
+  transition: all var(--timing200);
+}
+
+:where(a) {}
+
+:where(a):is(:hover, :focus, :active) {}
+
+:where(main a:not([class]), .fancy-hover):is(:hover, :focus, :active) {}
+
+:where(a, button):focus-visible,
+:where([class*="cta"], [class*="link"]):is(:hover, :focus, :active) {
+  outline-color: currentColor;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  block-size: 1px;
+  inline-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+body {
+  background-color: gold;
+  color: midnightblue;
+  font-family: var(--sans);
+  line-height: 1.4;
+  min-block-size: 100dvh;
+  padding: 1rem;
+}
+
+[class*="cta"] {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--size-10-20);
+  font-size: var(--size-20-30);
+  text-decoration: none;
+  position: relative;
+}
+
+:where(.skip) {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.1;
+}
+
+:where(.header, .header__nav--beta, .hero) {
+  background-color: khaki;
+}
+
+:where(.wrapper, .header, .header__nav, .header__list, .header__link, .skip, .hero, .hero__content) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+:where(main) {
+  display: grid;
+  gap: 1rem;
+}
+
+:where(.hero__content) {
+  flex-direction: column;
+}
+
+:where(.header, .header__nav, .hero__content) {
+  flex: 1 1 auto;
+}
+
+:where(.skip, .header__list, .header__nav--beta) {
+  align-items: center;
+}
+
+:where(.skip, .header__list--beta) {
+  justify-content: center;
+}
+
+:where(.header__nav--alpha) {
+  justify-content: space-between;
+}
+
+:where(.header, .header__nav--beta, .skip, .hero) {
+  padding: 1rem;
+}
+
+:where(.hero__image) {
+  margin-inline: auto;
+}
+
+:where(.header__link svg, .avatar) {
+  border-radius: 50%;
+}
+
+.header {
+  position: relative;
+}
+
+:where(.header__list) {
+  list-style: none;
+  margin: unset;
+  padding: unset;
+}
+
+:where(.header__link) {
+  text-transform: uppercase;
+}
+
+:where(.header__link) {
+  text-decoration: none;
+}
+
+:where(.header__link):is(:hover, :focus, :active) {
+  text-decoration: underline;
+}
+
+:where([style*="--max-inline-size"]) {
+  max-inline-size: var(--max-inline-size);
+}
+
+:where([style*="--inline-size"]) {
+  inline-size: var(--inline-size);
+}
+
+@media screen and (width < 37.5rem) {
+  :where(.header__nav--beta, .footer) {
+    order: 2;
+  }
+}
+
+.header__link svg {
+  max-block-size: 3rem;
+  max-inline-size: 3rem;
+}
