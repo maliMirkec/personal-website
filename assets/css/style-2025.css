@@ -106,8 +106,13 @@ body {
   opacity: 0.1;
 }
 
-:where(.header, .header__nav--beta, .hero) {
+:where(.header, .header__nav--beta, .hero, .banner, .box) {
   background-color: khaki;
+}
+
+.wrapper {
+  max-inline-size: 120rem;
+  margin-inline: auto;
 }
 
 :where(.wrapper, .header, .header__nav, .header__list, .header__link, .skip, .hero, .hero__content) {
@@ -116,9 +121,11 @@ body {
   gap: 1rem;
 }
 
-:where(main) {
+:where(.main) {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+  grid-auto-flow: dense;
 }
 
 :where(.hero__content) {
@@ -141,7 +148,15 @@ body {
   justify-content: space-between;
 }
 
-:where(.header, .header__nav--beta, .skip, .hero) {
+:where(.hero) {
+  place-content: center;
+}
+
+:where(.banner) {
+  place-content: end;
+}
+
+:where(.header, .header__nav--beta, .skip, .hero, .banner, .box) {
   padding: 1rem;
 }
 
@@ -186,6 +201,18 @@ body {
 @media screen and (width < 37.5rem) {
   :where(.header__nav--beta, .footer) {
     order: 2;
+  }
+}
+
+@media screen and (width >= 37.5rem) {
+  :where(.hero, .box:has(.box__grid--alpha)) {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (width >= 56.25rem) {
+  :where(.hero) {
+    grid-column: span 3;
   }
 }
 
