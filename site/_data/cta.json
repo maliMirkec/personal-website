@@ -181,6 +181,24 @@
       "title": "Go to website"
     }
   },
+  "colours-alliance": {
+    "desc": "I built the whole WordPress site for Colours Alliance including YAML Custom Fields plugin.",
+    "cta": {
+      "href": "/portfolio/colours-alliance/",
+      "title": "See the project"
+    },
+    "logo": {
+      "src": "colours_axp4hl",
+      "alt": "Colours Alliance logo.",
+      "width": 60,
+      "height": 20
+    },
+    "stack": ["WordPress", "HTML", "CSS", "JavaScript"],
+    "cta2": {
+      "href": "https://colours-alliance.eu",
+      "title": "Go to website"
+    }
+  },
   "pinecone": {
     "desc": "I built a site for Pinecone, powered by Hugo, “the world’s fastest framework.”",
     "cta": {

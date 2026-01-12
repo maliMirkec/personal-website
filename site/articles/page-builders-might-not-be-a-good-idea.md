@@ -42,7 +42,7 @@ Here are the most common problems, in my opinion:
 
 During my time in web development, I have stumbled continuously on projects that are built using page builders. Page builders are tools that allow the building of website pages without writing code (mostly).
 
-Back in the day in 2014, I tried to build my page builder ([Twitter page still exists] :)). It was conceived as a drag-n-drop solution like most modern page builders work today. After a while, I realized that the world doesn’t need another tool. Although that was the right decision, it was based on the wrong arguments. At that time, I didn’t know anything about performance or accessibility or maintainability, which I would never get right if I would develop an all-around solution. These were only a few of the worst enemies of a page builder. Now, let me tell you a story about other problems with page builders.
+Back in the day in 2014, I tried to build my page builder. It was conceived as a drag-n-drop solution like most modern page builders work today. After a while, I realized that the world doesn’t need another tool. Although that was the right decision, it was based on the wrong arguments. At that time, I didn’t know anything about performance or accessibility or maintainability, which I would never get right if I would develop an all-around solution. These were only a few of the worst enemies of a page builder. Now, let me tell you a story about other problems with page builders.
 
 ## Many problems page builders introduce
 
