@@ -3,6 +3,11 @@ title: Pure CSS tabs with details, grid, and subgrid
 date: 2025-12-27 10:26:00
 description: Can we use the details element as the foundation for a tabbed
   interface? Why yes, we can!
+tags:
+  - blog
+  - publications
+  - css
+  - tabs
 publication: CSS Tricks
 canonical: https://css-tricks.com/pure-css-tabs-with-details-grid-and-subgrid/
 type: articles-item
