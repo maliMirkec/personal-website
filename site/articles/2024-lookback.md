@@ -1,16 +1,16 @@
 ---
-layout: default
 title: 2024 lookback
 date: 2024-12-27 14:00:00
+description: 2024 has been one of my most stable in terms of job security. Read
+  what I've been up to this year.
 tags:
   - blog
   - freelance
   - remote work
-description: 2024 has been one of my most stable in terms of job security. Read what I've been up to this year.
-type: articles-item
 series: Lookbacks
+type: articles-item
+layout: default
 ---
-
 This year has been one of my most stable in terms of job security. [After a long search](/articles/2023-lookback/#the-bad-half), I finally secured a long-term project, which I prefer more as I grow older and more mature. However, I still enjoy occasional side projects, so I also worked on several other projects. These side projects are beneficial for both my finances and personal growth.
 
 Regarding technologies, I've worked with Eleventy and Shopify the most this year. The common denominator for both is the Liquid template engine. I mastered it to the detail, and I enjoy working with it.
@@ -24,5 +24,3 @@ After a year of pause from writing on publications, I returned with two articles
 One other great thing happened this year - the BlueSky social network. It is so great to have a feed full of web dev, CSS, accessibility, and other related topics. In fact, it made me restart my [UI Dev Newsletter](/side-projects/ui-dev-newsletter/). I hope it stays like this as long as possible. Here's my BlueSky profile: <https://bsky.app/profile/silvestar.codes>.
 
 There's nothing new on a personal level besides a lot of new gray hair. Someone told me it is “in” to have white hair. I choose to believe that's true.
-
-
