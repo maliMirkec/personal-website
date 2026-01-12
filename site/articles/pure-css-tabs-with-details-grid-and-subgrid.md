@@ -1,6 +1,6 @@
 ---
 title: Pure CSS tabs with details, grid, and subgrid
-date: 2026-01-12 10:26:00
+date: 2025-12-27 10:26:00
 description: Can we use the details element as the foundation for a tabbed
   interface? Why yes, we can!
 publication: CSS Tricks
