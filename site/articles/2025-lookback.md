@@ -1,7 +1,7 @@
 ---
-title: 2024 lookback
-date: 2024-12-27 14:00:00
-description: 2024 has been one of my most stable in terms of job security. Read
+title: 2025 lookback
+date: 2026-01-14 10:11:00
+description: 2025 has been one of my most stable in terms of job security. Read
   what I've been up to this year.
 tags:
   - blog
@@ -11,6 +11,13 @@ series: Lookbacks
 type: articles-item
 layout: default
 ---
+
+2025 has been a solid year for me. I've been working for a long-term client for the whole year, although that might come to an end soon. I guess we'll see soon. At least other exciting project emerged this year. It's a WordPress project for an alliance of European universities. I haven't worked with WordPress for ages, but with the AI assistance, I manager to build a 
+
+
+I've completed a few smaller projects this year, too. 
+
+
 This year has been one of my most stable in terms of job security. [After a long search](/articles/2023-lookback/#the-bad-half), I finally secured a long-term project, which I prefer more as I grow older and more mature. However, I still enjoy occasional side projects, so I also worked on several other projects. These side projects are beneficial for both my finances and personal growth.
 
 Regarding technologies, I've worked with Eleventy and Shopify the most this year. The common denominator for both is the Liquid template engine. I mastered it to the detail, and I enjoy working with it.
