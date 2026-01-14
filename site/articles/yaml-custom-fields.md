@@ -1,7 +1,7 @@
 ---
 title: YAML Custom Fields
 date: 2026-01-12 11:00:00
-description:
+description: Last year, I built a WordPress plugin based on YAML schemas that could be used to define custom fields for templates, partials, and global data in WordPress.
 tags:
   - blog
   - wordpress
