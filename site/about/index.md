@@ -1,12 +1,12 @@
 ---
 layout: default
 title: About me
-description: I'm Silvestar Bistrović, web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of UI Dev Newsletter, and founder of CSS Auditors.
+description: I'm Silvestar Bistrović, web engineer, CSS developer, JAMstack enthusiast, WordPress theme specialist, author of UI Dev Newsletter, and founder of Studio CiTA.
 type: about
 sections:
   - type: hero
     title: About me
-    text: I am Silvestar Bistrović, a **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), and founder of [CSS Auditors](https://css-auditors.com/).
+    text: I am Silvestar Bistrović, a **fearless** web engineer, **CSS developer**, JAMstack enthusiast, WordPress theme specialist, author of the [UI Dev Newsletter](/side-projects/ui-dev-newsletter/), and founder of [Studio CiTA](https://www.cita.hr/en/).
     text_width: 40
   - type: gfx
     sticky: true
@@ -19,7 +19,7 @@ sections:
       clamp: clamp(18.75rem, calc(4.545rem + 22.727vw), 25rem);
 sections2:
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---
 
 I enjoy creating pixel-perfect, responsive, and modern websites. My focus is on delivering the best experience for users on every device. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is my specialty.

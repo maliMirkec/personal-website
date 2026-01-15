@@ -321,5 +321,13 @@
       "href": "/portfolio/",
       "title": "Explore all projects"
     }
+  },
+  "studio-cita": {
+    "title": "Your relaible digital partner",
+    "desc": "I founded Studio CiTA that develops websites and online stores of a great quality.",
+    "cta": {
+      "href": "https://www.cita.hr/en/",
+      "title": "Visit Studio CiTA"
+    }
   }
 }

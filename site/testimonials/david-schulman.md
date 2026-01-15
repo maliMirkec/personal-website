@@ -39,7 +39,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar was INSTRUMENTAL in some of my first big wins...
 ---
 

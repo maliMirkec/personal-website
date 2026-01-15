@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar is a very accomplished web dev who always wants to find the best possible...
 ---
 

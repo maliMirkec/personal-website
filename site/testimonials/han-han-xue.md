@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar was able to consistently meet if not exceed expectations...
 ---
 

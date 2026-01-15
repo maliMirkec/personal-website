@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar is knowledgeable, easy to work with and will always go the extra mile...
 ---
 

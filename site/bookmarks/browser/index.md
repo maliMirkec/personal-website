@@ -9,7 +9,7 @@ sections:
     title: Browser Bookmarks
     text: Browser bookmarks export file.
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 

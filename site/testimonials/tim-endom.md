@@ -38,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Clearly been the most seamless and enriching developer-designer-collaboration I've had so far...
 ---
 

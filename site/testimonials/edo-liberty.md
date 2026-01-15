@@ -38,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Super fast and responsive, great eye for esthetics, quality web development...
 ---
 

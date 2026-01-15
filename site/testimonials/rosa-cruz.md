@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar demonstrated to be one of the most talented, efficient, motivated, and...
 ---
 

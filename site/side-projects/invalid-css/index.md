@@ -28,5 +28,5 @@ sections:
     filter: my-css
     sorter: date
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

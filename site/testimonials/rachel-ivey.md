@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar was extremely professional, capable, responsive, and very pleasant to work with...
 ---
 

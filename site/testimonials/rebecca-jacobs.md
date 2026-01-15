@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Worked with Silvestar to optimize our website! He did a great job implementing...
 ---
 

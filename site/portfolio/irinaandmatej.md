@@ -37,7 +37,7 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
   - type: project-cards
     title: Other projects

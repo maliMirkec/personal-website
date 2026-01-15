@@ -14,6 +14,6 @@ sections:
   - type: project-cards
     filter: portfolio
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---

@@ -38,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar is easily one of the best developers I've had the chance to work with....
 ---
 

@@ -12,7 +12,7 @@ sections2:
   - type: webring-a11y
   - type: webring-css
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 

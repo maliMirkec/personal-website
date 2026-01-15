@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: My partner and I teamed up with Silvestar this year. The work he did was top-notch...
 ---
 

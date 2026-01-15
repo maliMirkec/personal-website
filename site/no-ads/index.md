@@ -9,7 +9,7 @@ sections:
     text: However, other forms of collaboration are more than welcome.
 sections2:
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 

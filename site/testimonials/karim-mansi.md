@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Communication with Silvestar was straightforward, clear and reliable. He was...
 ---
 

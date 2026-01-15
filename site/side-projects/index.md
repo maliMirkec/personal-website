@@ -15,5 +15,5 @@ sections:
   - type: project-list
     filter: projects
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

@@ -28,7 +28,7 @@ sections:
       href: /side-projects/
       title: Discover other projects
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
   - type: project-list
     title: Other projects

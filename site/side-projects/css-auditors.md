@@ -25,7 +25,7 @@ sections:
       title: Go to the Project
       modifiers: [small]
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
   - type: project-list
     title: Other projects

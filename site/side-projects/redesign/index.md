@@ -25,5 +25,5 @@ sections:
     filter: my-redesign
     sorter: date
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

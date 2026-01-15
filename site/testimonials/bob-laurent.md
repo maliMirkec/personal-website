@@ -39,7 +39,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar is a highly talented web developer that I was fortunate enough to work with...
 ---
 

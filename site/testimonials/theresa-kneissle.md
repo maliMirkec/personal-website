@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation2
+    banner: studio-cita2
 excerpt: Excited to have worked alongside Silvestar during our implementation of a new ATS...
 ---
 

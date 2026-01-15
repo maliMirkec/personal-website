@@ -16,5 +16,5 @@ sections:
   - type: newsletter
     sticky: true
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

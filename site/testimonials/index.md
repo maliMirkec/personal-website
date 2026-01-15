@@ -16,5 +16,5 @@ sections:
   - type: testimonial-list
     filter: testimonials
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

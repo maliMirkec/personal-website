@@ -9,7 +9,7 @@ sections:
     title: Pocket Bookmarks
     text: Pocket bookmarks export file.
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 

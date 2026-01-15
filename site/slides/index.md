@@ -13,5 +13,5 @@ sections:
     filter: my-slides
     noDate: true
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

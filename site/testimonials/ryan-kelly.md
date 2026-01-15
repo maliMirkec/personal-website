@@ -39,7 +39,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar was always responsive, proactive, and his work product was top-notch...
 ---
 

@@ -37,7 +37,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: It has been a pleasure working with Silvestar on various web development projects...
 ---
 

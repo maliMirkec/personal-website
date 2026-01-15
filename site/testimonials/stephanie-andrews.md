@@ -39,7 +39,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar did a great job keeping up with all of the web updates we needed in a very timely fashion...
 ---
 

@@ -38,7 +38,7 @@ sections2:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 excerpt: Silvestar is a thought-leader in web development, and his work reflects it...
 ---
 

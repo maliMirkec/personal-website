@@ -22,5 +22,5 @@ sections:
     text: >-
       Just my random favorite writers, books, games, sport teams and individuals, and other.
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

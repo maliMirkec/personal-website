@@ -9,7 +9,7 @@ sections:
     text: I specialize in developing websites.
 sections2:
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 

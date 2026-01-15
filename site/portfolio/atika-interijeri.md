@@ -36,7 +36,7 @@ sections:
       This website was taken down.
     text2_width: 51
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
   - type: project-cards
     title: Other projects

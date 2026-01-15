@@ -54,5 +54,5 @@ sections:
       modifiers:
         - small
   - type: banner
-    banner: consultation
+    banner: studio-cita
 ---

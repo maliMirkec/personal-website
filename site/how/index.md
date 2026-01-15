@@ -11,7 +11,7 @@ sections:
       This website is built using Hexo static page generator and hosted on Netlify. Cloudflare is used to speed up and protect this website. It's featured on JAMStack site as an example.
 sections2:
   - type: banner
-    banner: consultation
+    banner: studio-cita
     sticky: true
 ---
 
