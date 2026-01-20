@@ -1,7 +1,7 @@
 ---
 title: Weird issues with CSS calculations in Safari 26.2
 date: 2026-01-20 00:00:00
-description:
+description: I found a solution to a CSS issue, but I probably discovered a Safari CSS calculation bug along the way.
 tags:
   - blog
   - css
