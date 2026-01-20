@@ -11,6 +11,7 @@ series: Lookbacks
 type: articles-item
 layout: default
 ---
+
 Another solid year is behind me. I've been working for a long-term client all year, although that might come to an end soon. I guess we'll see.
 
 At least one other exciting project emerged this year: a WordPress project for an alliance of European universities, [the Colours Alliance](/portfolio/colours-alliance/). I haven't worked with WordPress for ages, but with the assistance of an AI companion, I managed to build [a custom plugin](/articles/yaml-custom-fields/) that was published on the Plugin Directory. I built a brand new WordPress theme around this plugin.
