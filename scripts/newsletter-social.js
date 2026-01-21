@@ -87,6 +87,21 @@ const getQandA = () => {
   return questions;
 };
 
+const getLinks = () => {
+  let links = '';
+
+  latest.list.forEach((item, i) => {
+    links += `${item.desc}\n\n${item.link}`;
+    if (i < latest.list.length - 1) {
+      links += `\n\n-~-~-~-\n\n`;
+    } else {
+      links += '\n\n';
+    }
+  });
+
+  return links;
+};
+
 const generateTwitter = () => {
   let output = getDescription();
   output += getTwitter();
@@ -145,7 +160,9 @@ const generateBluesky = () => {
 // }
 
 const generateSocial = async () => {
-  let output = getDivider('Twitter');
+  let output = getDivider('Links');
+  output += getLinks();
+  output += getDivider('Twitter');
   output += generateTwitter();
   output += getDivider('LinkedIn');
   output += generateLinkedIn();
