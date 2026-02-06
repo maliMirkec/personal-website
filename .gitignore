@@ -10,3 +10,4 @@ assets/scss
 .frontmatter
 frontmatter.json
 assets/**/*.min.*
+.yarn
