@@ -4,9 +4,12 @@ date: 2026-02-06 00:00:00
 description: UltiGameMate is a fantasy football game where you pick games instead of players and get points for the best part of every game - goals, saves, drama and more.
 tags:
   - blog
-  - css
-type: articles-item
+  - web dev
+project:
+  name: UltiGameMate
+  href: https://fpl.ultigamemate.com
 layout: default
+type: articles-item
 ---
 
 [UltiGameMate](https://fpl.ultigamemate.com/) (or UGM for short) is a fantasy football game where you pick games instead of players and get points for the best part of every game - goals, saves, drama, and more.
