@@ -7,7 +7,7 @@ tags:
   - projects
 thumbnail:
   src: css-auditors_fozunn
-  alt: Screenshot of Code Line Daily website.
+  alt: Screenshot of CSS Auditors website.
   width: 759
   height: 459
 display: true
@@ -16,7 +16,7 @@ sections:
   - type: hero
     img:
       src: css-auditors_fozunn
-      alt: Screenshot of Code Line Daily website.
+      alt: Screenshot of CSS Auditors website.
       width: 543
     title: CSS Auditors
     text: CSS Auditors is a project which mission is to put the CSS under the spotlight and educate developers about its importance.

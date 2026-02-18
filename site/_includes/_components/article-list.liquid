@@ -30,7 +30,7 @@
           {%- unless component.exclude and page.url == card.url -%}
             <li class="box__item h-entry">
               {%- if card.data.title -%}
-                <h3 class="box__subtitle"><a class="u-url p-name entry-title" rel="bookmark" href="{{ card.url }}">{{ card.data.title }}</a></h3>
+                <h3 class="box__subtitle"><a rel="bookmark" href="{{ card.url }}">{{ card.data.title }}</a></h3>
               {%- endif -%}
               <div class="box__tags">
                 {%- if cardDate -%}

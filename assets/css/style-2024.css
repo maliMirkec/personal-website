@@ -68,7 +68,7 @@
 }
 
 @view-transition {
-	navigation: auto;
+  navigation: auto;
 }
 
 * {
@@ -128,6 +128,11 @@ body::-webkit-scrollbar-thumb {
   line-height: 1.2;
 }
 
+:where(h1, h2, h3, h4, h5, h6):has(a) {
+  display: inline-flex;
+  place-self: start;
+}
+
 :where(label, input, textarea, button, [class*="cta"], [class*="link"]) {
   font-family: var(--rounded);
 }
@@ -144,9 +149,9 @@ img {
 :where(a, input, textarea, button) {
   color: inherit;
   outline-color: transparent;
-  outline-offset: 0;
+  outline-offset: .15em;
   outline-style: solid;
-  outline-width: 0.075em;
+  outline-width: max(2px, 0.075em);
   transition: all var(--timing200);
 }
 
@@ -165,6 +170,7 @@ img {
   background-position: right;
   background-repeat: no-repeat;
   background-size: var(--p, 0%);
+  border-radius: .25em;
   transition: var(--timing200), background-position 0s;
 }
 
@@ -255,7 +261,7 @@ body {
 }
 
 :where([class*="cta"], [class*="__input"]):is(:hover, :focus, :active) {
-  box-shadow: 0 0 0 0.075em var(--color-gamma);
+  /* box-shadow: 0 0 0 0.075em var(--color-gamma); */
   outline-color: var(--color-gamma);
 }
 
@@ -311,6 +317,7 @@ blockquote p:not(:first-of-type) {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 100dvw;
   z-index: 1;
 }
 
@@ -426,6 +433,10 @@ blockquote p:not(:first-of-type) {
   justify-content: end;
 }
 
+.footer p a {
+  border-radius: 0.25em;
+}
+
 .footer__inner {
   display: grid;
   gap: var(--size-10-20);
@@ -453,6 +464,7 @@ blockquote p:not(:first-of-type) {
 
 .footer__social :is(a, svg) {
   display: block;
+  border-radius: 100dvw;
 }
 
 .footer__social svg {
@@ -463,7 +475,7 @@ blockquote p:not(:first-of-type) {
 }
 
 .footer__social a:is(:hover, :focus, :active) svg {
-  stroke: var(--color-beta);
+  background-color: var(--color-alpha);
 }
 
 .main {
@@ -554,9 +566,9 @@ blockquote p:not(:first-of-type) {
   outline-offset: var(--size-02-04);
 }
 
-:where(.box__subtitle, .box__anchor):is(:hover, :focus, :active) {
+/* :where(.box__subtitle, .box__anchor):is(:hover, :focus, :active) {
   color: var(--color-beta);
-}
+} */
 
 .box__anchor:is(:hover, :focus, :active) {
   text-decoration-color: var(--color-beta);
@@ -1060,6 +1072,7 @@ blockquote p:not(:first-of-type) {
 .article-content blockquote:before {
   content: "Quote";
   background-color: var(--color-light);
+  color: var(--color-dark);
   font-family: var(--cursive);
   font-size: var(--size-15-18);
   position: absolute;
@@ -1119,6 +1132,7 @@ blockquote p:not(:first-of-type) {
 .note:before {
   content: "Note";
   background-color: var(--color-light);
+  color: var(--color-dark);
   font-family: var(--cursive);
   font-size: var(--size-15-18);
   position: absolute;
@@ -1727,8 +1741,8 @@ blockquote p:not(:first-of-type) {
   }
 
   :where([class*="cta"], [class*="__input"]):is(:hover, :focus, :active) {
-    box-shadow: 0 0 0 0.075em var(--color-gamma);
-    outline-color: var(--color-gamma);
+    /* box-shadow: 0 0 0 0.075em var(--color-gamma); */
+    outline-color: var(--color-alpha);
   }
 
   [class*="cta"]:is(:hover, :focus, :active):after {
@@ -1822,6 +1836,21 @@ blockquote p:not(:first-of-type) {
 
   .gallery__grid p {
     background-color: var(--color-gamma);
+  }
+
+  .article-content blockquote:before,
+  .note:before {
+    background-color: var(--color-alpha);
+    color: var(--color-gamma);
+  }
+
+  .footer__social svg {
+    stroke: var(--color-alpha);
+  }
+
+  .footer__social a:is(:hover, :focus, :active) svg {
+    /* background-color: var(--color-alpha); */
+    stroke: var(--color-gamma);
   }
 
   @media screen and (width >= 1000px) {
