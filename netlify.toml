@@ -73,3 +73,9 @@ node_bundler = "esbuild"
       "bing",
       "yandex"
     ]
+
+# Faster RSS feeds
+[[headers]]
+  for = "/*.xml"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
