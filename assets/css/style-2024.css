@@ -174,7 +174,7 @@ img {
   transition: var(--timing200), background-position 0s;
 }
 
-.content a:not([class]):is([href^="/"]):after {
+.content a:not([class]):not([href^="/gfx/"]):is([href^="/"]):after {
     content: "";
     display: inline-block;
     width: 1ch;
