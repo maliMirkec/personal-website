@@ -7,7 +7,7 @@ tags:
   - publications
   - css
   - animation
-description: Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in
+description: I had to build columns of items moving in opposite directions when a user scrolls the page. See how I did it.
 type: articles-item
 publication: CSS Tricks
 canonical: https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/

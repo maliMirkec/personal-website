@@ -24,7 +24,6 @@ export default async (eleventyConfig) => {
 
   if(env.production) {
     passthroughCopy['extras/robots_prod.txt'] = './robots.txt'
-    passthroughCopy['.cache/cldnry/'] = './gfx/cldnry/'
   } else {
     passthroughCopy['extras/robots_dev.txt'] = './robots.txt'
   }

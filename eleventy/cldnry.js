@@ -1,5 +1,9 @@
 import Image from '@11ty/eleventy-img';
+import path from 'path';
+import { promises as fsp } from 'fs';
 const link = `https://res.cloudinary.com/starbist/image/upload/w_2400,f_auto,q_auto,c_scale/`
+
+const OUTPUT_DIR = 'public/gfx/cldnry/'
 
 const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
   const formats = svg ? ["svg"] : ["webp"]
@@ -10,8 +14,18 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
     formats: formats,
     svgShortCircuit: true,
     urlPath: '/gfx/cldnry/',
-    outputDir: '.cache/cldnry/'
+    outputDir: '.cache/cldnry/',
+    cacheOptions: {
+      directory: '.cache/cldnry-fetch/'
+    }
   })
+
+  const entries = Object.values(metadata).flat()
+
+  await fsp.mkdir(OUTPUT_DIR, { recursive: true })
+  await Promise.all(entries.map((entry) =>
+    fsp.copyFile(entry.outputPath, path.join(OUTPUT_DIR, entry.filename))
+  ))
 
   let imageAttributes = {
     alt,
