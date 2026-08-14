@@ -137,7 +137,7 @@ Speaking of which, let’s create another variable called `--opposing-mask` that
 }
 ```
 
-{% cldnryfetch "scrolling-parent-column-margin_xwtfgs" "" false true %}
+{% cldnryfetch "scrolling-parent-column-margin_xwtfgs" %}
 
 Let’s do the same thing to the parents’ pseudos, only applying `--opposing-mask` to their `block-size` by a multiple of three. This way, there’s additional vertical space between them and the parent.
 
@@ -165,7 +165,7 @@ Let’s do the same thing to the parents’ pseudos, only applying `--opposing-m
 }
 ```
 
-{% cldnryfetch "scrolling-parent-pseudo-margin_ih8iks" "" false true %}
+{% cldnryfetch "scrolling-parent-pseudo-margin_ih8iks" %}
 
 You might see where this is going. We have a nice amount of space between the parent container and its pseudos. We want the column items to appear as if they are fading out as they scroll out of the parent container. We don’t have to mess with their opacity or anything like that. Instead, we can add background gradients on the pseudos.
 

@@ -13,4 +13,4 @@ sections:
     sticky: true
 ---
 
-{% cldnryfetch "sb-qart-coder_jlwx8s" "QR code" 600 %}
+{% cldnryfetch "sb-qart-coder_jlwx8s" "QR code" %}
