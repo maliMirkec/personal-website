@@ -45,6 +45,14 @@
       "title": "View all advices"
     }
   },
+  "invalid-css": {
+    "title": "Explore Invalid CSS",
+    "desc": "CSS declarations that are not valid and that I wish existed.",
+    "cta": {
+      "href": "/side-projects/invalid-css/",
+      "title": "View all posts"
+    }
+  },
   "css-auditors": {
     "desc": "I started CSS Auditors, a site dedicated to analyzing CSS code.",
     "cta": {

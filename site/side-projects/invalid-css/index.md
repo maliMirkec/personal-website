@@ -17,9 +17,13 @@ date: 2022-02-01
 sections:
   - type: hero
     title: Invalid CSS
-    text: CSS declarations that are not valid and that I wish existed.
+    text: >-
+      CSS declarations that are not valid and that I wish existed.
     text_width: 50
     text2: >-
+      Since I wrote the first post about Invalid CSS in 2022, some of the proposals have become available, though maybe not in the same syntax that I wrote. Yaay!
+
+
       [Subscribe to the RSS feed for Invalid CSS](/rss3.xml).
     text2_width: 50
   - type: newsletter

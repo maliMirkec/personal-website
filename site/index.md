@@ -48,4 +48,11 @@ sections:
     limit: 6
   - type: banner
     banner: web-dev-zoo
+  - type: article-list
+    title: Invalid CSS
+    filter: invalid-css
+    sorter: date
+    limit: 6
+  - type: banner
+    banner: invalid-css
 ---
