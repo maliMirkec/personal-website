@@ -22,34 +22,37 @@
     "title": "Contact"
   }],
   "menu2": [{
-    "href": "/services/",
-    "title": "Services"
-  }, {
     "href": "/testimonials/",
     "title": "Testimonials"
   }, {
-    "href": "/side-projects/web-dev-zoo/",
-    "title": "Web Dev Zoo"
-  }, {
-    "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter"
-  }, {
-    "href": "/side-projects/",
-    "title": "Side projects"
+    "href": "/services/",
+    "title": "Services"
   }, {
     "href": "/publications/",
     "title": "Publications"
   }, {
-    "href": "/slides/",
-    "title": "Slides"
+    "href": "/side-projects/ui-dev-newsletter/",
+    "title": "Newsletter"
+  }, {
+    "href": "/side-projects/invalid-css/",
+    "title": "Invalid CSS"
+  }, {
+    "href": "/side-projects/web-dev-zoo/",
+    "title": "Web Dev Zoo"
+  }, {
+    "href": "/side-projects/",
+    "title": "Other projects"
   }, {
     "href": "/favorites/",
     "title": "Favorites"
   }, {
-    "href": "/uses/",
-    "title": "Setup"
+    "href": "/slides/",
+    "title": "Slides"
   }, {
     "href": "/links/",
     "title": "Links"
+  }, {
+    "href": "/uses/",
+    "title": "Uses"
   }]
 }

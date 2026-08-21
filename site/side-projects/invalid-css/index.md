@@ -3,7 +3,7 @@ layout: default
 title: Invalid CSS
 projectTitle: Invalid CSS
 old_escription: CSS declarations that are not valid and that I wish existed.
-description: Invalid CSS is a project that features CSS declarations that are not valid and non-existing. None of CSS code provided was valid at the time of publishing.
+description: Invalid CSS features CSS declarations that are not valid and non-existing. None of CSS code provided was valid at the time of publishing.
 thumbnail:
   src: invalid-css_bplltq
   alt: Screenshot of the Invalid CSS home page.
@@ -21,7 +21,7 @@ sections:
       CSS declarations that are not valid and that I wish existed.
     text_width: 50
     text2: >-
-      Since I wrote the first post about Invalid CSS in 2022, some of the proposals have become available, though maybe not in the same syntax that I wrote. Yaay!
+      Since I wrote the first post about Invalid CSS in 2022, some of the Invalid CSS proposals become valid, though maybe not in the same syntax that I suggested. Yaay!
 
 
       [Subscribe to the RSS feed for Invalid CSS](/rss3.xml).
