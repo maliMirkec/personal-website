@@ -3,7 +3,7 @@ layout: default
 title: Invalid CSS
 projectTitle: Invalid CSS
 old_escription: CSS declarations that are not valid and that I wish existed.
-description: Invalid CSS features CSS declarations that are not valid and non-existing. None of CSS code provided was valid at the time of publishing.
+description: Invalid CSS features CSS declarations that are not valid and non-existing yet. None of CSS code provided was valid at the time of publishing.
 thumbnail:
   src: invalid-css_bplltq
   alt: Screenshot of the Invalid CSS home page.
