@@ -39,6 +39,7 @@
     </div>
   {% elsif collections[firstTag] %}
     {% assign collectionSize = collections[firstTag] | size %}
+    {% assign now = 'now' | date: "%Y-%m-%d" %}
     {% if collectionSize > 1 %}
       <div class="article-footer__content">
         {% if firstTag and data2024[firstTag] %}
@@ -52,7 +53,8 @@
           {% assign iLimit = 3 %}
           {% for article in related %}
             {% unless i >= iLimit %}
-              {% if title != article.data.title %}
+              {% assign articleDate = article.data.date | date: "%Y-%m-%d" %}
+              {% if title != article.data.title and articleDate <= now %}
                 <li>
                   <a href="{{ article.url }}">{{ article.data.title }}</a>
                 </li>
