@@ -7,7 +7,7 @@ import fs from 'fs'
 import env from './site/_data/env.js'
 import social from './eleventy/social.js'
 import tagify from './eleventy/tagify.js'
-import { codepen, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js'
+import { codepen, codepen2, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js'
 import { cldnryimg, cldnrylink, cldnryfetch, cldnrysrc } from './eleventy/cldnry.js'
 import { collections, tags } from './eleventy/collections.js'
 
@@ -63,6 +63,8 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidFilter('randomItems', async (array) => array.sort((a, b) => 0.5 - Math.random()))
 
   eleventyConfig.addLiquidShortcode('codepen', async (user, pen, theme, tab, height, width, lazy) => codepen(user, pen, theme, tab, height, width, lazy))
+
+  eleventyConfig.addLiquidShortcode('codepen2', async (user, pen, theme, tab, height, width, lazy) => codepen2(user, pen, theme, tab, height, width, lazy))
 
   eleventyConfig.addLiquidShortcode('caniuse', async (feature, periods) => caniuse(feature, periods))
 

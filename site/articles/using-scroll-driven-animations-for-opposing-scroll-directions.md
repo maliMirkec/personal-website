@@ -15,7 +15,7 @@ canonical: https://css-tricks.com/scroll-driven-animations-opposing-scroll-direc
 
 Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page.
 
-{% codepen "CiTA" "019dcdfc-1e41-77c8-afdf-810ebc6f2480" "dark" "result" 550 false true %}
+{% codepen2 "CiTA" "019dcdfc-1e41-77c8-afdf-810ebc6f2480" "dark" "result" 550 false true %}
 
 {% note %}
 This demo respects reduced motion settings, so you’ll need to enable motion to see the effect. And we’re looking at Chrome and Safari support as I’m writing this.
