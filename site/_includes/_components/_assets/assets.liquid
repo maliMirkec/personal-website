@@ -1,17 +1,20 @@
-
 {% if isMentor %}
-  <link rel="stylesheet" href="/css/mentor.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/mentor.css">
 {% elsif isRibbons %}
-  <link rel="stylesheet" href="/css/ribbons.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/ribbons.css">
 {% elsif isSlides %}
-  <link rel="stylesheet" href="/css/slides.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/slides.css">
 {% elsif is360 %}
-  <link rel="stylesheet" href="/css/devcards.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/devcards.css">
 {% elsif isHexo %}
-  <link rel="stylesheet" href="/css/hexo.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/hexo.css">
 {% else %}
-  <link rel="stylesheet" href="/css/style-2024.{% if env.production %}min.{% endif %}css">
+  <link rel="stylesheet" href="/css/style-2024.css">
   {% if type == 'articles-item' %}
-    <link rel="stylesheet" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css">
+    <link rel="stylesheet" href="/css/prism-okaidia.css">
   {% endif %}
+{% endif %}
+<link rel="preload" href="/js/sb-2024.js" as="script">
+{% if js %}
+  <link rel="preload" href="/js/{{ js }}.js" as="script">
 {% endif %}
