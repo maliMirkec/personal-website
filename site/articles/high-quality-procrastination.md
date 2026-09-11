@@ -6,7 +6,7 @@ tags:
   - blog
   - web dev
   - games
-description:
+description: In this “beautiful” era of spelunking, booping, and flibbertigibbeting, I often procrastinate by playing these little fun games.
 type: articles-item
 ---
 
