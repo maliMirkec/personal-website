@@ -42,21 +42,21 @@ My favorite guessing game is [**TimeGuessr**](https://timeguessr.com/). I’ve b
 
 ## Quiz games ❓
 
-I enjoy quizzes, be they pub quizzes or TV quizzes. [Tightrope](https://www.britannica.com/quiz/tightrope) is a 10-question quiz game where you have three chances for error before you're out. I play this one early in the day to get my brain to working temperature. The game has many common knowledge categories. I learned that I'm worst at English, but that might be because I'm not a native English speaker.
+I enjoy a good quiz, be it a pub quiz or a TV quiz. [Tightrope](https://www.britannica.com/quiz/tightrope) is a 10-question quiz game where you have three chances for error before you're out. I play this one early in the day to get my brain up to working temperature. The game has many common knowledge categories. I learned that I'm worst at English, but that might be because I'm not a native English speaker.
 
 ## Word games 📖
 
 [**Wordle**](https://www.nytimes.com/games/wordle/index.html) is a classic one. Guessing a 5-letter word is still fun.
 
-Sometimes I play other variants, like [**Quordle**](https://www.merriam-webster.com/games/quordle/#/classic) or [**Octordle**](https://www.merriam-webster.com/games/octordle/). It’s like Wordle, but you're guessing 4 or 8 words at once. These are often too hard for me.
+Sometimes I play other variants, like [**Quordle**](https://www.merriam-webster.com/games/quordle/#/classic) or [**Octordle**](https://www.merriam-webster.com/games/octordle/). They are like Wordle, but you're guessing 4 or 8 words at once. These are often too hard for me.
 
 I discovered another word game recently: [**18 words**](https://pzlgames.com/games/18words/?play=1). You get letters, and you have 30 seconds to find a word. It’s very exciting and sometimes a bit stressful.
 
-I also played [**Scraple**](https://scraple.io/) for a while, where you have to think of words from given letters and score as many points as possible, but not so much these days.
+I also played [**Scraple**](https://scraple.io/) for a while, where you have to think of words from given letters and score as many points as possible, though not so much these days.
 
 ## Number games 1️⃣
 
-[**Numble**](https://numble.wtf/) is the only number game I play. You get 6 numbers which you can use to get the target number using only `(`, `)`, `-`, `+`, `/`, and `*`. It’s a fun game because it also shows you how fast you were to get the correct result. It has a hard mode, which is not so fun because I have to use a calculator for that one, which defeats the purpose.
+[**Numble**](https://numble.wtf/) is the only number game I play. You get 6 numbers which you can use to get the target number using only `(`, `)`, `-`, `+`, `/`, and `*`. It’s a fun game because it also shows you how fast you were at getting the correct result. It has a hard mode, which is not so fun because I have to use a calculator for that one, which defeats the purpose.
 
 ## Honorable mentions 🖊️
 
