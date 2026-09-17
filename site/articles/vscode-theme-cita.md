@@ -14,10 +14,10 @@ type: articles-item
 
 I finally built something I wanted to build for ages - I build me a VS Code theme based on my website colors called Cita Theme.
 
-{% cldnryfetch "cita-light_ixcton" "Screenshot showing mode of my Cita Theme." false true %}
+{% cldnryfetch "cita-light_ixcton" "Screenshot showing light mode of my Cita Theme." false true %}
 
 It has light and dark modes.
 
-{% cldnryfetch "cita-dark_pvu5ud" "Screenshot showing mode of my Cita Theme." false true %}
+{% cldnryfetch "cita-dark_pvu5ud" "Screenshot showing dark mode of my Cita Theme." false true %}
 
 You can get it here: https://marketplace.visualstudio.com/items?itemName=starbist.cita-theme
