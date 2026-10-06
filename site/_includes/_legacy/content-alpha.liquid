@@ -8,7 +8,9 @@
   <div class="padding">
     {% if canonical and publication %}
       <div class="copy balance margin-bottom">
-        <p class="fs-italic">This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a></p>
+        <p class="fs-italic">
+          This article was originally published at <a href="{{ canonical }}">{{ publication }}.</a>
+        </p>
       </div>
     {% endif %}
     <div class="copy">{{ content }}</div>

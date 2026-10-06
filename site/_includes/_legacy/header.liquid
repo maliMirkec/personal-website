@@ -1,15 +1,30 @@
 {% if header %}
   <header>
-    <nav aria-label="Main" id="MainNavigation">
-      <button class="button button--small button--menu" type="button" onclick="event.preventDefault();this.parentNode.classList.toggle('active');this.setAttribute('data-expanded',this.parentNode.classList.contains('active')?'true':'false')" aria-expanded="false" aria-controls="MainNavigation">
+    <nav class="js-menu" aria-label="Main">
+      {%- comment -%}
+        The button is hidden until src/js/modules/menu-toggle.js runs, so the
+        links stay reachable without JavaScript.
+      {%- endcomment -%}
+      <button
+        class="button button--small button--menu js-menu-btn"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-menu"
+      >
         <span>Menu</span>
         <span>Close</span>
       </button>
-      <ul class="list-style-none no-spacing">
+      <ul class="list-style-none no-spacing" id="main-menu">
         {% if header.logo %}
           <li class="df jcc margin-top margin-bottom">
             <a class="padding" href="{{ header.logo.href }}">
-              <img src="{{ header.logo.src }}" alt="{{ header.logo.title }}" width="55" height="55" fetchpriority="high">
+              <img
+                src="{{ header.logo.src }}"
+                alt="{{ header.logo.title }}"
+                width="55"
+                height="55"
+                fetchpriority="high"
+              >
             </a>
           </li>
         {% endif %}
@@ -18,12 +33,26 @@
             <li>
               <ul class="margin-top margin-bottom">
                 <li>
-                  <a href="{{ item.href }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.title }}</a>
+                  <a
+                    href="{{ item.href }}"
+                    {% if item.class %}
+                      class="{{ item.class }}"
+                    {% endif %}
+                  >
+                    {{- item.title -}}
+                  </a>
                 </li>
                 {% if item.list %}
                   {% for subitem in item.list %}
                     <li>
-                      <a href="{{ subitem.href }}"{% if subitem.class %} class="{{ subitem.class }}"{% endif %}>{{ subitem.title }}</a>
+                      <a
+                        href="{{ subitem.href }}"
+                        {% if subitem.class %}
+                          class="{{ subitem.class }}"
+                        {% endif %}
+                      >
+                        {{- subitem.title -}}
+                      </a>
                     </li>
                   {% endfor %}
                 {% endif %}

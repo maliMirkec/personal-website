@@ -1,16 +1,15 @@
 ---
 isSlides: true
 ---
-
 {% if theme and theme.site and theme.site.language %}
   {% assign lang = theme.site.language %}
 {% elsif config and config.language %}
   {% assign lang = config.language %}
 {% else %}
-  {% assign lang = "en" %}
+  {% assign lang = 'en' %}
 {% endif %}
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang }}" dir="ltr">
   {% include '_legacy/head' %}
   <body>
@@ -19,6 +18,6 @@ isSlides: true
     {% else %}
       {% include '_slides/general' %}
     {% endif %}
-    {% include '_legacy/_assets/analytics' %}
+    {% include '_components/_assets/analytics' %}
   </body>
 </html>

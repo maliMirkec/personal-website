@@ -1,0 +1,203 @@
+/* Header */
+
+.header {
+  --logo-size: 6.125rem;
+
+  position: relative;
+  display: grid;
+  grid-area: header;
+  gap: var(--size-020);
+}
+
+.header__nav {
+  padding: var(--size-010);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: var(--bg-size), 100%;
+}
+
+.header__nav--alpha {
+  background-image: var(--bg-light), linear-gradient(to right, var(--c-alpha) -50%, transparent 150%);
+}
+
+.header__nav--beta {
+  grid-area: links;
+  background-image: var(--bg-light), linear-gradient(to right, var(--c-gamma) -1000%, transparent 150%);
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+}
+
+.header__list--alpha {
+  font-size: var(--fz-1620);
+}
+
+.header__list--beta {
+  flex-wrap: wrap;
+  gap: var(--size-010);
+  justify-content: center;
+  font-size: var(--fz-1316);
+}
+
+.header__item--alpha {
+  margin-inline-end: auto;
+}
+
+.header__link {
+  display: block;
+  text-decoration: none;
+}
+
+.header__link--alpha {
+  display: flex;
+  gap: var(--size-010);
+  align-items: center;
+  border-radius: var(--size-100);
+}
+
+.header__link--alpha svg {
+  overflow: hidden;
+  inline-size: var(--logo-size);
+  block-size: var(--logo-size);
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background-color: var(--c-light);
+}
+
+.header__link--alpha span {
+  font-family: var(--ff3);
+  font-size: var(--fz-1518);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.header__link--beta,
+.header__link--gamma {
+  padding-block: var(--size-010);
+  padding-inline: var(--size-020);
+  line-height: 1;
+}
+
+.header__link--beta {
+  border-radius: var(--size-060);
+  background-color: var(--c-light);
+  outline-offset: 0;
+}
+
+@media screen and (width < 31.25rem) {
+  .header__nav--alpha {
+    border-start-start-radius: var(--size-100);
+    border-start-end-radius: var(--size-060);
+    border-end-start-radius: var(--size-100);
+    border-end-end-radius: var(--size-060);
+  }
+
+  .header__list--alpha {
+    position: relative;
+    flex-wrap: wrap;
+    gap: var(--size-010);
+    place-content: center end;
+    min-block-size: var(--logo-size);
+    padding-inline-start: calc(var(--logo-size) + var(--size-010));
+  }
+
+  .header__item--alpha {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 0;
+    transform: translateY(-50%);
+  }
+
+  .header__list--alpha .header__item {
+    flex: 1 1 33%;
+  }
+
+  .header__list--beta .header__item {
+    flex: 1 1 auto;
+  }
+
+  .header__link--beta,
+  .header__link--gamma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-block-size: var(--min-block-size);
+  }
+
+  .header__link--beta {
+    padding-inline: var(--size-004);
+  }
+
+  .header__link--gamma {
+    border-radius: var(--size-030);
+  }
+}
+
+@media screen and (width >= 31.25rem) {
+  .header__nav {
+    border-radius: var(--size-120);
+  }
+
+  .header__list {
+    gap: var(--size-020);
+    align-items: center;
+    margin-inline-end: var(--size-040);
+  }
+}
+
+@media screen and (width < 37.5rem) {
+  .header__link--alpha {
+    padding-inline-end: unset;
+  }
+
+  /* The name stays available to screen readers when the logo is alone. */
+  .header__link--alpha span {
+    position: absolute;
+    overflow: hidden;
+    inline-size: 1px;
+    block-size: 1px;
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+}
+
+@media screen and (width >= 37.5rem) {
+  .header__link--alpha {
+    padding-inline-end: var(--size-030);
+  }
+}
+
+@media screen and (31.25rem <= width < 62.5rem) {
+  .header__link--gamma {
+    border-radius: var(--size-010);
+  }
+}
+
+@media screen and (width < 62.5rem) {
+  .header__nav--beta {
+    margin-inline: var(--size-010);
+    border-radius: var(--size-040);
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  .header__link--gamma {
+    border-radius: var(--size-040);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header__nav--alpha {
+    background-image: var(--bg-dark), linear-gradient(to right, var(--c-alpha) -500%, transparent 200%);
+  }
+
+  .header__nav--beta {
+    background-image: var(--bg-dark), linear-gradient(to right, var(--c-alpha) -1000%, transparent 150%);
+  }
+
+  .header__link--beta {
+    background-color: var(--c-gamma);
+  }
+}

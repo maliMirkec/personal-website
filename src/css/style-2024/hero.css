@@ -1,0 +1,103 @@
+/* Hero */
+
+.hero {
+  --max-inline-size: 100%;
+
+  display: grid;
+  grid-column: 1 / -1;
+  gap: var(--size-020);
+}
+
+.hero:has(.hero__image) {
+  gap: var(--size-020);
+  inline-size: 100%;
+}
+
+.hero__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__image img {
+  max-inline-size: min(var(--main), 100%);
+}
+
+.hero__image svg {
+  inline-size: 100%;
+  block-size: auto;
+  border-radius: 50%;
+}
+
+.hero__avatar {
+  max-inline-size: var(--size-120);
+}
+
+.hero__title {
+  max-inline-size: var(--hero-title-width, 30ch);
+  font-size: var(--fz-3060);
+}
+
+.hero__text {
+  max-inline-size: var(--hero-text-width, 35ch);
+  font-size: var(--fz-2040);
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: pretty;
+}
+
+.hero__text2 {
+  max-inline-size: var(--hero-text2-width, 40ch);
+  font-size: var(--fz-2030);
+  text-wrap: pretty;
+}
+
+.hero__text2 p + p {
+  margin-block-start: 0.5em;
+}
+
+.hero__action {
+  margin-block-start: var(--size-020);
+}
+
+@media screen and (width >= 31.25rem) {
+  .hero--testimonial {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+}
+
+@media screen and (31.25rem <= width < 62.5rem) {
+  .hero > div:not(.hero__image) {
+    grid-column: 1;
+  }
+
+  .hero > .hero__image {
+    grid-column: 2;
+    grid-row: 1 / span 5;
+  }
+}
+
+@media screen and (width < 62.5rem) {
+  .hero {
+    padding-block-start: var(--size-040);
+  }
+
+  .hero__image {
+    margin-block-start: var(--size-020);
+  }
+
+  .hero__image svg {
+    max-inline-size: min(var(--max-inline-size), 100%);
+  }
+
+  .hero__title {
+    letter-spacing: -0.02em;
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  .hero {
+    padding-block: var(--size-040);
+  }
+}

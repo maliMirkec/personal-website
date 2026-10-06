@@ -21,7 +21,9 @@
         {%- unless component.limit and i1 > component.limit -%}
           {%- unless component.exclude and page.url == card.url -%}
             <li class="box__item">
-              <h3 class="box__subtitle"><a href="{{ card.url }}">{{ projectTitle }}</a></h3>
+              <h3 class="box__subtitle">
+                <a href="{{ card.url }}">{{ projectTitle }}</a>
+              </h3>
               {%- if card.data.description -%}
                 <p class="box__text">{{ card.data.description }}</p>
               {%- endif -%}

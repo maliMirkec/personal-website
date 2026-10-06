@@ -1,0 +1,10 @@
+/* Avatar */
+
+:is(.avatar, .box__avatar, .hero__avatar) img {
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  background-color: var(--c-light);
+  transition:
+    border-color var(--tr-111),
+    background-color var(--tr-111);
+}

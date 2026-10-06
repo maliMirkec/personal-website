@@ -1,12 +1,5 @@
-{%- comment -%}
-{% assign loadCritical = type | criticalExists %}
-{%- endcomment -%}
 <head>
   {% include '_components/_head/meta-required' %}
-  {%- comment -%}
-  {% include '_components/_assets/critical' %}
-  {% include '_components/_head/preload' %}
-  {%- endcomment -%}
   {% include '_components/_assets/assets' %}
   {% include '_components/_head/meta-other' %}
   {% include '_components/_assets/favicon' %}

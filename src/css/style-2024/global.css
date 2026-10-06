@@ -1,0 +1,176 @@
+/* Global */
+
+@view-transition {
+  navigation: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-block-size: 100dvh;
+  padding: var(--size-020);
+  font-family: var(--ff1);
+  line-height: 1.4;
+  color: var(--c-gamma);
+}
+
+/* https://scrollbar.app/ */
+body::-webkit-scrollbar,
+.table-wrapper::-webkit-scrollbar,
+.copy pre[class*='language-']::-webkit-scrollbar {
+  inline-size: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track,
+.table-wrapper::-webkit-scrollbar-track,
+.copy pre[class*='language-']::-webkit-scrollbar-track {
+  background-color: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb,
+.table-wrapper::-webkit-scrollbar-thumb,
+.copy pre[class*='language-']::-webkit-scrollbar-thumb {
+  border: 1px solid var(--c-gamma);
+  background-color: var(--sb-thumb-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: var(--sb-size);
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body,
+  .table-wrapper,
+  .copy pre[class*='language-'] {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--c-gamma), transparent 90%);
+}
+
+/* https://pqina.nl/blog/fix-google-mobile-usability-issues/ */
+:where(body, iframe, pre, img, svg, video, canvas, select) {
+  overflow: auto;
+  max-inline-size: 100%;
+  overflow-wrap: anywhere;
+}
+
+:where(label, input, textarea, button, .cta, .banner__cta, .contact__cta, .header__link, .box__link) {
+  font-family: var(--ff3);
+}
+
+:where(label, button, .cta, .banner__cta, .contact__cta, .header__link, .box__link) {
+  cursor: pointer;
+}
+
+:where(a, input, textarea, button) {
+  color: inherit;
+  outline: max(2px, 0.075em) solid transparent;
+  outline-offset: 0.15em;
+  transition:
+    color var(--tr-222),
+    background-color var(--tr-222),
+    outline-color var(--tr-222),
+    text-decoration-color var(--tr-222),
+    text-underline-offset var(--tr-222),
+    transform var(--tr-222);
+}
+
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--c-focus, currentColor);
+  outline-offset: 0.15em;
+}
+
+:where(.cta, .banner__cta, .contact__cta, .header__link, .box__link):is(:hover, :focus, :active) {
+  outline-color: currentColor;
+}
+
+:where(a) {
+  text-decoration-thickness: max(1px, 0.05em);
+  text-underline-offset: 0.15em;
+}
+
+:where(a):is(:hover, :focus, :active) {
+  text-underline-offset: 0.075em;
+}
+
+/* https://css-tricks.com/cool-hover-effects-using-background-properties/ */
+:where(main a:not([class]), .fancy-hover) {
+  border-radius: 0.25em;
+  background-image: linear-gradient(var(--link-color, var(--c-alpha-54)) 0 0);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: var(--p, 0%);
+  position: relative;
+  transition:
+    background-size var(--tr-222),
+    background-position 0s,
+    outline-color var(--tr-222),
+    text-underline-offset var(--tr-222);
+}
+
+.content a:not([class], [href^='/gfx/'])[href^='/'] {
+  margin-inline-end: 0.66ch;
+}
+
+:where(main a:not([class]), .fancy-hover):is(:hover, :focus, :active) {
+  --p: 100%;
+
+  background-position: left;
+}
+
+/* Marks internal links in content with the logo. */
+.content a:not([class], [href^='/gfx/'])[href^='/']::after {
+  content: '';
+  display: inline-block;
+  inline-size: 1ch;
+  block-size: 1ch;
+  margin-inline-start: 0.1em;
+  vertical-align: super;
+  background-image: url('/gfx/svg/logo-SB-12E09F-000.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+  position: absolute;
+  transform: translateX(-0.11ch);
+}
+
+blockquote {
+  position: relative;
+  padding-inline-start: var(--size-020);
+}
+
+blockquote p {
+  font-size: var(--fz-1620);
+}
+
+blockquote p:not(:first-of-type) {
+  margin-block-start: var(--size-010);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: color-mix(in srgb, var(--c-light), transparent 90%);
+  }
+
+  body {
+    color: var(--c-light);
+    background-color: var(--c-gamma);
+  }
+}
+
+/* stylelint-disable declaration-no-important -- reduced motion must win over component transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+/* stylelint-enable declaration-no-important */

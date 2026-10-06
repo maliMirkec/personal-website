@@ -2,14 +2,15 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
 import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import uslug from 'uslug'
-import fs from 'fs'
 
 import env from './site/_data/env.js'
 import social from './eleventy/social.js'
 import tagify from './eleventy/tagify.js'
 import { codepen, codepen2, caniuse, twrapper, embed, video, note } from './eleventy/embeds.js'
-import { cldnryimg, cldnrylink, cldnryfetch, cldnrysrc } from './eleventy/cldnry.js'
+import { cldnryimg, cldnrylink, cldnryfetch, cldnrydev, cldnrysrc } from './eleventy/cldnry.js'
 import { collections, tags } from './eleventy/collections.js'
+import { buildCss } from './eleventy/css.js'
+import { buildJs } from './eleventy/js.js'
 
 const markdownItRenderer = new markdownIt()
 
@@ -17,12 +18,12 @@ export default async (eleventyConfig) => {
   eleventyConfig.ignores.add('site/_drafts/*')
   eleventyConfig.ignores.add('assets/gfx/cldnry/*')
 
-  let passthroughCopy = {
+  const passthroughCopy = {
     'assets/': '.',
-    'site/side-projects/ui-dev-newsletter/admin/config.yml': '/side-projects/ui-dev-newsletter/admin/config.yml'
+    'site/side-projects/ui-dev-newsletter/admin/config.yml': '/side-projects/ui-dev-newsletter/admin/config.yml',
   }
 
-  if(env.production) {
+  if (env.production) {
     passthroughCopy['extras/robots_prod.txt'] = './robots.txt'
   } else {
     passthroughCopy['extras/robots_dev.txt'] = './robots.txt'
@@ -30,22 +31,28 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy(passthroughCopy)
 
+  eleventyConfig.on('eleventy.before', async ({ directories }) => {
+    await Promise.all([buildCss(directories.output, env.production), buildJs(directories.output, env.production)])
+  })
+
+  eleventyConfig.addWatchTarget('./src/')
+
   eleventyConfig.addPlugin(syntaxHighlight)
 
   eleventyConfig.setLiquidOptions({
     extname: '.liquid',
     strictFilters: false,
-    jsTruthy: true
+    jsTruthy: true,
   })
 
   eleventyConfig.setLibrary(
     'md',
     markdownIt({
       html: true,
-      linkify: true
+      linkify: true,
     }).use(markdownItAnchor, {
-      slugify: uslug
-    })
+      slugify: uslug,
+    }),
   )
 
   eleventyConfig.addLiquidFilter('markdownify', async (str) => markdownItRenderer.render(str ? str.trim() : ''))
@@ -58,26 +65,39 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('tagify', async (tags) => tagify(tags))
 
-  eleventyConfig.addLiquidFilter('findItem', async (array, key, value) => array.filter(item => item.data[key] === value))
+  eleventyConfig.addLiquidFilter('findItem', async (array, key, value) =>
+    array.filter((item) => item.data[key] === value),
+  )
 
-  eleventyConfig.addLiquidFilter('randomItems', async (array) => array.sort((a, b) => 0.5 - Math.random()))
+  // Sort a copy: sorting in place would reorder the shared collection for every other page.
+  eleventyConfig.addLiquidFilter('randomItems', async (array) => [...array].sort(() => 0.5 - Math.random()))
 
-  eleventyConfig.addLiquidShortcode('codepen', async (user, pen, theme, tab, height, width, lazy) => codepen(user, pen, theme, tab, height, width, lazy))
+  eleventyConfig.addLiquidShortcode('codepen', async (user, pen, theme, tab, height, width, lazy) =>
+    codepen(user, pen, theme, tab, height, width, lazy),
+  )
 
-  eleventyConfig.addLiquidShortcode('codepen2', async (user, pen, theme, tab, height, width, lazy) => codepen2(user, pen, theme, tab, height, width, lazy))
+  eleventyConfig.addLiquidShortcode('codepen2', async (user, pen, theme, tab, height, width, lazy) =>
+    codepen2(user, pen, theme, tab, height, width, lazy),
+  )
 
   eleventyConfig.addLiquidShortcode('caniuse', async (feature, periods) => caniuse(feature, periods))
 
   eleventyConfig.addLiquidShortcode('embed', async (code, width, height) => embed(code, width, height))
 
-  eleventyConfig.addLiquidShortcode('video', async (src, width, height, autoplay, loop, muted, gif, classes) => video(src, width, height, autoplay, loop, muted, gif, classes))
+  eleventyConfig.addLiquidShortcode('video', async (src, width, height, autoplay, loop, muted, gif, classes) =>
+    video(src, width, height, autoplay, loop, muted, gif, classes),
+  )
 
-  eleventyConfig.addLiquidShortcode('cldnryimg', async (img, alt, width, height, classes, instant) => cldnryimg(img, alt, width, height, classes, instant))
+  eleventyConfig.addLiquidShortcode('cldnryimg', async (img, alt, width, height, classes, instant) =>
+    cldnryimg(img, alt, width, height, classes, instant),
+  )
 
-  eleventyConfig.addLiquidShortcode('cldnrylink', async (link, src, alt, width, height, classes, instant) => cldnrylink(link, src, alt, width, height, classes, instant))
+  eleventyConfig.addLiquidShortcode('cldnrylink', async (link, src, alt, width, height, classes, instant) =>
+    cldnrylink(link, src, alt, width, height, classes, instant),
+  )
 
   eleventyConfig.addLiquidShortcode('cldnryfetch', async (src, alt, widths, lazy = true, classes = '', svg = false) => {
-    return env.development ? cldnryimg(src, alt, 'auto', 'auto', classes, !lazy) : cldnryfetch(src, alt, widths, lazy, classes, svg)
+    return env.development ? cldnrydev(src, alt, lazy, classes, svg) : cldnryfetch(src, alt, widths, lazy, classes, svg)
   })
 
   eleventyConfig.addLiquidShortcode('cldnrysrc', async (img, width) => cldnrysrc(img, width))
@@ -85,18 +105,6 @@ export default async (eleventyConfig) => {
   eleventyConfig.addPairedLiquidShortcode('note', async (str, title) => note(str, title))
 
   eleventyConfig.addPairedLiquidShortcode('twrapper', async (table) => twrapper(table))
-
-  eleventyConfig.addLiquidFilter('getCritical', (critical) => {
-    if(fs.existsSync(`./assets/critical/${critical}.critical.min.css`) ) {
-      return fs.readFileSync(`./assets/critical/${critical}.critical.min.css`)
-    }
-
-    return false
-  })
-
-  eleventyConfig.addLiquidFilter('criticalExists', (critical) => {
-    return fs.existsSync(`./assets/critical/${critical}.critical.min.css`)
-  })
 
   eleventyConfig.addCollection('my-articles', async (collection) => collections('blog', collection))
 
@@ -117,19 +125,11 @@ export default async (eleventyConfig) => {
   eleventyConfig.addCollection('all-tags', async (collection) => tags(collection))
 
   eleventyConfig.addWatchTarget('./assets/**/*')
-  // eleventyConfig.addWatchTarget('./assets/dist/**/*')
-
-  // eleventyConfig.setServerOptions({
-  //   port: 8080,
-  //   liveReload: true,
-  //   domDiff: true,
-  //   watchFiles: ['./site/**/*', './assets/**/*']
-  // })
 
   return {
     dir: {
       input: 'site',
-      output: 'public'
-    }
+      output: 'public',
+    },
   }
 }

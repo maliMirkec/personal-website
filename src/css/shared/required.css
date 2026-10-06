@@ -1,0 +1,27 @@
+/* Required */
+
+/* stylelint-disable declaration-no-important -- reduced motion must win over component transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+/* stylelint-enable declaration-no-important */
+
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--c-focus, currentColor);
+  outline-offset: 0.15em;
+}
+
+.vh {
+  position: absolute;
+  overflow: hidden;
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}

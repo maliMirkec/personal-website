@@ -1,24 +1,22 @@
 ---
 isHexo: true
 ---
-
 {% if theme and theme.site and theme.site.language %}
   {% assign lang = theme.site.language %}
 {% elsif config and config.language %}
   {% assign lang = config.language %}
 {% else %}
-  {% assign lang = "en" %}
+  {% assign lang = 'en' %}
 {% endif %}
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang }}" dir="ltr">
   {% include '_legacy/head' %}
   <body>
     {% block content %}
       {{ content }}
     {% endblock %}
-    {% include '_legacy/_assets/style' %}
     {% include '_legacy/_assets/scripts' %}
-    {% include '_legacy/_assets/analytics' %}
+    {% include '_components/_assets/analytics' %}
   </body>
 </html>

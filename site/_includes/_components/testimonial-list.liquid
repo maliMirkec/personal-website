@@ -29,7 +29,8 @@
                 {%- if card.data.avatar -%}
                   <span class="box__avatar">
                     {% assign avatarWidths = '60, 120' | split: ',' %}
-                    {%- cldnryfetch card.data.avatar card.data.title avatarWidths false -%}
+                    {%- comment -%} Decorative: the name follows in the same link. {%- endcomment -%}
+                    {%- cldnryfetch card.data.avatar '' avatarWidths false -%}
                   </span>
                 {%- endif -%}
                 <div class="box__profile">
@@ -46,7 +47,9 @@
               </a>
               {%- if card.data.excerpt -%}
                 <div class="box__quote">
-                  <blockquote><p>{{ card.data.excerpt }}</p></blockquote>
+                  <blockquote>
+                    <p>{{ card.data.excerpt }}</p>
+                  </blockquote>
                 </div>
               {%- else -%}
                 <div class="box__quote">{{ card.content }}</div>

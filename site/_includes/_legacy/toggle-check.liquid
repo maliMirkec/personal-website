@@ -1,3 +1,20 @@
-<script>if(localStorage.getItem('sb-dark-mode') === 'true' || window.matchMedia('(prefers-color-scheme: dark)').matches
-){document.documentElement.classList.add('dark')}if(localStorage.getItem('sb-dark-mode') === 'false')
-{document.documentElement.classList.remove('dark')}</script>
+{%- comment -%}
+  Inline on purpose: applies the saved or preferred colour scheme before first
+  paint to avoid a flash. The toggle itself lives in src/js/modules/theme-toggle.js.
+{%- endcomment -%}
+<script>
+  ;(() => {
+    let saved = null
+
+    try {
+      saved = localStorage.getItem('sb-dark-mode')
+    } catch (error) {
+      // Storage can be blocked (private mode); fall back to the system preference.
+      console.warn(error)
+    }
+
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+    document.documentElement.classList.toggle('dark', saved === 'true' || (saved !== 'false' && prefersDark))
+  })()
+</script>

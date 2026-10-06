@@ -1,9 +1,9 @@
-[{
+[
+  {
     "name": "Inspirational",
-    "slides": [
-      "https://slides.com/starbist/mentoring-tips1/embed?style=light"
-    ],
-    "list": [{
+    "slides": ["https://slides.com/starbist/mentoring-tips1/embed?style=light"],
+    "list": [
+      {
         "title": "Everyone was a junior once",
         "tips": [
           "Everyone had to start somewhere.",
@@ -51,7 +51,8 @@
       "https://slides.com/starbist/mentoring-tips2/embed?style=light",
       "https://slides.com/starbist/mentoring-tips3/embed?style=light"
     ],
-    "list": [{
+    "list": [
+      {
         "title": "Understand how the Internet works",
         "tips": [
           "Learn how DNS works.",
@@ -135,10 +136,9 @@
   },
   {
     "name": "Coding",
-    "slides": [
-      "https://slides.com/starbist/mentoring-tips4/embed?style=light"
-    ],
-    "list": [{
+    "slides": ["https://slides.com/starbist/mentoring-tips4/embed?style=light"],
+    "list": [
+      {
         "title": "Document the project",
         "tips": [
           "Documentation is part of the project.",
@@ -182,18 +182,11 @@
   },
   {
     "name": "Useful",
-    "slides": [
-      "https://slides.com/starbist/mentoring-deck5/embed?style=light"
-    ],
-    "list": [{
+    "slides": ["https://slides.com/starbist/mentoring-deck5/embed?style=light"],
+    "list": [
+      {
         "title": "Communication",
-        "tips": [
-          "Be polite.",
-          "Be respectful.",
-          "Be professional.",
-          "Respond quickly.",
-          "Don’t overpromise."
-        ]
+        "tips": ["Be polite.", "Be respectful.", "Be professional.", "Respond quickly.", "Don’t overpromise."]
       },
       {
         "title": "Organization",
@@ -217,13 +210,7 @@
       },
       {
         "title": "Health",
-        "tips": [
-          "Stretch.",
-          "Take a walk.",
-          "Exercise.",
-          "Drink water.",
-          "Socialize."
-        ]
+        "tips": ["Stretch.", "Take a walk.", "Exercise.", "Drink water.", "Socialize."]
       }
     ]
   }

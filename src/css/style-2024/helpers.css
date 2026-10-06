@@ -1,0 +1,17 @@
+/* Helpers */
+
+.vh {
+  position: absolute;
+  overflow: hidden;
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+@media screen and (width >= 31.25rem) {
+  .picolo {
+    max-inline-size: var(--narrow);
+    margin-inline: auto;
+  }
+}

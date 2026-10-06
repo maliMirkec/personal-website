@@ -5,7 +5,7 @@
 {% if descriptionPrefix and thisRead.description %}
   {% assign description = descriptionPrefix | append: ' ' | append: thisRead.description %}
 {% elsif descriptionPrefixAlt and pageNumber %}
-  {% assign description = descriptionPrefixAlt | append: ' #' | append: pageNumber | append: '.'  %}
+  {% assign description = descriptionPrefixAlt | append: ' #' | append: pageNumber | append: '.' %}
 {% endif %}
 
 <meta name="referrer" content="no-referrer">
@@ -27,12 +27,15 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 {% endif %}
 
-{% if type == "home" %}
+{% if type == 'home' %}
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for silvestar.codes" href="/rss.xml">
 {% endif %}
 
-{% if tags %}
-  <link rel="expect" blocking="render" href="#header">
-{% endif %}
-<link rel="expect" blocking="render" href="#footer">
+{%- comment -%} Only the default layout renders #header and #footer. {%- endcomment -%}
+{%- unless legacyHead %}
+  {%- if tags %}
+    <link rel="expect" blocking="render" href="#header">
+  {%- endif %}
+  <link rel="expect" blocking="render" href="#footer">
+{%- endunless %}
 <meta name="fediverse:creator" content="{{ site.mastodon }}">

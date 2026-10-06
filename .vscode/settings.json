@@ -1,0 +1,9 @@
+{
+  "clampExtension.globalMinViewport": 1000,
+  "clampExtension.globalMaxViewport": 2000,
+  "clampExtension.baseFontSize": 16,
+  "eslint.enable": true,
+  "stylelint.validate": ["css"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}

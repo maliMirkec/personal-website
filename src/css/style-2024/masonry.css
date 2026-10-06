@@ -1,0 +1,38 @@
+/* Masonry */
+
+.masonry {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: var(--size-020);
+  place-self: stretch;
+}
+
+/* .column is created by masonry.js. */
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--size-020);
+}
+
+.column div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: var(--block-padding);
+  padding-inline: var(--size-020);
+  border-radius: var(--size-020);
+  color: var(--c-gamma);
+  background-color: var(--c-alpha);
+}
+
+@media screen and (width < 62.5rem) {
+  .masonry {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  .masonry {
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  }
+}

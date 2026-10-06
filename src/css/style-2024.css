@@ -1,0 +1,27 @@
+/* Main theme */
+
+@import url('style-2024/reset.css');
+@import url('style-2024/variables.css');
+@import url('style-2024/global.css');
+@import url('style-2024/typography.css');
+@import url('style-2024/helpers.css');
+@import url('style-2024/skip-link.css');
+@import url('style-2024/layout.css');
+@import url('style-2024/header.css');
+@import url('style-2024/footer.css');
+@import url('style-2024/hero.css');
+@import url('style-2024/cta.css');
+@import url('style-2024/avatar.css');
+@import url('style-2024/box.css');
+@import url('style-2024/banner.css');
+@import url('style-2024/form.css');
+@import url('style-2024/contact.css');
+@import url('style-2024/copy.css');
+@import url('style-2024/article.css');
+@import url('style-2024/note.css');
+@import url('style-2024/embed.css');
+@import url('style-2024/table.css');
+@import url('style-2024/tags.css');
+@import url('style-2024/gallery.css');
+@import url('style-2024/masonry.css');
+@import url('style-2024/special-cases.css');

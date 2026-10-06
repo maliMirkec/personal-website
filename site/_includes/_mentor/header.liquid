@@ -1,11 +1,23 @@
 <header class="header">
-  <nav>
+  <nav aria-label="Main">
     <a href="#main" class="skip"><span>Skip to content</span></a>
     {% if mentor.data.nav %}
       <ul>
         {% for val in mentor.data.nav %}
-          <li{% if val.title == title or val.title == navTitle %} class="highlight"{% endif %}>
-            <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>
+          <li
+            {% if val.title == title or val.title == navTitle %}
+              class="highlight"
+            {% endif %}
+          >
+            <a
+              {% if val.class %}
+                class="{{ val.class }}"
+              {% endif %}
+              href="{{ val.href }}"
+              {% if val.title == title or val.title == navTitle %}
+                aria-current="page"
+              {% endif %}
+            >
               <span>{{ val.title }}</span>
             </a>
           </li>

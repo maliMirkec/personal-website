@@ -1,0 +1,15 @@
+/* Tags */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-006) var(--size-060);
+  justify-content: center;
+  font-family: var(--ff3);
+  font-size: var(--fz-1518);
+  font-weight: 300;
+}
+
+.tags p {
+  text-align: center;
+}

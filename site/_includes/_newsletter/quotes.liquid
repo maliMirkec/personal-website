@@ -23,7 +23,12 @@
                       {% if quote.links %}
                         <div class="df">
                           {% for plink in quote.links %}
-                            <a class="dib fz-step--2 tdu{% unless forloop.first %} margin-left{% endunless %}" href="{{ plink.href }}">{{ plink.name }}</a>
+                            <a
+                              class="dib fz-step--2 tdu{% unless forloop.first %} margin-left{% endunless %}"
+                              href="{{ plink.href }}"
+                            >
+                              {{- plink.name -}}
+                            </a>
                           {% endfor %}
                         </div>
                       {% endif %}
@@ -33,7 +38,9 @@
               </header>
             {% endif %}
             {% if quote.text %}
-              <div class="copy padding fs-italic fz-step--1">{{ quote.text | prepend: "“" | append: "”" | markdownify }}</div>
+              <div class="copy padding fs-italic fz-step--1">
+                {{ quote.text | prepend: '“' | append: '”' | markdownify }}
+              </div>
             {% endif %}
           </div>
         </div>

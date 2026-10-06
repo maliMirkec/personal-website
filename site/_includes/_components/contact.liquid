@@ -1,11 +1,11 @@
 <section class="contact" id="form">
   <form class="contact__form" action="/contact/thank-you/" method="POST" netlify>
     <label class="contact__label" for="Name">What is your name?</label>
-    <input class="contact__input" type="text" name="name" class="input" id="Name" required>
+    <input class="contact__input" id="Name" type="text" name="name" autocomplete="name" required>
     <label class="contact__label" for="Email">What is your email address?</label>
-    <input class="contact__input" type="email" name="email" class="input" id="Email" autocomplete="on" required>
+    <input class="contact__input" id="Email" type="email" name="email" autocomplete="email" required>
     <label class="contact__label" for="Note">What is your message?</label>
-    <textarea class="contact__input" name="note" rows="6" id="Note" class="input" required></textarea>
+    <textarea class="contact__input" id="Note" name="note" rows="6" required></textarea>
     <div class="contact__action">
       <button class="contact__cta cta cta--small cta--inverse" type="submit">Submit</button>
     </div>

@@ -1,0 +1,79 @@
+/* CTA */
+
+.cta,
+.banner__cta,
+.contact__cta {
+  position: relative;
+  display: inline-flex;
+  gap: var(--size-020);
+  align-items: baseline;
+  justify-content: center;
+  padding-block: var(--size-020);
+  padding-inline: var(--size-040);
+  border: var(--size-004) solid var(--c-gamma);
+  border-radius: var(--size-060);
+  font-size: var(--fz-2030);
+  color: var(--c-gamma);
+  text-decoration: none;
+  background-image: linear-gradient(to right, var(--c-alpha) 40%, var(--c-light) 400%);
+}
+
+.cta--small,
+.banner__cta--small {
+  gap: var(--size-010);
+  padding-block: var(--size-010);
+  font-size: var(--fz-1620);
+}
+
+.cta--tiny {
+  gap: var(--size-010);
+  padding-block: var(--size-004);
+  font-size: var(--fz-1214);
+}
+
+.cta--inverse,
+.banner__cta--inverse {
+  color: var(--c-alpha);
+  background-image: linear-gradient(to right, var(--c-gamma) 50%, var(--c-alpha) 1000%);
+}
+
+.cta--converse {
+  color: var(--c-gamma);
+  background-image: linear-gradient(to left, transparent -100%, var(--c-gamma) 2000%);
+}
+
+.cta::after,
+.banner__cta::after,
+.contact__cta::after {
+  content: '››››';
+  transform-origin: left center;
+  transform: translateY(calc(var(--size-004) * -1));
+  transition: inherit;
+}
+
+:where(.cta, .banner__cta, .contact__cta, .banner__input, .contact__input):is(:hover, :focus, :active) {
+  outline-color: var(--c-gamma);
+}
+
+:is(.cta, .banner__cta, .contact__cta):is(:hover, :focus, :active)::after {
+  transform: translateX(var(--size-004)) translateY(calc(var(--size-004) * -1)) scale(110%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .cta--inverse,
+  .banner__cta--inverse {
+    border-color: var(--c-alpha);
+    color: var(--c-alpha);
+    background-image: linear-gradient(to right, var(--c-gamma) 50%, var(--c-alpha) 1000%);
+  }
+
+  .cta--converse {
+    border-color: var(--c-alpha);
+    color: var(--c-alpha);
+    background-image: linear-gradient(to left, transparent -100%, var(--c-alpha) 2000%);
+  }
+
+  :where(.cta, .banner__cta, .contact__cta, .banner__input, .contact__input):is(:hover, :focus, :active) {
+    outline-color: var(--c-alpha);
+  }
+}

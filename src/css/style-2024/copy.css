@@ -1,0 +1,50 @@
+/* Copy */
+
+.copy {
+  font-size: var(--fz-2024);
+}
+
+.copy > * + * {
+  margin-block-start: 1.25em;
+}
+
+.copy a:has(img) {
+  display: block;
+}
+
+.copy :is(p, li) {
+  font-weight: 300;
+}
+
+.copy ul {
+  list-style-type: circle;
+}
+
+.copy td {
+  font-size: var(--fz-1620);
+  font-weight: 300;
+}
+
+.copy hr {
+  block-size: 1px;
+  margin-block: 3em 2em;
+  border: unset;
+  background-image: linear-gradient(to right, transparent, var(--c-gamma-80), transparent);
+}
+
+.copy :is(ol, ul) {
+  padding-inline-start: 1em;
+  line-height: 2;
+}
+
+.copy small a {
+  text-decoration-style: wavy;
+}
+
+.copy blockquote p {
+  font-size: var(--fz-2030);
+}
+
+.testimonials blockquote {
+  padding-inline-start: var(--size-060);
+}

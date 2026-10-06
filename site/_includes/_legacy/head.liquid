@@ -1,12 +1,11 @@
-{% assign loadCritical = type | criticalExists %}
+{%- assign legacyHead = true -%}
 <head>
-  {% include '_legacy/_head/meta-required' %}
-  {% unless devcards %}
+  {% include '_components/_head/meta-required' %}
+  {%- unless devcards %}
     {% include '_legacy/toggle-check' %}
-  {% endunless %}
-  {% include '_legacy/_assets/critical' %}
-  {% include '_legacy/_head/preload' %}
-  {% include '_legacy/_head/meta-other' %}
-  {% include '_legacy/_assets/favicon' %}
-  {% include '_legacy/_head/og' %}
+  {%- endunless %}
+  {% include '_legacy/_assets/style' %}
+  {% include '_components/_head/meta-other' %}
+  {% include '_components/_assets/favicon' %}
+  {% include '_components/_head/og' %}
 </head>

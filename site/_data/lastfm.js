@@ -1,27 +1,17 @@
-import fetch from 'node-fetch';
-import * as cheerio from 'cheerio';
-import env from './env.js';
+// Recent Last.fm tracks for the lastfm component. Fetched only in production
+// builds; a failed request renders the page without the list.
+import env from './env.js'
+import { getTracks } from '../../eleventy/lastfm.js'
 
-export default async function (event) {
-  if(!env.production) {
-    return false;
+export default async () => {
+  if (!env.production) {
+    return false
   }
 
-  return await fetch('https://www.last.fm/user/maliMirkec')
-    .then((response) => response.text())
-    .then((data) => {
-      const $ = cheerio.load(data);
-
-      let tracks = [];
-
-      $('.chartlist-row--with-artist').each((i, row) => {
-        tracks.push({
-          song: $(row).find('.chartlist-name').text().trim(),
-          artist: $(row).find('.chartlist-artist').text().trim(),
-          trackUrl: `https://www.last.fm${$(row).find('.chartlist-name a').attr('href')}`
-        });
-      });
-
-      return tracks;
-    });
+  try {
+    return await getTracks()
+  } catch (error) {
+    console.error(error)
+    return false
+  }
 }

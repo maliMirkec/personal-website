@@ -1,0 +1,17 @@
+/* Typography */
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--ff2);
+  line-height: 1.2;
+}
+
+:where(h1, h2, h3, h4, h5, h6):has(a) {
+  display: inline-flex;
+  place-self: start;
+}
+
+@media screen and (width >= 62.5rem) {
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,17 @@
+/* Embed */
+
+.embed iframe {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.embed {
+  aspect-ratio: var(--embed-ratio);
+}
+
+.codepen {
+  overflow: hidden;
+  inline-size: var(--codepen-width, 100%);
+  border: 0;
+}

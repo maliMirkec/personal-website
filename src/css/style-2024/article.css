@@ -1,0 +1,262 @@
+/* Article */
+
+.article-header,
+.article-content,
+.article-footer {
+  grid-column: 1 / -1;
+  place-self: stretch;
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-020);
+  align-items: center;
+  padding-block: var(--size-040);
+  padding-inline: var(--size-040);
+  border-radius: var(--size-040);
+  background-image:
+    var(--bg-light), radial-gradient(ellipse closest-side at center, var(--c-alpha) -500%, transparent 200%);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: var(--bg-size), 100%;
+}
+
+.article-header h1 {
+  max-inline-size: 30ch;
+  font-size: var(--fz-3060);
+  hyphens: auto;
+  text-align: center;
+  text-shadow: 1px 1px var(--c-alpha);
+  text-wrap: balance;
+  hyphenate-limit-chars: 10;
+}
+
+.article-content :is(img, p video) {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  max-block-size: unset;
+}
+
+.article-content :is(img, p video):not(.plain) {
+  box-shadow: 0 var(--size-010) var(--size-030) var(--c-gamma-0f);
+}
+
+.article-content :is(img, p video, pre[class*='language-']) {
+  margin-block-end: 1.25rem;
+}
+
+.article-content :is(img, pre[class*='language-']) {
+  margin-block-start: 2.5rem;
+}
+
+.article-content p video {
+  margin-block-start: 1.25rem;
+}
+
+.article-content :is(p, li) code,
+.article-content blockquote,
+.note {
+  background-repeat: repeat;
+  background-position: center;
+  background-size: var(--bg-size), 100%;
+}
+
+.article-content blockquote,
+.note {
+  margin-block-end: 1.25rem;
+  padding-inline: 2rem;
+}
+
+.article-content .note {
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--c-gamma) 1000%);
+}
+
+.article-content blockquote {
+  margin-block-start: 2.5rem;
+  padding-block: 2rem;
+  background-image: var(--bg-light), linear-gradient(to right, transparent -100%, var(--c-alpha) 500%);
+}
+
+.article-content blockquote::before {
+  content: 'Quote';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 2rem;
+  transform: translateY(-50%);
+  padding-inline: var(--size-020);
+  border-radius: var(--size-020);
+  font-family: var(--ff4);
+  font-size: var(--fz-1518);
+  color: var(--c-dark);
+  background-color: var(--c-light);
+}
+
+/* Prism outputs language-* classes, so these selectors can't use a BEM modifier. */
+.article-content :is(p code, li code, code[class*='language-'], pre[class*='language-']) {
+  font-family: var(--ff-mono);
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: -0.0125em;
+}
+
+.article-content p code {
+  display: inline-block;
+}
+
+.article-content :is(p, li) code {
+  font-weight: 600;
+  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--c-alpha) 750%);
+}
+
+.article-content pre[class*='language-'] {
+  font-weight: 400;
+  background-color: transparent;
+  background-image: linear-gradient(to right, var(--c-gamma) -100%, var(--c-dark) 500%);
+}
+
+.article-content code[class*='language-']::selection,
+.article-content code[class*='language-'] span::selection {
+  background-color: var(--c-gamma);
+}
+
+.article-content :is(code[class*='language-'], pre[class*='language-']) {
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.0125em;
+  filter: brightness(1.25) contrast(1.25);
+}
+
+.article-footer {
+  position: relative;
+  row-gap: var(--size-040);
+  padding-block: var(--size-100);
+  border-radius: var(--size-040);
+  background-image: var(--bg-light), linear-gradient(transparent 25%, var(--c-alpha) 250%);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: var(--bg-size), 100%;
+}
+
+.article-footer::before {
+  content: '✣  ✣  ✣';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  transform: translateY(-50%);
+  font-family: var(--ff-mono);
+  font-size: var(--fz-2030);
+  line-height: 1;
+  color: transparent;
+  text-align: center;
+  background-image: linear-gradient(to right, transparent -50%, var(--c-gamma) 1000%);
+  background-clip: text;
+}
+
+.article-footer__content {
+  font-size: var(--fz-1518);
+  font-weight: 300;
+}
+
+.article-footer__content p {
+  font-weight: 600;
+}
+
+.article-footer__content ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--size-060);
+  padding-inline-start: 1em;
+  list-style-type: circle;
+}
+
+.article-footer__content li {
+  margin-block: var(--size-006);
+}
+
+@media screen and (width < 31.25rem) {
+  .article-footer {
+    display: grid;
+    row-gap: var(--size-040);
+  }
+}
+
+@media screen and (width >= 31.25rem) {
+  .article-content > *,
+  .article-footer > * {
+    grid-column: 3;
+  }
+
+  .article-content blockquote,
+  .article-content img:not(.center),
+  .article-content p:has(img:not(.center)),
+  .article-content p:has(video:not(.center)),
+  .article-content p:has(iframe),
+  .article-content iframe,
+  .article-content:not(.invalid-css) pre[class*='language-'],
+  .article-content .note,
+  .article-content .embed {
+    grid-column: 2 / -2;
+  }
+
+  .article-content img.bleed {
+    grid-column: 1 / -1;
+  }
+
+  .article-content p:has(img.center.space) {
+    padding-inline: var(--size-100);
+  }
+}
+
+@media screen and (31.25rem <= width < 62.5rem) {
+  .article-content,
+  .article-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr min(90vw, var(--main)) 2fr 1fr;
+  }
+}
+
+@media screen and (width < 62.5rem) {
+  .article-header {
+    margin-block-start: var(--size-060);
+  }
+
+  .article-content pre[class*='language-'] {
+    box-sizing: border-box;
+    max-inline-size: calc(100dvw - var(--sb-size) - var(--size-060));
+  }
+
+  .article-footer {
+    padding-inline: var(--size-020);
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  .article-content,
+  .article-footer {
+    display: grid;
+    grid-template-columns: 3fr 2fr min(90vw, var(--main)) 2fr 3fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .article-header {
+    background-image:
+      var(--bg-dark), radial-gradient(ellipse closest-side at center, var(--c-alpha) -500%, transparent 200%);
+  }
+
+  .article-header h1 {
+    text-shadow: 1px 1px var(--c-gamma);
+  }
+
+  .article-footer {
+    background-image: var(--bg-dark), linear-gradient(transparent 25%, var(--c-alpha) 1000%);
+  }
+
+  .article-content blockquote::before {
+    color: var(--c-gamma);
+    background-color: var(--c-alpha);
+  }
+}

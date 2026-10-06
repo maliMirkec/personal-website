@@ -3,10 +3,10 @@
 {% elsif config and config.language %}
   {% assign lang = config.language %}
 {% else %}
-  {% assign lang = "en" %}
+  {% assign lang = 'en' %}
 {% endif %}
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang }}" dir="ltr">
   {% include '_legacy/head' %}
   <body>
@@ -33,12 +33,7 @@
       {% include '_legacy/footer' %}
     </div>
     {% include '_legacy/toggle-button' %}
-    {% include '_legacy/_assets/style' %}
     {% include '_legacy/_assets/scripts' %}
-    {% include '_legacy/_assets/analytics' %}
+    {% include '_components/_assets/analytics' %}
   </body>
 </html>
-
-
-
-

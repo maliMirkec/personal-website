@@ -1,0 +1,12 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 120,
+  "plugins": ["@shopify/prettier-plugin-liquid", "prettier-plugin-curly"],
+  "overrides": [
+    {
+      "files": "*.liquid",
+      "options": { "singleQuote": false, "liquidSingleQuote": true }
+    }
+  ]
+}

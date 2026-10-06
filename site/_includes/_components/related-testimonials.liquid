@@ -7,8 +7,6 @@
   {% assign list = list | sort: 'content.size' | reverse %}
 {% endif %}
 
-
-
 {%- if list -%}
   <section class="box">
     {%- if component.title -%}
@@ -17,8 +15,8 @@
     <ul class="box__grid box__grid--beta">
       {%- for card in list -%}
         {% liquid
-          assign now = 'now' | date: "%Y-%m-%d"
-          assign cardDate = card.data.date | date: "%Y-%m-%d"
+          assign now = 'now' | date: '%Y-%m-%d'
+          assign cardDate = card.data.date | date: '%Y-%m-%d'
           if cardDate > now
             continue
           endif
@@ -36,7 +34,8 @@
                 {%- if card.data.avatar -%}
                   {% assign avatarWidths = '85, 170' | split: ',' %}
                   <span class="box__avatar">
-                    {%- cldnryfetch card.data.avatar card.data.title avatarWidths true false -%}
+                    {%- comment -%} Decorative: the name follows in the same link. {%- endcomment -%}
+                    {%- cldnryfetch card.data.avatar '' avatarWidths true false -%}
                   </span>
                 {%- endif -%}
                 <div class="box__profile">

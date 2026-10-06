@@ -1,8 +1,18 @@
 {% for resource in resources %}
   <section>
     <article class="intro">
-      {% assign resourceHref = resource.name | downcase | replace: ",", "" | replace: "\(", "" | replace: "\)", "" | replace: " ", "-" %}
-      <h2 id="{{ resourceHref }}"><a href="#{{ resourceHref }}" class="target"><span>{{ resource.name }}</span></a></h2>
+      {% assign resourceHref = resource.name
+        | downcase
+        | replace: ',', ''
+        | replace: '\(', ''
+        | replace: '\)', ''
+        | replace: ' ', '-'
+      %}
+      <h2 id="{{ resourceHref }}">
+        <a href="#{{ resourceHref }}" class="target"
+          ><span>{{ resource.name }}</span></a
+        >
+      </h2>
       <div class="table">
         <table>
           <tbody>
@@ -10,9 +20,15 @@
               {% for href in item.resources %}
                 <tr>
                   {% if forloop.first %}
-                    <td rowspan={{ item.resources.length }}>
-                      {% assign itemName = item.name | downcase | replace: "," , "" | replace: "\(" , "" | replace: "\)" , "" | replace: " " , "-" %}
-                      {% assign itemHref = resourceHref | append: "-" | append: itemName %}
+                    <td rowspan="{{ item.resources.length }}">
+                      {% assign itemName = item.name
+                        | downcase
+                        | replace: ',', ''
+                        | replace: '\(', ''
+                        | replace: '\)', ''
+                        | replace: ' ', '-'
+                      %}
+                      {% assign itemHref = resourceHref | append: '-' | append: itemName %}
                       <b id="{{ itemHref }}">
                         <a href="#{{ itemHref }}" class="target">
                           <span>{{ item.name }}</span>

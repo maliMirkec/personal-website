@@ -1,20 +1,17 @@
-{% if env.production %}
-  {% if loadCritical %}
-    {% if isMentor %}
-      <link rel="stylesheet" href="/css/mentor.min.css" media="print" onload='this.media="all"'>
-    {% elsif isRibbons %}
-      <link rel="stylesheet" href="/css/ribbons.min.css" media="print" onload='this.media="all"'>
-    {% elsif isSlides %}
-      <link rel="stylesheet" href="/css/slides.min.css" media="print" onload='this.media="all"'>
-    {% elsif is360 %}
-      <link rel="stylesheet" href="/css/devcards.min.css" media="print" onload='this.media="all"'>
-    {% elsif isHexo %}
-      <link rel="stylesheet" href="/css/hexo.min.css" media="print" onload='this.media="all"'>
-    {% else %}
-      <link rel="stylesheet" href="/css/style.min.css" media="print" onload='this.media="all"'>
-    {% endif %}
-  {% endif %}
-{% endif %}
-{% if type == 'articles-item' %}
-  <link rel="stylesheet" href="/css/prism-okaidia.{% if env.production %}min.{% endif %}css" media="print" onload='this.media="all"'>
-{% endif %}
+{%- liquid
+  if isMentor
+    assign stylesheet = 'mentor'
+  elsif isSlides
+    assign stylesheet = 'slides'
+  elsif is360
+    assign stylesheet = 'devcards'
+  elsif isHexo
+    assign stylesheet = 'hexo'
+  else
+    assign stylesheet = 'style'
+  endif
+-%}
+<link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+{%- if type == 'articles-item' %}
+  <link rel="stylesheet" href="/css/prism-okaidia.css">
+{%- endif %}

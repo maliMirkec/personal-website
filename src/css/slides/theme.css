@@ -1,0 +1,359 @@
+/* Slides */
+
+/* https://pqina.nl/blog/fix-google-mobile-usability-issues/ */
+
+:where(body, iframe, pre, img, svg, video, canvas, select) {
+  max-inline-size: 100%;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+
+:root {
+  --bp: 60.2ch;
+  --bp1: 37.5rem;
+  --bp2: 75rem;
+  --bp3: 100rem;
+  --c-alpha: #63f2c5;
+  --c-alpha-hover: #34efb4;
+  --c-alpha-dark: #0a7f5a;
+  --c-alpha-darker: #075039;
+  --c-alpha-darkest: #032117;
+  --c-alpha-light: #92f6d7;
+  --c-alpha-lighter: rgb(99 242 197 / 0.1875);
+  --c-alpha-lightest: rgb(99 242 197 / 0.05);
+  --c-beta: #ff3366;
+  --c-beta-light: #ff668c;
+  --c-beta-lightest: #ffebf0;
+  --c-beta-darker: #aa1339;
+  --c-light: #f6fefb;
+  --c-lightish: #ecfdf8;
+  --c-lighter: #e3fdf4;
+  --c-dark: #021811;
+  --c-darkish: #042f21;
+  --c-xmas-alpha: #f6eeee;
+  --c-xmas-beta: #d82822;
+  --c-xmas-gamma: #649666;
+  --ff1: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  --ff2: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  --ff3: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --step-5: clamp(1.802rem, 3vw, 3.11rem);
+  --step-4: clamp(1.602rem, 3vw, 2.5925rem);
+  --step-3: clamp(1.424rem, 3vw, 2.16rem);
+  --step-2: clamp(1.266rem, 3vw, 1.8rem);
+  --step-1: clamp(1.125rem, 3vw, 1.5rem);
+  --step-0: clamp(1rem, 3vw, 1.25rem);
+  --step--1: clamp(0.889rem, 3vw, 1.0413rem);
+  --step--2: clamp(0.79rem, 3vw, 0.8675rem);
+  --line-height1: 1.3;
+  --line-height2: 1.6;
+  --letter-spacing-alpha: 0.0075em;
+  --letter-spacing-beta: 0.015em;
+  --letter-spacing-gamma: 0.125em;
+  --space: 0.8rem;
+  --border-radius: 0.25rem;
+  --border-radius-alpha: 0.75rem;
+  --duration: 0.3s;
+  --duration2: 0.15s;
+  --duration3: 0.6s;
+  --duration4: 0.9s;
+  --duration5: 1.8s;
+  --delay: 0.15s;
+  --cols: repeat(auto-fill, minmax(25rem, 1fr));
+  --gap: 1.6rem;
+  --ggap: 0.25rem;
+  --angle: 0.5deg;
+  --snap-height: 100vh;
+  --snap-inline: 0.625rem;
+  --mask:
+    radial-gradient(1.93rem at 50% 2.65rem, var(--c-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 51% repeat-x,
+    radial-gradient(1.93rem at 50% -1.65rem, transparent 99%, var(--c-dark) 101%) 50% 1rem / 4rem calc(51% - 1rem)
+      repeat-x,
+    radial-gradient(1.93rem at 50% calc(100% - 2.65rem), var(--c-dark) 99%, transparent 101%) calc(50% - 2rem) 100% /
+      4rem 51% repeat-x,
+    radial-gradient(1.93rem at 50% calc(100% + 1.65rem), transparent 99%, var(--c-dark) 101%) 50% calc(100% - 1rem) /
+      4rem calc(51% - 1rem) repeat-x;
+  --mask-top:
+    radial-gradient(1.93rem at 50% 2.65rem, var(--c-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem 100%,
+    radial-gradient(1.93rem at 50% -1.65rem, transparent 99%, var(--c-dark) 101%) 50% 1rem / 4rem 100% repeat-x;
+  --mask-bottom:
+    radial-gradient(1.93rem at 50% calc(100% - 2.65rem), var(--c-dark) 99%, transparent 101%) calc(50% - 2rem) 0 / 4rem
+      100%,
+    radial-gradient(1.93rem at 50% calc(100% + 1.65rem), transparent 99%, var(--c-dark) 101%) 50% calc(100% - 1rem) /
+      4rem 100% repeat-x;
+}
+
+@media (width < 37.5rem) {
+  :root {
+    --cols: repeat(auto-fill, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration: 0.05s;
+    --duration2: 0.05s;
+    --duration3: 0s;
+    --delay: 0.05s;
+  }
+}
+
+/* @link https://utopia.fyi/generator?c=300,16,1.2,1500,19,1.2,6,2, */
+body {
+  font-size: 1rem;
+  line-height: var(--line-height2);
+  letter-spacing: var(--letter-spacing-alpha);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff2);
+  font-style: normal;
+  font-weight: bold;
+  line-height: var(--line-height1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.balance {
+  text-wrap: balance;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
+}
+
+body,
+.body-copy {
+  font-family: var(--ff1);
+}
+
+header,
+footer,
+main {
+  font-size: var(--step-0);
+}
+
+:root::selection {
+  --c-light: #f6fefb;
+  --c-dark: #021811;
+}
+
+.dark::selection {
+  --c-light: #021811;
+  --c-dark: #f6fefb;
+}
+
+::selection {
+  background-color: var(--c-dark);
+  color: var(--c-light);
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+
+h2 {
+  font-size: var(--step-4);
+}
+
+h3 {
+  font-size: var(--step-3);
+}
+
+h4 {
+  font-size: var(--step-2);
+}
+
+h5 {
+  font-size: var(--step-1);
+}
+
+h6 {
+  font-size: var(--step-0);
+}
+
+[class*='fz-step-'] {
+  font-size: var(--font-size);
+}
+
+[class*='fz-step--3'] {
+  --font-size: var(--step--3);
+}
+
+[class*='fz-step--2'] {
+  --font-size: var(--step--2);
+}
+
+[class*='fz-step--1'] {
+  --font-size: var(--step--1);
+}
+
+[class*='fz-step-0'] {
+  --font-size: var(--step-0);
+}
+
+[class*='fz-step-1'] {
+  --font-size: var(--step-1);
+}
+
+[class*='fz-step-2'] {
+  --font-size: var(--step-2);
+}
+
+[class*='fz-step-3'] {
+  --font-size: var(--step-3);
+}
+
+[class*='fz-step-4'] {
+  --font-size: var(--step-4);
+}
+
+[class*='fz-step-5'] {
+  --font-size: var(--step-5);
+}
+
+[class*='fz-step-6'] {
+  --font-size: var(--step-6);
+}
+
+blockquote {
+  font-family: var(--ff2);
+  font-style: oblique;
+  padding: 0;
+  margin: 0;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fs-normal {
+  font-style: normal;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: 900;
+  letter-spacing: var(--letter-spacing-beta);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.tdu {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.25em;
+}
+
+.ffss {
+  font-family: var(--ff1);
+}
+
+.ffs {
+  font-family: var(--ff2);
+}
+
+.ffm {
+  font-family: var(--ff3);
+}
+
+.slides {
+  color: var(--c-dark);
+  max-block-size: var(--snap-height);
+  overflow-y: auto;
+  scrollbar-color: var(--c-alpha-light) var(--c-beta-light);
+}
+
+.slides::-webkit-scrollbar {
+  inline-size: var(--snap-inline);
+  block-size: var(--snap-inline);
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: var(--c-alpha-light);
+}
+
+.slides::-webkit-scrollbar-track {
+  background: var(--c-beta-light);
+}
+
+.slides li {
+  margin-block-start: 2px;
+}
+
+.slides__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: var(--snap-inline);
+  min-block-size: var(--snap-height);
+  position: relative;
+}
+
+.slides__item:nth-child(odd) {
+  background-image: linear-gradient(45deg, transparent -50%, var(--c-alpha-light) 500%);
+}
+
+.slides__item:nth-child(even) {
+  background-image: linear-gradient(45deg, transparent -50%, var(--c-beta-light) 500%);
+}
+
+.slides__item a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.slides__inner {
+  inline-size: 80vw;
+}
+
+main + img {
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-end: 0;
+}
+
+@supports (height: 100dvh) {
+  .slides {
+    --snap-height: 100dvh;
+    --font-size: 10dvh;
+  }
+}
+
+@supports (scroll-snap-type: y mandatory) {
+  .slides {
+    scroll-snap-type: y mandatory;
+  }
+
+  .slides .slides__item {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+}

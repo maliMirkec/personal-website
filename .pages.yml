@@ -10,9 +10,9 @@ content:
     filename: '{primary}.md'
     exclude: [index.md]
     view:
-      fields: [ title, date ]
+      fields: [title, date]
       primary: title
-      sort: [ date, title ]
+      sort: [date, title]
     fields:
       - name: title
         label: Title
@@ -75,9 +75,9 @@ content:
     exclude: [index.md]
     filename: '{primary}.md'
     view:
-      fields: [ title, date ]
+      fields: [title, date]
       primary: title
-      sort: [ date, title ]
+      sort: [date, title]
     fields:
       - name: title
         label: Title
@@ -115,9 +115,9 @@ content:
     exclude: [index.md]
     filename: '{primary}.md'
     view:
-      fields: [ title, date ]
+      fields: [title, date]
       primary: title
-      sort: [ date, title ]
+      sort: [date, title]
     fields:
       - name: title
         label: Title

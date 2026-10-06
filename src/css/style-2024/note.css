@@ -1,0 +1,44 @@
+/* Note */
+
+.note {
+  position: relative;
+  margin-block-start: 3.75rem;
+  padding-block: 3rem;
+}
+
+.note::before {
+  content: 'Note';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 2rem;
+  transform: translateY(-50%);
+  padding-inline: var(--size-020);
+  border-radius: var(--size-020);
+  font-family: var(--ff4);
+  font-size: var(--fz-1518);
+  color: var(--c-dark);
+  background-color: var(--c-light);
+}
+
+.note[data-title]::before {
+  content: attr(data-title);
+}
+
+.note :is(p, ul, blockquote p) {
+  margin-inline: var(--size-020);
+}
+
+.note :is(p, blockquote p) {
+  font-weight: 300;
+}
+
+.note ul {
+  margin-block-start: var(--size-020);
+}
+
+@media (prefers-color-scheme: dark) {
+  .note::before {
+    color: var(--c-gamma);
+    background-color: var(--c-alpha);
+  }
+}

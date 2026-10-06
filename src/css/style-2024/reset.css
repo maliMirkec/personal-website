@@ -1,0 +1,12 @@
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+}
+
+img {
+  display: block;
+  block-size: auto;
+}

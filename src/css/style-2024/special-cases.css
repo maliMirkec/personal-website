@@ -1,0 +1,101 @@
+/* Special cases */
+
+.page--about .hero {
+  grid-column: 1;
+}
+
+.page--branding .copy p:has(img) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
+  gap: var(--size-010);
+}
+
+.page--setup li a:first-of-type {
+  font-weight: 400;
+}
+
+.page--setup li a + a {
+  transform: translateX(25%) translateY(-25%);
+  display: inline-block;
+  font-size: 0.75em;
+  text-decoration: none;
+}
+
+.invalid-css pre[class*='language-']:first-of-type {
+  font-size: 125%;
+  text-align: center;
+}
+
+.page--favorite-concert .favorites {
+  grid-column: 1 / -1;
+  column-gap: 2rem;
+}
+
+.page--favorite-concert .copy > * + * {
+  margin-block-start: 1em;
+}
+
+.page--favorite-concert .copy h2 {
+  break-before: column;
+  margin-block-start: unset;
+  font-size: var(--fz-3040);
+}
+
+.page--favorite-concert .copy :is(p, li) {
+  font-size: var(--fz-1620);
+  line-height: 1.66;
+}
+
+@media screen and (31.25rem <= width < 62.5rem) {
+  .page--home .hero:has(.hero__image) {
+    grid-template-columns: 1fr clamp(10rem, calc(-10rem + 64vw), 20rem);
+    column-gap: var(--size-030-b);
+  }
+
+  .page--favorite-concert .favorites {
+    column-count: 2;
+  }
+}
+
+@media screen and (width < 62.5rem) {
+  .page--home .hero__image {
+    border-radius: var(--size-024);
+  }
+
+  .page--portfolio-item .hero {
+    padding-block-end: unset;
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  body:not(.page--portfolio-item) .hero:has(.hero__image) {
+    grid-template-columns: min(90vw, var(--main)) 1fr;
+    column-gap: var(--size-100);
+    align-items: center;
+  }
+
+  body:not(.page--portfolio-item) .hero__image {
+    grid-column: 2;
+    grid-row-start: 1;
+  }
+
+  body:not(.page--portfolio-item) .hero__image:nth-child(3) {
+    grid-row: 1 / span 3;
+  }
+
+  body:not(.page--portfolio-item) .hero__image:nth-child(4) {
+    grid-row: 1 / span 4;
+  }
+
+  body:not(.page--portfolio-item) .hero__image:nth-child(5) {
+    grid-row: 1 / span 5;
+  }
+
+  .page--about .hero__image img {
+    max-inline-size: var(--max-inline-size, 100%);
+  }
+
+  .page--favorite-concert .favorites {
+    column-count: 3;
+  }
+}

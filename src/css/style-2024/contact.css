@@ -1,0 +1,9 @@
+/* Contact */
+
+.contact {
+  place-self: stretch;
+}
+
+.contact__action {
+  margin-block-start: var(--size-020);
+}

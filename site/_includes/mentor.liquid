@@ -1,9 +1,10 @@
 ---
 isMentor: true
 ---
-
 {% assign readIndex = 1 %}
-{% for findRead in reads %}{% if findRead == thisRead %}{% assign readIndex = forloop.index %}{% endif %}{% endfor %}
+{% for findRead in reads -%}
+  {%- if findRead == thisRead %}{% assign readIndex = forloop.index %}{% endif -%}
+{%- endfor %}
 {% if thisRead %}
   {% assign thisIssue = reads | size | plus: 1 | minus: readIndex | prepend: '#' %}
   {% if thisRead.description %}
@@ -12,7 +13,12 @@ isMentor: true
     {% assign issueDesc = '.' %}
   {% endif %}
   {% assign thisTitle = 'UI Dev Newsletter ' | append: thisIssue %}
-  {% assign thisDesc = "UI Dev Newsletter Issue " | append: thisIssue | append: ' features' | append: issueDesc | escape %}
+  {% assign thisDesc = 'UI Dev Newsletter Issue '
+    | append: thisIssue
+    | append: ' features'
+    | append: issueDesc
+    | escape
+  %}
   {% assign thisImage = thisRead.og %}
 {% elsif description %}
   {% assign thisTitle = title %}
@@ -31,9 +37,9 @@ isMentor: true
 {% elsif config and config.language %}
   {% assign lang = config.language %}
 {% else %}
-  {% assign lang = "en" %}
+  {% assign lang = 'en' %}
 {% endif %}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang }}" dir="ltr">
   {% include '_legacy/head' %}
   <body class="wrapper wrapper--omega">
@@ -42,8 +48,7 @@ isMentor: true
       {{ content }}
     </main>
     {% include '_mentor/footer' %}
-    {% include '_legacy/_assets/style' %}
     {% include '_legacy/_assets/scripts' %}
-    {% include '_legacy/_assets/analytics' %}
+    {% include '_components/_assets/analytics' %}
   </body>
 </html>

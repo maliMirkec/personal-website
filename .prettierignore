@@ -1,0 +1,9 @@
+public
+node_modules
+.cache
+package-lock.json
+assets/**/*.min.*
+site/**/*.md
+# XML feeds: the HTML parser mangles <link> and CDATA.
+site/rss*.liquid
+site/_includes/rss*.liquid

@@ -2,7 +2,14 @@
   <header class="text-center padding">
     {% if newsletter.logo1 %}
       <a class="dib margin-top margin-bottom hover-beta" href="{{ newsletter.logo1.href }}">
-        <img class="margin-auto" src="{{ newsletter.logo1.src }}" alt="{{ newsletter.logo1.alt }}" width="100" height="100" fetchpriority="high">
+        <img
+          class="margin-auto"
+          src="{{ newsletter.logo1.src }}"
+          alt="{{ newsletter.logo1.alt }}"
+          width="100"
+          height="100"
+          fetchpriority="high"
+        >
       </a>
     {% endif %}
     {% if newsletter.menu %}
@@ -10,7 +17,14 @@
         <ul class="list-style-none no-margin-top">
           {% for item in newsletter.menu %}
             <li class="margin-right margin-left">
-              <a href="{{ item.href }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.title }}</a>
+              <a
+                href="{{ item.href }}"
+                {% if item.class %}
+                  class="{{ item.class }}"
+                {% endif %}
+              >
+                {{- item.title -}}
+              </a>
             </li>
           {% endfor %}
         </ul>

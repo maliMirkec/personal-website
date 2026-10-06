@@ -1,0 +1,81 @@
+/* Reset */
+
+/***
+The new CSS reset - version 1.11.2 (last updated 15.11.2023)
+GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+
+*:where(:not(html, iframe, img, svg, video, audio, svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: none;
+  font-size: 0.9375rem;
+  scroll-behavior: smooth;
+}
+
+a,
+button {
+  cursor: revert;
+}
+
+ol,
+ul,
+menu,
+summary {
+  list-style: none;
+}
+
+img {
+  max-block-size: 100%;
+  max-inline-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  flex: 1 1 100%;
+  inline-size: 100%;
+  max-inline-size: calc(100% - 2px);
+  font-size: 0.8889rem;
+  text-align: start;
+}
+
+input,
+textarea {
+  user-select: auto;
+}
+
+textarea {
+  white-space: revert;
+}
+
+:where(pre) {
+  all: revert;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: unset;
+}
+
+:where([hidden]) {
+  display: none;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  text-wrap: balance;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
+}
+
+:where(p, li) {
+  text-wrap: pretty;
+}

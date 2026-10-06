@@ -1,0 +1,38 @@
+/* Table */
+
+.table-wrapper {
+  overflow-x: auto;
+  max-inline-size: calc(100dvw - var(--size-020) * 2 - var(--size-010) * 2 - var(--sb-size));
+}
+
+.table-wrapper table {
+  border-collapse: collapse;
+  min-inline-size: 100%;
+}
+
+.table-wrapper :is(th, td) {
+  min-inline-size: 30%;
+  padding-block: var(--size-010);
+  padding-inline: var(--size-020);
+  border: 1px solid var(--c-gamma-0f);
+  text-align: start;
+}
+
+.table-wrapper tr:hover {
+  background-color: var(--c-gamma-0f);
+}
+
+.table-wrapper th {
+  font-size: var(--fz-2024);
+  font-weight: 400;
+}
+
+.table-wrapper tr:hover td:last-of-type a {
+  text-decoration-thickness: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .table-wrapper :is(th, td) {
+    border: 1px solid var(--c-alpha-54);
+  }
+}

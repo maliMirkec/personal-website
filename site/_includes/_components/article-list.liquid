@@ -1,5 +1,5 @@
 {%- liquid
-  assign list = collections[component.filter] | sort: "date" | reverse
+  assign list = collections[component.filter] | sort: 'date' | reverse
   assign i1 = 1
 -%}
 
@@ -13,8 +13,8 @@
       {%- for card in list -%}
         {%- unless component.noDate -%}
           {%- liquid
-            assign now = 'now' | date: "%Y-%m-%d"
-            assign cardDate = card.data.date | date: "%Y-%m-%d"
+            assign now = 'now' | date: '%Y-%m-%d'
+            assign cardDate = card.data.date | date: '%Y-%m-%d'
             if cardDate > now
               continue
             endif
@@ -30,7 +30,9 @@
           {%- unless component.exclude and page.url == card.url -%}
             <li class="box__item h-entry">
               {%- if card.data.title -%}
-                <h3 class="box__subtitle"><a rel="bookmark" href="{{ card.url }}">{{ card.data.title }}</a></h3>
+                <h3 class="box__subtitle">
+                  <a rel="bookmark" href="{{ card.url }}">{{ card.data.title }}</a>
+                </h3>
               {%- endif -%}
               <div class="box__tags">
                 {%- if cardDate -%}
@@ -38,13 +40,6 @@
                 {%- endif -%}
                 {%- if card.data.publication -%}
                   <span class="box__tag box__tag--alpha">{{ card.data.publication }}</span>
-                {%- endif -%}
-                {%- if card.data.tags and true == false -%}
-                  {%- for tag in card.data.tags -%}
-                    {%- unless tag == 'blog' -%}
-                      <a href="/tags/{{ tag | slug }}/" class="fancy-hover box__tag box__tag--beta p-category" rel="category tag">{{ tag }}</a>
-                    {%- endunless -%}
-                  {%- endfor -%}
                 {%- endif -%}
               </div>
             </li>

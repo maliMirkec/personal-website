@@ -9,22 +9,10 @@
         "I know how important it is to have direction. That is why I started this program: to help you become a better UI developer."
       ],
       "tagline": "Developing websites since 2012.",
-      "tags": [
-        "Frontend",
-        "User Interface",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "JAMstack",
-        "WordPress"
-      ],
-      "positions": [
-        "Fearless web engineer",
-        "CSS developer",
-        "JAMstack enthusiast",
-        "WordPress theme specialist"
-      ],
-      "links": [{
+      "tags": ["Frontend", "User Interface", "HTML", "CSS", "JavaScript", "JAMstack", "WordPress"],
+      "positions": ["Fearless web engineer", "CSS developer", "JAMstack enthusiast", "WordPress theme specialist"],
+      "links": [
+        {
           "text": "Portfolio",
           "url": "/portfolio/"
         },
@@ -47,10 +35,12 @@
     ],
     "image": "https://res.cloudinary.com/starbist/image/upload/w_1024,q_auto/v1586879053/cover-2x_a6jqaz.jpg",
     "twitterHandle": "malimirkeccita",
-    "nav": [{
+    "nav": [
+      {
         "title": "Home",
         "href": "/"
-      }, {
+      },
+      {
         "title": "UI Dev",
         "href": "/side-projects/ui-dev-mentoring/"
       },
@@ -72,23 +62,29 @@
         "class": "apply"
       }
     ],
-    "social": [{
-      "href": "https://www.linkedin.com/in/starbist/",
-      "title": "LinkedIn"
-    }, {
-      "href": "https://bsky.app/profile/silvestar.codes",
-      "title": "BlueSky"
-    }, {
-      "href": "https://mastodon.social/@cita",
-      "title": "Mastodon",
-      "rel": "me"
-    }, {
-      "href": "https://github.com/maliMirkec",
-      "title": "GitHub",
-      "rel": "me"
-    }, {
-      "href": "https://codepen.io/CiTA/",
-      "title": "CodePen"
-    }]
+    "social": [
+      {
+        "href": "https://www.linkedin.com/in/starbist/",
+        "title": "LinkedIn"
+      },
+      {
+        "href": "https://bsky.app/profile/silvestar.codes",
+        "title": "BlueSky"
+      },
+      {
+        "href": "https://mastodon.social/@cita",
+        "title": "Mastodon",
+        "rel": "me"
+      },
+      {
+        "href": "https://github.com/maliMirkec",
+        "title": "GitHub",
+        "rel": "me"
+      },
+      {
+        "href": "https://codepen.io/CiTA/",
+        "title": "CodePen"
+      }
+    ]
   }
 }

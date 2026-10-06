@@ -1,0 +1,24 @@
+/* Skip link */
+
+.skip-link {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100dvw;
+  font-size: var(--fz-2030);
+  color: var(--c-light);
+  background-color: var(--c-gamma);
+}
+
+.skip-link:not(:focus) {
+  z-index: -1;
+  overflow: hidden;
+  display: block;
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}

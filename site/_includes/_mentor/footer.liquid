@@ -1,10 +1,22 @@
 <footer class="footer">
-  <nav>
+  <nav aria-label="Footer">
     {% if mentor.data.nav %}
       <ul>
         {% for val in mentor.data.nav %}
-          <li{% if val.title == title or val.title == page.data.navTitle %} class="highlight"{% endif %}>
-            <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>
+          <li
+            {% if val.title == title or val.title == page.data.navTitle %}
+              class="highlight"
+            {% endif %}
+          >
+            <a
+              {% if val.class %}
+                class="{{ val.class }}"
+              {% endif %}
+              href="{{ val.href }}"
+              {% if val.title == title or val.title == page.data.navTitle %}
+                aria-current="page"
+              {% endif %}
+            >
               <span>{{ val.title }}</span>
             </a>
           </li>
@@ -17,10 +29,17 @@
     <ul>
       {% for val in mentor.data.social %}
         <li>
-          <a href="{{ val.href }}"{% if val.class %} class="{{ val.class }}"{% endif %}>{{ val.title }}</a>
+          <a
+            href="{{ val.href }}"
+            {% if val.class %}
+              class="{{ val.class }}"
+            {% endif %}
+          >
+            {{- val.title -}}
+          </a>
         </li>
       {% endfor %}
     </ul>
   </div>
-  <p class="copy">&copy; Silvestar Bistrović, {{ 'now' | date: '%Y'}}</p>
+  <p class="copy">&copy; Silvestar Bistrović, {{ 'now' | date: '%Y' }}</p>
 </footer>

@@ -1,0 +1,122 @@
+/* Footer */
+
+.footer {
+  display: flex;
+  grid-area: sidebar;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.footer p a {
+  border-radius: 0.25em;
+}
+
+.footer__inner {
+  display: grid;
+  gap: var(--size-020);
+  padding: var(--size-010);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__logo {
+  overflow: hidden;
+  max-inline-size: var(--size-120);
+  margin-inline: auto;
+  border-radius: 50%;
+}
+
+.footer__logo:is(:hover, :focus, :active) {
+  outline-color: var(--c-light);
+}
+
+.footer__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-006);
+  margin: unset;
+  padding-block-start: var(--size-020);
+  padding-inline: unset;
+  list-style: none;
+}
+
+.footer__social :is(a, svg) {
+  display: block;
+  border-radius: 100dvw;
+}
+
+.footer__social svg {
+  inline-size: 2rem;
+  block-size: 2rem;
+  stroke: var(--c-gamma);
+  transition:
+    background-color var(--tr-222),
+    stroke var(--tr-222);
+}
+
+.footer__social a:is(:hover, :focus, :active) svg {
+  background-color: var(--c-alpha);
+}
+
+@media screen and (width < 62.5rem) {
+  .footer {
+    flex-direction: column-reverse;
+    margin-block-start: var(--size-040);
+  }
+
+  .footer__inner {
+    place-items: start;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (width >= 62.5rem) {
+  .footer__inner {
+    position: sticky;
+    inset-block-end: var(--size-020);
+    padding-block-start: var(--size-020);
+    border-start-start-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: var(--size-120);
+    border-end-end-radius: var(--size-120);
+    background-image: var(--bg-light), linear-gradient(to bottom, transparent 5%, var(--c-gamma) 500%);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: var(--bg-size), 100%;
+  }
+
+  .footer p {
+    writing-mode: vertical-lr;
+  }
+
+  .footer__content {
+    flex-direction: row-reverse;
+  }
+
+  .footer__social {
+    justify-content: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer__social svg {
+    stroke: var(--c-alpha);
+  }
+
+  .footer__social a:is(:hover, :focus, :active) svg {
+    stroke: var(--c-gamma);
+  }
+}
+
+@media screen and (width >= 62.5rem) and (prefers-color-scheme: dark) {
+  .footer__inner {
+    background-image: var(--bg-dark), linear-gradient(to bottom, transparent 5%, var(--c-alpha) 500%);
+  }
+}

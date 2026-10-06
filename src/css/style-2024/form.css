@@ -1,0 +1,63 @@
+/* Form */
+
+.banner__form,
+.contact__form {
+  display: grid;
+  gap: var(--size-010);
+}
+
+.banner__label,
+.banner__input,
+.banner__cta,
+.banner__desc,
+.contact__label,
+.contact__input,
+.contact__cta {
+  font-size: var(--fz-1518);
+}
+
+.banner__input,
+.contact__input {
+  min-block-size: var(--size-040-b);
+  padding-block: var(--size-010);
+  padding-inline: var(--size-020);
+  border: var(--size-004) solid var(--c-gamma);
+  color: var(--c-gamma);
+}
+
+.banner__input {
+  border-radius: var(--size-060);
+  background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 60%);
+}
+
+.banner__input:is(:focus, :active) {
+  background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 80%);
+}
+
+.contact__input,
+.contact__cta {
+  border-radius: var(--size-010);
+}
+
+.contact__input {
+  background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 80%);
+}
+
+.contact__input:is(:focus, :active) {
+  background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 95%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .banner__input,
+  .contact__input {
+    background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 20%);
+  }
+
+  .banner__input:is(:focus, :active) {
+    background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 60%);
+  }
+
+  .contact__input:is(:focus, :active) {
+    background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 100%);
+  }
+}

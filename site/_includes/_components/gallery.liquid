@@ -1,10 +1,13 @@
 {% if component.list %}
   <section id="gallery" class="gallery">
-    <p>Click on the image to enlarge it. Use left and right arrows to browse the gallery. Use ESC to close larger picture.</p>
+    <p>
+      Click on the image to enlarge it. Use left and right arrows to browse the gallery. Use ESC to close larger
+      picture.
+    </p>
     <ul class="gallery__grid js-favs" role="list">
       {% for item in component.list %}
         <li>
-          <button aria-expanded="false">
+          <button type="button" aria-expanded="false">
             {% if component.instant and forloop.index < component.instant %}
               {% assign lazyLoad = false %}
             {% else %}
@@ -12,7 +15,7 @@
             {% endif %}
             {% assign galleryWidths = '330, 660' | split: ',' %}
             {%- cldnryfetch item.src item.title galleryWidths lazyLoad false -%}
-            <p>{{ item.title }}</p>
+            <span class="gallery__caption">{{ item.title }}</span>
           </button>
         </li>
       {% endfor %}

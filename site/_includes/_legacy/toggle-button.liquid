@@ -1,4 +1,14 @@
-<button class="button button--small button--toggle js-toggle" type="button" aria-label="Switch between dark and light website mode">
-  <span>🌗</span>
-  <span>🌓</span>
+{%- comment -%}
+  Hidden until src/js/modules/theme-toggle.js runs: without JavaScript the
+  button could not do anything. aria-pressed reports whether dark mode is on.
+{%- endcomment -%}
+<button
+  class="button button--small button--toggle js-toggle"
+  type="button"
+  aria-label="Dark mode"
+  aria-pressed="false"
+  hidden
+>
+  <span aria-hidden="true">🌗</span>
+  <span aria-hidden="true">🌓</span>
 </button>

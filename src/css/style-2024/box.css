@@ -1,0 +1,202 @@
+/* Box */
+
+.box {
+  display: grid;
+  grid-column: 1;
+  gap: var(--size-060);
+  place-self: stretch;
+}
+
+.box__anchor {
+  display: inline-block;
+  border-radius: var(--size-004);
+  outline-offset: var(--size-004);
+}
+
+.box__anchor:is(:hover, :focus, :active) {
+  text-decoration-color: var(--c-beta);
+}
+
+.box__link {
+  border-radius: var(--size-004);
+  text-decoration: none;
+  outline-width: 0.15em;
+  outline-offset: var(--size-004);
+}
+
+.box__link:has(.box__avatar) {
+  border-radius: var(--size-100);
+}
+
+.box__link:is(:hover, :focus, :active) {
+  background-color: color-mix(in srgb, var(--c-alpha), var(--c-light) 80%);
+}
+
+.box__title {
+  position: relative;
+  z-index: 1;
+  margin-block-start: var(--size-010);
+  font-size: var(--fz-3060);
+}
+
+.box__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset-block: calc(var(--size-010) * -1);
+  inset-inline: 0;
+  border-start-start-radius: 0;
+  border-start-end-radius: var(--size-100);
+  border-end-start-radius: 0;
+  border-end-end-radius: var(--size-100);
+  background-image: var(--bg-light), linear-gradient(to right, transparent 10%, var(--c-gamma) 1100%);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: var(--bg-size), 100%;
+}
+
+.box__list {
+  display: grid;
+  gap: var(--size-040);
+  place-content: start;
+  list-style: none;
+}
+
+.box__item {
+  display: grid;
+  gap: var(--size-010);
+}
+
+.box__subtitle {
+  font-size: var(--fz-2030);
+}
+
+.box__text {
+  font-size: var(--fz-1518);
+}
+
+.box__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-010);
+}
+
+.box__tag,
+.box__more {
+  font-family: var(--ff3);
+  font-size: 1rem;
+  color: color-mix(in srgb, var(--c-gamma), var(--c-light) 10%);
+}
+
+.box__tag--omega {
+  color: var(--c-dark);
+  text-decoration-style: wavy;
+}
+
+.box__grid {
+  display: grid;
+  gap: var(--size-040) var(--size-020);
+  place-items: start;
+}
+
+.box__grid--alpha {
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  place-items: start center;
+}
+
+.box__grid .box__tags {
+  justify-content: center;
+}
+
+.box__panel {
+  text-align: center;
+}
+
+.box__panel img {
+  filter: drop-shadow(0 var(--size-004) var(--size-010) var(--c-alpha-00));
+  transition:
+    filter var(--tr-222),
+    transform var(--tr-222);
+}
+
+.box__panel:is(:hover, :focus, :active) img {
+  transform: scale(102%);
+  filter: drop-shadow(0 var(--size-004) var(--size-010) var(--c-alpha));
+}
+
+.box__action {
+  margin-block-start: var(--size-020);
+  margin-inline: auto;
+}
+
+.box__person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--size-020);
+  align-items: center;
+  max-inline-size: 30rem;
+}
+
+.box__person h3 {
+  margin-block-end: var(--size-004);
+  font-size: var(--fz-2024);
+  line-height: 1;
+}
+
+.box__person :is(h4, h5) {
+  font-family: var(--ff3);
+  font-size: var(--fz-1214);
+}
+
+.box__quote {
+  margin-block-start: var(--size-010);
+  margin-inline-start: calc(var(--size-100-b) / 2);
+}
+
+.box__quote blockquote {
+  max-inline-size: max(60ch, 75%);
+}
+
+:is(.box__quote, .testimonials) blockquote::before {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  transform: translate(-50%);
+  inline-size: 0.15em;
+  border-radius: var(--size-004);
+  background-image: linear-gradient(var(--c-gamma), var(--c-alpha));
+}
+
+.box__avatar {
+  max-inline-size: var(--size-100-b);
+}
+
+@media screen and (width >= 62.5rem) {
+  .box__grid--beta {
+    grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .box__title::before {
+    background-image: var(--bg-dark), linear-gradient(to right, transparent 10%, var(--c-alpha) 1100%);
+  }
+
+  .box__tag,
+  .box__more {
+    color: color-mix(in srgb, var(--c-light), var(--c-gamma) 20%);
+  }
+
+  .box__tag--omega {
+    color: var(--c-light);
+  }
+
+  .box__panel:is(:hover, :focus, :active) img {
+    filter: drop-shadow(0 var(--size-004) var(--size-010) var(--c-dark));
+  }
+
+  .box__link:is(:hover, :focus, :active) {
+    background-color: color-mix(in srgb, var(--c-gamma), var(--c-light) 10%);
+  }
+}
