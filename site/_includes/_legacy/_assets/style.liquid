@@ -11,7 +11,7 @@
     assign stylesheet = 'style'
   endif
 -%}
-<link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+<link rel="stylesheet" href="{{ '/css/' | append: stylesheet | append: '.css' | assetUrl }}">
 {%- if type == 'articles-item' %}
-  <link rel="stylesheet" href="/css/prism-okaidia.css">
+  <link rel="stylesheet" href="{{ '/css/prism-okaidia.css' | assetUrl }}">
 {%- endif %}

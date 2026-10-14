@@ -10,6 +10,7 @@ import postcssMediaMinmax from 'postcss-media-minmax'
 import postcssLogical from 'postcss-logical'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
+import { setAssetHash } from './asset-hash.js'
 
 const SRC_DIR = 'src/css'
 
@@ -38,6 +39,7 @@ export const buildCss = async (outputDir, minify) => {
       const result = await processor.process(await fs.readFile(from, 'utf8'), { from, to })
 
       await fs.writeFile(to, result.css)
+      setAssetHash(`/css/${file}`, result.css)
     }),
   )
 }

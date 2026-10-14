@@ -1,18 +1,18 @@
 {% if isMentor %}
-  <link rel="stylesheet" href="/css/mentor.css">
+  <link rel="stylesheet" href="{{ '/css/mentor.css' | assetUrl }}">
 {% elsif isSlides %}
-  <link rel="stylesheet" href="/css/slides.css">
+  <link rel="stylesheet" href="{{ '/css/slides.css' | assetUrl }}">
 {% elsif is360 %}
-  <link rel="stylesheet" href="/css/devcards.css">
+  <link rel="stylesheet" href="{{ '/css/devcards.css' | assetUrl }}">
 {% elsif isHexo %}
-  <link rel="stylesheet" href="/css/hexo.css">
+  <link rel="stylesheet" href="{{ '/css/hexo.css' | assetUrl }}">
 {% else %}
-  <link rel="stylesheet" href="/css/style-2024.css">
+  <link rel="stylesheet" href="{{ '/css/style-2024.css' | assetUrl }}">
   {% if type == 'articles-item' %}
-    <link rel="stylesheet" href="/css/prism-okaidia.css">
+    <link rel="stylesheet" href="{{ '/css/prism-okaidia.css' | assetUrl }}">
   {% endif %}
 {% endif %}
-<script src="/js/sb-2024.js" defer></script>
+<script src="{{ '/js/sb-2024.js' | assetUrl }}" defer></script>
 {%- if js %}
-  <script src="/js/{{ js }}.js" defer></script>
+  <script src="{{ '/js/' | append: js | append: '.js' | assetUrl }}" defer></script>
 {%- endif %}

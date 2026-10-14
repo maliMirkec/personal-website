@@ -13,6 +13,7 @@ sections:
     text2_width: 50
   - type: project-cards
     filter: portfolio
+    instant: 3
   - type: banner
     banner: studio-cita
     sticky: true

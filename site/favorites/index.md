@@ -15,6 +15,7 @@ sections:
     text: Just some random favorite stuff, from TV shows and characters, to bands and artists.
   - type: project-cards
     filter: favorites
+    instant: 3
   - type: lastfm
     sticky: true
 ---

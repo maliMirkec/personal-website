@@ -1,4 +1,4 @@
-<script src="/js/sb.js" defer></script>
+<script src="{{ '/js/sb.js' | assetUrl }}" defer></script>
 {%- if js %}
-  <script src="/js/{{ js }}.js" defer></script>
+  <script src="{{ '/js/' | append: js | append: '.js' | assetUrl }}" defer></script>
 {%- endif %}

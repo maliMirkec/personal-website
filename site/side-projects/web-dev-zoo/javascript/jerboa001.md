@@ -1,8 +1,8 @@
 ---
 title: Don't save sensitive data in localStorage
 date: 2025-02-25 08:00:00
-description: "JavaScript jerboa says: Don't forget the lang attribute to define
-  the default language."
+description: "JavaScript jerboa says: Don’t save sensitive data in localStorage
+  because it never expires."
 tags:
   - zoo
   - javascript
@@ -10,7 +10,7 @@ og_img: jj1_kuhwyg
 type: articles-item
 layout: default
 ---
-{% cldnryfetch "jj1_kuhwyg" "Poorly drawn jerboa with a text in a speech bubble: “Don't forget the lang attribute to define the default language.”" false true "center plain" %}
+{% cldnryfetch "jj1_kuhwyg" "Poorly drawn jerboa with a text in a speech bubble: “Don’t save sensitive data in localStorage because it never expires.”" false true "center plain" %}
 
 JavaScript jerboa says:
 

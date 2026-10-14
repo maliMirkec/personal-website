@@ -20,7 +20,7 @@
         <a class="footer__logo" href="{{ footer2024.logo.href }}">
           {% assign footerWidth2x = footer2024.logo.width | times: 2 %}
           {% assign footerWidths = footer2024.logo.width | append: ',' | append: footerWidth2x | split: ',' %}
-          {%- cldnryfetch footer2024.logo.src footer2024.logo.alt footerWidths false '' footer2024.logo.svg -%}
+          {%- cldnryfetch footer2024.logo.src footer2024.logo.alt footerWidths true '' footer2024.logo.svg '7.5rem' -%}
         </a>
       {% endif %}
     </div>

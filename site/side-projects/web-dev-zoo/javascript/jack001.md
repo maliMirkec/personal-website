@@ -1,8 +1,8 @@
 ---
 title: Using requestAnimationFrame makes smoother animations
 date: 2025-04-07 08:00:00
-description: "JavaScript jack crevalle says: Don't forget the lang attribute to
-  define the default language."
+description: "JavaScript jack crevalle says: Use requestAnimationFrame to sync
+  updates with the browser’s refresh rate."
 tags:
   - zoo
   - javascript
@@ -10,7 +10,7 @@ og_img: jj2_qm26kn
 type: articles-item
 layout: default
 ---
-{% cldnryfetch "jj2_qm26kn" "Poorly drawn jack crevalle with a text in a speech bubble: “Don't forget the lang attribute to define the default language.”" false true "center plain" %}
+{% cldnryfetch "jj2_qm26kn" "Poorly drawn jack crevalle with a text in a speech bubble: “Use requestAnimationFrame to sync updates with the browser’s refresh rate.”" false true "center plain" %}
 
 JavaScript jack crevalle says:
 

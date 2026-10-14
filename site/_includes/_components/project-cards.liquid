@@ -32,7 +32,13 @@
             <a class="box__anchor box__panel" href="{{ card.url }}">
               {%- if card.data.thumbnail -%}
                 {% assign projectWidths = '320, 640' | split: ',' %}
-                {%- cldnryfetch card.data.thumbnail.src card.data.thumbnail.alt projectWidths false false -%}
+                {%- comment -%} Only the first `instant` cards can be above the fold. {%- endcomment -%}
+                {% if component.instant and i1 <= component.instant %}
+                  {% assign lazyLoad = false %}
+                {% else %}
+                  {% assign lazyLoad = true %}
+                {% endif %}
+                {%- cldnryfetch card.data.thumbnail.src card.data.thumbnail.alt projectWidths lazyLoad false false '(width >= 62.5rem) 20rem, (width >= 37.5rem) 50vw, 100vw' -%}
               {%- endif -%}
               {%- if card.data.projectTitle -%}
                 <h3 class="box__subtitle">

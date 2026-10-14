@@ -7,7 +7,10 @@ const link = `https://res.cloudinary.com/starbist/image/upload/w_2400,f_auto,q_a
 
 const OUTPUT_DIR = 'public/gfx/cldnry/'
 
-const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
+// `sizes` should describe the rendered width, so the browser can pick the
+// smallest srcset candidate. Eager images are above the fold and may be the
+// LCP element, so they get a high fetch priority.
+const cldnryfetch = async (src, alt, widths, lazy, classes, svg, sizes) => {
   const formats = svg ? ['svg'] : ['webp']
   const linkUrl = svg ? link.replace('f_auto,', '') : link
 
@@ -30,9 +33,13 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg) => {
   const imageAttributes = {
     alt,
     class: classes || '',
-    sizes: '100vw',
+    sizes: sizes || '100vw',
     loading: lazy ? 'lazy' : 'eager',
-    decoding: lazy ? 'async' : 'sync',
+    decoding: 'async',
+  }
+
+  if (!lazy) {
+    imageAttributes.fetchpriority = 'high'
   }
 
   return Image.generateHTML(metadata, imageAttributes)

@@ -11,6 +11,7 @@ import { cldnryimg, cldnrylink, cldnryfetch, cldnrydev, cldnrysrc } from './elev
 import { collections, tags } from './eleventy/collections.js'
 import { buildCss } from './eleventy/css.js'
 import { buildJs } from './eleventy/js.js'
+import { assetUrl } from './eleventy/asset-hash.js'
 
 const markdownItRenderer = new markdownIt()
 
@@ -55,6 +56,8 @@ export default async (eleventyConfig) => {
     }),
   )
 
+  eleventyConfig.addLiquidFilter('assetUrl', (url) => assetUrl(url))
+
   eleventyConfig.addLiquidFilter('markdownify', async (str) => markdownItRenderer.render(str ? str.trim() : ''))
 
   eleventyConfig.addLiquidFilter('markdownifyi', async (str) => markdownItRenderer.renderInline(str.trim()))
@@ -96,9 +99,14 @@ export default async (eleventyConfig) => {
     cldnrylink(link, src, alt, width, height, classes, instant),
   )
 
-  eleventyConfig.addLiquidShortcode('cldnryfetch', async (src, alt, widths, lazy = true, classes = '', svg = false) => {
-    return env.development ? cldnrydev(src, alt, lazy, classes, svg) : cldnryfetch(src, alt, widths, lazy, classes, svg)
-  })
+  eleventyConfig.addLiquidShortcode(
+    'cldnryfetch',
+    async (src, alt, widths, lazy = true, classes = '', svg = false, sizes = '100vw') => {
+      return env.development
+        ? cldnrydev(src, alt, lazy, classes, svg)
+        : cldnryfetch(src, alt, widths, lazy, classes, svg, sizes)
+    },
+  )
 
   eleventyConfig.addLiquidShortcode('cldnrysrc', async (img, width) => cldnrysrc(img, width))
 

@@ -4,6 +4,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import * as esbuild from 'esbuild'
+import { setAssetHash } from './asset-hash.js'
 
 const SRC_DIR = 'src/js'
 
@@ -15,7 +16,7 @@ const SRC_DIR = 'src/js'
 export const buildJs = async (outputDir, minify) => {
   const entries = (await fs.readdir(SRC_DIR)).filter((file) => file.endsWith('.js'))
 
-  await esbuild.build({
+  const result = await esbuild.build({
     entryPoints: entries.map((file) => path.join(SRC_DIR, file)),
     outdir: path.join(outputDir, 'js'),
     bundle: true,
@@ -23,5 +24,15 @@ export const buildJs = async (outputDir, minify) => {
     target: 'es2020',
     minify,
     logLevel: 'warning',
+    write: false,
   })
+
+  await fs.mkdir(path.join(outputDir, 'js'), { recursive: true })
+
+  await Promise.all(
+    result.outputFiles.map(async ({ path: filePath, contents }) => {
+      await fs.writeFile(filePath, contents)
+      setAssetHash(`/js/${path.basename(filePath)}`, contents)
+    }),
+  )
 }

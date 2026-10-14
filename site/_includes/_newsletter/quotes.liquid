@@ -12,7 +12,7 @@
                       <span class="db margin-right avatar">
                         {% assign altTextAvatar = quote.name | append: ' profile photo.' %}
                         {% assign avatarWidths = '70, 140' | split: ',' %}
-                        {%- cldnryfetch quote.avatar altTextAvatar avatarWidths false -%}
+                        {%- cldnryfetch quote.avatar altTextAvatar avatarWidths true false false '4.375rem' -%}
                       </span>
                     {% endif %}
                     <div>
