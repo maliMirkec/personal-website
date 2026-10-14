@@ -11,18 +11,15 @@
 
 .header__nav {
   padding: var(--size-010);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: var(--bg-size), 100%;
 }
 
 .header__nav--alpha {
-  background-image: var(--bg-light), linear-gradient(to right, var(--c-alpha) -50%, transparent 150%);
+  background-image: linear-gradient(to right, var(--c-alpha) -50%, transparent 150%);
 }
 
 .header__nav--beta {
   grid-area: links;
-  background-image: var(--bg-light), linear-gradient(to right, var(--c-gamma) -1000%, transparent 150%);
+  background-image: linear-gradient(to right, var(--c-gamma) -1000%, transparent 150%);
 }
 
 .header__list {
@@ -190,11 +187,11 @@
 
 @media (prefers-color-scheme: dark) {
   .header__nav--alpha {
-    background-image: var(--bg-dark), linear-gradient(to right, var(--c-alpha) -500%, transparent 200%);
+    background-image: linear-gradient(to right, var(--c-alpha) -500%, transparent 200%);
   }
 
   .header__nav--beta {
-    background-image: var(--bg-dark), linear-gradient(to right, var(--c-alpha) -1000%, transparent 150%);
+    background-image: linear-gradient(to right, var(--c-alpha) -1000%, transparent 150%);
   }
 
   .header__link--beta {

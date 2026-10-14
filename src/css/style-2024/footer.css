@@ -86,10 +86,7 @@
     border-start-end-radius: 0;
     border-end-start-radius: var(--size-120);
     border-end-end-radius: var(--size-120);
-    background-image: var(--bg-light), linear-gradient(to bottom, transparent 5%, var(--c-gamma) 500%);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: var(--bg-size), 100%;
+    background-image: linear-gradient(to bottom, transparent 5%, var(--c-gamma) 500%);
   }
 
   .footer p {
@@ -117,6 +114,6 @@
 
 @media screen and (width >= 62.5rem) and (prefers-color-scheme: dark) {
   .footer__inner {
-    background-image: var(--bg-dark), linear-gradient(to bottom, transparent 5%, var(--c-alpha) 500%);
+    background-image: linear-gradient(to bottom, transparent 5%, var(--c-alpha) 500%);
   }
 }

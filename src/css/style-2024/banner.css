@@ -7,9 +7,6 @@
   inline-size: 100%;
   padding: var(--size-040);
   border-radius: var(--size-040);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: var(--bg-size), 100%;
 }
 
 .banner--gfx {
@@ -18,11 +15,11 @@
 }
 
 .banner--alpha {
-  background-image: var(--bg-light), linear-gradient(to bottom right, var(--c-alpha), var(--c-light) 300%);
+  background-image: linear-gradient(to bottom right, var(--c-alpha), var(--c-light) 300%);
 }
 
 .banner--beta {
-  background-image: var(--bg-light), linear-gradient(to right, transparent -50%, var(--c-gamma) 1000%);
+  background-image: linear-gradient(to right, transparent -50%, var(--c-gamma) 1000%);
 }
 
 .banner--big {
@@ -139,10 +136,10 @@
 
 @media (prefers-color-scheme: dark) {
   .banner--alpha {
-    background-image: var(--bg-dark), linear-gradient(to bottom right, var(--c-alpha) -500%, transparent 150%);
+    background-image: linear-gradient(to bottom right, var(--c-alpha) -500%, transparent 150%);
   }
 
   .banner--beta {
-    background-image: var(--bg-dark), linear-gradient(to right, var(--c-alpha) -1000%, transparent 200%);
+    background-image: linear-gradient(to right, var(--c-alpha) -1000%, transparent 200%);
   }
 }
