@@ -1,29 +1,40 @@
-// Scrapes recent tracks from the public Last.fm profile. Shared by the
-// build-time data file (site/_data/lastfm.js) and the refresh function
-// (netlify/functions/lastfm.js).
-import * as cheerio from 'cheerio'
+// Fetches recent tracks from the Last.fm API. Shared by the build-time data
+// file (site/_data/lastfm.js) and the refresh function (netlify/functions/lastfm.js).
+// Requires the LASTFM_API_KEY environment variable.
 
-const PROFILE_URL = 'https://www.last.fm/user/maliMirkec'
-const SITE_URL = 'https://www.last.fm'
+const API_URL = 'https://ws.audioscrobbler.com/2.0/'
+const USER = 'maliMirkec'
+const LIMIT = 10
 
 /**
- * Fetch and parse the recent tracks.
+ * Fetch the recent tracks.
  * @returns {Promise<Array<{ song: string, artist: string, trackUrl: string }>>}
  */
 export const getTracks = async () => {
-  const response = await fetch(PROFILE_URL)
+  const apiKey = process.env.LASTFM_API_KEY
+
+  if (!apiKey) {
+    throw new Error('LASTFM_API_KEY is not set')
+  }
+
+  const params = new URLSearchParams({
+    method: 'user.getrecenttracks',
+    user: USER,
+    api_key: apiKey,
+    format: 'json',
+    limit: LIMIT,
+  })
+  const response = await fetch(`${API_URL}?${params}`)
 
   if (!response.ok) {
     throw new Error(`Last.fm responded with ${response.status}`)
   }
 
-  const $ = cheerio.load(await response.text())
+  const { recenttracks } = await response.json()
 
-  return $('.chartlist-row--with-artist')
-    .map((index, row) => ({
-      song: $(row).find('.chartlist-name').text().trim(),
-      artist: $(row).find('.chartlist-artist').text().trim(),
-      trackUrl: `${SITE_URL}${$(row).find('.chartlist-name a').attr('href')}`,
-    }))
-    .get()
+  return recenttracks.track.map((track) => ({
+    song: track.name,
+    artist: track.artist['#text'],
+    trackUrl: track.url,
+  }))
 }

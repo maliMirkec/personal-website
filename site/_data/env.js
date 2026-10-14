@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-dotenv.config()
+dotenv.config({ quiet: true })
 
 export default {
   production: process.env.ELEVENTY_ENV === 'production',
