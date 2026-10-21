@@ -158,10 +158,10 @@ textarea {
 
 @media (prefers-reduced-motion: reduce) {
   :root {
-    --duration: .05s;
-    --duration2: .05s;
+    --duration: 0.05s;
+    --duration2: 0.05s;
     --duration3: 0s;
-    --delay: .05s;
+    --delay: 0.05s;
   }
 }
 

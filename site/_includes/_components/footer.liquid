@@ -25,7 +25,7 @@
             <a href="{{ social.href }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>
               {% assign iconPath = '_components/_icons/' | append: social.title | append: '.svg' | downcase  %}
               {% include iconPath %}
-              <span class="sr-only">{{ social.title }}</span>
+              <span class="vh">{{ social.title }}</span>
             </a>
           </li>
         {% endfor %}

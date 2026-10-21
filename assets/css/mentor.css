@@ -117,8 +117,8 @@ h1,
   position: relative;
 }
 
-h1:first-letter,
-.h1:first-letter {
+h1::first-letter,
+.h1::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -141,8 +141,8 @@ p+.h1 {
 
 @media (min-width: 60em) {
 
-  h1:not(.plain):after,
-  .h1:not(.plain):after {
+  h1:not(.plain)::after,
+  .h1:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -150,7 +150,7 @@ p+.h1 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -163,8 +163,8 @@ h2,
   position: relative;
 }
 
-h2:first-letter,
-.h2:first-letter {
+h2::first-letter,
+.h2::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -187,8 +187,8 @@ p+.h2 {
 
 @media (min-width: 60em) {
 
-  h2:not(.plain):after,
-  .h2:not(.plain):after {
+  h2:not(.plain)::after,
+  .h2:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -196,7 +196,7 @@ p+.h2 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -209,8 +209,8 @@ h3,
   position: relative;
 }
 
-h3:first-letter,
-.h3:first-letter {
+h3::first-letter,
+.h3::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -233,8 +233,8 @@ p+.h3 {
 
 @media (min-width: 60em) {
 
-  h3:not(.plain):after,
-  .h3:not(.plain):after {
+  h3:not(.plain)::after,
+  .h3:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -242,7 +242,7 @@ p+.h3 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -255,8 +255,8 @@ h4,
   position: relative;
 }
 
-h4:first-letter,
-.h4:first-letter {
+h4::first-letter,
+.h4::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -279,8 +279,8 @@ p+.h4 {
 
 @media (min-width: 60em) {
 
-  h4:not(.plain):after,
-  .h4:not(.plain):after {
+  h4:not(.plain)::after,
+  .h4:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -288,7 +288,7 @@ p+.h4 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -301,8 +301,8 @@ h5,
   position: relative;
 }
 
-h5:first-letter,
-.h5:first-letter {
+h5::first-letter,
+.h5::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -325,8 +325,8 @@ p+.h5 {
 
 @media (min-width: 60em) {
 
-  h5:not(.plain):after,
-  .h5:not(.plain):after {
+  h5:not(.plain)::after,
+  .h5:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -334,7 +334,7 @@ p+.h5 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -347,8 +347,8 @@ h6,
   position: relative;
 }
 
-h6:first-letter,
-.h6:first-letter {
+h6::first-letter,
+.h6::first-letter {
   font-size: 1.5em;
   line-height: 0.75;
 }
@@ -371,8 +371,8 @@ p+.h6 {
 
 @media (min-width: 60em) {
 
-  h6:not(.plain):after,
-  .h6:not(.plain):after {
+  h6:not(.plain)::after,
+  .h6:not(.plain)::after {
     content: "";
     background-image: linear-gradient(to right, #C2FAE8 50%, transparent);
     position: absolute;
@@ -380,7 +380,7 @@ p+.h6 {
     left: 0;
     width: 20%;
     max-width: 2em;
-    height: .15em;
+    height: 0.15em;
   }
 }
 
@@ -420,7 +420,7 @@ body {
   text-align: center;
 }
 
-.cta p[class^="h"]:after {
+.cta p[class^="h"]::after {
   content: none;
 }
 
@@ -428,7 +428,7 @@ body {
   position: relative;
 }
 
-:target:after {
+:target::after {
   content: "";
   position: absolute;
   background-image: linear-gradient(110deg, transparent 49%, #fff 49%, #fff 51%, transparent 51%);
@@ -522,13 +522,13 @@ nav a:active {
   position: relative;
 }
 
-.highlight a:not([class]):after {
+.highlight a:not([class])::after {
   content: "❋";
   position: absolute;
   bottom: -0.5em;
   left: 50%;
   transform: translateX(-50%);
-  font-size: .675em;
+  font-size: 0.675em;
 }
 
 .www {
@@ -544,7 +544,7 @@ nav a:active {
   position: relative;
 }
 
-.apply:after {
+.apply::after {
   content: "⤑";
   font-size: 1rem;
   line-height: 1;
@@ -627,7 +627,7 @@ section:first-child {
   padding-top: calc(5.55556 * 1rem);
 }
 
-section+section:before {
+section+section::before {
   content: "❋ ❋ ❋";
   padding-top: calc(3.33333 * 1rem);
   padding-bottom: calc(3.33333 * 1rem);
@@ -655,7 +655,7 @@ section ul:not([class]) {
 section ul:not([class]) li {
   display: flex;
   align-items: flex-start;
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
 
 section ul:not([class]) li.aib {
@@ -666,10 +666,10 @@ section ul:not([class]) li.aib span {
   margin-right: calc(0.16667 * 1rem);
 }
 
-section ul:not([class]) li:before {
+section ul:not([class]) li::before {
   content: "❋";
   display: inline-block;
-  margin-right: .25em;
+  margin-right: 0.25em;
   transform: scale(0.6);
 }
 
@@ -757,7 +757,7 @@ img {
   border-radius: calc(0.16667 * 1rem);
 }
 
-.link:after {
+.link::after {
   content: "⤑";
   font-size: 1rem;
   line-height: 1;
@@ -784,7 +784,7 @@ img {
   transition: transform 0.175s cubic-bezier(0.04, 0.88, 0.74, 1.04);
 }
 
-[class*="href"]:after {
+[class*="href"]::after {
   content: "⇢";
   display: inline-block;
   margin-left: calc(0.33333 * 1rem);
@@ -811,7 +811,7 @@ img {
 .notarget span:last-of-type:not(:only-child),
 .target span:last-of-type:not(:only-child) {
   font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin-left: .33em;
+  margin-left: 0.33em;
   text-transform: none;
 }
 
@@ -819,9 +819,9 @@ img {
   color: inherit;
 }
 
-.target:after {
+.target::after {
   content: "#";
-  margin-left: .33em;
+  margin-left: 0.33em;
   font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   line-height: 1.25em;
@@ -835,10 +835,10 @@ img {
   text-decoration: none;
 }
 
-.target:hover:after,
-.target:focus:after,
-.target:active:after,
-:target .target:after {
+.target:hover::after,
+.target:focus::after,
+.target:active::after,
+:target .target::after {
   color: #12de9d;
   text-shadow: none;
 }
@@ -862,12 +862,12 @@ img {
 }
 
 .inline a {
-  padding: .75em 1em;
+  padding: 0.75em 1em;
   white-space: nowrap;
 }
 
 .inline b {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .reads {
@@ -927,7 +927,7 @@ img {
 }
 
 .hero h1 {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .hero p {
@@ -947,7 +947,7 @@ img {
   padding-right: calc(1.66667 * 1rem);
 }
 
-.profile__image:not([class*="--"]):after {
+.profile__image:not([class*="--"])::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -994,7 +994,7 @@ img {
   margin-bottom: 0;
 }
 
-.profile__title:after {
+.profile__title::after {
   content: none;
 }
 
@@ -1042,7 +1042,7 @@ img {
   margin-bottom: 0;
 }
 
-.profile__positions h3:after {
+.profile__positions h3::after {
   content: none;
 }
 
@@ -1076,23 +1076,23 @@ img {
 }
 
 .card h3 {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .card ul+a {
   margin-top: calc(1.66667 * 1rem);
 }
 
-.card li:nth-child(odd):before {
+.card li:nth-child(odd)::before {
   color: #d92e54;
 }
 
-.card li:nth-child(even):before {
+.card li:nth-child(even)::before {
   color: #12de9d;
 }
 
 .intro h2 {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .form {
@@ -1120,8 +1120,8 @@ img {
   margin-bottom: calc(0.16667 * 1rem);
 }
 
-.form .label:before,
-.form label:before {
+.form .label::before,
+.form label::before {
   content: "➥";
   margin-right: calc(0.33333 * 1rem);
   font-size: 0.88889rem;
@@ -1239,7 +1239,7 @@ img {
   margin-top: 0;
 }
 
-.form .kw-radio-group label:before {
+.form .kw-radio-group label::before {
   content: none;
 }
 
@@ -1276,7 +1276,7 @@ img {
   margin-bottom: calc(0.55556 * 1rem);
 }
 
-.form [class*="kw-message-"]:before {
+.form [class*="kw-message-"]::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1306,7 +1306,7 @@ img {
   border-radius: calc(0.16667 * 1rem);
 }
 
-.form .kw-message-error:before {
+.form .kw-message-error::before {
   content: "!";
   background-color: #d92e54;
 }
@@ -1318,7 +1318,7 @@ img {
   border-radius: calc(0.16667 * 1rem);
 }
 
-.form .kw-message-warning:before {
+.form .kw-message-warning::before {
   content: "i";
   background-color: #120207;
 }
@@ -1330,7 +1330,7 @@ img {
   border-radius: calc(0.16667 * 1rem);
 }
 
-.form .kw-message-info:before {
+.form .kw-message-info::before {
   content: "i";
   background-color: #12de9d;
 }
@@ -1344,7 +1344,7 @@ img {
   margin: calc(0.16667 * 1rem) 0;
 }
 
-.desc p:before {
+.desc p::before {
   content: "i";
   display: inline-flex;
   align-items: center;
@@ -1382,10 +1382,10 @@ img {
   display: flex;
   list-style: none;
   padding: 0;
-  margin-left: .25em;
+  margin-left: 0.25em;
 }
 
-.find li:not(:first-of-type):before {
+.find li:not(:first-of-type)::before {
   content: ", ";
 }
 

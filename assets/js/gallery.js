@@ -8,8 +8,11 @@ const gallery = () => {
 
   // Get the transition timeout from CSS
   const getTimeouts = () => {
-    const durationOn = parseFloat(getComputedStyle(document.documentElement)
-      .getPropertyValue('--timing100'))
+    const durationOn = parseFloat(
+      getComputedStyle(document.documentElement).getPropertyValue(
+        '--timing100',
+      ),
+    )
 
     timeout = parseFloat(durationOn)
   }
@@ -40,7 +43,7 @@ const gallery = () => {
 
     // Iterate through grid items
     $elems.forEach(($elem, i) => {
-      if(!colsSet) {
+      if (!colsSet) {
         const t = getTop($elem)
 
         // Check when top offset changes
@@ -57,7 +60,7 @@ const gallery = () => {
 
   // Deactivate grid items
   const deactiveElems = ($elems, $parent, $currentElem, $button) => {
-    $elems.forEach($elem => {
+    $elems.forEach(($elem) => {
       let $thisElem = $elem
 
       // Unset item CSS transform
@@ -177,7 +180,7 @@ const gallery = () => {
 
       $button.addEventListener('click', () => {
         // Set active item on click
-        activateElem($elems, $parent, $elem,  $button, $elems.length, i)
+        activateElem($elems, $parent, $elem, $button, $elems.length, i)
       })
     })
   }
@@ -196,7 +199,7 @@ const gallery = () => {
         if (e.code === 'ArrowLeft') {
           const $previousSibling = $activeElem.parentNode.previousElementSibling
 
-          if($previousSibling) {
+          if ($previousSibling) {
             activateSibling($previousSibling)
           }
         }
@@ -205,7 +208,7 @@ const gallery = () => {
         if (e.code === 'ArrowRight') {
           const $nextSibling = $activeElem.parentNode.nextElementSibling
 
-          if($nextSibling) {
+          if ($nextSibling) {
             activateSibling($nextSibling)
           }
         }

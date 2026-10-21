@@ -1,15 +1,20 @@
 window.addEventListener('load', () => {
   const $elem = document.querySelector('.js-page-loaded-in')
-  if(!$elem) {
-    console.log('Element not found. Please add `.js-page-loaded-in` class to the element.')
+  if (!$elem) {
+    console.log(
+      'Element not found. Please add `.js-page-loaded-in` class to the element.',
+    )
     return false
   }
 
   if ($elem) {
     // Wait for the page to finish loading
-    const pageLoadedIn = performance.mark("pageLoadedIn")
+    const pageLoadedIn = performance.mark('pageLoadedIn')
     const loadTime = pageLoadedIn.startTime / 1000
-    const loadTimeRounded = loadTime.toLocaleString('en-US', {minimumFractionDigits: 3, maximumFractionDigits: 3})
+    const loadTimeRounded = loadTime.toLocaleString('en-US', {
+      minimumFractionDigits: 3,
+      maximumFractionDigits: 3,
+    })
 
     $elem.innerHTML = `Page loaded in ${loadTimeRounded}s.`
   }
@@ -23,7 +28,10 @@ if ($toggle) {
     document.documentElement.classList.add('switch')
     document.documentElement.classList.toggle('dark')
 
-    localStorage.setItem('sb-dark-mode', document.documentElement.classList.contains('dark'))
+    localStorage.setItem(
+      'sb-dark-mode',
+      document.documentElement.classList.contains('dark'),
+    )
 
     setTimeout(() => {
       document.documentElement.classList.remove('switch')
@@ -41,10 +49,10 @@ const lastfm = () => {
     if ($tracks && $refresh) {
       $refresh.addEventListener('click', () => {
         fetch('/api/lastfm.js')
-          .then(response => response.json())
-          .then(data => {
+          .then((response) => response.json())
+          .then((data) => {
             if (data) {
-              $tracks.innerHTML = '';
+              $tracks.innerHTML = ''
 
               data.forEach((item, i) => {
                 if (i < 5) {

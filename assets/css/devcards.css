@@ -61,7 +61,7 @@ img {
   position: relative;
 }
 
-.app:before {
+.app::before {
   background-color: var(--color-gamma2);
   background-image: linear-gradient(to top left, var(--color-gamma2), var(--color-delta2));
   content: '';
@@ -180,7 +180,7 @@ img {
   position: relative;
 }
 
-.profile:before {
+.profile::before {
   content: '';
   background-color: var(--color-gamma);
   background-image: linear-gradient(to top right, var(--color-gamma), var(--color-delta));
@@ -336,14 +336,14 @@ img {
   border-radius: 1em;
 }
 
-.app:before,
-.profile:before,
+.app::before,
+.profile::before,
 .profile__image img {
   animation: colorize linear var(--duration-alpha) infinite paused;
 }
 
-.app.animated:before,
-.app.animated .profile:before,
+.app.animated::before,
+.app.animated .profile::before,
 .app.animated .profile__image img {
   animation-play-state: running;
 }

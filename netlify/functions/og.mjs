@@ -1,19 +1,19 @@
 const balanceText = (text, maxLineLength) => {
-  const words = text.split(' ');
-  let balancedText = '';
-  let currentLine = '';
+  const words = text.split(' ')
+  let balancedText = ''
+  let currentLine = ''
 
-  words.forEach(word => {
+  words.forEach((word) => {
     if ((currentLine + word).length > maxLineLength) {
-      balancedText += currentLine.trim() + '\n';
-      currentLine = word + ' ';
+      balancedText += currentLine.trim() + '\n'
+      currentLine = word + ' '
     } else {
-      currentLine += word + ' ';
+      currentLine += word + ' '
     }
-  });
+  })
 
-  balancedText += currentLine.trim();
-  return balancedText;
+  balancedText += currentLine.trim()
+  return balancedText
 }
 
 export default async (req, context) => {
@@ -34,21 +34,9 @@ export default async (req, context) => {
   //   fontSize = 56
   // }
 
-  let query = encodeURI(balancedText.replace(',', ''))
+  let query = encodeURI(balancedText.replaceAll(',', ''))
 
-  return await fetch(`https://res.cloudinary.com/starbist/image/upload/f_png/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`)
-
-  return new Response(img, {
-    status: 200,
-    headers: { 'Content-Type': 'application/png' }
-  })
-
-  // return {
-  //     statusCode: 200,
-  //     body: img.toString('base64'),
-  //     headers: {
-  //       'content-type': 'image/png'
-  //     },
-  //     isBase64Encoded: true,
-  //   }
+  return fetch(
+    `https://res.cloudinary.com/starbist/image/upload/f_png/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`,
+  )
 }

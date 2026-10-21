@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My QR code
-description: This is my QR code that links to my site.
+description: This is my QR code that links to my site silvestar.codes.
 type: default
 sections:
   - type: hero
@@ -14,3 +14,4 @@ sections:
 ---
 
 {% cldnryfetch "sb-qart-coder_jlwx8s" "QR code" %}
+

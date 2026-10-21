@@ -8,11 +8,11 @@ export default async (req, context) => {
       const $ = cheerio.load(data)
       let tracks = []
 
-      $('.chartlist-row--with-artist').each((i,row) => {
+      $('.chartlist-row--with-artist').each((i, row) => {
         tracks.push({
           song: $(row).find('.chartlist-name').text().trim(),
           artist: $(row).find('.chartlist-artist').text().trim(),
-          trackUrl: `https://www.last.fm${$(row).find('.chartlist-name a').attr('href')}`
+          trackUrl: `https://www.last.fm${$(row).find('.chartlist-name a').attr('href')}`,
         })
       })
 

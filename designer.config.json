@@ -1,0 +1,26 @@
+{
+  "site": {
+    "name": "silvestar.codes",
+    "componentsKey": ["sections", "sections2"],
+    "newPage": { "file": "site/{slug}index.md" },
+    "posts": ["site/articles/*.md", "!site/articles/index.md"]
+  },
+  "page": {
+    "order": ["title", "slug", "type", "layout", "description"]
+  },
+  "components": {
+    "hero": { "label": "Hero", "description": "Page intro with title, text and optional CTA and graphic." },
+    "banner": {
+      "label": "Banner",
+      "description": "Promo banner picked by name from site data.",
+      "fields": { "banner": { "label": "Banner", "data": "cta" } }
+    },
+    "article-list": { "label": "Article list", "description": "List of articles from a collection." },
+    "project-cards": { "label": "Project cards", "description": "Project cards from a collection." },
+    "testimonial-list": { "label": "Testimonial list" },
+    "hero-testimonial": { "label": "Testimonial hero" },
+    "related-testimonials": { "label": "Related testimonials" },
+    "tech-stack": { "label": "Tech stack" },
+    "newsletter": { "label": "Newsletter" }
+  }
+}

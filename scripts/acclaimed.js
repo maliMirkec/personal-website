@@ -1,3 +1,3 @@
-import acclaimed from 'acclaimed';
+import acclaimed from 'acclaimed'
 
-acclaimed.critical();
+acclaimed.critical()

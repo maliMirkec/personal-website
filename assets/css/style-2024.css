@@ -149,7 +149,7 @@ img {
 :where(a, input, textarea, button) {
   color: inherit;
   outline-color: transparent;
-  outline-offset: .15em;
+  outline-offset: 0.15em;
   outline-style: solid;
   outline-width: max(2px, 0.075em);
   transition: all var(--timing200);
@@ -170,11 +170,11 @@ img {
   background-position: right;
   background-repeat: no-repeat;
   background-size: var(--p, 0%);
-  border-radius: .25em;
+  border-radius: 0.25em;
   transition: var(--timing200), background-position 0s;
 }
 
-.content a:not([class]):not([href^="/gfx/"]):is([href^="/"]):after {
+.content a:not([class]):not([href^="/gfx/"])[href^="/"]::after {
     content: "";
     display: inline-block;
     width: 1ch;
@@ -197,7 +197,7 @@ img {
   outline-color: currentColor;
 }
 
-.sr-only {
+.vh {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   block-size: 1px;
@@ -253,7 +253,7 @@ body {
   color: var(--color-gamma);
 }
 
-[class*="cta"]:after {
+[class*="cta"]::after {
   content: '››››';
   transform: translateY(calc(var(--size-02-04) * -1));
   transform-origin: left center;
@@ -265,13 +265,13 @@ body {
   outline-color: var(--color-gamma);
 }
 
-[class*="cta"]:is(:hover, :focus, :active):after {
+[class*="cta"]:is(:hover, :focus, :active)::after {
   transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1)) scale(110%);
 }
 
 [class*="avatar"] img {
   background-color: var(--color-light);
-  border: .15em solid currentColor;
+  border: 0.15em solid currentColor;
   border-radius: 50%;
   transition: var(--timing100);
 }
@@ -596,7 +596,7 @@ blockquote p:not(:first-of-type) {
   margin-block-start: var(--size-05-10);
 }
 
-.box__title:before {
+.box__title::before {
   content: "";
   background-repeat: repeat;
   background-size: var(--bg-size), 100%;
@@ -710,7 +710,7 @@ blockquote p:not(:first-of-type) {
   max-inline-size: max(60ch, 75%);
 }
 
-:is(.box__quote, .testimonials) blockquote:before {
+:is(.box__quote, .testimonials) blockquote::before {
   content: '';
   background-image: linear-gradient(var(--color-gamma), var(--color-alpha));
   position: absolute;
@@ -944,7 +944,7 @@ blockquote p:not(:first-of-type) {
   border-radius: var(--size-20-40);
 }
 
-.article-footer:before {
+.article-footer::before {
   content: '✣  ✣  ✣';
   background-image: linear-gradient(to right, transparent -50%, var(--color-gamma) 1000%);
   font-family: var(--monospace);
@@ -1069,7 +1069,7 @@ blockquote p:not(:first-of-type) {
   font-size: var(--size-20-30);
 }
 
-.article-content blockquote:before {
+.article-content blockquote::before {
   content: "Quote";
   background-color: var(--color-light);
   color: var(--color-dark);
@@ -1129,7 +1129,7 @@ blockquote p:not(:first-of-type) {
   margin-block-start: 3.75rem;
 }
 
-.note:before {
+.note::before {
   content: "Note";
   background-color: var(--color-light);
   color: var(--color-dark);
@@ -1143,7 +1143,7 @@ blockquote p:not(:first-of-type) {
   transform: translateY(-50%);
 }
 
-.note[data-title]:before {
+.note[data-title]::before {
   content: attr(data-title);
 }
 
@@ -1190,7 +1190,7 @@ blockquote p:not(:first-of-type) {
 
 .page--setup li a + a {
   display: inline-block;
-  font-size: .75em;
+  font-size: 0.75em;
   transform: translateX(25%) translateY(-25%);
   text-decoration: none;
 }
@@ -1439,11 +1439,11 @@ blockquote p:not(:first-of-type) {
     grid-column: 2 / -2;
   }
 
-  .article-content img:is(.bleed) {
+  .article-content img.bleed {
     grid-column: 1 / -1;
   }
 
-  .article-content p:has(img:is(.center.space)) {
+  .article-content p:has(img.center.space) {
     padding-inline: var(--size-50-100);
   }
 
@@ -1603,7 +1603,7 @@ blockquote p:not(:first-of-type) {
     position: relative;
   }
 
-  .main:before {
+  .main::before {
     content: '';
     background-repeat: repeat;
     background-size: var(--bg-size), 100%;
@@ -1733,7 +1733,7 @@ blockquote p:not(:first-of-type) {
     color: var(--color-alpha);
   }
 
-  [class*="cta"]:after {
+  [class*="cta"]::after {
     content: '››››';
     transform: translateY(calc(var(--size-02-04) * -1));
     transform-origin: left center;
@@ -1745,13 +1745,13 @@ blockquote p:not(:first-of-type) {
     outline-color: var(--color-alpha);
   }
 
-  [class*="cta"]:is(:hover, :focus, :active):after {
+  [class*="cta"]:is(:hover, :focus, :active)::after {
     transform: translateX(var(--size-02-04)) translateY(calc(var(--size-02-04) * -1)) scale(110%);
   }
 
   [class*="avatar"] img {
     background-color: var(--color-light);
-    border: .15em solid currentColor;
+    border: 0.15em solid currentColor;
     border-radius: 50%;
     transition: var(--timing100);
   }
@@ -1772,7 +1772,7 @@ blockquote p:not(:first-of-type) {
     background-color: var(--color-gamma);
   }
 
-  .box__title:before {
+  .box__title::before {
     background-image: var(--bg-dark), linear-gradient(to right, transparent 10%, var(--color-alpha) 1100%);
   }
 
@@ -1838,8 +1838,8 @@ blockquote p:not(:first-of-type) {
     background-color: var(--color-gamma);
   }
 
-  .article-content blockquote:before,
-  .note:before {
+  .article-content blockquote::before,
+  .note::before {
     background-color: var(--color-alpha);
     color: var(--color-gamma);
   }
@@ -1854,7 +1854,7 @@ blockquote p:not(:first-of-type) {
   }
 
   @media screen and (width >= 1000px) {
-    .main:before {
+    .main::before {
       background-image: var(--bg-dark), linear-gradient(135deg, var(--color-alpha), var(--color-gamma) min(5%, 20dvmax), var(--color-gamma) max(95%, calc(100% - 20dvmax)), var(--color-alpha) 100%);
     }
 

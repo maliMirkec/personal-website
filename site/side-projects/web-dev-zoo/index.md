@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Dev Zoo
-description: Discover valuable insights about web development.
+description: Discover valuable insights about web development from these smart animals.
 type: side-projects-item
 tags:
   - projects
