@@ -1,5 +1,5 @@
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
-import staticrafter from 'staticrafter/eleventy'
+import staticrafter, { isDesignerFunction } from 'staticrafter/eleventy'
 import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import uslug from 'uslug'
@@ -109,7 +109,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode(
     'cldnryfetch',
     async (src, alt, widths, lazy = true, classes = '', svg = false, sizes = '100vw') => {
-      if (eleventyConfig.staticrafterRecorder) {
+      if (isDesignerFunction(eleventyConfig)) {
         return cldnryimg(src, alt, null, null, classes, !lazy)
       }
 
