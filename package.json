@@ -48,7 +48,7 @@
     "netlify-plugin-cache": "^1.0.3",
     "node-fetch": "3.3.2",
     "sharp": "^0.34.5",
-    "staticrafter": "^0.0.2",
+    "staticrafter": "^0.1.4",
     "uglify-js": "^3.19.3",
     "uslug": "1.0.4"
   }

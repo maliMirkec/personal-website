@@ -12,50 +12,66 @@
     "text": "Built with Human Intelligence.<br>The code is available on",
     "href": "https://github.com/maliMirkec/personal-website/"
   },
-  "menu": [{
-    "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter"
-  }, {
-    "href": "/services/",
-    "title": "Services"
-  }, {
-    "href": "/testimonials/",
-    "title": "Testimonials"
-  }, {
-    "href": "/side-projects/",
-    "title": "Side projects"
-  }, {
-    "href": "/links/",
-    "title": "Links"
-  }, {
-    "href": "/favorites/",
-    "title": "Favorites"
-  }, {
-    "href": "/uses/",
-    "title": "Setup"
-  }, {
-    "href": "/slides/",
-    "title": "Slides"
-  }, {
-    "href": "/rss.xml",
-    "title": "Feed"
-  }],
-  "social": [{
-    "href": "https://mastodon.social/@cita",
-    "title": "Mastodon",
-    "rel": "me"
-  }, {
-    "href": "https://bsky.app/profile/silvestar.codes",
-    "title": "BlueSky"
-  }, {
-    "href": "https://www.linkedin.com/in/starbist/",
-    "title": "LinkedIn"
-  }, {
-    "href": "https://github.com/maliMirkec",
-    "title": "GitHub",
-    "rel": "me"
-  }, {
-    "href": "https://codepen.io/CiTA/",
-    "title": "CodePen"
-  }]
+  "menu": [
+    {
+      "href": "/side-projects/ui-dev-newsletter/",
+      "title": "Newsletter"
+    },
+    {
+      "href": "/services/",
+      "title": "Services"
+    },
+    {
+      "href": "/testimonials/",
+      "title": "Testimonials"
+    },
+    {
+      "href": "/side-projects/",
+      "title": "Side projects"
+    },
+    {
+      "href": "/links/",
+      "title": "Links"
+    },
+    {
+      "href": "/favorites/",
+      "title": "Favorites"
+    },
+    {
+      "href": "/uses/",
+      "title": "Setup"
+    },
+    {
+      "href": "/slides/",
+      "title": "Slides"
+    },
+    {
+      "href": "/rss.xml",
+      "title": "Feed"
+    }
+  ],
+  "social": [
+    {
+      "href": "https://mastodon.social/@cita",
+      "title": "Mastodon",
+      "rel": "me"
+    },
+    {
+      "href": "https://bsky.app/profile/silvestar.codes",
+      "title": "BlueSky"
+    },
+    {
+      "href": "https://www.linkedin.com/in/starbist/",
+      "title": "LinkedIn"
+    },
+    {
+      "href": "https://github.com/maliMirkec",
+      "title": "GitHub",
+      "rel": "me"
+    },
+    {
+      "href": "https://codepen.io/CiTA/",
+      "title": "CodePen"
+    }
+  ]
 }

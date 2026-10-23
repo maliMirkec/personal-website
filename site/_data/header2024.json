@@ -8,51 +8,68 @@
     "svg": true
   },
   "name": "Silvestar<br>Bistrović",
-  "menu": [{
-    "href": "/articles/",
-    "title": "Blog"
-  }, {
-    "href": "/portfolio/",
-    "title": "Work"
-  }, {
-    "href": "/about/",
-    "title": "About"
-  }, {
-    "href": "/contact/",
-    "title": "Contact"
-  }],
-  "menu2": [{
-    "href": "/testimonials/",
-    "title": "Testimonials"
-  }, {
-    "href": "/services/",
-    "title": "Services"
-  }, {
-    "href": "/publications/",
-    "title": "Publications"
-  }, {
-    "href": "/side-projects/ui-dev-newsletter/",
-    "title": "Newsletter"
-  }, {
-    "href": "/side-projects/invalid-css/",
-    "title": "Invalid CSS"
-  }, {
-    "href": "/side-projects/web-dev-zoo/",
-    "title": "Web Dev Zoo"
-  }, {
-    "href": "/side-projects/",
-    "title": "Other projects"
-  }, {
-    "href": "/favorites/",
-    "title": "Favorites"
-  }, {
-    "href": "/slides/",
-    "title": "Slides"
-  }, {
-    "href": "/links/",
-    "title": "Links"
-  }, {
-    "href": "/uses/",
-    "title": "Uses"
-  }]
+  "menu": [
+    {
+      "href": "/articles/",
+      "title": "Blog"
+    },
+    {
+      "href": "/portfolio/",
+      "title": "Work"
+    },
+    {
+      "href": "/about/",
+      "title": "About"
+    },
+    {
+      "href": "/contact/",
+      "title": "Contact"
+    }
+  ],
+  "menu2": [
+    {
+      "href": "/testimonials/",
+      "title": "Testimonials"
+    },
+    {
+      "href": "/services/",
+      "title": "Services"
+    },
+    {
+      "href": "/publications/",
+      "title": "Publications"
+    },
+    {
+      "href": "/side-projects/ui-dev-newsletter/",
+      "title": "Newsletter"
+    },
+    {
+      "href": "/side-projects/invalid-css/",
+      "title": "Invalid CSS"
+    },
+    {
+      "href": "/side-projects/web-dev-zoo/",
+      "title": "Web Dev Zoo"
+    },
+    {
+      "href": "/side-projects/",
+      "title": "Other projects"
+    },
+    {
+      "href": "/favorites/",
+      "title": "Favorites"
+    },
+    {
+      "href": "/slides/",
+      "title": "Slides"
+    },
+    {
+      "href": "/links/",
+      "title": "Links"
+    },
+    {
+      "href": "/uses/",
+      "title": "Uses"
+    }
+  ]
 }

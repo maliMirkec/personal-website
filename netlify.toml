@@ -2,6 +2,7 @@
 ID = "33c0f310-012c-4821-9f39-9448f1a4b051"
 
 [functions]
+  included_files = ["site/**", ".eleventy.js", "designer.config.json", ".designer/**", "eleventy/**"]
 node_bundler = "esbuild"
 
 [[plugins]]
@@ -79,3 +80,6 @@ node_bundler = "esbuild"
   for = "/*.xml"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "CLOUDINARY_CLOUD_NAME"

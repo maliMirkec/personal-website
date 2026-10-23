@@ -24,7 +24,8 @@
         "JAMstack enthusiast",
         "WordPress theme specialist"
       ],
-      "links": [{
+      "links": [
+        {
           "text": "Portfolio",
           "url": "/portfolio/"
         },
@@ -47,10 +48,12 @@
     ],
     "image": "https://res.cloudinary.com/starbist/image/upload/w_1024,q_auto/v1586879053/cover-2x_a6jqaz.jpg",
     "twitterHandle": "malimirkeccita",
-    "nav": [{
+    "nav": [
+      {
         "title": "Home",
         "href": "/"
-      }, {
+      },
+      {
         "title": "UI Dev",
         "href": "/side-projects/ui-dev-mentoring/"
       },
@@ -72,23 +75,29 @@
         "class": "apply"
       }
     ],
-    "social": [{
-      "href": "https://www.linkedin.com/in/starbist/",
-      "title": "LinkedIn"
-    }, {
-      "href": "https://bsky.app/profile/silvestar.codes",
-      "title": "BlueSky"
-    }, {
-      "href": "https://mastodon.social/@cita",
-      "title": "Mastodon",
-      "rel": "me"
-    }, {
-      "href": "https://github.com/maliMirkec",
-      "title": "GitHub",
-      "rel": "me"
-    }, {
-      "href": "https://codepen.io/CiTA/",
-      "title": "CodePen"
-    }]
+    "social": [
+      {
+        "href": "https://www.linkedin.com/in/starbist/",
+        "title": "LinkedIn"
+      },
+      {
+        "href": "https://bsky.app/profile/silvestar.codes",
+        "title": "BlueSky"
+      },
+      {
+        "href": "https://mastodon.social/@cita",
+        "title": "Mastodon",
+        "rel": "me"
+      },
+      {
+        "href": "https://github.com/maliMirkec",
+        "title": "GitHub",
+        "rel": "me"
+      },
+      {
+        "href": "https://codepen.io/CiTA/",
+        "title": "CodePen"
+      }
+    ]
   }
 }

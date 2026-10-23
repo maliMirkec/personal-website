@@ -37,6 +37,6 @@ export default async (req, context) => {
   let query = encodeURI(balancedText.replaceAll(',', ''))
 
   return fetch(
-    `https://res.cloudinary.com/starbist/image/upload/f_png/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`,
+    `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME || 'starbist'}/image/upload/f_png/co_rgb:043A73,l_text:Montserrat_${fontSize}_bold_normal_left:${query}/fl_layer_apply,g_west,x_180,y_0/social_s4tndg.png`,
   )
 }

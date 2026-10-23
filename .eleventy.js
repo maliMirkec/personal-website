@@ -47,7 +47,11 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  eleventyConfig.addPlugin(staticrafter)
+  eleventyConfig.addPlugin(staticrafter, {
+    hosted: true,
+    media: { provider: 'cloudinary', direct: true },
+    uploadFolder: () => 'sb',
+  })
 
   eleventyConfig.setLiquidOptions({
     extname: '.liquid',
@@ -130,7 +134,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode(
     'cldnryfetch',
     async (src, alt, widths, lazy = true, classes = '', svg = false) => {
-      return env.development
+      return env.development || eleventyConfig.staticrafterRecorder
         ? cldnryimg(src, alt, 'auto', 'auto', classes, !lazy)
         : cldnryfetch(src, alt, widths, lazy, classes, svg)
     },

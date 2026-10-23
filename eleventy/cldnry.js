@@ -1,7 +1,9 @@
 import Image from '@11ty/eleventy-img'
 import path from 'path'
 import { promises as fsp } from 'fs'
-const link = `https://res.cloudinary.com/starbist/image/upload/w_2400,f_auto,q_auto,c_scale/`
+const cloud = process.env.CLOUDINARY_CLOUD_NAME || 'starbist'
+const base = `https://res.cloudinary.com/${cloud}/image/upload`
+const link = `${base}/w_2400,f_auto,q_auto,c_scale/`
 
 const OUTPUT_DIR = 'public/gfx/cldnry/'
 
@@ -67,9 +69,9 @@ const cldnryimg = async (img, alt, width, height, classes, instant) => {
     ar2 = `ar_${width}:${height},w_${width * 2},`
   }
 
-  const src = `https://res.cloudinary.com/starbist/image/upload/${ar}f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
+  const src = `${base}/${ar}f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
 
-  const srcset = `https://res.cloudinary.com/starbist/image/upload/${ar2}f_auto,q_auto:eco,dpr_auto,c_scale/${img} 2x, ${src}`
+  const srcset = `${base}/${ar2}f_auto,q_auto:eco,dpr_auto,c_scale/${img} 2x, ${src}`
 
   return `<img srcset="${srcset}" src="${src}" alt="${alt || ''}" ${attr} ${classList}>`
 }
@@ -79,7 +81,7 @@ const cldnrylink = async (link, src, alt, width, height, classes, instant) => {
 }
 
 const cldnrysrc = async (img, width = 1200) => {
-  const src = `${'https://res.cloudinary.com/starbist/image/upload/w_' + width + ',f_auto,q_auto:eco,dpr_auto,c_scale/' + img}`
+  const src = `${base}/w_${width},f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
 
   return src
 }
