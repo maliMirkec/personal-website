@@ -109,7 +109,11 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode(
     'cldnryfetch',
     async (src, alt, widths, lazy = true, classes = '', svg = false, sizes = '100vw') => {
-      return env.development || eleventyConfig.staticrafterRecorder
+      if (eleventyConfig.staticrafterRecorder) {
+        return cldnryimg(src, alt, null, null, classes, !lazy)
+      }
+
+      return env.development
         ? cldnrydev(src, alt, lazy, classes, svg)
         : cldnryfetch(src, alt, widths, lazy, classes, svg, sizes)
     },
