@@ -1,4 +1,5 @@
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import staticrafter from 'staticrafter/eleventy'
 import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import uslug from 'uslug'
@@ -39,6 +40,12 @@ export default async (eleventyConfig) => {
   eleventyConfig.addWatchTarget('./src/')
 
   eleventyConfig.addPlugin(syntaxHighlight)
+
+  eleventyConfig.addPlugin(staticrafter, {
+    hosted: true,
+    media: { provider: 'cloudinary', direct: true },
+    uploadFolder: () => 'sb',
+  })
 
   eleventyConfig.setLiquidOptions({
     extname: '.liquid',
@@ -102,7 +109,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addLiquidShortcode(
     'cldnryfetch',
     async (src, alt, widths, lazy = true, classes = '', svg = false, sizes = '100vw') => {
-      return env.development
+      return env.development || eleventyConfig.staticrafterRecorder
         ? cldnrydev(src, alt, lazy, classes, svg)
         : cldnryfetch(src, alt, widths, lazy, classes, svg, sizes)
     },

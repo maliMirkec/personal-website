@@ -7,8 +7,7 @@ node_modules
 !.vscode/settings.json
 .netlify
 public
-assets/scss
-.frontmatter
-frontmatter.json
 assets/**/*.min.*
-.yarn
+
+# StatiCrafter hosted data
+.designer

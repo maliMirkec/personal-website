@@ -1,0 +1,94 @@
+{
+  "site": {
+    "name": "silvestar.codes",
+    "componentsKey": ["sections", "sections2"],
+    "newPage": { "file": "site/{slug}index.md" },
+    "posts": ["site/articles/*.md", "!site/articles/index.md"],
+    "seo": { "baseUrl": "https://www.silvestar.codes" },
+    "dataFiles": [
+      { "file": "site/_data/site.json", "label": "Site", "scope": "site" },
+      { "file": "site/_data/header2024.json", "name": "header", "label": "Header", "scope": "header2024" },
+      { "file": "site/_data/footer2024.json", "name": "footer", "label": "Footer", "scope": "footer2024", "fields": { "logo.src": { "ui": "media" } } },
+      { "file": "site/_data/cta.json", "name": "banners", "label": "Banners and projects", "scope": "cta", "fields": { "logo.src": { "ui": "media" } } },
+      { "file": "site/_data/newsletter2024.json", "name": "newsletter", "label": "Newsletter block", "scope": "newsletter2024" },
+      { "file": "site/_data/newsletter.json", "name": "newsletter-pages", "label": "UI Dev Newsletter pages", "scope": "newsletter", "fields": { "quotes.avatar": { "ui": "media" } } },
+      { "file": "site/_data/mentor.json", "label": "Mentoring program", "scope": "mentor" },
+      { "file": "site/_data/data2024.json", "name": "tag-links", "label": "Tag links", "scope": "data2024" }
+    ],
+    "github": { "repo": "maliMirkec/personal-website", "base": "staging" }
+  },
+  "page": {
+    "order": ["title", "slug", "type", "layout", "description"],
+    "fields": {
+      "layout": { "enum": ["default", "newsletter"] },
+      "description": { "help": "Used for the meta description. Aim for 50 to 160 characters." },
+      "og_img": { "label": "Social image", "ui": "media" },
+      "avatar": { "ui": "media" },
+      "thumbnail": { "fields": { "src": { "ui": "media" } } }
+    }
+  },
+  "post": {
+    "order": ["title", "date", "description", "tags", "series", "publication", "canonical"],
+    "fields": {
+      "title": { "ui": "text" },
+      "tags": {
+        "suggestions": ["blog", "css", "freelance", "remote work", "publications", "tools", "web dev", "productivity", "ssg", "javascript", "eleventy", "accessibility", "wordpress", "performance", "html"],
+        "help": "Every article has the blog tag."
+      },
+      "series": {
+        "suggestions": ["Lookbacks", "Tools", "Searching for a job", "Atom", "Starter Project", "Year of freelancing", "The UI Development Mentoring Program", ":is, :not, :has selectors", "CSS tabs", "UltiGameMate", "Nightmare DX", "Unset"]
+      },
+      "publication": {
+        "suggestions": ["CSS Tricks", "Toptal", "Frontend Masters", "Smashing Magazine", "LogRocket", "Codementor"],
+        "help": "Where the article was first published."
+      },
+      "canonical": { "ui": "url", "help": "Original URL when the article was published elsewhere." },
+      "og_img": { "label": "Social image", "ui": "media" }
+    }
+  },
+  "components": {
+    "hero": {
+      "label": "Hero",
+      "description": "Page intro with title, text and optional CTA and graphic.",
+      "fields": { "img": { "fields": { "src": { "ui": "media" } } } }
+    },
+    "gfx": { "label": "Graphic", "fields": { "img": { "fields": { "src": { "ui": "media" } } } } },
+    "gallery": { "label": "Gallery", "fields": { "list": { "fields": { "src": { "ui": "media" } } } } },
+    "banner": {
+      "label": "Banner",
+      "description": "Promo banner picked by name from site data.",
+      "fields": {
+        "banner": {
+          "label": "Banner",
+          "data": "cta",
+          "fields": {
+            "desc": { "label": "Description", "ui": "markdown" },
+            "code": { "ui": "html" },
+            "logo": { "fields": { "src": { "ui": "media" } } }
+          }
+        }
+      }
+    },
+    "article-list": { "label": "Article list", "description": "List of articles from a collection." },
+    "project-cards": { "label": "Project cards", "description": "Project cards from a collection." },
+    "testimonial-list": { "label": "Testimonial list" },
+    "hero-testimonial": { "label": "Testimonial hero", "fields": { "avatar": { "fields": { "src": { "ui": "media" } } } } },
+    "related-testimonials": { "label": "Related testimonials" },
+    "tech-stack": {
+      "label": "Tech stack",
+      "description": "Project logo and tech stack picked by name from site data.",
+      "fields": {
+        "banner": {
+          "label": "Project",
+          "data": "cta",
+          "fields": {
+            "desc": { "label": "Description", "ui": "markdown" },
+            "code": { "ui": "html" },
+            "logo": { "fields": { "src": { "ui": "media" } } }
+          }
+        }
+      }
+    },
+    "newsletter": { "label": "Newsletter" }
+  }
+}
