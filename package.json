@@ -53,11 +53,12 @@
     "postcss-logical": "^9.0.2",
     "postcss-media-minmax": "^5.0.0",
     "sharp": "^0.35.5",
-    "staticrafter": "^0.1.6",
+    "staticrafter": "^0.2.0",
     "uslug": "1.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@netlify/zip-it-and-ship-it": "^16.5.0",
     "@shopify/prettier-plugin-liquid": "^1.11.2",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
