@@ -53,7 +53,7 @@
     "postcss-logical": "^9.0.2",
     "postcss-media-minmax": "^5.0.0",
     "sharp": "^0.35.5",
-    "staticrafter": "^0.2.0",
+    "staticrafter": "^0.3.0",
     "uslug": "1.0.4"
   },
   "devDependencies": {
