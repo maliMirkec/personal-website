@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pinecone
-description: I've worked on Pinecone website. Pinecone is a managed database that provides the infrastructure for ML applications to search and rank results on similarities.
+description: I built and looked after the Pinecone website with Hugo. Pinecone is a managed vector database for machine learning apps.
 thumbnail:
   src: pinecone_tkubew
   alt: Screenshot of Pinecone website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: https://www.pinecone.io
 display: true
-date: 2021-10-01
+date: 2024-08-01
 type: portfolio-item
 tech:
   - hugo
@@ -28,9 +28,9 @@ sections:
       width: 759
       height: 459
     title: Pinecone
-    text: Pinecone is a managed database that provides the infrastructure for ML applications that need to search and rank results based on similarities, such as recommendations, personalization, image search, and more.
+    text: Pinecone is a managed vector database. It helps machine learning apps search and rank results by similarity, for things like recommendations, personalization, and image search.
     text_width: 63
-    text2: I've developed and maintained the whole website.
+    text2: I built the new website with Hugo and Netlify before its launch on pinecone.io. I worked directly with the VP of Marketing, sent daily updates, and looked after the site after launch.
     text2_width: 65
   - type: tech-stack
     banner: pinecone

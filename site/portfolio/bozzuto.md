@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bozzuto
-description: I've worked on Bozzuto website. Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company.
+description: I built a living style guide and more than 30 pages for Bozzuto. Bozzuto is a family-owned real estate company.
 thumbnail:
   src: bozzuto_nzfu62
   alt: Screenshot of Bozzuto website.
@@ -28,9 +28,9 @@ sections:
       width: 759
       height: 459
     title: Bozzuto
-    text: Bozzuto is a generationally-owned, independently-operated family business, and a diversified real estate company celebrated for developments, construction, property management and homebuilding.
+    text: Bozzuto is a family-owned real estate company. It develops, builds, and manages properties, and it builds homes.
     text_width: 59
-    text2: I've Built a living styleguide, and created more than 30 pages from designs using reusable styleguide components.
+    text2: I built a living style guide, then used its components to create more than 30 pages from designs. I worked on this project with BEAM Interactive.
     text2_width: 75
   - type: tech-stack
     banner: bozzuto

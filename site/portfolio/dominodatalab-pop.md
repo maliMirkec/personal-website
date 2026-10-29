@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Domino Data Lab Pop-up
-description: I've worked on DDL Pop-up website. Pop-up is a series of events that bring together the data science leaders of today and tomorrow.
+description: I fixed and updated the Pop-up event website for Domino Data Lab on WordPress. Pop-up is a series of events for data science leaders.
 thumbnail:
   src: domino-datalab-popup_iv7ya6
   alt: Screenshot of Domino Data Lab Pop-up website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //popup.dominodatalab.com
 display: true
-date: 2021-09-01
+date: 2024-07-01
 type: portfolio-item
 tech:
   - wordpress
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Domino Data Lab Pop-up
-    text: Pop-up is a series of events organized by Domino Data Lab that bring together the data science leaders of today and tomorrow who are passionate about asking the right questions, identifying problems worth solving and connecting the dots between quantitative research and business value.
+    text: Pop-up is a series of events by Domino Data Lab. It brings together data science leaders of today and tomorrow to talk about research and business value.
     text_width: 61
-    text2: I've configured CMS settings and maintained frontend of the website.
+    text2: The Pop-up website ran on WordPress. I updated the designs, fixed badly coded templates, and fixed the responsive issues. The events took place in many cities, so the site had to sort them by city and event. The marketing team took care of the content.
     text2_width: 65
     cta:
       href: https://popup.dominodatalab.com

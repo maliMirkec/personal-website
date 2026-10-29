@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CodeScan
-description: I've worked on CodeScan website. CodeScan is Salesforce platform product whose code analysis solution provides total visibility into Salesforce code health.
+description: I rebuilt pages on the CodeScan website and prepared it for relaunch. CodeScan is a code analysis tool made only for the Salesforce platform.
 thumbnail:
   src: codescan_hydjwq
   alt: Screenshot of CodeScan website.
@@ -28,9 +28,9 @@ sections:
       width: 759
       height: 459
     title: CodeScan
-    text: CodeScan is a product made exclusively for the Salesforce platform. CodeScan’s code analysis solutions helps provide total visibility into Salesforce code health.
+    text: CodeScan is a product made only for the Salesforce platform. Its code analysis tools show you how healthy your Salesforce code is.
     text_width: 60
-    text2: I'v maintained frontend of the website.
+    text2: I worked on the Hugo website for a few months, starting in September 2021. I rebuilt the existing pages, added new ones, and prepared the site for its relaunch. The launch date was close, so we had to move fast. Along the way, I proposed a few changes to how the site was set up, to make future updates simpler. I worked closely with the marketing team and other developers.
     text2_width: 75
   - type: tech-stack
     banner: codescan

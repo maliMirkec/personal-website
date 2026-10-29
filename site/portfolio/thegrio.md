@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TheGrio
-description: I've worked on TheGrio website. TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives.
+description: I cleaned up and sped up TheGrio WordPress website. TheGrio is a video-first news site for African American audiences.
 thumbnail:
   src: the-grio_mauddb
   alt: Screenshot of TheGrio website.
@@ -27,13 +27,13 @@ sections:
       width: 759
       height: 459
     title: TheGrio
-    text: TheGrio is the first video-centric news community site devoted to providing African-Americans with stories and perspectives that appeal to them but are underrepresented in existing national news outlets.
+    text: TheGrio is the first video-focused news community for African Americans. It shares stories and perspectives that national news outlets often leave out.
     text_width: 55
     text2: >-
-      I've optimized and maintained the whole website.
+      I worked on the WordPress website for a few months, starting in February 2019. I cleaned up the plugins and third-party libraries, and improved the PageSpeed Insights scores. I worked with the project manager and the back-end developers.
 
 
-      The site has been taken down.
+      The site was taken down.
     text2_width: 65
     cta:
       href: https://web.archive.org/web/20210831013052/https://thegrio.com/

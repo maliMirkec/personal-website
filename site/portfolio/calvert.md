@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Calvert
-description: I've worked on Calvert website. Calvert is leader in responsible investing for analyzing company performance from finances to environmental policy to diversity.
+description: I built PHP templates with custom animations for the Calvert website. Calvert is a leader in responsible investing.
 thumbnail:
   src: calvert_uv2mxh
   alt: Screenshot of Calvert website.
@@ -27,9 +27,10 @@ sections:
       width: 759
       height: 459
     title: Calvert
-    text: Calvert is a global leader in responsible investing for analyzing company performance on everything from finances to environmental policy to diversity.
+    text: Calvert is a global leader in responsible investing. It looks at how companies perform on everything from finances to environmental policy and diversity.
     text_width: 61
-    text2: I've converted designs to cross-browser, responsive pages, and created custom animations.
+    text2: >-
+      I worked on this project with BEAM Interactive. I turned the designs into responsive PHP templates that work in all browsers, and I created custom animations. The design was interesting (read: not easy to code), so I had to be creative and build it without any frameworks. I worked with the project managers.
     text2_width: 75
     cta:
       href: https://www.calvert.com/Affirmation.php

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Domino Data Lab Rev
-description: I've worked on DDL Rev website. Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
+description: I built the Rev conference website for Domino Data Lab with Jekyll. Rev is a summit for data science leaders.
 thumbnail:
   src: domino-data-lab-rev_nsqmdn
   alt: Screenshot of Domino Data Lab Rev website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //rev.dominodatalab.com
 display: true
-date: 2021-09-02
+date: 2024-07-02
 type: portfolio-item
 tech:
   - jekyll
@@ -28,9 +28,9 @@ sections:
       width: 759
       height: 459
     title: Domino Data Lab Rev
-    text: Rev is a summit hosted by Domino Data Lab company that gathers data science leaders in one place.
+    text: Rev is a summit hosted by Domino Data Lab. It brings data science leaders together in one place.
     text_width: 50
-    text2: I've maintained the Jekyll website, configured CMS settings, and created all pages from designs.
+    text2: I built the Rev conference website from scratch with Jekyll and looked after it from 2018 to 2021. The site changed every year, so I worked with more than one project manager and built all pages from new designs. The agenda was the trickiest part, with a challenging design to turn into code. I also configured the CMS settings.
     text2_width: 45
     cta:
       href: https://rev.dominodatalab.com

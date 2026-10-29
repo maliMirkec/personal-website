@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Netki
-description: I've worked on Netki website. Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States.
+description: I built a new homepage and legal pages for the Netki WordPress website in two weeks. Netki makes tools for adopting blockchain technology.
 thumbnail:
   src: netki_yfvgoe
   alt: Screenshot of Netki website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Netki
-    text: Netki is a provider of tools to foster the adoption of blockchain technology from Los Angeles, United States.
+    text: Netki is a company from Los Angeles, United States. It makes tools for adopting blockchain technology.
     text_width: 55
-    text2: I've developed a new WordPress theme from scratch, optimized assets delivery, and used the latest best practices for boosting the site speed.
+    text2: In two weeks, from late May to early June 2018, I built a new homepage and legal pages from designs. All my work was in the WordPress theme, on the templates and styles.
     text2_width: 59
     cta:
       href: https://netki.com

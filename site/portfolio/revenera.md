@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Revenera
-description: I've worked on Revenera website. Revenera helps you as a software developer to control costs, grow and protect your business.
+description: I built a living style guide and more than 10 pages for Revenera. Revenera helps software companies control costs and grow.
 thumbnail:
   src: revenera_nv7gag
   alt: Screenshot of Revenera website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Revenera
-    text: Revenera can help you as a developer of software, SaaS apps, and IoT devices, to control costs, grow and protect your business.
+    text: Revenera helps companies that build software, SaaS apps, and IoT devices control costs, grow, and protect their business.
     text_width: 56
-    text2: I've built a living styleguide, and created more than 10 pages from designs using reusable styleguide components.
+    text2: I built a living style guide, then used its components to create more than 10 pages from designs. I worked on this project with BEAM Interactive.
     text2_width: 56
     cta:
       href: https://www.revenera.com

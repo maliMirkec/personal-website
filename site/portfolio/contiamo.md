@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contiamo
-description: I've worked on Contiamo website. Contiamo is a company that uses ML and AI to drive better decision making and process optimization.
+description: I built a living style guide and all 55 pages of the Contiamo website. Contiamo uses machine learning and AI to help companies make better decisions.
 thumbnail:
   src: contiamo_skce0n
   alt: Screenshot of Contiamo website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Contiamo
-    text: Contiamo is a company that uses machine learning and AI to drive better decision making and process optimization.
+    text: Contiamo is a company that uses machine learning and AI to help businesses make better decisions and improve their processes.
     text_width: 55
-    text2: I've built a living styleguide using KSS tool, created all 55from designs using reusable styleguide components, helped configure Webpack for development and production environments, and implemented and optimized SVG assets.
+    text2: I built a living style guide with KSS, then used its components to create all 55 pages from designs. I also helped set up Webpack for development and production, and optimized the SVG assets.
     text2_width: 70
     cta:
       href: https://www.contiamo.com

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spartan Precision Equipment
-description: I've worked on Spartan Precision Equipment web sjop. Spartan Precision Equipment produce rifle and optic support systems that weigh less and achieve more.
+description: I worked on the Spartan Precision Equipment Shopify store. Spartan makes light rifle and optic support systems for hunters.
 thumbnail:
   src: javelin-bipod_pgmwsc
   alt: Screenshot of Spartan Precision Equipment website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //javelinbipod.co.uk
 display: true
-date: 2023-10-01
+date: 2024-06-01
 type: portfolio-item
 tech:
   - shopify
@@ -29,9 +29,9 @@ sections:
       width: 759
       height: 459
     title: Spartan Precision Equipment
-    text: Spartan Precision Equipment specializes in manufacturing lightweight and high-performance rifle and optic support systems. The team, driven by a passion for hunting, combines their expertise and experiences to create designs that meet the demands of various hunting environments worldwide.
+    text: Spartan Precision Equipment makes light, high-performance rifle and optic support systems. The team loves hunting and designs products that work in hunting environments around the world.
     text_width: 58
-    text2: I've developed new Shopify features and templates, and customized Shopify theme.
+    text2: I revamped the homepage and product page templates and added new Shopify features. I also customized the theme to match the brand.
     text2_width: 65
   - type: tech-stack
     banner: javelin-bipod

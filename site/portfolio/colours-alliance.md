@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Colours Alliance
-description: I've worked on Colours Alliance website. It's a partnership of nine European universities who's mission is shaping the future of higher education.
+description: I built the Colours Alliance website on WordPress. Colours Alliance is a partnership of nine European universities.
 thumbnail:
   src: colours-alliance_z3tj0z
   alt: Screenshot of Colours Alliance website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: https://colours-alliance.eu
 display: true
-date: 2025-01-01
+date: 2024-10-01
 type: portfolio-item
 tech:
   - wordpress
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Colours Alliance
-    text: Colours Alliance is a partnership of nine European universities who's mission is shaping the future of higher education, leading the way towards the universities of tomorrow.
+    text: Colours Alliance is a partnership of nine European universities. Its mission is to shape the future of higher education and lead the way to the universities of tomorrow.
     text_width: 46
-    text2: I've built the whole site, including the [YAML Custom Fields plugin](/articles/yaml-custom-fields/) and a brand new WordPress theme.
+    text2: I built the whole website with a new WordPress theme and no page builder. I wanted page content to be easy for staff to edit, so I wrote the [YAML Custom Fields plugin](/articles/yaml-custom-fields/). Now staff publish news, events, and project updates on their own.
     text2_width: 47
   - type: tech-stack
     banner: colours-alliance

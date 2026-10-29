@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Han Han Xue website
-description: I've worked on Han Han Xue website. Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
+description: I built the Han Han Xue website from scratch with Middleman. Han Han Xue is a designer and FX technical director from Montreal, Canada.
 thumbnail:
   src: han-han-xue_oo7wab
   alt: Screenshot of Han Han Xue website.
@@ -28,9 +28,9 @@ sections:
       width: 759
       height: 459
     title: Han Han Xue
-    text: Han Han Xue is a Designer and FX Technical Director from Montreal, Canada.
+    text: Han Han Xue is a designer and FX technical director from Montreal, Canada.
     text_width: 60
-    text2: I've installed a new Middleman instance, set up project architecture, created all pages from designs, used Cloudinary for delivering images, optimized assets delivery, and used the latest best practices for boosting the site speed.
+    text2: In early 2018, I built the website from scratch with Middleman. Han Han is a designer, so the design came with unusual visuals, and the grid and templates took some creative thinking. The pages were heavy with videos and GIFs, so I used Cloudinary to make them load faster without losing too much quality. I also added lazy loading, back when browsers didn't support it yet.
     text2_width: 62
   - type: tech-stack
     banner: hanhanxue

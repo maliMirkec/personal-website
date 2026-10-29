@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Little Bundle
-description: I've worked on Little Bundle webshop. Little Bundle is a company with a mission to maximize children's' health by making high-quality formula easily accessible.
+description: I worked on the Little Bundle Shopify store. Little Bundle makes high-quality baby formula easy to get.
 thumbnail:
   src: little-bundle_bg5oh9
   alt: Screenshot of Little Bundle website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Little Bundle
-    text: Little Bundle is a US-based company with a mission to maximize children's' health by making high-quality formula easily accessible, from the moment you’re ready to transition from or supplement breastfeeding.
+    text: Little Bundle is a US company with a mission to improve children's health. It makes high-quality formula easy to get, from the moment you're ready to move from or add to breastfeeding.
     text_width: 62
-    text2: I've implemented version control system, helped set up multiple instances for easier code delivery using Theme Kit, migrated content away from page builder, developed new Shopify features, and customized Shopify theme.
+    text2: I set up version control and several theme instances with Theme Kit, so releases were safer. I moved content away from a page builder, added new Shopify features, and customized the theme.
     text2_width: 70
     cta:
       href: https://littlebundle.com

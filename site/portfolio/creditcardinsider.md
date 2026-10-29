@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Credit Card Insider
-description: I've worked on Credit Card Insider website. Credit Card Insider is company whose mission is to empower people to use credit cards to their advantage.
+description: I built a new WordPress theme for Credit Card Insider. Credit Card Insider helps people use credit cards with confidence.
 thumbnail:
   src: credit-card-insider_qixfic
-  alt: Screenshot of CCredit Card Insider website.
+  alt: Screenshot of Credit Card Insider website.
   width: 759
   height: 459
 link: https://www.creditcardinsider.com
@@ -24,17 +24,17 @@ sections:
   - type: hero
     img:
       src: credit-card-insider_qixfic
-      alt: Screenshot of CCredit Card Insider website.
+      alt: Screenshot of Credit Card Insider website.
       width: 759
       height: 459
     title: Credit Card Insider
-    text: Credit Card Insider is a New York based consumer education company whose mission is to empower people to use credit cards to their advantage and with confidence.
+    text: Credit Card Insider is a consumer education company from New York. Its mission is to help people use credit cards to their advantage and with confidence.
     text_width: 53
     text2: >-
-      I've built a living styleguide, created custom WordPress theme, optimized assets delivery, and used the latest best practices for boosting the site speed.
+      I built a new WordPress theme from scratch, with a living style guide and templates editors could update on their own. I also made the site faster, with PageSpeed Insights scores in the green.
 
 
-      The company has been aquired, and the site has been redirected.
+      The company was acquired, and the site was redirected.
     text2_width: 60
   - type: tech-stack
     banner: creditcardinsider

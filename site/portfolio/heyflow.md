@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Heyflow
-description: I've worked on Heyflow website. Heyflow allows you to build interactive flows and forms effortlessly without the need for any coding expertise.
+description: I built the Heyflow marketing website with Eleventy and Contentful. Heyflow is a no-code tool for building interactive forms and funnels.
 thumbnail:
   src: heyflow_g83eap
   alt: Screenshot of Heyflow website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: //heyflow.com
 display: true
-date: 2024-01-01
+date: 2024-12-01
 type: portfolio-item
 tech:
   - eleventy
@@ -30,9 +30,9 @@ sections:
       width: 759
       height: 459
     title: Heyflow
-    text: Heyflow is a user-friendly platform that allows you to effortlessly build interactive flows, multi-step forms, lead funnels, and customized landing pages to engage your website visitors and drive conversions - all without the need for any coding expertise.
+    text: Heyflow is a no-code platform for building interactive flows, multi-step forms, lead funnels, and landing pages. It helps websites turn visitors into customers.
     text_width: 65
-    text2: I've built the whole website, and migrated content to Contentful.
+    text2: I built the whole website from scratch with Eleventy. I set up Contentful with reusable page sections and connected it to Cloudinary for images and videos. Together, the marketing team and I launched more than 40 new pages.
     text2_width: 65
   - type: tech-stack
     banner: heyflow
