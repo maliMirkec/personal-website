@@ -32,7 +32,7 @@ sections:
     title: Heyflow
     text: Heyflow is a no-code platform for building interactive flows, multi-step forms, lead funnels, and landing pages. It helps websites turn visitors into customers.
     text_width: 65
-    text2: I built the whole website from scratch with Eleventy. I set up Contentful with reusable page sections and connected it to Cloudinary for images and videos. Together, the marketing team and I launched more than 40 new pages.
+    text2: I started working on the Heyflow website in August 2023. I built it from scratch with Eleventy, using plain HTML, CSS, and JavaScript. I set up Contentful with reusable page sections, so the marketing team can build pages on its own. Together, we launched more than 40 new pages. I also connected Contentful to Cloudinary, so editors manage images and videos next to the content, and the site serves them in the right size and format. Finally, I connected the careers pages to Personio.
     text2_width: 65
   - type: tech-stack
     banner: heyflow

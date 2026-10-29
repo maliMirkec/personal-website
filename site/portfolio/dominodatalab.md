@@ -31,8 +31,8 @@ sections:
     title: Domino Data Lab
     text: Domino Data Lab is a data science platform. It helps data science teams build and deploy models faster.
     text_width: 55
-    text2: I was the only web developer, so I looked after the Jekyll website, its CMS settings, and the front end. Later, I helped migrate the website to HubSpot CMS.
-    text2_width: 45
+    text2: From 2018 to 2021, I was the only web developer at Domino Data Lab. I looked after the main website, built with Jekyll and Netlify, from the CMS settings to the front end. I also looked after all event websites, like Rev and Pop-up. Later, I helped migrate the main website to HubSpot CMS.
+    text2_width: 70
   - type: tech-stack
     banner: dominodatalab
   - type: related-testimonials

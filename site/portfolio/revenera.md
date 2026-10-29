@@ -29,8 +29,8 @@ sections:
     title: Revenera
     text: Revenera helps companies that build software, SaaS apps, and IoT devices control costs, grow, and protect their business.
     text_width: 56
-    text2: I built a living style guide, then used its components to create more than 10 pages from designs. I worked on this project with BEAM Interactive.
-    text2_width: 56
+    text2: In 2017 and 2018, while working with BEAM Interactive, I built a living style guide, then used its components to create more than 10 pages from designs. BEAM's developers then put them into the Adobe Experience Manager site.
+    text2_width: 68
     cta:
       href: https://www.revenera.com
       title: Go to website

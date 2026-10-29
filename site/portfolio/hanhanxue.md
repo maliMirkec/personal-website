@@ -31,7 +31,7 @@ sections:
     text: Han Han Xue is a designer and FX technical director from Montreal, Canada.
     text_width: 60
     text2: In early 2018, I built the website from scratch with Middleman. Han Han is a designer, so the design came with unusual visuals, and the grid and templates took some creative thinking. The pages were heavy with videos and GIFs, so I used Cloudinary to make them load faster without losing too much quality. I also added lazy loading, back when browsers didn't support it yet.
-    text2_width: 62
+    text2_width: 66
   - type: tech-stack
     banner: hanhanxue
   - type: related-testimonials

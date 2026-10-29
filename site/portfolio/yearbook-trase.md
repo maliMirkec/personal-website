@@ -28,13 +28,13 @@ sections:
       height: 459
     title: Trase Yearbook 2018
     text: The Trase Yearbook shows the latest research on how sustainable global farm supply chains are, with a focus on tropical deforestation.
-    text_width: 60
+    text_width: 52
     text2: >-
-      I built a new WordPress theme from a design. I worked on this project with Vizzuality.
+      In June 2018, I built a new WordPress theme from a design. I worked on this project with Vizzuality.
 
 
       The site was taken down.
-    text2_width: 65
+    text2_width: 42
   - type: tech-stack
     banner: yearbook-trase
   - type: related-testimonials

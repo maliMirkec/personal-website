@@ -33,7 +33,7 @@ sections:
     text: Approximately Blue is an independent art brokerage and management service. It mainly deals with blue-chip fine art prints and advises clients on art transactions.
     text_width: 55
     text2: I built the whole website from the client's design in about a month, using Eleventy and Contentful. The team can edit all the content on their own. I also connected Mailchimp for newsletter sign-ups and kept the PageSpeed Insights scores high.
-    text2_width: 75
+    text2_width: 72
   - type: tech-stack
     banner: approx-blue
   - type: related-testimonials

@@ -30,7 +30,7 @@ sections:
     text: Moodings is an online store from Copenhagen, Denmark. It sells new and established design and art, helping designers and artists compete on the market.
     text_width: 49
     text2: I worked on the store on and off from September 2017 to May 2018, directly with the owner. I built the homepage and product templates, and I got the PageSpeed Insights scores into the green on mobile and desktop.
-    text2_width: 59
+    text2_width: 66
     cta:
       href: https://moodings.com
       title: Go to website

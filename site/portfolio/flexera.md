@@ -29,8 +29,8 @@ sections:
     title: Flexera
     text: Flexera helps companies manage their software and IT costs, so they can grow and protect their business.
     text_width: 40
-    text2: I built a living style guide, then used its components to create more than 20 pages from designs. I worked on this project with BEAM Interactive.
-    text2_width: 45
+    text2: In 2017 and 2018, while working with BEAM Interactive, I built a living style guide, then used its components to create more than 20 pages from designs. BEAM's developers then put them into the Adobe Experience Manager site.
+    text2_width: 55
     cta:
       href: https://www.flexera.com
       title: Go to website

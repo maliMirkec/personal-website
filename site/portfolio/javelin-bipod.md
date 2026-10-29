@@ -31,8 +31,8 @@ sections:
     title: Spartan Precision Equipment
     text: Spartan Precision Equipment makes light, high-performance rifle and optic support systems. The team loves hunting and designs products that work in hunting environments around the world.
     text_width: 58
-    text2: I revamped the homepage and product page templates and added new Shopify features. I also customized the theme to match the brand.
-    text2_width: 65
+    text2: In the summer of 2023, I worked on the Spartan Precision Equipment Shopify store. I revamped the homepage and product page templates and added new Shopify features. I also customized the theme to match the brand.
+    text2_width: 60
   - type: tech-stack
     banner: javelin-bipod
   - type: related-testimonials

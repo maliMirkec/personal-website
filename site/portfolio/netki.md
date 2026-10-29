@@ -30,7 +30,7 @@ sections:
     text: Netki is a company from Los Angeles, United States. It makes tools for adopting blockchain technology.
     text_width: 55
     text2: In two weeks, from late May to early June 2018, I built a new homepage and legal pages from designs. All my work was in the WordPress theme, on the templates and styles.
-    text2_width: 59
+    text2_width: 64
     cta:
       href: https://netki.com
       title: Go to website

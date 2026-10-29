@@ -30,7 +30,7 @@ sections:
     title: Bozzuto
     text: Bozzuto is a family-owned real estate company. It develops, builds, and manages properties, and it builds homes.
     text_width: 59
-    text2: I built a living style guide, then used its components to create more than 30 pages from designs. I worked on this project with BEAM Interactive.
+    text2: In 2017, while working with BEAM Interactive, I built a living style guide, then used its components to create more than 30 pages from designs. BEAM's developers then put them into the WordPress site.
     text2_width: 75
   - type: tech-stack
     banner: bozzuto

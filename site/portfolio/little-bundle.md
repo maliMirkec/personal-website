@@ -28,9 +28,9 @@ sections:
       height: 459
     title: Little Bundle
     text: Little Bundle is a US company with a mission to improve children's health. It makes high-quality formula easy to get, from the moment you're ready to move from or add to breastfeeding.
-    text_width: 62
-    text2: I set up version control and several theme instances with Theme Kit, so releases were safer. I moved content away from a page builder, added new Shopify features, and customized the theme.
-    text2_width: 70
+    text_width: 56
+    text2: I worked on the Little Bundle Shopify store from September 2019 to December 2020. I set up version control and several theme instances with Theme Kit, so releases were safer. I moved content away from a page builder, added new Shopify features, and customized the theme.
+    text2_width: 72
     cta:
       href: https://littlebundle.com
       title: Go to website

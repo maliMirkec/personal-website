@@ -31,7 +31,7 @@ sections:
     text_width: 61
     text2: >-
       I worked on this project with BEAM Interactive. I turned the designs into responsive PHP templates that work in all browsers, and I created custom animations. The design was interesting (read: not easy to code), so I had to be creative and build it without any frameworks. I worked with the project managers.
-    text2_width: 75
+    text2_width: 69
     cta:
       href: https://www.calvert.com/Affirmation.php
       title: Go to website

@@ -31,11 +31,11 @@ sections:
     text: Credit Card Insider is a consumer education company from New York. Its mission is to help people use credit cards to their advantage and with confidence.
     text_width: 53
     text2: >-
-      I built a new WordPress theme from scratch, with a living style guide and templates editors could update on their own. I also made the site faster, with PageSpeed Insights scores in the green.
+      From 2019 to 2021, I worked with Credit Card Insider through Toptal. I built a new WordPress theme from scratch, with a living style guide and templates editors could update on their own. I also made the site faster on WP Engine hosting, with PageSpeed Insights scores in the green.
 
 
       The company was acquired, and the site was redirected.
-    text2_width: 60
+    text2_width: 68
   - type: tech-stack
     banner: creditcardinsider
   - type: related-testimonials

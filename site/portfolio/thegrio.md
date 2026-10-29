@@ -34,7 +34,7 @@ sections:
 
 
       The site was taken down.
-    text2_width: 65
+    text2_width: 68
     cta:
       href: https://web.archive.org/web/20210831013052/https://thegrio.com/
       title: See the snapshot

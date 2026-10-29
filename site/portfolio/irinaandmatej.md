@@ -30,7 +30,7 @@ sections:
     text: Irina and Matej are wedding and portrait photographers based in Croatia. They travel the world for their work.
     text_width: 50
     text2: I set up WordPress, then designed and built a new theme from scratch. Twice. I made the site fast, hosted it on DigitalOcean, and used Cloudflare to make it faster and safer.
-    text2_width: 50
+    text2_width: 56
     cta:
       href: https://irinaandmatej.com
       title: Go to website

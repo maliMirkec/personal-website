@@ -31,8 +31,8 @@ sections:
     title: Westwing
     text: Westwing is a European online shop for home and living. It sells carefully selected products and presents them like a magazine.
     text_width: 59
-    text2: I looked after the corporate website for seven years, much of that time as its main developer. It runs on Hugo, with Netlify CMS and Contentful, so the team can publish without waiting for a developer. I also built landing pages for many campaigns, often on short deadlines.
-    text2_width: 65
+    text2: I looked after the Westwing Group website from 2018 to 2025, much of that time as its main developer. It runs on Hugo, with Netlify CMS and Contentful, so the team can publish without waiting for a developer. Over the years, I rebuilt the pages through several redesigns and built landing pages for many campaigns, often on short deadlines. I also connected the careers pages to Personio.
+    text2_width: 63
   - type: tech-stack
     banner: westwing
   - type: related-testimonials

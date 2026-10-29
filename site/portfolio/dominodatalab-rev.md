@@ -31,7 +31,7 @@ sections:
     text: Rev is a summit hosted by Domino Data Lab. It brings data science leaders together in one place.
     text_width: 50
     text2: I built the Rev conference website from scratch with Jekyll and looked after it from 2018 to 2021. The site changed every year, so I worked with more than one project manager and built all pages from new designs. The agenda was the trickiest part, with a challenging design to turn into code. I also configured the CMS settings.
-    text2_width: 45
+    text2_width: 69
     cta:
       href: https://rev.dominodatalab.com
       title: Go to website

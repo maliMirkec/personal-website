@@ -29,8 +29,8 @@ sections:
     title: Colours Alliance
     text: Colours Alliance is a partnership of nine European universities. Its mission is to shape the future of higher education and lead the way to the universities of tomorrow.
     text_width: 46
-    text2: I built the whole website with a new WordPress theme and no page builder. I wanted page content to be easy for staff to edit, so I wrote the [YAML Custom Fields plugin](/articles/yaml-custom-fields/). Now staff publish news, events, and project updates on their own.
-    text2_width: 47
+    text2: I started working with Colours Alliance in September 2024. I built the whole website with a new WordPress theme and no page builder. I wanted page content to be easy for staff to edit, so I wrote the [YAML Custom Fields plugin](/articles/yaml-custom-fields/). Now staff publish news, events, and project updates on their own. I used WebP images and lean theme code, and made the pages work for keyboard and screen reader users.
+    text2_width: 66
   - type: tech-stack
     banner: colours-alliance
   # - type: related-testimonials

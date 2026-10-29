@@ -29,8 +29,8 @@ sections:
     title: Contiamo
     text: Contiamo is a company that uses machine learning and AI to help businesses make better decisions and improve their processes.
     text_width: 55
-    text2: I built a living style guide with KSS, then used its components to create all 55 pages from designs. I also helped set up Webpack for development and production, and optimized the SVG assets.
-    text2_width: 70
+    text2: In 2017, I built a living style guide with KSS, then used its components to create all 55 pages from designs. I also helped set up Webpack for development and production, and optimized the SVG assets.
+    text2_width: 62
     cta:
       href: https://www.contiamo.com
       title: Go to website
