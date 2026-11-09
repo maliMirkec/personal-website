@@ -9,6 +9,8 @@ const link = `${base}/w_2400,f_auto,q_auto,c_scale/`
 
 const OUTPUT_DIR = 'public/gfx/cldnry/'
 
+const quality = process.env.ELEVENTY_ENV === 'production' ? 'q_auto:best' : 'q_auto:eco'
+
 // `sizes` should describe the rendered width, so the browser can pick the
 // smallest srcset candidate. Eager images are above the fold and may be the
 // LCP element, so they get a high fetch priority.
@@ -94,9 +96,9 @@ const cldnryimg = async (img, alt, width, height, classes, instant) => {
     ar2 = `ar_${width}:${height},w_${width * 2},`
   }
 
-  const src = `${base}/${ar}f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
+  const src = `${base}/${ar}f_auto,${quality},dpr_auto,c_scale/${img}`
 
-  const srcset = `${base}/${ar2}f_auto,q_auto:eco,dpr_auto,c_scale/${img} 2x, ${src}`
+  const srcset = `${base}/${ar2}f_auto,${quality},dpr_auto,c_scale/${img} 2x, ${src}`
 
   return `<img${classList} src="${escapeHtml(src)}" srcset="${escapeHtml(srcset)}" alt="${escapeHtml(alt)}"${attr}>`
 }
@@ -106,7 +108,7 @@ const cldnrylink = async (link, src, alt, width, height, classes, instant) => {
 }
 
 const cldnrysrc = async (img, width = 1200) => {
-  return `${base}/w_${width},f_auto,q_auto:eco,dpr_auto,c_scale/${img}`
+  return `${base}/w_${width},f_auto,${quality},dpr_auto,c_scale/${img}`
 }
 
 export { cldnryimg, cldnrylink, cldnryfetch, cldnrydev, cldnrysrc }

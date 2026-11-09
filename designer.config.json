@@ -3,7 +3,14 @@
     "name": "silvestar.codes",
     "componentsKey": ["sections", "sections2"],
     "newPage": { "file": "site/{slug}index.md" },
-    "posts": ["site/articles/*.md", "!site/articles/index.md"],
+    "posts": [
+      "site/articles/*.md",
+      "!site/articles/index.md",
+      "site/side-projects/ui-dev-newsletter/20*.md",
+      "site/side-projects/{invalid-css,advent,redesign}/*.md",
+      "!site/side-projects/{invalid-css,advent,redesign}/index.md",
+      "site/side-projects/web-dev-zoo/*/*.md"
+    ],
     "mediaEmbed": "{% cldnryfetch \"{id}\"{rest} %}",
     "seo": { "baseUrl": "https://www.silvestar.codes" },
     "dataFiles": [

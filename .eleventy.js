@@ -43,8 +43,10 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addPlugin(staticrafter, {
     hosted: true,
-    media: { provider: 'cloudinary', direct: true },
+    media: { provider: 'cloudinary', direct: true, folder: ['', 'sb'] },
     uploadFolder: () => 'sb',
+    include: (data) =>
+      Boolean(data.sections || data.sections2 || data.title) && !String(data.permalink ?? '').endsWith('.xml'),
   })
 
   eleventyConfig.setLiquidOptions({

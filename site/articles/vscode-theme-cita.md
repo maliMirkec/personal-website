@@ -8,6 +8,9 @@ tags:
   - vs code
   - productivity
   - tools
+  - themes
+  - personalization
+series: Themes
 description: I finally built something I wanted to build for ages - I build me a VS Code theme based on my website colors called Cita Theme.
 type: articles-item
 ---
