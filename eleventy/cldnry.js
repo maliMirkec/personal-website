@@ -5,11 +5,10 @@ import { escapeHtml } from './escape.js'
 
 const cloud = process.env.CLOUDINARY_CLOUD_NAME || 'starbist'
 const base = `https://res.cloudinary.com/${cloud}/image/upload`
-const link = `${base}/w_2400,f_auto,q_auto,c_scale/`
+const quality = process.env.ELEVENTY_ENV === 'production' ? 'q_auto:best' : 'q_auto:eco'
+const link = `${base}/w_2400,f_auto,${quality},c_scale/`
 
 const OUTPUT_DIR = 'public/gfx/cldnry/'
-
-const quality = process.env.ELEVENTY_ENV === 'production' ? 'q_auto:best' : 'q_auto:eco'
 
 // `sizes` should describe the rendered width, so the browser can pick the
 // smallest srcset candidate. Eager images are above the fold and may be the
