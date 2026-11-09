@@ -5,7 +5,7 @@ date: 2026-10-27 09:00:00
 tags:
   - blog
   - web dev
-  - vs code
+  - chrome
   - productivity
   - tools
   - themes

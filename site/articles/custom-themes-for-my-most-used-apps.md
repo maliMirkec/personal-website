@@ -7,6 +7,7 @@ tags:
   - blog
   - web dev
   - vs code
+  - chrome
   - productivity
   - tools
   - themes
