@@ -10,6 +10,9 @@ const link = `${base}/w_2400,f_auto,${quality},c_scale/`
 
 const OUTPUT_DIR = 'public/gfx/cldnry/'
 
+const ARTICLE_WIDTHS = [500, 1000, 1500, 2000]
+const ARTICLE_SIZES = '(width >= 31.25rem) min(90vw, clamp(31.25rem, 50vw, 62.5rem)), 100vw'
+
 // `sizes` should describe the rendered width, so the browser can pick the
 // smallest srcset candidate. Eager images are above the fold and may be the
 // LCP element, so they get a high fetch priority.
@@ -18,7 +21,7 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg, sizes) => {
   const linkUrl = svg ? link.replace('f_auto,', '') : link
 
   const metadata = await Image(`${linkUrl}${src}`, {
-    widths: widths || [400, 700, 1000, 1300, 1600],
+    widths: widths || ARTICLE_WIDTHS,
     formats: formats,
     svgShortCircuit: true,
     urlPath: '/gfx/cldnry/',
@@ -36,7 +39,7 @@ const cldnryfetch = async (src, alt, widths, lazy, classes, svg, sizes) => {
   const imageAttributes = {
     alt,
     class: classes || '',
-    sizes: sizes || '100vw',
+    sizes: sizes || (widths ? '100vw' : ARTICLE_SIZES),
     loading: lazy ? 'lazy' : 'eager',
     decoding: 'async',
   }
