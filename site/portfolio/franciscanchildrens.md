@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Franciscan Children's
-description: I've worked on Franciscan Children’s website. Franciscan Children’s serve children and adolescents with complex medical, mental health and educational needs.
+description: I updated the Franciscan Children's WordPress website. Franciscan Children's cares for children with complex medical, mental health, and educational needs.
 thumbnail:
   src: franciscan-children_s_ktoqdt
   alt: Screenshot of Franciscan Children’s website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Franciscan Children’s
-    text: Franciscan Children’s is an integral part of Boston’s pediatric medical ecosystem, and they are serving children and adolescents with complex medical, mental health and educational needs.
+    text: Franciscan Children's is part of Boston's pediatric medical community. It cares for children and teens with complex medical, mental health, and educational needs.
     text_width: 60
-    text2: I've updated existing WordPress project, upgraded a responsive navigation style, and updated a layout on several pages.
+    text2: I updated the existing WordPress site. I improved the responsive navigation and changed the layout of several pages.
     text2_width: 60
     cta:
       href: https://franciscanchildrens.org

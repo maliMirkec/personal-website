@@ -8,6 +8,8 @@ node_modules
 .netlify
 public
 assets/**/*.min.*
+.frontmatter
+frontmatter.json
 
 # StatiCrafter hosted data
 .designer

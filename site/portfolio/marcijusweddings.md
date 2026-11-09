@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Marcijuš Studio
-description: I've worked on Marcijuš Studio website. Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography.
+description: I looked after the Marcijuš Studio WordPress website. Marcijuš Studio are wedding photographers who love black and white photography.
 thumbnail:
   src: marcijus-studio_tsr7lg
   alt: Screenshot of Marcijuš Studio website.
@@ -27,9 +27,9 @@ sections:
       width: 759
       height: 459
     title: Marcijuš Studio
-    text: Marcijuš Studio are wedding photographers who love spontaneity, creative focus, black and white photography.
+    text: Marcijuš Studio are wedding photographers who love spontaneity, creative focus, and black and white photography.
     text_width: 53
-    text2: I've managed and configured existing WordPress project, added new features to a premium Flotheme Mimal, and later Flotheme Kyoto, fixed issues and bugs along the way, hosted the website on DigitalOcean, and used Cloudflare to improve the security and performance.
+    text2: I looked after the existing WordPress site. I added new features to the premium Flotheme Mimal theme, and later the Flotheme Kyoto theme, and fixed bugs along the way. I hosted the site on DigitalOcean and used Cloudflare to make it faster and safer.
     text2_width: 55
     cta:
       href: https://marcijus-studio.com

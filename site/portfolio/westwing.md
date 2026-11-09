@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Westwing
-description: I've worked on Westwing website. Westwing is "curated shoppable magazine", inspiring customers with the newest trends, themes, stories, brands and products.
+description: I looked after the Westwing Group website for seven years. Westwing is a European online shop for home and living products.
 thumbnail:
   src: westwing_ykf9yi
   alt: Screenshot of Westwing website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: https://www.westwing.com
 display: true
-date: 2024-01-01
+date: 2024-11-01
 type: portfolio-item
 tech:
   - hugo
@@ -29,10 +29,10 @@ sections:
       width: 759
       height: 459
     title: Westwing
-    text: Westwing is the European leader in inspiration-based Home & Living eCommerce. They offer their customers carefully selected products from the full range of Home & Living categories in an inspirational environment.
+    text: Westwing is a European online shop for home and living. It sells carefully selected products and presents them like a magazine.
     text_width: 59
-    text2: I've built the static part of the corporate website.
-    text2_width: 65
+    text2: I looked after the Westwing Group website from 2018 to 2025, much of that time as its main developer. It runs on Hugo, with Netlify CMS and Contentful, so the team can publish without waiting for a developer. Over the years, I rebuilt the pages through several redesigns and built landing pages for many campaigns, often on short deadlines. I also connected the careers pages to Personio.
+    text2_width: 63
   - type: tech-stack
     banner: westwing
   - type: related-testimonials

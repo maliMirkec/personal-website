@@ -1,15 +1,13 @@
 ---
 layout: default
 title: Portfolio
-description: Here are the projects that I am most proud of. Projects are built with WordPress, Shopify, Jekyll, 11ty, and Hugo, among others.
+description: Here are the projects I'm most proud of. I built them with Eleventy, Hugo, Jekyll, WordPress, Shopify, and a few other tools.
 type: portfolio
 sections:
   - type: hero
     title: My portfolio
-    text: >-
-      Here are the projects that I am most proud of.
-    text2: >-
-      Built with WordPress, Shopify, Jekyll, 11ty, and Hugo, among others.
+    text: Here are the projects I'm most proud of.
+    text2: I built them with Eleventy, Hugo, Jekyll, WordPress, Shopify, and a few other tools.
     text2_width: 50
   - type: project-cards
     filter: portfolio

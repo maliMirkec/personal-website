@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wunder Mobility
-description: I've worked on Wunder Mobility website. Wunder Mobility provides software, vehicles and services helping everyone launch and scale new mobility services.
+description: I rebuilt the Wunder Mobility website with Jekyll and Contentful. Wunder Mobility helps cities and companies launch and scale mobility services.
 thumbnail:
   src: wunder-mobility_qv9mcn
   alt: Screenshot of Wunder Mobility website.
@@ -9,7 +9,7 @@ thumbnail:
   height: 459
 link: https://www.wundermobility.com
 display: true
-date: 2023-01-01
+date: 2024-09-01
 type: portfolio-item
 tech:
   - jekyll
@@ -30,10 +30,10 @@ sections:
       width: 759
       height: 459
     title: Wunder Mobility
-    text: Wunder Mobility provides software, vehicles and a full range of services to cities and companies, helping them launch and scale new mobility services.
+    text: Wunder Mobility provides software, vehicles, and services to cities and companies, helping them launch and scale new mobility services.
     text_width: 55
-    text2: I've rebuilt the website, and migrated content to Contentful.
-    text2_width: 65
+    text2: I worked on the Wunder Mobility website from August 2021 to December 2022. I rebuilt it with Jekyll and Netlify, with pixel-perfect responsive pages, and moved its content to Contentful, so the marketing team could edit it. I ran A/B tests to help the team decide which pages work best. I also added Lottie animations and made the pages accessible.
+    text2_width: 69
   - type: tech-stack
     banner: wunder-mobility
   - type: related-testimonials

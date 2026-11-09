@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flexera
-description: I've worked on Flexera website. Flexera control and manage software and IT costs, to grow and protect your business.
+description: I built a living style guide and more than 20 pages for Flexera. Flexera helps companies manage software and IT costs.
 thumbnail:
   src: flexera_mu5r7y
   alt: Screenshot of Flexera website.
@@ -27,10 +27,10 @@ sections:
       width: 759
       height: 459
     title: Flexera
-    text: Flexera controls and manages software, and IT costs, to grow and protect your business.
+    text: Flexera helps companies manage their software and IT costs, so they can grow and protect their business.
     text_width: 40
-    text2: I've built a living styleguide, and created more than 20 pages from designs using reusable styleguide components.
-    text2_width: 45
+    text2: In 2017 and 2018, while working with BEAM Interactive, I built a living style guide, then used its components to create more than 20 pages from designs. BEAM's developers then put them into the Adobe Experience Manager site.
+    text2_width: 55
     cta:
       href: https://www.flexera.com
       title: Go to website
